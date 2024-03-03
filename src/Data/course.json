@@ -1,0 +1,59 @@
+[
+    {
+        "id": "ID430" ,
+        "title": "Design Futures: AI & Society",
+        "description": "This course explores the social implications of AI technologies and human-centric theories and methods for envisioning socially responsible AI systems.",
+        "courses": [
+            {
+                "period": "Spring 2024",
+                "url":""
+            },
+            {
+                "period": "Spring 2023",
+                "url":""
+            }
+        ]
+    },
+    {
+        "id": "ID221",
+        "title": "Information Design",
+        "description": "This course introduces basic concepts, methods, and procedures of information design with a focus on the visual representation of data.",
+        "courses": [
+            {
+                "period": "Fall 2023",
+                "url":""
+            },
+            {
+                "period": "Fall 2022",
+                "url":""
+            },
+            {
+                "period": "Fall 2021",
+                "url":""
+            }
+        ]
+    },
+    {
+        "id": "ID508",
+        "title": "User Centered Design Methodology",
+        "description": "This course is to learn various user-centered design techniques and methods. Throughout this course, students will have opportunities to apply those methods and techniques in actual design activities and to reflect on their implications in design.",
+        "courses": [
+            {
+                "period": "Spring 2022",
+                "url":""
+            }
+        ]
+    }
+    ,
+    {
+        "id": "COE491",
+        "title": "Smart Health",
+        "description": "This course provides hands-on experiences in the data-driven design of smart health services by leveraging mobile, wearable, IoT, and smart assistants.",
+        "courses": [
+            {
+                "period": "Fall 2022",
+                "url":""
+            }
+        ]
+    }
+]

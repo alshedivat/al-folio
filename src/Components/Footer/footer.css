@@ -1,0 +1,53 @@
+.footer {
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding: 50px 40px;
+}
+.footercontent {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #333;
+}
+
+.footercontent > .info {
+    text-align: left;
+    font-size: 12px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.footercontent > .copyrights {
+    margin-bottom: 20px;
+}
+
+.logoContainer > .logo {
+    height: 30px;
+    margin-right: 18px;
+}
+
+@media (min-width:546px) {
+    .footercontent {
+        width: 526px;
+    }
+}
+
+@media  (min-width:768px) {
+    .footercontent {
+        width: 748px;
+    }
+}
+@media (min-width:992px) {
+    .footercontent {
+        width: 972px;
+    }
+}
+
+@media (min-width:1200px) {
+    .footercontent {
+        width: 1180px;
+    }
+}

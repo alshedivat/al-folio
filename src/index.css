@@ -1,0 +1,49 @@
+@font-face {
+  font-family: Samsungsharpsans;
+  src: url(./Fonts/samsungsharpsans.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: Samsungsharpsans-medium;
+  src: url(./Fonts/samsungsharpsans-medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: Samsungsharpsans-bold;
+  src: url(./Fonts/samsungsharpsans-bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: montserrat-black;
+  src: url(./Fonts/Montserrat-Black.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: montserrat-Extrabold;
+  src: url(./Fonts/Montserrat-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: montserrat-bold;
+  src: url(./Fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: montserrat-Medium;
+  src: url(./Fonts/Montserrat-Medium.ttf) format('truetype');
+}
+
+
+body {
+  margin: 0;
+  font-family: montserrat-Medium, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

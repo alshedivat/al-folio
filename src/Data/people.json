@@ -1,0 +1,115 @@
+[
+    {
+        "name": "Hwajung Hong",
+        "position": "Associate Professor",
+        "image": "hwajung.png",
+        "homepage": "https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423",
+        "current": true
+    },
+    {
+        "name": "Taewan Kim",
+        "position": "Ph.D Student",
+        "image": "taewan.png",
+        "homepage": "https://taewankim.io/",
+        "current": false
+    },
+    {
+        "name": "Dasom Choi",
+        "position": "Ph.D Student",
+        "image": "dasom.png",
+        "homepage": "https://dasomchoi.com/",
+        "current": true
+    },
+    {
+        "name": "Kwangyoung Lee",
+        "position": "Ph.D Student",
+        "image": "kwangyoung.png",
+        "homepage": "https://kylee5514.github.io/",
+        "current": true
+    },
+    {
+        "name": "Hyunseung Lim",
+        "position": "Ph.D Student",
+        "image": "hyunseung.png",
+        "homepage": "",
+        "current": true
+    },
+    {
+        "name": "Chowon Kang",
+        "position": "Master's Student",
+        "image": "chowon.png",
+        "homepage": "https://kangchowon.github.io/",
+        "current": false
+    },
+    {
+        "name": "Sooyeon Ahn",
+        "position": "Master's Student",
+        "image": "sooyeon.png",
+        "homepage": "",
+        "current": true
+    },
+    {
+        "name": "Yeohyun Jung",
+        "position": "Master's Student",
+        "image": "yeohyun.png",
+        "homepage": "",
+        "current": true
+    },
+    {
+        "name": "Jongok Hong",
+        "position": "Master's Student",
+        "image": "jongok.png",
+        "homepage": "https://froggyjo.github.io/",
+        "current": true
+    },
+    {
+        "name": "Suyeon Nam",
+        "position": "Master's Student",
+        "image": "suyeonnam.png",
+        "homepage": "https://www.namsuyeon.me/",
+        "current": true
+    }
+    ,
+    {
+        "name": "Yubin Choi",
+        "position": "Undergraduate Intern",
+        "image": "yubin.png",
+        "homepage": "",
+        "current": false
+    },
+    {
+        "name": "Eunseo Oh",
+        "position": "Undergraduate Intern",
+        "image": "eunseo.png",
+        "homepage": "",
+        "current": true
+    },
+    {
+        "name": "Seokyoung Park",
+        "position": "Undergraduate Intern",
+        "image": "seokyoung.png",
+        "homepage": "",
+        "current": true
+    },
+    {
+        "name": "Inhwa Song",
+        "position": "Undergraduate Intern",
+        "image": "inhwa.png",
+        "homepage": "https://greenina.notion.site/Inhwa-Song-ac8b068f946647a5aa2860236e6e5722",
+        "current": true
+    },
+    {
+        "name": "Gahyeon Bae",
+        "position": "Undergraduate Intern",
+        "image": "gahyeon.png",
+        "homepage": "",
+        "current": true
+    },
+    {
+        "name": "Donggun Lee",
+        "position": "Undergraduate Intern",
+        "image": "donggun.png",
+        "homepage": "",
+        "current": true
+    }
+  ]

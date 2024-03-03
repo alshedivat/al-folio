@@ -1,0 +1,137 @@
+:root {
+  --theme-color: #71AFBD;
+}
+
+* {
+    box-sizing: border-box;
+}
+  
+.selected-item {
+  text-align: center;
+}
+
+.controls-container {
+  --highlight-width: auto;
+  --highlight-x-pos: 0;
+
+  display: flex;
+  margin: 10px 0;
+}
+  
+.controls {
+  display: inline-flex;
+  justify-content: space-between;
+  background: white;
+  box-shadow: 0 0 5px rgba(212, 234, 217, 1);
+  border-radius: 6px;
+  max-width: 1080px;
+  padding: 6px 8px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.controls input {
+  opacity: 0;
+  margin: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+}
+
+.segment {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.segment label {
+  cursor: pointer;
+  display: block;
+  font-size: 10px;
+  padding: 12px 8px;
+  transition: color 0.5s ease;
+  color: #3D3D3D;
+}
+
+.segment.active label {
+  color: #fff;
+}
+
+.controls::before {
+  content: "";
+  background: var(--theme-color);
+  border-radius: 4px;
+  width: var(--highlight-width);
+  transform: translateX(var(--highlight-x-pos));
+  position: absolute;
+  top: 8px;
+  bottom: 8px;
+  left: 0;
+  z-index: 0;
+}
+
+/* Only allow transitions once component is ready */
+.controls.ready::before {
+  transition: transform 0.3s ease, width 0.3s ease;
+}
+
+@media (min-width:576px) {
+  .controls {
+    border-radius: 10px;
+    max-width: 540px;
+    padding: 6px 8px;
+  }
+  .segment {
+    min-width: 50px;
+  }
+  .segment label {
+    font-size: 13px;
+    padding: 12px;
+  }
+  .controls::before {
+    border-radius: 8px;
+  }
+}
+
+@media (min-width:992px) {
+  .controls {
+    border-radius: 10px;
+    max-width: 810px;
+    padding: 6px 8px;
+  }
+  .segment {
+    min-width: 50px;
+  }
+  .segment label {
+    font-size: 13px;
+    padding: 12px;
+  }
+  .controls::before {
+    border-radius: 8px;
+  }
+}
+
+@media (min-width:1200px) {
+  .controls {
+    border-radius: 10px;
+    max-width: 1080px;
+    padding: 6px 8px;
+  }
+  .segment {
+    min-width: 50px;
+  }
+  .segment label {
+    font-size: 13px;
+    padding: 12px;
+  }
+  .controls::before {
+    border-radius: 8px;
+  }
+}

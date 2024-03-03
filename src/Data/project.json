@@ -1,0 +1,182 @@
+[
+    {
+        "title": "",
+        "year": "",
+        "people": "",
+        "field": "",
+        "description": "",
+        "related_research":"",
+        "related_video":"",
+        "image": ""
+    },
+    {
+        "title": "MindBattery",
+        "year": "2024",
+        "people": "Kwangyoung Lee, Sooyeon Ahn, Jong-ok Hong, Jaehyun Lim, Namgoo Park, Uichin Lee, Hwajung Hong",
+        "field": "health",
+        "description": "The fast-paced and demanding nature of call center work prevents ability from recognizing worker's emotional states. In this study, we developed MindBattery, a smartphone application designed to support the emotional well-being by using a battery analogy to help call center workers gauge their emotional energy depletion and provide a set of microbreaks for emotional recovery. In a six-week deployment with 46 employees, the battery analogy to materialize the abstract psychological concepts into concrete and tangible experiences facilitated participants in acknowledging their emotional states, developing personal coping strategies, and reducing depression in a high-stress environment.",
+        "related_research":"",
+        "related_video":"",
+        "image": "mindbattery.png"
+    },
+    {
+        "title": "MindfulDiary",
+        "year": "2024",
+        "people": "Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim",
+        "field": "health",
+        "description": "Harnessing Large Language Model to Support Psychiatric Patients' Journaling: In the mental health domain, Large Language Models (LLMs) offer promising new opportunities, though their inherent complexity and low controllability have raised questions about their suitability in clinical settings. Designed in collaboration with mental health professionals (MHPs), MindfulDiary takes a state-based approach to safely comply with the experts' guidelines while carrying on free-form conversations.",
+        "related_research":"",
+        "related_video":"",
+        "image": "mindfuldiary.png"
+    },
+    {
+        "title": "MindfulDiary",
+        "year": "2024",
+        "people": "Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim",
+        "field": "hai",
+        "description": "Harnessing Large Language Model to Support Psychiatric Patients' Journaling: In the mental health domain, Large Language Models (LLMs) offer promising new opportunities, though their inherent complexity and low controllability have raised questions about their suitability in clinical settings. Designed in collaboration with mental health professionals (MHPs), MindfulDiary takes a state-based approach to safely comply with the experts' guidelines while carrying on free-form conversations.",
+        "related_research":"",
+        "related_video":"",
+        "image": "mindfuldiary.png"
+    },
+    {
+        "title": "Unlock Life with a Chat(GPT)",
+        "year": "2024",
+        "people": "Dasom Choi, Sunok Lee, Sung-In Kim, Kyungah Lee, Hee Jeong Yoo, Sangsu Lee and Hwajung Hong",
+        "field": "hai",
+        "description": "We conducted participatory workshops where autistic adults identified strategies to utilize LLM-based conversational AI (CA) in various aspects of their lives and we gathered data from their week-long use of LLM-based CA in daily activities.",
+        "related_research":"",
+        "related_video":"",
+        "image": "autism_chatgpt.png"
+    },
+    {
+        "title": "Unlock Life with a Chat(GPT)",
+        "year": "2024",
+        "people": "Dasom Choi, Sunok Lee, Sung-In Kim, Kyungah Lee, Hee Jeong Yoo, Sangsu Lee and Hwajung Hong",
+        "field": "inclusive",
+        "description": "We conducted participatory workshops where autistic adults identified strategies to utilize LLM-based conversational AI (CA) in various aspects of their lives and we gathered data from their week-long use of LLM-based CA in daily activities.",
+        "related_research":"",
+        "related_video":"",
+        "image": "autism_chatgpt.png"
+    },
+    {
+        "title": "Datopia",
+        "year": "2022",
+        "people": "Hyunseung Lim, Dasom Choi, Kwangyoung Lee, Taewan Kim, Eunseo Oh, Inhwa Song, Seokyoung Park, Yubin Choi, Hwajung Hong",
+        "field": "data",
+        "description": "Datopia is a data-based dating service. By analyzing data, it captures everything from the preferences you didn't know you had to your minor daily habits. Through this, it goes beyond simple encounters to find you a destined partner with whom you can maintain a continuous relationship. But can love really be determined solely by data? Can we entrust the reins of love to an algorithm? Datopia is a product of critical design that reflects on the changes that data-driven services, deeply integrated into our lives, can bring about in the way we form relationships with people. Imagine the future of love through Datopia.",
+        "related_research":"",
+        "related_video":"",
+        "image": "datopia.png"
+    },
+    {
+        "title": "Autism Dating",
+        "year": "2023",
+        "people": "Dasom Choi, Sung-In Kim, Sunok Lee, Hyunseung Lim, Hee Jeong Yoo, Hwajung Hong",
+        "field": "inclusive",
+        "description": "Do online dating services meet the diverse needs of autistic users in finding true love? To understand autistic users' perceptions and expectations in online dating, we conducted workshops with simulated dating activities.",
+        "related_research":"",
+        "related_video":"",
+        "image": "autism_dating.png"
+    },
+    {
+        "title": "AX of YouTubers with Disabilities",
+        "year": "2022",
+        "people": "Dasom Choi, Uichin Lee, Hwajung Hong",
+        "field": "inclusive",
+        "description": "Exploring the inclusiveness of algorithmic experiences for YouTube creators with disabilities. We investigated how content creators with disabilities interact with YouTube's algorithms to reach global audiences, amidst concerns of algorithmic biases.",
+        "related_research":"",
+        "related_video":"",
+        "image": "ax_youtube.png"
+    },
+    {
+        "title": "MindTerior",
+        "year": "2023",
+        "people": "Ain Lee, Juhyun Lee, Sooyeon Ahn, Youngik Lee, Young Yim Doh, Sung-Hee Lee, Hwajung Hong",
+        "field": "health",
+        "description": "'MindTerior' is a mental health care game developed to help people who occasionally experience mild emotional difficulties manage their emotions steadily in their daily lives. It measures players’ emotional state and reflects the result visually on the game space so that players can recognize their states easily. The core play activities of MindTerior are based on real activities that have proven their effectiveness on alleviate negative emotional states(depression, obsession, and anxiety). Also, MindTerior lets players improve their mind space with customizable items and learn how to cope with certain negative emotions by completing game events. Therefore, through MindTerior, players can experience effective positive emotional relaxation and perform gamified mental health care activities.",
+        "related_research":"",
+        "related_video":"",
+        "image": "mindterior.jpg"
+    },
+    {
+        "title": "Own",
+        "year": "2023",
+        "people": "Sooyeon Ahn, HeeYoung Beak, Gill Sown, Hwajung hong",
+        "field": "health",
+        "description": "What if you had your own shelter that you could visit anytime? In the midst of busy days, our bodies and minds are becoming exhausted. We dream of rest, but we cannot always take off on vacation. Therefore, the OWN team proposes a new virtual shelter, 'OWN,' created for only one person through in-depth psychological analysis. The virtual space giving peace of mind comprises synesthetic elements based on color psychology, environmental psychology, and art therapy. OWN is created with 3D digital technology, so you can visit it freely, like playing a game, whenever and wherever you want.",
+        "related_research":"",
+        "related_video":"",
+        "image": "own.jpg"
+    },
+    {
+        "title": "DiaryMate",
+        "year": "2023",
+        "people": "Taewan Kim, Donghoon Shin, Young-Ho Kim, Hwajung Hong",
+        "field": "hai",
+        "description": "Design of Human-Ai Interaction for Diary Writing With Large Language Model: Our ongoing research examining the use of large language models (LLMs) in promoting mental well-being through journaling. While journaling can be beneficial for expressing personal thoughts and emotions, it can be challenging for individuals who struggle to articulate their internal states into words. To explore the opportunities and challenges of using LLMs in journaling, we conducted a field deployment study using DiaryMate.",
+        "related_research":"",
+        "related_video":"",
+        "image": "diarymate.png"
+    },
+    {
+        "title": "DiaryMate",
+        "year": "2023",
+        "people": "Taewan Kim, Donghoon Shin, Young-Ho Kim, Hwajung Hong",
+        "field": "health",
+        "description": "Design of Human-Ai Interaction for Diary Writing With Large Language Model: Our ongoing research examining the use of large language models (LLMs) in promoting mental well-being through journaling. While journaling can be beneficial for expressing personal thoughts and emotions, it can be challenging for individuals who struggle to articulate their internal states into words. To explore the opportunities and challenges of using LLMs in journaling, we conducted a field deployment study using DiaryMate.",
+        "related_research":"",
+        "related_video":"",
+        "image": "diarymate.png"
+    },
+    {
+        "title": "MindScope",
+        "year": "2022",
+        "people": "Taewan Kim, Haesoo Kim, Hayeon Lee, Hwarang Goh, Shakhboz Abdigapporov, Mingon Jeong, Hyunsung Cho, Kyungsik Han, Youngtae Noh, Sung-Ju Lee, Hwajung Hong",
+        "field": "health",
+        "description": "Integrating Algorithmic Stress Prediction into Personal Informatics Systems for Mental Health: In this study, we developed MindScope, an algorithm-assisted stress management system that determines user stress levels and explains how the stress level was computed based on the user's everyday activities captured by a smartphone. We discuss the implications of exploiting prediction algorithms and explainability that facilitate retrospection.",
+        "related_research":"",
+        "related_video":"",
+        "image": "mindscope.png"
+    },
+    {
+        "title": "Gloomy",
+        "year": "2020",
+        "people": "Taewan Kim, Mintra Ruensuk, Hwajung Hong",
+        "field": "health",
+        "description": "Designing Social Bot as a Care-Receiver to Promote Mental Health and Reduce Stigma: In this study, we explored design space of human-social bot interaction for assisting users on revisit their past experiences by support-giving experience with the bot. We investigated how 55 college students interacted with the social bot for three weeks and how these support-giving experiences affected their mental health and stigma.",
+        "related_research":"",
+        "related_video":"",
+        "image": "gloomy.png"
+    },
+    {
+        "title": "MindForcaster",
+        "year": "2020",
+        "people": "Kwangyoung Lee, Hyewon Cho, Kobiljon Toshnazarov, Nematjon Narziev, So Young Rhim, Kyungsik Han, YoungTae Noh, Hwajung Hong",
+        "field": "health",
+        "description": "By anticipating stressful situations, we can prepare and better cope with stressors when they actually occur. In this work, we examine how anticipation—a future-centric self-tracking practice—could be used to manage daily stress levels. To address this, we built MindForecaster, a calendar edited stress anticipation application that allows users to expect stressful events in advance, generates activities to mitigate stress, and evaluates actual stress levels compared to previously estimated stress levels. We suggest design implications for stress management by incorporating the properties of anticipation into current PI models.",
+        "related_research":"",
+        "related_video":"",
+        "image": "mindforcaster.png"
+    },
+    {
+        "title": "MindNavigator",
+        "year": "2018",
+        "people": "Kwangyoung Lee, Hwajung Hong",
+        "field": "health",
+        "description": "Creating concrete mental health–related goals and turning them into actionable plans; In this paper, we introduce MindNavigator—a workshop in which groups of college students were invited to generate behavioral change goals to manage daily life stress and practice personalized interventions. We describe the manner in which participants identified both stressors and pleasures to create actionable, engaging, and open-ended behavioral plans that aided in stress relief. Through this practice, we build on prior studies to propose an analytical framework of personal informatics for mental wellness.",
+        "related_research":"",
+        "related_video":"",
+        "image": "mindnavigator.png"
+    },
+    {
+        "title": "MindTracker",
+        "year": "2017",
+        "people": "Kwangyoung Lee, Hwajung Hong",
+        "field": "health",
+        "description": "Tracking the emotion is challenging due to the implicit form of data. In this paper, we introduce MindTracker, an approach for tracking emotion through a tangible interaction with plasticine clay. We found that the tangible modality of MindTracker motivated the participants to express various aspects of emotions. In addition, MindTracker’s data collection and reflection process could have therapeutic properties, such as expressive therapy, self-soothing, and emotional self-regulation. We conclude this paper by discussing the design features of emotion-tracking tools and opportunities to use MindTracker to promote mental health.",
+        "related_research":"",
+        "related_video":"",
+        "image": "mindtracker.png"
+    }
+]
