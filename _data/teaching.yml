@@ -38,3 +38,11 @@
     - title: Introduction to Computer Science with Java - Tutorial
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: WS19/20
+
+- title: Supervision
+  type: time_table
+  contents:
+    - title: Cryptography - Master Praktikum
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS24
+      description: <a href="https://www.tcs.ifi.lmu.de/lehre/ss-2024/crypto_de.html">Cryptography SS24</a>
