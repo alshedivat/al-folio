@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - ahmedkordofani
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - ahmedkordofani/Google-Cybersecurity-Professional-Certificate
+  - ahmedkordofani/active_directory_lab
+  - ahmedkordofani/airbnb_project
