@@ -97,7 +97,7 @@ $$\partial_t \theta + \mathbf{u}\cdot\nabla\theta = \kappa \nabla^2\theta - \mat
 
 where $$\kappa$$ is the scalar dissipation rate, we chose the Schmidt number $$\mathrm{Sc} = \frac{\nu}{\kappa}=1$$. The fluctuation $$\theta$$ is sustained by a background vertical mean scalar gradient $$\nabla\langle\Theta\rangle=\hat{e}_z$$.
 
-Yeah I know there was a lot of annoying math... Now just sit back and enjoy some beautiful turbulence movies! 😇
+Yeah I know there was a lot of annoying math... Now just sit back and enjoy some beautiful turbulence movies! 😇😶
 <b>All the following videos are showing the 2D $$x$$-$$z$$ plane slice at $$y=\pi$$.</b>
 <p align="center">
 <iframe width="355" height="315" src="https://www.youtube.com/embed/_YiM4oQxEeI?si=WtjOud0hgC0uixDW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
