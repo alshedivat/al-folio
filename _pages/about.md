@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student @ Cornell Info Sci | Algorithmic fairness & auditing
+subtitle: <strong>PhD student @ Cornell Info Sci | Sociotechnical fairness & algorithm auditing</strong>
 
 profile:
   align: right
