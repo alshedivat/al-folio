@@ -30,7 +30,7 @@ links:
   paper: https://openaccess.thecvf.com/content/WACV2023/html/Wolflein_HoechstGAN_Virtual_Lymphocyte_Staining_Using_Generative_Adversarial_Networks_WACV_2023_paper.html
   code: https://github.com/georg-wolflein/hoechstgan
   poster: /assets/pdf/hoechstgan_poster.pdf
-  video: https://www.youtube.com/watch?v=ZSGeX33TeEM
+  video: https://www.youtube.com/watch?v=XrhwqRNjtv4
   dataset paper: https://www.mdpi.com/2306-5729/8/2/40
   dataset: https://www.ebi.ac.uk/biostudies/bioimages/studies/S-BIAD605
 abstract: The presence and density of specific types of immune cells are important to understand a patient's immune response to cancer. However, immunofluorescence staining required to identify T cell subtypes is expensive, timeconsuming, and rarely performed in clinical settings. We present a framework to virtually stain Hoechst images (which are cheap and widespread) with both CD3 and CD8 to identify T cell subtypes in clear cell renal cell carcinoma using generative adversarial networks. Our proposed method jointly learns both staining tasks, incentivising the network to incorporate mutually beneficial information from each task. We devise a novel metric to quantify the virtual staining quality, and use it to evaluate our method.

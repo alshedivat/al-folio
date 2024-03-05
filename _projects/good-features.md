@@ -1,6 +1,6 @@
 ---
 layout: project
-title: A Good Feature Extractor Is All You Need for Weakly Supervised Learning in Histopathology
+title: A Good Feature Extractor Is All You Need for Weakly Supervised Pathology Slide Classification
 description: 
 img: assets/img/publication_preview/histaug.png
 figure: https://raw.githubusercontent.com/georg-wolflein/histaug/master/assets/overview.png
@@ -50,7 +50,8 @@ institutions:
 links:
   paper: https://arxiv.org/abs/2311.11772
   code: https://github.com/georg-wolflein/histaug
-abstract: Deep learning is revolutionising pathology, offering novel opportunities in disease prognosis and personalised treatment. Historically, stain normalisation has been a crucial preprocessing step in computational pathology pipelines, and persists into the deep learning era. Yet, with the emergence of feature extractors trained using self-supervised learning (SSL) on diverse pathology datasets, we call this practice into question. In an empirical evaluation of publicly available feature extractors, we find that omitting stain normalisation and image augmentations does not compromise downstream performance, while incurring substantial savings in memory and compute. Further, we show that the top-performing feature extractors are remarkably robust to variations in stain and augmentations like rotation in their latent space. Contrary to previous patch-level benchmarking studies, our approach emphasises clinical relevance by focusing on slide-level prediction tasks in a weakly supervised setting with external validation cohorts. This work represents the most comprehensive robustness evaluation of public pathology SSL feature extractors to date, involving more than 6,000 training runs across nine tasks, five datasets, three downstream architectures, and various preprocessing setups. Our findings stand to streamline digital pathology workflows by minimising preprocessing needs and informing the selection of feature extractors.
+  video: https://www.youtube.com/watch?v=Tst4XtaT9RE
+abstract: Stain normalisation is thought to be a crucial preprocessing step in computational pathology pipelines. We question this belief in the context of weakly supervised whole slide image classification, motivated by the emergence of powerful feature extractors trained using self-supervised learning on diverse pathology datasets. To this end, we performed the most comprehensive evaluation of publicly available pathology feature extractors to date, involving more than 8,000 training runs across nine tasks, five datasets, three downstream architectures, and various preprocessing setups. Notably, we find that omitting stain normalisation and image augmentations does not compromise downstream slide-level classification performance, while incurring substantial savings in memory and compute. Using a new evaluation metric that facilitates relative downstream performance comparison, we identify the best publicly available extractors, and show that their latent spaces are remarkably robust to variations in stain and augmentations like rotation. Contrary to previous patch-level benchmarking studies, our approach emphasises clinical relevance by focusing on slide-level biomarker prediction tasks in a weakly supervised setting with external validation cohorts. Our findings stand to streamline digital pathology workflows by minimising preprocessing needs and informing the selection of feature extractors.
 tldr: We perform a comprehensive empirical study on weakly supervised whole slide image classification, showing (i) stain normalisation is unnecessary no matter the choice of feature extractor, and (ii) which publicly available feature extractors are best.
 ---
 
@@ -60,7 +61,7 @@ If you would like to cite our work, please use:
 
 ```bibtex
 @misc{wolflein2023good,
-    title   = {A Good Feature Extractor Is All You Need for Weakly Supervised Learning in Histopathology}, 
+    title   = {A Good Feature Extractor Is All You Need for Weakly Supervised Pathology Slide Classification}, 
     author  = {W\"{o}lflein, Georg and Ferber, Dyke and Meneghetti, Asier Rabasco and El Nahhas, Omar S. M. and Truhn, Daniel and Carrero, Zunamys I. and Harrison, David J. and Arandjelovi\'{c}, Ognjen and Kather, Jakob N.},
     journal = {arXiv:2311.11772},
     year    = {2023},
