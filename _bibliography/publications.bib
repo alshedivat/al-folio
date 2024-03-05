@@ -10,6 +10,15 @@
 @STRING{DATA = {Data}}
 @STRING{DATA_SHORT = {Data}}
 
+@misc{ferber2023large,
+  title     = {Large Language Models for Information Retrieval and Comparison of Medical Oncology Guidelines},
+  author    = {Ferber, Dyke and Wiest, Isabella C. and Juglan, Radhika and W\"{o}lflein, Georg and Carrero, Zunamys I. and Ebert, Matthias P. and Beutel, Gernot and Eckardt, Jan-Niklas and Meddeke, Jan Moritz and Truhn, Daniel and J\"{a}ger, Dirk and Kather, Jakob Nikolas},
+  author+an = {4=highlight},
+  year      = {2023},
+  note      = UNDERREVIEW,
+  keywords  = {preprint}
+}
+
 @misc{elnahhas2023from,
   title     = {From Whole-slide Image to Biomarker Prediction: A Protocol for End-to-End Deep Learning in Computational Pathology},
   author    = {El Nahhas, Omar S. M. and van Treeck, Marko and W\"{o}lflein, Georg and Unger, Michaela and Ligero, Marta and Lenz, Tim and Wagner, Sophia J. and Hewitt, Katherine J. and Khader, Firas and Foersch, Sebastian and Truhn, Daniel and Kather, Jakob Nikolas},
@@ -33,8 +42,9 @@
   selected  = {true},
   url       = {https://arxiv.org/abs/2311.11772},
   pdf       = {https://arxiv.org/pdf/2311.11772.pdf},
-  code      = {https://github.com/georg-wolflein/histaug},
+  code      = {https://github.com/georg-wolflein/good-features},
   website   = {https://georg.woelflein.eu/good-features},
+  video     = {https://www.youtube.com/watch?v=Tst4XtaT9RE},
   preview   = {histaug.png},
   abstract  = {Deep learning is revolutionising pathology, offering novel opportunities in disease prognosis and personalised treatment. Historically, stain normalisation has been a crucial preprocessing step in computational pathology pipelines, and persists into the deep learning era. Yet, with the emergence of feature extractors trained using self-supervised learning (SSL) on diverse pathology datasets, we call this practice into question. In an empirical evaluation of publicly available feature extractors, we find that omitting stain normalisation and image augmentations does not compromise downstream performance, while incurring substantial savings in memory and compute. Further, we show that the top-performing feature extractors are remarkably robust to variations in stain and augmentations like rotation in their latent space. Contrary to previous patch-level benchmarking studies, our approach emphasises clinical relevance by focusing on slide-level prediction tasks in a weakly supervised setting with external validation cohorts. This work represents the most comprehensive robustness evaluation of public pathology SSL feature extractors to date, involving more than 6,000 training runs across nine tasks, five datasets, three downstream architectures, and various preprocessing setups. Our findings stand to streamline digital pathology workflows by minimising preprocessing needs and informing the selection of feature extractors.},
   keywords  = {preprint}
@@ -105,7 +115,7 @@
   pdf       = {https://openaccess.thecvf.com/content/WACV2023/papers/Wolflein_HoechstGAN_Virtual_Lymphocyte_Staining_Using_Generative_Adversarial_Networks_WACV_2023_paper.pdf},
   preview   = {hoechstgan.png},
   poster    = {hoechstgan_poster.pdf},
-  video     = {https://www.youtube.com/watch?v=ZSGeX33TeEM},
+  video     = {https://www.youtube.com/watch?v=XrhwqRNjtv4},
   code      = {https://github.com/georg-wolflein/hoechstgan},
   pages     = {4997--5007},
   abstract  = {The presence and density of specific types of immune cells are important to understand a patient's immune response to cancer. However, immunofluorescence staining required to identify T cell subtypes is expensive, timeconsuming, and rarely performed in clinical settings. We present a framework to virtually stain Hoechst images (which are cheap and widespread) with both CD3 and CD8 to identify T cell subtypes in clear cell renal cell carcinoma using generative adversarial networks. Our proposed method jointly learns both staining tasks, incentivising the network to incorporate mutually beneficial information from each task. We devise a novel metric to quantify the virtual staining quality, and use it to evaluate our method.},
