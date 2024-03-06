@@ -1,19 +1,20 @@
 {
   "basics": {
     "name": "Qien jing(荆祺恩)",
-    //"label": "Scientist",
+    "label": "Junior student of USTC",
     "image": "",
-    "email": "jqe21physics@mail.ustc.edu.cn",
-    "phone": "",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "_summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email1": "jqe21physics@mail.ustc.edu.cn",
+    "email2": "qien.jing.03@gmail.com",
+    //"phone": "",
+    //"url": "https://alshedivat.github.io/al-folio/",
+    //"_summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    //"location": {
+    //  "address": "2712 Broadway St",
+    //  "postalCode": "CA 94115",
+    //  "city": "San Francisco",
+    //  "countryCode": "US",
+    //  "region": "California"
+    //},
     "profiles": [
       {
         "network": "Twitter",
