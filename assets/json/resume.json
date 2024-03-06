@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Qien jing(荆祺恩)",
-    "_label": "Scientist",
+    //"label": "Scientist",
     "image": "",
     "email": "jqe21physics@mail.ustc.edu.cn",
     "phone": "",
-    "_url": "https://alshedivat.github.io/al-folio/",
+    "url": "https://alshedivat.github.io/al-folio/",
     "_summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
