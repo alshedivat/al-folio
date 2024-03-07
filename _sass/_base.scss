@@ -580,6 +580,9 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+
+  align-items: stretch;
+
   a {
     text-decoration: none;
 
@@ -589,6 +592,8 @@ footer.sticky-bottom {
       }
     }
   }
+
+
 
   .card {
     img {

@@ -209,7 +209,6 @@ keep_files:
 # Plug-ins
 plugins:
   - jekyll-archives
-  - jekyll-diagrams
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -220,8 +219,6 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-redirect-from
-  - jekyll-target-blank
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
@@ -313,13 +310,12 @@ enable_publication_thumbnails: true
 # Jekyll Link Attributes
 # -----------------------------------------------------------------------------
 
-# These are the defaults
+## These are the defaults
 external_links:
   enabled: true
   rel: external nofollow noopener
   target: _blank
   exclude:
-
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
