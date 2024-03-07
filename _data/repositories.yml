@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jinningwang
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - CURENT/andes
+  - CURENT/ams
+  - CURENT/agvis
+  - jinningwang/best-of-ps
