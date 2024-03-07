@@ -131,6 +131,9 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://sam-bieberich.github.io/" target="_blank">★</a>
 <a href="https://afraniomelo.github.io/en/" target="_blank">★</a>
 <a href="https://jonaruthardt.github.io" target="_blank">★</a>
+<a href="https://www.zla.app/" target="_blank">★</a>
+<a href="https://stavros.github.io" target="_blank">★</a>
+<a href="https://ericslyman.com" target="_blank">★</a>
 </td>
 </tr>
 <tr>

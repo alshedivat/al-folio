@@ -63,6 +63,11 @@
       {% if include.zoomable %}
         data-zoomable
       {% endif %}
+      {% if include.loading %}
+        loading="{{ include.loading }}"
+      {% elsif site.lazy_loading_images %}
+        loading="lazy"
+      {% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     >
   </picture>
