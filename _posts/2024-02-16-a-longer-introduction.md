@@ -30,6 +30,7 @@ Thankfully, nothing I've learned has ever been done alone. Every step of the way
 
 <div class="caption">
     The Data Pack logo, next to the <a href="https://www.bewild.com/products/three-wolf-moon-mens-big-face-t-shirt">style of 2000s t-shirts</a> that inspired it.
+
 </div>
 
 Personally, I learned Power BI, SQL and (the start of) Python all through Data Pack funds and learning opportunities. Data Pack was transformational to my career, and whether or not it still exists at Oxfam today, it was really special. You can learn more about Data Pack in the Harvard Data Science Initiative talk I gave in 2021, available on [Youtube](https://www.youtube.com/watch?v=4O_DIl0fJzU) starting at about 23:21.
@@ -44,6 +45,7 @@ That size and scale of the City's workforce afforded a unique opportunity to tes
 
 <div class="caption">
     The JavaScript pilot's collection of baby bar graphs, which we built in d3. 
+
 </div>
 
 We delivered a total of four learning cohorts in 2023, including JavaScript. One was in Python fundamentals, and two more were dedicated to learning Power BI as part of the City's transition to the tool. Overall, 55 unique staff across the City completed 50% or more cohort in 2023. Through all of this, I also earned a promotion to Performance Manager. My new role increased opportunities to build the strategy of the Performance Management team, and advance the goal of telling the story of the City's performance through data.
@@ -77,6 +79,7 @@ The truth is that I never dreamed of being a full-time poet. Most of the poets I
 <div class="caption">
     Some of the poetry books on my high school bookshelf:
     "What Narcissism Means to Me" by Tony Hoagland, "Rose" by Li-Young Lee, "Picnic, Lightning" by Billy Collins
+
 </div>
 
 So when I started my college career at the University of Vermont, English was an easy first choice for major. But as you might've guessed by now: I hate choosing just one thing. There is just too much to see, and learn, and do, to commit to being one thing. Since I had spent most of my life learning French, and wanted fluency, I threw that in as a dual major. And because I was fascinated with the world, and how people made meaning within it, I minored in Religion for good measure.
@@ -94,6 +97,7 @@ I graduated in 2016 hungry to work any job, anywhere with a soul. I had done a s
 {% include figure.liquid path="assets/img/graduation.png" class="img-fluid rounded z-depth-1" %}
 <div class="caption">
     Three generations of college graduates, at my graduation from Northeastern in May 2016.
+    
 </div>
 
 So why am I not a poet? The short answer is that I felt I could have more impact elsewhere--and that poetry would always be a home for me, regardless of where my paycheck came from. :heart:
