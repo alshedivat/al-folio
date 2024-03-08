@@ -1,4 +1,4 @@
-# Contributing to al-folio
+# Contributing to al-folio 
 
 Thank you for considering contributing to al-folio!
 
