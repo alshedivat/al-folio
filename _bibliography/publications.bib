@@ -11,6 +11,20 @@
 @STRING{DATA_SHORT = {Data}}
 
 
+@misc{elnahhas2024joint,
+  title     = {Joint multi-task learning improves weakly-supervised biomarker prediction in computational pathology},
+  author    = {El Nahhas, Omar S. M. and W\"{o}lflein, Georg and Ligero, Marta and Lenz, Tim and van Treeck, Marko and Khader, Firas and Truhn, Daniel and Kather, Jakob Nikolas},
+  year      = {2024},
+  author+an = {2=highlight},
+  note      = UNDERREVIEW,
+  url       = {https://arxiv.org/abs/2403.03891},
+  pdf       = {https://arxiv.org/pdf/2403.03891.pdf},
+  code      = {https://github.com/Avic3nna/joint-mtl-cpath},
+  preview   = {joint-mtl.png},
+  abstract  = {Deep Learning (DL) can predict biomarkers directly from digitized cancer histology in a weakly-supervised setting. Recently, the prediction of continuous biomarkers through regression-based DL has seen an increasing interest. Nonetheless, clinical decision making often requires a categorical outcome. Consequently, we developed a weakly-supervised joint multi-task Transformer architecture which has been trained and evaluated on four public patient cohorts for the prediction of two key predictive biomarkers, microsatellite instability (MSI) and homologous recombination deficiency (HRD), trained with auxiliary regression tasks related to the tumor microenvironment. Moreover, we perform a comprehensive benchmark of 16 approaches of task balancing for weakly-supervised joint multi-task learning in computational pathology. Using our novel approach, we improve over the state-of-the-art area under the receiver operating characteristic by +7.7\% and +4.1\%, as well as yielding better clustering of latent embeddings by +8\% and +5\% for the prediction of MSI and HRD in external cohorts, respectively.},
+  keywords  = {preprint}
+}
+
 @misc{elnahhas2023from,
   title     = {From Whole-slide Image to Biomarker Prediction: A Protocol for End-to-End Deep Learning in Computational Pathology},
   author    = {El Nahhas, Omar S. M. and van Treeck, Marko and W\"{o}lflein, Georg and Unger, Michaela and Ligero, Marta and Lenz, Tim and Wagner, Sophia J. and Hewitt, Katherine J. and Khader, Firas and Foersch, Sebastian and Truhn, Daniel and Kather, Jakob Nikolas},
@@ -26,7 +40,7 @@
 }
 
 @misc{wolflein2023good,
-  title     = {A Good Feature Extractor Is All You Need for Weakly Supervised Learning in Histopathology},
+  title     = {A Good Feature Extractor Is All You Need for Weakly Supervised Pathology Slide Classification},
   author    = {W\"{o}lflein, Georg and Ferber, Dyke and Meneghetti, Asier Rabasco and El Nahhas, Omar S. M. and Truhn, Daniel and Carrero, Zunamys I. and Harrison, David J. and Arandjelovi\'{c}, Ognjen and Kather, Jakob N.},
   author+an = {1=highlight},
   year      = {2023},
@@ -38,7 +52,7 @@
   website   = {https://georg.woelflein.eu/good-features},
   video     = {https://www.youtube.com/watch?v=Tst4XtaT9RE},
   preview   = {histaug.png},
-  abstract  = {Deep learning is revolutionising pathology, offering novel opportunities in disease prognosis and personalised treatment. Historically, stain normalisation has been a crucial preprocessing step in computational pathology pipelines, and persists into the deep learning era. Yet, with the emergence of feature extractors trained using self-supervised learning (SSL) on diverse pathology datasets, we call this practice into question. In an empirical evaluation of publicly available feature extractors, we find that omitting stain normalisation and image augmentations does not compromise downstream performance, while incurring substantial savings in memory and compute. Further, we show that the top-performing feature extractors are remarkably robust to variations in stain and augmentations like rotation in their latent space. Contrary to previous patch-level benchmarking studies, our approach emphasises clinical relevance by focusing on slide-level prediction tasks in a weakly supervised setting with external validation cohorts. This work represents the most comprehensive robustness evaluation of public pathology SSL feature extractors to date, involving more than 6,000 training runs across nine tasks, five datasets, three downstream architectures, and various preprocessing setups. Our findings stand to streamline digital pathology workflows by minimising preprocessing needs and informing the selection of feature extractors.},
+  abstract  = {Stain normalisation is thought to be a crucial preprocessing step in computational pathology pipelines. We question this belief in the context of weakly supervised whole slide image classification, motivated by the emergence of powerful feature extractors trained using self-supervised learning on diverse pathology datasets. To this end, we performed the most comprehensive evaluation of publicly available pathology feature extractors to date, involving more than 8,000 training runs across nine tasks, five datasets, three downstream architectures, and various preprocessing setups. Notably, we find that omitting stain normalisation and image augmentations does not compromise downstream slide-level classification performance, while incurring substantial savings in memory and compute. Using a new evaluation metric that facilitates relative downstream performance comparison, we identify the best publicly available extractors, and show that their latent spaces are remarkably robust to variations in stain and augmentations like rotation. Contrary to previous patch-level benchmarking studies, our approach emphasises clinical relevance by focusing on slide-level biomarker prediction tasks in a weakly supervised setting with external validation cohorts. Our findings stand to streamline digital pathology workflows by minimising preprocessing needs and informing the selection of feature extractors.},
   keywords  = {preprint}
 }
 
