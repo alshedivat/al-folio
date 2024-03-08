@@ -1,7 +1,7 @@
 ---
 layout: post
 title: a long-form introduction
-date: 2024-02-16
+date: 2024-03-07
 description: reflecting on my path to data work
 tags: about career
 categories: posts
