@@ -5,7 +5,7 @@ let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
     setThemeSetting("light");
-  } else if (themeSetting == "light"){
+  } else if (themeSetting == "light") {
     setThemeSetting("dark");
   } else {
     setThemeSetting("system");
@@ -19,7 +19,7 @@ let setThemeSetting = (themeSetting) => {
   document.documentElement.setAttribute("data-theme-setting", themeSetting);
 
   applyTheme();
-}
+};
 
 // Apply the computed dark or light theme to the website.
 let applyTheme = () => {
@@ -199,7 +199,7 @@ let determineThemeSetting = () => {
   let themeSetting = localStorage.getItem("theme");
   if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
     themeSetting = "system";
-  };
+  }
   return themeSetting;
 };
 
@@ -216,7 +216,7 @@ let determineComputedTheme = () => {
     }
   } else {
     return themeSetting;
-  };
+  }
 };
 
 let initTheme = () => {
@@ -227,14 +227,14 @@ let initTheme = () => {
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {
     const mode_toggle = document.getElementById("light-toggle");
-  
+
     mode_toggle.addEventListener("click", function () {
       toggleThemeSetting();
     });
   });
 
   // Add event listener to the system theme preference change.
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change",({ matches }) => {
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
     applyTheme();
   });
 };
