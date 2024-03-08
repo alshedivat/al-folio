@@ -34,3 +34,30 @@
 "Kather":
   - firstname: ["Jakob", "Jakob Nikolas", "Jakob N.", "J. N."]
     url: https://kather.ai
+"Ligero":
+  - firstname: ["Marta", "M."]
+    url: https://scholar.google.com/citations?user=0LLfhWYAAAAJ
+# "Lenz":
+#   - firstname: ["Tim", "T."]
+#     url:
+# "van Treek":
+# - firstname: ["Marko", "M."]
+#   url:
+"Khader":
+  - firstname: ["Firas", "F."]
+    url: https://scholar.google.com/citations?user=to8g5LsAAAAJ
+"Unger":
+  - firstname: ["Michaela", "M."]
+    url: https://scholar.google.com/citations?user=qTtTRjgAAAAJ
+"Wagner":
+  - firstname: ["Sophia", "Sophia J.", "S. J."]
+    url: https://scholar.google.de/citations?user=skcoUZMAAAAJ
+"Hewitt":
+  - firstname: ["Katherine J.", "K. J."]
+    url: https://orcid.org/0000-0001-6602-0141
+"Battail":
+  - firstname: ["Christophe", "C."]
+    url: https://scholar.google.com/citations?user=at9bmQQAAAAJ
+"Gazut":
+  - firstname: ["Stéphane", "S."]
+    url: https://dblp.org/pid/184/8678.html
