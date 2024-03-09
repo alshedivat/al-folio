@@ -1,7 +1,7 @@
 ---
 layout: post
-title: The M Score
-description: Rating TV Shows Using Linear Regression
+title: Rating TV Shows Using Linear Regression
+description: The M Score
 tags: data, code
 giscus_comments: true
 date: 2024-03-09
