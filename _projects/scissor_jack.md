@@ -33,7 +33,6 @@ Design and calculation of pins, shafts, gears, ball bearings, break and required
 
 Here is an image of the whole paper about our calculation which we submit as project result alongside with SOLIDWORKS and Ansys files:
 
-
-![embed](https://lh3.googleusercontent.com/pw/AP1GczNFX95oAB82y3mlIRd_Q-EBilBhVnnyFTF2GuMlO-3EY6RR6Pvo12VIkVh1MWaoOwEWrgBMm68fH808RMrji-yHwIAOCg-ocP485mdc02hsbWsAq-I=w1600)
+{% include figure.liquid path="https://lh3.googleusercontent.com/pw/AP1GczNFX95oAB82y3mlIRd_Q-EBilBhVnnyFTF2GuMlO-3EY6RR6Pvo12VIkVh1MWaoOwEWrgBMm68fH808RMrji-yHwIAOCg-ocP485mdc02hsbWsAq-I=w1600" class="img-fluid rounded z-depth-1" zoomable=true %}
 
 Good luck
