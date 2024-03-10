@@ -6,8 +6,14 @@
   animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
-  animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
-  animation-timing-function: var(--#{$fa-css-prefix}-animation-timing, ease-in-out);
+  animation-iteration-count: var(
+    --#{$fa-css-prefix}-animation-iteration-count,
+    infinite
+  );
+  animation-timing-function: var(
+    --#{$fa-css-prefix}-animation-timing,
+    ease-in-out
+  );
 }
 
 .#{$fa-css-prefix}-bounce {
@@ -15,8 +21,14 @@
   animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
-  animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
-  animation-timing-function: var(--#{$fa-css-prefix}-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+  animation-iteration-count: var(
+    --#{$fa-css-prefix}-animation-iteration-count,
+    infinite
+  );
+  animation-timing-function: var(
+    --#{$fa-css-prefix}-animation-timing,
+    cubic-bezier(0.28, 0.84, 0.42, 1)
+  );
 }
 
 .#{$fa-css-prefix}-fade {
@@ -24,8 +36,14 @@
   animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
-  animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
-  animation-timing-function: var(--#{$fa-css-prefix}-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+  animation-iteration-count: var(
+    --#{$fa-css-prefix}-animation-iteration-count,
+    infinite
+  );
+  animation-timing-function: var(
+    --#{$fa-css-prefix}-animation-timing,
+    cubic-bezier(0.4, 0, 0.6, 1)
+  );
 }
 
 .#{$fa-css-prefix}-beat-fade {
@@ -33,8 +51,14 @@
   animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
-  animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
-  animation-timing-function: var(--#{$fa-css-prefix}-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+  animation-iteration-count: var(
+    --#{$fa-css-prefix}-animation-iteration-count,
+    infinite
+  );
+  animation-timing-function: var(
+    --#{$fa-css-prefix}-animation-timing,
+    cubic-bezier(0.4, 0, 0.6, 1)
+  );
 }
 
 .#{$fa-css-prefix}-flip {
@@ -42,8 +66,14 @@
   animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
-  animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
-  animation-timing-function: var(--#{$fa-css-prefix}-animation-timing, ease-in-out);
+  animation-iteration-count: var(
+    --#{$fa-css-prefix}-animation-iteration-count,
+    infinite
+  );
+  animation-timing-function: var(
+    --#{$fa-css-prefix}-animation-timing,
+    ease-in-out
+  );
 }
 
 .#{$fa-css-prefix}-shake {
@@ -51,7 +81,10 @@
   animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
-  animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
+  animation-iteration-count: var(
+    --#{$fa-css-prefix}-animation-iteration-count,
+    infinite
+  );
   animation-timing-function: var(--#{$fa-css-prefix}-animation-timing, linear);
 }
 
@@ -60,7 +93,10 @@
   animation-delay: var(--#{$fa-css-prefix}-animation-delay, 0s);
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 2s);
-  animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
+  animation-iteration-count: var(
+    --#{$fa-css-prefix}-animation-iteration-count,
+    infinite
+  );
   animation-timing-function: var(--#{$fa-css-prefix}-animation-timing, linear);
 }
 
@@ -73,8 +109,14 @@
   animation-name: #{$fa-css-prefix}-spin;
   animation-direction: var(--#{$fa-css-prefix}-animation-direction, normal);
   animation-duration: var(--#{$fa-css-prefix}-animation-duration, 1s);
-  animation-iteration-count: var(--#{$fa-css-prefix}-animation-iteration-count, infinite);
-  animation-timing-function: var(--#{$fa-css-prefix}-animation-timing, steps(8));
+  animation-iteration-count: var(
+    --#{$fa-css-prefix}-animation-iteration-count,
+    infinite
+  );
+  animation-timing-function: var(
+    --#{$fa-css-prefix}-animation-timing,
+    steps(8)
+  );
 }
 
 // if agent or operating system prefers reduced motion, disable animations
@@ -113,17 +155,29 @@
     transform: scale(1, 1) translateY(0);
   }
   10% {
-    transform: scale(var(--#{$fa-css-prefix}-bounce-start-scale-x, 1.1), var(--#{$fa-css-prefix}-bounce-start-scale-y, 0.9)) translateY(0);
+    transform: scale(
+        var(--#{$fa-css-prefix}-bounce-start-scale-x, 1.1),
+        var(--#{$fa-css-prefix}-bounce-start-scale-y, 0.9)
+      )
+      translateY(0);
   }
   30% {
-    transform: scale(var(--#{$fa-css-prefix}-bounce-jump-scale-x, 0.9), var(--#{$fa-css-prefix}-bounce-jump-scale-y, 1.1))
+    transform: scale(
+        var(--#{$fa-css-prefix}-bounce-jump-scale-x, 0.9),
+        var(--#{$fa-css-prefix}-bounce-jump-scale-y, 1.1)
+      )
       translateY(var(--#{$fa-css-prefix}-bounce-height, -0.5em));
   }
   50% {
-    transform: scale(var(--#{$fa-css-prefix}-bounce-land-scale-x, 1.05), var(--#{$fa-css-prefix}-bounce-land-scale-y, 0.95)) translateY(0);
+    transform: scale(
+        var(--#{$fa-css-prefix}-bounce-land-scale-x, 1.05),
+        var(--#{$fa-css-prefix}-bounce-land-scale-y, 0.95)
+      )
+      translateY(0);
   }
   57% {
-    transform: scale(1, 1) translateY(var(--#{$fa-css-prefix}-bounce-rebound, -0.125em));
+    transform: scale(1, 1)
+      translateY(var(--#{$fa-css-prefix}-bounce-rebound, -0.125em));
   }
   64% {
     transform: scale(1, 1) translateY(0);
