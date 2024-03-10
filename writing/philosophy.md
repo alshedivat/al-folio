@@ -14,7 +14,7 @@ nav: false
 </p>
 
 
-<a href="files/workdplay.pdf" target="_blank">"Wor(k/d)play."</a> <em>Garden of Ideas</em>, Vol. 2, 2023 - Issue 1. Issue currently under progress.
+<a href="files/workdplay.pdf" target="_blank">"Wor(k/d)play."</a> <em>Garden of Ideas</em>, Vol. 2, 2023 - Issue 1.
 <p style="margin-left: 25px;">
   <small><bold>Abstract.</bold> In this essay, we challenge the notion that wordplay lacks depth and meaning. Drawing from philosophers like Plato, Derrida, Wittgenstein, and Saussure, we explore wordplay as a playful engagement with signifiers and their relationships. By embracing irony and comedic play, we uncover new perspectives on language and its limitations. We argue that wordplay offers a valuable tool for critical writers to expand meaning and open doors to alternative modes of understanding. This essay encourages the embrace of wordplay as a meaningful means of inquiry and expression. <em>Disclosure: LLM-generated abstract.</em></small>
 </p>
@@ -37,7 +37,7 @@ nav: false
 
 <br>
 
-<a href="files/hammer-broke.pdf" target="_blank">"And Then the Hammer Broke: Seeing Machine Vision".</a> Final essay for PHIL 406, Philosophical Topics in Feminism.
+<a href="files/hammer-broke.pdf" target="_blank">"And Then the Hammer Broke: Seeing Machine Vision".</a> Pacific University Philosophy Conference.
 <p style="margin-left: 25px;">
 <small><bold>Abstract</bold>Vision is an important metaphor in ethical and political questions of knowledge. The feminist philosopher Donna Haraway points out the “perverse” nature of an intrusive, alienating, all-seeing vision (to which we might cry out “stop looking at me!”), but also encourages us to embrace the embodied nature of sight and its promises for genuinely situated knowledge. Current technologies of machine vision – surveillance cameras, drones (for war or recreation), iPhone cameras – are usually construed as instances of the former rather than the latter, and for good reasons. However, although in no way attempting to diminish the real suffering these technologies have brought about in the world, I make the case for understanding technologies of computer vision as material instances of embodied seeing and situated knowing. Furthermore, borrowing from Iris Murdoch’s concept of moral vision, I suggest that these technologies direct our labor towards self-reflection in ethically significant ways. My approach draws upon paradigms in computer vision research, phenomenology, and feminist epistemology. Ultimately, this essay is an argument for directing more philosophical attention from merely criticizing technologies of vision as ethically deficient towards embracing them as complex, methodologically and epistemologically important objects.
 </small>
