@@ -1,16 +1,13 @@
 ---
 layout: page
 title: submenus
-nav: true
-nav_order: 8
+nav: false
+nav_order: 7
 dropdown: true
 children:
-  - title: publications
-    permalink: /publications/
-  - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+    - title: Resume
+      permalink: https://cv.alirezad.ir
+    - title: divider
+    - title: Blog
+      permalink: https://blog.alirezad.ir
 ---

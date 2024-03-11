@@ -108,7 +108,7 @@ touch .nojekyll
 
 # Push to DEPLOY_BRANCH
 git add -fA
-git commit --allow-empty -m "$(git log -1 --pretty=%B) [ci skip]"
+git commit --allow-empty -m "$(git log -1 --pretty=%B)"
 [[ ${NO_PUSH} ]] || git push -f -q origin $DEPLOY_BRANCH
 
 # Move back to SRC_BRANCH

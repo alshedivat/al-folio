@@ -1,0 +1,5 @@
+import { Client } from "@notionhq/client";
+import { ListBlockChildrenResponseResults } from "../types";
+export declare const getBlockChildren: (notionClient: Client, block_id: string, totalPage: number | null) => Promise<ListBlockChildrenResponseResults>;
+export declare const modifyNumberedListObject: (blocks: ListBlockChildrenResponseResults) => void;
+//# sourceMappingURL=notion.d.ts.map

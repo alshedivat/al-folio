@@ -1,0 +1,2 @@
+export {};
+//# sourceMappingURL=md.spec.d.ts.map
