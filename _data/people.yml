@@ -56,15 +56,27 @@
     more robust containers for soil microbial fuel cells. Stephen graduated from UC Santa Cruz 
     in fall 2022 with a degree in Robotics Engineering.
 
-- name: Adam Dunlop
-  title: Researcher
-  pfp: /assets/img/pfp/adunlop.jpg
-  email: adunlop621@gmail.com
+- name: Yawen Guo
+  title: PhD Student
+  pfp: /assets/img/pfp/yguo.jpeg
+  email: yguo127@ucsc.edu
   body: |
-    Adam Hess-Dunlop is a senior undergraduate student at Drexel University
-    with a major in math and a minor in computer science. His research focuses
-    on using machine learning to develop technology for addressing climate
-    change.
+    Yawen is currently pursuing her PhD in Electrical and Computer Engineering at the University of California, Santa Cruz. 
+    Her research focuses on the energy efficiency and the 
+    innovative integration of state-of-the-art technologies within the field of communication. 
+    She is driven by a desire to contribute to sustainability efforts, 
+    aiming to develop solutions that not only advance the field but also help protect the environment.
+
+- name: Eric Vetha
+  title: Undergraduate Researcher
+  pfp: /assets/img/pfp/evetha.jpg
+  email: evetha@ucsc.edu
+  linkedin_username: eric-david-vetha
+  github_username: ericdvet
+  body: |
+    Eric is 3rd year undergraduate Robotics Engineering student at UC Santa Cruz. 
+    Eric is working on the software of wireless underground backscatter tags and 
+    the radar which are used to collect information regarding soil moisture content.
 
 - name: Josie Dominguez
   title: Undergraduate Researcher
@@ -87,7 +99,6 @@
     Eric is working on the software of wireless underground backscatter tags and 
     the radar which are used to collect information regarding soil moisture content.
 
-
 - name: Matthew Kaltman
   title: Undergraduate Researcher
   pfp: /assets/img/pfp/mkaltman.jpg
@@ -97,3 +108,17 @@
   body: |
     Matt is an undergraduate studying Robotics Engineering with an emphasis in Electrical Engineering at the University of California, Santa Cruz. 
     Matt is working with the Greener Greenhouses team to develop a sensing node that is powered and communicated to via Visible Light Communication.
+
+- name: Aaron Wu
+  title: Full Stack Developer
+  pfp: /assets/img/pfp/awu.jpg
+  email: awu70@ucsc.edu
+  linkedin_username: aaron-wu1
+  github_username: aaron-wu1
+  body: |
+    Aaron is a 4th year undergraduate Computer Science student at UC Santa Cruz.
+    He is working on developing the Open Sensing platform that helps reserachers monitor
+    sensor data from microbial fuel cells.
+
+
+
