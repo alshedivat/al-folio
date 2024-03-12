@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring. -->
 
-I am an honors and Phi Beta Kappa undergraduate at the University of Washington studying philosophy and computer science, minoring in mathematics.
+I am an honors, Phi Beta Kappa, and Mary Gates scholar at the University of Washington studying philosophy and computer science, minoring in mathematics.
 My research interests are in the union of philosophy -- in particular phenomenology and (feminist) philosophy of science, human-computer interaction, and deep learning.
 Please see my [research agenda](/agenda) and completed [projects](/projects).
 I have written a few [essays](/writing/philosophy){:target="_blank"} in philosophy, [two](/writing/mdldna){:target="_blank"} [books](/writing/mdl4td){:target="_blank"} on deep learning, a little bit of [fiction](/writing/fiction){:target="_blank"}, and many data science [articles](https://andre-ye.medium.com/){:target="_blank"}.
