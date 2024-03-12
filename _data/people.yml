@@ -99,4 +99,15 @@
     Eric is working on the software of wireless underground backscatter tags and 
     the radar which are used to collect information regarding soil moisture content.
 
+- name: Aaron Wu
+  title: Full Stack Developer
+  pfp: /assets/img/pfp/awu.jpg
+  email: awu70@ucsc.edu
+  linkedin_username: aaron-wu1
+  github_username: aaron-wu1
+  body: |
+    Aaron is a 4th year undergraduate Computer Science student at UC Santa Cruz.
+    He is working on developing the Open Sensing platform that helps reserachers monitor
+    sensor data from microbial fuel cells.
+
 
