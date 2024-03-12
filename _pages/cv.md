@@ -35,7 +35,8 @@ Taylor Sorenson, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshgh
 
 "And then the Hammer Broke: Reflections on Machine Ethics from Feminist Philosophy of Science."
 **Andre Ye**.
-[Link](/writing/files/hammer-broke.pdf){:target="_blank"}.
+[arXiv](https://arxiv.org/abs/2403.05805){:target="_blank"}.
+<!-- [Link](/writing/files/hammer-broke.pdf){:target="_blank"}. -->
 Pacific University Philosophy Conference.
 
 "Computational Production of Simulacra."
