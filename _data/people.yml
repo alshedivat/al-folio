@@ -99,6 +99,16 @@
     Eric is working on the software of wireless underground backscatter tags and 
     the radar which are used to collect information regarding soil moisture content.
 
+- name: Matthew Kaltman
+  title: Undergraduate Researcher
+  pfp: /assets/img/pfp/mkaltman.jpg
+  email: mkaltman@ucsc.edu
+  linkedin_username: matthew-kaltman-41a46824b
+  work_url: https://slugsites.ucsc.edu/mkaltman/about/
+  body: |
+    Matt is an undergraduate studying Robotics Engineering with an emphasis in Electrical Engineering at the University of California, Santa Cruz. 
+    Matt is working with the Greener Greenhouses team to develop a sensing node that is powered and communicated to via Visible Light Communication.
+
 - name: Aaron Wu
   title: Full Stack Developer
   pfp: /assets/img/pfp/awu.jpg
@@ -109,5 +119,6 @@
     Aaron is a 4th year undergraduate Computer Science student at UC Santa Cruz.
     He is working on developing the Open Sensing platform that helps reserachers monitor
     sensor data from microbial fuel cells.
+
 
 
