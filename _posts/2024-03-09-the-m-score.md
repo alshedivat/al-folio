@@ -6,6 +6,8 @@ tags: data, code
 giscus_comments: true
 date: 2024-03-09
 featured: true
+chart:
+  chartjs: true
 
 authors:
   - name: Roman Yefimets
@@ -37,6 +39,8 @@ An idea began forming in my mind: What if I could use individual episode ratings
 _Using the csv files was actually sufficient as first to get charts going with `Matplotlib`, but sql became much more efficient later when aggregating._
 
 ## Plotting the Data
+
+If you are interesting in playing around with this data yourself, you can [follow these steps](https://github.com/romainiac/imdb-linear-regression)
 
 Using the episode ratings, I plotted my first chart.
 
