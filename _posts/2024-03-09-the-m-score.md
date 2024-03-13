@@ -32,15 +32,15 @@ toc:
   - name: Other Typography?
 ---
 
-A few days ago, I was browsing throw my numerous streaming services looking for a new show to start. `The Blacklist` peaked my interest, as I had seen pop up before and never really gave it a shot. But 10 seasons, now that's a commitment. Not wanting to jump into it right away, I went to see what Reddit had to say. It seemed the consensus was that the show started out well, but just was not worth finishing, as the writing declined in quality. Others suggested that `Person of Interest` would be a better watch.
+A few days ago, I was browsing through my numerous streaming services looking for a new show to start. `The Blacklist` peaked my interest, as I had seen it pop up before and never really gave it a shot. But 10 seasons, now that's a commitment. Not wanting to jump into it right away, I went to see what Reddit had to say. It seemed the consensus was that the show started out well, but due to the decline in writing quality was not worth finishing. Others suggested that `Person of Interest` would be a better watch.
 
 An idea began forming in my mind: What if I could use individual episode ratings to get a better picture of how a show performs over time? IMDB had just the data that I needed, but it turns out they don't like handing out API access for personal use. They did however, send me an email pointing me to their [free data set](https://datasets.imdbws.com/), which allowed me to download the needed data in `tsv` format. How neat. With a simple python conversion to `csv` I was easily able to import the data sets into my local MySQL database using `DBeaver`.
 
 _Using the csv files was actually sufficient as first to get charts going with `Matplotlib`, but sql became much more efficient later when aggregating._
 
-## Plotting the Data
-
 If you are interesting in playing around with this data yourself, you can [follow these steps](https://github.com/romainiac/imdb-linear-regression)
+
+## Plotting the Data
 
 Using the episode ratings, I plotted my first chart.
 
@@ -67,7 +67,7 @@ $$
 Here, $$\beta$$ is the slope of the fitted line. From this point on, lets refer to it as the `M score`
 
 Lets imagine there is a TV show that only aired 2 episodes. The first episode got a rating of 0/10 and the second episode got a rating of 10/10.
-This would give us an `M score` of 10. Similarly, if the ratings were reversed the `M score` would be -10. Thus we have our limits $$-10 \leq M \leq 10$$. A score of $$0$$ would mean that every episode in the show got the same rating. Interesting, the `M score` for most tv shows is very close to $$0$$.
+This would give us an `M score` of 10. Similarly, if the ratings were reversed the `M score` would be -10. Thus, we have our limits $$-10 \leq M \leq 10$$. A score of $$0$$ would mean that every episode in the show got the same rating. Interesting, the `M score` for most tv shows is very close to $$0$$.
 
 Lets take a look at `The Blacklist`. Its `M score` is $$-0.0034$$. So it would seem that the consensus was correct, the show seems to slowly degrade overtime, but not by much.
 
@@ -130,6 +130,27 @@ Our new winners become `King the Land` with a high `M Score` of `0.3560294117647
 | Title | Year |   M Score   | Episode Count | IMDB Rating |
 | :---: | :--: | :---------: | :-----------: | :---------: |
 | NCIS  | 2003 | -0.00000549 |      461      |     7.8     |
+
+
+Here are some more graphs to look at. 
+
+{% include figure.liquid loading="eager" path="assets/img/graphs/house-of-cards-regression.png" class="img-fluid rounded z-depth-1" %}
+
+That last season really did not do well.
+
+{% include figure.liquid loading="eager" path="assets/img/graphs/the-witcher-regression.png" class="img-fluid rounded z-depth-1" %}
+
+I really wanted this to be good. I loved the first season.
+
+{% include figure.liquid loading="eager" path="assets/img/graphs/the-wire-regression.png" class="img-fluid rounded z-depth-1" %}
+
+Have not seen this yet, but seems like I should.
+
+{% include figure.liquid loading="eager" path="assets/img/graphs/breaking-bad-regression.png" class="img-fluid rounded z-depth-1" %}
+
+{% include figure.liquid loading="eager" path="assets/img/graphs/better-call-saul-regression.png" class="img-fluid rounded z-depth-1" %}
+
+Can confirm. I loved these shows.
 
 ## Conclusion
 
