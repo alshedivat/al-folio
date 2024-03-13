@@ -12,13 +12,15 @@ nav_order: 4
 ### ongoing projects
 projects I am leading or co-leading
 
-**Discursive Datasets.** with Amy Zhang (U. of Wa.) and Ranjay Krishna (U. of Wa.).
-- Mary Gates Scholarship [Application](\assets\pdf\mary-gates-essay-discursive-datasets.pdf){:target="_blank"} (Winter 2024).
+**Discursive Datasets.** with Amy Zhang (UW) and Ranjay Krishna (UW).
+- Supported by the Mary Gates Scholarship -- [application](\assets\pdf\mary-gates-essay-discursive-datasets.pdf){:target="_blank"} (Winter 2024).
+
+**LLMs for Philosophers.** with Jared Moore (Stanford), Rose Novick (UW philosophy), and Amy Zhang (UW CSE).
 
 **Political Autonomy on Social Platforms.** with Katie Yurechko (Wash. & Lee, Oxford).
 We set forth a framework for understanding and analyzing the pre-/political experience and autonomy of users in social platforms.
 
-**Research Agenda for "Social Metaphysics.** with Mark Pock (U. of Wa.) and Jared Moore (Stanford).
+**Two Roads Diverged... Cross-Boundary Research in LMs.** with Mark Pock (U. of Wa.) and Jared Moore (Stanford).
 More coming.
 
 <!-- **Historicizing Morality for Language Models.** with Mark Pock (U. of Wa.) and Jared Moore (Stanford).
