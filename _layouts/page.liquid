@@ -1,0 +1,104 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {% if page.github or page.zenodo or page.paper1 %}
+      <div class="project-summary">
+
+      <ul>
+        {% if page.paper1 %}
+          <li>
+            {% if page.paper1 != "todo" %}
+              <a href="/publications#{{page.paper1}}" title="paper" target="_blank" rel="nofollow">
+            {% else %}
+              <a title="paper" target="_blank" rel="nofollow">
+            {% endif %}
+              <i class="fas fa-scroll"></i><span>{{page.paper1_description}}</span>
+              </a>
+          </li>
+        {% endif %}
+
+        {% if page.paper2 %}
+          <li>
+            <a href="/publications#{{page.paper2}}" title="paper" target="_blank" rel="nofollow">
+              <i class="fas fa-scroll"></i><span>{{page.paper2_description}}</span>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if page.github %}
+          <li>
+            {% if page.github != "todo" %}
+              <a href="https://github.com/{{page.github}}" title="github" target="_blank" rel="nofollow">
+              <i class="fab fa-github"></i><span>{{page.github}}</span>
+            {% else %}
+              <a title="github" target="_blank" rel="nofollow">
+              <i class="fab fa-github"></i><span>Coming soon!</span>
+            {% endif %}
+            </a>
+          </li>
+        {% endif %}
+
+        {% if page.github2 %}
+          <li>
+            {% if page.github2 != "todo" %}
+              <a href="https://github.com/{{page.github2}}" title="github" target="_blank" rel="nofollow">
+              <i class="fab fa-github"></i><span>{{page.github2}}</span>
+            {% else %}
+              <a title="github" target="_blank" rel="nofollow">
+              <i class="fab fa-github"></i><span>Coming soon!</span>
+            {% endif %}
+            </a>
+          </li>
+        {% endif %}
+
+        {% if page.zenodo %}
+          <li>
+            <a href="https://doi.org/{{page.zenodo}}" title="zenodo" target="_blank" rel="nofollow">
+              <i class="ai ai-zenodo"></i><span>Artifact</span>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if page.artifact %}
+          <li>
+            <a href="{{page.artifact}}" title="artifact" target="_blank" rel="nofollow">
+              <i class="fas fa-archive"></i><span>Artifact</span>
+            </a>
+          </li>
+        {% endif %}
+
+        {% if page.docker %}
+          <li>
+            <a href="https://hub.docker.com/r/{{page.docker}}" title="docker" target="_blank" rel="nofollow">
+              <i class="fab fa-docker"></i><span>{{page.docker}}</span>
+            </a>
+          </li>
+        {% endif %}
+      </ul>
+      </div>
+    {% endif %}
+    {{ content }}
+  </article>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {% if page.related_publications %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --cited_in_order %}
+    </div>
+  {% endif %}
+
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
+</div>

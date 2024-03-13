@@ -47,7 +47,7 @@
   }
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
