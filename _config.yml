@@ -14,7 +14,7 @@ footer_text: >
 keywords: serverless, high-performance computing, hpc, cloud, faas
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔥 # the emoji used as the favicon
-url: "" # the base hostname & protocol for your site
+url: https://mcopik.github.io # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
@@ -71,7 +71,7 @@ twitter_username: copikmarcin # your Twitter handle
 mastodon_username: mastodon.social/@mcopik # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: marcin-copik-a3693973 # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: JdXd8pQAAAAJ&hl=pl # your Google Scholar ID
+scholar_userid: JdXd8pQAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: 0000-0002-7606-5519 # your ORCID ID
