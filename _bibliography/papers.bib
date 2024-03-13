@@ -72,7 +72,7 @@
   location = {Toronto, Canada},
   series = {IWOCL 2017},
   slides = {2017_hpx_compute_iwocl_slides.pdf},
-  html = {https://dl.acm.org/doi/10.1145/3078155.3078187},
+  html = {https://dl.acm.org/doi/10.1145/3078155.3078187?cid=99659165688},
   pdf = {2017_hpx_compute_iwocl_paper.pdf},
   bibtex_show = {True},
   abbr = {IWOCL}
@@ -95,7 +95,7 @@
   location = {Vienna, Austria},
   series = {CGO 2018},
   arxiv = {1804.04021},
-  html = {https://dl.acm.org/doi/10.1145/3168804},
+  html = {https://dl.acm.org/doi/10.1145/3168804?cid=99659165688},
   pdf = {2018_matrix_chain_cgo_paper.pdf},
   bibtex_show = {True},
   abbr = {CGO}
@@ -210,7 +210,7 @@
   artifact= {https://zenodo.org/record/5357597},
   pdf = {2021_sebs_middleware.pdf},
   slides = {2021_sebs_middleware_slides.pdf},
-  html = {https://dl.acm.org/doi/10.1145/3464298.3476133},
+  html = {https://dl.acm.org/doi/10.1145/3464298.3476133?cid=99659165688},
   recording = {https://www.youtube.com/watch?v=Z_CQfh0pQjc},
   docker = {spcleth/serverless-benchmarks},
   bibtex_show = {True},
@@ -249,7 +249,7 @@
   location = {Virtual Event, Republic of Korea},
   series = {PPoPP '21},
   arxiv = {2012.15592},
-  html = {https://dl.acm.org/doi/10.1145/3437801.3441613},
+  html = {https://dl.acm.org/doi/10.1145/3437801.3441613?cid=99659165688},
   pdf = {2021_perf_taint_ppopp.pdf},
   code = {https://github.com/spcl/perf-taint/},
   recording = {https://www.youtube.com/watch?v=eGEvFXK4owc},
@@ -289,7 +289,7 @@
   month={10},
   publisher = {Association for Computing Machinery},
   address = {New York, NY, USA},
-  html = {https://doi.org/10.1145/3466752.3480133},
+  html = {https://doi.org/10.1145/3466752.3480133?cid=99659165688},
   url = {https://doi.org/10.1145/3466752.3480133},
   doi = {10.1145/3466752.3480133},
   booktitle = {MICRO-54: 54th Annual IEEE/ACM International Symposium on Microarchitecture},
@@ -317,7 +317,7 @@
   location = {Virtual Event},
   series = {ICS '22},
   pdf = {2022_ics_schmid_perf_detective.pdf},
-  html = {https://doi.org/10.1145/3524059.3532391},
+  html = {https://doi.org/10.1145/3524059.3532391?cid=99659165688},
   artifact = {https://doi.org/10.5445/IR/1000146001},
   bibtex_show = {True},
   abbr = {ICS}
@@ -338,18 +338,29 @@
   abbr = {arXiv}
 }
 
-@inproceedings{copik2022fmi,
-  author = {Copik, Marcin and Böhringer, Roman and Calotoiu, Alexandru and Hoefler, Torsten},
+@inproceedings{copik2022fmi, 
+  author = {Copik, Marcin and B\"{o}hringer, Roman and Calotoiu, Alexandru and Hoefler, Torsten},
   title = {FMI: Fast and Cheap Message Passing for Serverless Functions},
-  abstract = {Serverless functions provide elastic scaling with a fine-grained billing model. However, for distributed jobs that benefit from large-scale and dynamic parallelism, the lack of fast and cheap communication is a major limitation of FaaS computing. Individual functions do not communicate directly and group operations do not exist, and users resort to manual implementations of storage-based communication. We overcome this limitation and present the FaaS Message Interface (FMI). FMI is an easy-to-use, high-performance framework for general-purpose point-to-point and collective communication. We support different communication channels and offer a model-driven channel selection according to performance and cost expectations. We model the interface after MPI and show message passing can be integrated into serverless applications with minor changes. In our experiments, FMI can speed up communication for a distributed machine learning job by up to 162x while at the same time reducing cost by up to 941 times.},
   year = {2023},
+  isbn = {9798400700569},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3577193.3593718},
+  doi = {10.1145/3577193.3593718},
+  abstract = {Serverless functions provide elastic scaling and a fine-grained billing model, making Function-as-a-Service (FaaS) an attractive programming model. However, for distributed jobs that benefit from large-scale and dynamic parallelism, the lack of fast and cheap communication is a major limitation. Individual functions cannot communicate directly, group operations do not exist, and users resort to manual implementations of storage-based communication. This results in communication times multiple orders of magnitude slower than those found in HPC systems. We overcome this limitation and present the FaaS Message Interface (FMI). FMI is an easy-to-use, high-performance framework for general-purpose point-to-point and collective communication in FaaS applications. We support different communication channels and offer a model-driven channel selection according to performance and cost expectations. We model the interface after MPI and show that message passing can be integrated into serverless applications with minor changes, providing portable communication closer to that offered by high-performance systems. In our experiments, FMI can speed up communication for a distributed machine learning FaaS application by up to 162x, while simultaneously reducing cost by up to 397 times.},
+  booktitle = {Proceedings of the 37th International Conference on Supercomputing},
+  pages = {373–385},
+  numpages = {13},
+  keywords = {faas, function-as-a-service, serverless, I/O, high-performance computing},
+  location = {Orlando, FL, USA},
+  series = {ICS '23}
+  abstract = {Serverless functions provide elastic scaling with a fine-grained billing model. However, for distributed jobs that benefit from large-scale and dynamic parallelism, the lack of fast and cheap communication is a major limitation of FaaS computing. Individual functions do not communicate directly and group operations do not exist, and users resort to manual implementations of storage-based communication. We overcome this limitation and present the FaaS Message Interface (FMI). FMI is an easy-to-use, high-performance framework for general-purpose point-to-point and collective communication. We support different communication channels and offer a model-driven channel selection according to performance and cost expectations. We model the interface after MPI and show message passing can be integrated into serverless applications with minor changes. In our experiments, FMI can speed up communication for a distributed machine learning job by up to 162x while at the same time reducing cost by up to 941 times.},
   arxiv={2305.08763},
   code={https://github.com/spcl/fmi/},
   bibtex_show = {True},
   abbr = {ICS},
-  series = {ICS '23},
-  booktitle = {Proceedings of the 37th International Conference on Supercomputing},
   pdf = {2023_ics_fmi.pdf},
+  html = {https://dl.acm.org/doi/10.1145/3577193.3593718?cid=99659165688},
   selected = {true}
 }
 
