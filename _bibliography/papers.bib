@@ -353,8 +353,7 @@
   numpages = {13},
   keywords = {faas, function-as-a-service, serverless, I/O, high-performance computing},
   location = {Orlando, FL, USA},
-  series = {ICS '23}
-  abstract = {Serverless functions provide elastic scaling with a fine-grained billing model. However, for distributed jobs that benefit from large-scale and dynamic parallelism, the lack of fast and cheap communication is a major limitation of FaaS computing. Individual functions do not communicate directly and group operations do not exist, and users resort to manual implementations of storage-based communication. We overcome this limitation and present the FaaS Message Interface (FMI). FMI is an easy-to-use, high-performance framework for general-purpose point-to-point and collective communication. We support different communication channels and offer a model-driven channel selection according to performance and cost expectations. We model the interface after MPI and show message passing can be integrated into serverless applications with minor changes. In our experiments, FMI can speed up communication for a distributed machine learning job by up to 162x while at the same time reducing cost by up to 941 times.},
+  series = {ICS '23},
   arxiv={2305.08763},
   code={https://github.com/spcl/fmi/},
   bibtex_show = {True},
@@ -364,14 +363,34 @@
   selected = {true}
 }
 
-@misc{copik2022disagg,
+@inproceedings{copik2024disagg,
   author = {Copik, Marcin and Chrapek, Marcin and Schmid, Larissa and Calotoiu, Alexandru and Hoefler, Torsten},
   title = {Software Resource Disaggregation for HPC with Serverless Computing},
-  abstract = {The aggregated HPC resources with rigid allocation systems and programming models struggle to adapt to diverse and changing workloads. Thus, HPC systems fail to efficiently use the large pools of unused memory and increase the utilization of idle computing resources. Prior work attempted to increase the throughput and efficiency of supercomputing systems through workload co-location and resource disaggregation. However, these methods fall short of providing a solution that can be applied to existing systems without major hardware modifications and performance losses. In this paper, we use the new cloud paradigm of serverless computing to improve the utilization of supercom- puters. We show that the FaaS programming model satisfies the requirements of high-performance applications and how idle memory helps resolve cold startup issues. We demonstrate a software resource disaggregation approach where the co-location of functions allows to utilize idle cores and accelerators while retaining near-native performance.},
-  year = {2022},
+  abstract = {Aggregated HPC resources have rigid allocation systems and programming models which struggle to adapt to diverse and changing workloads. Consequently, HPC systems fail to efficiently use the large pools of unused memory and increase the utilization of idle computing resources. Prior work attempted to increase the throughput and efficiency of supercomputing systems through workload co-location and resource disaggregation. However, these methods fall short of providing a solution that can be applied to existing systems without major hardware modifications and performance losses. In this paper, we improve the utilization of supercomputers by employing the new cloud paradigm of serverless computing. We show how serverless functions provide fine-grained access to the resources of batch-managed cluster nodes. We present an HPC-oriented Function-as-a-Service (FaaS) that satisfies the requirements of high-performance applications. We demonstrate a \emph{software resource disaggregation} approach where placing functions on unallocated and underutilized nodes allows idle cores and accelerators to be utilized while retaining near-native performance.},
+  year = {2024},
   bibtex_show = {True},
-  abbr = {arXiv},
-  pdf = {2022_software_disaggregation_preprint.pdf}
+  abbr = {IPDPS},
+  series = {IPDPS '24},
+  booktitle = {Proceedings of the 38th IEEE Interational Parallel and Distributed Processing Symposium},
+  pdf = {2022_software_disaggregation_preprint.pdf},
+  arxiv={2401.10852}
+}
+
+@inproceedings{2021rfaas,
+  title={{r}FaaS: Enabling High Performance Serverless with RDMA and Leases},
+  author={Marcin Copik and Konstantin Taranov and Alexandru Calotoiu and Torsten Hoefler},
+  year={2023},
+  arxiv={2106.13859},
+  abstract={High performance is needed in many computing systems, from batch-managed supercomputers to general-purpose cloud platforms. However, scientific clusters lack elastic parallelism, while clouds cannot offer competitive costs for high-performance applications. In this work, we investigate how modern cloud programming paradigms can bring the elasticity needed to allocate idle resources, decreasing computation costs and improving overall data center efficiency. Function-as-a-Service (FaaS) brings the pay-as-you-go execution of stateless functions, but its performance characteristics cannot match coarse-grained cloud and cluster allocations. To make serverless computing viable for high-performance and latency-sensitive applications, we present rFaaS, an RDMA-accelerated FaaS platform. We identify critical limitations of serverless - centralized scheduling and inefficient network transport - and improve the FaaS architecture with allocation leases and microsecond invocations. We show that our remote functions add only negligible overhead on top of the fastest available networks, and we decrease the execution latency by orders of magnitude compared to contemporary FaaS systems. Furthermore, we demonstrate the performance of rFaaS by evaluating real-world FaaS benchmarks and parallel applications. Overall, our results show that new allocation policies and remote memory access help FaaS applications achieve high performance and bring serverless computing to HPC.
+  },
+  code={https://github.com/spcl/rFaaS/},
+  bibtex_show = {True},
+  abbr = {IPDPS},
+  series = {IPDPS '23},
+  booktitle = {Proceedings of the 37th IEEE Interational Parallel and Distributed Processing Symposium},
+  artifact= {https://zenodo.org/record/7657524},
+  pdf = {2023_ipdps_rfaas.pdf},
+  selected = {true}
 }
 
 @misc{copik2022praas,

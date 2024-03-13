@@ -3,9 +3,8 @@ layout: page
 title: serverless software disaggregation for HPC
 description:
 img: /assets/img/disagg/overview.png
-github: todo
-paper1: copik2022disagg
-paper1_description: Preprint
+paper1: copik2024disagg
+paper1_description: Paper @ IPDPS' 24
 importance: 3
 category: serverless
 ---
