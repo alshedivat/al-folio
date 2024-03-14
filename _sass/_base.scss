@@ -248,6 +248,7 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  height: #{$navbar-height} !important;
 }
 
 .navbar .dropdown-menu {
@@ -1117,4 +1118,100 @@ swiper-container {
   --swiper-navigation-color: var(--global-theme-color);
   --swiper-pagination-color: var(--global-theme-color);
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
+}
+
+.full-height {
+  // calculate full screen height minus the portion of the navbar minus padding (3rem)
+  // min height will avoid weird small screen behaviour
+  min-height: calc(100vh - #{$navbar-height} - 3rem);
+  // get a responsive line on the bottom of the div in theme color
+  display: table;
+}
+
+// requires a display: table parent
+.anchor-bottom {
+  width: 100wv;
+  height: 2.5px;
+  display: table-row;
+  vertical-align: bottom;
+}
+
+// full screen horizontal line (hr) no matter the parent divs dimensions
+.full-width {
+  width: 100vw;
+  position: relative;
+  height: 2.5px;
+  background-color: var(--global-theme-color);
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+#invisible-button {
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  display: block;
+  margin: auto;
+}
+
+// animated the arrows to bottom of page
+#animated-arrows {
+  fill: var(--global-theme-color);
+  display: block;
+  margin: auto;
+	width: 75px;
+  height: 65px;
+
+  // on hover the arrows will transition into middle 
+  &:hover {
+    path {
+      fill: var(--global-text-color);
+      transition: all .2s ease-out;
+      animation-name: none;
+
+      &.animated-arrow-bottom {
+        transform: translateY(200px);
+      }
+
+      &.animated-arrow-top {
+        transform: translateY(200px);
+      } 
+    }
+  }
+}
+
+// fading effect 
+@keyframes arrow-fade {
+  0%    {fill-opacity: 100%;}
+  50%   {fill-opacity: 0%;}
+  100%  {fill-opacity: 100%;}
+}
+
+.animated-arrow-top {
+  animation-delay: 0s;
+  animation-name: arrow-fade;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.animated-arrow-middle {
+  animation-delay: 0.5s;
+  animation-name: arrow-fade;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  transform: translate(0px,200px);
+}
+  
+.animated-arrow-bottom {
+  animation-delay: 1s;
+  animation-name: arrow-fade;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  transform: translate(0px,400px);
+}
+
+#animated-arrow {
+  transition: all .2s ease-out;	 
 }
