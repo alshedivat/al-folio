@@ -99,7 +99,8 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 2. In `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` empty.
 3. Set up automatic deployment of your webpage (see instructions below).
 4. Make changes to your main branch, commit, and push!
-5. After deployment, the webpage will become available at `<your-github-username>.github.io`.
+5. The very first time you build the website, to create the gh-pages branch, it is necessary to manually run `./bin/deploy --user`.
+6. After deployment, the webpage will become available at `<your-github-username>.github.io`.
 
 ### For project pages
 
