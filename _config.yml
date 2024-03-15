@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Robert Ruiz | Cybersecurity Profession | Security Engineer | Threat Detection # the website title (if blank, full name will be used instead)
 first_name: Robert
 middle_name: S.
 last_name: Ruiz
@@ -159,7 +159,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url: https://medium.com/@pedalknife
 
 # -----------------------------------------------------------------------------
 # Collections
