@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Engineer to Scientist # the website title (if blank, full name will be used instead)
+title: Figuring Things Out # the website title (if blank, full name will be used instead)
 first_name: Jose
 middle_name: T.
 last_name: Gonsalves
@@ -220,6 +220,9 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/dropdown.md
+  - _pages/teaching.md
+  - _pages/profiles.md
   - purgecss.config.js
   - README.md
   - readme_preview/
