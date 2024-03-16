@@ -1,81 +1,55 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
-category: work
+title: Decentralized CAS
+description: "A DECENTRALIZED, DISTRIBUTED STORAGE SYSTEM DESIGNED FOR PEER-TO-PEER (P2P) FILE STORAGE. SUPPORTS
+LARGE FILE STREAMING AND ENCRYPTED STORAGE ON REMOTE PEERS."
+img: assets/img/cas.png
+importance: 2
+category: OpenSource
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Distributed CAS (Content Addressed Storage)
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Implemented in Golang
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+We have a network of nodes each running this server on their systems; they can now save a file not only on their local disks but also on other nodes
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Similarly they can retrieve their file from other nodes usign the key against which they had saved the file in the network.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+All files are stored on remote peer/nodes in an encrypted fashion so they can't view their peer's private data.
 
+# DOCS
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## Overview
 
+CAS (Content Addressed Storage) is a distributed storage system designed for peer-to-peer (P2P) file storage. It allows users to store and retrieve files across a network of distributed peers. In CAS, each peer in the network offers storage infrastructure, enabling files to be stored in an encrypted fashion on remote peers. The system supports streaming of files up to 5 GB in size and is primarily optimized for Write Once Read Many (WORM) operations. This means that data stored in CAS is intended to be immutable, making it suitable for content such as books, legal documents, movies, and other archival media.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Architecture
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+The CAS system is built upon a custom P2P library that enables peers to listen for and accept connections, as well as consume a channel of messages. These messages can be categorized into three types:
+
+1. **Incoming Message for Getting Data:** Peers can request data from the network by broadcasting a "get" request.
+2. **Storing Data:** Peers can store files on the network by broadcasting a "store file" request. The file is replicated across three other peers in the network and stored locally on the requesting node.
+3. **Receiving Peer List:** Peers periodically exchange their local peer lists with connected nodes, enabling active peer discovery.
+
+## Storage and Retrieval
+
+To store a file in the network, a peer broadcasts a "store file" request, resulting in the file being distributed and stored on three other peers in the network, as well as locally on the requesting node. Files are stored using a hashing algorithm, and each file is associated with a unique key. To retrieve a file, a "get" request is broadcasted, allowing a copy of the file to be retrieved from the network.
+
+## Active Peer Discovery
+
+For extensibility and network robustness, CAS implements active peer discovery. Peers periodically exchange their local peer lists with connected nodes, following a gossip protocol. This ensures that new peers are propagated throughout the network, enhancing network connectivity and resilience.
+
+## File Transformation
+
+Although files are hashed before storage on remote peers, they are transformed back into their original file type upon retrieval. This ensures seamless access to files stored in the CAS system.
+
+By leveraging the CAS system, users can securely store and retrieve files across a distributed network, with built-in redundancy and active peer discovery mechanisms ensuring reliable and efficient operation.
+
+## Networking
+
+The CAS system offers flexibility in networking by providing a transport interface that allows connections on any protocol. Currently, only TCP (Transmission Control Protocol) is implemented, but nodes can be added over protocols such as WebSockets, HTTP, gRPC, etc. This modular approach enables seamless integration with different networking protocols, making CAS adaptable to various network environments and use cases.
+
+![image](https://github.com/EggsyOnCode/CAS/assets/77304003/56ea9ca1-2188-40dc-9cbd-8b3c7325372f)
+
+[link to the repo](https://github.com/EggsyOnCode/CAS)

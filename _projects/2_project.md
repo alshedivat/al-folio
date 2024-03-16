@@ -1,81 +1,68 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
+title: Asset Swap
+description: "A P2P DECENTRALIZED COMMERCE MICROSERVICES-BASED WEB APPLICATION WHICH FACILITATES SECURE,
+TRANSPARENT, TRUSTLESS BUYING AND SELLING WITHOUT THE NEED FOR ADVANCE OR DOWNPAYMENTS ETC
+"
+img: assets/img/chainlink.png
+importance: 1
+category: OpenSource
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Motivations
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Earlier last year a family member of mine was defrauded during the purchase of a 2nd hand vehicle. The transaction was to be done p2p and not with a firm.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The seller backed out at the last minute and refused to return the $1000 we had given him as a collateral for estbalishing trust.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+This made me think of a trustless system where trust of a transactional interaction was inherent in the system.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+That's where the idea for Asset Swap was born.
 
+It's A P2P DECENTRALIZED COMMERCE MICROSERVICES-BASED WEB APPLICATION WHICH FACILITATES SECURE,
+TRANSPARENT, TRUSTLESS BUYING AND SELLING WITHOUT THE NEED FOR ADVANCE OR DOWNPAYMENTS ETC
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+# Tech Stack used
 
+## Architecture
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- Microservices ; Event Based; shared DB architecture
+- RabbitMQ for microservices comms
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+## Tools
+
+- NestJS as Backend Framework
+- HTTP REST Apis
+- DB:
+  - Postgres
+  - ORMS:
+    - TypeORM
+- Jest for unit testing
+
+## Blockchain
+
+- Foundry for smart contract dev and testing
+- anvil as local blockchain node
+- MetaMask as web3 wallet
+- Storing NFT tokens of assets on IPFS nodes
+  - nft.storage service used
+
+## Cloud and DevOPS
+
+- AWS S3 bucket for storing static data
+- Docker for containerizing each microservice
+- Deploying these images to AWS ECR private container registry
+- AWS ECS to orchestrate a cluster of these docker images
+- CI / CD:
+  - AWS Codepipline to create ci / cd
+
+## Front End
+
+- VueJS
+- Vuetify as design framework
+- Figma for creating ui ux designs
+
+[link to the backend repo](https://github.com/EggsyOnCode/asset-swap-server)
+
+[link to the frontend repo](https://github.com/EggsyOnCode/asset-swap-vue)
