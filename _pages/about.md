@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.linkedin.com/in/josethiagogonsalves/'>Affiliations</a> . Virginia Tech . UBC
+subtitle: <a href='#'>Affiliations</a> . Virginia Tech . UBC
 
 profile:
   align: right
