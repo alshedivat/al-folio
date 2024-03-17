@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a> . Virginia Tech . UBC
+subtitle: <a href='#'>Affiliations</a> . [Virginia Tech](https://www.aerohydroacoustics.com/) . [UBC](https://cml.mech.ubc.ca/research/)
 
 profile:
   align: right
