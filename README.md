@@ -12,9 +12,7 @@
 
 ## Website Development References
 
-This personal porfolio website could not have existed without the amazing templet design provided by the [**al-folio**](https://alshedivat.github.io/al-folio/) development team  as well as the tremendous support gifted by its community of contributors. 
-
-The conributors and mainteners of the referenced repository link are given below. 
+This personal porfolio website could not have existed without the amazing templet design provided by the [**al-folio**](https://alshedivat.github.io/al-folio/) development team  as well as the tremendous support gifted by its community of contributors. The conributors and mainteners of the referenced repository link are given below. 
 
 ### Maintainers
 
