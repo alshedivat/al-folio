@@ -2,16 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b><a href='https://alirezad.ir'>SITE</a> IS IN BETA!</b> Graduted M.Sc. from <a href='https://ut.ac.ir/en'>University of Tehran</a>, Iran
+subtitle: <b><a href='https://alirezad.ir'>SITE</a> IS IN BETA!</b> Welcome!
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Graduted M.Sc. from</p>
-    <p><a href='https://ut.ac.ir/en'>University of Tehran</a>, Iran</p>
-#    <p>123 your address street</p>
+    <p>Coding and linux enthusiast</p>
+    <p>Loving nature and like Niksen</p>
+    <p>Graduted M.Sc. from <a href='https://ut.ac.ir/en'>UT</a></p>
 #    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
