@@ -2,46 +2,75 @@
 layout: default
 ---
 <div class="post">
-  <div class="full-height">
-    <header class="post-header">
-      <h1 class="post-title">
-        {% if site.title == 'blank' %}
-          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-          {{ site.last_name }}
-        {% else %}
-          {{ site.title }}
-        {% endif %}
-      </h1>
-      <p class="desc">{{ page.subtitle }}</p>
-    </header>
-    
-    <hr>
 
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+  <!-- Social -->
+  {% if page.social %}
+    <div class="social social-left d-flex flex-row">
+      <div class="d-flex flex-column">
+        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="vr"></div>
       </div>
-    {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
-    <div class="anchor-bottom" id="anchor-bottom">
+      <div class="contact-note"><p>{{ site.contact_note }}</p></div>
+    </div>
+    <div class="social social-right d-flex flex-column">
+      <p>test@email.com</p>
+      <div class="vr"></div>
+    </div>
+  {% endif %}
+  </div>
+
+  <!-- About Page Content -->
+  <div class="full-height d-flex flex-column">
+    <div class="container d-flex flex-column flex-base justify-content-center">
+      
+      <div class="d-flex flex-column align-self-center">
+        <header class="post-header">
+          <h1 class="post-title">
+            {% if site.title == 'blank' %}
+              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+              {{ site.last_name }}
+            {% else %}
+              {{ site.title }}
+            {% endif %}
+          </h1>
+          <p class="desc">{{ page.subtitle }}</p>
+        </header>
+        
+        <hr>
+
+        <div class="d-flex flex-row flex-wrap flex-base">
+          {% if page.profile %}
+            <div style="flex-grow: 1" class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+              {% if page.profile.image %}
+                {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+                {% if page.profile.image_circular %}
+                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                {% else %}
+                  {% assign profile_image_class = 'img-fluid z-depth-1
+            rounded' %}
+                {% endif %}
+                {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+            30vw, 95vw"{% endcapture %}
+                {%
+                  include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+                  cache_bust=true
+                %}
+              {% endif %}
+              {% if page.profile.more_info %}
+                <div class="more-info">{{ page.profile.more_info }}</div>
+              {% endif %}
+            </div>
+          {% endif %}
+
+          <div style="flex: 15" class="clearfix">{{ content }}</div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom border line -->
+    <div class="algin-self-end" id="anchor-bottom">
       <!-- font awesome arrows -->
       <button id="invisible-button" 
         onclick="document.getElementById('anchor-bottom').scrollIntoView({ behavior: 'smooth', inline: 'end' });">
@@ -51,11 +80,13 @@ layout: default
           <path id="animated-arrow" class="animated-arrow-bottom" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
         </svg>
       </button>
+      <!-- cheat a little bit to get full broweser size inside limited conta container -->
       <div class="full-width"></div>
     </div>
   </div>
   
   <div style="margin-top: 40px;"></div>
+  <div class="container">
   <!-- News -->
   {% if page.news and site.announcements.enabled %}
     <h2>
@@ -82,14 +113,5 @@ layout: default
       <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
     </h2>
     {% include selected_papers.liquid %}
-  {% endif %}
-
-  <!-- Social -->
-  {% if page.social %}
-    <div class="social">
-      <div class="contact-icons">{% include social.liquid %}</div>
-
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
   {% endif %}
 </div>

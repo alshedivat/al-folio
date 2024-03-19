@@ -379,21 +379,71 @@ ul.task-list input[type="checkbox"] {
 
 // Social (bottom)
 
+.social-left {
+  left: 0;
+  margin-left: -15px;
+}
+
+.social-right {
+  right: 0;
+  bottom: 0;
+  margin-left: 15px;
+}
+
 .social {
   text-align: center;
+  // fix to left of screen
+  position: fixed;
+  bottom: 0;
+
+  .vr {
+    border-left: 2px solid;
+    flex-grow: 1;
+    margin-left: 32px;
+    min-height: 200px;
+    border-image: 
+      linear-gradient(
+        to bottom, 
+        var(--global-theme-color),
+        rgba(0, 0, 0, 0)
+      ) 1 100%;
+  }
+
+  p {
+    writing-mode: vertical-lr; /* Vertical writing from bottom to top */
+    transform: rotate(180deg); /* For browser compatibility, rotate it back */
+    transform-origin: center; /* Rotate around the center */
+  }
+
+  ul {
+    margin: 0;
+    padding: 20px;
+
+    ::after {
+      display: block;
+      width: 1px;
+      height: 90px;
+      margin: 0px auto;
+      background-color: var(--light-slate);
+    }
+  }
+
+  li {
+    list-style-type: none;
+  }
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.5rem;
 
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-theme-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-text-color);
         }
       }
     }
@@ -1120,32 +1170,22 @@ swiper-container {
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
 
+.flex-wrap { flex-wrap: wrap; }
+.flex-center { justify-content: center; }
+.flex-base { flex: 1; }
+
 .full-height {
   // calculate full screen height minus the portion of the navbar minus padding (3rem)
   // min height will avoid weird small screen behaviour
   min-height: calc(100vh - #{$navbar-height} - 3rem);
-  // get a responsive line on the bottom of the div in theme color
-  display: table;
 }
 
-// requires a display: table parent
-.anchor-bottom {
-  width: 100wv;
-  height: 2.5px;
-  display: table-row;
-  vertical-align: bottom;
-}
 
 // full screen horizontal line (hr) no matter the parent divs dimensions
 .full-width {
   width: 100vw;
-  position: relative;
   height: 2.5px;
   background-color: var(--global-theme-color);
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
 }
 
 #invisible-button {
@@ -1214,4 +1254,36 @@ swiper-container {
 
 #animated-arrow {
   transition: all .2s ease-out;	 
+}
+
+.game-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  // Make caption go below table
+  flex-direction: column;
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    // Make caption go below table
+    caption-side: bottom;
+    flex: 1;
+  }
+}
+
+.d-flex {
+  // otherwise hr components will have no width
+  hr {
+    width: 100%;
+  }
 }
