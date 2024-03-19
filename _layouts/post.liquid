@@ -5,6 +5,7 @@ layout: default
 {% assign tags = page.tags | join: '' %}
 {% assign categories = page.categories | join: '' %}
 
+<div class="container">
 {% if page._styles %}
   <!-- Page/Post style -->
   <style type="text/css">
@@ -87,4 +88,5 @@ layout: default
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
   {% endif %}
+</div>
 </div>
