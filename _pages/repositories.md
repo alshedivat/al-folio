@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: repositories
 description: Selected_Work includes a selection of projects that demonstrate understanding of basic data science concepts and libraries. TechCamp_DataViz includes the course material I developed for a course I co-taught during Tech Journey's Tech Camp (summer 2023).
-nav: true
+nav: false #change to true to activate
 nav_order: 4
 ---
 
