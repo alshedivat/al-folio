@@ -183,13 +183,17 @@ EnvironmentNotWritableError: The current user does not have write permissions to
   gid: 1001
 ```
 
-The command for creating new environment is:
+The commands for creating new environment are:
 
 ```bash
+# create with a specified name
 conda create --name <new_env_name> python=3.11 --no-default-packages
+# create with a specified location
+conda create --prefix /path/to/directory python=3.11 --no-default-packages
 ```
 
 - `--name <new_env_name>` will set the name of the new environment.
+- `--prefix /path/to/directory` will set the path to the directory where you want to create the environment。
 - `python=3.11` means conda will install python 3.11 in the new environment.
 - `--no-default-packages` will only install python. No other site packages will be included.
 
@@ -242,7 +246,7 @@ Refer to
 To add an environment as a kernel:
 
 ```bash
-conda activate <env_name>
+conda activate <env_name>  # or /path/to/directory if you create the env with --prefix
 conda install ipykernel  # if the env doesn't contain this package
 python -m ipykernel install --name <kernel_name>
 ```
@@ -552,4 +556,28 @@ If you are synchronizing a large file, you may want to monitor the process:
 watch -n <time_interval> du -sh /path/to/large/file
 ```
 
-Now, your server should be well-suited for your bioinformatics research. Enjoy it!
+## Install some basic fonts
+
+By default, some basic fonts in Windows are not installed in Linux, such as `Arial` and `Times New Roman`. These fonts are commonly used in papers and websites, and having them installed can improve the display of figures that expect these fonts to be available. You can install them by:
+
+```bash
+sudo apt install msttcorefonts
+rm -rf ~/.cache/matplotlib
+```
+
+The `msttcorefonts` package is a collection of TrueType fonts from Microsoft. The second command clears the matplotlib cache directory located in the hidden `.cache` directory in the user's home directory.
+
+## Troubleshooting
+
+### Driver/library version mismatch
+
+When you run `nvidia-smi`, you may get
+
+```bash
+Failed to initialize NVML: Driver/library version mismatch
+```
+
+[This answer](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch/45319156#45319156) from stackoverflow may help. Briefly you can either reboot or unload the `nvidia` module.
+
+
+Now, your server should be well-suited for your bioinformatics research and you know what to do when things go wrong. Enjoy it!
