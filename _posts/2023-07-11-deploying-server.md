@@ -579,5 +579,4 @@ Failed to initialize NVML: Driver/library version mismatch
 
 [This answer](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch/45319156#45319156) from stackoverflow may help. Briefly you can either reboot or unload the `nvidia` module.
 
-
 Now, your server should be well-suited for your bioinformatics research and you know what to do when things go wrong. Enjoy it!
