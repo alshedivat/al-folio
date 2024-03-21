@@ -2,6 +2,6 @@
 permalink: /robots.txt
 ---
 User-agent: *
-Disallow:
+Allow: /
 
 Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
