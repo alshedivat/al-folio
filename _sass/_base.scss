@@ -379,28 +379,39 @@ ul.task-list input[type="checkbox"] {
 
 // Social (bottom)
 
-.social-left {
-  left: 0;
-  margin-left: -15px;
+.enable-pointer {
+  pointer-events: visible;
 }
 
-.social-right {
-  right: 0;
-  bottom: 0;
-  margin-left: 15px;
+.flex-fill{
+  flex-grow: 1;
+  pointer-events: none;
 }
 
 .social {
   text-align: center;
   // fix to left of screen
   position: fixed;
+  width: 100vw;
   bottom: 0;
+  pointer-events: none;
 
   .vr {
-    border-left: 2px solid;
     flex-grow: 1;
-    margin-left: 32px;
     min-height: 200px;
+  }
+
+  .vr::before {
+    content:"";
+    display: flex;
+    flex-grow: 1;
+  }
+
+  .vr::after {
+    content:"";
+    display: flex;
+    flex-grow: 1;
+    border-left: 2px solid;
     border-image: 
       linear-gradient(
         to bottom, 
@@ -409,10 +420,22 @@ ul.task-list input[type="checkbox"] {
       ) 1 100%;
   }
 
-  p {
+  p, .mail {
     writing-mode: vertical-lr; /* Vertical writing from bottom to top */
     transform: rotate(180deg); /* For browser compatibility, rotate it back */
     transform-origin: center; /* Rotate around the center */
+    // text has no default width
+    min-width: 20px;
+    text-align: center;
+  }
+
+  .mail {
+    padding: 20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height: 10em;
+    line-height: 2em;
   }
 
   ul {
@@ -1180,12 +1203,17 @@ swiper-container {
   min-height: calc(100vh - #{$navbar-height} - 3rem);
 }
 
-
 // full screen horizontal line (hr) no matter the parent divs dimensions
 .full-width {
   width: 100vw;
   height: 2.5px;
-  background-color: var(--global-theme-color);
+  background: 
+      linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0) 0%,
+        var(--global-theme-color) 50%,
+        rgba(0, 0, 0, 0) 100%
+      )
 }
 
 #invisible-button {
