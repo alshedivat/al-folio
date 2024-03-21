@@ -9,7 +9,7 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={false}"
 social: true  # includes social icons at the bottom of the page
 ---
-Interested in AI Safety (Looking for PhD positions)
+Interested in AI Safety
 \\
 \\
 Hi! I am Samyak. I am currently working at Five AI at Oxford, where I am advised by [Puneet Dokania](https://puneetkdokania.github.io). Previously, I have worked with [David Krueger](https://www.kasl.ai) at Cambridge University and [Venkatesh Babu](https://val.cds.iisc.ac.in/) at [Indian Institute of Science, Bangalore](https://iisc.ac.in/). Recently, I completed my bachelors and masters in [Computer Science](https://www.iitbhu.ac.in/dept/cse) at the [Indian Institute of Technology (BHU) Varansi](https://www.iitbhu.ac.in/), where my [thesis](https://drive.google.com/file/d/1J0bry6gDU5k_K3iMIRRrCV865wM9Ww49/view) focussed on understanding and improving adversarial robustness of neural networks. For the last few years I have been broadly working on Machine Learning with a particular focus on Adversarial Robustness, Generalization and Mechanistic Interpretability. Moving forward, I am excited about contributing in the field of AI Safety.
