@@ -1,8 +1,12 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
-inline: true
+title: Validation of Partitioned FSI completed
+date: 2023-05-25 16:11:00-0400
+inline: false
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+
+---
+
