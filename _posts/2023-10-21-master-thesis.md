@@ -25,7 +25,7 @@ Several days ago, I decided to create a new post here on my website to write sha
 
 First, I would like to share some terms of thoughts that going around in my mind.
 
-If you would like to read the main section → [#Thesis](#Thesis)
+If you would like to read the main section → [#Thesis](#thesis)
 
 
 ## My Background
