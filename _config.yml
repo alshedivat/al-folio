@@ -123,8 +123,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Curmudgeon # blog_name will be displayed in your blog page
-blog_description: Running thoughts on project progress
+blog_name: Bazodee # blog_name will be displayed in your blog page
+blog_description: Running thoughts on project related, professional, and personal success, failures and works in progress.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -133,7 +133,7 @@ pagination:
 
 related_blog_posts:
   enabled: true
-  max_related: 5
+  max_related: 3
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -220,7 +220,6 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
-  - _pages/blog.md
   - _pages/dropdown.md
   - _pages/publications.md
   - _pages/profiles.md
@@ -283,8 +282,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+display_tags: ["hobby", "professional", "programming", "maritime"] # these tags will be displayed on the front page of your blog
+display_categories: ["academic"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar

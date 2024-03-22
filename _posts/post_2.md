@@ -1,0 +1,45 @@
+---
+layout: post
+title: 1st Phase of Github FSI repository updating has begun!! 
+date: 2024-03-15 16:11:00-0400
+inline: false
+related_posts: false
+---
+
+With my time as a garduate student comping to a close I am finally able to ta
+
+
+These codes were very recently uploaded (March 20th, 2024) from my system and have yet to be vetted for general distribution/use. I am currently working through commenting, cleaning and re-testing these solver which were put together approximately 1 year ago. Please allow me the next few weeks to clean up the codes so as to make them more instructive, easy to use, and bug-free. 
+
+If the reader is still compelled to experiment I encourgae them to do so, however, `while this disclaimer is being displayed` I suggest that one exercises ***reasonable*** caution when using the partitoned solvers provided.
+
+---
+
+#### Benchmark Cases
+
+<ul>
+    <li> 2D Incompressible Flow over a Cantilevered Elastic Beam</li>
+    <li> 3D Pressure Pulse Propogation through an Elastic Tube</li>
+</ul>
+
+---
+
+> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
+> —Anais Nin
+
+---
+
+
+Lastly, for those readers seeking a more digestible version of the rebKIT-based monolthic FSI solvers or the individual (rebKIT-based) domain-specific solvers I have additionally compiled what I believe to be useful resources in the following repositories: 
+  1. [Monolithic Fluid Structure Interaction solvers](https://github.com/JTGonzo/Monolithic_FSI)
+  2. [Single Domain (CFD & CSM) solvers](https://github.com/JTGonzo/Single_Physics_Solvers)
+  3. [Partitioned (strongly coupled) Fluid Structure Interaction solvers](https://github.com/JTGonzo/Partitioned_FSI)
+  4. [Parrallelized Partitioned FSI solvers](https://github.com/JTGonzo/Multi-Threaded_Partitioned_FSI)
+  
+
+
+
+
+For absolute clarity, the [**redbKIT**](https://github.com/redbKIT/redbKIT) toolkit by itself is an ***AMAZING*** resource for (young) academics seeking an education on the finite element method and reduced-order modelling. As such I **strongly** recommend the reader fork that repository and work through redbKIT's numerous well crafted example problems. *I personally give this resource the lion's share of credit in helping me complete my graduate studies.*
+
+Having said that, however, as is true for (almost) all **well developed / robust** software packages used to tackle complex problems in computational physics; its sophistication tends to be its own undoing for those novice students beginning their journey in the simulation sciences or those young numerical methods researchers who are focusing on a niche element of the problem/framework/technique and just want the machinery around the issue to be (first) working and (secondly) easily digestible for peace of mind, debugging, development etc. purposes. As such, the codes provided above seek to shallow the learning curve and expedite the toolkit's adoption/integration. 
