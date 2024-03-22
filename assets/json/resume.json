@@ -22,28 +22,6 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
       "institution": "University of Tehran, Tehran, Iran",
@@ -68,15 +46,6 @@
       "courses": ["Theory of Relativity"]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
   "certificates": [
     {
       "name": "Machine Learning",
@@ -98,6 +67,16 @@
       "issuer": "Harvard University ",
       "url": "https://cs50.harvard.edu/certificates/a72d88d7-d288-4fb9-b7c0-e017542b0be1",
       "icon": "fa-solid fa-microchip"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quantum Computing",
+      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://example.com"
     }
   ],
   "skills": [
@@ -142,12 +121,43 @@
   "interests": [
     {
       "name": "Cyber-Security",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-bug",
       "keywords": [
         "Web Application Security",
         "Network Security",
         "Javascript"
       ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "People's Climate March",
+      "position": "Lead Organizer",
+      "url": "https://example.com",
+      "startDate": "2014-04-01",
+      "endDate": "2015-07-01",
+      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+    }
+  ],
+  "work": [
+    {
+      "name": "Institute for Advanced Study, Princeton University",
+      "position": "Professor of Theoretical Physics",
+      "url": "https://example.com",
+      "startDate": "1933-01-01",
+      "endDate": "1955-01-01",
+      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "highlights": ["Relativity"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Nobel Prize in Physics",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
   "references": [
@@ -160,16 +170,6 @@
       "name": "Professor John Doe",
       "icon": "fa-solid fa-thumbtack",
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
