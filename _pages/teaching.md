@@ -21,6 +21,34 @@ Below are some of the most recent courses that I have supported as a teaching as
 <td> Role </td>
 <td> Terms Taught </td>
 </tr>
+<tr>
+<td> Machine Design: Design with Mechanical Components </td>
+<td> [MECH 325](https://mech.ubc.ca/our-department/courses/)  </td>
+<td> ***fill*** </td>
+<td> Lead TA </td>
+<td> Fall 2021, 2022 & 2023 </td>
+</tr>
+<tr>
+<td> Introduction to Statistical Inference  </td>
+<td> [STAT 305](https://vancouver.calendar.ubc.ca/course-descriptions/courses/stat-305-introduction-statistical-inference) </td>
+<td>  ***fill*** </td>
+<td> TA  </td>
+<td> Summer II 2021 </td>
+</tr>
+<tr>
+<td> Elementary Statistics for Applications  </td>
+<td> [STAT 200](https://www.stat.ubc.ca/course/2021/winter/stat-200-elementary-statistics-applications-22) </td>
+<td>  ***fill*** </td>
+<td> TA  </td>
+<td> Spring 2021 & 2022  </td>
+</tr>
+<tr>
+<td> Physics Laboratory for Engineers</td>
+<td> [PHYS 159](https://vancouver.calendar.ubc.ca/course-descriptions/subject/phys)  </td>
+<td> ***fill*** </td>
+<td>  Senior TA </td>
+<td> Spring 2023  </td>
+</tr>
 </table>
 
 
