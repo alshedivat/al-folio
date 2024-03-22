@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: A collection of developed teaching resources and current tutorial series
+description: A collection of developed teaching resources and my tutorial series landing page
 nav: true
 nav_order: 6
 ---
@@ -13,9 +13,20 @@ nav_order: 6
 
 Below are some of the most recent courses that I have supported as a teaching assistant at the University of British Columbia.
 
-| ^^Course^^                                            | ^^Course Code^^ | ^^Role^^      | ^^Terms Taught^^            |
+<table>
+<tr>
+<td> Course </td>
+<td> Course Code </td>
+<td> Details  </td>
+<td> Role </td>
+<td> Terms Taught </td>
+</tr>
+</table>
+
+
+| Course                                            | Course Code | Role      | Terms Taught            |
 | :----------------                                 | :------:    | :----:    |  ----:                  |
-| ] Machine Design: Design with Mechanical Components [|   [MECH 325](https://mech.ubc.ca/our-department/courses/)  | Lead TA   | Fall 2021, 2022 & 2023  |
+| Machine Design: Design with Mechanical Components |   [MECH 325](https://mech.ubc.ca/our-department/courses/)  | Lead TA   | Fall 2021, 2022 & 2023  |
 | Introduction to Statistical Inference             |   [STAT 305](https://vancouver.calendar.ubc.ca/course-descriptions/courses/stat-305-introduction-statistical-inference)  | TA        | Summer II 2021          |
 | Elementary Statistics for Applications            |  [STAT 200](https://www.stat.ubc.ca/course/2021/winter/stat-200-elementary-statistics-applications-22)   | TA        | Spring 2021 & 2022      |
 | Physics Laboratory for Engineers                  |  [PHYS 159](https://vancouver.calendar.ubc.ca/course-descriptions/subject/phys)   | Senior TA | Spring 2023             |
