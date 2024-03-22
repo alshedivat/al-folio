@@ -97,7 +97,7 @@
       "date": "2023",
       "issuer": "Harvard University ",
       "url": "https://cs50.harvard.edu/certificates/a72d88d7-d288-4fb9-b7c0-e017542b0be1",
-      "icon": "fa-solid fa-clipboard-check"
+      "icon": "fa-solid fa-microchip"
     }
   ],
   "skills": [
@@ -109,6 +109,16 @@
         "Coding",
         "Machine Learning",
         "PiP"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Master",
+      "icon": "fa-brands fa-linux",
+      "keywords": [
+        "Linux Fundementals",
+        "Bash",
+        "Bash Scripting"
       ]
     }
   ],
@@ -131,15 +141,12 @@
   ],
   "interests": [
     {
-      "name": "Cybersecurity",
+      "name": "Cyber-Security",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Web Application Security",
+        "Network Security",
+        "Javascript"
       ]
     }
   ],
