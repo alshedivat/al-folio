@@ -81,10 +81,26 @@
     {
       "name": "Remote Controller for a Silage Block Cutting Machine",
       "summary": "Due to operator injuries, while cutting stacked up silage blocks, a remote controlling system was developed and configured so that the operators be able to control the machine using wireless technology. The device was able to fully control the machine. The developed device controlled the system by manipulating the pneumatic and hydraulic valves of the machine using a TCP/UDP local network with an android application. Which in fact, the machine performs with more precision and offers product and safety measures. Android application developed by <a href='https://www.linkedin.com/in/ali-khalili-790b10146/'>Eng. Ali Khalili</a> Based on React-native.",
-      "highlights": ["Linux", "Python", "Machine Vision", "Raspberry Pi"],
-      "startDate": "2020-12-01",
-      "endDate": "2021-02-01",
+      "highlights": ["Linux", "Arduino", "Electrical Circuits"],
+      "startDate": "2019-06-01",
+      "endDate": "2019-08-01",
       "url": "https://alirezad.ir"
+    },
+    {
+      "name": "Basil Harvester",
+      "summary": "(Team project) Design a machine to harvest basils as a successor to Scissor Jack since we got the best resualts and distinguished among other groups in related class.  There are a large number of small agriculture farms around mid-to-big cities in Iran which they plant different basils alongside eachother in several section in their farms. This project aimed this businesses to help them increasing outcome and decreasing wastes. This machine was design by intelligence functionality in mind and using previous works and experiences. Team members: <a target='_blank' href='https://www.linkedin.com/in/anis-azarmikhah-65a131203/'>Anis Azarmikhah</a>, <a target='_blank' href='https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/'>Hadi Farahmand</a>, Samira Komeili, Niloufar Rahimi.",
+      "highlights": ["Mechanical Engineering Design", "Solidworks", "Ansys", "Course: Harvesters Design"],
+      "startDate": "2019-09-20",
+      "endDate": "2020-02-01",
+      "url": "https://alirezad.ir/projects/basil_harvester/"
+    },
+    {
+      "name": "Scissor Jack",
+      "summary": "(Team project) Apply Mechanical Engineering Design knowledge to Design a scissor jack as a course project. Design was done using Solidworks and the analysis which was additional, done through Ansys Mechanical. Team members: <a target='_blank' href='https://www.linkedin.com/in/anis-azarmikhah-65a131203/'>Anis Azarmikhah</a>, <a target='_blank' href='https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/'>Hadi Farahmand</a>, Samira Komeili, Niloufar Rahimi.",
+      "highlights": ["Mechanical Engineering Design", "Solidworks", "Course: Mechanical Engineering Design"],
+      "startDate": "2019-02-01",
+      "endDate": "2019-05-20",
+      "url": "https://alirezad.ir/projects/scissor_jack/"
     }
   ],
   "skills": [
