@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Seeking recommendations on open-source projects with great communities that need developer help :nerd_face: :robot: :rocket: 
+Seeking recommendations for a cool open-source project with an active community that would welcome developer help :nerd_face: :robot: :rocket: 

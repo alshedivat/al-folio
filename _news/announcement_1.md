@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Currently seeking oportunities in engineering software development (digital twins, PINNs and high-fidelity simulation) emoji! :sparkles: :smile:
+Re-entering the (non-academic) job market and seeking opportunities in engineering software development/integration (digital twins, ROMs, etc.) - HUGE bonus if the project is targeted toward sustainability in the maritime sector emoji! :smile: :sailboat: 	:earth_americas:

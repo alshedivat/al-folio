@@ -6,28 +6,40 @@ inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+With my time as a garduate student comping to a close I am finally able to ta
+
+
+These codes were very recently uploaded (March 20th, 2024) from my system and have yet to be vetted for general distribution/use. I am currently working through commenting, cleaning and re-testing these solver which were put together approximately 1 year ago. Please allow me the next few weeks to clean up the codes so as to make them more instructive, easy to use, and bug-free. 
+
+If the reader is still compelled to experiment I encourgae them to do so, however, `while this disclaimer is being displayed` I suggest that one exercises ***reasonable*** caution when using the partitoned solvers provided.
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-#### Hipster list
+#### Benchmark Cases
 
 <ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
+    <li> 2D Incompressible Flow over a Cantilevered Elastic Beam</li>
+    <li> 3D Pressure Pulse Propogation through an Elastic Tube</li>
 </ul>
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
 ---
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
 
 > We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
 > —Anais Nin
 
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+---
+
+
+Lastly, for those readers seeking a more digestible version of the rebKIT-based monolthic FSI solvers or the individual (rebKIT-based) domain-specific solvers I have additionally compiled what I believe to be useful resources in the following repositories: 
+  1. [Monolithic Fluid Structure Interaction solvers](https://github.com/JTGonzo/Monolithic_FSI)
+  2. [Single Domain (CFD & CSM) solvers](https://github.com/JTGonzo/Single_Physics_Solvers)
+  3. [Partitioned (strongly coupled) Fluid Structure Interaction solvers](https://github.com/JTGonzo/Partitioned_FSI)
+  4. [Parrallelized Partitioned FSI solvers](https://github.com/JTGonzo/Multi-Threaded_Partitioned_FSI)
+  
+
+
+
+
+For absolute clarity, the [**redbKIT**](https://github.com/redbKIT/redbKIT) toolkit by itself is an ***AMAZING*** resource for (young) academics seeking an education on the finite element method and reduced-order modelling. As such I **strongly** recommend the reader fork that repository and work through redbKIT's numerous well crafted example problems. *I personally give this resource the lion's share of credit in helping me complete my graduate studies.*
+
+Having said that, however, as is true for (almost) all **well developed / robust** software packages used to tackle complex problems in computational physics; its sophistication tends to be its own undoing for those novice students beginning their journey in the simulation sciences or those young numerical methods researchers who are focusing on a niche element of the problem/framework/technique and just want the machinery around the issue to be (first) working and (secondly) easily digestible for peace of mind, debugging, development etc. purposes. As such, the codes provided above seek to shallow the learning curve and expedite the toolkit's adoption/integration. 
