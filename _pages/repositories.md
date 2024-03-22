@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: a landing page to slowly display my developer acumen and the relevant software repositories i'm working on
+description: a landing page to slowly display my developer acumen and the relevant software repositories that I'm currenty working on
 nav: true
 nav_order: 5
 ---

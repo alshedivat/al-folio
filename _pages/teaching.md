@@ -8,7 +8,7 @@ nav_order: 6
 pretty_table: true
 ---
 
-***This page is currently a WORK IN PROGRESS. Here I will be uploading some materials that I have developed for the below mentioned courses as well as those developed for various other workshops etc.. I also plan to host a landing page here for a tutorial series that I am putting together on the coordinated use of open-source software in commerical engineering enterprises (stay tuned!!).***
+***This page is currently a `WORK IN PROGRESS`. Here I will be uploading some materials that I have developed for the below mentioned courses as well as those developed for various other workshops etc.. I also plan to host a landing page here for a tutorial series that I am putting together on the coordinated use of open-source software in commerical engineering enterprises (stay tuned!!).***
 
 ---
 

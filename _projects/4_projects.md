@@ -1,14 +1,13 @@
 ---
 layout: page
-title: project 4
-description: digital twins in the shipbuilding concept development and construction phases
-img: assets/img/1.jpg
+title: Physics Informed Itertaive Design Tools
+description: digital twins in the concept development and construction phases of shipbuilding
+img: assets/img/digital_ship_twin.jpeg
 importance: 4
 category: fun
-giscus_comments: true
 ---
 
-***This page is currently a WORK IN PROGRESS. Here I will be uploading some materials that I have developed for the below mentioned courses as well as those developed for various other workshops etc.. I also plan to host a landing page here for a tutorial series that I am putting together on the coordinated use of open-source software in commerical engineering enterprises (stay tuned!!).***
+***This page is currently a `WORK IN PROGRESS`. In the coming months I will be posting project updates, proofs of concept, prototypes, and resources associated with an ongoing personal project to do with the integrating reduced-order simulation and version control tools into engineering concept design workflows. STAY TUNED!!.***
 
 ---
 
