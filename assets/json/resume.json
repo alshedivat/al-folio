@@ -183,6 +183,16 @@
         "Network Security",
         "Javascript"
       ]
+    },
+    {
+      "name": "Coding",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "C",
+        "Rust",
+        "Go"
+      ]
     }
   ],
   "awards": [
