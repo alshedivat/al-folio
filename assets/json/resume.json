@@ -50,7 +50,7 @@
       "location": "Tehran, Iran",
       "url": "https://ut.ac.ir/en",
       "area": "Biosystems Engineering",
-      "studyType": "MSc",
+      "studyType": "Master of Science",
       "startDate": "2020-11-01",
       "endDate": "2023-10-21",
       "score": "10",
@@ -61,7 +61,7 @@
       "location": "Tabriz, Iran",
       "url": "https://tabrizu.ac.ir/en",
       "area": "Biosystems Engineering",
-      "studyType": "BSc",
+      "studyType": "Bachelor of Science",
       "startDate": "2016-09-22",
       "endDate": "2020-09-20",
       "score": "10",
@@ -80,45 +80,24 @@
   "certificates": [
     {
       "name": "Machine Learning",
-      "date": "2022-10-01",
+      "date": "2022",
       "issuer": "Stanford University",
       "url": "https://www.coursera.org/account/accomplishments/certificate/BEYRHUN8XPLX",
-      "icon": "fa-solid fa-location-dot"
+      "icon": "fa-solid fa-brain"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Machine learning in Python with scikit-learn",
+      "date": "2023",
+      "issuer": "France Université Numérique",
+      "url": "https://openbadgefactory.com/v1/assertion/454d416de1e0ee727dd97fbd81fa89362c3d5230.html",
+      "icon": "fa-solid fa-laptop-code"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "CS50s Understanding Technology",
+      "date": "2023",
+      "issuer": "Harvard University ",
+      "url": "https://cs50.harvard.edu/certificates/a72d88d7-d288-4fb9-b7c0-e017542b0be1",
+      "icon": "fa-solid fa-microchip"
     }
   ],
   "publications": [
