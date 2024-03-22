@@ -109,8 +109,8 @@
       "level": "Master",
       "icon": "fa-brands fa-python",
       "keywords": [
-        "Coding",
-        "Machine Learning",
+        "Basics",
+        "Machine Learning oriented coding",
         "PiP"
       ]
     },
@@ -122,6 +122,16 @@
         "Linux Fundementals",
         "Bash",
         "Bash Scripting"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Master",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Basics",
+        "Fundemental Mathematical aspects",
+        "Scikit-Learn Library"
       ]
     }
   ],
@@ -155,24 +165,24 @@
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Precision Agriculture Group at Tabriz University",
+      "position": "Assistant Producer",
+      "url": "https://infoag.ir/en",
+      "startDate": "2019-06-01",
+      "endDate": "2021-06-01",
+      "summary": "Under supervising of <a target='_blank' href='https://www.researchgate.net/profile/Hossein-Navid'>Dr Hossein Navid</a> and advise of <a target='_blank' href='https://www.linkedin.com/in/hadi-karimi-77865b87/'>Dr Hadi Karimi</a>.",
+      "highlights": ["Learn-by-Doing, Working on real projects and learning mindset.", "Linux", "Python", "Electrical Circuits"]
     }
   ],
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Agricultural Mechinary Department, University of Tehran",
+      "position": "Researcher Student",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "startDate": "2022-03-01",
+      "endDate": "2023-09-21",
+      "summary": "Researching on Machine Learning models to refine Reconstructed ECT images. (Electrical Capacitance Tomography) My master thesis recommended by supervisor, Dr. Hossein Mousazadeh based on my experience. Based on project by <a target='_blank' href='https://www.pmo.ir/en/home'>Port &amp; Maritine Orginization of Iran</a>.",
+      "highlights": ["Machine Learning", "Image Processing", "Python", "Excel", "Mathematics"]
     }
   ],
   "awards": [
