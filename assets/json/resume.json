@@ -24,7 +24,7 @@
   },
   "education": [
     {
-      "institution": "University of Tehran, Tehran, Iran",
+      "institution": "University of Tehran",
       "location": "Tehran, Iran",
       "url": "https://ut.ac.ir/en",
       "area": "Biosystems Engineering",
@@ -32,10 +32,10 @@
       "startDate": "2020-11-01",
       "endDate": "2023-10-21",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Artificial Intelligence", "Automated Control", "Finite Element Methods"]
     },
     {
-      "institution": "Tabriz University, Tabriz, Iran",
+      "institution": "Tabriz University",
       "location": "Tabriz, Iran",
       "url": "https://tabrizu.ac.ir/en",
       "area": "Biosystems Engineering",
@@ -43,7 +43,7 @@
       "startDate": "2016-09-22",
       "endDate": "2020-09-20",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Mechanical Enginering Design", "Repair and Maintenance Engineering", "Electrical Circuits"]
     }
   ],
   "certificates": [
@@ -71,12 +71,20 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "PVC Duct Cutting Machine Computer Vision System",
+      "summary": "This project used computer vision technology to identify clipping points within PVC ducts, focusing on detecting their flat areas for accurate cuts. Adaptable to ambient noise, the system ensured consistent performance, while its lightweight design enabled seamless integration with the machine's high-speed operations. Utilizing a Raspberry Pi, this compact yet powerful computing platform was used to drive the entire system. ",
+      "highlights": ["Linux", "Python", "Machine Vision", "Raspberry Pi"],
+      "startDate": "2020-12-01",
+      "endDate": "2021-02-01",
+      "url": "https://alirezad.ir"
+    },
+    {
+      "name": "Remote Controller for a Silage Block Cutting Machine",
+      "summary": "Due to operator injuries, while cutting stacked up silage blocks, a remote controlling system was developed and configured so that the operators be able to control the machine using wireless technology. The device was able to fully control the machine. The developed device controlled the system by manipulating the pneumatic and hydraulic valves of the machine using a TCP/UDP local network with an android application. Which in fact, the machine performs with more precision and offers product and safety measures. Android application developed by <a href='https://www.linkedin.com/in/ali-khalili-790b10146/'>Eng. Ali Khalili</a> Based on React-native.",
+      "highlights": ["Linux", "Python", "Machine Vision", "Raspberry Pi"],
+      "startDate": "2020-12-01",
+      "endDate": "2021-02-01",
+      "url": "https://alirezad.ir"
     }
   ],
   "skills": [
