@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 2
-description: Fixed point iterative stabilization via adaptive regularization and secant selection
-img: assets/img/xiao_black.gif
-importance: 2
+title: project 3
+description: An interface tracking algorithm for FSI time-step initialization
+img: assets/img/3.jpg
+importance: 3
 category: work
 giscus_comments: true
 ---
