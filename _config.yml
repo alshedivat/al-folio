@@ -124,7 +124,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Bazodee # blog_name will be displayed in your blog page
-blog_description: Running thoughts on project-related, professional, and personal; success, failures, and works in progress.
+blog_description: Running thoughts on project-related, professional, and personal; successes, failures, and works in progress.
 permalink: /blog/:year/:title/
 
 # Pagination
