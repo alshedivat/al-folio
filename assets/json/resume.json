@@ -1,24 +1,24 @@
 {
   "basics": {
-    "name": "Alireza",
-    "label": "Scientist",
+    "name": "Alireza Dehghanzadeh",
+    "label": "M.Sc. Graduated",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "dehghanzadeh98@gmail.com",
+    "phone": "-",
+    "url": "https://alirezad.ir",
+    "summary": "Iranian student who is interested in Machine Learning and Cybersecurity and love nature",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Beheshti Blv.",
+      "postalCode": "-",
+      "city": "Meymeh",
+      "countryCode": "IR",
+      "region": "Esfahan"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "digdert",
+        "url": "https://twitter.com/digdert"
       }
     ]
   },
@@ -46,13 +46,24 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "University of Tehran, Tehran, Iran",
+      "location": "Tehran, Iran",
+      "url": "https://ut.ac.ir/en",
+      "area": "Biosystems Engineering",
+      "studyType": "MSc",
+      "startDate": "2020-11-01",
+      "endDate": "2023-10-21",
+      "score": "10",
+      "courses": ["Theory of Relativity"]
+    },
+    {
+      "institution": "Tabriz University, Tabriz, Iran",
+      "location": "Tabriz, Iran",
+      "url": "https://tabrizu.ac.ir/en",
+      "area": "Biosystems Engineering",
+      "studyType": "BSc",
+      "startDate": "2016-09-22",
+      "endDate": "2020-09-20",
       "score": "10",
       "courses": ["Theory of Relativity"]
     }
@@ -69,9 +80,9 @@
   "certificates": [
     {
       "name": "Machine Learning",
-      "date": "2018-01-01",
+      "date": "2022-10-01",
       "issuer": "Stanford University",
-      "url": "https://example.com",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/BEYRHUN8XPLX",
       "icon": "fa-solid fa-location-dot"
     },
     {
