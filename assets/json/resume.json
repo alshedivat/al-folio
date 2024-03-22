@@ -103,6 +103,28 @@
       "url": "https://alirezad.ir/projects/scissor_jack/"
     }
   ],
+  "volunteer": [
+    {
+      "organization": "Precision Agriculture Group at Tabriz University",
+      "position": "Assistant Producer",
+      "url": "http://infoag.ir/en/",
+      "startDate": "2019-06-01",
+      "endDate": "2021-06-01",
+      "summary": "Under supervising of <a target='_blank' href='https://www.researchgate.net/profile/Hossein-Navid'>Dr Hossein Navid</a> and advise of <a target='_blank' href='https://www.linkedin.com/in/hadi-karimi-77865b87/'>Dr Hadi Karimi</a>.",
+      "highlights": ["Learn-by-Doing, Working on real projects and learning mindset.", "Linux", "Python", "Electrical Circuits"]
+    }
+  ],
+  "work": [
+    {
+      "name": "Agricultural Mechinary Engineering Department, University of Tehran",
+      "position": "Researcher Student",
+      "url": "https://agri.ut.ac.ir/en/machinery",
+      "startDate": "2022-03-01",
+      "endDate": "2023-09-21",
+      "summary": "Researching on Machine Learning models to refine Reconstructed ECT images. (Electrical Capacitance Tomography) My master thesis recommended by supervisor, Dr. Hossein Mousazadeh based on my experience. Based on project by <a target='_blank' href='https://www.pmo.ir/en/home'>Port &amp; Maritine Orginization of Iran</a>.",
+      "highlights": ["Machine Learning", "Image Processing", "Python", "Excel", "Mathematics"]
+    }
+  ],
   "skills": [
     {
       "name": "Python",
@@ -161,28 +183,6 @@
         "Network Security",
         "Javascript"
       ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Precision Agriculture Group at Tabriz University",
-      "position": "Assistant Producer",
-      "url": "http://infoag.ir/en/",
-      "startDate": "2019-06-01",
-      "endDate": "2021-06-01",
-      "summary": "Under supervising of <a target='_blank' href='https://www.researchgate.net/profile/Hossein-Navid'>Dr Hossein Navid</a> and advise of <a target='_blank' href='https://www.linkedin.com/in/hadi-karimi-77865b87/'>Dr Hadi Karimi</a>.",
-      "highlights": ["Learn-by-Doing, Working on real projects and learning mindset.", "Linux", "Python", "Electrical Circuits"]
-    }
-  ],
-  "work": [
-    {
-      "name": "Agricultural Mechinary Engineering Department, University of Tehran",
-      "position": "Researcher Student",
-      "url": "https://agri.ut.ac.ir/en/machinery",
-      "startDate": "2022-03-01",
-      "endDate": "2023-09-21",
-      "summary": "Researching on Machine Learning models to refine Reconstructed ECT images. (Electrical Capacitance Tomography) My master thesis recommended by supervisor, Dr. Hossein Mousazadeh based on my experience. Based on project by <a target='_blank' href='https://www.pmo.ir/en/home'>Port &amp; Maritine Orginization of Iran</a>.",
-      "highlights": ["Machine Learning", "Image Processing", "Python", "Excel", "Mathematics"]
     }
   ],
   "awards": [
