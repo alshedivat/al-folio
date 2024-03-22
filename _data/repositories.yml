@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - JTGonzo
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
+  - JTGonzo/Multi-Threaded_Partitioned_FSI
+  - JTGonzo/Partitioned_FSI
+  - JTGonzo/Monolithic_FSI
+  - JTGonzo/Single_Physics_Solvers
   - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
   - mathjax/MathJax
