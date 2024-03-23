@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Physics Informed Design Tools
-description: digital twins in the concept development and construction phases of shipbuilding
+description: Digital twins in the concept development and construction phases of shipbuilding
 img: assets/img/digital_ship_twin.jpeg
 importance: 4
 category: fun

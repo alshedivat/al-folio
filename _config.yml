@@ -472,12 +472,13 @@ jsonresume:
   - basics
   - work
   - education
-  - publications
+  #- publications
   - projects
-  - volunteer
+  #- volunteer
   - awards
-  - certificates
-  - skills
+  #- certificates
   - languages
-  - interests
-  - references
+  - professional
+  - software
+  #- research_soft
+  #- references

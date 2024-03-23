@@ -1,70 +1,96 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jose Gonsalves",
+    "label": "Graduate Research Assistant",
     "image": "",
-    "email": "albert@einstein.de",
+    "email": "josetg@vt.de",
     "phone": "(604) 842-8917",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "url": "https://cml.mech.ubc.ca/resources/",
+    "summary": "Excited to begin a new chapter and seeking opportunities in engineering software development/integration (digital twins, ROMs, etc.)",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "6250 Applied Science Ln",
+      "postalCode": "V6T 1Z4",
+      "city": "Vancouver",
+      "countryCode": "Canada",
+      "region": "British Columbia"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "linkedin",
+        "username": "josethiagogonsalves",
+        "url": "https://www.linkedin.com/in/josethiagogonsalves/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "Graduate Research Assistant, Princeton University",
+      "position": "Graduate Research Assistant",
+      "url": "https://cml.mech.ubc.ca/research/",
+      "startDate": "2020-09-01",
+      "endDate": "2024-01-01",
+      "highlights": ["Developed a robust and efficient quasi-Newton coupling algorithm to stabilize and accelerate the iterative convergence of (partitioned) low mass-ratio fluid-structure interaction (FSI) simulations based on an adaptively regularized Anderson Acceleration and eigenmode filtering strategy. Integrated these algorithms (and additional tools) into the lab's MPI parallelized HPC research code base."]
+    },
     {
-      "organization": "People's Climate March",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "NETSCo. Inc",
+      "position": "Junior Naval Architect and Marine Engineer",
+      "url": "https://netsco.us/",
+      "startDate": "2017-04-01",
+      "endDate": "2019-07-30",
+      "highlights": ["Developed conversion concepts through to regulatory type approval (synthesizing class rules, generating renderings, performing calcs, projecting feasibility, producing drawings and arrangements), including an OSV to both an LNG Tanker and a WT Installation Vessel", "Lead NETSCo's engineering, coordination, technology development, and patent filing efforts in tandem with various industry partners (owners, operators, scientist, regulatory bodies, and community representatives) to bring a feasible BWMS to the Great Lakes"]
+    }, 
+    {
+      "name": "MiNO Marine LLC",
+      "position": "Naval Architecture Intern",
+      "url": "https://www.minomarine.com/",
+      "startDate": "2017-04-01",
+      "endDate": "2019-07-30",
+      "highlights": ["Developed spreadsheets for; EPLA, preliminary weight estimating, vessel loading and, operational conditions and stability analyses."]
+    }, 
+    {
+      "name": "Tsunami Marine Limited",
+      "position": "Naval Architecture Intern and Extern",
+      "url": "https://tsunamimarine.com/",
+      "startDate": "2013-04-01",
+      "endDate": "2015-07-30",
+      "highlights": ["Performed detailed fire damage inspections, operations audits, cost estimates and reconstruction recommendations for 4 gutted ships, summarizing them into technical reports on behalf of vessel owners/operators to be used for insurance claims upward of $1.2M"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
+      "institution": "Virginia Tech, USA",
+      "location": "Blacksburg, Virginia",
+      "url": "https://www.aoe.vt.edu/",
+      "area": "Aerospace and Ocean Engineering",
+      "studyType": "BSc.",
+      "startDate": "2012-08-30",
+      "endDate": "2016-05-16",
+      "score": "3.85"
+    },
+    {
+      "institution": "University of British Columbia, Canada",
+      "location": "Vancouver, British Columbia",
+      "url": "https://mech.ubc.ca/",
+      "area": "Mechanical Engineering",
+      "studyType": "MSc",
+      "startDate": "2020-09-01",
+      "endDate": "2024-04-10",
+      "score": "3.9"
+    }    
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
+      "title": "The Gartshore Fellowship",
+      "date": "2020-04-20",
+      "awarder": "UBC Department of Mechanical Engineering",
+      "url": "https://mech.ubc.ca/graduate/funding/#awards"
+    },
+    {
+      "title": "The Chester Long Graduate Scholarship",
+      "date": "2020-05-01",
+      "awarder": "The Society of Naval Architects and Marine Engineers",
+      "url": "https://www.sname.org/form/graduate-scholarship-ap-new"
+    }   
   ],
   "certificates": [
     {
@@ -73,53 +99,9 @@
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    }
-  ],
-  "skills": [
+  "software": [
     {
       "name": "Physics",
       "level": "Master",
@@ -136,17 +118,17 @@
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "Spanish",
+      "fluency": "Intermediate",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Native speaker",
       "icon": ""
     }
   ],
-  "interests": [
+  "professional": [
     {
       "name": "Physics",
       "icon": "fa-solid fa-tag",
