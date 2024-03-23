@@ -6,13 +6,10 @@ inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+#### Resource Usage
 
 ---
 
-Below is a summary of the [Digital Research Alliance](https://alliancecan.ca/en) compute cluster usage for the [Computational Multiphysics Lab's](https://cml.mech.ubc.ca/research/) various researchers. Details of my individual CPU usage for the last year is highlighted. 
-
-
-#### Hipster list
+Below is a summary of the [Digital Research Alliance](https://alliancecan.ca/en) compute cluster usage for the [Computational Multiphysics Lab's](https://cml.mech.ubc.ca/research/) various graduate researchers. Details of my individual CPU usage for the last year is highlighted. 
 
 ![](/assets/img/compute_usage.jpg)
