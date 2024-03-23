@@ -11,8 +11,8 @@ pretty_table: true
 ## Part-Time Employment 
 <table class="table table-dark">
 <tr>
-    <th> T&T Red Cross Society (TTRCS) </th>
-    <th> March 2020 – August 2020 </th>
+    <th> Canadian Union of Public Employees (CUPE 2278) </th>
+    <th>September 2022 – August 2023</th>
 </tr>
 <tr>
     <td> Contracted Community Organizer </td>
@@ -31,8 +31,8 @@ pretty_table: true
 
 <table class="table table-dark table-bordered">
 <tr>
-    <th> T&T Red Cross Society (TTRCS) </th>
-    <th> March 2020 – August 2020 </th>
+    <th> United Way T&T	 </th>
+    <th>March 2020 – August 2020 ...</th>
 </tr>
 <tr>
     <td> Part-Time Youth Services Support </td>
@@ -52,7 +52,7 @@ pretty_table: true
 <table class="table table-dark table-bordered">
 <tr>
     <th> T&T Red Cross Society (TTRCS) </th>
-    <th> March 2020 – August 2020 </th>
+    <th>March 2020 – August 2020 ...</th>
 </tr>
 <tr>
     <td> GIS Team Member </td>
@@ -81,15 +81,3 @@ A brief list of other organizations that I am or have been actively volunteering
     <li> <a href='https://catholichokie.org/'> The Newman Community </a> </li>
     <li> St. Ann’s Parish  </li>
 </ul>
-
-
-<!-- 
-<tr>
-    <td> United Way T&T	 </td>
-    <td> March 2020 – August 2020 </td>
-</tr>
-
-<tr>
-    <td> Canadian Union of Public Employees (CUPE 2278) </td>
-    <td> September 2022 – August 2023 </td>
-</tr> -->
