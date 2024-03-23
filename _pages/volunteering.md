@@ -2,7 +2,7 @@
 layout: page
 permalink: /volunteering/
 title: volunteering
-description: What its all about. The necessary devotions of one's life that also happen to  fill my cup. 
+description: What its all about. A list of current and past devotions. 
 nav: true
 nav_order: 7
 pretty_table: true
