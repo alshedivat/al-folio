@@ -120,7 +120,12 @@
       "date": "2020-05-01",
       "awarder": "The Society of Naval Architects and Marine Engineers",
       "url": "https://www.sname.org/form/graduate-scholarship-ap-new"
-    }   
+    },
+    {
+      "title": "1st AOE Department Senior Design Competition",
+      "date": "2016-05-10",
+      "awarder": "VT Aerospace and Ocean Engineering Department"
+    }    
   ],
   "software": [
     {
@@ -254,24 +259,45 @@
   ],
   "professional": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Teleportation"
+      "name": "Professional Society Affiliations",
+      "summary": "I an currently an active member in numerious professional and honors societies including:",
+      "highlights": [
+        "The Society of Naval Architects and Marine Engineers (SNAME)",
+        "Tau Beta Pi Engineering Honors Society (TBP)",
+        "Canadian Association for Computational Science and Engineering (CACSE)",
+        "The American Society of Mechanical Engineers (ASME)",
+        "American Physics Society (APS)",
+        "U.S. Association for Computational Mechanics (USACM)",
+        "The Pacific Institute for the Mathematical Sciences (PIMS)",
+        "American Institute of Aeronautics and Astronautics (AIAA)",
+        "American Society of Naval Engineers (ASNE)"
       ]
     }
   ],
   "projects": [
     {
-      "name": "MiNO Marine LLC",
-      "position": "Naval Architecture Intern",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "name": "SNAME T&R Panels",
+      "position": "Contributing Member",
+      "summary": "I have been an active contributor on various technical and research committees with the society over the years.",
+      "highlights": [
+        "M-16: Propulsion Shafting",
+        "SC-2: Sailing Craft",
+        "HS-4: Design Procedure and Philosophy",
+        "SD-5: Advanced Marine Vehicles"
+      ],
       "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://www.thettpba.com/"
-    }
+      "endDate": "2024-04-01",
+      "url": "https://www.sname.org/membership/member-resources/trcommittees"
+    },
+    {
+      "name": "Team Bachannal, TTPBA",
+      "position": "Marine Engineer Trainee",
+      "summary": "I have been an active contributor on various technical and research committees with the society over the years.",
+      "highlights": ["Generated engineering drawings and hull models; inventoried, tracked, and ordered system resources/components; maintained equipment; troubleshot systems; and helped rig and repair the vessel in preparation for and throughout the 95mph-class racing season"],
+      "startDate": "2019-08-01",
+      "endDate": "2020-03-01",
+      "url": "https://www.thettpba.com/bachannal"
+    }    
   ],
   "languages": [
     {
