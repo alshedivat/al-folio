@@ -8,11 +8,11 @@ nav_order: 7
 pretty_table: true
 ---
 
-## art-Time Employment 
+## Part-Time Employment 
 <table class="table table-dark">
 <tr>
-    <th> style= "width: 75%"> Col 1"</th>
-    <th> style= "width: 25%"> Col 2"</th>
+    <th> style="width: 75%"> Col 1</th>
+    <th> style="width: 25%"> Col 2</th>
 </tr>
 <tr>
     <td> Canadian Union of Public Employees (CUPE 2278) </td>
@@ -35,8 +35,8 @@ pretty_table: true
 
 <table class="table table-dark table-bordered">
 <tr>
-    <th> style= "width: 75%"> Col 1"</th>
-    <th> style= "width: 25%"> Col 2"</th>
+    <th> style="width: 75%"> Col 1</th>
+    <th> style="width: 25%"> Col 2</th>
 </tr>
 <tr>
     <td> United Way T&T	 </td>
