@@ -15,9 +15,4 @@ Below is a summary of the [Digital Research Alliance](https://alliancecan.ca/en)
 
 #### Hipster list
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+![](/assets/img/compute_usage.jpg)

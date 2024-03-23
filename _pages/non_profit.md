@@ -41,7 +41,7 @@ pretty_table: true
 <tr>
     <td> 
     • Logistically supported a fundraising campaign focused on increasing the number and quality of suitable remote learning spaces in orphanages around the island as classes were moved online in response to the pandemic.  <br>
-    • Worked on a team focused on increasing the number of licensed children’s homes in operation locally by connecting lapsed homes to resources that would help reestablish their compliance and, thus, increase their standard and capacity of care.  <br>
+    • Worked on a team focused on increasing the number of licensed children’s homes in operation locally by connecting lapsed homes to resources that would help re-establish their compliance and, thus, increase their standard and capacity of care.  <br>
     </td>
     <td>  </td>
 </tr>
