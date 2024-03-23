@@ -8,11 +8,15 @@ nav_order: 7
 pretty_table: true
 ---
 
-## Non-Profit (Part-Time) Employment 
+## art-Time Employment 
 <table class="table table-dark">
 <tr>
-    <th> Canadian Union of Public Employees (CUPE 2278) </th>
-    <th> September 2022 – August 2023 </th>
+    <th> style= "width: 75%"> Col 1"</th>
+    <th> style= "width: 25%"> Col 2"</th>
+</tr>
+<tr>
+    <td> Canadian Union of Public Employees (CUPE 2278) </td>
+    <td> September 2022 – August 2023 </td>
 </tr>
 <tr>
     <td> Contracted Community Organizer </td>
@@ -31,8 +35,12 @@ pretty_table: true
 
 <table class="table table-dark table-bordered">
 <tr>
-    <th> United Way T&T	 </th>
-    <th> March 2020 – August 2020 </th>
+    <th> style= "width: 75%"> Col 1"</th>
+    <th> style= "width: 25%"> Col 2"</th>
+</tr>
+<tr>
+    <td> United Way T&T	 </td>
+    <td> March 2020 – August 2020 </td>
 </tr>
 <tr>
     <td> Part-Time Youth Services Support </td>
