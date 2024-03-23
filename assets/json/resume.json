@@ -22,44 +22,10 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Graduate Research Assistant, Princeton University",
-      "position": "Graduate Research Assistant",
-      "url": "https://cml.mech.ubc.ca/research/",
-      "startDate": "2020-09-01",
-      "endDate": "2024-01-01",
-      "highlights": ["Developed a robust and efficient quasi-Newton coupling algorithm to stabilize and accelerate the iterative convergence of (partitioned) low mass-ratio fluid-structure interaction (FSI) simulations based on an adaptively regularized Anderson Acceleration and eigenmode filtering strategy. Integrated these algorithms (and additional tools) into the lab's MPI parallelized HPC research code base."]
-    },
-    {
-      "name": "NETSCo. Inc",
-      "position": "Junior Naval Architect and Marine Engineer",
-      "url": "https://netsco.us/",
-      "startDate": "2017-04-01",
-      "endDate": "2019-07-30",
-      "highlights": ["Developed conversion concepts through to regulatory type approval (synthesizing class rules, generating renderings, performing calcs, projecting feasibility, producing drawings and arrangements), including an OSV to both an LNG Tanker and a WT Installation Vessel", "Lead NETSCo's engineering, coordination, technology development, and patent filing efforts in tandem with various industry partners (owners, operators, scientist, regulatory bodies, and community representatives) to bring a feasible BWMS to the Great Lakes"]
-    }, 
-    {
-      "name": "MiNO Marine LLC",
-      "position": "Naval Architecture Intern",
-      "url": "https://www.minomarine.com/",
-      "startDate": "2017-04-01",
-      "endDate": "2019-07-30",
-      "highlights": ["Developed spreadsheets for; EPLA, preliminary weight estimating, vessel loading and, operational conditions and stability analyses."]
-    }, 
-    {
-      "name": "Tsunami Marine Limited",
-      "position": "Naval Architecture Intern and Extern",
-      "url": "https://tsunamimarine.com/",
-      "startDate": "2013-04-01",
-      "endDate": "2015-07-30",
-      "highlights": ["Performed detailed fire damage inspections, operations audits, cost estimates and reconstruction recommendations for 4 gutted ships, summarizing them into technical reports on behalf of vessel owners/operators to be used for insurance claims upward of $1.2M"]
-    }
-  ],
   "education": [
     {
       "institution": "Virginia Tech, USA",
-      "location": "Blacksburg, Virginia",
+      "location": "Blacksburg, VA",
       "url": "https://www.aoe.vt.edu/",
       "area": "Aerospace and Ocean Engineering",
       "studyType": "BSc.",
@@ -69,15 +35,79 @@
     },
     {
       "institution": "University of British Columbia, Canada",
-      "location": "Vancouver, British Columbia",
+      "location": "Vancouver, BC",
       "url": "https://mech.ubc.ca/",
       "area": "Mechanical Engineering",
-      "studyType": "MSc",
+      "studyType": "MSc.",
       "startDate": "2020-09-01",
       "endDate": "2024-04-10",
       "score": "3.9"
     }    
-  ],
+  ],  
+  "research": [
+    {
+      "name": "Computational Multiphysics Laboratory",
+      "position": "Graduate Research Assistant",
+      "location": "UBC",
+      "url": "https://cml.mech.ubc.ca/research/",
+      "startDate": "2020-09-01",
+      "endDate": "2024-01-01",
+      "highlights": [
+        "Developed a robust and efficient quasi-Newton coupling algorithm to stabilize and accelerate the iterative convergence of (partitioned) low mass-ratio fluid-structure interaction (FSI) simulations based on an adaptively regularized Anderson Acceleration and eigenmode filtering strategy. Integrated these algorithms (and additional tools) into the lab's MPI parallelized HPC research code base.",
+        "Developed from scratch my own suite of OpenMP parallelized 2/3D high-fidelity FSI software packages in MATLAB (w/ mexified C++ files) to investigate the numerical properties of partitioned multiphysics simulations (high-order temporal integration and FE-DG discretization schemes, conservative interfacial data mapping techniques, adaptive mesh refinement and domain decomposition)."
+      ]
+    },
+    {
+      "name": "Aero/Hydroacoustics Laboratory",
+      "position": "Undergraduate Research Assistant",      
+      "location": "Virginia Tech",
+      "url": "https://www.aerohydroacoustics.com/",
+      "startDate": "2016-01-05",
+      "endDate": "2016-05-16",
+      "highlights": [
+        "Designed and conducted a set of experiments using the Anechoic Wall-Jet Wind Tunnel to characterize the unsteady aerodynamic properties of near-wall flows over canopy shrouded surfaces as part of a larger effort to understand roughness noise suppression."
+      ]
+    }
+  ],  
+  "work": [
+    {
+      "name": "NETSCo. Inc",
+      "position": "Junior Naval Architect and Marine Engineer",
+      "location": "Cleveland, OH",
+      "url": "https://netsco.us/",
+      "startDate": "2017-04-01",
+      "endDate": "2019-07-30",
+      "highlights": [
+        "Developed GLMs for bulk carrier loading ops and analyzed multi-body interactions during dry-dockings and load-offs using GHS.",
+        "Developed conversion concepts through to regulatory type approval (synthesizing class rules, generating renderings, performing calcs, projecting feasibility, producing drawings and arrangements), including an OSV to both an LNG Tanker and a WT Installation Vessel", "Lead NETSCo's engineering, coordination, technology development, and patent filing efforts in tandem with various industry partners (owners, operators, scientist, regulatory bodies, and community representatives) to bring a feasible BWMS to the Great Lakes",
+        "Lead NETSCo's engineering, coordination, technology development, and patent filing efforts in tandem with various industry partners (owners, operators, scientist, regulatory bodies, and community representatives) to bring a feasible BWMS to the Great Lakes","Performed structural analysis studies using FEMAP/Creo Simulate and ATB configuration optimization studies using Ansys Fluent."
+      ]
+    }, 
+    {
+      "name": "MiNO Marine LLC",
+      "position": "Naval Architecture Intern",
+      "location": "New Orleans, LA",  
+      "url": "https://www.minomarine.com/",
+      "startDate": "2017-04-01",
+      "endDate": "2019-07-30",
+      "highlights": [
+        "Designed a basic-shape liftboat and performed wind effect calcs (heeling arm plots, polar plots) for jack-up and lifting operations.",
+        "Developed spreadsheets for; EPLA, preliminary weight estimating, vessel loading and, operational conditions and stability analyses.","Supported the development of CAD drawings, Ops. Manuals, Subchpt. M compliance docs, Dry docking pre-award calculations, etc"
+      ]
+    }, 
+    {
+      "name": "Tsunami Marine Limited",
+      "position": "Naval Architecture Intern and Extern",
+      "location": "Trinidad and Tobago",     
+      "url": "https://tsunamimarine.com/",
+      "startDate": "2013-04-01",
+      "endDate": "2015-07-30",
+      "highlights": [
+        "Audited FSS and drafted Fire Control Plans for over 15 vessels of varying classification generating over $10,000 in company revenue.",
+        "Performed detailed fire damage inspections, operations audits, cost estimates and reconstruction recommendations for 4 gutted ships, summarizing them into technical reports on behalf of vessel owners/operators to be used for insurance claims upward of $1.2M"
+      ]
+    }
+  ],  
   "awards": [
     {
       "title": "The Gartshore Fellowship",
@@ -92,28 +122,155 @@
       "url": "https://www.sname.org/form/graduate-scholarship-ap-new"
     }   
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    }
-  ],
   "software": [
     {
-      "name": "Physics",
+      "name": "General Mathematics Toolboxes",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
+        "Mathlab",
+        "Octave",
+        "Mathematica",
+        "deal.ii",
+        "FEniCS",
+        "TensorFlow"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "C++",
+        "Fortran",
+        "Python",
+        "Julia",
+        "Rust",
+        "R",
+        "VBA"
+      ]
+    },
+    {
+      "name": "Computational Fluid Dynamics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Ansys Fluent",
+        "Simerics MP+",
+        "OpenFOAM",
+        "SU2",
+        "foam-extend"
+      ]
+    },
+    {
+      "name": "Computational Structural Mechanics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Calculix",
+        "Abaqus",
+        "Maestro Marine",
+        "Creo Simulation"
+      ]
+    },
+    {
+      "name": "Multiphysics and Coupling Packages",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Kratos Multiphysics",
+        "SimFlow",
+        "Comsol",
+        "Simcenter",
+        "LS-DYNA",
+        "preCICE"
+      ]
+    },
+    {
+      "name": "High-Performance Computing and Development",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Open MPI",
+        "OpenMP",
+        "PETSc",
+        "CUDA",
+        "METIS",
+        "MUMPS"
+      ]
+    },
+    {
+      "name": "Design Software Suites",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "AutoCAD",
+        "Inventor",
+        "Navisworks",
+        "Solidworks",
+        "Cadmatic",
+        "ShipConstructor",
+        "Rhinocerous"
+      ]
+    }, 
+    {
+      "name": "Maritime-Specific",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "GHS",
+        "MOSES",
+        "Maxsurf",
+        "NavCAD",
+        "MathCAD",
+        "HECSALV",
+        "Orca3D",
+        "HECSALV"
+      ]
+    },       
+    {
+      "name": "Graphic Environments",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "ModelCenter",
+        "Simulink",
+        "LabVIEW",
+        "Grasshopper",
+        "QGIS"
+      ]
+    },
+    {
+      "name": "Pre/Post Processors",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "GMSH",
+        "Paraview",
+        "Tecplot",
+        "GiD"
+      ]
+    }
+  ],
+  "professional": [
+    {
+      "name": "Physics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
         "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
         "Quantum Teleportation"
       ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "MiNO Marine LLC",
+      "position": "Naval Architecture Intern",
+      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://www.thettpba.com/"
     }
   ],
   "languages": [
@@ -126,42 +283,6 @@
       "language": "English",
       "fluency": "Native speaker",
       "icon": ""
-    }
-  ],
-  "professional": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }

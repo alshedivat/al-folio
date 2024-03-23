@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Quasi-Newton Reqularization and Filtering
-description: Fixed point iterative stabilization via adaptive regularization and secant selection
+title: QN Reqularization and Filtering
+description: Stabilization and acceleration of fixed point iterations
 img: assets/img/jacobian_approx.png
 importance: 2
 category: work
