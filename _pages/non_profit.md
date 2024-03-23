@@ -32,7 +32,7 @@ pretty_table: true
 <table class="table table-dark table-bordered">
 <tr>
     <th> United Way T&T	 </th>
-    <th>March 2020 – August 2020 ...</th>
+    <th>...March 2020 – August 2020 </th>
 </tr>
 <tr>
     <td> Part-Time Youth Services Support </td>
@@ -52,7 +52,7 @@ pretty_table: true
 <table class="table table-dark table-bordered">
 <tr>
     <th> T&T Red Cross Society (TTRCS) </th>
-    <th>March 2020 – August 2020 ...</th>
+    <th>...March 2020 – August 2020 </th>
 </tr>
 <tr>
     <td> GIS Team Member </td>
