@@ -3,7 +3,7 @@
     "name": "Jose Gonsalves",
     "label": "Graduate Research Assistant",
     "image": "",
-    "email": "josetg@vt.de",
+    "email": "josetg@vt.edu",
     "phone": "(604) 842-8917",
     "url": "https://cml.mech.ubc.ca/resources/",
     "summary": "Excited to begin a new chapter and seeking opportunities in engineering software development/integration (digital twins, ROMs, etc.)",
@@ -53,7 +53,7 @@
       "startDate": "2020-09-01",
       "endDate": "2024-01-01",
       "highlights": [
-        "Developed a robust and efficient quasi-Newton coupling algorithm to stabilize and accelerate the iterative convergence of (partitioned) low mass-ratio fluid-structure interaction (FSI) simulations based on an adaptively regularized Anderson Acceleration and eigenmode filtering strategy. Integrated these algorithms (and additional tools) into the lab's MPI parallelized HPC research code base.",
+        "Developed a robust and efficient quasi-Newton coupling algorithm to stabilize and accelerate the iterative convergence of (partitioned) low mass-ratio fluid-structure interaction (FSI) simulations based on an adaptively regularized Anderson Acceleration and eigenmode filtering strategy. These algorithms (and additional tools) were then integrated into the lab's MPI parallelized HPC research code base.",
         "Developed from scratch my own suite of OpenMP parallelized 2/3D high-fidelity FSI software packages in MATLAB (w/ mexified C++ files) to investigate the numerical properties of partitioned multiphysics simulations (high-order temporal integration and FE-DG discretization schemes, conservative interfacial data mapping techniques, adaptive mesh refinement and domain decomposition)."
       ]
     },
@@ -79,8 +79,9 @@
       "endDate": "2019-07-30",
       "highlights": [
         "Developed GLMs for bulk carrier loading ops and analyzed multi-body interactions during dry-dockings and load-offs using GHS.",
-        "Developed conversion concepts through to regulatory type approval (synthesizing class rules, generating renderings, performing calcs, projecting feasibility, producing drawings and arrangements), including an OSV to both an LNG Tanker and a WT Installation Vessel", "Lead NETSCo's engineering, coordination, technology development, and patent filing efforts in tandem with various industry partners (owners, operators, scientist, regulatory bodies, and community representatives) to bring a feasible BWMS to the Great Lakes",
-        "Lead NETSCo's engineering, coordination, technology development, and patent filing efforts in tandem with various industry partners (owners, operators, scientist, regulatory bodies, and community representatives) to bring a feasible BWMS to the Great Lakes","Performed structural analysis studies using FEMAP/Creo Simulate and ATB configuration optimization studies using Ansys Fluent."
+        "Developed conversion concepts through to regulatory type approval (synthesizing class rules, generating renderings, performing calcs, projecting feasibility, producing drawings and arrangements), including an OSV to both an LNG Tanker and a WT Installation Vessel",
+        "Lead NETSCo's engineering, coordination, technology development, and patent filing efforts in tandem with various industry partners (owners, operators, scientist, regulatory bodies, and community representatives) to bring a feasible BWMS to the Great Lakes",
+        "Performed structural analysis studies using FEMAP/Creo Simulate and ATB configuration optimization studies using Ansys Fluent."
       ]
     }, 
     {
@@ -230,7 +231,7 @@
         "MathCAD",
         "HECSALV",
         "Orca3D",
-        "HECSALV"
+        "OrcaFlex"
       ]
     },       
     {
@@ -280,10 +281,10 @@
       "position": "Contributing Member",
       "summary": "I have been an active contributor to various technical and research committees within the society over the years.",
       "highlights": [
-        "M-16: Propulsion Shafting",
-        "SC-2: Sailing Craft",
-        "HS-4: Design Procedure and Philosophy",
-        "SD-5: Advanced Marine Vehicles"
+        " <a href='https://www.sname.org/committee/b5451d7c-79e0-4889-8350-9938e6056e54'> M-16: Propulsion Shafting </a>",
+        " <a href='https://www.sname.org/committee/7c226d8a-162f-49bc-a530-360bdd3a4740'> SC-2: Sailing Craft </a>",
+        " <a href='https://www.sname.org/committee/2c2e9cbf-7fe8-46ba-894a-52d0dbdd12d0'> HS-4: Design Procedure and Philosophy </a>",
+        " <a href='https://www.sname.org/committee/c0c2ed1d-f7ce-48f9-9e9d-90dc3e0374dd'> SD-5: Advanced Marine Vehicles </a>"
       ],
       "startDate": "2018-01-01",
       "endDate": "2024-04-01",
