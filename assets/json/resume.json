@@ -261,17 +261,17 @@
   "professional": [
     {
       "name": "Professional Society Affiliations",
-      "summary": "I an currently an active member in numerious professional and honors societies including:",
+      "summary": "I am currently an active member in numerious professional and honors societies including:",
       "highlights": [
-        "The Society of Naval Architects and Marine Engineers (SNAME)",
-        "Tau Beta Pi Engineering Honors Society (TBP)",
-        "Canadian Association for Computational Science and Engineering (CACSE)",
-        "The American Society of Mechanical Engineers (ASME)",
-        "American Physics Society (APS)",
-        "U.S. Association for Computational Mechanics (USACM)",
-        "The Pacific Institute for the Mathematical Sciences (PIMS)",
-        "American Institute of Aeronautics and Astronautics (AIAA)",
-        "American Society of Naval Engineers (ASNE)"
+        "The Society of Naval Architects and Marine Engineers ( <a href='https://www.sname.org/'> SNAME </a> )",
+        "Tau Beta Pi Engineering Honors Society (<a href='https://www.sname.org/'> TBP </a> )",
+        "Canadian Association for Computational Science and Engineering  ( <a href='https://www.cacse-accsg.ca/'> CACSE </a> )",
+        "The American Society of Mechanical Engineers (<a href='https://www.asme.org/'> ASME </a>)",
+        "American Physics Society  ( <a href='https://www.aps.org/'> APS </a> )",
+        "U.S. Association for Computational Mechanics  ( <a href='https://www.usacm.org/'> USACM </a> ) ",
+        "The Pacific Institute for the Mathematical Sciences ( <a href='https://www.pims.math.ca/'> PIMS </a> ) ",
+        "American Institute of Aeronautics and Astronautics ( <a href='https://www.aiaa.org/'> AIAA </a> ) ",
+        "American Society of Naval Engineers  ( <a href='https://www.navalengineers.org/'> ASNE </a> ) "
       ]
     }
   ],
