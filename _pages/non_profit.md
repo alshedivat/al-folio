@@ -1,16 +1,12 @@
 ---
 layout: page
-permalink: /volunteering/
-title: volunteering
+permalink: /Non-Profit/
+title: non-profit
 description: What its all about. A list of current and past devotions. 
 nav: true
 nav_order: 7
 pretty_table: true
 ---
-
-***This page is currently a `WORK IN PROGRESS`***
-
---- 
 
 # Non-Profit (Part-Time) Employment 
 <table class="table table-dark">
@@ -31,6 +27,7 @@ pretty_table: true
 </tr>
 </table> 
 
+---
 
 <table class="table table-dark">
 <tr>
@@ -50,6 +47,8 @@ pretty_table: true
 </tr>
 </table> 
 
+---
+
 <table class="table table-dark">
 <tr>
     <th> T&T Red Cross Society (TTRCS) </th>
@@ -68,6 +67,15 @@ pretty_table: true
 </tr>
 </table> 
 
+---
 
 # Other Volunteering
 
+A brief list of other organizations that I am or have been actively volunteering with:
+
+    - [Let's Talk Science](https://letstalkscience.ca/outreach/UBC) 
+    - [Engage! Cleveland](https://engagecleveland.org/)
+    - [Ohio City Bicycle Co-Op](https://ohiocitycycles.org/)
+    - [Tau Beta Pi](https://www.tbp.org/About.cfm)
+    - [The Newman Community](https://catholichokie.org/) 
+    - St. Ann’s Parish 
