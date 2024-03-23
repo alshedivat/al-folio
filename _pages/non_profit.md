@@ -11,12 +11,8 @@ pretty_table: true
 ## Part-Time Employment 
 <table class="table table-dark">
 <tr>
-    <th> style="width: 75%"> Col 1</th>
-    <th> style="width: 25%"> Col 2</th>
-</tr>
-<tr>
-    <td> Canadian Union of Public Employees (CUPE 2278) </td>
-    <td> September 2022 – August 2023 </td>
+    <th> T&T Red Cross Society (TTRCS) </th>
+    <th> March 2020 – August 2020 </th>
 </tr>
 <tr>
     <td> Contracted Community Organizer </td>
@@ -35,12 +31,8 @@ pretty_table: true
 
 <table class="table table-dark table-bordered">
 <tr>
-    <th> style="width: 75%"> Col 1</th>
-    <th> style="width: 25%"> Col 2</th>
-</tr>
-<tr>
-    <td> United Way T&T	 </td>
-    <td> March 2020 – August 2020 </td>
+    <th> T&T Red Cross Society (TTRCS) </th>
+    <th> March 2020 – August 2020 </th>
 </tr>
 <tr>
     <td> Part-Time Youth Services Support </td>
@@ -82,10 +74,22 @@ pretty_table: true
 A brief list of other organizations that I am or have been actively volunteering with:
 
 <ul>
-    <li> [Let's Talk Science](https://letstalkscience.ca/outreach/UBC) </li>
-    <li> [Engage! Cleveland](https://engagecleveland.org/) </li>
-    <li> [Ohio City Bicycle Co-Op](https://ohiocitycycles.org/) </li>
-    <li> [Tau Beta Pi](https://www.tbp.org/About.cfm) </li>
-    <li> [The Newman Community](https://catholichokie.org/)  </li>
+    <li> <a href='https://letstalkscience.ca/outreach/UBC'> Let's Talk Science </a></li>
+    <li> <a href='https://engagecleveland.org/'> Engage! Cleveland</a></li>
+    <li> <a href='https://ohiocitycycles.org/'> Ohio City Bicycle Co-Op </a> </li>
+    <li> <a href='https://www.tbp.org/About.cfm'> Tau Beta Pi </a> </li>
+    <li> <a href='https://catholichokie.org/'> The Newman Community </a> </li>
     <li> St. Ann’s Parish  </li>
 </ul>
+
+
+<!-- 
+<tr>
+    <td> United Way T&T	 </td>
+    <td> March 2020 – August 2020 </td>
+</tr>
+
+<tr>
+    <td> Canadian Union of Public Employees (CUPE 2278) </td>
+    <td> September 2022 – August 2023 </td>
+</tr> -->
