@@ -8,7 +8,7 @@ nav_order: 7
 pretty_table: true
 ---
 
-# Non-Profit (Part-Time) Employment 
+## Non-Profit (Part-Time) Employment 
 <table class="table table-dark">
 <tr>
     <th> Canadian Union of Public Employees (CUPE 2278) </th>
@@ -29,7 +29,7 @@ pretty_table: true
 
 ---
 
-<table class="table table-dark">
+<table class="table table-dark table-bordered">
 <tr>
     <th> United Way T&T	 </th>
     <th> March 2020 – August 2020 </th>
@@ -49,7 +49,7 @@ pretty_table: true
 
 ---
 
-<table class="table table-dark">
+<table class="table table-dark table-bordered">
 <tr>
     <th> T&T Red Cross Society (TTRCS) </th>
     <th> March 2020 – August 2020 </th>
