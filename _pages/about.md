@@ -29,7 +29,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am an Assistant Professor of Finance at the `Rotman School of Management`, University of Toronto. My research interests are in macro-finance, machine learning, and asset pricing. I received my Ph.D. from `École Polytechnique Fédérale de Lausanne` and the `Swiss Finance Institute`. Previously, I was a visiting scholar at the Bendheim Center for Finance at Princeton University. 
+I am an Assistant Professor of Finance at the `Rotman School of Management`, University of Toronto. My research interests are in macro-finance, machine learning, and asset pricing. I received my Ph.D. from `École Polytechnique Fédérale de Lausanne` and the `Swiss Finance Institute`. Previously, I was a visiting scholar at the Bendheim Center for Finance at `Princeton University`. 
 
 
 
