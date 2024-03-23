@@ -69,13 +69,15 @@ pretty_table: true
 
 ---
 
-# Other Volunteering
+## Other Volunteering
 
 A brief list of other organizations that I am or have been actively volunteering with:
 
-    - [Let's Talk Science](https://letstalkscience.ca/outreach/UBC) 
-    - [Engage! Cleveland](https://engagecleveland.org/)
-    - [Ohio City Bicycle Co-Op](https://ohiocitycycles.org/)
-    - [Tau Beta Pi](https://www.tbp.org/About.cfm)
-    - [The Newman Community](https://catholichokie.org/) 
-    - St. Ann’s Parish 
+<ul>
+    <li> [Let's Talk Science](https://letstalkscience.ca/outreach/UBC) </li>
+    <li> [Engage! Cleveland](https://engagecleveland.org/) </li>
+    <li> [Ohio City Bicycle Co-Op](https://ohiocitycycles.org/) </li>
+    <li> [Tau Beta Pi](https://www.tbp.org/About.cfm) </li>
+    <li> [The Newman Community](https://catholichokie.org/)  </li>
+    <li> St. Ann’s Parish  </li>
+</ul>
