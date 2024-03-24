@@ -325,7 +325,7 @@
 
 @inproceedings{copik2022faaskeeper,
   url = {https://arxiv.org/abs/2203.14859},
-  author = {Copik, Marcin and Calotoiu, Alexandru and Taranov, Konstantin and Hoefler, Torsten},
+  author = {Copik, Marcin and Calotoiu, Alexandru and Zhou, Pengyu and Taranov, Konstantin and Hoefler, Torsten},
   title = {FaaSKeeper: Learning from Building Serverless Services with ZooKeeper as an Example},
   abstract = {FaaS (Function-as-a-Service) brought a fundamental shift into cloud computing: (persistent) virtual machines have been replaced with dynamically allocated resources, trading locality and statefulness for a pay-as-you-go model more suitable for varying and infrequent workloads. However, adapting services to functions in the serverless paradigm while still fulfilling functional requirements is challenging. In this work, we demonstrate how ZooKeeper, a centralized coordination service that offers a safe and wait-free consensus mechanism, can be redesigned to benefit from serverless computing. We define synchronization primitives to extend the capabilities of scalable cloud storage and contribute a set of requirements for efficient and scalable FaaS computing. We introduce FaaSKeeper, the first coordination service built on serverless functions and cloud-native services, and share serverless design lessons based on our experiences of implementing a ZooKeeper model deployable to clouds today. FaaSKeeper provides the same consistency guarantees and interface as ZooKeeper, with a serverless price model that lowers costs up to 450 times on infrequent workloads.},
   arxiv={2203.14859},
@@ -492,4 +492,17 @@ costing less than one cent per computation.
   abbr = {arXiv},
   year = {2023},
   bibtex_show = {True}
+}
+
+@misc{2024xaas,
+    title={XaaS: Acceleration as a Service to Enable Productive High-Performance Cloud Computing}, 
+    author={Torsten Hoefler and Marcin Copik and Pete Beckman and Andrew Jones and Ian Foster and Manish Parashar and Daniel Reed and Matthias Troyer and Thomas Schulthess and Dan Ernst and Jack Dongarra},
+    year={2024},
+    eprint={2401.04552},
+    archivePrefix={arXiv},
+    primaryClass={cs.DC},
+    abbr = {IEEE CiSE},
+    arxiv={2106.13859},
+    bibtex_show = {2401.04552},
+    abstract = {HPC and Cloud have evolved independently, specializing their innovations into performance or productivity. Acceleration as a Service (XaaS) is a recipe to empower both fields with a shared execution platform that provides transparent access to computing resources, regardless of the underlying cloud or HPC service provider. Bridging HPC and cloud advancements, XaaS presents a unified architecture built on performance-portable containers. Our converged model concentrates on low-overhead, high-performance communication and computing, targeting resource-intensive workloads from climate simulations to machine learning. XaaS lifts the restricted allocation model of Function-as-a-Service (FaaS), allowing users to benefit from the flexibility and efficient resource utilization of serverless while supporting long-running and performance-sensitive workloads from HPC.}
 }
