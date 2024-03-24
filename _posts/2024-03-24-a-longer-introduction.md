@@ -5,6 +5,7 @@ date: 2024-03-24
 description: reflecting on my path to data work
 tags: about career
 categories: posts
+thumbnail: assets/img/bundokim_dogs.jpg
 toc:
   sidebar: left
 ---
