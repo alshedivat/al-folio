@@ -8,7 +8,7 @@ categories: posts
 toc:
   sidebar: left
 ---
-{% include figure.liquid path="bundokim_dogs.jpg" class="img-fluid rounded z-depth-1" width='500px'%}
+{% include figure.liquid path="assets/img/bundokim_dogs.jpg" class="img-fluid rounded z-depth-1"%}
 
 <div class="caption">
     Photo by <a href="https://unsplash.com/@bundo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Bundo Kim</a> on <a href="https://unsplash.com/photos/brown-and-black-short-coated-small-dog-with-white-long-coat-small-dog-on-gray-concrete-NIKl5WwL-RE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
