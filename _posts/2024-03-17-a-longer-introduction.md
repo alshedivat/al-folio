@@ -37,7 +37,7 @@ Personally, I learned Power BI, SQL and (the start of) Python all through Data P
 
 ## taking the (analyst) title
 
-After almost six years at Oxfam, I had begun to question the role of international non-governmental organizations (INGOs)--or, at the very least, my role in them. So I began looking for other opportunities. In May of 2022, I accepted full-time Analyst position at the City of Boston. I was placed on the Performance Management vertical, a team dedicated to telling the story of the City's performance through data. (Not too far off from my old evaluation team at Oxfam.) The initial nervousness I felt about my experience level faded as I learned that Oxfam's challenges were common across large organizations. The skills I had built in relationship and project management, in translating stakeholder needs into analytic products, in data visualization design, and in facilitation were all relevant. The only difference was that the City employs some 20,000 staff instead of a few hundred.
+After almost six years at Oxfam, I had begun to question the role of international non-governmental organizations (INGOs)--or, at the very least, my role in them. I began looking for other opportunities. In May of 2022, I accepted full-time Analyst position at the City of Boston. I was placed on the Performance Management vertical, a team dedicated to telling the story of the City's performance through data. (Not too far off from my old evaluation team at Oxfam.) The initial nervousness I felt about my experience level faded as I learned that Oxfam's challenges were common across large organizations. The skills I had built in relationship and project management, in translating stakeholder needs into analytic products, in data visualization design, and in facilitation were all relevant. The only difference was that the City employs some 20,000 staff instead of a few hundred.
 
 That size and scale of the City's workforce afforded a unique opportunity to test the staff-led model for data culture started by Data Pack. In November 2022, I led our first data culture pilot at the City: an 11-session learning cohort on JavaScript with 22 staff, using freeCodeCamp as our curriculum. It was a knockout success, earning a 4.7 satisfaction rating from participants, and producing many _bbgs_ (baby bar graphs). Those familiar with d3.js will hopefully share our pride in getting bars-on-page, just a few months after starting to learn JavaScript from scratch:
 
@@ -87,7 +87,7 @@ So when I started my college career at the University of Vermont, English was an
 
 Had UVM been a better long-term home for me, I might've graduated with that dual degree. But when I arrived at Northeastern in the fall of 2012, I was informed that major was not offered. I had to choose one, or take a pre-set dual major path. Forever committed to *never* choosing just one, I decided to try out the French and International Affairs track, and that was first fork towards data work. In an introductory IAF course, I learned about Leymah Gbowee, a Liberian peace activist. There was no going back. Reflecting over a decade later, I don't fully empathize with all the reasons my younger self wanted to go into social justice work--I wouldn't have even used that term to describe what I was pursuing--but it boiled down to a core belief I still hold: if I could do something to make the world more worth living in, I should, and I would.
 
-Northeastern also afforded me opportunities to travel. I spent a year getting my heart broken in Dublin, Ireland and another six months attempting French fluency in Grenoble, France. The world was so much bigger than I had imagined. I saw that so much of my beliefs and preferences were learned, not inherent, and I learned to evaluate them through that lens.
+Northeastern also afforded me the privilege of travel. I spent a year getting my heart broken in Dublin, Ireland and another six months attempting French fluency in Grenoble, France. The world was so much bigger than I had imagined. I saw that so much of my beliefs and preferences were learned, not inherent, and I learned to evaluate them through that lens.
 
 {% include figure.liquid path="assets/img/grenoble.png" class="img-fluid rounded z-depth-1" %}
 <div class="caption">
@@ -97,7 +97,7 @@ I graduated in 2016 hungry to work any job, anywhere with a soul. I had done a s
 
 {% include figure.liquid path="assets/img/graduation.png" class="img-fluid rounded z-depth-1" %}
 <div class="caption">
-    Three generations of college graduates, at my graduation from Northeastern in May 2016.
+    My grandmother, mother, and me at my graduation from Northeastern in May 2016.
 
 </div>
 
