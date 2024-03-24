@@ -1,14 +1,14 @@
 ---
 layout: post
 title: a long-form introduction
-date: 2024-03-07
+date: 2024-03-24
 description: reflecting on my path to data work
 tags: about career
 categories: posts
 toc:
   sidebar: left
 ---
-{% include figure.liquid path="bundokim_dogs.jpg" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid path="bundokim_dogs.jpg" class="img-fluid rounded z-depth-1" width='500px'%}
 
 <div class="caption">
     Photo by <a href="https://unsplash.com/@bundo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Bundo Kim</a> on <a href="https://unsplash.com/photos/brown-and-black-short-coated-small-dog-with-white-long-coat-small-dog-on-gray-concrete-NIKl5WwL-RE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
