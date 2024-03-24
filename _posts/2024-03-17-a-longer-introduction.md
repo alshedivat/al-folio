@@ -8,7 +8,13 @@ categories: posts
 toc:
   sidebar: left
 ---
+{% include figure.liquid path="bundokim_dogs.jpg" class="img-fluid rounded z-depth-1" %}
 
+<div class="caption">
+    Photo by <a href="https://unsplash.com/@bundo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Bundo Kim</a> on <a href="https://unsplash.com/photos/brown-and-black-short-coated-small-dog-with-white-long-coat-small-dog-on-gray-concrete-NIKl5WwL-RE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+</div>
+  
 Because I've had a less-than-conventional path into data work, it feels appropriate to start this blog with a little more about me. How did I end up here (and why am I, as a former colleague once asked me, not a poet or a baker instead)? Where am I looking to grow (as all close to me know that I am fully, if sometimes overly, committed to growing towards _the next thing_)? And perhaps most importantly, how does all of this shape my approach to data work? I believe that the analysis can't be divorced from the analyst, so consider this my longer-form introduction to me--and by extension, my approach to analytics and data work in general.
 
 ## my entrance into data
