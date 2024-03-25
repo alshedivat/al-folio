@@ -11,7 +11,10 @@ profile:
   more_info: >
     <p>Coding and linux enthusiast</p>
     <p>Loving nature and like Niksen</p>
-    <p>Graduted M.Sc. from <a href='https://ut.ac.ir/en'>UT</a></p>
+    <p>Graduted M.Sc.</p>
+    <p>MSc <a href='https://ut.ac.ir/en'>University of Tehran</a></p>
+    <p>BSc <a href='https://tabrizu.ac.ir/en'>Tabriz University</a></p>
+    <p></p>
 #    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
