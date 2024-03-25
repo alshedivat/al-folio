@@ -12,10 +12,10 @@ profile:
     <p>Coding and linux enthusiast</p>
     <p>Loving nature and like Niksen</p>
     <p>Graduted M.Sc.</p>
-    <p>MSc <a href='https://ut.ac.ir/en'>University of Tehran</a></p>
-    <p>BSc <a href='https://tabrizu.ac.ir/en'>Tabriz University</a></p>
-    <p></p>
-#    <p>Your City, State 12345</p>
+    <ul>
+      <li>MSc <a href='https://ut.ac.ir/en'>University of Tehran</a></li>
+      <li>BSc <a href='https://tabrizu.ac.ir/en'>Tabriz University</a></li>
+    </ul>
 
 news: true  # includes a list of news items
 latest_posts: false
