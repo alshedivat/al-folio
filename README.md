@@ -135,6 +135,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://stavros.github.io" target="_blank">★</a>
 <a href="https://ericslyman.com" target="_blank">★</a>
 <a href="https://ztjona.github.io/" target="_blank">★</a>
+<a href="https://chrischoi314.github.io" target="_blank">★</a>
 </td>
 </tr>
 <tr>
