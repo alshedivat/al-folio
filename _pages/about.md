@@ -12,7 +12,6 @@ social: false # includes social icons at the bottom of the page
 
 <div class="header-bar">
 <h1>NLP@DSAI</h1>
-<h2>Chalmers University of Technology</h2>
 </div>
 
 <div class="banner">
@@ -20,7 +19,8 @@ social: false # includes social icons at the bottom of the page
         We conduct academic research in Natural Language Processing, where we
         investigate methods to understand langauge models and how to apply them
         to the political and social sciences. We are part of the Data Science
-        and AI division at Chalmers University of Technology.
+        and AI division at
+        <a href="https://www.chalmers.se/en/">Chalmers University of Technology</a>.
     </p>
 </div>
 <div class="mt-1 container row align-items-center justify-content-center">
