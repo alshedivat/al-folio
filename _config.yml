@@ -120,7 +120,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: NLP@DSAI # blog_name will be displayed in your blog page
-blog_nav_title: Blog # your blog must have a title for it to be displayed in the nav bar
+blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
 blog_description: "Exploring the Frontiers of Natural Language Processing: Insights and Innovations from NLP@DSAI."
 permalink: /blog/:year/:title/
 
