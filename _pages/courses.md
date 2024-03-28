@@ -2,25 +2,21 @@
 layout: page
 title: Courses
 permalink: /courses/
-description: We educate students in NLP and AI at Master's and PhD levels.
+description:
 nav: true
 nav_order: 4
 ---
 
-**Welcome to the Courses section of NLP@DSAI!** All members of our group are involved in education at Chalmers and the University of Gothenburg. We teach a wide range of subjects, including NLP but also more generally in data science and machine learning.
-
-#### Courses in natural language processing
+## Courses in Natural Language Processing
 
 Our courses in NLP cover the most common technical architectures used in modern NLP, and describe technical solutions for NLP applications such as categorization, entity recognition, translation, and summarization. We have a hands-on approach in the coursework where we implement some classical algorithms as well as the most recent LLM-based techniques.
-
-Our most important courses in NLP are the following:
 
 - **Machine Learning for Natural Language Processing**. This Master-level course is offered to students at [Chalmers University of Technology](https://www.chalmers.se/en/education/your-studies/find-course-and-programme-syllabi/course-syllabus/DAT450/?acYear=2023/2024) and the [University of Gothenburg](https://www.gu.se/studera/hitta-utbildning/maskininlarning-for-sprakteknologi-dit247) and is open to students with a previous introduction to machine learning. It includes four compulsory assignments and an independent project.
 
 - [**Deep Learning for Natural Language Processing**](https://liu-nlp.github.io/dl4nlp/). This course is open to PhD students within the WASP graduate school who have some previous background in machine learning. It is taught jointly with Marco Kuhlmann at Linköping University.
 It includes three compulsory assignments and an independent project.
 
-#### Master's thesis supervision
+## Master's thesis supervision
 
 If you are a GU or Chalmers student who wants to carry out a Master's Thesis project on a natural language processing topic, please get in touch and we can meet for a discussion. We are quite open to supervising projects in the general NLP area.
 
