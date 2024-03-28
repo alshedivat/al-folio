@@ -481,6 +481,17 @@ footer.sticky-bottom {
   }
 }
 
+.banner {
+  border-bottom: 1px solid var(--global-divider-color);
+  text-align: justify;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  p {
+    font-size: 1.5rem;
+  }
+}
+
 .tag-category-list {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
