@@ -12,7 +12,6 @@ nav_order: 1
 <div class="mt-4">
     {% assign current_members = site.members | where: "state", "current" | sort: "start-date" %}
     {% if current_members.size > 0 %}
-    <h3 class="badge badge-dark">Current Members</h3>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
         {% for member in current_members %}
             {% include member-card.html %}
