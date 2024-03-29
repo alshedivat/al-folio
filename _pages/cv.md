@@ -12,22 +12,45 @@ nav_order: 2
 
 "Cultural and Linguistic Diversity Improves Visual Representations". 
 **Andre Ye**, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
-[arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"}
+*Resources*:
+[arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"},
+RAIVN lab talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7jStpekaF1E4vfnpVpXPx-bxpPTg/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/RAIVN-presentation-11_28.pdf)
 
 "LLMs grasp morality in concept". 
 Mark Pock*, **Andre Ye***, Jared Moore.
 Moral Psychology and Philosophy Workshop, NeurIPS 2023.
-[arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"}
+*Resources*:
+[arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"},
+[poster](/assets/pdf/neurips-model-meaning-final.pdf){:target="_blank"}
 
 "Confidence Contours".
 **Andre Ye**, Quan Ze Chen, Amy Zhang.
 HCOMP 2023.
+🏆 Honorable Mention, Best Paper Award.
+*Resources*:
+[proceedings](https://ojs.aaai.org/index.php/HCOMP/article/view/27559){:target="_blank"},
 [arXiv](https://arxiv.org/abs/2308.07528){:target="_blank"}.
-🏆 Honorable Mention, Best Paper Award
+HCOMP talk [slides](https://docs.google.com/presentation/d/1e6VEJRU2SGr-0wFi85ZeyMlNQYvyw8ct5mxSrlU9hZQ/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/HCOMP-Presentation.pdf){:target="_blank"},
+26th UW Research Symposium talk [slides](https://docs.google.com/presentation/d/17qrow18og678_tatb9ZtHjlaAQlSHnHcFnQ_k4DXO9c/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/urp_confidence_contours.pdf){:target="_blank"},
+Allen School Research Showcase [poster](/assets/pdf/confidence_contours_research_showcase.pdf){:target="_blank"}.
+*Archival*:
+IJCAI 2023 [submission](/assets/pdf/ijcai_confidence_contours_submission.pdf){:target="_blank"} and [rebuttal](/assets/pdf/ijcai_confidence_contours_rebuttal.pdf){:target="_blank"}.
 
 "A Roadmap to Pluralistic Alignment".
 Taylor Sorenson, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshghallah, Christopher Michael Rytting, **Andre Ye**, Liwei Jiang, Ximing Lu, Nouha Dziri, Tim Althoff, Yejin Choi.
 [arXiv](https://arxiv.org/abs/2402.05070){:target="_blank"}.
+
+"A Novel Approach to Segment Specialized Annotations in Electron Microscopy Images of Glomerular Podocytes."
+David Smerkous, **Andre Ye**, Dr. Behzad Najafian.
+[Najafian Lab for Kidney Pathology](https://dlmp.uw.edu/research-labs/najafian){:target="_blank}, UW Medicine.
+*Resources*:
+25th UW Research Symposium [pdf](/assets/pdf/podocyte_seg.pdf){:target="_blank"}.
+
+``Emergent Language: Independent AI Development of a Language-Like Syntax.''
+Alec Bunn, Amelia Johnson, **Andre Ye**, Yegor Kuznetzov, Eric Xia.
+Interactive Intelligence research group, Paul G. Allen School of Computer Science.
+*Resources*:
+eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:target="_blank"}
 
 ---
 
@@ -110,14 +133,41 @@ November 2022 to June 2023.
 ---
 
 ## academic service & volunteering
+- 2024 Allen School Direct Admits, Undergrad Research Panelist
 - 2023 NeurIPS Moral Psychology and Moral Philosophy Workshop Reviewer
 - 2023 ICML AI + HCI Workshop Reviewer
 - Volunteer Data Scientist @ Coronawhy (April 2020 - June 2020)
 
 ---
 
-## misc
-- Languages: English (native), Mandarin Chinese (conversational), Russian (basic), French (learning)
+## other research and projects
+
+"AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs." SIGBOVIK 2023.
+*Resources*:
+[proceedings](/assets/pdf/SIGBOVIK_2023.pdf){:target="_blank"},
+RAIVN Lab seminar talk [slides](https://docs.google.com/presentation/d/1kiU1Vlu2yo3pYGjeEF4cMzE8EKvMi3MvQb9WUDq1oio/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/AyahuascaNet.pdf){:target="_blank"}.
+
+"How does the AI community pronounce `epoch'? A semirigorous sociolinguistic survey." 
+SIGBOVIK 2024.
+*Resources*:
+[proceedings](/assets/pdf/Epoch_SIGBOVIK_2024.pdf){:target="_blank"}.
+
+"ITF;)LM: Innocuous Table Formatting ;) with Language Models." SIGBOVIK 2024. 
+*Resources*:
+[proceedings](/assets/pdf/Table_SIGBOVIK_2024.pdf){:target="_blank"}.
+
+*Mobiod Streams*. Digital art.
+[Link](https://andre-ye.github.io/mobiod-streams/){:target="_blank"}
+
+*tserk – цирк(овь)*. Digital art.
+[Link](https://andre-ye.github.io/tserk/){:target="_blank"}
+
+
+
+
+
+<!-- ## misc
+- Languages: English (native), Mandarin Chinese (conversational), Russian (basic), French (learning) -->
 <!-- - Typing speed over 150 wpm -->
 
 
