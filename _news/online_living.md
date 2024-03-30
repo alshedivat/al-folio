@@ -1,7 +1,7 @@
 ---
 layout: post
-title: My Gallery is online now - my online life
-date: 2024-03-30 10:11:00-0330
+title: My Gallery is online now ⸺ my online life
+date: 2024-03-30 10:11:00+0330
 inline: false
 related_posts: false
 ---
