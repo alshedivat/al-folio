@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-update on 2024-03-30: my [Gallery](https://gallery.alirezad.ir) is online now for my taken photos gallery
+_update on 2024-03-30_: my [Gallery](https://gallery.alirezad.ir) is online now for my taken photos gallery
 
 I created this news post to write about my websites and blogs on the internet.
 
