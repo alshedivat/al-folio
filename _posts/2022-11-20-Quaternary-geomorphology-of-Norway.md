@@ -3,7 +3,7 @@ layout: distill
 title: Field Trip to Ice Age Museum
 description: The most interesting Quaternary geomorphology story of Norway
 tags: notes, geomorphology, glacier, climate, permafrost
-giscus_comments: true
+giscus_comments: false
 date: 2022-11-20
 featured: true
 authors:
