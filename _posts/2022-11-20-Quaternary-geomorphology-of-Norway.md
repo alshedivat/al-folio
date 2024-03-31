@@ -6,14 +6,12 @@ tags: notes, geomorphology, glacier, climate, permafrost
 giscus_comments: false
 date: 2022-11-20
 featured: true
+bibliography: lib.bib
 authors:
   - name: Zhihao
     url: "" # Add your URL or leave it empty if not available
     affiliations:
       name: "" # Add your affiliation or leave it empty if not available
-
-bibliography: lib.bib
-
 toc:
   - name: 1 Introduction
     subsections:
@@ -29,7 +27,7 @@ toc:
     subsections:
       - name: 3.1 The collapse of the EISC
       - name: 3.2 The thawing permafrost
-  - name: 4 Debates on the origin of the mountains
+  - name: 4 Debates
     subsections:
       - name: 4.1 Nunataks hypothesis
       - name: 4.2 Frozen-bed preservation hypothesis
@@ -42,7 +40,7 @@ toc:
 
 *Glaciers*, a slowly moving mass or river of ice, have shaped the landscapes, scouring out rock and sediments and depositing thick debris<d-cite key="benn.evans_2010"></d-cite>. This process over a period is called *glaciation*. The warm inter-period or process, during which glacier retreat, is *deglaciation*.
 
-Instead of being only tourist attractions, glaciers and their geomorphic conditions have strong ties to human society, including culture, economics, water resources and climate concerns and so on. This report is aimed to present the glacial and periglacial geomorphology story of Norway with the materials from the field trip of GEO4410, 2022 and the follow-up lab exercises. The main objectives are to illustrate:       
+Instead of being only tourist attractions, glaciers and their geomorphic conditions have strong ties to human society, including culture, economics, water resources and climate concerns and so on. This report aims to present the glacial and periglacial geomorphology story of Norway with the materials from the field trip of GEO4410, 2022 and the follow-up lab exercises. The main objectives are to illustrate:       
 - The connection between the geomorphology process and nowadays society's concerns.
 - The common definitions, concepts and methodologies in geomorphology and periglacial environment.
 - The process and impact of deglaciation, particularly the collapse of the Eurasian ice sheet complex (EISC) and the permafrost thawing.
@@ -487,4 +485,3 @@ This field trip and the related lab exercise give a good description of the proc
 - The snow-covered shrub branches also cool permafrost by thermal bridging <d-cite key="domine.etal_2022"></d-cite>, acting like the blockfield <d-cite key="juliussen.humlum_2008"></d-cite>?
 
 In summary, it was a fun field trip, covering so many interesting topics, and connecting everything! Many thanks to Henning, Karianne, Bernd, and Martin for guiding us getting through this Ice Age Museum.
-
