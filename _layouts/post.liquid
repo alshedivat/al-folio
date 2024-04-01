@@ -57,6 +57,12 @@ layout: default
   </header>
 
   <article class="post-content">
+    {% if page.toc and page.toc.beginning %}
+      <div id="table-of-contents">
+        {% toc %}
+      </div>
+      <hr>
+    {% endif %}
     <div id="markdown-content">
       {{ content }}
     </div>
@@ -65,6 +71,7 @@ layout: default
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">
+      {% bibliography --cited_in_order %}
     </div>
   {% endif %}
 
