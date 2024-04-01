@@ -32,7 +32,7 @@
       "name": "MAAS, Canonical",
       "position": "Software Engineer I",
       "url": "https://maas.io",
-      "icon": "canonical",
+      "icon": "canonical.jpeg",
       "startDate": "2023-05",
       "summary": "Primarily handling infrastructure and CI/CD projects.",
       "highlights": ["maas-ansible-collection", "terraform-provider", "gomaaslcient"]
@@ -41,7 +41,7 @@
       "name": "MAAS, Canonical",
       "position": "Associate Software Engineer",
       "url": "https://maas.io",
-      "icon": "canonical",
+      "icon": "canonical.jpeg",
       "startDate": "2022-06",
       "endDate": "2023-05",
       "summary": "Joined as part of the graduate fast rack program.",
@@ -53,7 +53,7 @@
       "institution": "University of Portsmouth",
       "location": "Portsmouth, United Kingdom",
       "url": "https://port.ac.uk",
-      "icon": "UOP",
+      "icon": "UOP.png",
       "area": "Physics, Astronomy, and Cosmology",
       "studyType": "MPhys (Hons)",
       "score": "First Class Honours",
@@ -68,7 +68,7 @@
     {
       "institution": "AiCore",
       "url": "https://www.theaicore.com/",
-      "icon": "aicore",
+      "icon": "aicore.png",
       "area": "Ai and Data Engineering",
       "studyType": "Ai and Data Engineering",
       "startDate": "2022-01",
@@ -85,7 +85,7 @@
       "institution": "Peter Symmonds College",
       "location": "Winchester, United Kingdom",
       "url": "https://www.psc.ac.uk/",
-      "icon": "peter_symmonds",
+      "icon": "peter_symmonds.jpeg",
       "area": "Physics (A), EPQ (A), Maths (B), Further Maths (D), AS-Chemistry (A)",
       "studyType": "A-Level",
       "startDate": "2016-09",
@@ -124,14 +124,14 @@
       "releaseDate": "2022-05",
       "url": "/projects/TransitProject/",
       "summary": "Describing Transit Timing Variation models, and providing a software based approach to model fitting, in search of unknown planetary targest",
-      "preview": "ttv-model.gif"
+      "preview": "ttv_model.gif"
     },
     {
       "name": "Distinguishing Intermediate Mass Black Hole Mergers From Short Duration Glitches",
       "releaseDate": "2021-05",
       "url": "/projects/GravProject/",
       "summary": "Developing a model for specific short duration glitches, and applying that to gravitation wave data in search of IMBHs",
-      "preview": "grav-project.png"
+      "preview": "grav_project.png"
     }
   ],
   "memberships": [
@@ -139,14 +139,14 @@
       "name": "Member",
       "institution": "British Astronomical Association",
       "startDate": "2022",
-      "icon": "baa",
+      "icon": "baa.jpeg",
       "summary": ""
     },
     {
       "name": "Member",
       "institution": "Institute of Physics",
       "startDate": "2022",
-      "icon": "IOP",
+      "icon": "IOP.png",
       "summary": "Granted the use of the post-nomen MInstP."
     },
     {
@@ -154,20 +154,20 @@
       "institution": "Institute of Physics",
       "startDate": "2018",
       "endDate": "2022",
-      "icon": "IOP"
+      "icon": "IOP.png"
     },
     {
       "name": "Member",
       "institution": "European Astronomical Society",
       "startDate": "2020",
-      "icon": "eas",
+      "icon": "eas.jpeg",
       "summary": "Awarded as part of RAS Fellowship."
     },
     {
       "name": "Fellow",
       "institution": "Royal Astronomical Society",
       "startDate": "2020",
-      "icon": "ras",
+      "icon": "ras.jpeg",
       "summary": "Granted the use of the post-nomen FRAS."
     }
   ],
