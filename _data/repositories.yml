@@ -1,12 +1,6 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - m4mbo
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - m4mbo/mind-weaver
+
