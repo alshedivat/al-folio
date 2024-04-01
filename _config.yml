@@ -394,7 +394,7 @@ enable_progressbar: true # enables a horizontal progress bar linked to the verti
 
 # Add the url, version and integrity hash of the libraries you use in your site.
 third_party_libraries:
-  # download: false # if true, download the versions of the libraries specified below
+  download: true # if true, download the versions of the libraries specified below and use the local files
 
   bootstrap-table:
     integrity:
@@ -485,6 +485,14 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
       js: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
     version: "4.20.0"
+  mdb_map:
+    integrity:
+      css: "sha256-iYYMNfsJdVZjvsebJulg09miBXM4/GMTJgv1u5EZFFM="
+      js: "sha256-UPgyn4YNsT0khkBK5553QwhnlbTlU0aa+igyc6qP1bE="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css.map"
+      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js.map"
+    version: "4.20.0"
   medium_zoom:
     integrity:
       js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
@@ -508,6 +516,12 @@ third_party_libraries:
     url:
       css: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-bundle.min.css"
       js: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js"
+    version: "11.0.5"
+  swiper-map:
+    integrity:
+      js: "sha256-hlZaH8ySXX97bZaetnrtYlKuhx3oEXFz/s2IXchu6vk="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-element-bundle.min.js.map"
     version: "11.0.5"
   vega:
     integrity:
