@@ -7,6 +7,11 @@
           {% if content.releaseDate %} {% assign date = content.releaseDate | split: '-' | join: '.' %} {% else %} {% assign date = '' %} {% endif %}
           <table class="table-cv">
             <tbody>
+              <tr>
+                <td>
+                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                </td>
+              </tr>
               {% if content.preview %}
                 <tr>
                   <td>
@@ -26,11 +31,6 @@
                   </td>
                 </tr>
               {% endif %}
-              <tr>
-                <td>
-                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
-                </td>
-              </tr>
             </tbody>
           </table>
         </div>

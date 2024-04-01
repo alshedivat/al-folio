@@ -1,13 +1,23 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% for content in data[1] %}
+  {% assign resume_data = data[1] %}
+  {% assign project_data = site.projects %}
+  {% for content in resume_data %}
+    {% unless content.hidden %}{% assign project_data = project_data | where_exp: "item","item.title!=content.name" %}{% endunless %}
+  {% endfor %}
+  {% assign all_data = resume_data | concat: project_data %}
+  {% assign all_data = all_data | sort: 'date' | reverse %}
+  {% for content in all_data %}
+    {% if content.hidden %}{% continue %}{% endif %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center" style="min-width: 75px; padding: 0;">
-          {% if content.startDate %}
-            {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
+          {% if content.date %}
+            {% assign startDate = content.date | split: '-' | slice: 0, 2 | join: '.' %}
             {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
             {% assign date = startDate | append: ' <br> ' %}
-            {% assign date = date | append: endDate %}
+            {% if startDate != endDate %}
+              {% assign date = date | append: endDate %}
+            {% endif %}
           {% else %}
             {% assign date = '' %}
           {% endif %}
@@ -28,12 +38,39 @@
               %}
             {% endif %}
           {% endif %}
+          {% if content.img %}
+            <br><br>
+            {%
+              include figure.liquid
+              path=content.img
+              sizes = "200px"
+              class="preview z-depth-1 rounded"
+              zoomable=false
+              alt=content.icon
+            %}
+          {% endif %}
         </div>
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.name }}</a>
+            {% if content.title %}
+              {% if content.redirect %}
+                <a href="{{ content.redirect }}">{{ content.title }}</a>
+              {% else %}
+                <a href="{{ content.url | relative_url }}">{{ content.title }}</a>
+              {% endif %}
+            {% else %}
+              <a href="{{ content.url }}">{{ content.name }}</a>
+            {% endif %}
+            {% if content.category %}
+            <span style="color:{% case content.category %}{% when "fun" %}#66D9EE{% when "education" %}#FE9720{% when "work" %}#ff0050{% endcase %}; float: right;">{{ content.category}}</span>
+            {% endif %}
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
+          {% if content.summary %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
+          {% endif %}
+          {% if content.description %}
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.description }}</h6>
+          {% endif %}
           <ul class="items">
             {% for item in content.highlights %}
               <li>

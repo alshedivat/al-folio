@@ -1,5 +1,5 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign work = data[1] | sort: 'startDate' | sort: 'endDate' | reverse %}
+  {% assign work = data[1] | sort: 'startDate' | reverse %}
   {% for content in work %}
     <li class="list-group-item">
       <div class="row">

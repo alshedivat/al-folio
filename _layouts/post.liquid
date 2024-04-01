@@ -39,19 +39,8 @@ layout: default
           {% endif %}
         {% endfor %}
       {% endif %}
-
-      {% if categories != '' %}
-        &nbsp; &middot; &nbsp;
-        {% for category in page.categories %}
-          {% if url_beginning == '/blog/' %}
-            <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}
-            </a>
-            &nbsp;
-          {% else %}
-            <i class="fa-solid fa-tag fa-sm"></i> {{ category }} &nbsp;
-          {% endif %}
-        {% endfor %}
+      {% if page.categories %}
+        {% include series_links.liquid %}
       {% endif %}
     </p>
   </header>
@@ -75,16 +64,16 @@ layout: default
     </div>
   {% endif %}
 
+  {% if page.categories %}
+    {% assign cont = content | strip | size %}
+    {% if cont > 0 %}
+      {% include series_links.liquid %}
+    {% endif %}
+  {% endif %}
+
   {% if site.related_blog_posts.enabled %}
     {% if page.related_posts == null or page.related_posts %}
       {% include related_posts.liquid %}
     {% endif %}
-  {% endif %}
-
-  {% if site.disqus_shortname and page.disqus_comments %}
-    {% include disqus.liquid %}
-  {% endif %}
-  {% if site.giscus and page.giscus_comments %}
-    {% include giscus.liquid %}
   {% endif %}
 </div>

@@ -9,12 +9,15 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}" style="padding-bottom: 0px !important;">
     <!-- Header -->
     {% include header.liquid %}
 
+    <!-- Background -->
+    <canvas class="background" id="bgCanvas"></canvas>
+
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <div class="content container mt-5" role="main" style="">
       {% if page.toc and page.toc.sidebar %}
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
@@ -54,5 +57,6 @@
     {% include scripts/analytics.liquid %}
     {% include scripts/progressBar.liquid %}
     {% include scripts/wechatModal.liquid %}
+    {% include scripts/background.liquid %}
   </body>
 </html>

@@ -1,0 +1,7 @@
+{% include social.liquid %}
+{% if site.buymeacoffee.username %}
+  <a href="https://www.buymeacoffee.com/{{ site.buymeacoffee.username }}">
+  <img style="padding-bottom: 13.125px;" class="repo-img-dark-inline" src="https://img.buymeacoffee.com/button-api/?text=Buy me a {{ site.buymeacoffee.beverage }}&emoji=&slug={{ site.buymeacoffee.username }}&button_colour={{ site.buymeacoffee.bgdark }}&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=c58e4c">
+  <img style="padding-bottom: 13.125px;" class="repo-img-light-inline" src="https://img.buymeacoffee.com/button-api/?text=Buy me a {{ site.buymeacoffee.beverage }}&emoji=&slug={{ site.buymeacoffee.username }}&button_colour={{ site.buymeacoffee.bglight }}&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=c58e4c">
+  </a>
+{% endif %}

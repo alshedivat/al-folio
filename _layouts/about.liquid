@@ -5,8 +5,8 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}<br>
+        <span style="color: var(--global-theme-color);">{{ site.post_nomials }}</span>
       {% else %}
         {{ site.title }}
       {% endif %}
@@ -64,10 +64,18 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Selected papers -->
+    {% if page.selected_repos %}
+      <h2>
+        <a href="{{ '/repositories/' | relative_url }}" style="color: inherit">selected repositories</a>
+      </h2>
+      {% include selected_repos.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-icons">{% include footer_social.liquid %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>

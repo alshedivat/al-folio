@@ -4,6 +4,7 @@
 
 body {
   padding-bottom: 70px;
+  height: 0px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
@@ -20,6 +21,7 @@ body {
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
   padding-top: 56px;
+  padding-bottom: 0px !important;
 }
 
 body.sticky-bottom-footer {

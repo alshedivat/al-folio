@@ -13,7 +13,6 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🌌 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -27,9 +26,11 @@ impressum_path: # set to path to include impressum link in the footer, use the s
 # Theme
 # -----------------------------------------------------------------------------
 
+transparent_background: true
+
 # repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: ambient_gradient # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: algolia # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_trophies:
   enabled: true
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
@@ -103,6 +104,11 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+buymeacoffee: # add buy me a coffee button to the bottom
+  username: lloydwaltersj
+  beverage: tea
+  bglight: b509ac
+  bgdark: b3ffff
 
 contact_note: >
   I check my emails more often than social media, but I'll see your contact on any of the above.
@@ -124,17 +130,17 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-# blog_name: al-folio # blog_name will be displayed in your blog page
-# blog_description: a simple whitespace theme for academics
-# permalink: /blog/:year/:title/
+blog_name: Jack's Ramblings # blog_name will be displayed in your blog page
+blog_description: I post things occasionally. Here's where you can choose to read them
+permalink: /blog/:year/:title/
 
 # Pagination
 pagination:
   enabled: true
 
-# related_blog_posts:
-#   enabled: true
-#   max_related: 5
+related_blog_posts:
+  enabled: true
+  max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
@@ -256,18 +262,20 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [year, tags, categories, series] # enables year, tag and category archives (remove if you need to disable one of them).
   layouts:
     year: archive-year
     tag: archive-tag
     category: archive-category
-  # permalinks:
-  #   year: "/blog/:year/"
-  #   tag: "/blog/tag/:name/"
-  #   category: "/blog/category/:name/"
+    series: archive-series
+  permalinks:
+    year: "/blog/:year/"
+    tag: "/blog/tag/:name/"
+    category: "/blog/category/:name/"
+    series: "/blog/series/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
-display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
+# display_tags: ["formatting", "images", "links", "math", "code"] # these tags will be displayed on the front page of your blog
+# display_categories: ["blockquotes"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -362,6 +370,7 @@ enable_tooltips: true # enables automatic tooltip links generated for each secti
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
+enable_project_series: true # enables linking to other posts in the same blog series
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
 
@@ -402,7 +411,7 @@ jsonresume:
   - publications
   - projects
   - awards
+  - memberships
   - skills
   - languages
   - interests
-  - references

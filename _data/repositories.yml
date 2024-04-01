@@ -1,15 +1,21 @@
 github_users:
   - sk1y101
 
+selected_repos:
+  - sk1y101/transitproject
+  - sk1y101/poketchfitbit
+  - sk1y101/skiylia
+  - maas/maas
+
 github_repos:
   - sk1y101/improved-ttv-pipeline
   - sk1y101/transitproject
   - maas/maas
-  - maas/ansible-collection
+  - canonical/ansible-collection
   - maas/terraform-provider-maas
   - canonical/packer-maas
   - maas/gomaasclient
-  - maas/maas-ansible-playbook
+  - canonical/maas-ansible-playbook
   - sk1y101/sk1y101.github.io
   - sk1y101/poketchfitbit
   - sk1y101/kos
@@ -29,5 +35,4 @@ github_repos:
   - readthedocs/readthedocs.org
   - hannorein/rebound
   - dtamayo/reboundx
-  - SK1Y101/sk1y101.github.io
   - Skiylia-Lang/PySkiylia

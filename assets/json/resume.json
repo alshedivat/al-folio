@@ -67,7 +67,6 @@
     },
     {
       "institution": "AiCore",
-      "location": "Remote",
       "url": "https://www.theaicore.com/",
       "icon": "aicore",
       "area": "Ai and Data Engineering",
@@ -111,43 +110,92 @@
       "date": "2022-05",
       "awarder": "Portsmouth University",
       "summary": "First recipient of the award to honour the late Graham Bryant for my Masters thesis"
+    },
+    {
+      "title": "Certified in the practical application of AI and Data Engineering",
+      "date": "2022-06",
+      "awarder": "AiCore",
+      "summary": "Awarded for the successful completion of the course. Couse completed to highest standard awarded in less than half the expected time."
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Determining The Parameters of Exoplanetary Candidates From Transit Timing Variations",
+      "releaseDate": "2022-05",
+      "url": "/projects/TransitProject/",
+      "summary": "Describing Transit Timing Variation models, and providing a software based approach to model fitting, in search of unknown planetary targest",
+      "preview": "ttv-model.gif"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Distinguishing Intermediate Mass Black Hole Mergers From Short Duration Glitches",
+      "releaseDate": "2021-05",
+      "url": "/projects/GravProject/",
+      "summary": "Developing a model for specific short duration glitches, and applying that to gravitation wave data in search of IMBHs",
+      "preview": "grav-project.png"
+    }
+  ],
+  "memberships": [
+    {
+      "name": "Member",
+      "institution": "British Astronomical Association",
+      "startDate": "2022",
+      "icon": "baa",
+      "summary": ""
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Member",
+      "institution": "Institute of Physics",
+      "startDate": "2022",
+      "icon": "IOP",
+      "summary": "Granted the use of the post-nomen MInstP."
+    },
+    {
+      "name": "Associate Member",
+      "institution": "Institute of Physics",
+      "startDate": "2018",
+      "endDate": "2022",
+      "icon": "IOP"
+    },
+    {
+      "name": "Member",
+      "institution": "European Astronomical Society",
+      "startDate": "2020",
+      "icon": "eas",
+      "summary": "Awarded as part of RAS Fellowship."
+    },
+    {
+      "name": "Fellow",
+      "institution": "Royal Astronomical Society",
+      "startDate": "2020",
+      "icon": "ras",
+      "summary": "Granted the use of the post-nomen FRAS."
     }
   ],
   "skills": [
     {
       "name": "Physics",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-satellite",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Exoplanetary Physics",
+        "Space and Spacecraft",
+        "Cosmology",
+        "Signal Processing",
+        "Relativity and Relativistic mechanics",
+        "..."
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "Software Engineer",
+      "icon": "fa-solid fa-microchip",
+      "keywords": [
+        "Python",
+        "LaTeX",
+        "Data Engineering",
+        "CI/CD",
+        "Linux & OSS",
+        "..."
       ]
     }
   ],
@@ -166,37 +214,46 @@
   "interests": [
     {
       "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "icon": "fa-solid fa-satellite",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Exoplanets",
+        "Planetary Science",
+        "Cosmology",
+        "Spaceflight"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Software",
+      "icon": "fa-solid fa-computer",
+      "keywords": [
+        "Programming Languages",
+        "Compilers & Interpreters",
+        "Python",
+        "Custom Watch faces",
+        "Flight Computers"
+      ]
+    },
+    {
+      "name": "Gaming",
+      "icon": "fa-solid fa-keyboard",
+      "keywords": [
+        "Kerbal Space Program",
+        "Factorio",
+        "Stellaris",
+        "Minecraft",
+        "OpenTTD"
+      ]
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
+      "name": "Quantum computing",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
       "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
+      "date": "2018-01-01",
       "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "url": "https://example.com",
+      "hidden": true
     }
   ]
 }

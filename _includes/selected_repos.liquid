@@ -1,0 +1,11 @@
+<div class="news">
+  {% if site.data.repositories.selected_repos %}
+  {% assign repos = site.data.repositories.selected_repos | sort_natural | %}
+  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% for repo in repos %}
+      {% if forloop.index > 4 %}{% break %}{% endif %}
+      {% include repository/repo.liquid repository=repo %}
+    {% endfor %}
+  </div>
+  {% endif %}
+</div>

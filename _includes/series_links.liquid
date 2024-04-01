@@ -1,0 +1,42 @@
+{% assign url_beginning = page.url | slice: 0, 6 %}
+{% for category in page.categories %}
+    {% assign this_cat = site.categories[category] | sort: 'date' %}
+    {% assign me = null %}
+    {% assign prev = null %}
+    {% assign next = null %}
+    <!-- find the position of the current, previous, and next posts -->
+    {% for pst in this_cat %}
+        {% if pst.title == page.title %}
+            {% assign me = forloop.index0 %}
+            {% if forloop.first %}
+            {% else %}
+                {% assign prev = forloop.index0 | minus: 1 %}
+            {% endif %}
+            {% if forloop.last %}
+            {% else %}
+                {% assign next = forloop.index0 | plus: 1 %}
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+    <!-- add links if they exist -->
+    <table class="table table-borderless" style="border: none !important;">
+        <tr>
+            <td width="35%" style="text-align: left; margin: 0; padding: 0;">
+                {% if prev %}
+                    <a href="{{ this_cat[prev].url | prepend: site.baseurl}}">← {{ this_cat[prev].title }}</a>
+                {% endif %}
+            </td>
+            <td width="30%" style="text-align: center; margin: 0; padding: 0;">
+                {% if prev or next %}
+                    <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">{{ category }}</a>
+                {% endif %}
+            </td>
+            <td width="35%" style="text-align: right; margin: 0; padding: 0;">
+                {% if next %}
+                    <a href="{{ this_cat[next].url | prepend: site.baseurl}}">{{ this_cat[next].title }} →</a>
+                {% endif %}
+            </td>
+        </tr>
+    </table>
+{% endfor %}
+
