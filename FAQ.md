@@ -13,6 +13,7 @@ Here are some frequently asked questions. If you have a different question, plea
 - [My code runs fine locally, but when I create a commit and submit it, it fails with `prettier code formatter workflow run failed for master branch`. How do I fix that?](#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-master-branch-how-do-i-fix-that)
 - [After I update my site with some new content, even a small change, the GitHub action throws an error or displays a warning. What happened?](#after-i-update-my-site-with-some-new-content-even-a-small-change-the-github-action-throws-an-error-or-displays-a-warning-what-happened)
 - [I am trying to deploy my site, but it fails with `Could not find gem 'jekyll-diagrams' in locally installed gems`. How do I fix that?](#i-am-trying-to-deploy-my-site-but-it-fails-with-could-not-find-gem-jekyll-diagrams-in-locally-installed-gems-how-do-i-fix-that)
+- [How can I update Font Awesome version on the template](#how-can-i-update-font-awesome-version-on-the-template)
 
 ---
 
@@ -76,3 +77,7 @@ Note that libraries tend to be deprecated and support for them dropped as they a
 #### I am trying to deploy my site, but it fails with `Could not find gem 'jekyll-diagrams' in locally installed gems`. How do I fix that?
 
 `jekyll-diagrams` support was dropped in [#1992](https://github.com/alshedivat/al-folio/pull/1992) in favor of using `mermaid.js` directly. Simply [update your code](INSTALL.md#upgrading-from-a-previous-version) to get the latest changes.
+
+#### How can I update Font Awesome version on the template
+
+To update the Font Awesome version, you need to download the latest release "for the web" from the [Font Awesome website](https://fontawesome.com/download). After downloading, extract the zip file and copy the `scss/` directory content to `_sass/font-awesome/` and the `webfonts/` content to `assets/webfonts/`.
