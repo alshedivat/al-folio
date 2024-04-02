@@ -6,104 +6,49 @@ nav: true
 nav_order: 2
 ---
 
-<div class="contrainer mb-4">
-    <p class="text-justify">Welcome to our Events Page at <strong>NLP@DSAI</strong>, where we bring together minds passionate about Natural Language Processing and related fields. Dive into our diverse array of gatherings, including the intellectually stimulating <em>Reading Group</em>, the casual yet insightful <em>NLP Fika</em> sessions, dynamic and thought-provoking <em>Talks</em> and in-depth <em>Seminars</em> that delve deep into the latest NLP research and industry advancements. Whether you're a seasoned expert or just starting out, there's something here for everyone. Plus, stay connected and actively participate by subscribing through our form—your gateway to being part of a vibrant community dedicated to exploring and shaping the future of NLP.</p> <div data-tf-live="01HH1W0ZC0FZEK862Q4CQCVKNE"></div><script src="//embed.typeform.com/next/embed.js"></script>
-    <hr>
-</div>
+# Events
 
-<div class="container mt-4">
-    <h2 class="mb-4">Upcoming Events</h2>
-    {% assign sorted = site.data.upcoming_events | sort: 'start' %}
+At the moment, we hold two regular events at NLP@DSAI: a weekly fika and a
+tri-weekly reading group.
 
-    {% if sorted.size == 0 %}
-    <div class="callout callout-default">Sorry, but there are currently no events scheduled at this time. Please check back later for updates or explore our past events for inspiration.</div>
-    {% endif %}
+If you have a question about either, feel free to send an email to:
+[nicolas.audinet@chalmers.se](mailto:nicolas.audinet@chalmers.se).
 
-    {% for event in sorted %}
-    <div id="{{event.speaker}}" class="row align-items-center callout callout-green" style="border-right: 0; border-top: 0; border-bottom: 0;">
-        <div class="col-md-3 text-center mb-3 mb-md-0">
-            <img class="img-fluid" src="{%- if event.image %}{{ event.image | relative_url }}{% else %}{{ 'assets/event/placeholder.png' | relative_url }}{% endif %}" height="400px">
-        </div>
-        <div class="col-md-9">
-            <!-- Badge indicating the event type with specific styles -->
-            {% case event.layout %}
-                {% when 'reading-group' %}
-                    <span class="badge badge-dark">{{event.layout | capitalize}}</span>
-                {% when 'fika' %}
-                    <span class="badge badge-warning">{{event.layout | capitalize}}</span>
-                {% when 'talk' %}
-                    <span class="badge badge-success">{{event.layout | capitalize}}</span>
-                {% when 'seminar' %}
-                    <span class="badge badge-primary">{{event.layout | capitalize}}</span>
-                {% else %}
-                    <span class="badge badge-secondary">{{event.layout | capitalize}}</span>
-            {% endcase %}
-            <h3 class="mt-2">{{event.title}}</h3>
-            <p><strong>Date and Time:</strong> {{event.start | date: "%e %B, %Y %H:%M"}} (local Swedish time)</p>
-            <!-- Conditional Speaker or Curator label -->
-            {% if event.layout == "reading-group" %}
-                <p><strong>Curator:</strong> {{event.speaker}}</p>
-            {% else %}
-                <p><strong>Speaker:</strong> {{event.speaker}}</p>
-            {% endif %}
-            <p><strong>Abstract:</strong> {{event.abstract | markdownify}}</p>
-            <p>{{event.bio | markdownify}}</p>
+## Fika
 
-            {% if event.zoomroom %}
-            <a class="btn btn-small btn-primary" href="https://chalmers.zoom.us/j/{{event.zoomroom}}" role="button">Connect via Zoom</a>
-            {% endif %}
-            {% if event.zoompassword %}
-            <span class="text-muted font-weight-bold">Password: {{event.zoompassword}}</span>
-            {% endif %}
-        </div>
-    </div>
-    <hr>
-    {% endfor %}
+We like to have a weekly fika together at **15:00 on Wednesday afternoons** in
+the 8th floor lunchroom in the EDIT building. We sometimes have a particular
+topic for these fikas, but mostly we tend to just catch up and talk about what
+we have on our mind. Come join us if you'd like to get to know the group a bit
+more!
 
-</div>
+## Reading Group
 
-<!-- Previous Events Section -->
-<div class="container mt-5">
-    <h2 class="mb-4">Previous Talks</h2>
-    {% assign sorted_previous = site.data.previous_events | sort: 'start' | reverse %}
-    {% for event in sorted_previous %}
-    <div id="{{event.speaker}}" class="row align-items-center" style="padding-top: 60px; margin-top: -60px;">
-        <div class="col-md-3 text-center mb-3 mb-md-0">
-            <img class="img-fluid" src="{%- if event.image %}{{ event.image | relative_url }}{% else %}{{ 'assets/event/placeholder.png' | relative_url }}{% endif %}" height="400px">
-        </div>
-        <div class="col-md-9">
-            <!-- Badge indicating the event type with specific styles -->
-            {% case event.layout %}
-                {% when 'reading-group' %}
-                    <span class="badge badge-dark">{{event.layout | capitalize}}</span>
-                {% when 'fika' %}
-                    <span class="badge badge-warning">{{event.layout | capitalize}}</span>
-                {% when 'talk' %}
-                    <span class="badge badge-success">{{event.layout | capitalize}}</span>
-                {% when 'seminar' %}
-                    <span class="badge badge-primary">{{event.layout | capitalize}}</span>
-                {% else %}
-                    <span class="badge badge-secondary">{{event.layout | capitalize}}</span>
-            {% endcase %}
-            <h3 class="mt-2">{{event.title}}</h3>
-            <p><strong>Date and Time:</strong> {{event.start | date: "%e %B, %Y %H:%M"}} (local Swedish time)</p>
-            <!-- Conditional Speaker or Curator label -->
-            {% if event.layout == "reading-group" %}
-                <p><strong>Curator:</strong> {{event.speaker}}</p>
-            {% else %}
-                <p><strong>Speaker:</strong> {{event.speaker}}</p>
-            {% endif %}
-            <p><strong>Abstract:</strong> {{event.abstract | markdownify}}</p>
-            <p>{{event.bio | markdownify}}</p>
-            <!-- Links for video recording and slides if available -->
-            {% if event.youtube %}
-            <a class="btn btn-small btn-link" href="{{event.youtube}}" role="button">Video Recording (YouTube)</a>
-            {% endif %}
-            {% if event.slides %}
-            <a class="btn btn-small btn-link" href="{{event.slides}}" role="button">Download Slides</a>
-            {% endif %}
-        </div>
-    </div>
-    <hr>
-    {% endfor %}
-</div>
+We hold a Natural Language Processing reading group about every 3 weeks.
+
+For each meeting, a paper is selected that all members agree to read. A
+designated member (the curator) prepares a concise summary of the paper and a
+set of notes which they share with the group. Before the meeting, all members
+are expected to read the paper and write their thoughts and concerns in the
+shared notes. Then, during the meeting the curator guides the group through the
+structured discussion based on the questions and themes emerging from the shared
+notes. We are committed to maintaining a respectful and positive atmosphere,
+where members are encouraged to critique ideas constructively and listen
+actively to each other.
+
+If you would like to join the reading group, please send an email to
+[nicolas.audinet@chalmers.se](mailto:nicolas.audinet@chalmers.se).
+
+
+### Previous meetings
+
+- 2024-03-28 - [Naturalistic Causal Probing for Morpho-Syntax](https://aclanthology.org/2023.tacl-1.23.pdf)
+- 2024-03-07 - [Understanding Transformer Memorization Recall Through Idioms](https://aclanthology.org/2023.eacl-main.19.pdf)
+- 2023-12-21 - [Detecting Pretraining Data from Large Language Models](https://arxiv.org/abs/2310.16789)
+- 2023-11-21 - [Testing Causal Theories with Learned Proxies](https://www.annualreviews.org/content/journals/10.1146/annurev-polisci-051120-111443)
+- 2023-10-26 - Two papers on the application of causal mediation analysis in NLP model analysis
+    - [Investigating Gender Bias in Language Models Using Causal Mediation Analysis](https://proceedings.neurips.cc/paper/2020/file/92650b2e92217715fe312e6fa7b90d82-Paper.pdf)
+    - [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262)
+- 2023-10-10 - [Causal Abstractions of Neural Networks](https://proceedings.neurips.cc/paper_files/paper/2021/file/4f5c422f4d49a5a807eda27434231040-Paper.pdf)
+- 2023-09-20 - [Language Models (Mostly) Know What They Know](https://arxiv.org/pdf/2207.05221.pdf)
+- 2023-09-05 - [When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories](https://arxiv.org/pdf/2212.10511.pdf)
