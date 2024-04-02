@@ -6,16 +6,21 @@
   title = {Can Large Language Models (or Humans) Distill Text?},
   year = {2024},
   journal={arXiv preprint arXiv:2403.16584},
-  url = {https://arxiv.org/abs/2403.16584}
+  url = {https://arxiv.org/abs/2403.16584},
+  pdf = {https://arxiv.org/pdf/2403.16584.pdf},
+  abstract = {We investigate the potential of large language models (LLMs) to distill text: to remove the textual traces of an undesired forbidden variable. We employ a range of LLMs with varying architectures and training approaches to distill text by identifying and removing information about the target variable while preserving other relevant signals. Our findings shed light on the strengths and limitations of LLMs in addressing the distillation and provide insights into the strategies for leveraging these models in computational social science investigations involving text data. In particular, we show that in the strong test of removing sentiment, the statistical association between the processed text and sentiment is still clearly detectable to machine learning classifiers post-LLM-distillation. Furthermore, we find that human annotators also struggle to distill sentiment while preserving other semantic content. This suggests there may be limited separability between concept variables in some text contexts, highlighting limitations of methods relying on text-level transformations and also raising questions about the robustness of distillation methods that achieve statistical independence in representation space if this is difficult for human coders operating on raw text to attain.}
 }
 
 @inproceedings{johansson2024what,
     title = {What Happens to a Dataset Transformed by a Projection-based Concept Removal Method?},
     author = {Richard Johansson},
-    booktitle = {To appear in Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation},
+    booktitle = {Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation},
     year = {2024},
     address = {Turin, Italy},
     url = {https://arxiv.org/abs/2403.16142},
+    pdf = {https://arxiv.org/pdf/2403.16142.pdf},
+    note = {to appear},
+    abstract = {We investigate the behavior of methods that use linear projections to remove information about a concept from a language representation, and we consider the question of what happens to a dataset transformed by such a method. A theoretical analysis and experiments on real-world and synthetic data show that these methods inject strong statistical dependencies into the transformed datasets. After applying such a method, the representation space is highly structured: in the transformed space, an instance tends to be located near instances of the opposite label. As a consequence, the original labeling can in some cases be reconstructed by applying an anti-clustering method.}
 }
 
 # 2023
@@ -35,6 +40,7 @@
     address = "Singapore",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.emnlp-main.332",
+    pdf = "https://aclanthology.org/2023.emnlp-main.332.pdf",    
     doi = "10.18653/v1/2023.emnlp-main.332",
     pages = "5457--5476",
     abstract = "Large Language Models (LLMs) make natural interfaces to factual knowledge, but their usefulness is limited by their tendency to deliver inconsistent answers to semantically equivalent questions. For example, a model might supply the answer {``}Edinburgh{''} to {``}Anne Redpath passed away in X.{''} and {``}London{''} to {``}Anne Redpath{'}s life ended in X.{''} In this work, we identify potential causes of inconsistency and evaluate the effectiveness of two mitigation strategies: up-scaling and augmenting the LM with a passage retrieval database. Our results on the LLaMA and Atlas models show that both strategies reduce inconsistency but that retrieval augmentation is considerably more efficient. We further consider and disentangle the consistency contributions of different components of Atlas. For all LMs evaluated we find that syntactical form and task artifacts impact consistency. Taken together, our results provide a better understanding of the factors affecting the factual consistency of language models.",
@@ -54,6 +60,7 @@
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.acl-short.45",
+    pdf = "https://aclanthology.org/2023.acl-short.45.pdf",    
     doi = "10.18653/v1/2023.acl-short.45",
     pages = "521--529",
     abstract = "Augmenting language models with a retrieval mechanism has been shown to significantly improve their performance while keeping the number of parameters low. Retrieval-augmented models commonly rely on a semantic retrieval mechanism based on the similarity between dense representations of the query chunk and potential neighbors. In this paper, we study the state-of-the-art Retro model and observe that its performance gain is better explained by surface-level similarities, such as token overlap. Inspired by this, we replace the semantic retrieval in Retro with a surface-level method based on BM25, obtaining a significant reduction in perplexity. As full BM25 retrieval can be computationally costly for large datasets, we also apply it in a re-ranking scenario, gaining part of the perplexity reduction with minimal computational overhead.",
@@ -72,6 +79,7 @@
     address = "Dubrovnik, Croatia",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2023.findings-eacl.109",
+    pdf = "https://aclanthology.org/2023.findings-eacl.109.pdf",    
     doi = "10.18653/v1/2023.findings-eacl.109",
     pages = "1485--1493",
     abstract = "Recent work on the Retrieval-Enhanced Transformer (RETRO) model has shown impressive results: off-loading memory from trainable weights to a retrieval database can significantly improve language modeling and match the performance of non-retrieval models that are an order of magnitude larger in size. It has been suggested that at least some of this performance gain is due to non-trivial generalization based on both model weights and retrieval. In this paper, we try to better understand the relative contributions of these two components. We find that the performance gains from retrieval to a very large extent originate from overlapping tokens between the database and the test data, suggesting less of non-trivial generalization than previously assumed. More generally, our results point to the challenges of evaluating the generalization of retrieval-augmented language models such as RETRO, as even limited token overlap may significantly decrease test-time loss. We release our code and model at \url{https://github.com/TobiasNorlund/retro}",
@@ -88,9 +96,11 @@
     address = "T{\'o}rshavn, Faroe Islands",
     publisher = "University of Tartu Library",
     url = "https://aclanthology.org/2023.nodalida-1.36",
+    pdf = "https://aclanthology.org/2023.nodalida-1.36.pdf",    
     pages = "347--357",
     abstract = "Autoregressive models used to generate responses in open-domain dialogue systems often struggle to take long-term context into account and to maintain consistency over a dialogue. Previous research in open-domain dialogue generation has shown that the use of \textit{auxiliary tasks} can introduce inductive biases that encourage the model to improve these qualities. However, most previous research has focused on encoder-only or encoder/decoder models, while the use of auxiliary tasks in \textit{encoder-only} autoregressive models is under-explored. This paper describes an investigation where four different auxiliary tasks are added to small and medium-sized GPT-2 models fine-tuned on the PersonaChat and DailyDialog datasets. The results show that the introduction of the new auxiliary tasks leads to small but consistent improvement in evaluations of the investigated models.",
 }
+
 @inproceedings{saynova-etal-2023-class,
     title = "Class Explanations: the Role of Domain-Specific Content and Stop Words",
     author = "Saynova, Denitsa  and
@@ -105,6 +115,7 @@
     address = "T{\'o}rshavn, Faroe Islands",
     publisher = "University of Tartu Library",
     url = "https://aclanthology.org/2023.nodalida-1.12",
+    pdf = "https://aclanthology.org/2023.nodalida-1.12.pdf",
     pages = "103--112",
     abstract = "We address two understudied areas related to explainability for neural text models. First, \textit{class explanations}. What features are descriptive across a class, rather than explaining single input instances? Second, the \textit{type of features} that are used for providing explanations. Does the explanation involve the statistical pattern of word usage or the presence of domain-specific content words? Here, we present a method to extract both class explanations and strategies to differentiate between two types of explanations {--} domain-specific signals or statistical variations in frequencies of common words. We demonstrate our method using a case study in which we analyse transcripts of political debates in the Swedish Riksdag.",
 }
@@ -134,6 +145,7 @@
     pages = {61-66},
     editor = {Volodina, Elena and Dann\'{e}lls, Dana and Berdicevskis, Aleksandrs and Forsberg, Markus and Virk, Shafqat},
     url = {https://gupea.ub.gu.se/handle/2077/74254},
+    pdf = {https://gupea.ub.gu.se/handle/2077/74254},    
     optgupid = {326360},
 }
 
@@ -147,6 +159,7 @@
     publisher = {Association for Computational Linguistics},
     pages = {45-50},
     url = {https://aclanthology.org/2022.case-1.8/},
+    pdf = {https://aclanthology.org/2022.case-1.8.pdf},
     optgupid = {323886},
 }
 
@@ -160,7 +173,7 @@
     publisher = {Association for Computational Linguistics},
     url = {https://aclanthology.org/2022.clasp-1.5},
     pages = {45-50},
-    url = {https://aclanthology.org/2022.clasp-1.5},
+    pdf = {https://aclanthology.org/2022.clasp-1.5.pdf},
     optgupid = {318477},
 }
 
@@ -172,6 +185,7 @@
     address = {Gyeongju, Republic of Korea},
     pages = {5582-5596},
     url = {https://aclanthology.org/2022.coling-1.494/},
+    pdf = {https://aclanthology.org/2022.coling-1.494.pdf},    
     optgupid = {319269},
     optpreprint = {https://arxiv.org/abs/2209.08982}
 }
@@ -186,7 +200,7 @@
     publisher = {Association for Computational Linguistics},
     url = {https://aclanthology.org/2022.acl-srw.19},
     pages = {252-261},
-    url = {https://aclanthology.org/2022.acl-srw.19},
+    pdf = {https://aclanthology.org/2022.acl-srw.19.pdf},
     optgupid = {316251},
 }
 
@@ -198,7 +212,8 @@
     year = {2022},
     address = {Seattle, United States},
     publisher = "Association for Computational Linguistics",
-    url = {https://aclanthology.org/2022.naacl-main.413.pdf},
+    url = {https://aclanthology.org/2022.naacl-main.413/},
+    pdf = {https://aclanthology.org/2022.naacl-main.413.pdf},    
     optaclid = {2022.naacl-main.413},
     pages = {5638-5645},
     optpreprint = {http://arxiv.org/abs/2205.00465},
@@ -214,7 +229,7 @@ year = {2022},
 issn = {0010-4825},
 doi = {https://doi.org/10.1016/j.compbiomed.2022.105282},
 url = {https://www.sciencedirect.com/science/article/pii/S0010482522000749},
-url = {https://www.sciencedirect.com/science/article/pii/S0010482522000749},
+pdf = {https://www.sciencedirect.com/science/article/pii/S0010482522000749},
 author = {Eva Hagberg and David Hagerman and Richard Johansson and Nasser Hosseini and Jan Liu and Elin Bj\"{o}rnsson and Jennifer Alv\'{e}n and Ola Hjelmgren},
 optgupid = {314455},
 }
@@ -231,7 +246,8 @@ optgupid = {314455},
         optmonth = nov,
         date = {November 11},
         pages = {149-162},
-        url = {https://aclanthology.org/2021.blackboxnlp-1.10.pdf},
+        url = {https://aclanthology.org/2021.blackboxnlp-1.10/},
+        pdf = {https://aclanthology.org/2021.blackboxnlp-1.10.pdf},	
         optacllink = {https://aclanthology.org/2021.blackboxnlp-1.10/},
 }
 
@@ -244,7 +260,8 @@ optgupid = {314455},
         address = {Reykjav\'{i}k, Iceland},
         date = {May 31-June 2},
         pages = {124-134},
-        url = {https://www.aclweb.org/anthology/2021.nodalida-main.13.pdf},
+        url = {https://www.aclweb.org/anthology/2021.nodalida-main.13},
+        pdf = {https://www.aclweb.org/anthology/2021.nodalida-main.13.pdf},	
         opttoappear = {false},
         optacllink = {https://www.aclweb.org/anthology/2021.nodalida-main.13},
 }
