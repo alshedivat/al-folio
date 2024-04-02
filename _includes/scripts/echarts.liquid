@@ -1,13 +1,11 @@
 {% if page.chart and page.chart.echarts %}
   <script
-    defer
     src="{{ site.third_party_libraries.echarts.url.js.library }}"
     integrity="{{ site.third_party_libraries.echarts.integrity.js.library }}"
     crossorigin="anonymous"
   ></script>
   {% if site.enable_darkmode %}
     <script
-      defer
       src="{{ site.third_party_libraries.echarts.url.js.dark_theme }}"
       integrity="{{ site.third_party_libraries.echarts.integrity.js.dark_theme }}"
       crossorigin="anonymous"
