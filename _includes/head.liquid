@@ -27,7 +27,7 @@
   defer
   rel="stylesheet"
   type="text/css"
-  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
 >
 
 <!-- Code Syntax Highlighting -->
@@ -131,5 +131,5 @@
 {% endif %}
 
 {% if page.tikzjax %}
-  <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+  <link defer rel="stylesheet" type="text/css" href="{{ site.third_party_libraries.tikzjax.url.fonts }}">
 {% endif %}
