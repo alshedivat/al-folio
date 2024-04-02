@@ -6,9 +6,7 @@
   margin-left: var(--#{$fa-css-prefix}-li-margin, #{$fa-li-margin});
   padding-left: 0;
 
-  > li {
-    position: relative;
-  }
+  > li { position: relative; }
 }
 
 .#{$fa-css-prefix}-li {
