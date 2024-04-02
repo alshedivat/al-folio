@@ -57,7 +57,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     end
 
     # only download the css file if it doesn't exist
-    unless File.file?(file_name)
+    unless File.file?(File.join(dest, file_name))
       puts "Downloading fonts from #{url} to #{dest}"
       # download the css file with a fake user agent to force downloading woff2 fonts instead of ttf
       # user agent from https://www.whatismybrowser.com/guides/the-latest-user-agent/chrome
@@ -112,6 +112,8 @@ Jekyll::Hooks.register :site, :after_init do |site|
       # save the modified css file
       File.write(File.join(dest, file_name), css.to_s)
     end
+
+    return file_name
   end
 
   # replace {{version}} with the version number in all 3rd party libraries urls
@@ -148,7 +150,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
               file_name = url2.split('/').last.split('?').first
               # download the file and change the url to the local file
               dest = File.join(site.source, 'assets', 'libs', file_name)
-              download_file(url, dest)
+              download_file(url2, dest)
               # change the url to the local file, considering baseurl
               if site.config['baseurl']
                 site.config['third_party_libraries'][key]['url'][type][type2] = File.join(site.config['baseurl'], 'assets', 'libs', file_name)
@@ -164,7 +166,13 @@ Jekyll::Hooks.register :site, :after_init do |site|
 
               if file_name.end_with?('css')
                 # if the file is a css file, download the css file, the fonts from it, and change information on the css file
-                download_fonts_from_css(site.config, url, File.join(site.source, 'assets', 'libs'))
+                file_name = download_fonts_from_css(site.config, url, File.join(site.source, 'assets', 'libs'))
+                # change the url to the local file, considering baseurl
+                if site.config['baseurl']
+                  site.config['third_party_libraries'][key]['url'][type] = File.join(site.config['baseurl'], 'assets', 'libs', file_name)
+                else
+                  site.config['third_party_libraries'][key]['url'][type] = File.join('/assets', 'libs', file_name)
+                end
               else
                 # download the font files and change the url to the local file
                 download_fonts(url, File.join(site.source, 'assets', 'libs', site.config['third_party_libraries'][key]['local']['fonts']))
