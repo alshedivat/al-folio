@@ -27,11 +27,11 @@ The National Museum of Taiwan History (NMTH) featured the Archive collection in 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/news/fig-3_Taiwan-poster.png" alt="A poster from the Sunflower Movement Archive (no. 16036)" class="img-fluid rounded" %}
+        {% include figure.html path="assets/img/news/fig-3_Taiwan-poster.png" alt="A poster from the Sunflower Movement Archive (no. 16036)." class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
-    <b>A poster from the Sunflower Movement Archive (no. 16036)</b>
+    <b>A poster from the Sunflower Movement Archive (no. 16036).</b>
 </div>
 
 ---
