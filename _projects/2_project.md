@@ -35,7 +35,7 @@ This way it is almost impossible to fraud the other party via the use of a Smart
 
 # Tech Stack used
 
-![AssetSwap Architecture Diagram](./../assets/img/asset-swap-pic.png)
+![AssetSwap Architecture Diagram](/assets/img/asset-swap-pic.png)
 
 ## Architecture
 
