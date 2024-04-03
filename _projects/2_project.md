@@ -10,7 +10,6 @@ category: OpenSource
 giscus_comments: true
 ---
 
-
 # Intro and Motivations
 
 AssetSwap is a decentralized p2p trading platform ; that enables two "non-trusting" parties to do commerce with each other(exchange goods and services) without having to establish trust via regular advance payments or legal contracts / legal authorities. 
