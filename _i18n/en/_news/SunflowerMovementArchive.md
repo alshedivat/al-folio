@@ -8,11 +8,11 @@ When the movement was winding down, a few academics from Academia Sinica (the na
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/news/fig-1_legislature.jpg" alt="The Taiwan Legislature during the Sunflower Movement" class="img-fluid rounded" %}
+        {% include figure.html path="assets/img/news/fig-1_legislature.jpg" alt="The Taiwan Legislature during the Sunflower Movement. Photo: Tyng-Ruey Chuang." class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
-    <b>The Taiwan Legislature during the Sunflower Movement</b>
+    <b>The Taiwan Legislature during the Sunflower Movement. Photo: Tyng-Ruey Chuang.</b>
 </div>
 
 ---
@@ -38,11 +38,11 @@ The National Museum of Taiwan History (NMTH) featured the Archive collection in 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/news/fig-2_NMTH.png" alt="The Archive collection featured in a special exhibition at the National Museum of Taiwan History" class="img-fluid rounded" %}
+        {% include figure.html path="assets/img/news/fig-2_NMTH.png" alt="The Archive collection featured in a special exhibition at the National Museum of Taiwan History. Image: NMTH." class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
-    <b>The Archive collection featured in a special exhibition at the National Museum of Taiwan History</b>
+    <b>The Archive collection featured in a special exhibition at the National Museum of Taiwan History. Image: NMTH.</b>
 </div>
 
 ---
@@ -53,11 +53,11 @@ With the Archive online and accessible, we started to see critiques and commenta
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/news/fig-4_TV-documentary.png" alt="Archived video (no. 14017) reused in a TV documentary on the Sunflower Movement" class="img-fluid rounded" %}
+        {% include figure.html path="assets/img/news/fig-4_TV-documentary.png" alt="Archived video (no. 14017) reused in a TV documentary on the Sunflower Movement. Source: Mirror TV." class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
-    <b>Archived video (no. 14017) reused in a TV documentary on the Sunflower Movement</b>
+    <b>Archived video (no. 14017) reused in a TV documentary on the Sunflower Movement. Source: Mirror TV.</b>
 </div>
 
 ---
