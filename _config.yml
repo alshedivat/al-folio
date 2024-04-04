@@ -462,13 +462,6 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
     version: "3.6.0"
   leaflet:
-    # integrity:
-    #   css: "sha512-h9FcoyWjHcOcmEVkxOfTLnmZFWIH0iZhZT1H2TbOq55xssQGEJHEaIm+PgoUaZbRvQTNTluNOEfb1ZRy6D3BOw=="
-    #   js: "sha512-puJW3E/qXDqYp9IfhAI54BJEaWIfloJ7JWs7OeD5i6ruC9JZL1gERT1wjtwXFlh7CjE7ZJ+/vcRZRkIYIb6p4g=="
-    # url:
-    #   css: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/{{version}}/leaflet.min.css"
-    #   js: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/{{version}}/leaflet.min.js"
-    #   js_map: "https://cdnjs.cloudflare.com/ajax/libs/leaflet/{{version}}/leaflet.js.map"
     integrity:
       css: "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
       js: "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
