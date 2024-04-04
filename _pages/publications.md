@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Soon to come...
+description: Coming soon...
 nav: true
 nav_order: 2
 ---
