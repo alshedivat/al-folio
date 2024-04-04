@@ -5,7 +5,8 @@ title: cv
 nav: true
 nav_order: 5
 cv_pdf: CV.pdf
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+description: Welcome to my cv. Here, you'll find a detailed overview of my academic and professional background. Feel free to download the pdf version or review it online. References are available upon request.
+
 toc:
   sidebar: left
 ---
