@@ -533,11 +533,6 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-element-bundle.min.js.map"
     version: "11.0.5"
-  tikzjax:
-    url:
-      fonts: "https://tikzjax.com/v{{version}}/fonts.css"
-      js: "https://tikzjax.com/v{{version}}/tikzjax.js"
-    version: "1"
   vega:
     integrity:
       js: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
