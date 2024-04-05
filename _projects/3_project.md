@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Software Verification
+description: Work done for the Golem CHC solver.
+img: assets/img/golem-graph.png
+#redirect: dddfdfd
 importance: 3
 category: work
 ---

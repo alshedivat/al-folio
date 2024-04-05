@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: Machine Learning
+description: Machine learning applications.
+img: assets/img/topic-graph.png
+#redirect: dddfdfd
+importance: 3
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.

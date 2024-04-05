@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my personal projects. These were either done for fun or work related matters. Most of my projects' source code can be found on my <a href='https://github.com/m4mbo'>Github</a>
 nav: true
 nav_order: 3
 display_categories: [work, fun]

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Game development
+description: I enjoy gaming and making my own games!
+img: 
 importance: 3
 category: fun
 ---
