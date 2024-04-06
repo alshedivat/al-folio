@@ -1,0 +1,31 @@
+{% if page.code_diff %}
+  <!-- diff2html doesn't go well with Bootstrap Table -->
+  <script
+    defer
+    src="https://cdn.jsdelivr.net/npm/diff2html@{{ site.diff2html.version }}/bundles/js/diff2html-ui.min.js"
+    integrity="{{ site.diff2html.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script>
+    let theme = determineComputedTheme();
+
+    /* Create echarts chart as another node and hide the code block, appending the echarts node after it
+       this is done to enable retrieving the code again when changing theme between light/dark */
+    document.onreadystatechange = () => {
+      if (document.readyState === 'complete') {
+        document.querySelectorAll('pre>code.language-diff2html').forEach((elem) => {
+          const textData = elem.textContent;
+          const backup = elem.parentElement;
+          backup.classList.add('unloaded');
+          /* create diff node */
+          let diffElement = document.createElement('div');
+          diffElement.classList.add('diff2html');
+          backup.after(diffElement);
+          const configuration = { colorScheme: theme, drawFileList: true, highlight: true, matching: 'lines' };
+          const diff2htmlUi = new Diff2HtmlUI(diffElement, textData, configuration);
+          diff2htmlUi.draw();
+        });
+      }
+    };
+  </script>
+{% endif %}
