@@ -145,6 +145,15 @@
     {% if entry.year %}
       {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
     {% endif %}
+    {% if entry.location %}
+      {% capture entrytype %}{{entrytype}}{{ ", " }}{{entry.location}}{% endcapture %}
+    {% endif -%}
+    {% if entry.acceptance and entry.acceptance_rate %}
+      {% capture entrytype -%}{{entrytype}}, accepted papers: {{entry.acceptance}} = <span {% if venue_style %}{{venue_style | remove: "background-" }}{% endif %}>{{entry.acceptance_rate}}</span>{% endcapture %}
+    {% endif %}
+    {% if entry.cve_score %}
+      {% capture entrytype %}{{entrytype}}CVSS: {{entry.cve_score}}{% endcapture %}
+    {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
     {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
     <div class="periodical">
