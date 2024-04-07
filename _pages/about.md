@@ -22,12 +22,34 @@ social: true  # includes social icons at the bottom of the page
 <!-- I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring. -->
 
 I am an honors, Phi Beta Kappa, and Mary Gates scholar at the University of Washington studying philosophy and computer science, minoring in mathematics.
-My research interests are in the union of philosophy -- in particular phenomenology and (feminist) philosophy of science, human-computer interaction, and deep learning.
-Please see my [research agenda](/agenda) and [CV](/cv).
+My specific research interest is in designing **non-human intelligences** to **aid human philosophical practice** and address **metaphilosophical problems**, ranging from the analytic-continental divide to the age-old question "what is philosophy and why do we do it?".
+My general research interests are in philosophy of AI, phenomenology, philosophy of science, and computer vision.
+Please see my [research agenda](/agenda) and [CV](/cv) for more details.
 I have written a few [essays](/writing/philosophy){:target="_blank"} in philosophy, [two](/writing/mdldna){:target="_blank"} [books](/writing/mdl4td){:target="_blank"} on deep learning, a little bit of [fiction](/writing/fiction){:target="_blank"}, and many data science [articles](https://andre-ye.medium.com/){:target="_blank"}.
+My email is `andreye [at] uw [dot] edu`.
 
-Currently reading: `The Foucault Reader, ed. Paul Rabinow`, `The Birth of Computer Vision, James Dobson`.
-Check out my [reading list](/reading/reading_list) and some [music](/reading/listening_list) to pair.
+<br>
+
+<center>
+<img src="/assets/img/new-shot.png" width="100%" />
+</center>
+
+<br>
+
+<center>
+<img src="\assets\img\ghost-portraits.png" width="100%" />
+</center>
+<small>
+  Composite image of The Disintegration of the Persistence of Memory (Dali), Edward Bellamy (GAN), Guernica (Picasso), still from Battleship Potemkin (Eisenstein), Relativity (Escher).
+</small>
+
+<br>
+
+<center>
+<a href="https://info.flagcounter.com/42Y6"><img src="https://s11.flagcounter.com/count2/42Y6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+</center>
+
+
 
 <!-- My interest is in the philosophy of technology and AI.
 I think that we need to understand the metaphysical and political structure of data and models in order to understand their ethical/normative character.
@@ -56,31 +78,9 @@ on the [segmentation](/projects/foot_process_seg/){:target="_blank"} of kidney s
 
 <!-- Outside of academics, I enjoy listening to [lectures](https://www.youtube.com/watch?v=06KiOj6gjbs){:target="_blank"} by Slavoj Zizek (my favorite undead philosopher), playing piano, learning Russian (and French... someday). -->
 
-**Philosophy Interest Statement.** Aphorism 127 in Adorno’s *Minima Moralia* declares, “Intelligence is a moral category.” Every rational and intellectual endeavor expresses an ethical orientation. One usually takes from this that we need a meditation on the ethical waste and peril of human intellectual histories. But intelligence is no longer obviously an anthropocentric feature. My academic interest is in subjecting non-human intelligences (“AI”) to this very sort of meditation. Is the only ethical significance of AI the one that humans imbue into it? Might AI’s persistent exteriority to “HI” (Human Intelligence) better capture truths which themselves elude the rational (human) ego? Can AI ‘do’ philosophy, and does it represent a break in the history of philosophy?
+<!-- **Philosophy Interest Statement.** Aphorism 127 in Adorno’s *Minima Moralia* declares, “Intelligence is a moral category.” Every rational and intellectual endeavor expresses an ethical orientation. One usually takes from this that we need a meditation on the ethical waste and peril of human intellectual histories. But intelligence is no longer obviously an anthropocentric feature. My academic interest is in subjecting non-human intelligences (“AI”) to this very sort of meditation. Is the only ethical significance of AI the one that humans imbue into it? Might AI’s persistent exteriority to “HI” (Human Intelligence) better capture truths which themselves elude the rational (human) ego? Can AI ‘do’ philosophy, and does it represent a break in the history of philosophy?
 
 **Computer Science Interest Statement.**
 Computer vision research builds datasets that assign a single human label to images. Models are often trained under the implicit assumption that this label is indisputable. I am interested in challenging this assumption by exploring how data and machine learning systems can better reflect and engage with human subjectivity across a wide variety of real-world problems.
 *Updated version forthcoming.*
-See my [CRA OUR award research statement](/assets/pdf/cra-research-statement-2023.pdf){:target="_blank"} and [personal statement](/assets/pdf/cra-personal-statement-2023.pdf){:target="_blank"}.
-
-<center>
-<img src="\assets\img\ghost-portraits.png" width="100%" />
-</center>
-
-<small>
-  Composite image of The Disintegration of the Persistence of Memory (Dali), Edward Bellamy (GAN), Guernica (Picasso), still from Battleship Potemkin (Eisenstein), Relativity (Escher).
-</small>
-
-<br>
-
-<br>
-
-<center>
-<a href="https://info.flagcounter.com/42Y6"><img src="https://s11.flagcounter.com/count2/42Y6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-</center>
-
-<br>
-
-<hr>
-
-<br>
+See my [CRA OUR award research statement](/assets/pdf/cra-research-statement-2023.pdf){:target="_blank"} and [personal statement](/assets/pdf/cra-personal-statement-2023.pdf){:target="_blank"}. -->
