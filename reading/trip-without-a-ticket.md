@@ -1,10 +1,10 @@
----
+<!-- ---
 layout: page
 permalink: /reading/trip-without-a-ticket
 title: Trip Without a Ticket
 description:
 nav: false
----
+--- -->
 
 <img src="files\imgs\trip-without-a-ticket.png" width="100%" />
 
