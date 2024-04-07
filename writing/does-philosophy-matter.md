@@ -7,7 +7,8 @@ nav: false
 ---
 
 
-*Letter to the editor, The Daily*. A perpetual work-in-progress.
+*Letter to the editor, The Daily*.
+(Perpetual work in progress -- major update forthcoming.)
 
 When I asked my ten-year-old cousin what he thought of the existence of the number zero, he responded bluntly (to my chagrin): “philosophy is stupid, no one agrees and nothing happens.” Although dressed in more docile clothing, this is fundamentally the same objection that I get often from my peers and philosophy faculty from their students (“oh, you study philosophy… why? What’s the point exactly?”). 
 

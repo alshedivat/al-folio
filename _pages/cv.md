@@ -10,6 +10,9 @@ nav_order: 2
 
 ### computer science research
 
+"Language Models as Critical Thinking Tools: A Case Study of Philosophers".
+**Andre Ye**, Jared Moore, Rose Novick, Amy X. Zhang.
+
 "Cultural and Linguistic Diversity Improves Visual Representations". 
 **Andre Ye**, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
 *Resources*:
@@ -17,7 +20,7 @@ nav_order: 2
 RAIVN lab talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7jStpekaF1E4vfnpVpXPx-bxpPTg/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/RAIVN-presentation-11_28.pdf)
 
 "LLMs grasp morality in concept". 
-Mark Pock*, **Andre Ye***, Jared Moore.
+Mark Pock*, **Andre Ye**, Jared Moore.
 Moral Psychology and Philosophy Workshop, NeurIPS 2023.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"},
@@ -46,7 +49,7 @@ David Smerkous, **Andre Ye**, Dr. Behzad Najafian.
 *Resources*:
 25th UW Research Symposium [pdf](/assets/pdf/podocyte_seg.pdf){:target="_blank"}.
 
-``Emergent Language: Independent AI Development of a Language-Like Syntax.''
+"Emergent Language: Independent AI Development of a Language-Like Syntax."
 Alec Bunn, Amelia Johnson, **Andre Ye**, Yegor Kuznetzov, Eric Xia.
 Interactive Intelligence research group, Paul G. Allen School of Computer Science.
 *Resources*:
@@ -58,14 +61,16 @@ eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:targ
 
 "And then the Hammer Broke: Reflections on Machine Ethics from Feminist Philosophy of Science."
 **Andre Ye**.
-[arXiv](https://arxiv.org/abs/2403.05805){:target="_blank"}.
-<!-- [Link](/writing/files/hammer-broke.pdf){:target="_blank"}. -->
-Pacific University Philosophy Conference.
+Pacific University Philosophy Conference: Forest Grove, Oregon. April 2024.
+*Resources*:
+[arXiv](https://arxiv.org/abs/2403.05805){:target="_blank"},
+reading artistic [slides](https://docs.google.com/presentation/d/1PrUgoPwqw0bPweM-l57m1kGAEQz5JsZGPCykjq1N5cI/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/PacU%20Phil%20Conference%20Presentation.pdf){:target="_blank"}.
 
 "Computational Production of Simulacra."
 **Andre Ye**.
 *Garden of Ideas*, Volume 3, 2023 -- Issue 1, pages 3-17.
-[Link](/assets/pdf/garden-of-ideas-1-17.pdf){:target="_blank"}.
+*Resources*:
+[link](/assets/pdf/garden-of-ideas-1-17.pdf){:target="_blank"}.
 
 "The Wartime State and the Cigarette: Darkness and Temporality in Pale Horse, Pale Rider."
 **Andre Ye**.
@@ -110,17 +115,17 @@ Admission to university at 14 through the [Robinson Center](https://robinsoncent
 
 ## teaching
 
-**Teaching Assistant, CSE 160 and CSE 163** (introductory and intermediate data programming with Python).
+**Teaching Assistant, CSE [160, 163, 311]** (intro and intermediate Python programming, discrete math for CS).
 Allen School of CSE, University of Washington.
-March 2020 to present.
+4 quarters.
 
 **Teaching Assistant, English Composition and Literary Analysis.**
 Robinson Center, University of Washington.
-September 2022 to present.
+2 years.
 
 **Teaching Assistant, Introduction to Machine Learning.**
 The Coding School.
-November 2022 to June 2023.
+1 year.
 
 ---
 
