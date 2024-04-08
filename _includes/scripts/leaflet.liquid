@@ -1,8 +1,7 @@
 {% if page.map %}
   <script
-    defer
-    src="https://unpkg.com/leaflet@{{ site.leaflet.version }}/dist/leaflet.js"
-    integrity="{{ site.leaflet.integrity.js }}"
+    src="{{ site.third_party_libraries.leaflet.url.js }}"
+    integrity="{{ site.third_party_libraries.leaflet.integrity.js }}"
     crossorigin=""
   ></script>
   <script>

@@ -1,15 +1,13 @@
 {% if page.chart and page.chart.echarts %}
   <script
-    defer
-    src="https://cdn.jsdelivr.net/npm/echarts@{{ site.echarts.version }}/dist/echarts.min.js"
-    integrity="{{ site.echarts.integrity.library }}"
+    src="{{ site.third_party_libraries.echarts.url.js.library }}"
+    integrity="{{ site.third_party_libraries.echarts.integrity.js.library }}"
     crossorigin="anonymous"
   ></script>
   {% if site.enable_darkmode %}
     <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/echarts@{{ site.echarts.version }}/theme/dark-fresh-cut.js"
-      integrity="{{ site.echarts.integrity.dark_theme }}"
+      src="{{ site.third_party_libraries.echarts.url.js.dark_theme }}"
+      integrity="{{ site.third_party_libraries.echarts.integrity.js.dark_theme }}"
       crossorigin="anonymous"
     ></script>
   {% endif %}
