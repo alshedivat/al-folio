@@ -1,15 +1,15 @@
 {% if page.mermaid and page.mermaid.enabled %}
   <script
     defer
-    src="https://cdn.jsdelivr.net/npm/mermaid@{{ site.mermaid.version }}/dist/mermaid.min.js"
-    integrity="{{ site.mermaid.integrity }}"
+    src="{{ site.third_party_libraries.mermaid.url.js }}"
+    integrity="{{ site.third_party_libraries.mermaid.integrity.js }}"
     crossorigin="anonymous"
   ></script>
   {% if page.mermaid.zoomable %}
     <script
       defer
-      src="https://cdn.jsdelivr.net/npm/d3@{{ site.d3.version }}/dist/d3.min.js"
-      integrity="{{ site.d3.integrity }}"
+      src="{{ site.third_party_libraries.d3.url.js }}"
+      integrity="{{ site.third_party_libraries.d3.integrity.js }}"
       crossorigin="anonymous"
     ></script>
   {% endif %}
