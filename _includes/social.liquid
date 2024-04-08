@@ -1,6 +1,6 @@
 <ul class="social-links">
   {% if site.email %}
-    <li><a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a></li>
+    <li class="show-small-dev"><a href="mailto:{{ site.email }}" title="Email"><i class="fa-solid fa-envelope"></i></a></li>
   {% endif %}
   {% if site.telegram_username %}
     <li><a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fa-brands fa-telegram"></i></a></li>

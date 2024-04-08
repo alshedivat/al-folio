@@ -1,26 +1,6 @@
 ---
 layout: default
 ---
-  <!-- Social -->
-  {% if page.social %}
-    <div class="social d-flex flex-row justify-content-start align-items-stretch">
-      <div class="d-flex flex-row enable-pointer">
-        <div class="d-flex flex-column">
-          <div class="contact-icons">{% include social.liquid %}</div>
-          <div class="vr d-flex flex-row"></div>
-        </div>
-        <div class="contact-note"><p>{{ site.contact_note }}</p></div>
-      </div>
-      {% if site.email %}
-      <div class="flex-fill"></div>
-      <div class="d-flex flex-column enable-pointer">
-          <a class="mail" href="mailto:{{ site.email | encode_email }}" title="email"> {{ site.email }}</a>
-        <div class="vr d-flex flex-row"></div>
-      </div>
-      {% endif %}
-    </div>
-  {% endif %}
-
   <!-- About Page Content -->
   <div class="full-height d-flex flex-column">
     <div class="container d-flex flex-column flex-base justify-content-center">
@@ -42,14 +22,13 @@ layout: default
 
         <div class="d-flex flex-row flex-wrap flex-base">
           {% if page.profile %}
-            <div style="flex-grow: 1" class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+            <div style="flex-grow: 1" class="profile d-flex align-self-stretch flex-row fancy-border float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
               {% if page.profile.image %}
                 {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
                 {% if page.profile.image_circular %}
                   {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
                 {% else %}
-                  {% assign profile_image_class = 'img-fluid z-depth-1
-            rounded' %}
+                  {% assign profile_image_class = 'img-fluid fancy-border z-depth-1 rounded' %}
                 {% endif %}
                 {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
             30vw, 95vw"{% endcapture %}
@@ -116,3 +95,23 @@ layout: default
     {% include selected_papers.liquid %}
   {% endif %}
 </div>
+
+<!-- Social -->
+{% if page.social %}
+  <div class="social d-flex flex-row justify-content-start align-items-stretch">
+    <div class="d-flex flex-row enable-pointer center-small-dev">
+      <div class="d-flex flex-column">
+        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="vr d-flex flex-row"></div>
+      </div>
+      <div class="contact-note"><p>{{ site.contact_note }}</p></div>
+    </div>
+    {% if site.email %}
+    <div class="flex-fill hide-small-dev"></div>
+    <div class="d-flex flex-column enable-pointer hide-small-dev" style="max-width: 64px">
+        <a class="mail" href="mailto:{{ site.email | encode_email }}" title="email"> {{ site.email }}</a>
+      <div class="vr d-flex flex-row"></div>
+    </div>
+    {% endif %}
+  </div>
+{% endif %}
