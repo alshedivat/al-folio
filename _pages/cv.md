@@ -20,7 +20,7 @@ nav_order: 2
 RAIVN lab talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7jStpekaF1E4vfnpVpXPx-bxpPTg/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/RAIVN-presentation-11_28.pdf)
 
 "LLMs grasp morality in concept". 
-Mark Pock*, **Andre Ye**, Jared Moore.
+Mark Pock, **Andre Ye**, Jared Moore.
 Moral Psychology and Philosophy Workshop, NeurIPS 2023.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"},

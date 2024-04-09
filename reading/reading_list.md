@@ -6,48 +6,37 @@ description: A curated collection of literature I recommend for reading / viewin
 nav: false
 ---
 
-Skip to a section: [AI](#ai), [Philosophy](#philosophy), [Film](#film), [Fiction](#fiction)
+<!-- Skip to a section: [AI](#ai), [Philosophy](#philosophy), [Film](#film), [Fiction](#fiction) -->
 
----
+<!-- --- -->
 
-<img src="\assets\img\reading_info.png" width="100%" />
+<!-- <img src="\assets\img\reading_info.png" width="100%" /> -->
 
----
+<!-- --- -->
 
 ### Philosophy
 
-Articles
-- ["The Revolt of the Salaried Bourgeoisie"](https://www.lrb.co.uk/the-paper/v34/n02/slavoj-zizek/the-revolt-of-the-salaried-bourgeoisie){:target="_blank"}, Slavoj Žižek
-- ["Ideology and Ideological State Apparatuses (Notes Towards an Investigation)](https://mforbes.sites.gettysburg.edu/cims226/wp-content/uploads/2018/09/Week-3b-Louis-Althusser.pdf){:target="_blank"}, Louis Althusser
-- ["The Conservation of Races"](https://www.degruyter.com/document/doi/10.1515/9780823254576-003/html?lang=en){:target="_blank"}, W.E.B. Du Bois
+Essays and Articles
 - ["Philosophy: Who Needs It?"](https://www.stephenhicks.org/wp-content/uploads/2018/12/Philosophy-Who-Needs-It-text.pdf){:target="_blank"}, Ayn Rand
-- ["Rawls' Law of Peoples: Rules for a Vanished Westphalian World"](https://www.jstor.org/stable/10.1086/233370){:target="_blank"}, Allen Buchanan
-- ["Rawls, Hegel, and Communitarianism"](https://www.jstor.org/stable/192057){:target="_blank"}, Sibyl A. Schwarzenbach
-<!-- - ["The Ethical Significance of Nationality"](https://www.jstor.org/stable/2380889){:target="_blank"}, David Miller -- what I would call (no doubt with controversy) a proto-phenomenological approach to political philosophy: a return to the Delphic motto, "know thyself!" -->
 - ["Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective"](https://www.jstor.org/stable/3178066){:target="_blank"}, Donna Haraway
-- ["Epistemologies of Ignorance"](https://kwanj.files.wordpress.com/2016/02/alcoff-epistemologies-of-ignorance-three-types.pdf){:target="_blank"}, Linda Alcoff
-- ["a love letter from a critic, or notes on the intersectionality wars"](https://www.degruyter.com/document/doi/10.1515/9781478002253-003/html?lang=en){:target="_blank"}, Jennifer C. Nash
 
 Books
 - *The Poverty of Ethics*, Anat Amar
 - *Queer Phenomenology*, Sara Ahmed
 - *Sex and the Failed Absolute*, Slavoj Žižek
-- *The Birth of Computer Vision*, James E. Dodson
-- *The Foucault Reader*, ed. Paul Rabinow
-
-<!-- - *Being and Nothingness*, Jean-Paul Sartre -- the classic existentialist text; a wonderful medium for self-reflection and meditation -->
 
 ---
 
 ### Film
+
 Movies
-1. *Nuovo Olimpo* (2023)
-2. *Oppenheimer* (2023)
-3. *Summer of '85* (2020)
-4. *Brokeback Mountain* (2005)
-5. *La La Land* (2016)
-6. *Midsommar* (2019)
-7. *2001: A Space Odyssey* (1968)
+- *Nuovo Olimpo*
+- *Oppenheimer*
+- *Summer of '85*
+- *La La Land*
+- *Midsommar*
+- *2001: A Space Odyssey*
+- *Dune: Part 2*
 
 TV Shows
 - *Succession*
@@ -61,16 +50,25 @@ Documentary
 
 ---
 
-### Fiction
+### Literature
+
 - *Crime and Punishment*, Fyodor Dostevsky
-- *Infinite Jest*, David Foster Wallace
 - *Never Let Me Go*, Kazuo Ishiguro
-- *Lolita*, Vladimir Nabokov
+- *The Dinner*, Herman Koch
 
 ---
 
 ### AI
-A collection of interesting AI papers.
+
+- ["Learning in High Dimension Always Amounts to Extrapolation"](https://arxiv.org/pdf/2110.09485.pdf){:target="_blank"} by Randall Balestriero et al.
+- ["The Lottery Ticket Hypothesis"](https://arxiv.org/pdf/1803.03635.pdf){:target="_blank"} by Jonathan Frankle and Michael Carbin
+- ["What's Hidden in a Randomly Weighted Neural Network?"](https://arxiv.org/pdf/1911.13299.pdf){:target="_blank"} by Vivek Ramanjuan and Michell Wortsman
+- ["Moving Beyond 'Algorithmic Bias is a Data Problem'"](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1){:target="_blank"} by Sara Hooker
+- ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547){:target="_blank"} by Francois Chollet
+- ["Computing Machinery and Intelligence"](https://academic.oup.com/mind/article/LIX/236/433/986238){:target="_blank"} by Alan Turing
+- ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html){:target="_blank"} by Rich Sutton
+
+<!-- A collection of interesting AI papers.
 (Somewhat outdated.)
 
 Deep Learning Theory
@@ -124,4 +122,4 @@ Meta
 - ["Computing Machinery and Intelligence"](https://academic.oup.com/mind/article/LIX/236/433/986238){:target="_blank"} by Alan Turing
 - ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html){:target="_blank"} by Rich Sutton
 
----
+--- -->
