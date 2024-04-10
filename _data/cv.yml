@@ -24,7 +24,7 @@
         - Floods, Avalanches and Landslides
         - The Surface Energy Balance in Cold Environments
         - Glacial and Periglacial Geomorphology
-        -  IPCC Climate Change 2021-The Physical Science Basis
+        - IPCC Climate Change 2021-The Physical Science Basis
 
     - title: Bachelor - Geodesy and Geomatics
       institution: South West Petroleum University, Chengdu, P.R.C
@@ -91,7 +91,8 @@
     - title: Cryosphere x Remote Sensing
       items: 
         - Snow, periglacial geomorphology
-        - DEM, geostatistics, machine learning
+        - DEM, geostatistics, 
+        - Statistical modeling and machine learning
 
     - title: Geospatial data science
       items:
