@@ -132,6 +132,7 @@ The Coding School.
 ## recognition & scholarships
 - CRA Outstanding Undergraduate Researcher Finalist (2023)
 - HCOMP/CI Student Scholarship (2023)
+- Departmental and University Travel Scholarships (2023, 2024)
 - Kaggle Master rank
 - Global Nominee, 2020 NASA Space Applications Hackathon
 
