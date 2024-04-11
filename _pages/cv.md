@@ -64,7 +64,7 @@ eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:targ
 Pacific University Philosophy Conference: Forest Grove, Oregon. April 2024.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2403.05805){:target="_blank"},
-reading artistic [slides](https://docs.google.com/presentation/d/1PrUgoPwqw0bPweM-l57m1kGAEQz5JsZGPCykjq1N5cI/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/PacU%20Phil%20Conference%20Presentation.pdf){:target="_blank"}.
+reading [video](https://youtu.be/Rob_OLoSZ64){:target="_blank"} and artistic [slides](https://docs.google.com/presentation/d/1PrUgoPwqw0bPweM-l57m1kGAEQz5JsZGPCykjq1N5cI/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/PacU%20Phil%20Conference%20Presentation.pdf){:target="_blank"}.
 
 "Computational Production of Simulacra."
 **Andre Ye**.
