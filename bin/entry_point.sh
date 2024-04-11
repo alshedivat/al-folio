@@ -7,7 +7,7 @@ CONFIG_FILE_DEV=_config-dev.yml
 
 while true; do
 
-  inotifywait -q -e modify,move,create,delete $CONFIG_FILE
+  inotifywait -q -e modify,move,create,delete $CONFIG_FILE $CONFIG_FILE_DEV
 
   if [ $? -eq 0 ]; then
  
