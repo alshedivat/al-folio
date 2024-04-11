@@ -13,6 +13,7 @@ Here are some frequently asked questions. If you have a different question, plea
 - [My code runs fine locally, but when I create a commit and submit it, it fails with `prettier code formatter workflow run failed for master branch`. How do I fix that?](#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-master-branch-how-do-i-fix-that)
 - [After I update my site with some new content, even a small change, the GitHub action throws an error or displays a warning. What happened?](#after-i-update-my-site-with-some-new-content-even-a-small-change-the-github-action-throws-an-error-or-displays-a-warning-what-happened)
 - [I am trying to deploy my site, but it fails with `Could not find gem 'jekyll-diagrams' in locally installed gems`. How do I fix that?](#i-am-trying-to-deploy-my-site-but-it-fails-with-could-not-find-gem-jekyll-diagrams-in-locally-installed-gems-how-do-i-fix-that)
+- [How can I update Font Awesome version on the template](#how-can-i-update-font-awesome-version-on-the-template)
 
 ---
 
@@ -38,7 +39,7 @@ Make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`. R
 
 #### My site doesn't work when I enable `related_blog_posts`. Why?
 
-This is probably due to the [classifier reborn](https://github.com/jekyll/classifier-reborn) plugin, which is used to calculate related posts. If the error states `Liquid Exception: Zero vectors can not be normalized...`, it means that it could not calculate related posts for a specific post. This is usually caused by [empty or minimal blog posts](https://github.com/jekyll/classifier-reborn/issues/64) without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add `related_posts: false` to the front matter of the page you don't want to display related posts on. Another solution is to disable the lsi (latent semantic indexing) entirely by removing the `--lsi` flag in the code. Related issue: [#1828](https://github.com/alshedivat/al-folio/issues/1828).
+This is probably due to the [classifier reborn](https://github.com/jekyll/classifier-reborn) plugin, which is used to calculate related posts. If the error states `Liquid Exception: Zero vectors can not be normalized...` or `sqrt': Numerical argument is out of domain - "sqrt"`, it means that it could not calculate related posts for a specific post. This is usually caused by [empty or minimal blog posts](https://github.com/jekyll/classifier-reborn/issues/64) without meaningful words (i.e. only [stop words](https://en.wikipedia.org/wiki/Stop_words)) or even [specific characters](https://github.com/jekyll/classifier-reborn/issues/194) you used in your posts. Also, the calculus for similar posts are made for every `post`, which means every page that uses `layout: post`, including the announcements. To change this behavior, simply add `related_posts: false` to the front matter of the page you don't want to display related posts on. Another solution is to disable the lsi (latent semantic indexing) entirely by removing the `--lsi` flag in the code. Related issue: [#1828](https://github.com/alshedivat/al-folio/issues/1828).
 
 #### When trying to deploy, it's asking for github login credentials, which github disabled password authentication and it exits with an error. How to fix?
 
@@ -76,3 +77,7 @@ Note that libraries tend to be deprecated and support for them dropped as they a
 #### I am trying to deploy my site, but it fails with `Could not find gem 'jekyll-diagrams' in locally installed gems`. How do I fix that?
 
 `jekyll-diagrams` support was dropped in [#1992](https://github.com/alshedivat/al-folio/pull/1992) in favor of using `mermaid.js` directly. Simply [update your code](INSTALL.md#upgrading-from-a-previous-version) to get the latest changes.
+
+#### How can I update Font Awesome version on the template
+
+To update the Font Awesome version, you need to download the latest release "for the web" from the [Font Awesome website](https://fontawesome.com/download). After downloading, extract the zip file and copy the `scss/` directory content to `_sass/font-awesome/` and the `webfonts/` content to `assets/webfonts/`.
