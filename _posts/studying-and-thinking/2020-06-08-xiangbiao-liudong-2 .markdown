@@ -3,7 +3,8 @@ layout: post
 title:  项飚《关于流动的对话》2/3
 description: 今天的全球社会的不平等结构没有因为跨国流动而被打碎，相反是在高速流动中得到了强化
 date: 2020-06-08
-tags: notes # notes links code math images
+tags: notes
+publish: yes
 categories: Reading
 ---
 

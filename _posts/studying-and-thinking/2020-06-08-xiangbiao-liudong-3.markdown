@@ -3,7 +3,8 @@ layout: post
 title:  项飚《关于流动的对话》3/3
 description: 悬浮状态中的人，不直接面对当下，只是想尽快迈向一个未来。
 date: 2020-06-09
-tags: notes # notes links code math images
+tags: notes
+publish: yes
 categories: Reading
 ---
 

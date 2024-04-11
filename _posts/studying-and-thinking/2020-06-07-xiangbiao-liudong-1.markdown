@@ -3,7 +3,8 @@ layout: post
 title:  项飚《关于流动的对话》1/3
 description: 无尽的追逐中，我们真正想要的对象是什么，我们有没有丢失自我？有没有建立起主体性？
 date: 2020-06-07
-tags: notes # notes links code math images
+tags: notes
+publish: yes
 categories: Reading
 ---
 

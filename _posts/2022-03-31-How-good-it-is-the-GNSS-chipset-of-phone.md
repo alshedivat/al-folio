@@ -5,6 +5,7 @@ description: The best tools for finding a answer
 date: 2022-03-31
 tags: notes # notes links code math images
 categories: geomatics
+publish: yes
 toc: true
 ---
 

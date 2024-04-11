@@ -6,12 +6,13 @@ tags: notes, geomorphology, glacier, climate, permafrost
 giscus_comments: false
 date: 2022-11-20
 featured: true
+publish: yes
 bibliography: lib.bib
 authors:
   - name: Zhihao
     url: "" # Add your URL or leave it empty if not available
     affiliations:
-      name: "" # Add your affiliation or leave it empty if not available
+      name: UiO # Add your affiliation or leave it empty if not available
 toc:
   - name: 1 Introduction
     subsections:
@@ -479,7 +480,7 @@ This field trip and the related lab exercise give a good description of the proc
 </div>
 
 
- The necessary literatures are cited to explain the materials from the field trip. However, except for old debates about ice sheet thickness and/or the paleic surface or the sediment budgets mismatch, there still are several questions that are not clear enough:
+ The literatures are cited to explain the materials from the field trip. However, except for old debates about ice sheet thickness and/or the paleic surface or the sediment budgets mismatch, there still are several questions that are not clear enough:
  - Quaternary deposition patterns <d-cite key="olsen.etal_2013"></d-cite>. Why exactly the southeastern area close to or under the ice divide has thick Quaternary deposits? How did the boundary between the scouring areas and the deposit areas form?
  - The age of the palsa. How long it can persist under 'unsuitable climate conditions? or how long it has persisted? There is no direct correlation between the rate of degradation and increasing MAAT, precipitation or snow depth <d-cite key="borge.etal_2017"></d-cite>, why?
 - The snow-covered shrub branches also cool permafrost by thermal bridging <d-cite key="domine.etal_2022"></d-cite>, acting like the blockfield <d-cite key="juliussen.humlum_2008"></d-cite>?

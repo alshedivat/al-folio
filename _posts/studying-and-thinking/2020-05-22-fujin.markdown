@@ -3,7 +3,8 @@ layout: post
 title:  从附近出发，构建自我，树立关系
 description: 观后感《十三邀对话项飚》
 date: 2020-05-22
-tags: notes # notes links code math images
+tags: notes
+publish: yes
 categories: Reading
 ---
 

@@ -10,7 +10,6 @@ categories: DEM, Snow, ICESat-2
 bibliography: lib.bib
 lang: eng
 publish: yes
-comments: true
 toc:
   beginning: true
 ---
