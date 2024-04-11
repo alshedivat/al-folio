@@ -5,4 +5,4 @@ inline: true
 show: true
 ---
 
-I successfully passed my PhD candidacy exam.
+Successfully passed my PhD candidacy exam.
