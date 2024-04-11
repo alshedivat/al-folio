@@ -1,20 +1,20 @@
 {% if page.chart and page.chart.vega_lite %}
   <script
     defer
-    src="https://cdn.jsdelivr.net/npm/vega@{{ site.vega.version }}/build/vega.min.js"
-    integrity="{{ site.vega.integrity }}"
+    src="{{ site.third_party_libraries.vega.url.js }}"
+    integrity="{{ site.third_party_libraries.vega.integrity.js }}"
     crossorigin="anonymous"
   ></script>
   <script
     defer
-    src="https://cdn.jsdelivr.net/npm/vega-lite@{{ site.vega-lite.version }}/build/vega-lite.min.js"
-    integrity="{{ site.vega-lite.integrity }}"
+    src="{{ site.third_party_libraries.vega-lite.url.js }}"
+    integrity="{{ site.third_party_libraries.vega-lite.integrity.js }}"
     crossorigin="anonymous"
   ></script>
   <script
     defer
-    src="https://cdn.jsdelivr.net/npm/vega-embed@{{ site.vega-embed.version }}/build/vega-embed.min.js"
-    integrity="{{ site.vega-embed.integrity }}"
+    src="{{ site.third_party_libraries.vega-embed.url.js }}"
+    integrity="{{ site.third_party_libraries.vega-embed.integrity.js }}"
     crossorigin="anonymous"
   ></script>
 
