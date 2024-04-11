@@ -1,0 +1,2 @@
+sass:
+  style: expanded # disables Sass compression to speed up compilation
