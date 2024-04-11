@@ -3,8 +3,8 @@ name: Deploy site
 on:
   push:
     branches:
-      - master
-      - main
+      - cloudflare
+      - github
     paths:
       - "assets/**"
       - "**.html"
@@ -27,8 +27,8 @@ on:
       - "!README.md"
   pull_request:
     branches:
-      - master
-      - main
+      - cloudflare
+      - github
     paths:
       - "assets/**"
       - "**.html"
@@ -49,16 +49,23 @@ on:
       - "!FAQ.md"
       - "!INSTALL.md"
       - "!README.md"
+
+  workflow_run:
+    workflows: [Build Notion Posts]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
   contents: write
+
 
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
+
       - name: Checkout 🛎️
         uses: actions/checkout@v4
       - name: Setup Ruby
@@ -87,3 +94,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          branch: cf-pages
