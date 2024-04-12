@@ -3,7 +3,7 @@ name: Deploy to Firebase Hosting
 on:
   push:
     branches:
-      - main # Change this to your desired branch
+      - cloudflare # Change this to your desired branch
 
 jobs:
   build:
