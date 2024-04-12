@@ -44,6 +44,6 @@ jobs:
 
 
       - name: Deploy to Firebase Hosting
-        run: firebase deploy --only hosting --token "$FIREBASE_TOKEN"
+        run: firebase deploy --only hosting --project alireza-acca7 --token "$FIREBASE_TOKEN"
         env:
            FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
