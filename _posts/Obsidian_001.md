@@ -16,7 +16,7 @@ Obsidian is a note system that works on local Markdown files. Here, in this scre
 
 > The human brain is non-linear: we jump from idea to idea, all the time. Your second brain should work the same. In Obsidian, making and following **connections** is frictionless. Tend to your notes like a gardener; at the end of the day, sit back and marvel at your own knowledge graph.
 
-That is amazing. Imagine that we read an article, have some notes, and drop it into Microsoft Word. How could we find it again? Have you read Wikipedia for the whole day just like a monkey exploring a forest ,clicking on one article after another? The note system should be a puzzle card of a well-structured knowledge system, acting as you second brain.
+That is amazing. Imagine that we read an article, have some notes, and drop it into Microsoft Word. How could we find it again? Have you read Wikipedia for the whole day just like a monkey exploring a forest, clicking on one article after another? The note system should be a puzzle card of a well-structured knowledge system, acting as you second brain.
 
 
 ## 1 Ideas behind
