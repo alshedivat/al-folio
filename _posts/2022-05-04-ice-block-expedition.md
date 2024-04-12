@@ -8,5 +8,5 @@ tags: links
 categories: modeling
 redirect: /assets/pdf/iceblock_expedition.pptx
 lang: eng
-publish: yes
+publish: true
 ---

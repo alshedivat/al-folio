@@ -8,5 +8,5 @@ tags: links
 categories: remote_sensing
 redirect: /assets/pdf/Change_detection_on_argriculture.pdf
 lang: eng
-publish: yes
+publish: true
 ---
