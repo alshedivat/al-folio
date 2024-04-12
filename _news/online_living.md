@@ -19,7 +19,10 @@ I have several website which I dedicated for different writting purposes:
 
 
 **Multi-CDN deploymeny**
-- [Google Cloud Platform](https://alireza-acca7.web.app): My website (you are visitng now) on Google CDN
+- [Cloudflare](https://alireza.pages.dev): My website (you are visitng now) on Cloudflare CDN
+- [Firebase](https://alireza-acca7.web.app): My website (you are visitng now) on Google CDN
+- [Netlify](https://alirezaa.netlify.app): My website (you are visitng now) on Netlify multi-CDN
+- [Vercel](https://alirezaa.vercel.app): My website (you are visitng now) on Vercel based on Amazon CDN
 - My Persian blog on different platforms:
   - [Netlify](https://nevise.netlify.app)
   - [Vercel](https://nevise.vercel.app)
