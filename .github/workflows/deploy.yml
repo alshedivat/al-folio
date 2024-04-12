@@ -19,6 +19,7 @@ on:
       - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
+      - "!.github/workflows/firebase-hosting-deploy.yml"
       - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
