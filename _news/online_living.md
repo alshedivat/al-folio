@@ -18,12 +18,17 @@ I have several website which I dedicated for different writting purposes:
 - [note.alirezad.ir](https://note.alirezad.ir): For persian friends ;)
 
 
-**Multi-CDN deploymeny**
-- [Cloudflare](https://alireza.pages.dev): My website (you are visitng now) on Cloudflare CDN
-- [Firebase](https://alireza-acca7.web.app): My website (you are visitng now) on Google CDN
-- [Netlify](https://alirezaa.netlify.app): My website (you are visitng now) on Netlify multi-CDN
-- [Vercel](https://alirezaa.vercel.app): My website (you are visitng now) on Vercel based on Amazon CDN
-- My Persian blog on different platforms:
+
+### Multi-CDN deploymeny
+
+I deployed my websites on different platforms! It was a test at first but now, they automaticlly updated
+
+- **My website** (you are visitng now)
+  - [Cloudflare](https://alireza.pages.dev): on Cloudflare CDN
+  - [Firebase](https://alireza-acca7.web.app): on Google CDN
+  - [Netlify](https://alirezaa.netlify.app): on Netlify multi-CDN
+  - [Vercel](https://alirezaa.vercel.app): on Vercel, based on Amazon CDN
+- **My Persian blog** on different platforms:
   - [Netlify](https://nevise.netlify.app)
   - [Vercel](https://nevise.vercel.app)
   - [Cloudflare](https://nevise.pages.dev)
