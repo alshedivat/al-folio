@@ -4,12 +4,10 @@ title: NuthKaab Coreg vs Gradient Descent Coreg
 author: Zhihao
 description: I just created the best ever coreg tool?
 date: 2023-01-02
-categories:
-  - notes
-tags:
-  - geodata datascience
+categories: notes
+tags: geodata datascience
 lang: eng
-publish: yes
+publish: true
 featured: true
 ---
 

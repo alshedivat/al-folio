@@ -14,12 +14,17 @@ bibliography: lib.bib
 lang: eng
 publish: true
 toc: 
-beginning: true
+  beginning: true
 ---
 
 
 
 What is the difference between DTM1, DTM10, Copernicus GLO30, and FABDEM? How do they compare with ICESat-2? On Zenodo, I uploaded a dataset (10.5281/zenodo.10048875) to answer these questions.
+
+```yml
+toc:
+  beginning: true
+```
 
 The first step to compare different elevation products is co-registration. Here, I used the Gradient Descent Co-registration method that I mentioned in a previous post.
 

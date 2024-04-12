@@ -4,9 +4,7 @@ title: Cross-country skiing 001
 author: Zhihao
 description: Learn XC skiing with me
 date: 2022-12-26
-tags:
-  - skiing
-  - sports
+tags: skiing sports
 categories: notes
 lang: eng
 publish: true

@@ -4,9 +4,7 @@ title: Puerh tea 001
 author: Zhihao
 description: What is Puerh tea and how to brew it?
 date: 2023-01-01
-tags:
-  - life
-  - tea
+tags: life tea
 categories: notes
 lang: eng
 publish: true

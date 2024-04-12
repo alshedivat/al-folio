@@ -5,10 +5,9 @@ author: Zhihao
 description: but suffering from noise
 date: 2023-01-02
 categories: notes
-tags:
-  - geodata datascience
+tags: geodata datascience
 lang: eng
-publish: yes
+publish: true
 ---
 
 ```python

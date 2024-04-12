@@ -3,10 +3,8 @@ layout: post
 title: How good it will be, the GNSS chipset on your phone
 description: The best tools for finding a answer
 date: 2022-03-31
-tags:
-  - gnss
-categories:
-  - notes
+tags: gnss
+categories: notes
 publish: yes
 toc: true
 ---

@@ -4,15 +4,10 @@ title: Obsidian 001
 author: Zhihao
 description: Obsidian, Zotero and Knowledge Management
 date: 2022-08-26
-tags:
-  - Obsidian
-  - PKM
-categories:
-  - notes
+tags: Obsidian PKM
+categories: notes
 lang: eng
 publish: true
-toc: 
-beginning: true
 ---
 
 Obsidian is a note system that works on local Markdown files. Here, in this screenshot we can tell, there is a file pane on the left where all notes and folders are there. On the right, Obsidian provides notes in graph view:

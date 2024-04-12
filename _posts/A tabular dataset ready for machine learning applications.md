@@ -6,13 +6,10 @@ description: Retrieved snow depth in Mainland Norway (2018.10-2022.10) based on 
 date: 2023-11-03
 categories:
   - notes
-tags:
-  - DEM
-  - Snow
-  - ICESat-2
+tags: DEM Snow ICESat-2
 bibliography: lib.bib
 lang: eng
-publish: yes
+publish: true
 status: done
 ---
 

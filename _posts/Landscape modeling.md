@@ -6,10 +6,8 @@ description: large scale of geomorphology - erosion vs tectonic uplift
 date: 2022-10-13
 categories:
   - notes
-tags:
-  - geomorphology
+tags: geomorphology
 bibliography: lib.bib
-csl: C:\Users\ZOZN 109\AppData\Local\Pandoc\apa.csl
 lang: eng
 publish: true
 ---
