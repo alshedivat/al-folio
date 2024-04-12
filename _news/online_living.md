@@ -17,6 +17,7 @@ I have several website which I dedicated for different writting purposes:
 - [now.alirezad.ir](https://now.alirezad.ir): Write daily based on emotions and motivations
 - [note.alirezad.ir](https://note.alirezad.ir): For persian friends ;)
 
+why?  ➜  [This Post](https://alirezad.ir/blog/2022/the-idea-behind-my-blog/)
 
 
 ### Multi-CDN deploymeny
@@ -32,5 +33,3 @@ I deployed my websites on different platforms! It was a test at first but now, t
   - [Netlify](https://nevise.netlify.app)
   - [Vercel](https://nevise.vercel.app)
   - [Cloudflare](https://nevise.pages.dev)
-
-why?  ➜  [This Post](https://alirezad.ir/blog/2022/the-idea-behind-my-blog/)
