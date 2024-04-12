@@ -6,9 +6,14 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [ {
+      "source": "http://",
+      "destination": "https://",
+      "type": 301
+    } ],
     "github": {
       "repo": "alerezaaa/Jekyll_alireza",
-      "branch": "cloudflare" // or specify your desired branch
+      "branch": "cloudflare"
     }
   }
 }
