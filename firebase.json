@@ -1,0 +1,14 @@
+{
+  "hosting": {
+    "public": "_site",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "github": {
+      "repo": "alerezaaa/Jekyll_alireza",
+      "branch": "cloudflare" // or specify your desired branch
+    }
+  }
+}
