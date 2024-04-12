@@ -17,4 +17,12 @@ I have several website which I dedicated for different writting purposes:
 - [now.alirezad.ir](https://now.alirezad.ir): Write daily based on emotions and motivations
 - [note.alirezad.ir](https://note.alirezad.ir): For persian friends ;)
 
+
+**Multi-CDN deploymeny**
+- [Google Cloud Platform](https://alireza-acca7.web.app): My website (you are visitng now) on Google CDN
+- My Persian blog on different platforms:
+  - [Netlify](https://nevise.netlify.app)
+  - [Vercel](https://nevise.vercel.app)
+  - [Cloudflare](https://nevise.pages.dev)
+
 why?  ➜  [This Post](https://alirezad.ir/blog/2022/the-idea-behind-my-blog/)
