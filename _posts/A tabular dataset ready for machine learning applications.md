@@ -4,8 +4,7 @@ title: A tabular dataset ready for machine learning applications
 author: Zhihao
 description: Retrieved snow depth in Mainland Norway (2018.10-2022.10) based on ICESat-2 ATL 08 and DEMs
 date: 2023-11-03
-categories:
-  - notes
+categories: notes
 tags: DEM Snow ICESat-2
 bibliography: lib.bib
 lang: eng
