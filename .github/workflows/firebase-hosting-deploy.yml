@@ -22,7 +22,7 @@ jobs:
         run: npm install -g firebase-tools
 
       - name: Authenticate with Firebase
-        run: firebase login:ci --token
+        run: firebase login:ci --token "$FIREBASE_TOKEN"
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
 
