@@ -5,13 +5,15 @@ author: Zhihao
 description: Obsidian, Zotero and Knowledge Management
 date: 2022-08-26
 tags:
+  - Obsidian
+  - PKM
+categories:
   - notes
-categories: research 001
 lang: eng
 publish: true
+toc: 
+beginning: true
 ---
-
-#blog 
 
 Obsidian is a note system that works on local Markdown files. Here, in this screenshot we can tell, there is a file pane on the left where all notes and folders are there. On the right, Obsidian provides notes in graph view:
 
@@ -26,11 +28,11 @@ That is amazing. Imagine that we read an article, have some notes, and drop it i
 
 ### Organizing Information by PARA Method
 
-By using PARA, there is no more confusion about where to put my files or folders. There are many [blogs]([The PARA Method: A Universal System for Organizing Digital Information - Forte Labs](https://fortelabs.co/blog/para/)) have an introduction in detail about PARA method. The key function of PARA is sorting information according to actionability, so that leading to a more organized and efficient daily workflows.
+By using PARA, there is no more confusion about where to put my files or folders. There are many <d-cite key="\1"></d-cite>(<d-cite key="\1"></d-cite>(https://fortelabs.co/blog/para/)) have an introduction in detail about PARA method. The key function of PARA is sorting information according to actionability, so that leading to a more organized and efficient daily workflows.
 
-> [!NOTE]- PARA
+> <d-cite key="\1"></d-cite>- PARA
 > 
-> ![The definitions ofo PARA](https://i0.wp.com/cdn-images-1.medium.com/max/800/1*i6I0M5kaZUOwIfq5q5W4mQ.jpeg?w=900&ssl=1)
+> !<d-cite key="\1"></d-cite>(https://i0.wp.com/cdn-images-1.medium.com/max/800/1*i6I0M5kaZUOwIfq5q5W4mQ.jpeg?w=900&ssl=1)
 > 
 > P.A.R.A. stands for **Projects — Areas — Resources — Archives**, the four top-level categories that encompass every type of information you might encounter in your work and life.
 > 
@@ -53,21 +55,21 @@ By using PARA, there is no more confusion about where to put my files or folders
 
 ### Getting Things Don (GTD)
 
-After turning your goals into projects, we need to accomplish it by spending our time. How can we arrange our daily life, to balance the study, life, work and family? Here I introduced the book *Getting Things Done*. I highly recommend this [YouTube video](https://www.youtube.com/watch?v=ODhHTngIMJE) to learn the basic ideas of GTD.
+After turning your goals into projects, we need to accomplish it by spending our time. How can we arrange our daily life, to balance the study, life, work and family? Here I introduced the book *Getting Things Done*. I highly recommend this <d-cite key="\1"></d-cite>(https://www.youtube.com/watch?v=ODhHTngIMJE) to learn the basic ideas of GTD.
 
 The natural steps of emerging of ideas are capturing, processing and doing. Thus, GTD suggests:
-- Establishing an *inbox* to capture all ideas, and free up your brain. The more empty of your mind, the more smooth of your mind, called [flow state](https://en.wikipedia.org/wiki/Flow_(psychology)).
+- Establishing an *inbox* to capture all ideas, and free up your brain. The more empty of your mind, the more smooth of your mind, called <d-cite key="\1"></d-cite>(https://en.wikipedia.org/wiki/Flow_(psychology)).
 - *Clarifying and organizing* your ideas. 
 	- First, we make sure the next step of the plan is **actionable**. 
 	- Eisenhower Matrix uses two dimensions, urgent and important, to divide tasks.
 
-In obsidian, we have the [Checklist plugin](https://github.com/delashum/obsidian-checklist-plugin) to implement the GTD system. What I do is tagging all tasks with `todo/ing`, `todo/next`, `todo/someday`, `todo/inbox`. And [Tasks plugin](https://github.com/obsidian-tasks-group/obsidian-tasks) help you mark and organize them.
+In obsidian, we have the <d-cite key="\1"></d-cite>(https://github.com/delashum/obsidian-checklist-plugin) to implement the GTD system. What I do is tagging all tasks with `todo/ing`, `todo/next`, `todo/someday`, `todo/inbox`. And <d-cite key="\1"></d-cite>(https://github.com/obsidian-tasks-group/obsidian-tasks) help you mark and organize them.
 
-![Pasted image 20220827165203.png](https://assets.asana.biz/m/6f89f3691b3dffaa/original/inline-leadership-eisenhower-matrix-4-2x.jpg)
+!<d-cite key="\1"></d-cite>(https://assets.asana.biz/m/6f89f3691b3dffaa/original/inline-leadership-eisenhower-matrix-4-2x.jpg)
 
 ### Kanban Project Management
 
-[Kanban](https://github.com/mgmeyers/obsidian-kanban) is the way to visualize your workflows, so that you can better manage it. For any projects, you have several long-term goals, or short-term goals.
+<d-cite key="\1"></d-cite>(https://github.com/mgmeyers/obsidian-kanban) is the way to visualize your workflows, so that you can better manage it. For any projects, you have several long-term goals, or short-term goals.
 
 ![](https://talentvis.com/files/images/blog/2022/05/what-you-need-to-know-about-kanban-board.jpg)
 
@@ -86,25 +88,25 @@ In obsidian, we have the [Checklist plugin](https://github.com/delashum/obsidian
 - New note from templates by `Alt + N`
 
 ### Tutorials - Obsidian Hub
-[00 - Start here - Obsidian Hub - Obsidian Publish](https://publish.obsidian.md/hub/00+-+Start+here)
+<d-cite key="\1"></d-cite>(https://publish.obsidian.md/hub/00+-+Start+here)
 
 ## 3 Workflows for Academics
 
-[Obsidian Tutorial for Academic Writing | by Leonardo Castorina | Better Humans](https://betterhumans.pub/obsidian-tutorial-for-academic-writing-87b038060522)
-[An Academic Workflow: Zotero & Obsidian | by Alexandra Phelan | Medium](https://medium.com/@alexandraphelan/an-academic-workflow-zotero-obsidian-56bf918d51ab)
+<d-cite key="\1"></d-cite>(https://betterhumans.pub/obsidian-tutorial-for-academic-writing-87b038060522)
+<d-cite key="\1"></d-cite>(https://medium.com/@alexandraphelan/an-academic-workflow-zotero-obsidian-56bf918d51ab)
 
 #### Read and Annotate in Zotero PDF Reader
 - Using different color to annotate the reading materials.
 
 #### Scratch Annotation by Zotero Integration
--  [Obsidian-Zotero-integration](https://github.com/mgmeyers/obsidian-zotero-integration) supports to scratch annotations (text and image) into obsidian notes with specific templates. It's worth to read the docs carefully. 
+-  <d-cite key="\1"></d-cite>(https://github.com/mgmeyers/obsidian-zotero-integration) supports to scratch annotations (text and image) into obsidian notes with specific templates. It's worth to read the docs carefully. 
 -  It also supports citations, bibliographies, notes directly from Zotero.
 
 #### Cite References
 - Using Zotero integration to cite
-- [mgmeyers/obsidian-pandoc-reference-list: Display a formatted reference in Obsidian's sidebar for each pandoc citekey in the active document. (github.com)](https://github.com/mgmeyers/obsidian-pandoc-reference-list)
+- <d-cite key="\1"></d-cite>(https://github.com/mgmeyers/obsidian-pandoc-reference-list)
 
 #### Export Notes into Any Formats
 - Export by Pandoc plugin
 	- to docx: https://zhuanlan.zhihu.com/p/395193554
-	- to tex-pdf: [Wandmalfarbe/pandoc-latex-template: A pandoc LaTeX template to convert markdown files to PDF or LaTeX. (github.com)](https://github.com/Wandmalfarbe/pandoc-latex-template)
+	- to tex-pdf: <d-cite key="\1"></d-cite>(https://github.com/Wandmalfarbe/pandoc-latex-template)

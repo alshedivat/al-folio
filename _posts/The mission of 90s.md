@@ -3,18 +3,13 @@ layout: post
 title: Intergenerational justice of climate change
 description: and the mission of 90s
 date: 2021-03-31
-tags:
-  - 人与自然
-  - lifebook
-categories: climate
-publish: "true"
+tags: <d-cite key="\1"></d-cite>
+categories: note
+publish: true
 author: Zhihao
 lang: eng
 status: done
 ---
-
-#todo/someday  
-- [x] Writing
 
 
 ### The Mission of 90s

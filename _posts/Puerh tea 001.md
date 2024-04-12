@@ -5,14 +5,15 @@ author: Zhihao
 description: What is Puerh tea and how to brew it?
 date: 2023-01-01
 tags:
-  - notes
-categories: life 001
+  - life
+  - tea
+categories: notes
 lang: eng
 publish: true
 status: done
 ---
 
-Pu'erh tea, also spelled pu-erh or puer, is a type of fermented tea that is native to Yunnan province in China. It is named after the town of Pu'erh, which is located in the southern part of Yunnan province and has a long history of producing and trading tea. The town was a major hub on the [ancient Cha Ma Gu Dao (also known as the "Tea Horse Road")](https://en.wikipedia.org/wiki/Tea_Horse_Road) .
+Pu'erh tea, also spelled pu-erh or puer, is a type of fermented tea that is native to Yunnan province in China. It is named after the town of Pu'erh, which is located in the southern part of Yunnan province and has a long history of producing and trading tea. The town was a major hub on the <d-cite key="\1"></d-cite>(https://en.wikipedia.org/wiki/Tea_Horse_Road) .
 
 ### Pu'erh tea cake and aging
 
@@ -24,12 +25,12 @@ The process of compressing the tea leaves into a cake also helps with the aging 
 
 ### Two types of Puerh tea
 
-There are two main types of pu'erh tea with totally different taste: [**sheng pu'erh (raw/fresh) and shou pu'erh (ripened/cooked)**](https://en.wikipedia.org/wiki/Pu%27er_tea). 
-- Sheng pu'erh is made from raw, unfermented tea leaves and is aged for several years before it is consumed. It is often described as having a complex, fruity flavor and a bright, yellow-green color. **Personerly, I am enjoiy a dry, bitter initial taste, following a wet, sweet aftertaste.**
+There are two main types of pu'erh tea with totally different taste: <d-cite key="\1"></d-cite>(https://en.wikipedia.org/wiki/Pu%27er_tea). 
+- Sheng pu'erh is made from raw, unfermented tea leaves and is aged for several years before it is consumed. It is often described as having a complex, fruity flavor and a bright, yellow-green color. **Personerly, I am enjoy a dry, bitter initial taste, following a wet, sweet aftertaste.**
 - Shou pu'erh, on the other hand, is made from fermented tea leaves and has a darker, reddish-brown color and a deep, woody flavor, with a warming, smooth feeling. **Shou pu'erh doesn't make you exciting but calming and relaxing.** 
 
-![The Process of Raw and Ripe Pu-erh Tea](https://d27pcll2dx97vv.cloudfront.net/info/wp-content/uploads/2012/01/puerh_tea_production_process_830.jpg)
-(Image from [Raw Puerh vs Cooked Puerh - Tea for Me Please](https://www.teaformeplease.com/raw-puerh-vs-cooked-puerh/) )
+!<d-cite key="\1"></d-cite>(https://d27pcll2dx97vv.cloudfront.net/info/wp-content/uploads/2012/01/puerh_tea_production_process_830.jpg)
+(Image from <d-cite key="\1"></d-cite>(https://www.teaformeplease.com/raw-puerh-vs-cooked-puerh/) )
 
 Both sheng and shou pu'erh cakes can be stored for long periods of time and are often aged for several years before they are consumed. 
 
@@ -72,6 +73,6 @@ Hope you enjoy pu'erh tea!
 
 ### Other resources
 
-- [Understanding the Difference between Raw Pu-erh Tea and Ripe Pu-erh Tea – teavivre](https://www.teavivre.com/info/difference-between-raw-and-ripe-puerh-tea.html)
+- <d-cite key="\1"></d-cite>(https://www.teavivre.com/info/difference-between-raw-and-ripe-puerh-tea.html)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xY9w7GezgpU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
