@@ -25,11 +25,21 @@ why?  ➜  [This Post](https://alirezad.ir/blog/2022/the-idea-behind-my-blog/)
 I deployed my websites on different platforms! It was a test at first but now, they automaticlly updated
 
 - **My website** (you are visitng now):
-  - [Cloudflare](https://cf.alirezad.ir): on Cloudflare CDN
-  - [Firebase](https://fb.alirezad.ir): on Google CDN
-  - [Netlify](https://nf.alirezad.ir): on Netlify multi-CDN
-  - [Vercel](https://vc.alirezad.ir): on Vercel, based on Amazon CDN
+  - [Cloudflare](https://cf.alirezad.ir)
+  - [Firebase](https://fb.alirezad.ir)
+  - [Netlify](https://nf.alirezad.ir)
+  - [Vercel](https://vc.alirezad.ir)
 - **My Persian blog**:
+  - [Cloudflare](https://cf.note.alirezad.ir)
   - [Netlify](https://nf.note.alirezad.ir)
   - [Vercel](https://vc.note.alirezad.ir)
-  - [Cloudflare](https://cf.note.alirezad.ir)
+ 
+
+> ##### Just to let you informed
+>
+> - Cloudflare Pages (`cf` subdomains) is based on Cloudflare CDN
+> - Google Firebase (`fb` subdomains) is based on Google Cloud CDN
+> - Netlify (`nf` subdomains) is based on multi-CDN (as mentioned in [bejamas](https://bejamas.io/compare): Google Cloud (GCP), AWS, Digital Ocean, Yandex, Rackspace Cloud)
+> - Vercel (`vc` subdomains) is based on multi-CDN as well (as mentioned in [bejamas](https://bejamas.io/compare): Google Cloud (GCP), AWS)
+> For more info, you can check this link to comapre these services
+{: .block-tip }
