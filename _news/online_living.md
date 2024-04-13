@@ -33,17 +33,16 @@ I deployed my websites on different platforms! It was a test at first but now, t
   - [Cloudflare](https://cf.note.alirezad.ir)
   - [Netlify](https://nf.note.alirezad.ir)
   - [Vercel](https://vc.note.alirezad.ir)
- 
 
-> ##### Just to let you informed
+
+> ##### You can check [this link](https://bejamas.io/compare) to comapre different hosting services
 >
-> **Cloudflare Pages** (`cf` subdomains) is based on Cloudflare CDN
-> 
-> **Google's Firebase** (`fb` subdomains) is based on Google Cloud CDN
-> 
-> **Netlify** (`nf` subdomains) is based on multi-CDN (as mentioned in [bejamas](https://bejamas.io/compare): _Google Cloud (GCP), AWS, Digital Ocean, Yandex, Rackspace Cloud_)
-> 
-> **Vercel** (`vc` subdomains) is based on multi-CDN as well (as mentioned in [bejamas](https://bejamas.io/compare): _Google Cloud (GCP), AWS_)
-> 
-> For more info, you can check this link to comapre these services
+> [bejamas](https://bejamas.io/compare) | a summary below
 {: .block-tip }
+
+- **Cloudflare Pages** (`cf` subdomains) is based on Cloudflare CDN
+- **Google's Firebase** (`fb` subdomains) is based on Google Cloud CDN
+- **Netlify** (`nf` subdomains) is based on multi-CDN (as mentioned in [bejamas](https://bejamas.io/compare): _Google Cloud (GCP), AWS, Digital Ocean, Yandex, Rackspace Cloud_)
+- **Vercel** (`vc` subdomains) is based on multi-CDN as well (as mentioned in [bejamas](https://bejamas.io/compare): _Google Cloud (GCP), AWS_)
+
+You can check the [the link](https://bejamas.io/compare) mentioned above!
