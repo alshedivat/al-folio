@@ -100,16 +100,9 @@ jobs:
 
 ### deploy to firebase
 
-      - name: Set up Node.js for Firebase
-        uses: actions/setup-node@v4
+      - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
-          node-version: '18'
-
-      - name: Install Firebase CLI
-        run: npm install -g firebase-tools
-
-
-      - name: Deploy to Firebase Hosting
-        run: firebase deploy --only hosting --project alireza-acca7 --token "$FIREBASE_TOKEN"
-        env:
-           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ALIREZA_ACCA7 }}'
+          channelId: live
+          projectId: alireza-acca7
