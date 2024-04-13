@@ -33,20 +33,6 @@
         - Graduated with a 3.8/4.0 GPA
         - Funded by <i>Fundo de Incentivo à Pesquisa</i>, FIPE
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Areas of specialization
-      items: 
-        - Philosophy of memory
-        - Philosophy of cognitive sciences & neuroscience
-        - Mechanisms
-    - title: Areas of competence
-      items:
-        - Philosophy of mind
-        - Philosophy of science
-        - Metaphysics
-
 - title: Published peer-reviewed papers
   type: time_table
   contents:
@@ -69,6 +55,14 @@
 - title: Refereed talks in conferences
   type: time_table
   contents:
+    - title: "From episodic to semantic: why semantization is a problem for enactivism about memory"
+      year: 2024
+      description: Society for Philosophy and Psychology, Purdue University, West Lafayette, USA 
+
+    - title: "From episodic to semantic: why semantization is a problem for enactivism about memory"
+      year: 2024
+      description: Issues in Philosophy of Memory, University of Geneva, Geneva, Switzerland
+
     - title: (Dis)continuism and causation
       year: 2022
       description: VII Conference of SBFA, PUC-RJ, Rio de Janeiro, Brazil
