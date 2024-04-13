@@ -41,9 +41,9 @@ I deployed my websites on different platforms! It was a test at first but now, t
 > 
 > **Google's Firebase** (`fb` subdomains) is based on Google Cloud CDN
 > 
-> **Netlify** (`nf` subdomains) is based on multi-CDN (as mentioned in [bejamas](https://bejamas.io/compare): Google Cloud (GCP), AWS, Digital Ocean, Yandex, Rackspace Cloud)
+> **Netlify** (`nf` subdomains) is based on multi-CDN (as mentioned in [bejamas](https://bejamas.io/compare): _Google Cloud (GCP), AWS, Digital Ocean, Yandex, Rackspace Cloud_)
 > 
-> **Vercel** (`vc` subdomains) is based on multi-CDN as well (as mentioned in [bejamas](https://bejamas.io/compare): Google Cloud (GCP), AWS)
+> **Vercel** (`vc` subdomains) is based on multi-CDN as well (as mentioned in [bejamas](https://bejamas.io/compare): _Google Cloud (GCP), AWS_)
 > 
 > For more info, you can check this link to comapre these services
 {: .block-tip }
