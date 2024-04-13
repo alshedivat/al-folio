@@ -1,6 +1,7 @@
 name: Deploy to Firebase Hosting
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - github # Change this to your desired branch
