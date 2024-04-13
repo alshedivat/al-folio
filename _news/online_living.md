@@ -19,8 +19,11 @@ I have several website which I dedicated for different writting purposes:
 
 why?  ➜  [This Post](https://alirezad.ir/blog/2022/the-idea-behind-my-blog/)
 
+Links and websites maybe changed, removed, replaced, etc.
 
-### Multi-CDN deploymeny
+---
+
+#### Multi-CDN deploymeny
 
 I deployed my websites on different platforms! It was a test at first but now, they automaticlly updated
 
