@@ -1,9 +1,9 @@
 name: Deploy to Firebase Hosting
 
 on:
-  push:
-    branches:
-      - cloudflare # Change this to your desired branch
+  # push:
+  #   branches:
+  #     - cloudflare # Change this to your desired branch
   workflow_dispatch:
 
 jobs:
