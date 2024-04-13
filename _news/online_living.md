@@ -24,12 +24,12 @@ why?  ➜  [This Post](https://alirezad.ir/blog/2022/the-idea-behind-my-blog/)
 
 I deployed my websites on different platforms! It was a test at first but now, they automaticlly updated
 
-- **My website** (you are visitng now)
+- **My website** (you are visitng now):
   - [Cloudflare](https://cf.alirezad.ir): on Cloudflare CDN
   - [Firebase](https://fb.alirezad.ir): on Google CDN
   - [Netlify](https://nf.alirezad.ir): on Netlify multi-CDN
   - [Vercel](https://vc.alirezad.ir): on Vercel, based on Amazon CDN
-- **My Persian blog** on different platforms:
-  - [Netlify](https://nevise.netlify.app)
-  - [Vercel](https://nevise.vercel.app)
-  - [Cloudflare](https://nevise.pages.dev)
+- **My Persian blog**:
+  - [Netlify](https://nf.note.alirezad.ir)
+  - [Vercel](https://vc.note.alirezad.ir)
+  - [Cloudflare](https://cf.note.alirezad.ir)
