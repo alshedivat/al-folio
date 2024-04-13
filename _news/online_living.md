@@ -38,7 +38,7 @@ I deployed my websites on different platforms! It was a test at first but now, t
   - [Vercel](https://vc.note.alirezad.ir)
 
 
-> ##### You can check [this link](https://bejamas.io/compare) to comapre different hosting services
+> ##### You can check [this link](https://bejamas.io/compare/netlify-vs-vercel-vs-cloudflare-pages-vs-firebase-vs-github-pages-vs-azure-static-web-apps-vs-aws-amplify/) to comapre different hosting services
 >
 > [bejamas](https://bejamas.io/compare) | a summary below
 {: .block-tip }
@@ -48,4 +48,5 @@ I deployed my websites on different platforms! It was a test at first but now, t
 - **Netlify** (`nf` subdomains) is based on multi-CDN (as mentioned in [bejamas](https://bejamas.io/compare): _Google Cloud (GCP), AWS, Digital Ocean, Yandex, Rackspace Cloud_)
 - **Vercel** (`vc` subdomains) is based on multi-CDN as well (as mentioned in [bejamas](https://bejamas.io/compare): _Google Cloud (GCP), AWS_)
 
-You can check the [the link](https://bejamas.io/compare) mentioned above!
+You can check the [the link](https://bejamas.io/compare/netlify-vs-vercel-vs-cloudflare-pages-vs-firebase-vs-github-pages-vs-azure-static-web-apps-vs-aws-amplify/) mentioned above! 
+This link is a big-list comparison between different services!
