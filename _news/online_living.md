@@ -13,7 +13,7 @@ I created this news post to write about my websites and blogs on the internet.
 I have several website which I dedicated for different writting purposes:
 - [cv.alirezad.ir](https://cv.alirezad.ir): My online CV
 - [blog.alirezad.ir](https://blog.alirezad.ir/): My acquired knowledge by searching based on my questions
-- [gallery.alirezad.ir](https://gallery.alirezad.ir): My gallery of self-taken photos
+- [photos.alirezad.ir](https://photos.alirezad.ir): My gallery of self-taken photos
 - [now.alirezad.ir](https://now.alirezad.ir): Write daily based on emotions and motivations
 - [note.alirezad.ir](https://note.alirezad.ir): For persian friends ;)
 
@@ -37,9 +37,10 @@ I deployed my websites on different platforms! It was a test at first but now, t
 
 > ##### Just to let you informed
 >
-> - **Cloudflare Pages** (`cf` subdomains) is based on Cloudflare CDN
-> - **Google's Firebase** (`fb` subdomains) is based on Google Cloud CDN
-> - **Netlify** (`nf` subdomains) is based on multi-CDN (as mentioned in [bejamas](https://bejamas.io/compare): Google Cloud (GCP), AWS, Digital Ocean, Yandex, Rackspace Cloud)
-> - **Vercel** (`vc` subdomains) is based on multi-CDN as well (as mentioned in [bejamas](https://bejamas.io/compare): Google Cloud (GCP), AWS)
+> **Cloudflare Pages** (`cf` subdomains) is based on Cloudflare CDN
+> **Google's Firebase** (`fb` subdomains) is based on Google Cloud CDN
+> **Netlify** (`nf` subdomains) is based on multi-CDN (as mentioned in [bejamas](https://bejamas.io/compare): Google Cloud (GCP), AWS, Digital Ocean, Yandex, Rackspace Cloud)
+> **Vercel** (`vc` subdomains) is based on multi-CDN as well (as mentioned in [bejamas](https://bejamas.io/compare): Google Cloud (GCP), AWS)
+> 
 > For more info, you can check this link to comapre these services
 {: .block-tip }
