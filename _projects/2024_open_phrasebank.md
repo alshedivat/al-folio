@@ -30,10 +30,8 @@ You can further customize the phrasebank according to your needs, e.g. for certa
 The frequent phrases used in Nature science and Social science are different. The wordtree below shows the difference in the phrases used in the two disciplines to describe climate change. 
 
 <iframe src="https://open-phrasebank.readthedocs.io/en/latest/wordtree_climate_geo.html" frameborder="0" style="border:none; overflow:hidden; width:100%; height:510px;" allowTransparency="true"></iframe>
-</iframe>
 
 Do you know which one is from Nature science and which one is from Social science?
 
 <iframe src="https://open-phrasebank.readthedocs.io/en/latest/wordtree_climate_social_science.html" frameborder="0" style="border:none; overflow:hidden; width:100%; height:510px;" allowTransparency="true"></iframe>
-</iframe>
 
