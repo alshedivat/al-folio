@@ -133,3 +133,13 @@
 {% if page.tikzjax %}
   <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
 {% endif %}
+
+<!-- pseudocode -->
+{% if page.pseudocode %}
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.pseudocode.url.css }}"
+    crossorigin="anonymous"
+  >
+{% endif %}

@@ -1,0 +1,49 @@
+{% if site.enable_math and page.pseudocode %}
+  <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [['$$','$$'], ['\\[','\\]']],
+        processEscapes: true,
+        processEnvironments: true,
+      },
+    };
+  </script>
+  <script
+    type="text/javascript"
+    id="MathJax-script"
+    src="{{ site.third_party_libraries.mathjax.url.js }}"
+  ></script>
+  <script
+    type="text/javascript"
+    src="{{ site.third_party_libraries.pseudocode.url.js }}"
+  ></script>
+  <script>
+    console.log("chegou");
+    /* Create pseudocode as another node and hide the code block, appending the pseudocode node after it
+       this is done to enable retrieving the code again when changing theme between light/dark */
+    document.onreadystatechange = () => {
+      console.log("entrou " + document.readyState);
+      if (document.readyState === 'complete') {
+        console.log("terminou");
+        document.querySelectorAll('pre>code.language-pseudocode').forEach((elem) => {
+          console.log("achou");
+          const texData = elem.textContent;
+          const backup = elem.parentElement;
+          backup.classList.add('unloaded');
+          /* create vega lite node */
+          let pseudoCodeElement = document.createElement('pre');
+          pseudoCodeElement.classList.add('pseudocode');
+          const text = document.createTextNode(texData);
+          pseudoCodeElement.appendChild(text);
+          backup.after(pseudoCodeElement);
+
+          /* Embed the visualization in the container */
+          console.log(pseudoCodeElement);
+          pseudocode.renderElement(pseudoCodeElement);
+        });
+      }
+    };
+  </script>
+{% endif %}
