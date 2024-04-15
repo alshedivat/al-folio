@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Open Phrasebank
-description: How different Nature science and Social science describe climate change
+title: How different Nature science and Social science describe climate change?
+description: My new project Open Phrasebank helps you to find out.
 img: https://i.imgur.com/TNngwfN.png
 bibliography: lib.bib
 importance: 1
