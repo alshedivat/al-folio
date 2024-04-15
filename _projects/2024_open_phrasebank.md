@@ -11,7 +11,7 @@ category: fun
 
 ## Open Phrasebank
 
-[The repository](https://github.com/liuh886/GEO4300_2023/) provides an accessible **phrase bank**, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE, to help non-native speakers write more fluently. The phrase bank is based on the analysis of the phrases used in scientific articles (or any text you are interested), so it can also used for word visualization. The repository is open for contributions, and the authors encourage users to contribute to the phrase bank by submitting pull requests.
+[The repository](https://github.com/liuh886/open_phrasebank/) provides an accessible **phrase bank**, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE, to help non-native speakers write more fluently. The phrase bank is based on the analysis of the phrases used in scientific articles (or any text you are interested in), so it can also used for word visualization. The repository is open for contributions, and the authors encourage users to contribute to the phrase bank by submitting pull requests.
 
 
 ### Case 1 - Typing in Flow
@@ -27,7 +27,7 @@ You can further customize the phrasebank according to your needs, e.g. for certa
 
 ### Case 3 - Wordtree: How different Nature science and Social science describe climate change
 
-The frequent phrases used in Nature science and Social science are different. The wordtree below shows the difference in the phrases used in the two disciplines to describe climate change. 
+The frequent phrases used in Nature science and Social science are different. The wordtree below shows the difference in the phrases used in the two disciplines to describe climate change based on 40k articles from [Elsevier OA CC-BY Corpus](https://elsevier.digitalcommonsdata.com/datasets/zm33cdndxs/2).
 
 <iframe src="https://open-phrasebank.readthedocs.io/en/latest/wordtree_climate_geo.html" frameborder="0" style="border:none; overflow:hidden; width:100%; height:510px;" allowTransparency="true"></iframe>
 
