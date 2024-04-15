@@ -3,8 +3,14 @@
   <script type="text/javascript">
     window.MathJax = {
       tex: {
-        inlineMath: [['$','$'], ['\\(','\\)']],
-        displayMath: [['$$','$$'], ['\\[','\\]']],
+        inlineMath: [
+          ['$', '$'],
+          ['\\(', '\\)'],
+        ],
+        displayMath: [
+          ['$$', '$$'],
+          ['\\[', '\\]'],
+        ],
         processEscapes: true,
         processEnvironments: true,
       },
@@ -33,7 +39,7 @@
           /* add pseudocode node and remove the original code block */
           parent.appendChild(pseudoCodeElement);
           parent.removeChild(elem.parentElement);
-          /* Embed the visualization in the container */
+          /* embed the visualization in the container */
           pseudocode.renderElement(pseudoCodeElement);
         });
       }
