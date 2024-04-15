@@ -499,7 +499,7 @@ third_party_libraries:
       fonts: "output/chtml/fonts/woff-v2/"
     url:
       fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
-      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.min.js"
     version: "3.2.0"
   masonry:
     integrity:
@@ -535,6 +535,11 @@ third_party_libraries:
     url:
       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
     version: "3"
+  pseudocode:
+    url:
+      css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
+      js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
+    version: "2.4.1"
   swiper:
     integrity:
       css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
