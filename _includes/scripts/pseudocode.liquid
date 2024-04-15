@@ -20,27 +20,20 @@
     src="{{ site.third_party_libraries.pseudocode.url.js }}"
   ></script>
   <script>
-    console.log("chegou");
-    /* Create pseudocode as another node and hide the code block, appending the pseudocode node after it
-       this is done to enable retrieving the code again when changing theme between light/dark */
     document.onreadystatechange = () => {
-      console.log("entrou " + document.readyState);
       if (document.readyState === 'complete') {
-        console.log("terminou");
         document.querySelectorAll('pre>code.language-pseudocode').forEach((elem) => {
-          console.log("achou");
           const texData = elem.textContent;
-          const backup = elem.parentElement;
-          backup.classList.add('unloaded');
-          /* create vega lite node */
+          const parent = elem.parentElement.parentElement;
+          /* create pseudocode node */
           let pseudoCodeElement = document.createElement('pre');
           pseudoCodeElement.classList.add('pseudocode');
           const text = document.createTextNode(texData);
           pseudoCodeElement.appendChild(text);
-          backup.after(pseudoCodeElement);
-
+          /* add pseudocode node and remove the original code block */
+          parent.appendChild(pseudoCodeElement);
+          parent.removeChild(elem.parentElement);
           /* Embed the visualization in the container */
-          console.log(pseudoCodeElement);
           pseudocode.renderElement(pseudoCodeElement);
         });
       }
