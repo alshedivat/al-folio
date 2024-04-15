@@ -1,7 +1,7 @@
 ---
 layout: page
-title: How different Nature science and Social science describe climate change?
-description: My new project Open Phrasebank helps you to find out.
+title: Open Phrasebank
+description: How different Nature science and Social science describe climate change?
 img: https://i.imgur.com/TNngwfN.png
 bibliography: lib.bib
 importance: 1
@@ -11,7 +11,7 @@ category: fun
 
 ## Open Phrasebank
 
-[The repository](https://github.com/liuh886/open_phrasebank/) provides an accessible **phrase bank**, which is a collection of frequently used phrases that can be utilized, for example, in the auto-complete function of an IDE, to help non-native speakers write more fluently. The phrase bank is based on the analysis of the phrases used in scientific articles (or any text you are interested in), so it can also used for word visualization. The repository is open for contributions, and the authors encourage users to contribute to the phrase bank by submitting pull requests.
+[The repository](https://github.com/liuh886/open_phrasebank/) provides an accessible **phrase bank**, which is a collection of frequently phrases that can be utilized, for example, in the auto-complete function of an IDE, to write more fluently. The phrase bank is based on the analysis of the phrases used in scientific articles (or any text you are interested in), so it can also used for word visualization. The repository is open for contributions, and the authors encourage users to contribute to the phrase bank by submitting pull requests.
 
 
 ### Case 1 - Typing in Flow
