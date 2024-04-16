@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Wandering in Universe # the website title (if blank, full name will be used instead)
 first_name: Qingqin
 middle_name:
 last_name: LIU
@@ -14,7 +14,7 @@ footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 # Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 # Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: apply-for-phd, game, design, VR/AR, academic-website  # add your own keywords or leave empty
+keywords: Human-Computer Interaction, Game, Design, VR/AR  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: Neo.jpeg  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
