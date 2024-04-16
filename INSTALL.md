@@ -1,11 +1,13 @@
 # Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Installing and Deploying](#installing-and-deploying)
   - [Recommended Approach](#recommended-approach)
   - [Local Setup on Windows](#local-setup-on-windows)
   - [Local Setup using Docker (Recommended)](#local-setup-using-docker-recommended)
     - [Build your own docker image](#build-your-own-docker-image)
-  - [Local Setup (Legacy)](#local-setup-legacy)
+  - [Local Setup with Development Containers](#local-setup-with-development-containers)
+  - [Local Setup (Legacy, no longer supported)](#local-setup-legacy-no-longer-supported)
   - [Deployment](#deployment)
     - [For personal and organization webpages](#for-personal-and-organization-webpages)
     - [For project pages](#for-project-pages)
@@ -74,7 +76,12 @@ $ docker compose up --build
 
 If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that.
 
-## Local Setup (Legacy)
+## Local Setup with Development Containers
+
+`al-folio` supports [Development Containers](https://containers.dev/supporting).
+For example, when you open the repository with Visual Studio Code (VSCode), it prompts you to install the necessary extension and automatically install everything necessary.
+
+## Local Setup (Legacy, no longer supported)
 
 For a hands-on walkthrough of running al-folio locally without using Docker, check out [this cool blog post](https://george-gca.github.io/blog/2022/running-local-al-folio/) by one of the community members!
 
@@ -176,7 +183,7 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 **Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
 
-### Upgrading from a previous version
+## Upgrading from a previous version
 
 If you installed **al-folio** as described above, you can configure a [GitHub action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme.
 
