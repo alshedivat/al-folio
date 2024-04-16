@@ -7,8 +7,17 @@
     - name: Languages
       value: Chinese, English, Norsk (beginner)
 
-    - name: Hacking skills
-      value: Python, Matlab, Git, Kriging, Kalman Filter, Gradient descent, XGBoost, Automating GIS
+- title: Tech stack
+  type: map
+  contents:
+    - name: Data Science
+      value: Python, Matlab, Scikit-learn, Kalman Filter, XGBoost, Gradient Descent
+
+    - name: GIS
+      value: Automating GIS (QGIS, ArcGIS, Global Mapper), Kriging, OpenStreetMap, Shapely, Geopandas, xarray, rasterio
+    
+    - name: DevOps
+      value: Git, GitHub, Docker, ETL, PostgreSQL, FastAPI, RESTful API, GCP
   
 - title: Education
   type: time_table
@@ -122,4 +131,5 @@
     - <u>Writing:</u> Climate change and energy transition at Zhihu.com 
     - <u>Hobbies:</u> Marathon with 1h28 (21K) 3h29 (42K) of PB, Cross-country skiing.
     - <u>OnePiece:</u> What's the will of D?
+    - <u>Opensource:</u> Why I dislike Overleaf, becasue I have Obsidian, Quarto...
 

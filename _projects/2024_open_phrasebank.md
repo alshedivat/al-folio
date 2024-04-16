@@ -13,23 +13,23 @@ category: fun
 
 ![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank) [![GitHub Action](https://github.com/liuh886/open-phrasebank/actions/workflows/lint.yml/badge.svg)](https://github.com/liuh886/open-phrasebank/actions/workflows/lint.yml) ![GitHub License](https://img.shields.io/github/license/liuh886/open-phrasebank) ![Docker Pulls](https://img.shields.io/docker/pulls/liuh886/open-phrasebank)
 
-## Open Phrasebank
+## Why we need Open Phrasebank
 
 [The repository](https://github.com/liuh886/open_phrasebank/) provides accessible **phrase banks**, which are a collection of frequent phrases that can be utilized, e.g., in the auto-complete function of an IDE, to write smoothly. The phrase bank is based on the analysis of the phrases used in scientific articles (or any text you are interested in), so it can also be used for word visualization as well. The repository is open for contributions, and the authors encourage users to contribute to the phrase bank by submitting pull requests.
 
 
-### Case 1 - Typing in Flow
+### Typing in Flow
 
 ![](https://i.imgur.com/MGDIqly.gif)
 
 Boosting typing experience with phrasebank.🚀
 
 
-### Case 2 - Academic Writing
+### Academic Writing
 
 You can further customize the phrasebank according to your needs, e.g. for certain disciplines, for certain styles (descriptive, analytical, persuasive and critical), for certain sections (abstract, body text), as long as you can find good ingredients.
 
-### Case 3 - Wordtree: How different Nature science and Social science describe climate change
+### How different Nature science and Social science describe climate change?
 
 The frequent phrases used in Nature science and Social science are different. The wordtree below shows the difference in the phrases used in the two disciplines to describe climate change based on 40k articles from [Elsevier OA CC-BY Corpus](https://elsevier.digitalcommonsdata.com/datasets/zm33cdndxs/2).
 
