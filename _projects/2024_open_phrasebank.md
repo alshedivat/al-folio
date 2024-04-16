@@ -9,9 +9,13 @@ year: 2024
 category: fun
 ---
 
+![](https://i.imgur.com/82CMc9w.png)
+
+![Documentation Status](https://readthedocs.org/projects/open-phrasebank/badge/?version=latest) ![PyPI - Version](https://img.shields.io/pypi/v/openphrasebank) [![GitHub Action](https://github.com/liuh886/open-phrasebank/actions/workflows/lint.yml/badge.svg)](https://github.com/liuh886/open-phrasebank/actions/workflows/lint.yml) ![GitHub License](https://img.shields.io/github/license/liuh886/open-phrasebank) ![Docker Pulls](https://img.shields.io/docker/pulls/liuh886/open-phrasebank)
+
 ## Open Phrasebank
 
-[The repository](https://github.com/liuh886/open_phrasebank/) provides an accessible **phrase bank**, which is a collection of frequently phrases that can be utilized, for example, in the auto-complete function of an IDE, to write more fluently. The phrase bank is based on the analysis of the phrases used in scientific articles (or any text you are interested in), so it can also used for word visualization. The repository is open for contributions, and the authors encourage users to contribute to the phrase bank by submitting pull requests.
+[The repository](https://github.com/liuh886/open_phrasebank/) provides accessible **phrase banks**, which are a collection of frequent phrases that can be utilized, e.g., in the auto-complete function of an IDE, to write smoothly. The phrase bank is based on the analysis of the phrases used in scientific articles (or any text you are interested in), so it can also be used for word visualization as well. The repository is open for contributions, and the authors encourage users to contribute to the phrase bank by submitting pull requests.
 
 
 ### Case 1 - Typing in Flow
