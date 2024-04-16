@@ -14,7 +14,7 @@
       value: Python, Matlab, Scikit-learn, Kalman Filter, XGBoost, Gradient Descent
 
     - name: GIS
-      value: Automating GIS (QGIS, ArcGIS, Global Mapper), Kriging, OpenStreetMap, Shapely, Geopandas, xarray, rasterio
+      value: Automating GIS (QGIS, ArcGIS, Global Mapper), Kriging, OpenStreetMap, Shapely, Geopandas, Xarray, Rasterio
     
     - name: DevOps
       value: Git, GitHub, Docker, ETL, PostgreSQL, FastAPI, RESTful API, GCP
