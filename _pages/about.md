@@ -34,14 +34,16 @@ I aim on gaining competence in end-to-end development which involves the followi
 ### Languages I am proficient In
 
 - **JavaScript and TypeScript**
+- **Go**
+- **Solidity**
 - **Java**
 - **Kotlin**
-- **Solidity**
 
 ### Frameworks that I use for Dev
 
-- **React**
+- **React and VueJS**
 - **Node for backend dev in JS/TS**
+- **Golang CLI tools, Servers and Distributed Systems**
 - **Java Spring Boot for backend dev in Java/Kotlin and developing Microservices**
 - **EthersJS for blockchain integration in web apps**
 - **React Native for cross platform mobile dev**
@@ -50,7 +52,7 @@ I aim on gaining competence in end-to-end development which involves the followi
 ### Tech that I plan on learning
 
 - **Low-lvl programming**:
-  - Rust and GoLang
+  - Rust 
 - **DevOps**:
   - Kubernetes, AWS Specialization, Jenkins and Terraform.
 
