@@ -60,7 +60,7 @@ Note that when you run it for the first time, it will download a docker image of
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). Also, your changes should be automatically rendered in real-time (or maybe after a few seconds).
 
-> Beta: You can also use the slimmed docker image with a size below 100MBs and exact same functionality. Just use `docker compose up -f docker-compose-slim.yml`
+> Beta: You can also use the slimmed docker image with a size below 100MBs and exact same functionality. Just use `docker compose -f docker-compose-slim.yml up`
 
 ### Build your own docker image
 
