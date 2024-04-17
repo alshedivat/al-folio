@@ -18,13 +18,13 @@ category: fun
  N = 950, Mean = 7.56M kr, Median = 5.77M kr. Which one is a good choice? it's up to your own preferences!
 </div>
 
-There are so many factors contributing on house price. At the same location, the price varies by building’s attributes, e.g., the cost of construction, design, decoration, furnishings. If a pair of twin buildings exist, which are at different locations, the surrounding environment will decide price. In this report, we defined surroundings as `spatial contributions`, or `spatial score`.
+There are so many factors contributing to house prices. At the same location, the price varies by building’s attributes, e.g., the cost of construction, design, decoration, and furnishings. If a pair of twin buildings exist, which are at different locations, the surrounding environment will decide price. In this report, we defined surroundings as `spatial contributions` or `spatial` `scores.
 
-Someone like to lives in the city center, enjoying night pubs, shopping malls, whereas the other one prefers being near forest. So, **the unit’s price or value varies under different perspective. Multi-criterion decision analysis (MCDA) is to support decision-makers solving such problems(Meng et al., 2011; “Multiple-Criteria Decision Analysis,” 2022).**
+Some like to live in the city center, enjoying night pubs, and shopping malls, whereas others prefer being near the forest. So, the unit’s price or value varies from different perspectives. Multi-criterion decision analysis (MCDA) is to support decision-makers in solving such problems (Meng et al., 2011; “Multiple-Criteria Decision Analysis,” 2022).**
 
-This report proposed a Housing Price MCDA Model (HPMM) to value the spatial contributions by inputting user’s preferences, basing on spatial information from open access database (Norwegian Public Roads Administration, Statistics Norway), OpenStreetMap, and satellite images. **The model is aimed to provide best-fitting options for house buyers and assess the living conditions in various areas of Oslo for better urban planning regulation**. In the end, I discussed the weakness of the model, and the several shopping tips revealed by model.
+This report proposed a Housing Price MCDA Model (HPMM) to value the spatial contributions by inputting user preferences, based on spatial information from open access databases (Norwegian Public Roads Administration, Statistics Norway), OpenStreetMap, and satellite images. **The model is aimed to provide best-fitting options for house **buyers and **assessing the living**** conditions in various areas of Oslo for better urban planning regulation**. In the end, I discussed the weakness of the model, and the several shopping tips revealed by the model.
 
-This is a demonstration model that could be extended to other cities easily. The post-processed datasets in this project are good materials for automating GIS or WebGIS training courses. But I had no time to make this model online due to limited time.
+This is a demonstration model that could be extended to other cities easily. The post-processed datasets in this project are good materials for automating GIS or WebGIS training courses. However, I had no time to make this model online due to limited time.
 
 ### How it works 
 
@@ -39,12 +39,12 @@ This is a demonstration model that could be extended to other cities easily. The
     </div>
 </div>
 <div class="caption">
-    HPMM: Quantifying your living condition/city service (infrastracture) by `spatial score` and help to make decision.
+    HPMM: Quantifying your living condition/city service (infrastructure) by `spatial score` and help to make decisions.
 </div>
 
-HPMM obtains (1) spatial information from statistics Norway, OpenStreetMap and optical satellite imagery, (2) user’s preferences, including point of interests (POI) and weights for all criteria. Once the model is set up, the on-sale units of Oslo in February from Finn.no are inputted to model. Then, the recommended units are output by model.
+HPMM obtains (1) spatial information from statistics Norway, OpenStreetMap and optical satellite imagery, (2) user preferences, including point of interest (POI) and weights for all criteria. Once the model is set up, the on-sale units of Oslo in February from Finn.no are inputted to model. Then, the recommended units are output by model.
 
-Oslo County polygon was resampled into 50x50 meters grid firstly. All spatial information was accordingly assigned into each cell by location. The spatial information used in this scenario includes **public transportation, kindergarten, school, stores, groceries, culture and sports building, parking places, vegetation index, and noise level.** The *spatial score* is contributed by all these ***elements i*** on different ***distance a/b/c/d...*** and ***weights*** under certain reclassifying rules ***f(x).***
+Oslo County polygon was resampled into a 50x50 meters grid first. All spatial information was accordingly assigned into each cell by location. The spatial information used in this scenario includes **public transportation, kindergarten, school, stores, groceries, culture and sports building, parking places, vegetation index, and noise level.** The *spatial score* is contributed by all these ***elements i*** on different ***distance a/b/c/d...*** and ***weights*** under certain reclassifying rules ***f(x).***
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -60,9 +60,9 @@ The main tools used in this project:
 - Scraping data from Finn by [scrapy/scrapy: Scrapy, a fast high-level web crawling & scraping framework for Python. (github.com)](https://github.com/scrapy/scrapy)
 - Geocoder from [GeoPy](https://geopy.readthedocs.io/en/stable/)).
 - Spatial joining, calculation, cleaning, and visualizing by [GeoPandas](https://geopandas.org/en/stable/#)
-- Focol statistics, reclassify, raster calculator, extract multi values to points by ArcGIS Pro.
+- Focal statistics, reclassification, raster calculator, extract multi values to points by ArcGIS Pro.
 
-The parameters used in demo model:
+The parameters used in the demo model:
 **Table 1.** *The criteria and the model parameters (demo).*
 
 | **Code** | **Criteria** | **Type** | **Spatial points by function** | **Reclassifying** | **Weight** |
@@ -91,10 +91,10 @@ Taking public transportation or driving? Or half-half.
     </div>
 </div>
 <div class="caption">
-    (left) The middle of city center and the east side of Sankt Hanshaugen, are too far from T-bane, and have relatively low density of road network due to terrain. Besides, the big park, University of Oslo, Ulleval hospital, Aker hospital have a negative impact on public transportation access. (right) If you prefer driving, Mjorstuen, Uranienborg, Fagerborg are not easy parking area.
+    (left) The middle of the city center and the east side of Sankt Hanshaugen, are too far from T-bane, and have a relatively low density of road network due to terrain. Besides, the big park, University of Oslo, Ulleval Hospital, Aker Hospital have a negative impact on public transportation access. (right) If you prefer driving, Mjorstuen, Uranienborg, and Fagerborg are not easy parking area.
 </div>
 
-Shops and supermarket.
+Shops and supermarkets.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-4 mt-3 mt-md-0">
@@ -105,10 +105,10 @@ Shops and supermarket.
     </div>
 </div>
 <div class="caption">
-    (left) In this report, the shops layer contain café, bakery, bar, restaurant, pharmacy, fast food, convenience store, and beverage. The hot zone for hang out is between the Colosseum in Majorstuen, Frogner (west), Gamle oslo (east), and Torshov (north). And Nydalen is a good choice as well. Vestre Aker and Grorud have several choices relative other suburban areas. (right) There is no supermarket for the people living in the north of Frognerseterveien in at least 500m. Another supermarket blockhole is the T-bane station Smestad, which locates at a crossroad of Road 168 and 150, with the nearest supermarket 1.5 km in east, 1.0 km in south, 1.3 km in north, and 0.8km in west
+    (left) In this report, the shop's layer contains a café, bakery, bar, restaurant, pharmacy, fast food, convenience store, and beverage. The hot zone for hanging out is between the Colosseum in Majorstuen, Frogner (west), Gamle Oslo (east), and Torshov (north). And Nydalen is a good choice as well. Vestre Aker and Grorud have several choices relative to other suburban areas. (right) There is no supermarket for the people living in the north of Frognerseterveien in at least 500m. Another supermarket blockhole is the T-bane station Smestad, which is located at a crossroad of Road 168 and 150, with the nearest supermarket 1.5 km in the east, 1.0 km in the south, 1.3 km in the north, and 0.8km in the west
 </div>
 
-When we use NDVI as a criterion, there is an obvious underestimation for units located near water body, e.g., shore line or lake. For example, in Huk, the better view to fjord, the more expensive the house would be. However, the beach does not have any vegetation, and none contribution to spatial score. This issue could be fixed by adding another criterion.
+When we use NDVI as a criterion, there is an obvious underestimation for units located near the water body, e.g., shoreline or lake. For example, in Huk, the better view to fjord, the more expensive the house would be. However, the beach does not have any vegetation and does not contribute to the spatial score. This issue could be fixed by adding another criterion.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -119,7 +119,7 @@ When we use NDVI as a criterion, there is an obvious underestimation for units l
     Is your place greener than the average?
 </div>
 
-The average noise level below 55db over 24 hours would be thought harmless, 10 points, otherwise can only get 2 point (<60db), 1 points (<65db), 0 point (>65db). The noise exposure is the result from modelling, not indoor noise exposure, resulting an uncertainty to final results. Since normally noise model considers vegetation as an important parameter, so the area close to park and away from highway and railway get excellent scores from both two criteria.
+The average noise level below 55db over 24 hours would be thought harmless, 10 points, otherwise can only get 2 points (<60db), 1 point (<65db), 0 point (>65db). The noise exposure is the result from modeling, not indoor noise exposure, resulting in uncertainty about the final results. Since normally the noise model considers vegetation as an important parameter, the area close to parks and away from highways and railways get excellent scores from both two criteria.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -127,7 +127,7 @@ The average noise level below 55db over 24 hours would be thought harmless, 10 p
     </div>
 </div>
 <div class="caption">
-    The noise is mainly produced by trafic roads and railways.
+    The noise is mainly produced by traffic on roads and railways.
 </div>
 
 ### What it suggests

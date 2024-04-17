@@ -5,7 +5,7 @@ description: Statistical downscaling and bias correction.
 img: assets/img/post/climate/cover.png
 bibliography: lib.bib
 importance: 1
-year: 2023
+year: 2023-2024
 category: work
 ---
 

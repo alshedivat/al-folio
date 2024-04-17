@@ -5,7 +5,7 @@ description: Describing the dynamics of Earth system by data science
 img: assets/img/post/datascience.jpg
 bibliography: lib.bib
 importance: 1
-year: 2023
+year: 2023-2024
 category: work
 ---
 

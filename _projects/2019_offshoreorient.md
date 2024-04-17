@@ -4,22 +4,21 @@ title: Seismic lazily!
 description: Offshoreorient studio - A python toolbox for offshore seismic QC
 img: assets/img/post/OOS/oos.jpg
 importance: 3
-year: 2020
+year: 2019-2020
 category: work
 ---
 
-`OffshoreOrient Studio` (OOS) is an offshore seismic QC toolbox, a good friend for lazy seismic QC/GEO/NAV/Client. This is my independent work that have been tested and used by my colleagues for several years. Sadly, I will not update it anymore. OOS had applied for software copyright (Registration No. 5073387) under the National Copyright Administration.
+`OffshoreOrient Studio` (OOS) is an offshore seismic QC toolbox, a good friend for lazy seismic QC/GEO/NAV/Client. This is my independent work that has been tested and used by my colleagues for several years. Sadly, I will not update it anymore. The OOS had applied for software copyright (Registration No. 5073387) under the National Copyright Administration.
 
-In OffshoreOrient Studio v1.0.3 toolbox, *NavPy* focus on the **shot by shot or sequence by sequence QC**. *QcPy* is mainly used for **Trace edit** and **RMS analysis**. *SourcePy* is  a **real-time solution for near field Gun QC**.
+In OffshoreOrient Studio v1.0.3 toolbox, _NavPy_ focuses on the shot-by-shot** or sequence-by-sequence QC**. *QcPy* is mainly used for **Trace edit** and **RMS analysis**. *SourcePy* is a **real-time solution for near-field Gun QC**.
 
 ## NavPy: the truth from data
 
-- SurveyWide map: for spatial analysis and statistics. Not just static map.
-- SurveyWide chart: for line by line QC. Does barnacle growing effect WSP?
+- SurveyWide map: for spatial analysis and statistics. Not just a static map.
+- SurveyWide chart: for line-by-line QC. Does barnacle growing affect WSP?
 - P1 Navigator: for p190 files format check and transformation.
-- CSV Navigator: for shot by shot QC.
-- STS Navigator: for .sts files extraction.
-- Wide-tow modelling: How does the wide-towed sources work?
+- CSV Navigator: for shot-by-shot QC.
+- STS Navigator: for .sts files extraction.Wide-tow modeling: How do the wide-towed sources work?
 
 
 <div class="row">
@@ -64,7 +63,7 @@ QcPy could be used for RMS analysis, noise test, sensitivity normalization, and 
 
 - Trace Edit toolkits: P2G (Promax to GeoEast) / ADS Pro/ Trace Edit Plot. 
 - RMS analysis:  RMS analysis, Noise test, Sensitivity Normalization
-- Fresnel Calculation: for estimating the size of Fresnel zone, and gaining more flexible binning strategy.
+- Fresnel Calculation: for estimating the size of the Fresnel zone, and gaining a more flexible binning strategy.
 
 
 <div class="row">
@@ -73,7 +72,7 @@ QcPy could be used for RMS analysis, noise test, sensitivity normalization, and 
     </div>
 </div>
 <div class="caption">
-    RMS Analysis, the powerful tools to stack rms in channel, streamer or shots by QcPy. Thus, we can easily do noise test before the SOL.
+    RMS Analysis, the powerful tools to stack rms in channel, streamer or shots by QcPy. Thus, we can easily do a noise test before the SOL.
 </div>
 
 
@@ -88,7 +87,7 @@ QcPy could be used for RMS analysis, noise test, sensitivity normalization, and 
 
 ## SourcePy: Real time shooting QC
 
-SourcePy is checking header files by Gun Controller in real time. You can self-define an alarm policy to save your eyes from screen.
+SourcePy is checking header files by Gun Controller in real time. You can self-define an alarm policy to save your eyes from the screen.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -124,5 +123,5 @@ v.1.0.0 beta 01 Mar 2019: NavPy
     </div>
 </div>
 <div class="caption">
-    Offshoreorient studio: Data Driving Solutions for Marine Seismc QC
+    Offshoreorient studio: Data Driving Solutions for Marine Seismic QC
 </div>

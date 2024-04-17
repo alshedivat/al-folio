@@ -8,9 +8,9 @@ year: 2022
 category: fun
 ---
 
-A million tons of ice was shipped from Norway each year during the golden age of ice trade to England, India, South America, China and Australia. The business that involved transporting natural ice for commercial purposes stated at 1806, flourished in the end of 19th-century and was replaced by plant ice until World War I (“Ice Trade,” 2022). A primary concern of the ice transportation is the melt loss.
+A million tons of ice was shipped from Norway each year during the golden age of ice trade to England, India, South America, China and Australia. The business that involved transporting natural ice for commercial purposes started at 1806, flourished in the end of 19th-century and was replaced by plant ice until World War I (“Ice Trade,” 2022). A primary concern of the ice transportation is the melt loss.
 
-Luckily, there is a record to follow. In 1959, a three-ton block of ice from Mo i Rana by the Arctic Circle was trucked to Libreville by the Equator in an advertisement of insulation materials. The event left enough details and measurements: 2714 Kg ice remained with only 11% mass loss(“Ice Block Expedition of 1959,” 2022) in a 37 days long journey.
+Luckily, there is a record to follow. In 1959, a three-ton block of ice from Mo i Rana by the Arctic Circle was trucked to Libreville by the Equator in an advertisement of insulation materials. The event left enough details and measurements: 2714 Kg ice remained with only 11% mass loss(“Ice Block Expedition of 1959,” 2022) in a 37 day long journey.
 
 Using the EAR5 climate reanalysis dataset (Muñoz Sabater, 2021), this study is able to simulate the 1959 ice block expedition by surface energy balance equations and heat transfer equations, which is a new perspective on this event and the topic of ice trade.
 

@@ -5,7 +5,7 @@ description: How different Nature science and Social science describe climate ch
 img: https://i.imgur.com/TNngwfN.png
 bibliography: lib.bib
 importance: 1
-year: 2024
+year: 2023-2024
 category: fun
 ---
 
@@ -18,14 +18,12 @@ category: fun
 [The repository](https://github.com/liuh886/open_phrasebank/) provides accessible **phrase banks**, which are a collection of frequent phrases that can be utilized, e.g., in the auto-complete function of an IDE, to write smoothly. The phrase bank is based on the analysis of the phrases used in scientific articles (or any text you are interested in), so it can also be used for word visualization as well. The repository is open for contributions, and the authors encourage users to contribute to the phrase bank by submitting pull requests.
 
 
-### Typing in Flow
+### 🚀 Boosting typing experience with phrasebank
 
 ![](https://i.imgur.com/MGDIqly.gif)
 
-Boosting typing experience with phrasebank.🚀
 
-
-### Academic Writing
+### 📊 Academic Writing
 
 You can further customize the phrasebank according to your needs, e.g. for certain disciplines, for certain styles (descriptive, analytical, persuasive and critical), for certain sections (abstract, body text), as long as you can find good ingredients.
 
