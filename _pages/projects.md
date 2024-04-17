@@ -6,7 +6,7 @@ description: A growing collection of my cool projects.
 nav: true
 nav_order: 2
 year_categories: [2023-2024,2022,2019-2020] # Projects show in project page
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
