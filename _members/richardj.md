@@ -1,7 +1,7 @@
 ---
 name: Richard Johansson
 image: "https://www.cse.chalmers.se/~richajo/content/passosella.jpg"
-position: Associate Professor
+position: Full Professor
 state: current
 start-date: 2016-04-01
 end-date: YY-MM-DD
