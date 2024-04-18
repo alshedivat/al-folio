@@ -105,8 +105,14 @@ Focus on social & political philosophy, philosophy of science.
 University of Washington. 2021-2025.
 
 **B.S., Computer Science**.
+Focus: AI, HCI.
 University of Washington. 2021-2025.
-Minor in mathematics (focus on abstract algebra).
+
+**Minor, Mathematics**.
+Focus on abstract algebra.
+
+**Minor, History**.
+Focus on 21st century comparative and transregional history.
 
 **Early Entrance Program.**
 Admission to university at 14 through the [Robinson Center](https://robinsoncenter.uw.edu/){:target="_blank"}.
