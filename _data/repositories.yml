@@ -3,9 +3,9 @@ github_users:
 #  - alshedivat
 
 github_repos:
-  - alerezaaa/Jekyll_alireza
-#  - twbs/bootstrap
-  - jekyll/jekyll
+  # - alerezaaa/Jekyll_alireza
+  - alshedivat/al-folio
+  # - jekyll/jekyll
 #  - jquery/jquery
 #  - FortAwesome/Font-Awesome
 #  - jpswalsh/academicons
