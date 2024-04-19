@@ -8,10 +8,8 @@ year: 2022
 category: fun
 ---
 
-<div class="row">
-    <div class="col-s mt-3 mt-md-0"
+<div class="col-s mt-3 mt-md-0"
         {% include figure.html path="assets/img/post/MCA/gis6_price.jpg" title="oslo_finn_unit_price" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 <div class="caption">
     The on-sale units of Oslo from Finn in Feb 2022.
@@ -65,18 +63,18 @@ The main tools used in this project:
 The parameters used in the demo model:
 **Table 1.** *The criteria and the model parameters (demo).*
 
-| **Code** | **Criteria** | **Type** | **Spatial points by function** | **Reclassifying** | **Weight** |
-| ---- | ------------------------------------------------------------ | --------- | -------------------------------------------- | ------------------------------------------------------------ | ------ |
-| 1 | Bus or metro Stop | Numerical | 1.5 pt: <250 m 1 pt: <500 m 0 pt: >=500 m | 10 pt : >=24 pt 6 pt : >=12 pt 3pt : >=6 pt 1 pt : >=3 pt 0 pt : <3 pt | 15 |
-| 2 | Parking place | Boolean | 10 pt: =<100 m 5 pt: =<250 m 0 pt: >=250 m | - | 5 |
-| 3 | Kindergarten | Boolean | 10 pt: <500 m 0 pt: >=500 m | - | 10 |
-| 4 | School | Boolean | 10 pt: <500 m 0 pt: >=500 m | - | 5 |
-| 5 | Supermarket | Boolean | 10 pt: <250 m 5 pt: <500 m 0 pt: >=500 m | - | 10 |
-| 6 | Café, Bakery, Bar, Restaurant, Pharmacy, Fast food, Convenience store, Beverage | Numerical | 1 pt: <500 m 0 pt: >=500 m | 10 pt : >=50 pt 8 pt : >=25 pt 6pt : >=8 pt 4 pt : >=4 pt 0 pt : <4 pt | 5 |
-| 7 | Library, Museum, Theatre, Stadium, Sports center, Cinema, Playground, Mall, Swimming pool | Numerical | 1 pt: <500 m 0 pt: >=500 m | 10 pt : >=15 pt 6 pt : >=8 pt 3pt : >=3 pt 1 pt : >=1 pt 0 pt : <1 pt | 5 |
-| 8 | College, University, Hospital | Numerical | 1 pt: <1000 m 0 pt: >=1000 m | 10 pt : >=7 pt 5 pt: >=4 pt 1 pt: >=1 pt 0 pt : <1 pt | 5 |
-| 9 | NDVI | Numerical | Average of 50 m | 10 pt: 70% 6 pt: 50% 4 pt: 30% 0 pt: below 30% | 20 |
-| 10 | Noise | Numerical | Average of 50 m | 10 pt: <= 55db 2 pt: <= 60db 1 pt: <= 65db 0 pt: >65db | 20 |
+| **Code** | **Criteria**                                                                              | **Type**  | **Spatial points by function**             | **Reclassifying**                                                      | **Weight** |
+| -------- | ----------------------------------------------------------------------------------------- | --------- | ------------------------------------------ | ---------------------------------------------------------------------- | ---------- |
+| 1        | Bus or metro Stop                                                                         | Numerical | 1.5 pt: <250 m 1 pt: <500 m 0 pt: >=500 m  | 10 pt : >=24 pt 6 pt : >=12 pt 3pt : >=6 pt 1 pt : >=3 pt 0 pt : <3 pt | 15         |
+| 2        | Parking place                                                                             | Boolean   | 10 pt: =<100 m 5 pt: =<250 m 0 pt: >=250 m | -                                                                      | 5          |
+| 3        | Kindergarten                                                                              | Boolean   | 10 pt: <500 m 0 pt: >=500 m                | -                                                                      | 10         |
+| 4        | School                                                                                    | Boolean   | 10 pt: <500 m 0 pt: >=500 m                | -                                                                      | 5          |
+| 5        | Supermarket                                                                               | Boolean   | 10 pt: <250 m 5 pt: <500 m 0 pt: >=500 m   | -                                                                      | 10         |
+| 6        | Café, Bakery, Bar, Restaurant, Pharmacy, Fast food, Convenience store, Beverage           | Numerical | 1 pt: <500 m 0 pt: >=500 m                 | 10 pt : >=50 pt 8 pt : >=25 pt 6pt : >=8 pt 4 pt : >=4 pt 0 pt : <4 pt | 5          |
+| 7        | Library, Museum, Theatre, Stadium, Sports center, Cinema, Playground, Mall, Swimming pool | Numerical | 1 pt: <500 m 0 pt: >=500 m                 | 10 pt : >=15 pt 6 pt : >=8 pt 3pt : >=3 pt 1 pt : >=1 pt 0 pt : <1 pt  | 5          |
+| 8        | College, University, Hospital                                                             | Numerical | 1 pt: <1000 m 0 pt: >=1000 m               | 10 pt : >=7 pt 5 pt: >=4 pt 1 pt: >=1 pt 0 pt : <1 pt                  | 5          |
+| 9        | NDVI                                                                                      | Numerical | Average of 50 m                            | 10 pt: 70% 6 pt: 50% 4 pt: 30% 0 pt: below 30%                         | 20         |
+| 10       | Noise                                                                                     | Numerical | Average of 50 m                            | 10 pt: <= 55db 2 pt: <= 60db 1 pt: <= 65db 0 pt: >65db                 | 20         |
 
 
 ### Some results
@@ -157,15 +155,15 @@ To be short, here is the recommended list of the units:
 
 **Table 2.** *The best-fits (Aggregation_1 > 8).*
 
-| **Finn_code**                                                | **District**      | **Size** | **Price (Kr)** | **Type**                                | **Ppsm (Kr)** | **Aggregation_1** |
-| ------------------------------------------------------------ | ----------------- | -------- | -------------------- | --------------------------------------- | ------------------ | ----------------- |
-| [249110832](https://www.finn.no/realestate/homes/ad.html?finnkode=249110832) | Gamle Oslo        | 71       | 6029516              | Andel • Leilighet • 3 soverom           | 84923              | 8.28              |
-| [248981927](https://www.finn.no/realestate/homes/ad.html?finnkode=248981927) | Frogner           | 76       | 6909620              | Eier (Selveier) • Leilighet • 2 soverom | 90916              | 8.15              |
-| [248049271](https://www.finn.no/realestate/homes/ad.html?finnkode=https://www.finn.no/realestate/homes/ad.html?finnkode=248049271) | Søndre Nordstrand | 81       | 3588916              | Eier (Selveier) • Leilighet • 2 soverom | 44308              | 8.18              |
-| [249057789](https://www.finn.no/realestate/homes/ad.html?finnkode=249057789) | Sagene            | 50       | 5088694              | Eier (Selveier) • Leilighet • 1 soverom | 101774             | 8.14              |
-| [243905166](https://www.finn.no/realestate/homes/ad.html?finnkode=243905166) | Sagene            | 53       | 4763626              | Andel • Leilighet • 1 soverom           | 89880              | 8.36              |
-| [248207270](https://www.finn.no/realestate/homes/ad.html?finnkode=248207270) | Sagene            | 60       | 5362570              | Andel • Leilighet • 2 soverom           | 89376              | 8.45              |
-| [248035518](https://www.finn.no/realestate/homes/ad.html?finnkode=248035518) | Sagene            | 95       | 8151292              | Eier (Selveier) • Leilighet • 3 soverom | 85803              | 8.38              |
+| **Finn_code**                                                                                                                      | **District**      | **Size** | **Price (Kr)** | **Type**                                | **Ppsm (Kr)** | **Aggregation_1** |
+| ---------------------------------------------------------------------------------------------------------------------------------- | ----------------- | -------- | -------------- | --------------------------------------- | ------------- | ----------------- |
+| [249110832](https://www.finn.no/realestate/homes/ad.html?finnkode=249110832)                                                       | Gamle Oslo        | 71       | 6029516        | Andel • Leilighet • 3 soverom           | 84923         | 8.28              |
+| [248981927](https://www.finn.no/realestate/homes/ad.html?finnkode=248981927)                                                       | Frogner           | 76       | 6909620        | Eier (Selveier) • Leilighet • 2 soverom | 90916         | 8.15              |
+| [248049271](https://www.finn.no/realestate/homes/ad.html?finnkode=https://www.finn.no/realestate/homes/ad.html?finnkode=248049271) | Søndre Nordstrand | 81       | 3588916        | Eier (Selveier) • Leilighet • 2 soverom | 44308         | 8.18              |
+| [249057789](https://www.finn.no/realestate/homes/ad.html?finnkode=249057789)                                                       | Sagene            | 50       | 5088694        | Eier (Selveier) • Leilighet • 1 soverom | 101774        | 8.14              |
+| [243905166](https://www.finn.no/realestate/homes/ad.html?finnkode=243905166)                                                       | Sagene            | 53       | 4763626        | Andel • Leilighet • 1 soverom           | 89880         | 8.36              |
+| [248207270](https://www.finn.no/realestate/homes/ad.html?finnkode=248207270)                                                       | Sagene            | 60       | 5362570        | Andel • Leilighet • 2 soverom           | 89376         | 8.45              |
+| [248035518](https://www.finn.no/realestate/homes/ad.html?finnkode=248035518)                                                       | Sagene            | 95       | 8151292        | Eier (Selveier) • Leilighet • 3 soverom | 85803         | 8.38              |
 
  
 
@@ -173,15 +171,15 @@ There is a sensitivity test, using the second group of parameters:
 
 **Table 3.** *The best-fits (Aggregation_2 > 8).*
 
-| **Finn_code**                                                | **District** | **Size ** | **Price (Kr)** | **Type**                                | **Aggregation 2** | **Aggregation 1** |
-| ------------------------------------------------------------ | ------------ | --------- | ------------------- | --------------------------------------- | ----------------- | ----------------- |
-| [249110832](https://www.finn.no/realestate/homes/ad.html?finnkode=249110832) | Gamle Oslo   | 71        | 6029516             | Andel • Leilighet • 3 soverom           | 8.4               | 8.28              |
-| [248219200](https://www.finn.no/realestate/homes/ad.html?finnkode=248219200) | Frogner      | 84        | 9754142             | Eier (Selveier) • Leilighet • 2 soverom | 8.2               | 7.80              |
-| [249057789](https://www.finn.no/realestate/homes/ad.html?finnkode=249057789) | Sagene       | 50        | 5088694             | Eier (Selveier) • Leilighet • 1 soverom | 8.6               | 8.14              |
-| [248999688](https://www.finn.no/realestate/homes/ad.html?finnkode=248999688) | Frogner      | 36        | 3985861             | Andel • Leilighet • 1 soverom           | 8.2               | 7.60              |
-| [243905166](https://www.finn.no/realestate/homes/ad.html?finnkode=243905166) | Sagene       | 53        | 4763626             | Andel • Leilighet • 1 soverom           | 8.7               | 8.36              |
-| [195629975](https://www.finn.no/realestate/homes/ad.html?finnkode=195629975) | -            | 71        | 7483877             | Eier (Selveier) • Leilighet • 2 soverom | 8.1               | 7.50              |
-| [248035518](https://www.finn.no/realestate/homes/ad.html?finnkode=248035518) | Sagene       | 95        | 8151292             | Eier (Selveier) • Leilighet • 3 soverom | 8.6               | 8.38              |
+| **Finn_code**                                                                | **District** | **Size ** | **Price (Kr)** | **Type**                                | **Aggregation 2** | **Aggregation 1** |
+| ---------------------------------------------------------------------------- | ------------ | --------- | -------------- | --------------------------------------- | ----------------- | ----------------- |
+| [249110832](https://www.finn.no/realestate/homes/ad.html?finnkode=249110832) | Gamle Oslo   | 71        | 6029516        | Andel • Leilighet • 3 soverom           | 8.4               | 8.28              |
+| [248219200](https://www.finn.no/realestate/homes/ad.html?finnkode=248219200) | Frogner      | 84        | 9754142        | Eier (Selveier) • Leilighet • 2 soverom | 8.2               | 7.80              |
+| [249057789](https://www.finn.no/realestate/homes/ad.html?finnkode=249057789) | Sagene       | 50        | 5088694        | Eier (Selveier) • Leilighet • 1 soverom | 8.6               | 8.14              |
+| [248999688](https://www.finn.no/realestate/homes/ad.html?finnkode=248999688) | Frogner      | 36        | 3985861        | Andel • Leilighet • 1 soverom           | 8.2               | 7.60              |
+| [243905166](https://www.finn.no/realestate/homes/ad.html?finnkode=243905166) | Sagene       | 53        | 4763626        | Andel • Leilighet • 1 soverom           | 8.7               | 8.36              |
+| [195629975](https://www.finn.no/realestate/homes/ad.html?finnkode=195629975) | -            | 71        | 7483877        | Eier (Selveier) • Leilighet • 2 soverom | 8.1               | 7.50              |
+| [248035518](https://www.finn.no/realestate/homes/ad.html?finnkode=248035518) | Sagene       | 95        | 8151292        | Eier (Selveier) • Leilighet • 3 soverom | 8.6               | 8.38              |
 
 
 <div class="row">
