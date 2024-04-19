@@ -8,8 +8,10 @@ year: 2022
 category: fun
 ---
 
-<div class="col-s mt-3 mt-md-0"
+<div class="row">
+    <div class="col-s mt-3 mt-md-0">
         {% include figure.html path="assets/img/post/MCA/gis6_price.jpg" title="oslo_finn_unit_price" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
 <div class="caption">
     The on-sale units of Oslo from Finn in Feb 2022.
