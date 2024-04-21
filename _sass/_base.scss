@@ -171,16 +171,6 @@ ul.task-list input[type="checkbox"] {
   .card-title {
     color: var(--global-text-color);
   }
-
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
-  }
 }
 
 // Citation
@@ -625,16 +615,6 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
-    }
-  }
-
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
     }
   }
 
@@ -1085,10 +1065,6 @@ nav[data-toggle="toc"] {
         color: var(--global-theme-color);
       }
     }
-  }
-
-  .card-item {
-    margin-bottom: 10px;
   }
 
   .post-meta {
