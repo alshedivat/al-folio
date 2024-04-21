@@ -10,7 +10,7 @@
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
           <abbr
-            class="badge rounded"
+            class="badge rounded w-100"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
