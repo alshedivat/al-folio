@@ -171,6 +171,10 @@ ul.task-list input[type="checkbox"] {
   .card-title {
     color: var(--global-text-color);
   }
+
+  .card-body {
+    padding: 1.25rem 1.25rem 0 1.25rem;
+  }
 }
 
 // Citation
