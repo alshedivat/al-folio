@@ -7,6 +7,11 @@ Jekyll::Hooks.register :site, :after_init do |site|
   require 'uri'
 
   def download_file(url, dest)
+    # only try to download the file if url doesn't start with | for security reasons
+    if url.start_with?('|')
+      return
+    end
+
     # create the directory if it doesn't exist
     dir = File.dirname(dest)
     unless File.directory?(dir)
@@ -30,6 +35,11 @@ Jekyll::Hooks.register :site, :after_init do |site|
   end
 
   def download_fonts(url, dest)
+    # only try to download the file if url doesn't start with | for security reasons
+    if url.start_with?('|')
+      return
+    end
+
     # only download fonts if the directory doesn't exist or is empty
     unless File.directory?(dest) && !Dir.empty?(dest)
       puts "Downloading fonts from #{url} to #{dest}"
@@ -49,6 +59,11 @@ Jekyll::Hooks.register :site, :after_init do |site|
   end
 
   def download_fonts_from_css(config, url, dest)
+    # only try to download the file if url doesn't start with | for security reasons
+    if url.start_with?('|')
+      return
+    end
+
     # get the file name from the url
     file_name = url.split('/').last.split('?').first
 
