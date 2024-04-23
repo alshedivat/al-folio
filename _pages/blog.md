@@ -64,7 +64,7 @@ pagination:
 {% assign is_even = featured_posts.size | modulo: 2 %}
 <div class="row row-cols-{% if featured_posts.size <= 2 or is_even == 0 %}2{% else %}3{% endif %}">
 {% for post in featured_posts %}
-<div class="card-item col">
+<div class="col mb-4">
 <a href="{{ post.url | relative_url }}">
 <div class="card hoverable">
 <div class="row g-0">

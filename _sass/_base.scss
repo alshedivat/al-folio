@@ -164,22 +164,17 @@ ul.task-list input[type="checkbox"] {
 .card {
   background-color: var(--global-card-bg-color);
 
-  img {
+  .card-img {
     width: 100%;
+    padding-top: 1.25rem;
   }
 
   .card-title {
     color: var(--global-text-color);
   }
 
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
-    }
+  .card-body {
+    padding: 1.25rem 1.25rem 0 1.25rem;
   }
 }
 
@@ -625,16 +620,6 @@ footer.sticky-bottom {
   .card {
     img {
       width: 100%;
-    }
-  }
-
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-
-    .row {
-      display: flex;
-      align-items: center;
     }
   }
 
@@ -1085,10 +1070,6 @@ nav[data-toggle="toc"] {
         color: var(--global-theme-color);
       }
     }
-  }
-
-  .card-item {
-    margin-bottom: 10px;
   }
 
   .post-meta {
