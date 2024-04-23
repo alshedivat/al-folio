@@ -16,7 +16,10 @@ $max-content-width: {{ site.max_width }};
   "font-awesome/fontawesome",
   "font-awesome/brands",
   "font-awesome/solid",
-  "font-awesome/regular"
+  "font-awesome/regular",
+  "tabler-icons/tabler-icons.scss",
+  "tabler-icons/tabler-icons-filled.scss",
+  "tabler-icons/tabler-icons-outline.scss"
 ;
 
 // https://stackoverflow.com/questions/41285466/how-do-i-add-add-text-below-font-awesome-icon-links/41285702
