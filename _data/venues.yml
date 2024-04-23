@@ -7,10 +7,11 @@
   color: "#00ab37"
 
 "ICS":
-  url: https://ics2022.github.io/
+  url: https://www.ipdps.org/
   color: "#00369f"
 
 "IPDPS":
+  url: https://www.ipdps.org/
   color: "#00369f"
 
 "MICRO":
