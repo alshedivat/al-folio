@@ -27,6 +27,20 @@ Books
 
 ---
 
+### Computer Science
+
+- ["To Live in Their Utopia: Why Algorithmic Systems Create Absurd Outcomes"](https://ali-alkhatib.com/papers/chi/utopia/utopia.pdf){:target="_blank"} by Ali Alkhatib. "*Framing AI as creating and imposing its own utopia against which people are judged is deliberately suggestive. The intention is to square us as designers and participants in systems against the reality that the world that computer scientists have captured in data is one that surveils, scrutinizes, and excludes the very groups that it most badly misreads. It squares us against the fact that the people we subject these systems to repeatedly endure abuse, harassment, and real violence precisely because they fall outside the paradigmatic model that the state - and now the algorithm - has constructed to describe the world.*"
+- ["Antagonistic AI"](https://arxiv.org/pdf/2402.07350.pdf){:target="_blank"} by Alice Cai, Ian Arawjo, Elena Glassman
+- ["The Lottery Ticket Hypothesis"](https://arxiv.org/pdf/1803.03635.pdf){:target="_blank"} by Jonathan Frankle and Michael Carbin
+- ["What's Hidden in a Randomly Weighted Neural Network?"](https://arxiv.org/pdf/1911.13299.pdf){:target="_blank"} by Vivek Ramanjuan and Michell Wortsman
+- ["Moving Beyond 'Algorithmic Bias is a Data Problem'"](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1){:target="_blank"} by Sara Hooker
+- ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547){:target="_blank"} by Francois Chollet
+- ["Computing Machinery and Intelligence"](https://academic.oup.com/mind/article/LIX/236/433/986238){:target="_blank"} by Alan Turing
+- ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html){:target="_blank"} by Rich Sutton
+
+
+---
+
 ### Film
 
 Movies
@@ -55,15 +69,3 @@ Documentary
 - *Crime and Punishment*, Fyodor Dostevsky
 - *Never Let Me Go*, Kazuo Ishiguro
 - *The Dinner*, Herman Koch
-
----
-
-### AI
-
-- ["Learning in High Dimension Always Amounts to Extrapolation"](https://arxiv.org/pdf/2110.09485.pdf){:target="_blank"} by Randall Balestriero et al.
-- ["The Lottery Ticket Hypothesis"](https://arxiv.org/pdf/1803.03635.pdf){:target="_blank"} by Jonathan Frankle and Michael Carbin
-- ["What's Hidden in a Randomly Weighted Neural Network?"](https://arxiv.org/pdf/1911.13299.pdf){:target="_blank"} by Vivek Ramanjuan and Michell Wortsman
-- ["Moving Beyond 'Algorithmic Bias is a Data Problem'"](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1){:target="_blank"} by Sara Hooker
-- ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547){:target="_blank"} by Francois Chollet
-- ["Computing Machinery and Intelligence"](https://academic.oup.com/mind/article/LIX/236/433/986238){:target="_blank"} by Alan Turing
-- ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html){:target="_blank"} by Rich Sutton
