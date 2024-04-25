@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Deploying a Server for Bioinformatics Research
-date: 2023-10-14
+date: 2023-07-11
+last_updated: 2024-04-25
 description: how to deploy a server for bioinformatics research
 tags: deployment server Ubuntu
 categories: computer
@@ -202,7 +203,10 @@ I did not modify the `base` environment and proceeded to create two new environm
 If you wish to delete an environment for any reason, utilize the following command:
 
 ```bash
+# delete with a specified name
 conda remove --name <env_name> --all
+# delete with a specified location
+conda remove --prefix /path/to/directory
 ```
 
 ### Install python packages
@@ -290,7 +294,8 @@ If you are also a user of `pytorch` or `tensorflow` and you have one or more ava
 import torch
 import tensorflow as tf
 
-# check pytorch
+# check pytorch and cuda in use
+print(torch.cuda.version)
 print(torch.cuda.is_available())
 print(torch.cuda.device_count())
 print(torch.cuda.current_device())
@@ -500,7 +505,7 @@ Follow the [official installation guide](https://posit.co/download/rstudio-serve
 As an example, let's install one of the most famous R package in the field of single-cell genomics, [`Seurat`](https://satijalab.org/seurat/index.html). Before the installation, you need to install some system-level dependencies first:
 
 ```bash
-sudo apt install cmake pandoc pandoc-citeproc libcurl4-openssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev imagemagick libmagick++-dev libhdf5-dev libgsl-dev libssl-dev
+sudo apt install cmake pandoc pandoc-citeproc libcurl4-openssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev imagemagick libmagick++-dev libhdf5-dev libgsl-dev libssl-dev libblas-dev liblapack-dev
 ```
 
 Then the process of installing `Seurat` should be very smooth:
@@ -548,7 +553,7 @@ The key command is
 rsync -r /path/to/sync/ <username>@<remote_host>:<destination_directory>
 ```
 
-which "pushes" a directory from the system you are logging in to another system.
+which "pushes" all contents in `/path/to/sync/` from the system you are logging in to `<destination_directory>` in the target system.
 
 If you are synchronizing a large file, you may want to monitor the process:
 
@@ -577,6 +582,56 @@ When you run `nvidia-smi`, you may get
 Failed to initialize NVML: Driver/library version mismatch
 ```
 
-[This answer](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch/45319156#45319156) from stackoverflow may help. Briefly you can either reboot or unload the `nvidia` module.
+[This answer](https://stackoverflow.com/questions/43022843/nvidia-nvml-driver-library-version-mismatch/45319156#45319156) from stackoverflow may help. Briefly you can either reboot or unload the `nvidia` module. However, if both the ways can't help, you need to reinstall the nvidia drivers:
+
+```bash
+sudo apt purge nvidia* libnvidia*
+sudo ubuntu-drivers install
+```
+
+and then `sudo reboot` your server.
+
+### Upgrade Nvidia drivers
+
+You can upgrade the Nvidia driver by these steps:
+
+```bash
+# clean the installed version
+sudo apt purge *nvidia* -y
+sudo apt remove *nvidia* -y
+sudo rm /etc/apt/sources.list.d/cuda*
+sudo apt autoremove -y && sudo apt autoclean -y
+sudo rm -rf /usr/local/cuda*
+
+# find recommended driver versions
+ubuntu-drivers devices  # or sudo apt search nvidia
+
+# install the lastest version (replace `550` with the latest version number)
+sudo apt install libnvidia-common-550-server libnvidia-gl-550-server nvidia-driver-550-server -y
+
+# reboot
+sudo reboot now
+```
+
+After reboot, you can check whether the new driver works by `nvidia-smi` ( although you may be required to also install `nvidia-utils-550-server`). Theoretically the command `nvidia-smi` should work, but you may still get an error message
+
+```text
+NVIDIA-SMI has failed because it couldn't communicate with the NVIDIA driver. Make sure that the latest NVIDIA driver is installed and running.
+```
+
+even you have installed the latest driver. In this case you can try reinstalling kernel headers:
+
+```bash
+sudo apt install --reinstall linux-headers-$(uname -r)
+```
+
+If you encounter some errors like `cc: error: unrecognized command-line option ‘-ftrivial-auto-var-init=zero’`, you can use `gcc 12` instead of `gcc 11` by
+
+```bash
+sudo apt-get install gcc-12
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 12
+```
+
+After the headers are reinstalled, you need to `sudo reboot` the server. Then `nvidia-smi` should work now.
 
 Now, your server should be well-suited for your bioinformatics research and you know what to do when things go wrong. Enjoy it!
