@@ -151,23 +151,6 @@
   abbr = {Thesis}
 }
 
-@inproceedings{2021rfaas,
-  title={{r}FaaS: Enabling High Performance Serverless with RDMA and Leases},
-  author={Marcin Copik and Konstantin Taranov and Alexandru Calotoiu and Torsten Hoefler},
-  year={2023},
-  arxiv={2106.13859},
-  abstract={High performance is needed in many computing systems, from batch-managed supercomputers to general-purpose cloud platforms. However, scientific clusters lack elastic parallelism, while clouds cannot offer competitive costs for high-performance applications. In this work, we investigate how modern cloud programming paradigms can bring the elasticity needed to allocate idle resources, decreasing computation costs and improving overall data center efficiency. Function-as-a-Service (FaaS) brings the pay-as-you-go execution of stateless functions, but its performance characteristics cannot match coarse-grained cloud and cluster allocations. To make serverless computing viable for high-performance and latency-sensitive applications, we present rFaaS, an RDMA-accelerated FaaS platform. We identify critical limitations of serverless - centralized scheduling and inefficient network transport - and improve the FaaS architecture with allocation leases and microsecond invocations. We show that our remote functions add only negligible overhead on top of the fastest available networks, and we decrease the execution latency by orders of magnitude compared to contemporary FaaS systems. Furthermore, we demonstrate the performance of rFaaS by evaluating real-world FaaS benchmarks and parallel applications. Overall, our results show that new allocation policies and remote memory access help FaaS applications achieve high performance and bring serverless computing to HPC.
-  },
-  code={https://github.com/spcl/rFaaS/},
-  bibtex_show = {True},
-  abbr = {IPDPS},
-  series = {IPDPS '23},
-  booktitle = {Proceedings of the 37th IEEE Interational Parallel and Distributed Processing Symposium},
-  artifact= {https://zenodo.org/record/7657524},
-  pdf = {2023_ipdps_rfaas.pdf},
-  selected = {true}
-}
-
 @periodical{2020prefixsum,
   title={Work-stealing prefix scan: Addressing load imbalance in large-scale image registration}, 
   author={Marcin Copik and Tobias Grosser and Torsten Hoefler and Paolo Bientinesi and Benjamin Berkels},
