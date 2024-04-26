@@ -31,7 +31,8 @@ Books
 
 ### Computer Science
 
-- ["To Live in Their Utopia: Why Algorithmic Systems Create Absurd Outcomes"](https://ali-alkhatib.com/papers/chi/utopia/utopia.pdf){:target="_blank"} by Ali Alkhatib. "*Framing AI as creating and imposing its own utopia against which people are judged is deliberately suggestive...*"
+- ["Beyond Personhood: Agency, Accountability, and the Limits of Anthropomorphic Ethical Analysis"](https://arxiv.org/pdf/2404.13861){:target="_blank"} by Jessica Dai
+- ["To Live in Their Utopia: Why Algorithmic Systems Create Absurd Outcomes"](https://ali-alkhatib.com/papers/chi/utopia/utopia.pdf){:target="_blank"} by Ali Alkhatib "*Framing AI as creating and imposing its own utopia against which people are judged is deliberately suggestive...*"
 - ["Antagonistic AI"](https://arxiv.org/pdf/2402.07350.pdf){:target="_blank"} by Alice Cai, Ian Arawjo, Elena Glassman
 - ["The Lottery Ticket Hypothesis"](https://arxiv.org/pdf/1803.03635.pdf){:target="_blank"} by Jonathan Frankle and Michael Carbin
 - ["What's Hidden in a Randomly Weighted Neural Network?"](https://arxiv.org/pdf/1911.13299.pdf){:target="_blank"} by Vivek Ramanjuan and Michell Wortsman
