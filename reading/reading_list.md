@@ -20,6 +20,8 @@ Essays and Articles
 - ["Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective"](https://www.jstor.org/stable/3178066){:target="_blank"}, Donna Haraway
 - ["Symposium: Vision and Choice in Morality"](https://www.jstor.org/stable/4106662){:target="_blank"}, Iris Murdoch
 - ["How Not to Solve Ethical Problems"](https://kuscholarworks.ku.edu/bitstream/handle/1808/12397/How%20Not%20to%20Solve%20Ethical%20Problems-1983.pdf){:target="_blank"}, Hilary Putnam
+- ["Performative Utterances"](https://www.uvm.edu/~lderosse/courses/lang/Austin(1979).pdf){:target="_blank"}, J.L. Austin
+- ["Must We Always Think in Propositions?"](https://www.jstor.org/stable/3326306){:target="_blank"}, Celia Fremlin
 - ["Philosophy: Who Needs It?"](https://www.stephenhicks.org/wp-content/uploads/2018/12/Philosophy-Who-Needs-It-text.pdf){:target="_blank"}, Ayn Rand
 
 Books
