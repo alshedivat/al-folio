@@ -13,6 +13,6 @@ children:
     #   permalink: /reading/basic-propositions
     # - title: Minima Moralia
     #   permalink: /reading/minima-moralia
-    - title: Trip Without a Ticket
-      permalink: /reading/trip-without-a-ticket
+    #- title: Trip Without a Ticket
+    #  permalink: /reading/trip-without-a-ticket
 ---

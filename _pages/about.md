@@ -22,8 +22,8 @@ social: true  # includes social icons at the bottom of the page
 <!-- I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring. -->
 
 I am an honors, Phi Beta Kappa, and Mary Gates scholar at the University of Washington studying philosophy and computer science, minoring in mathematics and history.
-My current specific research interests are twofold: (*i.*) how can we design **non-human intelligences** to **aid human philosophical practice** and address **metaphilosophical problems**? (*ii.*) how can philosophical concerns and insights help us build better AI and human-AI interactions?
-My general research interests are in philosophy of AI, phenomenology, philosophy of science, and computer vision.
+My current specific research interests are twofold: (*i.*) how can we design **non-human intelligences** to **aid human philosophical practice** and address **metaphilosophical problems**? (*ii.*) how can **philosophical concerns** and insights help us build better AI and **human-AI interactions**?
+My general intellectual interests are in philosophy of AI, phenomenology, philosophy of science, and computer vision.
 Please see my [research agenda](/agenda) and [CV](/cv) for more details.
 I have written a few [essays](/writing/philosophy){:target="_blank"} in philosophy, [two](/writing/mdldna){:target="_blank"} [books](/writing/mdl4td){:target="_blank"} on deep learning, a little bit of [fiction](/writing/fiction){:target="_blank"}, and many data science [articles](https://andre-ye.medium.com/){:target="_blank"}.
 My email is `andreye [at] uw [dot] edu`.
