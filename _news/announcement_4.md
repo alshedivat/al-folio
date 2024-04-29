@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Research Topic - Tactile Perception in Robotic Control (Frontiers in Robotics and AI)
-date: 2024-04-29 21:59:00-0400
+date: 2024-04-27 21:59:00-0400
 inline: false
 ---
 
