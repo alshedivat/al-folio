@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Workshop at RSS 2024 - Robots that help and ask for help
 date: 2024-04-29 21:59:00-0400
 inline: true
 ---
