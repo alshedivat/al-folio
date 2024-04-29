@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Workshop at ICRA 2024 - Human-Centric Multilateral Teleoperation Augmentation: Perception, Telecommunication, and Coordination
+title: Workshop at ICRA 2024 - Human-Centric Multilateral Teleoperation Augmentation
 date: 2024-04-29 21:59:00-0400
 inline: true
 ---
