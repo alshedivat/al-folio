@@ -69,6 +69,10 @@ layout: default
     </div>
   </article>
 
+  {% if page.citation %}
+    {% include citation.liquid %}
+  {% endif %}
+
   {% if page.related_publications %}
     <h2>References</h2>
     <div class="publications">
