@@ -5,7 +5,7 @@ title: news
 description: Updates
 nav: true
 nav_order: 3
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/news.md -->
@@ -29,5 +29,4 @@ horizontal: false
     {%- endfor %}
   </div>
   {%- endif -%}
-{%- endif -%}
 </div>
