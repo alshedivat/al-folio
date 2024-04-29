@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Workshop at ICRA 2024 - Human-Centric Multilateral Teleoperation Augmentation
-date: 2024-04-29 21:59:00-0400
+date: 2024-04-29 10:00:00-0400
 inline: false
 ---
 
