@@ -9,6 +9,6 @@ horizontal: true
 ---
 
 <!-- pages/news.md -->
-  <div class="container">
+  <!--div class="container"-->
       {% include news.html %}    
-  </div>
+  <!--/div-->
