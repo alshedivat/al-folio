@@ -2,7 +2,7 @@
 layout: post
 title: Research Topic - Tactile Perception in Robotic Control (Frontiers in Robotics and AI)
 date: 2024-04-29 21:59:00-0400
-inline: true
+inline: false
 ---
 
 I am editing a research topic with Rocco Romeo (IIT) and Clemente Lauretti (UCBM) in Frontiers in Robotics and AI on the topic of **Tactile Perception in Robotic Control**
