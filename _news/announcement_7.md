@@ -8,4 +8,4 @@ inline: false
 I am co-organizing a workshop at RSS 2024, Friday, July 19 in Delft, Netherlands, titled **Robots that help and ask for help**
 with Maria Pozzi (University of Siena)
 
-More details here: https://sites.google.com/unisi.it/robots-that-ask-for-help
+More details here: <https://sites.google.com/unisi.it/robots-that-ask-for-help>
