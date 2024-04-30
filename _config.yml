@@ -7,9 +7,9 @@ first_name: Juneseo
 last_name: Chang
 email: jschang0215@snu.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Juneseo Chang Academic Website
+  Academic Website
 footer_text: >
-  Juneseo Chang Academic Website
+
 keywords: 
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -306,7 +306,7 @@ enable_publication_badges:
 filtered_bibtex_keywords: [abbr, abstract, altmetric, arxiv, bibtex_show, blog, code, html, pdf, poster, preview, selected, slides, supp, video, website]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3  # leave blank to always show all authors
+max_author_limit:   # leave blank to always show all authors
 more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
@@ -360,7 +360,7 @@ enable_masonry:             true   # enables automatic project cards arrangement
 enable_math:                true   # enables math typesetting (uses MathJax)
 enable_tooltips:            false  # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the navbar on the about page
+enable_navbar_social:       true # enables displaying social links in the navbar on the about page
 enable_project_categories:  true   # enables categorization of projects into multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
