@@ -3,7 +3,9 @@
     display: block;
   }
 
-  .diagram line, .diagram circle, .diagram rect {
+  .diagram line,
+  .diagram circle,
+  .diagram rect {
     stroke: var(--global-text-color);
   }
 
@@ -20,9 +22,13 @@
     height: 6px;
   }
 
-  .diagram text, .glyph, .debug text {
+  .diagram text,
+  .glyph,
+  .debug text {
     /** font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace; **/
-    font-family: Iosevka Fixed, monospace;
+    font-family:
+      Iosevka Fixed,
+      monospace;
     font-size: 3em;
     text-anchor: middle;
     alignment-baseline: central;
@@ -66,15 +72,13 @@
   }
 
   .debug[debug="true"] polygon,
-  .debug[debug="true"] line.grid
-  {
+  .debug[debug="true"] line.grid {
     opacity: 10%;
   }
 
   .debug[debug="true"] polygon,
   .debug[debug="true"] path,
-  .debug[debug="true"] circle
-  {
+  .debug[debug="true"] circle {
     opacity: 50%;
   }
 
@@ -90,8 +94,7 @@
   **/
 
   .debug[debug="true"] circle,
-  .debug[debug="true"] path
-  {
+  .debug[debug="true"] path {
     opacity: 50%;
     fill: red;
   }
