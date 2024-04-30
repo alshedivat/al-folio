@@ -4,7 +4,6 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Juneseo
-middle_name: 
 last_name: Chang
 email: jschang0215@snu.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -49,7 +48,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
