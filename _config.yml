@@ -129,6 +129,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 #blog_description:
 #permalink: /blog/:year/:title/
 
+timezone: Asia/Taipei
+
 # Pagination
 pagination:
   enabled: true
