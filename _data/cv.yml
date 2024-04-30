@@ -3,7 +3,8 @@
   contents:
     - title: Bachelor of Science
       institution: Seoul National University, Dept. Computer Science and Engineering
-      year: 2025
+      description: Including 1.5 year of mandatory miltiary service
+      year: 2026
     - title: Daegu Science High School
       institution: 
       year: 2021
@@ -15,7 +16,7 @@
       institution: SCALE Lab, Seoul National University
       year: 2023 - 2024
       description:
-        - OS support of tiered memory system
+        - OS support for tiered memory system
     - title: Undergraduate Research Intern
       institution: AI-SoC Lab, Kyungpook National University
       year: 2021 - 2022
@@ -26,11 +27,13 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024-2025
+      items: 
+        - Semiconductor Specialized University Scholarship ($10,000)
+        - Korea Institute for Advancement of Technology (KIAT) grant funded by the Korea Government (Ministry of Education) P0025681-G02P22450002201-10054408
     - year: 2021-2025
       items: 
         - Presidential Science Scholarship ($45,000 over 4 yr)
-        - Awarded to top 60 freshmen in Korea
     - year: 2018 - 2019
       items: 
         - Hansung Scholarship ($10,000 over 2 years)
-        - Awarded to top 200 high school students in Korea
