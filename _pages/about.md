@@ -6,7 +6,7 @@ subtitle: <a href='https://en.snu.ac.kr/index.html'>Seoul National University</a
 
 profile:
   align: right
-  image: jsjang.jpg
+  image: jschang.jpg
   image_cicular: false # crops the image to make it circular
 
 news: true  # includes a list of news items
