@@ -41,10 +41,16 @@
 - title: Relevant Courseworks
   type: nested_list
   contents:
-    - title: Computer Science
+    - title: Computer Architecture
       items:
-        - Advanced Computer Architecture, Computer Architecture, Hardware System Design, Logic Design, Electrical and Electronic Circuits
-        - Advanced Compilers, Compilers, Scalable High Performance Computing, Operating Systems, Mobile Computing and Applications, Data Communications, System Programming
-        - Algorithms, Data Structures
+        - Advanced Computer Architecture (Graduate), Computer Architecture
+        - Hardware System Design, Logic Design, Electrical and Electronic Circuits
+    - title: Computer Systems
+      items:
+        - Advanced Compilers (Graduate), Compilers
+        - Scalable High Performance Computing, Operating Systems, System Programming
+        - Mobile Computing and Applications, Data Communications
     - title: Mathematics
-        - Abstract Algebra, Mathematical Foundations of Deep Neural Networks, Engineering Mathematics (Probability), Linear & Non-linear Computation Models
+      items:
+        - Abstract Algebra, Engineering Mathematics 2 (Probability), Linear & Non-linear Computation Models
+        - Mathematical Foundations of Deep Neural Networks
