@@ -42,7 +42,7 @@
   type: nested_list
   contents:
     items:
-        - Advanced Computer Architecture, Computer Architecture, Hardware System Design, Logic Design, Electrical and Electronic Circuits
-        - Advanced Compilers, Compilers, Scalable High Performance Computing, Operating Systems, Mobile Computing and Applications, Data Communications, System Programming
-        - Abstract Algebra, Mathematical Foundations of Deep Neural Networks, Engineering Mathematics (Probability), Linear & Non-linear Computation Models
-        - Algorithms, Data Structures
+      - Advanced Computer Architecture, Computer Architecture, Hardware System Design, Logic Design, Electrical and Electronic Circuits
+      - Advanced Compilers, Compilers, Scalable High Performance Computing, Operating Systems, Mobile Computing and Applications, Data Communications, System Programming
+      - Abstract Algebra, Mathematical Foundations of Deep Neural Networks, Engineering Mathematics (Probability), Linear & Non-linear Computation Models
+      - Algorithms, Data Structures
