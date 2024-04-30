@@ -3,11 +3,11 @@
   contents:
     - title: Bachelor of Science
       institution: Seoul National University, Dept. Computer Science and Engineering
-      description: Including 1.5 year of mandatory miltiary service
-      year: 2026
+      description: Including 1.5 year (2024-2025) of mandatory miltiary service
+      year: 2021 - 2026
     - title: Daegu Science High School
       institution: 
-      year: 2021
+      year: 2018 - 2021
 
 - title: Experience
   type: time_table
@@ -37,3 +37,12 @@
     - year: 2018 - 2019
       items: 
         - Hansung Scholarship ($10,000 over 2 years)
+
+- title: Relevant Courseworks
+  type: nested_list
+  contents:
+    items:
+        - Advanced Computer Architecture, Computer Architecture, Hardware System Design, Logic Design, Electrical and Electronic Circuits
+        - Advanced Compilers, Compilers, Scalable High Performance Computing, Operating Systems, Mobile Computing and Applications, Data Communications, System Programming
+        - Abstract Algebra, Mathematical Foundations of Deep Neural Networks, Engineering Mathematics (Probability), Linear & Non-linear Computation Models
+        - Algorithms, Data Structures
