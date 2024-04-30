@@ -1,6 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
+"HPDC 2024":
+  url: https://www.hpdc.org/2024/
   color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"EMOSFT 2023"
+  url: https://esweek.org/emsoft/
+  color: "#0be3e3"
+
+"EMOSFT 2022"
+  url: https://esweek.org/emsoft/
+  color: "#0be3e3"
