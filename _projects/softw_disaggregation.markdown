@@ -1,10 +1,11 @@
 ---
 layout: page
-title: serverless software disaggregation for HPC
-description:
+title: HPC software disaggregation
+description: high HPC utilization with serverless functions
 img: /assets/img/disagg/overview.png
+github: spcl/serverless-software-disaggregation-artifact
 paper1: copik2024disagg
-paper1_description: Paper @ IPDPS' 24
+paper1_description: Paper @ IPDPS'24
 importance: 3
 category: serverless
 ---

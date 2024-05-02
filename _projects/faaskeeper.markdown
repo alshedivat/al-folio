@@ -5,8 +5,8 @@ description: Blueprint for serverless applications demonstrated on ZooKeeper.
 img: /assets/img/faaskeeper/main_logo.png
 github: spcl/faaskeeper
 github2: spcl/faaskeeper-python
-paper1: copik2022faaskeeper
-paper1_description: arXiv preprint
+paper1: copik2024faaskeeper
+paper1_description: Paper @ HPDC'24
 importance: 3
 category: serverless
 ---
