@@ -23,6 +23,7 @@ Essays and Articles
 - ["Performative Utterances"](https://www.uvm.edu/~lderosse/courses/lang/Austin(1979).pdf){:target="_blank"}, J.L. Austin
 - ["Must We Always Think in Propositions?"](https://www.jstor.org/stable/3326306){:target="_blank"}, Celia Fremlin
 - ["Philosophy: Who Needs It?"](https://www.stephenhicks.org/wp-content/uploads/2018/12/Philosophy-Who-Needs-It-text.pdf){:target="_blank"}, Ayn Rand
+- ["How to Defend Society from Science"](https://anarcosurrealisti.noblogs.org/files/2010/10/Feyerabend-Paul-How-to-defend-society-against-science.pdf){:target="_blank"}, Paul Feyerabend
 
 Books
 - *The Poverty of Ethics*, Anat Amar

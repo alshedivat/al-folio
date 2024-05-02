@@ -145,10 +145,11 @@ The Coding School.
 ---
 
 ## academic service & volunteering
-- 2024 Allen School Direct Admits, Undergrad Research Panelist
 - 2023 NeurIPS Moral Psychology and Moral Philosophy Workshop Reviewer
 - 2023 ICML AI + HCI Workshop Reviewer
 - Volunteer Data Scientist @ Coronawhy (April 2020 - June 2020)
+- 2024 Allen School Direct Admits, Undergrad Research Panelist
+- 2022, 2023 Robinson Center Student Panelist
 
 ---
 
