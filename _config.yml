@@ -245,6 +245,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
+  - jekyll-tabs
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
