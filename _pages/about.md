@@ -21,4 +21,4 @@ I learned about [Concept drift](https://en.wikipedia.org/wiki/Concept_drift) in 
 
 I earned my master's degree in Information Science in 2018 from Osaka University, and bachelor's in Computer Engineering in 2015 from Chulalongkorn University.
 
-[Download my CV]({{ site.url }}/download/NoppayutS-CV-22Mar.pdf)
+[Download my CV]({{ site.url }}/download/NoppayutS-CV-24May.pdf)
