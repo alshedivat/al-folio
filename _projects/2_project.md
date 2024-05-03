@@ -78,3 +78,7 @@ This way it is almost impossible to fraud the other party via the use of a Smart
 # Future
 - Use of **Oracle Networks**(if available in Pakistan) to add more security
 - Use of **Liquidity provider** services to onboard laymen (ppl who dont own or have never worked with crypto) so that they can trade in PKR whilst blockchain runs in the backend
+
+# Note on the codebase
+
+The codebase for the project has been `CLOSE-SOURCED`. We aim to turn AssetSwap into a product and launch it into the market
