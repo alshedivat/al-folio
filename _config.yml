@@ -45,8 +45,8 @@ repo_trophies:
 # Layout
 # -----------------------------------------------------------------------------
 
-# navbar_fixed: true
-# footer_fixed: true
+navbar_fixed: true
+footer_fixed: true
 
 # Dimensions
 max_width: 800px
