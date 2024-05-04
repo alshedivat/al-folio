@@ -15,6 +15,9 @@ projects I am leading or co-leading
 **Discursive Datasets.** with Amy Zhang (UW) and Ranjay Krishna (UW).
 - Supported by the Mary Gates Scholarship -- [application](\assets\pdf\mary-gates-essay-discursive-datasets.pdf){:target="_blank"} (Winter 2024).
 
+**User Intentionality for Image Generation.** with Andrew Shaw (UW), Ranjay Krishna (UW), and Amy Zhang (UW).
+We seek to address cases of offense and harm in image generation of people by centering clarification of user intentionality, inspired from philosophical accounts of speech-acts and autonomy.
+
 **LLMs for Philosophers.** with Jared Moore (Stanford), Rose Novick (UW philosophy), and Amy Zhang (UW CSE).
 
 **Political Autonomy on Social Platforms.** with Katie Yurechko (Wash. & Lee, Oxford).
