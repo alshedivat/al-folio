@@ -12,6 +12,8 @@ nav_order: 2
 
 "Language Models as Critical Thinking Tools: A Case Study of Philosophers".
 **Andre Ye**, Jared Moore, Rose Novick, Amy X. Zhang.
+*Resources*:
+[arXiv](https://arxiv.org/abs/2404.04516){:target="_blank"}.
 
 "Cultural and Linguistic Diversity Improves Visual Representations". 
 **Andre Ye**, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
@@ -23,7 +25,7 @@ RAIVN lab talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7
 Mark Pock, **Andre Ye**, Jared Moore.
 Moral Psychology and Philosophy Workshop, NeurIPS 2023.
 *Resources*:
-[arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"},
+[arXiv](https://arxiv.org/abs/2311.02294){:target="_blank"},
 [poster](/assets/pdf/neurips-model-meaning-final.pdf){:target="_blank"}
 
 "Confidence Contours".
@@ -41,10 +43,12 @@ IJCAI 2023 [submission](/assets/pdf/ijcai_confidence_contours_submission.pdf){:t
 
 "A Roadmap to Pluralistic Alignment".
 Taylor Sorenson, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshghallah, Christopher Michael Rytting, **Andre Ye**, Liwei Jiang, Ximing Lu, Nouha Dziri, Tim Althoff, Yejin Choi.
+ICML 2024.
+*Resources*:
 [arXiv](https://arxiv.org/abs/2402.05070){:target="_blank"}.
 
 "A Novel Approach to Segment Specialized Annotations in Electron Microscopy Images of Glomerular Podocytes."
-David Smerkous, **Andre Ye**, Dr. Behzad Najafian.
+David Smerkous, **Andre Ye**, Behzad Najafian.
 [Najafian Lab for Kidney Pathology](https://dlmp.uw.edu/research-labs/najafian){:target="_blank}, UW Medicine.
 *Resources*:
 25th UW Research Symposium [pdf](/assets/pdf/podocyte_seg.pdf){:target="_blank"}.
