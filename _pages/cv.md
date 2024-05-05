@@ -13,7 +13,8 @@ nav_order: 2
 "Language Models as Critical Thinking Tools: A Case Study of Philosophers".
 **Andre Ye**, Jared Moore, Rose Novick, Amy X. Zhang.
 *Resources*:
-[arXiv](https://arxiv.org/abs/2404.04516){:target="_blank"}.
+[arXiv](https://arxiv.org/abs/2404.04516){:target="_blank"},
+[philPapers](https://philpapers.org/rec/YELMAB){:target="_blank"}.
 
 "Cultural and Linguistic Diversity Improves Visual Representations". 
 **Andre Ye**, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
@@ -68,7 +69,14 @@ eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:targ
 Pacific University Philosophy Conference: Forest Grove, Oregon. April 2024.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2403.05805){:target="_blank"},
+[philPapers](https://philpapers.org/rec/YEATTV){:target="_blank"},
 reading [video](https://youtu.be/Rob_OLoSZ64){:target="_blank"} and artistic [slides](https://docs.google.com/presentation/d/1PrUgoPwqw0bPweM-l57m1kGAEQz5JsZGPCykjq1N5cI/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/PacU%20Phil%20Conference%20Presentation.pdf){:target="_blank"}.
+
+"Seeing Water: Building International Justice Beyond Embodied Metaphysics."
+**Andre Ye**.
+Seattle University Philosophy Conference: Seattle, Washington. May 2024.
+*Resources*:
+[philPapers](https://philpapers.org/rec/YESWBR){:target="_blank"}.
 
 "Computational Production of Simulacra."
 **Andre Ye**.

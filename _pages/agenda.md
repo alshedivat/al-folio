@@ -19,9 +19,13 @@ projects I am leading or co-leading
 We seek to address cases of offense and harm in image generation of people by centering clarification of user intentionality, inspired from philosophical accounts of speech-acts and autonomy.
 
 **LLMs for Philosophers.** with Jared Moore (Stanford), Rose Novick (UW philosophy), and Amy Zhang (UW CSE).
+See [this](https://arxiv.org/abs/2404.04516){:target="_blank"} for a preliminary study.
 
 **Political Autonomy on Social Platforms.** with Katie Yurechko (Wash. & Lee, Oxford).
 We set forth a framework for understanding and analyzing the pre-/political experience and autonomy of users in social platforms.
+
+**Emergence in Language Models, a Philosophical Perspective.**
+An analysis of what it really means to call things in language models "emergent", and what kinds of things can even be said to "emerge" in the first place.
 
 <!-- **Two Roads Diverged... Cross-Boundary Research in LMs.** with Mark Pock (U. of Wa.) and Jared Moore (Stanford).
 More coming. -->
