@@ -117,15 +117,22 @@
   contents:
     - For a detailed list, check <a href="/publications">publications</a>
 
-- title: Projects
-  type: list
+- title: Recent Awards
+  type: time_table
   contents:
-    - For a detailed list, check <a href="/projects">projects</a>
+  - title: <a href="https://www.cs.wisc.edu/summer-research-assistantship/">CS Summer Research Assistantship</a>
+    institution: University of Wisconsin Madison
+    year: Summer 2024
 
 - title: Teaching and Mentoship Experience
   type: list
   contents:
     - For a detailed list, check <a href="/teaching">teaching</a>
+
+- title: Projects
+  type: list
+  contents:
+    - For a detailed list, check <a href="/projects">projects</a>
 
 #- title: Extracurricular Activities
 #  type: list
