@@ -66,16 +66,11 @@ Our team includes faculty members at the University of Pennsylvania and at other
 - [Helen Stuhr-Rommereim](https://www.swarthmore.edu/russian/faculty-staff)
 - [Eugenia Ulanova](https://complit.sas.upenn.edu/people/eugenia-ulanova)
 
-[//]: <> <div>
-[//]: <>  <iframe id="inlineFrameExample"
-[//]: <>      title="Inline Frame Example"
-[//]: <>      width="900"
-[//]: <>      height="600"
-[//]: <>      src="https://map-europe.glitch.me/">
-[//]: <>  </iframe>
-[//]: <> </div>
-
-<iframe
-  src="https://map-europe.glitch.me/"
-  style="width:100%; height:300px;"
-></iframe>
+<div>
+  <iframe id="inlineFrameExample"
+      title="Inline Frame Example"
+      width="900"
+      height="600"
+      src="https://map-europe.glitch.me/">
+  </iframe>
+</div>
