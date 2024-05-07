@@ -69,8 +69,8 @@ Our team includes faculty members at the University of Pennsylvania and at other
 <div>
   <iframe id="inlineFrameExample"
       title="Inline Frame Example"
-      width="1200"
-      height="700"
+      width="900"
+      height="600"
       src="https://map-europe.glitch.me/">
   </iframe>
 </div>
