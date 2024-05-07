@@ -37,7 +37,7 @@ jobs:
           sed -i "s|\.:|${{ github.workspace }}:|g" ${{ github.workspace }}/docker-compose.yml
           cat ${{ github.workspace }}/docker-compose.yml
 
-      - uses: kitabisa/docker-slim-action@v1.0.3
+      - uses: kitabisa/docker-slim-action@v1.1.1
         env:
           DSLIM_PULL: true
           DSLIM_COMPOSE_FILE: ${{ github.workspace }}/docker-compose.yml
