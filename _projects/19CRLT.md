@@ -65,3 +65,12 @@ Our team includes faculty members at the University of Pennsylvania and at other
 - Lydia Shaw
 - [Helen Stuhr-Rommereim](https://www.swarthmore.edu/russian/faculty-staff)
 - [Eugenia Ulanova](https://complit.sas.upenn.edu/people/eugenia-ulanova)
+
+<div>
+  <iframe id="inlineFrameExample"
+      title="Inline Frame Example"
+      width="300"
+      height="200"
+      src="https://map-europe.glitch.me/">
+  </iframe>
+</div>
