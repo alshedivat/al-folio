@@ -1,7 +1,7 @@
 - title: Academic Interests
   type: list
   contents:
-    - I am broadly interested in the theoretical aspects of classical and post-quantum cryptography. I recently developed a liking for quantum computing and quantum cryptography.
+    - I am broadly interested in the theoretical aspects of classical and (post-)quantum cryptography.
 
 - title: Education
   type: time_table
@@ -30,8 +30,8 @@
   contents:
     - title: UW-Madison
       items:
-        - Theory - Cryptographic Proof Systems
-        - Applications - Machine Learning
+        - Theory - Topics in Cryptographic Proof Systems, Computational Complexity
+        - Other - Machine Learning, Security and Privacy for Machine Learning
     - title: UC Santa Barbara
       items:
         - Major Area - Topics in Quantum Cryptography, Spectral Graph Theory and Laplacian Matrices, Quantitative Information Flow and Side Channel Analysis, Computer Aided Reasoning for Software
