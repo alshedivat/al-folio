@@ -2,13 +2,25 @@
 layout: page
 permalink: /talks/
 title: Talks
-description: Talks I have given at conferences, workshops, and during my visits abroad.
+description: Some talks I have given at conferences, workshops, and during my visits abroad.
 nav: true
 nav_order: 3
 ---
 
+<h2>Mathemtics of Neural Networks </h2>
+<ul>
+<li> Approximation with neural networks, RICAM, Linz, December 2023.</li>
+<li>Approximation with neural networks in Sobolev setting, contribution talnk for the “11th
+Applied Inverse Problems Conference” AIP 2023, Göttingen, Germany</li>
+<li>Integral representations of shallow neural networks, research
+visit, Linnaeus Universit, Sweden.</li>
+<li>Integral Representations of Shallow Neural Networks,
+(Poster), workshop on
+Mathematical Data Science, Control and Optimization, Institute of Mathematics and
+Scientific Computing at the University of Graz, Graz, Austria.</li>
+</ul>
 
-<h2>Time-frequency analysis </h2>
+<h2>Time-Frequency Analysis </h2>
 
 <ul>
 <li>Bilinear PDOs with Gevrey-Hörmander symbols “32nd Annual IWOTA 2021”, Chapman University in Orange, California, United States, 9-13 August 2021. (Virtual Event)</li>
@@ -22,9 +34,9 @@ nav_order: 3
 
 
 
-<h2>Optical character recognition</h2>
+<h2>Application of Machine Learning</h2>
 
 <ul>
-<li>Optical character recognition on images containing touching character with colorful background, Department of Mathematics, University of Turin (Italy), July 2019.</li>
+<li>Optical character recognition on images containing touching character with complex background, Department of Mathematics, University of Turin (Italy), July 2019.</li>
 <li>Basic foundations for understanding LuaTeX: Department of Mathematics, University of Turin (Italy), April 2019.</li>
 </ul>

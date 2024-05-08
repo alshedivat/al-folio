@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: abdeljawad.png
+  image: abdeljawad.jpg
   image_cicular: false # crops the image to make it circular
   address: >
     <p>0412, RICAM</p>
