@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ruby:latest
 ENV DEBIAN_FRONTEND noninteractive
 
 Label MAINTAINER Amir Pourmand
@@ -6,7 +6,6 @@ Label MAINTAINER Amir Pourmand
 RUN apt-get update -y && apt-get install -y --no-install-recommends \
     locales \
     imagemagick \
-    ruby-full \
     build-essential \
     zlib1g-dev \
     jupyter-nbconvert \
