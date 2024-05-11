@@ -14,7 +14,7 @@ Here are some frequently asked questions. If you have a different question, plea
 - [After I update my site with some new content, even a small change, the GitHub action throws an error or displays a warning. What happened?](#after-i-update-my-site-with-some-new-content-even-a-small-change-the-github-action-throws-an-error-or-displays-a-warning-what-happened)
 - [I am trying to deploy my site, but it fails with `Could not find gem 'jekyll-diagrams' in locally installed gems`. How do I fix that?](#i-am-trying-to-deploy-my-site-but-it-fails-with-could-not-find-gem-jekyll-diagrams-in-locally-installed-gems-how-do-i-fix-that)
 - [How can I update Font Awesome version on the template](#how-can-i-update-font-awesome-version-on-the-template)
-- [What does all these GitHub actions/workflows mean?](#what-does-all-these-github-actionsworkflows-mean)
+- [What do all these GitHub actions/workflows mean?](#what-do-all-these-github-actionsworkflows-mean)
 
 ---
 
