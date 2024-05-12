@@ -3,16 +3,16 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Habeeb
-middle_name: A.
-last_name: Babatunde
-email: babatundehabeeb2@gmail.com
+first_name: You
+middle_name: R.
+last_name: Name
+email: you@example.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-# A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-#  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-#  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-#  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -40,7 +40,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: false
+rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -72,7 +72,7 @@ blogger_url: # your blogger URL
 bluesky_url: # your bluesky URL
 dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
-facebook_id: habeeb3579 # your facebook id
+facebook_id: # your facebook id
 flickr_id: # your flickr id
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
@@ -82,7 +82,7 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: habeeb-babatunde-32548bb1 # your LinkedIn user name
+linkedin_username: # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -91,7 +91,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: Kp1MxhsAAAAJ # your Google Scholar ID
+scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -103,12 +103,12 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: habeeb_babat # your X handle
+x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  The best way to reach me is via my email.
+  You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -127,8 +127,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: my-blog # blog_name will be displayed in your blog page
-blog_description: academic blogs
+blog_name: al-folio # blog_name will be displayed in your blog page
+blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -155,15 +155,15 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname:  # put your disqus shortname
+disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-#external_sources:
-#  - name: medium.com
-#    rss_url: https://medium.com/@al-folio/feed
+external_sources:
+  - name: medium.com
+    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -292,8 +292,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Babatunde]
-  first_name:[Habeeb, A.]
+  last_name: [Einstein]
+  first_name: [Albert, A.]
 
   style: apa
   locale: en
@@ -592,12 +592,12 @@ jsonresume:
   - basics
   - work
   - education
-#  - publications
+  - publications
   - projects
   - volunteer
   - awards
   - certificates
-#  - skills
-#  - languages
-#  - interests
-#  - references
+  - skills
+  - languages
+  - interests
+  - references
