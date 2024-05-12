@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Habeeb Babatunde
     - name: Date of Birth
-      value: 14th March 1879
+      value: 11th November 1995
     - name: Languages
-      value: English, German
+      value: English, Arabic (basic)
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Boise State University, Idaho, US
+      year (expected graduation): Summer 2025
       description:
         - Description 1.
         - Description 2.
