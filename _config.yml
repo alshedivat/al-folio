@@ -245,6 +245,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
+  - jekyll-tabs
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
@@ -410,6 +411,7 @@ enable_navbar_social: false # enables displaying social links in the navbar on t
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -499,7 +501,7 @@ third_party_libraries:
       fonts: "output/chtml/fonts/woff-v2/"
     url:
       fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
-      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.min.js"
     version: "3.2.0"
   masonry:
     integrity:
@@ -535,6 +537,11 @@ third_party_libraries:
     url:
       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
     version: "3"
+  pseudocode:
+    url:
+      css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
+      js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
+    version: "2.4.1"
   swiper:
     integrity:
       css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="

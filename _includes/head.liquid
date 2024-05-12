@@ -45,6 +45,17 @@
 {% endif %}
 
 <!-- Styles -->
+
+<!-- pseudocode -->
+{% if page.pseudocode %}
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.pseudocode.url.css }}"
+    crossorigin="anonymous"
+  >
+{% endif %}
+
 {% if site.icon.size <= 4 %}
   <link
     rel="shortcut icon"
