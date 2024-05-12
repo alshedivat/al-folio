@@ -1,16 +1,12 @@
 github_users:
-   - habeeb3579
-  #- torvalds
-  #- alshedivat
+  - torvalds
+  - alshedivat
 
 github_repos:
-  - habeeb3579/Opus2csv
-  - habeeb3579/interval-model-estimator
-  - habeeb3579/habeeb3579
-  #- alshedivat/al-folio
-  #- twbs/bootstrap
-  #- jekyll/jekyll
-  #- jquery/jquery
-  #- FortAwesome/Font-Awesome
-  #- jpswalsh/academicons
-  #- mathjax/MathJax
+  - alshedivat/al-folio
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
