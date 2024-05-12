@@ -9,6 +9,8 @@ children:
       permalink: /reading/reading_list
     - title: Listening List
       permalink: /reading/listening_list
+    - title: Cool Math Results
+      permalink: /reading/math-theorems
     # - title: Basic Propositions
     #   permalink: /reading/basic-propositions
     # - title: Minima Moralia
