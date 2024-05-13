@@ -20,7 +20,8 @@ nav_order: 2
 **Andre Ye**, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"},
-RAIVN lab talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7jStpekaF1E4vfnpVpXPx-bxpPTg/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/RAIVN-presentation-11_28.pdf)
+RAIVN lab talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7jStpekaF1E4vfnpVpXPx-bxpPTg/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/RAIVN-presentation-11_28.pdf),
+27th UW Research Symposium talk [slides](https://docs.google.com/presentation/d/15-6LxTeyhR1u4dJRnWlc0xLfYlBts5MbvXkjqCeX1iQ/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/URS%20-%20Cultural%20Relativity.pdf){:target="_blank"}.
 
 "LLMs grasp morality in concept". 
 Mark Pock, **Andre Ye**, Jared Moore.
