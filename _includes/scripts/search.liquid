@@ -1,5 +1,15 @@
 {% if site.search_enabled %}
   <script type="module" src="{{ '/assets/js/search/ninja-keys.min.js' | relative_url | bust_file_cache }}"></script>
-  <ninja-keys noAutoLoadMdIcons class="dark"></ninja-keys>
+  <ninja-keys noAutoLoadMdIcons></ninja-keys>
   <script src="{{ '/assets/js/search.js' | relative_url | bust_file_cache }}"></script>
+  <script>
+    let theme = determineComputedTheme();
+    const ninjaKeys = document.querySelector('ninja-keys');
+
+    if (theme === 'dark') {
+      ninjaKeys.classList.add('dark');
+    } else {
+      ninjaKeys.classList.remove('dark');
+    }
+  </script>
 {% endif %}
