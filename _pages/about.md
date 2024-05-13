@@ -6,7 +6,7 @@ subtitle: Junior researcher <a href='https://www.cedlas.econo.unlp.edu.ar/wp/en/
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Cedlas_pics.jpg
   image_circular: false # crops the image to make it circular
   address: 
 news: true  # includes a list of news items
