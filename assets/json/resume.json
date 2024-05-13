@@ -1,137 +1,276 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Habeeb Babatunde",
+    "label": "Data Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "habeebbabatunde@u.boisestate.edu",
+    "phone": "(208) 973-6246",
+    "url": "https://habeeb3579.github.io/al-folio/",
+    "summary": "Passionate third-year PhD student in Data Science specializing in Data science and chemometrics, dedicated to leveraging advanced analytical techniques to analyze complex chemical datasets, particularly in Dairy. Committed to applying expertise in data analysis and statistical modeling to drive innovation and optimize processes within the Dairy industry. Eager to transition into roles utilizing academic background, rigorous problem-solving skills, and practical experience to contribute to data-driven solutions.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "2652 W Boise Ave.",
+      "postalCode": "83706",
+      "city": "Boise",
       "countryCode": "US",
-      "region": "California"
+      "region": "Idaho"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "habeeb_babat",
+        "url": "https://twitter.com/habeeb"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Owen McDougal’s lab, Boise State University",
+      "position": "Graduate Research and Teaching Assistants",
+      "summary": "Boise, ID",
+      "startDate": "2021-08-01",
+      "endDate": "2025-08-30",
+      "highlights": [
+        "Graded assignments, quizzes, and exams for the 'Computational Methods (CE 284)' course",
+        "Successfully secured funding from Daisy Brand for the quantitative analysis of proteins in milk using chemometrics coupled with Infrared (IR) spectroscopy",
+        "Published outcomes of the research in reputable journals: https://doi.org/10.3390/foods13010166"
+      ]
+    },
+    {
+      "name": "Michael Okpara University of Agriculture",
+      "position": "Graduate Research and Teaching Assistants",
+      "summary": "Umudike, Abia",
+      "startDate": "2019-05-01",
+      "endDate": "2019-08-01",
+      "highlights": [
+        "Assisted in giving lectures in Introductory Mathematics to first-year students",
+        "Worked with the Head of the Department (Mathematics) in computing the grades of approximately 500 students using Ms. Excel"
+      ]
+    },
+    {
+      "name": "Fluid Dynamics Research Group, FUTA",
+      "position": "Intern",
+      "summary": "Akure, NGA",
+      "startDate": "2017-06-01",
+      "endDate": "2017-11-01",
+      "highlights": [
+        "Worked under national and international researchers in the field of fluid mechanics and mathematics education",
+        "Jointly published three research papers in top-rated journals: https://scholar.google.com/citations?hl=en&user=Kp1MxhsAAAAJ"
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "National Youth Service Corps Community Development Service, Nigeria (Education Group)",
+      "position": "Member",
+      "startDate": "2019-06",
+      "endDate": "2019-08",
+      "highlights": [
+        "Sensitization Programme for secondary school students in Abia State on the impact of education."
+      ]
+    },
+    {
+      "organization": "Commonwealth Scholarship Commission, UK",
+      "position": "University of Stirling representative",
+      "startDate": "2019-09",
+      "endDate": "2020-09"
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Boise State University, Boise, US",
+      "location": "Boise, US",
+      "url": "https://www.boisestate.edu",
+      "area": "Data Science",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2021-08-01",
+      "endDate": "2025-08-30",
+      "score": "4.0",
+      "courses": [
+        "Data Science",
+        "Machine Learning",
+        "Large Scale Data Analysis",
+        "Probability and Statistics"
+      ]
+    },
+    {
+      "institution": "University of Stirling, Scotland, Uk",
+      "location": "Stirling, UK",
+      "url": "https://www.stir.ac.uk",
+      "area": "Financial Technology",
+      "studyType": "Msc",
+      "startDate": "2019-08-01",
+      "endDate": "2020-08-30",
+      "score": "4.89",
+      "courses": [
+        "Data Analytics",
+        "Business Ethics",
+        "Mobile Financial Applications",
+        "Blockchain Technologies",
+        "Cybersecurity"
+      ]
+    },
+    {
+      "institution": "Federal University of Technology, Akure, NGA",
+      "location": "Akure, NGA",
+      "url": "https://futa.edu.ng",
+      "area": "Industrial Mathematics",
+      "studyType": "BTech",
+      "startDate": "2014-08-01",
+      "endDate": "2018-08-30",
+      "score": "4.75",
+      "courses": [
+        "Statistics",
+        "Probabilities",
+        "Vector and Tensor Analysis",
+        "Differential Equations",
+        "Linear Algebra"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Commonwealth Shared Scholarship, United Kingdom",
+      "date": "2019",
+      "awarder": "Commonwealth Scholarship Commission, UK",
+      "summary": "Fully funded Postgraduate scholarship to study MSc. Financial Technology at the University of Stirling, UK sponsored by the Commonwealth Scholarship Commission, UK in partnership with the University of Stirling.",
+      "url": ""
+    },
+    {
+      "title": "Silver medal at the National Mathematics Competition for University Student (NAMCUS), Nigeria",
+      "date": "2018",
+      "awarder": "",
+      "summary": "Represented my school at the National Mathematics Competition for all tertiary institutions in the country where I was one of the best 10 mathematicians."
+    },
+    {
+      "title": "Runner up of the National Mathematics Competition for University Student (NAMCUS)",
+      "date": "2018",
+      "awarder": "",
+      "summary": "Won the second-best institution in Nigeria (in mathematics) and qualified to represent the country at the international level (International Mathematics Competition which was held in Bulgaria)."
+    },
+    {
+      "title": "Winner of National Association of Science Students (NASS Nigeria) academic excellence award",
+      "date": "2018",
+      "awarder": "",
+      "summary": "Special recognition award for branding FUTA."
+    },
+    {
+      "title": "Joint Best Graduating Student, Department of Mathematical Science, FUTA",
+      "date": "2018",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "title": "Abdulkabir Aliu Scholarship by Abdulkabir Aliu Scholarship Foundation",
+      "date": "2015-2018",
+      "awarder": "",
+      "summary": "One of the best 10 students selected for the award which is worth #400,000 (around £1,000)."
+    },
+    {
+      "title": "Assistant Head Boy, Kingston High School, Nigeria",
+      "date": "2009",
+      "awarder": "",
+      "summary": ""
+    },
+    {
+      "title": "Academic excellence award, Kingston High School",
+      "date": "2006",
+      "awarder": "",
+      "summary": "Got an award for being the best student in my class."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Pytorch Essential Training: Deep Learning",
+      "date": "Sept 2020",
+      "issuer": "LinkedIn Learning",
+      "url": "",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "NLP with Python Essential Training",
+      "date": "Sept 2020",
+      "issuer": "LinkedIn Learning",
+      "url": "",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Ionic 4.0 by Sanni Yusuf",
+      "date": "June 2020",
+      "issuer": "LinkedIn Learning",
+      "url": "",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Applied Machine Learning: Foundation",
+      "date": "Feb. 2020",
+      "issuer": "LinkedIn Learning",
+      "url": "",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Applied Machine Learning: Algorithm",
+      "date": "Feb. 2020",
+      "issuer": "LinkedIn Learning",
+      "url": "",
       "icon": "fa-solid fa-calendar"
     },
     {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Blockchain Basics",
+      "date": "Feb. 2020",
+      "issuer": "LinkedIn Learning",
+      "url": "",
       "icon": "fa-solid fa-clipboard-check"
+    },
+    {
+      "name": "Ethereum: Building Decentralized Apps (DApps)",
+      "date": "Feb. 2020",
+      "issuer": "LinkedIn Learning",
+      "url": "",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "JQuery Essential Training",
+      "date": "Feb. 2020",
+      "issuer": "LinkedIn Learning",
+      "url": "",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Blockchain: Learning Solidity",
+      "date": "Dec. 2019",
+      "issuer": "LinkedIn Learning",
+      "url": "",
+      "icon": "fa-solid fa-envelope"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "A meta-analysis on the effects of haphazard motion of tiny/nano-sized particles on the dynamics and other physical properties of some fluids",
+      "publisher": "Chinese Journal of Physics",
+      "releaseDate": "2019-06-01",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0577907318315405",
+      "summary": "This report presents the outcome of detailed inspections of the significance of Brownian motion on the flow of various fluids as reported in forty-three (43) published articles using the method of slope linear regression through the data point."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Scrutinization of the effects of Grashof number on the flow of different fluids driven by convection over various surfaces",
+      "publisher": "Journal of Molecular liquids",
+      "releaseDate": "2018-01-01",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0167732217345117",
+      "summary": "In this report, a systematic review procedure on the effects of Grashof number and mixed convection parameter on the flow of various fluids is presented."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "SVR Chemometrics to Quantify β-Lactoglobulin and α-Lactalbumin in Milk Using MIR",
+      "publisher": "Foods",
+      "releaseDate": "2024-01-01",
+      "url": "https://www.mdpi.com/2304-8158/13/1/166",
+      "summary": "This study introduces a chemometric approach for the qualitative and quantitative monitoring of β-lactoglobulin and α-lactalbumin in milk using mid-infrared spectroscopy (MIR)."
+    },
+    {
+      "name": "Comparative analysis between 36 nm and 47 nm alumina--water nanofluid flows in the presence of Hall effect",
+      "publisher": "Journal of Thermal Analysis and Calorimetry",
+      "releaseDate": "2019-01-01",
+      "url": "https://link.springer.com/article/10.1007/s10973-018-7379-4",
+      "summary": "This report presents a comparative analysis between 36 nm and 47 nm alumina--water nanofluid flows in the presence of the Hall effect."
     }
   ],
   "skills": [
