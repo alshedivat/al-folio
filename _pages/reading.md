@@ -10,7 +10,7 @@ children:
     - title: Listening List
       permalink: /reading/listening_list
     - title: Cool Math Results
-      permalink: /reading/math-theorems
+      permalink: /reading/math-results
     # - title: Basic Propositions
     #   permalink: /reading/basic-propositions
     # - title: Minima Moralia
