@@ -16,7 +16,7 @@ social: true  # includes social icons at the bottom of the page
 
 Greetings,
 
-I am Julián Pierino Pedrazzi, a junior researcher at CEDLAS (Centro de Estudios Distributivos, Laborales y Sociales). I hold a Master's in Economics from the Faculty of Economic Sciences in La Plata and am currently pursuing a Ph.D. in Economics at the same institution. Explore my primary research on this site.
+I am Julián Pierino Pedrazzi, a junior researcher at CEDLAS (Centro de Estudios Distributivos, Laborales y Sociales). I hold a Master's in Economics from the Faculty of Economic Sciences in La Plata and am currently pursuing a Ph.D. in Economics at the same institution. Explore my primary research on this site..
 
 Best regards,
 JPP.
