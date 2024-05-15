@@ -22,6 +22,6 @@ Welcome to my site! I am currently a post-doctoral researcher studying cancer sy
 
 
 ## funding awards
-<b>2022-Current</b>: NIH F32 Post-doctoral Training Grant Awardee \
+<b>2022-2023</b>: NIH F32 Post-doctoral Training Grant Awardee \
 <b>2017-2021</b>:  NSF Graduate Research Fellowships Program Fellow \
 <b>2016-2017</b>: BIDS (Vanderbilt Training Program in Big Biomedical Data Science) Trainee 
