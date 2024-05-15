@@ -167,6 +167,7 @@ The Coding School.
 - Volunteer Data Scientist @ Coronawhy (April 2020 - June 2020)
 - 2024 Allen School Direct Admits, Undergrad Research Panelist
 - 2022, 2023 Robinson Center Student Panelist
+- 2024 Robinson Center Research Panelist, Student Host
 
 ---
 
