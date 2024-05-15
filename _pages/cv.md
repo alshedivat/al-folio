@@ -149,6 +149,7 @@ The Coding School.
 ---
 
 ## recognition & scholarships
+- UW Philosophy Department Outstanding Undergraduate Scholar (2024)
 - CRA Outstanding Undergraduate Researcher Finalist (2023)
 - Mary Gates Research Scholar (2023)
 - Phi Beta Kappa Scholar (2023)
