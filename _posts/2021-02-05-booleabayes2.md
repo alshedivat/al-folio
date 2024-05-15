@@ -4,7 +4,7 @@ title:  BooleaBayes Part 2- Network Structure and Dynamics
 description: This post takes a look what information we will need to gather in order to understand how cell identity is controlled.
 date: 2021-02-05
 categories: booleabayes
-tags: projects code blog
+tags: writing code blog
 ---
 
 

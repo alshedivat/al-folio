@@ -4,7 +4,7 @@ title:  BooleaBayes Part 3- Using data to build a network for Small Cell Lung Ca
 description: We begin to look at how BooleaBayes, the computational tool developed in the Quaranta lab by David Wooten, PhD and me, can be applied to Small Cell Lung Cancer Data.
 date: 2021-02-23
 categories: booleabayes
-tags: projects code blog
+tags: writing code blog
 ---
 
 We've talked about why we care about transcription factor networks. We've talked about what the structure and rules of a network might look like. In this post, we'll talk a little more specifically about how we can use high-dimensional data from sequencing experiments to determine the structure and rules of a network.

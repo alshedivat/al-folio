@@ -4,7 +4,7 @@ title:  BooleaBayes Overview
 description: This analysis was written to analyze transcription factor networks for Small Cell Lung Cancer phenotypes. I've written a primer on gene regulatory network dynamics and how our computational tool is able to define them and make predictions about the future using gene expression data-- RNA sequencing data that tells you the identity of a population of cells.
 date: 2021-01-31
 categories: booleabayes
-tags: projects code blog
+tags: code blog writing
 ---
 
 To see the code and documentation, please visit <a href= 'https://github.com/smgroves/BooleaBayes'>Github</a> or <a href='https://pypi.org/project/booleabayes/'>PYPI</a> for instructions on installing the package.
