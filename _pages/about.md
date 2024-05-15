@@ -21,7 +21,7 @@ Welcome to my site! I am currently a **postdoctoral researcher** studying cancer
 
 After receiving a B.S. in <a href="https://www.wm.edu/as/physics/">Physics</a> and <a href="https://www.wm.edu/as/mathematics/">Mathematics</a> from The College of William & Mary in 2016, I entered Vanderbilt via their <a href="https://medschool.vanderbilt.edu/qcb/">Quantitative and Chemical Biology program</a> and completed my PhD in the Quaranta Lab in March 2022, where I modeled regulatory networks and phenotypic transitions (cell state plasticity) in Small Cell Lung Cancer. I consider myself a physicist by training and a computational biologist by practice. My research experiences in undergrad, graduate school, and my post-doc allow me to combine these identities to approach complex biological problems through the analysis and modeling of high-dimensional data. 
 
-I am also passionate about **science communication**, particular in the visual form. I’ve been learning motion design to make educational video content. Follow along with my journey <a href="https://smgroves.github.io/blog/tag/visual">here</a>!
+I am also passionate about **science communication**, particular in the visual form. I’ve been learning motion design to make educational video content in my role as the <a href="https://sasco.virginia.edu/outreach-cores/">SASCO Outreach Core Education Scholar</a>. Follow along with my journey <a href="https://smgroves.github.io/blog/tag/visual">here</a>!
 
 
 
