@@ -78,4 +78,33 @@ ninja.data = [
       },
     },
   {% endfor %}
+  {% if site.enable_darkmode %}
+    {
+      id: 'light-theme',
+      title: 'Turn on the lights',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Turn off the lights',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use System Default',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },
+  {% endif %}
 ];
