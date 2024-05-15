@@ -2,6 +2,7 @@
 **/*.min.css
 **/*.min.js
 assets/css/main.scss
+assets/js/search.js
 assets/js/distillpub/template.v2.js
 assets/js/search/*.js
 assets/plotly/demo.html
