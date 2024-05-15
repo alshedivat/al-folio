@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Researcher at the <a href='https://engineering.virginia.edu/departments/biomedical-engineering'>University of Virginia</a>. Computational Biologist. Data Scientist.
+subtitle: Postdoctoral Researcher at the <a href='https://engineering.virginia.edu/departments/biomedical-engineering'>University of Virginia</a>. Computational Biologist. Data Scientist. Multimedia Science Communicator.
 
 profile:
   align: right
@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to my site! I am currently a post-doctoral researcher studying cancer systems biology at the University of Virginia in the <a href="https://systemsbioe.org/">Janes Lab</a>. My work is part of the <a href="https://sasco.virginia.edu/">Center for Systems Analysis of Stress-adapted Organelles (SASCO)</a> that combines systems biology with mathematical modeling and data science to solve complex biological problems. I focus on computational modeling of dysregulated of chromosomal segregation during mitosis in cancer. After receiving a B.S. in <a href="https://www.wm.edu/as/physics/">Physics</a> and <a href="https://www.wm.edu/as/mathematics/">Mathematics</a> from The College of William & Mary in 2016, I entered Vanderbilt via their <a href="https://medschool.vanderbilt.edu/qcb/">Quantitative and Chemical Biology program</a> and completed my PhD in the Quaranta Lab in March 2022, where I modeled regulatory networks and phenotypic transitions (cell state plasticity) in Small Cell Lung Cancer. I consider myself a physicist by training and a computational biologist by practice. My research experiences in undergrad, graduate school, and my post-doc allow me to combine these identities to approach complex biological problems through the analysis and modeling of high-dimensional data.
+Welcome to my site! I am currently a post-doctoral researcher studying cancer systems biology at the University of Virginia in the <a href="https://systemsbioe.org/">Janes Lab</a>. My work is part of the <a href="https://sasco.virginia.edu/">Center for Systems Analysis of Stress-adapted Organelles (SASCO)</a> that combines systems biology with mathematical modeling and data science to solve complex biological problems. I focus on computational modeling of dysregulated of chromosomal segregation during mitosis in cancer. After receiving a B.S. in <a href="https://www.wm.edu/as/physics/">Physics</a> and <a href="https://www.wm.edu/as/mathematics/">Mathematics</a> from The College of William & Mary in 2016, I entered Vanderbilt via their <a href="https://medschool.vanderbilt.edu/qcb/">Quantitative and Chemical Biology program</a> and completed my PhD in the Quaranta Lab in March 2022, where I modeled regulatory networks and phenotypic transitions (cell state plasticity) in Small Cell Lung Cancer. I consider myself a physicist by training and a computational biologist by practice. My research experiences in undergrad, graduate school, and my post-doc allow me to combine these identities to approach complex biological problems through the analysis and modeling of high-dimensional data. I am also passionate about science communication, particular in the visual form. I’ve been learning motion design to make educational video content. Follow along with my journey <a href="https://smgroves.github.io/blog/tag/visual">here</a>!
 
 
 

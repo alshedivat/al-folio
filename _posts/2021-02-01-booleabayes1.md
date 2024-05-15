@@ -4,7 +4,7 @@ title:  BooleaBayes Part 1- The Why
 description: In this first post, I explain why we care about transcription factor networks and how they can help us treat Small Cell Lung Cancer.
 date: 2021-02-01
 categories: booleabayes
-tags: projects code
+tags: projects code blog
 ---
 
 Have you ever thought about how different cells in your body came to be? You may have heard that you have a particular *genome* that is shared by virtually all of your cells. So why does, for example, a heart cell act so differently from a lung cell? How does a cell located in your heart learn to "turn on" heart cell functions, and "turn off" lung cell functions? And if you took that heart cell and moved it to the lung, would it be able to change its function and start acting like a lung cell?
