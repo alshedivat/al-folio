@@ -49,9 +49,10 @@ rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 search_enabled: true
+socials_in_search: true
 
 # Dimensions
-max_width: 910px
+max_width: 930px
 
 # TODO: add layout settings (single page vs. multi-page)
 
