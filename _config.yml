@@ -420,6 +420,8 @@ enable_video_embedding: false # enables video embedding for bibtex entries. If f
 # -----------------------------------------------------------------------------
 
 # Add the url, version and integrity hash of the libraries you use in your site.
+# The integrity hash is used to ensure that the library is not tampered with.
+# Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
 third_party_libraries:
   download: false # if true, download the versions of the libraries specified below and use the downloaded files
   bootstrap-table:
@@ -431,6 +433,8 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
     version: "1.22.4"
   chartjs:
+    integrity:
+      js: "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
     url:
       js: "https://cdn.jsdelivr.net/npm/chart.js@{{version}}/dist/chart.umd.min.js"
     version: "4.4.1"
@@ -478,9 +482,14 @@ third_party_libraries:
       js: https://cdn.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
     version: "5.0.0"
   img-comparison-slider:
+    integrity:
+      css: "sha256-3qTIuuUWIFnnU3LpQMjqiXc0p09rvd0dmj+WkpQXSR8="
+      js: "sha256-EXHg3x1K4oIWdyohPeKX2ZS++Wxt/FRPH7Nl01nat1o="
+      map: "sha256-3wfqS2WU5kGA/ePcgFzJXl5oSN1QsgZI4/edprTgX8w="
     url:
       css: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/styles.min.css"
       js: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.min.js"
+      map: "https://cdn.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.js.map"
     version: "8.0.6"
   jquery:
     integrity:
@@ -490,15 +499,20 @@ third_party_libraries:
     version: "3.6.0"
   leaflet:
     integrity:
-      css: "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      js: "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
+      js: "sha256-MgH13bFTTNqsnuEoqNPBLDaqxjGH+lCpqrukmXc8Ppg="
       js_map: "sha256-YAoQ3FzREN4GmVENMir8vgHHypC0xfSK3CAxTHCqx1M="
+    local:
+      images: "images/"
     url:
-      css: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.css"
-      js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js"
+      css: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.css"
+      images: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/images/"
+      js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map"
     version: "1.9.4"
   mathjax:
+    integrity:
+      js: "sha256-rjmgmaB99riUNcdlrDtcAiwtLIojSxNyUFdl+Qh+rB4="
     local:
       fonts: "output/chtml/fonts/woff-v2/"
     url:
@@ -540,6 +554,9 @@ third_party_libraries:
       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
     version: "3"
   pseudocode:
+    integrity:
+      css: "sha256-VwMV//xgBPDyRFVSOshhRhzJRDyBmIACniLPpeXNUdc="
+      js: "sha256-aVkDxqyzrB+ExUsOY9PdyelkDhn/DfrjWu08aVpqNlo="
     url:
       css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
       js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
@@ -548,9 +565,11 @@ third_party_libraries:
     integrity:
       css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
       js: "sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E="
+      map: "sha256-lbF5CsospW93otqvWOIbbhj80CjazrZXvamD7nC7TBI="
     url:
       css: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-bundle.min.css"
       js: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js"
+      map: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js.map"
     version: "11.0.5"
   swiper-map:
     integrity:

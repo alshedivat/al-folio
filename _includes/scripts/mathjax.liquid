@@ -13,7 +13,13 @@
       type="text/javascript"
       id="MathJax-script"
       src="{{ site.third_party_libraries.mathjax.url.js }}"
+      integrity="{{ site.third_party_libraries.mathjax.integrity.js }}"
+      crossorigin="anonymous"
     ></script>
-    <script defer src="{{ site.third_party_libraries.polyfill.url.js }}"></script>
+    <script
+      defer
+      src="{{ site.third_party_libraries.polyfill.url.js }}"
+      crossorigin="anonymous"
+    ></script>
   {% endunless %}
 {% endif %}
