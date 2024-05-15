@@ -548,8 +548,6 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
     version: "10.7.0"
   polyfill:
-    integrity:
-      js: "sha256-WZRwMhiErjrWYXR3Wk4rjlFf8Afm0lz5T1VH3BL2qgM="
     url:
       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
     version: "3"
