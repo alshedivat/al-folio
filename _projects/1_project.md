@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Object Detection and Classification in Dental Radiographs (OPGs)
-description: 
+description:
 img: assets/img/12.jpg
 redirect: https://github.com/dr-vish/Object-Detection-and-Classification-in-Dental-Radiographs
 importance: 1
