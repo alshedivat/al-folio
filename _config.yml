@@ -8,8 +8,6 @@ middle_name:
 last_name: An
 email: minyoungan@arizona.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Hi, My name is Minyoung An. I am a PhD candidate in the School of Sociology at the University of Arizona [https://sociology.arizona.edu/person/minyoung].
-  My research examines how gender and gender inequality embedded in society shape an individual’s behavior. Substantively, I investigate the interaction between a societal context and individuals’ behaviors, including migration and return migration, boundary makings in political identity, and the specialty choices of medical students. To explore such inquiries, I deploy a wide variety of methods, including quantitative methods, in-depth interviews, content analysis, and computational methods.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -41,7 +39,7 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
