@@ -8,9 +8,9 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [
-  {% for page in site.pages %}
-    {% if page.permalink == '/' %}{% assign about_title = page.title %}{% endif %}
-  {% endfor %}
+  {%- for page in site.pages -%}
+    {%- if page.permalink == '/' -%}{%- assign about_title = page.title -%}{%- endif -%}
+  {%- endfor -%}
   {
     id: "nav-{{ about_title | slugify }}",
     title: "{{ about_title }}",
@@ -19,15 +19,15 @@ ninja.data = [
       window.location.href = "{{ '/' | relative_url }}";
     },
   },
-  {% assign sorted_pages = site.pages | sort: "nav_order" %}
-  {% for p in sorted_pages %}
-    {% if p.nav and p.autogen == null %}
-      {% if p.dropdown %}
-        {% for child in p.children %}
-          {% unless child.title == 'divider' %}
+  {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
+  {%- for p in sorted_pages -%}
+    {%- if p.nav and p.autogen == null -%}
+      {%- if p.dropdown -%}
+        {%- for child in p.children -%}
+          {%- unless child.title == 'divider' -%}
             {
-              {% assign title = child.title | escape %}
-              {% if child.permalink contains "/blog/" %}{% assign url = "/blog/" %} {% else %}{% assign url = child.url %}{% endif %}
+              {%- assign title = child.title | escape -%}
+              {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.url -%}{%- endif -%}
               id: "dropdown-{{ title | slugify }}",
               title: "{{ title }}",
               description: "{{ child.description | strip_html | strip_newlines | escape }}",
@@ -36,13 +36,13 @@ ninja.data = [
                 window.location.href = "{{ url | relative_url }}";
               },
             },
-          {% endunless %}
-        {% endfor %}
+          {%- endunless -%}
+        {%- endfor -%}
 
-      {% else %}
+      {%- else -%}
         {
-          {% assign title = p.title | escape %}
-          {% if p.permalink contains "/blog/" %}{% assign url = "/blog/" %} {% else %}{% assign url = p.url %}{% endif %}
+          {%- assign title = p.title | escape -%}
+          {%- if p.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = p.url -%}{%- endif -%}
           id: "nav-{{ title | slugify }}",
           title: "{{ title }}",
           description: "{{ p.description | strip_html | strip_newlines | escape }}",
@@ -51,12 +51,12 @@ ninja.data = [
             window.location.href = "{{ url | relative_url }}";
           },
         },
-      {% endif %}
-    {% endif %}
-  {% endfor %}
-  {% for post in site.posts %}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- for post in site.posts -%}
     {
-      {% assign title = post.title | escape %}
+      {%- assign title = post.title | escape -%}
       id: "post-{{ title | slugify }}",
       title: "{{ title }}",
       description: "{{ post.description | strip_html | strip_newlines | escape }}",
@@ -65,10 +65,10 @@ ninja.data = [
         window.location.href = "{{ post.url | relative_url }}";
       },
     },
-  {% endfor %}
-  {% for project in site.projects %}
+  {%- endfor -%}
+  {%- for project in site.projects -%}
     {
-      {% assign title = project.title | escape %}
+      {%- assign title = project.title | escape -%}
       id: "project-{{ title | slugify }}",
       title: "{{ title }}",
       description: "{{ project.description | strip_html | strip_newlines | escape }}",
@@ -77,9 +77,9 @@ ninja.data = [
         window.location.href = "{{ project.url | relative_url }}";
       },
     },
-  {% endfor %}
-  {% if site.socials_in_search %}
-    {% if site.email %}
+  {%- endfor -%}
+  {%- if site.socials_in_search -%}
+    {%- if site.email -%}
       {
         id: 'socials-email',
         title: 'Send email',
@@ -88,8 +88,8 @@ ninja.data = [
           window.open("mailto:{{ site.email | encode_email }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.telegram_username %}
+    {%- endif -%}
+    {%- if site.telegram_username -%}
       {
         id: 'socials-telegram',
         title: 'Telegram',
@@ -98,8 +98,8 @@ ninja.data = [
           window.open("https://telegram.me/{{ site.telegram_username }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.whatsapp_number %}
+    {%- endif -%}
+    {%- if site.whatsapp_number -%}
       {
         id: 'socials-whatsapp',
         title: 'WhatsApp',
@@ -108,8 +108,8 @@ ninja.data = [
           window.open("https://wa.me/{{ site.whatsapp_number }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.orcid_id %}
+    {%- endif -%}
+    {%- if site.orcid_id -%}
       {
         id: 'socials-orcid',
         title: 'ORCID',
@@ -118,8 +118,8 @@ ninja.data = [
           window.open("https://orcid.org/{{ site.orcid_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.scholar_userid %}
+    {%- endif -%}
+    {%- if site.scholar_userid -%}
       {
         id: 'socials-google-scholar',
         title: 'Google Scholar',
@@ -128,8 +128,8 @@ ninja.data = [
           window.open("https://scholar.google.com/citations?user={{ site.scholar_userid }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.semanticscholar_id %}
+    {%- endif -%}
+    {%- if site.semanticscholar_id -%}
       {
         id: 'socials-semantic-scholar',
         title: 'Semantic Scholar',
@@ -138,8 +138,8 @@ ninja.data = [
           window.open("https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.publons_id %}
+    {%- endif -%}
+    {%- if site.publons_id -%}
       {
         id: 'socials-publons',
         title: 'Publons',
@@ -148,8 +148,8 @@ ninja.data = [
           window.open("https://publons.com/a/{{ site.publons_id }}/", "_blank");
         },
       },
-    {% endif %}
-    {% if site.lattes_id %}
+    {%- endif -%}
+    {%- if site.lattes_id -%}
       {
         id: 'socials-lattes',
         title: 'Lattes',
@@ -158,8 +158,8 @@ ninja.data = [
           window.open("http://lattes.cnpq.br/{{ site.lattes_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.osf_id %}
+    {%- endif -%}
+    {%- if site.osf_id -%}
         id: 'socials-open-science-framework',
         title: 'Open Science Framework',
         section: 'Socials',
@@ -167,8 +167,8 @@ ninja.data = [
           window.open("https://osf.io/{{ site.osf_id }}/", "_blank");
         },
       },
-    {% endif %}
-    {% if site.research_gate_profile %}
+    {%- endif -%}
+    {%- if site.research_gate_profile -%}
       {
         id: 'socials-researchgate',
         title: 'ResearchGate',
@@ -177,8 +177,8 @@ ninja.data = [
           window.open("https://www.researchgate.net/profile/{{site.research_gate_profile}}/", "_blank");
         },
       },
-    {% endif %}
-    {% if site.ieee_id %}
+    {%- endif -%}
+    {%- if site.ieee_id -%}
       {
         id: 'socials-ieee-xplore',
         title: 'IEEE Xplore',
@@ -187,8 +187,8 @@ ninja.data = [
           window.open("https://ieeexplore.ieee.org/author/{{site.ieee_id}}/", "_blank");
         },
       },
-    {% endif %}
-    {% if site.acm_id %}
+    {%- endif -%}
+    {%- if site.acm_id -%}
       {
         id: 'socials-acm-dl',
         title: 'ACM DL',
@@ -197,8 +197,8 @@ ninja.data = [
           window.open("https://dl.acm.org/profile/{{site.acm_id}}/", "_blank");
         },
       },
-    {% endif %}
-    {% if site.scopus_id %}
+    {%- endif -%}
+    {%- if site.scopus_id -%}
       {
         id: 'socials-scopus',
         title: 'Scopus',
@@ -207,8 +207,8 @@ ninja.data = [
           window.open("https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.github_username %}
+    {%- endif -%}
+    {%- if site.github_username -%}
       {
         id: 'socials-github',
         title: 'GitHub',
@@ -217,8 +217,8 @@ ninja.data = [
           window.open("https://github.com/{{ site.github_username }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.linkedin_username %}
+    {%- endif -%}
+    {%- if site.linkedin_username -%}
       {
         id: 'socials-linkedin',
         title: 'LinkedIn',
@@ -227,8 +227,8 @@ ninja.data = [
           window.open("https://www.linkedin.com/in/{{ site.linkedin_username }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.x_username %}
+    {%- endif -%}
+    {%- if site.x_username -%}
       {
         id: 'socials-x',
         title: 'X',
@@ -238,8 +238,8 @@ ninja.data = [
           window.open("https://twitter.com/{{ site.x_username }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.mastodon_username %}
+    {%- endif -%}
+    {%- if site.mastodon_username -%}
       {
         id: 'socials-mastodon',
         title: 'Mastodon',
@@ -248,8 +248,8 @@ ninja.data = [
           window.open("https://{{ site.mastodon_username  }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.medium_username %}
+    {%- endif -%}
+    {%- if site.medium_username -%}
       {
         id: 'socials-medium',
         title: 'Medium',
@@ -258,8 +258,8 @@ ninja.data = [
           window.open("https://medium.com/@{{ site.medium_username }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.quora_username %}
+    {%- endif -%}
+    {%- if site.quora_username -%}
       {
         id: 'socials-quora',
         title: 'Quora',
@@ -268,8 +268,8 @@ ninja.data = [
           window.open("https://www.quora.com/profile/{{ site.quora_username }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.flickr_id %}
+    {%- endif -%}
+    {%- if site.flickr_id -%}
       {
         id: 'socials-flickr',
         title: 'Flickr',
@@ -278,8 +278,8 @@ ninja.data = [
           window.open("https://www.flickr.com/{{ site.flickr_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.blogger_url %}
+    {%- endif -%}
+    {%- if site.blogger_url -%}
       {
         id: 'socials-blogger',
         title: 'Blogger',
@@ -288,8 +288,8 @@ ninja.data = [
           window.open("{{ site.blogger_url }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.work_url %}
+    {%- endif -%}
+    {%- if site.work_url -%}
       {
         id: 'socials-work',
         title: 'Work',
@@ -298,8 +298,8 @@ ninja.data = [
           window.open("{{ site.work_url }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.wikidata_id %}
+    {%- endif -%}
+    {%- if site.wikidata_id -%}
       {
         id: 'socials-wikidata',
         title: 'Wikidata',
@@ -308,8 +308,8 @@ ninja.data = [
           window.open("https://www.wikidata.org/wiki/{{ site.wikidata_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.wikipedia_id %}
+    {%- endif -%}
+    {%- if site.wikipedia_id -%}
       {
         id: 'socials-wikipedia',
         title: 'Wikipedia',
@@ -318,8 +318,8 @@ ninja.data = [
           window.open("https://wikipedia.org/wiki/User:{{ site.wikipedia_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.strava_userid %}
+    {%- endif -%}
+    {%- if site.strava_userid -%}
       {
         id: 'socials-strava',
         title: 'Strava',
@@ -328,8 +328,8 @@ ninja.data = [
           window.open("https://www.strava.com/athletes/{{ site.strava_userid }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.keybase_username %}
+    {%- endif -%}
+    {%- if site.keybase_username -%}
       {
         id: 'socials-keybase',
         title: 'Keybase',
@@ -338,8 +338,8 @@ ninja.data = [
           window.open("https://keybase.io/{{ site.keybase_username }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.gitlab_username %}
+    {%- endif -%}
+    {%- if site.gitlab_username -%}
       {
         id: 'socials-gitlab',
         title: 'GitLab',
@@ -348,8 +348,8 @@ ninja.data = [
           window.open("https://gitlab.com/{{ site.gitlab_username }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.dblp_url %}
+    {%- endif -%}
+    {%- if site.dblp_url -%}
       {
         id: 'socials-dblp',
         title: 'DBLP',
@@ -358,8 +358,8 @@ ninja.data = [
           window.open("{{ site.dblp_url }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.stackoverflow_id %}
+    {%- endif -%}
+    {%- if site.stackoverflow_id -%}
       {
         id: 'socials-stackoverflow',
         title: 'Stackoverflow',
@@ -368,8 +368,8 @@ ninja.data = [
           window.open("https://stackoverflow.com/users/{{ site.stackoverflow_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.kaggle_id %}
+    {%- endif -%}
+    {%- if site.kaggle_id -%}
       {
         id: 'socials-kaggle',
         title: 'Kaggle',
@@ -378,8 +378,8 @@ ninja.data = [
           window.open("https://www.kaggle.com/{{ site.kaggle_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.lastfm_id %}
+    {%- endif -%}
+    {%- if site.lastfm_id -%}
       {
         id: 'socials-last-fm',
         title: 'Last FM',
@@ -388,8 +388,8 @@ ninja.data = [
           window.open("https://www.last.fm/user/{{ site.lastfm_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.spotify_id %}
+    {%- endif -%}
+    {%- if site.spotify_id -%}
       {
         id: 'socials-spotify',
         title: 'Spotify',
@@ -398,8 +398,8 @@ ninja.data = [
           window.open("https://open.spotify.com/user/{{ site.spotify_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.pinterest_id %}
+    {%- endif -%}
+    {%- if site.pinterest_id -%}
       {
         id: 'socials-pinterest',
         title: 'Pinterest',
@@ -408,8 +408,8 @@ ninja.data = [
           window.open("https://www.pinterest.com/{{ site.pinterest_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.unsplash_id %}
+    {%- endif -%}
+    {%- if site.unsplash_id -%}
       {
         id: 'socials-unsplash',
         title: 'Unsplash',
@@ -418,8 +418,8 @@ ninja.data = [
           window.open("https://unsplash.com/@{{ site.unsplash_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.instagram_id %}
+    {%- endif -%}
+    {%- if site.instagram_id -%}
       {
         id: 'socials-instagram',
         title: 'Instagram',
@@ -428,8 +428,8 @@ ninja.data = [
           window.open("https://instagram.com/{{ site.instagram_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.facebook_id %}
+    {%- endif -%}
+    {%- if site.facebook_id -%}
       {
         id: 'socials-facebook',
         title: 'Facebook',
@@ -438,8 +438,8 @@ ninja.data = [
           window.open("https://facebook.com/{{ site.facebook_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.bluesky_url %}
+    {%- endif -%}
+    {%- if site.bluesky_url -%}
       {
         id: 'socials-bluesky',
         title: 'Bluesky',
@@ -448,8 +448,8 @@ ninja.data = [
           window.open("https://bsky.app/profile/{{ site.bluesky_url }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.youtube_id %}
+    {%- endif -%}
+    {%- if site.youtube_id -%}
       {
         id: 'socials-youtube',
         title: 'YouTube',
@@ -458,8 +458,8 @@ ninja.data = [
           window.open("https://youtube.com/@{{ site.youtube_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.discord_id %}
+    {%- endif -%}
+    {%- if site.discord_id -%}
       {
         id: 'socials-discord',
         title: 'Discord',
@@ -468,8 +468,8 @@ ninja.data = [
           window.open("https://discord.com/users/{{ site.discord_id }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.zotero_username %}
+    {%- endif -%}
+    {%- if site.zotero_username -%}
       {
         id: 'socials-zotero',
         title: 'Zotero',
@@ -478,8 +478,8 @@ ninja.data = [
           window.open("https://www.zotero.org/{{ site.zotero_username }}", "_blank");
         },
       },
-    {% endif %}
-    {% if site.rss_icon %}
+    {%- endif -%}
+    {%- if site.rss_icon -%}
       {
         id: 'socials-rss',
         title: 'RSS Feed',
@@ -488,9 +488,9 @@ ninja.data = [
           window.open("{{ site.baseurl }}/feed.xml", "_blank");
         },
       },
-    {% endif %}
-    {% comment %}
-    {% if site.wechat_qr %}
+    {%- endif -%}
+    {%- comment -%}
+    {%- if site.wechat_qr -%}
       // check how to add wechat qr code
       {
         id: 'socials-wechat',
@@ -500,13 +500,13 @@ ninja.data = [
           window.open("", "_blank");
         },
       },
-    {% endif %}
-    {% endcomment %}
-  {% endif %}
-  {% if site.enable_darkmode %}
+    {%- endif -%}
+    {%- endcomment -%}
+  {%- endif -%}
+  {%- if site.enable_darkmode -%}
     {
       id: 'light-theme',
-      title: 'Turn on the lights',
+      title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
       section: 'Theme',
       handler: () => {
@@ -515,7 +515,7 @@ ninja.data = [
     },
     {
       id: 'dark-theme',
-      title: 'Turn off the lights',
+      title: 'Change theme to dark',
       description: 'Change the theme of the site to Dark',
       section: 'Theme',
       handler: () => {
@@ -524,12 +524,12 @@ ninja.data = [
     },
     {
       id: 'system-theme',
-      title: 'Use System Default',
+      title: 'Use system default theme',
       description: 'Change the theme of the site to System Default',
       section: 'Theme',
       handler: () => {
         setThemeSetting("system");
       },
     },
-  {% endif %}
+  {%- endif -%}
 ];
