@@ -132,6 +132,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_name: al-folio # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
+lsi: true # produce an index for related posts
 
 # Pagination
 pagination:
