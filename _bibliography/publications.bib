@@ -9,13 +9,33 @@
 @STRING{BIOIMAGES = {BioImage Archive}}
 @STRING{DATA = {Data}}
 @STRING{DATA_SHORT = {Data}}
+@STRING{NEJM_AI = {NEJM AI}}
+@STRING{NEJM_AI_SHOT = {NEJM AI}}
 
+
+
+@article{ferber2024gpt4,
+  title         = {{GPT-4} for Information Retrieval and Comparison of Medical Oncology Guidelines},
+  author        = {Dyke Ferber  and Isabella C. Wiest  and Georg Wölflein  and Matthias P. Ebert  and Gernot Beutel  and Jan-Niklas Eckardt  and Daniel Truhn  and Christoph Springfeld  and Dirk Jäger  and Jakob Nikolas Kather },
+  author+an     = {3=highlight},
+  year          = {2024},
+  journal       = NEJM_AI,
+  abbr          = NEJM_AI_SHORT,
+  volume        = {1},
+  number        = {6},
+  pages         = {},
+  url           = {https://ai.nejm.org/doi/abs/10.1056/AIcs2300235},
+  full_text_url = {https://ai.nejm.org/stoken/default+domain/NCV9YRPAYCBHPZN7UA7G/full?redirectUri=/doi/full/10.1056/AIcs2300235},
+  preview       = {guidelines-rag.png},
+  abstract      = {Oncologists face increasingly complex clinical decision-making processes as new cancer therapies are approved and treatment guidelines are revised at an unprecedented rate. With the aim of improving oncologists’ efficiency and supporting their adherence to the most recent treatment recommendations, we evaluated the use of the large language model generative pretrained transformer 4 (GPT-4) to interpret guidelines from the American Society of Clinical Oncology and the European Society for Medical Oncology. The ability of GPT-4 to answer clinically relevant questions regarding the management of patients with pancreatic cancer, metastatic colorectal cancer, and hepatocellular carcinoma was assessed. We also assessed GPT-4 outputs with and without retrieval-augmented generation (RAG), which provided additional knowledge to the model, and then manually compared the results with the original guideline documents. GPT-4 with RAG provided correct responses in 84\% of cases (of 218 statements, 184 were correct, 30 were inaccurate, and 4 were wrong). GPT-4 without RAG provided correct responses in only 57\% of cases (of 163 statements, 93 were correct, 29 were inaccurate, and 41 were wrong). We showed that GPT-4, when enhanced with additional clinical information through RAG, can accurately identify detailed similarities and disparities in diagnostic and treatment proposals across different authoritative sources. Generative pretrained transformer 4, together with retrieval-augmented generation, can precisely extract and compare medical guideline recommendations in oncology from different associations. },
+  keywords      = {journal,paper}
+}
 
 @misc{ferber2024autonomous,
   title     = {Autonomous Artificial Intelligence Agents for Clinical Decision Making in Oncology},
   author    = {Ferber, Dyke and El Nahhas, Omar S. M. and W\"{o}lflein, Georg and Wiest, Isabella C. and Clusmann, Jan and Leßman, Marie-Elisabeth and Foersch, Sebastian and Lammert, Jacqueline and Tschochohei, Maximilian and J\"{a}ger, Dirk and Salto-Tellez, Manuel and Schultz, Nikolaus and Truhn, Daniel and Kather, Jakob Nikolas},
-  year      = {2024},
   author+an = {3=highlight},
+  year      = {2024},
   note      = UNDERREVIEW,
   url       = {https://arxiv.org/abs/2404.04667},
   pdf       = {https://arxiv.org/pdf/2404.04667.pdf},
