@@ -6,9 +6,9 @@
     "email": "jyotsna.thapliyal22@gmail.com",
     "phone": "",
     "url": "",
-    "summary": "Passionate ML scientist with solid industrial experience.",
+    "summary": "A proficient AI Engineer with excellent communication and leadership abilities owning 6+ years of solid experience in computer vision, fraud detection, recommender systems driving innovation and delivering impactful AI solutions for domains like social media Trust & Safety and retail.",
     "location": {
-      "address": "",
+      "address": "Tallinn, Estonia",
       "postalCode": "",
       "city": "",
       "countryCode": "",
@@ -16,46 +16,34 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "Jyotsna Thapliyal",
+        "url": "https://www.linkedin.com/in/jyotsna-thapliyal-09987719/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Linkedin",
+      "position": "Sr. Software Engineer, Machine Learning",
+      "url": "",
+      "startDate": "April 2022",
+      "endDate": "October 2023",
+      "summary": "As part of Trust and Safety of LinkedIn platform built end-to-end solutions to moderate content and advertisements using deep learning focused in Computer Vision and NLP.",
+      "highlights": ["Image classification", "fraud detection"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Indian Institute of Technology, Madras",
+      "location": "Chennai, India",
+      "url": "https://www.iitm.ac.in/",
+      "area": "Computer Science",
+      "studyType": "Masters in Technology",
+      "startDate": "July, 2014",
+      "endDate": "May, 2016",
+      "score": "",
+      "courses": ["Machine Learning", "Computer Vision", "Kernel methods for pattern analysis"]
     }
   ],
   "awards": [
@@ -111,47 +99,26 @@
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Machine Learning",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Deep Learning",
+        "Computer vision",
+        "NLP",
+        "Recommender systems",
+        "Data Mining"
       ]
+    },
+    {
+      "tools": "TensorFlow, PyTorch, Spark SQL, Scala, Python, pandas, Keras, c++"
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Hindi",
       "fluency": "Native speaker",
       "icon": ""
     },
