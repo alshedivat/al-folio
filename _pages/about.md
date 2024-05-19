@@ -2,24 +2,34 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Juan Pablo Cordero Mayorga
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: foto.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Telefono: 2224237264</p>
+    <p>Direccion: Palacio Nacional</p>
+    <p>Ciudad: Wakanda, Puebla</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Mi nombre es Juan Pablo Cordero. Actualmente me encuentro estudiando la
+licenciatura en Ciencia de Datos en el prestigioso Instituto Tecnológico
+Autónomo de México.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Mi pasión desde hace mucho tiempo es la cetrería. Este bello arte consiste
+en entrenar aves de presa. Creo que me ha enseñado mucho como persona,
+desde valorar la naturaleza, hasta impartirme valores. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Por otro lado, me encanta la música. Desde los 8 años empecé a tomar
+clases de piano. Unos cuantos años después me empezó a interesar el “Rock and
+Roll”. Esto me llevó a querer aprender a tocar la guitarra eléctrica. Este último
+año, tuve la oportunidad de tomar clases con Dimitri Jordania, un profesor
+egresado de Berklee.
+
+Desde que tengo memoria siempre me ha gustado ver la NFL. Soy un apasionado fanatico de los Dallas Cowboys.
