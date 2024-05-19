@@ -1,6 +1,46 @@
 ---
 ---
 
+@inproceedings{ponton2024stretchyourreach,
+bibtex_show = {true},
+selected = {true},
+preview = {stretchyourreach.gif},
+pdf = {stretchyourreach_chi24.pdf},
+video = {https://youtu.be/e1-LuHWDjLU},
+author = {Ponton, Jose Luis and Keshavarz, Reza and Beacco, Alejandro and Pelechano, Nuria},
+title = {Stretch your reach: Studying Self-Avatar and Controller Misalignment in Virtual Reality Interaction},
+month = {May},
+year = {2024},
+isbn = {9798400703300},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3613904.3642268},
+doi = {10.1145/3613904.3642268},
+booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+articleno = {109},
+numpages = {15},
+series = {CHI '24},
+abstract = {In VR, misalignment between the user's body and their virtual avatar can disrupt the sense of embodiment and hinder interaction. This study examines five different interaction modes, manipulating factors like virtual controller visibility and hand positioning. The results reveal that "stretching" the avatar's arms to align with the user's hands significantly improves embodiment, proprioception, user preference, and task performance. Interestingly, whether the virtual controllers are rendered or not had no significant impact.}
+}
+
+@INPROCEEDINGS{10494178,
+  bibtex_show = {true},
+  selected = {true},
+  preview = {expectedcollision.gif},
+  pdf = {expectedcollisionfeedback_ieeevr24.pdf},
+  video = {https://youtu.be/DoG37fthIZE},
+  author={Yun, Haoran and Ponton, Jose Luis and Beacco, Alejandro and Andujar, Carlos and Pelechano, Nuria},
+  booktitle={2024 IEEE Conference Virtual Reality and 3D User Interfaces (VR)}, 
+  title={Exploring the Role of Expected Collision Feedback in Crowded Virtual Environments}, 
+  month = {March},
+  year={2024},
+  pages={472-481},
+  publisher = {{IEEE}},
+  doi={10.1109/VR58804.2024.00068},
+  abstract = {This study investigates the impact of expected collision feedback on user perception and interaction in virtual environments populated with virtual humans.  We examine common feedback techniques (auditory, tactile) and the effect of inducing the expectation of a physical collision with a real person. Results indicate that expected collision feedback significantly influences both global navigation and local movements, as well as subjective perceptions of presence and copresence.}
+}
+
+
 @article{ponton2023sparseposer,
 bibtex_show = {true},
 selected = {true},
@@ -8,6 +48,7 @@ preview = {sparseposer.gif},
 pdf = {sparseposer_siggraphasia2023.pdf},
 code = {https://github.com/UPC-ViRVIG/SparsePoser},
 website = {https://upc-virvig.github.io/SparsePoser/},
+video = {https://youtu.be/BAi4KoHtehY},
 author = {Ponton, Jose Luis and Yun, Haoran and Aristidou, Andreas and Andujar, Carlos and Pelechano, Nuria},
 title = {SparsePoser: Real-Time Full-Body Motion Reconstruction from Sparse Data},
 year = {2023},
@@ -20,11 +61,11 @@ number = {1},
 issn = {0730-0301},
 url = {https://doi.org/10.1145/3625264},
 doi = {10.1145/3625264},
-abstract = {Accurate and reliable human motion reconstruction is crucial for creating natural interactions of full-body avatars in Virtual Reality (VR) and entertainment applications. As the Metaverse and social applications gain popularity, users are seeking cost-effective solutions to create full-body animations that are comparable in quality to those produced by commercial motion capture systems. In order to provide affordable solutions though, it is important to minimize the number of sensors attached to the subject’s body. Unfortunately, reconstructing the full-body pose from sparse data is a heavily under-determined problem. Some studies that use IMU sensors face challenges in reconstructing the pose due to positional drift and ambiguity of the poses. In recent years, some mainstream VR systems have released 6-degree-of-freedom (6-DoF) tracking devices providing positional and rotational information. Nevertheless, most solutions for reconstructing full-body poses rely on traditional inverse kinematics (IK) solutions, which often produce non-continuous and unnatural poses. In this article, we introduce SparsePoser, a novel deep learning-based solution for reconstructing a full-body pose from a reduced set of six tracking devices. Our system incorporates a convolutional-based autoencoder that synthesizes high-quality continuous human poses by learning the human motion manifold from motion capture data. Then, we employ a learned IK component, made of multiple lightweight feed-forward neural networks, to adjust the hands and feet toward the corresponding trackers. We extensively evaluate our method on publicly available motion capture datasets and with real-time live demos. We show that our method outperforms state-of-the-art techniques using IMU sensors or 6-DoF tracking devices, and can be used for users with different body dimensions and proportions.},
+abstract = {SparsePoser is a novel deep learning-based approach for reconstructing full-body human motion in VR using a reduced set of six tracking devices. By learning the human motion manifold from motion capture data and incorporating a learned IK component, it overcomes the limitations of traditional IK methods and IMU-based approaches, producing high-quality, continuous poses. Our extensive evaluations on motion capture datasets and real-time demos demonstrate that SparsePoser outperforms state-of-the-art techniques and can be applied to users with varying body dimensions.},
 journal = {ACM Trans. Graph.},
 month = {oct},
 articleno = {5},
-numpages = {14}
+numpages = {14},
 }
 
 
@@ -43,7 +84,8 @@ numpages = {14}
   preview = {fittedavatars.gif},
   pdf = {fittedavatars_vr2023.pdf},
   DOI = {10.1007/s10055-023-00821-z},
-  abstract = {In the era of the metaverse, self-avatars are gaining popularity, as they can enhance presence and provide embodiment when a user is immersed in Virtual Reality. They are also very important in collaborative Virtual Reality to improve communication through gestures. Whether we are using a complex motion capture solution or a few trackers with inverse kinematics (IK), it is essential to have a good match in size between the avatar and the user, as otherwise mismatches in self-avatar posture could be noticeable for the user. To achieve such a correct match in dimensions, a manual process is often required, with the need for a second person to take measurements of body limbs and introduce them into the system. This process can be time-consuming, and prone to errors. In this paper, we propose an automatic measuring method that simply requires the user to do a small set of exercises while wearing a Head-Mounted Display (HMD), two hand controllers, and three trackers. Our work provides an affordable and quick method to automatically extract user measurements and adjust the virtual humanoid skeleton to the exact dimensions. Our results show that our method can reduce the misalignment produced by the IK system when compared to other solutions that simply apply a uniform scaling to an avatar based on the height of the HMD, and make assumptions about the locations of joints with respect to the trackers.}
+  video = {https://youtu.be/U7KOhTGByyc},
+  abstract = {Self-avatars are essential for enhancing presence and communication in VR.  However, ensuring accurate dimensions often requires manual measurements, which can be time-consuming and error-prone. This paper proposes an automatic method using a head-mounted display (HMD), hand controllers, and trackers to accurately estimate user measurements and adjust the virtual skeleton. This method improves the alignment of the avatar with the user's body, surpassing solutions that rely on uniform scaling or assumptions about joint locations.}
 }
 
 @inproceedings{yun2023animationfidelity,
@@ -60,9 +102,9 @@ numpages = {14}
 	selected = {true},
 	pdf = {animation_fidelity_ieeevr23.pdf},
 	DOI = {10.1109/VR55154.2023.00044},
-	abstract = {In this paper, we study the impact of the avatar's animation fidelity on different tasks. We compare three animation techniques: two of them using Inverse Kinematics to reconstruct the pose from six trackers, and a third one using a motion capture system with 17 inertial sensors. Our results show that the animation quality affects the Sense of Embodiment. Inertial-based MoCap performs significantly better in mimicking body poses. Surprisingly, IK-based solutions using fewer sensors outperformed MoCap in tasks requiring accurate positioning, which we attribute to the higher latency and the positional drift of the end-effectors.}
-}
-	
+	video = {https://youtu.be/X1POhdDIvm0?si=SnPHPOAxrmu3lERO},
+	abstract = {This research investigates the impact of avatar animation fidelity on various tasks in VR. Comparing three animation techniques (two using Inverse Kinematics and one using a motion capture system), the study found that the quality of animation influences the user's sense of embodiment. Surprisingly, IK-based solutions, despite using fewer sensors, sometimes outperformed MoCap in tasks requiring precise positioning due to lower latency and less positional drift.}
+}	
 	
 @article{ponton2022mmvr,
 	bibtex_show={true},
@@ -82,18 +124,8 @@ numpages = {14}
 	code = {https://github.com/UPC-ViRVIG/MMVR},
 	website = {https://upc-virvig.github.io/MMVR/},
 	pdf = {mmvr_sca2022.pdf},
-	abstract = {The animation of user avatars plays a crucial role in conveying their pose, gestures, and relative distances to virtual objects
-				or other users. Consumer-grade VR devices typically include three trackers: the Head Mounted Display (HMD) and
-				two handheld VR controllers. Since the problem of reconstructing the user pose from such sparse data is ill-defined,
-				especially for the lower body, the approach adopted by most VR games consists of assuming the body orientation matches
-				that of the HMD, and applying animation blending and time-warping from a reduced set of animations. Unfortunately, this
-				approach produces noticeable mismatches between user and avatar movements. In this work we present a new approach to
-				animate user avatars for current mainstream VR devices. First, we use a neural network to estimate the user’s
-				body orientation based on the tracking information from the HMD and the hand controllers. Then we use this orientation
-				together with the velocity and rotation of the HMD to build a feature vector that feeds a Motion Matching algorithm. We built a
-				MoCap database with animations of VR users wearing a HMD and used it to test our approach on both self-avatars and other
-				users’ avatars. Our results show that our system can provide a large variety of lower body animations while correctly matching
-				the user orientation, which in turn allows us to represent not only forward movements but also stepping in any direction.}
+	video = {https://youtu.be/crU9oLX0GnM},
+	abstract = {Current VR avatar animation methods suffer from inaccurate lower body movement due to the limited tracking data available from consumer-grade devices. This paper presents a novel approach that utilizes a neural network to estimate user body orientation from HMD and controller inputs. By combining this orientation data with HMD velocity and rotation, a feature vector is generated to drive a motion matching algorithm. Tested on a MoCap database of VR users, this system produces a wider range of lower body animations that precisely match user orientation, enabling more realistic and diverse movement representation in VR.}
 }
 
 @inproceedings {ponton2022avatargo,
@@ -109,12 +141,13 @@ numpages = {14}
   doi = {10.2312/egs.20221037},
   preview = {avatargo.gif},
   selected = {true},
+  video = {https://youtu.be/DWU4p-a-uXo},
   code = {https://github.com/UPC-ViRVIG/AvatarGo},
   pdf = {avatarGo_shortEG2022.pdf},
-  abstract={The use of self-avatars in a VR application can enhance presence and embodiment which leads to a better user experience. In collaborative VR it also facilitates non-verbal communication. Currently it is possible to track a few body parts with cheap trackers and then apply IK methods to animate a character. However, the correspondence between trackers and avatar joints is typically fixed ad-hoc, which is enough to animate the avatar, but causes noticeable mismatches between the user's body pose and the avatar. In this paper we present a fast and easy to set up system to compute exact offset values, unique for each user, which leads to improvements in avatar movement. Our user study shows that the Sense of Embodiment increased significantly when using exact offsets as opposed to fixed ones. We also allowed the users to see a semitransparent avatar overlaid with their real body to objectively evaluate the quality of the avatar movement with our technique.}
+  abstract={Self-avatars in VR can greatly enhance user experience, especially in collaborative settings. Current methods for animating avatars can lead to mismatches between the user's movement and the avatar's. This paper introduces a simple but effective technique for calculating precise offsets for each user, resulting in significantly improved avatar movement and a stronger sense of embodiment.}
 }
 
-@article{:2024,
+@article{mohammadreza2024padelvic,
   bibtex_show={true},
   author = {Mohammadreza, Javadiha and Andujar, Carlos and Calvanese, Michele and Lacasa, Enrique and Moyes, Jordi and Ponton, Jose Luis and Susin, Antonio and Wang, Jiabo},
   title = {{PADELVIC: Multicamera Videos and Motion Capture Data in Padel Matches}},
@@ -128,5 +161,5 @@ numpages = {14}
   preview = {padelvic.gif},
   pdf = {padelvic_padel24.pdf},
   website = {https://github.com/UPC-ViRVIG/PadelVic},
-  abstract = {Recent advances in computer vision and deep learning techniques have opened new possibilities regarding the automatic labeling of sport videos. However, an essential requirement for supervised techniques is the availability of accurately labeled training datasets. In this paper we present PadelVic, an annotated dataset of an amateur padel match which consists of multi-view video streams, estimated positional data for all four players within the court (and for one of the players, accurate motion capture data of his body pose), as well as synthetic videos specifically designed to serve as training sets for neural networks estimating positional data from videos. For the recorded data, player positions were estimated by applying a state-of-the-art pose estimation technique to one of the videos, which yields a relatively small positional error (M=16 cm, SD=13 cm). For one of the players, we used a motion capture system providing the orientation of the body parts with an accuracy of 1.5º RMS. The highest accuracy though comes from our synthetic dataset, which provides ground-truth positional and pose data of virtual players animated with the motion capture data. As an example application of the synthetic dataset, we present a system for a more accurate prediction of the center-of-mass of the players projected onto the court plane, from a single-view video of the match. We also discuss how to exploit per-frame positional data of the players for tasks such as synergy analysis, collective tactical analysis, and player profile generation}
+  abstract = {PadelVic is an annotated dataset of an amateur padel match, featuring multi-view video streams, estimated positional data for all players, and motion capture data for one player. It also includes synthetic videos for training neural networks to estimate positional data. With its high accuracy, especially in the synthetic dataset, PadelVic is a valuable tool for researchers interested in automatic sports video analysis, player tracking, and tactical analysis.}
 }
