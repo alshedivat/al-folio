@@ -2,8 +2,9 @@ github_users:
   - tylerbarna
 
 github_repos:
-  - tylerbarna/nmma_fitter
+  - nasa-gcn/gcn.nasa.gov
   - nuclear-multimessenger-astronomy/nmma
+  - tylerbarna/nmma_fitter
   - skyportal/skyportal
   - mcoughlin/ztf_summer_school_2022
   - tylerbarna/BarnaSeniorHonorsThesis
