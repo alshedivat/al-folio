@@ -1,18 +1,27 @@
-{% assign have_related_posts = false %}
-{% for post in site.related_posts | limit: site.related_blog_posts.max_related %}
-  {% unless have_related_posts %}
-    {% assign have_related_posts = true %}
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
+{% assign related_posts = "" | split: "|" %}
 
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  {% endunless %}
+{% for post in site.posts %}
+  {% if post.tags.size > 0 or post.categories.size > 0 %}
+    {% assign common_tags = post.tags | intersect: page.tags %}
+    {% assign common_categories = post.categories | intersect: page.categories %}
+    {% assign common_elements = common_tags | concat: common_categories %}
+    {% if common_elements.size > 0 %}
+      {% unless related_posts contains post.url %}
+        {% assign related_posts = related_posts | push: post.url %}
+        <br>
+        <hr>
+        <br>
+        <ul class="list-disc pl-8"></ul>
 
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-  </li>
+        <!-- Adds related posts to the end of an article -->
+        <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
+        <p class="mb-2">Here are some more articles you might like to read next:</p>
+
+        <li class="my-2">
+          <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endunless %}
+    {% endif %}
+  {% endif %}
 {% endfor %}
+
