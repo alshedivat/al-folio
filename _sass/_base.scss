@@ -425,18 +425,19 @@ ul.task-list input[type="checkbox"] {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  
+  background-color: var(--global-bg-color);
   font-size: 0.75rem;
 
   .container {
-    color: var(--global-footer-text-color);
+    color: var(--global-text-color-light);
     padding-top: 9px;
     padding-bottom: 8px;
     text-align: center;
   }
 
   a {
-    color: var(--global-footer-link-color);
+    color: var(--global-text-color-light);
 
     &:hover {
       color: var(--global-theme-color);
