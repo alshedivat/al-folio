@@ -61,6 +61,10 @@ Interactive Intelligence research group, Paul G. Allen School of Computer Scienc
 *Resources*:
 eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:target="_blank"}
 
+"What Philosophy Can Bring to the Study of AI". *Talk.* **Andre Ye.** Given 5/23/2024.
+*Resources*:
+[slides](https://docs.google.com/presentation/d/1WIepD1SvyePmvww6u2t2AkHGSH_dGH9ErZNrxn6fA1Q/edit#slide=id.p){:target="_blank"}, [reading list](https://docs.google.com/document/d/1YUB32IRPXfx4Z5jvbeVPOrM1ov6WwcM0hAZUyt0hXy0/edit){:target="_blank"}.
+
 ---
 
 ### philosophy work
