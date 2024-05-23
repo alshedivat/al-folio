@@ -8,7 +8,7 @@
     - name: Orcid-ID
       value: <a href="https://orcid.org/0000-0002-9297-9089"> 0000-0002-9297-9089 <a/>
     - name: Lattes CV
-      value: <a href="http://lattes.cnpq.br/2465901275354461">url</a>
+      value: <a href="http://lattes.cnpq.br/2465901275354461">lattes.cnpq.br/2465901275354461</a>
     - name: Languages
       value: English, Portuguese, and German
 
