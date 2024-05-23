@@ -61,6 +61,11 @@ Interactive Intelligence research group, Paul G. Allen School of Computer Scienc
 *Resources*:
 eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:target="_blank"}
 
+"Representing the Discursive Construction of Morality". *Poster*. **Andre Ye.**
+*Resources*:
+[poster](/assets/pdf/CSE%20582%20Poster.pdf).
+*Project in progress.*
+
 "What Philosophy Can Bring to the Study of AI". *Talk.* **Andre Ye.** Given 5/23/2024.
 *Resources*:
 [slides](https://docs.google.com/presentation/d/1WIepD1SvyePmvww6u2t2AkHGSH_dGH9ErZNrxn6fA1Q/edit#slide=id.p){:target="_blank"} ([pdf](/assets/pdf/Ranjay%20Group%20-%20Philosophy%20x%20AI.pdf) version), [reading list](https://docs.google.com/document/d/1YUB32IRPXfx4Z5jvbeVPOrM1ov6WwcM0hAZUyt0hXy0/edit){:target="_blank"}.
