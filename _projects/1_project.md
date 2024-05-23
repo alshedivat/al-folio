@@ -13,6 +13,7 @@ I created art and can't even draw a straight line! The following projects were a
 - [Simpson face generation](#simpson-face-generation)
 - [Recoloring CIFAR10](#recoloring-cifar10)
 - [Supervised approaches to CIFAR10](#supervised-approaches-to-cifar10)
+- [Automated Waste Sorter](#automated-waste-sorter)
 
 
 ### Simpson face generation
@@ -162,3 +163,30 @@ class Discriminator(nn.Module):
 
 
 ### Supervised approaches to CIFAR10 
+
+
+### Automated Waste Sorter
+
+I worked on the waste classification task for a joint project between Lancaster University campuses in Leipzig (Germany) and Bailrigg (England). A pretrained residual network (ResNet50) was used on a curated dataset. 
+
+The dataset can be downloaded [here](https://www.dropbox.com/scl/fi/2cj0e81iuq9tk5y9bx06v/dataset.zip?rlkey=bd5icdcy1cd6okra36cy1fzvi&st=zmtqsghl&dl=0).
+
+#### Results
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/waste_1.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/waste_2.JPG" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/confusion_matrix_waste.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Confusion Matrix on Testing Set. Accuracy of 91.1%
+</div>
