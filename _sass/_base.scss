@@ -1117,6 +1117,7 @@ ninja-keys {
   --ninja-accent-color: var(--global-theme-color);
   --ninja-icon-size: 0px;
   --ninja-modal-background: var(--global-bg-color);
+  --ninja-z-index: 1031;
 }
 
 ninja-keys::part(ninja-input-wrapper) {
