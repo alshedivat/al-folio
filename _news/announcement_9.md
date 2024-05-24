@@ -5,4 +5,4 @@ inline: true
 show: true
 ---
 
-I was offered admission to EPFL PhD Excellence Program.
+I was selected for the [EPFL PhD Excellence](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epfl-phd-excellence-programme/) Program's [3rd cohort](https://www.epfl.ch/education/phd/doctoral-studies-structure/customized-curricula/epfl-phd-excellence-programme/cohort-3/).
