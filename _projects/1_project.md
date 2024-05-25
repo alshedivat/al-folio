@@ -161,6 +161,49 @@ class Discriminator(nn.Module):
 
 ### Recoloring CIFAR10
 
+Two approaches to the coulourization task of CIFAR10 images: Auto Encoder U-Net and Conditional GANs. Over the last decade, the process of automatic colorization had been studied thoroughly due to its vast application such as colourization of grayscale images and restoration of aged and/or degraded images. This problem is highly ill-posed due to the extremely large degrees of freedom during the assignment of color information. In this approach, I attempted to fully generalize this procedure using a conditional Deep Convolutional Generative Adversarial Network (DCGAN). The network is trained over a dataset that is publicly available, CIFAR10.
+
+The code can be found [here](https://github.com/m4mbo/recolor-cifar10).
+
+#### DCGAN
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/DCGAN.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    DCGAN cherrypicked results with and without data augmentation.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/DCGAN_GRAPHS.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Generator and discriminator losses over epochs in both training and validation sets. 
+</div>
+
+#### AE
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AE.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Auto encoder cherrypicked results.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/AE_GRAPHS.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Auto encoder losses over epochs for both training and validation sets.
+</div>
 
 ### Supervised approaches to CIFAR10 
 
