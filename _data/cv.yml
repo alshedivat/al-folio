@@ -18,6 +18,7 @@
 - title: Select Experience
   type: time_table
   contents:
+    # PhD Graduate School
     - title: Graduate Assistant in <a href="https://furong-huang.com/">Huang Research Group</a>
       institution: University of Maryland, College Park, MD
       year: 2020-current
@@ -25,6 +26,14 @@
         - Constructing faster distributed algorithms via asynchronous methods
         - Creating memory- and computational-efficient distributed algorithms via sketching and hashing (some which escape saddle points)
         - Building mechanisms to incentivize FL participation & performance
+    # Alcority
+    - title: Applied Scientist - Machine Learning
+      institution: Alcority
+      year: 2022-current
+      description:
+        - Building distributed training architectures
+        - Constructing efficient and scalable ML algorithms for physical applications
+    # PNNL
     - title: PhD Research Intern
       institution: Pacific Northwest National Laboratories
       year: 2022-2023
