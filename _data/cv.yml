@@ -2,18 +2,16 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Ayse D. Lokmanoglu
     - name: Languages
-      value: English, German
+      value: English, Turkish, Spanish, Arabic
 
 - title: Education
   type: time_table
   contents:
     - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+      institution: Georgia State University, Atlanta, GA, US
+      year: 2021
       description:
         - Description 1.
         - Description 2.
@@ -21,19 +19,24 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Masters of Art
+      institution: Harvard University, Cambridge, MA, US
+      year: 2012
       description:
-        - Description 1.
-        - Description 2.
+        - Middle Eastern Studies
+    - title: Bachelor of Arts
+      institution: Cornell University, Ithaca, NY, US
+      year: 2009
+      description:
+        - Economics
+        - Near Eastern Studies
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Assistant Professor of Disinformation
+      institution: Clemson University, Clemson, SC, US
+      year: 2023-2024
       description:
         - Description 1.
         - Description 2.
@@ -41,9 +44,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+    - title: Postdoctoral Fellow
+      institution: Northwestern University, Evanston, IL, US
+      year: 2021-2023
       description:
         - Description 1.
         - Description 2.

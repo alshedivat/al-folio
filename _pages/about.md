@@ -21,7 +21,4 @@ My [dissertation](https://scholarworks.gsu.edu/communication_diss/102/), which w
 
 I completed my Ph.D. in Communication at Georgia State University, as a presidential fellow in Transcultural Conflict and Violence Initiative (TCV), M.A. in Middle Eastern Studies at Harvard University and B.A. in Near Eastern Studies and Economics at Cornell University.  Previously I was a postdoctoral fellow at the Center for Communication and Public Policy at Northwestern University.
 
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

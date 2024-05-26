@@ -1,12 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - aysedeniz09
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - aysedeniz09/Multilingual_Econ
+  - aysedeniz09/visualizing_violence
+  - aysedeniz09/comp_social_distancing 
+  - aysedeniz09/ThematicClusters 
+  - aysedeniz09/BERTopic
+  - aysedeniz09/Gendered-Radicalisation-and-Everyday-Practices
+  
