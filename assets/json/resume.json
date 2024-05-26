@@ -33,8 +33,10 @@
       "position": "Assistant Professor",
       "startDate": "2023",
       "endDate": "2024",
-      "summary": "Department of Communication & Media Forensics Hub",
-      "organization": "Clemson University, Clemson, SC, USA"
+      "summary": "Department of Communication",
+      "organization": "Clemson University, Clemson, SC, USA",
+      "highlights": [
+        "Core Faculty in Media Forensics Hub"]
     },
     {   "position": "Post-Doctoral Fellow",
     "startDate": "2021",
@@ -105,69 +107,6 @@
       "honors": [
         "Dean’s List"
       ]
-    }
-  ],
-  "grants": [
-    {
-      "title": "Networks and Pathways of Violent Extremism: Effectiveness of Dis/Misinformation Campaigns",
-      "fundingSource": "National Institute of Justice",
-      "amount": "953,203 USD",
-      "startDate": "2023",
-      "endDate": "2026",
-      "role": "PI"
-    },
-    {
-      "title": "Meme Content Analysis: Classification and Diffusion of Memes in Fringe Social",
-      "fundingSource": "The Global Network on Extremism and Technology (GNET)",
-      "amount": "6,000 GBP",
-      "startDate": "2022",
-      "endDate": "2023",
-      "role": "PI"
-    },
-    {
-      "title": "Mobilizing Media: A Deep and Comparative Analysis of Magazines, Music, and Videos in the Context of Terrorism",
-      "fundingSource": "Air Force Office of Scientific Research",
-      "amount": "2,250,000 USD",
-      "startDate": "2017",
-      "endDate": "2021",
-      "role": "Doctoral Research Assistant",
-      "PI": "Dr. Anthony Lemieux, Georgia State University"
-    },
-    {
-      "title": "Exploring the Internationalization of Extreme Right Public Spheres",
-      "fundingSource": "Facebook Phase Two Content Policy Research Award",
-      "amount": "82,388 USD",
-      "startDate": "2020",
-      "endDate": "2021",
-      "role": "Doctoral Research Assistant",
-      "PI": "Dr. Dror Walter, Georgia State University and Dr. Yannick Veilleux-Lepage, Leiden University"
-    },
-    {
-      "title": "The Jihadi Archive: A Database of Terrorist Tactics and Techniques",
-      "fundingSource": "Office of Naval Research Minerva Research Initiative",
-      "amount": "80,000 USD",
-      "startDate": "2019",
-      "endDate": "2020",
-      "role": "Doctoral Research Assistant",
-      "PI": "Dr. Mia Bloom, Georgia State University"
-    },
-    {
-      "title": "Preventing the Next Generation: Mapping Children’s Mobilization into Violent Extremist Organizations",
-      "fundingSource": "Office of Naval Research Minerva Research Initiative",
-      "amount": "941,169 USD",
-      "startDate": "2017",
-      "endDate": "2020",
-      "role": "Doctoral Research Assistant",
-      "PI": "Dr. Mia Bloom, Georgia State University"
-    },
-    {
-      "title": "Documenting the Virtual Caliphates",
-      "fundingSource": "Office of Naval Research Minerva Research Initiative",
-      "amount": "255,000 USD",
-      "startDate": "2017",
-      "endDate": "2019",
-      "role": "Doctoral Research Assistant",
-      "PI": "Dr. Mia Bloom, Georgia State University"
     }
   ],
   "awards": [

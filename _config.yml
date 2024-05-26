@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Ayse
 middle_name: D.
 last_name: Lokmanoglu
-email: you@example.com
+email: alokman@bu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -89,7 +89,7 @@ linkedin_username: # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: 0000-0003-1699-2684 # your ORCID ID
-osf_id: # your OSF ID
+osf_id: 8qxm4 # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
@@ -108,7 +108,7 @@ wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
 x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-zotero_username: # your zotero username
+zotero_username: aysedeniz # your zotero username
 
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -296,8 +296,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Lokmanoglu]
+  first_name: [Ayse, D.]
 
   style: apa
   locale: en
@@ -617,10 +617,7 @@ jsonresume:
   - education
   - publications
   - projects
-  - volunteer
+  - affiliations
   - awards
-  - certificates
   - skills
   - languages
-  - interests
-  - references
