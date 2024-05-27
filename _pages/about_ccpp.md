@@ -1,0 +1,3 @@
+## [Northwestern Center for Communication and Public Policy](https://polcomm.northwestern.edu/)
+
+The Northwestern Center for Communication and Public Policy [(CCPP)](https://polcomm.northwestern.edu/) is dedicated to advancing research and understanding in the fields of communication and public policy. The center focuses on the intersection of media, communication technologies, and policy-making processes to address critical issues affecting society. Through interdisciplinary research, public engagement, and policy analysis, the center aims to inform and influence public discourse, enhance democratic processes, and improve the overall effectiveness of public policy.

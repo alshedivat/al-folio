@@ -4,7 +4,6 @@ title: Supremacist Messaging
 description: 
 importance: 1
 category: work
-related_publications: true
 ---
 
 ## Virtual Spaces and Encrypted Messaging: 

@@ -4,7 +4,6 @@ title: Public Diplomacy and Statehood
 description: 
 importance: 2
 category: work
-giscus_comments: true
 ---
 
 ## Economic Messaging
