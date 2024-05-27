@@ -89,7 +89,7 @@
           {
             {%- assign title = item.title | escape -%}
             id: "{{ collection.label }}-{{ title | slugify }}",
-            title: "{{ title}}",
+            title: "{{ title }}",
             description: "{{ item.description | strip_html | strip_newlines | escape }}",
             section: "{{ collection.label | capitalize }}",
             handler: () => {
