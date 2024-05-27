@@ -84,20 +84,26 @@
           },
         },
       {%- endfor -%}
-      {% for collection in site.collections %}
+      {%- for collection in site.collections -%}
         {%- for item in collection.docs -%}
           {
-            {%- assign title = item.title | escape -%}
+            {%- if item.inline -%}
+              {%- assign title = item.content | remove: '<p>' | remove: '</p>' | escape | strip -%}
+            {%- else -%}
+              {%- assign title = item.title | escape -%}
+            {%- endif -%}
             id: "{{ collection.label }}-{{ title | slugify }}",
-            title: "{{ title }}",
+            title: '{{ title | emojify }}',
             description: "{{ item.description | strip_html | strip_newlines | escape }}",
             section: "{{ collection.label | capitalize }}",
-            handler: () => {
-              window.location.href = "{{ item.url | relative_url }}";
-            },
+            {%- unless item.inline -%}
+              handler: () => {
+                window.location.href = "{{ item.url | relative_url }}";
+              },
+            {%- endunless -%}
           },
         {%- endfor -%}
-      {% endfor %}
+      {%- endfor -%}
       {%- if site.socials_in_search -%}
         {%- if site.email -%}
           {
