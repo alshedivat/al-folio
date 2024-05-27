@@ -88,10 +88,10 @@
         {%- for item in collection.docs -%}
           {
             {%- assign title = item.title | escape -%}
-            id: "{{collection.label}}-{{ title | slugify }}",
+            id: "{{ collection.label }}-{{ title | slugify }}",
             title: "{{ title}}",
             description: "{{ item.description | strip_html | strip_newlines | escape }}",
-            section: "{{collection.label | capitalize }}",
+            section: "{{ collection.label | capitalize }}",
             handler: () => {
               window.location.href = "{{ item.url | relative_url }}";
             },
