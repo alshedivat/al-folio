@@ -1,81 +1,36 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Misinformation and Science Communication
+description: 
 importance: 3
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Public Health and Misinformation
+### Research on how misinformation affects vaccine acceptance and public health outcomes.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <a href="https://www.mdpi.com/2076-393X/11/4/817">
+            {% include figure.liquid path="assets/img/8.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Twitter data from misinformations sentinels in Peru, yrust, net sentiment, and vaccine acceptance from December 2020 to August 2021 (Lokmanoglu et al., 2023).
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- Lokmanoglu, A. D., Nisbet, E. C., Osborne, M. T., Tien, J., Malloy, S., Cueva Chacón, L., Villa Turek, E., & Abhari, R. (2023). Social Media Sentiment about COVID-19 Vaccination Predicts Vaccine Acceptance among Peruvian Social Media Users the Next Day. Vaccines, 11(4), 817. [Link](https://doi.org/10.3390/vaccines11040817)
 
-{% raw %}
+- Ophir, Y., Pruden, M. L., Walter, D., Lokmanoglu, A. D., Tebaldi, C., & Wang, R. (2022). Weaponizing reproductive rights: A mixed-method analysis of White nationalists’ discussion of abortions online. Information, Communication & Society, 1–26. [Link](https://doi.org/10.1080/1369118X.2022.2077654)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- Walter, D., Ophir, Y., Lokmanoglu, A. D., & Pruden, M. L. (2022). Vaccine discourse in white nationalist online communication: A mixed-methods computational approach. Social Science & Medicine, 298, 114859. [Link](https://doi.org/10.1016/j.socscimed.2022.114859)
 
-{% endraw %}
+## Media Influence on Public Opinion
+### Study of how media presentations and sentiment influence public perception and behavior regarding health and political issues.
+
+- Yang, F., Cai, M., Mortenson, C., Fakhari, H., Lokmanoglu, A. D., Hullman, J., Franconeri, S., Diakopoulos, N., Nisbet, E. C., & Kay, M. (2024). Swaying the Public? Impacts of Election Forecast Visualizations on Emotion, Trust, and Intention in the 2022 U.S. Midterms. IEEE Transactions on Visualization and Computer Graphics, 30(01), 23–33. [Link](https://doi.org/10.1109/TVCG.2023.3327356)
+
+- Ophir, Y., Walter, N., Walter, D., Velho, R. M., Lokmanoglu, A. D., Pruden, M. L., & Andrews, E. A. (2022). Vaccine Hesitancy Under the Magnifying Glass: A Systematic Review of the Uses and Misuses of an Increasingly Popular Construct. Health Communication, 1–15. [Link](https://doi.org/10.1080/10410236.2022.2054102)
+
+- Ophir, Y., Walter, D., Arnon, D., Lokmanoglu, A. D., Tizzoni, M., Carota, J., D’Antiga, L., & Nicastro, E. (2021). The Framing of COVID-19 in Italian Media and Its Relationship with Community Mobility: A Mixed-Method Approach. Journal of Health Communication, 26(3), 161–173. [Link](https://doi.org/10.1080/10810730.2021.1899344)

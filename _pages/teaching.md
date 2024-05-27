@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: 
 nav: true
 nav_order: 6
 ---
@@ -81,5 +81,5 @@ Media, Culture and Society (Undergraduate Course), Spring 2020
 
 “Knowledgeable”
 
-“random cool facts and enthusiasm”
+ching“random cool facts and enthusiasm”
 

@@ -1,81 +1,45 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Public Diplomacy and Statehood
+description: 
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Economic Messaging
+### Analysis of economic content used by state and non-state actors to assert legitimacy and influence.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <a href="http://arxiv.org/abs/2405.01798">
+            {% include figure.liquid loading="eager" path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        <a href="https://scholarworks.gsu.edu/communication_diss/102">
+            {% include figure.liquid loading="eager" path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        </a>
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    On the left, IS Arabic economic topic clusters over Times (Lokmanoglu, 2021). Right, RT channel economic content ratio (Lokmanoglu et al., 2024). 
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+- Lokmanoglu, A. D., Winkler, C. K., Damanhoury, K. E., Massignan, V., Villa-Turek, E., & Chen, K. A. (2024). The Economy and Public Diplomacy: An Analysis of RT’s Economic Content and Context on Facebook (arXiv:2405.01798). arXiv. [Link](http://arxiv.org/abs/2405.01798)
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- Lokmanoglu, A., & Phelan, A. (2023). Monetary Economics, Illicit Economies, and Legitimation: The Case of Islamic State. In J. Cook & S. Maher (Eds.), The Rule is for None but Allah: Islamist Approaches to Governance. Oxford University Press. [Link](https://doi.org/10.1093/oso/9780197690390.003.0008)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- Lokmanoglu, A. D. (2021). Imagined Economics: An Analysis of Non-state Actor Economic Messaging [Georgia State University]. [Link](https://doi.org/10.57709/23716737)
 
-{% raw %}
+- Lokmanoglu, A. D. (2020). Coin as Imagined Sovereignty: A Rhetorical Analysis of Coins as a Transhistorical Artifact and an Ideograph in Islamic State’s Communication. Studies in Conflict & Terrorism, 44(1), 1–22. [Link](https://doi.org/10.1080/1057610X.2020.1793458)
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+## Public Diplomacy
+### Study of how countries and organizations use public diplomacy to promote their interests and policies on a global stage.
 
-{% endraw %}
+- Chen, K. A., Massignan, V., Yachin, M., Winkler, C., & Lokmanoglu, A. D. (2023). Montevideo Convention and CGTN: Defining Statehood for Global Outreach. International Journal of Communication, 17, 1–24.
+
+- Fitzgerald, J., & Lokmanoglu, A. D. (2023). Special issue: The (international) politics of content takedowns: Theory, practice, ethics. Policy & Internet, 15(4), 456–465. [Link](https://doi.org/10.1002/poi3.375)
+
+- Mustaffa, M., & Lokmanoglu, A. D. (2024). Networks Approach: Trolls and Bots in Malaysia. In S. L. Connaughton & S. Pukallus (Eds.), Routledge Handbook of Conflict and Peacebuilding. Routledge/Taylor & Francis Group. [Link](https://www.routledge.com/The-Routledge-Handbook-of-Conflict-and-Peace-Communication/Connaughton-Pukallus/p/book/9781032490489)
+
