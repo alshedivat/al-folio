@@ -89,7 +89,11 @@ jobs:
       - name: Fix permission
         run: |
           chmod a+x bin/*
-          git commit -am "add execute permission to bin/deploy"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add bin/deploy
+          git commit -m "Add execute permission to bin/deploy"
+          git push
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
