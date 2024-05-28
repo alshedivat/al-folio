@@ -32,6 +32,6 @@ I graduated with a bachelor's degree in [Electrical Engineering](https://www.ee.
 I have been immensely fortunate to be advised by [Prof. Shweta Agrawal](http://www.cse.iitm.ac.in/~shwetaag/) for my Bachelor's thesis on recognizing and applying blockchain-based solutions to various everyday scenarios.
 My thesis was part of the preliminary phase 1 of [National Blockchain Project](https://blockchain.cse.iitk.ac.in).
 
-I was also gainfully employed at Oracle R&D in Bengaluru, India as a software development engineer working on Oracle Cloud Database solutions.
+[comment]: <> I was also gainfully employed at Oracle R&D in Bengaluru, India as a software development engineer working on Oracle Cloud Database solutions.
 
 [comment]: <> ![visitors](https://visitor-badge.glitch.me/badge?page_id=saikumarysk.github.io&left_color=blue&right_color=green)

@@ -6,7 +6,7 @@ description: Undergraduate Thesis
 img: assets/img/Thesis_Cover.jpg
 importance: 1
 category: Thesis
-github: https://github.com/saikumarysk/BlockchainForBusinessNetworks
+#github: https://github.com/saikumarysk/BlockchainForBusinessNetworks
 report_pdf: Undergrad_Thesis_report.pdf
 ---
 
@@ -63,7 +63,8 @@ I worked with several master's degree students who were building on my solution 
 :warning: [Hyperledger Composer](https://hyperledger.github.io/composer/latest/) is deprecated as of August 2019 and reached its End of Life by August 2021 :disappointed: :warning:
 <div class='social'>
 <div class="contact-icons">
-  Source Code: <a href="{{ page.github }}" title="GitHub"><i class="fab fa-github"></i></a>
   Report: <a href="{{ page.report_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i></a>
 </div>
 </div>
+
+<!-- Source Code: <a href="{{ page.github }}" title="GitHub"><i class="fab fa-github"></i></a> -->

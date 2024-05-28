@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects
+title: Thesis
 permalink: /projects/
 description:
 nav: true
 nav_order: 2
-display_categories: [Thesis, Class Projects, Personal]
+display_categories: [Thesis] #Class Projects, Personal
 horizontal: false
 ---
 
