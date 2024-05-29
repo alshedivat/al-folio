@@ -1,6 +1,6 @@
 // Check if the user is on a Mac and update the shortcut key for search accordingly
 (function () {
-  var isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
+  let isMac = navigator.platform.toUpperCase().indexOf('MAC') >= 0;
   document.addEventListener('readystatechange', function () {
     if (document.readyState === 'interactive') {
       let shortcutKeyElement = document.querySelector('#search-toggle .nav-link');
