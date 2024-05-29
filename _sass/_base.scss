@@ -484,6 +484,11 @@ footer.sticky-bottom {
   color: var(--global-text-color);
 }
 
+.date-column {
+  width: 75px;
+  transform: translateX(-15px) translateY(-5px);
+}
+
 // Repositories
 
 @media (min-width: 768px) {
