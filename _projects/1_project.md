@@ -207,12 +207,21 @@ The code can be found [here](https://github.com/m4mbo/recolor-cifar10).
 
 ### Supervised approaches to CIFAR10 
 
+Supervised machine learning is a widely used form of artificial intelligence. There are plenty of ways to approach supervised learning: Some of them being Neural Networks, Convolutional Neural Networks and Residual Networks. I developed an in depth analysis of the difference between these on the CIFAR10 dataset using Jupyter Notebooks and Pytorch.
+
+The code can be found [here](https://github.com/m4mbo/supervised-cifar10).
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/cifardisplay.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ### Automated Waste Sorter
 
 I worked on the waste classification task for a joint project between Lancaster University campuses in Leipzig (Germany) and Bailrigg (England). A pretrained residual network (ResNet50) was used on a curated dataset. 
 
-The dataset can be downloaded [here](https://www.dropbox.com/scl/fi/2cj0e81iuq9tk5y9bx06v/dataset.zip?rlkey=bd5icdcy1cd6okra36cy1fzvi&st=zmtqsghl&dl=0).
+The dataset can be downloaded [here](https://www.dropbox.com/scl/fi/2cj0e81iuq9tk5y9bx06v/dataset.zip?rlkey=bd5icdcy1cd6okra36cy1fzvi&st=zmtqsghl&dl=0) and the code can be found [here](https://github.com/m4mbo/waste-sorter).
 
 #### Results
 
