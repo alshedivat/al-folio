@@ -13,9 +13,9 @@
 
     const openSearchModal = () => {
       // collapse navbarNav if expanded on mobile
-      const navbarNav = document.querySelector('.navbar-collapse');
-      if (navbarNav.classList.contains('show')) {
-        navbarNav.classList.remove('show');
+      const $navbarNav = $('#navbarNav');
+      if ($navbarNav.hasClass('show')) {
+        $navbarNav.collapse('hide');
       }
       ninjaKeys.open();
     };
