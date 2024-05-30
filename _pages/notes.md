@@ -4,7 +4,7 @@ permalink: /notes/
 title: notes
 description: documents that I have written up - course notes, reports, etc.
 nav_num: 4
-nav: true
+nav: false
 ---
 
 1. A [4-page condensed report](https://drive.google.com/file/d/1yr5zKmqjg-6fYczZaY5R50FSbp_qERfx/view?usp=sharing) about my undergraduate thesis - also see the accompanying talk.
