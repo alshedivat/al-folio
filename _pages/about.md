@@ -1,6 +1,6 @@
 ---
-layout: about
-title: about
+layout: About
+title: About
 permalink: /
 subtitle: Mathematics Ph.D. Student, University of Michigan. <a href= 'https://drive.google.com/file/d/1NcjXFir5zheBwQlauXmhPD5OnYVHki2E/view?usp=sharing'>Curriculum Vitae</a>.
 
@@ -23,20 +23,17 @@ Check out my [papers](papers), [projects](projects), and [personal interests](pe
 <details markdown="1">
   <summary markdown="span"> <b> What do I care about, academically? </b> </summary>
   
-  * Mathematical problems motivated by tangible, real-world questions. These days, my work focuses on sequential decision making under various settings - offline-to-online transfer, partial observability/latent information and non-standard feedback and reward models. I also have side projects in deep learning. On the other hand, a lot of my undergraduate background was in geometry, topology and dynamics, with work in computer-assisted topology and geometry. 
+  * Tackling tangible, real-world questions with a principled mathematical approacj. These days, my work focuses on sequential decision making under various settings - offline-to-online transfer, partial observability/latent information and non-standard feedback and reward models. I also have side projects in deep learning. On the other hand, a lot of my undergraduate background was in geometry, topology and dynamics, with work in computer-assisted topology and geometry. 
   * Increasing accessibility to and in higher mathematics and creating communities where ideas cross pollinate and people pull each other up. I have started the Stats, Physics, Astronomy, Math (SPAM) graduate student social initiative at the University of Michigan. I also co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org). I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
 </details>
   
 <details markdown="1">
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
   
+  * Interning at Microsoft in the advertiser optimization team under Ajith Moparthi, working on bidding algorithms and value maximization!
   * Collaborating with Yonathan Efroni (Meta), Aadirupa Saha (Apple), Nadav Merlis (ENSEA) on algorithms for bandit and reinforcement learning algorithms with feedback at varying costs and accuracies, also called multi-fidelity feedback.
-  * Working on unifying various reward and problem frameworks in reinforcement learning and bandits with Aldo Pacchiano (Broad Institute of MIT and Harvard) and Mirco Mutti (Politecnico di Milano)
-  * Designing optimal algorithms for offline-to-online transfer in latent bandits with Kevin Tan (University of Pennsylvania).
-  * Extending my work with Rishi Sonthalia (UCLA) and Kashvi Srivastava (UMich) to more complex denoising models.
-  * Working on algorithms for offline policy evaluation (OPE) in linear bandits, and the role of the geometry of action sets.
-  * Continuing work on our project from [LOGML 2022](https://www.logml.ai/)! I was a participant in Dr. Eli Meirom's group, planning to work on using RL for graph rewiring in GNNs to prevent oversquashing for long range problems.
-  * Thinking about extensions of De Finetti's theorem to decision processes.
+  * Thinking about principled approaches to data collection and learning for RLHF under real-world considerations.
+  * Formulating problems in learning under latent information and nonstationarity in bandits.
   * Organizing an interdepartmental social initiative, SPAM (Statistics, Physics, Astronomy, Mathematics).
   * Fleshing out ideas for more academic communities like Monsoon Math.
 
@@ -46,17 +43,9 @@ Check out my [papers](papers), [projects](projects), and [personal interests](pe
   <summary markdown="span"> <b> What do I want to learn about/do in the future? </b></summary>
    
   _primary goals_
-  * Work on preference-based variants of sequential decision making problems.
-  * Using the multi-step inverse kinematics perspective for designing algorithms that work outside of Markovian assumptions and have strong empirical performance.
-  * Explore multi-objective decision making.
-  * Start maintaining my progress [log](log) again.
-  * Learn about safe RL and think about techniques beyond primal-dual ones, perhaps using model-based RL with uncertain models.
-  * Watch lectures from the Data Driven Decision Processes program at the Simons Institute this semester.
+  * Work on a large scale recommender systems
 
   _side-quests_
-  * Causal inference and its interaction with sequential decision making and RL.
-  * Using insights from machine learning for biology. In a specific example, learning a hierarchical or causal structure from genomics.
-  * Dive deeper into the theory behind GNNs and deep learning in general.
-  * Algorithmic fairness.
+  * 
 
  </details>
