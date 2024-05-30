@@ -1119,7 +1119,9 @@ ninja-keys {
   --ninja-modal-background: var(--global-bg-color);
   --ninja-z-index: 1031;
 }
-
+ninja-keys::part(ninja-input) {
+  color: var(--ninja-selected-text-color);
+}
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
