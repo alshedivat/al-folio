@@ -44,7 +44,8 @@ Books
 - ["Computing Machinery and Intelligence"](https://academic.oup.com/mind/article/LIX/236/433/986238){:target="_blank"} by Alan Turing
 - ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html){:target="_blank"} by Rich Sutton
 - ["Human-Centered Computing is All You Need"](https://arxiv.org/pdf/2405.03699){:target="_blank"}, Eric Gilbert
-- ["The Platonic Representation Hypothesis](https://arxiv.org/pdf/2405.07987){:target="_blank"}
+- ["The Platonic Representation Hypothesis"](https://arxiv.org/pdf/2405.07987){:target="_blank"}
+- ["From Examples to Rules: Machine Learning's Type of Authority"](https://journals.sagepub.com/doi/10.1177/20539517231188725){:target="_blank"}
 
 ---
 
