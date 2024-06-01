@@ -12,6 +12,8 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -36,6 +38,8 @@ on:
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -77,7 +81,7 @@ jobs:
         run: |
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
-          bundle exec jekyll build --lsi
+          bundle exec jekyll build
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
