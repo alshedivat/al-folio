@@ -60,6 +60,9 @@ Movies
 - *Midsommar*
 - *2001: A Space Odyssey*
 - *Dune: Part 2*
+- *Gone Girl*
+- *Coherence*
+- *The Thing*
 
 TV Shows
 - *Succession*
