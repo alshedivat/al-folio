@@ -34,16 +34,16 @@ Books
 
 ### Computer Science
 
-- ["Beyond Personhood: Agency, Accountability, and the Limits of Anthropomorphic Ethical Analysis"](https://arxiv.org/pdf/2404.13861){:target="_blank"} by Jessica Dai
-- ["To Live in Their Utopia: Why Algorithmic Systems Create Absurd Outcomes"](https://ali-alkhatib.com/papers/chi/utopia/utopia.pdf){:target="_blank"} by Ali Alkhatib "*Framing AI as creating and imposing its own utopia against which people are judged is deliberately suggestive...*"
-- ["Antagonistic AI"](https://arxiv.org/pdf/2402.07350.pdf){:target="_blank"} by Alice Cai, Ian Arawjo, Elena Glassman
-- ["The Lottery Ticket Hypothesis"](https://arxiv.org/pdf/1803.03635.pdf){:target="_blank"} by Jonathan Frankle and Michael Carbin
-- ["What's Hidden in a Randomly Weighted Neural Network?"](https://arxiv.org/pdf/1911.13299.pdf){:target="_blank"} by Vivek Ramanjuan and Michell Wortsman
-- ["Moving Beyond 'Algorithmic Bias is a Data Problem'"](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1){:target="_blank"} by Sara Hooker
-- ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547){:target="_blank"} by Francois Chollet
-- ["Computing Machinery and Intelligence"](https://academic.oup.com/mind/article/LIX/236/433/986238){:target="_blank"} by Alan Turing
-- ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html){:target="_blank"} by Rich Sutton
-- ["Human-Centered Computing is All You Need"](https://arxiv.org/pdf/2405.03699){:target="_blank"}, Eric Gilbert
+- ["Beyond Personhood: Agency, Accountability, and the Limits of Anthropomorphic Ethical Analysis"](https://arxiv.org/pdf/2404.13861){:target="_blank"}
+- ["To Live in Their Utopia: Why Algorithmic Systems Create Absurd Outcomes"](https://ali-alkhatib.com/papers/chi/utopia/utopia.pdf){:target="_blank"}
+- ["Antagonistic AI"](https://arxiv.org/pdf/2402.07350.pdf){:target="_blank"}
+- ["The Lottery Ticket Hypothesis"](https://arxiv.org/pdf/1803.03635.pdf){:target="_blank"}
+- ["What's Hidden in a Randomly Weighted Neural Network?"](https://arxiv.org/pdf/1911.13299.pdf){:target="_blank"}
+- ["Moving Beyond 'Algorithmic Bias is a Data Problem'"](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1){:target="_blank"}
+- ["On the Measure of Intelligence"](https://arxiv.org/abs/1911.01547){:target="_blank"}
+- ["Computing Machinery and Intelligence"](https://academic.oup.com/mind/article/LIX/236/433/986238){:target="_blank"}
+- ["The Bitter Lesson"](http://www.incompleteideas.net/IncIdeas/BitterLesson.html){:target="_blank"}
+- ["Human-Centered Computing is All You Need"](https://arxiv.org/pdf/2405.03699){:target="_blank"}
 - ["The Platonic Representation Hypothesis"](https://arxiv.org/pdf/2405.07987){:target="_blank"}
 - ["From Examples to Rules: Machine Learning's Type of Authority"](https://journals.sagepub.com/doi/10.1177/20539517231188725){:target="_blank"}
 - ["Enough With “Human-AI Collaboration"](https://arxiv.org/pdf/2306.01615){:target="_blank"}
