@@ -19,8 +19,8 @@ We seek to comprehensively address open challenges arising from the strong defor
 
 ## In-Hand Following of Deformable Linear Objects Using Dexterous Fingers With Tactile Sensing
 
-* 12/2023 - 03/2024
-* [[Website](https://mingrui-yu.github.io/DLO_following/)]
+{% cite yu2024inhand %} 
+[[Website](https://mingrui-yu.github.io/DLO_following/)]
 
 <iframe width="800" height="450" src="https://mingrui-yu.github.io/DLO_following/main_1080p.mp4" title="24_DLO_Following" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 
@@ -28,8 +28,8 @@ Most research on deformable linear object (DLO) manipulation assumes rigid grasp
 
 ## Generalizable Global Manipulation of Deformable Linear Objects in Constrained Environments
 
-* 10/2022 - 10/2023
-* [[Website](https://mingrui-yu.github.io/DLO_planning_2/)]
+{% cite yu2023generalizable %} 
+[[Website](https://mingrui-yu.github.io/DLO_planning_2/)]
 
 <iframe width="800" height="450" src="https://mingrui-yu.github.io/DLO_planning_2/final_whole.mp4" title="23_DLO_planning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 
@@ -37,8 +37,8 @@ This article focuses on the global moving and shaping of DLOs in constrained env
 
 ## Dual-Arm Manipulation of Deformable Linear Objects with Whole-Body Obstacle Avoidance
 
-* 04/2022 - 09/2022
-* [[Website](https://mingrui-yu.github.io/DLO_planning/)]
+{% cite yu2023acoarse %} 
+[[Website](https://mingrui-yu.github.io/DLO_planning/)]
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/X3WslgHU4VE" title="Dual-Arm Manipulation of Deformable Linear Objects with Whole-Body Obstacle Avoidance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -46,7 +46,7 @@ Manipulating deformable linear objects (DLOs) to achieve desired shapes in const
 
 ## Learning to Estimate 3-D States of Deformable Linear Objects from Occluded Single-Frame Point Clouds
 
-* 04/2022 - 09/2022
+{% cite lv2023learning %} 
 
 <iframe width="800" height="450" src="https://mingrui-yu.github.io/videos/ICRA23_DLO_perception_video.mp4" title="23_DLO_perception" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 
@@ -54,9 +54,8 @@ We focus on learning to robustly estimate the states of DLOs from single-frame p
 
 ## Global Model Learning for Large Deformation Control of Deformable Linear Objects
 
-* 02/2021 - 08/2022
-* {% cite yu2023global %}
-* [[T-RO Website](https://mingrui-yu.github.io/shape_control_DLO_2/)] [[ICRA Website](https://mingrui-yu.github.io/shape_control_DLO/)]
+{% cite yu2023global %} 
+[[T-RO Website](https://mingrui-yu.github.io/shape_control_DLO_2/)] [[ICRA Website](https://mingrui-yu.github.io/shape_control_DLO/)]
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/Gh5ncipo2SA" title="Global Model Learning for Large Deformation Control of Elastic Deformable Linear Objects" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
