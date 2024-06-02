@@ -3,8 +3,8 @@ layout: page
 title: Medical Assistance Robots
 description: another without an image
 img:
-importance: 3
-category: fun
+importance: 1
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

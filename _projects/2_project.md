@@ -3,7 +3,7 @@ layout: page
 title: Contact-Rich Dexterous Manipulation
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
-importance: 2
+importance: 1
 category: work
 giscus_comments: true
 ---

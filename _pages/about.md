@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Department of Automation, Tsinghua University, China</a>. # Address. Contacts. Moto. Etc.
+subtitle: <a href='#'>Department of Automation, Tsinghua University, China</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right

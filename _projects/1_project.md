@@ -55,6 +55,7 @@ We focus on learning to robustly estimate the states of DLOs from single-frame p
 ## Global Model Learning for Large Deformation Control of Deformable Linear Objects
 
 * 02/2021 - 08/2022
+* {% cite yu2023global %}
 * [[T-RO Website](https://mingrui-yu.github.io/shape_control_DLO_2/)] [[ICRA Website](https://mingrui-yu.github.io/shape_control_DLO/)]
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/Gh5ncipo2SA" title="Global Model Learning for Large Deformation Control of Elastic Deformable Linear Objects" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
