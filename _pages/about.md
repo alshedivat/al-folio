@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Scientist at <a href='https://www.novonordisk.com/science-and-technology/research-and-technology-centres/oxford-research-centre.html'>Novo Nordisk</a>. Oxford, United Kingdom.
+subtitle: Senior Scientist at <a href='https://www.novonordisk.com/science-and-technology/research-and-technology-centres/oxford-research-centre.html'>Novo Nordisk</a>. London, United Kingdom.
 
 profile:
   align: right
