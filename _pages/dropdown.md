@@ -1,16 +1,16 @@
 ---
 layout: page
-title: submenus
+title: Tech
 nav: true
-nav_order: 8
+nav_order: 2
 dropdown: true
 children:
-  - title: Paper reviews
-    permalink: /publications/
-  - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Tech blogs
+    permalink: /tech_blogs/
+  # - title: divider
+  # - title: projects
+  #   permalink: /projects/
+  # - title: divider
+  # - title: blog
+  #   permalink: /blog/
 ---
