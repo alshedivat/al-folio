@@ -46,6 +46,7 @@ Books
 - ["Human-Centered Computing is All You Need"](https://arxiv.org/pdf/2405.03699){:target="_blank"}, Eric Gilbert
 - ["The Platonic Representation Hypothesis"](https://arxiv.org/pdf/2405.07987){:target="_blank"}
 - ["From Examples to Rules: Machine Learning's Type of Authority"](https://journals.sagepub.com/doi/10.1177/20539517231188725){:target="_blank"}
+- ["Enough With “Human-AI Collaboration"](https://arxiv.org/pdf/2306.01615){:target="_blank"}
 
 ---
 
