@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Human-Robot Interaction
+title: Medical Assistance Robots
 description: another without an image
 img:
 importance: 3
