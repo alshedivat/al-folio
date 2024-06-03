@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Project 6
-
+title: Medical Assistance Robots
 description: a project with no image
-img:
+img: assets/img/7.jpg
 importance: 1
 category: work
 ---

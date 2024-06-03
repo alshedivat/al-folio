@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Medical Assistance Robots
+title: Human-Robot Interaction
 description: another without an image
-img:
+img: assets/img/7.jpg
 importance: 1
 category: work
 ---

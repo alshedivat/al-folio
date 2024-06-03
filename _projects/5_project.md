@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Human-Robot Interaction
+title: Exoskeleton Robots
 description: a project with a background image
 img: assets/img/1.jpg
 importance: 1
