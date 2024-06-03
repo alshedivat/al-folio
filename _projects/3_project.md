@@ -4,8 +4,8 @@ title: Exploring NYC Airbnb Dashboard
 description: This project delves into the Airbnb listing activity in New York City (NYC) for the year 2019, aiming to uncover trends, patterns, and insights through data visualization.
 img: assets/img/7.jpg
 redirect: https://vishakha-malhotra.shinyapps.io/DS-projects/
-importance: 3
-category: work
+importance: 4
+category: fun
 ---
 
 Every project has a beautiful feature showcase page.
