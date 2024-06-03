@@ -1,80 +1,76 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: NLP model development for IBD Medication Classification
+description: Internship at Bakar Computational Health Sciences Institute
 img:
 importance: 3
-category: fun
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**Introduction**
+This project, presented by Vishakha Malhotra for Health Data Science at UCSF, focuses on the extraction and classification of medications from clinical notes pertaining to Inflammatory Bowel Disease (IBD). The aim is to improve the efficiency and accuracy of medication extraction from unstructured and often poorly written clinical notes, which pose significant challenges in healthcare data management.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Need for Medication Extraction**
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The extraction of patient medication from clinical notes is essential for:
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+- Understanding the types of medications used to address patient needs.
+- Addressing the inconsistencies and errors due to poor grammar and unstructured notes.
+- Overcoming the lack of standardization in prescription writing.
+- Reducing the resource-intensive nature of manual labeling, which requires multiple cross-verifications.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+**Corpus and Annotation Protocol**
+The corpus consists of 350 annotated patient notes, categorized into five groups for testing. The annotation protocol includes:
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+- Advanced therapies and steroids due to their significant side effects.
+- Differentiating between past, current, and future medications.
+- Achieving a high interrater reliability score of 92%.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+**Keyword-Based Medication Classification:**
+Keywords were defined to detect past, present, and future medications:
 
-{% raw %}
+- Past Keywords: Exhaust failure, was on, prior treatments.
+- Current Keywords: Continue, level, stop, wean.
+- Future Keywords: Start, restart, begin, initiation.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+**Model 1: Basic Parsing Approach**
+The initial model used parsers to analyze the assessment and plan, and recommendation sections without sentence splitting. The results were:
 
-{% endraw %}
+- Assessment and plan parser accuracy: 96%
+- Recommendation section parser accuracy: 90%
+- Medication and tense parser accuracy: 72%
+
+**Drawbacks Identified:**
+The first model had several limitations:
+
+- Difficulty in differentiating between sentences.
+- Less generalizable due to reliance on string concatenation.
+- Missed medications prescribed in the assessment and plan section.
+- Inadequate handling of word boundaries.
+
+**Model 2: Regex-Based Approach**
+
+To address the shortcomings, a second model employing regular expressions (regex) was developed. This approach improved accuracy by:
+
+- Splitting sentences accurately and handling custom patterns.
+- Using regex for detecting medications and their corresponding tenses.
+- Ensuring context preservation and flexibility for additional rules.
+- Regex Implementation
+- The regex pattern used was:
+
+\b{re.escape(keyword)}\b.\*?\b{re.escape(med_name)}\b
+
+- This pattern ensures whole word matching, escapes special characters in keywords and medication names, matches any characters between keywords and medication names non-greedily, and is case-insensitive for broader applicability.
+
+**Results and Accuracy**
+The regex-based model significantly improved the accuracy of detecting medications and tenses to 88%. However, there were still challenges with vague statements in the notes.
+
+**Next Steps:**
+The future steps involve:
+
+- Prioritizing the closest keyword to the medication.
+- Testing on additional patient notes.
+- Enhancing the parser's capability to better handle complexities in clinical notes.
+
+**Conclusion:**
+The project demonstrates a substantial improvement in extracting medication information from clinical notes through advanced NLP techniques. By transitioning from a basic parsing approach to a regex-based model, the accuracy and generalizability of the model were significantly enhanced, contributing to better data management in healthcare.
