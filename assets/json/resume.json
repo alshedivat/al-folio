@@ -1,24 +1,21 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Vishakha Malhotra",
+    "label": "Data Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "vishakha.malhotra@ucsf.edu",
+    "url": "https://github.com/dr-vish",
+    "summary": "Dentist turned Data Scientist with a passion for solving complex problems. I have a strong background in data analysis, machine learning, and deep learning. I am currently working as a Research Data Analyst 2 at the University of California, San Francisco. I have a Masters in Health Data Science and a Bachelor's in Dental Surgery. I am proficient in Python, R, SQL, and have experience with various machine learning libraries such as scikit-learn, TensorFlow, and Keras.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
       "city": "San Francisco",
       "countryCode": "US",
       "region": "California"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "drvishakhamalhotra",
+        "url": "https://www.linkedin.com/in/drvishakhamalhotra/"
       }
     ]
   },
@@ -47,15 +44,14 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of California, San Francisco",
+      "location": "San Francisco, CA",
+      "url": "https://www.ucsf.edu/",
+      "area": "Health Data Science",
+      "studyType": "MS",
+      "startDate": "July 2022",
+      "endDate": "June 2024",
+      "score": "3.9/4.0"
     }
   ],
   "awards": [

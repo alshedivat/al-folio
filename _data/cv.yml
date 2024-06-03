@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Vishakha Malhotra
     - name: Date of Birth
-      value: 14th March 1879
+      value: 8th September 1996
     - name: Languages
-      value: English, German
+      value: English, Hindi, Punjabi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MS in Health Data Science
+      institution: University of California San Francisco
+      year: 2024
       description:
         - Description 1.
         - Description 2.
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Bachelor of Dental Surgery
+      institution: Mahatma Gandhi Dental College, Jaipur, India
+      year: December 2020
       description:
         - Description 1.
         - Description 2.
