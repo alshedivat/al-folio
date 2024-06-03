@@ -6,7 +6,7 @@ nav_order: 2
 dropdown: true
 children:
   - title: Tech blogs
-    permalink: /tech_blogs/
+    permalink: https://medium.com/@meisjoe8
   # - title: divider
   # - title: projects
   #   permalink: /projects/
