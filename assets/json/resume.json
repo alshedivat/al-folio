@@ -27,10 +27,28 @@
       "name": "Linkedin",
       "position": "Sr. Software Engineer, Machine Learning",
       "url": "",
-      "startDate": "April 2022",
-      "endDate": "October 2023",
+      "startDate": "Apr'22",
+      "endDate": "Oct'23",
       "summary": "As part of Trust and Safety of LinkedIn platform built end-to-end solutions to moderate content and advertisements using deep learning focused in Computer Vision and NLP.",
       "highlights": ["Image classification", "fraud detection"]
+    },
+    {
+      "name": "Linkedin",
+      "position": "Applied Research Engineer, Computer vision",
+      "url": "",
+      "startDate": "Jul'19",
+      "endDate": "Mar'22",
+      "summary": "Enabled trust capabilities for linkedin's foundational models like Image captioning.",
+      "highlights": ["Image captioning", "abuse classification"]
+    },
+    {
+      "name": "Capillary Technologies",
+      "position": "Sr. Data Scientist",
+      "url": "",
+      "startDate": "Aug'17",
+      "endDate": "Jul'19",
+      "summary": "Built recommendation engines for retail and e-commerce platforms specifically for campaign personalization and product recommendations.",
+      "highlights": ["Collaborative Filtering", "Recommender systems"]
     }
   ],
   "education": [
@@ -40,10 +58,10 @@
       "url": "https://www.iitm.ac.in/",
       "area": "Computer Science",
       "studyType": "Masters in Technology",
-      "startDate": "July, 2014",
-      "endDate": "May, 2016",
+      "startDate": "Jul'14",
+      "endDate": "May'16",
       "score": "",
-      "courses": ["Machine Learning", "Computer Vision", "Kernel methods for pattern analysis"]
+      "courses": ["Machine Learning", "Computer Vision", "Data Mining", "Kernel methods for pattern analysis"]
     }
   ],
   "certificates": [

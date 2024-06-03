@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /life/
-title: life
+title: Life
 description: Link to all the non technical side of my world.
 nav: true
 nav_order: 4
@@ -9,7 +9,10 @@ nav_order: 4
 
 This is a window to some of my interests. I pursue these in not so disciplined fashion. Some of the interests remain more long term like dancing. Others I pick and drop as per convenience.
 
-
+1. Dancing
+2. Personal blogging
+3. Book reviews
+  
 <!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /resume/
-title: **resume**
+title: Resume
 nav: true
 nav_order: 3
 cv_pdf: example_pdf.pdf
-description: CV
+description: 
 toc:
   sidebar: left
 ---
