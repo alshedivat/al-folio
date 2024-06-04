@@ -24,4 +24,3 @@ Beyond technical proficiency, I believe in the power of collaboration and effect
 When I'm not immersed in data, you can find me exploring new techniques, staying updated on the latest advancements in the field, or sharing my knowledge through writing and mentoring. I'm committed to continuous learning and growth, always seeking new challenges that push the boundaries of what's possible with data science.
 
 Join me on this journey as we navigate the vast landscape of data, uncovering hidden gems and transforming information into impact, one insight at a time.
-
