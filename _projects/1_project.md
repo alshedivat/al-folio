@@ -22,7 +22,11 @@ We seek to comprehensively address open challenges arising from the strong defor
 {% cite yu2024inhand %}
 [[Website](https://mingrui-yu.github.io/DLO_following/)]
 
-<iframe width="800" height="450" src="https://mingrui-yu.github.io/DLO_following/main_1080p.mp4" title="24_DLO_Following" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://mingrui-yu.github.io/DLO_following/main_1080p.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 
 Most research on deformable linear object (DLO) manipulation assumes rigid grasping. However, beyond rigid grasping and re-grasping, in-hand following is also an essential skill that humans use to dexterously manipulate DLOs. In this work, inspired by how humans use fingers to follow DLOs, we explore the usage of a generic dexterous hand with tactile sensing to imitate human skills and achieve robust in-hand DLO following. To enable the hardware system to function in the real world, we develop a framework that includes Cartesian-space arm-hand control, tactile-based in-hand 3-D DLO pose estimation, and task-specific motion design.
 
@@ -31,7 +35,11 @@ Most research on deformable linear object (DLO) manipulation assumes rigid grasp
 {% cite yu2023generalizable %}
 [[Website](https://mingrui-yu.github.io/DLO_planning_2/)]
 
-<iframe width="800" height="450" src="https://mingrui-yu.github.io/DLO_planning_2/final_whole.mp4" title="23_DLO_planning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://mingrui-yu.github.io/DLO_planning_2/final_whole.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 
 This article focuses on the global moving and shaping of DLOs in constrained environments by dual-arm robots. The main objectives are 1) to efficiently and accurately accomplish this task, and 2) to achieve generalizable and robust manipulation of various DLOs. To this end, we propose a complementary framework with whole-body planning and control using appropriate DLO model representations. Experiments demonstrate that our framework can accomplish considerably more complicated tasks than existing works. It achieves a 100% planning success rate among thousands of trials with an average time cost of less than 15 second, and a 100% manipulation success rate among 135 real-world tests on five different DLOs.
 
@@ -40,7 +48,11 @@ This article focuses on the global moving and shaping of DLOs in constrained env
 {% cite yu2023acoarse %}
 [[Website](https://mingrui-yu.github.io/DLO_planning/)]
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/X3WslgHU4VE" title="Dual-Arm Manipulation of Deformable Linear Objects with Whole-Body Obstacle Avoidance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/X3WslgHU4VE" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 
 Manipulating deformable linear objects (DLOs) to achieve desired shapes in constrained environments with obstacles is a meaningful but challenging task. We propose a coarse-to-fine framework to combine global planning and local control for dual-arm manipulation of DLOs, capable of precisely achieving desired configurations and avoiding potential collisions between the DLO, robot, and obstacles. Both simulations and real-world experiments demonstrate that our framework can robustly achieve desired DLO configurations in constrained environments with imprecise DLO models, which may not be reliably achieved by only planning or control.
 
@@ -48,7 +60,11 @@ Manipulating deformable linear objects (DLOs) to achieve desired shapes in const
 
 {% cite lv2023learning %}
 
-<iframe width="800" height="450" src="https://mingrui-yu.github.io/videos/ICRA23_DLO_perception_video.mp4" title="23_DLO_perception" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://mingrui-yu.github.io/videos/ICRA23_DLO_perception_video.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 
 We focus on learning to robustly estimate the states of DLOs from single-frame point clouds in the presence of occlusions using a data-driven method. Simulation and real-world experimental results demonstrate that our method can generate globally smooth and locally precise DLO state estimation results even with heavily occluded point clouds, which can be directly applied to real-world robotic manipulation of DLOs in 3-D space.
 
@@ -58,6 +74,10 @@ We focus on learning to robustly estimate the states of DLOs from single-frame p
 {% cite yu2022shape %}
 [[T-RO Website](https://mingrui-yu.github.io/shape_control_DLO_2/)] [[ICRA Website](https://mingrui-yu.github.io/shape_control_DLO/)]
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/Gh5ncipo2SA" title="Global Model Learning for Large Deformation Control of Elastic Deformable Linear Objects" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/Gh5ncipo2SA" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
 
 We propose a coupled offline and online data-driven method for efficiently learning a global deformation model, allowing for both accurate modeling through offline learning and further updating for new DLOs via online adaptation. We also propose a convex-optimization-based controller and analyze the system’s stability using the Lyapunov method. Detailed simulations and real-world experiments demonstrate that our method can efficiently and precisely estimate the deformation model, and achieve large deformation control of untrained DLOs in 2D and 3D dual-arm manipulation tasks better than the existing methods. learning.
