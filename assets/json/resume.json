@@ -36,7 +36,11 @@
       "startDate": "May 2023",
       "endDate": "Present",
       "summary": "Developed a high accuracy (90%) information extraction pipeline for identifying medications gastroenterologists prescribed medications for Inflammatory Bowel Disease.",
-      "highlights": ["Employed NLP techniques to clean, reformat and extract data from 13,000+ unstructured patient notes", "Presented findings at lab meetings", "Collaborated with a team of researchers and clinicians to develop a natural language processing pipeline to extract medication information from unstructured clinical notes"]
+      "highlights": [
+        "Employed NLP techniques to clean, reformat and extract data from 13,000+ unstructured patient notes",
+        "Presented findings at lab meetings",
+        "Collaborated with a team of researchers and clinicians to develop a natural language processing pipeline to extract medication information from unstructured clinical notes"
+      ]
     },
     {
       "name": "Dr. Gupta's Dental and Braces Clinic",
@@ -44,7 +48,11 @@
       "startDate": "Jan 2021",
       "endDate": "May 2022",
       "summary": "Provided dental care to patients and supervised dental assistants.",
-      "highlights": ["Performed dental procedures such as fillings, extractions, and root canals", "Recorded and maintained patient data before and after comprehensive treatment using MS Excel.", "Analyzed patient experience data and identified factors for improvement in the patient visit cycle."]
+      "highlights": [
+        "Performed dental procedures such as fillings, extractions, and root canals",
+        "Recorded and maintained patient data before and after comprehensive treatment using MS Excel.",
+        "Analyzed patient experience data and identified factors for improvement in the patient visit cycle."
+      ]
     },
     {
       "name": "Mahatma Gandhi Dental College and Hospital",
@@ -53,7 +61,11 @@
       "startDate": "Oct 2019",
       "endDate": "Dec 2020",
       "summary": "Provided dental care to patients and supervised dental assistants.",
-      "highlights": ["Performed dental procedures such as fillings, extractions, and root canals", "Educated patients on oral hygiene and preventive care", "Managed dental emergencies and referred patients to specialists when needed"]
+      "highlights": [
+        "Performed dental procedures such as fillings, extractions, and root canals",
+        "Educated patients on oral hygiene and preventive care",
+        "Managed dental emergencies and referred patients to specialists when needed"
+      ]
     }
   ],
   "volunteer": [
@@ -65,7 +77,12 @@
       "startDate": "Nov 2023",
       "endDate": "April 2024",
       "summary": "Planning and hosting an in-person High School Outreach Conference to help high school students from underrepresented backgrounds learn more about the different health professional STEM professions.",
-      "highlights": ["Attended meetings and provided feedback on the curriculum and logistics of the conference", "Helped with the planning and execution of the conference", "Assisted with the recruitment of high school students to attend the conference", " Conducted and volunteered activities during the conference"]
+      "highlights": [
+        "Attended meetings and provided feedback on the curriculum and logistics of the conference",
+        "Helped with the planning and execution of the conference",
+        "Assisted with the recruitment of high school students to attend the conference",
+        " Conducted and volunteered activities during the conference"
+      ]
     }
   ],
   "education": [
@@ -160,74 +177,32 @@
   "skills": [
     {
       "name": "Areas",
-      "keywords": [
-        "Machine Learning",
-        "Data Analysis",
-        "Data Mining",
-        "Data Wrangling",
-        "Data Visualization"
-      ]
+      "keywords": ["Machine Learning", "Data Analysis", "Data Mining", "Data Wrangling", "Data Visualization"]
     },
     {
       "name": "Programming Languages",
-      "keywords": [
-        "R",
-        "Python",
-        "SQL",
-        "Bash",
-        "Stata"
-      ]
+      "keywords": ["R", "Python", "SQL", "Bash", "Stata"]
     },
     {
       "name": "Areas",
-      "keywords": [
-        "Machine Learning",
-        "Data Analysis",
-        "Data Mining",
-        "Data Wrangling",
-        "Data Visualization"
-      ]
+      "keywords": ["Machine Learning", "Data Analysis", "Data Mining", "Data Wrangling", "Data Visualization"]
     },
     {
       "name": "Libraries",
-      "keywords": [
-        "scikit-learn",
-        "TensorFlow",
-        "Keras",
-        "Pandas",
-        "NumPy",
-        "SpaCy"
-      ]
+      "keywords": ["scikit-learn", "TensorFlow", "Keras", "Pandas", "NumPy", "SpaCy"]
     },
     {
       "name": "Databases",
-      "keywords": [
-        "MySQL",
-        "PostgreSQL",
-        "SQLite"
-      ]
+      "keywords": ["MySQL", "PostgreSQL", "SQLite"]
     },
     {
       "name": "Tools",
-      "keywords": [
-        "Git",
-        "Jupyter",
-        "VS Code",
-        "Tableau",
-        "Power BI"
-      ]
+      "keywords": ["Git", "Jupyter", "VS Code", "Tableau", "Power BI"]
     },
     {
       "name": "Statistical Methods",
-      "keywords": [
-        "T-tests",
-        "ANOVA",
-        "Correlation",
-        "Regression",
-        "Hypothesis Testing"
-      ]
+      "keywords": ["T-tests", "ANOVA", "Correlation", "Regression", "Hypothesis Testing"]
     }
-
   ],
   "languages": [
     {
