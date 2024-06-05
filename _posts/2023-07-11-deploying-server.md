@@ -573,10 +573,11 @@ Other useful R packages are:
 - `devtools` for package development
 - `tidyverse` for geneal data analysis
 - `tidyomics` for omics data analysis
+- `ComplexHeatmap` for visualizing matrices
 
 ```r
 install.packages(c("devtools", "tidyverse"))
-BiocManager::install("tidyomics")
+BiocManager::install(c("tidyomics", "ComplexHeatmap"))
 ```
 
 When running `devtools::install_github()`, you may encounter an error complaining that the API rate limit has been exceeded. The solution to this issue is to create a GitHub token.
