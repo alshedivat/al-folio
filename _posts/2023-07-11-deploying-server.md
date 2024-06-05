@@ -15,14 +15,14 @@ Recently, our lab acquired a server equipped with a standard Ubuntu operating sy
 
 ## Create a new user (with root privileges)
 
-Typically, the server comes with a default user named after the vendor, in my instance, `inspur`. This user is a regular user but can gain root privileges by executing commands using the `sudo` prefix followed by typing its password. To create a custom account with similar privileges, follow these steps:
+Typically, the server comes with a default user named after the vendor, in my instance, `inspur`. This user is a regular user but can gain root privileges by executing commands using the `sudo` prefix followed by typing their password. To create a custom account with similar privileges, follow these steps:
 
 ```bash
 sudo useradd -d "/home/<user_name>" -m -s "/bin/bash" <user_name>
 ```
 
 - `-d "/volume1/home/<user_name>"` will set `/volume1/home/<user_name>` as home directory of the new Ubuntu account.
-- `-m` will create the user’s home directory.
+- `-m` will create the user's home directory.
 - `-s "/bin/bash"`will set `/bin/bash` as login shell of the new account.
   This command will create a regular account `<user_name>`. If you want `<user_name>` to have root privileges, type:
 
@@ -38,11 +38,11 @@ To set the password of the new account, conduct:
 sudo passwd <user_name>
 ```
 
-After running the command, you will be prompted to type your password. Please note that Ubuntu will not display the password you are typing explicitly or implicitly (like dots). Just type the password you want to set and press `Enter`.
+After running the command, you will be prompted to type the password for the new account. Please note that Ubuntu will not display the password you are typing, either explicitly or implicitly (like dots). Just type the password you want to set and press `Enter`.
 
 ## Change terminal prompt (optional)
 
-A beautiful terminal prompt can bring a beautiful day. To change the terminal prompt, conduct
+A beautiful terminal prompt can bring a beautiful day. To change the terminal prompt, execute
 
 ```bash
 cd ~
@@ -76,7 +76,7 @@ PS1='\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;
 
 This is my `PS1` value. Save the `.bashrc` file, close your current terminal and open a new one. The terminal prompt will look like this:
 
-<span style="color:magenta">23:02:02</span>-<span style="color:skyblue">tdeng</span>@<span style="color:green">inspur-NP5570M5:</span><span style="color:gold">~/data</span>$ .
+<span style="color:magenta">23:02:02</span>-<span style="color:skyblue">tdeng</span>@<span style="color:green">inspur-NP5570M5:</span><span style="color:gold">~/data</span>$
 
 ## Enable remote access
 
@@ -151,7 +151,7 @@ ssh -T git@github.com
 
 Instead of `Anaconda` I decide to use `Miniforge` to manage multiple `Python` environments. It has several advantages over Anaconda:
 
-- The conda-forge channel is set as the default channel. So yoo don't need to type `-c conda-forge`.
+- The conda-forge channel is set as the default channel. So you don't need to type `-c conda-forge`.
 - It uses [`Mamba`](https://mamba.readthedocs.io/en/latest/index.html), a very fast package manager (although `Anaconda` can also use `Mamba`, additional operations to set `conda-libmamba-solver` as the dfault solver are required).
 
 You can consider `Miniforge` as an alternative to `Anaconda`. You can replace the `conda` command with `mamba` for a better interface, or you can simply keep using the `conda` command for a seamless replacement. Below I will only show the former approach.
@@ -251,13 +251,13 @@ I recommend to install the [jupyterlab-lsp](https://github.com/jupyter-lsp/jupyt
 mamba install jupyterlab_execute_time
 ```
 
-Refer to [this website](https://jupyterhub.readthedocs.io/en/stable/tutorial/getting-started/config-basics.html) for the configuration of JupyterHub.
+Refer to this [website](https://jupyterhub.readthedocs.io/en/stable/tutorial/getting-started/config-basics.html) for the configuration of JupyterHub.
 
 Refer to
-[this website](https://professorkazarinoff.github.io/jupyterhub-engr114/systemd/) for how to run JupyterHub as a system service.
+this [website](https://professorkazarinoff.github.io/jupyterhub-engr114/systemd/) for how to run JupyterHub as a system service.
 
 Refer to
-[this website](https://linuxconfig.org/how-to-start-service-on-boot-on-ubuntu-20-04) for how to start the service on boot. The core command is
+this [website](https://linuxconfig.org/how-to-start-service-on-boot-on-ubuntu-20-04) for how to start the service on boot. The key command is
 
 ```bash
 sudo systemctl enable jupyterhub
@@ -293,7 +293,7 @@ jupyter kernelspec uninstall <kernel_name>
 Our research involves deep learning, so I need to install `pytorch`along with other required packages:
 
 ```bash
-mamba install -c pytorch -c nvidia scvi-tools tensorflow torchvision torchaudio  # fro deep learning tasks
+mamba install -c pytorch -c nvidia scvi-tools tensorflow torchvision torchaudio  # for deep learning tasks
 mamba install ipykernel ipywidgets # for running in JupyterHub
 mamba install scanpy squidpy biopython rpy2 opencv   # for biological analysis
 mamba install xgboost lightgbm catboost hdbscan optuna  # for machine learning tasks
@@ -515,13 +515,28 @@ watch -n 0.2 nvidia-smi
 
 ### Install R
 
-The simplest way to install `R` is to run
+The simplest way to install `R` >= 4.0 is to run
 
 ```bash
 sudo apt-get install r-base
 ```
 
-However, it will not bring you the latest version of `R`. To get the latest version of `R`, re fer to [this website](https://cran.r-project.org/bin/linux/ubuntu/fullREADME.html).
+However, it will not bring you the latest version of `R`. To get the latest version of `R`, refer to [this website](https://phoenixnap.com/kb/install-r-ubuntu) and [this offical website](https://cran.r-project.org/bin/linux/ubuntu/fullREADME.html). Here I copy the core commands:
+
+```bash
+# update the package list from repositories
+sudo apt update
+# install without confirmation
+sudo apt install software-properties-common dirmngr -y
+# download the R project public key and add it to the trusted list of GPG keys used by apt
+wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo tee -a /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+# verify the key; the fingerprint should be E298A3A825C0D65DFD57CBB651716619E084DAB9
+gpg --show-keys /etc/apt/trusted.gpg.d/cran_ubuntu_key.asc
+# add the CRAN repository for your version of Ubuntu to the list of sources apt uses to install packages
+sudo add-apt-repository "deb https://cloud.r-project.org/bin/linux/ubuntu $(lsb_release -cs)-cran40/"
+# install R and its development packages
+sudo apt install r-base r-base-dev -y
+```
 
 ### Install RStudio
 
@@ -537,6 +552,10 @@ sudo apt-get install build-essential libssl-dev libcurl4-openssl-dev libxml2-dev
 
 Then the process of installing `Seurat` should be very smooth:
 
+```bash
+sudo R
+```
+
 ```r
 chooseCRANmirror(graphics=FALSE)
 install.packages("Seurat")
@@ -549,10 +568,15 @@ options(timeout=999)
 install.packages("<large_package>")
 ```
 
-Another useful R package for package development is `devtools`:
+Other useful R packages are:
+
+- `devtools` for package development
+- `tidyverse` for geneal data analysis
+- `tidyomics` for omics data analysis
 
 ```r
-install.packages("devtools")
+install.packages(c("devtools", "tidyverse"))
+BiocManager::install("tidyomics")
 ```
 
 When running `devtools::install_github()`, you may encounter an error complaining that the API rate limit has been exceeded. The solution to this issue is to create a GitHub token.
