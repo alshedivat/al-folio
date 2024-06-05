@@ -2,7 +2,7 @@
 layout: post
 title: Deploying a Server for Bioinformatics Research
 date: 2023-07-11
-last_updated: 2024-04-25
+last_updated: 2024-06-04
 description: how to deploy a server for bioinformatics research
 tags: deployment server Ubuntu
 categories: computer
@@ -145,16 +145,30 @@ Test the connection:
 ssh -T git@github.com
 ```
 
-## Configure the python environment
+## Configure the Python environment
 
-### Install Anaconda
+### Install Miniforge
 
-Just follow the [official installation guide](https://docs.anaconda.com/free/anaconda/install/linux/). I prefer install anaconda at `/usr/local/anaconda3`. You don't need to create this folder in advance. During the installation you will have chance to specify the installation directory.
+Instead of `Anaconda` I decide to use `Miniforge` to manage multiple `Python` environments. It has several advantages over Anaconda:
 
-To initialize conda, conduct
+- The conda-forge channel is set as the default channel. So yoo don't need to type `-c conda-forge`.
+- It uses [`Mamba`](https://mamba.readthedocs.io/en/latest/index.html), a very fast package manager (although `Anaconda` can also use `Mamba`, additional operations to set `conda-libmamba-solver` as the dfault solver are required).
+
+You can consider `Miniforge` as an alternative to `Anaconda`. You can replace the `conda` command with `mamba` for a better interface, or you can simply keep using the `conda` command for a seamless replacement. Below I will only show the former approach.
+
+To install `Miniforge`, just follow the installation guide in its [README](https://github.com/conda-forge/miniforge). Here I copy the core commands:
 
 ```bash
-/path/to/conda init  # /usr/local/anaconda3/bin/conda in my case
+wget "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+bash Miniforge3-$(uname)-$(uname -m).sh
+```
+
+I prefer install anaconda at `/usr/local/miniforge3` so that the environments can be shared by users (but only users with root can modify them). You don't need to create this folder in advance. During the installation you will have chance to specify the installation directory.
+
+To initialize mamba, conduct
+
+```bash
+/path/to/mamba init  # /usr/local/anaconda3/bin/mamba in my case
 ```
 
 and reopen the terminal.
@@ -164,39 +178,51 @@ and reopen the terminal.
 I recommend creating new environments and installing site packages with root privileges (`sudo su`) to restrict regular users from modifying the environments. If a regular user wants to update an environment, they should contact the system administrator for assistance. If he/she doesn't and conduct a command secretly like
 
 ```bash
-conda update --all
+mamba update --all
 ```
 
 he/she will proceed with the update plan but finally fail with error info:
 
 ```bash
-Proceed ([y]/n)? y
+Confirm changes: [Y/n] y
 
+frozendict                                          49.0kB @  60.0kB/s  0.8s
+libzlib                                             61.6kB @  72.1kB/s  0.9s
+lzo                                                171.4kB @ 168.4kB/s  1.0s
+menuinst                                           137.7kB @ 131.9kB/s  1.0s
+libsolv                                            470.7kB @ 324.7kB/s  1.4s
+conda                                              961.2kB @ 558.1kB/s  0.9s
 
-Downloading and Extracting Packages
+Downloading and Extracting Packages:
 
 Preparing transaction: done
 Verifying transaction: failed
+The current user does not have write permissions to the target environment.
+  environment location: /usr/local/miniforge3
+  uid: 1000
+  gid: 1000
+
+
 
 EnvironmentNotWritableError: The current user does not have write permissions to the target environment.
-  environment location: /usr/local/anaconda3/envs/bio
-  uid: 1001
-  gid: 1001
+  environment location: /usr/local/miniforge3
+  uid: 1000
+  gid: 1000
 ```
 
 The commands for creating new environment are:
 
 ```bash
 # create with a specified name
-conda create --name <new_env_name> python=3.11 --no-default-packages
-# create with a specified location
-conda create --prefix /path/to/directory python=3.11 --no-default-packages
+mamba create --name <new_env_name> python=3.11 --no-default-packages
+# create with a specified location; regular users can use this command to create an environment in their home directory
+mamba create --prefix /path/to/directory python=3.11 --no-default-packages
 ```
 
 - `--name <new_env_name>` will set the name of the new environment.
-- `--prefix /path/to/directory` will set the path to the directory where you want to create the environment。
-- `python=3.11` means conda will install python 3.11 in the new environment.
-- `--no-default-packages` will only install python. No other site packages will be included.
+- `--prefix /path/to/directory` will set the path to the directory where you want to create the environment
+- `python=3.11` means mamba will install `Python` 3.11 in the new environment.
+- `--no-default-packages` will only install `Python`. No other site packages will be included.
 
 I did not modify the `base` environment and proceeded to create two new environments: `jupyter` and `bio`. `jupyter` only contains packages related to jupyterhub, while `bio` encompasses all the necessary packages for research purposes.
 
@@ -204,37 +230,25 @@ If you wish to delete an environment for any reason, utilize the following comma
 
 ```bash
 # delete with a specified name
-conda remove --name <env_name> --all
+mamba remove --name <env_name> --all
 # delete with a specified location
-conda remove --prefix /path/to/directory
+mamba remove --prefix /path/to/directory --all
 ```
 
-### Install python packages
-
-#### Mamba
-
-Before install other python packages, I recommend to install `conda-libmamba-solver` first, which is a faster solver:
-
-```bash
-conda update -n <env_name> conda
-conda install -n <env_name> conda-libmamba-solver
-conda config --set solver libmamba
-```
-
-The plugin needs to be present in the same environment you use `conda` from; most of the time, this is your `base` environment.
+### Install Python packages
 
 #### JupyterHub
 
-You may want to use `JupyterHub`.
+You may want to install `JupyterHub`, which serves Jupyter notebook for multiple users.
 
 ```bash
-conda install -c conda-forge jupyterhub jupyterlab notebook jupyter-lsp-python jupyterlab-lsp
+mamba install jupyterhub jupyterlab notebook jupyter-lsp-python jupyterlab-lsp
 ```
 
 I recommend to install the [jupyterlab-lsp](https://github.com/jupyter-lsp/jupyterlab-lsp), a powerful coding assistance for JupyterLab. Another useful plugin is [jupyterlab-execute-time](https://github.com/deshaw/jupyterlab-execute-time), which can display cell timings in JupyterLab. Use the following command to install it:
 
 ```bash
-conda install -c conda-forge jupyterlab_execute_time
+mamba install jupyterlab_execute_time
 ```
 
 Refer to [this website](https://jupyterhub.readthedocs.io/en/stable/tutorial/getting-started/config-basics.html) for the configuration of JupyterHub.
@@ -243,22 +257,28 @@ Refer to
 [this website](https://professorkazarinoff.github.io/jupyterhub-engr114/systemd/) for how to run JupyterHub as a system service.
 
 Refer to
-[this website](https://linuxconfig.org/how-to-start-service-on-boot-on-ubuntu-20-04) for how to start the service on boot.
+[this website](https://linuxconfig.org/how-to-start-service-on-boot-on-ubuntu-20-04) for how to start the service on boot. The core command is
+
+```bash
+sudo systemctl enable jupyterhub
+```
+
+From version 5.0, you must modify the `jupyterhub_config.py` file to grants users who can successfully authenticate access to the Hub. Check [this official tutorial](https://jupyterhub.readthedocs.io/en/stable/tutorial/getting-started/authenticators-users-basics.html) out.
 
 #### Add/delete an environment as a kernel
 
 To add an environment as a kernel:
 
 ```bash
-conda activate <env_name>  # or /path/to/directory if you create the env with --prefix
-conda install ipykernel  # if the env doesn't contain this package
+mamba activate <env_name>  # or /path/to/directory if you create the env with --prefix
+mamba install ipykernel  # if the env doesn't contain this package
 python -m ipykernel install --name <kernel_name>
 ```
 
-These commands add `<env_name>` environment as a kernel with name `<kernel_name>`. If your Python is 3.11, you may need to modify the last command:
+These commands add `<env_name>` environment as a kernel with name `<kernel_name>`. If your `Python` is 3.11, you may need to modify the last command:
 
 ```bash
-python -Xfrozen_modules=off -m ipykernel install --name bio
+python -Xfrozen_modules=off -m ipykernel install --name <kernel_name>
 ```
 
 To delete a kernel:
@@ -270,20 +290,21 @@ jupyter kernelspec uninstall <kernel_name>
 
 #### Other packages
 
-Our research involves deep learning, so I need to install `pytorch` and `tensorflow` along with other required packages:
+Our research involves deep learning, so I need to install `pytorch`along with other required packages:
 
 ```bash
-conda install -c pytorch -c nvidia -c conda-forge scvi-tools tensorflow torchvision torchaudio
-conda install -c conda-forge scanpy squidpy ipykernel ipywidgets rpy2 opencv biopython
-conda install -c conda-forge xgboost lightgbm catboost
+mamba install -c pytorch -c nvidia scvi-tools tensorflow torchvision torchaudio  # fro deep learning tasks
+mamba install ipykernel ipywidgets # for running in JupyterHub
+mamba install scanpy squidpy biopython rpy2 opencv   # for biological analysis
+mamba install xgboost lightgbm catboost hdbscan optuna  # for machine learning tasks
 ```
 
 Note: `pytorch` and `pytorch-lightning` are dependencies of `scvi-tools` so you don't need to install these two packages again.
 
-Sometimes you may use `conda search <package_name>` to search for a package with a specific build number. To install a specific version/build of a certain packages, conduct:
+Sometimes you may use `mamba search <package_name>` to search for a package with a specific build number. To install a specific version/build of a certain packages, conduct:
 
 ```bash
-conda install <package_name>=<version>=<build_string>
+mamba install <package_name>=<version>=<build_string>
 ```
 
 #### Check pytorch/tensorflow
@@ -295,7 +316,7 @@ import torch
 import tensorflow as tf
 
 # check pytorch and cuda in use
-print(torch.cuda.version)
+print(torch.version.cuda)
 print(torch.cuda.is_available())
 print(torch.cuda.device_count())
 print(torch.cuda.current_device())
@@ -494,7 +515,13 @@ watch -n 0.2 nvidia-smi
 
 ### Install R
 
-Refer to [this website](https://www.digitalocean.com/community/tutorials/how-to-install-r-on-ubuntu-22-04) for instructions on adding the external repository maintained by CRAN for `APT` and subsequently installing `R`.
+The simplest way to install `R` is to run
+
+```bash
+sudo apt-get install r-base
+```
+
+However, it will not bring you the latest version of `R`. To get the latest version of `R`, re fer to [this website](https://cran.r-project.org/bin/linux/ubuntu/fullREADME.html).
 
 ### Install RStudio
 
@@ -502,25 +529,30 @@ Follow the [official installation guide](https://posit.co/download/rstudio-serve
 
 ### Install R packages
 
-As an example, let's install one of the most famous R package in the field of single-cell genomics, [`Seurat`](https://satijalab.org/seurat/index.html). Before the installation, you need to install some system-level dependencies first:
+As an example, let's install one of the most prevalent R package in the field of single-cell genomics, [`Seurat`](https://satijalab.org/seurat/index.html) (version 5). Before the installation, you need to install some system-level dependencies first:
 
 ```bash
-sudo apt install cmake pandoc pandoc-citeproc libcurl4-openssl-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev imagemagick libmagick++-dev libhdf5-dev libgsl-dev libssl-dev libblas-dev liblapack-dev
+sudo apt-get install build-essential libssl-dev libcurl4-openssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libhdf5-dev libgsl-dev
 ```
 
 Then the process of installing `Seurat` should be very smooth:
 
 ```r
 chooseCRANmirror(graphics=FALSE)
-install.packages("devtools")
-remotes::install_github("satijalab/seurat", "seurat5", quiet = TRUE)
+install.packages("Seurat")
 ```
 
-If you intend to install an extremely large R package, you'd better set a longer timeout:
+Additional packages can be installed to enhance the functionality of `Seurat`. Check the [official intallation tutorial](https://satijalab.org/seurat/articles/install_v5) of `Seurat` out. If you intend to install an extremely large R package, you'd better set a longer timeout:
 
 ```r
 options(timeout=999)
 install.packages("<large_package>")
+```
+
+Another useful R package for package development is `devtools`:
+
+```r
+install.packages("devtools")
 ```
 
 When running `devtools::install_github()`, you may encounter an error complaining that the API rate limit has been exceeded. The solution to this issue is to create a GitHub token.
@@ -529,19 +561,13 @@ When running `devtools::install_github()`, you may encounter an error complainin
 usethis::create_github_token()
 ```
 
-Run this code and log in to your GitHub account. Click `Settings` &rarr; `Developer settings` &rarr; `Personal access token` &rarr; `Tokens (classic)` and generate a token. Run
+Run this code in your RStudio console and log in to your GitHub account. Click `Settings` &rarr; `Developer settings` &rarr; `Personal access token` &rarr; `Tokens (classic)` (if the browser does not automatically direct you to this page) and generate a token. Run
 
 ```r
-usethis::edit_r_environ()
+gitcreds::gitcreds_set()
 ```
 
-to open the `.Renviron` file, in which type
-
-```text
-GITHUB_PAT=<your_personal_key>
-```
-
-and save the file. Quit the current R session and start a new session. The error should be solved.
+also in your RStudio console to add the token. The limit should be relaxed and you can continue the installation.
 
 ## Synchronize data
 
