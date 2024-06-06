@@ -17,6 +17,7 @@ nav: false
 ### Philosophy
 
 Essays and Articles
+- ["Paperless Philosophy as a Philosophical Method"](https://philpapers.org/archive/BOUPPA.pdf){:target="_blank"}, David Bourget
 - ["Situated Knowledges"](https://www.jstor.org/stable/3178066){:target="_blank"}, Donna Haraway
 - ["Symposium: Vision and Choice in Morality"](https://www.jstor.org/stable/4106662){:target="_blank"}, Iris Murdoch
 - ["How Not to Solve Ethical Problems"](https://kuscholarworks.ku.edu/bitstream/handle/1808/12397/How%20Not%20to%20Solve%20Ethical%20Problems-1983.pdf){:target="_blank"}, Hilary Putnam
