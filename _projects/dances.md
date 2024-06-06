@@ -2,8 +2,8 @@
 layout: page
 title: Dancing
 description: Collection of my original choreographies
-img: assets/img/12.jpg
 importance: 2
+img: assets/img/dancer.png
 category: work
 related_publications: false
 ---

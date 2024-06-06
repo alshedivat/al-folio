@@ -14,12 +14,14 @@ profile:
     <p> </p>
 
 news: true # includes a list of news items
+latest_posts: false
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
 Hello! Welcome to my world! 
-In this homepage you can checkout links to some of my interests. If you are seeking some more infomation on my technical write-ups check out the 'Tech' drop-down. The non-technical section can be found on 'Life' drop-down. I would seldom post some of the updates in my professional journey that you can find below this section. If you are interested in working with me check out the 'resume'. 
+
+*If you want to check out my professional journey and are interested in working with me check out the 'resume' tab. If you are seeking some infomation on my technical write-ups check out the 'Tech' drop-down. The non-technical section can be found on 'Life' tab.* 
 
 
 :chestnut: :shell: In a nutshell 
