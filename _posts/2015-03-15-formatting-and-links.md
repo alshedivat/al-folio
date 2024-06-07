@@ -1,13 +1,13 @@
 ---
 layout: post
-title: a post with formatting and links
-date: 2015-03-15 16:40:16
-description: march & april, looking forward to summer
+title: Pathogen-agnostic effects of BCG vaccination
+date: 2024-06-07 16:40:16
+description: BCG vaccine: guarding against TB and enhancing newborn immunity to various infections through "trained immunity" and "emergency granulopoiesis."
 tags: formatting links
 categories: sample-posts
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. [Pinterest](https://www.pinterest.com) DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+Bacille Calmette Guerin (BCG; a live vaccine containing attenuated Mycobacterium bovis), the vaccine against Tuberculosis (TB), is one of the oldest vaccines still given and one of the most administered in vaccine history. The benefits of BCG vaccination extend far beyond offering protection against TB and have been found to reduce risk for serious infections resulting in deaths or hospitalizations from unrelated infections; called non-specific or pathogen-agnostic effects of the BCG vaccine. These pathogen-agnostic effects are especially powerful when BCG is given to newborns, who are at exceptionally high risk to die of infectious diseases; BCG-vaccinated newborns in low resource settings have half the risk to die compared to unvaccinated newborns. These effects involve the way that the BCG vaccine alters innate immunity. BCG induces a process called “trained immunity”, which epigenetically reprograms stem cells in the bone marrow to give rise to monocytes that are “trained” to mount a more robust inflammatory response to unrelated stimuli. In newborns, our team discovered that BCG also induces a process called “emergency granulopoiesis (EG)”, or a rapid production of mature neutrophils, which are then able to rapidly clear invading microbes. EG explains the beneficial pathogen-agnostic effects of BCG vaccination in newborns. The cytokine Granulocyte-Colony Stimulating Factor (G-CSF) initiates EG.
 
 #### Hipster list
 
