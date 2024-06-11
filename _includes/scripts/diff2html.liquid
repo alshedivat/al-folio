@@ -10,7 +10,7 @@
 
     /* Create diff2html as another node and hide the code block, appending the diff2html node after it
        this is done to enable retrieving the code again when changing theme between light/dark */
-    document.addEventListener("readystatechange", () => {
+    document.addEventListener('readystatechange', () => {
       if (document.readyState === 'complete') {
         document.querySelectorAll('pre>code.language-diff2html').forEach((elem) => {
           const textData = elem.textContent;

@@ -6,7 +6,7 @@
   ></script>
   <script>
     /* Create leaflet map as another node and hide the code block, appending the leaflet node after it */
-    document.addEventListener("readystatechange", () => {
+    document.addEventListener('readystatechange', () => {
       if (document.readyState === 'complete') {
         document.querySelectorAll('pre>code.language-geojson').forEach((elem) => {
           const jsonData = elem.textContent;
