@@ -2,10 +2,10 @@
   <script type="module" src="{{ '/assets/js/search/ninja-keys.min.js' | relative_url | bust_file_cache }}"></script>
   <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
   <script>
-    let theme = determineComputedTheme();
+    let searchTheme = determineComputedTheme();
     const ninjaKeys = document.querySelector('ninja-keys');
 
-    if (theme === 'dark') {
+    if (searchTheme === 'dark') {
       ninjaKeys.classList.add('dark');
     } else {
       ninjaKeys.classList.remove('dark');

@@ -30,7 +30,7 @@
     crossorigin="anonymous"
   ></script>
   <script>
-    document.onreadystatechange = () => {
+    document.addEventListener('readystatechange', () => {
       if (document.readyState === 'complete') {
         document.querySelectorAll('pre>code.language-pseudocode').forEach((elem) => {
           const texData = elem.textContent;
@@ -47,6 +47,6 @@
           pseudocode.renderElement(pseudoCodeElement);
         });
       }
-    };
+    });
   </script>
 {% endif %}
