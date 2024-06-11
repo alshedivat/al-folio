@@ -84,6 +84,10 @@ jobs:
           gem install bundler
           bundle install
           bundle exec jekyll build
+      - name: Fix permission 
+        run: |
+          chmod a+x bin/*
+          git commit - am "add executive permission to bin/deploy"
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
