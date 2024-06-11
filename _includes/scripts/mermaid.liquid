@@ -14,7 +14,7 @@
     ></script>
   {% endif %}
   <script>
-    let theme = determineComputedTheme();
+    let mermaidTheme = determineComputedTheme();
 
     /* Create mermaid diagram as another node and hide the code block, appending the mermaid node after it
        this is done to enable retrieving the code again when changing theme between light/dark */
@@ -32,7 +32,7 @@
           backup.after(mermaid);
         });
 
-        mermaid.initialize({ theme: theme });
+        mermaid.initialize({ theme: mermaidTheme });
 
         /* Zoomable mermaid diagrams */
         if (typeof d3 !== 'undefined') {
