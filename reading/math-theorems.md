@@ -152,3 +152,53 @@ The orbit stabilizer theorem: $$|G| = |G_x| \cdot |O_x|$$, where $$G_x$$ is the 
 
 ## Computability Theory
 
+*Branching Programs.*
+Every function $$f : \{0, 1\}^n \to \{0, 1\}$$ can be computed by a branching program of width 5 and length $$O(4^d)$$.
+
+*Circuits.*
+Every function can be computed by a circuit of size at most $$O(2^n / n)$$.
+
+*Time Hierarchy.*
+If $$r, t$$ are time-constructible functions satisfying $$r(n) \log r(n) = o(t(n))$$, then $$\text{DTIME}(r(n)) \subsetneq \text{DTIME}(t(n))$$.
+
+*Space Hierarchy.*
+If $$q, s$$ are space-constructible functions satisfying $$q(n) = o(s(n))$$, then $$\text{DSPACE}(q(n)) \subsetneq \text{DSPACE}(s(n))$$.
+
+*Circuit Hierarchy.*
+Every function $$f: \{0, 1\}^* \to \{0, 1\}$$ is in $$\text{SIZE}(2^n / n)$$.
+For every large enough $$n$$, there is a function $$f : \{0, 1\}^n \to \{0, 1\}$$ that cannot b ecomputed by a circuit of size $$2^n / 3n$$.
+
+*TQBF*.
+The $$\text{TQBF}$$ function maps the set of totally quantified boolean formulas to 0 or 1.
+TQBF is $$\textbf{PSPACE}$$-complete, meaning that every function in $$\textbf{PSPACE}$$ can be reduced in polynomial time to $$\text{TQBF}$$.
+
+*SAT*.
+There is no Turing machine computing circuit-satisfiability in $$O(n)$$ time and $$O(\log n)$$ space.
+
+*Matrix product checking.*
+To check if $$A \times B = C$$ for three $$n \times n$$ matrices $$A, B, C$$, randomly sample $$r \in \{0, 1\}^n$$ and check if $$ABr = Cr$$ repeatedly. This randomized algorithm takes only $$O(n^2)$$ time and has exponentially decreasing error rate.
+
+*A complication for proving $$P ?= NP$$.*
+There exists an oracle $$A$$ such that $$P^A = NP^A$$, and an oracle $$B$$ such that $$P^B \neq NP^B$$.
+Therefore any proof on $$P ?= NP$$ may not work in relativized worlds where access to both is permitted, whereas other familiar proofs to relativize.
+
+*The true identity of $$\textbf{ZPP}$$.*
+$$\mathbf{ZPP}$$ is the class of boolean functions with an algorithm which never makes an error, but whose expected running time is polynomial in $$n$$.
+$$\mathbf{RP}$$ is the class of boolean functions which can be computed by a machine which is always correct when $$f(x) = 0$$ and which is $$2/3$$ correct when $$f(x) = 1$$.
+$$\mathbf{ZPP} = \mathbf{RP} \cap co\mathbf{RP}$$
+
+*The permanent* of an $$n \times n$$ matrix $$M$$ is $$\sum_\pi \Pi_{i=1}^n M_{i, \pi(i)}$$ where the sum is taken over all permutations $$\pi : [n] \to [n]$$.
+The class $$\#P$$ contains the functions for which the number of satisfying assignments can be computed in polynomial time.
+The permanent is $$\#P$$-complete.
+
+$$\mathbf{IP} = \mathbf{PSPACE}$$.
+That is, the set of functions computable with an interactive polynomial verifier with high probability is equal to the set of functions computable in polynomial space.
+
+*The blind man.*
+A blind man is trying to buy a red rag and a blue rag.
+But he is not sure if the salesman is trying to trick him or not. The salesman could, for instance, give him two red rags or two blue rags.
+The blind man shuffles rags behind his back, but keeps track of the identities of each (so at first he doesn't know the true colors, but he knows which rag is which).
+He randomly pulls out a rag and asks the salesman what color it is. Then, he puts it behind his back and shuffles again, repeating this several times.
+If the salesman gives two conflicting answers for the same rag (e.g., calling it red one time and blue another time), then the blind man knows that he is lying.
+If, on the other hand, the salesman consistently calls one rag blue and the other rag red, then the blind man is sure that he indeed has one blue and one red rag.
+The moral of this story is that even a "handicapped" verifier can compute powerful functions with randomness and interaction.
