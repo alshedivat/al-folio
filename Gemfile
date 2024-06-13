@@ -13,6 +13,7 @@ group :jekyll_plugins do
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
+    gem 'jekyll-tabs'
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
@@ -21,6 +22,7 @@ group :jekyll_plugins do
     gem 'webrick'
 end
 group :other_plugins do
+    gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
 end

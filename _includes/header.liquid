@@ -10,10 +10,10 @@
                 <span class="font-weight-bold" style="color:#B509AC;"><font size="6">&lsaquo;</font>{{ site.first_name }}|</span>
                 </span
               >
+
             {% endif %}
             {% if site.middle_name %}
               {{- site.middle_name -}}
-              &nbsp;
             {% endif %}
             {% if site.last_name %}
               <b>{{- site.last_name -}}<font size="6">&rsaquo;</font></b>
@@ -109,12 +109,21 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% if site.search_enabled %}
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          {% endif %}
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
-                <i class="fa-solid fa-moon"></i>
-                <i class="fa-solid fa-sun"></i>
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>
             </li>
           {% endif %}

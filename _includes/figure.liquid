@@ -1,6 +1,10 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
 
-<figure>
+<figure
+  {% if include.slot %}
+    slot="{{ include.slot }}"
+  {% endif %}
+>
   <picture>
     <!-- Auto scaling with imagemagick -->
     <!--
@@ -34,17 +38,21 @@
       {% else %}
         height="auto"
       {% endif %}
-      {% if include['min-width'] %}
-        min-width="{{ include.min-width }}"
-      {% endif %}
-      {% if include['min-height'] %}
-        min-height="{{ include.min-height }}"
-      {% endif %}
-      {% if include['max-width'] %}
-        max-width="{{ include.max-width }}"
-      {% endif %}
-      {% if include['max-height'] %}
-        max-height="{{ include.max-height }}"
+      {% if include['min-width'] or include['min-height'] or include['max-width'] or include['max-height'] %}
+        style="
+          {% if include['min-width'] %}
+            min-width: {{ include.min-width }};
+          {% endif %}
+          {% if include['min-height'] %}
+            min-height: {{ include.min-height }};
+          {% endif %}
+          {% if include['max-width'] %}
+            max-width: {{ include.max-width }};
+          {% endif %}
+          {% if include['max-height'] %}
+            max-height: {{ include.max-height }};
+          {% endif %}
+        "
       {% endif %}
       {% if include.alt %}
         alt="{{ include.alt }}"
@@ -54,6 +62,11 @@
       {% endif %}
       {% if include.zoomable %}
         data-zoomable
+      {% endif %}
+      {% if include.loading %}
+        loading="{{ include.loading }}"
+      {% elsif site.lazy_loading_images %}
+        loading="lazy"
       {% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
     >
