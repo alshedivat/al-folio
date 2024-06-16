@@ -54,7 +54,9 @@ Books
 ### Film
 
 Movies
-- *Nuovo Olimpo*
+- *Coherence*
+- *The Thing*
+- *The Trial of the Chicago Seven*
 - *Oppenheimer*
 - *Summer of '85*
 - *La La Land*
@@ -62,8 +64,6 @@ Movies
 - *2001: A Space Odyssey*
 - *Dune: Part 2*
 - *Gone Girl*
-- *Coherence*
-- *The Thing*
 
 TV Shows
 - *Succession*
