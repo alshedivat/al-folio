@@ -33,7 +33,6 @@ Feel free to add your own page(s) by sending a PR.
 <tr>
 <td>Academics</td>
 <td>
-<a href="https://sraf.ir" target="_blank">★</a>
 <a href="https://martinbulla.github.io" target="_blank">★</a>
 <a href="https://maruan.alshedivat.com" target="_blank">★</a>
 <a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
@@ -142,6 +141,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://abhilesh.github.io/" target="_blank">★</a>
 <a href="https://jackjburnett.github.io/" target="_blank">★</a>
 <a href="https://physics-morris.github.io/" target="_blank">★</a>
+<a href="https://sraf.ir" target="_blank">★</a>
 </td>
 </tr>
 <tr>
