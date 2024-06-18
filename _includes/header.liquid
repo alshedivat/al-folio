@@ -95,7 +95,7 @@
                   </div>
                 </li>
               {% else %}
-              {% assign parent_link = p.permalink | remove: 'index.html' %}
+                {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
