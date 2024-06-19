@@ -16,3 +16,7 @@
     <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
   </li>
 {% endfor %}
+{% if site.newsletter.enabled and site.footer_fixed %}
+  <p class="mb-2" style="margin-top: 1.5rem !important">Subscribe to be notified of future articles:</p>
+  {% include scripts/newsletter.liquid left=true %}
+{% endif %}
