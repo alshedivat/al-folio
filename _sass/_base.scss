@@ -1128,15 +1128,16 @@ ninja-keys {
   --ninja-modal-background: var(--global-bg-color);
   --ninja-z-index: 1031;
 }
+
 ninja-keys::part(ninja-input) {
   color: var(--ninja-selected-text-color);
 }
+
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
 }
 
 // newsletter
-
 .newsletter-form-container {
   margin-bottom: 20px;
 }
@@ -1245,5 +1246,44 @@ ninja-keys::part(ninja-input-wrapper) {
   .newsletter-form-container {
     margin-right: 20px;
     margin-left: 20px;
+  }
+}
+
+// popover is used for annotation in bib.liquid
+.popover {
+  background-color: var(--global-bg-color);
+  border-color: var(--global-divider-color);
+
+  .popover-header {
+    color: var(--global-text-color); // Header text color
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+  
+  .popover-body {
+    color: var(--global-text-color); // Body text color
+  }
+}
+
+.bs-popover-top {
+  // arrow fill color
+  .arrow::after {
+    border-top-color: var(--global-bg-color);
+  }
+  
+  // arrow border color
+  .arrow:before {
+    border-top-color: var(--global-divider-color);
+  }
+}
+
+.bs-popover-bottom {
+  // arrow fill color
+  .arrow::after {
+    border-bottom-color: var(--global-bg-color);
+  }
+  
+  // arrow border color
+  .arrow:before {
+    border-bottom-color: var(--global-divider-color);
   }
 }
