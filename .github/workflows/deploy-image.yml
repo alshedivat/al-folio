@@ -3,8 +3,9 @@ name: Docker Image CI
 on:
   push:
     branches:
-      - master
-      - main
+      # - master
+      # - main
+      - site
     paths:
       - "bin/entry_point.sh"
       - "Dockerfile"
