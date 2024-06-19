@@ -2,6 +2,12 @@ name: Docker Slim
 
 #Only trigger, when the build workflow succeeded
 on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - ".github/workflows/docker-slim.yml"
   workflow_run:
     workflows: ["Docker Image CI"]
     types:
