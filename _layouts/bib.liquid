@@ -59,7 +59,8 @@
 
       {%- for author in entry.author_array limit: author_array_limit -%}
         {% assign author_is_self = false %}
-        {%- assign author_last_name = author.last | remove: '¶' | remove: '&' | remove: '*' | remove: '†' | remove: '^' -%}
+        {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+        {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         {% if site.scholar.last_name contains author_last_name %}
           {% if site.scholar.first_name contains author.first %}
             {% assign author_is_self = true %}
@@ -83,17 +84,17 @@
         {%- if author_is_self -%}
           <em>
             {{- author.first }}
-            {{ author.last -}}
+            {{ author_last_html -}}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{coauthor_url}}">
               {{- author.first }}
-              {{ author.last -}}
+              {{ author_last_html -}}
             </a>
           {%- else -%}
             {{- author.first }}
-            {{ author.last -}}
+            {{ author_last_html -}}
           {% endif %}
         {%- endif -%}
       {% endfor %}
@@ -111,6 +112,7 @@
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
         {%- endfor -%}
+        {% assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
         , and
         <span
           class="more-authors"
@@ -121,7 +123,7 @@
               var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
-                element.text(more_authors_text.substring(0, cursorPosition + 1));
+                element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
@@ -130,6 +132,16 @@
         >
           {{- more_authors_hide -}}
         </span>
+      {% endif %}
+      {% if entry.annotation %}
+        <i
+          class="fa-solid fa-circle-info ml-1"
+          data-toggle="popover"
+          data-placement="top"
+          data-html="true"
+          data-content="{{ entry.annotation | escape }}"
+        >
+        </i>
       {% endif %}
     </div>
 
