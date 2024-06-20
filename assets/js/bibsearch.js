@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
           }
         }
         iterator = iterator.nextElementSibling;
-        if (iterator?.tagName === "H2") {
+        if (iterator && iterator.tagName === "H2") {
           break;
         }
       }
