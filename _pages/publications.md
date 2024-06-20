@@ -8,6 +8,9 @@ nav_order: 2
 ---
 
 <!-- _pages/publications.md -->
+
+<input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+
 <div class="publications">
 
 {% bibliography %}
