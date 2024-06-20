@@ -13,11 +13,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Add unloaded class to year if no item left in this year
     document.querySelectorAll("h2.bibliography").forEach(function (element) {
-      let siblings = element.nextElementSibling.querySelectorAll(":scope > li.unloaded");
-      let totalSiblings = element.nextElementSibling.querySelectorAll(":scope > li");
+      let iterator = element;
+      let hideAll = true;
+      while (iterator) {
+        if (iterator.tagName === "OL") {
+          let ol = iterator;
+          let siblings = ol.querySelectorAll(":scope > li.unloaded");
+          let totalSiblings = ol.querySelectorAll(":scope > li");
 
-      if (siblings.length === totalSiblings.length) {
-        element.classList.add("unloaded"); // Add the '.unloaded' class to the filtered elements
+          if (siblings.length === totalSiblings.length) {
+            ol.previousElementSibling.classList.add("unloaded"); // Add the '.unloaded' class to the previous grouping element (e.g. year)
+            ol.classList.add("unloaded"); // Add the '.unloaded' class to the OL itself
+          } else {
+            hideAll = false;
+          }
+        }
+        iterator = iterator.nextElementSibling;
+        if (iterator?.tagName === "H2") {
+          break;
+        }
+      }
+      if (hideAll) {
+        element.classList.add("unloaded");
       }
     });
   };
