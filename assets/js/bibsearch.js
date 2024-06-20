@@ -1,42 +1,42 @@
-$(document).ready(() => {
+document.addEventListener("DOMContentLoaded", function () {
   // actual bibsearch logic
-  function filterItems(searchTerm) {
-    $(".bibliography > .unloaded").removeClass("unloaded");
+  const filterItems = (searchTerm) => {
+    document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
+
     // Add unloaded class to all non-matching items
-    $(".bibliography > li")
-      .filter((index, element) => {
-        // we simply search in the text representation of the bibtex entry
-        let text = $(element).text().toLowerCase();
-        return text.indexOf(searchTerm) == -1;
-      })
-      .addClass("unloaded");
-    // add unladed class to year if no item left in this year
-    $("h2.bibliography")
-      .filter(function () {
-        let $this = $(this);
-        let $nextSibling = $this.next("ol.bibliography");
+    document.querySelectorAll(".bibliography > li").forEach((element, index) => {
+      let text = element.innerText.toLowerCase();
+      if (text.indexOf(searchTerm) == -1) {
+        element.classList.add("unloaded");
+      }
+    });
 
-        // Check if all <li> items within the <ol> have the '.unloaded' class
-        return $nextSibling.find("li.unloaded").length === $nextSibling.find("li").length;
-      })
-      .addClass("unloaded"); // Add the '.unloaded' class to the filtered elements
-  }
+    // Add unloaded class to year if no item left in this year
+    document.querySelectorAll("h2.bibliography").forEach(function (element) {
+      let siblings = element.nextElementSibling.querySelectorAll(":scope > li.unloaded");
+      let totalSiblings = element.nextElementSibling.querySelectorAll(":scope > li");
 
-  function updateInputField() {
-    let hashValue = decodeURIComponent(window.location.hash.substring(1)); // Remove the '#' character
-    $("#bibsearch").val(hashValue);
+      if (siblings.length === totalSiblings.length) {
+        element.classList.add("unloaded"); // Add the '.unloaded' class to the filtered elements
+      }
+    });
+  };
+
+  const updateInputField = () => {
+    let hashValue = window.location.hash.substring(1); // Remove the '#' character
+    document.getElementById("bibsearch").value = decodeURIComponent(hashValue);
     filterItems(hashValue);
-  }
+  };
 
-  // sensitive search. only start searching if there's been no input for 300 ms
+  // Sensitive search. Only start searching if there's been no input for 300 ms
   let timeoutId;
-  $("#bibsearch").on("keyup", () => {
+  document.getElementById("bibsearch").addEventListener("keyup", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
-    let searchTerm = $("#bibsearch").val().toLowerCase();
+    let searchTerm = this.value.toLowerCase();
     timeoutId = setTimeout(filterItems(searchTerm), 300);
   });
 
-  $(window).on("hashchange", updateInputField); // Update the filter when the hash changes
+  window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
 
   updateInputField(); // Update filter when page loads
 });
