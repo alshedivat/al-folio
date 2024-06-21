@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Add unloaded class to all non-matching items
     document.querySelectorAll(".bibliography > li").forEach((element, index) => {
-      let text = element.innerText.toLowerCase();
+      const text = element.innerText.toLowerCase();
       if (text.indexOf(searchTerm) == -1) {
         element.classList.add("unloaded");
       }
