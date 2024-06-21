@@ -13,13 +13,13 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    // Add unloaded class to year if no item left in this year
     document.querySelectorAll("h2.bibliography").forEach(function (element) {
-      let iterator = element;
-      let hideAll = true;
-      while (iterator) {
+      let iterator = element.nextElementSibling; // get next sibling element after h2, which can be h3 or ol
+      let hideFirstGroupingElement = true;
+      // iterate until next group element (h2), which is already selected by the querySelectorAll(-).forEach(-)
+      while (iterator && iterator.tagName !== "H2") {
         if (iterator.tagName === "OL") {
-          let ol = iterator;
+          const ol = iterator;
           const unloadedSiblings = ol.querySelectorAll(":scope > li.unloaded");
           const totalSiblings = ol.querySelectorAll(":scope > li");
 
@@ -27,15 +27,13 @@ document.addEventListener("DOMContentLoaded", function () {
             ol.previousElementSibling.classList.add("unloaded"); // Add the '.unloaded' class to the previous grouping element (e.g. year)
             ol.classList.add("unloaded"); // Add the '.unloaded' class to the OL itself
           } else {
-            hideAll = false;
+            hideFirstGroupingElement = false; // there is at least some visible entry, don't hide the first grouping element
           }
         }
         iterator = iterator.nextElementSibling;
-        if (iterator && iterator.tagName === "H2") {
-          break;
-        }
       }
-      if (hideAll) {
+      // Add unloaded class to first grouping element (e.g. year) if no item left in this group
+      if (hideFirstGroupingElement) {
         element.classList.add("unloaded");
       }
     });
