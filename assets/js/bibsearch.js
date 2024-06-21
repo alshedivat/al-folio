@@ -20,10 +20,10 @@ document.addEventListener("DOMContentLoaded", function () {
       while (iterator) {
         if (iterator.tagName === "OL") {
           let ol = iterator;
-          let siblings = ol.querySelectorAll(":scope > li.unloaded");
-          let totalSiblings = ol.querySelectorAll(":scope > li");
+          const unloadedSiblings = ol.querySelectorAll(":scope > li.unloaded");
+          const totalSiblings = ol.querySelectorAll(":scope > li");
 
-          if (siblings.length === totalSiblings.length) {
+          if (unloadedSiblings.length === totalSiblings.length) {
             ol.previousElementSibling.classList.add("unloaded"); // Add the '.unloaded' class to the previous grouping element (e.g. year)
             ol.classList.add("unloaded"); // Add the '.unloaded' class to the OL itself
           } else {
