@@ -27,14 +27,14 @@ statisics research and applications.
 Previously, I obtained my Ph.D. in mathematics from Nanyang Technological
 University (NTU) in 2022. In my [dissertation](https://hdl.handle.net/10356/163311),
 I developed a hybrid of additive and varying coefficient models that enables a
-fitting algorithm to build a complex model based on prior knowledge in the
-form of predictions from a base model.
+fitting algorithm to leverage prior knowledge encoded in predictions from a base
+model to build a complex model.
 - Notably, this approach resulted in a generalization of gradient
 boosting, known as base boosting.
   - That is, gradient boosting initializes its fit of an additive model
   at a constant model then iteratively improves upon it.
-  - In contrast, base boosting initializes its fit of the hybrid additive and
-  varying coefficient model at the base model, which may be a non-constant
+  - Base boosting, on the other hand, initializes its fit of the hybrid additive
+  and varying coefficient model at the base model, which may be a non-constant
   model, then iteratively improves upon it.
 - Empirically, base boosting outperformed popular boosting libraries and
 Google's quantum physics model on quantum device and Taylor series data sets.
