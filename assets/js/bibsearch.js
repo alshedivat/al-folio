@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let timeoutId;
   document.getElementById("bibsearch").addEventListener("keyup", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
-    let searchTerm = this.value.toLowerCase();
+    const searchTerm = this.value.toLowerCase();
     timeoutId = setTimeout(filterItems(searchTerm), 300);
   });
 
