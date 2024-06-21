@@ -11,6 +11,8 @@
 @STRING{DATA_SHORT = {Data}}
 @STRING{NEJM_AI = {NEJM AI}}
 @STRING{NEJM_AI_SHORT = {NEJM AI}}
+@STRING{MICCAI = {International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)}}
+@STRING{MICCAI_SHORT = {MICCAI}}
 
 
 @article{ferber2024gpt4,
@@ -58,18 +60,19 @@
   keywords  = {preprint}
 }
 
-@misc{elnahhas2024joint,
+@inproceedings{elnahhas2024joint,
   title     = {Joint multi-task learning improves weakly-supervised biomarker prediction in computational pathology},
   author    = {El Nahhas, Omar S. M. and W\"{o}lflein, Georg and Ligero, Marta and Lenz, Tim and van Treeck, Marko and Khader, Firas and Truhn, Daniel and Kather, Jakob Nikolas},
-  year      = {2024},
   author+an = {2=highlight},
-  note      = UNDERREVIEW,
+  year      = {2024},
+  booktitle = MICCAI,
+  abbr      = MICCAI_SHORT,
   url       = {https://arxiv.org/abs/2403.03891},
   pdf       = {https://arxiv.org/pdf/2403.03891.pdf},
   code      = {https://github.com/Avic3nna/joint-mtl-cpath},
   preview   = {joint-mtl.png},
   abstract  = {Deep Learning (DL) can predict biomarkers directly from digitized cancer histology in a weakly-supervised setting. Recently, the prediction of continuous biomarkers through regression-based DL has seen an increasing interest. Nonetheless, clinical decision making often requires a categorical outcome. Consequently, we developed a weakly-supervised joint multi-task Transformer architecture which has been trained and evaluated on four public patient cohorts for the prediction of two key predictive biomarkers, microsatellite instability (MSI) and homologous recombination deficiency (HRD), trained with auxiliary regression tasks related to the tumor microenvironment. Moreover, we perform a comprehensive benchmark of 16 approaches of task balancing for weakly-supervised joint multi-task learning in computational pathology. Using our novel approach, we improve over the state-of-the-art area under the receiver operating characteristic by +7.7\% and +4.1\%, as well as yielding better clustering of latent embeddings by +8\% and +5\% for the prediction of MSI and HRD in external cohorts, respectively.},
-  keywords  = {preprint}
+  keywords  = {conference,paper}
 }
 
 @misc{elnahhas2023from,
@@ -86,15 +89,32 @@
   keywords  = {preprint}
 }
 
+@misc{wolflein2024benchmarking,
+  title     = {Benchmarking Pathology Feature Extractors for Whole Slide Image Classification},
+  author    = {W\"{o}lflein, Georg and Ferber, Dyke and Meneghetti, Asier Rabasco and El Nahhas, Omar S. M. and Truhn, Daniel and Carrero, Zunamys I. and Harrison, David J. and Arandjelovi\'{c}, Ognjen and Kather, Jakob Nikolas},
+  author+an = {1=highlight},
+  year      = {2024},
+  note      = UNDERREVIEW,
+  selected  = {false},
+  url       = {https://arxiv.org/abs/2311.11772v5},
+  pdf       = {https://arxiv.org/pdf/2311.11772v5.pdf},
+  code      = {https://github.com/georg-wolflein/good-features},
+  website   = {https://georg.woelflein.eu/good-features},
+  video     = {https://www.youtube.com/watch?v=Tst4XtaT9RE},
+  preview   = {histaug.png},
+  abstract  = {Weakly supervised whole slide image classification is a key task in computational pathology, which involves predicting a slide-level label from a set of image patches constituting the slide. Constructing models to solve this task involves multiple design choices, often made without robust empirical or conclusive theoretical justification. To address this, we conduct a comprehensive benchmarking of feature extractors to answer three critical questions: 1) Is stain normalisation still a necessary preprocessing step? 2) Which feature extractors are best for downstream slide-level classification? 3) How does magnification affect downstream performance? Our study constitutes the most comprehensive evaluation of publicly available pathology feature extractors to date, involving more than 10,000 training runs across 14 feature extractors, 9 tasks, 5 datasets, 3 downstream architectures, 2 levels of magnification, and various preprocessing setups. Our findings challenge existing assumptions: 1) We observe empirically, and by analysing the latent space, that skipping stain normalisation and image augmentations does not degrade performance, while significantly reducing memory and computational demands. 2) We develop a novel evaluation metric to compare relative downstream performance, and show that the choice of feature extractor is the most consequential factor for downstream performance. 3) We find that lower-magnification slides are sufficient for accurate slide-level classification. Contrary to previous patch-level benchmarking studies, our approach emphasises clinical relevance by focusing on slide-level biomarker prediction tasks in a weakly supervised setting with external validation cohorts. Our findings stand to streamline digital pathology workflows by minimising preprocessing needs and informing the selection of feature extractors.},
+  keywords  = {preprint}
+}
+
 @misc{wolflein2023good,
   title     = {A Good Feature Extractor Is All You Need for Weakly Supervised Pathology Slide Classification},
-  author    = {W\"{o}lflein, Georg and Ferber, Dyke and Meneghetti, Asier Rabasco and El Nahhas, Omar S. M. and Truhn, Daniel and Carrero, Zunamys I. and Harrison, David J. and Arandjelovi\'{c}, Ognjen and Kather, Jakob N.},
+  author    = {W\"{o}lflein, Georg and Ferber, Dyke and Meneghetti, Asier Rabasco and El Nahhas, Omar S. M. and Truhn, Daniel and Carrero, Zunamys I. and Harrison, David J. and Arandjelovi\'{c}, Ognjen and Kather, Jakob Nikolas},
   author+an = {1=highlight},
   year      = {2023},
   note      = UNDERREVIEW,
   selected  = {true},
-  url       = {https://arxiv.org/abs/2311.11772},
-  pdf       = {https://arxiv.org/pdf/2311.11772.pdf},
+  url       = {https://arxiv.org/abs/2311.11772v4},
+  pdf       = {https://arxiv.org/pdf/2311.11772v4.pdf},
   code      = {https://github.com/georg-wolflein/good-features},
   website   = {https://georg.woelflein.eu/good-features},
   video     = {https://www.youtube.com/watch?v=Tst4XtaT9RE},
