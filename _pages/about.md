@@ -24,23 +24,20 @@ statisics research and applications.
         {% include figure.liquid loading="eager" path="assets/img/blob_6.png" title="example image" class="img-fluid rounded z-depth-1" width="350px" %}
 </div>
 
-Previously, I obtained my PhD in mathematics from Nanyang Technological
+Previously, I obtained my Ph.D. in mathematics from Nanyang Technological
 University (NTU) in 2022. In my [dissertation](https://hdl.handle.net/10356/163311),
-I introduced an inductive bias that endows additive models and their
-fitting algorithms with the ability to incorporate domain knowledge in
-the form of predictions from a base model.
+I developed a hybrid of additive and varying coefficient models that enables a
+fitting algorithm to build a complex model based on prior knowledge in the
+form of predictions from a base model.
 - Notably, this approach resulted in a generalization of gradient
 boosting, known as base boosting.
   - That is, gradient boosting initializes its fit of an additive model
   at a constant model then iteratively improves upon it.
-  - In contrast, base boosting initializes its fit of an additive model
-  at the base model, which may be a non-constant model, then iteratively
-  improves upon it.
-  - In other words, base boosting fully fuses the paradigm of gradient
-  boosting with the data analysis method of reroughing.
-- Empirically, base boosting outperformed Google's cutting-edge quantum
-physics model and the most widely applied gradient boosting libraries
-on quantum device and Taylor series data sets.
+  - In contrast, base boosting initializes its fit of the hybrid additive and
+  varying coefficient model at the base model, which may be a non-constant
+  model, then iteratively improves upon it.
+- Empirically, base boosting outperformed popular boosting libraries and
+Google's quantum physics model on quantum device and Taylor series data sets.
 
 Additionally, I am an original member of the 
 [Mathematical Picture Language Project](https://mathpicture.fas.harvard.edu/)
