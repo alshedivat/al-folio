@@ -3,6 +3,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const filterItems = (searchTerm) => {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
 
+    // highlight-search-term
+    highlightSearchTerm({ search: searchTerm, selector: "ol.bibliography" });
+
     if (!searchTerm) return; // do nothing if the search term is empty
 
     // Add unloaded class to all non-matching items
