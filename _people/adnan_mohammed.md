@@ -1,7 +1,7 @@
 ---
 layout: page
 firstname: Adnan
-lastname: Mohd
+lastname: Mohammed
 description: PhD Student<br/>
 img: assets/img/people/adnanmohd.jpg
 redirect: https://adnan1306.github.io
