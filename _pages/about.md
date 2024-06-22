@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I'm a PhD candidate in [Brain and Cognitive Sciences](https://bcs.mit.edu/) at [MIT](https://www.mit.edu/) :brain:. I'm advised by [Earl K. Miller](https://ekmillerlab.mit.edu/earl-miller/) & [Ila R. Fiete](https://fietelab.mit.edu/). I’m from Toronto, Canada, and did my undergraduate degree in [Applied Mathematics & Computer Engineering](https://engineering.queensu.ca/programs/undergraduate/mathematics-engineering.html) at [Queen’s University](https://www.queensu.ca/).
+Hello! I'm a PhD candidate in [Brain and Cognitive Sciences](https://bcs.mit.edu/) at [MIT](https://www.mit.edu/) :brain:. I'm advised by [Earl K. Miller](https://ekmillerlab.mit.edu/earl-miller/) & [Ila R. Fiete](https://fietelab.mit.edu/). I’m from Toronto, Canada, and did my undergraduate degree in [Applied Mathematics & Computer Engineering](https://www.queensu.ca/mathstat/undergraduate/prospective-undergraduate/mthe) at [Queen’s University](https://www.queensu.ca/).
 
  <!-- I also work closely with [Leo Kozachkov](https://kozleo.github.io/) and [Mitchell Ostrow](https://mitchellostrow.github.io/cv/). -->
 
