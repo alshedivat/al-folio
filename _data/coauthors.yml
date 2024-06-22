@@ -29,3 +29,15 @@
 "Miller":
   - firstname: ["Earl K.", "Earl"]
     url: https://ekmillerlab.mit.edu/earl-miller/
+
+"Das":
+  - firstname: ["Suman"]
+    url: https://scholar.google.co.in/citations?user=kLgNSysAAAAJ&hl=en
+
+"Lin":
+  - firstname: ["Yi-Hsuan"]
+    url: https://scholar.google.ca/citations?hl=en&user=Ob9KposAAAAJ&view_op=list_works
+
+"Chan":
+  - firstname: ["Hue Sun"]
+    url: https://biochemistry.utoronto.ca/person/hue-sun-chan/

@@ -22,7 +22,7 @@ Hello! I'm a PhD candidate in [Brain and Cognitive Sciences](https://bcs.mit.edu
 
  <!-- I also work closely with [Leo Kozachkov](https://kozleo.github.io/) and [Mitchell Ostrow](https://mitchellostrow.github.io/cv/). -->
 
-I'm interested in understanding consciousness and the nature of thought, as well as how thinking can go awry in psychiatric and mood disorders. To develop an understanding of these phenomena, I develop data-driven mathematical tools to characterize changes in brain activity, primarily using dynamical systems theory.
+I'm interested in understanding consciousness and the nature of thought, as well as how thinking can go awry in psychiatric and mood disorders. To build an understanding of these phenomena, I develop data-driven mathematical tools to characterize changes in brain activity, primarily using dynamical systems theory.
 
 Aside from research, I love to write & play music :musical_keyboard:, hike and be active :mountain:, and cook :carrot: :fried_egg: :leafy_green:. If you're bored and looking for some music to listen to, I'm a writer and musician for my good pal [Erez Zobary](https://open.spotify.com/artist/7CIDRraBIHz8BenhnkJGnz?si=wid3gX6HTyaSejXmHSjX8Q).
 
