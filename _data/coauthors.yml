@@ -1,34 +1,31 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Ostrow":
+  - firstname: ["Mitchell", "M.", "Mitchell Ostrow", "Mitchell B. Ostrow", "Mitchell B.", "Ostrow M."]
+    url: https://mitchellostrow.github.io/cv/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Kozachkov":
+  - firstname: ["Leo"]
+    url: https://kozleo.github.io/
+  
+"Fiete":
+  - firstname: ["Ila", "Ila R."]
+    url: https://fietelab.mit.edu/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Bastos":
+  - firstname: ["Andre M.", "André", "Bastos A."]
+    url: https://www.vanderbilt.edu/psychological_sciences/bio/andr-bastos
+  
+"Donoghue":
+  - firstname: ["Jacob A.", "Jacob"]
+    url: https://scholar.google.com/citations?user=4fnr6XUAAAAJ&hl=en
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Chandra":
+  - firstname: ["Sarthak"]
+    url: https://scholar.google.co.in/citations?user=Mx8q1rgAAAAJ&hl=en
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Brown":
+  - firstname: ["Emery N.", "Emery"]
+    url: https://www.neurostat.mit.edu/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Miller":
+  - firstname: ["Earl K.", "Earl"]
+    url: https://ekmillerlab.mit.edu/earl-miller/

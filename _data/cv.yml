@@ -14,24 +14,38 @@
     - title: PhD in Brain and Cognitive Sciences
       institution: <b>Massachusetts Institute of Technology</b>, Cambridge, MA, USA
       year: Sep 2020 - Present
-      advisors: Earl Miller and Ila Fiete 
-      description:
-        - Applying dynamical systems models to neural data to investigate how dynamic stability varies across conscious states - primarily focused on propofol-induced unconsciousness
+      advisors: Earl K. Miller and Ila R. Fiete 
     - title: Bachelor of Applied Science in Mathematics & Engineering, Computing and Communications Option
       institution: <b>Queen's University</b>, Kingston, Ontario, Canada
       year: Sep 2014 - Apr 2018
       advisor: Abdol-Reza Mansouri
       description:
-        - title: Undergraduate thesis - “Image Restoration Algorithms for Musical Style Transfer”
-          contents:
-            - Applied machine learning and computer vision to learn a musical style, and adapted a stochastic image model and Markov chain Monte Carlo methods to transform any audio sample into the learned style
-            - Recipient of the Keyser Prize awarded to the two best Mathematics & Engineering theses
         - <b>GPA</b> - 4.12/4.3
         - <b>Dean's Scholar Designation</b> - (2015, 2016, 2017, 2018)
 
+- title: Papers
+  type: time_table
+  contents:
+    - year: 2023 
+      items: 
+        - "Ostrow, M., <strong>Eisen, A.J.</strong>, Kozachkov, L., and Fiete, I.R. \"Beyond Geometry: Comparing the Temporal Structure of Computation in Neural Circuits with Dynamical Similarity Analysis\" <em>Neural Information Processing Systems</em> (2023). <a href=\"https://neurips.cc/virtual/2023/poster/72697\">[Link]</a>" 
+        - <strong>Eisen, A.J.*</strong>, Kozachkov, L.*, Bastos, A.M., Donoghue, J.A., Mahnke, M.K., Brincat, S.L., Chandra, S., Brown, E.N., Fiete, I.R., and Miller, E.K. “Propofol anesthesia destabilizes neural dynamics across cortex” <em>bioRxiv</em> (2023). <a href="https://www.biorxiv.org/content/10.1101/2023.11.24.568595v1">[Link]</a>
+    - year: 2018
+      items:
+        - Das, S., <strong>Eisen, A.J.</strong>, Lin, Y.H., Chan, H.S. “A lattice model of charge-pattern- dependent polyampholyte phase separation” <em>The Journal of Physical Chemistry B</em> (2018) <a href="https://pubs.acs.org/doi/full/10.1021/acs.jpcb.7b11723">[Link]</a>
+
+    
 - title: Research and Work Experience
   type: time_table
   contents:
+    - title: Graduate Student
+      year: Sep 2020 - Present
+      institution: <b>MIT</b>, Cambridge, MA
+      advisors: Prof. Earl K. Miller and Ila R. Fiete
+      description:
+       - Developed a novel approach to analyzing the stabiltiy of neural dynamics, leveraging tools from dynamical systems theory
+       - Demonstrated that propofol anesthesia destabilizes neural dynamics through comprehensive large-scale data processing, analysis, and visualization
+       - Constructed a novel metric for comparing the dynamics between systems, and applied it to disentangle machine learning rules
     - title: Research and Development
       institution: <b>Heliolytics</b>, Toronto, ON, Canada
       year: Sep 2018 - Aug 2020
@@ -39,29 +53,58 @@
         - Developed and integrated machine learning and computer-vision algorithms for pixel-level aerial image matching, improving accuracy from about 75% to 99.9%
         - Designed and constructed a distributed network of computing and monitoring systems to implement high volume image processing and analysis pipelines
         - Constructed a framework using quantitative metrics and statistics to assess algorithm performance and improvement
+    - title: Senior Thesis Student
+      year: Sep 2017 - Apr 2018
+      institution: <b>Queen's University Department of Mathematics and Engineering</b>, Kingston, ON, Canada
+      advisor: Prof. Abdol-Reza Mansouri
+      description:
+        - "Thesis: \"Image restoration algorithms for musical style transfer\""
+        - Applied machine learning and computer vision to learn a musical style, and adapted a stochastic image model and Markov chain Monte Carlo methods to transform audio samples into the learned style
     - title: Machine Learning Researcher
       institution: <b>The Hospital for Sick Children Department of Genetics & Genome Biology</b>, Toronto, ON, Canada
       year: May 2017 - Aug 2017
-      supervisor: Lisa Strug
+      advisor: Prof. Lisa Strug
       description:
-        - Harnessed deep neural nets to build a TensorFlow model for predicting the likelihood of comorbidities in patients with cystic fibrosis (such as meconium ileus and decreased lung function), based on genetic data
-        - Built and compared the predictive power of additional models including random forests and LASSO regression
+        - Built and tested deep learning models for predicting the likelihood of comorbidities in patients with cystic fibrosis based on genetic data
+        - Analyzed and compared the predictive power of additional models including random forests and penalized regressions
 
     - title: Research Assistant
       institution: <b>University of Toronto Department of Biochemistry</b>, Toronto, ON, Canada
-      supervisors: Hue Sun Chan and Lewis Kay
+      advisors: Prof. Hue Sun Chan and Lewis Kay
       year: May 2016 - Aug 2016
       description:
         - Optimized and expanded a C++ model to carry out Monte Carlo simulations of interactions among charged polymers leading to polymer phase separation
-        - Devised efficient algorithmic solutions to complex logical and three-dimensional problems related to protein structure, movements and interactions
         - Validated an analytic theory regarding polymer radius of gyration
+
+- title: Talks
+  type: time_table
+  contents:
+  - year: May 24, 2023
+    description: 
+      - <strong>The Science of Consciousness Conference</strong>, Taormina, Italy
+      - "<em>Title</em>: \"Propofol anesthesia destabilizes neural dynamics across cortex\""
+  - year: January 26, 2022
+    description: 
+      - <strong>The MetaConscious (Yang) Lab</strong>, MIT, Cambridge, MA
+      - "<em>Title</em>: \"Propofol anesthesia destabilizes neural dynamics across cortex\""
+
+- title: Writing
+  type: time_table
+  contents:
+  - year: 2023
+    items: 
+      - <strong>Eisen, A.J.</strong> “Mapping the Mountains and Valleys of the Mind” <em>MIND OCEAN SPACE</em> (2024). <a href="https://linktr.ee/mind.ocean.space">[Link]</a>
 
 - title: Distinctions and Awards
   type: time_table
   contents:
+    - year: 2020, 2021
+      items: 
+        - <b>Singleton Fellowship</b>
     - year: 2018
       items: 
         - <b>Annie Bentley Lillie Prize in Mathematics</b>, awarded to the graduating student in Mathematics and Engineering who has the highest average on courses in mathematics in the final year
+        - <b>Keyser Prize</b>, awarded to the two best Mathematics and Engineering theses
     - year: 2017
       items: 
         - <b>Nellie and Ralph Jeffrey Award in Mathematics</b>, awarded to the student entering the fourth year of the Mathematics and Engineering program, or of an honours program with a Mathematics major, having the highest standing in the mathematics courses of the first three years and an overall first-class average
@@ -80,14 +123,48 @@
         - <b>Principal's Entrance Scholarship</b>, for obtaining grade 12 average of 98%
         - <b>Valedictorian of the high school graduating class</b>, selected by peers and faculty
 
-- title: Teaching Experience
+- title: Conferences
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - "Ostrow, M., <strong>Eisen, A.J.</strong>, et al. \"Beyond Geometry: Comparing the Temporal Structure of Neural Computation with Dynamical Similarity Analysis\" (Oral Presentation)<br>Computational and Systems Neuroscience, 2024, Lisbon, Portugal"
+    - year: 2023
+      items: 
+        - "Ostrow, M., <strong>Eisen, A.J.</strong>, et al. \"Beyond Geometry: Comparing the Temporal Structure of Computation in Neural Circuits with Dynamical Similarity Analysis\"<br>Neural Information Processing Systems, 2023, New Orleans, LA"
+        - "Ostrow, M., <strong>Eisen, A.J.</strong>, et al. \"Beyond Geometry: Comparing the Temporal Structure of Computation in Neural Circuits with Dynamic Mode Representational Similarity Analysis\" (Oral Presentation)<br>Computational Cognitive Neuroscience, 2023, Oxford, United Kingdom"
+        - "<strong>Eisen, A.J.</strong>, et al. \"Propofol anesthesia destabilizes neural dynamics across cortex\" (Oral Presentation)<br>The Science of Consciousness Conference, 2023, Taormina, Italy"
+        - "<strong>Eisen, A.J.</strong>, et al. “Propofol anesthesia destabilizes neural dynamics across cortex\"<br>Computational and Systems Neuroscience, 2023, Montreal, QC, Canada"
+    - year: 2022
+      items:
+        - "<strong>Eisen, A.J.</strong>, et al. \"Propofol anesthesia destabilizes neural dynamics across cortex\"<br>Society for Neuroscience 2022, San Diego, CA"
+    - year: 2021
+      items:
+        - "<strong>Eisen, A.J.</strong>, et al. \"Propofol anesthesia changes dynamic stability in cortex\" (Virtual)<br>Society for Neuroscience 2021, Chicago, IL"
+
+- title: Teaching and Mentoring Experience
+  type: time_table
+  contents:
+    - title: Mentor
+      year: Sep 2023 - Dec 2023
+      mentee: Nicole Wong, Undergraduate Researcher at MIT
+      description:
+        - Provided instruction on dynamical systems theory concepts and practice
+    - title: Teaching Assistant
+      institution: <b>Massachusetts Institute of Technology</b>, Cambridge, MA, USA
+      year: Jan 2023 - Apr 2023
+      course: MIT 9.40, Introduction to Neural Computation
+      description:
+        - Led recitations, conducted review sessions, and held office hours
+        - Awarded an overall rating of 6.4/7 in student feedback surveys, the highest of all instructors for the course in 2023
     - title: Teaching Assistant
       institution: <b>Massachusetts Institute of Technology</b>, Cambridge, MA, USA
       year: Sep 2021 - Dec 2021
+      course: MIT 9.07, Statistics for Brain and Cognitive Sciences
       description:
-        - TA for 9.07 Statistics for Neuroscience - led recitations, conducted review sessions, and filled in as primary lecturer when the instructor was unavailable
+        - Led recitations, conducted review sessions and office hours, and filled in as primary lecturer when the instructor was unavailable
+        - Awarded an overall rating of 6.5/7 in student feedback surveys, the highest of all instructors for the course in 2021
+        - Student feedback said "He went above and beyond for the people in the class which I really appreciated. He was always full of energy and answered questions with a smile."
     - title: Tutor and Workshop Leader
       institution: <b>EngLinks Tutoring, Queen's University</b>, Kingston, ON, Canada
       year: Sep 2016 - Apr 2018
@@ -101,10 +178,26 @@
       description:
         - Delivered tutoring services in math, science and jazz history to 10 high school and university-level students, with successful academic outcomes
 
+- title: Technical Skills
+  type: list
+  contents:
+    - "<strong>Languages</strong>: Python, MATLAB, R"
+    - "<strong>Packages</strong>: PyTorch, PyTorch Lightning, scikit-learn, SciPy, LaTeX"
+    - "<strong>Developer Tools</strong>: Git, Slurm"
+    - "<strong>Mathematics (Selected Topics)</strong>: Dynamical Systems Theory, Linear Algebra, Calculus, Probability Theory, Information Theory, Operator Theory"
+
 - title: Additional Information
   type: list
   contents:
-    - <u>Tools:</u> Python, PyTorch, Slurm, SQL, Matlab, Keras, Tensorflow, OpenCV, R, React, Java, C++
-    - Co-wrote, recorded and released several albums with <a href="https://open.spotify.com/artist/7CIDRraBIHz8BenhnkJGnz?si=hC92IJtHRpWN2CiejkO_ug">Erez Zobary</a> (Jul 2019 - Present)
-    - Released an <a href="https://open.spotify.com/album/0SfHjngoQeGYHsgChWULTP?si=rt4qh5t1Q0OKEoRF05Z-YA">EP</a> under moniker Kodachrome (Nov 2016)
-    - Yoga, hiking, running, biking and long-distance cardio – completed triathlon in Aug 2018
+    - title: Musical composition and performance
+      description:
+        - Co-writer, musician and performer with <a href=https://open.spotify.com/artist/7CIDRraBIHz8BenhnkJGnz?si=vHj5S2EwQtqbJXkERwD98g>Erez Zobary</a> (Jul 2019 - Present)
+        - Released an <a href=https://open.spotify.com/album/0SfHjngoQeGYHsgChWULTP?si=rvn5RnoEQ1a9Xux6ooPH4w>EP</a> under moniker Kodachrome (Nov 2016)
+        - Vocal and piano performer and teacher (Sep 2010 – Apr 2018)
+    - title: Athletics
+      description:
+        - Yoga, hiking, running, cycling, resistance training
+        - Completed sprint triathlon (Aug 2018)
+    # - Co-wrote, recorded and released several albums with <a href="https://open.spotify.com/artist/7CIDRraBIHz8BenhnkJGnz?si=hC92IJtHRpWN2CiejkO_ug">Erez Zobary</a> (Jul 2019 - Present)
+    # - Released an <a href="https://open.spotify.com/album/0SfHjngoQeGYHsgChWULTP?si=rt4qh5t1Q0OKEoRF05Z-YA">EP</a> under moniker Kodachrome (Nov 2016)
+    # - Yoga, hiking, running, biking and long-distance cardio – completed triathlon in Aug 2018

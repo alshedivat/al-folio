@@ -121,6 +121,17 @@ blockquote {
   }
 }
 
+.centered {
+  text-align: center;
+}
+
+.navbar-image {
+  height: 40px; /* Adjust as needed */
+  width: auto;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
@@ -253,7 +264,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       i::before {
         color: var(--global-text-color);
@@ -387,6 +398,29 @@ footer.sticky-bottom {
   }
 }
 
+.post-item {
+  display: flex; /* Use flexbox for layout */
+  align-items: flex-start; /* Align items at the start of the flex container */
+  margin-bottom: 20px; /* Optional: Adjust margin between each post */
+}
+
+.post-content {
+  flex: 1; /* Let the content take up remaining space */
+  padding-right: 20px; /* Optional: Add padding between content and image */
+}
+
+.post-thumbnail {
+  width: 120px; /* Adjust width of the thumbnail image */
+  flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.post-thumbnail img {
+  width: 100%; /* Make image responsive */
+  display: block; /* Ensure image behaves as a block element */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
 .pagination {
   .page-item {
     .page-link {
@@ -458,6 +492,12 @@ footer.sticky-bottom {
     margin-bottom: 1rem;
     text-align: right;
   }
+
+}
+
+.smaller-image {
+  max-width: 50%; /* Adjust the maximum width as needed */
+  height: auto; /* Maintain aspect ratio */
 }
 
 
@@ -712,3 +752,10 @@ progress {
      display: block;
      height: inherit;
  }
+
+ .top-level-item {
+  /* Add any styles here to ensure visual separation, such as borders, margins, or padding */
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}

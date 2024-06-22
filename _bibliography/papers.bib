@@ -1,83 +1,143 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+@inproceedings{NEURIPS2023_6ac807c9,
+ author={Mitchell B. Ostrow and Adam J. Eisen and Leo Kozachkov and Ila R. Fiete},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {33824--33837},
+ publisher = {Curran Associates, Inc.},
+ title = {Beyond Geometry: Comparing the Temporal Structure of Computation in Neural Circuits with Dynamical Similarity Analysis},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/6ac807c9b296964409b277369e55621a-Paper-Conference.pdf},
+ volume = {36},
+ year = {2023},
+ url={https://proceedings.neurips.cc/paper_files/paper/2023/hash/6ac807c9b296964409b277369e55621a-Abstract-Conference.html},
+ html={https://proceedings.neurips.cc/paper_files/paper/2023/hash/6ac807c9b296964409b277369e55621a-Abstract-Conference.html},
+ abstract={How can we tell whether two neural networks utilize the same internal processes for a particular computation? This question is pertinent for multiple subfields of neuroscience and machine learning, including neuroAI, mechanistic interpretability, and brain-machine interfaces. Standard approaches for comparing neural networks focus on the spatial geometry of latent states. Yet in recurrent networks, computations are implemented at the level of dynamics, and two networks performing the same computation with equivalent dynamics need not exhibit the same geometry. To bridge this gap, we introduce a novel similarity metric that compares two systems at the level of their dynamics, called Dynamical Similarity Analysis (DSA). Our method incorporates two components: Using recent advances in data-driven dynamical systems theory, we learn a high-dimensional linear system that accurately captures core features of the original nonlinear dynamics. Next, we compare different systems passed through this embedding using a novel extension of Procrustes Analysis that accounts for how vector fields change under orthogonal transformation. In four case studies, we demonstrate that our method disentangles conjugate and non-conjugate recurrent neural networks (RNNs), while geometric methods fall short. We additionally show that our method can distinguish learning rules in an unsupervised manner. Our method opens the door to comparative analyses of the essential temporal structure of computation in neural circuits.},
+ pdf={DSA.pdf},
+ selected={true},
+ preview={DSA.png},
+ month=dec,
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+
+@UNPUBLISHED{Eisen2023-yi,
+  title    = "Propofol anesthesia destabilizes neural dynamics across cortex",
+  author   = "Adam J. Eisen* and Kozachkov*, Leo and Bastos, Andre M. and
+              Donoghue, Jacob A. and Mahnke, Meredith K. and Brincat, Scott L. and
+              Chandra, Sarthak and Brown, Emery N. and Fiete, Ila R. and Miller,
+              Earl K.",
+  abstract = "Every day, hundreds of thousands of people undergo general
+              anesthesia. One hypothesis is that anesthesia disrupts dynamic
+              stability, the ability of the brain to balance excitability with
+              the need to be stable and thus controllable. We tested this
+              hypothesis using a new method for quantifying population-level
+              dynamic stability in complex systems, Delayed Linear Analysis
+              for Stability Estimation (DeLASE). Propofol was used to
+              transition animals between the awake state and anesthetized
+              unconsciousness. DeLASE was applied to macaque cortex local field
+              potentials (LFPs). We found that neural dynamics were more
+              unstable in unconsciousness compared to the awake state. Cortical
+              trajectories mirrored predictions from destabilized linear
+              systems. We mimicked the effect of propofol in simulated neural
+              networks by increasing inhibitory tone. Paradoxically, increased
+              inhibition also destabilized the networks. Our results suggest
+              that anesthesia disrupts dynamical stability that is required for
+              consciousness. \#\#\# Competing Interest Statement The authors
+              have declared no competing interest.",
+  journal  = "bioRxiv",
+  pages    = "2023.11.24.568595",
+  month    =  nov,
+  year     =  2023,
+  language = "en",
+  selected={true},
+  url={https://www.biorxiv.org/content/10.1101/2023.11.24.568595v1.abstract},
+  html={https://www.biorxiv.org/content/10.1101/2023.11.24.568595v1.abstract},
+  pdf={propofol.pdf},
+  preview={propofol.png},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  selected={true}
+
+@ARTICLE{Ostrow2024-mb,
+  title         = "Delay Embedding Theory of Neural Sequence Models",
+  author        = "Ostrow, Mitchell B. and Eisen, Adam J. and Fiete, Ila R.",
+  abstract      = "To generate coherent responses, language models infer
+                   unobserved meaning from their input text sequence. One
+                   potential explanation for this capability arises from
+                   theories of delay embeddings in dynamical systems, which
+                   prove that unobserved variables can be recovered from the
+                   history of only a handful of observed variables. To test
+                   whether language models are effectively constructing delay
+                   embeddings, we measure the capacities of sequence models to
+                   reconstruct unobserved dynamics. We trained 1-layer
+                   transformer decoders and state-space sequence models on
+                   next-step prediction from noisy, partially-observed time
+                   series data. We found that each sequence layer can learn a
+                   viable embedding of the underlying system. However,
+                   state-space models have a stronger inductive bias than
+                   transformers-in particular, they more effectively
+                   reconstruct unobserved information at initialization,
+                   leading to more parameter-efficient models and lower error
+                   on dynamics tasks. Our work thus forges a novel connection
+                   between dynamical systems and deep learning sequence models
+                   via delay embedding theory.",
+  month         =  jun,
+  year          =  2024,
+  archivePrefix = "arXiv",
+  primaryClass  = "cs.LG",
+  eprint        = "2406.11993",
+  html = {https://arxiv.org/abs/2406.11993},
+  url = {https://arxiv.org/abs/2406.11993},
+  pdf = {delay-sequence-models.pdf},
+  preview = {delay-sequence-models.png}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+% The entry below contains non-ASCII chars that could not be converted
+% to a LaTeX equivalent.
+@ARTICLE{Das2018-yb,
+  title    = "A Lattice Model of Charge-Pattern-Dependent Polyampholyte Phase
+              Separation",
+  author   = "Das, Suman and Eisen, Adam J. and Lin, Yi-Hsuan and Chan, Hue Sun",
+  abstract = "In view of recent intense experimental and theoretical interests
+              in the biophysics of liquid-liquid phase separation (LLPS) of
+              intrinsically disordered proteins (IDPs), heteropolymer models
+              with chain molecules configured as self-avoiding walks on the
+              simple cubic lattice are constructed to study how phase behaviors
+              depend on the sequence of monomers along the chains. To address
+              pertinent general principles, we focus primarily on two fully
+              charged 50-monomer sequences with significantly different charge
+              patterns. Each monomer in our models occupies a single lattice
+              site, and all monomers interact via a screened pairwise Coulomb
+              potential. Phase diagrams are obtained by extensive Monte Carlo
+              sampling performed at multiple temperatures on ensembles of 300
+              chains in boxes of sizes ranging from 52 $\times$ 52 $\times$ 52
+              to 246 $\times$ 246 $\times$ 246 to simulate a large number of
+              different systems with the overall polymer volume fraction ϕ in
+              each system varying from 0.001 to 0.1. Phase separation in the
+              model systems is characterized by the emergence of a large
+              cluster connected by intermonomer nearest-neighbor lattice
+              contacts and by large fluctuations in local polymer density. The
+              simulated critical temperatures, Tcr, of phase separation for the
+              two sequences differ significantly, whereby the sequence with a
+              more ``blocky'' charge pattern exhibits a substantially higher
+              propensity to phase separate. The trend is consistent with our
+              sequence-specific random-phase-approximation (RPA) polymer
+              theory, but the variation of the simulated Tcr with a previously
+              proposed ``sequence charge decoration'' pattern parameter is
+              milder than that predicted by RPA. Ramifications of our findings
+              for the development of analytical theory and simulation protocols
+              of IDP LLPS are discussed.",
+  journal  = "J. Phys. Chem. B",
+  volume   =  122,
+  number   =  21,
+  pages    = "5418--5431",
+  month    =  may,
+  year     =  2018,
+  language = "en",
+  url = {https://pubs.acs.org/doi/10.1021/acs.jpcb.7b11723},
+  html = {https://pubs.acs.org/doi/10.1021/acs.jpcb.7b11723},
+  preview = {lattice.png},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
