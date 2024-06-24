@@ -1,6 +1,7 @@
 /**
  * This file is a modified verion of:
  * https://github.com/marmelab/highlight-search-term/blob/main/src/index.js
+ * - We return the nonMatchingElements
  *
  * highlight-search-term is published under MIT License.
  *
@@ -52,16 +53,27 @@ const highlightSearchTerm = ({ search, selector, customHighlightName = "search" 
   }
   // find all text nodes containing the search term
   const ranges = [];
+  const nonMatchingElements = [];
   const elements = document.querySelectorAll(selector);
   Array.from(elements).map((element) => {
+    let match = false;
     getTextNodesInElementContainingText(element, search).forEach((node) => {
-      ranges.push(...getRangesForSearchTermInElement(node.parentElement, search));
+      // modified variant of highlight-search-term
+      // we return the non-matching elements in addition
+      ranges.push(...rangesForSearch);
+      if (rangesForSearch.length > 0) {
+        match = true;
+      }
     });
+    if (!match) {
+      nonMatchingElements.push(element);
+    }
   });
-  if (ranges.length === 0) return;
+  if (ranges.length === 0) return nonMatchingElements; // modified: return matchedElements
   // create a CSS highlight that can be styled with the ::highlight(search) pseudo-element
   const highlight = new Highlight(...ranges);
   CSS.highlights.set(customHighlightName, highlight);
+  return nonMatchingElements; // modified: return matchedElements
 };
 
 const getTextNodesInElementContainingText = (element, text) => {
