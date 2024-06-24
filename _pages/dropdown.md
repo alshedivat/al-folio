@@ -1,9 +1,9 @@
 ---
 layout: page
 title: submenus
-nav: true
+nav: false
 nav_order: 5
-dropdown: false
+dropdown: true
 children: 
     - title: publications
       permalink: /publications/
