@@ -6,20 +6,20 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
 
     // highlight-search-term
-    const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
-
-    if (!searchTerm) return; // do nothing if the search term is empty
-
-    // Add unloaded class to all non-matching items
-    // document.querySelectorAll(".bibliography > li").forEach((element, index) => {
-    //   const text = element.innerText.toLowerCase();
-    //   if (text.indexOf(searchTerm) == -1) {
-    //     element.classList.add("unloaded");
-    //   }
-    // });
-    nonMatchingElements.forEach((element) => {
-      element.classList.add("unloaded");
-    });
+    if (CSS.highlights) {
+      const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
+      nonMatchingElements.forEach((element) => {
+        element.classList.add("unloaded");
+      });
+    } else {
+      // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
+      document.querySelectorAll(".bibliography > li").forEach((element, index) => {
+        const text = element.innerText.toLowerCase();
+        if (text.indexOf(searchTerm) == -1) {
+          element.classList.add("unloaded");
+        }
+      });
+    }
 
     document.querySelectorAll("h2.bibliography").forEach(function (element) {
       let iterator = element.nextElementSibling; // get next sibling element after h2, which can be h3 or ol
