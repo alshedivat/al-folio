@@ -6,16 +6,19 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
 
     // highlight-search-term
-    highlightSearchTerm({ search: searchTerm, selector: "ol.bibliography" });
+    const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
 
     if (!searchTerm) return; // do nothing if the search term is empty
 
     // Add unloaded class to all non-matching items
-    document.querySelectorAll(".bibliography > li").forEach((element, index) => {
-      const text = element.innerText.toLowerCase();
-      if (text.indexOf(searchTerm) == -1) {
-        element.classList.add("unloaded");
-      }
+    // document.querySelectorAll(".bibliography > li").forEach((element, index) => {
+    //   const text = element.innerText.toLowerCase();
+    //   if (text.indexOf(searchTerm) == -1) {
+    //     element.classList.add("unloaded");
+    //   }
+    // });
+    nonMatchingElements.forEach((element) => {
+      element.classList.add("unloaded");
     });
 
     document.querySelectorAll("h2.bibliography").forEach(function (element) {
