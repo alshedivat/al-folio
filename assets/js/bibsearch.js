@@ -1,3 +1,5 @@
+import { highlightSearchTerm } from "./highlight-search-term.js";
+
 document.addEventListener("DOMContentLoaded", function () {
   // actual bibsearch logic
   const filterItems = (searchTerm) => {
