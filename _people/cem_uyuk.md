@@ -4,7 +4,7 @@ firstname: Cem
 lastname: Uyuk
 pronouns: he/him
 description: MSc Student
-img: assets/img/people/cem_uyuk.png
+img: assets/img/people/cem_uyuk.jpg
 redirect: https://github.com/cemuyuk
 linkedin_username: cem-uyuk
 github_username: cemuyuk
