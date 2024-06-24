@@ -2,6 +2,7 @@
  * This file is a modified verion of:
  * https://github.com/marmelab/highlight-search-term/blob/main/src/index.js
  * - We return the nonMatchingElements
+ * - We fixed a bug: getRangesForSearchTermInElement got the node.parentElemnt, which is not working if there are multiiple text nodes in one element.
  *
  * highlight-search-term is published under MIT License.
  *
@@ -60,6 +61,7 @@ const highlightSearchTerm = ({ search, selector, customHighlightName = "search" 
     getTextNodesInElementContainingText(element, search).forEach((node) => {
       // modified variant of highlight-search-term
       // we return the non-matching elements in addition
+      const rangesForSearch = getRangesForSearchTermInNode(node, search);
       ranges.push(...rangesForSearch);
       if (rangesForSearch.length > 0) {
         match = true;
@@ -88,16 +90,16 @@ const getTextNodesInElementContainingText = (element, text) => {
   return nodes;
 };
 
-const getRangesForSearchTermInElement = (element, search) => {
+// fix: we changed this function to work on the node directly rather than on its parent element
+const getRangesForSearchTermInNode = (node, search) => {
   const ranges = [];
-  if (!element.firstChild) return ranges;
-  const text = element.textContent?.toLowerCase() || "";
+  const text = node.textContent?.toLowerCase() || "";
   let start = 0;
   let index;
   while ((index = text.indexOf(search, start)) >= 0) {
     const range = new Range();
-    range.setStart(element.firstChild, index);
-    range.setEnd(element.firstChild, index + search.length);
+    range.setStart(node, index);
+    range.setEnd(node, index + search.length);
     ranges.push(range);
     start = index + search.length;
   }
