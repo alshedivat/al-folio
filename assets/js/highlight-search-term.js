@@ -1,8 +1,8 @@
 /**
- * This file is a modified verion of:
+ * This file is a modified version of:
  * https://github.com/marmelab/highlight-search-term/blob/main/src/index.js
- * - We return the nonMatchingElements
- * - We fixed a bug: getRangesForSearchTermInElement got the node.parentElemnt, which is not working if there are multiiple text nodes in one element.
+ * - We return the `nonMatchingElements`
+ * - We fixed a bug: `getRangesForSearchTermInElement` got the `node.parentElement`, which is not working if there are multiple text nodes in one element.
  *
  * highlight-search-term is published under MIT License.
  *
@@ -59,8 +59,8 @@ const highlightSearchTerm = ({ search, selector, customHighlightName = "search" 
   Array.from(elements).map((element) => {
     let match = false;
     getTextNodesInElementContainingText(element, search).forEach((node) => {
-      // modified variant of highlight-search-term
-      // we return the non-matching elements in addition
+      // Modified variant of highlight-search-term
+      // We return the non-matching elements in addition.
       const rangesForSearch = getRangesForSearchTermInNode(node, search);
       ranges.push(...rangesForSearch);
       if (rangesForSearch.length > 0) {
@@ -71,11 +71,11 @@ const highlightSearchTerm = ({ search, selector, customHighlightName = "search" 
       nonMatchingElements.push(element);
     }
   });
-  if (ranges.length === 0) return nonMatchingElements; // modified: return matchedElements
+  if (ranges.length === 0) return nonMatchingElements; // modified: return `nonMatchingElements`
   // create a CSS highlight that can be styled with the ::highlight(search) pseudo-element
   const highlight = new Highlight(...ranges);
   CSS.highlights.set(customHighlightName, highlight);
-  return nonMatchingElements; // modified: return matchedElements
+  return nonMatchingElements; // modified: return `nonMatchingElements`
 };
 
 const getTextNodesInElementContainingText = (element, text) => {
@@ -90,7 +90,7 @@ const getTextNodesInElementContainingText = (element, text) => {
   return nodes;
 };
 
-// fix: we changed this function to work on the node directly rather than on its parent element
+// Fix: We changed this function to work on the node directly, rather than on its parent element.
 const getRangesForSearchTermInNode = (node, search) => {
   const ranges = [];
   const text = node.textContent?.toLowerCase() || "";
