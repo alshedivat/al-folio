@@ -1,14 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - manthan2305
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - manthan2305/HPA-Image-Classification
+  - manthan2305/leetcode-questions-analysis
+  - manthan2305/webpage-phishing-detection

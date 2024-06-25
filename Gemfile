@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
-    gem 'wdm', '>= 0.1.0'
+    # gem 'wdm', '>= 0.1.0' # Comment this line to run on local
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
