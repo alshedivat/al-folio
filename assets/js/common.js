@@ -51,9 +51,4 @@ $(document).ready(function () {
       });
     }
   });
-
-  // trigger popovers
-  $('[data-toggle="popover"]').popover({
-    trigger: "hover",
-  });
 });
