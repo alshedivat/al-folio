@@ -28,8 +28,8 @@ We all behave as if we have answers to philosophical questions – questions whi
 
 ### Philosophy: Who Needs It? Ayn Rand
 
-My modified version. Delivered at West Point New York, March 6, 1974.
-Note: I in no way endorse Ayn Rand's philosophical and political system. But I think her writing here is lucid, clear, and effective.
+Delivered at West Point New York, March 6, 1974.
+I don't endorse Ayn Rand's philosophical and political system, and I don't even think the writing here is always true, but I do think it is clear, effective, and interesting.
 
 <center>
     <img src="https://images.unsplash.com/photo-1494022299300-899b96e49893?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
@@ -52,10 +52,10 @@ Since I am a fiction writer, let us start with a short story.
 
 *You are never heard from again.*
 
-<center>
+<!-- <center>
     <img src="https://images.unsplash.com/photo-1573588028698-f4759befb09a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80" width="100%" />
 </center>
-<br>
+<br> -->
 
 This is fantasy, you say? You would not act like that and no astronaut ever 
 would? Perhaps not. But this is the way most men live their lives, here, on 
@@ -102,10 +102,10 @@ of any observer—or are they created by the observer? Are they the object or
 the subject of man's consciousness? Are they what they are—or can they be 
 changed by a mere act of your consciousness, such as a wish?
 
-<center>
+<!-- <center>
     <img src="/assets/img/nyc.png" width="100%" />
 </center>
-<br>
+<br> -->
 
 The nature of your actions-and of your ambition—will be different, according 
 to which set of answers you come to accept. These answers are the province 
@@ -128,10 +128,10 @@ according to which set of answers you accept. These answers are the province
 of epistemology, the theory of knowledge, which studies man's means of 
 cognition. 
 
-<center>
+<!-- <center>
     <img src="https://images.unsplash.com/photo-1475319122043-5ca9eeceefaf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
 </center>
-<br>
+<br> -->
 
 These two branches are the theoretical foundation of philosophy. The third 
 branch—ethics—may be regarded as its technology. Ethics does not apply to 
@@ -165,10 +165,10 @@ political philosophy will not tell you how mush rationed gas you should be
 given and on which day of the week—it will tell you whether the government 
 has the right to impose any rationing on anything.
 
-<center>
+<!-- <center>
     <img src="https://images.unsplash.com/photo-1531318701087-32c11653dd77?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
 </center>
-<br>
+<br> -->
 
 The fifth and last branch of philosophy is esthetics, the study of art, which is 
 based on metaphysics, epistemology and ethics. Art deals with the needs—the 
@@ -180,10 +180,10 @@ abstract terms—I want to deal with concrete, particular, real-life problems—
 
 My answer is: **In order to be able to deal with concrete, particular, real-life problems—i.e., in order to be able to live on earth.**
 
-<center>
+<!-- <center>
     <img src="/assets/img/image.png" width="100%" />
 </center>
-<br>
+<br> -->
 
 You might claim-as most people do—that you have never been influenced by 
 philosophy. I will ask you to check that claim. Have you ever thought or said 
@@ -226,10 +226,10 @@ conscious, rational conviction—or a grab-bag of notions snatched at random,
 whose sources, validity, context and consequences you do not know, notions 
 which, more often than not, you would drop like a hot potato if you knew. 
 
-<center>
+<!-- <center>
     <img src="https://images.unsplash.com/photo-1623172959921-630212f71058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2664&q=80" width="100%" />
 </center>
-<br>
+<br> -->
 
 But the principles you accept (consciously or subconsciously) may clash with 
 or contradict one another; they, too, have to be integrated. What integrates 
@@ -275,7 +275,6 @@ formula applies to the relationship between a man's thinking and his emotions.
 A man who is run by emotions is like a man who is run by a computer whose 
 print-outs he cannot read. He does not know whether its programming is true 
 or false, right or wrong, whether it's set to lead him to success or destruction, 
-5
 whether it serves his goals or those of some evil, unknowable power. He is 
 blind on two fronts: blind to the world around him and to his own inner world, 
 unable to grasp reality or his own motives, and he is in chronic terror of both. 
@@ -289,10 +288,10 @@ Immanuel Kant, the dominant trend of philosophy has been directed to a
 single goal: the destruction of man's mind, of his confidence in the power of 
 reason. Today, we are seeing the climax of that trend.
 
-<center>
+<!-- <center>
     <img src="https://images.unsplash.com/photo-1627807452369-a2cd0b5ca56f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
 </center>
-<br>
+<br> -->
 
 When men abandon reason, they find not only that their emotions cannot 
 guide them, but that they can experience no emotions save one: **terror.** The 
@@ -333,13 +332,14 @@ That nonsense deals with the most crucial, the life-or-death issues of man's
 existence. At the root of every significant philosophic theory, there is a 
 legitimate issue—in the sense that there is an authentic need of man's 
 consciousness, which some theories struggle to clarify and others struggle to 
-obfuscate, to corrupt, to prevent man from ever discovering. **The battle of philosophers is a battle for man's mind. If you do not understand their theories, you are vulnerable to the worst among them.**
+obfuscate, to corrupt, to prevent man from ever discovering. 
+**The battle of philosophers is a battle for man's mind. If you do not understand their theories, you are vulnerable to the worst among them.**
 
-<center>
+<!-- <center>
     <img src="https://images.unsplash.com/photo-1539814858141-928517f6afd3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80" width="100%" />
 </center>
-<br>
-
+<br> -->
+<!-- 
 ---
 
 ## Slavoj Zizek, "How Philosophy Got Lost"
@@ -347,4 +347,4 @@ Interview with [IAI](https://iai.tv/video/how-philosophy-got-lost&utm_source=red
 
 <center>
     <p style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%;"><iframe src="https://iai.tv/VideoController/EmbeddedVideo/1697?width=576&height=324&startTime=00%3A00" style="position: absolute; display: block; padding: 0px; margin: 0px; border: 0px; width: 100%; height: 100%; left: 0; top: 0;" width="576" height="324" frameborder="0" scrolling="no"></iframe></p><div style="padding:4px 0px; width:100%; margin:0px; display:block; border:0px;"><a title="Watch more videos on iaitv" href="https://iai.tv/" target="_blank" style="font-weight:bold; font-size:16px; color:#25aae1; font-family:Helvetica,Arial,sans-serif; text-decoration:none"></a></div>
-</center>
+</center> -->
