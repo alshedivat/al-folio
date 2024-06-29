@@ -30,11 +30,11 @@ My email is `andreye [at] uw [dot] edu`.
 
 <br>
 
-<center>
+<!-- <center>
 <img src="/assets/img/new-shot.png" width="100%" />
 </center>
 
-<br>
+<br> -->
 
 <center>
 <img src="\assets\img\ghost-portraits.png" width="100%" />
