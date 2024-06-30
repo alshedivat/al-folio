@@ -11,5 +11,9 @@ assets/libs/
 node_modules/
 vendor
 notion.js
+<<<<<<< HEAD
 package.json
 .idea
+=======
+package.json
+>>>>>>> origin/cloudflare
