@@ -21,10 +21,8 @@ url: https://alirezad.ir # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-<<<<<<< HEAD
 back_to_top: true # set to false to disable the back to top button
-=======
->>>>>>> origin/cloudflare
+
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -52,11 +50,8 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: false
-<<<<<<< HEAD
 search_enabled: true
 socials_in_search: true
-=======
->>>>>>> origin/cloudflare
 
 # Dimensions
 max_width: 1080px
@@ -171,7 +166,6 @@ giscus:
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-<<<<<<< HEAD
 external_sources:
   # - name: medium.com
   #   rss_url: https://medium.com/@al-folio/feed
@@ -188,12 +182,10 @@ newsletter:
   enabled: false
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
-=======
 
 # external_sources:
 #   - name: medium.com
 #     rss_url: https://medium.com/@al-folio/feed
->>>>>>> origin/cloudflare
 
 # -----------------------------------------------------------------------------
 # Collections
