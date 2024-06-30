@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "_site",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [ {
+      "source": "http://",
+      "destination": "https://",
+      "type": 301
+    } ],
+    "github": {
+      "repo": "alerezaaa/Jekyll_alireza",
+      "branch": "cloudflare"
+    }
+  }
+}

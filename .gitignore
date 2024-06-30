@@ -10,4 +10,6 @@ Gemfile.lock
 assets/libs/
 node_modules/
 vendor
+notion.js
+package.json
 .idea
