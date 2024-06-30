@@ -2,6 +2,8 @@ github_users:
   - alerezaaa
 #  - alshedivat
 
+repo_description_lines_max: 2
+
 github_repos:
   # - alerezaaa/Jekyll_alireza
   - alshedivat/al-folio
