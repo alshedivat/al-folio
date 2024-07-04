@@ -70,6 +70,7 @@ layout: default
     <article>
       <div class="cv">
         {% for data in site.data.resume %}
+          {% assign current_section = data[0] | downcase %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
             {% unless site.jsonresume contains data[0] %}
               {% continue %}
@@ -78,7 +79,9 @@ layout: default
           {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
           <a class="anchor" id="{{ data[0] }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <h3 class="card-title font-weight-medium">
+              {{ site.sectiontitles[current_section] | default: data[0] | capitalize }}
+            </h3>
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
