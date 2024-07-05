@@ -1,114 +1,130 @@
 ---
+abbr2 : oral, spotlight etc. shown below the abbr
+honor: like :  Spotlight Presentation [Top 5%]
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{wu2024diffusionposteriorproximalsampling,
+abbr={arXiv},
+      title={Diffusion Posterior Proximal Sampling for Image Restoration}, 
+      author={Hongjie Wu and Linchao He and Mingqin Zhang and Dongdong Chen and Kunming Luo and Mengting Luo and Ji-Zhe Zhou and Hu Chen and Jiancheng Lv},
+      abstract={Diffusion models have demonstrated remarkable efficacy in generating high-quality samples. Existing diffusion-based image restoration algorithms exploit pre-trained diffusion models to leverage data priors, yet they still preserve elements inherited from the unconditional generation paradigm. These strategies initiate the denoising process with pure white noise and incorporate random noise at each generative step, leading to over-smoothed results. In this paper, we introduce a refined paradigm for diffusion-based image restoration. Specifically, we opt for a sample consistent with the measurement identity at each generative step, exploiting the sampling selection as an avenue for output stability and enhancement. Besides, we start the restoration process with an initialization combined with the measurement signal, providing supplementary information to better align the generative process. Extensive experimental results and analyses validate the effectiveness of our proposed approach across diverse image restoration tasks.},
+      year={2024},
+      eprint={2402.16907},
+      journal={arXiv preprint},
+      primaryClass={eess.IV},
+      paper={https://arxiv.org/abs/2402.16907}, 
+      selected={true},
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{he2024fast,
+abbr={arXiv},
+      title={Fast and Stable Diffusion Inverse Solver with History Gradient Update}, 
+      author={Linchao He and Hongyu Yan and Mengting Luo and Hongjie Wu and Kunming Luo and Wang Wang and Wenchao Du and Hu Chen and Hongyu Yang and Yi Zhang and Jiancheng Lv},
+      abstract={Diffusion models have recently been recognised as efficient inverse problem solvers due to their ability to produce high-quality reconstruction results without relying on pairwise data training. Existing diffusion-based solvers utilize Gradient Descent strategy to get a optimal sample solution. However, these solvers only calculate the current gradient and have not utilized any history information of sampling process, thus resulting in unstable optimization progresses and suboptimal solutions. To address this issue, we propose to utilize the history information of the diffusion-based inverse solvers. In this paper, we first prove that, in previous work, using the gradient descent method to optimize the data fidelity term is convergent. Building on this, we introduce the incorporation of historical gradients into this optimization process, termed History Gradient Update (HGU). We also provide theoretical evidence that HGU ensures the convergence of the entire algorithm. It's worth noting that HGU is applicable to both pixel-based and latent-based diffusion model solvers. Experimental results demonstrate that, compared to previous sampling algorithms, sampling algorithms with HGU achieves state-of-the-art results in medical image reconstruction, surpassing even supervised learning methods. Additionally, it achieves competitive results on natural images.},
+      year={2024},
+      eprint={2307.12070},
+      journal={arXiv preprint},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2307.12070}, 
+      paper={https://arxiv.org/abs/2307.12070},
+      selected={true},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@inproceedings{liu2023preserving,
+abbr={ACM MM},
+  title={Preserving Local and Global Information: An Effective Metric-based Subspace Clustering},
+  author={Liu, Yixi and Tan, Yuze and Wu, Hongjie and Huang, Shudong and Ren, Yazhou and Lv, Jiancheng},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={3619--3627},
+  year={2023},
+  paper={https://dl.acm.org/doi/abs/10.1145/3581783.3612235},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
+
+
+
+@inproceedings{tan2023metric,
+abbr={AAAI},
+  title={Metric multi-view graph clustering},
+  author={Tan, Yuze and Liu, Yixi and Wu, Hongjie and Lv, Jiancheng and Huang, Shudong},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
   number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+  pages={9962--9970},
+  year={2023},
+  paper={https://ojs.aaai.org/index.php/AAAI/article/view/26188},
+  code={https://github.com/huangsd/MMGC},
+  selected={true}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+@article{wu2023pure,
+abbr={PR},
+  title={Pure graph-guided multi-view subspace clustering},
+  author={Wu, Hongjie and Huang, Shudong and Tang, Chenwei and Zhang, Yancheng and Lv, Jiancheng},
+  journal={Pattern Recognition},
+  volume={136},
+  pages={109187},
+  year={2023},
+  publisher={Elsevier},
+  paper={https://www.sciencedirect.com/science/article/pii/S0031320322006665},
+  code={https://github.com/74587887/PGSC_code},
+  selected={true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+@article{yang2023st,
+abbr={IJCNN},
+  title={ST-CA YOLOv5: Improved YOLOv5 based on Swin Transformer and Coordinate Attention for Surface Defect Detection},
+  author={Yang, Wen and Wu, Hongjie and Tang, Chenwei and Lv, Jiancheng},
+  journal={International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2023},
+  organization={IEEE},
+  paper={https://ieeexplore.ieee.org/abstract/document/10191866/},
+  selected={true}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@article{huang2022multi,
+  abbr={NeurIPS}, 
+  title={Multi-view subspace clustering on topological manifold},
+  author={Huang*, Shudong and Wu*, Hongjie and Ren, Yazhou and Tsang, Ivor and Xu, Zenglin and Feng, Wentao and Lv, Jiancheng},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={25883--25894},
+  year={2022},
+  code={https://github.com/huangsd/MVSC-on-TM},
+  paper={https://proceedings.neurips.cc/paper_files/paper/2022/hash/a6610efd6c767f63343a4ab28505212e-Abstract-Conference.html},
+  abbr2={Spotlight},
+  honor={Spotlight Presentation [Top 5%]},
+  selected={true}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{zhao2022multi,
+  abbr={Mathematics},
+  title={Multi-view graph clustering by adaptive manifold learning},
+  author={Zhao*, Peng and Wu*, Hongjie and Huang, Shudong},
+  journal={Mathematics},
+  volume={10},
+  number={11},
+  pages={1821},
+  year={2022},
+  publisher={MDPI},
+  paper={https://www.mdpi.com/2227-7390/10/11/1821},
+  selected={true}
 }
+
+
+@article{wu2021automatic,
+  abbr={IJCNN},
+  title={Automatic Cataract Detection with Multi-task Learning}, 
+  author={Wu, Hongjie and Lv, Jiancheng and Wang, Jian},
+  journal={International Joint Conference on Neural Networks (IJCNN)},
+  pages={1--8},
+  year={2021},
+  organization={IEEE},
+  paper={https://ieeexplore.ieee.org/abstract/document/9533424/},
+  selected={true}
+}
+

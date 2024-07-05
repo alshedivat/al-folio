@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-06-22 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our paper [Euclidean Distance Is Not Your Swiss Army Knife]() is accepted to <strong>IEEE TKDE</strong>.

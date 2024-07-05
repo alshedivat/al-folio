@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Email<text>:</text> wuhongjie0818 [at] gmail [dot] com
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: nantianhup4.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
+    # <p> Phd student at Sichuan University </p>
 
+# I received my B.S. degree in Computer Science and my M.S. degree in Computer Technology from [Sichuan University](https://www.scu.edu.cn/).
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+I am a second-year PhD student at the [Data Intelligence and Computing Art Laboratory](http://dicalab.cn/), College of Computer Science, [Sichuan University](https://www.scu.edu.cn/), and the [Engineering Research Center of Machine Learning and Industry Intelligence, Education Ministry of China](https://center.dicalab.cn/), under the guidance of [Prof. Jiancheng Lv](https://scholar.google.com/citations?user=0TCaWKwAAAAJ).
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My current research interests include generative models (more specifically diffusion models), computer vision, and broad deep learning topics in general. Previously, I conducted research on multi-modal representation learning and unsupervised learning for a certain period, collaborating closely with [Prof. Shudong Huang](https://huangsd.github.io/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My academic journey has been marked by several honors and awards, including the `PhD Innovation Scholarship`, `NPIC Scholarship`, `First‑class Scholarship`, `The Academic Star of Graduate Students`, and recognition as one of the `Outstanding Graduate Students of Sichuan Province` and `Top 10 Student Collectives of Sichuan University`.

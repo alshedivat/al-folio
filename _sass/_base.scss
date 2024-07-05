@@ -373,7 +373,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 2rem;
 
     a {
       i::before {
@@ -704,11 +704,16 @@ footer.sticky-bottom {
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+          background-color: var(--global-bg-color);
         }
       }
 
       .title {
         font-weight: bolder;
+      }
+
+      .honor {
+        color: var(--global-theme-color);
       }
 
       .author {
