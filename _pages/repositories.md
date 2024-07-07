@@ -1,10 +1,10 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
+title: Repositories
 description: My recent open-source projects. Code currently developed for ATLAS can be viewed in my GitLab. 
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 ## GitHub users

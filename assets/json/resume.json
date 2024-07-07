@@ -4,7 +4,6 @@
     "label": "Experimental Particles, Machine Learning, Data Science",
     "image": "",
     "email": "milescb@uw.edu",
-    "phone": "(916) 759-4691",
     "url": "https://milescb.github.io/",
     "summary": "Current PhD student at University of Washington, Seattle studying experimental particle physics",
     "location": {
@@ -14,26 +13,9 @@
       "countryCode": "US",
       "region": "Washington"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "profiles": []
   },
-  "work": [
-    {
-      "name": "CERN",
-      "position": "Research Aide",
-      "startDate": "Jun., 2023",
-      "endDate": "Sep., 2023",
-      "summary": "Learning about analysis work at ATLAS and working on projects for the Higgs to tautau analysis.",
-      "highlights": [
-        "analysis", "LHC", "ATLAS"
-      ]
-    }
-  ],
+  "work": [],
   "volunteer": [],
   "education": [
     {
@@ -60,6 +42,17 @@
     }
   ],
   "awards": [
+    {
+        "title": "Fellow",
+        "date": "Jan. 2024",
+        "awarder": "Western Advanced Training for Computational High-Energy Physics (DOE)",
+        "summary": "Two years of fully funded research in computational experimental high-energy physics"
+    },
+    {
+        "title": "Provost Award",
+        "date": "May 2023",
+        "awarder": "University of Washington"
+    },
     {
       "title": "J. Bruce Brackenridge Prize",
       "date": "Jun., 2022",

@@ -3,6 +3,6 @@ github_users:
 
 github_repos:
   - milescb/solve_PDEs_with_PINN
+  - milescb/traccc-aaS
   - milescb/taunet
   - milescb/LUComptonScatter
-  - milescb/double_quarkonium_production
