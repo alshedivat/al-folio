@@ -1149,7 +1149,8 @@ ninja-keys::part(ninja-input-wrapper) {
   width: 100%;
 }
 
-.newsletter-form-input {
+.newsletter-form-input,
+.bibsearch-form-input {
   color: var(--global-newsletter-text-color);
   background: var(--global-newsletter-bg-color);
   border: 1px solid var(--global-newsletter-text-color);
@@ -1286,4 +1287,10 @@ ninja-keys::part(ninja-input-wrapper) {
   .arrow:before {
     border-bottom-color: var(--global-divider-color);
   }
+}
+
+// highlight-search-term
+::highlight(search) {
+  background-color: var(--global-theme-color);
+  color: var(--global-text-color);
 }
