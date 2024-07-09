@@ -5,7 +5,7 @@ description: Constraining parameters in the Cahn Hilliard equation to model biol
 redirect: /explainers/cahn_hilliard_with_alpha.html
 date: 2024-07-09
 categories: phase separation
-tags: writing visual
+tags: writing visual explainers
 ---
 
 Hello
