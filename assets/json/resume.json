@@ -34,19 +34,19 @@
   ],
   "volunteer": [
     {
-      "organization": "Lancaster University Leipzig's Robotics Club",
-      "position": "Founder",
-      "url": "https://www.instagram.com/roboticslu_leipzig/",
-      "startDate": "2022-06",
-      "summary": "Lead organizer for the Qiskit Fall Fest 2023 event for LU Leipzig community.",
-      "highlights": ["Organized and ran an event with the aim of giving students a holistic and multi-faceted view of the exciting field of quantum computing.", "Assembled a series of seminars that combined academic depth and real-world practical insights (Special guests: Enrique Solano - Kipu Quantum.)", "Gave an introductory talk on quantum computing and held workshops with Qiskit material."]
-    } ,
-    {
       "organization": "Qiskit Fall Fest 2023",
       "position": "Lead Organizer",
       "url": "https://www.instagram.com/roboticslu_leipzig/",
       "startDate": "2023-06",
       "endDate": "2023-06",
+      "summary": "Lead organizer for the Qiskit Fall Fest 2023 event for LU Leipzig community.",
+      "highlights": ["Organized and ran an event with the aim of giving students a holistic and multi-faceted view of the exciting field of quantum computing.", "Assembled a series of seminars that combined academic depth and real-world practical insights (Special guests: Enrique Solano - Kipu Quantum.)", "Gave an introductory talk on quantum computing and held workshops with Qiskit material."]
+    } ,
+    {
+      "organization": "Lancaster University Leipzig's Robotics Club",
+      "position": "Founder",
+      "url": "https://www.instagram.com/roboticslu_leipzig/",
+      "startDate": "2023-06",
       "summary": "Founder of Lancaster University Leipzig's Robotics Club.",
       "highlights": ["Dedicated to fostering a culture of innovation and problem-solving within my institution.", "Club serves as a dynamic platform for students to explore the fascinating world of robotics, igniting their passion for technology and hands-on learning." ,"Club fund gathering evidenced my organization and leadership skills."]
     } 
