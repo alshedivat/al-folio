@@ -9,4 +9,4 @@ categories: phase-separation
 tags: visual explainers
 ---
 
-Redirecting to [webpage](https://smgroves.github.io/explainers/cahn_hilliard_with_alpha.html).
+Redirect to [webpage](https://smgroves.github.io/explainers/cahn_hilliard_with_alpha.html).
