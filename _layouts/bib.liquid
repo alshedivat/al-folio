@@ -112,7 +112,7 @@
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
         {%- endfor -%}
-        {% assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
+        {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         , and
         <span
           class="more-authors"
@@ -151,9 +151,9 @@
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{entry.booktitle}}</em> {% endcapture %}
+      {% capture entrytype %}<em>In {{entry.booktitle}}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{entry.school}}</em> {% endcapture %}
+      {% capture entrytype %}<em>{{entry.school}}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
