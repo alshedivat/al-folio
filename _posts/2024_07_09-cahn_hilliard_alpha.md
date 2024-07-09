@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Cahn Hilliard Dynamics
 description: 
 redirect: /explainers/cahn_hilliard_with_alpha.html
