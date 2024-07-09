@@ -17,8 +17,7 @@ layout: default
           <th scope="row">{{ post.date | date: "%b %-d, %Y" }}</th>
           <td>
             {% if "explainers" in post.tags %}
-            <a class="post-link" href="{{ /explainers/cahn_hilliard_with_alpha.html | relative_url }}">{{ post.title
-              }}</a>
+            <a class="post-link" href="{{ /explainers/cahn_hilliard_with_alpha.html }}">{{post.title}}</a>
             {% else %}
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
             {% endif %}
