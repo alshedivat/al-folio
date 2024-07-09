@@ -194,6 +194,8 @@ plugins:
   - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-redirect-from
+ 
 
 # Sitemap settings
 defaults:
