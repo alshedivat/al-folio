@@ -9,8 +9,12 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
+<!-- Bibsearch Feature -->
+
 {% if site.bib_search %}
-<input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
+
+  <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
+  <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
 {% endif %}
 
 <div class="publications">
