@@ -16,7 +16,7 @@
             {% endif -%}
           >
             {% if site.data.venues[entry.abbr].url %}
-              <a href="{{site.data.venues[entry.abbr].url}}">{{ entry.abbr }}</a>
+              <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
             {% else %}
               <div>{{- entry.abbr -}}</div>
             {% endif %}
@@ -45,7 +45,7 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{entry.key}}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -88,7 +88,7 @@
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
-            <a href="{{coauthor_url}}">
+            <a href="{{ coauthor_url }}">
               {{- author.first }}
               {{ author_last_html -}}
             </a>
@@ -116,18 +116,18 @@
         , and
         <span
           class="more-authors"
-          title="click to view {{more_authors_hide}}"
+          title="click to view {{ more_authors_hide }}"
           onclick="
               var element = $(this);
               element.attr('title', '');
-              var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
+              var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
               var cursorPosition = 0;
               var textAdder = setInterval(function(){
                 element.html(more_authors_text.substring(0, cursorPosition + 1));
                 if (++cursorPosition == more_authors_text.length){
                   clearInterval(textAdder);
                 }
-            }, '{{site.more_authors_animation_delay}}');
+            }, '{{ site.more_authors_animation_delay }}');
           "
         >
           {{- more_authors_hide -}}
@@ -149,11 +149,11 @@
     {% assign proceedings = 'inproceedings,incollection' | split: ',' %}
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
-      {% capture entrytype %}<em>{{entry.journal}}</em>{% endcapture %}
+      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif proceedings contains entry.type %}
-      {% capture entrytype %}<em>In {{entry.booktitle}}</em>{% endcapture %}
+      {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
-      {% capture entrytype %}<em>{{entry.school}}</em>{% endcapture %}
+      {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
@@ -161,13 +161,13 @@
       {% capture entrymonth %}{{ " " }}{{ entry.month | capitalize }}{% endcapture %}
     {% endif %}
     {% if entry.year %}
-      {% capture entryyear %}{{ " " }}{{entry.year}}{% endcapture %}
+      {% capture entryyear %}{{ " " }}{{ entry.year }}{% endcapture %}
     {% endif %}
     {% if entry.location %}
-      {% capture entrytype %}{{entrytype}}{{ ", " }}{{entry.location}}{% endcapture %}
+      {% capture entrytype %}{{ entrytype }}{{ ", " }}{{ entry.location }}{% endcapture %}
     {% endif -%}
     {% if entry.additional_info %}
-      {% capture entrytype %}{{entrytype}}{{entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
+      {% capture entrytype %}{{ entrytype }}{{ entry.additional_info | markdownify | remove: '<p>' | remove: '</p>' }}{% endcapture %}
     {% endif %}
     {% capture hook_exists %}{% file_exists _includes/hook/bib.liquid %}{% endcapture %}
     {% if hook_exists == 'true' %}
