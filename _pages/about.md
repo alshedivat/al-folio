@@ -2,26 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+subtitle: James Kim, 김준하
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
+<a href="mailto:{{ site.email | encode_email }}" title="email">jhk.james1110@gmail.com <i class="fas fa-envelope"></i></a> <span>&#124;</span>
+<a href="https://github.com/{{ site.github_username }}" title="GitHub">Github <i class="fab fa-github"></i></a> <span>&#124;</span>
+<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn">LinkedIn <i class="fab fa-linkedin"></i></a> <span>&#124;</span>
+<a href="{{ 'joonha_cv.pdf' | prepend: 'assets/pdf/' | relative_url}}" title="CV">CV <i class="fas fa-file-pdf	"></i></a> 
 
-This is some random text -- change front end. 
+Hi, I am a senior in [Intelligent Network Architecture Research Group](http://ina.kaist.ac.kr/) at KAIST, advised by [Prof. Dongsu Han](http://ina.kaist.ac.kr/~dongsuh/). 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Korean student who has grown up in Mexico, Poland, and Romania. Finishing my undergraduate studies at KAIST, I got to experience quite a lot of things. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have worked on 3D volumetric video streaming using Kinect Azure Cameras, and will soon be working on in-network processing using S-NIC at [UTNS](https://utns.cs.utexas.edu/), advised by [Prof. Daehyeok Kim](https://daehyeok.kim/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interest lies in making efficient and fast networked systems whether it be through optimizing applications, designing new systems, or in-network processing. This website will be used as an experience journal for what I've done since 2018. 
