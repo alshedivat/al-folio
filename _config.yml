@@ -78,21 +78,21 @@ orcid_id: # your ORCID ID
 medium_username: a-aadharshaadhithya # your Medium username
 quora_username: # your Quora username
 research_gate_profile: Aadharsh-Aadhithya # your profile on ResearchGate
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-scopus_id: # your profile on Scopus
-semanticscholar_id: # your Semantic Scholar ID
-spotify_id: # your spotify id
-stackoverflow_id: # your stackoverflow id
-telegram_username: # your Telegram user name
-unsplash_id: # your unsplash id
-wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-wikidata_id: # your wikidata id
-wikipedia_id: # your wikipedia id (Case sensitive)
-work_url: # work page URL
-x_username: # your X handle
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-zotero_username: # your zotero username
+# scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+# scopus_id: # your profile on Scopus
+# semanticscholar_id: # your Semantic Scholar ID
+# spotify_id: # your spotify id
+# stackoverflow_id: # your stackoverflow id
+# telegram_username: # your Telegram user name
+# unsplash_id: # your unsplash id
+# wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+# whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+# wikidata_id: # your wikidata id
+# wikipedia_id: # your wikipedia id (Case sensitive)
+# work_url: # work page URL
+# x_username: # your X handle
+# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+# zotero_username: # your zotero username
 
 contact_note: >
   My Social Media Handles
