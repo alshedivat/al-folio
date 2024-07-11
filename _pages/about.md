@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Rm 828B, TSMC Bldg.</p>
-    <p>No. 101, Sect. 2, Kuang-Fu Rd.</p>
+    <p>No.101, Sect.2, Kuang-Fu Rd.</p>
     <p>Hsinchu, Taiwan 30013</p>
 
 news: true # includes a list of news items
