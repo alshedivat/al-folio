@@ -31,6 +31,9 @@
 {% if site.ieee_id %}
   <a href="https://ieeexplore.ieee.org/author/{{site.ieee_id}}/" title="IEEE Xplore"><i class="ai ai-ieee"></i></a>
 {% endif %}
+{% if site.ietf_id %}
+  <a href="https://datatracker.ietf.org/person/{{site.ietf_id}}/" title="IETF Profile">{% include svg/ietf.svg %}</a>
+{% endif %}
 {% if site.acm_id %}
   <a href="https://dl.acm.org/profile/{{site.acm_id}}/" title="ACM DL"><i class="ai ai-acm"></i></a>
 {% endif %}
