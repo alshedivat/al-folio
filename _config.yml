@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Jaewon Yoo, Ph.D. # the website title (if blank, full name will be used instead)
+title: *Jaewon Yoo* # the website title (if blank, full name will be used instead)
 first_name: Jaewon
 middle_name:
 last_name: Yoo
