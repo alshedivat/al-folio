@@ -23,3 +23,21 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* _custom.scss */
+
+a {
+  color: #722C6A; /* Tsinghua purple */
+}
+
+a:hover {
+  color: #5a234f; /* Darker shade for hover effect */
+}
+
+a:active {
+  color: #5a234f; /* Same as hover or another color */
+}
+
+a:visited {
+  color: #722C6A; /* Same as normal link or another color */
+}
