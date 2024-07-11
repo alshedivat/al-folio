@@ -27,17 +27,17 @@ $max-content-width: {{ site.max_width }};
 /* _custom.scss */
 
 a {
-  color: #722C6A; /* Tsinghua purple */
+  color: #800080; /* Bright purple */
 }
 
 a:hover {
-  color: #5a234f; /* Darker shade for hover effect */
+  color: #660066; /* Darker shade for hover effect */
 }
 
 a:active {
-  color: #5a234f; /* Same as hover or another color */
+  color: #660066; /* Same as hover or another color */
 }
 
 a:visited {
-  color: #722C6A; /* Same as normal link or another color */
+  color: #800080; /* Same as normal link or another color */
 }
