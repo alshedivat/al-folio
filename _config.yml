@@ -224,6 +224,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - terser
 
 # Sitemap settings
 defaults:
@@ -240,9 +241,17 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js", "assets/libs/**/*"]
+  exclude: ["robots.txt", "assets/js/search/*.js"]
   uglifier_args:
     harmony: true
+
+# -----------------------------------------------------------------------------
+# Terser settings
+# -----------------------------------------------------------------------------
+
+terser:
+  compress:
+    drop_console: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
