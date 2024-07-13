@@ -5,7 +5,7 @@
       value: Matheus Diesel Werberich
     - name: E-mail
       value: <a href=mailto:"contact@matheusdw.com">contact@matheusdw.com</a>
-    - name: Orcid-ID
+    - name: Orcid-iD
       value: <a href="https://orcid.org/0000-0002-9297-9089"> 0000-0002-9297-9089 <a/>
     - name: Lattes CV
       value: <a href="http://lattes.cnpq.br/2465901275354461">lattes.cnpq.br/2465901275354461</a>
@@ -32,6 +32,13 @@
         - Equivalent to a Bachelor's, with an emphasis on teaching training
         - Graduated with a 3.8/4.0 GPA
         - Funded by <i>Fundo de Incentivo à Pesquisa</i>, FIPE
+
+- title: Continuing education
+  type: time_table
+  contents:
+    - title: Computational Neuroscience
+      institution: Neuromatch Academy
+      year: 2024
 
 - title: Published peer-reviewed papers
   type: time_table
