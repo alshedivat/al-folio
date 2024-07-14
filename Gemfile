@@ -27,6 +27,7 @@ gem 'jemoji'
 gem 'libv8', '~> 6.3.292'
 gem 'unicode_utils'
 gem 'webrick'
+gem 'observer'
 
 group :other_plugins do
   gem 'css_parser'

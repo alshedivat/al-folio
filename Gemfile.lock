@@ -162,6 +162,7 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.5-x86_64-linux)
       racc (~> 1.4)
+    observer (0.1.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.5)
@@ -220,6 +221,7 @@ DEPENDENCIES
   jekyll-twitter-plugin
   jemoji
   libv8 (~> 6.3.292)
+  observer
   unicode_utils
   webrick
 

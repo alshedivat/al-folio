@@ -35,6 +35,12 @@ repo_trophies:
   theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
   theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
 
+# Compression settings
+compress_js:
+  compressor: terser
+
+htmlcompressor:
+  compress_javascript: false
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
