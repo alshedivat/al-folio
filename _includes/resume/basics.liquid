@@ -2,8 +2,7 @@
   {% assign skip_basics = 'image,profiles,location' | split: ',' %}
   {% for content in data[1] %}
     {%
-      if (content[1] == "") or (skip_basics contains
-      content[0])
+      if (content[1] == "" ) or (skip_basics contains content[0])
     %}
       {% continue %}
     {% endif %}
@@ -14,9 +13,12 @@
       </td>
       <td class="p-1 pl-2 font-weight-light text">
         {% if content[0] == 'url' %}
-          <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">{{ content[1] }}</a>
+          <a
+            href="{{ content[1] }}"
+            target="_blank"
+            rel="noopener noreferrer">{{ content[1] }}</a>
         {% elsif content[0] == 'email' %}
-          <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>
+          <a href="mailto:{{ content[1][0] | encode_email }}" target="_blank">{{ content[1][1] }}</a>
         {% elsif content[0] == 'phone' %}
           <a href="tel:{{ content[1] }}">{{ content[1] }}</a>
         {% else %}
