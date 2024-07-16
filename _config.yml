@@ -144,7 +144,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: aadharsh-homepage # put your disqus shortname
+#disqus_shortname: aadharsh-homepage # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -163,7 +163,7 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 newsletter:
-  enabled: true
+  enabled: false
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
@@ -182,7 +182,7 @@ collections:
     permalink: /projects/:path/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
