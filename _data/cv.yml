@@ -171,56 +171,66 @@
 - title: Teaching Experience
   type: time_table
   contents:
+    - year: Fall 2024
+      description:
+        - "Instructor. REES 0410 Masterpieces of 19C Russian Literature. University of Pennsylvania."
+    - year: Summer 2024
+      description:
+        - "Instructor. English Writing: Place and Belonging. Pre-First Year Program. University of Pennsylvania."
     - year: Spring 2024
       description:
-        - "Visiting Instructor. RUSS 004 Intermediate Intensive Russian. Swarthmore College. Swarthmore, PA."
+        - "Visiting Instructor (co-taught with Tsvetelina Yordanova). RUSS 004 Intermediate Intensive Russian. Swarthmore College."
+        - "Guest Instructor. RUSS 107. Russia and Its Others. Class on Black Writers in the USSR: Gaoussou Diawara, Atukwei Okai, and James Lloydovich Patterson. Swarthmore College."
     - year: Summer 2022
       description:
-        - "Instructor (co-taught with Tom Dolack and Julia Katsnelson). Enhanced Intermediate Russian. Middlebury College, Middlebury Language Schools. Middlebury, VT."  
+        - "Instructor (co-taught with Tom Dolack and Julia Katsnelson). Enhanced Intermediate Russian. Middlebury College, Middlebury Language Schools."  
     - year: Spring 2022
       description:
-        - "Instructor (co-taught with Maria Alley). Advanced Russian II Russian Society Today (Independent Study). University of Pennsylvania. Philadelphia, PA." 
+        - "Instructor (co-taught with Maria Alley). Advanced Russian II Russian Society Today (Independent Study). University of Pennsylvania." 
     - year: Spring 2021
       description:
-        - "Instructor. RUSS 002 Elementary Russian II. University of Pennsylvania. Philadelphia, PA." 
+        - "Instructor. RUSS 002 Elementary Russian II. University of Pennsylvania." 
     - year: Fall 2020
       description:
-        - "Instructor (co-taught with Maria Alley). RUSS 001 Elementary Russian I. University of Pennsylvania. Philadelphia, PA."
+        - "Instructor (co-taught with Maria Alley). RUSS 001 Elementary Russian I. University of Pennsylvania."
     - year: Summer 2020
       description:
-        - "Instructor. REES 145 Masterpieces of 19C Russian Literature. University of Pennsylvania. Philadelphia, PA."
+        - "Instructor. REES 145 Masterpieces of 19C Russian Literature. University of Pennsylvania."
     - year: Spring 2020
       description:
-        - "TA. REES 155 Masterpieces of 20C Russian Literature. University of Pennsylvania. Philadelphia, PA." 
+        - "TA. REES 155 Masterpieces of 20C Russian Literature. University of Pennsylvania." 
     - year: Fall 2019
       description:
-        - "TA. RUSS 145 Masterpieces of 19C Russian Literature. University of Pennsylvania. Philadelphia, PA."
+        - "TA. RUSS 145 Masterpieces of 19C Russian Literature. University of Pennsylvania."
     - year: Fall 2017
       description:
-        - "TA. War in 20C European Literature. National Research University Higher School of Economics. Moscow, Russia."
-        - "Lecturer. Russian Language in Literature and Media. National Research University Higher School of Economics. Moscow, Russia."
+        - "TA. War in 20C European Literature. National Research University Higher School of Economics."
+        - "Lecturer. Russian Language in Literature and Media. National Research University Higher School of Economics."
     - year: 2015-2018
       description:
-        - "Instructor. Introduction to Macroeconomics. National Research University Higher School of Economics. Moscow, Russia."
-        - "B.Sc. Term Paper Advisor. International College of Economics and Finance. National Research University Higher School of Economics. Moscow, Russia."
+        - "Instructor. Introduction to Macroeconomics. International College of Economics and Finance. National Research University Higher School of Economics."
+        - "B.Sc. Term Paper Advisor. International College of Economics and Finance. National Research University Higher School of Economics."
 
 - title: Fellowships and Awards
   type: time_table
   contents:
+    - year: 2024 – 2025
+      description:
+        - "Penfield Dissertation Research Award from the University of Pennsylvania: for archival work at the University of Iowa."
     - year: 2022 – 2023
       description:
-        - "International Dissertation Research Fellowship from the Social Science Research Council (IDRF SSRC): for dissertation work abroad in Germany, Lithuania, Ghana, Mali, and Russia"
-        - "German Academic Exchange Service (DAAD) One-Year Research Grant"
-        - "Dissertation Research Award from the University of Pennsylvania"
+        - "International Dissertation Research Fellowship from the Social Science Research Council (IDRF SSRC): for dissertation work abroad in Germany, Lithuania, Ghana, Mali, and Russia."
+        - "German Academic Exchange Service (DAAD) One-Year Research Grant."
+        - "Penfield Dissertation Research Award from the University of Pennsylvania."
     - year: 2021 – 2022
       description:
-        - "Mellon Mid-Doctoral Fellowship from the Price Lab for Digital Humanities at the University of Pennsylvania"
-    - year: 2018 – 2024
+        - "Mellon Mid-Doctoral Fellowship from the Price Lab for Digital Humanities at the University of Pennsylvania."
+    - year: 2018 – 2025
       description:
-        - "Benjamin Franklin Fellowship from the University of Pennsylvania"
+        - "Benjamin Franklin Fellowship from the University of Pennsylvania."
     - year: 2013 – 2014
       description:
-        - "French Government Scholarship (Bourse du gouvernement français)"
+        - "French Government Scholarship (Bourse du gouvernement français)."
         
 - title: Research Groups
   type: time_table
@@ -251,6 +261,10 @@
 - title: Additional Training
   type: time_table
   contents:
+    - year: 2024
+      description:
+        - "Writing Across Boundaries Program, the University of Illinois at Urbana-Champaign, the Melikian Center for Russian, Eurasian and East European Studies at Arizona State University, and University of Amsterdam, January 24 – August 31, 2024."
+        - "Digital Scholarship Research Institute, Swarthmore College, May 7, 2024."
     - year: 2022
       description:
         - "The Center for Teaching and Learning (CTL) Teaching Certificate, University of Pennsylvania, October 6, 2022."
