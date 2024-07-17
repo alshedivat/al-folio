@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://en.snu.ac.kr/index.html'>Seoul National University</a>. Deptartment of Computer Science and Engineering
+subtitle: <a href='https://en.snu.ac.kr/index.html'>Seoul National University</a>. Computer Science and Engineering
 
 profile:
   align: right
@@ -14,4 +14,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am an undergraduate student majoring Computer Science and Engineering at Seoul National University. I am an undergraduate research intern at [SCALE Lab](http://scale.snu.ac.kr/), Seoul National University, led by Prof. [Jung Ho Ahn](https://scale.snu.ac.kr/members). I was also advised by Prof. [Daejin Park](https://ai-soc.github.io/l_professor.html). My research interests include machine learning for system and memory management.
+I am an undergraduate student majoring Computer Science and Engineering at Seoul National University. I am an undergraduate research intern at [SCALable Computer Architecture Laboratory](http://scale.snu.ac.kr/), Seoul National University, led by Prof. [Jung Ho Ahn](https://scale.snu.ac.kr/members). I have also been advised by Prof. [Daejin Park](https://ai-soc.github.io/l_professor.html). My research interests include machine learning for system and memory management.
+
+
+*I am currently serving the mandatory military service (2024.07 - 2026.01).*
