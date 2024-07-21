@@ -12,6 +12,7 @@ nav_order: 2
 
 "Language Models as Critical Thinking Tools: A Case Study of Philosophers".
 **Andre Ye**, Jared Moore, Rose Novick, Amy X. Zhang.
+Conference on Language Modeling (COLM) 2024.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2404.04516){:target="_blank"},
 [philPapers](https://philpapers.org/rec/YELMAB){:target="_blank"}.
@@ -32,7 +33,7 @@ Moral Psychology and Philosophy Workshop, NeurIPS 2023.
 
 "Confidence Contours".
 **Andre Ye**, Quan Ze Chen, Amy Zhang.
-HCOMP 2023.
+Human Computation (HCOMP) 2023.
 🏆 Honorable Mention, Best Paper Award.
 *Resources*:
 [proceedings](https://ojs.aaai.org/index.php/HCOMP/article/view/27559){:target="_blank"},
