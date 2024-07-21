@@ -43,6 +43,7 @@ If the website does not load the theme, the layout looks weird, and all links ar
 <img src="assets/img/template_error.png" width="500">
 
 make sure to correctly specify the `url` and `baseurl` paths in `_config.yml`. Set `url` to `https://<your-github-username>.github.io` or to `https://<your.custom.domain>` if you are using a custom domain. If you are deploying a <ins>personal</ins> or <ins>organization</ins> website, leave `baseurl` **empty** (do **NOT** delete it). If you are deploying a project page, set `baseurl: /<your-project-name>/`. If all previous steps were done correctly, all is missing is for your browser to fetch again the site stylesheet. For this, you can:
+
 - press [Shift + F5 on Chromium-based](https://support.google.com/chrome/answer/157179#zippy=%2Cwebpage-shortcuts) or [Ctrl + F5 on Firefox-based](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly) browsers to reload the page ignoring cached content
 - clean your browser history
 - simply try it in a private session, here's how to do it in [Chrome](https://support.google.com/chrome/answer/95464) and [Firefox](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history)
