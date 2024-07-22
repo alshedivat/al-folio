@@ -29,10 +29,6 @@ The recommended approach for using **al-folio** is to first create your own site
 4. Wait until the GitHub actions finish (check your repository **Actions** tab). Now, in addition to the master branch, your repository has a newly built gh-pages branch.
 5. Finally, in the repository page go to `Settings -> Pages -> Build and deployment`, make sure that `Source` is set to `Deploy from a branch` and set the branch to `gh-pages` (NOT to master).
 6. Wait until the GitHub actions finish (check your repository **Actions** tab), then simply navigate to `https://<your-github-username>.github.io` in your browser. At this point you should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/).
-
-In case you face the error: "Input required and not supplied: token" in the Lighthouse Badger action, follow the instructions below:
-
-Add secrets for [lighthouse-badger],it may fail with the error: "Input required and not supplied: token." To fix this, create a [personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token) and add it as a [secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-encrypted-secrets-for-a-repository) named `LIGHTHOUSE_BADGER_TOKEN` to your repository. Refer to the [lighthouse-badger documentation](https://github.com/MyActionWay/lighthouse-badger-workflows#lighthouse-badger-easyyml) for more details.
 After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:
 
 ```bash
