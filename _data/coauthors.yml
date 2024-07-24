@@ -25,3 +25,29 @@
 "Sloane":
   - firstname: ["Mona", "M."]
     url: https://www.monasloane.org/
+
+"Lee":
+  - firstname: ["Jinsook", "J."]
+    url: https://jinsook-jennie-lee.github.io/
+  - firstname: ["Michelle", "M.", "Michelle Seng Ah", "M. S. A."]
+    url: https://michellesengahlee.com/about-me/
+
+"Zhou":
+  - firstname: ["Joyce", "J."]
+    url: https://cephcyn.github.io/
+
+"Garg":
+  - firstname: ["Nikhil", "N."]
+    url: https://gargnikhil.com/
+
+"Joachims":
+  - firstname: ["Thorsten", "T."]
+    url: https://www.cs.cornell.edu/people/tj/
+
+"Kizilcec":
+  - firstname: ["Rene", "R.", "Rene F.", "R. F."]
+    url: https://rene.kizilcec.com/
+
+"Singh":
+  - firstname: ["Jatinder", "J.", "Jat"]
+    url: https://www.cl.cam.ac.uk/~js573/

@@ -1,6 +1,48 @@
 ---
 ---
 
+@inproceedings{Admissions,
+abbr={EAAMO},
+author = {Lee*, Jinsook and Harvey*, Emma and Zhou, Joyce and Garg, Nikhil and Joachims, Thorsten and Kizilcec, Rene F.},
+title = {Algorithms for College Admissions Decision Support: Impacts of Policy Change and Inherent Variability},
+year = {2024},
+isbn = {},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://arxiv.org/abs/2407.11199v1},
+doi = {},
+abstract = {Each year, selective American colleges sort through tens of thousands of applications to identify a first-year class that displays both academic merit and diversity. In the 2023-2024 admissions cycle, these colleges faced unprecedented challenges. First, the number of applications has been steadily growing. Second, test-optional policies that have remained in place since the COVID-19 pandemic limit access to key information historically predictive of academic success. Most recently, longstanding debates over affirmative action culminated in the Supreme Court banning race-conscious admissions. Colleges have explored machine learning (ML) models to address the issues of scale and missing test scores, often via ranking algorithms intended to focus on 'top' applicants. However, the Court's ruling will force changes to these models, which were able to consider race as a factor in ranking. There is currently a poor understanding of how these mandated changes will shape applicant ranking algorithms, and, by extension, admitted classes. We seek to address this by quantifying the impact of different admission policies on the applications prioritized for review. We show that removing race data from a developed applicant ranking algorithm reduces the diversity of the top-ranked pool without meaningfully increasing the academic merit of that pool. We contextualize this impact by showing that excluding data on applicant race has a greater impact than excluding other potentially informative variables like intended majors. Finally, we measure the impact of policy change on individuals by comparing the arbitrariness in applicant rank attributable to policy change to the arbitrariness attributable to randomness. We find that any given policy has a high degree of arbitrariness and that removing race data from the ranking algorithm increases arbitrariness in outcomes for most applicants.},
+booktitle = {2024 ACM Conference on Equity and Access in Algorithms, Mechanisms, and Optimization},
+pages = {},
+numpages = {},
+keywords = {college admissions, affirmative action, arbitrariness, multiplicity, simulation},
+location = {},
+series = {EAAMO '24}, 
+html = {https://arxiv.org/abs/2407.11199v1}, 
+annotation={*Equal contribution},
+selected = {true}
+}
+
+@article{Proxy,
+abbr={JRC},
+author = {Harvey, Emma and Lee, Michelle Seng Ah and Singh, Jatinder},
+title = {Improving Group Fairness Assessments with Proxies},
+year = {2024},
+abstract={Although algorithms are increasingly used to guide real-world decision-making, their potential for propagating bias remains challenging to measure. A common approach for researchers and practitioners examining algorithms for unintended discriminatory biases is to assess group fairness, which compares outcomes across typically sensitive or protected demographic features like race, gender, or age. In practice, however, data representing these group attributes is often not collected, or may be unavailable due to policy, legal,  or other constraints. As a result, practitioners often find themselves tasked with assessing fairness in the face of these missing features. In such cases, they can either forgo a bias audit, obtain the missing data directly, or impute it. Because obtaining additional data is often prohibitively expensive or raises privacy concerns, many practitioners attempt to impute missing data using proxies. Through a survey of the data used in algorithmic fairness literature, which we make public to facilitate future research, we show that when available at all, most publicly available proxy sources are in the form of summary tables, which contain only aggregate statistics about a population. Prior work has found that these proxies are not predictive enough on their own to accurately measure group fairness. Even proxy variables that are correlated with group attributes also contain noise (i.e. will predict attributes for a subset of the population effectively at random). Here, we outline a method for improving accuracy in measuring group fairness using summary tables. Specifically, we propose improving accuracy by focusing only on highly predictive values within proxy variables, and outline the conditions under which these proxies can estimate fairness disparities with high accuracy. We then show that a major disqualifying criterion - an association between the proxy and the outcome - can be controlled for using causal inference. Finally, we show that when proxy data is missing altogether, our approach is applicable to rule-based proxies constructed using subject-matter context applied to the original data alone. Crucially, we are able to extract information on group disparities from proxies that may have low discriminatory power at the population level. We illustrate our results through a variety of case studies with real and simulated data. In all, we present a viable method allowing the assessment of fairness in the face of missing data, with limited privacy implications and without needing to rely on complex, expensive, or proprietary data sources.},
+journal={ACM Journal on Responsible Computing},
+location={New York, NY},
+volume={1},
+issue={1},
+pages={},
+numpages={},
+month={},
+publisher={ACM},
+doi={},
+url={},
+html={},
+selected={false}
+}
+
 @inproceedings{Cadaver,
 abbr={CHI},
 author = {Harvey, Emma and Sandhaus, Hauke and Jacobs, Abigail Z. and Moss, Emanuel and Sloane, Mona},
@@ -17,6 +59,7 @@ pages = {},
 numpages = {},
 keywords = {motion capture, measurement, validation, social practices, anthropometry},
 location = {},
+award_name={Honorable Mention},
 series = {CHI '24}, 
 html = {https://dl.acm.org/doi/10.1145/3613904.3642004}, 
 selected = {true}
