@@ -160,6 +160,7 @@ To add secrets for [lighthouse-badger](https://github.com/alshedivat/al-folio/ac
 Also In case you face the error: "Input required and not supplied: token" in the Lighthouse Badger action, this solution resolves it.
 
 #### Personal Access Token (fine-grained) Permissions for Lighthouse Badger:
+
 - **contents**: access: read and write
 - **metadata**: access: read-only
 
