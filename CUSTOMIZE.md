@@ -159,9 +159,13 @@ To add secrets for [lighthouse-badger](https://github.com/alshedivat/al-folio/ac
 
 Also In case you face the error: "Input required and not supplied: token" in the Lighthouse Badger action, this solution resolves it.
 
-#### Personal Access Token (fine-grained) Permissions for Lighthouse Badger:
+### Personal Access Token (fine-grained) Permissions for Lighthouse Badger:
 
 - **contents**: access: read and write
 - **metadata**: access: read-only
 
 Due to the necessary permissions (PAT and others mentioned above), it is recommended to use it as a secret rather than an environment variable.
+
+## Customizing fonts, spacing, and more
+
+You can customize the fonts, spacing, and more by editing [\_sass/\_base.scss](_sass/_base.scss). The easiest way to try in advance the changes is by using [chrome dev tools](https://developer.chrome.com/docs/devtools/css) or [firefox dev tools](https://firefox-source-docs.mozilla.org/devtools-user/). In there you can click in the element and find all the attributes that are set for that element and where are they. For more information on how to use this, check [chrome](https://developer.chrome.com/docs/devtools/css) and [firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html) how-tos, and [this tutorial](https://www.youtube.com/watch?v=l0sgiwJyEu4).
