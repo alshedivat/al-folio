@@ -45,6 +45,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - <a href="https://www-math.umd.edu/graduate-awards/894-hauptman-fellowship.html">Hauptman Fellowship</a> (University of Maryland)
     - year: 2019-2020
       items: 
         - <a href="https://www-math.umd.edu/graduate/current-students/graduate-student-awards/80-math/graduate/568-graduate-student-teaching-award.html">Aziz-Osborn Gold Medal in Teaching Excellence</a> (University of Maryland)
