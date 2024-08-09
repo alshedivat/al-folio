@@ -5,6 +5,6 @@ title: Vitae
 nav: true
 ---
 <!-- _pages/publications.md -->
-Last updated: May 2, 2024
+Last updated: Aug 9, 2024
 
-[Download my CV]({{ site.url }}/download/NoppayutS-CV-24May.pdf)
+[Download my CV]({{ site.url }}/download/NoppayutS-CV-24Aug.pdf)
