@@ -643,3 +643,18 @@ jsonresume:
   - languages
   - interests
   - references
+
+# Customize the section titles in the cv page, leave it blank for default
+sectiontitles:
+  basics:
+  work:
+  education:
+  publications:
+  projects:
+  volunteer:
+  awards:
+  certificates:
+  skills:
+  languages:
+  interests:
+  references:
