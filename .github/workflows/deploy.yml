@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - beta
+      - cloudflare
       - github
     paths:
       - "assets/**"
