@@ -3,6 +3,7 @@ name: Deploy site
 on:
   push:
     branches:
+      - beta
       - cloudflare
       - github
     paths:
@@ -109,7 +110,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
-          branch: cf-pages
+          branch: testing
 
 
 ### deploy to firebase
@@ -118,5 +119,5 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ALIREZA_ACCA7 }}'
-          channelId: live
+          channelId: preview_testing
           projectId: alireza-acca7
