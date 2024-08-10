@@ -110,7 +110,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
-          branch: testing
+          branch: cf-pages
 
 
 ### deploy to firebase
@@ -119,5 +119,5 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ALIREZA_ACCA7 }}'
-          channelId: preview_testing
+          channelId: live
           projectId: alireza-acca7
