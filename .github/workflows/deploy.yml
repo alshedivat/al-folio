@@ -8,11 +8,14 @@ on:
       - github
     paths:
       - "assets/**"
+      - "**.bib"
       - "**.html"
       - "**.js"
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -20,6 +23,7 @@ on:
       - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
+      - "!.github/workflows/firebase-hosting-deploy.yml"
       - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
@@ -32,11 +36,14 @@ on:
       - github
     paths:
       - "assets/**"
+      - "**.bib"
       - "**.html"
       - "**.js"
       - "**.liquid"
       - "**/*.md"
       - "**.yml"
+      - "Gemfile"
+      - "Gemfile.lock"
       - "!.github/workflows/axe.yml"
       - "!.github/workflows/broken-links.yml"
       - "!.github/workflows/deploy-docker-tag.yml"
@@ -60,6 +67,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: "deploy"
+  cancel-in-progress: true
+
 
 jobs:
   deploy:
@@ -74,6 +85,7 @@ jobs:
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
+
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -81,18 +93,31 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
+
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
           branch: testing
+
+
+### deploy to firebase
+
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ALIREZA_ACCA7 }}'
+          channelId: preview_testing
+          projectId: alireza-acca7

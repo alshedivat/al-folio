@@ -18,8 +18,9 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-      {{ page.date | date: '%B %d, %Y' }}
-      {% if page.author %}• {{ page.author }}{% endif %}
+      Created in {{ page.date | date: '%B %d, %Y' }}
+      {% if page.author %}by {{ page.author }}{% endif %}
+      {% if page.last_updated %}, last updated in {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
     <p class="post-tags">
@@ -33,10 +34,12 @@ layout: default
         {% for tag in page.tags %}
           {% if url_beginning == '/blog/' %}
             <a href="{{ tag | slugify | prepend: '/blog/tag/' | prepend: site.baseurl}}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
-            &nbsp;
           {% else %}
-            <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }} &nbsp;
+            <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
           {% endif %}
+          {% unless forloop.last %}
+            &nbsp;
+          {% endunless %}
         {% endfor %}
       {% endif %}
 
@@ -47,10 +50,12 @@ layout: default
             <a href="{{ category | slugify | prepend: '/blog/category/' | prepend: site.baseurl}}">
               <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}
             </a>
-            &nbsp;
           {% else %}
-            <i class="fa-solid fa-tag fa-sm"></i> {{ category }} &nbsp;
+            <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
           {% endif %}
+          {% unless forloop.last %}
+            &nbsp;
+          {% endunless %}
         {% endfor %}
       {% endif %}
     </p>
@@ -67,6 +72,10 @@ layout: default
       {{ content }}
     </div>
   </article>
+
+  {% if page.citation %}
+    {% include citation.liquid %}
+  {% endif %}
 
   {% if page.related_publications %}
     <h2>References</h2>

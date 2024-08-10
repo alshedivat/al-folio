@@ -2,10 +2,12 @@ github_users:
   - alerezaaa
 #  - alshedivat
 
+repo_description_lines_max: 2
+
 github_repos:
-  - alerezaaa/Jekyll_alireza
-#  - twbs/bootstrap
-  - jekyll/jekyll
+  # - alerezaaa/Jekyll_alireza
+  - alshedivat/al-folio
+  # - jekyll/jekyll
 #  - jquery/jquery
 #  - FortAwesome/Font-Awesome
 #  - jpswalsh/academicons
