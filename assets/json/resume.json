@@ -6,7 +6,7 @@
     "email": "dehghanzadeh98@gmail.com",
     "phone": "-",
     "url": "https://alirezad.ir",
-    "summary": "Iranian student who is interested in Machine Learning and Cybersecurity and love nature",
+    "summary": "Iranian student who is interested in Machine Learning and Cybersecurity and nature",
     "location": {
       "address": "Beheshti Blv.",
       "postalCode": "-",
@@ -117,14 +117,14 @@
   ],
   "work": [
     {
-      "name": "Agricultural Mechinary Engineering Department, University of Tehran",
-      "location": "Tehran, Iran",
-      "position": "Researcher Student",
-      "url": "https://agri.ut.ac.ir/en/machinery",
-      "startDate": "2022-03-01",
-      "endDate": "2023-09-21",
-      "summary": "Researching on Machine Learning models to refine Reconstructed ECT images. (Electrical Capacitance Tomography) My master thesis recommended by supervisor, Dr. Hossein Mousazadeh based on my experience. Based on project by <a target='_blank' href='https://www.pmo.ir/en/home'>Port &amp; Maritine Orginization of Iran</a>.",
-      "highlights": ["Machine Learning", "Image Processing", "Python", "Excel", "Mathematics"]
+      "name": "College of Agriculture and Natural Resources's Library, University of Tehran",
+      "location": "Karaj, Iran",
+      "position": "IT Manager",
+      "url": "https://canlib.ut.ac.ir/",
+      "startDate": "2024-06-21",
+      "endDate": "2026-04-20",
+      "summary": "I was selected to assist with IT as my <a target='_blank' href='https://en.wikipedia.org/wiki/Conscription_in_Iran#Non-Military_Conscription_(Persian:_%D8%B3%D8%B1%D8%A8%D8%A7%D8%B2_%D8%A7%D9%85%D8%B1%DB%8C%D9%87)'>civil conscription service</a>, due to my skills of computer science, programming and web development",
+      "highlights": ["Computer Science", "Online services management", "ICDL"]
     }
   ],
   "skills": [
