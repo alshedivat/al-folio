@@ -105,6 +105,12 @@ jobs:
           npm install -g purgecss
           purgecss -c purgecss.config.js
 
+          
+      - name: Add Links page submodule
+        run: |
+          git submodule add https://github.com/alerezaaa/littlelink _site/links
+          
+
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
