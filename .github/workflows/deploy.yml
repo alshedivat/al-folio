@@ -108,7 +108,7 @@ jobs:
           
       - name: Add Links page submodule
         run: |
-          git submodule add https://github.com/alerezaaa/littlelink _site/links
+          git submodule add -f https://github.com/alerezaaa/littlelink _site/links
           
 
       - name: Deploy 🚀
