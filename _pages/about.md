@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://www.solomon-3d.com'> solomon-3d.com</a>. PM/Senior Computer Vision Engineer. +886968747749. Don't work hard, work smart.
 
 profile:
   align: right
