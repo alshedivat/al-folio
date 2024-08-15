@@ -11,10 +11,10 @@
 
 .#{$fa-css-prefix}-pull-left {
   float: left;
-  margin-right: var(--#{$fa-css-prefix}-pull-margin, #{$fa-pull-margin}); 
+  margin-right: var(--#{$fa-css-prefix}-pull-margin, #{$fa-pull-margin});
 }
 
 .#{$fa-css-prefix}-pull-right {
   float: right;
-  margin-left: var(--#{$fa-css-prefix}-pull-margin, #{$fa-pull-margin}); 
+  margin-left: var(--#{$fa-css-prefix}-pull-margin, #{$fa-pull-margin});
 }
