@@ -63,9 +63,9 @@ export const PublicationPage = (props) => {
 
     useEffect(() => {
         if (fieldValue !== "all" && typeValue !== "all") {
-            setYearList(getYear(bibdata.filter(bib => bib.field === fieldValue && bib.type === typeValue)));
+            setYearList(getYear(bibdata.filter(bib => bib.field.includes(fieldValue) && bib.type === typeValue)));
         } else if (fieldValue !== "all") {
-            setYearList(getYear(bibdata.filter(bib => bib.field === fieldValue)));
+            setYearList(getYear(bibdata.filter(bib => bib.field.includes(fieldValue))));
         } else if (typeValue !== "all") {
             setYearList(getYear(bibdata.filter(bib => bib.type === typeValue)));
         } else {
@@ -154,7 +154,7 @@ export const PublicationPage = (props) => {
                         <div key ={year}>
                             <div ref={element} className="year">{year}</div>
                             {bibdata.filter(bib => bib.year === year).map(bib =>
-                                (fieldValue === "all" || bib.field === fieldValue) && (typeValue === "all" || bib.type === typeValue)?
+                                (fieldValue === "all" || bib.field.includes(fieldValue)) && (typeValue === "all" || bib.type === typeValue)?
                                 <div className="bibliography" key ={bib.title + bib.author}>
                                     <div ref={element} className="title">{bib.title}</div>
                                     <div ref={element} className="author">{bib.author}</div>
