@@ -1,15 +1,14 @@
 ---
 layout: about
 title: about
-permalink: /
-subtitle: <a href='#'> Reasearch assistant </a>. 0371 Oslo.
+permalink: /subtitle: Research assistant. 0371 Oslo.
 
 profile:
   align: right
   image: blog_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> Scientific programming 🎯 Digging the truth behind geodata.</p>
+    <p> Scientific programming 🎯 Digging the truth behind variability.</p>
 
 news: true # includes a list of news items
 latest_posts: true # recent blog
