@@ -3,7 +3,7 @@
 
 // fa-content: convenience function used to set content property
 @function fa-content($fa-var) {
-  @return unquote("\"#{ $fa-var }\"");
+  @return unquote('"#{ $fa-var }"');
 }
 
 // fa-divide: Originally obtained from the Bootstrap https://github.com/twbs/bootstrap
@@ -51,7 +51,7 @@
     $remainder: $remainder - $divisor;
   }
   @if $remainder > 0 and $precision > 0 {
-    $remainder: fa-divide($remainder * 10, $divisor, $precision - 1) * .1;
+    $remainder: fa-divide($remainder * 10, $divisor, $precision - 1) * 0.1;
   }
   @return ($quotient + $remainder) * $sign;
 }
