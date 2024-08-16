@@ -520,16 +520,6 @@
             },
           },
         {%- endif -%}
-        {%- if site.rss_icon -%}
-          {
-            id: 'socials-rss',
-            title: 'RSS Feed',
-            section: 'Socials',
-            handler: () => {
-              window.open("{{ site.baseurl }}/feed.xml", "_blank");
-            },
-          },
-        {%- endif -%}
         {%- comment -%}
         {%- if site.wechat_qr -%}
           // check how to add wechat qr code
