@@ -1,5 +1,30 @@
 [
     {
+        "content": "Peter visited our lab",
+        "image": "jul2024_peter.jpg",
+        "date": "APR-JUL, 2024"
+    },
+    {
+        "content": "One full paper and one poster Accepted🎉",
+        "image": "jul2024_cscw.jpg",
+        "date": "JUL, 2024"
+    },
+    {
+        "content": "Hyunseung presented at DIS conference 2024",
+        "image": "jul2024_dis.jpg",
+        "date": "JUL, 2024"
+    },
+    {
+        "content": "Sooyeon successfully defended her M.S. Thesis",
+        "image": "jun2024_sooyeon_defence.jpg",
+        "date": "JUN, 2024"
+    },
+    {
+        "content": "One DIS paper Accepted🎉",
+        "image": "may2024_dis.jpg",
+        "date": "MAY, 2024"
+    },
+    {
         "content": "Jongok and Suyeon joined DxD",
         "image": "join.gif",
         "date": "MAR, 2024"

@@ -35,6 +35,13 @@
         "current": true
     },
     {
+        "name": "Peter Daish",
+        "position": "Visiting Ph.D Student",
+        "image": "peter.png",
+        "homepage": "",
+        "current": false
+    },
+    {
         "name": "Chowon Kang",
         "position": "Master's Student",
         "image": "chowon.png",
@@ -46,7 +53,7 @@
         "position": "Master's Student",
         "image": "sooyeon.png",
         "homepage": "",
-        "current": true
+        "current": false
     },
     {
         "name": "Yeohyun Jung",
@@ -68,8 +75,7 @@
         "image": "suyeonnam.png",
         "homepage": "https://www.namsuyeon.me/",
         "current": true
-    }
-    ,
+    },
     {
         "name": "Yubin Choi",
         "position": "Undergraduate Intern",
@@ -82,7 +88,7 @@
         "position": "Undergraduate Intern",
         "image": "eunseo.png",
         "homepage": "",
-        "current": true
+        "current": false
     },
     {
         "name": "Seokyoung Park",
@@ -109,6 +115,20 @@
         "name": "Donggun Lee",
         "position": "Undergraduate Intern",
         "image": "donggun.png",
+        "homepage": "",
+        "current": true
+    },
+    {
+        "name": "Junghoon Han",
+        "position": "Undergraduate Intern",
+        "image": "junghoon.png",
+        "homepage": "https://hanjnghoon.notion.site/hanjeonghoon-d02ebf87cb8d4a8c8afd4a522dde2e71?pvs=4",
+        "current": true
+    },
+    {
+        "name": "Jaehoon Park",
+        "position": "Undergraduate Intern",
+        "image": "jaehoon.png",
         "homepage": "",
         "current": true
     }
