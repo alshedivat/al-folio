@@ -1,7 +1,8 @@
 ---
 layout: about
 title: about
-permalink: /subtitle: Research assistant. 0371 Oslo.
+permalink: /
+subtitle: Research assistant. 0371 Oslo.
 
 profile:
   align: right
