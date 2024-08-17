@@ -3,8 +3,8 @@ layout: page
 ---
 <div class="post">
   <article>
-    {% if page.about %}
-      {% for profile in page.about %}
+    {% if page.profile %}
+      {% for profile in page.profile %}
         <hr>
         <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
           {% if profile.image %}

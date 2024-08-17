@@ -9,11 +9,7 @@ profile:
   image: prof_brilian.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    # <p>Github: https://github.com/briliantnugraha | https://github.com/biti-en</p>
-    # <p>LinkedIN: https://www.linkedin.com/in/brilian-tafjira-nugraha/</p>
-    # <p>SOLOMON-3D mail: brilian@solomon-3d.com | brilian@solomon.com.tw</p>
-    # <p>Personal mail: briliantnugraha@gmail.com</p>
-    # <p>Jambi, Indonesia - Taipei, Taiwan</p>
+    <p>Expertise: Machine Learning, Computer vision, Continual learning, Edge inference, LLM, Generalized Instance Segmentation, Unsupervised learning for defect detection.</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
