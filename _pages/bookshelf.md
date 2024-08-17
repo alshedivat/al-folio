@@ -1,11 +1,10 @@
 ---
 layout: page
-title: bookshelf
 permalink: /bookshelf/
+title: bookshelf
 description:
 nav: false
 nav_order: 6
-horizontal: false
 ---
 
 <svg width="100%" height="500vh" xmlns="http://www.w3.org/2000/svg">
