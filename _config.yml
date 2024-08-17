@@ -120,7 +120,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: BTN # blog_name will be displayed in your blog page
-blog_description: New feeds on AI.
+blog_description: Blog updates on AI.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
