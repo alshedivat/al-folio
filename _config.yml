@@ -67,13 +67,13 @@ facebook_id: # your facebook id
 flickr_id: # your flickr id
 github_username: briliantnugraha # your GitHub user name
 gitlab_username: # your GitLab user name
-ieee_id: https://ieeexplore.ieee.org/author/37086329878 # your ieeexplore.ieee.org/author/id
+ieee_id: 37086329878 # your ieeexplore.ieee.org/author/id
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: https://www.linkedin.com/in/brilian-tafjira-nugraha/ # your LinkedIn user name
+linkedin_username: brilian-tafjira-nugraha # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -84,7 +84,7 @@ quora_username: # your Quora username
 research_gate_profile: https://www.researchgate.net/scientific-contributions/Brilian-Tafjira-Nugraha-2137572010/ # your profile on ResearchGate
 scholar_userid: D6gKlicAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
-semanticscholar_id: https://www.semanticscholar.org/author/B.-T.-Nugraha/32317651 # your Semantic Scholar ID
+semanticscholar_id: B.-T.-Nugraha/32317651 # your Semantic Scholar ID
 spotify_id: # your spotify id
 stackoverflow_id: # your stackoverflow id
 telegram_username: # your Telegram user name

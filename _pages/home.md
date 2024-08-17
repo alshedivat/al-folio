@@ -20,6 +20,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<span style="font-size:10vw"> AI </span> | Apple of the 21st century. Hi everyone, I am Brilian, Here to make a place to share ideas and things I did in the past years. Some of them might be old, since I rarely did similar things before, but I realize what kind of impact it has on myself as self-reminder, and other people.
+<span style="font-size:10vw"> AI </span> | Apple of the 21st century. Hi everyone, I am Brilian, Here to make a place to share ideas and things I did in the past years. Some of them might be old, since I rarely post things before, but I realize what kind of impact it has on myself as a self-reminder, and (might be) other people.
 
 For introduction, I am a Project Manager/Senior Computer Vision Engineer with 6+ years working as aprofessional in the Deep learning area: object detection, classification, segmentation, anomaly detection, inference optimization, unknown picking and detection, and LLM integration.
+
+My recent R&D is about 6D pose detection + tracking at 50-100fps/object on PC or 20-30 FPS on Jetson AGX Orin.
