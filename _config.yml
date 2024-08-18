@@ -228,7 +228,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
-  - "**/*.ipynb"
+  # - "**/*.ipynb"
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -259,7 +259,7 @@ plugins:
   - jekyll-feed
   - jekyll-get-json
   - jekyll-imagemagick
-  # - jekyll-jupyter-notebook
+  - jekyll-jupyter-notebook
   - jekyll-link-attributes
   - jekyll-minifier
   - jekyll-paginate-v2
