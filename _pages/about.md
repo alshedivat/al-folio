@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 I am a Computer Science student with a Statistics & Data Science Minor, at IU Bloomington.
-
+deez nuts
 I am a Research Assistant at Observatory on Social Media(OSoMe@IU) and my work there currently includes identifying Twitter botnets with Generative Adversarial Network generated profile pictures using Deep Learning based techniques like Convolutional Neural Networks for image classifcation. While, also working extensively with Twitter data to identify GAN bots using non computer vision techniques.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
