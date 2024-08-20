@@ -10,7 +10,7 @@ children:
     - title: divider
     - title: Blog of my computer world ➚
       permalink: https://blog.alirezad.ir
-    - title: single-page CV ➚
+    - title: Single-page CV ➚
       permalink: https://cv.alirezad.ir
     - title: Personal self-taken photos ➚
       permalink: https://photo.alirezad.ir
