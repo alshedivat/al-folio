@@ -8,6 +8,8 @@ children:
     - title: All of my links ➚
       permalink: https://links.alirezad.ir
     - title: divider
+    - title: Blog of my computer world ➚
+      permalink: https://blog.alirezad.ir
     - title: single-page CV ➚
       permalink: https://cv.alirezad.ir
     - title: Personal self-taken photos ➚
