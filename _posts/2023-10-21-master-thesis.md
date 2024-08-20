@@ -250,4 +250,3 @@ Due to some problem, I had to defense sooner than I expected, its okay but I mus
 
 
 … will be continued
-
