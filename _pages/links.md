@@ -1,7 +1,7 @@
 ---
 layout: page
-title: links
+title: Links
+nav: true
+nav_order: 8
 permalink: /links/
 ---
-
-{% include news.liquid %}
