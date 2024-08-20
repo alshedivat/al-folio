@@ -2,11 +2,12 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      # value: Albert Einstein
+      value: Paras Sharma
     - name: Date of Birth
-      value: 14th March 1879
+      value: 28th September 1995
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
