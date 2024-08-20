@@ -5,18 +5,18 @@ nav: true
 nav_order: 7
 dropdown: true
 children:
-    - title: All of my links ➚ (mirrors)
+    - title: <i class="fa-solid fa-list-ul"></i> All of my links (mirrors) <i class="fa-solid fa-up-right-from-square"></i>
       permalink: https://links.alirezad.ir
     - title: divider
-    - title: Blog of my computer world ➚
+    - title: <i class="fa-solid fa-laptop-code"></i> Blog of my computer world <i class="fa-solid fa-up-right-from-square"></i>
       permalink: https://blog.alirezad.ir
-    - title: Single-page CV ➚
+    - title: <i class="fa-regular fa-address-card"></i> Single-page CV <i class="fa-solid fa-up-right-from-square"></i>
       permalink: https://cv.alirezad.ir
-    - title: Personal self-taken photos ➚
+    - title: <i class="fa-regular fa-images"></i> Personal self-taken photos <i class="fa-solid fa-up-right-from-square"></i>
       permalink: https://photo.alirezad.ir
-    - title: Persian personal blog ➚
+    - title: <i class="fa-regular fa-comment-dots"></i> Persian personal blog <i class="fa-solid fa-up-right-from-square"></i>
       permalink: https://note.alirezad.ir
     - title: divider
-    - title: Momentum
+    - title: <i class="fa-solid fa-clock-rotate-left"></i> Momentum <i class="fa-solid fa-up-right-from-square"></i>
       permalink: https://now.alirezad.ir
 ---
