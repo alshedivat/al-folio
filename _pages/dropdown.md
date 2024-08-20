@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <i class="fa-solid fa-list-ul"></i> Websites
+title: <i class="fa-solid fa-ellipsis-vertical"></i> Websites
 nav: true
 nav_order: 7
 dropdown: true
