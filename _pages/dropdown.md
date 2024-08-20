@@ -5,7 +5,7 @@ nav: true
 nav_order: 7
 dropdown: true
 children:
-    - title: All of my links ➚
+    - title: All of my links ➚ (mirrors)
       permalink: https://links.alirezad.ir
     - title: divider
     - title: Blog of my computer world ➚
