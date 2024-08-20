@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: none
 title: Links
 nav: true
 nav_order: 9
-permalink: /link/
+permalink: /links/
 redirect: true
 ---
