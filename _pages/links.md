@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Links
 nav: true
 nav_order: 9
