@@ -5,14 +5,14 @@ nav: true
 nav_order: 7
 dropdown: true
 children:
-    - title: All of my links
+    - title: All of my links ➚
       permalink: https://links.alirezad.ir
     - title: divider
-    - title: Single Page CV
+    - title: single-page CV ➚
       permalink: https://cv.alirezad.ir
-    - title: Personal self-taken photos
+    - title: Personal self-taken photos ➚
       permalink: https://photo.alirezad.ir
-    - title: Blog (Persian)
+    - title: Persian personal blog ➚
       permalink: https://note.alirezad.ir
     - title: divider
     - title: Momentum
