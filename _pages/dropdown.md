@@ -12,7 +12,7 @@ children:
       permalink: https://blog.alirezad.ir
     - title: <i class="fa-regular fa-address-card"></i> Single-page CV <i class="fa-solid fa-up-right-from-square"></i>
       permalink: https://cv.alirezad.ir
-    - title: <i class="fa-regular fa-images"></i> Personal self-taken photos <i class="fa-solid fa-up-right-from-square"></i>
+    - title: <i class="fa-regular fa-images"></i> My photos gallery <i class="fa-solid fa-up-right-from-square"></i>
       permalink: https://photo.alirezad.ir
     - title: <i class="fa-regular fa-comment-dots"></i> Persian personal blog <i class="fa-solid fa-up-right-from-square"></i>
       permalink: https://note.alirezad.ir
