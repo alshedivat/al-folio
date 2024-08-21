@@ -11,7 +11,6 @@
 - title: Education
   type: time_table
   contents:
-
     - title: PhD Student (MS in Electrical Engineering)
       institution: University of Colorado Boulder, Boulder CO
       year: 2020-2023 
@@ -57,11 +56,6 @@
 - title: Academic Interests
   type: nested_list
   contents:
-      - title: Interference in Communication Systems
-      items:
-          - Develop testbed and methodology for general-purpose interference testing in communication systems, including with COTS devices
-          - Investigate proxy interference signals for EMC/EMI testing and compare to current waveforms in standards (ex. IEC, DoD, RTCA)
-          - Explore communication signal structure (eg. time and frequency) to broadly classify impactful chracteristics and general interference classes
     - title: Reconfigurable RF Systems
       items: 
         - Development of RF systems that can be tuned for best performance over changing conditions (eg. load variation, power level differences)
@@ -75,13 +69,7 @@
 - title: Research Experience
   type: time_table
   contents:
-      - title: Graduate Research Assistant - Applied Systems Metrology Group, Communications Technology Laboratory, National Institute of Standards and Technology (NIST) 
-      institution: NIST (University of Colorado Boulder)
-      year: 2023-2024 
-      description:
-          - Develop new waveforms and techniques for interference testing in COTS devices
-          - Research communication signal structure for interference testing 
-          - Categorize measured communication signals
+
     - title: Graduate Research Assistant - RF Power and Analog Lab and Dall'Anese Lab
       institution: University of Colorado Boulder
       year: 2020-2023
