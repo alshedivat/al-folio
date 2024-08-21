@@ -11,16 +11,7 @@
 - title: Education
   type: time_table
   contents:
-      -title: PhD Student
-      institution: University of Colorado Boulder, Boulder CO
-      year: 2023-2025
-      description:
-          - Funded by Professional Research Experience Program (PREP) - NIST 
-          - Advised by Adam Wunderlich (group leader)
-          - title: Areas of Concentration
-          contents:
-              - Communication Systems 
-              - EMC/EMI testing 
+
     - title: PhD Student (MS in Electrical Engineering)
       institution: University of Colorado Boulder, Boulder CO
       year: 2020-2023 
@@ -50,7 +41,7 @@
 - title: Notable Awards
   type: time_table
   contents:
-    -year: 24
+    - year: 2024
     items:
         - Best Student Paper Award IEEE International Symposium on Electromagnetic Compatibility, Signal and Power Integrity 
     - year: 2022
