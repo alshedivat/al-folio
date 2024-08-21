@@ -1,0 +1,5 @@
+classification of lie algebras + dynkin diagrams
+derived categories (concretely w/ semi-projective resolutions)
+algebraic integers (w/ monic observation)
+coxeter groups? 
+something about cayley graphs/nielsen schreier?

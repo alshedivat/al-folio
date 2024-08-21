@@ -3,6 +3,22 @@
   contents: 
     - name: Name 
       value: Bryan Lu
+    - name: Email
+      value: blu17@uw.edu
+    - name: Office
+      value: Padelford C-8G
+
+# - title: Education
+  type: time_table
+  contents: 
+  - name: PhD
+    institution: University of Washington
+    year: 2024 - present
+  - name: BA
+    institution: Cornell University
+    year: 2020 - 2023
+
+# - title: Teaching Experience
 
 # - title: General Information
 #   type: map

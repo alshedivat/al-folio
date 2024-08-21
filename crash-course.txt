@@ -1,0 +1,3 @@
+html files can be found under _includes, _layouts
+_data has all other .yml files you know of, other than the obvious _config.yml
+assets is where you put the stuff you want the website to have (that's not just text)

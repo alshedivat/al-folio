@@ -43,7 +43,7 @@ layout: default
 
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2> 
             {%- include news.html limit=true %}
           {%- endif %}
 
@@ -57,6 +57,21 @@ layout: default
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
             {%- include selected_papers.html %}
+          {%- endif %}
+
+          <!-- Axioms -->
+          {% if page.axioms -%}
+            <h2>axioms</h2>
+            <p>
+              I strongly believe in and attempt to uphold the following axioms laid out by Federico Ardila: 
+              <ol>
+                <li> Mathematical potential is equally present in different groups, irrespective of geographic, demographic, and economic boundaries. </li>
+                <li> Everyone can have joyful, meaningful, and empowering mathematical experiences. </li>
+                <li> Mathematics is a powerful, malleable tool that can be shaped and used differently by various communities to serve their needs. </li>
+                <li> Every student deserves to be treated with dignity and respect.</li>
+              </ol>              
+              These axioms have at least 17 corollaries that should be pursued thoroughly. <img src="/assets/img/yellowPig.png" alt="yp17" height="17">
+              </p>
           {%- endif %}
 
           <!-- Social -->

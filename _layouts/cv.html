@@ -53,68 +53,9 @@ layout: default
     {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
   </header>
 
-  <h4>Table of contents</h4>
-  <!-- maybe embed me -->
-  <ul class="timeline">
-  {% for entry in site.data.resume %}
-    {% if site.jsonresume and site.jsonresume.size > 0 %}
-      {% unless site.jsonresume contains entry[0] %}
-        {% continue %}
-      {% endunless %}
-    {% endif %}
-    {% if entry[0] == "meta" or entry[1].size == 0 %}
-      {% continue %}
-    {% endif %}
-    <li><a href="#{{ entry[0] }}"><span class="badge-toc">{{ entry[0] | capitalize }}</span></a></li>
-  {% endfor %}
-  </ul>
-
-  <article>
-    <div class="cv">
-      {% for data in site.data.resume %}
-        {% if site.jsonresume and site.jsonresume.size > 0 %}
-          {% unless site.jsonresume contains data[0] %}
-            {% continue %}
-          {% endunless %}
-        {% endif %}
-        {% if data[0] == "meta" or data[1].size == 0 %}
-          {% continue %}
-        {% endif %}
-        <a class="anchor" id="{{ data[0] }}"></a>
-        <div class="card mt-3 p-3">
-          <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
-          <div>
-          {% case data[0] %}
-            {% when "basics" %}
-              {% include resume/basics.html %}
-            {% when "education" %}
-              {% include resume/education.html %}
-            {% when "work" %}
-              {% include resume/work.html %}
-            {% when "volunteer" %}
-              {% include resume/volunteer.html %}
-            {% when "projects" %}
-              {% include resume/projects.html %}
-            {% when "awards" %}
-              {% include resume/awards.html %}
-            {% when "skills" %}
-              {% include resume/skills.html %}
-            {% when "publications" %}
-              {% include resume/publications.html %}
-            {% when "languages" %}
-              {% include resume/languages.html %}
-            {% when "interests" %}
-              {% include resume/interests.html %}
-            {% when "certificates" %}
-              {% include resume/certificates.html %}
-            {% else %}
-
-          {% endcase %}
-          </div>
-        </div>
-      {% endfor %}
-      </div>
-  </article>
+  <object data="/assets/pdf/bryan-lu-cv-08-19-24.pdf" type="application/pdf" width="100%" height="1020px">
+    <p>Unable to display PDF file. <a href="/assets/pdf/bryan-lu-cv-08-19-24.pdf">Download</a> instead.</p>
+  </object>
 
 </div>
 {% endunless %}

@@ -4,7 +4,7 @@ permalink: /resources/
 title: resources
 description: odds and ends
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 <!-- pages/resources.md -->
