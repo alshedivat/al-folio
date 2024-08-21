@@ -4,6 +4,6 @@ permalink: /teaching/
 title: teaching
 description: courses and experiences
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
