@@ -3,7 +3,7 @@ layout: page
 title: latent factor model
 description: Discovery of Functional Predictivity across Brain Regions from Local Field Potentials
 img: assets/img/ladyns_project.jpg
-importance: 1
+importance: 2
 category: methodology & application
 ---
 
