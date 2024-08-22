@@ -11,15 +11,9 @@
 - title: Education
   type: time_table
   contents:
-<<<<<<< HEAD
-    - title: PhD Student (MS in Electrical Engineering)
-      institution: University of Colorado Boulder, Boulder CO
-      year: 2020-2023 
-=======
     - title: PhD Student
       institution: University of Colorado Boulder, Boulder CO
-      year: 2020- 2025 
->>>>>>> parent of 6904241f (update cv)
+      year: 2020-2025 
       description:
         - Funded by DoD NDSEG Fellowship
         - Co-advised by Taylor Barton and Emiliano Dall'Anese
@@ -46,12 +40,9 @@
 - title: Notable Awards
   type: time_table
   contents:
-<<<<<<< HEAD
     - year: 2024
     items:
-        - Best Student Paper Award IEEE International Symposium on Electromagnetic Compatibility, Signal and Power Integrity 
-=======
->>>>>>> parent of 6904241f (update cv)
+        - Best Student Paper Award IEEE International Symposium on Electromagnetic Compatibility, Signal and Power Integrity (EMC)
     - year: 2022
       items: 
         - Recipient of DoD NDSEG fellowship 
@@ -78,10 +69,6 @@
 - title: Research Experience
   type: time_table
   contents:
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of 6904241f (update cv)
     - title: Graduate Research Assistant - RF Power and Analog Lab and Dall'Anese Lab
       institution: University of Colorado Boulder
       year: 2020-2025
