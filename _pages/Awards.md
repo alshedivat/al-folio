@@ -7,8 +7,6 @@ nav: true
 nav_order: 5
 ---
 <ul>
-    <li>Best student paper award at the International Symposium on Electromagnetic Compatibility, Signal and Power Integrity (EMC 2024)</li>
-
 	<li>Department of Defense National Defense Science and Engineering Graduate (NDSEG) fellowship (September 2022- September 2025)</li>
 
 	<li>Industry white paper published "EMI Shielding Effectiveness Study of a 3D Printed Antenna in Package (AiP)" for Sono-Tek Corp (May 2022)</li>
