@@ -16,7 +16,7 @@ jobs:
         run:  find . -type f -name "*.html" -exec sed -i 's/<\/source>//g' {} +
       
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
 
       - name: Install Prettier
         run: npm install -g prettier
