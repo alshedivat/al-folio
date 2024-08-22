@@ -1,9 +1,6 @@
 name: Pretty HTML
 
 on:
-  push:
-    branches:
-      - gh-pages
   workflow_dispatch:
 
 jobs:
