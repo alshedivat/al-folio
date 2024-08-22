@@ -24,9 +24,9 @@ social: true  # includes social icons at the bottom of the page
 
 Hello! I'm a first-year PhD student in mathematics at the University of Washington. My mathematical interests are mainly in combinatorics (especially algebraic combinatorics), but I also enjoy learning about algebra and geometry and finding places where all three overlap.
 
-I graduated from Cornell University in December 2023 with a bachelor's in mathematics and computer science. Some wayward academic interests from my time as an undergraduate  include programming languages, formal verification, physics, and linguistics. I don't think about these things as much anymore, but I love to hear about them! I've also slowly developing an interest in (mathematical) pedagogy and thinking about how to share math with people. 
+I graduated from Cornell University in December 2023 with a bachelor's in mathematics and computer science. Some wayward academic interests from my time as an undergraduate include <a href="https://github.com/etalang/jaek">programming languages</a>, <a href="https://github.com/blu-bird/agda-unimath">formal verification</a>, physics, and linguistics. I don't think about these things as much anymore, but I love to hear about them! I've also slowly developing an interest in (mathematical) pedagogy and thinking about how to share math with people. 
 
-Outside of academics, in my free time I like playing games (on boards or otherwise) and doing puzzles (so much that sometimes I spend a whole weekend on them). I also enjoy dancing and playing ultimate frisbee. 
+Outside of academics, in my free time I like playing games (on boards or otherwise) and doing puzzles (so much that sometimes I spend a <a href="https://puzzles.mit.edu/">whole weekend</a> on them). I also enjoy dancing and playing ultimate frisbee. 
 
 
 
