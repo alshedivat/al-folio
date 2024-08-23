@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 subtitle: <b>PhD</b>:<a href='https://www.pitt.edu/'> University of Pittsburgh</a> | <b>Masters</b>:<a href='https://www.usc.edu/'> USC</a> | <b>Bachelors</b>:<a href='https://www.iitism.ac.in/'> IIT Dhanbad</a>
