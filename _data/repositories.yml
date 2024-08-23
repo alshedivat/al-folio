@@ -1,14 +1,19 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - parassharma2809
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - parassharma2809/SlenderManGame
+  - parassharma2809/MultimodalMLProject
+  - parassharma2809/E-DGT
+  - parassharma2809/GesturesProject
+  - qxc101/NLP_Project
+  - parassharma2809/BlogWebsite
+  - parassharma2809/DOS
+  - parassharma2809/empathy-chatbot
+  - dntil/empathy-chatbot
+  - parassharma2809/DependencyParsing
+  - parassharma2809/RLSlotFillingAgent
+  - parassharma2809/KPrototypes 
+
