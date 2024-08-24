@@ -2,4 +2,7 @@ classification of lie algebras + dynkin diagrams
 derived categories (concretely w/ semi-projective resolutions)
 algebraic integers (w/ monic observation)
 coxeter groups? 
+schur weyl duality and young tableaux
+peter weyl theorem
 something about cayley graphs/nielsen schreier?
+radon nikodym 
