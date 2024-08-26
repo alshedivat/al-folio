@@ -149,6 +149,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://thefermi0n.github.io/" target="_blank">★</a>
 <a href="https://mingsun-kaust.github.io/" target="_blank">★</a>
 <a href="https://hdocmsu.github.io/" target="_blank">★</a>
+<a href="https://trandangtrungduc.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
