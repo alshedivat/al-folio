@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Preview](assets/img/readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
+[![Preview](readme_preview/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
 **A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
 
@@ -152,11 +152,11 @@ Feel free to add your own page(s) by sending a PR.
 <td>Courses</td>
 <td>
 CMU PGM (<a href="https://sailinglab.github.io/pgm-spring-2019/" target="_blank">S-19</a>) <br>
-CMU DeepRL (<a href="https://cmudeeprl.github.io/703website_f19/" target="_blank">F-19</a>, <a href="https://cmudeeprl.github.io/Spring202010403website/" target="_blank">S-20</a>, <a href="https://cmudeeprl.github.io/703website/" target="_blank">F-20</a>, <a href="https://cmudeeprl.github.io/403_website/" target="_blank">S-21</a>, <a href="https://cmudeeprl.github.io/703website_f21/" target="_blank">F-21</a>, <a href="https://cmudeeprl.github.io/403website_s22/" target="_blank">S-22</a>) <br>
+CMU DeepRL (<a href="https://cmudeeprl.github.io/403_website/" target="_blank">S-21</a>, <a href="https://cmudeeprl.github.io/703website_f21/" target="_blank">F-21</a>, <a href="https://cmudeeprl.github.io/403website_s22/" target="_blank">S-22</a>, <a href="https://cmudeeprl.github.io/703website_f22/" target="_blank">F-22</a>, <a href="https://cmudeeprl.github.io/403website_s23/" target="_blank">S-23</a>, <a href="https://cmudeeprl.github.io/703website_f23/" target="_blank">F-23</a>) <br>
 CMU MMML (<a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2020/" target="_blank">F-20</a>, <a href="https://cmu-multicomp-lab.github.io/mmml-course/fall2022/" target="_blank">F-22</a>) <br>
 CMU AMMML (<a href="https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2022/" target="_blank">S-22</a>, <a href="https://cmu-multicomp-lab.github.io/adv-mmml-course/spring2023/" target="_blank">S-23</a>) <br>
 CMU ASI (<a href="https://cmu-multicomp-lab.github.io/asi-course/spring2023/" target="_blank">S-23</a>) <br>
-CMU Distributed Systems (<a href="https://andrew.cmu.edu/course/15-440/" target="_blank">S-21</a>)
+CMU Distributed Systems (<a href="https://andrew.cmu.edu/course/15-440/" target="_blank">S-24</a>)
 </td>
 </tr>
 <tr>
@@ -244,8 +244,8 @@ For customization details please refer to [CUSTOMIZE.md](CUSTOMIZE.md).
 This template has a built-in light/dark mode. It detects the user preferred color scheme and automatically switches to it. You can also manually switch between light and dark mode by clicking on the sun/moon icon in the top right corner of the page.
 
 <p align="center">
-<img src="assets/img/readme_preview/light.png" width=400>
-<img src="assets/img/readme_preview/dark.png" width=400>
+<img src="readme_preview/light.png" width=400>
+<img src="readme_preview/dark.png" width=400>
 </p>
 
 ---
@@ -256,7 +256,7 @@ There are currently 2 different ways of generating the CV page content. The firs
 
 What this means is, if there is no resume data defined in [\_config.yml](_config.yml) and loaded via a json file, it will load the contents of [\_data/cv.yml](_data/cv.yml) as fallback.
 
-[![CV Preview](assets/img/readme_preview/cv.png)](https://alshedivat.github.io/al-folio/cv/)
+[![CV Preview](readme_preview/cv.png)](https://alshedivat.github.io/al-folio/cv/)
 
 ---
 
@@ -264,7 +264,7 @@ What this means is, if there is no resume data defined in [\_config.yml](_config
 
 You can create a people page if you want to feature more than one person. Each person can have its own short bio, profile picture, and you can also set if every person will appear at the same or opposite sides.
 
-[![People Preview](assets/img/readme_preview/people.png)](https://alshedivat.github.io/al-folio/people/)
+[![People Preview](readme_preview/people.png)](https://alshedivat.github.io/al-folio/people/)
 
 ---
 
@@ -274,7 +274,7 @@ Your publications' page is generated automatically from your BibTex bibliography
 
 You can add extra information to a publication, like a PDF file in the [assets/pdf/](assets/pdf/) directory and add the path to the PDF file in the BibTeX entry with the `pdf` field. Some of the supported fields are: `abstract`, `altmetric`, `arxiv`, `bibtex_show`, `blog`, `code`, `dimensions`, `doi`, `eprint`, `html`, `isbn`, `pdf`, `pmid`, `poster`, `slides`, `supp`, `video`, and `website`.
 
-[![Publications Preview](assets/img/readme_preview/publications.png)](https://alshedivat.github.io/al-folio/publications/)
+[![Publications Preview](readme_preview/publications.png)](https://alshedivat.github.io/al-folio/publications/)
 
 ---
 
@@ -282,7 +282,7 @@ You can add extra information to a publication, like a PDF file in the [assets/p
 
 This Jekyll theme implements `collections` to let you break up your work into categories. The theme comes with two default collections: `news` and `projects`. Items from the `news` collection are automatically displayed on the home page. Items from the `projects` collection are displayed on a responsive grid on projects page.
 
-[![Projects Preview](assets/img/readme_preview/projects.png)](https://alshedivat.github.io/al-folio/projects/)
+[![Projects Preview](readme_preview/projects.png)](https://alshedivat.github.io/al-folio/projects/)
 
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
 
@@ -296,7 +296,7 @@ You can easily create your own collections, apps, short stories, courses, or wha
 
 The theme allows you to create blog posts in the [distill.pub](https://distill.pub/) style:
 
-[![Distill Preview](assets/img/readme_preview/distill.png)](https://alshedivat.github.io/al-folio/blog/2021/distill/)
+[![Distill Preview](readme_preview/distill.png)](https://alshedivat.github.io/al-folio/blog/2021/distill/)
 
 For more details on how to create distill-styled posts using `<d-*>` tags, please refer to [the example](https://alshedivat.github.io/al-folio/blog/2021/distill/).
 
@@ -305,8 +305,8 @@ For more details on how to create distill-styled posts using `<d-*>` tags, pleas
 **al-folio** supports fast math typesetting through [MathJax](https://www.mathjax.org/) and code syntax highlighting using [GitHub style](https://github.com/jwarby/jekyll-pygments-themes). Also supports [chartjs charts](https://www.chartjs.org/), [mermaid diagrams](https://mermaid-js.github.io/mermaid/#/), and [TikZ figures](https://tikzjax.com/).
 
 <p align="center">
-<a href="https://alshedivat.github.io/al-folio/blog/2015/math/" target="_blank"><img src="assets/img/readme_preview/math.png" width=400></a>
-<a href="https://alshedivat.github.io/al-folio/blog/2015/code/" target="_blank"><img src="assets/img/readme_preview/code.png" width=400></a>
+<a href="https://alshedivat.github.io/al-folio/blog/2015/math/" target="_blank"><img src="readme_preview/math.png" width=400></a>
+<a href="https://alshedivat.github.io/al-folio/blog/2015/code/" target="_blank"><img src="readme_preview/code.png" width=400></a>
 </p>
 
 #### Photos, Audio, Video and more
@@ -315,7 +315,7 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
 
 <p align="center">
   <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
-    <img src="assets/img/readme_preview/photos-screenshot.png" width="75%">
+    <img src="readme_preview/photos-screenshot.png" width="75%">
   </a>
 </p>
 
@@ -327,7 +327,7 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
 
 **al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) to display GitHub repositories and user stats on the `/repositories/` page.
 
-[![Repositories Preview](assets/img/readme_preview/repositories.png)](https://alshedivat.github.io/al-folio/repositories/)
+[![Repositories Preview](readme_preview/repositories.png)](https://alshedivat.github.io/al-folio/repositories/)
 
 Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the `/repositories/` page.
 
