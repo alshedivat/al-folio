@@ -133,23 +133,24 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out
 # the information below.
 giscus:
-  repo: alshedivat/al-folio      # <your-github-user-name>/<your-github-repo-name>
-  repo_id: MDEwOlJlcG9zaXRvcnk2MDAyNDM2NQ==
-  category: Comments             # name of the category under which discussions will be created
-  category_id: DIC_kwDOA5PmLc4CTBt6
+  repo: blu-bird/blu-bird.github.io     # <your-github-user-name>/<your-github-repo-name>
+  repo_id: R_kgDOIpEIUw
+  category: Announcements             # name of the category under which discussions will be created
+  category_id: DIC_kwDOIpEIU84Ch8yx
   mapping: title                 # identify discussions by post title
-  strict: 1                      # use strict identification mode
-  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
-  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
+  strict: 0                      # use strict identification mode
+  reactions_enabled: 0           # enable (1) or disable (0) emoji reactions
+  input_position: top            # whether to display input form below (bottom) or above (top) the comments
   theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
   emit_metadata: 0
+  loading: lazy
   lang: en
 
 # Disqus comments (DEPRECATED)

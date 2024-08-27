@@ -3,6 +3,8 @@ layout: post
 title: first!
 date: 2024-08-23
 description: in which the blog is introduced for the first time and goals are set
+related_posts: false
+giscus_comments: true
 ---
 
 starting a math blog associated to this website! 
