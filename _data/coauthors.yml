@@ -6,6 +6,10 @@
   - firstname: ["Gaétan", "G.", "G"]
     url: https://gder.phpnet.org/rassenfosse/bio.html
 
+"Rassenfosse":
+  - firstname: ["Gaétan", "G.", "G"]
+    url: https://gder.phpnet.org/rassenfosse/bio.html
+
 "Higham":
   - firstname: ["Kyle", "K.", "K", "K. W.", "KW", "Kyle William"]
     url: https://scholar.google.com/citations?user=Ze-7kTYAAAAJ&hl=en
@@ -13,6 +17,10 @@
 "Cristelli":
   - firstname: ["Gabriele", "G."]
     url: https://scholar.google.com/citations?user=yp8qc9UAAAAJ&hl=en
+
+"Somers":
+  - firstname: ["Ken", "K", "K."]
+    url: https://www.mckinsey.com/our-people/ken-somers
 
 "Schneider":
   - firstname: ["Emmanuel", "E", "E."]

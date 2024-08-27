@@ -3,28 +3,64 @@
 
 @string{aps = {American Physical Society,}}
 
-@article{bergeaudverluise2022,
-  abbr={Working Paper},
-  title={A New Dataset to Study a Century of Innovation in Europe and in the US},
-  author={Bergeaud, Antonin and Verluise, Cyril},
-  abstract={Innovation is an important driver of potential growth but quantitative evidence on the dynamics of innovative activities in the long-run are hardly documented due to the lack of data, especially in Europe. In this paper, we introduce PatentCity, a novel dataset on the location and nature of patentees from the 19th century using information derived from an automated extraction of relevant information from patent documents published by the German, French, British and US Intellectual Property offices. This dataset has been constructed with the view of facilitating the exploration of the geography of innovation and includes additional information on citizenship and occupation of inventors.},
-  year={2022},
-  month={September},
+
+@article{bergeaudverluise2024,
+  abbr={Article},
+  title = {A new dataset to study a century of innovation in Europe and in the US},
+  journal = {Research Policy},
+  volume = {53},
+  number = {1},
+  pages = {104903},
+  year = {2024},
+  month={January},
   pdf={https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=9250},
-  code={https://github.com/cverluise/patentcity}
-}
+  code={https://github.com/cverluise/patentcity},
+  issn = {0048-7333},
+  doi = {https://doi.org/10.1016/j.respol.2023.104903},
+  url = {https://www.sciencedirect.com/science/article/pii/S0048733323001877},
+  author={Bergeaud, Antonin and Verluise, Cyril},
+  keywords = {History of innovation, Patent, Text as data},
+  abstract = {Innovation is an important driver of potential growth but quantitative evidence on the dynamics of innovative activities in the long-run are hardly documented due to the lack of data, especially in Europe. In this paper, we introduce PatentCity, a novel dataset on the location and nature of patentees from the 19th century using information derived from an automated extraction of relevant information from patent documents published by the German, French, British and US Intellectual Property offices. This dataset has been constructed with the view of facilitating the exploration of the geography of innovation and includes additional information on citizenship and occupation of inventors.}
+  }
 
-@article{verluisebergeaud2022,
-  abbr={Working Paper},
-  title={The Rise of China's Technological Power: the Perspective from Frontier Technologies},
+
+@article{verluisebergeaud2023,
+  abbr={Article},
+  title={Identifying technology clusters based on automated patent landscaping},
+  journal={Plos One},
   author={Verluise, Cyril and Bergeaud, Antonin},
-  abstract={We develop a new method to identify patent in specific technologies and use it to study the contribution of the US, Europe, China, and Japan to frontier innovation. We find that China’s contribution to frontier technology has become quantitatively similar to the US in the late 2010s while overcoming the European and Japanese contributions. Although China still exhibits stigmas of a catching up economy, these stigmas are on the downside. The quality of frontier innovation published at the Chinese Patent Office has leveled up to the quality of patents published at the European and Japanese patent offices.},
-  year={2022},
+  abstract={We introduce a new general methodological approach for accurately and consistently retrieving a large set of patents related to specific technologies. We build upon the automated patent landscaping algorithm by incorporating a tractable amount of human supervision to improve the accuracy and consistency of our results. We demonstrate the efficacy of our approach by applying it to six novel and representative technologies: additive manufacturing, blockchain, computer vision, genome editing, hydrogen storage, and self-driving vehicles.},
+  year={2023},
   month={December},
-  pdf={https://cep.lse.ac.uk/_NEW/PUBLICATIONS/abstract.asp?index=9637},
-  code={https://github.com/cverluise/techlandscape}
+  pdf={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295587},
+  code={https://github.com/cverluise/techlandscape},
+  doi={https://doi.org/10.1371/journal.pone.0295587},
+  url={https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0295587}
+  }
+
+
+@article{somers2023method,
+  abbr={Patent},
+  title={Method to optimise heat integration in industry},
+  journal={USPTO},
+  author={Somers, Ken and Barres, Simon and Sans, Jerome and Verluise, Cyril},
+  year={2023},
+  month={aug},
+  abstract={A method is provided for determining an approximate global optimum allotment of a plurality of devices to incorporate cold-to-hot thermal connection technologies within a plant. A computing system is provided for determining an approximate global optimum allotment of a plurality of devices to incorporate cold-to-hot thermal connection technologies within a plant. A non-transitory computer-readable storage medium is provided including executable instructions that, when executed by a processor, cause a computer to: receive, via one or more processors, device data including available heat sources, available thermal connections, and available heat sinks; process, via one or more processors, the device data to generate a twin model corresponding to the devices; generate, via one or more processors, a sequence of simulated installations based on the twin model, to approximate the global optimum allotment of the plurality of devices with respect to a plant optimization target; and cause, via one or more processors, the approximate global optimum allotment to be stored in a non-transitory computer-readable memory.},
+  html={https://patents.google.com/patent/US20240077895A1/}
 }
 
+@article{verluise2022,
+  abbr={PhD Thesis},
+  title={Three Essays on Innovation Diffusion},
+  journal={EHESS},
+  author={Verluise, Cyril and Bergeaud, Antonin and Cristelli, Gabriele and Higham, Kyle and de Rassenfosse, Gaétan},
+  year={2022},
+  month={oct},
+  abstract={This PhD thesis focuses on the diffusion of innovation.We first ask how to measure the diffusion of innovation. We show that in-text patent citations offer a promising candidate. In this context, we provide a dataset of in-text patent citations covering the entire United-States (US) patent corpus. Then, we turn our attention to the history of innovation as depicted by the patent corpus in Europe and the US. We publish a novel dataset on patentees attributes since the XIXth century in Germany, France, Great-Britain and the US. Leveraging these new data, we find that they exhibit very distinct patterns regarding the geographic concentration of innovation, the role of migration and inventors’ socio-economic characteristics. Eventually, we turn to the contribution of the major developed and developing countries to frontier technologies. We find that, although China still exhibits the legacy of a catching-up economy, this legacy is fading away and that China is becoming a major contributor to frontier technology patents, similar to the US.},
+  pdf={CyrilVerluise_PhDManuscript.pdf},
+  html={https://theses.fr/2022EHES0069}
+}
 
 @article{verluise2020,
   abbr={Working Paper},
@@ -40,10 +76,11 @@
 
 
 @article{broyer2016comportements,
-  abbr={REI},
+  abbr={Article},
   title={Les comportements de d{\'e}tention de liquidit{\'e}s dans les soci{\'e}t{\'e}s non financi{\`e}res du G7 ont-ils {\'e}volu{\'e} depuis la crise?},
   author={Broyer, Sylvain and Schneider, Emmanuel and Verluise, Cyril},
   abstract={Cash holdings of G7 corporates have hit new historical highs since the financial crisis. A common idea is that the precautionary motive would be the main factor: the accumulation of cash would result from lack of access to bank financing that corporates underwent during the financial crisis. We take an in-depth look at the development in cash holdings by corporates in the G7 and carry out an econometric test to identify whether the financial crisis has brought a regime switch. Our results indicate that cash holdings due to caution have increased only in those G7 countries where the disintermediation of external funding has also increased (USA, UK, Japan). In continental Europe, our tests invalidate the hypothesis of a regime switch in cash holdings.‪},
+  pdf={https://journals.openedition.org/rei/6340},
   journal={Revue d'{\'e}conomie industrielle},
   number={154},
   pages={97--123},

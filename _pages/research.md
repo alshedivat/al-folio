@@ -3,7 +3,7 @@ layout: page
 permalink: /research/
 title: research
 description: Papers and publications
-years: [2022, 2020, 2016]
+years: [2024, 2023, 2022, 2020, 2016]
 nav: true
 ---
 <!-- _pages/publications.md -->

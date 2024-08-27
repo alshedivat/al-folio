@@ -115,11 +115,11 @@ Want to know more? You are at the right place 👇
 
 <p><br/></p>
 
-#### ✏️ Typescripts
+#### ✏️ Programming languages
 
 | Language &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
 |--------------------------------------|-----------------------------------------------|-----------------------------------------|
-| Python	                              | 5			                                          | Advanced                                |
+| Python	                              | 6			                                          | Advanced                                |
 | R		                                  | 2			                                          | Intermediary/Rusty                      |
 
 <p><br/></p>
@@ -128,10 +128,11 @@ Want to know more? You are at the right place 👇
 
 | Domain &nbsp; &nbsp; &nbsp; &nbsp; | Tools &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
 |------------------------------------|-----------------------------------|-----------------------------------------------|-----------------------------------------|
-| Code	                              | git		                             | 5	                                            | Intermediary                            |
-|                                    | git-flow	                         | 2	                                            | Intermediary                            |
-|                                    | GitHub                            | 5                                             | Advanced                                |
-| CI/CD                              | CircleCi                          | 1                                             | Intermediary                            |
+| Code	                              | git		                             | 6	                                            | Intermediary                            |
+|                                    | git-flow	                         | 3	                                            | Intermediary                            |
+|                                    | GitHub                            | 6                                             | Advanced                                |
+| CI/CD                              | CircleCi                          | 2                                             | Intermediary                            |
+|                               | GitHub actions                          | 2                                             | Intermediary                            |
 
 <p><br/></p>
 
@@ -139,8 +140,8 @@ Want to know more? You are at the right place 👇
 
 | Domain &nbsp; &nbsp; &nbsp; &nbsp; | Tools &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
 |------------------------------------|-----------------------------------|-----------------------------------------------|-----------------------------------------|
-| Data	                              | dvc		                             | 1	                                            | Intermediary                            |
-| Pipeline orchestration	            | kedro                             | 1	                                            | Intermediary                            |
+| Data versioning	                              | dvc		                             | 1	                                            | Intermediary                            |
+| Pipeline orchestration	            | kedro                             | 2	                                            | Intermediary                            |
 | Experiment tracking 	              | mlflow                            | 1	                                            | Intermediary                            |
 |                                    | WandB                             | 1	                                            | Intermediary                            |
 |                                    | hydra                             | 2                                             | Intermediary                            |
@@ -151,17 +152,18 @@ Want to know more? You are at the right place 👇
 
 | Domain &nbsp; &nbsp; &nbsp; &nbsp; | Tools &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
 |------------------------------------|-----------------------------------|-----------------------------------------------|-----------------------------------------|
-| Data manipulation	                 | pandas		                          | 5                                             | Advanced                                |
+| Data manipulation	                 | pandas		                          | 6                                             | Advanced                                |
 |                                    | pyspark			                        | Discontinuous	                                | Intermediary                            |
-| Scientific Computation             | numpy 		                          | 5	                                            | Advanced                                |
+| Scientific Computation             | numpy 		                          | 6	                                            | Advanced                                |
 |                                    | scipy			                          | Discontinuous	                                | Intermediary                            |                                         |
-| Optimisation                       | pulp                              | 1                                             | Intremediary                            |
-| Plotting				                       | matplotlib	                       | 5	                                            | Intermediary                            |
-|                                    | plotly		                          | 2	                                            | Rusty                                   |                                         |
-| Machine Learning		                 | sklearn		                         | 5	                                            | Advanced                                |
+| Optimisation/linear programming                       | pulp                              | 2                                             | advanced                            |
+| Dashboard/UI				                       | vizro	                       | 1	                                            | advanced                            |
+| Plotting				                       | matplotlib	                       | 6	                                            | Intermediary                            |
+|                                    | plotly		                          | 3	                                            | Rusty                                   |                                         |
+| Machine Learning		                 | sklearn		                         | 6	                                            | Advanced                                |
 | Deep Learning			                   | keras (Tensorflow)                | 2	                                            | Intermediary                            |
 | Natural Language Processing        | SpaCy		                           | 3	                                            | Advanced                                |
-|                                    | gensim	                           | 1	                                            | Intermediary/Rusty                      |
+|                                    | gensim	                           | Discontinuous	                                            | Intermediary/Rusty                      |
 | Annotation                         | Prodigy	                          | 2	                                            | Intermediary                            |
 
 
@@ -176,6 +178,10 @@ Want to know more? You are at the right place 👇
 | Google Cloud Platform                     | BigQuery		                        | 3	                                            | Advanced                                |
 |                                           | Google Storage                    | 3	                                            | Intermediary                            |
 |                                           | Compute Engine	                   | 3	                                            | Intermediary                            |
+| Azure                     | Azure Devops		                        | 1	                                            | Intermediary                                |
+|                                           | Azure Container Registry                    | 1	                                            | Intermediary                            |
+|                                           | Container apps	                   | 1	                                            | Intermediary                            |
+
 
 <p><br/></p>
 						
@@ -184,5 +190,5 @@ Want to know more? You are at the right place 👇
 | Domain &nbsp; &nbsp; &nbsp; &nbsp; | Tools &nbsp; &nbsp; &nbsp; &nbsp; | Years' Experience &nbsp; &nbsp; &nbsp; &nbsp; | Proficiency &nbsp; &nbsp; &nbsp; &nbsp; |
 |------------------------------------|-----------------------------------|-----------------------------------------------|-----------------------------------------|
 | Command Line Interface	            | typer		                           | 3	                                            | Intermediary                            |
-| API						                          | fastapi		                         | 3	                                            | Intermediary                            |
-| Container                          | Docker                            | 2                                             | Intermediary                            |
+| API						                          | fastapi		                         | 4	                                            | Intermediary                            |
+| Container                          | Docker                            | 3                                             | Intermediary                            |

@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data scientist at <a href="https://www.quantumblack.com/"target="_blank">QuantumBlack</a>, AI by McKinsey <br>Fellow at <a href="https://www.college-de-france.fr/site/en-college/index.htm" target="_blank">Collège de France</a> (Economics) 
+subtitle: Sr data scientist at <a href="https://www.quantumblack.com/"target="_blank">QuantumBlack</a>, AI by McKinsey <br>Fellow at <a href="https://www.college-de-france.fr/site/en-college/index.htm" target="_blank">Collège de France</a> (Economics) 
 
 profile:
   align: right
@@ -16,15 +16,15 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a data scientist at QuantumBlack. I'm there to help build and deploy tech 
-products in the industry. The core of my work is dedicated to climate-tech.  
+I am a senior data scientist at QuantumBlack. I build and ship tech 
+products to the industry.
+
+At QuantumBlack, I spearhead the technical and product development as well as the deployment of energy system optimisation solutions. My work has led to a patent filing (pending, [US-20240077895-A1](https://patents.google.com/patent/US20240077895A1)). I have also contributed to power grid and power generating device optimisation work. Beyond the energy sector, I played a leading role in the development of an earth observation platform.
 
 Before that, I did a PhD in Economics. I leveraged data 
 science and natural language processing to 
-unpack the innovation diffusion black box - one commit at a time. I created 
-3 open source/data projects ([PatCit](projects/patcit), 
-[PatentCity](projects/patentcity) and [TechLandscape](projects/techdiff)) 
-which data have generated 14k+ downloads to date. I am thankful to Collège de France, 
+unpack the innovation diffusion black box - one commit at a time.
+My work has been published in top-tier journals, cited in prestigious media outlets including [The Economist](https://www.economist.com/briefing/2023/05/30/its-not-just-a-fiscal-fiasco-greying-economies-also-innovate-less), and my open-source projects have garnered 160+ stars on GitHub and 15k+ downloads overall. I am thankful to Collège de France, 
 [Paris School of Economics](https://www.parisschoolofeconomics.eu/en/){:target="\_blank"}, 
 [EPFL](https://www.epfl.ch/en/){:target="\_blank"} and [Google Cloud](https://cloud.google.com/){:target="\_blank"} for their financial support. 
 
