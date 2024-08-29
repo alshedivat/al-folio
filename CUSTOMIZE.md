@@ -172,9 +172,9 @@ You can customize the fonts, spacing, and more by editing [\_sass/\_base.scss](_
 
 ## Scheduled Posts
 
-al-folio contains a workflow which automatically publishes all posts scheduled at a specific day, at the end of the day (23:59). By default the action is disabled, and to enable it you need to got to ```.github/workflows/``` and find the file called ```scheduler.txt```. This is the workflow file. For github to recognize it as one (enable it), you need to rename it to ```scheduler.yml```.
+al-folio contains a workflow which automatically publishes all posts scheduled at a specific day, at the end of the day (23:59). By default the action is disabled, and to enable it you need to go to `.github/workflows/` and find the file called `scheduler.txt`. This is the workflow file. For GitHub to recognize it as one (or to enable the action), you need to rename it to `scheduler.yml`.
 
-In order to use this you need to save all of your "Completed" blog posts which are scheduled to be uploaded on a specific date, in a folder named ```_scheduled/``` in the root directory.
+In order to use this you need to save all of your "Completed" blog posts which are scheduled to be uploaded on a specific date, in a folder named `_scheduled/` in the root directory.
 
 > Incomplete posts should be saved in `_drafts/`
 
