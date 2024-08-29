@@ -18,7 +18,7 @@
       {
         "network": "LinkedIn",
         "username": "",
-        "url": ""
+        "url": "https://www.linkedin.com/in/jinning-wang-846490199/"
       }
     ]
   },
@@ -39,7 +39,7 @@
       "startDate": "2020",
       "endDate": "",
       "summary": "Involved in various projects, including the CURENT Large-Scale Testbed, Cyber-Physical Dynamic System Modeling, and research on the economic impact of the COVID-19 pandemic on electricity consumption.",
-      "highlights": ["Open-source Development"]
+      "highlights": ["Power System Analysis, Software Development, GIS Analysis"]
     },
     {
       "name": "University of West Florida",
@@ -134,55 +134,55 @@
       "name": "Electric Vehicles Charging Time Constrained Deliverable Provision of Secondary Frequency Regulation",
       "publisher": "IEEE Transactions on Smart Grid",
       "releaseDate": "2024",
-      "url": "",
-      "summary": ""
+      "url": "https://ieeexplore.ieee.org/document/10411057",
+      "summary": "The paper proposes a strategy for using aggregated electric vehicles (EVs) to provide secondary frequency regulation (SFR) in renewable energy systems while respecting EV charging time constraints. It demonstrates that this approach can improve system performance with minimal cost increase, validated through simulations on the IEEE 39-bus system."
     },
     {
       "name": "Electricity consumption variation versus economic structure during COVID-19 on Metropolitan Statistical Areas in the US",
       "publisher": "Nature Communications",
       "releaseDate": "2022",
-      "url": "",
-      "summary": ""
+      "url": "https://www.nature.com/articles/s41467-022-34447-7",
+      "summary": "The paper estimates changes in electricity consumption (EC) at the metropolitan level across the continental U.S. during the initial two months of the COVID-19 pandemic, showing a reduction in total EC linked to industry shares and an increase in residential EC regardless of incidence level or economic structure. These findings can guide responses to future socio-economic crises."
     },
     {
       "name": "Virtual Inertia Scheduling (VIS) for Real-time Economic Dispatch of IBRs-penetrated Power Systems",
       "publisher": "IEEE Transactions on Sustainable Energy",
       "releaseDate": "2023",
-      "url": "",
-      "summary": ""
+      "url": "https://ieeexplore.ieee.org/document/10264213",
+      "summary": "The paper introduces virtual inertia scheduling (VIS) to manage the increasing penetration of inverter-based resources (IBRs) in power systems. VIS optimizes inertia scheduling and generation dispatch for secure and cost-effective support, validated through simulations on a two-machine system and a modified IEEE 39-bus system."
     },
     {
       "name": "Disturbance Propagation in Power Grids With High Converter Penetration",
       "publisher": "Proceedings of the IEEE",
       "releaseDate": "2022",
-      "url": "",
-      "summary": ""
+      "url": "https://ieeexplore.ieee.org/document/9777891",
+      "summary": "The article explores how high penetration of converter-interfaced renewable energy resources affects disturbance propagation in power systems. It shows that increased converter penetration speeds up disturbance propagation due to reduced system inertia, but fast active power control of converters can mitigate this effect, as demonstrated through simulations on various power system models."
     }
   ],
   "projects": [
     {
       "name": "CURENT Large-Scale Testbed",
-      "summary": "Coordinating the development of the CURENT Large-scale Testbed, focusing on power system dispatch simulation and analysis.",
-      "highlights": [],
-      "startDate": "2021",
+      "summary": "Coordinating the development of the CURENT Large-scale Testbed, developing interoperable scheduling modeling framework.",
+      "highlights": ["Power System Analysis, Software Development"],
+      "startDate": "2021.3",
       "endDate": "Present",
-      "url": ""
+      "url": "https://ltb.curent.org/"
     },
     {
       "name": "Nexus between Economic, Electricity, and Pandemic",
       "summary": "Designing the research, collecting and analyzing data, developing algorithms",
-      "highlights": [],
-      "startDate": "2020",
-      "endDate": "2021",
-      "url": ""
+      "highlights": ["GIS Analysis, Data Mining"],
+      "startDate": "2020.6",
+      "endDate": "2021.3",
+      "url": "https://communities.springernature.com/posts/electricity-consumption-variation-versus-economic-structure-during-covid-19"
     },
     {
       "name": "Cyber-Physical Dynamic System Modeling",
       "summary": "Modeling and validation of electric vehicles for secondary frequency regulation, contributing to AGC services.",
-      "highlights": [],
-      "startDate": "2022",
-      "endDate": "2022",
-      "url": ""
+      "highlights": ["Power System Analysis"],
+      "startDate": "2022.1",
+      "endDate": "2022.12",
+      "url": "https://research-hub.nrel.gov/en/publications/cyber-physical-dynamic-system-cpds-modeling-for-frequency-regulat"
     }
   ],
   "languages": [
@@ -197,16 +197,19 @@
   ],
   "interests": [
     {
+      "name": "Power System Modeling",
+      "icon": "fa-solid fa-power-off",
+      "keywords": ["Electric Vehicles Charging Management", "Digital Twin for Large-scale Power Systems", "Energy Equity"]
+    },
+    {
       "name": "Data Mining",
-      "keywords": []
+      "icon": "fa-solid fa-database",
+      "keywords": ["Electricity Consumption", "Social Economic Factors", "GIS Analysis"]
     },
     {
       "name": "Scientific Computation",
-      "keywords": []
-    },
-    {
-      "name": "Power System Modeling",
-      "keywords": []
+      "icon": "fa-solid fa-calculator",
+      "keywords": ["High Performance Computing", "Parallel Computing"]
     }
   ],
   "references": [
@@ -223,7 +226,7 @@
     {
       "name": "Prof. Kevin Tomsovic",
       "icon": "fa-solid fa-laptop",
-      "reference": "Member of USA NAE, Chancellor’s Professor at the Department of Electrical Engineering and Computer Science, University of Tennessee Knoxville. Contact: tomsovic@utk.edu"
+      "reference": "Member of USA NAE, Chancellor’s Professor at the Dept. of EECS, U of Tennessee Knoxville. Contact: tomsovic@utk.edu"
     }
   ]
 }
