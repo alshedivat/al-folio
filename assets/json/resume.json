@@ -24,6 +24,15 @@
   },
   "work": [
     {
+      "name": "GridCARE",
+      "position": "Power System & GIS Engineer",
+      "url": "https://www.eecs.utk.edu",
+      "startDate": "2024-5",
+      "endDate": "2024-10",
+      "summary": "Interconnection study, and GIS analysis.",
+      "highlights": ["GIS Analysis"]
+    },
+    {
       "name": "University of Tennessee Knoxville",
       "position": "Graduate Research Assistant",
       "url": "https://www.eecs.utk.edu",
@@ -204,17 +213,17 @@
     {
       "name": "Prof. Fangxing 'Fran' Li",
       "icon": "fa-solid fa-laptop",
-      "reference": "James W. McConnell Professor at the Department of Electrical Engineering and Computer Science, University of Tennessee Knoxville. Contact: fli6@utk.edu"
+      "reference": "Director of CURENT, John W. Fisher Professor at the Dept. of EECS, U of Tennessee Knoxville. Contact: fli6@utk.edu"
     },
     {
       "name": "Prof. Hantao Cui",
       "icon": "fa-solid fa-laptop",
-      "reference": "Assistant Professor at Electrical & Computer Engineering, Oklahoma State University. Contact: h.cui@okstate.edu"
+      "reference": "Associate Professor, North Carolina State University. Contact: hcui9@ncsu.edu"
     },
     {
       "name": "Prof. Kevin Tomsovic",
       "icon": "fa-solid fa-laptop",
-      "reference": "Director of CURENT, Chancellor’s Professor at the Department of Electrical Engineering and Computer Science, University of Tennessee Knoxville. Contact: tomsovic@utk.edu"
+      "reference": "Member of USA NAE, Chancellor’s Professor at the Department of Electrical Engineering and Computer Science, University of Tennessee Knoxville. Contact: tomsovic@utk.edu"
     }
   ]
 }
