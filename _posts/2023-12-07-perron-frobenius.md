@@ -111,7 +111,7 @@ The last step is given by Theorem 1.
 
 ---
 
-**Lemma 5:** Let $$\boldsymbol{A} \ge \boldsymbol{0}$$ element-wise. If row (column) sums of $$\boldsymbol{A}$$ are constant, then $$\rho(\boldsymbol{A}) = \Vert \boldsymbol{A} \Vert_\infty$$ ($\rho(\boldsymbol{A}) = \Vert \boldsymbol{A} \Vert_1$).
+**Lemma 5:** Let $$\boldsymbol{A} \ge \boldsymbol{0}$$ element-wise. If row (column) sums of $$\boldsymbol{A}$$ are constant, then $$\rho(\boldsymbol{A}) = \Vert \boldsymbol{A} \Vert_\infty$$ ($$\rho(\boldsymbol{A}) = \Vert \boldsymbol{A} \Vert_1$$).
 
 **Proof:** Suppose $$\boldsymbol{A1} = \alpha \boldsymbol{1}$$ where $$\alpha \ge 0$$ is the row sum, and thus is an eigenvalue of $$\boldsymbol{A}$$. So $$\alpha \le \rho(\boldsymbol{A})$$. But $$\alpha = \Vert \boldsymbol{A} \Vert_\infty \ge \rho(\boldsymbol{A})$$, so $$\rho(\boldsymbol{A}) = \Vert \boldsymbol{A} \Vert_\infty.$$ The column sum case is similar.
 
