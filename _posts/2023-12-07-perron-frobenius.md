@@ -190,7 +190,7 @@ $$\rho(\bar{\boldsymbol{A}}) = \rho(\boldsymbol{A})$$ as $$\bar{\boldsymbol{A}}$
 
 **Corollary 2.1:** For any $$\boldsymbol{A} \ge \boldsymbol{0}$$ element-wise and $$\boldsymbol{x} > \boldsymbol{0}$$ element-wise, if
 
-$$$\alpha \boldsymbol{x} \le \boldsymbol{Ax} \le \beta \boldsymbol{x}$$
+$$\alpha \boldsymbol{x} \le \boldsymbol{Ax} \le \beta \boldsymbol{x}$$
 
 where $$\alpha, \beta \ge 0$$. Then $$\alpha \le \rho(\boldsymbol{A}) \le \beta$$. If the inequality is strict, $$\alpha < \rho(\boldsymbol{A}) < \beta$$.
 
