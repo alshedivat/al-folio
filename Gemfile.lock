@@ -52,6 +52,7 @@ GEM
       sax-machine (>= 1.0, < 2)
     ffi (1.17.0-aarch64-linux-gnu)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x64-mingw-ucrt)
     ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
@@ -60,6 +61,9 @@ GEM
       bigdecimal
       rake (>= 13)
     google-protobuf (4.27.3-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.3-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.27.3-x86_64-darwin)
@@ -146,10 +150,6 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     latex-decode (0.4.0)
-    libv8-node (22.5.1.0-aarch64-linux)
-    libv8-node (22.5.1.0-arm64-darwin)
-    libv8-node (22.5.1.0-x86_64-darwin)
-    libv8-node (22.5.1.0-x86_64-linux)
     liquid (4.0.4)
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -160,8 +160,6 @@ GEM
     matrix (0.4.2)
     mercenary (0.4.0)
     mini_mime (1.1.5)
-    mini_racer (0.13.0)
-      libv8-node (~> 22.5.1.0)
     minitest (5.24.1)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
@@ -171,6 +169,8 @@ GEM
     nokogiri (1.16.7-aarch64-linux)
       racc (~> 1.4)
     nokogiri (1.16.7-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.7-x64-mingw-ucrt)
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-darwin)
       racc (~> 1.4)
@@ -192,6 +192,8 @@ GEM
       google-protobuf (~> 4.26)
     sass-embedded (1.77.8-arm64-darwin)
       google-protobuf (~> 4.26)
+    sass-embedded (1.77.8-x64-mingw-ucrt)
+      google-protobuf (~> 4.26)
     sass-embedded (1.77.8-x86_64-darwin)
       google-protobuf (~> 4.26)
     sass-embedded (1.77.8-x86_64-linux-gnu)
@@ -211,6 +213,7 @@ GEM
 PLATFORMS
   aarch64-linux
   arm64-darwin
+  x64-mingw-ucrt
   x86_64-darwin
   x86_64-linux
 
@@ -236,7 +239,6 @@ DEPENDENCIES
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
-  mini_racer
   unicode_utils
   webrick
 
