@@ -111,21 +111,27 @@
   ],
   "awards": [
     {
+      "title": "Outstanding Graduate Researcher Award",
+      "date": "2024-05",
+      "awarder": "CURENT, University of Tennessee at Knoxville",
+      "summary": "2024 Handong Gui Outstanding Graduate Researcher Award"
+    },
+    {
       "title": "Best Graduate Paper Award",
       "date": "2023-10",
-      "awarder": "55th Annual North American Power Symposium",
-      "summary": ""
+      "awarder": "55th Annual North American Power Symposium, IEEE",
+      "summary": "2023 NAPS Best Graduate Paper Award"
     },
     {
       "title": "Min H. Kao EECS Fellowship",
       "date": "2022-08",
-      "awarder": "",
+      "awarder": "EECS Department, University of Tennessee at Knoxville",
       "summary": "Awarded for excellent academic performance."
     },
     {
       "title": "China Graduate National Scholarship",
       "date": "2019-11",
-      "awarder": "",
+      "awarder": "College of Electrical and Power Engineering, Taiyuan University of Technology, China",
       "summary": "Awarded to outstanding graduates."
     }
   ],
