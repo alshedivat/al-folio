@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
@@ -47,3 +48,6 @@
 <lastmod>2024-09-04T11:44:19+09:00</lastmod>
 </url>
 </urlset>
+=======
+<?xml version="1.0" encoding="UTF-8"?> <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> <url> <loc>https://kim-an-na.github.io/blog/2022/displaying-external-posts-on-your-al-folio-blog/</loc> <lastmod>2022-04-23T23:20:09+00:00</lastmod> </url> <url> <loc>https://kim-an-na.github.io/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/</loc> <lastmod>2024-05-14T00:00:00+00:00</lastmod> </url> <url> <loc>https://kim-an-na.github.io/</loc> </url> <url> <loc>https://kim-an-na.github.io/cv/</loc> </url> <url> <loc>https://kim-an-na.github.io/_pages/dropdown/</loc> </url> <url> <loc>https://kim-an-na.github.io/publications/</loc> </url> <url> <loc>https://kim-an-na.github.io/blog/2022/</loc> </url> <url> <loc>https://kim-an-na.github.io/blog/2024/</loc> </url> </urlset>
+>>>>>>> Stashed changes
