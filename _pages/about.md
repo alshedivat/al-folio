@@ -14,12 +14,20 @@ profile:
 
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
+<<<<<<< HEAD
 social: true # includes social icons at the bottom of the page
+=======
+social: false # includes social icons at the bottom of the page
+>>>>>>> master
 ---
 
 Hello! My name is Anna Kim. I am currently a Postdoctoral Researcher at Yonsei University, specializing in Applied Economics with a focus on Labor, Gender and Health Economics.
 
+<<<<<<< HEAD
 I earned my Ph.D. in Economics from Yonsei University, where my dissertation examined gender gaps in labor market outcomes and time allocation in South Korea. Specifically, I investigated the long-term impact of motherhood on women's earnings, the persistent gender gap in labor supply, and how spousal relative income influences the division of household labor among dual-earner couples. During my Ph.D., I also contributed to several collaborative projects, resulting in publications in peer-reviewed journals such as [Asian-Pacific Economic Literature](https://onlinelibrary.wiley.com/journal/14678411).
+=======
+I earned my Ph.D. in Economics from Yonsei University, where my dissertation examined gender gaps in labor market outcomes and time allocation in South Korea. Specifically, I investigated the long-term impact of motherhood on women's earnings, the persistent gender gap in labor supply, and how spousal relative income influences the division of household labor among dual-earner couples. During my Ph.D., I also contributed to several collaborative projects, resulting in publications in peer-reviewed journals such as Asian-Pacific Economic Literature.
+>>>>>>> master
 
 Beyond academia, I enjoy road cycling, which helps me stay active and balanced.
 
