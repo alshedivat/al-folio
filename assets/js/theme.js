@@ -7,8 +7,9 @@ let toggleThemeSetting = () => {
     setThemeSetting("light");
   } else if (themeSetting == "light") {
     setThemeSetting("dark");
-  } else {
-    setThemeSetting("system");
+  }
+  else if (themeSetting == "dark") {
+    setThemeSetting("light");
   }
 };
 
