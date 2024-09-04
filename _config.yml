@@ -158,8 +158,6 @@ giscus:
 disqus_shortname: al-folio # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
-<<<<<<< HEAD
-=======
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
@@ -170,7 +168,6 @@ external_sources:
     posts:
       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
         published_date: 2024-05-14
->>>>>>> master
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -189,35 +186,21 @@ collections:
   news:
     defaults:
       layout: post
-<<<<<<< HEAD
     output: false
     permalink: /:collection/:title/
   projects:
     output: false
-=======
     output: true
-    permalink: /:collection/:title/
-  projects:
-    output: true
->>>>>>> master
     permalink: /:collection/:title/
 
 announcements:
   enabled: false
-<<<<<<< HEAD
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-=======
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
->>>>>>> master
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
-<<<<<<< HEAD
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
-=======
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
->>>>>>> master
   limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
@@ -324,13 +307,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-<<<<<<< HEAD
   last_name: [Kim]
   first_name: [Anna]
-=======
-  last_name: [Einstein]
-  first_name: [Albert, A.]
->>>>>>> master
 
   style: apa
   locale: en
