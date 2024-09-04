@@ -28,7 +28,7 @@
       "position": "Power System & GIS Engineer",
       "url": "https://www.eecs.utk.edu",
       "startDate": "2024-5",
-      "endDate": "2024-10",
+      "endDate": "2024-8",
       "summary": "Interconnection study, and GIS analysis.",
       "highlights": ["GIS Analysis"]
     },
@@ -221,17 +221,22 @@
   "references": [
     {
       "name": "Prof. Fangxing 'Fran' Li",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-graduation-cap",
       "reference": "Director of CURENT, John W. Fisher Professor at the Dept. of EECS, U of Tennessee Knoxville. Contact: fli6@utk.edu"
     },
     {
+      "name": "Adam Wigington",
+      "icon": "fa-solid fa-rocket",
+      "reference": "Head of Products, GridCARE Inc. Contact: adam@gridcare.ai"
+    },
+    {
       "name": "Prof. Hantao Cui",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-graduation-cap",
       "reference": "Associate Professor, North Carolina State University. Contact: hcui9@ncsu.edu"
     },
     {
       "name": "Prof. Kevin Tomsovic",
-      "icon": "fa-solid fa-laptop",
+      "icon": "fa-solid fa-graduation-cap",
       "reference": "Member of USA NAE, Chancellor’s Professor at the Dept. of EECS, U of Tennessee Knoxville. Contact: tomsovic@utk.edu"
     }
   ]
