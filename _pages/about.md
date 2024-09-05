@@ -4,6 +4,8 @@ title: About
 permalink: /
 subtitle: Junior researcher <a href='https://www.cedlas.econo.unlp.edu.ar/wp/en/'>CEDLAS</a>.
 
+Junior researcher <a href='https://genlac.econo.unlp.edu.ar/home-en/'>GenLAC</a>.
+
 profile:
   align: right
   image: Cedlas_pics.jpg
