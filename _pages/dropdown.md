@@ -1,16 +1,13 @@
 ---
 layout: page
-title: submenus xxx
+title: My Life!
 nav: true
-nav_order: 8
+nav_order: 7
 dropdown: true
 children:
-  - title: publications
-    permalink: /publications/
+  - title: "#BallIsLife🏀"
+    permalink: /sports/
   - title: divider
-  - title: projects
-    permalink: /projects/
-  - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: "#HipHop4Life🔥"
+    permalink: /music/
 ---
