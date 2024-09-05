@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Junior researcher <a href='https://www.cedlas.econo.unlp.edu.ar/wp/en/'>CEDLAS</a>.
+subtitle: Junior researcher <a href='https://www.cedlas.econo.unlp.edu.ar/wp/en/'>CEDLAS</a> and <a href='https://www.cedlas.econo.unlp.edu.ar/wp/en/'>CEDLAS</a>.
 
 profile:
   align: right
