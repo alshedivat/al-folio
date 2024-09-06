@@ -1,34 +1,31 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Goyal":
+  - firstname: ["Rishab", "R."]
+    url: https://pages.cs.wisc.edu/~rishab
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Afshar":
+  - firstname: ["Abtin", "A."]
+    url: https://sites.google.com/view/abtin-afshar
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Yadav":
+  - firstname: ["Aayush", "A."]
+    url: https://mason.gmu.edu/~ayadav5/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Jain":
+  - firstname: ["Aayush", "A."]
+    url: https://sites.google.com/view/aayushjain/home
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Chatterjee":
+  - firstname: ["Rahul", "R."]
+    url: https://pages.cs.wisc.edu/~chatterjee/
 
-"Przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Jha":
+  - firstname: ["Somesh", "S."]
+    url: https://pages.cs.wisc.edu/~jha/
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Agrawal":
+  - firstname: ["Shweta", "S."]
+    url: http://www.cse.iitm.ac.in/~shwetaag/
 
-"Lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"Planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Ananth":
+  - firstname: ["Prabhanjan", "P.", "P. V."]
+    url: https://sites.google.com/site/prabhanjanva/home

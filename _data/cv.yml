@@ -31,7 +31,7 @@
     - title: UW-Madison
       items:
         - Theory - Topics in Cryptographic Proof Systems, Computational Complexity
-        - Other - Machine Learning, Security and Privacy for Machine Learning
+        - Other - Machine Learning, Security and Privacy for Machine Learning, Introduction to Human-Computer Interaction
     - title: UC Santa Barbara
       items:
         - Major Area - Topics in Quantum Cryptography, Spectral Graph Theory and Laplacian Matrices, Quantitative Information Flow and Side Channel Analysis, Computer Aided Reasoning for Software
@@ -50,9 +50,12 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Research Internship
+    - title: Researh Assistantship
+      institution: UW-Madison, Guide - <a href="https://pages.cs.wisc.edu/~rishab">Rishab Goyal</a>
+      year: May 2024 - Aug 2024
+    - title: Research Assistantship
       institution: UC Santa Barbara, Guide - <a href="https://sites.google.com/site/prabhanjanva/">Prof. Prabhanjan Ananth</a>
-      year: Jun 2022 - Present
+      year: Jun 2022 - Sep 2022
       # description:
       #   - Designed an efficient, novel public-key functional encryption scheme for specific functionality in the static collusion bound model whose time complexity and size of the ciphertexts are linear in the static query bound.
       #   - Designed a new, efficient unbounded-collusion private-key functional encryption for the same functionality.
@@ -120,6 +123,9 @@
 - title: Recent Awards
   type: time_table
   contents:
+  - title: <a href="https://tcc.iacr.org/2024/support.php">Student Presenter Stipend</a>
+    institution: <a href="https://iacr.org/">IACR</a> on behalf of 22nd Theory of Cryptography Conference
+    year: 2024
   - title: <a href="https://www.cs.wisc.edu/summer-research-assistantship/">CS Summer Research Assistantship</a>
     institution: University of Wisconsin Madison
     year: Summer 2024
@@ -129,10 +135,10 @@
   contents:
     - For a detailed list, check <a href="/teaching">teaching</a>
 
-- title: Projects
-  type: list
-  contents:
-    - For a detailed list, check <a href="/projects">projects</a>
+# - title: Projects
+#   type: list
+#   contents:
+#     - For a detailed list, check <a href="/projects">projects</a>
 
 #- title: Extracurricular Activities
 #  type: list

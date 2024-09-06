@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Descriptions of the teaching positions I held
+description: Descriptions of the teaching assistanship positions I held
 nav: true
 nav_order: 4
 ---

@@ -10,7 +10,6 @@ profile:
   image_cicular: true # crops the image to make it circular
   address: |
     <p>Pronouns: He/Him/His</p>
-    <p>Name Pronunciation:</p>
 
 telugu_name: false # Native language name
 social: true  # includes social icons at the bottom of the page
@@ -20,9 +19,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 
 Hello There!
 I am Saikumar Yadugiri.
-You can call me Sai (pronounced po-**sai**-don :trident:).
-I am a first-year Ph.D. student in the [computer science department](https://www.cs.wisc.edu/) at the University of Wisconsin-Madison.
-I am currently working with [Prof. Rishab Goyal](https://pages.cs.wisc.edu/~rishab/) on various flavors of functional encryption.
+You can call me Sai (pronounced like the weapon, :trident:).
+I am a second-year Ph.D. student in the [computer science department](https://www.cs.wisc.edu/) at the University of Wisconsin-Madison.
+I work with [Prof. Rishab Goyal](https://pages.cs.wisc.edu/~rishab/) on encryption systems, proof systems, and obfuscation.
 I am broadly interested in the theoretical aspects of classical and (post-)quantum cryptography.
 
 Previously, I was a student in the [computer science department](https://www.cs.ucsb.edu) at the University of California, Santa Barbara pursuing my master's degree in computer science.

@@ -1,6 +1,9 @@
 - title: UW-Madison
   type: time_table
   contents:
+    - title: <a href="https://pages.cs.wisc.edu/~rishab/cs435-fall24/index.html"> COMP SCI 435 - Introduction to Cryptography</a>
+      institution: Instructor - <a href="https://pages.cs.wisc.edu/~rishab/">Prof. Rishab Goyal</a>
+      year: Fall 2024
     - title: <a href="https://pages.cs.wisc.edu/~hasti/cs536/">COMP SCI 536 - Introduction to Programming Languages and Compilers</a>
       institution: Instructor - <a href="https://pages.cs.wisc.edu/~hasti/">Beck Hasti</a>
       year: Spring 2024
