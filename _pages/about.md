@@ -17,6 +17,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Holle, this is Ying. I did my undergraduate majoring in Financial mathematics at University of Leeds, then I went to University of Cambridge to study MPhil in Data Intensice Science since my interest of statictis and computing. Now, I am currently working as a Research Assistant at National Univesity of Singapore and work in the [Brian Lim](https://www.brianlim.net/) Lab. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
