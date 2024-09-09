@@ -2,7 +2,7 @@ name: Publish posts scheduled for today
 
 on:
   schedule:
-    # Run every day at 23:59 UTC or manually run
+    # Run every day at 23:30 UTC or manually run
     - cron: "30 23 * * *"
   workflow_dispatch:
 
@@ -14,10 +14,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: master
-
-      - name: Get the date for today
-        id: date
-        run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
       - name: Check for drafts and move to posts
         run: |
