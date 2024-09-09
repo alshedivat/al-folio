@@ -15,13 +15,16 @@ jobs:
         with:
           ref: master
 
+      - name: Get the date for today
+        id: date
+        run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+
       - name: Check for drafts and move to posts
         run: |
-          today=$(date +'%Y-%m-%d')
-          echo "Today is $today"
+          echo "Today is $TODAY"
           shopt -s nullglob
-          for file in _drafts/${today}-*.md; do
-            echo "Found draft: $file"
+          for file in _scheduled/${TODAY}-*.md; do
+            echo "Found scheduled: $file"
             mv "$file" "_posts/"
             echo "Moved $file to _posts/"
           done
@@ -31,6 +34,6 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add _posts/
-          git add _drafts/
+          git add _scheduled/
           git commit -m "Posted Scheduled Drafts on $TODAY" || echo "No changes to commit"
           git push
