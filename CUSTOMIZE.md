@@ -172,7 +172,7 @@ You can customize the fonts, spacing, and more by editing [\_sass/\_base.scss](_
 
 ## Scheduled Posts
 
-al-folio contains a workflow which automatically publishes all posts scheduled at a specific day, at the end of the day (23:30). By default the action is disabled, and to enable it you need to go to `.github/workflows/` and find the file called `schedule-posts.txt`. This is the workflow file. For GitHub to recognize it as one (or to enable the action), you need to rename it to `schedule-posts.yml`.
+`al-folio` contains a workflow which automatically publishes all posts scheduled at a specific day, at the end of the day (23:30). By default the action is disabled, and to enable it you need to go to `.github/workflows/` and find the file called `schedule-posts.txt`. This is the workflow file. For GitHub to recognize it as one (or to enable the action), you need to rename it to `schedule-posts.yml`.
 
 In order to use this you need to save all of your "Completed" blog posts which are scheduled to be uploaded on a specific date, in a folder named `_scheduled/` in the root directory.
 
@@ -182,9 +182,9 @@ In order to use this you need to save all of your "Completed" blog posts which a
 
 In this folder you need to store your file in the same format as you would in `_posts/`
 
-example file: `2024-08-26-This file will be uploaded on 26 August.md`
+> Example file name: `2024-08-26-This file will be uploaded on 26 August.md`
 
-### Important Notes:
+### Important Notes
 
 - The scheduler uploads posts everyday at 🕛 23:30 UTC
 - It will only upload posts at 23:30 UTC of their respective scheduled days, It's not uploaded in 23:59 in case there are a lot of files as the scheduler must finish before 00:00
