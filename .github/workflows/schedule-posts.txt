@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  publish_drafts:
+  publish_scheduled:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main branch
