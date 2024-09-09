@@ -19,7 +19,7 @@ jobs:
         id: date
         run: echo "TODAY=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
-      - name: Check for drafts and move to posts
+      - name: Check for scheduled posts and move to posts
         run: |
           echo "Today is $TODAY"
           shopt -s nullglob
