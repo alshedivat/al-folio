@@ -66,6 +66,17 @@ If you want to create blog posts that are not ready to be published, but you wan
 
 You can create new projects by adding new Markdown files in the [\_projects](_projects/) directory. The easiest way to do this is to copy an existing project and modify it.
 
+You can also display your project's GitHub Repo Card, if it has any, on the project page.
+
+You simply need to add the following to your Markdown file's Frontmatter :
+```YAML
+repo:
+  owner_username: User #The username of the owner of the repository
+  repo_name: myRepo #The name of the repository
+  display_owner: false #Boolean for whether you want to show the username of the owner or not
+  max_lines_description: 3 #Integer telling the maximum number of lines the description of the repo should have in the card
+```
+
 ## Adding some news
 
 You can add news in the about page by adding new Markdown files in the [\_news](_news/) directory. There are currently two types of news: inline news and news with a link. News with a link take you to a new page while inline news are displayed directly in the about page. The easiest way to create yours is to copy an existing news and modify it.
