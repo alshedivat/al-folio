@@ -71,11 +71,20 @@ You can also display your project's GitHub Repo Card, if it has any, on the proj
 You simply need to add the following to your Markdown file's Frontmatter :
 
 ```YAML
-repo:
-  owner_username: User #The username of the owner of the repository
-  repo_name: myRepo #The name of the repository
-  display_owner: false #Boolean for whether you want to show the username of the owner or not
-  max_lines_description: 3 #Integer telling the maximum number of lines the description of the repo should have in the card
+repositories:
+  - Owner1UserName/Repo1
+  - Owner2UserName/Repo2
+```
+
+This way you can add as many repos as needed to the header of the page.
+
+If you want to include a repo in a location other than you header, then you need to add the following code to that location :
+
+```LIQUID
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.liquid repository=Username1/Repo1 %}
+    {% include repository/repo.liquid repository=Username2/Repo2 %}
+</div>
 ```
 
 ## Adding some news
