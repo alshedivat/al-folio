@@ -46,6 +46,25 @@
 
 <!-- Styles -->
 
+<!-- Add scripts/style for Lightbox2 -->
+{% if site.lightbox.enabled %}
+  <link
+    defer
+    rel="stylesheet"
+    type="text/css"
+    href="{{ '/assets/css/lightbox.min.css' | relative_url | bust_file_cache }}"
+  >
+  <script src="{{ '/assets/js/lightbox-plus-jquery.min.js' | relative_url | bust_file_cache }}"></script>
+  <script>
+      lightbox.option({
+        'fadeDuration': {{ site.lightbox.fade_duration }},
+        'imageFadeDuration': {{ site.lightbox.image_fade_duration }},
+        'resizeDuration': {{ site.lightbox.resize_duration }},
+        'positionFromTop': {{ site.lightbox.position_from_top }}
+      })
+  </script>
+{% endif %}
+
 <!-- pseudocode -->
 {% if page.pseudocode %}
   <link

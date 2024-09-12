@@ -422,6 +422,19 @@ imagemagick:
 lazy_loading_images: true # enables lazy loading of images (recommended)
 
 # -----------------------------------------------------------------------------
+# Responsive Lightbox2 Images
+# -----------------------------------------------------------------------------
+
+lightbox:
+  enabled: true # enables lightbox2 (see https://lokeshdhakar.com/projects/lightbox2/)
+  fade_duration: 500 # The time it takes for the Lightbox container and overlay to fade in and out, in milliseconds.
+  image_fade_duration: 500 # The time it takes for the image to fade in once loaded, in milliseconds.
+  resize_duration: 500 # The time it takes for the Lightbox container to animate its width and height when transition between different size images, in milliseconds.
+  position_from_top: 25 # The distance from top of viewport that the Lightbox container will appear, in pixels.
+
+# if you want to add more options, edit the _includes/head.liquid file's lightbox2 initialization script
+
+# -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
