@@ -40,15 +40,21 @@ $(document).ready(function () {
   let jupyterTheme = determineComputedTheme();
 
   $(".jupyter-notebook-iframe-container iframe").each(function () {
-    $(this).contents().find("head").append(cssLink);
+    var jupyterIFrame = $(this);
+    jupyterIFrame.contents().find("head").append(cssLink);
+
+    function changeToJupyterDarkTheme() {
+      jupyterIFrame.contents().find("body").attr({
+        "data-jp-theme-light": "false",
+        "data-jp-theme-name": "JupyterLab Dark",
+      });
+    }
 
     if (jupyterTheme == "dark") {
-      $(this).bind("load", function () {
-        $(this).contents().find("body").attr({
-          "data-jp-theme-light": "false",
-          "data-jp-theme-name": "JupyterLab Dark",
-        });
-      });
+      if (jupyterIFrame[0].contentWindow.document.readyState === "complete") {
+        changeToJupyterDarkTheme();
+      }
+      $(this).bind("load", changeToJupyterDarkTheme);
     }
   });
 
