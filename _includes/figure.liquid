@@ -1,4 +1,6 @@
 {% assign img_path = include.path | remove: '.jpg' | remove: '.jpeg' | remove: '.png' | remove: '.tiff' | remove: '.gif' %}
+{% assign parts = include.path | split: '.' %}
+{% assign ext = parts.last %}
 
 <figure
   {% if include.slot %}
@@ -14,13 +16,17 @@
     {% if site.imagemagick.enabled %}
       <source
         class="responsive-img-srcset"
-        srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
+        {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.tiff' or ext == '.gif' %}
+          srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
+          type="image/webp"
+        {% else %}
+          srcset="{{ include.path | relative_url }}"
+        {% endif %}
         {% if include.sizes %}
           sizes="{{include.sizes}}"
         {% else %}
           sizes="95vw"
         {% endif %}
-        type="image/webp"
       >
     {% endif %}
     <img
