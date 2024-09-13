@@ -12,10 +12,9 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: "nao_robot_1_copy.jpg" # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://parassharma2809.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
@@ -90,7 +89,7 @@ lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 linkedin_username: parassharma2809 # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
-orcid_id: # your ORCID ID
+orcid_id: 0009-0007-7645-653X # your ORCID ID
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
@@ -196,7 +195,7 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
-    output: true
+    output: false
     permalink: /:collection/:title/
 
 announcements:
