@@ -1,17 +1,16 @@
 {% if page.code_diff %}
   <!-- diff2html doesn't go well with Bootstrap Table -->
   <script
-    defer
-    src="https://cdn.jsdelivr.net/npm/diff2html@{{ site.diff2html.version }}/bundles/js/diff2html-ui.min.js"
-    integrity="{{ site.diff2html.integrity.js }}"
+    src="{{ site.third_party_libraries.diff2html.url.js }}"
+    integrity="{{ site.third_party_libraries.diff2html.integrity.js }}"
     crossorigin="anonymous"
   ></script>
   <script>
-    let theme = localStorage.getItem('theme');
+    let diff2HtmlTheme = determineComputedTheme();
 
-    /* Create echarts chart as another node and hide the code block, appending the echarts node after it
+    /* Create diff2html as another node and hide the code block, appending the diff2html node after it
        this is done to enable retrieving the code again when changing theme between light/dark */
-    document.onreadystatechange = () => {
+    document.addEventListener('readystatechange', () => {
       if (document.readyState === 'complete') {
         document.querySelectorAll('pre>code.language-diff2html').forEach((elem) => {
           const textData = elem.textContent;
@@ -21,11 +20,11 @@
           let diffElement = document.createElement('div');
           diffElement.classList.add('diff2html');
           backup.after(diffElement);
-          const configuration = { colorScheme: theme, drawFileList: true, highlight: true, matching: 'lines' };
+          const configuration = { colorScheme: diff2HtmlTheme, drawFileList: true, highlight: true, matching: 'lines' };
           const diff2htmlUi = new Diff2HtmlUI(diffElement, textData, configuration);
           diff2htmlUi.draw();
         });
       }
-    };
+    });
   </script>
 {% endif %}

@@ -1,17 +1,34 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-let toggleTheme = (theme) => {
-  if (theme == "dark") {
-    setTheme("light");
+// Toggle through light, dark, and system theme settings.
+let toggleThemeSetting = () => {
+  let themeSetting = determineThemeSetting();
+  if (themeSetting == "system") {
+    setThemeSetting("light");
+  } else if (themeSetting == "light") {
+    setThemeSetting("dark");
   } else {
-    setTheme("dark");
+    setThemeSetting("system");
   }
 };
 
-let setTheme = (theme) => {
+// Change the theme setting and apply the theme.
+let setThemeSetting = (themeSetting) => {
+  localStorage.setItem("theme", themeSetting);
+
+  document.documentElement.setAttribute("data-theme-setting", themeSetting);
+
+  applyTheme();
+};
+
+// Apply the computed dark or light theme to the website.
+let applyTheme = () => {
+  let theme = determineComputedTheme();
+
   transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
+  setSearchTheme(theme);
 
   // if mermaid is not defined, do nothing
   if (typeof mermaid !== "undefined") {
@@ -33,36 +50,30 @@ let setTheme = (theme) => {
     setVegaLiteTheme(theme);
   }
 
-  if (theme) {
-    document.documentElement.setAttribute("data-theme", theme);
+  document.documentElement.setAttribute("data-theme", theme);
 
-    // Add class to tables.
-    let tables = document.getElementsByTagName("table");
-    for (let i = 0; i < tables.length; i++) {
-      if (theme == "dark") {
-        tables[i].classList.add("table-dark");
-      } else {
-        tables[i].classList.remove("table-dark");
-      }
+  // Add class to tables.
+  let tables = document.getElementsByTagName("table");
+  for (let i = 0; i < tables.length; i++) {
+    if (theme == "dark") {
+      tables[i].classList.add("table-dark");
+    } else {
+      tables[i].classList.remove("table-dark");
     }
-
-    // Set jupyter notebooks themes.
-    let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
-    for (let i = 0; i < jupyterNotebooks.length; i++) {
-      let bodyElement = jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow.document.body;
-      if (theme == "dark") {
-        bodyElement.setAttribute("data-jp-theme-light", "false");
-        bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Dark");
-      } else {
-        bodyElement.setAttribute("data-jp-theme-light", "true");
-        bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Light");
-      }
-    }
-  } else {
-    document.documentElement.removeAttribute("data-theme");
   }
 
-  localStorage.setItem("theme", theme);
+  // Set jupyter notebooks themes.
+  let jupyterNotebooks = document.getElementsByClassName("jupyter-notebook-iframe-container");
+  for (let i = 0; i < jupyterNotebooks.length; i++) {
+    let bodyElement = jupyterNotebooks[i].getElementsByTagName("iframe")[0].contentWindow.document.body;
+    if (theme == "dark") {
+      bodyElement.setAttribute("data-jp-theme-light", "false");
+      bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Dark");
+    } else {
+      bodyElement.setAttribute("data-jp-theme-light", "true");
+      bodyElement.setAttribute("data-jp-theme-name", "JupyterLab Light");
+    }
+  }
 
   // Updates the background of medium-zoom overlay.
   if (typeof medium_zoom !== "undefined") {
@@ -176,6 +187,17 @@ let setVegaLiteTheme = (theme) => {
   });
 };
 
+let setSearchTheme = (theme) => {
+  const ninjaKeys = document.querySelector("ninja-keys");
+  if (!ninjaKeys) return;
+
+  if (theme === "dark") {
+    ninjaKeys.classList.add("dark");
+  } else {
+    ninjaKeys.classList.remove("dark");
+  }
+};
+
 let transTheme = () => {
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {
@@ -183,23 +205,48 @@ let transTheme = () => {
   }, 500);
 };
 
-let initTheme = (theme) => {
-  if (theme == null || theme == "null") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      theme = "dark";
-    }
+// Determine the expected state of the theme toggle, which can be "dark", "light", or
+// "system". Default is "system".
+let determineThemeSetting = () => {
+  let themeSetting = localStorage.getItem("theme");
+  if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
+    themeSetting = "system";
   }
-
-  setTheme(theme);
+  return themeSetting;
 };
 
-initTheme(localStorage.getItem("theme"));
+// Determine the computed theme, which can be "dark" or "light". If the theme setting is
+// "system", the computed theme is determined based on the user's system preference.
+let determineComputedTheme = () => {
+  let themeSetting = determineThemeSetting();
+  if (themeSetting == "system") {
+    const userPref = window.matchMedia;
+    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
+      return "dark";
+    } else {
+      return "light";
+    }
+  } else {
+    return themeSetting;
+  }
+};
 
-document.addEventListener("DOMContentLoaded", function () {
-  const mode_toggle = document.getElementById("light-toggle");
+let initTheme = () => {
+  let themeSetting = determineThemeSetting();
 
-  mode_toggle.addEventListener("click", function () {
-    toggleTheme(localStorage.getItem("theme"));
+  setThemeSetting(themeSetting);
+
+  // Add event listener to the theme toggle button.
+  document.addEventListener("DOMContentLoaded", function () {
+    const mode_toggle = document.getElementById("light-toggle");
+
+    mode_toggle.addEventListener("click", function () {
+      toggleThemeSetting();
+    });
   });
-});
+
+  // Add event listener to the system theme preference change.
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
+    applyTheme();
+  });
+};

@@ -1,24 +1,24 @@
 {% if page.mermaid and page.mermaid.enabled %}
   <script
     defer
-    src="https://cdn.jsdelivr.net/npm/mermaid@{{ site.mermaid.version }}/dist/mermaid.min.js"
-    integrity="{{ site.mermaid.integrity }}"
+    src="{{ site.third_party_libraries.mermaid.url.js }}"
+    integrity="{{ site.third_party_libraries.mermaid.integrity.js }}"
     crossorigin="anonymous"
   ></script>
   {% if page.mermaid.zoomable %}
     <script
       defer
-      src="https://cdn.jsdelivr.net/npm/d3@{{ site.d3.version }}/dist/d3.min.js"
-      integrity="{{ site.d3.integrity }}"
+      src="{{ site.third_party_libraries.d3.url.js }}"
+      integrity="{{ site.third_party_libraries.d3.integrity.js }}"
       crossorigin="anonymous"
     ></script>
   {% endif %}
   <script>
-    let theme = localStorage.getItem('theme');
+    let mermaidTheme = determineComputedTheme();
 
     /* Create mermaid diagram as another node and hide the code block, appending the mermaid node after it
        this is done to enable retrieving the code again when changing theme between light/dark */
-    document.onreadystatechange = () => {
+    document.addEventListener('readystatechange', () => {
       if (document.readyState === 'complete') {
         document.querySelectorAll('pre>code.language-mermaid').forEach((elem) => {
           const svgCode = elem.textContent;
@@ -32,7 +32,7 @@
           backup.after(mermaid);
         });
 
-        mermaid.initialize({ theme: theme });
+        mermaid.initialize({ theme: mermaidTheme });
 
         /* Zoomable mermaid diagrams */
         if (typeof d3 !== 'undefined') {
@@ -50,6 +50,6 @@
           });
         }
       }
-    };
+    });
   </script>
 {% endif %}
