@@ -1,0 +1,7 @@
+{% assign addIcon = include.icon %}
+{% if addIcon contains 'http' %}
+  <img src="{{ addIcon }}" height="40">
+{% else %}
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ addIcon }}" height="40">
+{% endif %}
+<img width="12">
