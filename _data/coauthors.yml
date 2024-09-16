@@ -1,34 +1,35 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"De Simone":
+  - firstname: ["Zoe", "Z."]
+    url: https://www.linkedin.com/in/zoedesimone/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Mermelstein":
+  - firstname: ["Remy", "R."]
+    url: https://www.linkedin.com/in/remy-mermelstein
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Dogan":
+  - firstname: ["Timur", "T.", "T. K.", "Timur Kamil"]
+    url: https://www.linkedin.com/in/timur-dogan-b28340a9/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Natanian":
+  - firstname: ["Jonathan", "J."]
+    url: https://www.linkedin.com/in/jonathan-natanian-ba92726b/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Auer":
+  - firstname: ["Thomas", "T."]
+    url: https://www.linkedin.com/in/thomas-auer-7b3ba321/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Young":
+  - firstname: ["Elizabeth", "Liz", "L."]
+    url: https://www.linkedin.com/in/elizabethlynyoung/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Mokhtar":
+  - firstname: ["Sarah", "S."]
+    url: https://www.linkedin.com/in/sarah-mokhtar-73937b73/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Chokhachian":
+  - firstname: ["Ata", "A."]
+    url: https://www.linkedin.com/in/atachokhachian/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Reinhart":
+  - firstname: ["Christoph", "C."]
+    url: https://www.linkedin.com/in/christoph-reinhart-b16b8ba/

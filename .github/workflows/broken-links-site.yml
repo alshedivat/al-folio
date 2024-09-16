@@ -1,46 +1,58 @@
-name: Check for broken links on site
+name: Check for broken links
 
 on:
   workflow_run:
     workflows: [Deploy site]
     types: [completed]
+  workflow_dispatch:  # Allow manual triggering
 
 jobs:
-  check-links-on-site:
-    # https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#running-a-workflow-based-on-the-conclusion-of-another-workflow
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    # available images: https://github.com/actions/runner-images#available-images
+  check-links:
+    if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name == 'workflow_dispatch' }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: "3.2.2"
           bundler-cache: true
-      - name: Update _config.yml ⚙️
-        uses: fjogeleit/yaml-update-action@main
-        with:
-          commitChange: false
-          valueFile: "_config.yml"
-          changes: |
-            {
-              "giscus.repo": "${{ github.repository }}",
-              "baseurl": ""
-            }
-      - name: Install and Build 🔧
+
+      - name: Build site
         run: |
-          pip3 install --upgrade jupyter
-          export JEKYLL_ENV=production
+          bundle install
           bundle exec jekyll build
-      - name: Purge unused CSS 🧹
-        run: |
-          npm install -g purgecss
-          purgecss -c purgecss.config.js
-      - name: Link Checker 🔗
+        env:
+          JEKYLL_ENV: production
+
+      - name: Run Lychee Link Checker
         uses: lycheeverse/lychee-action@v1.9.0
         with:
+          args: >-
+            --verbose
+            --no-progress
+            --exclude-path '.*\{\{.*\}\}.*'
+            --exclude-all-private
+            --accept 200,204,206,401,403,405,410,451,999
+            --timeout 30
+            --max-retries 5
+            --no-fragment
+            --insecure
+            --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            './_site/**/*.html'
           fail: true
-          # only check local links
-          args: --offline --remap '_site(/?.*)/assets/(.*) _site/assets/$2' --verbose --no-progress '_site/**/*.html'
+          format: markdown
+          jobSummary: true
+          output: lychee/out.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create issue on failure
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
