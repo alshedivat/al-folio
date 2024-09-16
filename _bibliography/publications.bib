@@ -13,6 +13,8 @@
 @STRING{NEJM_AI_SHORT = {NEJM AI}}
 @STRING{MICCAI = {International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)}}
 @STRING{MICCAI_SHORT = {MICCAI}}
+@STRING{ECCV = {European Conference on Computer Vision (ECCV)}}
+@STRING{ECCV_SHORT = {ECCV}}
 
 @misc{ferber2024trialmatching,
   title     = {End-To-End Clinical Trial Matching with Large Language Models},
@@ -77,6 +79,7 @@
   author    = {El Nahhas, Omar S. M. and W\"{o}lflein, Georg and Ligero, Marta and Lenz, Tim and van Treeck, Marko and Khader, Firas and Truhn, Daniel and Kather, Jakob Nikolas},
   author+an = {2=highlight},
   year      = {2024},
+  month     = {10},
   booktitle = MICCAI,
   abbr      = MICCAI_SHORT,
   url       = {https://arxiv.org/abs/2403.03891},
@@ -87,18 +90,18 @@
   keywords  = {conference,paper}
 }
 
-@misc{elnahhas2023from,
-  title     = {From Whole-slide Image to Biomarker Prediction: A Protocol for End-to-End Deep Learning in Computational Pathology},
+@article{elnahhas2023from,
+  title     = {From Whole-slide Image to Biomarker Prediction: End-to-End Weakly Supervised Deep Learning in Computational Pathology},
   author    = {El Nahhas, Omar S. M. and van Treeck, Marko and W\"{o}lflein, Georg and Unger, Michaela and Ligero, Marta and Lenz, Tim and Wagner, Sophia J. and Hewitt, Katherine J. and Khader, Firas and Foersch, Sebastian and Truhn, Daniel and Kather, Jakob Nikolas},
   author+an = {3=highlight},
-  year      = {2023},
-  note      = UNDERREVIEW,
-  url       = {https://arxiv.org/abs/2312.10944},
+  year      = {2024},
+  month     = {9},
+  url       = {https://www.nature.com/articles/s41596-024-01047-2},
   pdf       = {https://arxiv.org/pdf/2312.10944.pdf},
   code      = {https://github.com/KatherLab/STAMP},
   preview   = {stamp.png},
-  abstract  = {Hematoxylin- and eosin (H\&E) stained whole-slide images (WSIs) are the foundation of diagnosis of cancer. In recent years, development of deep learning-based methods in computational pathology enabled the prediction of biomarkers directly from WSIs. However, accurately linking tissue phenotype to biomarkers at scale remains a crucial challenge for democratizing complex biomarkers in precision oncology. This protocol describes a practical workflow for solid tumor associative modeling in pathology (STAMP), enabling prediction of biomarkers directly from WSIs using deep learning. The STAMP workflow is biomarker agnostic and allows for genetic- and clinicopathologic tabular data to be included as an additional input, together with histopathology images. The protocol consists of five main stages which have been successfully applied to various research problems: formal problem definition, data preprocessing, modeling, evaluation and clinical translation. The STAMP workflow differentiates itself through its focus on serving as a collaborative framework that can be used by clinicians and engineers alike for setting up research projects in the field of computational pathology. As an example task, we applied STAMP to the prediction of microsatellite instability (MSI) status in colorectal cancer, showing accurate performance for the identification of MSI-high tumors. Moreover, we provide an open-source codebase which has been deployed at several hospitals across the globe to set up computational pathology workflows. The STAMP workflow requires one workday of hands-on computational execution and basic command line knowledge.},
-  keywords  = {preprint}
+  abstract  = {Hematoxylin- and eosin-stained whole-slide images (WSIs) are the foundation of diagnosis of cancer. In recent years, development of deep learning-based methods in computational pathology has enabled the prediction of biomarkers directly from WSIs. However, accurately linking tissue phenotype to biomarkers at scale remains a crucial challenge for democratizing complex biomarkers in precision oncology. This protocol describes a practical workflow for solid tumor associative modeling in pathology (STAMP), enabling prediction of biomarkers directly from WSIs by using deep learning. The STAMP workflow is biomarker agnostic and allows for genetic and clinicopathologic tabular data to be included as an additional input, together with histopathology images. The protocol consists of five main stages that have been successfully applied to various research problems: formal problem definition, data preprocessing, modeling, evaluation and clinical translation. The STAMP workflow differentiates itself through its focus on serving as a collaborative framework that can be used by clinicians and engineers alike for setting up research projects in the field of computational pathology. As an example task, we applied STAMP to the prediction of microsatellite instability (MSI) status in colorectal cancer, showing accurate performance for the identification of tumors high in MSI. Moreover, we provide an open-source code base, which has been deployed at several hospitals across the globe to set up computational pathology workflows. The STAMP workflow requires one workday of hands-on computational execution and basic command line knowledge.},
+  keywords  = {journal,paper}
 }
 
 @misc{wolflein2024benchmarking,
@@ -118,12 +121,15 @@
   keywords  = {preprint}
 }
 
-@misc{wolflein2023good,
+@inproceedings{wolflein2023good,
   title     = {A Good Feature Extractor Is All You Need for Weakly Supervised Pathology Slide Classification},
   author    = {W\"{o}lflein, Georg and Ferber, Dyke and Meneghetti, Asier Rabasco and El Nahhas, Omar S. M. and Truhn, Daniel and Carrero, Zunamys I. and Harrison, David J. and Arandjelovi\'{c}, Ognjen and Kather, Jakob Nikolas},
   author+an = {1=highlight},
-  year      = {2023},
-  note      = UNDERREVIEW,
+  booktitle = ECCV,
+  abbr      = ECCV_SHORT,
+  publisher = {Springer},
+  year      = {2024},
+  month     = {9},
   selected  = {true},
   url       = {https://arxiv.org/abs/2311.11772v4},
   pdf       = {https://arxiv.org/pdf/2311.11772v4.pdf},
@@ -132,7 +138,8 @@
   video     = {https://www.youtube.com/watch?v=Tst4XtaT9RE},
   preview   = {histaug.png},
   abstract  = {Stain normalisation is thought to be a crucial preprocessing step in computational pathology pipelines. We question this belief in the context of weakly supervised whole slide image classification, motivated by the emergence of powerful feature extractors trained using self-supervised learning on diverse pathology datasets. To this end, we performed the most comprehensive evaluation of publicly available pathology feature extractors to date, involving more than 8,000 training runs across nine tasks, five datasets, three downstream architectures, and various preprocessing setups. Notably, we find that omitting stain normalisation and image augmentations does not compromise downstream slide-level classification performance, while incurring substantial savings in memory and compute. Using a new evaluation metric that facilitates relative downstream performance comparison, we identify the best publicly available extractors, and show that their latent spaces are remarkably robust to variations in stain and augmentations like rotation. Contrary to previous patch-level benchmarking studies, our approach emphasises clinical relevance by focusing on slide-level biomarker prediction tasks in a weakly supervised setting with external validation cohorts. Our findings stand to streamline digital pathology workflows by minimising preprocessing needs and informing the selection of feature extractors.},
-  keywords  = {preprint}
+  keywords  = {conference,paper},
+  note      = {BioImage Computing Workshop (oral)}
 }
 
 @misc{wolflein2023deep,
