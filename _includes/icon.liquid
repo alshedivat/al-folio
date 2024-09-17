@@ -1,7 +1,27 @@
 {% assign addIcon = include.icon %}
-{% if addIcon contains 'http' %}
-  <img src="{{ addIcon }}" height="40">
-{% else %}
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ addIcon }}" height="40">
+<img
+  {% if addIcon contains 'http' %}
+    src="{{ addIcon }}"
+  {% else %}
+    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/{{ addIcon }}"
+  {% endif %}
+  {% if include.alt %}
+    alt="{{ include.alt }}"
+  {% endif %}
+  {% if include.title %}
+    title="{{ include.title }}"
+  {% endif %}
+  {% if include.width %}
+    width="{{ include.width }}"
+  {% else %}
+    width="auto"
+  {% endif %}
+  {% if include.height %}
+    height="{{ include.height }}"
+  {% else %}
+    height="40"
+  {% endif %}
+>
+{% if include.spaceAfter %}
+  <img width="{{ include.width }}">
 {% endif %}
-<img width="12">
