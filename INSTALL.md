@@ -60,6 +60,32 @@ Note that when you run it for the first time, it will download a docker image of
 Now, feel free to customize the theme however you like (don't forget to change the name!). Also, your changes should be automatically rendered in real-time (or maybe after a few seconds).
 
 > Beta: You can also use the slimmed docker image with a size below 100MBs and exact same functionality. Just use `docker compose -f docker-compose-slim.yml up`
+### Important note for Apple Silicon Users
+
+Since the introduction of M-powered Macs, the target of local and production (remote) builds *may* be different. For this reason, Apple Silicon Macs may be doing additional steps in order to have the Github Actions to finish successfully. 
+
+If after you commit your changes to Github and try to build the website, you face an issue similar to this:
+
+```
+Your bundle only supports platforms ["aarch64-linux-gnu"] but your local
+platform is x86_64-linux. Add the current platform to the lockfile with
+`bundle lock --add-platform x86_64-linux` and try again.
+```
+
+Then, you must do the following:
+
+1. Connect to your docker container (`docker exec -it <container_name> sh`)
+2. Run the following commands *inside* the container
+    ```bash
+    bundle lock --add-platform ruby
+    bundle lock --add-platform x86_64-linux
+    ```
+3. Remove Gemfile.lock *outside* the container (`rm -rf Gemfile.lock`)
+4. Run `bundle install` *inside* the container.
+5. After that, you should have a new `Gemfile.lock` capable of handling builds for both local and production environments.
+6. Push the new `Gemfile.lock` and you should be good to go.
+
+Find the source for this fix [here](https://stackoverflow.com/questions/43429685/how-can-i-resolve-your-bundle-only-supports-platforms-x86-mingw32-but-your).
 
 ### Build your own docker image
 
