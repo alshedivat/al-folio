@@ -1,6 +1,6 @@
 ---
 layout: profiles
-title: Shruthi Jadhav
+title: Shruti Jadhav
 description: MS in High Performance Building 
 img: 
 importance: 1
