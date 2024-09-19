@@ -183,13 +183,7 @@ newsletter:
   # https://loops.so/docs/forms/custom-form
 
 
-# -----------------------------------------------------------------------------
-# GScholar
-# -----------------------------------------------------------------------------
 
-jekyll_get_json:
-  - data: gscholar
-    json: "https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=XNaNgkwAAAAJ&view_op=list_works&sortby=pubdate"
 
 
 # -----------------------------------------------------------------------------
@@ -644,6 +638,10 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
+    # GScholar Total Counts
+  - data: gscholar
+    json: "https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=XNaNgkwAAAAJ&view_op=list_works&sortby=pubdate"
+
 jsonresume:
   - basics
   - work
