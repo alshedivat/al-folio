@@ -202,6 +202,9 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
+  team:
+    output: true
+    permalink: /team/:path/
 
 announcements:
   enabled: true
