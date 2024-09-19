@@ -1,1 +1,2 @@
 https://arch.gatech.edu/
+^https?://([a-zA-Z\d-]+\.)*linkedin\.com(/.*)?$
