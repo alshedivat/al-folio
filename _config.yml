@@ -93,7 +93,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: Patrick-Kastner # your profile on ResearchGate
-scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+scholar_userid: XNaNgkwAAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -181,6 +181,16 @@ newsletter:
   enabled: false
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
+
+
+# -----------------------------------------------------------------------------
+# GScholar
+# -----------------------------------------------------------------------------
+
+jekyll_get_json:
+  - data: gscholar
+    json: "https://cse.bth.se/~fer/googlescholar-api/googlescholar.php?user=XNaNgkwAAAAJ&view_op=list_works&sortby=pubdate"
+
 
 # -----------------------------------------------------------------------------
 # Collections

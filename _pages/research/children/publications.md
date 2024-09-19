@@ -14,7 +14,8 @@ nav_order: 1
 
 <div class="publications">
 
-Our publications in reverse-chronological order. As of {{ "now" | date: '%B %d, %Y' }}, our academic work received {{ site.data.gscholar.total_citations }} citations by the research community. Most up-to-date citation metrics can be found via <a href="https://gscholar.patrickkastner.de">Google Scholar</a>.
+Our publications in reverse-chronological order. As of {{ "now" | date: '%B %d, %Y' }}, our academic work received {{ site.data.gscholar.total_citations }} citations by the research community. 
+Most up-to-date citation metrics can be found via <a href="https://gscholar.patrickkastner.de">Google Scholar</a>.
 
 <br>
 <br>
@@ -25,8 +26,13 @@ Our publications in reverse-chronological order. As of {{ "now" | date: '%B %d, 
 
 {% include bib_search.liquid %}
 
-<div class="publications">
 
-{% bibliography %}
+{%- for y in page.years_papers %}
+  {% bibliography -f papers -q @*[year={{y}}]* %}
+{% endfor %}
 
-</div>
+<h2>Theses</h2>
+
+{%- for y in page.years_theses %}
+  {% bibliography -f theses -q @*[year={{y}}]* %}
+{% endfor %}
