@@ -1,9 +1,13 @@
 ---
-layout: profiles
+layout: page
 title: Dr. Shalaila Haas
 description: Assistant Professor at Mt. Sinai
-img: 
+img: https://simtigrate.gatech.edu/sites/default/files/2024-01/card.ShalailaHaas.jpg
 importance: 1
 category: Collaborators
 ---
 
+[Link to Website](https://shalailahaas.com/)
+
+
+{% capture remote_content %}{% remote_include https://shalailahaas.com/index.html %}{% endcapture %}

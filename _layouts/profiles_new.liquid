@@ -1,0 +1,18 @@
+{% if page.external_url %}
+<a href="{{ page.external_url }}" target="_blank" rel="noopener noreferrer" class="profile-link">
+{% endif %}
+
+<div class="profile-card">
+  {% if page.img %}
+    <img src="{{ page.img | relative_url }}" alt="{{ page.title }}" class="profile-img">
+  {% endif %}
+  <h2 class="profile-name">{{ page.title }}</h2>
+  {% if page.description %}
+    <p class="profile-description">{{ page.description }}</p>
+  {% endif %}
+  <!-- Add any other card content here -->
+</div>
+
+{% if page.external_url %}
+</a>
+{% endif %}
