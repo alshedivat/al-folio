@@ -7,7 +7,6 @@ importance: 1
 category: Collaborators
 ---
 
+
+
 [Link to Website](https://shalailahaas.com/)
-
-
-{% capture remote_content %}{% remote_include https://shalailahaas.com/index.html %}{% endcapture %}
