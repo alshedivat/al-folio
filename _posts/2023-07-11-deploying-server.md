@@ -290,16 +290,16 @@ jupyter kernelspec uninstall <kernel_name>
 
 #### Other packages
 
-Our research involves deep learning, so I need to install `pytorch`along with other required packages:
+Our research involves deep learning, so I need to install `pytorch` along with other required packages. [RAPIDS](https://rapids.ai/) provides a series of packages that utilize GPUs. These packages are easier to install in a fresh environment so I recommend installing them first, following the [Installation Guide](https://docs.rapids.ai/install). `pytorch` can be installed simultaneously with the guide.
 
 ```bash
-mamba install -c pytorch -c nvidia scvi-tools tensorflow torchvision torchaudio  # for deep learning tasks
 mamba install ipykernel ipywidgets # for running in JupyterHub
-mamba install scanpy squidpy biopython rpy2 opencv   # for biological analysis
-mamba install xgboost lightgbm catboost hdbscan optuna  # for machine learning tasks
+mamba install lightning  # for deep learning tasks
+mamba install pyro-ppl numpyro  # for probabilistic programming
+mamba install scanpy squidpy omicverse biopython rpy2 opencv   # for biological analysis
+mamba install anndata2ri -c bioconda  # for conversion between Python and R
+mamba install xgboost lightgbm catboost hdbscan optuna  # for machine learning tasks (optional)
 ```
-
-Note: `pytorch` and `pytorch-lightning` are dependencies of `scvi-tools` so you don't need to install these two packages again.
 
 Sometimes you may use `mamba search <package_name>` to search for a package with a specific build number. To install a specific version/build of a certain packages, conduct:
 
