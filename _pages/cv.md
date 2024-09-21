@@ -1,3 +1,4 @@
+<!---
 ---
 layout: cv
 permalink: /cv/
@@ -9,3 +10,4 @@ description: This is a description of the page. You can modify it in '_pages/cv.
 toc:
   sidebar: left
 ---
+--->

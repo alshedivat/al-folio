@@ -1,3 +1,4 @@
+<!--
 ---
 layout: page
 title: submenus changed
@@ -14,3 +15,4 @@ children:
   - title: blog
     permalink: /blog/
 ---
+--->

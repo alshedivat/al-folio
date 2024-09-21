@@ -1,6 +1,7 @@
+{%- comment -%}
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
@@ -63,3 +64,4 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
+{%- endcomment -%}

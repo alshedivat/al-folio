@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Main
 permalink: /
 subtitle: AI Tech Lead | Principal AI Scientist @ <a href="https://bilgem.tubitak.gov.tr/en/">TUBITAK BILGEM</a>
 
@@ -9,12 +9,13 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p><font size="2"><b> dogukanaksu[dot]research[at]gmail[dot]com </b></font></p>
     <!-- <p>555 your office number</p>
     <p>123 your address street</p>
     <p>Your City, State 12345</p> --->
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 I am currently an AI Tech Lead & Principal AI Scientist at the <a href="https://tubitak.gov.tr/en">Scientific and Technological Research Council of Turkey (TUBITAK)</a>, <a href="https://bilgem.tubitak.gov.tr/en/">Informatics and Information Security Research Center (BILGEM)</a>. I hold a B.Sc. and M.Sc. in Computer Engineering from <a href="https://www.istanbul.edu.tr/en/_">Istanbul University<a/>, earned in 2015 and 2018, respectively, and a Ph.D. in Computer Engineering from <a href="https://www.iuc.edu.tr/en/_">Istanbul University-Cerrahpasa</a>, completed in 2022.
