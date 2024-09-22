@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Project Portfolio
-description: A selection of projects that I collaborated on or developed while at Boston College, including "Séamus Connolly Collection of Irish Music," "Morales Mass Book," "John La Farge, Stained Glass in New England," "Jesuit Online Bibliography," "Burns Antiphoner," and "The Becker Collection - Drawings of the American Civil War Era."  
-img: assets/img/antiphoner.png
-redirect: https://ds.bc.edu/projects-portfolio/
+title: Multilingual MEI Tutorials
+description: An ongoing project to translate existing music encoding (MEI) tutorials and create new tutorials in multiple languages (including Polish, Bosnian, French, Spanish, Italian, and Persian).
+img: assets/img/polish-mei.png
+redirect: https://github.com/orgs/music-encoding/projects/13
 importance: 4
 category: DH
 ---
