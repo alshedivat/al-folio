@@ -8,7 +8,7 @@ nav: true
 nav_order: 1
 ---
 
-A full list of publications can be found in [my C.V.](https://annakijas1.github.io/assets/pdf/2024-Kijas_CV.pdf)
+A full list of publications can be found in [my C.V.](https://annakijas1.github.io/assets/pdf/2024-Kijas_CV-v2.pdf)
 
 <!-- _pages/publications.md -->
 <div class="publications">
