@@ -5,7 +5,7 @@ date: 2024-03-08 16:11:00-0400
 inline: false
 ---
 
-Our student [Anubha Mahajan](https://www.linkedin.com/in/anubha-mahajan-570035227/) showcased her teams' work this week at the Sustainability Showcase at the Brook Byers Institute for Sustainable Systems. 
+Our student [Anubha Mahajan](https://www.linkedin.com/in/anubha-mahajan-570035227/) showcased her teams' work this week at the Sustainability Showcase at the Brook Byers Institute for Sustainable Systems.
 
 She and her team are currently working on a surrogate model of urban building energy simulation. They will document their contributions on our [VIP wiki](https://vip-smur.github.io/wiki/) later this semester.
 

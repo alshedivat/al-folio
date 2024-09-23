@@ -2,7 +2,7 @@
 layout: page
 title: Silvia Vangelova
 description: MS in ISyE
-img: 
+img:
 importance: 1
 category: Alumni
 ---

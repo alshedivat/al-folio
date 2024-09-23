@@ -2,16 +2,14 @@
 layout: page
 title: ARCH 6242
 description: Building Physics Modeling
-img: 
+img:
 importance: 6
 category: Georgia Tech
 ---
 
-
 Survey of basic thermo-fluid energy and mass flows in buildings, the interrelations between these flows, physical system modeling, and implications for building performance goals.
 
-
-Excerpt of student work by [Sabontu Tuse](https://www.linkedin.com/in/sabontu-tuse-317511120). 
+Excerpt of student work by [Sabontu Tuse](https://www.linkedin.com/in/sabontu-tuse-317511120).
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">

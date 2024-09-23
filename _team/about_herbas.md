@@ -2,7 +2,7 @@
 layout: page
 title: Abigail Herbas
 description: Computer Science
-img: 
+img:
 importance: 1
 category: BS
 ---

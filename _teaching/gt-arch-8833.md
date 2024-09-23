@@ -2,7 +2,7 @@
 layout: page
 title: ARCH 8833
 description: Integrated Building Systems 1
-img: 
+img:
 importance: 6
 category: Georgia Tech
 ---

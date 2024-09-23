@@ -2,14 +2,10 @@
 layout: page
 title: VIP SMUR
 description: Surrogate Modeling for Urban Regeneration
-img: 
+img:
 importance: 6
 category: Georgia Tech
 ---
-
-
-
-
 
 {% capture remote_content %}{% remote_include https://raw.githubusercontent.com/VIP-SMUR/wiki/main/docs/index.md %}{% endcapture %}
 {% assign lines = remote_content | split: '
@@ -19,7 +15,6 @@ category: Georgia Tech
 {% endfor %}
 
 ---
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">

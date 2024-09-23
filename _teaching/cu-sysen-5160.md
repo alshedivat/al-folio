@@ -2,7 +2,7 @@
 layout: page
 title: SYSEN 5160
 description: Managing & Modeling Complex Systems for Organizational Leaders
-img: 
+img:
 importance: 3
 category: Cornell University
 ---

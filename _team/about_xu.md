@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Hang Xu
-description: PhD student in Architecture 
-img: 
+description: PhD student in Architecture
+img:
 importance: 1
 category: PhD
 ---

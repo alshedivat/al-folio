@@ -19,7 +19,6 @@ category: BArch
     }
 </style>
 
-
 <div class="row">
     <div class="col-12 mt-3 mt-md-0 px-0">
         <div class="cropped-image-container">
@@ -28,28 +27,28 @@ category: BArch
     </div>
 </div>
 
-
 <br>
-
 
 ### Abstract
 
 In healthcare, one of the key indicators used to diagnose patients are vital signs. This data is gathered on the individual scale, and used to determine appropriate treatments, but as technology has developed, more public accessible healthcare data is available than ever before. My project proposes using this same diagnostic technique, computing data, and assessing interventions, at the scale of a city. Given the prevalence of data gathering in medicine, how can we generate community based medical interventions to create a more equitable healthcare system.
 
-
 ### Author
+
 - Name: Daniel Halstead
 - LinkedIn: [Link](https://www.linkedin.com/in/daniel-halstead-939a7916b)
 - Institution: Cornell AAP
 - Program: B.Arch
 
 ### Advisors
+
 - [Peter Robinson](https://aap.cornell.edu/node/27171)
 - Patrick Kastner
 
-
 ### Keywords
+
 `Public Health, GIS, NYCHA`
 
 ### Source
+
 N/A

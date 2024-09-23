@@ -7,7 +7,7 @@ inline: false
 
 I am excited to share that I passed my Ph.D. defense! My time at Cornell has been such an immensely stimulating and rewarding experience and I am very grateful for it.
 
-I would like to thank my committee members Oliver and Martin for all of their support over the years and especially Timur who, four years ago, decided to take me on as his first Ph.D. student. I also want to thank all friends, family, and loved ones who joined both in person and virtually from NYC, Germany, Belgium, Norway, and other countries to make this a very special week for me. 
+I would like to thank my committee members Oliver and Martin for all of their support over the years and especially Timur who, four years ago, decided to take me on as his first Ph.D. student. I also want to thank all friends, family, and loved ones who joined both in person and virtually from NYC, Germany, Belgium, Norway, and other countries to make this a very special week for me.
 
 ---
 

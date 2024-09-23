@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Sina Rahimi  
+title: Sina Rahimi
 description: PhD student in Mechanical Engineering at TMU
-img: 
+img:
 importance: 1
 category: PhD
 ---

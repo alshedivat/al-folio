@@ -2,7 +2,7 @@
 layout: page
 title: Chinmay Rothe
 description: MS in High Performance Building
-img: 
+img:
 importance: 1
 category: MS
 ---

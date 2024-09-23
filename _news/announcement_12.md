@@ -11,10 +11,9 @@ inline: false
     </div>
 </div>
 
+My Ph.D. is nearing its end and I'll have the opportunity to present my research to the wider community.
 
-My Ph.D. is nearing its end and I'll have the opportunity to present my research to the wider community. 
-
-I'll be introducing *"A Decoupled Framework for Fast and High-Resolution Simulations of Annual Outdoor Thermal Comfort"*
+I'll be introducing _"A Decoupled Framework for Fast and High-Resolution Simulations of Annual Outdoor Thermal Comfort"_
 
 ---
 
@@ -46,7 +45,7 @@ performance simulation in the design process.
 
 ---
 
-If you’d like to find out more about my thesis and the work over the last four years, feel free to join my committee and me for this special occasion. 
+If you’d like to find out more about my thesis and the work over the last four years, feel free to join my committee and me for this special occasion.
 
 The presentation will take place on Sep 8, 2022, from 12-2 pm in Rhodes Hall 261, in Ithaca, NY or you can join virtually via Zoom. 
 Link to the calendar event and Zoom details: [https://bit.ly/pkastner-b-exam](https://bit.ly/pkastner-b-exam)

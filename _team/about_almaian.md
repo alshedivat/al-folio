@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Maryam Alamaian
-description: MS in High Performance Building 
-img: 
+description: MS in High Performance Building
+img:
 importance: 1
 category: Alumni
 ---

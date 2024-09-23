@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Shruti Jadhav
-description: MS in High Performance Building 
-img: 
+description: MS in High Performance Building
+img:
 importance: 1
 category: MS
 ---

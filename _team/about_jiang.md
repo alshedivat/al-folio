@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Ze Yu Jiang
-description: Computer Science and Math 
-img: 
+description: Computer Science and Math
+img:
 importance: 1
 category: BS
 ---

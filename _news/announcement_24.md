@@ -5,10 +5,7 @@ date: 2024-09-12 16:11:00-0400
 inline: false
 ---
 
-
 Check out the LinkedIn posts by [Ze](https://www.linkedin.com/feed/update/urn:li:activity:7241088244052819969/), [Sofia](https://www.linkedin.com/feed/update/urn:li:activity:7240045398306803712/), [Silvia](https://www.linkedin.com/feed/update/urn:li:activity:7239850836179271680/), and [Patrick](https://www.linkedin.com/feed/update/urn:li:activity:7241259057813045248/) for a written recap of the event!
-
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-10 mt-3 mt-md-0">
@@ -51,4 +48,3 @@ Check out the LinkedIn posts by [Ze](https://www.linkedin.com/feed/update/urn:li
         {% include figure.liquid path="assets/img/GNI2024/GNI2024_7.jpeg" title="GNI2024-7-Munich" class="img-fluid z-depth-1" %}
     </div>
 </div>
-

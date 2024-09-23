@@ -27,38 +27,42 @@ category: BArch
     </div>
 </div>
 
-
-
 <br>
 
-
 ### Abstract
-This thesis investigates and develops state-of-the-art technologies in the field of generative content and examines how designers can leverage inherent training biases and input data to swiftly generate textures and imagery for use within the design process. 
+
+This thesis investigates and develops state-of-the-art technologies in the field of generative content and examines how designers can leverage inherent training biases and input data to swiftly generate textures and imagery for use within the design process.
 
 Ultimately, the developed workflows aid in formulating a cohesive project vision from early stages. By combining proceduralization, simplified modeling techniques, and intelligent masking, the design process accelerates. This not only enables the creation of high-quality renders but more importantly, encourages a nuanced approach to design thinking.
 
 ### Research Question
+
 How Can the Real-time Masking and Layering of AI-generated Imagery Be Used to Effectively Realize and Refine Design Intent?
 
 ### Author
+
 - Name: [Luke Kratsios](https://www.lukekratsios.com/)
 - LinkedIn: [Link](https://www.linkedin.com/in/luke-kratsios)
 - Institution: Cornell AAP
 - Program: B.Arch
 
 ### Advisors
+
 - Christopher Battaglia
 - Patrick Kastner
 - Donald Greenberg
 
 ### Technical Consultants
+
 - John Wolford
 - Leul Tesfaye
 
 ### Keywords
+
 `Architectural Intelligence, AI, Design Intent, Generative Content, Proceduralization, Intelligent Masking`
 
 ### Source
+
 [Link](https://www.lukekratsios.com/wp-content/uploads/2024/03/kratsios.lukeSP23FINALThesisBook_.pdf) to the thesis.
 
 ### Highlights
