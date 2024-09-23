@@ -4,7 +4,7 @@
 
 title: Sustainable Urban Systems Lab # the website title (if blank, full name will be used instead)
 first_name: Sustainable
-middle_name: Urban 
+middle_name: Urban
 last_name: Systems Lab
 email:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -15,7 +15,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🏙️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://sustainableurbansystemslab.github.io/ # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -106,7 +106,7 @@ wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: https://sustainableurbansystemslab.github.io/ # work page URL
 x_username: # your X handle
-youtube_id:  # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
@@ -182,10 +182,6 @@ newsletter:
   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
   # https://loops.so/docs/forms/custom-form
 
-
-
-
-
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
@@ -198,7 +194,7 @@ collections:
     permalink: /:collection/:title/
   projects:
     output: true
-    permalink: /:collection/:title/  
+    permalink: /:collection/:title/
   teaching:
     output: true
     permalink: /teaching/:path/
