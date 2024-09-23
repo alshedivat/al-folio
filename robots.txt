@@ -1,7 +1,4 @@
----
-permalink: /robots.txt
----
 User-agent: *
 Allow: /
 
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+Sitemap: https://emmaharv.github.io/sitemap.xml
