@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: <strong><a href=mailto:evh29@cornell.edu>evh29@cornell.edu</a> | <a href=https://emmaharv.github.io/assets/pdf/Emma_Harvey_CV.pdf>CV</a> | <a href=https://scholar.google.com/citations?user=5E_qfjAAAAAJ>Google Scholar</a></strong>
+subtitle: >
+  <strong>PhD student @ Cornell Info Sci | Sociotechnical fairness & algorithm auditing</strong><br>
+  evh29 [at] cornell [dot] edu | <a href=https://scholar.google.com/citations?user=5E_qfjAAAAAJ>Google Scholar</a> | <a href=https://emmaharv.github.io/assets/pdf/Emma_Harvey_CV.pdf>CV</a>
 
 profile:
   align: right
