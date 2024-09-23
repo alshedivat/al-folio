@@ -1,0 +1,53 @@
+"costanza-chock":
+  - firstname: ["Sasha", "S."]
+    url: https://www.schock.cc/
+
+"buolamwini":
+  - firstname: ["Joy", "J."]
+    url: https://poetofcode.com/
+
+"raji":
+  - firstname: ["Inioluwa Deborah", "Deborah", "Deb", "D.", "Inioluwa", "I. D."]
+    url: https://twitter.com/rajiinio
+
+"sandhaus":
+  - firstname: ["Hauke", "H."]
+    url: https://haukesandhaus.de/
+
+"moss":
+  - firstname: ["Emanuel", "Manny", 'E.']
+    url: https://datasociety.net/people/moss-emanuel/
+
+"jacobs":
+  - firstname: ["Abigail", "A.", 'Abigail Z.', 'A. Z.']
+    url: https://azjacobs.com/
+
+"sloane":
+  - firstname: ["Mona", "M."]
+    url: https://www.monasloane.org/
+
+"lee":
+  - firstname: ["Jinsook", "J."]
+    url: https://jinsook-jennie-lee.github.io/
+  - firstname: ["Michelle", "M.", "Michelle Seng Ah", "M. S. A."]
+    url: https://michellesengahlee.com/about-me/
+
+"zhou":
+  - firstname: ["Joyce", "J."]
+    url: https://cephcyn.github.io/
+
+"garg":
+  - firstname: ["Nikhil", "N."]
+    url: https://gargnikhil.com/
+
+"joachims":
+  - firstname: ["Thorsten", "T."]
+    url: https://www.cs.cornell.edu/people/tj/
+
+"kizilcec":
+  - firstname: ["Rene", "R.", "Rene F.", "R. F."]
+    url: https://rene.kizilcec.com/
+
+"singh":
+  - firstname: ["Jatinder", "J.", "Jat"]
+    url: https://www.cl.cam.ac.uk/~js573/
