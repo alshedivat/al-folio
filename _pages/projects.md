@@ -8,7 +8,7 @@ nav_order: 2
 horizontal: false
 ---
 
-This is a selection of my projects. Additional projects are listed in [my C.V.](https://annakijas1.github.io/assets/pdf/2024-Kijas_CV.pdf)
+This is a selection of my projects. Additional projects are listed in [my C.V.](https://annakijas1.github.io/assets/pdf/2024-Kijas_CV-v2.pdf)
 
 
 <!-- pages/projects.md -->
