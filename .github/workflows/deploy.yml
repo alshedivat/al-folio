@@ -1,7 +1,4 @@
 name: deploy
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # Force use of Node20
-
 
 on:
   push:
@@ -17,6 +14,8 @@ on:
 permissions:
   contents: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # Force use of Node20
 
 jobs:
   deploy:
@@ -24,6 +23,10 @@ jobs:
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'  # Set Node.js version to 20
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
@@ -38,4 +41,3 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
-
