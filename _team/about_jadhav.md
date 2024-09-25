@@ -2,7 +2,7 @@
 layout: page
 title: Shruti Jadhav
 description: MS in High Performance Building
-img:
+img: assets/img/team/Jadhav.jpeg
 importance: 1
 category: MS
 ---
