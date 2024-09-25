@@ -13,6 +13,9 @@ on:
 
 permissions:
   contents: write
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # Force use of Node20
+
 
 jobs:
   deploy:
