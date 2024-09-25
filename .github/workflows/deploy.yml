@@ -1,4 +1,7 @@
 name: deploy
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # Force use of Node20
+
 
 on:
   push:
@@ -13,8 +16,6 @@ on:
 
 permissions:
   contents: write
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true  # Force use of Node20
 
 
 jobs:
