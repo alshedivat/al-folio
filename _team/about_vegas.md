@@ -2,7 +2,7 @@
 layout: page
 title: Gonzalo L. Vegas Olcese
 description: PhD student in Architecture
-img:
+img: assets/img/team/Vegas.jpg
 importance: 1
 category: PhD
 ---
