@@ -7,7 +7,7 @@ importance: 1
 category: research
 ---
 
-*Please refer to our paper for more details: <a href='https://ieeexplore.ieee.org/document/10458353'> IEEE TVCG </a> & [PDF](../assets/pdf/PetPresence.pdf)'*
+*Please refer to our paper for more details: <a href='https://ieeexplore.ieee.org/document/10458353'> IEEE TVCG </a> & [PDF](/assets/pdf/PetPresence.pdf)'*
 
 updating...
 
