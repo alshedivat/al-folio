@@ -1,7 +1,7 @@
 ---
 layout: page
-title: PetPresence: Investigating the Integration of Real-World Pet Activities in Virtual Reality
-description: To break the fourth wall in VR games
+title: PetPresence
+description: Investigating the Integration of Real-World Pet Activities in Virtual Reality
 img: assets/img/PetVR/PetVR-teaser.pdf
 importance: 1
 category: research
