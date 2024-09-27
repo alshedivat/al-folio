@@ -73,6 +73,84 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://amalawilson.com" target="_blank">★</a>
 <a href="https://tirtharajdash.github.io" target="_blank">★</a>
 <a href="https://carolinacarreira.github.io" target="_blank">★</a>
+<a href="https://manandey.github.io" target="_blank">★</a>
+<a href="https://johanneshoerner.github.io" target="_blank">★</a>
+<a href="https://ioannismavromatis.com" target="_blank">★</a>
+<a href="https://taidnguyen.github.io" target="_blank">★</a>
+<a href="https://lbugnon.github.io" target="_blank">★</a>
+<a href="https://joahannes.github.io" target="_blank">★</a>
+<a href="https://dominikstrb.github.io" target="_blank">★</a>
+<a href="https://tylerbarna.com" target="_blank">★</a>
+<a href="https://daviddmc.github.io/" target="_blank">★</a>
+<a href="https://andreaskuster.ch/" target="_blank">★</a>
+<a href="https://ellisbrown.github.io/" target="_blank">★</a>
+<a href="https://noman-bashir.github.io/" target="_blank">★</a>
+<a href="https://djherron.github.io/" target="_blank">★</a>
+<a href="https://rodosingh.github.io/" target="_blank">★</a>
+<a href="https://vdivakar.github.io/" target="_blank">★</a>
+<a href="https://george-gca.github.io/" target="_blank">★</a>
+<a href="https://bashirkazimi.github.io/" target="_blank">★</a>
+<a href="https://dohaison.github.io/" target="_blank">★</a>
+<a href="https://raphaaal.github.io/" target="_blank">★</a>
+<a href="https://varuniyer.info/" target="_blank">★</a>
+<a href="https://yukimasano.github.io/" target="_blank">★</a>
+<a href="https://hashe037.github.io/" target="_blank">★</a>
+<a href="https://wang-boyu.github.io/" target="_blank">★</a>
+<a href="https://qingqingchen.info" target="_blank">★</a>
+<a href="https://bajinsheng.github.io/" target="_blank">★</a>
+<a href="https://www.silviofanzon.com/" target="_blank">★</a>
+<a href="https://kaikaiyao.github.io/" target="_blank">★</a>
+<a href="https://alchemz.github.io/" target="_blank">★</a>
+<a href="https://samadamday.com/" target="_blank">★</a>
+<a href="https://fanpu.io/" target="_blank">★</a>
+<a href="https://abigalekim.github.io/" target="_blank">★</a>
+<a href="https://lucasresck.github.io/" target="_blank">★</a>
+<a href="https://users.wpi.edu/~lfichera/" target="_blank">★</a>
+<a href="https://anmspro.github.io/" target="_blank">★</a>
+<a href="https://berlyne.net/" target="_blank">★</a>
+<a href="https://filippomazzoli.github.io/" target="_blank">★</a>
+<a href="https://www.escontrela.me/" target="_blank">★</a>
+<a href="https://raffaem.github.io/" target="_blank">★</a>
+<a href="https://cbueth.de/" target="_blank">★</a>
+<a href="https://kyleaoman.github.io/" target="_blank">★</a>
+<a href="https://decwest.github.io/" target="_blank">★</a>
+<a href="https://www.jedburkat.com" target="_blank">★</a>
+<a href="https://hrzhang.me" target="_blank">★</a>
+<a href="https://kudhru.github.io/" target="_blank">★</a>
+<a href="https://mbarbetti.github.io/" target="_blank">★</a>
+<a href="https://www.zhivotenko.com/" target="_blank">★</a>
+<a href="https://giordanodaloisio.github.io/" target="_blank">★</a>
+<a href="https://aadityaura.github.io/" target="_blank">★</a>
+<a href="https://abhinav-mehta.github.io/" target="_blank">★</a>
+<a href="https://shubhashisroydipta.com/" target="_blank">★</a>
+<a href="https://astanziola.github.io" target="_blank">★</a>
+<a href="https://tinkerer.in" target="_blank">★</a>
+<a href="https://sam-bieberich.github.io/" target="_blank">★</a>
+<a href="https://afraniomelo.github.io/en/" target="_blank">★</a>
+<a href="https://jonaruthardt.github.io" target="_blank">★</a>
+<a href="https://www.zla.app/" target="_blank">★</a>
+<a href="https://stavros.github.io" target="_blank">★</a>
+<a href="https://ericslyman.com" target="_blank">★</a>
+<a href="https://ztjona.github.io/" target="_blank">★</a>
+<a href="https://chrischoi314.github.io" target="_blank">★</a>
+<a href="https://riccobelli.faculty.polimi.it" target="_blank">★</a>
+<a href="https://kishanved.tech/" target="_blank">★</a>
+<a href="https://abhilesh.github.io/" target="_blank">★</a>
+<a href="https://jackjburnett.github.io/" target="_blank">★</a>
+<a href="https://physics-morris.github.io/" target="_blank">★</a>
+<a href="https://sraf.ir" target="_blank">★</a>
+<a href="https://acad.garywei.dev/" target="_blank">★</a>
+<a href="https://tonideleo.github.io/" target="_blank">★</a>
+<a href="https://alonkellner.com/" target="_blank">★</a>
+<a href="https://berylbir.github.io/" target="_blank">★</a>
+<a href="https://thefermi0n.github.io/" target="_blank">★</a>
+<a href="https://mingsun-kaust.github.io/" target="_blank">★</a>
+<a href="https://hdocmsu.github.io/" target="_blank">★</a>
+<a href="https://trandangtrungduc.github.io/" target="_blank">★</a>
+<a href="https://kinghowler.github.io/" target="_blank">★</a>
+<a href="https://anurye.github.io/" target="_blank">★</a>
+<a href="https://charlie-xiao.github.io/" target="_blank">★</a>
+<a href="https://giuseppeperelli.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -112,7 +190,8 @@ Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.gith
 Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_blank"> 2022</a>) <br>
 Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.github.io/" target="_blank"> 2023</a>)<br>
 Beyond Vision: Physics meets AI (ICIAP: <a href="https://physicsmeetsai.github.io/beyond-vision/" target="_blank">2023</a>) <br>
-Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github.io/" target="_blank">2023</a>)
+Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github.io/" target="_blank">2023</a>) <br>
+Workshop on Structured Probabilistic Inference & Generative Modeling (ICML: <a href="https://spigmworkshop.github.io/" target="_blank">2023</a>, <a href="https://spigmworkshop2024.github.io/" target="_blank">2024</a>)
 </td>
 </tr>
 </table>
@@ -244,16 +323,9 @@ This Jekyll theme implements `collections` to let you break up your work into ca
 
 [![Projects Preview](readme_preview/projects.png)](https://alshedivat.github.io/al-folio/projects/)
 
-<<<<<<< HEAD
-You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
-
----
-
-=======
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is.
 To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
    
->>>>>>> 7c9ea769 (merged)
 ### Layouts
 
 **al-folio** comes with stylish layouts for pages and blog posts.
@@ -398,7 +470,7 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 ### All Contributors
 
 <a href="https://contrib.rocks">
-  <img src="https://contrib.rocks/image?repo=alshedivat/al-folio" />
+  <img src="https://contrib.rocks/image?repo=alshedivat/al-folio&max=500&columns=24" />
 </a>
 
 ## Star History

@@ -29,7 +29,7 @@ pagination:
   </div>
   {% endif %}
 
-{% if site.display_tags or site.display_categories %}
+{% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
   <div class="tag-category-list">
     <ul class="p-0 m-0">
