@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper "Finding MIDDLE Ground: Scalable and Secure Distributed Learning" accepted at CIKM 2024!
+New paper "Finding MIDDLE Ground: Scalable and Secure Distributed Learning" accepted at CIKM 2024
