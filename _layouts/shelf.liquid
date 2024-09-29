@@ -1,0 +1,146 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% if page.collection and page.collection.size > 0 %}
+  {% assign collection = site[page.collection] %}
+  {% if collection and collection.size > 0 %}
+    {% for item in collection reversed %}
+      {% assign currentdate = item.date | date: "%Y" %}
+      {% if currentdate != date %}
+        {% unless forloop.first %}
+          </ul>
+        {% endunless %}
+        <h1 id="y{{item.date | date: "%Y"}}">{{ currentdate }}</h1>
+        <ul>
+        {% assign date = currentdate %}
+      {% endif %}
+
+      <figure>
+        <a class="booklink" href="{{ item.url | relative_url }}">
+        {% if item.cover %}
+          <img alt="{{ item.title }} cover" src="{{ site.baseurl }}/{{ page.covers }}/{{ item.cover }}" style="height:200px" />
+        {% elsif item.olid %}
+          <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px" />
+        {% elsif item.isbn %}
+          <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px" />
+        {% endif %}
+        {% if item.status %}
+          {% assign status = item.status | upcase | strip %}
+          {% if status  == "READING" %}
+            <figcaption class="reading">{{ status }}</figcaption>
+          {% elsif status  == "FINISHED" %}
+            <figcaption class = "finished">{{ status }}</figcaption>
+          {% elsif status  == "QUEUED" %}
+            <figcaption class = "queued">{{ status }}</figcaption>
+          {% elsif status  == "ABANDONED" %}
+            <figcaption class="abandoned">{{ status }}</figcaption>
+          {% elsif status  == "INTERESTED" %}
+            <figcaption class="interested">{{ status }}</figcaption>
+          {% elsif status  == "REREAD" %}
+            <figcaption class="reread">{{ status }}</figcaption>
+          {% elsif status  == "PAUSED" %}
+            <figcaption class="paused">{{ status }}</figcaption>
+          {% else %}
+            <figcaption class="uncategorized"> UNCATEGORIZED </figcaption>
+          {% endif %}
+        {% else %}
+          <figcaption class="uncategorized"> UNCATEGORIZED </figcaption>
+        {% endif %}
+        </a>
+      </figure>
+      {% if forloop.last %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endif %}
+
+
+<style>
+  figure {
+    display: inline-block;
+    text-align: center;
+    margin: 8px; /* adjust as needed */
+
+  }
+
+  figure img {
+    vertical-align: bottom;
+
+  }
+
+  .reading{
+    font-family: monospace;
+    color: #23212D;
+    text-transform: uppercase;
+    background-color: #f89406;
+
+  }
+
+  .finished{
+    font-family: monospace;
+    color: #23212D;
+    text-transform: uppercase;
+    background-color: #62c462;
+
+  }
+
+
+  .queued{
+    font-family: monospace;
+    color: #23212D;
+    text-transform: uppercase;
+    background-color: #9e76b5;
+
+  }
+
+  .abandoned{
+    font-family: monospace;
+    color: #23212D;
+    text-transform: uppercase;
+    background-color: #ee5f5b;
+
+  }
+
+  .interested{
+    font-family: monospace;
+    color: #23212D;
+    text-transform: uppercase;
+    background-color: #7691db;
+
+  }
+
+  .reread{
+    font-family: monospace;
+    color: #23212D;
+    text-transform: uppercase;
+    background-color: #a6517d;
+
+  }
+
+  .paused{
+    font-family: monospace;
+    color: #23212D;
+    text-transform: uppercase;
+    background-color: #bdac7e;
+
+  }
+
+  .uncategorized{
+    font-family: monospace;
+    color: #23212D;
+    text-transform: uppercase;
+    background-color: #b0abb3;
+
+  }
+
+  /* mouse over link */
+a.booklink:hover {
+  color: #23212D !important;
+}
+
+  }
+</style>
