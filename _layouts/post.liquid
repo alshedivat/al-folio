@@ -4,6 +4,7 @@ layout: default
 {% assign year = page.date | date: '%Y' %}
 {% assign tags = page.tags | join: '' %}
 {% assign categories = page.categories | join: '' %}
+{% assign url_beginning = page.url | slice: 0, 6 %}
 
 {% if page._styles %}
   <!-- Page/Post style -->
@@ -11,8 +12,6 @@ layout: default
     {{ page._styles }}
   </style>
 {% endif %}
-
-{% assign url_beginning = page.url | slice: 0, 6 %}
 
 <div class="post">
   <header class="post-header">
