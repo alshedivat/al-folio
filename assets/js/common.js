@@ -37,12 +37,12 @@ $(document).ready(function () {
   cssLink.rel = "stylesheet";
   cssLink.type = "text/css";
 
-  let theme = determineComputedTheme();
+  let jupyterTheme = determineComputedTheme();
 
   $(".jupyter-notebook-iframe-container iframe").each(function () {
     $(this).contents().find("head").append(cssLink);
 
-    if (theme == "dark") {
+    if (jupyterTheme == "dark") {
       $(this).bind("load", function () {
         $(this).contents().find("body").attr({
           "data-jp-theme-light": "false",
@@ -50,5 +50,10 @@ $(document).ready(function () {
         });
       });
     }
+  });
+
+  // trigger popovers
+  $('[data-toggle="popover"]').popover({
+    trigger: "hover",
   });
 });

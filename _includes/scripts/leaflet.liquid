@@ -2,11 +2,11 @@
   <script
     src="{{ site.third_party_libraries.leaflet.url.js }}"
     integrity="{{ site.third_party_libraries.leaflet.integrity.js }}"
-    crossorigin=""
+    crossorigin="anonymous"
   ></script>
   <script>
     /* Create leaflet map as another node and hide the code block, appending the leaflet node after it */
-    document.onreadystatechange = () => {
+    document.addEventListener('readystatechange', () => {
       if (document.readyState === 'complete') {
         document.querySelectorAll('pre>code.language-geojson').forEach((elem) => {
           const jsonData = elem.textContent;
@@ -26,6 +26,6 @@
           map.fitBounds(geoJSON.getBounds());
         });
       }
-    };
+    });
   </script>
 {% endif %}
