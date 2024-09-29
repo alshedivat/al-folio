@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - contents
     paths:
       - "assets/**"
       - "**.html"
@@ -23,6 +24,7 @@ on:
     branches:
       - master
       - main
+      - contents
     paths:
       - "assets/**"
       - "**.html"

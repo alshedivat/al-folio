@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - contents
     paths:
       - "assets/**"
       - "**.bib"
@@ -32,6 +33,7 @@ on:
     branches:
       - master
       - main
+      - contents
     paths:
       - "assets/**"
       - "**.bib"

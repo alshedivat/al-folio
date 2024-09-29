@@ -6,6 +6,7 @@ on:
     branches:
       - master
       - main
+      - contents
     paths:
       - ".github/workflows/docker-slim.yml"
   workflow_run:

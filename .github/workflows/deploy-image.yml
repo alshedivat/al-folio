@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - contents
     paths:
       - ".github/workflows/deploy-image.yml"
       - "bin/entry_point.sh"
