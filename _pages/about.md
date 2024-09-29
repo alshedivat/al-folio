@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! I am Luca Fehlings, a PhD student in the Bio-Inspired Circuits and Systems group at the university of Groningen.
+Hello! I am Luca Fehlings, a PhD student in the Bio-Inspired Circuits and Systems group at the University of Groningen.
 Currently, I research ferroelectric HfO2-based devices and their integration into conventional memory macros as well as neuromorphic CMOS circuits. Together with my colleagues I am realizing circuit building blocks that allow efficient memory storage as well as learning on biological time-scales in hardware.
 
 My research interests cover the topics of process integration, compact modeling and electrical characterization of semiconductor and memory devices, particularly regarding their integrability and reliability.
