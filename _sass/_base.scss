@@ -1360,7 +1360,7 @@ figure.cover {
     background-color: #ee5f5b;
   }
 
-  figcaption.finished{
+  figcaption.finished, figcaption.watched{
     font-family: monospace;
     color: #23212D;
     text-transform: uppercase;
@@ -1388,14 +1388,14 @@ figure.cover {
     background-color: #9e76b5;
   }
 
-  figcaption.reading{
+  figcaption.reading, figcaption.watching{
     font-family: monospace;
     color: #23212D;
     text-transform: uppercase;
     background-color: #f89406;
   }
 
-  figcaption.reread{
+  figcaption.reread, figcaption.rewatch{
     font-family: monospace;
     color: #23212D;
     text-transform: uppercase;
