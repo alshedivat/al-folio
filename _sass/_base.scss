@@ -1304,3 +1304,66 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+// Mike was here/* Make the letter navigation sticky at the top and fit on a single line */
+/* Sticky, full-width letter navigation bar */
+.letter-index {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 100px; /* Adjust this value based on the height of your sticky menu */
+  width: 100%; /* Full width */
+  background-color: white;
+  padding: 10px 0;
+  z-index: 1000;
+  text-align: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap; /* Ensure the letters stay on one line */
+}
+
+.letter-index a {
+  margin: 0 0.5%; /* Reduce space between letters */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.letter-index a:hover {
+  text-decoration: underline;
+}
+
+/* Ensure the letter headings start a new row */
+.letter-section {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.letter-section h2 {
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Three-column layout for profiles */
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profile-column {
+  flex: 1 1 calc(33.333% - 20px); /* 3 columns with space */
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .profile-column {
+    flex: 1 1 calc(50% - 20px); /* 2 columns for medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-column {
+    flex: 1 1 100%; /* 1 column for smaller screens */
+  }
+}
