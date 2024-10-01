@@ -192,16 +192,12 @@ newsletter:
 collections:
   books:
     output: true
-  movies:
-    output: true
   news:
     defaults:
       layout: post
     output: true
   projects:
     output: true
-
-myapifilms_api_key: # your MyApiFilms API key
 
 announcements:
   enabled: true
