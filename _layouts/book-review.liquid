@@ -36,18 +36,13 @@ layout: default
           {% if page.started %}
             &nbsp;&middot;&nbsp;
           {% endif %}
-          <i class="fa-solid fa-stop fa-sm" style="color: var(--global-album-tier-bad) !important"></i> <em>{{ page.finished }}</em>
+          <i class="fa-solid fa-stop fa-sm" style="color: #e56565 !important"></i> <em>{{ page.finished }}</em>
         {% endif %}
         {% if page.stars %}
           {% if page.started or page.finished %}
             &nbsp;&middot;&nbsp;
           {% endif %}
           {% if page.goodreads_review %}
-            <style>
-              .post .post-tags i {
-                color: var(--global-theme-color) !important;
-              }
-            </style>
             <a target="_blank" href="https://www.goodreads.com/review/show/{{ page.goodreads_review }}"><i class="fa-brands fa-goodreads-g"></i>
           {% endif %}
           {% assign full_stars = page.stars | floor %}
@@ -106,7 +101,6 @@ layout: default
   </header>
 
   <article>
-    {% comment %} {{content}} {% endcomment %}
     {% if content == "" %}
       <figure class="empty-review">
         {% if page.cover %}
