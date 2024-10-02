@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Spoken Language Identification 🗣️ 
+description: Using Gaussian Mixture Model (GMM) for language Identification (Arabic, English, French, Russian) from audio.
+img: assets/img/lg_identification.png
+redirect: https://Khadija-Bayoud.github.io
+importance: 1
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

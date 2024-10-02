@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: assets/img/1.jpg
-importance: 3
-category: fun
+title: Movies Recommender 🎬
+description: Using machine learning models to analyze users preferences and customize movie recommendations accordingly.
+img: assets/img/mv_recommender.jpg
+redirect: https://Khadija-Bayoud.github.io
+importance: 1
+category: work
 ---
 
 Every project has a beautiful feature showcase page.

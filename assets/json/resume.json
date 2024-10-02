@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Khadija Bayoud",
+    "label": "Data Scientist | ML Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "khadijabayoud.me@gmail.com",
+    "phone": "",
+    "url": "https://Khadija-Bayoud.github.io",
+    "summary": "",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -22,179 +22,254 @@
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
+
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "M. Abdellah Qualifying High School",
+      "location": "El Jadida, Morocco",
+      "area": "Specialty : Experimental Sciences",
+      "studyType": "Baccalaureate",
+      "startDate": "2019",
+      "endDate": "2019"
+    },
+
+    {
+      "institution": "Euromed University of Fes",
+      "location": "Fes, Morocco",
+      "url": "https://ueuromed.org/etablissement/ecole-dingenierie-digitale-et-dintelligence-artificielle-eidia/filieres",
+      "area": "Specialty : Artificial Intelligence",
+      "studyType": "Preparatory Classes",
+      "startDate": "2019",
+      "endDate": "2021"
+    },
+
+    {
+      "institution": "Euromed University of Fes",
+      "location": "Fes, Morocco",
+      "url": "https://ueuromed.org/etablissement/ecole-dingenierie-digitale-et-dintelligence-artificielle-eidia/filieres",
+      "area": "Specialty : Artificial Intelligence",
+      "studyType": "Engineering Cycle (Earned an Engineer's Diploma in AI)",
+      "startDate": "2021",
+      "endDate": "2024"
     }
   ],
-  "awards": [
+
+  "work": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "name": "SAFRAN Aerosystems",
+      "position": "Web Developer Intern",
+      "url": "https://www.safran-group.com/",
+      "startDate": "2022-07-01",
+      "endDate": "2022-10-31",
+      "summary": "Developed a web application to automate and manage the process of filling out and printing records for aircraft mechanical parts. I Worked on both front-end and back-end functionalities.",
+      "highlights": ["Web Development, Front-End, Back-End"]
+    },
+
+    {
+      "name": "L’ODJ Média",
+      "position": "Generative AI Intern",
+      "url": "https://www.lodj.ma/",
+      "startDate": "2023-07-01",
+      "endDate": "2023-08-31",
+      "summary": "Collaborated with a team of three to develop an all-in-one platform for media content generation, including article generation, text-to-speech, and text-to-image capabilities. My tasks involved integrating Generative AI models into the platform's workflow.",
+      "highlights": ["Generative AI, Natural Language Processing, Data Scrapping"]
+    },
+
+    {
+      "name": "DeepEcho",
+      "position": "Data Scientist",
+      "url": "https://www.deepecho.io/",
+      "startDate": "2024-02-02",
+      "endDate": "Ongoing",
+      "summary": "I collaborate with a multidisciplinary team to perform medical data analysis and develop computer vision models for analyzing fetal ultrasound images.",
+      "highlights": ["Computer Vision, Data Analysis"]
     }
   ],
-  "certificates": [
+
+  "projects": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "LLM Based Chatbot",
+      "summary": "Developed a Question-Answering chatbot for Moroccan history by fine-tuning Falcon 7B Large Language Model.",
+      "highlights": ["Natural Language Processing", "Large Language Models", "Data Collection and Cleaning"],
+      "startDate": "2023-04-01",
+      "endDate": "2023-06-15",
+      "url": "https://Khadija-Bayoud.github.io/projects/1_project/"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Handwritten Arabic Word Recognition",
+      "summary": "Build a pipeline for data preparation and model training for handwritten Arabic word recognition using CNN-LSTM based architectures.",
+      "highlights": ["Optical Character recognition", "Image processing", "Model training and evaluation"],
+      "startDate": "2022-04-01",
+      "endDate": "2022-06-15",
+      "url": "https://Khadija-Bayoud.github.io/projects/2_project/"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
+      "name": "Face Recognition",
+      "summary": "Build a pipeline for data preparation and model training for Moroccan football players’ face recognition using a CNN-based architecture.",
+      "highlights": ["Computer Vision", "Feature Extraction", "Data Collection and Labeling"],
+      "startDate": "2022-05-01",
+      "endDate": "2022-06-15",
+      "url": "https://Khadija-Bayoud.github.io/projects/3_project/"
     },
     {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
+      "name": "Spoken Language Identification",
+      "summary": "Build pipeline for processing audio data and training a model to identify the spoken language (Arabic, English, French, Russian) within audio recordings.",
+      "highlights": ["Audio processing", "Feature Extraction", "Noise Reduction"],
+      "startDate": "2022-05-01",
+      "endDate": "2022-06-15",
+      "url": "https://Khadija-Bayoud.github.io/projects/4_project/"
     },
     {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Movies Recommendation System",
+      "summary": "Data collection, preprocessing, and model training and evaluation for movies recommendation using KNN, KMeans and Neural Networks.",
+      "highlights": ["Clustering", "Data Visualization"],
+      "startDate": "2022-03-01",
+      "endDate": "2022-04-15",
+      "url": "https://Khadija-Bayoud.github.io/projects/5_project/"
     }
   ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+
   "skills": [
     {
-      "name": "Physics",
+      "name": "Programming Languages",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-solid fa-code",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Python, R, Matlab",
+        "C, C++, Java"
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "level": "Master",
+      "icon": "fa-solid fa-cogs",
+      "keywords": [
+        "Pytorch, Transformers, FastAPI",
+        "TensorFlow-Keras, Scikit-Learn",
+        "OpenCV, Numpy, Pandas, Matplotlib"
+      ]
+    },
+    {
+      "name": "Generative AI",
+      "level": "Master",
+      "icon": "fa-solid fa-robot",
+      "keywords": [
+        "Langchain, RAGAS, Streamlit",
+        "Ollama, HuggingFace"
+      ]
+    },
+    {
+      "name": "Database Management",
+      "level": "Master",
+      "icon": "fa-solid fa-database",
+      "keywords": [
+        "SQL, MongoDB",
+        "Vector Databases (Qdrant, FAISS)"
+      ]
+    },
+    {
+      "name": "Version Control & Cloud Tech",
+      "level": "Master",
+      "icon": "solid fa-code-branch fa-solid fa-cloud",
+      "keywords": [
+        "Git, Github",
+        "Docker, Google Cloud Platform (GCP)"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "Master",
+      "icon": "fa-solid fa-users",
+      "keywords": [
+        "Organization, Collaboration",
+        "Communication, Curiosity"
       ]
     }
   ],
+
+  "publications": [
+    {
+      "name": "AI + HADR Workshop @ NeurIPS’23: Morocco Solidarity Hackathon. Leveraging AI for natural disaster management Takeaways from the Moroccan earthquake, 2023. ",
+      "publisher": "Morocco Solidarity Hackathon",
+      "releaseDate": "2023-11-15",
+      "url": "https://arxiv.org/abs/2311.08999",
+      "summary": "In response to the 2023 6.8-magnitude earthquake in Al Haouz, Morocco, a post-disaster hackathon was organized to leverage artificial intelligence (AI) for improving disaster management strategies. This paper presents (i) a literature review, (ii) an overview of winning projects, (iii) insights on challenges such as real-time data access and interdisciplinary collaboration, and (iv) a call for community action."
+    }
+  ],
+
   "languages": [
     {
-      "language": "German",
+      "language": "Arabic",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "Fluent (B2)",
+      "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "Fluent (B2)",
+      "icon": ""
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Beginner (A2)",
       "icon": ""
     }
   ],
-  "interests": [
+
+  "awards": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "title": "MoroccoAI - GenAI Hackathon",
+      "date": "2023-12-17",
+      "awarder": "MoroccoAI",
+      "url": "https://morocco.ai/",
+      "summary": "Winner - Project ”SmartFarmer” - LLMs powered chatbot for Moroccan agriculture."
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "title": "Med Innovation Tour Hackathon ",
+      "date": "2023-10-15",
+      "awarder": "The Chamber of Commerce, Industry, and Services of Fès-Meknès",
+      "url": "https://historia-landing.vercel.app/#0",
+      "summary": "Winner- Project ”Histouria”, personalized tour guide."
+    },
+    {
+      "title": "Moroccan Solidarity Hackathon",
+      "date": "2023-09-26",
+      "awarder": "Moroccan Solidarity Hackathon - Mila Quebec",
+      "url": "https://arxiv.org/abs/2311.08999",
+      "summary": "Winner - Project proposition ”Drones for disaster mitigation”"
+    }
+    
+  ],
+
+  "volunteer": [
+    {
+      "organization": "Teens in AI - ICESCO-UEMF Women in Science",
+      "location": "Fes, Morocco",
+      "position": "Mentor",
+      "url": "https://ueuromed.org/en/actualites/ateliers-workshops/le-hackathon-teens-ai-une-competition-pour-generer-les-prochaines",
+      "startDate": "2023-02-10",
+      "endDate": "2023-02-12",
+      "summary": "Teens in AI organized a hackathon to empower youth and introduce them to AI technologies through mini projects. I mentored several teams, explaining AI concepts and demonstrating how it can help them bring their ideas to life.",
+      "highlights": ["Youth Empowerment.", "STEM (Science, Technology, Engineering, and Mathematics.)"]
     }
   ],
-  "projects": [
+
+  "interests": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "BasketBall",
+      "icon": "fa-solid fa-basketball-ball"
+    },
+    {
+      "name": "Tech & Language Podcast Listening",
+      "icon": "fa-solid fa-podcast"
+    },
+    {
+      "name": "Collective games",
+      "icon": "fa-solid fa-gamepad"
     }
   ]
 }

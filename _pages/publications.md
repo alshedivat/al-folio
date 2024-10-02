@@ -1,3 +1,4 @@
+<!--
 ---
 layout: page
 permalink: /publications/
@@ -18,3 +19,4 @@ nav_order: 2
 {% bibliography %}
 
 </div>
+ -->

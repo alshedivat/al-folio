@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: Face Recognition Model 🤳
+description: Using CNN based architectures to recognize Moroccan football players.
+img: assets/img/img_recognition.jpg
+redirect: https://Khadija-Bayoud.github.io
+importance: 1
 category: work
 ---
 

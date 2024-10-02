@@ -1,81 +1,81 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
+title: Handwritten Arabic Word Recognition ✍️
+description: Applying OCR for Handwritten Arabic Words recognition.
+img: assets/img/ocr_logo.png
+importance: 1
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+#### **Overview 📄**
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Optical Character Recognition (OCR) is the process of converting an image of text into a format that computers can read and manipulate. For example, when we scan a form or a receipt, the result is an image file that cannot be edited, searched, or analyzed using a text editor. However, by applying OCR, we can convert this image into a text document and the content will be stored and utilized as text data.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+The goal of this project was to build an Optical Character Recognition (OCR) model based on **Convolutional Neural Networks (CNNs)** and **Long Short-Term Memory (LSTM)** networks to recognize handwritten Arabic words.
+
+#### **Dataset 📁**
+
+In this project, we used the **IFN/ENIT** ([link](http://www.ifnenit.com/download.htm)), which contains more than 2200 binary images of handwriting sample forms from 411 writers. A ground truth file for each word in the database has been compiled. This file contains information about the word such as the position of the words base line, and information on the individual used characters in the word.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/tfnit.png" title="IFN/ENIT dataset" class="img-fluid rounded z-depth-1" style="max-height: 200px; height: auto;"%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ae07_001.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/ae07_002.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Figure 1 : Dataset Overview 
 </div>
+
+#### **Model Architecture 📐**
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/cnn.png" title="CNN" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/lstm1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ctc.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Figure 2: Convolutional Neural Networks, Long Shot-Term Memory, Connectionist Temporal Classification Loss
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+##### **Convolutional Neural Network 🧠**
+The convolutional Neural Network was used an image feature extractor. The input to the CNN is the raw image, which undergoes a series of convolutional operations to detect spatial features such as edges, shapes, and textures.These extracted features are then passed to the LSTM for sequential analysis. We adopted two approaches.
+1. Using a pretrained architecture (VGG19) backbone as a feature extractor by removing the classification had and freezing the other layers.
+2. Implementing a custom CNN architecture.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+##### **Long Short-Term Memory 🧠**
+The LSTM network is known for its capability to handle sequences. In this task, each character in an arabic word can be treated as a step in the sequence. LSTM processes the sequence of features extracted by the previous CNN. The LSTM then can predict the most likely next characters.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+##### **Output Decoding**
+The CTC loss is used to allow the model to output a probability distribution over characters at each time step, making it easier to train it on unaligned data (where the timing of character appearances is not explicitly labeled).
 
-{% raw %}
+At inference time, a Beam Search decoding is used to find the most probable sequence of characters based on the LSTM's output probabilities.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+##### **Evaluation**
+- Character Error Rate (CER) : The proportion of characters that have been transcribed incorrectly.
+- Word Error Rate (WER) : The proportion of incorrectly recognized words relative to the reference text.
 
-{% endraw %}
+#### **Technical Stack** 🛠️
+
+**TensorFlow-Keras :** Coding framework.
+
+**Keras Applications:** For pretrained CNN.
+
+**TensorBoard :** Monitoring training progress.
+
+**OpenCV :** Handling images.
+
+**Google Colab :** Free access to GPU and TPU.
