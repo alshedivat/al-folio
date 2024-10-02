@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Lady Davis | McGill University</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Lady Davis | McGill University</a>. yilboudo@gmail.com.
 
 profile:
   align: right
@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am Research Associate in [Brent Richards]'(https://www.mcgill.ca/genepi/) Lab at the Lady Davis Instute & McGill University. Prior to joining the lab, I completed Ph.D. in Bioinformatics advised by [Guillaume Lettre](http://www.mhi-humangenetics.org/fr/membres/). 
+I am Research Associate in [Brent Richards](https://www.mcgill.ca/genepi/)' Lab at the Lady Davis Instute & McGill University. Prior to joining the lab, I completed Ph.D. in Bioinformatics advised by [Guillaume Lettre](http://www.mhi-humangenetics.org/fr/membres/). 
 
 As a statistical geneticist, my research focuses on analyses to identify the genetic determinants of common, aging-related endocrine diseases. In my thesis project, I integrated multiple omics datasets to uncover severity modifiers of sickle cell disease. 
 
