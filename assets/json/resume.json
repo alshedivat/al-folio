@@ -1,36 +1,36 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Yann Ilboudo",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "yilboudo@gmail.com",
+    "phone": "(514) 573-4580",
+    "url": "https://yannilboudo.github.io",
+    "summary": "A computational biologist wrangling with genetic datasets",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Montreal",
+      "countryCode": "CA",
+      "region": "QC"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "yilboudo",
+        "url": "https://twitter.com/Yann_Speaks"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Lady Davis, McGill University",
+      "position": "Research Associate",
+      "url": "https://www.mcgill.ca/genepi/",
+      "startDate": "2022-06-22",
+      "endDate": "Present",
+      "summary": "Research on age related and endocrine related disorders.",
+      "highlights": ["Vitamin D and cognition"]
     }
   ],
   "volunteer": [
@@ -47,15 +47,14 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "University of Montreal, Montreal, Canada",
+      "location": "Montreal, Canada",
+      "url": "https://www.umontreal.ca/",
+      "area": "Bioinformatics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2018-01-01",
+      "endDate": "2023-10-01",
+      "courses": ["Severity of sickle cell disease"]
     }
   ],
   "awards": [
