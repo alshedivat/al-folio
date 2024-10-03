@@ -21,5 +21,4 @@ As a statistical geneticist, my research focuses on analyses to identify the gen
 
 My curriculum vitae can be found  here.
 
-[ojoijoijojioj](joijojoijo)
 
