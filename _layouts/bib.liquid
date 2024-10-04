@@ -67,7 +67,7 @@
           {% endif %}
         {%- endif -%}
         {% assign coauthor_url = null %}
-        {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
+        {%- assign clean_last_name = author_last_name | downcase -%}
         {% if site.data.coauthors[clean_last_name] %}
           {%- for coauthor in site.data.coauthors[clean_last_name] -%}
             {% if coauthor.firstname contains author.first %}
