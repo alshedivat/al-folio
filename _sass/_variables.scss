@@ -8,20 +8,25 @@
 // Colors
 $red-color: #ff3636 !default;
 $red-color-dark: #b71c1c !default;
+$red-color-light: color.adjust($red-color, $lightness: 25%);
 $orange-color: #f29105 !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
+$blue-color-light: color.adjust($blue-color, $lightness: 25%);
 $cyan-color: #2698ba !default;
-$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
+$cyan-color-dark: color.adjust($cyan-color, $lightness: -25%);
+$cyan-color-light: color.adjust($cyan-color, $lightness: 25%);
 $green-color: #00ab37 !default;
 $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #b509ac !default;
-$light-purple-color: color.adjust($purple-color, $lightness: 25%);
+$purple-color-dark: color.adjust($purple-color, $lightness: -25%);
+$purple-color-light: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
+$pink-color-dark: color.adjust($pink-color, $lightness: -25%);
+$pink-color-light: color.adjust($pink-color, $lightness: 25%);
 $yellow-color: #efcc00 !default;
 
 $grey-color: #828282 !default;
