@@ -1,11 +1,18 @@
+---
+layout: default
+---
 <!-- cv.html -->
-      <div class="post">
-            <header class="post-header">
-            <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
-            <p class="post-description">{{ page.description }}</p>
-          </header>
-      
-          <div class="clearfix">
-            {{ content }}
-          </div>
+<div class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }} {% if page.cv_pdf %}<a href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}" target="_blank" rel="noopener noreferrer" class="float-right"><i class="fas fa-file-pdf"></i></a>{% endif %}</h1>
+      <p class="post-description">{{ page.description }}</p>
+    </header>
+   
+    <div class="clearfix">
+      <div style="width: 100%; height:800">
+        <iframe src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}#toolbar=0&navpanes=0"  width="100%" height="800">
+        Please click on the icon on the top right to download my CV if it does not show up in your browser. 
+        </iframe>
+      </div>
+    </div>
 </div>
