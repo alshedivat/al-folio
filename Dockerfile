@@ -8,6 +8,7 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     imagemagick \
     build-essential \
     zlib1g-dev \
+    pipx \
     inotify-tools procps && \
     apt-get clean && rm -rf /var/lib/apt/lists/* /var/cache/apt/archives/* && \
     PIPX_HOME=/usr/local PIPX_BIN_DIR=/usr/local/bin pipx install jupyter-core && \
