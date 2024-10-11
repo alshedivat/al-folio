@@ -18,4 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less. ― Marie Curie
+Nothing in life is to be feared, it is only to be understood.<br>
+Now is the time to understand more, so that we may fear less. ― Marie Curie
+
