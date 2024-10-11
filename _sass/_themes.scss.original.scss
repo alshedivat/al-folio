@@ -20,9 +20,9 @@
   --global-card-bg-color: #{$white-color};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
-    #{red($black-color)},
-    #{green($black-color)},
-    #{blue($black-color)},
+    #{color.channel($black-color, "red", $space: rgb)},
+    #{color.channel($black-color, "green", $space: rgb)},
+    #{color.channel($black-color, "blue", $space: rgb)},
     0.4
   );
   --global-back-to-top-text-color: #{$white-color};
@@ -89,10 +89,10 @@ html[data-theme="dark"] {
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
   --global-back-to-top-bg-color: rgba(
-  #{red($white-color)},    // Extracts the red channel
-  #{green($white-color)},  // Extracts the green channel
-  #{blue($white-color)},   // Extracts the blue channel
-  0.5
+    #{color.channel($white-color, "red", $space: rgb)},
+    #{color.channel($white-color, "green", $space: rgb)},
+    #{color.channel($white-color, "blue", $space: rgb)},
+    0.5
   );
   --global-back-to-top-text-color: #{$black-color};
   --global-newsletter-bg-color: #{$grey-color-light};
