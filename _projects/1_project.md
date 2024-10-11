@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Customer Satisfaction Classification
-description: Predicting Customer Satisfaction in Aviation: Classification Models and Key Influencing Factors
+description: Predicting Customer Satisfaction in Aviation. Classification Models and Key Influencing Factors
 img: assets/img/aviation.jpg
 importance: 1
 redirect: https://github.com/kpsalida/ClassificationProject

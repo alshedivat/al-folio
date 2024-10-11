@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Car Accident Insights
-description: Identifying Car Accident Factors in Los Angeles: Time, Weather, and Area Characteristics
+description: Identifying Car Accident Factors in Los Angeles. Time, Weather, and Area Characteristics
 img: assets/img/accident.jpg
 redirect: https://github.com/kpsalida/PowerBI__City-of-LA-Accident-Factors
 importance: 4

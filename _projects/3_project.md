@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Netflix Expansion
-description: Netflix Expansion Strategy: Best Genres, Countries, and Talent Analysis
+description: Netflix Expansion Strategy. Best Genres, Countries, and Talent Analysis
 img: assets/img/netflix.jpg
 redirect: https://github.com/kpsalida/Exploratory_Data_Analysis_of_Netflix_Success_Factors
 importance: 3
