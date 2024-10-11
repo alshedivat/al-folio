@@ -3,7 +3,7 @@ layout: about
 title: about
 permalink: /
 #subtitle: <a href='#'>A quote that most resonates with me</a>. 
-subtitle: "<span style='color:pink;'>Nothing in life is to be feared, it is only to be understood.<br>Now is the time to understand more, so that we may fear less. — Marie Curie</span>"
+subtitle: "<span style='color:#ff69b4;'><em>Nothing in life is to be feared, it is only to be understood.<br>Now is the time to understand more, so that we may fear less. — Marie Curie</em></span>"
 
 
 profile:
@@ -18,6 +18,8 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+
 
 
 I have started my studies as a Computational Physicist. <br>  
