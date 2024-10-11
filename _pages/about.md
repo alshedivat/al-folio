@@ -3,7 +3,8 @@ layout: about
 title: about
 permalink: /
 #subtitle: <a href='#'>A quote that most resonates with me</a>. 
-subtitle: "<a href='#'><span style='color:#ff00ff;'><em>Nothing in life is to be feared, it is only to be understood.<br>Now is the time to understand more, so that we may fear less. — Marie Curie</em></span></a>"
+subtitle: "<a href='#'><em>Nothing in life is to be feared, it is only to be understood.<br>Now is the time to understand more, so that we may fear less. — Marie Curie</em></a>"
+
 
 
 profile:
