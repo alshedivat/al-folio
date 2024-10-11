@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>A quote that most resonates with me</a>. 
+#subtitle: <a href='#'>A quote that most resonates with me</a>. 
+subtitle: "<span style='color:pink;'>Nothing in life is to be feared, it is only to be understood.<br>Now is the time to understand more, so that we may fear less. — Marie Curie</span>"
 
 
 profile:
@@ -18,8 +19,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Nothing in life is to be feared, it is only to be understood.<br>
-Now is the time to understand more, so that we may fear less. ― Marie Curie
 
 I have started my studies as a Computational Physicist. <br>  
 Today I am a rounded IT professional with a background in IT Services, performance marketing and digital sales. Following the momentum of our times I completed a Data Science Bootcamp which has revealed a whole new world of Data Science and Data Analysis.<br>  
