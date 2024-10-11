@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: project 3
+description: Exploring Best Rated Products for Netflix. Exploratory Data Analysis with Pandas
+img: assets/img/netflix.jpg
+redirect: https://github.com/kpsalida/Exploratory_Data_Analysis_of_Netflix_Success_Factors
 importance: 3
-category: work
+category: DataScience
 ---
 
 Every project has a beautiful feature showcase page.

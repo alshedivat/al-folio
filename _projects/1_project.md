@@ -1,11 +1,11 @@
 ---
 layout: page
 title: project 1
-description: Predicting Factors affecting Customer Satisfaction in Aviation Industry
+description: Predicting Factors affecting Customer Satisfaction in Aviation Industry using Classification Algorithms
 img: assets/img/aviation.jpg
 importance: 1
-github_url: "https://github.com/kpsalida/ppc-forecasting"
-category: work
+redirect: "https://github.com/kpsalida/ppc-forecasting"
+category: DataScience
 related_publications: true
 ---
 

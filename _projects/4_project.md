@@ -1,10 +1,11 @@
 ---
 layout: page
 title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+description: Identify Factors Responsible for Car Accidents in the City of LA. A Power BI Project
+img: assets/img/accident.jpg
+redirect: https://github.com/kpsalida/PowerBI__City-of-LA-Accident-Factors
+importance: 4
+category: DataScience
 ---
 
 Every project has a beautiful feature showcase page.
