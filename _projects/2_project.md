@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 2
-description: Predicting Next Day Prices for Energy Consumption utilizing RNN-LSTM models
+title: Energy Price Prediction
+description: Forecasting Next Day Energy Prices Using RNN-LSTM Regression Models
 img: assets/img/electricity.jpg
 redirect: "https://github.com/kpsalida/ppc-forecasting"
 importance: 2

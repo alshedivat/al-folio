@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 4
-description: Identify Factors Responsible for Car Accidents in the City of LA. A Power BI Project
+title: Car Accident Insights
+description: Identifying Car Accident Factors in Los Angeles: Time, Weather, and Area Characteristics
 img: assets/img/accident.jpg
 redirect: https://github.com/kpsalida/PowerBI__City-of-LA-Accident-Factors
 importance: 4
