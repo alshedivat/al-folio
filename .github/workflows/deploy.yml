@@ -89,7 +89,7 @@ jobs:
           npm install -g purgecss
           purgecss -c purgecss.config.js
       - name: Fix permission
-           run:|
+           run: |
               chmod a+x bin/*
               git comit -am "add execute permission to bin/dploy"
       - name: Deploy 🚀
