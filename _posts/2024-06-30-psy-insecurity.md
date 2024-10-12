@@ -94,7 +94,7 @@ If you are constantly disappointed and blaming yourself for being anything less 
 
 **三种最常见的不安全感及其应对方法**
 
-帮助你在自我怀疑时恢复信心的15种工具。  
+帮助你在自我怀疑时恢复信心的15种工具。
 
 发表于2015年12月6日 | 由Lybi Ma审阅
 
