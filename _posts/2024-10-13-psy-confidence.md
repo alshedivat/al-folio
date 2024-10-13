@@ -11,12 +11,12 @@ toc:
   sidebar: false
 ---
 
-*Ashley Laderer, John Mutziger*  
-*29 March 2022*  
+_Ashley Laderer, John Mutziger_  
+_29 March 2022_
 
-- Insecurity is the feeling that you are inadequate or not good enough.  
-- You might be insecure if you are self-critical, a perfectionist, or someone who self-sabotages.  
-- You can become more confident through therapy and practicing having compassion for yourself.  
+- Insecurity is the feeling that you are inadequate or not good enough.
+- You might be insecure if you are self-critical, a perfectionist, or someone who self-sabotages.
+- You can become more confident through therapy and practicing having compassion for yourself.
 - Visit Insider's Health Reference library for more advice.
 
 It's normal to feel mildly insecure from time to time, such as before a first date or an important job interview.
@@ -37,7 +37,7 @@ However, perfectionism leads to unhealthy levels of self-criticism and a need fo
 
 ## 3. You Feel a Lot of Envy or Jealousy
 
-When you're insecure and feel inadequate, you may feel threatened or in competition with others, leading to envy and jealousy, Glickman says. 
+When you're insecure and feel inadequate, you may feel threatened or in competition with others, leading to envy and jealousy, Glickman says.
 This is because rather than focusing on themselves, insecure people tend to focus on comparing themselves to others, which may result in negative emotions.
 
 ## 4. You're Harsh and Critical of Yourself
@@ -64,6 +64,7 @@ This can result in you taking everything personally, interpreting your partner's
 "As a result of the fear of rejection or abandonment, your insecurity may show up as self-sabotaging behaviors," says Chain.
 This can range from sabotaging your own personal success or your relationships.
 Chain says some examples of this may be:
+
 - Procrastinating on a project because you're afraid of failing despite giving your best effort.
 - Acting cold or distant towards a partner because you are not sure how they feel about you.
 - Avoiding asking for a promotion at work because you don't think you're deserving enough.
@@ -92,7 +93,7 @@ Many different types of therapy can address insecurity and help you learn new sk
 
 If you're insecure, chances are you're mentally beating yourself up often.
 Glickman suggests taking time to reflect and notice what you tend to judge and criticize about yourself.
-For example, is it your appearance, career, or relationships? 
+For example, is it your appearance, career, or relationships?
 
 The next time you notice you're being overly self-critical, try switching up and speaking to yourself in a genuine, loving way, the same way you would to a close friend or family member.
 Remember to have compassion for yourself, as it's been shown to help improve insecurity within relationships as well as overall mental health.
@@ -100,7 +101,7 @@ Remember to have compassion for yourself, as it's been shown to help improve ins
 ## 3. Challenge your thoughts
 
 A common component of therapy is learning to understand the connection between thoughts, feelings, and behaviors.
-Glickman says you can work to challenge the negative, irrational beliefs leading to your insecurity. 
+Glickman says you can work to challenge the negative, irrational beliefs leading to your insecurity.
 
 "Question, challenge, and don't believe everything you think. This allows you to cognitively restructure unhealthy thinking patterns," says Glickman.
 Over time, you will learn to quickly identify unhealthy thoughts and move forward in a healthier way.
@@ -111,7 +112,7 @@ If your insecurity stems from your upbringing, it can help to do some inner-chil
 "Imagine you have a small child inside of you. How would you speak to and treat your little self with kindness and tenderness? Close your eyes and imagine telling that little child that they are safe with you. You will protect them and care for them, and you love them," says Chain.
 This draws from attachment theory, which is the idea that we learned our relationship behaviors early on in life based on our upbringing.
 Chain says this tip can be especially helpful if you had an unsafe or unpredictable relationship with your caretakers.
-This is also an aspect of different types of therapy such as psychoanalysis, psychodynamic therapy, internal family systems, and emotionally focused therapy, says Chain. 
+This is also an aspect of different types of therapy such as psychoanalysis, psychodynamic therapy, internal family systems, and emotionally focused therapy, says Chain.
 
 ## 5. Aim for progress over perfection
 
@@ -187,6 +188,7 @@ Glickman说，这可能源于一些消极的经历，如童年的忽视、霸凌
 “由于害怕被拒绝或被抛弃，你的不安全感可能会表现为自我破坏的行为，”Chain说。
 这种行为可能包括破坏自己的个人成功或关系。
 Chain举了一些例子：
+
 - 因为害怕尽全力后仍然失败，所以拖延一个项目。
 - 因为不确定对方的感受，所以对伴侣表现得冷漠或疏远。
 - 因为觉得自己不够格，所以不敢在工作中提出晋升要求。
@@ -243,6 +245,7 @@ Chain表示，如果你在童年时期与照顾者的关系不安全或不可预
 无论多么小的胜利都要庆祝。
 
 ## Insider的结论
+
 不安全感可能以多种方式表现出来，从感到自己不够好，到害怕被拒绝，再到自我破坏。
 无论是什么导致了你的不安全感，通过治疗和其他策略的努力工作，可以帮助你变得更加自信。
 
