@@ -21,8 +21,6 @@ Posted December 6, 2015 \| Reviewed by Lybi Ma
 - Social anxiety from being bullied or having critical parents can lead to insecurity.
 - Perfectionism can cause insecurity, depression, anxiety, eating disorders, and chronic fatigue.
 
----
-
 Do you find yourself filled with self-doubt and short on confidence?
 Despite your accomplishments, do you feel like a fraud destined to be exposed?
 Do you feel that you don’t deserve lasting love and that partners will inevitably leave you?
@@ -33,8 +31,6 @@ Most of us feel insecure sometimes, but some of us feel insecure most of the tim
 The kind of childhood you had, past traumas, recent experiences of failure or rejection, loneliness, social anxiety, negative beliefs about yourself, perfectionism, or having a critical parent or partner can all contribute to insecurity.
 
 Following are the three most common forms of insecurity—and how to begin to cope with them.
-
----
 
 # Type 1: Insecurity Based on Recent Failure or Rejection
 
@@ -52,8 +48,6 @@ Since unhappiness also influences your self-esteem, failure and rejection can de
 1. Persevere and keep moving towards your goals.
 1. Be willing to try a different strategy if necessary.
 
----
-
 # Type 2: Lack of Confidence Because of Social Anxiety
 
 Many of us experience a lack of confidence in social situations like parties, family gatherings, interviews, and dates.
@@ -67,8 +61,6 @@ This type of insecurity is generally based on distorted beliefs about your self-
 1. Avoiding social situations just makes things worse. So go to a party or on a date even if you're nervous.
 1. Set yourself a limited, realistic goal. This could be anything from talking to two new people or finding out more about one person’s work and hobbies.
 1. Deliberately focus on others to combat intense self-focus. Put on your observer hat and notice what other people seem to be feeling and doing.
-
----
 
 # Type 3: Insecurity Driven by Perfectionism
 
@@ -104,8 +96,6 @@ If you are constantly disappointed and blaming yourself for being anything less 
 - 由于被欺负或有批评性父母而产生的社交焦虑可能导致不安全感。
 - 完美主义不仅会导致不安全感，还会引起抑郁、焦虑、饮食失调和慢性疲劳。
 
----
-
 你是否觉得自己充满了自我怀疑并缺乏自信？
 尽管取得了成就，但你是否觉得自己像一个将被揭穿的骗子？
 你是否觉得自己不配拥有持久的爱，伴侣最终都会离开你？你是否因为觉得自己没有足够的价值而待在家里，害怕走出去认识新朋友？
@@ -115,8 +105,6 @@ If you are constantly disappointed and blaming yourself for being anything less 
 你的童年经历、过去的创伤、最近的失败或拒绝经历、孤独、社交焦虑、对自己的负面信念、完美主义或有批评性的父母或伴侣都可能导致不安全感。
 
 以下是三种最常见的不安全感形式以及如何开始应对它们的方法。
-
----
 
 # 类型1：基于最近失败或拒绝的不安全感
 
@@ -134,8 +122,6 @@ If you are constantly disappointed and blaming yourself for being anything less 
 1. 坚持下去，继续朝着你的目标前进。
 1. 如果需要，愿意尝试不同的策略。
 
----
-
 # 类型2：由于社交焦虑导致的缺乏自信
 
 我们中的许多人在社交场合（如聚会、家庭聚会、面试和约会）中会缺乏自信。
@@ -149,8 +135,6 @@ If you are constantly disappointed and blaming yourself for being anything less 
 1. 避免社交情境只会使情况更糟。所以即使紧张也要去参加聚会或约会。
 1. 给自己设定一个有限的、现实的目标。这可以是与两个人谈话或了解一个人的工作和爱好。
 1. 故意关注他人以对抗强烈的自我关注。戴上观察者的帽子，注意其他人似乎在感受和做什么。
-
----
 
 # 类型3：由完美主义驱动的不安全感
 
@@ -168,7 +152,7 @@ If you are constantly disappointed and blaming yourself for being anything less 
 
 ---
 
-**原文链接: [三种最常见的不安全感及其应对方法](https://www.psychologytoday.com/gb/blog/the-mindful-self-express/201512/the-3-most-common-causes-of-insecurity-and-how-to-beat-them)**
+**原文链接: [The 3 Most Common Causes of Insecurity and How to Beat Them](https://www.psychologytoday.com/gb/blog/the-mindful-self-express/201512/the-3-most-common-causes-of-insecurity-and-how-to-beat-them)**
 
 **版权所有：Melanie Greenberg, Ph.D., 2015**
 **本翻译仅供学习用途。**
