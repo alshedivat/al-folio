@@ -1,5 +1,15 @@
 
           <div class="publications">
-            <h2>working papers</h2>
+            <h2>job market paper</h2>
             {% bibliography -f papers -q @*[selected=true]* %}
+          </div>
+
+          <div class="publications">
+            <h2>working papers</h2>
+            {% bibliography -f papers -q @*[selected=false]* %}
+          </div>
+
+          <div class="publications">
+            <h2>work in progress</h2>
+            {% bibliography -f papers -q @*[selected=false]* %}
           </div>
