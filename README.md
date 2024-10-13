@@ -134,6 +134,26 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://www.zla.app/" target="_blank">★</a>
 <a href="https://stavros.github.io" target="_blank">★</a>
 <a href="https://ericslyman.com" target="_blank">★</a>
+<a href="https://ztjona.github.io/" target="_blank">★</a>
+<a href="https://chrischoi314.github.io" target="_blank">★</a>
+<a href="https://riccobelli.faculty.polimi.it" target="_blank">★</a>
+<a href="https://kishanved.tech/" target="_blank">★</a>
+<a href="https://abhilesh.github.io/" target="_blank">★</a>
+<a href="https://jackjburnett.github.io/" target="_blank">★</a>
+<a href="https://physics-morris.github.io/" target="_blank">★</a>
+<a href="https://sraf.ir" target="_blank">★</a>
+<a href="https://acad.garywei.dev/" target="_blank">★</a>
+<a href="https://tonideleo.github.io/" target="_blank">★</a>
+<a href="https://alonkellner.com/" target="_blank">★</a>
+<a href="https://berylbir.github.io/" target="_blank">★</a>
+<a href="https://thefermi0n.github.io/" target="_blank">★</a>
+<a href="https://mingsun-kaust.github.io/" target="_blank">★</a>
+<a href="https://hdocmsu.github.io/" target="_blank">★</a>
+<a href="https://trandangtrungduc.github.io/" target="_blank">★</a>
+<a href="https://kinghowler.github.io/" target="_blank">★</a>
+<a href="https://anurye.github.io/" target="_blank">★</a>
+<a href="https://charlie-xiao.github.io/" target="_blank">★</a>
+<a href="https://giuseppeperelli.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -146,6 +166,8 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://programming-group.com/" target="_blank">★</a>
 <a href="https://sailing-lab.github.io/" target="_blank">★</a>
 <a href="https://inbt.jhu.edu/epidiagnostics/" target="_blank">★</a>
+<a href="https://www.nuesl.org/" target="_blank">★</a>
+<a href="https://big-culture.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -171,7 +193,8 @@ Score Based Methods (NeurIPS: <a href="https://score-based-methods-workshop.gith
 Images2Symbols (CogSci: <a href="https://images2symbols.github.io/" target="_blank"> 2022</a>) <br>
 Medical Robotics Junior Faculty Forum (ISMR: <a href="https://junior-forum-ismr.github.io/" target="_blank"> 2023</a>)<br>
 Beyond Vision: Physics meets AI (ICIAP: <a href="https://physicsmeetsai.github.io/beyond-vision/" target="_blank">2023</a>) <br>
-Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github.io/" target="_blank">2023</a>)
+Workshop on Diffusion Models (NeurIPS: <a href="https://diffusionworkshop.github.io/" target="_blank">2023</a>) <br>
+Workshop on Structured Probabilistic Inference & Generative Modeling (ICML: <a href="https://spigmworkshop.github.io/" target="_blank">2023</a>, <a href="https://spigmworkshop2024.github.io/" target="_blank">2024</a>)
 </td>
 </tr>
 </table>
@@ -199,7 +222,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Mobile](#mobile)
   - [Table Of Contents](#table-of-contents)
   - [Getting started](#getting-started)
-  - [Installing](#installing)
+  - [Installing and Deploying](#installing-and-deploying)
   - [Customizing](#customizing)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
@@ -227,11 +250,11 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 
 ## Getting started
 
-Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/). Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+Want to learn more about Jekyll? Check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/). Why Jekyll? Read [Andrej Karpathy's blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)! Why write a blog? Read [Rachel Thomas blog post](https://medium.com/@racheltho/why-you-yes-you-should-blog-7d2544ac1045).
 
-## Installing
+## Installing and Deploying
 
-For installation details please refer to [INSTALL.md](INSTALL.md).
+For installation and deployment details please refer to [INSTALL.md](INSTALL.md).
 
 ## Customizing
 
@@ -432,7 +455,7 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 ### All Contributors
 
 <a href="https://contrib.rocks">
-  <img src="https://contrib.rocks/image?repo=alshedivat/al-folio" />
+  <img src="https://contrib.rocks/image?repo=alshedivat/al-folio&max=500&columns=24" />
 </a>
 
 ## Star History

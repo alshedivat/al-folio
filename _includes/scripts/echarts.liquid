@@ -1,24 +1,22 @@
 {% if page.chart and page.chart.echarts %}
   <script
-    defer
-    src="https://cdn.jsdelivr.net/npm/echarts@{{ site.echarts.version }}/dist/echarts.min.js"
-    integrity="{{ site.echarts.integrity.library }}"
+    src="{{ site.third_party_libraries.echarts.url.js.library }}"
+    integrity="{{ site.third_party_libraries.echarts.integrity.js.library }}"
     crossorigin="anonymous"
   ></script>
   {% if site.enable_darkmode %}
     <script
-      defer
-      src="https://cdn.jsdelivr.net/npm/echarts@{{ site.echarts.version }}/theme/dark-fresh-cut.js"
-      integrity="{{ site.echarts.integrity.dark_theme }}"
+      src="{{ site.third_party_libraries.echarts.url.js.dark_theme }}"
+      integrity="{{ site.third_party_libraries.echarts.integrity.js.dark_theme }}"
       crossorigin="anonymous"
     ></script>
   {% endif %}
   <script>
-    let theme = determineComputedTheme();
+    let echartsTheme = determineComputedTheme();
 
     /* Create echarts chart as another node and hide the code block, appending the echarts node after it
        this is done to enable retrieving the code again when changing theme between light/dark */
-    document.onreadystatechange = () => {
+    document.addEventListener('readystatechange', () => {
       if (document.readyState === 'complete') {
         document.querySelectorAll('pre>code.language-echarts').forEach((elem) => {
           const jsonData = elem.textContent;
@@ -30,7 +28,7 @@
           backup.after(chartElement);
 
           /* create echarts */
-          if (theme === 'dark') {
+          if (echartsTheme === 'dark') {
             var chart = echarts.init(chartElement, 'dark-fresh-cut');
           } else {
             var chart = echarts.init(chartElement);
@@ -42,6 +40,6 @@
           });
         });
       }
-    };
+    });
   </script>
 {% endif %}

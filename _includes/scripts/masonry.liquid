@@ -2,14 +2,14 @@
   <!-- Masonry & imagesLoaded -->
   <script
     defer
-    src="https://cdn.jsdelivr.net/npm/masonry-layout@{{ site.masonry.version }}/dist/masonry.pkgd.min.js"
-    integrity="{{ site.masonry.integrity }}"
+    src="{{ site.third_party_libraries.masonry.url.js }}"
+    integrity="{{ site.third_party_libraries.masonry.integrity.js }}"
     crossorigin="anonymous"
   ></script>
   <script
     defer
-    src="https://cdn.jsdelivr.net/npm/imagesloaded@{{ site.imagesloaded.version }}/imagesloaded.pkgd.min.js"
-    integrity="{{ site.imagesloaded.integrity }}"
+    src="{{ site.third_party_libraries.imagesloaded.url.js }}"
+    integrity="{{ site.third_party_libraries.imagesloaded.integrity.js }}"
     crossorigin="anonymous"
   ></script>
   <script defer src="{{ '/assets/js/masonry.js' | relative_url }}" type="text/javascript"></script>
