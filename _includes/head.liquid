@@ -3,17 +3,22 @@
 
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
-<!-- <link rel="stylesheet" href="{{ '/assets/css/mdb.min.css' | relative_url | bust_file_cache }}"> -->
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/mdbootstrap@{{ site.mdb.version }}/css/mdb.min.css"
-  integrity="{{ site.mdb.integrity.css }}"
+  href="{{ site.third_party_libraries.mdb.url.css }}"
+  integrity="{{ site.third_party_libraries.mdb.integrity.css }}"
   crossorigin="anonymous"
 >
 
 <!-- Bootstrap Table -->
 {% if page.pretty_table %}
-  <link defer rel="stylesheet" href="https://unpkg.com/bootstrap-table@{{ site.bootstrap-table.version }}/dist/bootstrap-table.min.css">
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.bootstrap-table.url.css }}"
+    integrity="{{ site.third_party_libraries.bootstrap-table.integrity.css }}"
+    crossorigin="anonymous"
+  >
 {% endif %}
 
 <!-- Fonts & Icons -->
@@ -22,7 +27,7 @@
   defer
   rel="stylesheet"
   type="text/css"
-  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
+  href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
 >
 
 <!-- Code Syntax Highlighting -->
@@ -40,6 +45,18 @@
 {% endif %}
 
 <!-- Styles -->
+
+<!-- pseudocode -->
+{% if page.pseudocode %}
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.pseudocode.url.css }}"
+    integrity="{{ site.third_party_libraries.pseudocode.integrity.css }}"
+    crossorigin="anonymous"
+  >
+{% endif %}
+
 {% if site.icon.size <= 4 %}
   <link
     rel="shortcut icon"
@@ -71,9 +88,9 @@
   <link
     defer
     rel="stylesheet"
-    href="https://unpkg.com/leaflet@{{ site.leaflet.version }}/dist/leaflet.css"
-    integrity="{{ site.leaflet.integrity.css }}"
-    crossorigin=""
+    href="{{ site.third_party_libraries.leaflet.url.css }}"
+    integrity="{{ site.third_party_libraries.leaflet.integrity.css }}"
+    crossorigin="anonymous"
   >
 {% endif %}
 
@@ -82,24 +99,24 @@
   <link
     defer
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/highlight.js@{{ site.highlightjs.version }}/styles/github.min.css"
-    integrity="{{ site.highlightjs.integrity.css.light }}"
+    href="{{ site.third_party_libraries.highlightjs.url.css.light }}"
+    integrity="{{ site.third_party_libraries.highlightjs.integrity.css.light }}"
     crossorigin="anonymous"
     media="screen and (prefers-color-scheme: light)"
   >
   <link
     defer
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/highlight.js@{{ site.highlightjs.version }}/styles/github-dark.min.css"
-    integrity="{{ site.highlightjs.integrity.css.dark }}"
+    href="{{ site.third_party_libraries.highlightjs.url.css.dark }}"
+    integrity="{{ site.third_party_libraries.highlightjs.integrity.css.dark }}"
     crossorigin="anonymous"
     media="screen and (prefers-color-scheme: dark)"
   >
   <link
     defer
     rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/diff2html@{{ site.diff2html.version }}/bundles/css/diff2html.min.css"
-    integrity="{{ site.diff2html.integrity.css }}"
+    href="{{ site.third_party_libraries.diff2html.url.css }}"
+    integrity="{{ site.third_party_libraries.diff2html.integrity.css }}"
     crossorigin="anonymous"
   >
 {% endif %}
@@ -110,7 +127,9 @@
     <link
       defer
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/img-comparison-slider@{{ site.img-comparison-slider.version }}/dist/styles.min.css"
+      href="{{ site.third_party_libraries.img-comparison-slider.url.css }}"
+      integrity="{{ site.third_party_libraries.img-comparison-slider.integrity.css }}"
+      crossorigin="anonymous"
     >
   {% endif %}
   <!-- Image slider -->
@@ -118,8 +137,8 @@
     <link
       defer
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@{{ site.swiper.version }}/swiper-bundle.min.css"
-      integrity="{{ site.swiper.integrity.css }}"
+      href="{{ site.third_party_libraries.swiper.url.css }}"
+      integrity="{{ site.third_party_libraries.swiper.integrity.css }}"
       crossorigin="anonymous"
     >
   {% endif %}

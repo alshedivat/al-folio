@@ -6,8 +6,8 @@
       <!-- Medium Zoom JS -->
       <script
         defer
-        src="https://cdn.jsdelivr.net/npm/medium-zoom@{{ site.medium_zoom.version }}/dist/medium-zoom.min.js"
-        integrity="{{ site.medium_zoom.integrity }}"
+        src="{{ site.third_party_libraries.medium_zoom.url.js }}"
+        integrity="{{ site.third_party_libraries.medium_zoom.integrity.js }}"
         crossorigin="anonymous"
       ></script>
       <script defer src="{{ '/assets/js/zoom.js' | relative_url | bust_file_cache }}"></script>
@@ -121,5 +121,7 @@
     {% include scripts/bootstrap.liquid %}
     {% include scripts/analytics.liquid %}
     {% include scripts/progressBar.liquid %}
+    {% include scripts/back_to_top.liquid %}
+    {% include scripts/search.liquid %}
   </body>
 </html>

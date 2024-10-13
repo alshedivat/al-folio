@@ -81,7 +81,8 @@ body:
       description: select all environments where you have experienced this issue
       multiple: true
       options:
-        - "Running locally with Docker"
+        - "Running locally with Docker (docker compose)"
+        - "Running locally with Docker (devcontainer)"
         - "Running locally without Docker"
         - "Deployed site"
     validations:
