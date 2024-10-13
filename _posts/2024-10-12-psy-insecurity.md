@@ -170,4 +170,5 @@ If you are constantly disappointed and blaming yourself for being anything less 
 
 **原文链接: [三种最常见的不安全感及其应对方法](https://www.psychologytoday.com/gb/blog/the-mindful-self-express/201512/the-3-most-common-causes-of-insecurity-and-how-to-beat-them)**
 
-**版权所有：Melanie Greenberg, Ph.D., 2015。本翻译仅供学习用途。**
+**版权所有：Melanie Greenberg, Ph.D., 2015**
+**本翻译仅供学习用途。**
