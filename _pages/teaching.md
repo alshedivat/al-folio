@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: 
 permalink: 
 title: teaching
-description: 
+description: x
 nav: true
 nav_order: 3
 ---
