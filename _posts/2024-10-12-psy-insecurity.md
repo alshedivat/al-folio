@@ -15,7 +15,7 @@ Melanie Greenberg Ph.D. \| Posted December 6, 2015 \| Reviewed by Lybi Ma
 
 15 tools to help you bounce back when you're feeling down about yourself.
 
-# Key Points
+## Key Points
 
 - Insecurity can be based on recent failures: Research shows up to 40% of one's “happiness quotient” is based on recent life events.
 - Social anxiety from being bullied or having critical parents can lead to insecurity.
@@ -32,7 +32,7 @@ The kind of childhood you had, past traumas, recent experiences of failure or re
 
 Following are the three most common forms of insecurity—and how to begin to cope with them.
 
-# Type 1: Insecurity Based on Recent Failure or Rejection
+## Type 1: Insecurity Based on Recent Failure or Rejection
 
 Recent events can greatly affect both our mood and the way we feel about ourselves.
 Research on happiness suggests up to 40% of our “happiness quotient” is based on recent life events.
@@ -48,7 +48,7 @@ Since unhappiness also influences your self-esteem, failure and rejection can de
 1. Persevere and keep moving towards your goals.
 1. Be willing to try a different strategy if necessary.
 
-# Type 2: Lack of Confidence Because of Social Anxiety
+## Type 2: Lack of Confidence Because of Social Anxiety
 
 Many of us experience a lack of confidence in social situations like parties, family gatherings, interviews, and dates.
 The fear of being evaluated by others—and found to be lacking—can lead to feeling anxious and self-conscious.
@@ -62,7 +62,7 @@ This type of insecurity is generally based on distorted beliefs about your self-
 1. Set yourself a limited, realistic goal. This could be anything from talking to two new people or finding out more about one person’s work and hobbies.
 1. Deliberately focus on others to combat intense self-focus. Put on your observer hat and notice what other people seem to be feeling and doing.
 
-# Type 3: Insecurity Driven by Perfectionism
+## Type 3: Insecurity Driven by Perfectionism
 
 Some of us have very high standards for everything we do.
 Life doesn’t always turn out exactly the way we want, even if we work extra hard.
@@ -84,13 +84,13 @@ If you are constantly disappointed and blaming yourself for being anything less 
 
 <hr style="border: 2px solid;">
 
-**三种最常见的不安全感及其应对方法**
+# 三种最常见的不安全感及其应对方法
 
 帮助你在自我怀疑时恢复信心的15种工具。
 
 Melanie Greenberg Ph.D. \| 2015年12月6日 \| 审阅：Lybi Ma
 
-# 重点
+## 重点
 
 - 不安全感可能源于最近的失败：研究显示，40%的“幸福指数”基于最近的生活事件。
 - 由于被欺负或有批评性父母而产生的社交焦虑可能导致不安全感。
@@ -106,7 +106,7 @@ Melanie Greenberg Ph.D. \| 2015年12月6日 \| 审阅：Lybi Ma
 
 以下是三种最常见的不安全感形式以及如何开始应对它们的方法。
 
-# 类型1：基于最近失败或拒绝的不安全感
+## 类型1：基于最近失败或拒绝的不安全感
 
 最近的事件可以极大地影响我们的情绪和自我感觉。
 关于幸福的研究表明，40%的“幸福指数”基于最近的生活事件。
@@ -122,7 +122,7 @@ Melanie Greenberg Ph.D. \| 2015年12月6日 \| 审阅：Lybi Ma
 1. 坚持下去，继续朝着你的目标前进。
 1. 如果需要，愿意尝试不同的策略。
 
-# 类型2：由于社交焦虑导致的缺乏自信
+## 类型2：由于社交焦虑导致的缺乏自信
 
 我们中的许多人在社交场合（如聚会、家庭聚会、面试和约会）中会缺乏自信。
 害怕被他人评估并被发现不足会让你感到焦虑和难为情。
@@ -136,7 +136,7 @@ Melanie Greenberg Ph.D. \| 2015年12月6日 \| 审阅：Lybi Ma
 1. 给自己设定一个有限的、现实的目标。这可以是与两个人谈话或了解一个人的工作和爱好。
 1. 故意关注他人以对抗强烈的自我关注。戴上观察者的帽子，注意其他人似乎在感受和做什么。
 
-# 类型3：由完美主义驱动的不安全感
+## 类型3：由完美主义驱动的不安全感
 
 我们中有些人对自己所做的一切都有很高的标准。
 即使我们加倍努力，生活也不总是按我们的意愿进行。

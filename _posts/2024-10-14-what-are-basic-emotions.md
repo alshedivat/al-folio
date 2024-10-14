@@ -13,7 +13,7 @@ toc:
 
 Neel Burton M.A., M.D. \| Posted June 24, 2024 \| Reviewed by Lybi Ma
 
-# Key Points
+## Key Points
 
 - Basic emotions are innate and automatic, and trigger behaviour with a high survival value.
 - They evolved in response to the ecological challenges faced by our remote ancestors.
@@ -68,7 +68,9 @@ In Madame Bovary, itself a novel, Gustave Flaubert tells us that Emma Bovary onl
 
 Neel Burton M.A., M.D. \| 2024年6月24日 \| 审阅：Lybi Ma
 
-# 重点
+# 什么是基本情绪？
+
+## 重点
 
 - 基本情绪是天生且自动的，它们会引发具有高度生存价值的行为。
 - 它们是在远古祖先面临的生态挑战中进化而来的。

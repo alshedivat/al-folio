@@ -76,19 +76,19 @@ However, if you're very insecure you may refuse to let anybody see those parts o
 "You may have learned growing up that your love and worthiness depend on presenting a perfect, have-it-all-together, and extremely competent image of yourself," says Chain.
 This can lead you to have a hard time being vulnerable and letting people see you make mistakes, feel helpless, or cry.
 
-# What to Do About Insecurity
+## What to Do About Insecurity
 
 Squashing your insecurities and becoming more secure with who you are and your abilities won't be easy, but with hard work over time it's possible.
 Here are five tips to become more secure and gain confidence.
 
-## 1. Seek Therapy
+### 1. Seek Therapy
 
 One of the best things you can do for yourself is to talk to a licensed mental health professional who can help you gain insight into issues that cause your insecurity.
 "Through therapy, individuals can build skills to foster a stronger sense of self, improve relationships, and develop coping skills to manage symptoms," says Glickman.
 Many different types of therapy can address insecurity and help you learn new skills, but dialectical behavior therapy (DBT) in particular is a type that Glickman recommends.
 "DBT is a wonderful approach that provides specific skills that focus on asking for what you want, saying no, and negotiating conflict without damaging the relationship," says Glickman.
 
-## 2. Practice self-compassion
+### 2. Practice self-compassion
 
 If you're insecure, chances are you're mentally beating yourself up often.
 Glickman suggests taking time to reflect and notice what you tend to judge and criticize about yourself.
@@ -97,7 +97,7 @@ For example, is it your appearance, career, or relationships?
 The next time you notice you're being overly self-critical, try switching up and speaking to yourself in a genuine, loving way, the same way you would to a close friend or family member.
 Remember to have compassion for yourself, as it's been shown to help improve insecurity within relationships as well as overall mental health.
 
-## 3. Challenge your thoughts
+### 3. Challenge your thoughts
 
 A common component of therapy is learning to understand the connection between thoughts, feelings, and behaviors.
 Glickman says you can work to challenge the negative, irrational beliefs leading to your insecurity.
@@ -105,7 +105,7 @@ Glickman says you can work to challenge the negative, irrational beliefs leading
 "Question, challenge, and don't believe everything you think. This allows you to cognitively restructure unhealthy thinking patterns," says Glickman.
 Over time, you will learn to quickly identify unhealthy thoughts and move forward in a healthier way.
 
-## 4. Be your own loving parent
+### 4. Be your own loving parent
 
 If your insecurity stems from your upbringing, it can help to do some inner-child work.
 "Imagine you have a small child inside of you. How would you speak to and treat your little self with kindness and tenderness? Close your eyes and imagine telling that little child that they are safe with you. You will protect them and care for them, and you love them," says Chain.
@@ -113,13 +113,13 @@ This draws from attachment theory, which is the idea that we learned our relatio
 Chain says this tip can be especially helpful if you had an unsafe or unpredictable relationship with your caretakers.
 This is also an aspect of different types of therapy such as psychoanalysis, psychodynamic therapy, internal family systems, and emotionally focused therapy, says Chain.
 
-## 5. Aim for progress over perfection
+### 5. Aim for progress over perfection
 
 Strive for realistic, attainable goals, keeping in mind that true perfection does not exist.
 "Focus on progress, which allows for more recognition of accomplishments and ultimately improves productivity and motivation," says Glickman.
 Celebrate wins, no matter how small, along the way.
 
-## Insider's takeaway
+### Insider's takeaway
 
 Insecurity can show up in a lot of ways, ranging from feeling inadequate to fearing rejection to self sabotaging.
 Regardless of the cause of your insecurity, putting in work through therapy and other strategies can help you become more secure.
@@ -132,7 +132,7 @@ Regardless of the cause of your insecurity, putting in work through therapy and 
 
 <hr style="border: 2px solid;">
 
-**不安全感悄然影响你生活的8个迹象，以及增强自信的5种方法**
+# 不安全感悄然影响你生活的8个迹象，以及增强自信的5种方法
 
 Ashley Laderer, John Mutziger \| 2022年3月29日
 
@@ -198,19 +198,19 @@ Chain举了一些例子：
 “你可能在成长过程中学到，爱与价值取决于你展现出的完美形象，即一切都在掌控之中且非常有能力，”Chain说道。
 这可能会让你很难表现出脆弱的一面，或者让别人看到你犯错、感到无助或哭泣的样子。
 
-# 如何应对不安全感
+## 如何应对不安全感
 
 消除不安全感并变得更加自信并不容易，但通过长期努力这是可以实现的。
 以下是五个帮助你变得更有安全感并增强自信的建议。
 
-## 1. 寻求治疗
+### 1. 寻求治疗
 
 你可以为自己做的最好的一件事就是与持有执照的心理健康专家交谈，他们可以帮助你深入了解导致不安全感的问题。
 “通过治疗，个体可以培养技能，建立更强的自我意识，改善人际关系，并学会应对症状的技能，”Glickman说道。
 许多不同类型的治疗可以应对不安全感并帮助你学习新技能，Glickman特别推荐的是辩证行为治疗（DBT）。
 “DBT是一种非常好的方法，它提供了具体的技巧，专注于如何提出需求、说‘不’以及在不破坏关系的情况下解决冲突，”Glickman说道。
 
-## 2. 练习自我关怀
+### 2. 练习自我关怀
 
 如果你不安全，可能你经常在心里责备自己。
 Glickman建议花时间反思并注意你倾向于批评自己的方面。
@@ -219,7 +219,7 @@ Glickman建议花时间反思并注意你倾向于批评自己的方面。
 下一次你发现自己过度自我批评时，试着转换思路，用真诚、充满爱的方式与自己对话，就像你对待亲密的朋友或家人一样。
 记住对自己要有同情心，因为研究表明，这有助于改善关系中的不安全感，以及整体心理健康。
 
-## 3. 挑战你的想法
+### 3. 挑战你的想法
 
 治疗的一个常见组成部分是学习理解思想、情感和行为之间的联系。
 Glickman表示，你可以努力挑战导致不安全感的消极、非理性信念。
@@ -227,7 +227,7 @@ Glickman表示，你可以努力挑战导致不安全感的消极、非理性信
 “质疑、挑战，不要相信你想的每一件事。这可以帮助你在认知上重建不健康的思维模式，”Glickman说。
 随着时间的推移，你会学会快速识别不健康的想法，并以更健康的方式前进。
 
-## 4. 成为你自己的爱心父母
+### 4. 成为你自己的爱心父母
 
 如果你的不安全感源自童年经历，做一些内在小孩的工作会有帮助。
 “想象你内心有一个小孩。你会如何用善意和温柔对待这个小孩？闭上眼睛，想象告诉那个小孩，他们和你在一起是安全的。你会保护他们，照顾他们，并且你爱他们，”Chain说。
@@ -235,7 +235,7 @@ Glickman表示，你可以努力挑战导致不安全感的消极、非理性信
 Chain表示，如果你在童年时期与照顾者的关系不安全或不可预测，这一方法会尤其有帮助。
 这也是许多不同治疗方法的组成部分，如精神分析、心理动力治疗、内在家庭系统治疗和情感聚焦治疗，Chain指出。
 
-## 5. 追求进步，而非完美
+### 5. 追求进步，而非完美
 
 努力追求现实的、可达到的目标，牢记真正的完美并不存在。
 “专注于进步，这能让你更容易意识到自己的成就，并最终提高生产力和动力，”Glickman说道。
