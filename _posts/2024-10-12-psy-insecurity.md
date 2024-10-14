@@ -11,9 +11,9 @@ toc:
   sidebar: false
 ---
 
-15 tools to help you bounce back when you're feeling down about yourself.
+Melanie Greenberg Ph.D. \| Posted December 6, 2015 \| Reviewed by Lybi Ma
 
-Posted December 6, 2015 \| Reviewed by Lybi Ma
+15 tools to help you bounce back when you're feeling down about yourself.
 
 # Key Points
 

@@ -11,8 +11,7 @@ toc:
   sidebar: false
 ---
 
-_Ashley Laderer, John Mutziger_  
-_29 March 2022_
+Ashley Laderer, John Mutziger \| 29 March 2022
 
 - Insecurity is the feeling that you are inadequate or not good enough.
 - You might be insecure if you are self-critical, a perfectionist, or someone who self-sabotages.
