@@ -11,7 +11,7 @@ toc:
   sidebar: false
 ---
 
-Berit Brogaard D.M.Sci., Ph.D \| Posted June 30, 2018 |  Reviewed by Jessica Schrader
+Berit Brogaard D.M.Sci., Ph.D \| Posted June 30, 2018 | Reviewed by Jessica Schrader
 
 ---
 
@@ -39,6 +39,7 @@ You might feel genuinely sad, yet put on a big smile before entering your workpl
 Even when our emotional expressions reflect our inner mental life, they need not be universally recognizable.
 This is because the basic emotions can trigger many other expressions besides the unique facial expressions, physiological responses, and tendencies to act.
 Examples:
+
 1. Intense sadness might give rise to a facial expression nearly indistinguishable from anger or rage.
 1. Mild sadness may not look like anything at all.
 1. When several emotions are simultaneously present, one of the emotions may dominate and show up on your face.
@@ -91,6 +92,7 @@ Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 | 审阅：Jessica Schrader
 即使我们的情绪表达反映了内心的精神生活，它们也未必是普遍可识别的。
 这是因为基本情绪除了独特的面部表情、生理反应和行为倾向之外，还会引发许多其他的表现。
 例子如下：
+
 1. 强烈的悲伤可能导致的面部表情几乎无法与愤怒或暴怒区分开来。
 1. 轻微的悲伤可能根本没有任何外在表现。
 1. 当几种情绪同时存在时，其中一种情绪可能会占据主导地位，并在你的脸上表现出来。
