@@ -36,7 +36,8 @@ Jinning has tried to reach out to the campus leaders for further clarification.
 ## Nov 5, UTK leaders met with university members
 
 <img src="/assets/img/poster/meeting.jpg" alt="meeting" title="Campus Leaders' Meeting" style="width: 550px; height: auto;">
-Contact Jinning Wang at jwang175@vols.utk.edu if any copyright concerns.
+
+Contact Jinning Wang at jwang175@vols.utk.edu if any copyright or privacy concerns.
 
 On **November 5**, [Chancellor Donde Plowman][Donde Plowman] and her [Cabinet][Cabinet] met with the invited university members to discuss the Tik Tok ban.
 
