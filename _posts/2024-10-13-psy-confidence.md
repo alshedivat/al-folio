@@ -3,7 +3,7 @@ layout: post
 title: 8 Sneaky Signs That Insecurity is Affecting Your Life and 5 Ways to Gain More Confidence
 date: 2024-10-13 10:00:00
 description:
-tags: [repost, phycology, CHN Available]
+tags: [repost, phycology, insecurity, CHN Available]
 categories: blog
 thumbnail:
 featured: false

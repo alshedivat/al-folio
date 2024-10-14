@@ -3,7 +3,7 @@ layout: post
 title: The 3 Most Common Causes of Insecurity and How to Beat Them
 date: 2024-10-12 10:00:00
 description:
-tags: [repost, phycology, CHN Available]
+tags: [repost, phycology, insecurity, CHN Available]
 categories: blog
 thumbnail:
 featured: false
