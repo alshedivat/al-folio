@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Yann Ilboudo
     - name: Date of Birth
       value: 14th March 1879
     - name: Languages
-      value: English, German
+      value: English, Italian
 
 - title: Education
   type: time_table
