@@ -10,6 +10,7 @@ featured: false
 toc:
   sidebar: false
 ---
+
 Berit Brogaard D.M.Sci., Ph.D \| Posted June 30, 2018 \| Reviewed by Jessica Schrader
 
 It is commonplace in philosophy and psychology to divide emotions into two groups: basic and complex emotions.
@@ -57,7 +58,7 @@ Grief can also involve alterations in mood, including feelings of depression, de
 
 It’s likely because complex emotions can be a blend of different mental states in different people, situations and cultures that they do not give rise to a facial expression that is universally recognized.
 
-**Original Post: [Basic and Complex Emotions](https://www.psychologytoday.com/us/blog/the-superhuman-mind/201807/basic-and-complex-emotions)**
+**Original Post: [Basic and Complex Emotions][link]**
 
 **Copyright belongs to the original author.**
 
@@ -112,6 +113,8 @@ Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 \| 审阅：Jessica Schrader
 
 复杂情绪可能因为在人、情境和文化中的不同精神状态混合而成，所以它们不会引发普遍可识别的面部表情。
 
-**原文链接: [Basic and Complex Emotions](https://www.psychologytoday.com/us/blog/the-superhuman-mind/201807/basic-and-complex-emotions)**
+**原文链接: [Basic and Complex Emotions][link]**
 
 **版权属于原作者，本翻译仅供学习用途。**
+
+[link]: https://www.psychologytoday.com/us/blog/the-superhuman-mind/201807/basic-and-complex-emotions
