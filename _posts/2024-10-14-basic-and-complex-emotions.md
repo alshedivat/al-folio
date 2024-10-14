@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Basic and Complex Emotions
-date: 2024-10-14 0:20:00
+date: 2024-10-14 0:30:00
 description: Cultural variation and evolutionary advantages.
 tags: [repost, phycology, emotions, CHN Available]
 categories: blog
@@ -31,9 +31,9 @@ This is because the basic emotions can trigger many other expressions besides th
 Examples:
 
 1. Intense sadness might give rise to a facial expression nearly indistinguishable from anger or rage.
-1. Mild sadness may not look like anything at all.
-1. When several emotions are simultaneously present, one of the emotions may dominate and show up on your face.
-1. When emotions last for a long time, they pop in and out of your conscious awareness. When you are not aware of them, It is much harder to detect them.
+2. Mild sadness may not look like anything at all.
+3. When several emotions are simultaneously present, one of the emotions may dominate and show up on your face.
+4. When emotions last for a long time, they pop in and out of your conscious awareness. When you are not aware of them, It is much harder to detect them.
 
 Basic emotions likely have made significant contributions to our survival since the beginning of human history.
 When understood in this sense, “basic”—as it occurs in "basic emotion"—just means primordial (evolutionarily basic).
@@ -58,9 +58,9 @@ Grief can also involve alterations in mood, including feelings of depression, de
 
 It’s likely because complex emotions can be a blend of different mental states in different people, situations and cultures that they do not give rise to a facial expression that is universally recognized.
 
-**Original Post: [Basic and Complex Emotions](https://www.psychologytoday.com/us/blog/the-superhuman-mind/201807/basic-and-complex-emotions)**
+**Original Post: [Basic and Complex Emotions][link]**
 
-**Copyright: Berit Brogaard D.M.Sci., Ph.D**
+**_Copyright belongs to the original author._**
 
 <hr style="border: 2px solid;">
 
@@ -86,9 +86,9 @@ Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 \| 审阅：Jessica Schrader
 例子如下：
 
 1. 强烈的悲伤可能导致的面部表情几乎无法与愤怒或暴怒区分开来。
-1. 轻微的悲伤可能根本没有任何外在表现。
-1. 当几种情绪同时存在时，其中一种情绪可能会占据主导地位，并在你的脸上表现出来。
-1. 当情绪持续较长时间时，它们会在你的意识中进进出出。当你没有意识到它们时，情绪变得更难被察觉。
+2. 轻微的悲伤可能根本没有任何外在表现。
+3. 当几种情绪同时存在时，其中一种情绪可能会占据主导地位，并在你的脸上表现出来。
+4. 当情绪持续较长时间时，它们会在你的意识中进进出出。当你没有意识到它们时，情绪变得更难被察觉。
 
 基本情绪很可能自人类历史开端以来对我们的生存做出了重要贡献。
 在这个意义上，“基本”（在“基本情绪”中的意思）只是指原始的（进化意义上的基本）。
@@ -113,8 +113,8 @@ Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 \| 审阅：Jessica Schrader
 
 复杂情绪可能因为在人、情境和文化中的不同精神状态混合而成，所以它们不会引发普遍可识别的面部表情。
 
-**原文链接: [Basic and Complex Emotions](https://www.psychologytoday.com/us/blog/the-superhuman-mind/201807/basic-and-complex-emotions)**
+**原文链接: [Basic and Complex Emotions][link]**
 
-**版权所有：Berit Brogaard D.M.Sci., Ph.D**
+**_版权属于原作者，本翻译仅供学习用途。_**
 
-**本翻译仅供学习用途。**
+[link]: https://www.psychologytoday.com/us/blog/the-superhuman-mind/201807/basic-and-complex-emotions
