@@ -2,7 +2,7 @@
 layout: post
 title: Progress of Chinese App Ban at the University of Tennessee
 date: 2023-05-12 10:00:00
-description: The bbeservation of an international student on the state legislation, university policy, and the affected community at the University of Tennesse.
+description: The obeservation of an international student on the state legislation, university policy, and the affected community at the University of Tennesse.
 tags: [TikTok, Law, UTK, CHN Available]
 categories: blog
 thumbnail:
