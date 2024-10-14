@@ -86,8 +86,6 @@ If you are constantly disappointed and blaming yourself for being anything less 
 
 Melanie Greenberg Ph.D. \| 2015年12月6日 \| 审阅：Lybi Ma
 
-帮助你在自我怀疑时恢复信心的15种工具。
-
 ## 重点
 
 - 不安全感可能源于最近的失败：研究显示，40%的“幸福指数”基于最近的生活事件。

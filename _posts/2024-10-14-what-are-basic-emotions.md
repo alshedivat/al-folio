@@ -2,7 +2,7 @@
 layout: post
 title: What Are Basic Emotions?
 date: 2024-10-14 0:20:00
-description:
+description: Emotions such as fear and anger are hardwired.
 tags: [repost, phycology, emotions, CHN Available]
 categories: blog
 thumbnail:
@@ -12,8 +12,6 @@ toc:
 ---
 
 Neel Burton M.A., M.D. \| Posted June 24, 2024 \| Reviewed by Lybi Ma
-
-Emotions such as fear and anger are hardwired.
 
 ## Key Points
 
@@ -71,8 +69,6 @@ In Madame Bovary, itself a novel, Gustave Flaubert tells us that Emma Bovary onl
 # 什么是基本情绪？
 
 Neel Burton M.A., M.D. \| 2024年6月24日 \| 审阅：Lybi Ma
-
-恐惧和愤怒等情绪是天生固有的。
 
 ## 重点
 
