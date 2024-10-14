@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Basic and Complex Emotions
-date: 2024-10-14 0:20:00
+date: 2024-10-14 0:30:00
 description: Cultural variation and evolutionary advantages.
 tags: [repost, phycology, emotions, CHN Available]
 categories: blog
@@ -10,7 +10,6 @@ featured: false
 toc:
   sidebar: false
 ---
-
 Berit Brogaard D.M.Sci., Ph.D \| Posted June 30, 2018 \| Reviewed by Jessica Schrader
 
 It is commonplace in philosophy and psychology to divide emotions into two groups: basic and complex emotions.
@@ -31,9 +30,9 @@ This is because the basic emotions can trigger many other expressions besides th
 Examples:
 
 1. Intense sadness might give rise to a facial expression nearly indistinguishable from anger or rage.
-1. Mild sadness may not look like anything at all.
-1. When several emotions are simultaneously present, one of the emotions may dominate and show up on your face.
-1. When emotions last for a long time, they pop in and out of your conscious awareness. When you are not aware of them, It is much harder to detect them.
+2. Mild sadness may not look like anything at all.
+3. When several emotions are simultaneously present, one of the emotions may dominate and show up on your face.
+4. When emotions last for a long time, they pop in and out of your conscious awareness. When you are not aware of them, It is much harder to detect them.
 
 Basic emotions likely have made significant contributions to our survival since the beginning of human history.
 When understood in this sense, “basic”—as it occurs in "basic emotion"—just means primordial (evolutionarily basic).
@@ -86,9 +85,9 @@ Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 \| 审阅：Jessica Schrader
 例子如下：
 
 1. 强烈的悲伤可能导致的面部表情几乎无法与愤怒或暴怒区分开来。
-1. 轻微的悲伤可能根本没有任何外在表现。
-1. 当几种情绪同时存在时，其中一种情绪可能会占据主导地位，并在你的脸上表现出来。
-1. 当情绪持续较长时间时，它们会在你的意识中进进出出。当你没有意识到它们时，情绪变得更难被察觉。
+2. 轻微的悲伤可能根本没有任何外在表现。
+3. 当几种情绪同时存在时，其中一种情绪可能会占据主导地位，并在你的脸上表现出来。
+4. 当情绪持续较长时间时，它们会在你的意识中进进出出。当你没有意识到它们时，情绪变得更难被察觉。
 
 基本情绪很可能自人类历史开端以来对我们的生存做出了重要贡献。
 在这个意义上，“基本”（在“基本情绪”中的意思）只是指原始的（进化意义上的基本）。
