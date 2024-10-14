@@ -8,6 +8,6 @@ redirect: https://www.linkedin.com/in/adeeb-hossain/
 linkedin_username: adeeb-hossain
 github_username: AdeebHossain
 email: adeebhossain2004@gmail.com
-category: Undergraduates
+category: Alumni
 show: true
 ---
