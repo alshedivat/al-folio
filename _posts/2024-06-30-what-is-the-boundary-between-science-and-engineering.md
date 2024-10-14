@@ -7,6 +7,7 @@ tags: [culture, opinion]
 categories: blog
 thumbnail:
 featured: false
+giscus_comments: true
 toc:
   sidebar: false
 ---
