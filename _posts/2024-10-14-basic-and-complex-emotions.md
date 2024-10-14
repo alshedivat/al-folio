@@ -60,7 +60,7 @@ It’s likely because complex emotions can be a blend of different mental states
 
 **Original Post: [Basic and Complex Emotions][link]**
 
-***Copyright belongs to the original author.***
+**_Copyright belongs to the original author._**
 
 <hr style="border: 2px solid;">
 
@@ -115,6 +115,6 @@ Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 \| 审阅：Jessica Schrader
 
 **原文链接: [Basic and Complex Emotions][link]**
 
-***版权属于原作者，本翻译仅供学习用途。***
+**_版权属于原作者，本翻译仅供学习用途。_**
 
 [link]: https://www.psychologytoday.com/us/blog/the-superhuman-mind/201807/basic-and-complex-emotions

@@ -128,7 +128,7 @@ Regardless of the cause of your insecurity, putting in work through therapy and 
 
 **Original Post: [8 Sneaky Signs That Insecurity is Affecting Your Life and 5 Ways to Gain More Confidence][link]**
 
-***Copyright belongs to the original author.***
+**_Copyright belongs to the original author._**
 
 <hr style="border: 2px solid;">
 
@@ -250,6 +250,6 @@ Chain表示，如果你在童年时期与照顾者的关系不安全或不可预
 
 **原文链接: [8 Sneaky Signs That Insecurity is Affecting Your Life and 5 Ways to Gain More Confidence][link]**
 
-***版权属于原作者，本翻译仅供学习用途。***
+**_版权属于原作者，本翻译仅供学习用途。_**
 
 [link]: (https://www.businessinsider.nl/8-sneaky-signs-that-insecurity-is-affecting-your-life-and-5-ways-to-gain-more-confidence/)
