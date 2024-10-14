@@ -13,16 +13,6 @@ toc:
 
 Berit Brogaard D.M.Sci., Ph.D \| Posted June 30, 2018 | Reviewed by Jessica Schrader
 
----
-
-**Original Post: [Basic and Complex Emotions](https://www.psychologytoday.com/us/blog/the-superhuman-mind/201807/basic-and-complex-emotions)**
-
-**Copyright: Berit Brogaard D.M.Sci., Ph.D**
-
-<hr style="border: 2px solid;">
-
-Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 \| 审阅：Jessica Schrader
-
 It is commonplace in philosophy and psychology to divide emotions into two groups: basic and complex emotions.
 
 Complex emotions, such as grief, regret, and jealousy, have highly variable appearances and compositions.
@@ -68,7 +58,13 @@ Grief can also involve alterations in mood, including feelings of depression, de
 
 It’s likely because complex emotions can be a blend of different mental states in different people, situations and cultures that they do not give rise to a facial expression that is universally recognized.
 
----
+**Original Post: [Basic and Complex Emotions](https://www.psychologytoday.com/us/blog/the-superhuman-mind/201807/basic-and-complex-emotions)**
+
+**Copyright: Berit Brogaard D.M.Sci., Ph.D**
+
+<hr style="border: 2px solid;">
+
+Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 \| 审阅：Jessica Schrader
 
 # 基本情绪和复杂情绪
 
