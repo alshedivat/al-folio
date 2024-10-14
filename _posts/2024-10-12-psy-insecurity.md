@@ -88,7 +88,7 @@ If you are constantly disappointed and blaming yourself for being anything less 
 
 帮助你在自我怀疑时恢复信心的15种工具。
 
-发表于2015年12月6日 | 由Lybi Ma审阅
+Melanie Greenberg Ph.D. \| 2015年12月6日 \| 审阅：Lybi Ma
 
 # 重点
 

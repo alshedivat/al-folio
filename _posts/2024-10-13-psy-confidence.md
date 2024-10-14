@@ -134,9 +134,7 @@ Regardless of the cause of your insecurity, putting in work through therapy and 
 
 **不安全感悄然影响你生活的8个迹象，以及增强自信的5种方法**
 
-Ashley Laderer, John Mutziger
-
-2022年3月29日
+Ashley Laderer, John Mutziger \| 2022年3月29日
 
 - 不安全感是指你感到自己不够好或不合格的一种感觉。
 - 如果你对自己过于苛刻，是个完美主义者，或者有自我破坏的倾向，你可能就有不安全感。
