@@ -11,7 +11,7 @@ toc:
   sidebar: false
 ---
 
-Berit Brogaard D.M.Sci., Ph.D \| Posted June 30, 2018 | Reviewed by Jessica Schrader
+Berit Brogaard D.M.Sci., Ph.D \| Posted June 30, 2018 \| Reviewed by Jessica Schrader
 
 It is commonplace in philosophy and psychology to divide emotions into two groups: basic and complex emotions.
 
@@ -64,13 +64,9 @@ It’s likely because complex emotions can be a blend of different mental states
 
 <hr style="border: 2px solid;">
 
-Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 \| 审阅：Jessica Schrader
-
 # 基本情绪和复杂情绪
 
-Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 | 审阅：Jessica Schrader
-
-文化差异与进化优势
+Berit Brogaard D.M.Sci., Ph.D \| 2018年6月30日 \| 审阅：Jessica Schrader
 
 在哲学和心理学中，情绪通常被分为两类：基本情绪和复杂情绪。
 
