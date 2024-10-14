@@ -78,7 +78,7 @@ If you are constantly disappointed and blaming yourself for being anything less 
 
 **Original Post: [The 3 Most Common Causes of Insecurity and How to Beat Them][link]**
 
-**Copyright belongs to the original author.**
+***Copyright belongs to the original author.***
 
 <hr style="border: 2px solid;">
 
@@ -150,6 +150,6 @@ Melanie Greenberg Ph.D. \| 2015年12月6日 \| 审阅：Lybi Ma
 
 **原文链接: [The 3 Most Common Causes of Insecurity and How to Beat Them][link]**
 
-**版权属于原作者，本翻译仅供学习用途。**
+***版权属于原作者，本翻译仅供学习用途。***
 
 [link]: https://www.psychologytoday.com/gb/blog/the-mindful-self-express/201512/the-3-most-common-causes-of-insecurity-and-how-to-beat-them
