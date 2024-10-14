@@ -90,6 +90,8 @@ Try these steps to take your life back, and see how much better you feel.
 
 # 应对工作倦怠的四个方法
 
+Susan Biali Haas M.D. \| 2019年7月19日 \| 审阅：Gary Drevitch
+
 几年前，当我还是急诊医学住院医生时，我第一次经历了严重的倦怠（伴随着抑郁症）。
 我再也不想跌入如此深的谷底，于是决定学习所有与韧性和心理健康相关的知识。
 
