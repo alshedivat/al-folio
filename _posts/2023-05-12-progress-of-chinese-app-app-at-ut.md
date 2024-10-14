@@ -2,7 +2,7 @@
 layout: post
 title: Progress of Chinese App Ban at the University of Tennessee
 date: 2023-05-12 10:00:00
-description:
+description: The bbeservation of an international student on the state legislation, university policy, and the affected community at the University of Tennesse.
 tags: [TikTok, Law, UTK, CHN Available]
 categories: blog
 thumbnail:
@@ -13,9 +13,7 @@ toc:
 
 <img src="/assets/img/poster/appban.png" alt="AppBan" style="width: 550px; height: auto;">
 
-The Obeservation of an International Student on Progress of Chinese App Ban: State Legislation, University Policy, and the Affected Community at the University of Tennesse (UT).
-
-Published on May 12, 2023, and last updated on February 7, 2024.
+Published on May 12, 2023, and last updated on October 14, 2024.
 
 Quick Links:
 [SB0843][SB0843] | [Amendment1][Amendment1] | [TikTok Law][TikTok Law]
@@ -58,7 +56,7 @@ The campus leaders agreed to comply with both requests.
 
 ## Sep 6, CFAAPI met with the UTK leaders
 
-On **September 5**, [CFAAPI][CFAAPI] leaders were invited to meet with the [Chancellor Donde Plowman][Donde Plowman] and her leadership team. In this context, CFAAPI forwarded Jinning Wang's feedback to the campus leadership team.
+On **September 5**, leaders of Commission for Asian Americans and Pacific Islanders (CFAAPI) were invited to meet with the [Chancellor Donde Plowman][Donde Plowman] and her leadership team. In this context, CFAAPI forwarded Jinning Wang's feedback to the campus leadership team.
 
 Jinning Wang's letter is excerpted below, and he strongly advocates for the third mitigation measure, as he believes it will benefit the entire Volunteers:
 
@@ -259,7 +257,7 @@ On **January 30**, [SB0843][SB0843] by Senator [Jon Lundberg][Jon Lundberg] was 
 
 ## 9月5日，CFAAPI与校长及其领导团队的会议
 
-**9月5日**，[CFAAPI][CFAAPI] 领导受邀与校长 [Donde Plowman][Donde Plowman] 及校领导团队会面。在此背景下，CFAAPI将王晋宁的反馈意见转交给了校领导团队。
+**9月5日**，CFAAPI领导受邀与校长[Donde Plowman][Donde Plowman] 及校领导团队会面。在此背景下，CFAAPI将王晋宁的反馈意见转交给了校领导团队。
 
 王晋宁的信函如下节选，并且他坚持第三项弥补措施，因为他认为这将使全体志愿者受益：
 
@@ -477,7 +475,6 @@ SB0843于1月30日提交，旨在禁止向学生、教职员工或公众提供�
 [Donde Plowman]: https://chancellor.utk.edu/about-the-chancellor/
 [Ramon Padilla]: https://president.tennessee.edu/biography/ramon-padilla/
 [Cabinet]: https://chancellor.utk.edu/university-leadership/cabinet/
-[CFAAPI]: https://diversity.utk.edu/cfaapi/
 [CGE]: https://cge.utk.edu/
 [SB0843]: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0834
 [Amendment1]: https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SB0834
