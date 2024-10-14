@@ -6,6 +6,6 @@ description: Program for Undergraduate Research Experience (PURE) Undergraduate 
 img: assets/img/people/Alireza_vafisani.jpg
 linkedin_username: alireza-vafisani
 github_username: alirezavafisani
-category: Undergraduates
+category: Alumni
 show: true
 ---

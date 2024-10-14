@@ -6,7 +6,8 @@ description: Lab Members
 nav: true
 nav-order: 1
 # display_categories: [Lab Director, Postdoctoral Fellows, PhD Students, MSc Students, Research Associates, Undergraduates, Collaborators, Alumni]
-display_categories: [Lab Director, PhD Students, MSc Students, Research Assistants, Undergraduates, High School, Alumni]
+# display_categories: [Lab Director, PhD Students, MSc Students, Research Assistants, Undergraduates, High School, Alumni]
+display_categories: [Lab Director, PhD Students, MSc Students, Alumni]
 horizontal: false
 ---
 

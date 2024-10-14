@@ -8,6 +8,6 @@ img: assets/img/people/cem_uyuk.jpg
 redirect: https://github.com/cemuyuk
 linkedin_username: cem-uyuk
 github_username: cemuyuk
-category: MSc Students
+category: Alumni
 show: true
 ---
