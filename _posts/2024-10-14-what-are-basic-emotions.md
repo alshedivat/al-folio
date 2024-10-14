@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What Are Basic Emotions?
-date: 2024-10-14 7:00:00
+date: 2024-10-14 0:20:00
 description:
 tags: [repost, phycology, emotions, CHN Available]
 categories: blog
@@ -10,7 +10,6 @@ featured: false
 toc:
   sidebar: false
 ---
-
 Neel Burton M.A., M.D. \| Posted June 24, 2024 \| Reviewed by Lybi Ma
 
 # Key Points
@@ -65,8 +64,6 @@ In Madame Bovary, itself a novel, Gustave Flaubert tells us that Emma Bovary onl
 **Copyright: Neel Burton M.A., M.D.**
 
 <hr style="border: 2px solid;">
-
-**不安全感悄然影响你生活的8个迹象，以及增强自信的5种方法**
 
 Neel Burton M.A., M.D. \| 2024年6月24日 \| 审阅：Lybi Ma
 
