@@ -13,6 +13,8 @@ toc:
 
 Neel Burton M.A., M.D. \| Posted June 24, 2024 \| Reviewed by Lybi Ma
 
+Emotions such as fear and anger are hardwired.
+
 ## Key Points
 
 - Basic emotions are innate and automatic, and trigger behaviour with a high survival value.
@@ -66,9 +68,11 @@ In Madame Bovary, itself a novel, Gustave Flaubert tells us that Emma Bovary onl
 
 <hr style="border: 2px solid;">
 
+# 什么是基本情绪？
+
 Neel Burton M.A., M.D. \| 2024年6月24日 \| 审阅：Lybi Ma
 
-# 什么是基本情绪？
+恐惧和愤怒等情绪是天生固有的。
 
 ## 重点
 

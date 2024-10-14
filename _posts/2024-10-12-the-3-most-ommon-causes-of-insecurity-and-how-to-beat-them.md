@@ -2,7 +2,7 @@
 layout: post
 title: The 3 Most Common Causes of Insecurity and How to Beat Them
 date: 2024-10-12 10:00:00
-description:
+description: 15 tools to help you bounce back when you're feeling down about yourself.
 tags: [repost, phycology, insecurity, CHN Available]
 categories: blog
 thumbnail:
@@ -12,8 +12,6 @@ toc:
 ---
 
 Melanie Greenberg Ph.D. \| Posted December 6, 2015 \| Reviewed by Lybi Ma
-
-15 tools to help you bounce back when you're feeling down about yourself.
 
 ## Key Points
 
@@ -86,9 +84,9 @@ If you are constantly disappointed and blaming yourself for being anything less 
 
 # 三种最常见的不安全感及其应对方法
 
-帮助你在自我怀疑时恢复信心的15种工具。
-
 Melanie Greenberg Ph.D. \| 2015年12月6日 \| 审阅：Lybi Ma
+
+帮助你在自我怀疑时恢复信心的15种工具。
 
 ## 重点
 
