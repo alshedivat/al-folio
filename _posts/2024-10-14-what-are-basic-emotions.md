@@ -62,7 +62,7 @@ In Madame Bovary, itself a novel, Gustave Flaubert tells us that Emma Bovary onl
 
 **Original Post: [What Are Basic Emotions?](https://www.psychologytoday.com/us/blog/hide-and-seek/201601/what-are-basic-emotions?msockid=3cc8053b5a536d851b73102d5b446c8c)**
 
-**Copyright: Neel Burton M.A., M.D.**
+**Copyright belongs to the original author.**
 
 <hr style="border: 2px solid;">
 
@@ -114,6 +114,4 @@ Neel Burton M.A., M.D. \| 2024年6月24日 \| 审阅：Lybi Ma
 
 **原文链接: [What Are Basic Emotions?](https://www.psychologytoday.com/us/blog/hide-and-seek/201601/what-are-basic-emotions?msockid=3cc8053b5a536d851b73102d5b446c8c)**
 
-**版权所有：Neel Burton M.A., M.D.**
-
-**本翻译仅供学习用途。**
+**版权属于原作者，本翻译仅供学习用途。**
