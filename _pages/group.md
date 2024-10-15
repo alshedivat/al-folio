@@ -22,7 +22,7 @@ display_categories: [Professor, PhD Students, Master Students]
   <div class="container">
   <div class="row">
     {%- for member in sorted_members -%}
-    <div class="col-md-4">
+    <div class="col-md-3">
       {% include member.html %}
     </div>
     {%- endfor %}
