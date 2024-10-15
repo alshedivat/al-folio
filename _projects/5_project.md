@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Project Portfolio
-description: A selection of projects that I collaborated on or developed while at Boston College, including "Séamus Connolly Collection of Irish Music," "Morales Mass Book," "John La Farge, Stained Glass in New England," "Jesuit Online Bibliography," "Burns Antiphoner," and "The Becker Collection - Drawings of the American Civil War Era."  
-img: assets/img/antiphoner.png
-redirect: https://ds.bc.edu/projects-portfolio/
+title: TEI Teresa Carreño Correspondence
+description: Collection of transcribed and TEI-encoded correspondence written by or to virtuoso pianist and composer, Teresa Carreño (1853-1917).
+img: assets/img/carreno.png
+redirect: https://tapas.northeastern.edu/teresa-carreno-correspondence
 importance: 5
 category: DH
 ---
