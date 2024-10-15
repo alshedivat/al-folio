@@ -13,7 +13,7 @@ profile:
     <p>华东师范大学<br/>数据科学与工程学院</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}" (2024/10/15 marked as false)
 social: true  # includes social icons at the bottom of the page
 ---
 #### 欢迎来到华东师范大学计算智能实验室！
