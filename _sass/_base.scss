@@ -117,6 +117,7 @@ blockquote {
 
   .card-title {
     color: var(--global-text-color);
+    font-size: 1.5rem;
   }
 
   .card-item {
@@ -501,7 +502,7 @@ footer.sticky-bottom {
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    text-align: right;
+    text-align: left;
   }
 }
 
