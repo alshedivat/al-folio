@@ -63,7 +63,7 @@ permissions:
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
@@ -81,9 +81,7 @@ jobs:
           value: ${{ github.repository }}
       - name: Install and Build 🔧
         run: |
-          python3 -m venv myenv
-          source myenv/bin/activate
-          pip install --upgrade jupyter
+          pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build
       - name: Purge unused CSS 🧹
