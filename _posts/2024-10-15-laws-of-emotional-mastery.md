@@ -10,6 +10,7 @@ featured: false
 toc:
   sidebar: false
 ---
+
 By Noam Shpancer Ph.D. \| Published May 4, 2021 \| Last reviewed on August 16, 2022
 
 Life, goes the saying, is like a diamond—hard and beautiful.
