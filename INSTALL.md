@@ -184,38 +184,7 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 ## Upgrading from a previous version
 
-If you installed **al-folio** as described above, you can configure a [GitHub action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme.
-
-Go to Settings -> Actions -> General -> Workflow permissions, give Read and write permissions to GitHub Actions, check "Allow GitHub Actions to create and approve pull requests", and save your changes.
-
-Then go to Actions -> New workflow -> set up a workflow yourself, setup the following workflow and commit your changes:
-
-```yaml
-name: Sync from template
-on:
-  # cronjob trigger
-  schedule:
-    - cron: "0 0 1 * *"
-  # manual trigger
-  workflow_dispatch:
-jobs:
-  repo-sync:
-    runs-on: ubuntu-latest
-    steps:
-      # To use this repository's private action, you must check out the repository
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_repo_path: alshedivat/al-folio
-          upstream_branch: master
-```
-
-You will receive a pull request within your repository if there are some changes available in the template.
-
-Another option is to manually update your code by following the steps below:
+If you installed **al-folio** as described above, you can manually update your code by following the steps below:
 
 ```bash
 # Assuming the current directory is <your-repo-name>
