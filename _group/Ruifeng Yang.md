@@ -1,11 +1,10 @@
 ---
 layout: member
 name: 杨瑞丰
-self_introduction: 金融科技
+self_introduction: Diffusion for Fintech，RL for Fintech
 img: assets/img/yrf.jpg
 importance: 1
 category: Master Students
 page: false
 ---
-
 
