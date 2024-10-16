@@ -1,8 +1,8 @@
 ---
 layout: member
-name: 刘帆
+name: 李卓颖
 self_introduction: 金融科技
-img: assets/img/lf.jpg
+img: assets/img/lzy.jpg
 importance: 1
 category: Master Students
 page: false
