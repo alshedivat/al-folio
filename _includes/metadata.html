@@ -24,6 +24,22 @@
         {{ title }}
     {%- endif -%}
     </title>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfilePage",
+          "mainEntity": {
+            "@type": "Organization",
+            "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
+            "logo": "{{ site.logo | absolute_url }}",
+            "description": "{%- if page.description -%}{{ page.description }}{%- else if site.long_description -%}{{ site.long_description }}{%- endif -%}",
+            {% if sameaslinks != blank -%}
+            "sameAs": {{ sameaslinks }}, 
+            {%- endif %}
+            "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}"
+          }
+        }
+      </script>
     <meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}" />
     <meta name="description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
 {%- if page.keywords or site.keywords %}
@@ -132,24 +148,4 @@
     {%- if sameaslinks != blank -%}
         {%- assign sameaslinks = sameaslinks | split: "" -%}
     {%- endif -%}
-
-    <script type="application/ld+json">
-      {
-        "author":
-        {
-          "@type": "Organization",
-          "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
-        },
-        "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
-        "logo": "{{ site.logo | absolute_url }}",
-        "@type": "WebSite",
-        "description": "{%- if page.description -%}{{ page.description }}{%- else if site.description -%}{{ site.description }}{%- endif -%}",
-        "headline": "{%- if page.title -%}{{ page.title }}{%- else -%}{{ site.title }}{%- endif -%}",
-        {% if sameaslinks != blank -%}
-        "sameAs": {{ sameaslinks }}, 
-        {%- endif %}
-        "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
-        "@context": "https://schema.org"
-      }
-    </script>
 {%- endif %}
