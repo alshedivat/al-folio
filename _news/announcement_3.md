@@ -1,7 +1,6 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-10-14 07:13:00+0800
 inline: true
 ---
-
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+<a href="https://mp.weixin.qq.com/s/7QIVc1gnLoFnsAiJuL9TpA" style="color: black;">论文分享 Deeplob</a>
