@@ -24,11 +24,9 @@ social: true  # includes social icons at the bottom of the page
 目前我们聚焦但不仅限于以下方向：
 
 - 隐私计算 (如联邦学习、差分隐私、算法攻防、MPC等)
-- 自然语言处理、金融领域数据挖掘相关应用及技术
+- AIGC
+- 金融领域数据挖掘相关应用及技术
 
 我们力争在所研究的领域，努力创新，撰写高质量论文，进行高质量研究，培养高质量人才。目前实验室与阿里巴巴、蚂蚁集团、瞰点科技等互联网公司的核心算法研发团队有密切稳定的合作关系，共同培养学术与工程的人才。对于想要做研究的同学，我们会每周组织学术研究的探讨；对于想要去工业界发展的研究生，我们会着重培养动手能力与参与、领导项目的能力。
-
-本实验室计划招收1-2名博士和4名硕士，欢迎加入。
-
 
 <!-- "The proper function of man is to live, not to exist.<br/>I shall not waste my days in trying to prolong them. I shall use my time." -->
