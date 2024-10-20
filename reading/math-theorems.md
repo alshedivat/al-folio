@@ -1,10 +1,10 @@
----
+<!-- ---
 layout: page
 permalink: /reading/math-results
 title: Math Results
 description: A collection of nifty, interesting, elegant, cool math results.
 nav: false
----
+--- -->
 
 A collection of nifty, interesting, elegant, cool math results.
 

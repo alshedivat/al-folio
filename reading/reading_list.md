@@ -17,6 +17,7 @@ nav: false
 ### Philosophy
 
 Essays and Articles
+- 
 - ["Paperless Philosophy as a Philosophical Method"](https://philpapers.org/archive/BOUPPA.pdf){:target="_blank"}, David Bourget
 - ["Situated Knowledges"](https://www.jstor.org/stable/3178066){:target="_blank"}, Donna Haraway
 - ["Symposium: Vision and Choice in Morality"](https://www.jstor.org/stable/4106662){:target="_blank"}, Iris Murdoch
@@ -27,6 +28,8 @@ Essays and Articles
 - ["Ghost in a rhetorical machine"](https://joinreboot.org/p/ghost-in-a-rhetorical-machine){:target="_blank"}, Zhanpei Fang
 
 Books
+- *What is Philosophy?*, Deleuze and Guattari
+- *Re-Engineering Philosophy for Limited Beings*, William C. Wimsatt
 - *The Poverty of Ethics*, Anat Amar
 - *Queer Phenomenology*, Sara Ahmed
 - *Sex and the Failed Absolute*, Slavoj Žižek
@@ -35,6 +38,7 @@ Books
 
 ### Computer Science
 
+- ["Intention is All You Need"](https://advait.org/files/sarkar_2024_intention.pdf){:target="_blank"}
 - ["Beyond Personhood: Agency, Accountability, and the Limits of Anthropomorphic Ethical Analysis"](https://arxiv.org/pdf/2404.13861){:target="_blank"}
 - ["To Live in Their Utopia: Why Algorithmic Systems Create Absurd Outcomes"](https://ali-alkhatib.com/papers/chi/utopia/utopia.pdf){:target="_blank"}
 - ["Antagonistic AI"](https://arxiv.org/pdf/2402.07350.pdf){:target="_blank"}
@@ -48,6 +52,12 @@ Books
 - ["The Platonic Representation Hypothesis"](https://arxiv.org/pdf/2405.07987){:target="_blank"}
 - ["From Examples to Rules: Machine Learning's Type of Authority"](https://journals.sagepub.com/doi/10.1177/20539517231188725){:target="_blank"}
 - ["Enough With “Human-AI Collaboration"](https://arxiv.org/pdf/2306.01615){:target="_blank"}
+
+---
+
+### History
+- ["The Problematic Greek Miracle"](https://muse.jhu.edu/article/791990/summary){:target="_blank"}, Reviel Netz
+- ["Reinventing a Region (1955-22): Visions of the Middle East"](https://www.cambridge.org/core/journals/israel-law-review/article/reinventing-a-region-191522-visions-of-the-middle-east-in-legal-and-diplomatic-texts-leading-to-the-palestine-mandate/82D514EAEB3D893837FC79001AD7D807){:target="_blank"}, Karin Loevy
 
 ---
 
