@@ -19,6 +19,6 @@ I am a Research Associate in [Brent Richards](https://www.mcgill.ca/genepi/)' La
 
 As a computational biologist, my research focuses on analyses to identify the genetic determinants of common, aging-related endocrine diseases. In my thesis project, I integrated multiple omics datasets to uncover severity modifiers of sickle cell disease. 
 
-My curriculum vitae can be found  here.
+My curriculum vitae can be found [here](assets/pdf/example_pdf.pdf).
 
 
