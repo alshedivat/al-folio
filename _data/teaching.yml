@@ -1,15 +1,22 @@
 - title: Teaching
   type: time_table
   contents:
-    - title: Cryptography - Master Praktikum
+    - title: Automated Theorem Proving - Tutorial 
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: WS24/25
+      description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2024-25/atp_de.html">ATP WS2425</a>
+    - title: Softwareentwicklungspraktikum für Informatik im Nebenfach
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: WS24/25
+    - title: Cryptography
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: SS24
       description: <a href="https://www.tcs.ifi.lmu.de/lehre/ss-2024/crypto_de.html">Cryptography SS24</a>
-    - title: Softwareentwicklungspraktikum für Informatik im Nebenfach - Bachelor Praktikum
+    - title: Softwareentwicklungspraktikum für Informatik im Nebenfach
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: WS23/24
       description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2023-24/sepnf_de.html">Softwareentwicklungspraktikum für Informatik im Nebenfach WS23/24</a>
-    - title: SAT Solving
+    - title: SAT Solving - Tutorial
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: WS23/24
       description: <a href="https://www.tcs.ifi.lmu.de/lehre/ws-2023-24/sat_de.html">SAT Solving WS23/24</a>
