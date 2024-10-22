@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Lady Davis | McGill University</a>. yilboudo@gmail.com.
+subtitle: <a href='#'>Lady Davis | McGill University</a>.  yilboudo [at] gmail [dot] com.
 
 profile:
   align: right
