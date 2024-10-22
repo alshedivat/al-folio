@@ -4,7 +4,7 @@
 
 # Parse cmd arguments
 
-SRC_BRANCH="master"
+SRC_BRANCH="main"
 DEPLOY_BRANCH="gh-pages"
 
 USAGE_MSG="usage: deploy [-h|--help] [-u|--user] [-s|--src SRC_BRANCH] [-d|--deploy DEPLOY_BRANCH] [--verbose] [--no-push]"
