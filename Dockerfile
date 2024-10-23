@@ -1,5 +1,5 @@
 FROM ruby:latest
-RUN apt-get update && apt-get install -y 
+
 ENV DEBIAN_FRONTEND noninteractive
 
 Label MAINTAINER Amir Pourmand
