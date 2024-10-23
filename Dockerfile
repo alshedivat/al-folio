@@ -40,7 +40,5 @@ RUN bundle install --no-cache
 EXPOSE 8080
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
-RUN chmod +x /tmp/entry_point.sh
 
-ENTRYPOINT ["/bin/bash", "/tmp/entry_point.sh"]
 CMD ["/tmp/entry_point.sh"]
