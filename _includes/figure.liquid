@@ -18,13 +18,13 @@
         class="responsive-img-srcset"
         {% if ext == 'gif' or ext == 'jpeg' or ext == 'jpg' or ext == 'png' or ext == 'tiff' %}
           ​
-          srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
+          srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{ i }}w,{% endfor %}"
           type="image/webp"
         {% else %}
           srcset="{{ include.path | relative_url }}"
         {% endif %}
         {% if include.sizes %}
-          sizes="{{include.sizes}}"
+          sizes="{{ include.sizes }}"
         {% else %}
           sizes="95vw"
         {% endif %}
