@@ -105,11 +105,11 @@
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.research_gate_profile %}
-    {% capture link %}https://www.researchgate.net/profile/{{site.research_gate_profile}}{% endcapture %}
+    {% capture link %}https://www.researchgate.net/profile/{{ site.research_gate_profile }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.scopus_id %}
-    {% capture link %}https://www.scopus.com/authid/detail.uri?authorId={{site.scopus_id}}{% endcapture %}
+    {% capture link %}https://www.scopus.com/authid/detail.uri?authorId={{ site.scopus_id }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
   {% if site.github_username %}
