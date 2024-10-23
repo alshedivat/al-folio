@@ -1,4 +1,7 @@
 #!/bin/bash
+set -e
+
+echo "Entry point script running"
 
 CONFIG_FILE=_config.yml
 
@@ -32,3 +35,5 @@ while true; do
         start_jekyll
     fi
 done
+
+exec "$@"

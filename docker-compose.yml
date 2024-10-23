@@ -10,3 +10,4 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
+    entrypoint: /tmp/entry_point.sh

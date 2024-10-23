@@ -1,4 +1,5 @@
 FROM ruby:latest
+RUN apt-get update && apt-get install -y nodejs npm
 ENV DEBIAN_FRONTEND noninteractive
 
 Label MAINTAINER Amir Pourmand
@@ -38,5 +39,7 @@ RUN bundle install --no-cache
 EXPOSE 8080
 
 COPY bin/entry_point.sh /tmp/entry_point.sh
+RUN chmod +x /tmp/entry_point.sh
 
+ENTRYPOINT ["/bin/bash", "/tmp/entry_point.sh"]
 CMD ["/tmp/entry_point.sh"]
