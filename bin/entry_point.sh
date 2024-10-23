@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+set -euo pipefail
 
 echo "Entry point script running"
 
@@ -35,5 +35,3 @@ while true; do
         start_jekyll
     fi
 done
-
-exec "$@"
