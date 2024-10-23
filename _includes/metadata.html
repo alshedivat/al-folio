@@ -28,9 +28,43 @@
         {
           "@context": "https://schema.org",
           "@type": "ProfilePage",
+          "url": "https://www.calgaryml.com",
           "mainEntity": {
-            "@type": "Organization",
-            "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
+            "@type": "EducationalOrganization",
+            "name": "Calgary Machine Learning Lab",
+            "identifier": "https://www.calgaryml.com",
+            "@id": "https://www.calgaryml.com",
+            "alternateName": "Calgary ML Lab",
+            "url": "https://www.calgaryml.com",
+            "logo": "https://www.calgaryml.com/assets/img/ucmllogo-text.svg",
+            "description": "The Calgary Machine Learning Lab is a research group led by Yani Ioannou within the Schulich School of Engineering at the University of Calgary. The lab has a research focus on improving Deep Neural Network (DNN) training and models, in particular for computer vision applications. Topics of research include: Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Efficient Inference.",
+            "sameAs": [
+                "https://github.com/calgaryml",
+                "https://twitter.com/UCalgaryML"
+            ],
+            "founder": {
+                "@type": "Person",
+				"@id": "https://orcid.org/0000-0002-9797-5888"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "2500 University Drive NW",
+              "addressLocality": "Calgary",
+              "addressCountry": "CA",
+              "addressRegion": "Alberta",
+              "postalCode": "T2N 1N4"
+            }
+          }
+        }
+    </script>
+    <!-- <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfilePage",
+          "mainEntity": {
+            "@type": "EducationalOrganization",
+            "name": "Calgary Machine Learning Lab",
+            "alternateName": "Calgary ML Lab",
             "logo": "{{ site.logo | absolute_url }}",
             "description": "{%- if page.description -%}{{ page.description }}{%- else if site.long_description -%}{{ site.long_description }}{%- endif -%}",
             {% if sameaslinks != blank -%}
@@ -39,7 +73,7 @@
             "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}"
           }
         }
-      </script>
+      </script> -->
     <meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}" />
     <meta name="description" content="{%- if page.description -%}{{ page.description }}{%- else -%}{{ site.description }}{%- endif -%}" />
 {%- if page.keywords or site.keywords %}
