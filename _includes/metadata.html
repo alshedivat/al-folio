@@ -24,39 +24,129 @@
         {{ title }}
     {%- endif -%}
     </title>
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "ProfilePage",
-          "url": "https://www.calgaryml.com",
-          "mainEntity": {
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "url": "https://www.calgaryml.com",
+        "mainEntity": {
             "@type": "EducationalOrganization",
-            "name": "Calgary Machine Learning Lab",
-            "identifier": "https://www.calgaryml.com",
-            "@id": "https://www.calgaryml.com",
-            "alternateName": "Calgary ML Lab",
-            "url": "https://www.calgaryml.com",
-            "logo": "https://www.calgaryml.com/assets/img/ucmllogo-text.svg",
-            "description": "The Calgary Machine Learning Lab is a research group led by Yani Ioannou within the Schulich School of Engineering at the University of Calgary. The lab has a research focus on improving Deep Neural Network (DNN) training and models, in particular for computer vision applications. Topics of research include: Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Efficient Inference.",
-            "sameAs": [
-                "https://github.com/calgaryml",
-                "https://twitter.com/UCalgaryML"
-            ],
-            "founder": {
-                "@type": "Person",
-				"@id": "https://orcid.org/0000-0002-9797-5888"
-            },
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "2500 University Drive NW",
-              "addressLocality": "Calgary",
-              "addressCountry": "CA",
-              "addressRegion": "Alberta",
-              "postalCode": "T2N 1N4"
-            }
-          }
+            "@id": "https://www.calgaryml.com"
         }
-    </script>
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Yani Ioannou",
+            "identifier": "https://orcid.org/0000-0002-9797-5888",
+            "@id": "https://orcid.org/0000-0002-9797-5888",
+            "brand": {
+                "@type": "Organization",
+                "@id": "https://www.calgaryml.com"
+            },
+            "alternateName": "Yani Andrew Ioannou",
+            "jobTitle" : "Schulich Research Chair, Assistant Professor",
+            "worksFor" : {
+                "@type" : "EducationalOrganization",
+                "@id": "https://www.ucalgary.ca"
+            },
+            "givenName" : "Yani",
+            "additionalName" : "Andrew",
+            "familyName" : "Ioannou",
+            "gender" : "Male",
+            "honorificPrefix" : "Dr",
+            "honorificSuffix" : "PhD",
+            "description": "Yani Ioannou is a Schulich Research Chair and Assistant Professor at the University of Calgary, in the Department of Electrical and Software Engineering of the Schulich School of Engineering, and leads the Calgary Machine Learning Lab. Yani was previously a Postdoctoral Research Fellow at the Vector Institute, a Visiting Researcher at Google Brain Toronto. Yani completed his PhD at the University of Cambridge in 2018 supported by a Microsoft Research Ph.D. Scholarship, and supervised by Professor Roberto Cipolla and Dr. Antonio Criminisi.",
+            "url" : "https://yani.ai/",
+            "image": "https://yani.ai/images/portrait_opt.jpg",
+            "sameAs" : ["https://twitter.com/yanii","https://www.linkedin.com/in/yanii", "https://blog.yani.ai", "https://github.com/yanii", "https://scholar.google.com/citations?user=Qy9yv44AAAAJ", "https://orcid.org/0000-0002-9797-5888", "https://profiles.ucalgary.ca/yani-ioannou", "https://grad.ucalgary.ca/future-students/supervisor/yani-ioannou"],
+            "alumniOf" : [{"@type" : "Corporation", "name" : "Google"}, {"@type" : "EducationalOrganization", "name" : "University of Cambridge"},{"@type" : "Corporation", "name" : "Microsoft Research"},{"@type" : "EducationalOrganization", "name" : "University of Toronto"},{"@type" : "EducationalOrganization", "name" : "Queen's University"},{"@type" : "EducationalOrganization", "name" : "Vector Institute"}],
+            "affiliation" : {"@type" : "EducationalOrganization", "@id": "https://www.ucalgary.ca"},
+            "organization" : {"@type" : "EducationalOrganization", "@id": "https://www.ucalgary.ca"},
+            "address" : "2500 University Drive NW, Calgary, AB, Canada, T2N 1N4",
+            "workLocation" : "Calgary, AB, Canada",
+            "knowsAbout":[
+            {
+                "@type":"Thing",
+                "name":"machine learning",
+                "alternateName":"ML",
+                "@id":"https://www.wikidata.org/wiki/Q2539"
+            },
+            {
+                "@type":"Thing",
+                "name":"deep learning",
+                "@id":"https://www.wikidata.org/wiki/Q197536"
+            },
+            {
+                "@type":"Thing",
+                "name":"artificial intelligence",
+                "alternateName":"AI",
+                "@id":"https://www.wikidata.org/wiki/Q11660"
+            }]
+        }
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "@id": "https://www.ucalgary.ca",
+        "name" : "University of Calgary",
+        "sameAs": ["https://www.ucalgary.ca"],
+        "logo": "https://www.ucalgary.ca/themes/ucalgary/ucws_theme/images/UCalgary.svg",
+        "telephone": "+1 (403) 220-5110",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "2500 University Drive NW",
+            "addressLocality": "Calgary",
+            "addressCountry": "CA",
+            "addressRegion": "Alberta",
+            "postalCode": "T2N 1N4"
+        },
+        "url": "http://calgaryml.com",
+        "employee": {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-9797-5888"
+        },
+        "department": {
+            "@type": "EducationalOrganization",
+            "@id": "https://www.calgaryml.com"
+        }
+    }
+</script>
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        "name": "Calgary Machine Learning Lab",
+        "identifier": "https://www.calgaryml.com",
+        "@id": "https://www.calgaryml.com",
+        "alternateName": "Calgary ML Lab",
+        "url": "https://www.calgaryml.com",
+        "logo": "https://www.calgaryml.com/assets/img/ucmllogo-text.svg",
+        "description": "The Calgary Machine Learning Lab is a research group led by Yani Ioannou within the Schulich School of Engineering at the University of Calgary. The lab has a research focus on improving Deep Neural Network (DNN) training and models, in particular for computer vision applications. Topics of research include: Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Efficient Inference.",
+        "sameAs": [
+            "https://github.com/calgaryml",
+            "https://twitter.com/UCalgaryML"
+        ],
+        "founder": {
+            "@type": "Person",
+            "@id": "https://orcid.org/0000-0002-9797-5888"
+        },
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "2500 University Drive NW",
+            "addressLocality": "Calgary",
+            "addressCountry": "CA",
+            "addressRegion": "Alberta",
+            "postalCode": "T2N 1N4"
+        }
+    }
+</script>
     <!-- <script type="application/ld+json">
         {
           "@context": "https://schema.org",
