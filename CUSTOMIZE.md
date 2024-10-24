@@ -42,6 +42,10 @@ The configuration file [\_config.yml](_config.yml) contains the main configurati
 
 All changes made to this file are only visible after you rebuild the website. That means that you need to run `bundle exec jekyll serve` again if you are running the website locally or push your changes to GitHub if you are using GitHub Pages. All other changes are visible immediately, you only need to refresh the page.
 
+## Deploy on [Netlify](https://www.netlify.com/)
+
+Instead of [GitHub Pages](https://pages.github.com/), you can deploy your website on a third-party web hosting service such as [Netlify](https://www.netlify.com/). First, click on [Use this template -> Create a new repository](https://github.com/new?template_name=al-folio&template_owner=alshedivat). Then, in Netlify, click **Add new site** -> **Import an existing project** -> **GitHub** and give Netlify access to the repository you just created. In the deploy settings, make sure the **Branch to deploy** is set to `master`, the **Base directory** is empty, the **Build command** is set to `sed -i "s/^\(baseurl: \).*$/baseurl:/" _config.yml && bundle exec jekyll build`, and the **Publish directory** is `_site`. In addition, add two environment variables: `JEKYLL_ENV` with the value `production` and `RUBY_VERSION` set to the Ruby version found in `.github/workflows/deploy.yml` (for example, `3.3.5`). Finally, click **Deploy** and wait for the site to be published. If you want to use your own domain name, follow the steps in [this documentation](https://docs.netlify.com/domains-https/custom-domains/).
+
 ## Modifying the CV information
 
 There are currently 2 different ways of generating the CV page content. The first one is by using a json file located in [assets/json/resume.json](assets/json/resume.json). It is a [known standard](https://jsonresume.org/) for creating a CV programmatically. The second one, currently used as a fallback when the json file is not found, is by using a yml file located in [\_data/cv.yml](_data/cv.yml). This was the original way of creating the CV page content and since it is more human readable than a json file we decided to keep it as an option.
