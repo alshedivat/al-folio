@@ -23,4 +23,5 @@ jobs:
         uses: AbdulRehman-1/pr-prettier@initial
         with:
           only_changed: true
-          prettier_options: --write **/*.{css,html,js,json,md,scss,yaml,yml}
+          prettier_options: --write **/*.{css,html,js,json,liquid,md,scss,yaml,yml}
+          prettier_plugins: "@shopify/prettier-plugin-liquid"
