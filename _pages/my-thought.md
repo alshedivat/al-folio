@@ -8,7 +8,7 @@ nav_order: 1
 
 ---
 
-An unorganized and continuously growing archive of quotes, ideas, and works that have profoundly influenced my thohught across a wide range of topics.
+An unorganized and continuously growing archive of quotes, ideas, and works that have profoundly influenced my thohught across a wide range of topics, including: the nature of philosophy (and of "nature"), personal and political ethics, (anti-)metaphysics, how we should design AI, the social structure of science and knowledge, "the meaning of *my* life".
 
 Currently under construction.
 
