@@ -1,44 +1,32 @@
-"Evci":
-  - firstname: ["Utku", "U."]
-    lastname: "Evci"
-    url: http://www.utkuevci.com
-
-"Dauphin":
-  - firstname: ["Yann", "Y."]
-    lastname: "Dauphin"
-    url: https://www.dauphin.io
-
-"Taylor":
-  - firstname: ["Graham", "G."]
-    lastname: "Graham Taylor"
-    url: https://www.gwtaylor.ca
-
-"Keskin":
-  - firstname: ["Cem", "C."]
-    lastname: ["Keskin"]
-    url: https://scholar.google.ca/citations?user=9HoiYnYAAAAJ
-
-"Ansdell":
-  - firstname: ["Megan", "M."]
-    lastname: "Ansdell"
-    url: https://science.nasa.gov/researchers/sara/program-officers-list/megan-ansdell
-"Cipolla":
-  - firstname: ["Roberto", "R."]
-    lastname: "Cipolla"
-    url: http://mi.eng.cam.ac.uk/~cipolla
-"Criminisi":
-  - firstname: ["Antonio", "A."]
-    lastname: "Criminisi"
-    url: https://scholar.google.co.uk/citations?user=YHmzvmMAAAAJ
-"Adnan":
-  - firstname: ["Mohd", "Adnan"]
+"Mohammed":
+  - firstname: ["Mohd", "Adnan", "A."]
     lastname: "Mohammed"
     url: https://adnan1306.github.io
-"Anna":
+"Adnan":
+  - firstname: ["Mohd", "Mohammed", "M."]
+    lastname: "Adnan"
+    url: https://adnan1306.github.io
+"Golubeva":
   - firstname: ["Anna", "A."]
     lastname: "Golubeva"
     url: https://annagolubeva.github.io/
-"Mike":
+"Lasby":
   - firstname: ["Mike", "Michael", "M."]
     lastname: "Lasby"
     url: https://github.com/mklasby
+"Mohammadshahi":
+  - firstname: ["Aida", "A."]
+    lastname: "Mohammadshahi"
+    url: https://github.com/aidamohammadshahi
+"Jain":
+  - firstname: ["Rohan", "R."]
+    lastname: "Jain"
+    url: https://github.com/JainRohan
+"Feng":
+  - firstname: ["Yufan", "Y."]
+    lastname: "Feng"
+    url: https://github.com/JoycexxZ
+"Pote":
+  - firstname: ["Tejas", "T."]
+    lastname: "Pote"
+    url: https://github.com/TejasPote

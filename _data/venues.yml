@@ -2,9 +2,23 @@
     url: https://openaccess.thecvf.com/menu
 "NeurIPS":
     url: https://proceedings.neurips.cc
+"NeurIPS Workshops":
+    url: https://proceedings.neurips.cc
 "ICLR":
     url: https://iclr.cc
+"ICLR Workshops":
+    url: https://iclr.cc
+"ICML":
+    url: https://icml.cc
+"ICML Workshops":
+    url: https://icml.cc
 "AAAI":
     url: https://www.aaai.org/Library/AAAI/aaai-library.php
 "MICCAI":
     url: http://www.miccai.org
+"TMLR":
+    url: https://jmlr.org/tmlr/
+"CANAI":
+    url: https://www.caiac.ca/en/conferences/
+"CPAL":
+    url: https://cpal.cc

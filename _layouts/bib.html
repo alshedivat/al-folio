@@ -2,18 +2,9 @@
 ---
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-1 abbr">
-        {%- if entry.abbr -%}
-          {%- if site.data.venues[entry.abbr] -%}
-          <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
-          {%- else -%}
-          <abbr class="badge">{{entry.abbr}}</abbr>
-          {%- endif -%}
-        {%- endif -%}
-        </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-9">
+        <div id="{{entry.key}}" class="col-sm-12">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
@@ -47,22 +38,22 @@
             {%- else -%}
               {%- unless forloop.last -%}
                 {% if author_is_self %}
-                  <em>{{author.last}}, {{author.first}}</em>,&nbsp;
+                  <em>{{author.first}} {{author.last}}</em>,&nbsp;
                 {%- else -%}
                   {% if coauthor_url -%}
-                    <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>,&nbsp;
+                    <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
                   {%- else -%}
-                    {{author.last}}, {{author.first}},&nbsp;
+                    {{author.first}} {{author.last}},&nbsp;
                   {%- endif -%}
                 {%- endif -%}
               {%- else -%}
                 {% if author_is_self -%}
-                  and <em>{{author.last}}, {{author.first}}</em>
+                  and <em>{{author.first}} {{author.last}}</em>
                 {% else -%}
                   {%- if coauthor_url -%}
-                    and <a href="{{coauthor_url}}">{{author.last}}, {{author.first}}</a>
+                    and <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
                   {% else -%}
-                    and {{author.last}}, {{author.first}}
+                    and {{author.first}} {{author.last}}
                   {%- endif -%}
                 {%- endif -%}
               {%- endunless -%}
@@ -160,4 +151,22 @@
           </div>
           {%- endif %}
         </div>
+
+        <div class="col-sm-12 abbr">
+          {%- if entry.abbr -%}
+            {%- assign badgeitems = entry.abbr | split: " " -%}
+            {%- if site.data.venues[entry.abbr] -%}
+              {%- for badgeitem in badgeitems -%}
+                <span> </span>
+                <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{badgeitem}}</a></abbr>
+              {%- endfor -%}
+            {%- else -%}
+              {%- for badgeitem in badgeitems -%}
+              <span> </span>
+                <abbr class="badge">{{badgeitem}}</abbr>
+              {%- endfor -%}
+            {%- endif -%}
+          {%- endif -%}
+        </div>
       </div>
+      <hr style="width:60%">
