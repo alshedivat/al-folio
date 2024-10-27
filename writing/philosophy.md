@@ -10,7 +10,7 @@ nav: false
 
 <a href="/assets/pdf/garden-of-ideas-1-17.pdf" target="_blank">"The Computational Production of Simulacra."</a> <em>Garden of Ideas</em>, Vol. 3, 2023 - Issue 1.
 <p style="margin-left: 25px;">
-  <small><bold>Abstract.</bold> Forthcoming. </small>
+  <!-- <small><bold>Abstract.</bold> Forthcoming. </small> -->
 </p>
 
 
@@ -47,7 +47,7 @@ nav: false
 
 <a href="files/the-sacrifice-of-stoic-metaphysics.pdf" target="_blank">"The Sacrifice of a 'Stoic Metaphysics'".</a> Final essay for PHIL 430, Hellenistic Philosophy.
 <p style="margin-left: 25px;">
-<small><bold>Abstract.</bold> Forthcoming.
+<!-- <small><bold>Abstract.</bold> Forthcoming. -->
 </small>
 </p>
 

@@ -21,11 +21,12 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring. -->
 
-I am an honors, Phi Beta Kappa, and Mary Gates scholar at the University of Washington studying philosophy and computer science, minoring in mathematics and history.
-My current specific research interests are twofold: (*i.*) how can we design **non-human intelligences** to **aid [human philosophical practice](https://arxiv.org/abs/2404.04516){:target="_blank"}** and address **metaphilosophical problems**? (*ii.*) how can **[philosophical concerns](https://andre-ye.github.io/assets/pdf/Ranjay%20Group%20-%20Philosophy%20x%20AI.pdf){:target="_blank"}** and insights help us build [better AI](https://arxiv.org/abs/2310.14356){:target="_blank"} and [human-AI interactions](/assets/pdf/CSE%20582%20Poster.pdf){:target="_blank"}?
-My general intellectual interests include phenomenology, philosophy of science, human-computer interaction, and computer vision.
+I am an honors, Phi Beta Kappa, and Mary Gates scholar at the University of Washington studying philosophy and computer science, minoring in math and history.
+**I want to build AI tools for thought (esp. for the textual social sciences).**
+My general intellectual interests include phenomenology, philosophy of science, and human-computer interaction.
 Please see my [research agenda](/agenda) and [CV](/cv) for more details.
-I have written a few [essays](/writing/philosophy){:target="_blank"} in philosophy, [two](/writing/mdldna){:target="_blank"} [books](/writing/mdl4td){:target="_blank"} on deep learning, a little bit of [fiction](/writing/fiction){:target="_blank"}, and many data science [articles](https://andre-ye.medium.com/){:target="_blank"}.
+I am very lucky to be advised by [Amy Zhang](https://homes.cs.washington.edu/~axz/){:target="_blank"}, [Ranjay Krishna](https://ranjaykrishna.com/index.html){:target="_blank"}, and [Rose Novick](https://www.rosenovick.com/){:target="_blank"}.
+<!-- I have written a few [essays](/writing/philosophy){:target="_blank"} in philosophy, [two](/writing/mdldna){:target="_blank"} [books](/writing/mdl4td){:target="_blank"} on deep learning, a little bit of [fiction](/writing/fiction){:target="_blank"}, and many data science [articles](https://andre-ye.medium.com/){:target="_blank"}. -->
 My email is `andreye [at] uw [dot] edu`.
 
 <br>

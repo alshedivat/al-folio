@@ -6,9 +6,16 @@ nav: true
 nav_order: 2
 ---
 
----
+View resume pdf [here](/assets/pdf/Ye%20Resume%20Public.pdf){:target="_blank"}.
+
+--
 
 ### computer science research
+
+<br>
+
+
+*equal contribution.
 
 "Language Models as Critical Thinking Tools: A Case Study of Philosophers".
 **Andre Ye**, Jared Moore, Rose Novick, Amy X. Zhang.
@@ -25,7 +32,7 @@ RAIVN lab talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7
 27th UW Research Symposium talk [slides](https://docs.google.com/presentation/d/15-6LxTeyhR1u4dJRnWlc0xLfYlBts5MbvXkjqCeX1iQ/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/URS%20-%20Cultural%20Relativity.pdf){:target="_blank"}.
 
 "LLMs grasp morality in concept". 
-Mark Pock, **Andre Ye**, Jared Moore.
+Mark Pock*, **Andre Ye\***, Jared Moore.
 Moral Psychology and Philosophy Workshop, NeurIPS 2023.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2311.02294){:target="_blank"},
@@ -70,6 +77,8 @@ eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:targ
 
 ### philosophy work
 
+<br>
+
 "And then the Hammer Broke: Reflections on Machine Ethics from Feminist Philosophy of Science."
 **Andre Ye**.
 Pacific University Philosophy Conference: Forest Grove, Oregon. April 2024.
@@ -83,6 +92,13 @@ reading [video](https://youtu.be/Rob_OLoSZ64){:target="_blank"} and artistic [sl
 Seattle University Philosophy Conference: Seattle, Washington. May 2024.
 *Resources*:
 [philPapers](https://philpapers.org/rec/YESWBR){:target="_blank"}.
+
+"Wor(k/d)play."
+Mark Pock*, **Andre Ye\***.
+*Garden of Ideas*, Volume 2, 2023 -- Issue 1.
+*Resources*:
+[link](/writing/files/workdplay.pdf){:target="_blank"}.
+
 
 "Computational Production of Simulacra."
 **Andre Ye**.
@@ -101,6 +117,8 @@ See other writings [here](https://andre-ye.github.io/writing/philosophy){:target
 
 ### expository writing
 
+<br>
+
 *Modern Deep Learning Design and Applications*.
 Andre Ye.
 Apress (Springer Nature).
@@ -118,12 +136,13 @@ Apress (Springer Nature).
 
 ## education
 
+<br>
+
 **B.A., Philosophy with Honors**.
 Focus on social & political philosophy, philosophy of science.
 University of Washington. 2021-2025.
 
 **B.S., Computer Science**.
-Focus: AI, HCI.
 University of Washington. 2021-2025.
 
 **Minor, Mathematics**.
@@ -139,9 +158,11 @@ Admission to university at 14 through the [Robinson Center](https://robinsoncent
 
 ## teaching
 
+<br>
+
 **Teaching Assistant, CSE [160, 163, 311]** (intro and intermediate Python programming, discrete math for CS).
 Allen School of CSE, University of Washington.
-4 quarters.
+5 quarters.
 
 **Teaching Assistant, English Composition and Literary Analysis.**
 Robinson Center, University of Washington.
@@ -154,6 +175,10 @@ The Coding School.
 ---
 
 ## recognition & scholarships
+
+<br>
+
+
 - UW Philosophy Department Outstanding Undergraduate Scholar (2024)
 - CRA Outstanding Undergraduate Researcher Finalist (2023)
 - Mary Gates Research Scholar (2023)
@@ -167,6 +192,9 @@ The Coding School.
 ---
 
 ## academic service & volunteering
+
+<br>
+
 - 2023 NeurIPS Moral Psychology and Moral Philosophy Workshop Reviewer
 - 2023 ICML AI + HCI Workshop Reviewer
 - Volunteer Data Scientist @ Coronawhy (April 2020 - June 2020)
@@ -177,6 +205,8 @@ The Coding School.
 ---
 
 ## other research and projects
+
+<br>
 
 "AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs." SIGBOVIK 2023.
 *Resources*:
