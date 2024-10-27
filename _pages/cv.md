@@ -8,11 +8,11 @@ nav_order: 2
 
 View resume pdf [here](/assets/pdf/Ye%20Resume%20Public.pdf){:target="_blank"}.
 
---
+---
 
 ### computer science research
 
-<br>
+
 
 
 *equal contribution.
@@ -77,7 +77,7 @@ eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:targ
 
 ### philosophy work
 
-<br>
+
 
 "And then the Hammer Broke: Reflections on Machine Ethics from Feminist Philosophy of Science."
 **Andre Ye**.
@@ -117,7 +117,7 @@ See other writings [here](https://andre-ye.github.io/writing/philosophy){:target
 
 ### expository writing
 
-<br>
+
 
 *Modern Deep Learning Design and Applications*.
 Andre Ye.
@@ -136,7 +136,7 @@ Apress (Springer Nature).
 
 ## education
 
-<br>
+
 
 **B.A., Philosophy with Honors**.
 Focus on social & political philosophy, philosophy of science.
@@ -158,7 +158,7 @@ Admission to university at 14 through the [Robinson Center](https://robinsoncent
 
 ## teaching
 
-<br>
+
 
 **Teaching Assistant, CSE [160, 163, 311]** (intro and intermediate Python programming, discrete math for CS).
 Allen School of CSE, University of Washington.
@@ -176,7 +176,7 @@ The Coding School.
 
 ## recognition & scholarships
 
-<br>
+
 
 
 - UW Philosophy Department Outstanding Undergraduate Scholar (2024)
@@ -193,7 +193,7 @@ The Coding School.
 
 ## academic service & volunteering
 
-<br>
+
 
 - 2023 NeurIPS Moral Psychology and Moral Philosophy Workshop Reviewer
 - 2023 ICML AI + HCI Workshop Reviewer
@@ -206,7 +206,7 @@ The Coding School.
 
 ## other research and projects
 
-<br>
+
 
 "AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs." SIGBOVIK 2023.
 *Resources*:

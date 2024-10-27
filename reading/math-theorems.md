@@ -21,6 +21,7 @@ A collection of nifty, interesting, elegant, and/or cool math results.
 **Reals as a vector space over the rationals.**
 The reals can be defined as the set of all Cauchy sequences of rationals, with addition and multiplication defined component-wise. This makes the reals a vector space (of infinite dimension) over the rationals.
 If the axiom of choice is true, then there exists a basis for this vector space.
+
 <!-- 
 **Arc length.**
 The length of a curve given by the function $f(x)$ on the interval $[a, b]$ is given by the integral $$\int_a^b \sqrt{1 + (f'(x))^2} \, dx$$. -->
@@ -41,6 +42,7 @@ $$S = \{ (x, \sin(1/x)) \mid 0 < x \leq 1 \} \cup \{ (0, y) \mid -1 \leq y \leq 
 
 **Leibniz's proof for the derivative of a quadratic.**
 If $$x$$ changes by $$\delta x$$, then $$y = x^2$$ should change by $$y + \delta y = (x + \delta x)^2 = x^2 + 2x\delta x + (\delta x)^2$$. Relabel $$\delta x, \delta y$$ as $$dx, dy$$ and as they become 'infinitely small', then $$(\delta x)^2$$ gets infinitely smaller. Also subtract $$y = x^2$$. So we get $$dy = 2x dx$$, or $$dy/dx = 2x$$.
+
 <!-- 
 **Definition: Riemann integrability.**
 $$f$$ is integrable on $$[a, b]$$ if

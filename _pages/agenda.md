@@ -18,8 +18,6 @@ We seek to address cases of offense and harm in image generation of people by ce
 **Discursive Datasets.** with Matt Wallingford, Amy Zhang, and Ranjay Krishna. UW CSE.
 Using socially produced visual data to build more robust and socially intelligent visual representations.
 Supported by the Mary Gates Scholarship.
-<!-- - Supported by the Mary Gates Scholarship -- [application](\assets\pdf\mary-gates-essay-discursive-datasets.pdf){:target="_blank"} (Winter 2024).
-- See [poster](/assets/pdf/CSE%20582%20Poster.pdf){:target="_blank"} and working [report](/assets/pdf/CSE_582_Final_Report.pdf){:target="_blank"}. -->
 
 **Ready-/Present-at-hand in Language Models.** with Ari Holtzman (U Chicago).
 We identify the utility of Heidegger's ready-/present-at-hand concept over the current System I/II distinction in understanding important aspects of language models. 
@@ -74,8 +72,7 @@ Digital Tools for Metaphilosophy
 Philosophical meditations on AI
 - An exploration of what "selfhood" means for AI -- what does it mean when models say "As an AI language model..."? What might it mean to negate the [sycophantic, servile, mirror-like nature](https://arxiv.org/pdf/2402.07350.pdf){:target="_blank"} many current language models have been aligned to?
 - Critique of the utilitarian priority of "preferences" in alignment, mayhaps borrowing from the Frankfurt School.
-<!-- - An application of the "male gaze" to vision models (see: Laura Mulvey, ["Visual Pleasure and Narrative Cinema"](https://www.amherst.edu/system/files/media/1021/Laura%2520Mulvey,%2520Visual%2520Pleasure.pdf){:target="_blank"})
-- [Borges and AI](https://arxiv.org/pdf/2310.01425.pdf){:target="_blank"}, but with Baudrillard, Nietzsche, and/or Foucault. -->
+- The kind of thing [Borges and AI](https://arxiv.org/pdf/2310.01425.pdf){:target="_blank"} does, but with someone like Baudrillard, Nietzsche, Foucault.
 - Developing Vilém Flusser's notion of technical images for computer vision. See: [Into the Universe of Technical Images](https://www.are.na/block/3080997){:target="_blank"}.
 - Theorizing if computer vision (and/or language modeling) is guilty of what Donna Haraway calls the 'god trick', and building information systems which reflect Haraway's maxim that objectivity is partial perspective. See: [Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective](){:target="_blank"} and [A Cyborg Manifesto](){:target="_blank"}. ["Situated Cameras, Situated Knowledges"](https://arxiv.org/pdf/2307.00064.pdf){:target="_blank"} is a great start.
 - What happens if we take Iris Murdoch's notion of 'moral vision' literally? Murdoch says that "moral differences are differences in vision" -- what we need is not a "renewed attempt to specify the facts but rather a fresh vision". What does this mean for computer vision?
