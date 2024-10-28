@@ -57,3 +57,7 @@
       institution: Ludwig Maximilian University of Munich, Munich, Germany
       year: WS23/24
       description: Strategies and optimization approaches for the exchange of clauses in SAT Solvers
+    - title: Bachelorarbeit - Wanda Rosmus
+      institution: Ludwig Maximilian University of Munich, Munich, Germany
+      year: SS24
+      description: <a href="/assets/pdf/BA-wanda.pdf"> Resolution Prover in Rust</a>
