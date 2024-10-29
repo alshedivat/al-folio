@@ -20,11 +20,17 @@
         - Prof. Jung Ho Ahn
         - OS support for tiered memory system
     - title: Undergraduate Research Intern
+      institution: SCALable Computer Architecture Laboratory, Seoul National University
+      year: 2023 - 2024
+      description:
+        - Prof. Jung Ho Ahn
+        - OS support for tiered memory system
+    - title: Undergraduate Research Intern
       institution: AI-SoC Lab, Kyungpook National University
       year: 2021 - 2022
       description:
         - Prof. Daejin Park
-        - Machine learning compiler optimization
+        - Machine learning-based compiler optimization
 
 - title: Honors and Awards
   type: time_table
