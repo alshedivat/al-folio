@@ -1,11 +1,13 @@
 # Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Installing and Deploying](#installing-and-deploying)
   - [Recommended Approach](#recommended-approach)
-  - [Local Setup on Windows](#local-setup-on-windows)
-  - [Local Setup using Docker (Recommended)](#local-setup-using-docker-recommended)
+  - [Local setup on Windows](#local-setup-on-windows)
+  - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
     - [Build your own docker image](#build-your-own-docker-image)
-  - [Local Setup (Legacy)](#local-setup-legacy)
+  - [Local Setup with Development Containers](#local-setup-with-development-containers)
+  - [Local Setup (Legacy, no longer supported)](#local-setup-legacy-no-longer-supported)
   - [Deployment](#deployment)
     - [For personal and organization webpages](#for-personal-and-organization-webpages)
     - [For project pages](#for-project-pages)
@@ -19,16 +21,15 @@
 
 ## Recommended Approach
 
-The recommended approach for using **al-folio** is to first create your own site using the template with as few changes as possible, and only when it is up and running customize it however you like. This way it is easier to pinpoint what causes a potential issue in case of a bug. The minimum steps required to create your own site are:
+The recommended approach for using **al-folio** is to first create your own site using the template with as few changes as possible, and only when it is up and running customize it however you like. This way it is easier to pinpoint what causes a potential issue in case of a bug. The minimum steps required to create your own site are ([video tutorial here](assets/video/tutorial_al_folio.mp4)):
 
 1. Create a new repository using this template. For this, click on [Use this template -> Create a new repository](https://github.com/new?template_name=al-folio&template_owner=alshedivat) above the file list. If you plan to upload your site to `<your-github-username>.github.io`, note that the name of your repository :warning: **MUST BE** :warning: `<your-github-username>.github.io` or `<your-github-orgname>.github.io`, as stated in the [GitHub pages docs](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
 2. In this new repository, go to `Settings -> Actions -> General -> Workflow permissions` and give `Read and write permissions` to GitHub Actions.
-3. Open file `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` **empty** (do NOT delete it).
-4. Wait until the GitHub actions finish (check your repository **Actions** tab). Now, in addition to the master branch, your repository has a newly built gh-pages branch.
+3. Open file `_config.yml`, set `url` to `https://<your-github-username>.github.io` and leave `baseurl` **empty** (do NOT delete it), as `baseurl:`.
+4. Wait until the GitHub action with subtitle `Deploy site` finishes (check your repository **Actions** tab), which takes ~4 min. Now, in addition to the `master` branch, your repository has a newly built `gh-pages` branch.
 5. Finally, in the repository page go to `Settings -> Pages -> Build and deployment`, make sure that `Source` is set to `Deploy from a branch` and set the branch to `gh-pages` (NOT to master).
-6. Wait until the GitHub actions finish (check your repository **Actions** tab), then simply navigate to `https://<your-github-username>.github.io` in your browser. At this point you should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/).
-
-After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:
+6. Wait until the GitHub action `pages-build-deployment` finishes (check your repository **Actions** tab), which takes ~45s, then simply navigate to `https://<your-github-username>.github.io` in your browser. At this point you should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/).
+   After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
@@ -58,7 +59,7 @@ Note that when you run it for the first time, it will download a docker image of
 
 Now, feel free to customize the theme however you like (don't forget to change the name!). Also, your changes should be automatically rendered in real-time (or maybe after a few seconds).
 
-> Beta: You can also use the slimmed docker image with a size below 100MBs and exact same functionality. Just use `docker compose up -f docker-compose-slim.yml`
+> Beta: You can also use the slimmed docker image with a size below 100MBs and exact same functionality. Just use `docker compose -f docker-compose-slim.yml up`
 
 ### Build your own docker image
 
@@ -74,7 +75,12 @@ $ docker compose up --build
 
 If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that.
 
-## Local Setup (Legacy)
+## Local Setup with Development Containers
+
+`al-folio` supports [Development Containers](https://containers.dev/supporting).
+For example, when you open the repository with Visual Studio Code (VSCode), it prompts you to install the necessary extension and automatically install everything necessary.
+
+## Local Setup (Legacy, no longer supported)
 
 For a hands-on walkthrough of running al-folio locally without using Docker, check out [this cool blog post](https://george-gca.github.io/blog/2022/running-local-al-folio/) by one of the community members!
 
@@ -84,7 +90,7 @@ Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](
 $ bundle install
 # assuming pip is your Python package manager
 $ pip install jupyter
-$ bundle exec jekyll serve --lsi
+$ bundle exec jekyll serve
 ```
 
 To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/). Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
@@ -128,7 +134,7 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
 
 ```bash
-$ bundle exec jekyll build --lsi
+$ bundle exec jekyll build
 ```
 
 which will (re-)generate the static webpage in the `_site/` folder.
@@ -156,7 +162,7 @@ Firstly, from the deployment repo dir, checkout the git branch hosting your publ
 Then from the website sources dir (commonly your al-folio fork's clone):
 
 ```bash
-$ bundle exec jekyll build --lsi --destination $HOME/repo/publishing-source
+$ bundle exec jekyll build --destination $HOME/repo/publishing-source
 ```
 
 This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
@@ -176,40 +182,9 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 **Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
 
-### Upgrading from a previous version
+## Upgrading from a previous version
 
-If you installed **al-folio** as described above, you can configure a [GitHub action](https://github.com/AndreasAugustin/actions-template-sync) to automatically sync your repository with the latest version of the theme.
-
-Go to Settings -> Actions -> General -> Workflow permissions, give Read and write permissions to GitHub Actions, check "Allow GitHub Actions to create and approve pull requests", and save your changes.
-
-Then go to Actions -> New workflow -> set up a workflow yourself, setup the following workflow and commit your changes:
-
-```yaml
-name: Sync from template
-on:
-  # cronjob trigger
-  schedule:
-    - cron: "0 0 1 * *"
-  # manual trigger
-  workflow_dispatch:
-jobs:
-  repo-sync:
-    runs-on: ubuntu-latest
-    steps:
-      # To use this repository's private action, you must check out the repository
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: actions-template-sync
-        uses: AndreasAugustin/actions-template-sync@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          source_repo_path: alshedivat/al-folio
-          upstream_branch: master
-```
-
-You will receive a pull request within your repository if there are some changes available in the template.
-
-Another option is to manually update your code by following the steps below:
+If you installed **al-folio** as described above, you can manually update your code by following the steps below:
 
 ```bash
 # Assuming the current directory is <your-repo-name>
