@@ -9,15 +9,15 @@ nav_order: 1
 ---
 Peer-reviewed journal publications:
 
-8. Spoorthy V., Manjunath Mulimani, Shashidhar G. Koolagudi. "Acoustic Scene Classification using Deep Fisher Network", Digital Signal Processing 2023, vol.139, Elsevier 
+8. Spoorthy V., Manjunath Mulimani, Shashidhar G. Koolagudi. "Acoustic Scene Classification using Deep Fisher Network", Digital Signal Processing 2023, vol.139, Elsevier. 
 
-7. Manjunath Mulimani, Ritika Nandi, Shashidhar G. Koolagudi. "Acoustic Scene Classification using Projection Kervolutional Neural Network", Multimedia Tools and Applications 2022, pp. 1-11, Springer
+7. Manjunath Mulimani, Ritika Nandi, Shashidhar G. Koolagudi. "Acoustic Scene Classification using Projection Kervolutional Neural Network", Multimedia Tools and Applications 2022, pp. 1-11, Springer.
 
-6. Sreetama Mukherjee, Manjunath Mulimani. "ComposeInStyle - Music composition with and without Style Transfer", Expert Systems with Applications 2022, vol. 191, Elsevier 
+6. Sreetama Mukherjee, Manjunath Mulimani. "ComposeInStyle - Music composition with and without Style Transfer", Expert Systems with Applications 2022, vol. 191, Elsevier.
 
-5. Jagruthi H, Kavitha C, Manjunath Mulimani. "Network Intrusion Detection using Fusion Features and Convolutional Bidirectional Recurrent Neural Network", International Journal on Computer Applications in Technology 2022, vol. 69, pp. 93-100, Inderscience 
+5. Jagruthi H, Kavitha C, Manjunath Mulimani. "Network Intrusion Detection using Fusion Features and Convolutional Bidirectional Recurrent Neural Network", International Journal on Computer Applications in Technology 2022, vol. 69, pp. 93-100, Inderscience. 
 
-4. Ritika Nandi, Manjunath Mulimani. "Detection of COVID-19 from X-rays using Hybrid Deep Learning Models", Research on Biomedical Engineering 2021, vol. 37, pp. 687-695, Springer 
+4. Ritika Nandi, Manjunath Mulimani. "Detection of COVID-19 from X-rays using Hybrid Deep Learning Models", Research on Biomedical Engineering 2021, vol. 37, pp. 687-695, Springer. 
 
 3. Manjunath Mulimani, Shashidhar G. Koolagudi. "Extraction of MapReduce-based Features from Spectrograms for Audio-based Surveillance", Digital Signal Processing 2019, vol. 87, pp. 1-9, Elsevier.
 
