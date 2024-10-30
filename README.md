@@ -159,6 +159,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://kocikowski.com/" target="_blank">★</a>
 <a href="https://vmooers.github.io/" target="_blank">★</a>
 <a href="https://jpfonseca.github.io/" target="_blank">★</a>
+<a href="https://dmitryryumin.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
