@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am pursuing a Ph.D. in Applied Mathematics at <a href='https://www.cornell.edu/'>Cornell University</a>, before which I completed my B.Sc. at <a href='https://www.mcgill.ca/'>McGill University</a> in Joint Honours
+I am pursuing a Ph.D. in Applied Mathematics at <a href='https://www.cornell.edu/'>Cornell University</a> where I am fortunate to be supervised by Adrian Lewis, before which I completed my B.Sc. at <a href='https://www.mcgill.ca/'>McGill University</a> in Joint Honours
 Mathematics and Computer Science. In 2020 I collaborated with
  <a href='https://www.math.mcgill.ca/hoheisel/'>Tim Hoheisel</a> and 
 <a href='https://friedlander.io/'>Michael P. Friedlander</a>
