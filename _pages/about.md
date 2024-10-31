@@ -5,7 +5,7 @@ permalink: /
 subtitle: Ph.D. Candidate at Cornell University's <a href='http://cam.cornell.edu/cam'>Center for Applied Mathematics</a>
 profile:
   align: right
-  image: new_prof_pic.jpg
+  image: new_prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   address: >
     <p>657 Rhodes Hall</p>
