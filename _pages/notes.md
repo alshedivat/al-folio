@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /teaching/
+permalink: /notes/
 title: Teaching 
 description: Teaching experience and materials.
 nav: true
