@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: Repositories
-description: Some recent projects available on Github.
+description: Some recent projects available on Github (...).
 nav: true
 nav_order: 3
 ---
