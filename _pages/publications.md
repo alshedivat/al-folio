@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: A collection of my published works and preprints. 
-years: [2022]
+years: [2022,2024]
 nav: true
 nav_order: 1
 ---
