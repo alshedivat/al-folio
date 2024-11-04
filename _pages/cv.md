@@ -12,9 +12,6 @@ View resume pdf [here](/assets/pdf/Ye%20Resume%20Public.pdf){:target="_blank"}.
 
 ### computer science research
 
-
-
-
 *equal contribution.
 
 "Language Models as Critical Thinking Tools: A Case Study of Philosophers".

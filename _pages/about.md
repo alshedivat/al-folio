@@ -23,7 +23,7 @@ social: true  # includes social icons at the bottom of the page
 
 I am an honors, Phi Beta Kappa, and Mary Gates scholar at the University of Washington studying philosophy and computer science, minoring in math and history.
 *Long term*, I want to build **AI tools for thought** (esp. for the textual social sciences).
-*Short term*, I want to build AI which can ask good proactive questions and introduce **new conceptual vocabulary**.
+*Short term*, I want to build AI which can proactively ask thought-provoking questions and introduce **new conceptual vocabulary**.
 My general intellectual interests include phenomenology, philosophy of science, and human-computer interaction.
 Please see my [research agenda](/agenda) and [CV](/cv) for more details.
 I am very fortunate to be advised by [Amy Zhang](https://homes.cs.washington.edu/~axz/){:target="_blank"}, [Ranjay Krishna](https://ranjaykrishna.com/index.html){:target="_blank"}, and [Rose Novick](https://www.rosenovick.com/){:target="_blank"}.
