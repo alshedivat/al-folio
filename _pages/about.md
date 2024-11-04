@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: #assets/img/perfil.jpg
+  image: #assets/img/perfil.jpg #Holaa
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Campus Politécnico</p>
