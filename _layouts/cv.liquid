@@ -53,12 +53,13 @@ layout: default
       <h1 class="post-title">
         {{ page.title }}
         {% if page.cv_pdf %}
-          {% if page.cv_pdf contains "http" %}
+          {% if page.cv_pdf contains 'http' %}
             <a
               href="{{ page.cv_pdf }}"
               target="_blank"
               rel="noopener noreferrer"
-              class="float-right">
+              class="float-right"
+            >
               <i class="fa-solid fa-file-pdf"></i>
             </a>
           {% else %}
@@ -66,7 +67,8 @@ layout: default
               href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
               target="_blank"
               rel="noopener noreferrer"
-              class="float-right">
+              class="float-right"
+            >
               <i class="fa-solid fa-file-pdf"></i>
             </a>
           {% endif %}
