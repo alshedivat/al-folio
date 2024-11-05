@@ -382,18 +382,6 @@
   selected = {true}
 }
 
-@misc{copik2022praas,
-  author = {Copik, Marcin and Calotoiu, Alexandru and Bruno, Rodrigo and Rethy, Gyorgy and Böhringer, Roman and Hoefler, Torsten},
-  title = {Process-as-a-Service: Elastic and Stateful Serverless with Cloud Processes},
-  abstract = {
-    Fine-grained and ephemeral functions power many new applications that benefit from elastic scaling and pay-as-you-use billing model with minimal infrastructure management overhead. To achieve these properties, Function-as-a-Service (FaaS) platforms disaggregate compute and state and, consequently, introduce non-trivial costs due to data locality loss, complex control plane interactions, and expensive communication to access state. We revisit the foundations of FaaS and propose a new cloud abstraction, cloud process, that retains all the benefits of FaaS while significantly reducing the overheads that result from the disaggregation. We show how established operating system abstractions can be adapted to provide powerful granular computing on dynamically provisioned cloud resources while building our Process as a Service (PraaS) platform. PraaS improves current FaaS by offering data locality, fast invocations, and efficient communication. PraaS delivers invocations up to 32 times faster and reduces communication overhead by up to 99%.
-  },
-  year = {2022},
-  bibtex_show = {True},
-  abbr = {arXiv},
-  pdf = {2022_praas_preprint.pdf}
-}
-
 @article{copik2022disaggregationsrc,
   title={Software Resource Disaggregation for HPC with Serverless Computing},
   author={Marcin Copik and Alexandru Calotoiu and Torsten Hoefler},
@@ -495,4 +483,37 @@ costing less than one cent per computation.
     bibtex_show = {2401.04552},
     abstract = {HPC and Cloud have evolved independently, specializing their innovations into performance or productivity. Acceleration as a Service (XaaS) is a recipe to empower both fields with a shared execution platform that provides transparent access to computing resources, regardless of the underlying cloud or HPC service provider. Bridging HPC and cloud advancements, XaaS presents a unified architecture built on performance-portable containers. Our converged model concentrates on low-overhead, high-performance communication and computing, targeting resource-intensive workloads from climate simulations to machine learning. XaaS lifts the restricted allocation model of Function-as-a-Service (FaaS), allowing users to benefit from the flexibility and efficient resource utilization of serverless while supporting long-running and performance-sensitive workloads from HPC.},
     pdf = {2024_xaas_preprint.pdf}
+}
+
+@inproceedings{copik2022praas,
+  author = {Copik, Marcin and Calotoiu, Alexandru and Rethy, Gyorgy and Böhringer, Roman and Bruno, Rodrigo and Hoefler, Torsten},
+  title = {Process-as-a-Service: Unifying Elastic and Stateful Clouds with Serverless Processes},
+  abstract = {Fine-grained and ephemeral functions power many new applications that benefit from elastic scaling and pay-as-you-use billing model with minimal infrastructure management overhead. To achieve these properties, Function-as-a-Service (FaaS) platforms disaggregate compute and state and, consequently, introduce non-trivial costs due to data locality loss, complex control plane interactions, and expensive communication to access state. We revisit the foundations of FaaS and propose a new cloud abstraction, cloud process, that retains all the benefits of FaaS while significantly reducing the overheads that result from the disaggregation. We show how established operating system abstractions can be adapted to provide powerful granular computing on dynamically provisioned cloud resources while building our Process as a Service (PraaS) platform. PraaS improves current FaaS by offering data locality, fast invocations, and efficient communication. PraaS delivers remote invocations up to 17 times faster and reduces communication overhead by up to 99\%.},
+  year = {2024},
+  bibtex_show = {True},
+  abbr = {SoCC},
+  pdf = {2024_praas_preprint.pdf},
+  year = {2024},
+  isbn = {9798400712869},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3698038.3698567},
+  html = {https://doi.org/10.1145/3698038.3698567},
+  doi = {10.1145/3698038.3698567},
+  booktitle = {Proceedings of the 2024 ACM Symposium on Cloud Computing},
+  keywords = {Serverless, Function-as-a-Service, Operating Systems},
+  location = {Redmond, WA, USA},
+  series = {SoCC '24}
+}
+
+@inproceedings{2025normalizationcgo, 
+  author = {Lukas Trümper and Philipp Schaad and Berke Ates and Alexandru Calotoiu and Marcin Copik and Torsten Hoefler},
+  title = {A Priori Loop Nest Normalization: Automatic Loop Scheduling in Complex Applications},
+  year = {2025}, 
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA}, 
+  booktitle = {Proceedings of the 23rd ACM/IEEE International Symposium on Code Generation and Optimization},
+  series = {CGO '25},
+  abbr = {CGO},
+  bibtex_show = {True}
 }
