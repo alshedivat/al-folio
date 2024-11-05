@@ -11,10 +11,10 @@
   contents:
     - title: PhD in Computer Science
       institution: ETH Zürich, Zürich, Switzerland
-      year: in progress
+      year: 2024
       description:
         - Core focus - high-performance solutions for serverless computing.
-        - Published three peer-reviewed publications and five preprints.
+        - Published eight first-author publications.
     - title: MSc in Simulation Sciences
       institution: RWTH Aachen University, Aachen, Germany
       year: 2017
@@ -71,6 +71,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - SIGHPC Travel Grant
     - year: 2023
       items: 
         - SIGHPC Travel Grant
