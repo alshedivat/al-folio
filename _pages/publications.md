@@ -5,7 +5,7 @@ title: publications
 description:
 nav: true
 nav_order: 3
-years: [2023,2022, 2021, 2020, 2019, 2018, 2017, 2016, 2014]
+years: [2025,2024,2023,2022, 2021, 2020, 2019, 2018, 2017, 2016, 2014]
 ---
 
 <!-- _pages/publications.md -->
@@ -16,6 +16,10 @@ html {
   scroll-padding-top: 100px;
 }
 </style>
+
+<!-- Bibsearch Feature -->
+
+{% include bib_search.liquid %}
 
 <div class="publications">
 
