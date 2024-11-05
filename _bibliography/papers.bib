@@ -517,3 +517,21 @@ costing less than one cent per computation.
   abbr = {CGO},
   bibtex_show = {True}
 }
+
+@inproceedings{2024dpuixpug,
+  author = {Rapha\"el Frantz and Jer\'onimo S\'anchez Garc\'ia and Marcin Copik and Idelfonso Tafur Monroy and Juan Jos\'e Vegas Olmos and Gil Bloch and Salvatore Di Girolamo},
+  title = {Protocol Buffer Deserialization DPU Offloading in the RPC Datapath},
+  abstract = {In the microservice paradigm, monolithic applications are decomposed into finer-grained modules invoked independently in a data-flow fashion.
+The different modules communicate through remote procedure calls (RPCs), which constitute a critical component of the infrastructure.
+To ensure portable passage of RPC metadata, arguments, and return values between different microservices,
+RPCs involve serialization/deserialization activities, part of the RPC data center tax.
+We demonstrate how RPC server logic, including \serdes{}, can be offloaded to Data Processing Units (DPUs).
+This effectively reduces the RPC data center tax on the host, where applications' business logic runs.
+While we focus on offloading Protocol Buffers deserialization used by the popular gRPC framework, our findings can be applied to other RPC infrastructures.
+Our experimental results demonstrate that RPC offloading performs similarly to traditional methods
+while significantly reducing CPU usage.},
+  year = {2024},
+  bibtex_show = {True},
+  abbr = {IXPUG @ SC},
+  pdf = {2024_ixpug_preprint.pdf}
+}
