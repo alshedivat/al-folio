@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+X-WR-CALNAME:BrightTALK Event
+PRODID:-//BrightTALK//NONSGML BrightTALK Event Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:https://www.brighttalk.com/webcast/19958/617119
+DTSTAMP:20240606T095431Z
+ORGANIZER:MAILTO:noreply@brighttalk.com
+LOCATION:BrightTALK
+URL:https://www.brighttalk.com/webcast/19958/617119?utm_campaign=add-t
+ o-calendar&utm_medium=calendar&utm_source=brighttalk-transact
+DTSTART:20240627T100000Z
+DTEND:20240627T105130Z
+SUMMARY:Live webcast: CISO Roundtable: Real-world Cybersecurity Strate
+ gies That Work
+DESCRIPTION:Click here to attend: https://www.brighttalk.com/webcast/1
+ 9958/617119?utm_campaign=add-to-calendar&utm_medium=calendar&utm_sourc
+ e=brighttalk-transact\n\nPresenter: Attila Török, CISO at GoTo; Allen 
+ Cox, Sr. Director, Security & IT at MyFitnessPal; Bob Stasio, CISO at 
+ Renaissance\n\nJoin us for this virtual CISO Roundtable "Real-world Cy
+ bersecurity Strategies That work". In this session, you'll get to hear
+  from three accomplished security leaders about different cybersecurit
+ y strategies that can be implemented today, including: \n- Zero trust 
+ principles and practices \n- Cloud security posture management tactics
+  \n- Building programs with security orchestration, automation, and re
+ sponse (SOAR) \n- Leveraging AI to enhance your security posture
+SEQUENCE:1719318919
+END:VEVENT
+END:VCALENDAR
