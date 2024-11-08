@@ -10,6 +10,7 @@ profile:
   image_cicular: true # crops the image to make it circular
   address: |
     <p>Pronouns: He/Him/His</p>
+    <p>Email: &lt;firstname&gt;@cs.wisc.edu</p>
 
 telugu_name: false # Native language name
 social: true  # includes social icons at the bottom of the page

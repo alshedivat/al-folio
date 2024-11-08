@@ -70,7 +70,7 @@ dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
 
 contact_note: >
-  For the best way to conact me, please check <a href="/contact">Contact</a>.
+  For the best way to conact me, please send me an email at &lt;firstname&gt;@cs.wisc.edu.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -233,7 +233,7 @@ scholar:
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview]
 
 # Maximum number of authors to be shown, other authors will be visible on hover, leave blank to show all authors
-max_author_limit: 3
+max_author_limit: 
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
