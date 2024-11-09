@@ -6,15 +6,9 @@ description: A curated collection of literature I recommend for reading / viewin
 nav: false
 ---
 
-<!-- Skip to a section: [AI](#ai), [Philosophy](#philosophy), [Film](#film), [Fiction](#fiction) -->
-
-<!-- --- -->
-
-<!-- <img src="\assets\img\reading_info.png" width="100%" /> -->
-
-<!-- --- -->
 
 ### Philosophy
+
 
 Essays and Articles
 - 
