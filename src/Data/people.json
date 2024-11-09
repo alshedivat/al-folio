@@ -42,6 +42,13 @@
         "current": false
     },
     {
+        "name": "Jiazhou Wu",
+        "position": "Ph.D Student",
+        "image": "jiazhou.png",
+        "homepage": "",
+        "current": true        
+    },
+    {
         "name": "Chowon Kang",
         "position": "Master's Student",
         "image": "chowon.png",
@@ -130,12 +137,26 @@
         "position": "Undergraduate Intern",
         "image": "junghoon.png",
         "homepage": "https://hanjnghoon.notion.site/hanjeonghoon-d02ebf87cb8d4a8c8afd4a522dde2e71?pvs=4",
-        "current": true
+        "current": false
     },
     {
         "name": "Jaehoon Park",
         "position": "Undergraduate Intern",
         "image": "jaehoon.png",
+        "homepage": "",
+        "current": false
+    },
+    {
+        "name": "Sungmin Na",
+        "position": "Intern",
+        "image": "sungmin.png",
+        "homepage": "",
+        "current": true
+    },
+    {
+        "name": "Sieun Kim",
+        "position": "Intern",
+        "image": "sieun.png",
         "homepage": "",
         "current": true
     }
