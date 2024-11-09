@@ -7,7 +7,8 @@ nav_order: 1
 ---
 
 
-An unorganized and continuously growing archive of quotes, ideas, and works that have profoundly influenced my thohught across a wide range of topics, including: the nature of philosophy (and of "nature"), personal and political ethics, (anti-)metaphysics, how we should design AI, the social structure of science and knowledge, "the meaning of *my* life".
+An unorganized and continuously growing archive of quotes, ideas, and works that have profoundly influenced my thought across a wide range of topics, including: the nature of philosophy (and of "nature"), personal and political ethics, (anti-)metaphysics, how we should design AI, the social structure of science and knowledge, "the meaning of *my* life".
+I think this may be one of the best ways to understand how I think, and I hope you find something interesting here.
 Continuously under construction.
 
 *Collective systems of meaning reveal important structural and geneological features of the (social) world. This entails a sort of "pragmatist' philosophical view, pragmatically speaking.*
