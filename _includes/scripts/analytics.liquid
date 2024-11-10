@@ -30,3 +30,19 @@
     data-code="{{ site.pirsch_analytics }}"
   ></script>
 {% endif %}
+{% if site.enable_openpanel_analytics %}
+  <script>
+    window.op =
+      window.op ||
+      function (...args) {
+        (window.op.q = window.op.q || []).push(args);
+      };
+    window.op('init', {
+      clientId: '{{ site.openpanel_analytics }}',
+      trackScreenViews: true,
+      trackOutgoingLinks: true,
+      trackAttributes: true,
+    });
+  </script>
+  <script src="https://openpanel.dev/op1.js" defer async></script>
+{% endif %}
