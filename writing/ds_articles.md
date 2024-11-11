@@ -14,6 +14,8 @@ My [articles](https://andre-ye.medium.com/){:target="_blank"} range widely in to
 
 These days, I don't write so many articles due to the competing influence of other work.
 
+| This writing was produced a long time ago and may not reflect my current views. |
+
 Perhaps the highlight of my short blog/article writing career is [this article](https://medium.com/analytics-vidhya/you-dont-understand-neural-networks-until-you-understand-the-universal-approximation-theorem-85b3e7677126){:target="_blank"}, which kicked off a big debate between Steven Pinker, Yann LeCun, Francois Chollet, Gary Marcus, and so on in Twitterverse and beyond. You can find coverage of the spectacle on [AI Coffee Break](https://www.youtube.com/watch?v=-GH9vW5FWUs){:target="_blank"}, [Gowri Shankar's blog](https://gowrishankar.info/blog/deep-learning-is-not-as-impressive-as-you-think-its-mere-interpolation/){:target="_blank"}, [ML Street Talk](https://www.youtube.com/watch?v=86ib0sfdFtw){:target="_blank"}, and [Yann LeCun's Twitter](https://twitter.com/ylecun/status/1409940043951742981){:target="_blank"}.
 
 View a selection of my articles below, organized by topic - chosen because of their popularity, my personal interest, or both. (These links are configured to bypass the Medium subscription paywall.)
