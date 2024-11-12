@@ -41,8 +41,8 @@ and [Dr Mateusz Nowak](https://www.iitis.pl/en/person/mnowak).
 
 ## Contact
 
-If you are interested in collaborations, working with us on research ideas, using our open source software,
-or you have any questions about our papers - feel free to send an email!
+If you are interested in collaborations, working with us on research ideas, using our open-source software,
+If you have any questions about our papers, feel free to contact me by email!
 
 ETH students can find the thesis topics on [SPCL Website](https://spcl.inf.ethz.ch/SeMa/). This list is not exhaustive and not always up to date,
 and you can always reach out to me with your own ideas.
