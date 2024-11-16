@@ -24,6 +24,7 @@ Theorizing AI Tools for Thought
 - ["Antagonistic AI"](https://arxiv.org/pdf/2402.07350.pdf){:target="_blank"}
 - ["Language Models as Critical Thinking Tools: A Case Study of Philosophers"](https://arxiv.org/abs/2404.04516){:target="_blank"}
 - ["Building Machines that Learn and Think with People"](https://arxiv.org/abs/2408.03943){:target="_blank"}
+- ["Imagining and building wise machines: The centrality of AI metacognition"](https://arxiv.org/abs/2411.02478){:target="_blank"}
 
 Building AI Tools for Thought
 - TBD.
