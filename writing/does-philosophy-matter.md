@@ -1,13 +1,16 @@
 ---
 layout: page
 permalink: /writing/why-philosophy
-title: Who are you to study philosophy?
+title: Why philosophy?
 description:
 nav: false
 ---
 
 
-## Commentary: Who Are You to Study Philosophy?
+<!-- insert vertical break -->
+
+
+### Commentary: Who Are You to Study Philosophy?
 
 *Garden of Ideas*, Fall 2024 edition.
 
@@ -55,7 +58,7 @@ In those little gaps of solitude, let us ask ourselves the uncomfortable questio
 
 ---
 
-## Car Salespeople
+### Car Salespeople
 
 2022.
 
@@ -75,7 +78,7 @@ We all behave as if we have answers to philosophical questions – questions whi
 
 ---
 
-## Philosophy: Who Needs It? Ayn Rand
+### Philosophy: Who Needs It? Ayn Rand
 
 Delivered at West Point New York, March 6, 1974.
 I don't endorse Ayn Rand's philosophical and political system, and I don't even think the writing here is always true, but I do think it is clear, effective, and interesting.
@@ -257,7 +260,7 @@ mind, Emerson. They might say: *But can't one compromise and borrow
 different ideas from different philosophies according to the expediency of the 
 moment?* They got it from Richard Nixon -- who got it from William James.
 
-***Note:** Although the specific attribution of ideas to philosophers in this lecture is dubious in my opinion, the general point rings true.*
+<!-- ***Note:** Although the specific attribution of ideas to philosophers in this lecture is dubious in my opinion, the general point rings true.* -->
 
 Now ask yourself: if you are not interested in abstract ideas, why do you (and 
 all men) feel compelled to use them? The fact is that abstract ideas are 

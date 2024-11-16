@@ -6,7 +6,7 @@ nav_order: 10
 dropdown: true
 children: 
     - title: Who are you to do philosophy?
-      permalink: /writing/why_philosophy
+      permalink: /writing/why-philosophy
     - title: Philosophy
       permalink: /writing/philosophy
     - title: divider
