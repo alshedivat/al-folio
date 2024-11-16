@@ -81,8 +81,6 @@ We all behave as if we have answers to philosophical questions – questions whi
 ### Philosophy: Who Needs It? Ayn Rand
 
 Delivered at West Point New York, March 6, 1974.
-I don't endorse Ayn Rand's philosophical and political system, and I don't even think the writing here is always true, but I do think it is clear, effective, and interesting.
-
 <!-- <center>
     <img src="https://images.unsplash.com/photo-1494022299300-899b96e49893?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
 </center>
