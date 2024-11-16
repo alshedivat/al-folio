@@ -1,10 +1,10 @@
----
+<!-- ---
 layout: page
 permalink: /reading/listening_list
 title: Listening List
 description: A curated collection of incredible music.
 nav: false
----
+--- -->
 
 3 selections each from 9 genres: [cinema](#cinema), [soft rock](#soft-rock), [alt rock](#alt-rock), [mainstream rock](#mainstream-rock), [Pink Floyd](#pink-floyd), [pop](#pop), [metal](#metal), [rap](#rap), [classical](#classical)
 
