@@ -50,6 +50,7 @@ Books
 ### History
 - ["The Problematic Greek Miracle"](https://muse.jhu.edu/article/791990/summary){:target="_blank"}, Reviel Netz
 - ["Reinventing a Region (1955-22): Visions of the Middle East"](https://www.cambridge.org/core/journals/israel-law-review/article/reinventing-a-region-191522-visions-of-the-middle-east-in-legal-and-diplomatic-texts-leading-to-the-palestine-mandate/82D514EAEB3D893837FC79001AD7D807){:target="_blank"}, Karin Loevy
+- ["Against forgetting: An interview with Eyal Sivan"](https://www.aljazeera.com/opinions/2012/11/12/against-forgetting-an-interview-with-eyal-sivan/){:target="_blank"}, Eyal Sivan
 
 ---
 
@@ -84,3 +85,5 @@ Documentary
 - *Crime and Punishment*, Fyodor Dostevsky
 - *Never Let Me Go*, Kazuo Ishiguro
 - *The Dinner*, Herman Koch
+- *A Clockwork Orange*, Anthony Burgess
+- *Brave New World*, Aldous Huxley

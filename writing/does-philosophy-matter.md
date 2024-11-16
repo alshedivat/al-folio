@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /writing/studying-philosophy
+permalink: /writing/why-philosophy
 title: Who are you to study philosophy?
 description:
 nav: false
