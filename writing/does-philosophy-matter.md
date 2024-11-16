@@ -1,14 +1,63 @@
 ---
 layout: page
-permalink: /writing/does-philosophy-matter
-title: Does philosophy matter?
-description: A brief essay on what I think matters about philosophy.
+permalink: /writing/studying-philosophy
+title: Who are you to study philosophy?
+description:
 nav: false
 ---
 
 
-*Letter to the editor, The Daily*.
-(Perpetual work in progress -- major update forthcoming.)
+## Commentary: Who Are You to Study Philosophy?
+
+*Garden of Ideas*, Fall 2024 edition.
+
+
+In the opening to his final book *What is Philosophy?*, the great thinker Gilles Deleuze writes these heavy words:
+
+> “The question ‘what is philosophy?’ can perhaps be posed only late in life, with the arrival of old age and the time for speaking concretely. It is a question posed in a  moment of quiet restlessness, at midnight, when there is no longer anything to ask. It was asked before; it was always being asked, but too indirectly or obliquely; the question was too artificial, too abstract. Instead of being seized by it, those who asked the question set it out and controlled it in passing. They were not sober enough. There was too much desire to do philosophy to wonder what it was, except as a stylistic exercise. That point of nonstyle where one can finally say, ‘What is it I have been doing all my life?’ had not been reached.”
+
+Four years later, on 4 November 1995, Deleuze jumped out of his Parisian apartment, to his death.
+
+Well, I think the time — or at least, *a* time — for speaking concretely has come for me. I am at the end of one of my lives — I’m a senior, finished with my philosophy degree, and nearly finished with my computer science degree. I am seized by the question *“What is it I have been doing all my life?”* but just as much seized by the question *“What is it that I will do with my life?”* And insofar as philosophy has been central towards understanding and living my life, from that moment of quiet midnight restlessness does surge the question *“What is philosophy?”* I have some thoughts on these questions, and I would like to share them. I just ask that the reader acknowledges firstly that these are my thoughts principally for myself, and I do not claim to preach to or impose upon others; secondly that these thoughts are partial and not whole, and are sticky to contextualization and caveats; and thirdly that I am young and stupid, susceptible to the naivete that accumulated experience erodes, yet attracted to the prose of someone who is old and wise, or at the very least thinks they are. Thus everything that I say is defeasible; even I do not sometimes believe what my recently past selves have written. But the question *“what is philosophy?”* is urgent, and I will not wait until near my death to try and answer it.
+
+**Who Are You to Study Philosophy?**
+This is a violent question. It’s clearly very exclusionary, as if to say: *Why do you think you belong to philosophy? What right do you have to study philosophy? Justify your reason for entering the realm of philosophy or thou shall not pass!* For pedagogical reasons, to make all feel welcome in philosophy classrooms, instructors want to spend more time talking about the “content of philosophy” and less about doubting why students should study philosophy at all. For disciplinarily existential reasons, philosophers want to emphasize that (near-)universally positive aspects of philosophy, as well as the instrumental benefits of philosophical training (e.g., philosophy can help us analyze the world, it helps us become clearer thinkers, etc.). Philosophy has enough of an “elitism” image: do we really need to push even interested students away? Philosophical education says, in a very Christian way:
+
+> “Come unto me, all ye that labor and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me; for I am meek and lowly in heart: and ye shall find rest unto your souls. For my yoke is easy, and my burden is light” (Matthew 11:28-30).
+
+So this violent question — *Who are you to study philosophy?* — is very repressed in our philosophical education and in the minds of young philosophers.
+
+I think one of the symptoms of this repression is that it gives rise to “bourgeois philosophy.” That word “bourgeois” has many connotations, many of which are useful (which is why I chose the word) and some that are not. What I mean by “bourgeois philosophy” is what Deleuze describes as “stylistic exercise” — abstract, indulgent, highly intellectual philosophy, engaging in thoughtful discussion striving towards “truth” formed by knowing and counterposing lots of names for philosophical positions — the aesthetic of sophistry (getting into the fray of things, making arguments, convincing people) and the integrity of Socrates (thoughtfulness, respect, concern for truth or truth-adjacent values). It’s bourgeois in that it has the space to be respectable, to recognize individuals’ positions (“intellectual property”) in discussions, to be concerned with values. The bourgeois philosophy I speak of includes not only the obvious candidates like Plato and German idealism but also the analytic curriculum, inclusive atmospheres, survey-styled structure of our philosophy classrooms. And this is excellent. I love bourgeois philosophy. It’s a great context to learn in. It should not be totally abandoned.
+
+But my concern with bourgeois philosophy is that, in depending on and facilitating the repression of that ever-important question *“Who are you to study philosophy?”*, it also represses the answer: *“Because I am a troubled human with problems to solve.”* When we are interpellated into the roles of bourgeois philosophy — e.g. “equally valid contributors in the classroom”; Socrates and his interlocutor/victim — we tend to lose attachment to our visceral, situated, lived, restless-at-midnight problems. These problems can be existential — *What am I doing with my life? What will I be when I die? How should I make X decision?* They can be ethical — *Should I vote for Washington Initiative Measure No. 2066? What should I do, if anything, about Israel/Palestine? Should I feel bad when I eat meat, and should I stop?* They can be about language — *We keep on talking past each other, what is meaning? I was called a slur; what should I do about it? And what really is a slur anyway?* — or science — *How can we be sure about our scientific knowledge? It feels like scientific progress isn’t progressing; what exactly is scientific progress?* But I don’t think we can replace, for example, the ethical question of what to do about Israel/Palestine, about abortion, etc., with the ethical questions of why I should save a child drowning in a lake, the trolley problem, and the other such problems that analytic ethics have offered. Certainly, they may be useful tools. But shouldn’t we be more preoccupied with why these tools are useful to our problems, like Philippa Foot was when she introduced the trolley problem to think about abortion, than with the tools themselves? On ethics, I appeal to the Queen of Queens, Iris Murdoch:
+
+> “…there are ‘moral facts’ in the sense of moral interpretations of situations where the moral concept in question determines what the situation is, and if the concept is withdrawn then we are not left with the same situation or the same facts. In short, if moral concepts are regarded as deep moral configurations of the world, rather than as lines drawn round separable factual areas, then there would be no facts ‘behind them’ for them to be erroneously defined in terms of. There is nothing sinister about this view; freedom here will consist, not in being able to lift the concept off the otherwise unaltered facts and lay it down elsewhere, but in being able to ‘deepen’ or ‘reorganize’ the concept or change it for another one. On such a view, … moral freedom looks more like a mode of reflection which we may have to achieve, and less like a capacity to vary our choices which we have by definition.”
+
+And on matters like philosophy of science, philosophy of language, etc., shouldn’t we first become deeply acquainted with the problems that give rise to these fields — e.g., experience the struggle of introductory physics, the (in?)congruence between classical and quantum mechanics, trying to learn another language, getting called a slur / misgendered / verbally harassed — and then read Popper, Kuhn, (Wimsatt), Frege, Russell, (Butler)? Rather than vice versa, where the theories are learnt and then some kind of homage is paid to the problems it could maybe help us with? So let our philosophizing be about the freedom for reflection, in Murdoch’s words, with attachment to our problems, and not the autopoietic study of capital-F Facts and capital-T Theories. When we come across a choice between philosophical positions, let us ask the methodological question *“what is the deciding criterion immanent to the problem?”* and never forget nor cease revising our answer to the question *“what is our problem?”* We just might realize, as I have many times in the past, that this kind of consciousness resolves many distinctions without differences (relative to our problems), and reframes conversations in much more productive directions.
+
+Israeli filmmaker Eyal Sivan says something very insightful about documentaries:
+
+> “The documentary tradition is one that gives voice to the victim. For a long time, I have wondered about the function of the victim and to what extent facing the victim is, in fact, a redeeming act. I would say it’s almost a Christian situation, where you have a victim that is suffering for you [the spectator] and through his suffering he redeems the spectator and more: He says, you are human because you feel my suffering. So it comforts the spectator, [affirming his] position of being the ‘good one.’ However, I am interested in interrogating the spectator, to ask him the question: What would you do? What are you?”
+
+Isn’t bourgeois philosophy really very similar, in giving voice to the “victim-philosophers of problems” while redeeming the student for hearing them out, for feeling out their arguments, while repressing the problems facing the student — *What would you do? What are you? Who are you to study philosophy?*
+
+The question *Who am I to study philosophy?* forces me to understand my problems. And if I do not have a problem X, then do I really need to philosophize about X? Hume appears to suggest that we do not:
+
+> “I dine, I play a game of backgammon, I converse, and am merry with my friends; and when after three or four hours’ amusement, I would return to these speculations, they appear so cold, and strain’d, and ridiculous, that I cannot find in my heart to enter into them any farther.”
+
+We do not always need to philosophize. Philosophy is not the frame by which we need to approach all things in the world, or even all problems. Read some history, study some physics, travel and experience the Other, be among friends. The lurking Platonist in us looks suspiciously at this view and spits, “these are the dirty ways of sophists”; “the unexamined life is not worth living”; “philosophy is king.” But it is really through living that we understand what is worth examining (that is, genuine problems). The problems that matter will confront us at the “right time” in life. The world that we live in, and the World that is I, has no shortage of problems. Philosophy is a powerful tool — but it does not have to be and is not, all-welcoming, all-embracing, all-applicable, warmly inclusive. Re-introduce the Other into philosophy that we encountered when we were all, at some point, the Other to philosophy — struggle with it, love it, abandon it, pick a fight with it. The problems will guide us on how to use philosophy.
+
+I close with the words of Deleuze:
+
+> “We sometimes go on as though people can’t express themselves. In fact they’re always expressing themselves… it’s not a problem of getting people to express themselves but of providing little gaps of solitude and silence in which they might eventually find something to say. Repressive forces don’t stop people expressing themselves but rather force them to express themselves; What a relief to have nothing to say, the right to say nothing, because only then is there a chance of framing the rare, and ever rarer, thing that might be worth saying.”
+
+In those little gaps of solitude, let us ask ourselves the uncomfortable question: *Who am I to study philosophy — here, now?* And let us speak only when we have posited the answer.
+
+---
+
+## Car Salespeople
+
+2022.
 
 When I asked my ten-year-old cousin what he thought of the existence of the number zero, he responded bluntly (to my chagrin): “philosophy is stupid, no one agrees and nothing happens.” Although dressed in more docile clothing, this is fundamentally the same objection that I get often from my peers and philosophy faculty from their students (“oh, you study philosophy… why? What’s the point exactly?”). 
 
@@ -26,15 +75,15 @@ We all behave as if we have answers to philosophical questions – questions whi
 
 ---
 
-### Philosophy: Who Needs It? Ayn Rand
+## Philosophy: Who Needs It? Ayn Rand
 
 Delivered at West Point New York, March 6, 1974.
 I don't endorse Ayn Rand's philosophical and political system, and I don't even think the writing here is always true, but I do think it is clear, effective, and interesting.
 
-<center>
+<!-- <center>
     <img src="https://images.unsplash.com/photo-1494022299300-899b96e49893?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2340&q=80" width="100%" />
 </center>
-<br>
+<br> -->
 
 Since I am a fiction writer, let us start with a short story. 
 

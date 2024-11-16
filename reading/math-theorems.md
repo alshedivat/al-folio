@@ -6,8 +6,6 @@ description: A collection of nifty, interesting, elegant, cool math results.
 nav: false
 ---
 
-A collection of nifty, interesting, elegant, and/or cool math results.
-
 <!-- A collection of nifty, interesting, elegant, cool math results.
 
 - [Real Analysis and Calculus](#real-analysis-and-calculus)
