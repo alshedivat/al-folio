@@ -12,6 +12,18 @@
     "recording": ""
   },
   {
+    "title": "Identify Design Problems Through Questioning: Exploring Role-playing Interactions with Large Language Models to Foster Design Questioning Skills",
+    "author": "Hyunseung Lim, Dasom Choi, Hwajung Hong",
+    "venue": "CSCW Poster 2024",
+    "year": 2024,
+    "field": ["hai"],
+    "type": "poster",
+    "pdf": "hyunseung2024cscw",
+    "doi": "https://dl.acm.org/doi/abs/10.1145/3678884.3681912",
+    "bibtex": "hyunseung2024cscw",
+    "recording": ""
+  },
+  {
     "title": "Beyond Swipes and Scores: Investigating Practices, Challenges and User-Centered Values in Online Dating Algorithms",
     "author": "Chowon Kang, Yoonseo Choi, Yongjae Sohn, Hyunseung Lim, Hwajung Hong",
     "venue": "CSCW 2024",
@@ -21,18 +33,6 @@
     "pdf": "chowon2024",
     "doi": "https://dl.acm.org/doi/10.1145/3687025",
     "bibtex": "chowon2024",
-    "recording": ""
-  },
-  {
-    "title": "Identify Design Problems Through Questioning: Exploring Role-playing Interactions with Large Language Models to Foster Design Questioning Skills",
-    "author": "Hyunseung Lim, Dasom Choi, Hwajung Hong",
-    "venue": "CSCW Poster 2024",
-    "year": 2024,
-    "field": ["hai"],
-    "type": "poster",
-    "pdf": "",
-    "doi": "https://arxiv.org/abs/2409.07178",
-    "bibtex": "",
     "recording": ""
   },
   {
@@ -93,6 +93,18 @@
     "pdf": "bogoan2024",
     "doi": "https://dl.acm.org/doi/full/10.1145/3613904.3642357",
     "bibtex": "bogoan2024",
+    "recording": ""
+  },
+  {
+    "title": "Together we turn uncertainty into action: understanding the role of artificial intelligence in supporting the financial concerns of older adults",
+    "author": "Yubin Choi, Dasom Choi, Hwajung Hong",
+    "venue": "CSCW Poster 2023",
+    "year": 2023,
+    "field": ["hai"],
+    "type": "poster",
+    "pdf": "yubin2023",
+    "doi": "https://dl.acm.org/doi/abs/10.1145/3584931.3607018",
+    "bibtex": "yubin2023",
     "recording": ""
   },
   {
