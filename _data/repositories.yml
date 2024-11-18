@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Animesh-Chourey
 
-repo_description_lines_max: 2
+# repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Animesh-Chourey/ROS-Human-Robot-Interaction
+  - Animesh-Chourey/BusinessAnalysis_GenAI
+  - Animesh-Chourey/Deeper-Networks-for-Image-Classification
+  - Animesh-Chourey/Face-Recognition-using-Eigenfaces
+  - Animesh-Chourey/Fashion-MNIST-Classification
+  - Animesh-Chourey/Image-classification-using-a-Bag-of-Words-Model
+  - Animesh-Chourey/Pre-trained_Transformers-Information_Extraction-and-Dialogue_System
