@@ -17,6 +17,8 @@ children:
     #   permalink: /reading/reading_list
     # - title: Listening List
     #   permalink: /reading/listening_list
+    - title: History, Listed
+      permalink: /reading/history-listed
     - title: Cool Math Results
       permalink: /reading/math-results
     # - title: Basic Propositions
