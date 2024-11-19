@@ -74,3 +74,6 @@ Coming.
 
 **History of Science**
 Coming.
+
+**History of Philosophy**
+Coming.
