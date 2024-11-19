@@ -7,7 +7,7 @@ nav: false
 ---
 
 Simply listing events and observing when they happen. We often learn about history topically, but they coincide in time.
-The aim of this list is to mesh together cognitively partitioned historical events.
+The aim of this list is to forcefully mesh together many cognitively partitioned historical events, at the expense of contextualization.
 These lists, of course, reflect my own biases and interests.
 Work in progress.
 
