@@ -11,6 +11,7 @@ The aim of this list is to forcefully mesh together many cognitively partitioned
 These lists, of course, reflect my own biases and interests.
 Work in progress.
 
+---
 
 **1968** (1965 - 1973), in no particular order
 
@@ -68,10 +69,11 @@ Work in progress.
 - 1973: US ends draft for Vietnam War
 - 1973: Pinochet overthrows Allende with U.S. support, establishing military dictatorship in Chile
 
+---
 
 **Israel-Palestine**
 
-*Under construction*
+*Under construction. Will be made much more detailed and fair.*
 
 - 63 BCE: Roman conquest of Judea.  
 - 70 CE: Romans destroy the Second Temple; Jewish diaspora begins.  
@@ -139,10 +141,12 @@ Work in progress.
 - 1981: Israel annexes the Golan Heights.  
 - 1987: First Intifada begins, a Palestinian uprising against Israeli occupation.
 
-
+---
 
 **History of Science**
 Coming.
+
+---
 
 **History of Philosophy**
 Coming.
