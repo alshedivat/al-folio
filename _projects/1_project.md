@@ -3,7 +3,7 @@ layout: page
 title: ethics of technology
 description: AI ethics and ethics of technology
 img: assets/img/tech-ethics.jpg
-importance: 1
+importance: 4
 category: projects
 ---
 <div class="row justify-content-sm-center">
