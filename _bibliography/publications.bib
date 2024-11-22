@@ -17,6 +17,8 @@
 @STRING{ECCV_SHORT = {ECCV}}
 @STRING{NATURE_PROTOCOLS = {Nature Protocols}}
 @STRING{NATURE_PROTOCOLS_SHORT = {Nat Protoc}}
+@STRING{NATURE_COMMUNICATIONS = {Nature Communications}}
+@STRING{NATURE_COMMUNICATIONS_SHORT = {Nat Commun}}
 
 @misc{ferber2024trialmatching,
   title     = {End-To-End Clinical Trial Matching with Large Language Models},
@@ -63,18 +65,26 @@
   keywords  = {preprint}
 }
 
-@misc{ferber2024incontext,
+@article{ferber2024incontext,
   title     = {In-context learning enables multimodal large language models to classify cancer pathology images},
   author    = {Ferber, Dyke and W\"{o}lflein, Georg and Wiest, Isabella C. and Ligero, Marta and Sainath, Srividhya and Laleh, Narmin Ghaffari and El Nahhas, Omar S. M. and Müller-Franzes, Gustav and J\"{a}ger, Dirk and Truhn, Daniel and Kather, Jakob Nikolas},
-  year      = {2024},
   author+an = {2=highlight},
-  note      = UNDERREVIEW,
-  url       = {https://arxiv.org/abs/2403.07407},
-  pdf       = {https://arxiv.org/pdf/2403.07407.pdf},
+  year      = {2024},
+  month     = {11},
+  day       = {21},
+  journal   = NATURE_COMMUNICATIONS,
+  abbr      = NATURE_COMMUNICATIONS_SHORT,
+  volume    = {15},
+  number    = {1},
+  pages     = {10104},
+  arxiv     = {2403.07407},
+  doi       = {10.1038/s41467-024-51465-9},
+  url       = {https://www.nature.com/articles/s41467-024-51465-9},
+  pdf       = {https://www.nature.com/articles/s41467-024-51465-9.pdf},
   code      = {https://github.com/Dyke-F/GPT-4V-In-Context-Learning},
   preview   = {multimodal-incontext.png},
   abstract  = {Medical image classification requires labeled, task-specific datasets which are used to train deep learning networks de novo, or to fine-tune foundation models. However, this process is computationally and technically demanding. In language processing, in-context learning provides an alternative, where models learn from within prompts, bypassing the need for parameter updates. Yet, in-context learning remains underexplored in medical image analysis. Here, we systematically evaluate the model Generative Pretrained Transformer 4 with Vision capabilities (GPT-4V) on cancer image processing with in-context learning on three cancer histopathology tasks of high importance: Classification of tissue subtypes in colorectal cancer, colon polyp subtyping and breast tumor detection in lymph node sections. Our results show that in-context learning is sufficient to match or even outperform specialized neural networks trained for particular tasks, while only requiring a minimal number of samples. In summary, this study demonstrates that large vision language models trained on non-domain specific data can be applied out-of-the box to solve medical image-processing tasks in histopathology. This democratizes access of generalist AI models to medical experts without technical background especially for areas where annotated data is scarce.},
-  keywords  = {preprint}
+  keywords  = {journal,paper}
 }
 
 @inproceedings{elnahhas2024joint,
@@ -85,8 +95,12 @@
   month     = {10},
   booktitle = MICCAI,
   abbr      = MICCAI_SHORT,
-  url       = {https://arxiv.org/abs/2403.03891},
-  pdf       = {https://arxiv.org/pdf/2403.03891.pdf},
+  publisher = {Springer Nature Switzerland},
+  pages     = {254--262},
+  arxiv     = {2403.03891},
+  doi       = {10.1007/978-3-031-72083-3_24},
+  url       = {https://link.springer.scom/chapter/10.1007/978-3-031-72083-3_24},
+  pdf       = {https://papers.miccai.org/miccai-2024/paper/1368_paper.pdf},
   code      = {https://github.com/Avic3nna/joint-mtl-cpath},
   preview   = {joint-mtl.png},
   abstract  = {Deep Learning (DL) can predict biomarkers directly from digitized cancer histology in a weakly-supervised setting. Recently, the prediction of continuous biomarkers through regression-based DL has seen an increasing interest. Nonetheless, clinical decision making often requires a categorical outcome. Consequently, we developed a weakly-supervised joint multi-task Transformer architecture which has been trained and evaluated on four public patient cohorts for the prediction of two key predictive biomarkers, microsatellite instability (MSI) and homologous recombination deficiency (HRD), trained with auxiliary regression tasks related to the tumor microenvironment. Moreover, we perform a comprehensive benchmark of 16 approaches of task balancing for weakly-supervised joint multi-task learning in computational pathology. Using our novel approach, we improve over the state-of-the-art area under the receiver operating characteristic by +7.7\% and +4.1\%, as well as yielding better clustering of latent embeddings by +8\% and +5\% for the prediction of MSI and HRD in external cohorts, respectively.},
