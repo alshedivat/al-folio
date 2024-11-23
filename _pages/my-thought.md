@@ -62,6 +62,7 @@ Continuously under construction.
 - "We decided not to ignore the present or forget the past. We’re trying to set them aside and figure out together, not how to make the past better but how to make the future better. So, we created a bubble. We aren’t out of touch at all. Not from what happened to the Jews or the Arabs. Not from what is happening now. But, we’re applying maximum force to try and get this process moving." -- Ron Pundak, Israeli negotiator in the 1992 Oslo Accords
 - "We know not through our intellect but through our experience." -- Maurice Merleau-Ponty.
 - "Geworfenheit" / "thrownness", Martin Heidegger. We are thrown into the world, and must make sense of it. We have to begin (life and inquiry) with the world as it is, not as we would like to imagine it to be.
+- "To everything there is a season, and a time to every purpose under Heaven; a time to be born and a time to die; a time to kill and a time to heal; a time to weep and a time to laugh; a time to love and a time to hate; a time for war and a time of peace. Ladies and gentlemen, the time for peace has come." -- Yitzhak Rabin, quoting Kohelet / Ecclesiastes, at the 1993 Signing of the Oslo Accords.
 
 
 *On immanence: skepticism of transcendentalism, not answering questions, conatus, auto-poiesis, internally consistent systems of meaning.*
