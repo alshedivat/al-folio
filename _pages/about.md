@@ -23,3 +23,4 @@ I earned my first Master’s degree in __Chemical Engineering__ from the __Unive
 Over the past year, through work and academic opportunities, I have cultivated a strong interest in emerging technologies, exploring areas such as __AI learning algorithms__, __machine learning applications__, and __natural language processing__. In 2022, I embarked on my second Master’s program at the __Georgia Institute of Technology__, with an anticipated graduation in 2025.
 
 I am fluent in both __English__ and __Mandarin Chinese__.
+
