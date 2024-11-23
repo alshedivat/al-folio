@@ -25,32 +25,40 @@
   "work": [
     {
       "name": "Walmart Canada",
+      "location": "Mississauga ON",
       "position": "Data Engineer Analyst",
       "url": "http://walmart.ca",
-      "startDate": "2024-7-15",
+      "startDate": "2024",
       "endDate": "",
-      "summary": "Collaborated in an agile data engineering team to deliver high-quality work in a fast-paced, project-driven environment. Leveraged GCP BigQuery to analyze database structures and process up to 70 million daily records, optimizing query performance and reducing costs. Built complex SQL and Python functions for data processing and standardization, boosting team efficiency by 35%. Supported marketing efforts by improving ad ROI by 30% through enhanced customer targeting. Executed ETL processes to provide data for BI dashboards, enabling daily tracking by stakeholders. Improved data reliability through quality checks and optimized pipelines, cutting processing time and costs by 90%. Developed predictive models that increased revenue by 5% and contributed to data-driven KPIs for business strategy and M&A decisions.",
+      "summary": "Based in Mississauga, Ontario, supported data science, engineering, and analytics functions within a dynamic data engineering team",
       "highlights": [
-        "Agile data engineering team",
-        "High-quality work",
-        "Fast-paced, project-driven environment",
-        "GCP BigQuery",
-        "70 million daily records",
-        "Query performance optimization",
-        "Cost reduction",
-        "SQL and Python functions",
-        "Data standardization",
-        "35% efficiency boost",
-        "Ad ROI improvement (30%)",
-        "ETL processes",
-        "BI dashboards",
-        "Data reliability",
-        "Pipeline optimization (90% reduction)",
-        "Predictive models",
-        "5% revenue increase",
-        "Data-driven KPIs",
-        "M&A decisions"
-      ]
+        "Collaborated in an agile data engineering team, delivering high-quality work in a fast-paced, project-driven environment.",
+        "Leveraged GCP BigQuery for analyzing database structures and processing large-scale data, optimizing queries to reduce costs.",
+        "Developed SQL and Python functions for data transformation and routine operations, implemented via Airflow to increase efficiency and standardize processes.",
+        "Supported marketing initiatives with customer targeting personas and ad tracking, improving ROI by enhancing data accuracy.",
+        "Executed ETL processes to deliver data for BI dashboards, enabling stakeholders to track key metrics daily.",
+        "Improved data quality and reliability by implementing monitoring systems and optimization techniques.",
+        "Enhanced data pipelines, reducing processing time and costs while delivering timely reports.",
+        "Developed predictive models that supported revenue growth and aligned with business KPIs for strategy and decision-making."
+      ]      
+    },
+    {
+      "name": "Dane Creek Capital Corp.",
+      "location": "Mississauga ON",
+      "position": "Data Engineer",
+      "url": "https://www.linkedin.com/company/dane-creek-capital-corp./posts/?feedView=all",
+      "startDate": "2021",
+      "endDate": "2024",
+      "summary": "Specialized in leveraging data visualization, pipeline architecture, and predictive modeling to drive insights for B2C, B2B, and logistics-focused operations.",
+      "highlights": [
+        "Designed and deployed an open-source dashboard using Metabase, modernizing data visualization and reducing software licensing costs by 40%.",
+        "Architected a centralized data pipeline on Airflow, hosted by GCP, integrating CRM, ERP, and analytics sources, reducing report generation time and improving data accuracy.",
+        "Developed predictive models using machine learning, Python, SQL, and BigQuery, increasing customer retention with churn prediction and product recommendation systems.",
+        "Created interactive dashboards using Tableau, Looker Studio, and Metabase, enhancing data literacy and enabling faster responses to market trends.",
+        "Designed database systems and user-friendly applications, reducing manual data entry and decreasing data-related errors by automating validation and quality checks.",
+        "Collaborated with cross-functional teams to translate business questions into analytical tasks, optimizing production and inventory management to reduce costs.",
+        "Utilized GCP and Azure for large-scale data management, implementing cloud security best practices and improving budget accuracy with financial analysis models."
+      ]      
     }
   ],
   "volunteer": [
@@ -67,15 +75,41 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "Georgia Institute of Technology",
+      "location": "Atlanta GA, USA",
+      "url": "https://www.gatech.edu",
+      "area": "Computer Science - Interactive Intelligence",
+      "studyType": "Master of Science",
+      "startDate": "2022",
+      "endDate": "",
+      "score": "3.9",
+      "courses": [
+        "Artificial Intelligence","Knowledge Based AI","Natural Language Processing", 
+        "Database System Implementation", "Game AI",
+        "Software Development Process",
+        "Machine Learning for Trading",
+        "Intro to Information Security", "Human Computer Interaction"
+    ]
+    },
+    {
+      "institution": "University of Calgary",
+      "location": "Calgary AB, Canada",
+      "url": "https://www.ucalgary.ca",
+      "area": "Chemical Engineering",
+      "studyType": "Master of Engineering",
+      "startDate": "2018",
+      "endDate": "2020",
+      "score": "3.9"
+    },
+    {
+      "institution": "University of Calgary & Southwest Petroleum University (Cohort)",
+      "location": "Calgary AB, Canada",
+      "url": "https://www.ucalgary.ca",
+      "area": "Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2014",
+      "endDate": "2018",
+      "score": "3.8"
     }
   ],
   "awards": [
@@ -87,47 +121,89 @@
       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
     }
   ],
+
+  "skills": [
+    {
+      "name": "Data",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Data Analysis",
+        "Database Architecture",
+        "Data Visualization",
+        "ETL, EL, ELT Data Pipelines",
+        "Big Data Processing",
+        "Data Standardization",
+        "Data Quality Monitoring",
+        "SQL Optimization",
+        "Data Pipeline Optimization",
+        "Business Intelligence Dashboards",
+        "Predictive Analytics",
+        "Data-driven KPIs"
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "level": "Advanced",
+      "icon": "fa-solid fa-tools",
+      "keywords": [
+        "GCP BigQuery",
+        "GCP Vertax AI",
+        "Airflow","Git","Jupyter Notebooks","SQL",
+        "Python","Java","HTML"
+      ]
+    },
+    {
+      "name": "Business Impact",
+      "level": "Experienced",
+      "icon": "fa-solid fa-chart-line",
+      "keywords": [
+        "Ad ROI Improvement",
+        "Customer Targeting Personas",
+        "Marketing Analytics",
+        "Revenue Optimization",
+        "Cost Reduction",
+        "M&A Data Strategy"
+      ]
+    },
+    {
+      "name": "Machine Learning & AI",
+      "level": "Proficient",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Machine Learning Models",
+        "Natural Language Processing",
+        "AI Learning Algorithms",
+        "Supervised and Unsupervised Learning",
+        "Feature Engineering",
+        "Model Deployment",
+        "Predictive Modeling",
+        "Scikit-learn",
+        "TensorFlow",
+        "PyTorch"
+      ]
+    }
+  ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Python for Data Analysis and Visualization",
+      "date": "2021",
+      "issuer": "Udemy",
+      "url": "https://ude.my/UC-d4498ddc-48d8-421a-bded-2c2fd434fd29/",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Data Analytics with Google",
+      "date": "2021",
+      "issuer": "Coursera | Google Inc.",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/EHP7Y6BHBQVD",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Object Oriented Programming in Java",
+      "date": "2021",
+      "issuer": "Coursera | Duck University, UC San Diego",
+      "url": "https://www.coursera.org/account/accomplishments/specialization/certificate/49MSMG92MDMJ",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
@@ -154,47 +230,52 @@
       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+"languages": [
+  {
+    "language": "English",
+    "fluency": "Native speaker",
+    "icon": "fa-solid fa-language"
+  },
+  {
+    "language": "Chinese Mandarin",
+    "fluency": "Native speaker",
+    "icon": "fa-solid fa-language"
+  },
+  {
+    "language": "Chinese Sichuanese",
+    "fluency": "Native speaker",
+    "icon": "fa-solid fa-language"
+  },
+  {
+    "language": "Japanese",
+    "fluency": "Beginner",
+    "icon": "fa-solid fa-language"
+  },
+  {
+    "language": "French",
+    "fluency": "Beginner",
+    "icon": "fa-solid fa-language"
+  }
+],
+"interests": [
+  {
+    "name": "Outdoor Activities",
+    "icon": "fa-solid fa-tree",
+    "keywords": [
+      "Skiing",
+      "Hiking",
+      "Trail Adventures"
+    ]
+  },
+  {
+    "name": "Creative Pursuits",
+    "icon": "fa-solid fa-palette",
+    "keywords": [
+      "Reading",
+      "Music"
+    ]
+  }
+],
   "references": [
     {
       "name": "Professor John Doe",
@@ -207,14 +288,38 @@
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+"projects": [
+  {
+    "name": "Raven’s Progressive Matrices (RPM) Agent",
+    "summary": "Designed an AI agent to solve Raven’s Progressive Matrices, a human intelligence test, using knowledge-based AI techniques. Achieved 80% accuracy on advanced visual analogy problems.",
+    "highlights": [
+      "Implemented an AI agent to process visual analogy problems in 2x2 and 3x3 formats",
+      "Reflected on human cognition by modeling AI to achieve human-like reasoning"
+    ],
+    "startDate": "2024-05-01",
+    "endDate": "2024-08-01",
+    "url": "https://github.gatech.edu/kdeng49/kbai_2024summer_project.git"
+  },
+  {
+    "name": "American Sign Language Recognition with Hidden Markov Models",
+    "summary": "Designed and implemented an AI agent leveraging Hidden Markov Models (HMMs) to recognize American Sign Language (ASL) gestures from video input.",
+    "highlights": [
+      "Trained HMMs on a dataset of ASL signs, achieving accurate recognition of gestures with high confidence levels"
+    ],
+    "startDate": "2024-01-01",
+    "endDate": "2024-05-01"
+  },
+  {
+    "name": "Job Application Timeline Tracker (Android App)",
+    "summary": "Developed a full-featured Android app to track job application timelines, enabling users to organize, edit, and monitor applications from start to finish.",
+    "highlights": [
+      "Designed a user-friendly interface for managing job applications",
+      "Utilized IntelliJ IDEA for development and Android SQLite for data storage",
+      "Followed a comprehensive software development process, including design, test planning, and documentation"
+    ],
+    "startDate": "2023-09-01",
+    "endDate": "2023-12-01",
+    "url": "https://github.gatech.edu/gt-omscs-se-2023fall/6300Fall23Team159"
+  }
+]
 }
