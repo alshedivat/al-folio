@@ -4,7 +4,7 @@ permalink: /members/
 title: titles.members
 description:
 nav: true
-nav_order: 1
+nav_order: 2
 ---
 
 {% if site.data.members %}
@@ -14,7 +14,7 @@ nav_order: 1
 <div class="card mb-3">
   <div class="row no-gutters">
     <div class="col-md-4 pl-3 align-self-center">
-      <img class="rounded-circle" src="/assets/img/{{ member.img }}">
+      <img class="card-img rounded-circle" src="/assets/img/{{ member.img }}">
     </div>
     <div class="col-md-8 p-3">
         <h3 class="card-title font-weight-medium">{% t member.name %}</h3>
