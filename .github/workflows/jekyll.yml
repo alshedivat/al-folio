@@ -27,6 +27,26 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install Prettier
+        run: npm install prettier
+
+      - name: Run Prettier and Fix Issues
+        run: npx prettier . --write
+
+      - name: Verify Formatting
+        run: npx prettier . --check
   # Build job
   build:
     runs-on: ubuntu-latest
