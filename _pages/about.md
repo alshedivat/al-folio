@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: B.Sci., M.Eng., Data Engineer Analyst
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: person.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Toronto ON M5A 4P7<p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! I am a Master's student in Computer Science at [__Georgia Tech__](https://www.gatech.edu/) and a Data Engineer Analyst at  __Walmart Canada__. I live in downtown Toronto with Roxy - my lovable dog.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I earned my first Master’s degree in Chemical Engineering from the University of Calgary in 2020. Since then, I have gained over four years of professional experience in the data field, focusing on database architecture, data pipeline engineering, and data visualization.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Over the past year, through work and academic opportunities, I have cultivated a strong interest in emerging technologies, exploring areas such as AI learning algorithms, machine learning applications, and natural language processing. In 2022, I embarked on my second Master’s program at the __Georgia Institute of Technology__, with an anticipated graduation in 2025.
+
+I am fluent in both __English__ and __Mandarin Chinese__.
