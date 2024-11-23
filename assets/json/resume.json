@@ -29,8 +29,28 @@
       "url": "http://walmart.ca",
       "startDate": "2024-7-15",
       "endDate": "",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "summary": "Collaborated in an agile data engineering team to deliver high-quality work in a fast-paced, project-driven environment. Leveraged GCP BigQuery to analyze database structures and process up to 70 million daily records, optimizing query performance and reducing costs. Built complex SQL and Python functions for data processing and standardization, boosting team efficiency by 35%. Supported marketing efforts by improving ad ROI by 30% through enhanced customer targeting. Executed ETL processes to provide data for BI dashboards, enabling daily tracking by stakeholders. Improved data reliability through quality checks and optimized pipelines, cutting processing time and costs by 90%. Developed predictive models that increased revenue by 5% and contributed to data-driven KPIs for business strategy and M&A decisions.",
+      "highlights": [
+        "Agile data engineering team",
+        "High-quality work",
+        "Fast-paced, project-driven environment",
+        "GCP BigQuery",
+        "70 million daily records",
+        "Query performance optimization",
+        "Cost reduction",
+        "SQL and Python functions",
+        "Data standardization",
+        "35% efficiency boost",
+        "Ad ROI improvement (30%)",
+        "ETL processes",
+        "BI dashboards",
+        "Data reliability",
+        "Pipeline optimization (90% reduction)",
+        "Predictive models",
+        "5% revenue increase",
+        "Data-driven KPIs",
+        "M&A decisions"
+      ]
     }
   ],
   "volunteer": [
