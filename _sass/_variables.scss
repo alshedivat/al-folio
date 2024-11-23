@@ -6,11 +6,11 @@
 @use "sass:color";
 
 // Colors
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
+$red-color: #db1f48 !default;
+$red-color-dark: #74112f !default;
 $orange-color: #f29105 !default;
 $blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
+$blue-color-dark: #004369 !default;
 $cyan-color: #2698ba !default;
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
 $green-color: #00ab37 !default;
@@ -23,6 +23,9 @@ $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
+$sand-color: #e5ddc8;
+$teal-color: #01949a;
+$red-color-light: #f3e3e2;
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);

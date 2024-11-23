@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hello! I am a Master's student in **Computer Science** at [**Georgia Tech**](https://www.gatech.edu/) and a Data Engineer Analyst at **Walmart Canada**. I live in downtown Toronto with Roxy - my lovable dog.
+Hello! I am a Master's student in **Computer Science** at [**Georgia Tech**](https://www.gatech.edu/) and a **Data Engineer Analyst** at **Walmart Canada**. I live in downtown Toronto with Roxy - my lovable dog.
 
 I earned my first Master’s degree in **Chemical Engineering** from the **University of Calgary** in 2020. Since then, I have gained over four years of professional experience in the **data** field, focusing on **database architecture**, **data pipeline engineering**, and **data visualization**.
 
