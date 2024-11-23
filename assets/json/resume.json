@@ -40,7 +40,7 @@
         "Improved data quality and reliability by implementing monitoring systems and optimization techniques.",
         "Enhanced data pipelines, reducing processing time and costs while delivering timely reports.",
         "Developed predictive models that supported revenue growth and aligned with business KPIs for strategy and decision-making."
-      ]      
+      ]
     },
     {
       "name": "Dane Creek Capital Corp.",
@@ -58,7 +58,7 @@
         "Designed database systems and user-friendly applications, reducing manual data entry and decreasing data-related errors by automating validation and quality checks.",
         "Collaborated with cross-functional teams to translate business questions into analytical tasks, optimizing production and inventory management to reduce costs.",
         "Utilized GCP and Azure for large-scale data management, implementing cloud security best practices and improving budget accuracy with financial analysis models."
-      ]      
+      ]
     }
   ],
   "volunteer": [
@@ -84,12 +84,16 @@
       "endDate": "",
       "score": "3.9",
       "courses": [
-        "Artificial Intelligence","Knowledge Based AI","Natural Language Processing", 
-        "Database System Implementation", "Game AI",
+        "Artificial Intelligence",
+        "Knowledge Based AI",
+        "Natural Language Processing",
+        "Database System Implementation",
+        "Game AI",
         "Software Development Process",
         "Machine Learning for Trading",
-        "Intro to Information Security", "Human Computer Interaction"
-    ]
+        "Intro to Information Security",
+        "Human Computer Interaction"
+      ]
     },
     {
       "institution": "University of Calgary",
@@ -146,12 +150,7 @@
       "name": "Tools & Platforms",
       "level": "Advanced",
       "icon": "fa-solid fa-tools",
-      "keywords": [
-        "GCP BigQuery",
-        "GCP Vertax AI",
-        "Airflow","Git","Jupyter Notebooks","SQL",
-        "Python","Java","HTML"
-      ]
+      "keywords": ["GCP BigQuery", "GCP Vertax AI", "Airflow", "Git", "Jupyter Notebooks", "SQL", "Python", "Java", "HTML"]
     },
     {
       "name": "Business Impact",
@@ -230,52 +229,45 @@
       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
-"languages": [
-  {
-    "language": "English",
-    "fluency": "Native speaker",
-    "icon": "fa-solid fa-language"
-  },
-  {
-    "language": "Chinese Mandarin",
-    "fluency": "Native speaker",
-    "icon": "fa-solid fa-language"
-  },
-  {
-    "language": "Chinese Sichuanese",
-    "fluency": "Native speaker",
-    "icon": "fa-solid fa-language"
-  },
-  {
-    "language": "Japanese",
-    "fluency": "Beginner",
-    "icon": "fa-solid fa-language"
-  },
-  {
-    "language": "French",
-    "fluency": "Beginner",
-    "icon": "fa-solid fa-language"
-  }
-],
-"interests": [
-  {
-    "name": "Outdoor Activities",
-    "icon": "fa-solid fa-tree",
-    "keywords": [
-      "Skiing",
-      "Hiking",
-      "Trail Adventures"
-    ]
-  },
-  {
-    "name": "Creative Pursuits",
-    "icon": "fa-solid fa-palette",
-    "keywords": [
-      "Reading",
-      "Music"
-    ]
-  }
-],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker",
+      "icon": "fa-solid fa-language"
+    },
+    {
+      "language": "Chinese Mandarin",
+      "fluency": "Native speaker",
+      "icon": "fa-solid fa-language"
+    },
+    {
+      "language": "Chinese Sichuanese",
+      "fluency": "Native speaker",
+      "icon": "fa-solid fa-language"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Beginner",
+      "icon": "fa-solid fa-language"
+    },
+    {
+      "language": "French",
+      "fluency": "Beginner",
+      "icon": "fa-solid fa-language"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Outdoor Activities",
+      "icon": "fa-solid fa-tree",
+      "keywords": ["Skiing", "Hiking", "Trail Adventures"]
+    },
+    {
+      "name": "Creative Pursuits",
+      "icon": "fa-solid fa-palette",
+      "keywords": ["Reading", "Music"]
+    }
+  ],
   "references": [
     {
       "name": "Professor John Doe",
@@ -288,38 +280,36 @@
       "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
     }
   ],
-"projects": [
-  {
-    "name": "Raven’s Progressive Matrices (RPM) Agent",
-    "summary": "Designed an AI agent to solve Raven’s Progressive Matrices, a human intelligence test, using knowledge-based AI techniques. Achieved 80% accuracy on advanced visual analogy problems.",
-    "highlights": [
-      "Implemented an AI agent to process visual analogy problems in 2x2 and 3x3 formats",
-      "Reflected on human cognition by modeling AI to achieve human-like reasoning"
-    ],
-    "startDate": "2024-05-01",
-    "endDate": "2024-08-01",
-    "url": "https://github.gatech.edu/kdeng49/kbai_2024summer_project.git"
-  },
-  {
-    "name": "American Sign Language Recognition with Hidden Markov Models",
-    "summary": "Designed and implemented an AI agent leveraging Hidden Markov Models (HMMs) to recognize American Sign Language (ASL) gestures from video input.",
-    "highlights": [
-      "Trained HMMs on a dataset of ASL signs, achieving accurate recognition of gestures with high confidence levels"
-    ],
-    "startDate": "2024-01-01",
-    "endDate": "2024-05-01"
-  },
-  {
-    "name": "Job Application Timeline Tracker (Android App)",
-    "summary": "Developed a full-featured Android app to track job application timelines, enabling users to organize, edit, and monitor applications from start to finish.",
-    "highlights": [
-      "Designed a user-friendly interface for managing job applications",
-      "Utilized IntelliJ IDEA for development and Android SQLite for data storage",
-      "Followed a comprehensive software development process, including design, test planning, and documentation"
-    ],
-    "startDate": "2023-09-01",
-    "endDate": "2023-12-01",
-    "url": "https://github.gatech.edu/gt-omscs-se-2023fall/6300Fall23Team159"
-  }
-]
+  "projects": [
+    {
+      "name": "Raven’s Progressive Matrices (RPM) Agent",
+      "summary": "Designed an AI agent to solve Raven’s Progressive Matrices, a human intelligence test, using knowledge-based AI techniques. Achieved 80% accuracy on advanced visual analogy problems.",
+      "highlights": [
+        "Implemented an AI agent to process visual analogy problems in 2x2 and 3x3 formats",
+        "Reflected on human cognition by modeling AI to achieve human-like reasoning"
+      ],
+      "startDate": "2024-05-01",
+      "endDate": "2024-08-01",
+      "url": "https://github.gatech.edu/kdeng49/kbai_2024summer_project.git"
+    },
+    {
+      "name": "American Sign Language Recognition with Hidden Markov Models",
+      "summary": "Designed and implemented an AI agent leveraging Hidden Markov Models (HMMs) to recognize American Sign Language (ASL) gestures from video input.",
+      "highlights": ["Trained HMMs on a dataset of ASL signs, achieving accurate recognition of gestures with high confidence levels"],
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01"
+    },
+    {
+      "name": "Job Application Timeline Tracker (Android App)",
+      "summary": "Developed a full-featured Android app to track job application timelines, enabling users to organize, edit, and monitor applications from start to finish.",
+      "highlights": [
+        "Designed a user-friendly interface for managing job applications",
+        "Utilized IntelliJ IDEA for development and Android SQLite for data storage",
+        "Followed a comprehensive software development process, including design, test planning, and documentation"
+      ],
+      "startDate": "2023-09-01",
+      "endDate": "2023-12-01",
+      "url": "https://github.gatech.edu/gt-omscs-se-2023fall/6300Fall23Team159"
+    }
+  ]
 }

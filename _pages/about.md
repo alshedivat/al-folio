@@ -16,11 +16,10 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Hello! I am a Master's student in __Computer Science__ at [__Georgia Tech__](https://www.gatech.edu/) and a Data Engineer Analyst at  __Walmart Canada__. I live in downtown Toronto with Roxy - my lovable dog.
+Hello! I am a Master's student in **Computer Science** at [**Georgia Tech**](https://www.gatech.edu/) and a Data Engineer Analyst at **Walmart Canada**. I live in downtown Toronto with Roxy - my lovable dog.
 
-I earned my first Master’s degree in __Chemical Engineering__ from the __University of Calgary__ in 2020. Since then, I have gained over four years of professional experience in the __data__ field, focusing on __database architecture__, __data pipeline engineering__, and __data visualization__.
+I earned my first Master’s degree in **Chemical Engineering** from the **University of Calgary** in 2020. Since then, I have gained over four years of professional experience in the **data** field, focusing on **database architecture**, **data pipeline engineering**, and **data visualization**.
 
-Over the past year, through work and academic opportunities, I have cultivated a strong interest in emerging technologies, exploring areas such as __AI learning algorithms__, __machine learning applications__, and __natural language processing__. In 2022, I embarked on my second Master’s program at the __Georgia Institute of Technology__, with an anticipated graduation in 2025.
+Over the past year, through work and academic opportunities, I have cultivated a strong interest in emerging technologies, exploring areas such as **AI learning algorithms**, **machine learning applications**, and **natural language processing**. In 2022, I embarked on my second Master’s program at the **Georgia Institute of Technology**, with an anticipated graduation in 2025.
 
-I am fluent in both __English__ and __Mandarin Chinese__.
-
+I am fluent in both **English** and **Mandarin Chinese**.
