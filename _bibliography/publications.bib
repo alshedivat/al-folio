@@ -20,11 +20,26 @@
 @STRING{NATURE_COMMUNICATIONS = {Nature Communications}}
 @STRING{NATURE_COMMUNICATIONS_SHORT = {Nat Commun}}
 
+@misc{lenz2024cobra,
+  title     = {Unsupervised Foundation Model-Agnostic Slide-Level Representation Learning},
+  author    = {Lenz, Tim and Neidlinger, Peter and Ligero, Marta and W\"{o}lflein, Georg and van Treeck, Marko and Kather, Jakob Nikolas},
+  author+an = {4=highlight},
+  year      = {2024},
+  month     = {11},
+  note      = UNDERREVIEW,
+  url       = {https://arxiv.org/abs/2411.13623},
+  pdf       = {https://arxiv.org/pdf/2411.13623.pdf},
+  preview   = {cobra.png},
+  abstract  = {Representation learning of pathology whole-slide images (WSIs) has primarily relied on weak supervision with Multiple Instance Learning (MIL). This approach leads to slide representations highly tailored to a specific clinical task. Self-supervised learning (SSL) has been successfully applied to train histopathology foundation models (FMs) for patch embedding generation. However, generating patient or slide level embeddings remains challenging. Existing approaches for slide representation learning extend the principles of SSL from patch level learning to entire slides by aligning different augmentations of the slide or by utilizing multimodal data. By integrating tile embeddings from multiple FMs, we propose a new single modality SSL method in feature space that generates useful slide representations. Our contrastive pretraining strategy, called COBRA, employs multiple FMs and an architecture based on Mamba-2. COBRA exceeds performance of state-of-the-art slide encoders on four different public CPTAC cohorts on average by at least +3.8\% AUC, despite only being pretrained on 3048 WSIs from TCGA. Additionally, COBRA is readily compatible at inference time with previously unseen feature extractors.},
+  keywords  = {preprint}
+}
+
 @misc{ferber2024trialmatching,
   title     = {End-To-End Clinical Trial Matching with Large Language Models},
   author    = {Ferber, Dyke and Hilgers, Lars and Wiest, Isabella C and Le{\ss}mann, Marie-Elisabeth and Clusmann, Jan and Neidlinger, Peter and Zhu, Jiefu and W{\"o}lflein, Georg and Lammert, Jacqueline and Tschochohei, Maximilian and B{\"o}hme, Heiko and J{\"a}ger, Dirk and Aldea, Mihaela and Truhn, Daniel and Höper, Christiane and Kather, Jakob Nikolas},
   author+an = {8=highlight},
   year      = {2024},
+  month     = {7},
   note      = UNDERREVIEW,
   url       = {https://arxiv.org/abs/2407.13463},
   pdf       = {https://arxiv.org/pdf/2407.13463.pdf},
@@ -57,6 +72,7 @@
   author    = {Ferber, Dyke and El Nahhas, Omar S. M. and W\"{o}lflein, Georg and Wiest, Isabella C. and Clusmann, Jan and Leßman, Marie-Elisabeth and Foersch, Sebastian and Lammert, Jacqueline and Tschochohei, Maximilian and J\"{a}ger, Dirk and Salto-Tellez, Manuel and Schultz, Nikolaus and Truhn, Daniel and Kather, Jakob Nikolas},
   author+an = {3=highlight},
   year      = {2024},
+  month     = {4},
   note      = UNDERREVIEW,
   url       = {https://arxiv.org/abs/2404.04667},
   pdf       = {https://arxiv.org/pdf/2404.04667.pdf},
