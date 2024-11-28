@@ -18,7 +18,7 @@ jobs:
       - name: Checkout code 🛎️
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          ref: ${{ github.head_ref }}
       - name: Run Prettier 💅🏽
         uses: AbdulRehman-1/pr-prettier@initial
         with:
