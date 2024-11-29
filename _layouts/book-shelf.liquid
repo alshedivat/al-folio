@@ -8,14 +8,14 @@ layout: page
   {% assign collection = site[page.collection] %}
   {% if collection and collection.size > 0 %}
     {% for item in collection reversed %}
-      {% assign currentdate = item.date | date: "%Y" %}
-      {% if currentdate != date %}
+      {% assign current_year = item.date | date: "%Y" %}
+      {% if current_year != year %}
         {% unless forloop.first %}
           </ul>
         {% endunless %}
-        <h1 id="y{{item.date | date: "%Y"}}">{{ currentdate }}</h1>
+        <h1 id="y{{item.date | date: "%Y"}}"><a href="{{ current_year | prepend: '/books/' | relative_url }}">{{ current_year }}</a></h1>
         <ul>
-        {% assign date = currentdate %}
+        {% assign year = current_year %}
       {% endif %}
 
       <figure class="cover">

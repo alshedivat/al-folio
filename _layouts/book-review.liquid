@@ -76,11 +76,12 @@ layout: default
       </p>
     {% endif %}
     <p class="post-tags">
-      <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}
+      <a href="{{ year | prepend: '/books/' | relative_url }}"> <i class="fa-solid fa-calendar fa-sm"></i> {{ year }}</a>
       {% if tags != '' %}
         &nbsp;&middot;&nbsp;
         {% for tag in page.tags %}
-          <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
+          <a href="{{ tag | slugify | prepend: '/books/tag/' | relative_url }}">
+            <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
           {% unless forloop.last %}
             &nbsp;
           {% endunless %}
@@ -90,7 +91,8 @@ layout: default
       {% if categories != '' %}
         &nbsp;&middot;&nbsp;
         {% for category in page.categories %}
-          <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
+          <a href="{{ category | slugify | prepend: '/books/category/' | relative_url }}">
+              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
           {% unless forloop.last %}
             &nbsp;
           {% endunless %}
