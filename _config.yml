@@ -233,6 +233,9 @@ scholar:
 
   query: "@*"
 
+  sort_by: year,month
+  order: desc
+
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
   [
