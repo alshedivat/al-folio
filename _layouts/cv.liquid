@@ -54,7 +54,7 @@ layout: default
         {{ page.title }}
         {% if page.cv_pdf %}
           <a
-            {% if page.cv_pdf contains 'http' %}
+            {% if page.cv_pdf contains '://' %}
               href="{{ page.cv_pdf }}"
             {% else %}
               href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
