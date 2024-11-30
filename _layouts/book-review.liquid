@@ -66,7 +66,8 @@ layout: default
           {% if page.started or page.finished or page.stars %}
             &nbsp;&middot;&nbsp;
           {% endif %}
-          <a target="_blank" href="{{ page.buy_link }}"><i class="fa-solid fa-cart-shopping"></i>
+          <a target="_blank" href="{{ page.buy_link }}"
+            ><i class="fa-solid fa-cart-shopping"></i>
             {% assign is_amazon_link = page.buy_link | slice: 0, 19 %}
             {% if is_amazon_link == 'https://www.amazon.' %}
               <i class="fa-brands fa-amazon"></i>
@@ -80,8 +81,7 @@ layout: default
       {% if tags != '' %}
         &nbsp;&middot;&nbsp;
         {% for tag in page.tags %}
-          <a href="{{ tag | slugify | prepend: '/books/tag/' | relative_url }}">
-            <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
+          <a href="{{ tag | slugify | prepend: '/books/tag/' | relative_url }}"> <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}</a>
           {% unless forloop.last %}
             &nbsp;
           {% endunless %}
@@ -91,8 +91,7 @@ layout: default
       {% if categories != '' %}
         &nbsp;&middot;&nbsp;
         {% for category in page.categories %}
-          <a href="{{ category | slugify | prepend: '/books/category/' | relative_url }}">
-              <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
+          <a href="{{ category | slugify | prepend: '/books/category/' | relative_url }}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category }}</a>
           {% unless forloop.last %}
             &nbsp;
           {% endunless %}
@@ -103,42 +102,54 @@ layout: default
   </header>
 
   <article>
-    {% if content == "" %}
+    {% if content == '' %}
       <figure class="empty-review">
         {% if page.cover %}
-          <img  class ="empty-review-cover" alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}" />
-            <figcaption class="empty-review-caption">Cover of <em>{{ page.title }}</em></figcaption>
+          <img class="empty-review-cover" alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}">
+          <figcaption class="empty-review-caption">
+            Cover of <em>{{ page.title }}</em>
+          </figcaption>
         {% elsif page.olid %}
-          <img class ="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false"/>
-            <figcaption class="empty-review-caption">Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.</figcaption>
+          <img class="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
+          <figcaption class="empty-review-caption">
+            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.
+          </figcaption>
         {% elsif page.isbn %}
-          <img class ="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false"/>
-            <figcaption class="empty-review-caption">Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.</figcaption>
+          <img class="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
+          <figcaption class="empty-review-caption">
+            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
+          </figcaption>
         {% endif %}
       </figure>
       {% assign status = page.status | upcase %}
       <div class="clearfix">
-        <h4> {{status}} </h4>
+        <h4>{{ status }}</h4>
       </div>
     {% else %}
       <figure>
         {% if page.cover %}
-          <img alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}" />
-            <figcaption>Cover of <em>{{ page.title }}</em></figcaption>
+          <img alt="{{ page.title }} cover" src="{{ site.baseurl }}/{{ page.cover }}">
+          <figcaption>
+            Cover of <em>{{ page.title }}</em>
+          </figcaption>
         {% elsif page.olid %}
-          <img  alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false"/>
-            <figcaption>Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.</figcaption>
+          <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
+          <figcaption>
+            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.
+          </figcaption>
         {% elsif page.isbn %}
-          <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false"/>
-            <figcaption>Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.</figcaption>
+          <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
+          <figcaption>
+            Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
+          </figcaption>
         {% endif %}
       </figure>
-      <br class="mobile-break" clear="right"/>
+      <br class="mobile-break" clear="right">
       <h4>
-        {% if page.start %} Start Date: {{page.start| date: "%-d %B %Y"}}. {% endif %}
-        {% if page.end %} End Date: {{page.end | date: "%-d %B %Y"}}. {% endif %}
+        {% if page.start %} Start Date: {{ page.start | date: '%-d %B %Y' }}. {% endif %}
+        {% if page.end %} End Date: {{ page.end | date: '%-d %B %Y' }}. {% endif %}
       </h4>
-      {{content}}
+      {{ content }}
     {% endif %}
   </article>
 
@@ -148,101 +159,99 @@ layout: default
 </div>
 
 <style>
-    figure {
-      float: none;
-      width: auto;
-      display: block;
-      margin-right: auto;
-      margin-left: auto;
+      figure {
+        float: none;
+        width: auto;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
 
-    }
-    figure  > img {
+      }
+      figure  > img {
 
-         vertical-align: top;
-         display: block;
-         margin-right: 0px;
-         margin-left: 0px;
-         padding: 0px;
+           vertical-align: top;
+           display: block;
+           margin-right: 0px;
+           margin-left: 0px;
+           padding: 0px;
 
-    }
-    figure figcaption {
+      }
+      figure figcaption {
 
-      display: block;
-      caption-side: bottom;
-      text-align: center;
-    }
+        display: block;
+        caption-side: bottom;
+        text-align: center;
+      }
 
-    @media screen and (min-width: 600px)  {
+      @media screen and (min-width: 600px)  {
 
-      .empty-review{
-        float: left;
-        display: block; /* in-line block; */
-        margin: 0px 0px 0px 0px;  /* adjust as needed */
-        padding: 0px 0px 0px 20px;
-       /* top right bottom left */
-        }
+        .empty-review{
+          float: left;
+          display: block; /* in-line block; */
+          margin: 0px 0px 0px 0px;  /* adjust as needed */
+          padding: 0px 0px 0px 20px;
+         /* top right bottom left */
+          }
 
-       .empty-review-caption {
-                caption-side: left;
-                text-align: left;
+         .empty-review-caption {
+                  caption-side: left;
+                  text-align: left;
 
 
-                }
+                  }
 
-        .empty-review-cover {
-            width:250px;
-            vertical-align: top;
-            padding-right: 40px;
-            }
-
-        figure {
-
-              float: right;
-              display: in-line block; /* in-line block; */
-              margin: 0px 0px 0px 0px;  /* adjust as needed */
-              padding: 0px 0px 0px 20px;
-             /* top right bottom left */
-            }
-
-        figure img {
-                width:300px;
-                vertical-align: top;
-
+          .empty-review-cover {
+              width:250px;
+              vertical-align: top;
+              padding-right: 40px;
               }
 
-        figure figcaption {
-                caption-side: bottom;
-                text-align: left;
+          figure {
+
+                float: right;
+                display: in-line block; /* in-line block; */
+                margin: 0px 0px 0px 0px;  /* adjust as needed */
+                padding: 0px 0px 0px 20px;
+               /* top right bottom left */
+              }
+
+          figure img {
+                  width:300px;
+                  vertical-align: top;
 
                 }
 
-        .mobile-break { display: none; }
+          figure figcaption {
+                  caption-side: bottom;
+                  text-align: left;
 
-/* =Blockquote
--------------------------------------------------------------- */
-blockquote {
+                  }
 
-    position: relative;
-    marign: 0px;
-    display: table;
+          .mobile-break { display: none; }
 
-}
-blockquote:before, blockquote:after {
+  /* =Blockquote
+  -------------------------------------------------------------- */
+  blockquote {
 
- /* properties to format the block quotes /*
+      position: relative;
+      marign: 0px;
+      display: table;
 
-}
-blockquote:before {
-    top: 0;
-    left: 0;
+  }
+  blockquote:before, blockquote:after {
 
+   /* properties to format the block quotes /*
 
-}
-blockquote:after {
-    top: 0;
-    right: 0;
-
-}
+  }
+  blockquote:before {
+      top: 0;
+      left: 0;
 
 
-  </style>
+  }
+  blockquote:after {
+      top: 0;
+      right: 0;
+
+  }
+</style>
