@@ -63,6 +63,7 @@ Continuously under construction.
 - "We know not through our intellect but through our experience." -- Maurice Merleau-Ponty.
 - "Geworfenheit" / "thrownness", Martin Heidegger. We are thrown into the world, and must make sense of it. We have to begin (life and inquiry) with the world as it is, not as we would like to imagine it to be.
 - "To everything there is a season, and a time to every purpose under Heaven; a time to be born and a time to die; a time to kill and a time to heal; a time to weep and a time to laugh; a time to love and a time to hate; a time for war and a time of peace. Ladies and gentlemen, the time for peace has come." -- Yitzhak Rabin, quoting Kohelet / Ecclesiastes, at the 1993 Signing of the Oslo Accords.
+- "Thus I believe that philosophers should fancy themselves as dedicated students of the irregular. But inherited fashions within our subject presently reward ersatz rigor and armchair pontification without encouraging the informed attention to detail and practical application upon which proper conceptual disentanglements characteristically depend." -- Mark Wilson
 
 
 *On immanence: skepticism of transcendentalism, not answering questions, conatus, auto-poiesis, internally consistent systems of meaning.*
