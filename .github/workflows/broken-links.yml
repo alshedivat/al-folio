@@ -45,7 +45,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Link Checker 🔗
-        uses: lycheeverse/lychee-action@v1.9.0
+        uses: lycheeverse/lychee-action@v2.1.0
         with:
           fail: true
           # removed md files that include liquid tags

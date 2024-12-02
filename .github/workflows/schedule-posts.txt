@@ -13,7 +13,7 @@ jobs:
       - name: Checkout main branch
         uses: actions/checkout@v4
         with:
-          ref: master
+          ref: main
 
       - name: Get the date for today
         id: date
