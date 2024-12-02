@@ -23,15 +23,14 @@ Extensions:
 
 - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot): AI-powered code autocompletion tool. Free for education
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): a powerful set of features for working with Git repositories
-- [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8):  Python code formatter according to PEP 8 style guide
+- [autopep8](https://marketplace.visualstudio.com/items?itemName=ms-python.autopep8): Python code formatter according to PEP 8 style guide
 - [Preview](https://marketplace.visualstudio.com/items?itemName=searKing.preview-vscode): previewer to various types of files, such as Markdown, HTML, and PDF
 - [Table Formatter](https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter): formatter for tables in markdown, HTML, reStructuredText
-
 
 ## [GitHub Student Developer Pack](https://education.github.com/pack)
 
 GitHub provides the GitHub Student Developer Pack as part of their Education initiative.
-This bundle offers an array of beneficial resources, including access to GitHub Copilot, an AI-powered code completion tool. This pack is designed to help students ***Learn to ship software like a pro.***
+This bundle offers an array of beneficial resources, including access to GitHub Copilot, an AI-powered code completion tool. This pack is designed to help students **_Learn to ship software like a pro._**
 
 ## [The Good Research Code Handbook](https://goodresearch.dev/)
 
