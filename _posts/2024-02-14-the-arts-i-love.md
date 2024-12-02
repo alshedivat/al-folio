@@ -317,6 +317,13 @@ toc:
 
 # Quotes
 
+> 如果你站在四岁的O的位置瞻望未来，你会说她前途未卜，你会说她前途无限，要是你站在她的终点看这个生命的轨迹你看到的只是一条路，你就只能看见一条命定之途。所有的生命都一样，所有的人都是这样。  
+> —史铁生,《务虚笔记》
+
+> If you stand at the position of a four-year-old O and look into the future, you would say her future is uncertain, you would say her future is limitless. But if you stand at her endpoint and look at the trajectory of her life, you would see only one path, a predetermined path. All lives are the same, all people are like this.  
+
+---
+
 > Sensible, not sensitive; simply complicated; predictably irrational; kindly demanding; constructively critical; certain of uncertainty; managing risks; helplessly hopeful; persistent, yet flexible.  
 > —Unknown Source
 
