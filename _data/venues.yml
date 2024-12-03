@@ -5,6 +5,9 @@
 "PhysRev":
   url: https://journals.aps.org/
 
+"Vision":
+  color: "#009f36"
+
 "OSTI":
   url: https://www.osti.gov
   color: "#176285"
