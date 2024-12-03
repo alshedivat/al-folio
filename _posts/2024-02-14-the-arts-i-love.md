@@ -371,6 +371,11 @@ toc:
 
 ---
 
+> Punching down requires you to consider yourself superior to another group. Dave Chappelle doesn't consider himself better than me in any way. He isn't punching up or punching down He's punching lines. That's his job and he's a master of his craft.  
+> —Daphne Dorman
+
+---
+
 > My request of reviewers is to try to imagine the darkness before the spark.  
 > —Michael J. Black, *Novelty in Science: A guide for reviewers*
 
