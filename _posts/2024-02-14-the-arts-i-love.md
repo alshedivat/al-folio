@@ -318,7 +318,7 @@ toc:
 # Quotes
 
 > 如果你站在四岁的O的位置瞻望未来，你会说她前途未卜，你会说她前途无限，要是你站在她的终点看这个生命的轨迹你看到的只是一条路，你就只能看见一条命定之途。所有的生命都一样，所有的人都是这样。  
-> —史铁生,《务虚笔记》
+> —史铁生，《务虚笔记》
 
 > If you stand at the position of a four-year-old O and look into the future, you would say her future is uncertain, you would say her future is limitless. But if you stand at her endpoint and look at the trajectory of her life, you would see only one path, a predetermined path. All lives are the same, all people are like this.  
 
@@ -332,21 +332,21 @@ toc:
 ---
 
 > A theory, to be of value, must not merely emerge from the careful collection and organization of individual observations, but should be expressed through a set of unexpected and imaginative insights, much like the inspiration of a poet or composer.  
-> —Robert Schulmann
+> —Robert Schulmann, *Einstein On Politics*
 
 > 一个理论若要具有价值，则肯定不能仅仅从仔细收集和整理的一些单个的观察中凸显，而是应该以一组不期而至的富有想象力的洞见表现出来，一如诗人或作曲家的灵感。
 
 ---
 
 > I live in that solitude which is painful in youth, but delicious in the years of maturity.  
-> —Albert Einstein
+> —Albert Einstein, *The World As I See It*
 
 > 我孤寂地生活着，年轻时痛苦万分，而在成熟之年里却甘之如饴。
 
 ---
 
 > 为有牺牲多壮志，敢教日月换新天。  
-> —毛泽东
+> —毛泽东，《七律·到韶山》
 
 > Bitter sacrifice strengthens bold resolve. Which dares to make sun and moon shine in new skies.  
 > —Translation by Foreign Languages Press
@@ -354,7 +354,7 @@ toc:
 ---
 
 > 文变染乎世情，兴废系乎时序。  
-> —刘勰
+> —刘勰，《文心雕龙·时序》
 
 > Literature evolves with society, it goes up and down with the time.  
 > —Translation by Yongsheng Cheng
@@ -367,12 +367,12 @@ toc:
 ---
 
 > Empathy is not gay. Empathy is not Black. Empathy is bi-sexual. It must go both ways.  
-> —Dave Chappelle
+> —Dave Chappelle, *The Closer*
 
 ---
 
 > My request of reviewers is to try to imagine the darkness before the spark.  
-> —Michael J. Black
+> —Michael J. Black, *Novelty in Science: A guide for reviewers*
 
 ---
 
