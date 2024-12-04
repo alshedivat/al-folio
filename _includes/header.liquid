@@ -117,6 +117,25 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+  
+            <!-- My Blog -->
+            <li class="nav-item {% if page.permalink == '/past' %}active{% endif %}">
+              <a class="nav-link" href="https://blog.alirezad.ir/"><i class="fa-solid fa-arrow-up-right-from-square"></i> Blog
+                {%- if page.permalink == '/past' -%}
+                <span class="sr-only">(current)</span>
+                {%- endif -%}
+              </a>
+            </li>
+
+            <!-- My Links -->
+            <li class="nav-item {% if page.permalink == '/links' %}active{% endif %}">
+              <a class="nav-link" href="/links/"><i class="fa-regular fa-rectangle-list"></i> Links
+                {%- if page.permalink == '/links' -%}
+                <span class="sr-only">(current)</span>
+                {%- endif -%}
+              </a>
+            </li>
+
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">

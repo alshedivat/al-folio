@@ -1,200 +1,221 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Alireza Dehghanzadeh",
+    "label": "M.Sc. Graduated",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "dehghanzadeh98@gmail.com",
+    "phone": "-",
+    "url": "https://alirezad.ir",
+    "summary": "Iranian student who is interested in Machine Learning and Cybersecurity and nature",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Beheshti Blv.",
+      "postalCode": "-",
+      "city": "Meymeh",
+      "countryCode": "IR",
+      "region": "Esfahan"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "digdert",
+        "url": "https://twitter.com/digdert"
       }
     ]
   },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "University of Tehran",
+      "location": "Tehran, Iran",
+      "url": "https://ut.ac.ir/en",
+      "area": "Biosystems Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2020-11-01",
+      "endDate": "2023-10-21",
       "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "courses": ["Artificial Intelligence", "Automated Control", "Finite Element Methods"]
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "Tabriz University",
+      "location": "Tabriz, Iran",
+      "url": "https://tabrizu.ac.ir/en",
+      "area": "Biosystems Engineering",
+      "studyType": "Bachelor of Science",
+      "startDate": "2016-09-22",
+      "endDate": "2020-09-20",
+      "score": "10",
+      "courses": ["Mechanical Enginering Design", "Repair and Maintenance Engineering", "Electrical Circuits"]
     }
   ],
   "certificates": [
     {
       "name": "Machine Learning",
-      "date": "2018-01-01",
+      "date": "2022",
       "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "url": "https://www.coursera.org/account/accomplishments/certificate/BEYRHUN8XPLX",
+      "icon": "fa-solid fa-brain"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Machine learning in Python with scikit-learn",
+      "date": "2023",
+      "issuer": "France Université Numérique",
+      "url": "https://openbadgefactory.com/v1/assertion/454d416de1e0ee727dd97fbd81fa89362c3d5230.html",
+      "icon": "fa-solid fa-laptop-code"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "CS50 Understanding Technology",
+      "date": "2023",
+      "issuer": "Harvard University ",
+      "url": "https://cs50.harvard.edu/certificates/a72d88d7-d288-4fb9-b7c0-e017542b0be1",
+      "icon": "fa-solid fa-microchip"
     }
   ],
-  "publications": [
+  "projects": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "PVC Duct Cutting Machine Computer Vision System",
+      "summary": "This project used computer vision technology to identify clipping points within PVC ducts, focusing on detecting their flat areas for accurate cuts. Adaptable to ambient noise, the system ensured consistent performance, while its lightweight design enabled seamless integration with the machine's high-speed operations. Utilizing a Raspberry Pi, this compact yet powerful computing platform was used to drive the entire system. ",
+      "highlights": ["Linux", "Python", "Machine Vision", "Raspberry Pi"],
+      "startDate": "2020-12-01",
+      "endDate": "2021-02-01",
+      "url": "https://alirezad.ir"
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Remote Controller for a Silage Block Cutting Machine",
+      "summary": "Due to operator injuries, while cutting stacked up silage blocks, a remote controlling system was developed and configured so that the operators be able to control the machine using wireless technology. The device was able to fully control the machine. The developed device controlled the system by manipulating the pneumatic and hydraulic valves of the machine using a TCP/UDP local network with an android application. Which in fact, the machine performs with more precision and offers product and safety measures. Android application developed by <a href='https://www.linkedin.com/in/ali-khalili-790b10146/'>Eng. Ali Khalili</a> Based on React-native.",
+      "highlights": ["Linux", "Arduino", "Electrical Circuits"],
+      "startDate": "2019-06-01",
+      "endDate": "2019-08-01",
+      "url": "https://alirezad.ir"
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Basil Harvester",
+      "summary": "(Team project) Design a machine to harvest basils as a successor to Scissor Jack since we got the best resualts and distinguished among other groups in related class.  There are a large number of small agriculture farms around mid-to-big cities in Iran which they plant different basils alongside eachother in several section in their farms. This project aimed this businesses to help them increasing outcome and decreasing wastes. This machine was design by intelligence functionality in mind and using previous works and experiences. Team members: <a target='_blank' href='https://www.linkedin.com/in/anis-azarmikhah-65a131203/'>Anis Azarmikhah</a>, <a target='_blank' href='https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/'>Hadi Farahmand</a>, Samira Komeili and Niloufar Rahimi.",
+      "highlights": ["Mechanical Engineering Design", "Solidworks", "Ansys", "Course: Harvesters Design"],
+      "startDate": "2019-09-20",
+      "endDate": "2020-02-01",
+      "url": "https://alirezad.ir/projects/basil_harvester/"
+    },
+    {
+      "name": "Scissor Jack",
+      "summary": "(Team project) Apply Mechanical Engineering Design knowledge to Design a scissor jack as a course project. Design was done using Solidworks and the analysis which was additional, done through Ansys Mechanical. Team members: <a target='_blank' href='https://www.linkedin.com/in/anis-azarmikhah-65a131203/'>Anis Azarmikhah</a>, <a target='_blank' href='https://www.linkedin.com/in/hadi-hashemi-farahmand-2300981b5/'>Hadi Farahmand</a>, Samira Komeili and Niloufar Rahimi.",
+      "highlights": ["Mechanical Engineering Design", "Solidworks", "Course: Mechanical Engineering Design"],
+      "startDate": "2019-02-01",
+      "endDate": "2019-05-20",
+      "url": "https://alirezad.ir/projects/scissor_jack/"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Precision Agriculture Group at Tabriz University",
+      "location": "Tabriz, Iran",
+      "position": "Assistant Producer",
+      "url": "http://infoag.ir/en/",
+      "startDate": "2019-06-01",
+      "endDate": "2021-06-01",
+      "summary": "Under supervising of <a target='_blank' href='https://www.researchgate.net/profile/Hossein-Navid'>Dr Hossein Navid</a> and advise of <a target='_blank' href='https://www.linkedin.com/in/hadi-karimi-77865b87/'>Dr Hadi Karimi</a>.",
+      "highlights": ["Learn-by-Doing, Working on real projects and learning mindset.", "Linux", "Python", "Electrical Circuits"]
+    }
+  ],
+  "work": [
+    {
+      "name": "College of Agriculture and Natural Resources's Library, University of Tehran",
+      "location": "Karaj, Iran",
+      "position": "IT Manager",
+      "url": "https://canlib.ut.ac.ir/",
+      "startDate": "2024-06-21",
+      "endDate": "2026-04-20",
+      "summary": "I was selected to assist with IT as my <a target='_blank' href='https://en.wikipedia.org/wiki/Conscription_in_Iran#Non-Military_Conscription_(Persian:_%D8%B3%D8%B1%D8%A8%D8%A7%D8%B2_%D8%A7%D9%85%D8%B1%DB%8C%D9%87)'>civil conscription service</a>, due to my skills of computer science, programming and web development",
+      "highlights": ["Computer Science", "Online services management", "ICDL"]
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Python",
       "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "icon": "fa-brands fa-python",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Basics",
+        "Machine Learning oriented coding",
+        "PiP"
+      ]
+    },
+    {
+      "name": "Linux",
+      "level": "Master",
+      "icon": "fa-brands fa-linux",
+      "keywords": [
+        "Linux Fundementals",
+        "Bash",
+        "Bash Scripting"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Master",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Basics",
+        "Fundemental Mathematical aspects",
+        "Scikit-Learn Library"
       ]
     }
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Persian",
       "fluency": "Native speaker",
-      "icon": ""
+      "icon": "fa-solid fa-house"
     },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
+      "icon": "fa-solid fa-globe"
+    },
+    {
+      "language": "Azerbaijani",
+      "fluency": "Limited",
+      "icon": "fa-solid fa-language"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Cyber-Security",
+      "icon": "fa-solid fa-bug",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Web Application Security",
+        "Network Security",
+        "Javascript"
       ]
+    },
+    {
+      "name": "Coding",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "C",
+        "Rust",
+        "Go"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Not yet completed",
+      "date": "1921-11-01",
+      "awarder": "Royal Swedish Academy of Sciences",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "I will complete it."
     }
   ],
   "references": [
     {
-      "name": "Professor John Doe",
+      "name": "Dr One",
       "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "reference": "Will be completed"
     },
     {
-      "name": "Professor John Doe",
+      "name": "Dr Two",
       "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "reference": "Will be completed"
     }
   ]
 }

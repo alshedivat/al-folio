@@ -3,8 +3,9 @@ name: Deploy site
 on:
   push:
     branches:
-      - master
-      - main
+      - beta
+      - cloudflare
+      - github
     paths:
       - "assets/**"
       - "**.bib"
@@ -22,6 +23,7 @@ on:
       - "!.github/workflows/docker-slim.yml"
       - "!.github/workflows/lighthouse-badger.yml"
       - "!.github/workflows/prettier.yml"
+      - "!.github/workflows/firebase-hosting-deploy.yml"
       - "!lighthouse_results/**"
       - "!CONTRIBUTING.md"
       - "!CUSTOMIZE.md"
@@ -30,8 +32,8 @@ on:
       - "!README.md"
   pull_request:
     branches:
-      - master
-      - main
+      - cloudflare
+      - github
     paths:
       - "assets/**"
       - "**.bib"
@@ -55,16 +57,27 @@ on:
       - "!FAQ.md"
       - "!INSTALL.md"
       - "!README.md"
+
+  workflow_run:
+    workflows: [Build Notion Posts]
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: "deploy"
+  cancel-in-progress: true
+
 
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
+
       - name: Checkout 🛎️
         uses: actions/checkout@v4
       - name: Setup Ruby 💎
@@ -77,6 +90,7 @@ jobs:
         with:
           python-version: "3.13"
           cache: "pip" # caching pip dependencies
+
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:
@@ -84,17 +98,35 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade nbconvert
           export JEKYLL_ENV=production
-          bundle exec jekyll build
+          bundle exec jekyll build --lsi
+
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
           purgecss -c purgecss.config.js
+
+      - name: Add Links page submodule
+        run: |
+          git submodule add -f https://github.com/alerezaaa/littlelink _site/links
+
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
+          branch: cf-pages
+
+
+### deploy to firebase
+
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: '${{ secrets.GITHUB_TOKEN }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_ALIREZA_ACCA7 }}'
+          channelId: live
+          projectId: alireza-acca7
