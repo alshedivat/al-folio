@@ -35,4 +35,12 @@
       crossorigin="anonymous"
     ></script>
   {% endif %}
+  {% if page.images.spotlight %}
+    <script
+      defer
+      src="{{ site.third_party_libraries.spotlight.url.js }}"
+      crossorigin="anonymous"
+    ></script>
+  {% endif %}
+
 {% endif %}

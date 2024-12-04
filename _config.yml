@@ -609,6 +609,13 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
       js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
     version: "2.4.1"
+  spotlight:
+    integrity:
+      css: "sha256-Dsvkx8BU8ntk9Iv+4sCkgHRynYSQQFP6gJfBN5STFLY="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/css/spotlight.min.css"
+      js: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/spotlight.bundle.min.js"
+    version: "0.7.8"
   swiper:
     integrity:
       css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
