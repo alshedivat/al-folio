@@ -142,6 +142,15 @@
       crossorigin="anonymous"
     >
   {% endif %}
+  <!-- Photoswipe -->
+  {% if page.images.photoswipe %}
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.photoswipe.url.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
   <!-- Image slider -->
   {% if page.images.slider %}
     <link
