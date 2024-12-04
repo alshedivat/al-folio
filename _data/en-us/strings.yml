@@ -1,0 +1,7 @@
+blog:
+  navigation_title: blog
+categories:
+  ongoing: ongoing
+latest_posts: latest posts
+news: news
+no_news: No news so far...

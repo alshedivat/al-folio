@@ -127,10 +127,10 @@ GEM
       jekyll (>= 3.5)
       json-minify (~> 0.0.3)
       uglifier (~> 4.1)
-    jekyll-multiple-languages-plugin (1.8.0)
-      jekyll (>= 2.0, < 5.0)
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
+    jekyll-polyglot (1.8.1)
+      jekyll (>= 4.0, >= 3.0)
     jekyll-regex-replace (1.1.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
@@ -263,8 +263,8 @@ DEPENDENCIES
   jekyll-jupyter-notebook
   jekyll-link-attributes
   jekyll-minifier
-  jekyll-multiple-languages-plugin
   jekyll-paginate-v2
+  jekyll-polyglot
   jekyll-regex-replace
   jekyll-scholar
   jekyll-sitemap

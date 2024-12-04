@@ -116,6 +116,14 @@
               </button>
             </li>
           {% endif %}
+          <!-- Toogle language -->
+          <li class="nav-item active">
+          {% if site.active_lang == "en-us" %}
+            <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}/zh-tw{{ page.url }}" {%- endstatic_href %}>中文</a>
+          {% elsif site.active_lang == "zh-tw" %}
+            <a class="nav-link" {% static_href -%} href="{{ site.baseurl }}{{ page.url }}" {%- endstatic_href %}>English</a>
+          {% endif %}
+          </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">

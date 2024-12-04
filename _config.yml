@@ -14,7 +14,6 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 host: 0.0.0.0
@@ -265,10 +264,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-multiple-languages-plugin
-
-# Multi language settings
-languages: ["en", "zh-tw"]
+  - jekyll-polyglot
 
 # Sitemap settings
 defaults:
@@ -278,6 +274,7 @@ defaults:
       sitemap: false
 
 sass:
+  sourcemap: never
   style: compressed
 
 # -----------------------------------------------------------------------------
@@ -388,6 +385,16 @@ external_links:
   rel: external nofollow noopener
   target: _blank
   exclude:
+
+# -----------------------------------------------------------------------------
+# Jekyll Polyglot
+# -----------------------------------------------------------------------------
+
+languages: ["en-us", "zh-tw"]
+default_lang: "en-us"
+exclude_from_localization: ["assets"]
+lang_from_path: true
+country_flag: false # set true for allowing flag symbol in language toggle
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
