@@ -132,6 +132,16 @@
       crossorigin="anonymous"
     >
   {% endif %}
+  <!-- Lightbox2 -->
+  {% if page.images.lightbox2 %}
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.lightbox2.url.css }}"
+      integrity="{{ site.third_party_libraries.lightbox2.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
   <!-- Image slider -->
   {% if page.images.slider %}
     <link

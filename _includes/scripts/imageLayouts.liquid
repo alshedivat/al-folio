@@ -7,6 +7,14 @@
       crossorigin="anonymous"
     ></script>
   {% endif %}
+  {% if page.images.lightbox2 %}
+    <script
+      defer
+      src="{{ site.third_party_libraries.lightbox2.url.js }}"
+      integrity="{{ site.third_party_libraries.lightbox2.integrity.js }}"
+      crossorigin="anonymous"
+    ></script>
+  {% endif %}
   {% if page.images.slider %}
     <script
       defer
