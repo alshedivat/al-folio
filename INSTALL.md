@@ -134,7 +134,7 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
 1. [Use this template -> Create a new repository](https://github.com/new?template_name=al-folio&template_owner=alshedivat).
 2. Netlify: **Add new site** -> **Import an existing project** -> **GitHub** and give Netlify access to the repository you just created.
 3. Netlify: In the deploy settings
-    - Set **Branch to deploy** to `master`
+    - Set **Branch to deploy** to `main`
     - **Base directory** is empty
     - Set **Build command** to `sed -i "s/^\(baseurl: \).*$/baseurl:/" _config.yml && bundle exec jekyll build`
     - Set **Publish directory** to `_site`
