@@ -22,7 +22,7 @@ layout: page
       <figure class="cover">
         <a class="cover-link" href="{{ item.url | relative_url }}">
           {% if item.cover %}
-            <img alt="{{ item.title }} cover" src="{{ site.baseurl }}/{{ page.covers }}/{{ item.cover }}" style="height:200px">
+            <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
           {% elsif item.olid %}
             <img alt="{{ item.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
           {% elsif item.isbn %}
