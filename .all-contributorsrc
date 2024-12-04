@@ -1,7 +1,5 @@
 {
-  "files": [
-    "README.md"
-  ],
+  "files": ["README.md"],
   "imageSize": 100,
   "commit": false,
   "contributorsPerLine": 7,
@@ -18,37 +16,28 @@
       "name": "Maruan",
       "avatar_url": "https://avatars.githubusercontent.com/u/2126561?v=4",
       "profile": "http://maruan.alshedivat.com",
-      "contributions": [
-        "design",
-        "code"
-      ]
+      "contributions": ["design", "code"]
     },
     {
       "login": "rohandebsarkar",
       "name": "Rohan Deb Sarkar",
       "avatar_url": "https://avatars.githubusercontent.com/u/50144004?v=4",
       "profile": "http://rohandebsarkar.github.io",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "pourmand1376",
       "name": "Amir Pourmand",
       "avatar_url": "https://avatars.githubusercontent.com/u/32064808?v=4",
       "profile": "https://amirpourmand.ir",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     },
     {
       "login": "george-gca",
       "name": "George",
       "avatar_url": "https://avatars.githubusercontent.com/u/31376482?v=4",
       "profile": "https://george-gca.github.io/",
-      "contributions": [
-        "code"
-      ]
+      "contributions": ["code"]
     }
   ],
   "commitConvention": "angular"
