@@ -8,7 +8,7 @@ nav: false
 
 I enjoy recreational math.
 Here is a collection of mathematical observations, results, and questions that I think are interesting.
-There may be mistakes or simplifications in the following, so please let me know if you find any.
+There may be mistakes or simplifications in the following.
 
 -  **Reals as a vector space over the rationals.** The reals can be defined as the set of all Cauchy sequences of rationals, with addition and multiplication defined component-wise. This makes the reals a vector space (of infinite dimension) over the rationals. If the axiom of choice is true, then there exists a basis for this vector space.
 -  **Leibniz's proof for the derivative of a quadratic.** If $$x$$ changes by $$\delta x$$, then $$y = x^2$$ should change by $$y + \delta y = (x + \delta x)^2 = x^2 + 2x\delta x + (\delta x)^2$$. Relabel $$\delta x, \delta y$$ as $$dx, dy$$ and as they become 'infinitely small', then $$(\delta x)^2$$ gets infinitely smaller. Also subtract $$y = x^2$$. So we get $$dy = 2x dx$$, or $$dy/dx = 2x$$.
