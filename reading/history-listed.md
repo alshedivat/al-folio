@@ -6,7 +6,7 @@ description:
 nav: false
 ---
 
-Simply listing events and observing when they happen. We often learn about history topically, but they coincide in time.
+Simply listing events and observing when they happen -- no grouping, no hierarchies, just flat lists. 
 The aim of this list is to forcefully mesh together many cognitively partitioned historical events, at the expense of contextualization.
 These lists, of course, reflect my own biases and interests.
 Work in progress.
@@ -75,7 +75,7 @@ Work in progress.
 
 *Under construction. Will be made much more detailed and fair.*
 
-- 63 BCE: Roman conquest of Judea.  
+<!-- - 63 BCE: Roman conquest of Judea.  
 - 70 CE: Romans destroy the Second Temple; Jewish diaspora begins.  
 - 132-135: Bar Kokhba revolt; final major Jewish revolt against Rome, resulting in widespread Jewish dispersal.  
 - 313: Edict of Milan legalizes Christianity in the Roman Empire.  
@@ -139,14 +139,141 @@ Work in progress.
 - 1974: UN recognizes PLO as the representative of Palestinians.  
 - 1979: Israel and Egypt sign peace treaty; Israel withdraws from Sinai.  
 - 1981: Israel annexes the Golan Heights.  
-- 1987: First Intifada begins, a Palestinian uprising against Israeli occupation.
+- 1987: First Intifada begins, a Palestinian uprising against Israeli occupation. -->
 
 ---
 
-**History of Science**
-Coming.
+**History of Science... Before the "Revolution"** -- or, the canonical history, anyways
+- 3100 BCE - 1600 BCE: Stonehenge construction
+- 3000 BCE: Egyptian base-10 number system appears
+- 2700 BCE - 1500 BCE: Egyptian pyramids construction
+- 2000 BCE: Babylonian base-60 place-value number system appear
+- 1900 BCE - 1600 BCE: dates of many astronomical cuniform tablets
+- 1600 BCE: date of the Edwin Smith Papyrus, Egyptian surgical text
+- 1550 BCE: date of the Ebers papyrus, Egyptian herbal medicine text
+- 700 BCE: Hesiod, *Works and Days* and *Theogony*
+- 624 BCE - 546 BCE: Thales of Miletus active, "first scientist" -- searches for an "arche", or natural explanation for natural phenomena
+- 624 BCE - 428 BCE: Ionian philosophers active (Anaximander, Anaximenes, Heraclitus, etc.) -- propose different arche (water, apeiron, air, fire, bundle, etc.)
+- 570 BCE - 490 BCE: Pythagoras active
+- 559 BCE - 500 BCE: Persian expansion under Cyrus the Great
+- 546 BCE: Kingdom of Lydia (controls Ionian cities) falls to Persia
+- 515 BCE - 450 BCE: Parmenides active -- rejects Heraclitus, proposes a static universe
+- 509 BCE: Roman Republic founded after overthrow of Etruscan king
+- 500 BCE: defeat of the king of Rome, oligarchy senate (Roman Republic) established
+- 500 BCE - 428 BCE: Anaxagoras active -- proposes "nous" as the arche
+- 499 BCE - 493 BCE: Ionian Revolt against Persia, crushed
+- 492 BCE - 449 BCE: Persian Wars; Athens and Sparta defeat Persia
+- 484 BCE - 424 BCE: Empedocles active -- proposes four elements
+- 480 BCE - 420 BCE: Leucippus active -- proposes atomism
+- 480 BCE - 479 BCE: Second Persian invasion of Greece, Athens is burned, but Persians defeated at Salamis
+- 470 BCE - 399 BCE: Socrates active -- develops dialectic
+- 460 BCE - 370 BCE: Democritus active -- develops atomism
+- 460 BCE - 370 BCE: Hippocrates active -- develops medicine, humor theory
+- 431 BCE - 404 BCE: Peloponnesian War between Athens and Sparta over hegemony of Greece; results in Athenian defeat
+- 427 BCE - 347 BCE: Plato active -- develops idealism
+- 4th century BCE: rise of Asclepian healing temples
+- 384 BCE - 322 BCE: Aristotle active -- develops "empiricism"
+- 341 BCE - 270 BCE: Epicurus active -- develops atomism, hedonism
+- 338 BCE: Philip II of Macedon defeats Greece at Chaeronea
+- 325 BCE - 265 BCE: Euclid active -- develops geometry
+- 323 BCE: Alexander the Great dies
+- 322 BCE: Aristotle moves from Athens, thinking it is no longer safe, and dies
+- 300 BCE: Euclid publishes *Elements of Geometry*
+- 3rd century BCE: Archimedes writes *The Sand Reckoner*
+- 287 BCE - 212 BCE: Archimedes active -- develops mathematics, physics
+- 212 BCE: Rome conquers Syracuse
+- 212 BCE: Archimedes killed by Roman soldier in siege of Syracuse
+- 168 BCE: Roman conquest of Greece
+- 100 BCE - 44 BCE: Julius Caesar active -- conquers Gaul, civil war, dictator
+- 99 BCE - 55 BCE: Lucretius active, revives Epicureanism with political dimensions
+- 50s BCE: Lucretius writes *On the Nature of Things*
+- 47 BCE: Vitruvius writes *On Architecture*
+- 30 BCE: Rome conquers Egypt
+- 27 BCE: Roman Empire established
+- 1 BCE - 65: Seneca active -- develops Stoicism
+- 0: Jesus of Nazareth born
+- 23 - 79: Pliny the Elder active -- writes *Natural History*, "cut and paste"
+- 61 - 112: Pliny the Younger active -- writes letters, civil historian
+- 100 - 170: Claudius Ptolemy active -- develops astronomy
+- 129 - 216: Galen active -- develops medicine, anatomy
+- 150: Ptolemy publishes *Almagest* ("The Greatest")
+- 155 - 220: Tertullian active -- "What has Athens to teach Jerusalem?"
+- 313: Edict of Milan legalizes Christianity
+- 324: Constantinople founded on Byzantium
+- 330: Constantine moves capital of Roman Empire to Constantinople from Rome
+- 354 - 430: Augustine of Hippo active -- develops theology, philosophy
+- 370 - 415: Hypatia active -- develops mathematics, astronomy
+- 380: Theodosius I makes Christianity the state religion
+- 394 - 400: Augustine writes *Confessions*, reflection on scripture vs. classical philosophy, "handmaid"
+- 415: Hypatia killed by Christian mob (What does Hypatia stand for in scientific history?)
+- 476: Fall of the Western Roman Empire, Byzantine Empire continues
+- 476: "Middle Ages" / "Dark Ages" / "Medeilval Period" begins
+- 480 - 524: Boethius active, establishes the seven liberal arts
+- 480 - 547: Benedict of Nursia active, establishes monasticism
+- 490 - 585: Cassiodorus active, establishes monastic handbook
+- 570: Muhammad born, prophet of Islam
+- 636: Isidore of Selville dies, "last scholar of the ancient world"
+- 8th century: Islamic "Golden Age" begins
+- 735: "The Venerable Bede" dies, monasterial intellectual tradition
+- 790 - 850: Al-Khwarizmi active -- develops algebra, algorithm
+- 965 - 1040: Ibn al-Haytham (Alhazen) active -- develops optics, scientific method
+- 980 - 1037: Ibn Sina (Avicenna) active -- develops medicine, philosophy
+- 1000: start of the "High Middle Ages"
+- 1058 - 1111: al-Ghazali active -- develops theology, philosophy
+- 1095: al-Ghazali writes "The Incoherence of the Philosophers.
+- 1096: evidence of teaching at Oxford
+- 1100 - 1156: Thierry of Chartres active -- develops metaphysics, theology, neo-Platonism
+- 1126 - 1198: Ibn Rushd (Averroes) active -- develops philosophy, science, theology
+- 1200 - 1280: Albertus Magnus active -- develops theology, philosophy, science
+- 1201 - 1274: al-Tusi active -- develops mathematics, astronomy, proposes the al-Tusi couple
+- 1210: Grosseteste becomes a "secular master" at Oxford, develops light metaphysics
+- 1214 - 1292: Roger Bacon active -- develops optics, scientific method
+- 13th century: "fall" of Islamic "Golden Age"
+- 1225 - 1274: Thomas Aquinas active -- develops theology, philosophy, science
+- 1240 - 1284: Siger of Brabant, proponent of Averroism, professor at Paris
+- 1259: Maragheh observatory established
+- 1270: Bishop condemns 13 propositions of Aristotle in Paris
+- 1277: Condemnations of 1277, rejection of Aristotelianism in Paris universities
+- 1287 - 1347: William of Ockham active -- develops nominalism, theology, philosophy
+- 1300: end of the "High Middle Ages", start of the "Late Middle Ages"
+- 1301 - 1358: Jean Buridan active -- develops physics, impetus theory (solution to projectile motion)
+- 1323: Aquinas becomes a saint, defends the Christianization of Aristotle
+- 1323 - 1382: Nicole Oresme active, develops physics (e.g. mean speed theorem)
+- 1347 - 1351: Black Death in Europe
+- 14th century: Oxford Calculators (Merton College, Oxford) take a mathematical rather than causal approach to physics
+- 1420: Ulugh Beg establishes Samarkand observatory, in modern Uzbekistan
+- 1473 - 1543: Nicolaus Copernicus active -- develops heliocentrism
+- 1493 - 1541: Paracelsus active -- develops medicine, alchemy, proposes "wandering around" as a method, likes Aristotle but opposes the institutionalization of his thought
+- 1499 - 1557: Niccolo Tartaglia active -- improves upon the Aristoteilan explanation for projectile motion, combination of violent and natural motion
+- 1500: start of the "Early Modern Period"
+- 1510: Copernicus writes *Commentariolus*, suggesting heliocentrism
+- 1517: Martin Luther nails 95 Theses to church door, beginning of Protestant Reformation, scorns Copernicus
+- 1535 - 1615: Giambattista della Porta active -- develops "natural magic"
+- 1543: *On the Revolutions of the Heavenly Spheres* by Copernicus published
+- 1543: supposed start of the "Scientific Revolution"
+- 1545 - 1612: John Gerard active -- writes *Herball*, herbal medicine
+- 1556: Agricola writes *De Re Metallica*, mining and metallurgy
+- 1561 - 1626: Francis Bacon active -- develops empiricism, inductive reasoning, experimental method
+- Late 16th century: Elizabethan government grants patents for inventions
+- 1643 - 1727: Isaac Newton active -- develops calculus, physics, optics, gravity
+- 1660: Royal Society of London founded
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
 **History of Philosophy**
 Coming.
+
+
+
