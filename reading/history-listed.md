@@ -15,6 +15,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 
 ---
 
+<div style="overflow-x: auto; white-space: nowrap;">
 - 3100 BCE - 1600 BCE: Stonehenge construction
 - 3000 BCE: Egyptian base-10 number system appears
 - 2700 BCE - 1500 BCE: Egyptian pyramids construction
@@ -181,7 +182,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1973: Roe v. Wade, Supreme Court legalizes abortion
 - 1973: US ends draft for Vietnam War
 - 1973: Pinochet overthrows Allende with U.S. support, establishing military dictatorship in Chile
-
+</div>
 
 <!-- ---
 
