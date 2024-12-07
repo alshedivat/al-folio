@@ -11,7 +11,7 @@ The aim of this list is to forcefully mesh together many cognitively partitioned
 These items in this list, of course, reflect my own biases and interests (mainly the courses I've taken).
 Work in progress.
 
-Topics I will be adding soon: Israel/Palestine; revolutions of America, France, India, and China; histories of small states (e.g. East Timor, Bhutan, Andorra, San Marino, Haiti, etc.); history of philosophy.
+Topics I will be adding soon: Israel/Palestine; revolutions of America, France, India, and China; histories of small states (e.g. East Timor, Bhutan, Andorra, San Marino, Haiti, etc.); history of philosophy; recent Middle East conflict; US presidential history
 
 ---
 
