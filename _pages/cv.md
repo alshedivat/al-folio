@@ -6,7 +6,7 @@ nav: true
 nav_order: 2
 ---
 
-View resume pdf [here](/assets/pdf/Ye%20Resume%20Public.pdf){:target="_blank"}.
+View CV as a [pdf](/assets/pdf/Ye%20Resume%20Public.pdf){:target="_blank"} and see my [PhD application statement of purpose](/assets/pdf/phd-sop.pdf){:target="_blank"}.
 
 ---
 

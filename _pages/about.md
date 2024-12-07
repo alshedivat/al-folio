@@ -25,7 +25,7 @@ I am an honors, Phi Beta Kappa, and Mary Gates scholar at the University of Wash
 *Long term*, I want to build **AI tools for thought** (esp. for the textual social sciences).
 *Short term*, I want to build AI which can proactively ask thought-provoking questions and introduce **new conceptual vocabulary**.
 My general intellectual interests include phenomenology, philosophy of science, and human-computer interaction.
-Please see my [research agenda](/agenda) and [CV](/cv) for more details.
+Please see my [research agenda](/agenda), [CV](/cv), and [SOP](/assets/pdf/phd-sop.pdf){:target="_blank"} for more details.
 I am very fortunate to be advised by [Amy Zhang](https://homes.cs.washington.edu/~axz/){:target="_blank"}, [Ranjay Krishna](https://ranjaykrishna.com/index.html){:target="_blank"}, and [Rose Novick](https://www.rosenovick.com/){:target="_blank"}.
 <!-- I have written a few [essays](/writing/philosophy){:target="_blank"} in philosophy, [two](/writing/mdldna){:target="_blank"} [books](/writing/mdl4td){:target="_blank"} on deep learning, a little bit of [fiction](/writing/fiction){:target="_blank"}, and many data science [articles](https://andre-ye.medium.com/){:target="_blank"}. -->
 My email is `andreye [at] uw [dot] edu`.
@@ -47,11 +47,11 @@ My email is `andreye [at] uw [dot] edu`.
 
 <br>
 
-<!-- <center>
+<center>
 <a href="https://info.flagcounter.com/42Y6"><img src="https://s11.flagcounter.com/count2/42Y6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
-</center> -->
+</center>
 
-<a href="https://info.flagcounter.com/42Y6"><img src="https://s11.flagcounter.com/count2/42Y6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+<!-- <a href="https://info.flagcounter.com/42Y6"><img src="https://s11.flagcounter.com/count2/42Y6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a> -->
 
 
 
