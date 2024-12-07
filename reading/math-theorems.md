@@ -6,7 +6,7 @@ description:
 nav: false
 ---
 
-I enjoy recreational math.
+I enjoy recreational math. I am especially fascinated by topics in modern/abstract algebra, category theory, and unexpectedly powerful abstractions in general.
 Here is a collection of mathematical observations, results, and questions that I think are interesting.
 There may be mistakes or simplifications in the following.
 
