@@ -1,15 +1,52 @@
 
+@article{2024jiang,
+  title={Serverless and Cloud Runtimes for Graph‐of‐Thoughts},
+  author={Andrea Jiang},
+  year={2024},
+  journal = {Master Thesis},
+  note={Co-supervised with Maciej Besta.}
+}
+
+@article{2024liko,
+  title={Serverless Co‐location with ML},
+  author={Entiol Liko},
+  year={2024},
+  journal = {Semester Project},
+  note={Co-supervised with Lukas Trümper.}
+}
+
+@article{2024rosca,
+  title={Long‐Term Serverless Performance Variability},
+  author={Oana Rosca},
+  year={2024},
+  journal = {Semester Project}
+}
+
+@article{2024dragancea,
+  title={Adoption and Evolution of C++},
+  author={Constantin Dragancea},
+  year={2024},
+  journal = {Master Thesis},
+}
+
 @article{2023boyan,
   title={Adoption and evolution of C++ in HPC Applications},
   author={Boyan Zhou},
   year={2023},
   journal = {Master Thesis},
 }
+
 @article{2022galea,
   title={Transparent Serverless Programming},
   author={Raul-Ronald Galea},
   year={2023},
   journal = {Master Thesis},
+  html={https://www.research-collection.ethz.ch/handle/20.500.11850/619289},
+  abstract={
+In recent years, serverless computing has emerged as a popular cloud computing paradigm, focusing strongly on ease of use and automatic scalability. Serverless computing, such as Amazon Web Services (AWS) Lambda, offers several advantages over traditional cloud computing models: managed infrastructure, auto-scaling and millisecond-level billing, thereby significantly reducing development time and improving cost-efficiency. However, applications still need to be built explicitly for use with the cloud serverless APIs, and existing applications cannot directly run on e.g. AWS Lambda. In this thesis, we explore the feasibility of transparently running arbitrary unmodified programs on serverless computing platforms by intercepting the creation of OS processes and offloading them to the cloud.
+OS processes are a common denominator among many programs, which enables us to treat them as opaque. In contrast, existing approaches would either sacrifice transparency and require modifications to user programs or be specifically tailored/optimized to a particular programming language and/or application. Instead, operating at a lower level of abstraction - at the process level - enables both transparency and programming language agnosticism.
+We demonstrate our hypothesis by offloading a Python image processing program and compilation build systems. We extend the computational resources of a 16vCPU VM via offloading to speed up an image resizing task by a factor of more than 5 and improve the compilation time of the Inkscape project by more than a factor of 2, respectively.
+  }
 }
 
 @article{2022rethy,
@@ -17,6 +54,12 @@
   author={Gyorgy Rethy},
   year={2022},
   journal = {Master Thesis},
+  html={https://www.research-collection.ethz.ch/handle/20.500.11850/599515},
+  abstract = {
+Current serverless and FaaS offerings provide developers with a platform that frees them from the burden of infrastructure management while scaling automatically to demand. This made them increasingly popular, and as such there have been multiple initiatives to build cost-effective large-scale computational systems on top of it. Unfortunately, current platforms have severe limitations, especially around communication, that prevent these systems from achieving the expected results. Over the years, many solutions have been proposed and implemented. In this thesis, we look at such a new model, Process-as-a-Service (PraaS), and evaluate how it compares to the state of the art.
+PraaS combines ephemeral functions with transient state and a data plane that allows for MPI-style, point-to-point messaging. We will explore how PraaS could be implemented on top of an existing container orchestration system and then combine it with a new serverless workflow executor.
+In the end, we will see that workflows developed for this implementation can outperform even the most expensive current alternatives.
+  }
 }
 
 @article{2022brandner,

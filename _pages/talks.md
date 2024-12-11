@@ -30,21 +30,35 @@ _Process-as-a-Service: Unifying Elastic and Stateful Clouds with Serverless Proc
 Presented by Rodrigo Bruno. 
 [Slides](/assets/pdf/2024_praas_slides.pdf).
 
-* **Research Poster Presentation, ACM/IEEE Supercomputing (SC24)**, November, Atlanta, USA.
-__, research paper presentation.
+* **ACM/IEEE Supercomputing (SC24)**, November, Atlanta, USA.
+_MIGnificient: Fast, Isolated, and GPU-Enabled Serverless Functions_, research poster presentation.
 **Best Research Poster award**.
 [Poster](/assets/pdf/2024_sc_mignificient_poster.pdf), [finals presentation slides](/assets/pdf/2024_sc_mignificient_slides.pdf).
 
-panel
+* **CANOPIE-HPC Workshop at ACM/IEEE Supercomputing (SC24)**, November, Atlanta, USA.
+_XaaS: Acceleration as a Service to Enable Productive High‐Performance Cloud Computing_, panel moderation.
+[Opening statement slides](/assets/pdf/2024_sc_panel_xaas_slides.pdf).
 
-panel 
+* **ACM/IEEE Supercomputing (SC24)**, November, Atlanta, USA.
+_Serverless HPC: Challenges, Opportunities, and Future Prospects for Accelerated Cloud Computing_, panel moderation.
+[Opening statement slides](/assets/pdf/2024_sc_panel_serverless_slides.pdf).
 
-hpdc
+* **Third International Workshop on Serverless Computing Experience 2024**, June, Virtual. _Benchmarking Serverless with SeBS: Past, Present, and Future_, lightning talk.
+[Slides](/assets/pdf/2024_woscx_sebs_slides.pdf).
 
-ipdps
+* **Intelligent Serverless and Cloud Applications Symposium, Zurich University of Applied Sciences (ZHAW)**, June, Zurich, Switzerland. _High Performance Serverless for HPC and Cloud_, invited talk.
 
-doctoral defense
+* **1st Workshop on Serverless at the Edge (SEATED), 33rd ACM International Symposium on High-Performance, Parallel and Distributed Computing (HPDC 2024)**, June, Pisa, Italy. _Evaluating FaaS Systems with the Serverless Benchmark Suite SeBS_, demo presentation.
+[Slides](/assets/pdf/2024_seated_demo_slides.pdf).
 
+* **33rd ACM International Symposium on High-Performance, Parallel and Distributed Computing (HPDC 2024)**, June, Pisa, Italy. _FaaSKeeper: Learning from Building Serverless Services with ZooKeeper as an Example_, research paper presentation.
+[Slides](/assets/pdf/2024_hpdc_faaskeeper_slides.pdf).
+
+* **38th IEEE International Parallel & Distributed Processing Symposium (IPDPS 2024)**, May, San Francisco, CA, USA. _Software Resource Disaggregation for HPC with Serverless Computing_, research paper presentation.
+[Slides](/assets/pdf/2024_ipdps_disaggregation_slides.pdf).
+
+* **PhD Defense**, March, Zurich, Switzerland. _High Performance Serverless for HPC and Clouds_.
+[Slides](/assets/pdf/2024_phd_defense_slides.pdf).
 
 ## 2023
 
