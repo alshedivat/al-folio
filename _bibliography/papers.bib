@@ -535,3 +535,17 @@ while significantly reducing CPU usage.},
   abbr = {IXPUG @ SC},
   pdf = {2024_ixpug_preprint.pdf}
 }
+
+@article{copik2024mignificientposter,
+  title={MIGnificient: Fast, Isolated, and GPU-Enabled Serverless Functions},
+  author={Marcin Copik and Alexandru Calotoiu and Pengyu Zhou and Lukas Tobler and Torsten Hoefler},
+  year={2024},
+  pdf = {2024_sc_mignificient_summary.pdf},
+  poster = {2024_sc_mignificient_poster.pdf},
+  slides = {2024_sc_mignificient_slides.pdf},
+  abstract = {The security of High-Performance Computing is becoming more important with new applications in machine learning and medical data processing. At the same time, the convergence of HPC and cloud computing brings a demand for workload co-location and resource sharing. Instead of providing security guarantees through exclusive resource locations and physical isolation, HPC systems must offer new methods that retain high utilization. These have to include GPUs that have become essential in HPC systems: accelerators are used by 68% of the first 50 systems on the TOP500 list. However, GPUs are often underutilized, as even workloads like machine learning training spend a significant fraction of their time on communication and CPU tasks. The growing capabilities of each new GPU generation make it even more difficult to saturate the device with a single application. These devices could be shared in Function-as-a-Service (FaaS), a new cloud programming model designed around fine-grained functions. There, functions execute on resources assigned by the load balancer, allowing system operators to boost utilization through dynamic scheduling. While traditional functions use containers and microVMs to share CPUs, they need a new model to securely and efficiently co-locate computations on GPUs.},
+  html = {https://sc24.supercomputing.org/proceedings/poster/poster_pages/post236.html},
+  journal = {Research Poster at ACM/IEEE Supercomputing},
+  note = {Best Research Poster Award},
+  abbr = {SC}
+}

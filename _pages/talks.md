@@ -23,10 +23,34 @@ The list of talks, presentations, and public appearances.
 
 -----------
 
+## 2024
+
+* **2024 ACM Symposium on Cloud Computing**, November, Redmond, USA.
+_Process-as-a-Service: Unifying Elastic and Stateful Clouds with Serverless Processes_, research paper presentation.
+Presented by Rodrigo Bruno. 
+[Slides](/assets/pdf/2024_praas_slides.pdf).
+
+* **Research Poster Presentation, ACM/IEEE Supercomputing (SC24)**, November, Atlanta, USA.
+__, research paper presentation.
+**Best Research Poster award**.
+[Poster](/assets/pdf/2024_sc_mignificient_poster.pdf), [finals presentation slides](/assets/pdf/2024_sc_mignificient_slides.pdf).
+
+panel
+
+panel 
+
+hpdc
+
+ipdps
+
+doctoral defense
+
+
 ## 2023
 
 * **Doctoral Showcase, ACM/IEEE Supercomputing (SC23)**, November, Denver, USA.
-_High Performance Serverless for HPC and Clouds_, poster presentation. Slides.
+_High Performance Serverless for HPC and Clouds_, poster presentation.
+[Slides](/assets/pdf/2023_sc_doctoral_showcase_slides.pdf).
 
 * **The Ninth Annual Workshop on the LLVM Compiler Infrastructure in HPC (LLVM-HPC), ACM/IEEE Supercomputing (SC23)**, November, Denver, USA.
 _Cppless: Productive and Performant Serverless Programming in C++_, workshop lighting talk.
