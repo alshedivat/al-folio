@@ -11,7 +11,7 @@ categories: education
 giscus_comments: true
 toc:
   sidebar: right
-featured: true
+featured: false
 related_posts: false
 datatable: true
 #redirect: /assets/pdf/example_pdf.pdf
