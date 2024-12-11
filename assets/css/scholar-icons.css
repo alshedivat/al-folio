@@ -2,47 +2,64 @@
  * Scholar Icons v1.0.2 by @louisfacun – https://github.com/louisfacun/scholar-icons
  * License – Fonts: SIL OFL 1.1, Codes: MIT License, Icons: CC BY 4.0
  */
- 
- @font-face {
-    font-family: 'Scholar Icons';
-    src:url('../fonts/scholar-icons.eot');
-    src:url('../fonts/scholar-icons.eot') format('embedded-opentype'),
-        url('../fonts/scholar-icons.ttf') format('truetype'),
-        url('../fonts/scholar-icons.woff') format('woff'),
-        url('../fonts/scholar-icons.svg') format('svg');
-    font-style: normal;
-    font-weight: normal;
-    font-display: block;
+
+@font-face {
+  font-family: "Scholar Icons";
+  src: url("../fonts/scholar-icons.eot");
+  src:
+    url("../fonts/scholar-icons.eot") format("embedded-opentype"),
+    url("../fonts/scholar-icons.ttf") format("truetype"),
+    url("../fonts/scholar-icons.woff") format("woff"),
+    url("../fonts/scholar-icons.svg") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  font-display: block;
 }
 
 .si {
-    font-family: 'Scholar Icons' !important;
-    font-weight: 400;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    text-transform: none;
-    line-height: 1;
+  font-family: "Scholar Icons" !important;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  text-transform: none;
+  line-height: 1;
 }
 
-.si-1x { font-size: 1em; }
+.si-1x {
+  font-size: 1em;
+}
 
-.si-2x { font-size: 2em; }
+.si-2x {
+  font-size: 2em;
+}
 
-.si-3x { font-size: 3em; }
+.si-3x {
+  font-size: 3em;
+}
 
-.si-4x { font-size: 4em; }
+.si-4x {
+  font-size: 4em;
+}
 
-.si-5x { font-size: 5em; }
+.si-5x {
+  font-size: 5em;
+}
 
-.si-6x { font-size: 6em; }
+.si-6x {
+  font-size: 6em;
+}
 
-.si-7x { font-size: 7em; }
+.si-7x {
+  font-size: 7em;
+}
 
-.si-8x { font-size: 8em; }
+.si-8x {
+  font-size: 8em;
+}
 .si-arduino:before {
   content: "\e956";
 }
