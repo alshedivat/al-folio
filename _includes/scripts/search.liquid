@@ -119,430 +119,201 @@
         {%- endif -%}
       {%- endfor -%}
       {%- if site.socials_in_search -%}
-        {%- if site.email -%}
+        {%- for social in site.data.socials -%}
+          {%- case social[0] -%}
+            {%- when "acm_id" -%}
+              {%- assign social_id = "social-acm" -%}
+              {%- assign social_title = "ACM DL" -%}
+              {%- assign social_url = "https://dl.acm.org/profile/{{ social[1] }}/" -%}
+            {%- when "blogger_url" -%}
+              {%- assign social_id = "social-blogger" -%}
+              {%- assign social_title = "Blogger" -%}
+              {%- assign social_url = social[1] -%}
+            {%- when "bluesky_url" -%}
+              {%- assign social_id = "social-bluesky" -%}
+              {%- assign social_title = "Bluesky" -%}
+              {%- assign social_url = social[1] -%}
+            {%- when "dblp_url" -%}
+              {%- assign social_id = "social-dblp" -%}
+              {%- assign social_title = "DBLP" -%}
+              {%- assign social_url = social[1] -%}
+            {%- when "discord_id" -%}
+              {%- assign social_id = "social-discord" -%}
+              {%- assign social_title = "Discord" -%}
+              {%- assign social_url = "https://discord.com/users/{{ social[1] }}" -%}
+            {%- when "email" -%}
+              {%- assign social_id = "social-email" -%}
+              {%- assign social_title = "email" -%}
+              {%- assign social_url = "mailto:{{ site.email | encode_email }}" -%}
+            {%- when "facebook_id" -%}
+              {%- assign social_id = "social-facebook" -%}
+              {%- assign social_title = "Facebook" -%}
+              {%- assign social_url = "https://facebook.com/{{ social[1] }}" -%}
+            {%- when "flickr_id" -%}
+              {%- assign social_id = "social-flickr" -%}
+              {%- assign social_title = "Flickr" -%}
+              {%- assign social_url = "https://www.flickr.com/{{ social[1] }}" -%}
+            {%- when "github_username" -%}
+              {%- assign social_id = "social-github" -%}
+              {%- assign social_title = "GitHub" -%}
+              {%- assign social_url = "
+            {%- when "gitlab_username" -%}
+              {%- assign social_id = "social-gitlab" -%}
+              {%- assign social_title = "GitLab" -%}
+              {%- assign social_url = "https://gitlab.com/{{ social[1] }}" -%}
+            {%- when "ieee_id" -%}
+              {%- assign social_id = "social-ieee" -%}
+              {%- assign social_title = "IEEE Xplore" -%}
+              {%- assign social_url = "https://ieeexplore.ieee.org/author/{{ social[1] }}/" -%}
+            {%- when "inspirehep_id" -%}
+              {%- assign social_id = "social-inspire" -%}
+              {%- assign social_title = "Inspire HEP" -%}
+              {%- assign social_url = "https://inspirehep.net/authors/{{ social[1] }}" -%}
+            {%- when "instagram_id" -%}
+              {%- assign social_id = "social-instagram" -%}
+              {%- assign social_title = "Instagram" -%}
+              {%- assign social_url = "https://instagram.com/{{ social[1] }}" -%}
+            {%- when "kaggle_id" -%}
+              {%- assign social_id = "social-kaggle" -%}
+              {%- assign social_title = "Kaggle" -%}
+              {%- assign social_url = "https://www.kaggle.com/{{ social[1] }}" -%}
+            {%- when "keybase_username" -%}
+              {%- assign social_id = "social-keybase" -%}
+              {%- assign social_title = "Keybase" -%}
+              {%- assign social_url = "https://keybase.io/{{ social[1] }}" -%}
+            {%- when "lastfm_id" -%}
+              {%- assign social_id = "social-lastfm" -%}
+              {%- assign social_title = "Last FM" -%}
+              {%- assign social_url = "https://www.last.fm/user/{{ social[1] }}" -%}
+            {%- when "lattes_id" -%}
+              {%- assign social_id = "social-lattes" -%}
+              {%- assign social_title = "Lattes" -%}
+              {%- assign social_url = "http://lattes.cnpq.br/{{ social[1] }}" -%}
+            {%- when "leetcode_id" -%}
+              {%- assign social_id = "social-leetcode" -%}
+              {%- assign social_title = "LeetCode" -%}
+              {%- assign social_url = "https://leetcode.com/u/{{ social[1] }}/" -%}
+            {%- when "linkedin_username" -%}
+              {%- assign social_id = "social-linkedin" -%}
+              {%- assign social_title = "LinkedIn" -%}
+              {%- assign social_url = "https://www.linkedin.com/in/{{ social[1] }}" -%}
+            {%- when "mastodon_username" -%}
+              {%- assign social_id = "social-mastodon" -%}
+              {%- assign social_title = "Mastodon" -%}
+              {%- assign social_url = "https://{{ site.mastodon_username  }}" -%}
+            {%- when "medium_username" -%}
+              {%- assign social_id = "social-medium" -%}
+              {%- assign social_title = "Medium" -%}
+              {%- assign social_url = "https://medium.com/@{{ social[1] }}" -%}
+            {%- when "orcid_id" -%}
+              {%- assign social_id = "social-orcid" -%}
+              {%- assign social_title = "ORCID" -%}
+              {%- assign social_url = "https://orcid.org/{{ social[1] }}" -%}
+            {%- when "osf_id" -%}
+              {%- assign social_id = "social-osf" -%}
+              {%- assign social_title = "Open Science Framework" -%}
+              {%- assign social_url = "https://osf.io/{{ social[1] }}/" -%}
+            {%- when "pinterest_id" -%}
+              {%- assign social_id = "social-pinterest" -%}
+              {%- assign social_title = "Pinterest" -%}
+              {%- assign social_url = "https://www.pinterest.com/{{ social[1] }}" -%}
+            {%- when "publons_id" -%}
+              {%- assign social_id = "social-publons" -%}
+              {%- assign social_title = "Publons" -%}
+              {%- assign social_url = "https://publons.com/a/{{ social[1] }}/" -%}
+            {%- when "quora_username" -%}
+              {%- assign social_id = "social-quora" -%}
+              {%- assign social_title = "Quora" -%}
+              {%- assign social_url = "https://www.quora.com/profile/{{ social[1] }}" -
+            {%- when "research_gate_profile" -%}
+              {%- assign social_id = "social-researchgate" -%}
+              {%- assign social_title = "ResearchGate" -%}
+              {%- assign social_url = "https://www.researchgate.net/profile/{{ social[1] }}/" -%}
+            {%- when "rss_icon" -%}
+              {%- assign social_id = "social-rss" -%}
+              {%- assign social_title = "RSS Feed" -%}
+              {%- assign social_url = "{{ site.baseurl }}/feed.xml" -%}
+            {%- when "scholar_userid" -%}
+              {%- assign social_id = "social-scholar" -%}
+              {%- assign social_title = "Google Scholar" -%}
+              {%- assign social_url = "https://scholar.google.com/citations?user={{ social[1] }}" -%}
+            {%- when "scopus_id" -%}
+              {%- assign social_id = "social-scopus" -%}
+              {%- assign social_title = "Scopus" -%}
+              {%- assign social_url = "https://www.scopus.com/authid/detail.uri?authorId={{ social[1] }}" -%}
+            {%- when "semanticscholar_id" -%}
+              {%- assign social_id = "social-semanticscholar" -%}
+              {%- assign social_title = "Semantic Scholar" -%}
+              {%- assign social_url = "https://www.semanticscholar.org/author/{{ social[1] }}" -%}
+            {%- when "spotify_id" -%}
+              {%- assign social_id = "social-spotify" -%}
+              {%- assign social_title = "Spotify" -%}
+              {%- assign social_url = "https://open.spotify.com/user/{{ social[1] }}" -%}
+            {%- when "stackoverflow_id" -%}
+              {%- assign social_id = "social-stackoverflow" -%}
+              {%- assign social_title = "Stackoverflow" -%}
+              {%- assign social_url = "https://stackoverflow.com/users/{{ social[1] }}" -%}
+            {%- when "strava_userid" -%}
+              {%- assign social_id = "social-strava" -%}
+              {%- assign social_title = "Strava" -%}
+              {%- assign social_url = "https://www.strava.com/athletes/{{ social[1] }}" -%}
+            {%- when "telegram_username" -%}
+              {%- assign social_id = "social-telegram" -%}
+              {%- assign social_title = "telegram" -%}
+              {%- assign social_url = "https://telegram.me/{{ social[1] }}" -%}
+            {%- when "unsplash_id" -%}
+              {%- assign social_id = "social-unsplash" -%}
+              {%- assign social_title = "Unsplash" -%}
+              {%- assign social_url = "https://unsplash.com/@{{ social[1] }}" -%}
+            {%- comment -%}
+            // check how to add wechat qr code
+            {%- when "wechat_qr" -%}
+              {%- assign social_id = "social-wechat" -%}
+              {%- assign social_title = "WeChat" -%}
+              {%- assign social_url = "https://wechat.com/{{ social[1] }}" -%}
+            {%- endcomment -%}
+            {%- when "whatsapp_number" -%}
+              {%- assign social_id = "social-whatsapp" -%}
+              {%- assign social_title = "whatsapp" -%}
+              {%- assign social_url = "https://wa.me/{{ social[1] }}" -%}
+            {%- when "wikidata_id" -%}
+              {%- assign social_id = "social-wikidata" -%}
+              {%- assign social_title = "Wikidata" -%}
+              {%- assign social_url = "https://www.wikidata.org/wiki/{{ social[1] }}" -%}
+            {%- when "wikipedia_id" -%}
+              {%- assign social_id = "social-wikipedia" -%}
+              {%- assign social_title = "Wikipedia" -%}
+              {%- assign social_url = "https://wikipedia.org/wiki/User:{{ social[1] }}" -%}
+            {%- when "work_url" -%}
+              {%- assign social_id = "social-work" -%}
+              {%- assign social_title = "Work" -%}
+              {%- assign social_url = social[1] -%}
+            {%- when "x_username" -%}
+              {%- assign social_id = "social-x" -%}
+              {%- assign social_title = "X" -%}
+              {%- assign social_url = "https://twitter.com/{{ social[1] }}" -%}
+            {%- when "youtube_id" -%}
+              {%- assign social_id = "social-youtube" -%}
+              {%- assign social_title = "YouTube" -%}
+              {%- assign social_url = "https://youtube.com/@{{ social[1] }}" -%}
+            {%- when "zotero_username" -%}
+              {%- assign social_id = "social-zotero" -%}
+              {%- assign social_title = "Zotero" -%}
+              {%- assign social_url = "https://www.zotero.org/{{ social[1] }}" -%}
+            {%- else -%}
+              {%- assign social_id = "social-" | append: social[0] -%}
+              {%- assign social_title = social[0] | capitalize -%}
+              {%- assign social_url = social[1].url -%}
+          {%- endcase -%}
           {
-            id: 'socials-email',
-            title: 'Send email',
+            id: '{{ social_id }}',
+            title: '{{ social_title }}',
             section: 'Socials',
             handler: () => {
-              window.open("mailto:{{ site.email | encode_email }}", "_blank");
+              window.open("{{ social_url }}", "_blank");
             },
           },
-        {%- endif -%}
-        {%- if site.telegram_username -%}
-          {
-            id: 'socials-telegram',
-            title: 'Telegram',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://telegram.me/{{ site.telegram_username }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.whatsapp_number -%}
-          {
-            id: 'socials-whatsapp',
-            title: 'WhatsApp',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://wa.me/{{ site.whatsapp_number }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.orcid_id -%}
-          {
-            id: 'socials-orcid',
-            title: 'ORCID',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://orcid.org/{{ site.orcid_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.scholar_userid -%}
-          {
-            id: 'socials-google-scholar',
-            title: 'Google Scholar',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://scholar.google.com/citations?user={{ site.scholar_userid }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.semanticscholar_id -%}
-          {
-            id: 'socials-semantic-scholar',
-            title: 'Semantic Scholar',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.semanticscholar.org/author/{{ site.semanticscholar_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.publons_id -%}
-          {
-            id: 'socials-publons',
-            title: 'Publons',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://publons.com/a/{{ site.publons_id }}/", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.lattes_id -%}
-          {
-            id: 'socials-lattes',
-            title: 'Lattes',
-            section: 'Socials',
-            handler: () => {
-              window.open("http://lattes.cnpq.br/{{ site.lattes_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.osf_id -%}
-          {
-            id: 'socials-open-science-framework',
-            title: 'Open Science Framework',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://osf.io/{{ site.osf_id }}/", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.research_gate_profile -%}
-          {
-            id: 'socials-researchgate',
-            title: 'ResearchGate',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.researchgate.net/profile/{{ site.research_gate_profile }}/", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.ieee_id -%}
-          {
-            id: 'socials-ieee-xplore',
-            title: 'IEEE Xplore',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://ieeexplore.ieee.org/author/{{ site.ieee_id }}/", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.acm_id -%}
-          {
-            id: 'socials-acm-dl',
-            title: 'ACM DL',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://dl.acm.org/profile/{{ site.acm_id }}/", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.scopus_id -%}
-          {
-            id: 'socials-scopus',
-            title: 'Scopus',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.scopus.com/authid/detail.uri?authorId={{ site.scopus_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.github_username -%}
-          {
-            id: 'socials-github',
-            title: 'GitHub',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://github.com/{{ site.github_username }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.linkedin_username -%}
-          {
-            id: 'socials-linkedin',
-            title: 'LinkedIn',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.linkedin.com/in/{{ site.linkedin_username }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.x_username -%}
-          {
-            id: 'socials-x',
-            title: 'X',
-            description: 'Twitter',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://twitter.com/{{ site.x_username }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.mastodon_username -%}
-          {
-            id: 'socials-mastodon',
-            title: 'Mastodon',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://{{ site.mastodon_username  }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.medium_username -%}
-          {
-            id: 'socials-medium',
-            title: 'Medium',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://medium.com/@{{ site.medium_username }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.quora_username -%}
-          {
-            id: 'socials-quora',
-            title: 'Quora',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.quora.com/profile/{{ site.quora_username }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.flickr_id -%}
-          {
-            id: 'socials-flickr',
-            title: 'Flickr',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.flickr.com/{{ site.flickr_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.blogger_url -%}
-          {
-            id: 'socials-blogger',
-            title: 'Blogger',
-            section: 'Socials',
-            handler: () => {
-              window.open("{{ site.blogger_url }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.work_url -%}
-          {
-            id: 'socials-work',
-            title: 'Work',
-            section: 'Socials',
-            handler: () => {
-              window.open("{{ site.work_url }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.wikidata_id -%}
-          {
-            id: 'socials-wikidata',
-            title: 'Wikidata',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.wikidata.org/wiki/{{ site.wikidata_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.wikipedia_id -%}
-          {
-            id: 'socials-wikipedia',
-            title: 'Wikipedia',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://wikipedia.org/wiki/User:{{ site.wikipedia_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.strava_userid -%}
-          {
-            id: 'socials-strava',
-            title: 'Strava',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.strava.com/athletes/{{ site.strava_userid }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.keybase_username -%}
-          {
-            id: 'socials-keybase',
-            title: 'Keybase',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://keybase.io/{{ site.keybase_username }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.gitlab_username -%}
-          {
-            id: 'socials-gitlab',
-            title: 'GitLab',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://gitlab.com/{{ site.gitlab_username }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.dblp_url -%}
-          {
-            id: 'socials-dblp',
-            title: 'DBLP',
-            section: 'Socials',
-            handler: () => {
-              window.open("{{ site.dblp_url }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.stackoverflow_id -%}
-          {
-            id: 'socials-stackoverflow',
-            title: 'Stackoverflow',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://stackoverflow.com/users/{{ site.stackoverflow_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.kaggle_id -%}
-          {
-            id: 'socials-kaggle',
-            title: 'Kaggle',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.kaggle.com/{{ site.kaggle_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.lastfm_id -%}
-          {
-            id: 'socials-last-fm',
-            title: 'Last FM',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.last.fm/user/{{ site.lastfm_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.spotify_id -%}
-          {
-            id: 'socials-spotify',
-            title: 'Spotify',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://open.spotify.com/user/{{ site.spotify_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.pinterest_id -%}
-          {
-            id: 'socials-pinterest',
-            title: 'Pinterest',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.pinterest.com/{{ site.pinterest_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.unsplash_id -%}
-          {
-            id: 'socials-unsplash',
-            title: 'Unsplash',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://unsplash.com/@{{ site.unsplash_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.instagram_id -%}
-          {
-            id: 'socials-instagram',
-            title: 'Instagram',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://instagram.com/{{ site.instagram_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.facebook_id -%}
-          {
-            id: 'socials-facebook',
-            title: 'Facebook',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://facebook.com/{{ site.facebook_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.bluesky_url -%}
-          {
-            id: 'socials-bluesky',
-            title: 'Bluesky',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://bsky.app/profile/{{ site.bluesky_url }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.youtube_id -%}
-          {
-            id: 'socials-youtube',
-            title: 'YouTube',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://youtube.com/@{{ site.youtube_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.discord_id -%}
-          {
-            id: 'socials-discord',
-            title: 'Discord',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://discord.com/users/{{ site.discord_id }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.zotero_username -%}
-          {
-            id: 'socials-zotero',
-            title: 'Zotero',
-            section: 'Socials',
-            handler: () => {
-              window.open("https://www.zotero.org/{{ site.zotero_username }}", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- if site.rss_icon -%}
-          {
-            id: 'socials-rss',
-            title: 'RSS Feed',
-            section: 'Socials',
-            handler: () => {
-              window.open("{{ site.baseurl }}/feed.xml", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- comment -%}
-        {%- if site.wechat_qr -%}
-          // check how to add wechat qr code
-          {
-            id: 'socials-wechat',
-            title: 'WeChat',
-            section: 'Socials',
-            handler: () => {
-              window.open("", "_blank");
-            },
-          },
-        {%- endif -%}
-        {%- endcomment -%}
+        {%- endfor -%}
       {%- endif -%}
       {%- if site.enable_darkmode -%}
         {
