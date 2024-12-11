@@ -22,7 +22,9 @@ layout: page
           {% if member.twitter_username %}
           <a href="https://twitter.com/{{ member.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a> &nbsp;
           {% endif %}
+          {% if member.website %}
           <a href="{{ member.website }}"><i class="fas fa-home"></i></a>
+          {% endif %}
         </p>
         <p class="card-text">{{ member.description }}</p>
     </div>
@@ -32,3 +34,5 @@ layout: page
 {% endfor %}
 </ul>
 {% endif %}
+
+{{ content }}
