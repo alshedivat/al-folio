@@ -6,14 +6,12 @@
   font-weight: var(--#{$fa-css-prefix}-style, #{$fa-style});
 }
 
-.#{$fa-css-prefix}-solid,
-.#{$fa-css-prefix}-regular,
-.#{$fa-css-prefix}-brands,
 .fas,
 .far,
 .fab,
-.#{$fa-css-prefix}-sharp-solid,
-.#{$fa-css-prefix}-classic,
+.#{$fa-css-prefix}-solid,
+.#{$fa-css-prefix}-regular,
+.#{$fa-css-prefix}-brands,
 .#{$fa-css-prefix} {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -24,19 +22,27 @@
   text-rendering: auto;
 }
 
-.fas,
+.fas::before,
+.far::before,
+.fab::before,
+.#{$fa-css-prefix}-solid::before,
+.#{$fa-css-prefix}-regular::before,
+.#{$fa-css-prefix}-brands::before,
+.fa::before {
+  content: var(#{$fa-icon-property});
+}
+
 .#{$fa-css-prefix}-classic,
+.fas,
 .#{$fa-css-prefix}-solid,
 .far,
 .#{$fa-css-prefix}-regular {
   font-family: 'Font Awesome 6 Free';
 }
-
-.fab,
-.#{$fa-css-prefix}-brands {
+.#{$fa-css-prefix}-brands,
+.fab {
   font-family: 'Font Awesome 6 Brands';
 }
-
 
 %fa-icon {
   @include fa-icon;
