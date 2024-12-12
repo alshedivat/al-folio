@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - alerezaaa
+#  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
+  # - alerezaaa/Jekyll_alireza
   - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  # - jekyll/jekyll
+#  - jquery/jquery
+#  - FortAwesome/Font-Awesome
+#  - jpswalsh/academicons
+#  - mathjax/MathJax
