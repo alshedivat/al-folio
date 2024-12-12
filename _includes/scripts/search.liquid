@@ -144,7 +144,7 @@
             {%- when "email" -%}
               {%- assign social_id = "social-email" -%}
               {%- assign social_title = "email" -%}
-              {%- assign social_url = "mailto:{{ site.email | encode_email }}" -%}
+              {%- assign social_url = "mailto:{{ social[1] | encode_email }}" -%}
             {%- when "facebook_id" -%}
               {%- assign social_id = "social-facebook" -%}
               {%- assign social_title = "Facebook" -%}
@@ -200,7 +200,7 @@
             {%- when "mastodon_username" -%}
               {%- assign social_id = "social-mastodon" -%}
               {%- assign social_title = "Mastodon" -%}
-              {%- assign social_url = "https://{{ site.mastodon_username  }}" -%}
+              {%- assign social_url = "https://{{ social[1] }}" -%}
             {%- when "medium_username" -%}
               {%- assign social_id = "social-medium" -%}
               {%- assign social_title = "Medium" -%}
