@@ -19,8 +19,7 @@ Hello, I Am a first-year student at Syracuse University, pursuing a double major
 
 Currently, I am researching how large language models (LLMs) mirror human memory, alongside advanced research in finance, focusing on algorithmic trading and financial market prediction. By bridging these fields, I aim to develop innovative solutions that merge AI advancements with real-world financial applications.
 
-Aspiring to pursue a PhD, I am dedicated to contributing to transformative research that spans multiple disciplines. This site showcases my academic projects, research endeavors, and professional aspirations. Let’s connect and collaborate!
+Aspiring to pursue a PhD, I am dedicated to contributing to transformative research that spans multiple disciplines. This site showcases my academic projects, research endeavors, and professional aspirations.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I currently do not have any publications, but I will soon update this. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
