@@ -45,11 +45,7 @@ scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social_1: # can be any name here other than the ones already defined above
-  logo: https://upload.wikimedia.org/wikipedia/commons/8/81/Wikimedia-logo.svg
-  title: Custom Social 1
-  url: https://www.alberteinstein.com/
-custom_social_2: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png
-  title: Custom Social 2
+custom_social: # can be any name here other than the ones already defined above
+  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+  title: Custom Social
   url: https://www.alberteinstein.com/
