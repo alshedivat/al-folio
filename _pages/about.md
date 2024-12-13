@@ -11,8 +11,8 @@ profile:
   more_info: >
     <p>Located in Port Chester, NY</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 Hi, I am a first-year student at Syracuse University, pursuing a double major in Computer Science and Mathematics. My academic journey is defined by my interdisciplinary research spanning the departments of Computer Science and Finance, where I explore cutting-edge topics in artificial intelligence, machine learning, and financial systems.
