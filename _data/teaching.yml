@@ -1,6 +1,9 @@
 - title: UW-Madison
   type: time_table
   contents:
+    - title: COMP SCI 435 - Introduction to Cryptography
+      institution: Instructor - <a href="https://pages.cs.wisc.edu/~chatterjee/">Prof. Rahul Chatterjee</a>
+      year: Spring 2025
     - title: <a href="https://pages.cs.wisc.edu/~rishab/cs435-fall24/index.html"> COMP SCI 435 - Introduction to Cryptography</a>
       institution: Instructor - <a href="https://pages.cs.wisc.edu/~rishab/">Prof. Rishab Goyal</a>
       year: Fall 2024
