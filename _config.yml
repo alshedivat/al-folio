@@ -8,8 +8,8 @@ contact_note: >
 first_name: Alireza
 middle_name: 
 last_name: Dehghanzadeh
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+# contact_note: >
+#   You can even add a little note about which of these is the best way to reach you.
 #email: dehghanzadeh98@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   This is personal website of Alireza Dehghanzadeh
