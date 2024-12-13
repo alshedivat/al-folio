@@ -1,18 +1,15 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "David Pascual",
+    "label": "First-Year Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "dopascua@syr.edu",
+    "phone": "(914) 565-3901",
+    "url": "https://davidopascual/davidopascual.github.io/",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "city": "Port Chester",
       "countryCode": "US",
-      "region": "California"
+      "region": "New York"
     },
     "profiles": [
       {
@@ -24,14 +21,18 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
+      "name": "College of Engineering and Computer Science at Syracuse University",
+      "position": "Undergraduate Researcher",
+      "startDate": "2024-12-01",
+      "endDate": "Present",
+      "summary": "Conducting research under Professor Reza Zafarani at Syracuse University to investigate the memory mechanisms of large language models (LLMs) and analyze their similarities to human memory processes. Responsibilities include designing queries, analyzing model outputs, and contributing to theoretical insights into artificial intelligence cognition."
+    },
+    {
+    "name": "Martin J. Whitman School of Management at Syracuse University",
+    "position": "Undergraduate Researcher",
+    "startDate": "2024-12-01",
+    "endDate": "Present",
+    "summary": "Conducting research under Professor Si Cheng at Syracuse University, focusing on machine learning applications in finance. Responsibilities include data analysis, algorithm development, and exploring innovative solutions to financial modeling challenges."}
   ],
   "volunteer": [
     {
@@ -47,15 +48,15 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "institution": "Syracuse University",
+      "location": "Syracuse, New York",
+      "url": "https://www.syracuse.edu/",
+      "area": "Computer Science and Mathematics",
+      "studyType": "B.S.",
+      "startDate": "2028",
+      "endDate": "2028",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Elements of Computer Science, Calculus 3 Plus, Linear Algebra, Introduction to Abstract Mathematics"]
     }
   ],
   "awards": [
