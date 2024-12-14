@@ -1324,15 +1324,15 @@ function around(diagram, [x, y]) {
 
 /* Create typogram as another node and hide the code block, appending the typogram node after it
 this is done to enable retrieving the code again when changing theme between light/dark */
-document.addEventListener('readystatechange', () => {
-  if (document.readyState === 'complete') {
-    document.querySelectorAll('pre>code.language-typograms').forEach((elem) => {
+document.addEventListener("readystatechange", () => {
+  if (document.readyState === "complete") {
+    document.querySelectorAll("pre>code.language-typograms").forEach((elem) => {
       const texData = elem.textContent;
       const parent = elem.parentElement.parentElement;
       /* create typograms node */
-      let typogram = document.createElement('pre');
-      typogram.classList.add('typogram');
-      const svg = create('\n' + texData, 0.3, false);
+      let typogram = document.createElement("pre");
+      typogram.classList.add("typogram");
+      const svg = create("\n" + texData, 0.3, false);
       typogram.appendChild(svg);
       parent.appendChild(typogram);
       parent.removeChild(elem.parentElement);

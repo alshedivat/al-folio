@@ -1,11 +1,11 @@
 /*
-     * This JavaScript code has been adapted from the article
-     * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
-     * published on the website https://css-tricks.com on the 7th of May, 2014.
-     * Couple of changes were made to the original code to make it compatible
-     * with the `al-foio` theme.
-     */
-const progressBar = $('#progress');
+ * This JavaScript code has been adapted from the article
+ * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
+ * published on the website https://css-tricks.com on the 7th of May, 2014.
+ * Couple of changes were made to the original code to make it compatible
+ * with the `al-foio` theme.
+ */
+const progressBar = $("#progress");
 /*
  * We set up the bar after all elements are done loading.
  * In some cases, if the images in the page are larger than the intended
@@ -24,16 +24,16 @@ window.onload = function () {
  * Otherwise, we resize the bar thru CSS styling
  */
 function progressBarSetup() {
-  if ('max' in document.createElement('progress')) {
+  if ("max" in document.createElement("progress")) {
     initializeProgressElement();
-    $(document).on('scroll', function () {
+    $(document).on("scroll", function () {
       progressBar.attr({ value: getCurrentScrollPosition() });
     });
-    $(window).on('resize', initializeProgressElement);
+    $(window).on("resize", initializeProgressElement);
   } else {
     resizeProgressBar();
-    $(document).on('scroll', resizeProgressBar);
-    $(window).on('resize', resizeProgressBar);
+    $(document).on("scroll", resizeProgressBar);
+    $(window).on("resize", resizeProgressBar);
   }
 }
 /*
@@ -46,9 +46,9 @@ function getCurrentScrollPosition() {
 }
 
 function initializeProgressElement() {
-  let navbarHeight = $('#navbar').outerHeight(true);
-  $('body').css({ 'padding-top': navbarHeight });
-  $('progress-container').css({ 'padding-top': navbarHeight });
+  let navbarHeight = $("#navbar").outerHeight(true);
+  $("body").css({ "padding-top": navbarHeight });
+  $("progress-container").css({ "padding-top": navbarHeight });
   progressBar.css({ top: navbarHeight });
   progressBar.attr({
     max: getDistanceToScroll(),
@@ -65,7 +65,7 @@ function getDistanceToScroll() {
 }
 
 function resizeProgressBar() {
-  progressBar.css({ width: getWidthPercentage() + '%' });
+  progressBar.css({ width: getWidthPercentage() + "%" });
 }
 // The scroll ratio equals the percentage to resize the bar
 function getWidthPercentage() {
