@@ -1,18 +1,4 @@
-{% if page.chart and page.chart.echarts %}
-  <script
-    src="{{ site.third_party_libraries.echarts.url.js.library }}"
-    integrity="{{ site.third_party_libraries.echarts.integrity.js.library }}"
-    crossorigin="anonymous"
-  ></script>
-  {% if site.enable_darkmode %}
-    <script
-      src="{{ site.third_party_libraries.echarts.url.js.dark_theme }}"
-      integrity="{{ site.third_party_libraries.echarts.integrity.js.dark_theme }}"
-      crossorigin="anonymous"
-    ></script>
-  {% endif %}
-  <script>
-    let echartsTheme = determineComputedTheme();
+let echartsTheme = determineComputedTheme();
 
     /* Create echarts chart as another node and hide the code block, appending the echarts node after it
        this is done to enable retrieving the code again when changing theme between light/dark */
@@ -41,5 +27,3 @@
         });
       }
     });
-  </script>
-{% endif %}

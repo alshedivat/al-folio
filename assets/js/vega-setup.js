@@ -1,25 +1,4 @@
-{% if page.chart and page.chart.vega_lite %}
-  <script
-    defer
-    src="{{ site.third_party_libraries.vega.url.js }}"
-    integrity="{{ site.third_party_libraries.vega.integrity.js }}"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    defer
-    src="{{ site.third_party_libraries.vega-lite.url.js }}"
-    integrity="{{ site.third_party_libraries.vega-lite.integrity.js }}"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    defer
-    src="{{ site.third_party_libraries.vega-embed.url.js }}"
-    integrity="{{ site.third_party_libraries.vega-embed.integrity.js }}"
-    crossorigin="anonymous"
-  ></script>
-
-  <script>
-    let vegaTheme = determineComputedTheme();
+let vegaTheme = determineComputedTheme();
 
     /* Create vega lite chart as another node and hide the code block, appending the vega lite node after it
        this is done to enable retrieving the code again when changing theme between light/dark */
@@ -43,5 +22,3 @@
         });
       }
     });
-  </script>
-{% endif %}
