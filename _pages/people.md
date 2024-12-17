@@ -18,7 +18,7 @@ horizontal: false
     </div>
 </div>
 <div class="caption">
-    Schulich School of Engineering, University of Calgary (2024)
+    Schulich School of Engineering, University of Calgary (April 2024)
 </div>
 
 <div class="row">
@@ -27,7 +27,7 @@ horizontal: false
     </div>
 </div>
 <div class="caption">
-    NeurIPS 2024, Vancouver, BC, Canada (2024)
+    NeurIPS 2024, Vancouver, BC, Canada (December 2024)
 </div>
 
 <div class="row">
@@ -36,7 +36,7 @@ horizontal: false
     </div>
 </div>
 <div class="caption">
-    Peyto Lake, Banff National Park, AB, Canada (2023)
+    Peyto Lake, Banff National Park, AB, Canada (August 2023)
 </div>
 
 
