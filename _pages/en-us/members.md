@@ -53,6 +53,7 @@ members:
 - Oliver Streiter, Department of Western Languages and Literature, National University of Kaohsiung
 - Mao-Ning Tuanmu, Biodiversity Research Center, Academia Sinica
 - Yu-Huang Wang, Nature Watch Ecological and Environmental Consultancy Ltd.
+- Eric Yen, Institute of Physics, Academia Sinica (Academia Sinica Grid-computing Centre)
 
 ## Lab Alumni
 
