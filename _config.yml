@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  <b><a href="https://t.me/talk2bot" target="_blank">Telegram</a> is the best way to reach me</b>
 first_name: Alireza
 middle_name: 
 last_name: Dehghanzadeh
