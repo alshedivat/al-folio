@@ -19,6 +19,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 Research interests: Neural mechanisms underlying skilled movements, sustained performance, and motor sequences. Biofeedback systems, brain computer interfaces, adaptive neural interfaces. 
+
 Isabella Fallon is currently a postdoctoral associate under Henry Yin at Duke University School of Medicine. There, she is studying how neural circuits generate skilled movements. She aims to leverage this understanding to build innovative biomedical devices that restore loss of motor function. 
 
 In May 2024, she received her PhD in Neurobiology from Duke University School of Medicine where she studied how striatal circuits contribute to decision making and kinematics under Dr. Henry Yin. Her work identified a novel 'push-pull’ mechanism of striatal circuits that determines movement trajectories towards goal targets. 
