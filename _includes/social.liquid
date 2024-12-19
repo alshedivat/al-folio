@@ -77,7 +77,7 @@
       <div id="WeChatMod" class="wechat-modal">
         <img src="{{ social[1] | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
       </div>
-      {% include scripts/wechatModal.liquid %}
+      <script defer src="{{ '/assets/js/wechat.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
     {% when 'whatsapp_number' %}
       <a href="https://wa.me/{{ social[1] }}" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
     {% when 'wikidata_id' %}
