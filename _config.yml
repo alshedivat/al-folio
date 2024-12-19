@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Isabella
-middle_name: P.
+middle_name: 
 last_name: Fallon
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
@@ -345,10 +345,10 @@ external_links:
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-# MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
+# MAKE SURE imagek is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
