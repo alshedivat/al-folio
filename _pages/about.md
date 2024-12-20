@@ -11,10 +11,12 @@ profile:
   more_info: >
     <p>Coding and linux enthusiast</p>
     <p>Graduted M.Sc.</p>
-    <ul>
-      <li>MSc <a href='https://ut.ac.ir/en' style="text-decoration: none; color: inherit;">University of Tehran</a></li>
-      <li>BSc <a href='https://tabrizu.ac.ir/en' style="text-decoration: none; color: inherit;">Tabriz University</a></li>
-    </ul>
+    <p>✔ MSc <a href='https://ut.ac.ir/en' style="text-decoration: none; color: inherit;">University of Tehran</a></p>
+    <p>✔ BSc <a href='https://tabrizu.ac.ir/en' style="text-decoration: none; color: inherit;">Tabriz University</a></p>
+#    <ul>
+#      <li>MSc <a href='https://ut.ac.ir/en' style="text-decoration: none; color: inherit;">University of Tehran</a></li>
+#      <li>BSc <a href='https://tabrizu.ac.ir/en' style="text-decoration: none; color: inherit;">Tabriz University</a></li>
+#    </ul>
 
 news: true  # includes a list of news items
 latest_posts: false
