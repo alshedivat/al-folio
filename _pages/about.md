@@ -9,13 +9,12 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Coding and linux enthusiast</p>
-    <p>Loving nature and like Niksen</p>
     <p>Graduted M.Sc.</p>
-#    <ul>
-#      <li>MSc <a href='https://ut.ac.ir/en'>University of Tehran</a></li>
-#      <li>BSc <a href='https://tabrizu.ac.ir/en'>Tabriz University</a></li>
-#    </ul>
+    <p>Coding and linux enthusiast</p>
+    <ul>
+      <li>MSc <a href='https://ut.ac.ir/en' style="text-decoration: none">University of Tehran</a></li>
+      <li>BSc <a href='https://tabrizu.ac.ir/en' style="text-decoration: none">Tabriz University</a></li>
+    </ul>
 
 news: true  # includes a list of news items
 latest_posts: false
