@@ -17,7 +17,8 @@ Courses
 University of Washington
 </h5>
 <ul>
-    <li><strong>current - MATH 125 AA/AB</strong>: Calculus with Analytic Geometry II, TA [Autumn '24]</li>
+    <li><strong>current - MATH 125 AE/AF</strong>: Calculus with Analytic Geometry II, TA [Winter '25]</li>
+    <li><strong>MATH 125 AA/AB</strong>: Calculus with Analytic Geometry II, TA [Autumn '24]</li>
 </ul>
 <h5>
 Cornell University

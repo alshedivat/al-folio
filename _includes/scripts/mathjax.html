@@ -3,7 +3,24 @@
   <script type="text/javascript">
     window.MathJax = {
       tex: {
-        tags: 'ams'
+        tags: 'ams',
+        macros: {
+          NN: "\\mathbb N",
+          ZZ: "\\mathbb Z",
+          QQ: "\\mathbb Q",
+          RR: "\\mathbb R",
+          CC: "\\mathbb C",
+          FF: "\\mathbb F", 
+          KK: "\\mathbb K",
+          eps: "\\varepsilon",
+          vphi: "\\varphi",
+          nullset: "\\varnothing",
+          floor: ["\\left\\lfloor #1 \\right \\rfloor", 1],
+          set: ["\\left\\{ #1 \\right\\}", 1],
+          idl: ["\\left\\langle #1 \\right\\rangle", 1],
+          bmat: ["\\begin{bmatrix} #1 \\end{bmatrix}", 1],
+          tbmat: ["\\left[\\begin{smallmatrix} #1 \\end{smallmatrix}\\right]", 1]
+        }
       }
     };
   </script>
