@@ -1,0 +1,49 @@
+---
+layout: default
+---
+{% if page._styles %}
+  <!-- Page/Post style -->
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+<div class="post">
+  <header class="post-header">
+    <div>
+      <h1 class="post-title d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+        {{ page.title }}
+        {% if page.icons %}
+          <div>
+            {% for iconLink in page.icons %}
+              {% include icon.liquid icon=iconLink %}
+            {% endfor %}
+          </div>
+        {% endif %}
+      </h1>
+    </div>
+    <p class="post-description">{{ page.description }}</p>
+    {% if page.repositories %}
+      <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+        {% for repo in page.repositories %}
+          {% include repository/repo.liquid repository=repo %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {% if page.related_publications %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --cited_in_order %}
+    </div>
+  {% endif %}
+
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
+</div>
