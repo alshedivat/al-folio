@@ -23,5 +23,6 @@ Please send me an email if you have any suggestions for additions!
 - ["Reinventing a Region (1955-22): Visions of the Middle East"](https://www.cambridge.org/core/journals/israel-law-review/article/reinventing-a-region-191522-visions-of-the-middle-east-in-legal-and-diplomatic-texts-leading-to-the-palestine-mandate/82D514EAEB3D893837FC79001AD7D807){:target="_blank"}, Karin Loevy
 - "The Historical Roots of Our Ecologic Crisis", Lynn White Jr. and "Continuing the Conversation" in *Western Man and Environmental Ethics*, Lynn White Jr.
 - [*The Law in These Parts*](https://www.thelawfilm.com/eng/#!/the-film){:target="_blank"}, Ra'anan Alexandrowicz
+- ["The Place of Ethics in Deleuze’s Philosophy: Three Questions of Immanence](https://www.jstor.org/stable/10.3366/j.ctt3fgqq7){:target="_blank"} from *Essays on Deleuze*, Daniel Smith
 
 
