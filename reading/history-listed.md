@@ -18,10 +18,15 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 3100 BCE - 1600 BCE: Stonehenge construction
 - 3000 BCE: Egyptian base-10 number system appears
 - 2700 BCE - 1500 BCE: Egyptian pyramids construction
+- 2600 BCE - 2500 BCE: peak of Indus Valley civilization
 - 2000 BCE: Babylonian base-60 place-value number system appear
 - 1900 BCE - 1600 BCE: dates of many astronomical cuniform tablets
+- 1792 BCE - 1750 BCE: Reign of Hammurabi, Babylonian king
 - 1600 BCE: date of the Edwin Smith Papyrus, Egyptian surgical text
 - 1550 BCE: date of the Ebers papyrus, Egyptian herbal medicine text
+- 1046 BCE - 256 BCE: Zhou Dynasty in China
+- 800 BCE - 400 BCE: Development of Upanishads in India and key Hindu texts
+- 770 BCE - 476 BCE: Spring and Autumn Period in China
 - 700 BCE: Hesiod, *Works and Days* and *Theogony*
 - 624 BCE - 546 BCE: Thales of Miletus active, "first scientist" -- searches for an "arche", or natural explanation for natural phenomena
 - 624 BCE - 428 BCE: Ionian philosophers active (Anaximander, Anaximenes, Heraclitus, etc.) -- propose different arche (water, apeiron, air, fire, bundle, etc.)
@@ -37,6 +42,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 484 BCE - 424 BCE: Empedocles active -- proposes four elements
 - 480 BCE - 420 BCE: Leucippus active -- proposes atomism
 - 480 BCE - 479 BCE: Second Persian invasion of Greece, Athens is burned, but Persians defeated at Salamis
+- 475 BCE - 221 BCE: Warring States Period in China
 - 470 BCE - 399 BCE: Socrates active -- develops dialectic
 - 460 BCE - 370 BCE: Democritus active -- develops atomism
 - 460 BCE - 370 BCE: Hippocrates active -- develops medicine, humor theory
@@ -52,6 +58,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 300 BCE: Euclid publishes *Elements of Geometry*
 - 3rd century BCE: Archimedes writes *The Sand Reckoner*
 - 287 BCE - 212 BCE: Archimedes active -- develops mathematics, physics
+- 221 BCE: Qin Dynasty unifies China, starts the Great Wall
 - 212 BCE: Rome conquers Syracuse
 - 212 BCE: Archimedes killed by Roman soldier in siege of Syracuse
 - 168 BCE: Roman conquest of Greece
@@ -65,6 +72,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 0: Jesus of Nazareth born
 - 23 - 79: Pliny the Elder active -- writes *Natural History*, "cut and paste"
 - 61 - 112: Pliny the Younger active -- writes letters, civil historian
+- 70: Romans expel Jews from Judea, creating Jewish diaspora
 - 100 - 170: Claudius Ptolemy active -- develops astronomy
 - 129 - 216: Galen active -- develops medicine, anatomy
 - 150: Ptolemy publishes *Almagest* ("The Greatest")
@@ -83,8 +91,10 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 480 - 547: Benedict of Nursia active, establishes monasticism
 - 490 - 585: Cassiodorus active, establishes monastic handbook
 - 570: Muhammad born, prophet of Islam
+- 610: Muhammad receives first revelation
 - 636: Isidore of Selville dies, "last scholar of the ancient world"
 - 8th century: Islamic "Golden Age" begins
+- 732: Battle of Tours, Charles Martel defeats Muslim forces
 - 735: "The Venerable Bede" dies, monasterial intellectual tradition
 - 790 - 850: Al-Khwarizmi active -- develops algebra, algorithm
 - 965 - 1040: Ibn al-Haytham (Alhazen) active -- develops optics, scientific method
@@ -93,10 +103,12 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1058 - 1111: al-Ghazali active -- develops theology, philosophy
 - 1095: al-Ghazali writes "The Incoherence of the Philosophers.
 - 1096: evidence of teaching at Oxford
+- 1096 - 1291: Crusades between Christians and Muslims over the Holy Land
 - 1100 - 1156: Thierry of Chartres active -- develops metaphysics, theology, neo-Platonism
 - 1126 - 1198: Ibn Rushd (Averroes) active -- develops philosophy, science, theology
 - 1200 - 1280: Albertus Magnus active -- develops theology, philosophy, science
 - 1201 - 1274: al-Tusi active -- develops mathematics, astronomy, proposes the al-Tusi couple
+- 1206 - 1368: Mongol Empire under Genghis Khan and successors; largest contiguous land empire
 - 1210: Grosseteste becomes a "secular master" at Oxford, develops light metaphysics
 - 1214 - 1292: Roger Bacon active -- develops optics, scientific method
 - 13th century: "fall" of Islamic "Golden Age"
@@ -113,12 +125,16 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1347 - 1351: Black Death in Europe
 - 14th century: Oxford Calculators (Merton College, Oxford) take a mathematical rather than causal approach to physics
 - 1420: Ulugh Beg establishes Samarkand observatory, in modern Uzbekistan
+- 1492: Christopher Columbus reaches the Americas
+- 1453: Fall of Constantinople to the Ottoman Empire, end of the Byzantine Empire
 - 1473 - 1543: Nicolaus Copernicus active -- develops heliocentrism
 - 1493 - 1541: Paracelsus active -- develops medicine, alchemy, proposes "wandering around" as a method, likes Aristotle but opposes the institutionalization of his thought
 - 1499 - 1557: Niccolo Tartaglia active -- improves upon the Aristoteilan explanation for projectile motion, combination of violent and natural motion
 - 1500: start of the "Early Modern Period"
 - 1510: Copernicus writes *Commentariolus*, suggesting heliocentrism
 - 1517: Martin Luther nails 95 Theses to church door, beginning of Protestant Reformation, scorns Copernicus
+- 1519 - 1521: Hernan Cortes conquers Aztec Empire
+- 1526: Mughal Empire established in India
 - 1535 - 1615: Giambattista della Porta active -- develops "natural magic"
 - 1543: *On the Revolutions of the Heavenly Spheres* by Copernicus published
 - 1543: supposed start of the "Scientific Revolution"
@@ -126,8 +142,108 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1556: Agricola writes *De Re Metallica*, mining and metallurgy
 - 1561 - 1626: Francis Bacon active -- develops empiricism, inductive reasoning, experimental method
 - Late 16th century: Elizabethan government grants patents for inventions
+- 1642 - 1651: English Civil War, execution of Charles I and rule of Oliver Cromwell
 - 1643 - 1727: Isaac Newton active -- develops calculus, physics, optics, gravity
 - 1660: Royal Society of London founded
+- 1687: *Philosophiæ Naturalis Principia Mathematica* by Newton published
+- 1775 - 1783: American Revolutionary War
+- 1789: French Revolution begins, Declaration of the Rights of Man
+- 1791: Catherine the Great establishes the Pale of Settlement in Russia
+- 1791: Enslaved Haitians revolt against French rule
+- 1794: French National Convention abolishes slavery in all French territories
+- 1804: Haiti becomes independent from France; massacre of French colonists
+- 1812: War of 1812 (US vs. UK)
+- 1825: France forces Haiti to pay crippling reparations for independence
+- 1830: France invades and colonizes Algeria
+- 1833: Abolition of slavery in British colonies
+- 1839: beginning of Tanzimat reforms in the Ottoman Empire
+- 1846 - 1848: Mexican-American War (US annexes Texas, California, etc.)
+- 1856: Imperial Reform Decree in the Ottoman Empire
+- 1857 - 1858: Indian Rebellion (Sepoy Mutiny) against British rule
+- 1858: Ottoman land reform enabling private land sales
+- 1861 - 1865: American Civil War
+- 1869: Ottoman citizenship law allows non-Muslims to become citizens
+- 1871: Mokrani revolt in Algeria against French rule by Algerian Berbers an Arabs
+- 1872: Jerusalem designated as an independent Ottoman district
+- 1880s: porgroms in Russia lead to Jewish emigration to the US and Palestine
+- 1882 - 1903: First Aliyah to Palestine from Eastern Europe and Yemen motivated by Zionism and persecution
+- 1884 - 1885: The Scramble for Africa, Europeans divide Africa at Berlin Conference
+- 1898: Spanish-American War (US annexes Philippines, Guam, Puerto Rico)
+- 1899: Philippine-American War
+- 1900: Boxer Rebellion in China against foreign influence
+- 1901: Australia becomes a federation within the British Empire
+- 1904 - 1914: Second Aliyah to Palestine by Jews fleeing pogroms in Russia and Eastern Europe
+- 1904 - 1905: Russo-Japanese War, Japan emerges as colonial power
+- 1905: Partition of Bengal by British
+- 1907: Peak of Second Boer War, British consolidate control over South Africa
+- 1910: Japan annexes Korea
+- 1911: Chinese Revolution overthrows Qing Dynasty
+- 1914 - 1918: World War I
+- 1915 - 1934: US occupation of Haiti
+- 1915 - 1916: McMahon-Hussein Correspondence, British promise of Arab independence
+- 1916: Sykes-Picot Agreement, British and French carve up the Middle East
+- 1916: Easter Rising in Ireland against British rule
+- 1917: Russian Revolution; Bolsheviks take power and establish Soviet Union
+- 1917: Balfour Declaration, British support for a Jewish homeland in Palestine
+- 1917: British fofrces capture Palestine from the Ottomans
+- 1919: League of Nations Convenant Article 22 establishes Mandate system
+- 1919 - 1923: Third Aliyah to Palestine, supporte by Balfour Declaration
+- 1919: Treaty of Versailles establishes League of Nations manates
+- 1919: Amritsar Massacre in India, British kill hundreds of protesters
+- 1920: Gandhi launches non-cooperation movement in India
+- 1920: San Remo Resolution applies the mandate system to Palestine and incorporates the Balfour declaration
+- 1920: Nabi Musa riots in Jerusalem, Haycraft commission investigates
+- 1921: Attack on the Hadassah house in Hebron
+- 1922: Palestine mandate document finalized
+- 1922: Irish Free State established under Anglo-Irish treaty, Northern Ireland remains part of UK
+- 1923: Ottoman Sultanate abolished, Turkey becomes a republic
+- 1923: Palestine mandate comes into effect
+- 1924 - 1929: Fourth Aliyah to Palestine, middle-class Jews from Poland and Hungary
+- 1929: Wall Street Crash, beginning of the Great Depression
+- 1929 - 1939: Fifth Aliyah, Jews escaping anti-Semitism in Europe and Nazis in Germany
+- 1929: Western Wall / Al-Buraq riots; Shaw commission investigates
+- 1930: Gandhi leads the Salt March
+- 1931: Statute of Westminster grants autonomy to British dominions (Canada, Australia, South Africa)
+- 1933: Hitelr becomes Chancellor of Germany
+- 1934 - 1948: Aliyah Bet, illegal Jewish immigration to Palestine
+- 1935: Izz al-Din al-Qassam is killed by British forces, becomes a symbol of Palestinian resistance (even until today)
+- 1935: Italian invasion of Ethiopia under Mussolini
+- 1936: Arab Revolt against British rule and Zionist expansion
+- 1937: Peel Commission investigates 1936 Arab Revolt and recommends partition
+- 1937: Second Sino-Japanese War begins
+- 1939: White Paper limits Jewish immigration into Palestine
+- 1939 - 1945: World War II
+- 1941: Amin al-Husseini, Grand Mufti of Jerusalem, meets with Adolf Hitler in Berlin
+- 1942: Biltmore Conference in New York calls for a Jewish state in Palestine
+- 1944: Assassination of Lord Moyne by the Stern Gang, extremist Zionist group
+- 1945: End of World War II, establishment of the United Nations, beginning of the Cold War
+- 1945: Setif and Guelma Massacres, French forces kill thousands of protesting Algerians
+- 1946: Anglo-American Committee of Inquiry investigates Jewish-Arab conflict
+- 1947: Exodus steamship carrying Jewish refugees is returned to Germany
+- 1947: UN General Assembly Resolution 181 proposes partition of Palestine
+- 1947: Partition of India, creation of Pakistan
+- 1948: Deir Yassin massacre by Irgun and Lehi, Jewish paramilitary groups
+- 1948: Apartheid established in South Africa
+- 1948: Israel declares independence on May 14
+- 1948: British Mandate ends; Arab-Israeli War begins May 15
+- 1949: Indonesian independence recognized by Netherlands after armed struggle
+- 1949: Armistic agreements signed, forming Green Line
+- 1950 - 1953: Korean War
+- 1950: Israel passes Absentee Property Law which allows confiscation of Palestinian property, and Preventing Infiltration Law which allows expulsion of Palestinians, denies right of return to Palestinians expelled during the 1948 war
+- 1951: King Abdullah of Jordan is assassinated at Al-Aqsa Mosque for perceived collaboration with Israelis
+- 1952: Mau Mau Urprising in Kenya against British rule
+- 1953: Qibya Massacre by Israeli forces
+- 1954: First Indochina War ends, Vietnam divided at 17th parallel
+- 1954 - 1962: Algerian War of Independence against France
+- 1955 - 1975: Vietnam War
+- 1956: Suez Crisis, Egypt nationalizes the Suez Canal -- UK, France, and Israel invade Egypt, Israel temporarily occupies Sinai and Gaza
+- 1956 - 1957: Israeli occupation of Gaza following the Suez Crisis
+- 1958: Coup in Iraq overthrows King Faisal II
+- 1961: Bay of Pigs invasion of Cuba by US
+- 1962: Cuban Missile Crisis, peak of US-Soviet tensions
+- 1962: Evian accords grant Algerian independence from France
+- 1964 - 1973: US involvement in the Vietnam War
+- 1964: Founding of the Palestine Liberation Organization (PLO) in East Jerusalem (Jordan)
 - 1965: Voting Rights Act passes
 - 1965: Indian-Pakistan War
 - 1965: Malcolm X assassinated
@@ -139,6 +255,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1966: Botswana and Lesotho gain independence
 - 1966: South African border war begins
 - 1967: Six-Day War, Israel occupies West Bank, Gaza, Sinai, Golan Heights
+- 1967: UN Resolution 242 calls for "land for peace"
 - 1967: Summer of Love in San Francisco
 - 1967: Che Guevara captured and executed
 - 1967: Loving v. Virginia, Supreme Court strikes down anti-miscegenation laws
@@ -164,8 +281,10 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1969: Stonewall riots in New York City
 - 1969: The Troubles begin in Northern Ireland between Catholics and Protestants
 - 1969: China-USSR border conflicts
+- 1969: Woodstock music festival
 - 1970: Incursion of Vietnam War into Cambodia
 - 1970: Overthrow of Cambodian government by Khmer Rouge, leading to genocide in 1975
+- 1970: Black September in Jordan, PLO is expelled from Jordan
 - 1970: Dawson’s Field Hijackings in Jordan by PFLP
 - 1970: Kent State shootings
 - 1970: Death of Abdel Nasser, Sadat becomes president of Egypt
@@ -181,6 +300,37 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1973: Roe v. Wade, Supreme Court legalizes abortion
 - 1973: US ends draft for Vietnam War
 - 1973: Pinochet overthrows Allende with U.S. support, establishing military dictatorship in Chile
+- 1979: Camp David Accords, Israel withdraws from Sinai and establishes peace with Egypt
+- 1982: First Lebanon War; Israel invades Lebanont to expel PLO
+- 1982: Sabra and Shatila Massacres under Israeli watch and support
+- 1983: Invasion of Grenada by US
+- 1987: First Intifada begins in Gaza and West Bank
+- 1988: Hamas founded as offshoot of the Muslim Brotherhood
+- 1989: Invasion of Panama by US
+- 1990 - 1991: Gulf War
+- 1991 - 2002: Algerian Civil War, over 150k killed
+- 1993: Oslo I Accord signed, establishing mutual recognition
+- 1994: Massacre at Al-Aqsa Mosque by Jewish extremist
+- 1995: Oslo II Accord signed, establishing Palestinian Authority and limited self-rule
+- 1995: Assassination of Yitzhak Rabin by Jewish extremist
+- 2000: Camp David talks collapse
+- 2000: Second Intifada begins after Ariel Sharon visits Temple Mount
+- 2001: 9/11 attacks
+- 2001 - 2021: War in Afghanistan
+- 2003 - 2011: Iraq War
+- 2005: Israel withdraws settlers and military forces from Gaza
+- 2006: Second Lebanon War begins
+- 2008: Global financial crisis due to subprime mortgage crisis
+- 2011: US intervention in Libya
+- 2011: Arab Spring uprisings throughout the Middle East
+- 2014: Third Gaza War becomes most deadly conflict in Gaza
+- 2018: Great March of Return protests in Gaza
+- 2018: the "Nation State Law" / "Basic Law" is passed by Israel
+- 2020: Israel establishes normalization agreements with Bahrain, UAE, Morocco
+- 2021: Fourth Gaza War
+- 2023: October 7th Massacre by Hamas in Israel
+- 2023 - present: Hamas-Israeli war in Gaza
+- 2024: Fall of the Syrian Assad regime
 
 <!-- ---
 
