@@ -29,6 +29,7 @@ Continuously under construction.
 - On doing philosophy: "We head for the horizon, on the plane of immanence, and we return with bloodshot eyes, yet they are the eyes of the mind." -- Deleuze and Guattari.
 - "I do not know how to teach philosophy without becoming a disturber of the peace." -- Baruch Spinoza.
 - "Bring something incomprehensible into the world!" -- Gilles Deleuze.
+- "A concept is a brick. It can be used to build a courthouse of reason. Or it can be thrown through the window." -- Gilles Deleuze and Félix Guattari.
 
 *Skepticism of Platonist formulations of "evil", "suffering", and "identity" in ethics, politics, and living the good life. It means an embrace of freedom, flux, change, and becoming; and resisting ethical essentialisms in all of their forms, whether it is from (post-)Christian thought, "woke identitarian politics", scientific determinism, technological utopianism/doomerism, certain kinds of nationalism/cosmopolitanism.*
 - The "banality of evil", Hannah Arendt. The Nazi war criminal Eichmann was not a monster, but a *thoughtless bureaucrat*. We must be wary that we may call others "evil" to redeem ourselves ("I would never be evil"); we must commit to *thinking*. Arendt writes beautifully on this:
