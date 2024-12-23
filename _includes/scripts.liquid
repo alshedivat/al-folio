@@ -13,8 +13,8 @@
   crossorigin="anonymous"
 ></script>
 
-<!-- Masonry & imagesLoaded -->
 {% if site.enable_masonry %}
+  <!-- Masonry & imagesLoaded -->
   <script
     defer
     src="{{ site.third_party_libraries.masonry.url.js }}"
@@ -30,8 +30,8 @@
   <script defer src="{{ '/assets/js/masonry.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-<!-- Mermaid and D3 -->
 {% if page.mermaid and page.mermaid.enabled %}
+  <!-- Mermaid and D3 -->
   <script
     defer
     src="{{ site.third_party_libraries.mermaid.url.js }}"
@@ -49,8 +49,8 @@
   <script defer src="{{ '/assets/js/mermaid-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-<!-- Diff2HTML -->
 {% if page.code_diff %}
+  <!-- Diff2HTML -->
   <!-- diff2html doesn't go well with Bootstrap Table -->
   <script
     src="{{ site.third_party_libraries.diff2html.url.js }}"
@@ -60,8 +60,8 @@
   <script defer src="{{ '/assets/js/diff2html-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-<!-- Leaflet -->
 {% if page.map %}
+  <!-- Leaflet -->
   <script
     src="{{ site.third_party_libraries.leaflet.url.js }}"
     integrity="{{ site.third_party_libraries.leaflet.integrity.js }}"
@@ -70,8 +70,8 @@
   <script defer src="{{ '/assets/js/leaflet-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-<!-- Chart.js -->
 {% if page.chart and page.chart.chartjs %}
+  <!-- Chart.js -->
   <script
     defer
     src="{{ site.third_party_libraries.chartjs.url.js }}"
@@ -81,8 +81,8 @@
   <script defer src="{{ '/assets/js/chartjs-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-<!-- ECharts -->
 {% if page.chart and page.chart.echarts %}
+  <!-- ECharts -->
   <script
     src="{{ site.third_party_libraries.echarts.url.js.library }}"
     integrity="{{ site.third_party_libraries.echarts.integrity.js.library }}"
@@ -98,8 +98,8 @@
   <script defer src="{{ '/assets/js/echarts-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-<!-- Vega -->
 {% if page.chart and page.chart.vega_lite %}
+  <!-- Vega -->
   <script
     defer
     src="{{ site.third_party_libraries.vega.url.js }}"
@@ -121,8 +121,8 @@
   <script defer src="{{ '/assets/js/vega-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-<!-- Tikzjax -->
 {% if page.tikzjax %}
+  <!-- Tikzjax -->
   <script
     defer
     src="https://tikzjax.com/v1/tikzjax.js"
@@ -131,18 +131,18 @@
   ></script>
 {% endif %}
 
-<!-- Typograms -->
 {% if page.typograms %}
+  <!-- Typograms -->
   <script src="{{ '/assets/js/typograms.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-<!-- Tooltips -->
 {% if site.enable_tooltips %}
+  <!-- Tooltips -->
   <script src="{{ '/assets/js/tooltips-setup.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-<!-- Medium Zoom JS -->
 {% if site.enable_medium_zoom %}
+  <!-- Medium Zoom JS -->
   <script
     defer
     src="{{ site.third_party_libraries.medium_zoom.url.js }}"
@@ -152,13 +152,13 @@
   <script defer src="{{ '/assets/js/zoom.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-<!-- Sidebar Table of Contents -->
 {% if page.toc and page.toc.sidebar %}
+  <!-- Sidebar Table of Contents -->
   <script defer src="{{ '/assets/js/bootstrap-toc.min.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-<!-- Bootstrap Table -->
 {% if page.pretty_table %}
+  <!-- Bootstrap Table -->
   <!-- Bootstrap Table doesn't go well with diff2html -->
   <script
     defer
@@ -184,8 +184,8 @@
   <script async src="https://badge.dimensions.ai/badge.js"></script>
 {% endif %}
 
-<!-- MathJax -->
 {% if site.enable_math %}
+  <!-- MathJax -->
   <script
     defer
     type="text/javascript"
@@ -212,8 +212,8 @@
   {% endunless %}
 {% endif %}
 
-<!-- Analytics -->
 {% if site.enable_google_analytics %}
+  <!-- Analytics -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script defer src="{{ '/assets/js/google-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
@@ -237,13 +237,13 @@
   <script async defer src="https://openpanel.dev/op1.js"></script>
 {% endif %}
 
-<!-- Scrolling Progress Bar -->
 {% if site.enable_progressbar %}
+  <!-- Scrolling Progress Bar -->
   <script defer src="{{ '/assets/js/progress-bar.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
-<!-- Image Layouts -->
 {% if page.images %}
+  <!-- Image Layouts -->
   {% if page.images.compare %}
     <script
       defer
@@ -289,21 +289,21 @@
   {% endif %}
 {% endif %}
 
-<!-- Jekyll Tabs -->
 {% if page.tabs %}
+  <!-- Jekyll Tabs -->
   <script src="{{ '/assets/js/tabs.min.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
-<!-- Back to Top -->
 {% if site.back_to_top %}
+  <!-- Back to Top -->
   <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url | bust_file_cache }}"></script>
   <script>
     addBackToTop();
   </script>
 {% endif %}
 
-<!-- Search -->
 {% if site.search_enabled %}
+  <!-- Search -->
   <script type="module" src="{{ '/assets/js/search/ninja-keys.min.js' | relative_url | bust_file_cache }}"></script>
   <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
   <script src="{{ '/assets/js/search-setup.js' | relative_url | bust_file_cache }}"></script>
