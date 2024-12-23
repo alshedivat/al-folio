@@ -1,0 +1,1 @@
+window.op=window.op||function(...i){(window.op.q=window.op.q||[]).push(i)},window.op("init",{clientId:"{{ site.openpanel_analytics }}",trackScreenViews:!0,trackOutgoingLinks:!0,trackAttributes:!0});
