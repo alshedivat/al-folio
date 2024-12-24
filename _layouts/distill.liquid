@@ -2,30 +2,6 @@
 <html>
   <head>
     {% include head.liquid %}
-    {% if site.enable_medium_zoom %}
-      <!-- Medium Zoom JS -->
-      <script
-        defer
-        src="{{ site.third_party_libraries.medium_zoom.url.js }}"
-        integrity="{{ site.third_party_libraries.medium_zoom.integrity.js }}"
-        crossorigin="anonymous"
-      ></script>
-      <script defer src="{{ '/assets/js/zoom.js' | relative_url | bust_file_cache }}"></script>
-    {% endif %}
-    {% include scripts/jquery.liquid %}
-    {% include scripts/mathjax.liquid %}
-    {% include scripts/mermaid.liquid %}
-    {% include scripts/diff2html.liquid %}
-    {% include scripts/leaflet.liquid %}
-    {% include scripts/chartjs.liquid %}
-    {% include scripts/echarts.liquid %}
-    {% include scripts/vega.liquid %}
-    {% include scripts/tikzjax.liquid %}
-    {% include scripts/typograms.liquid %}
-    {% include scripts/misc.liquid %}
-    {% comment %}
-      misc.liquid loads interactive features like the code copy button to prevent dynamic elements from displaying incorrectly at the end of the article.
-    {% endcomment %}
 
     <!-- Distill js -->
     <script src="{{ '/assets/js/distillpub/template.v2.js' | relative_url }}"></script>
@@ -131,10 +107,8 @@
 
     <!-- Footer -->
     {% include footer.liquid %}
-    {% include scripts/bootstrap.liquid %}
-    {% include scripts/analytics.liquid %}
-    {% include scripts/progressBar.liquid %}
-    {% include scripts/back_to_top.liquid %}
-    {% include scripts/search.liquid %}
+
+    <!-- JavaScripts -->
+    {% include distill_scripts.liquid %}
   </body>
 </html>
