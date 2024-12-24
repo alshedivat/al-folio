@@ -59,6 +59,7 @@ GEM
     ffi (1.17.0-arm-linux-gnu)
     ffi (1.17.0-arm-linux-musl)
     ffi (1.17.0-arm64-darwin)
+    ffi (1.17.0-x64-mingw-ucrt)
     ffi (1.17.0-x86-linux-gnu)
     ffi (1.17.0-x86-linux-musl)
     ffi (1.17.0-x86_64-darwin)
@@ -73,6 +74,9 @@ GEM
       bigdecimal
       rake (>= 13)
     google-protobuf (4.29.1-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.1-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.29.1-x86-linux)
@@ -184,12 +188,15 @@ GEM
       racc (~> 1.4)
     nokogiri (1.17.1-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.17.1-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.17.1-x86-linux)
       racc (~> 1.4)
     nokogiri (1.17.1-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.17.1-x86_64-linux)
       racc (~> 1.4)
+    observer (0.1.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -210,6 +217,8 @@ GEM
     sass-embedded (1.82.0-arm-linux-musleabihf)
       google-protobuf (~> 4.28)
     sass-embedded (1.82.0-arm64-darwin)
+      google-protobuf (~> 4.28)
+    sass-embedded (1.82.0-x64-mingw-ucrt)
       google-protobuf (~> 4.28)
     sass-embedded (1.82.0-x86-linux-gnu)
       google-protobuf (~> 4.28)
@@ -232,6 +241,7 @@ GEM
     unicode-display_width (2.6.0)
     unicode_utils (1.4.0)
     uri (1.0.2)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -244,6 +254,7 @@ PLATFORMS
   arm-linux-musl
   arm-linux-musleabihf
   arm64-darwin
+  x64-mingw-ucrt
   x86-linux
   x86-linux-gnu
   x86-linux-musl
@@ -273,8 +284,10 @@ DEPENDENCIES
   jekyll-toc
   jekyll-twitter-plugin
   jemoji
+  observer
   unicode_utils
+  wdm (>= 0.1.0)
   webrick
 
 BUNDLED WITH
-   2.5.18
+   2.6.2
