@@ -19,7 +19,6 @@ social: true # includes social icons at the bottom of the page
 
 I'm an engineer specializing in Computer Science, based in Hanoi, Vietnam. I hold an Engineer Degree (Honors Program) from [HUST](https://hust.edu.vn/en/) and began my M2 studies at [USTH](https://usth.edu.vn/en) in 2024. I have 8 years of experience in Data Science, Software Engineering, Cloud Computing, and DevOps.
 
-My interests include `Computer Vision`, `LLMs`, `Modeling and Simulation`, `Parallel Computing`, and `Game Development`. 
+My interests include `Computer Vision`, `LLMs`, `Modeling and Simulation`, `Parallel Computing`, and `Game Development`.
 
 See my [projects](/projects/).
-

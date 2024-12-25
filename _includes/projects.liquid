@@ -4,16 +4,16 @@
       <h4 class="card-title">{{ project.title }}</h4>
 
       <div class="row project-links">
-         {% if project.github %}
+        {% if project.github %}
           <div>
             <a href="{{ project.github }}">[GitHub]</a>
           </div>
-         {% endif %}
-         {% if project.pdf %}
+        {% endif %}
+        {% if project.pdf %}
           <div>
             <a href="{{ project.pdf }}">[PDF]</a>
           </div>
-         {% endif %}
+        {% endif %}
       </div>
 
       {% if project.img %}
