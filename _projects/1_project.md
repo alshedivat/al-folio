@@ -1,10 +1,12 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Contextual Document Embeddings
+description: We improve embedding models by adding context from the surrounding documents to the embeddings of individual documents and queries. Our work shows that embedding models can be improved by reordering the training data (contextual batching) and using a new contextual architecture.
+img: assets/img/contextual_embeddings.png
 importance: 1
 category: work
+github: https://github.com/alshedivat/al-folio
+pdf: https://github.com/alshedivat/al-folio
 related_publications: true
 ---
 

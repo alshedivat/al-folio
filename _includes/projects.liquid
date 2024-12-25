@@ -1,6 +1,21 @@
 <div class="col">
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
+      <h4 class="card-title">{{ project.title }}</h4>
+
+      <div class="row project-links">
+         {% if project.github %}
+          <div>
+            <a href="{{ project.github }}">[GitHub]</a>
+          </div>
+         {% endif %}
+         {% if project.pdf %}
+          <div>
+            <a href="{{ project.pdf }}">[PDF]</a>
+          </div>
+         {% endif %}
+      </div>
+
       {% if project.img %}
         {%
           include figure.liquid
@@ -11,25 +26,7 @@
           class="card-img-top"
         %}
       {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ project.title }}</h2>
-        <p class="card-text">{{ project.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if project.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-              {% if project.github_stars %}
-                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
-                  <i class="fa-solid fa-star"></i>
-                  <span id="{{ project.github_stars }}-stars"></span>
-                </span>
-              {% endif %}
-            </div>
-          {% endif %}
-        </div>
-      </div>
+      <p class="card-text">{{ project.description }}</p>
     </div>
   </a>
 </div>

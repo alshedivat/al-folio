@@ -1,0 +1,40 @@
+.social {
+    text-align: center;
+  
+    .contact-icons {
+      font-size: 2rem;
+  
+      a {
+        margin: 0 0.5rem;
+      }
+    }
+}
+
+.projects {
+  .card {
+    box-shadow: none!important;
+    // border: 2px solid $grey-900;
+    padding-top: 1.5rem;
+    padding: 1rem 2rem;
+  }
+
+  h2.category {
+    margin-bottom: 1.5rem;
+  }
+
+  .project-links {
+    margin: 0!important;
+
+    & > div {
+      margin-right: 0.5rem;
+      margin-bottom: 0.2rem;
+    }
+  }
+}
+
+.featured-posts {
+  .card {
+    box-shadow: none!important;
+    border-left: 1px solid $grey-900;
+  }
+}

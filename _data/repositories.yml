@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+# TODO: Enable github users here
+  # - dungzvu
+  # - 22journey
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - 22journey/zalo_ai_2022_QnA
+  - dungzvu/kalapa-2023-mcqa
+  - dungzvu/kaggle-lpr-2024
+  - dungzvu/fruit-ninja-unity
