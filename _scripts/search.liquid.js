@@ -25,7 +25,7 @@ ninja.data = [
           {%- unless child.title == 'divider' -%}
             {
               {%- assign title = child.title | escape | strip -%}
-              {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.url -%}{%- endif -%}
+              {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.permalink -%}{%- endif -%}
               id: "dropdown-{{ title | slugify }}",
               title: "{{ title | truncatewords: 13 }}",
               description: "{{ child.description | strip_html | strip_newlines | escape | strip }}",
