@@ -278,3 +278,7 @@
   <script src="{{ '/assets/js/search-data.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
+
+{% if site.newsletter.enabled %}
+  <script defer src="{{ '/assets/js/newsletter.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
