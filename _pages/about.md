@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Hi 👋 Get to known me in <a href='#'>Point Cloud</a>  😎.
+subtitle: Hi 👋.
 
 profile:
   align: right
@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm an engineer specializing in Computer Science, based in Hanoi, Vietnam. I hold an Engineer Degree (Honors Program) from [HUST](https://hust.edu.vn/en/) and began my M2 studies at [USTH](https://usth.edu.vn/en) in 2024. I have 8 years of experience in Data Science, Software Engineering, Cloud Computing, and DevOps.
+I'm an engineer specializing in Computer Science, based in Hanoi, Vietnam. I hold an Engineer Degree (Honors Program) from [HUST](https://hust.edu.vn/en/) and began my M2 studies at [USTH](https://usth.edu.vn/en) in 2024. I have 8 years of experience in Software Engineering, Cloud Computing, Data Science and DevOps.
 
 My interests include `Computer Vision`, `LLMs`, `Modeling and Simulation`, `Parallel Computing`, and `Game Development`.
 
