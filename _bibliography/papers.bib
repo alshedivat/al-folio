@@ -1,115 +1,385 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{10.1145/3637528.3671673,
+abbr={SIGKDD},
+author = {Senane*, Zineb and Cao*, Lele and Buchner, Valentin Leonhard and Tashiro, Yusuke and You, Lei and Herman, Pawel Andrzej and Nordahl, Mats and Tu, Ruibo and von Ehrenheim, Vilhelm},
+title = {Self-Supervised Learning of Time Series Representation via Diffusion Process and Imputation-Interpolation-Forecasting Mask},
+year = {2024},
+isbn = {9798400704901},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3637528.3671673},
+doi = {10.1145/3637528.3671673},
+abstract = {Time Series Representation Learning (TSRL) focuses on generating informative representations for various Time Series (TS) modeling tasks. Traditional Self-Supervised Learning (SSL) methods in TSRL fall into four main categories: reconstructive, adversarial, contrastive, and predictive, each with a common challenge of sensitivity to noise and intricate data nuances. Recently, diffusion-based methods have shown advanced generative capabilities. However, they primarily target specific application scenarios like imputation and forecasting, leaving a gap in leveraging diffusion models for generic TSRL. Our work, Time Series Diffusion Embedding (TSDE), bridges this gap as the first diffusion-based SSL TSRL approach. TSDE segments TS data into observed and masked parts using an Imputation-Interpolation-Forecasting (IIF) mask. It applies a trainable embedding function, featuring dual-orthogonal Transformer encoders with a crossover mechanism, to the observed part. We train a reverse diffusion process conditioned on the embeddings, designed to predict noise added to the masked part. Extensive experiments demonstrate TSDE's superiority in imputation, interpolation, forecasting, anomaly detection, classification, and clustering. We also conduct an ablation study, present embedding visualizations, and compare inference speed, further substantiating TSDE's efficiency and validity in learning representations of TS data.},
+booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {2560–2571},
+numpages = {12},
+keywords = {anomaly detection, classification, clustering, diffusion model, forecasting, imputation, interpolation, multivariate time series, representation learning, self-supervised learning, time series modeling},
+location = {Barcelona, Spain},
+series = {KDD '24},
+selected={true},
+google_scholar_id={ns9cj8rnVeAC},
+dimensions={true},
+pdf={https://dl.acm.org/doi/pdf/10.1145/3637528.3671673},
+video={https://youtu.be/pXatG4Tf0r4?si=-S8IFX0EkqptszfR},
+code={https://github.com/llcresearch/TSDE},
+blog={https://motherbrain.ai/advanced-financial-forecasting-for-portfolio-performance-61a93e55d46b}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{10.1145/3637528.3671515,
+abbr={SIGKDD},
+author = {Cao, Lele and von Ehrenheim, Vilhelm and Granroth-Wilding, Mark and Anselmo Stahl, Richard and McCornack, Andrew and Catovic, Armin and Cavalcanti Rocha, Dhiana Deva},
+title = {CompanyKG: A Large-Scale Heterogeneous Graph for Company Similarity Quantification},
+year = {2024},
+isbn = {9798400704901},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {10.1145/3637528.3671515},
+doi = {10.1145/3637528.3671515},
+abstract = {This paper presents CompanyKG (version 2), a large-scale heterogeneous graph developed for fine-grained company similarity quantification and relationship prediction, crucial for applications in the investment industry such as market mapping, competitor analysis, and mergers and acquisitions. CompanyKG comprises 1.17 million companies represented as graph nodes, enriched with company description embeddings, and 51.06 million weighted edges denoting 15 distinct inter-company relations. To facilitate a thorough evaluation of methods for company similarity quantification and relationship prediction, we have created four annotated evaluation tasks: similarity prediction, competitor retrieval, similarity ranking, and edge prediction. We offer extensive benchmarking results for 11 reproducible predictive methods, categorized into three groups: node-only, edge-only, and node+edge. To our knowledge, CompanyKG is the first large-scale heterogeneous graph dataset derived from a real-world investment platform, specifically tailored for quantifying inter-company similarity and relationships.},
+booktitle = {Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+pages = {4816–4827},
+numpages = {12},
+keywords = {benchmark, company similarity quantification, edge prediction, graph neural network, investment, knowledge graph, private equity},
+location = {Barcelona, Spain},
+series = {KDD '24},
+google_scholar_id={O3NaXMp0MMsC},
+pdf={https://arxiv.org/pdf/2306.10649},
+video={https://youtu.be/yw4fTDXrJhI?si=e4cDGkFLjsoXvmA8},
+code={https://github.com/llcresearch/CompanyKG2},
+website={https://zenodo.org/records/11391315}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@InProceedings{Wang_2022_CVPR,
+abbr={CVPR},
+    author    = {Wang, Yikai and Chen, Xinghao and Cao, Lele and Huang, Wenbing and Sun, Fuchun and Wang, Yunhe},
+    title     = {Multimodal Token Fusion for Vision Transformers},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {12186-12195},
+    doi={10.1109/CVPR52688.2022.01187},
+    dimensions={true},
+    google_scholar_id={IWHjjKOFINEC},
+    selected={true},
+    abstract={Many adaptations of transformers have emerged to address the single-modal vision tasks, where self-attention modules are stacked to handle input sources like images. Intuitively, feeding multiple modalities of data to vision transformers could improve the performance, yet the inner-modal attentive weights may be diluted, which could thus greatly undermine the final performance. In this paper, we propose a multimodal token fusion method (TokenFusion), tailored for transformer-based vision tasks. To effectively fuse multiple modalities, TokenFusion dynamically detects uninformative tokens and substitute these tokens with projected and aggregated inter-modal features. Residual positional alignment is also adopted to enable explicit utilization of the inter-modal alignments after fusion. The design of TokenFusion allows the transformer to learn correlations among multimodal features, while the single-modal transformer architecture remains largely intact. Extensive experiments are conducted on a variety of homogeneous and heterogeneous modalities and demonstrate that TokenFusion surpasses state-of-the-art methods in three typical vision tasks: multimodal image-to-image translation, RGB-depth semantic segmentation, and 3D object detection with point cloud and images.},
+    pdf={https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Multimodal_Token_Fusion_for_Vision_Transformers_CVPR_2022_paper.pdf},
+code={https://github.com/yikaiw/TokenFusion},
+video={https://youtu.be/aQVBuAjoOXU?si=GB2OhuBAmaVsgC9K},
+supp={https://openaccess.thecvf.com/content/CVPR2022/supplemental/Wang_Multimodal_Token_Fusion_CVPR_2022_supplemental.pdf}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+@inproceedings{cao-etal-2021-pause,
+abbr={EMNLP},
+    title = "{PAUSE}: Positive and Annealed Unlabeled Sentence Embedding",
+    author = "Cao, Lele  and
+      Larsson, Emil  and
+      von Ehrenheim, Vilhelm  and
+      Cavalcanti Rocha, Dhiana Deva  and
+      Martin, Anna  and
+      Horn, Sonja",
+    editor = "Moens, Marie-Francine  and
+      Huang, Xuanjing  and
+      Specia, Lucia  and
+      Yih, Scott Wen-tau",
+    booktitle = "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2021",
+    dimensions={true},
+    address = "Online and Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.emnlp-main.791",
+    doi = "10.18653/v1/2021.emnlp-main.791",
+    pages = "10096--10107",
+    video = "https://aclanthology.org/2021.emnlp-main.791.mp4",
+    pdf="https://aclanthology.org/2021.emnlp-main.791.pdf",
+    code = "https://github.com/llcresearch/pause",
+    abstract = "Sentence embedding refers to a set of effective and versatile techniques for converting raw text into numerical vector representations that can be used in a wide range of natural language processing (NLP) applications. The majority of these techniques are either supervised or unsupervised. Compared to the unsupervised methods, the supervised ones make less assumptions about optimization objectives and usually achieve better results. However, the training requires a large amount of labeled sentence pairs, which is not available in many industrial scenarios. To that end, we propose a generic and end-to-end approach {--} PAUSE (Positive and Annealed Unlabeled Sentence Embedding), capable of learning high-quality sentence embeddings from a partially labeled dataset. We experimentally show that PAUSE achieves, and sometimes surpasses, state-of-the-art results using only a small fraction of labeled sentence pairs on various benchmark tasks. When applied to a real industrial use case where labeled samples are scarce, PAUSE encourages us to extend our dataset without the burden of extensive manual annotation work.",
+}
+
+@article{10.1162/neco_a_01579,
+abbr={Journal},
+    author = {Yu*, Yinfeng and Cao*, Lele and Sun, Fuchun and Yang, Chao and Lai, Huicheng and Huang, Wenbing},
+    title = {Echo-Enhanced Embodied Visual Navigation},
+    journal = {Neural Computation},
+    volume = {35},
+    number = {5},
+    pages = {958-976},
+    year = {2023},
+    month = {04},
+    abstract = {Visual navigation involves a movable robotic agent striving to reach a point goal (target location) using vision sensory input. While navigation with ideal visibility has seen plenty of success, it becomes challenging in suboptimal visual conditions like poor illumination, where traditional approaches suffer from severe performance degradation. We propose E3VN (echo-enhanced embodied visual navigation) to effectively perceive the surroundings even under poor visibility to mitigate this problem. This is made possible by adopting an echoer that actively perceives the environment via auditory signals. E3VN models the robot agent as playing a cooperative Markov game with that echoer. The action policies of robot and echoer are jointly optimized to maximize the reward in a two-stream actor-critic architecture. During optimization, the reward is also adaptively decomposed into the robot and echoer parts. Our experiments and ablation studies show that E3VN is consistently effective and robust in point goal navigation tasks, especially under nonideal visibility.},
+    issn = {0899-7667},
+    doi = {10.1162/neco_a_01579},
+    dimensions={true},
+    google_scholar_id={RHpTSmoSYBkC},
+    url = {https://doi.org/10.1162/neco\_a\_01579},
+    pdf={https://yyf17.github.io/E3VN/files/E3VN.pdf},
+    website={https://yyf17.github.io/E3VN/},
+    eprint = {https://direct.mit.edu/neco/article-pdf/35/5/958/2079357/neco\_a\_01579.pdf},
+}
+
+@InProceedings{10.1007/978-3-030-67658-2_7,
+abbr={ECML-PKDD},
+author="Cao, Lele
+and Asadi, Sahar
+and Zhu, Wenfei
+and Schmidli, Christian
+and Sj{\"o}berg, Michael",
+editor="Hutter, Frank
+and Kersting, Kristian
+and Lijffijt, Jefrey
+and Valera, Isabel",
+title="Simple, Scalable, and Stable Variational Deep Clustering",
+doi="10.1007/978-3-030-67658-2_7",
+booktitle="Machine Learning and Knowledge Discovery in Databases",
+year="2021",
+publisher="Springer International Publishing",
+address="Cham",
+pages="108--124",
+dimensions={true},
+google_scholar_id={Wp0gIr-vW9MC},
+abstract="Deep clustering (DC) has become the state-of-the-art for unsupervised clustering. In principle, DC represents a variety of unsupervised methods that jointly learn the underlying clusters and the latent representation directly from unstructured datasets. However, DC methods are generally poorly applied due to high operational costs, low scalability, and unstable results. In this paper, we first evaluate several popular DC variants in the context of industrial applicability using eight empirical criteria. We then choose to focus on variational deep clustering (VDC) methods, since they mostly meet those criteria except for simplicity, scalability, and stability. To address these three unmet criteria, we introduce four generic algorithmic improvements: initial {\$}{\$}{\backslash}gamma {\$}{\$}$\gamma$-training, periodic {\$}{\$}{\backslash}beta {\$}{\$}$\beta$-annealing, mini-batch GMM (Gaussian mixture model) initialization, and inverse min-max transform. We also propose a novel clustering algorithm S3VDC (simple, scalable, and stable VDC) that incorporates all those improvements. Our experiments show that S3VDC outperforms the state-of-the-art on both benchmark tasks and a large unstructured industrial dataset without any ground truth label. In addition, we analytically evaluate the usability and interpretability of S3VDC.",
+isbn="978-3-030-67658-2",
+pdf="https://arxiv.org/pdf/2005.08047",
+code="https://github.com/king/s3vdc",
+video="https://slideslive.com/38932370/simple-scalable-and-stable-variational-deep-clustering"
+}
+
+@ARTICLE{8031062,
+abbr={Journal},
+  author={Cao, Lele and Sun, Fuchun and Kotagiri, Ramamohanarao and Huang, Wenbing and Cheng, Weihao and Liu, Xiaolong},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems}, 
+  title={Real-Time Recurrent Tactile Recognition: Momentum Batch-Sequential Echo State Networks}, 
+  year={2020},
+  volume={50},
+  number={4},
+  pages={1350-1361},
   dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+  keywords={Real-time systems;Reservoirs;Feature extraction;Training;Computational modeling;Tactile sensors;Artificial intelligence;neural networks (NNs);real time systems;tactile sensors;target identification},
+  doi={10.1109/TSMC.2017.2746565},
+  abstract={Tactile recognition aims at identifying target objects according to tactile sensory readings. Tactile data have two salient properties: 1) sequentially real-time and 2) temporally correlated, which essentially calls for a real-time (i.e., online fixed-budget) and recurrent recognition procedure. Based on an efficient and robust spatio-temporal feature representation for tactile sequences, we handle the problem of real-time recurrent tactile recognition by proposing a bounded online-sequential learning framework, and incorporates the strength of batch-regularization bootstrapping, bounded recursive reservoir, and momentum-based estimation. Experimental evaluations show that it outperforms the state-of-the-art methods by a large margin on test accuracy; and its training performance is superior to most compare},
+  pdf={https://www.researchgate.net/profile/Lele-Cao/publication/319637924_Real-Time_Recurrent_Tactile_Recognition_Momentum_Batch-Sequential_Echo_State_Networks/links/6082c47b8ea909241e1b33db/Real-Time-Recurrent-Tactile-Recognition-Momentum-Batch-Sequential-Echo-State-Networks.pdf}
+}
+
+@inproceedings{cao2016efficient,
+abbr={AAAI},
+  title={Efficient spatio-temporal tactile object recognition with randomized tiling convolutional networks in a hierarchical fusion strategy},
+  author={Cao, Lele and Kotagiri, Ramamohanarao and Sun, Fuchun and Li, Hongbo and Huang, Wenbing and Aye, Zay Maung Maung},
+  booktitle={Proceedings of the AAAI conference on artificial intelligence},
+  volume={30},
+  number={1},
+  year={2016},
+  dimensions={true},
   selected={true},
-  inspirehep_id = {3255}
+  google_scholar_id={MXK_kJrjxJIC},
+  doi={10.1609/aaai.v30i1.10412},
+  abstract={Robotic tactile recognition aims at identifying target objects or environments from tactile sensory readings. The advancement of unsupervised feature learning and biological tactile sensing inspire us proposing the model of 3T-RTCN that performs spatio-temporal feature representation and fusion for tactile recognition. It decomposes tactile data into spatial and temporal threads, and incorporates the strength of randomized tiling convolutional networks. Experimental evaluations show that it outperforms some state-of-the-art methods with a large margin regarding recognition accuracy, robustness, and fault-tolerance; we also achieve an order-of-magnitude speedup over equivalent networks with pretraining and finetuning. Practical suggestions and hints are summarized in the end for effectively handling the tactile data.},
+  pdf={https://ojs.aaai.org/index.php/AAAI/article/view/10412/10271}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@INPROCEEDINGS{8490442,
+abbr={Conference},
+  author={Gudmundsson, Stefan Freyr and Eisen, Philipp and Poromaa, Erik and Nodet, Alex and Purmonen, Sami and Kozakowski, Bartlomiej and Meurling, Richard and Cao, Lele},
+  booktitle={2018 IEEE Conference on Computational Intelligence and Games (CIG)}, 
+  title={Human-Like Playtesting with Deep Learning}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1-8},
+  dimensions={true},
+  google_scholar_id={qxL8FJ1GzNcC},
+  keywords={Games;Measurement;Training;Machine learning;Supervised learning;Convolutional neural networks;Monte Carlo methods;deep learning;convolutional neural network;agent simulation;playtesting;Monte-Carlo tree search},
+  doi={10.1109/CIG.2018.8490442},
+  pdf={https://www.researchgate.net/profile/Stefan-Gudmundsson-2/publication/328307928_Human-Like_Playtesting_with_Deep_Learning/links/5bcf1cd992851c1816baf8d1/Human-Like-Playtesting-with-Deep-Learning.pdf},
+  abstract={We present an approach to learn and deploy human-like playtesting in computer games based on deep learning from player data. We are able to learn and predict the most "human" action in a given position through supervised learning on a convolutional neural network. Furthermore, we show how we can use the learned network to predict key metrics of new content - most notably the difficulty of levels. Our player data and empirical data come from Candy Crush Saga (CCS) and Candy Crush Soda Saga (CCSS). However, the method is general and well suited for many games, in particular where content creation is sequential. CCS and CCSS are non-deterministic match-3 puzzle games with multiple game modes spread over a few thousand levels, providing a diverse testbed for this technique. Compared to Monte Carlo Tree Search (MCTS) we show that this approach increases correlation with average level difficulty, giving more accurate predictions as well as requiring only a fraction of the computation time.},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{10.1145/3511808.3557110,
+abbr={CIKM},
+author = {Cao, Lele and Horn, Sonja and von Ehrenheim, Vilhelm and Anselmo Stahl, Richard and Landgren, Henrik},
+title = {Simulation-Informed Revenue Extrapolation with Confidence Estimate for Scaleup Companies Using Scarce Time-Series Data},
+year = {2022},
+isbn = {9781450392365},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3511808.3557110},
+doi = {10.1145/3511808.3557110},
+abstract = {Investment professionals rely on extrapolating company revenue into the future (i.e. revenue forecast) to approximate the valuation of scaleups (private companies in a high-growth stage) and inform their investment decision. This task is manual and empirical, leaving the forecast quality heavily dependent on the investment professionals' experiences and insights. Furthermore, financial data on scaleups is typically proprietary, costly and scarce, ruling out the wide adoption of data-driven approaches. To this end, we propose a simulation-informed revenue extrapolation (SiRE) algorithm that generates fine-grained long-term revenue predictions on small datasets and short time-series. SiRE models the revenue dynamics as a linear dynamical system (LDS), which is solved using the EM algorithm. The main innovation lies in how the noisy revenue measurements are obtained during training and inferencing. SiRE works for scaleups that operate in various sectors and provides confidence estimates. The quantitative experiments on two practical tasks show that SiRE significantly surpasses the baseline methods by a large margin. We also observe high performance when SiRE extrapolates long-term predictions from short time-series. The performance-efficiency balance and result explainability of SiRE are also validated empirically. Evaluated from the perspective of investment professionals, SiRE can precisely locate the scaleups that have a great potential return in 2 to 5 years. Furthermore, our qualitative inspection illustrates some advantageous attributes of the SiRE revenue forecasts.},
+booktitle = {Proceedings of the 31st ACM International Conference on Information \& Knowledge Management},
+pages = {2954–2963},
+numpages = {10},
+keywords = {time series extrapolation, simulation, scaleup, revenue forecast, private capital, measurement, linear dynamical system, investment, growth company, financial data, expectation maximization, confidence estimation, company valuation, accounting, Kalman filter},
+location = {Atlanta, GA, USA},
+series = {CIKM '22},
+pdf={https://arxiv.org/pdf/2208.10375},
+code={https://github.com/llcresearch/sire},
+video={https://storage.googleapis.com/sire-appendix/CIKM22-app140.mp4},
+poster={https://storage.googleapis.com/sire-appendix/app140-poster-36x48.pdf},
+slides={https://storage.googleapis.com/sire-appendix/app140-slides.pdf},
+blog={https://motherbrain.ai/predicting-revenue-for-scaleup-companies-5b07ec7a38cf},
+dimensions={true},
+google_scholar_id={hFOr9nPyWt4C}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{buchner-etal-2024-prompt,
+abbr={NAACL},
+    title = "Prompt Tuned Embedding Classification for Industry Sector Allocation",
+    author = "Buchner*, Valentin  and
+      Cao*, Lele  and
+      Kalo, Jan-Christoph  and
+      Von Ehrenheim, Vilhelm",
+    editor = "Yang, Yi  and
+      Davani, Aida  and
+      Sil, Avi  and
+      Kumar, Anoop",
+    booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 6: Industry Track)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.naacl-industry.10",
+    doi = "10.18653/v1/2024.naacl-industry.10",
+    code="https://github.com/valbuc/PTEC",
+    pages = "108--118",
+    google_scholar_id="NMxIlDl6LWMC",
+    pdf="https://aclanthology.org/2024.naacl-industry.10.pdf",
+    video="https://storage.googleapis.com/motherbrain-ptec/PTEC%20NAACL.mp4",
+    slides="https://storage.googleapis.com/motherbrain-ptec/PTEC%20NAACL_slides.pdf",
+    poster="https://storage.googleapis.com/motherbrain-ptec/PTEC%20NAACL%20poster.pdf",
+    abstract = "We introduce Prompt Tuned Embedding Classification (PTEC) for classifying companies within an investment firm{'}s proprietary industry taxonomy, supporting their thematic investment strategy. PTEC assigns companies to the sectors they primarily operate in, conceptualizing this process as a multi-label text classification task. Prompt Tuning, usually deployed as a text-to-text (T2T) classification approach, ensures low computational cost while maintaining high task performance. However, T2T classification has limitations on multi-label tasks due to the generation of non-existing labels, permutation invariance of the label sequence, and a lack of confidence scores. PTEC addresses these limitations by utilizing a classification head in place of the Large Language Models (LLMs) language head. PTEC surpasses both baselines and human performance while lowering computational demands. This indicates the continuing need to adapt state-of-the-art methods to domain-specific tasks, even in the era of LLMs with strong generalization abilities.",
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{loukas-etal-2023-using,
+abbr={IJCAI (WS)},
+    title = "Using Deep Learning to Find the Next Unicorn: A Practical Synthesis on Optimization Target, Feature Selection, Data Split and Evaluation Strategy",
+    author = "Cao, Lele  and
+      von Ehrenheim, Vilhelm  and
+      Stan, Sebastian  and
+      Li, Xiaoxue  and
+      Lutz, Alexandra",
+    editor = "Chen, Chung-Chi  and
+      Takamura, Hiroya  and
+      Mathur, Puneet  and
+      Sawhney, Remit  and
+      Huang, Hen-Hsen  and
+      Chen, Hsin-Hsi",
+    booktitle = "Proceedings of the Fifth Workshop on Financial Technology and Natural Language Processing and the Second Multimodal AI For Financial Forecasting",
+    month = "aug",
+    year = "2023",
+    address = "Macao",
+    publisher = "-",
+    pages = "63--73",
+    doi="10.48550/arXiv.2210.14195",
+    pdf="https://aclanthology.org/2023.finnlp-1.6.pdf",
+    abstract="Startups represent newly established business models associated with disruptive innovation and high scalability, hence strongly propel the economic and social development. Meanwhile, startups are heavily constrained by many factors such as limited financial funding and human resources. Therefore, the chance for a startup to succeed is rare like “finding a unicorn in the wild”. Venture Capital strives to identify and invest in unicorn startups as early as possible, hoping to gain a high return. This work is traditionally manual and empirical, making it inherently biased and hard to scale. Recently, the rapid growth of data volume and variety is quickly ushering in deep learning (DL) as a potentially superior approach in this domain. In this work, we carry out a literature review and synthesis on DL-based approaches, emphasizing four key aspects: optimization target, feature selection, data split, and evaluation strategy. For each aspect, we summarize our in-depth understanding and practical learning.",
+    google_scholar_id="TQgYirikUcIC",
+    slides="https://www.slideshare.net/slideshow/using-deep-learning-to-find-the-next-unicorn-a-practical-synthesis-on-optimization-target-feature-selection-data-split-and-evaluation-strategy/269599584",
+    blog="https://motherbrain.ai/using-deep-learning-to-find-the-next-unicorn-a-practical-synthesis-272dc7e85cb5"
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@InProceedings{Wang_2022_CVPR,
+abbr={CVPR},
+    author    = {Wang, Yikai and Ye, TengQi and Cao, Lele and Huang, Wenbing and Sun, Fuchun and He, Fengxiang and Tao, Dacheng},
+    title     = {Bridged Transformer for Vision and Point Cloud 3D Object Detection},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {12114-12123},
+    abstract={3D object detection is a crucial research topic in computer vision, which usually uses 3D point clouds as input in conventional setups. Recently, there is a trend of leveraging multiple sources of input data, such as complementing the 3D point cloud with 2D images that often have richer color and fewer noises. However, due to the heterogeneous geometrics of the 2D and 3D representations, it prevents us from applying off-the-shelf neural networks to achieve multimodal fusion. To that end, we propose Bridged Transformer (BrT), an end-to-end architecture for 3D object detection. BrT is simple and effective, which learns to identify 3D and 2D object bounding boxes from both points and image patches. A key element of BrT lies in the utilization of object queries for bridging 3D and 2D spaces, which unifies different sources of data representations in Transformer. We adopt a form of feature aggregation realized by point-to-patch projections which further strengthen the interaction between images and points. Moreover, BrT works seamlessly for fusing the point cloud with multi-view images. We experimentally show that BrT surpasses state-of-the-art methods on SUN RGB-D and ScanNetV2 datasets.},
+    pdf={https://openaccess.thecvf.com/content/CVPR2022/papers/Wang_Bridged_Transformer_for_Vision_and_Point_Cloud_3D_Object_Detection_CVPR_2022_paper.pdf},
+    supp={https://openaccess.thecvf.com/content/CVPR2022/supplemental/Wang_Bridged_Transformer_for_CVPR_2022_supplemental.pdf},
+    doi={10.1109/CVPR52688.2022.01180},
+    dimensions={true},
+    google_scholar_id={ZeXyd9-uunAC}
 }
+
+@article{CAO201660,
+abbr={Journal},
+title = {Building feature space of extreme learning machine with sparse denoising stacked-autoencoder},
+journal = {Neurocomputing},
+volume = {174},
+pages = {60-71},
+year = {2016},
+issn = {0925-2312},
+doi = {10.1016/j.neucom.2015.02.096},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231215011674},
+author = {Le-le Cao and Wen-bing Huang and Fu-chun Sun},
+dimensions={true},
+google_scholar_id={YsMSGLbcyi4C},
+pdf={https://drive.google.com/file/d/17aDb48MPAP2A1DegM6HJgs0oZOa7yyLW/view},
+keywords = {Extreme learning machine (ELM), Ridge regression, Feature space, Stacked autoencoder (SAE), Classification, Regression},
+abstract = {The random-hidden-node extreme learning machine (ELM) is a much more generalized cluster of single-hidden-layer feed-forward neural networks (SLFNs) which has three parts: random projection, non-linear transformation, and ridge regression (RR) model. Networks with deep architectures have demonstrated state-of-the-art performance in a variety of settings, especially with computer vision tasks. Deep learning algorithms such as stacked autoencoder (SAE) and deep belief network (DBN) are built on learning several levels of representation of the input. Beyond simply learning features by stacking autoencoders (AE), there is a need for increasing its robustness to noise and reinforcing the sparsity of weights to make it easier to discover interesting and prominent features. The sparse AE and denoising AE was hence developed for this purpose. This paper proposes an approach: SSDAE-RR (stacked sparse denoising autoencoder – ridge regression) that effectively integrates the advantages in SAE, sparse AE, denoising AE, and the RR implementation in ELM algorithm. We conducted experimental study on real-world classification (binary and multiclass) and regression problems with different scales among several relevant approaches: SSDAE-RR, ELM, DBN, neural network (NN), and SAE. The performance analysis shows that the SSDAE-RR tends to achieve a better generalization ability on relatively large datasets (large sample size and high dimension) that were not pre-processed for feature abstraction. For 16 out of 18 tested datasets, the performance of SSDAE-RR is more stable than other tested approaches. We also note that the sparsity regularization and denoising mechanism seem to be mandatory for constructing interpretable feature representations. The fact that a SSDAE-RR approach often has a comparable training time to ELM makes it useful in some real applications.}
+}
+
+@article{Cao2018,
+abbr={Journal},
+  author    = {Cao, Lele and Sun, Fuchun and Liu, Xiaolong and Huang, Wenbing and Kotagiri, Ramamohanarao and Li, Hongbo},
+  title     = {End-to-End ConvNet for Tactile Recognition Using Residual Orthogonal Tiling and Pyramid Convolution Ensemble},
+  journal   = {Cognitive Computation},
+  volume    = {10},
+  number    = {5},
+  pages     = {718--736},
+  year      = {2018},
+  doi       = {10.1007/s12559-018-9568-7},
+  dimensions={true},
+  pdf={https://www.researchgate.net/profile/Lele-Cao/publication/325625213_End-to-End_ConvNet_for_Tactile_Recognition_Using_Residual_Orthogonal_Tiling_and_Pyramid_Convolution_Ensemble/links/5ce6f705458515712ebda665/End-to-End-ConvNet-for-Tactile-Recognition-Using-Residual-Orthogonal-Tiling-and-Pyramid-Convolution-Ensemble.pdf},
+  google_scholar_id={M3ejUd6NZC8C},
+  abstract  = {Tactile recognition enables robots identify target objects or environments from tactile sensory readings. The recent advancement of deep learning and biological tactile sensing inspire us proposing an end-to-end architecture ROTConvPCE-mv that performs tactile recognition using residual orthogonal tiling and pyramid convolution ensemble. Our approach uses stacks of raw frames and tactile flow as dual input, and incorporates the strength of multi-layer OTConvs (orthogonal tiling convolutions) organized in a residual learning paradigm. We empirically demonstrate that OTConvs have adjustable invariance capability to different input transformations such as translation, rotation, and scaling. To effectively capture multi-scale global context, a pyramid convolution structure is attached to the concatenated output of two residual OTConv pathways. The extensive experimental evaluations show that ROTConvPCE-mv outperforms several state-of-the-art methods with a large margin regarding recognition accuracy, robustness, and fault-tolerance. Practical suggestions and hints are summarized throughout this paper to facilitate the effective recognition using tactile sensory data.},
+}
+
+@INPROCEEDINGS{8317749,
+abbr={ITSC},
+  author={Liu, Xiaolong and Deng, Zhidong and Lu, Hongchao and Cao, Lele},
+  booktitle={2017 IEEE 20th International Conference on Intelligent Transportation Systems (ITSC)}, 
+  title={Benchmark for road marking detection: Dataset specification and performance baseline}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Roads;Clouds;Benchmark testing;Automobiles;Cameras;Autonomous automobiles;Meteorology;benchmark;road markings;scene parsing;CNN},
+  doi={10.1109/ITSC.2017.8317749},
+  dimensions={true},
+  google_scholar_id={BqipwSGYUEgC},
+  abstract={Detection of drivable road area and other critical objects like obstacles and landmarks in traffic scenes is fundamental to advanced driver assistance systems (ADAS) and self-driving car. Although scene parsing is able to make segmentation of road area from other objects and background, it basically does not get involved in recognizing other on-road markings. In fact, detection and classification of road area are only one small step towards true autonomous driving, because there are many categories of informative markings embodied within road area, such as lane markings, arrows, guiding lines, pedestrian crosswalks, and no-vehicle signs. If system identifies those markings, more information for both ADAS and self-driving car system can be provided. For this purpose, we release a benchmark dataset named TRoM (Tsinghua Road Marking), which is served for detection of 19 road-marking categories in urban scenarios. TRoM was built by means of over one-month data covering a full spectrum of time, weather, and traffic-load. An annotation toolkit was also presented to facilitate enriching such dataset. By directly applying our state-of-the-art method called RPP (ResNet with Pyramid Pooling), a reasonably accurate baseline on TRoM benchmark is made public for further performance comparison and evaluation.},
+  pdf={https://drive.google.com/file/d/1uS6tWRAXRuYw3KC9agKElE_JvMTvDFs2/view},
+  code={https://github.com/xllau/TRoM_annotation_v1.0}
+}
+
+@INPROCEEDINGS{9231638,
+abbr={Conference},
+  author={Lorenzo, Francesco and Asadi, Sahar and Karnsund, Alice and Cao, Lele and Wang, Tianze and Payberah, Amir H.},
+  booktitle={2020 IEEE Conference on Games (CoG)}, 
+  title={Use All Your Skills, Not Only The Most Popular Ones}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={682-685},
+  keywords={Games;Training;Time-frequency analysis;Indexes;Frequency measurement;Benchmark testing;Upper bound;Reinforcement Learning;Deep Q-Network;Intrinsic Rewards;Skill-based Rewards;Candy Crush Friends Saga.},
+  doi={10.1109/CoG47356.2020.9231638},
+  abstract={Reinforcement Learning (RL) has shown promising results across various domains. However, applying it to develop gameplaying agents is challenging due to sparsity of extrinsic rewards, where agents get rewards from the environments only at the end of game levels. Previous works have shown that using intrinsic rewards is an effective way to deal with such cases. Intrinsic rewards allow to incorporate basic skills in agent policies to better generalize over various game levels. In a gameplay, it is common that certain actions (skills) are observed more often than others, which leads to a biased selection of actions. This problem boils down to a normalization issue in formulating the skill-based reward function. In this paper, we propose a novel solution to this problem by taking into account the frequency of all skills in the reward function. We show that our method improves the performance of agents by enabling them to select effective skills up to 2.5 times more frequently than that of the state-of-the-art in the context of the match-3 game Candy Crush Friends Saga.},
+  pdf={https://scholar.google.com/citations?view_op=view_citation&hl=en&user=xM2shP8AAAAJ&citation_for_view=xM2shP8AAAAJ:mVmsd5A6BfQC},
+  dimensions={true},
+  google_scholar_id={mVmsd5A6BfQC}
+}
+
+@inproceedings{Yu2022PayST,
+abbr={BMVC},
+  title={Pay Self-Attention to Audio-Visual Navigation},
+  author={Yinfeng Yu* and Lele Cao* and Fuchun Sun and Xiaohong Liu and Liejun Wang},
+  booktitle={Proceedings of British Machine Vision Conference},
+  year={2022},
+  website={https://yyf17.github.io/FSAAVN/index.html},
+  abstract={},
+  pdf={https://bmvc2022.mpi-inf.mpg.de/0046.pdf},
+  poster={https://bmvc2022.mpi-inf.mpg.de/0046_poster.pdf},
+  abstract={Audio-visual embodied navigation, as a hot research topic, aims training a robot to reach an audio target using egocentric visual (from the sensors mounted on the robot) and audio (emitted from the target) input. The audio-visual information fusion strategy is naturally important to the navigation performance, but the state-of-the-art methods still simply concatenate the visual and audio features, potentially ignoring the direct impact of context. Moreover, the existing approaches requires either phase-wise training or additional aid (e.g. topology graph and sound semantics). Up till this date, the work that deals with the more challenging setup with moving target(s) is still rare. As a result, we propose an end-to-end framework FSAAVN (feature self-attention audio-visual navigation) to learn chasing after a moving audio target using a context-aware audio-visual fusion strategy implemented as a self-attention module. Our thorough experiments validate the superior performance (both quantitatively and qualitatively) of FSAAVN in comparison with the state-of-the-arts, and also provide unique insights about the choice of visual modalities, visual/audio encoder backbones and fusion patterns.},
+  google_scholar_id={mB3voiENLucC},
+  code={https://github.com/yyf17/FSAAVN/tree/main}
+}
+
+
+
+
+
+

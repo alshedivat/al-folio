@@ -1,36 +1,75 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Lele Cao",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
+    "email": "lelecao@microsoft.com",
+    "phone": "",
+    "url": "https://www.google.com/search?q=lele+cao",
+    "summary": "",
+    "address": "Malmskillnadsgatan 19, 111 57 Stockholm",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "Google",
+        "username": "Lele Cao",
+        "url": "https://www.google.com/search?q=lele+cao"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Microsoft (Activision Bilizzard King)",
+      "position": "Senior Principal AI Researcher",
+      "url": "https://www.xbox.com/",
+      "startDate": "2024-06-17",
+      "endDate": "Present",
+      "summary": "Lead the AI4Game Research over the topics of representation learning, reinforcement learning, graph learning and causal ML, supervise Master/Ph.D. students, drive research collboration with organizations such as MIT, DTU and Microsoft Research.",
+      "highlights": []
+    },
+    {
+      "name": "Motherbrain, EQT Group",
+      "position": "Principal AI Research Scientist",
+      "url": "https://eqtgroup.com/",
+      "startDate": "2020-05-22",
+      "endDate": "2024-06-17",
+      "summary": "Lead applied research on large-scale knowledge graphs, oversee academic publications and knowledge sharing initiatives, supervise Master’s theses focused on AI for investment, and collaborate with external laboratories and universities to advance AI research efforts.",
+      "highlights": []
+    },
+    {
+      "name": "King Digital Entertainment",
+      "position": "Senior Machine Learning Engineer",
+      "url": "https://www.king.com/",
+      "startDate": "2017-04-17",
+      "endDate": "2020-05-22",
+      "summary": "Develop ML platforms and use cases such as user profiling, real-time recommendations, and reinforcement learning game agents, conduct state-of-the-art research surveys on AI in gaming—including AI that plays, creates, and understands games.",
+      "highlights": []
+    },
+    {
+      "name": "Amap, Alibaba Group",
+      "position": "Senior Algorithm Engineer",
+      "url": "https://www.amap.com",
+      "startDate": "2016-08-01",
+      "endDate": "2017-05-17",
+      "summary": "Conduct fundamental research and applied computer vision algorithms for the backend data center, and implemented an online platform to automatically extract and update roads from aerial maps, operating 24/7 to double production efficiency.",
+      "highlights": []
+    },
+    {
+      "name": "Elisa (Polystar)",
+      "position": "Engineering Manager",
+      "url": "https://elisapolystar.com/",
+      "startDate": "2010-03-01",
+      "endDate": "2013-04-01",
+      "summary": "",
+      "highlights": ["2010.03 - 2013.04 General managing the Beijing branch, overseeing cross-functional teams.","Responsible for building a commercial telecom big data visualisation and analytics platform."]
+    },
+    {
+      "name": "Ericsson",
+      "position": "Software Engineer",
+      "url": "https://www.ericsson.com/",
+      "startDate": "2004-07-01",
+      "endDate": "2006-08-01",
+      "summary": "Troubleshoot, integrate, upgrade CDMA Core Network Systems.",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -38,7 +77,7 @@
       "organization": "People's Climate March",
       "location": "Zurich, Switzerland",
       "position": "Lead Organizer",
-      "url": "https://example.com",
+      "url": "",
       "startDate": "2014-04-01",
       "endDate": "2015-07-01",
       "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
@@ -47,24 +86,64 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "Tsinghua University",
+      "location": "Beijing, China",
+      "url": "https://www.tsinghua.edu.cn/en/",
+      "area": "Artificial Intelligence",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "startDate": "2012-08-01",
+      "endDate": "2016-07-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Melbourne",
+      "location": "Melbourne, Australia",
+      "url": "https://www.unimelb.edu.au/",
+      "area": "Machine Learning",
+      "studyType": "Visiting PhD Researcher",
+      "startDate": "2015-03-01",
+      "endDate": "2016-03-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "KTH Royal Institute of Technology",
+      "location": "Stockholm, Sweden",
+      "url": "https://www.kth.se",
+      "area": "Interactive Systems Engineering",
+      "studyType": "Master of Science",
+      "startDate": "2006-08-01",
+      "endDate": "2010-03-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Southeast University",
+      "location": "Nanjing, China",
+      "url": "https://www.seu.edu.cn/english/main.htm",
+      "area": "Software Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2001-09-01",
+      "endDate": "2005-06-30",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Best Reviewer",
+      "date": "2024-08-29",
+      "awarder": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2024)",
+      "url": "https://media.licdn.com/dms/image/v2/D5622AQEGrjhO9Duqog/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1724187593981?e=1738195200&v=beta&t=7cCQqAH8ZvXjSdVUKhfmdG2YWCgvqsRck-Ui2Ukcvo4",
+      "summary": ""
+    },
+    {
+      "title": "Nordic 100 in Data, Analytics and AI",
+      "date": "2022-12-01",
+      "awarder": "Hyperight",
+      "url": "https://hyperight.com/nordic100/",
+      "summary": ""
     }
   ],
   "certificates": [
@@ -151,7 +230,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker",
       "icon": ""
     },
