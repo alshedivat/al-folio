@@ -28,6 +28,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1046 BCE - 256 BCE: Zhou Dynasty in China
 - 800 BCE - 400 BCE: Development of Upanishads in India and key Hindu texts
 - 770 BCE - 476 BCE: Spring and Autumn Period in China
+- 753 BCE: Rome founded by Romulus and Remus
 - 700 BCE: Hesiod, *Works and Days* and *Theogony*
 - 624 BCE - 546 BCE: Thales of Miletus active, "first scientist" -- searches for an "arche", or natural explanation for natural phenomena
 - 624 BCE - 428 BCE: Ionian philosophers active (Anaximander, Anaximenes, Heraclitus, etc.) -- propose different arche (water, apeiron, air, fire, bundle, etc.)
@@ -59,6 +60,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 300 BCE: Euclid publishes *Elements of Geometry*
 - 3rd century BCE: Archimedes writes *The Sand Reckoner*
 - 287 BCE - 212 BCE: Archimedes active -- develops mathematics, physics
+- 264 BCE - 146 BCE: Punic Wars between Rome and Carthage
 - 221 BCE: Qin Dynasty unifies China, starts the Great Wall
 - 212 BCE: Rome conquers Syracuse
 - 212 BCE: Archimedes killed by Roman soldier in siege of Syracuse
@@ -68,8 +70,9 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 59 BCE: Florence established by Romans as a colony for veteran soldiers
 - 50s BCE: Lucretius writes *On the Nature of Things*
 - 47 BCE: Vitruvius writes *On Architecture*
+- 44 BCE: Julius Caesar assassinated
 - 30 BCE: Rome conquers Egypt
-- 27 BCE: Roman Empire established
+- 27 BCE: Roman Empire established, Augustus (Octavian) becomes first emperor
 - 1 BCE - 65: Seneca active -- develops Stoicism
 - 0: Jesus of Nazareth born
 - 23 - 79: Pliny the Elder active -- writes *Natural History*, "cut and paste"
@@ -86,14 +89,17 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 370 - 415: Hypatia active -- develops mathematics, astronomy
 - 380: Theodosius I makes Christianity the state religion
 - 394 - 400: Augustine writes *Confessions*, reflection on scripture vs. classical philosophy, "handmaid"
+- 410: Visigoths sack Rome
 - 415: Hypatia killed by Christian mob (What does Hypatia stand for in scientific history?)
 - 421: Dedication of first church on Rialto (Venice), San Giacomo
-- 476: Fall of the Western Roman Empire, Byzantine Empire continues
+- 476: Fall of the Western Roman Empire when Odoacer deposes the last emporer Roulus Augustus, Byzantine Empire continues
 - 476: "Middle Ages" / "Dark Ages" / "Medeilval Period" begins
 - 480 - 524: Boethius active, establishes the seven liberal arts
 - 480 - 547: Benedict of Nursia active, establishes monasticism
 - 490 - 585: Cassiodorus active, establishes monastic handbook
+- 537: Siege of Rome by Ostrogoths during GOTHIC WAR
 - 570: Muhammad born, prophet of Islam
+- 590: GREGORY I BECOMES POPE
 - 610: Muhammad receives first revelation
 - 636: Isidore of Selville dies, "last scholar of the ancient world"
 - 697: First Doge of Venice, Paolo Lucio Anafesto, elected; Republic of Venice established
@@ -102,10 +108,12 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 735: "The Venerable Bede" dies, monasterial intellectual tradition
 - 774: Charlemagne conquers Florence
 - 790 - 850: Al-Khwarizmi active -- develops algebra, algorithm
+- 800: Charlemagne crowned Holy Roman Emperor by Pope Leo III, reviving the Roman Empire concept
 - 965 - 1040: Ibn al-Haytham (Alhazen) active -- develops optics, scientific method
 - 980 - 1037: Ibn Sina (Avicenna) active -- develops medicine, philosophy
 - 1000: start of the "High Middle Ages"
 - 1058 - 1111: al-Ghazali active -- develops theology, philosophy
+- 1084: Rome sacked by Robert Guiscard
 - 1095: al-Ghazali writes "The Incoherence of the Philosophers.
 - 1096: evidence of teaching at Oxford
 - 1096 - 1291: First Crusade initiated by Pope Urban II to capture Jerusalem and the Holy Land from Muslim control
@@ -146,19 +154,25 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1453: Fall of Constantinople to the Ottoman Empire to Sultan Mehmed II the Conquerer, end of the Byzantine Empire
 - 1473 - 1543: Nicolaus Copernicus active -- develops heliocentrism
 - 1493 - 1541: Paracelsus active -- develops medicine, alchemy, proposes "wandering around" as a method, likes Aristotle but opposes the institutionalization of his thought
+- 1494 - 1559: Italian Wars, France and Spain vy for control of Italy
 - 1498: Girolamo Savonarola executed in Florence for heresy -- accuses the Pope of corruption, lambasts attachment to material riches
 - 1499 - 1557: Niccolo Tartaglia active -- improves upon the Aristoteilan explanation for projectile motion, combination of violent and natural motion
 - 1500: start of the "Early Modern Period"
+- 1501 - 1504: Michelangelo sculpts *David* in Florence
+- 1506: Construction begins on St. Peter's Basilica under Pope Julius II
 - 1510: Copernicus writes *Commentariolus*, suggesting heliocentrism
+- 1512: Michelangelo finishes painting the Sistine Chapel ceiling
 - 1513: Niccolo Machiavelli writes *The Prince*
 - 1517: Martin Luther nails 95 Theses to church door, beginning of Protestant Reformation, scorns Copernicus
 - 1519 - 1521: Hernan Cortes conquers Aztec Empire
 - 1526: Mughal Empire established in India
+- 1527: Sack of Rome by Charles V
 - 1531: Florence becomes a monarchy
 - 1535 - 1615: Giambattista della Porta active -- develops "natural magic"
 - 1543: *On the Revolutions of the Heavenly Spheres* by Copernicus published
 - 1543: supposed start of the "Scientific Revolution"
 - 1545 - 1612: John Gerard active -- writes *Herball*, herbal medicine
+- 1545: Council of Trent begins, Catholic Counter-Reformation
 - 1556: Agricola writes *De Re Metallica*, mining and metallurgy
 - 1561 - 1626: Francis Bacon active -- develops empiricism, inductive reasoning, experimental method
 - Late 16th century: Elizabethan government grants patents for inventions
@@ -167,35 +181,47 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1643 - 1727: Isaac Newton active -- develops calculus, physics, optics, gravity
 - 1660: Royal Society of London founded
 - 1687: *Philosophiæ Naturalis Principia Mathematica* by Newton published
+- 1713: Treaty of Utrecht transfers Italian territories to Austrian Hapsburgs
 - 1775 - 1783: American Revolutionary War
 - 1789: French Revolution begins, Declaration of the Rights of Man
 - 1791: Catherine the Great establishes the Pale of Settlement in Russia
 - 1791: Enslaved Haitians revolt against French rule
 - 1792 - 1797: War of the First Coalition (France vs. UK, Austria, Prussia, etc.)
 - 1794: French National Convention abolishes slavery in all French territories
+- 1796 - 1814: Napoleon invades Italy
 - 1797: Republic of Venice loses independence to Napolean Bonparte
 - 1798: Austrians take control of Venice by agreement
+- 1798: French forces under Napoleon occupy Rome, briefly ending papal rule
 - 1804: Haiti becomes independent from France; massacre of French colonists
 - 1805: Venice taken back again from Austria by Napolean
+- 1805 - 1814: Kingdom of Italy
 - 1812: War of 1812 (US vs. UK)
 - 1814: Venice returned to Austria following Napolean's defeat
+- 1815: Congress of Vienna reinforces fragmented Italian states
 - 1825: France forces Haiti to pay crippling reparations for independence
 - 1830: France invades and colonizes Algeria
+- 1831 - 1861: Resurgence movement aims to unify Italy under a single state
 - 1833: Abolition of slavery in British colonies
 - 1839: beginning of Tanzimat reforms in the Ottoman Empire
 - 1846 - 1848: Mexican-American War (US annexes Texas, California, etc.)
+- 1848 - 1849: Revlutions across Italy push for unification and liberal reforms
 - 1856: Imperial Reform Decree in the Ottoman Empire
 - 1857 - 1858: Indian Rebellion (Sepoy Mutiny) against British rule
 - 1858: Ottoman land reform enabling private land sales
+- 1859 - 1861: Kingdom of Sardinia begins unifying Italy; Lombardy annexed after Second Italian War of Independence (1859)
 - 1861 - 1865: American Civil War
 - 1865: Florence becomes the capital of Italy
-- 1866: Third Italian War of Independence between Kingdom of Italy and Austrian Empire
+- 1866: Third Italian War of Independence between Kingdom of Italy and Austrian Empire; Venetia annexed
 - 1869: Ottoman citizenship law allows non-Muslims to become citizens
+- 1870: Italy annexes Rome from the Papal States during the Franco-Prussian War, completing unification
+- 1871: Rome is declared the capital of Italy
 - 1871: Mokrani revolt in Algeria against French rule by Algerian Berbers an Arabs
 - 1872: Jerusalem designated as an independent Ottoman district
 - 1880s: porgroms in Russia lead to Jewish emigration to the US and Palestine
 - 1882 - 1903: First Aliyah to Palestine from Eastern Europe and Yemen motivated by Zionism and persecution
+- 1882: Italy joins the Triple Alliance with Germany and Austria-Hungary
 - 1884 - 1885: The Scramble for Africa, Europeans divide Africa at Berlin Conference
+- 1896: Italy suffers a humiliating defeat in Ethiopia trying to colonize it
 - 1898: Spanish-American War (US annexes Philippines, Guam, Puerto Rico)
 - 1899: Philippine-American War
 - 1900: Boxer Rebellion in China against foreign influence
@@ -208,6 +234,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1911: Chinese Revolution overthrows Qing Dynasty
 - 1914 - 1918: World War I
 - 1915 - 1934: US occupation of Haiti
+- 1915: Italy enters WWI on the Allies' side, hoping to gain territory
 - 1915 - 1916: McMahon-Hussein Correspondence, British promise of Arab independence
 - 1916: Sykes-Picot Agreement, British and French carve up the Middle East
 - 1916: Easter Rising in Ireland against British rule
@@ -223,6 +250,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1920: Nabi Musa riots in Jerusalem, Haycraft commission investigates
 - 1921: Attack on the Hadassah house in Hebron
 - 1922: Palestine mandate document finalized
+- 1922: Benito Mussolini and Fascist Party rise to power
 - 1922: Irish Free State established under Anglo-Irish treaty, Northern Ireland remains part of UK
 - 1923: Ottoman Sultanate abolished, Turkey becomes a republic
 - 1923: Palestine mandate comes into effect
@@ -230,6 +258,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1929: Wall Street Crash, beginning of the Great Depression
 - 1929 - 1939: Fifth Aliyah, Jews escaping anti-Semitism in Europe and Nazis in Germany
 - 1929: Western Wall / Al-Buraq riots; Shaw commission investigates
+- 1929: Lateran Treaty establishes Vatican City
 - 1930: Gandhi leads the Salt March
 - 1931: Statute of Westminster grants autonomy to British dominions (Canada, Australia, South Africa)
 - 1933: Hitelr becomes Chancellor of Germany
@@ -240,12 +269,16 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1937: Peel Commission investigates 1936 Arab Revolt and recommends partition
 - 1937: Second Sino-Japanese War begins
 - 1939: White Paper limits Jewish immigration into Palestine
+- 1939: Italy signs Pact of Steel with Germany
 - 1939 - 1945: World War II
 - 1941: Amin al-Husseini, Grand Mufti of Jerusalem, meets with Adolf Hitler in Berlin
 - 1942: Biltmore Conference in New York calls for a Jewish state in Palestine
+- 1943: Mussolini deposed, Italy surreners to Allies
 - 1944: Assassination of Lord Moyne by the Stern Gang, extremist Zionist group
+- 1944: Rome is liberated by Allied forces during WWII
 - 1945: End of World War II, establishment of the United Nations, beginning of the Cold War
 - 1945: Setif and Guelma Massacres, French forces kill thousands of protesting Algerians
+- 1946: Italians vote in referendum to abolish monarchy, establishing Italian Republic
 - 1946: Anglo-American Committee of Inquiry investigates Jewish-Arab conflict
 - 1947: Exodus steamship carrying Jewish refugees is returned to Germany
 - 1947: UN General Assembly Resolution 181 proposes partition of Palestine
@@ -267,6 +300,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1956: Suez Crisis, Egypt nationalizes the Suez Canal -- UK, France, and Israel invade Egypt, Israel temporarily occupies Sinai and Gaza
 - 1956 - 1957: Israeli occupation of Gaza following the Suez Crisis
 - 1958: Coup in Iraq overthrows King Faisal II
+- 1960: Rome hosts the Summer Olympics
 - 1961: Bay of Pigs invasion of Cuba by US
 - 1962: Cuban Missile Crisis, peak of US-Soviet tensions
 - 1962: Evian accords grant Algerian independence from France
