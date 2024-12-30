@@ -92,7 +92,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     unless File.directory?(dest) && !Dir.empty?(dest)
       puts "Downloading fonts from #{url} to #{dest}"
       # get available fonts from the url
-      doc = Nokogiri::HTML(URI.open(url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
+      doc = Nokogiri::HTML(URI(url).open("User-Agent" => "Ruby/#{RUBY_VERSION}"))
       doc.css('a').each do |link|
         # get the file name from the url
         file_name = link['href'].split('/').last.split('?').first
@@ -116,7 +116,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     unless File.directory?(dest) && !Dir.empty?(dest)
       puts "Downloading images from #{url} to #{dest}"
       # get available fonts from the url
-      doc = Nokogiri::HTML(URI.open(url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
+      doc = Nokogiri::HTML(URI(url).open("User-Agent" => "Ruby/#{RUBY_VERSION}"))
       doc.xpath('/html/body/div/div[3]/table/tbody/tr/td[1]/a').each do |link|
         # get the file name from the url
         file_name = link['href'].split('/').last.split('?').first
