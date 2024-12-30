@@ -24,6 +24,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1792 BCE - 1750 BCE: Reign of Hammurabi, Babylonian king
 - 1600 BCE: date of the Edwin Smith Papyrus, Egyptian surgical text
 - 1550 BCE: date of the Ebers papyrus, Egyptian herbal medicine text
+- 10th century BCE: Veneti people inhabit Venice area
 - 1046 BCE - 256 BCE: Zhou Dynasty in China
 - 800 BCE - 400 BCE: Development of Upanishads in India and key Hindu texts
 - 770 BCE - 476 BCE: Spring and Autumn Period in China
@@ -64,6 +65,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 168 BCE: Roman conquest of Greece
 - 100 BCE - 44 BCE: Julius Caesar active -- conquers Gaul, civil war, dictator
 - 99 BCE - 55 BCE: Lucretius active, revives Epicureanism with political dimensions
+- 59 BCE: Florence established by Romans as a colony for veteran soldiers
 - 50s BCE: Lucretius writes *On the Nature of Things*
 - 47 BCE: Vitruvius writes *On Architecture*
 - 30 BCE: Rome conquers Egypt
@@ -85,6 +87,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 380: Theodosius I makes Christianity the state religion
 - 394 - 400: Augustine writes *Confessions*, reflection on scripture vs. classical philosophy, "handmaid"
 - 415: Hypatia killed by Christian mob (What does Hypatia stand for in scientific history?)
+- 421: Dedication of first church on Rialto (Venice), San Giacomo
 - 476: Fall of the Western Roman Empire, Byzantine Empire continues
 - 476: "Middle Ages" / "Dark Ages" / "Medeilval Period" begins
 - 480 - 524: Boethius active, establishes the seven liberal arts
@@ -93,9 +96,11 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 570: Muhammad born, prophet of Islam
 - 610: Muhammad receives first revelation
 - 636: Isidore of Selville dies, "last scholar of the ancient world"
+- 697: First Doge of Venice, Paolo Lucio Anafesto, elected; Republic of Venice established
 - 8th century: Islamic "Golden Age" begins
 - 732: Battle of Tours, Charles Martel defeats Muslim forces
 - 735: "The Venerable Bede" dies, monasterial intellectual tradition
+- 774: Charlemagne conquers Florence
 - 790 - 850: Al-Khwarizmi active -- develops algebra, algorithm
 - 965 - 1040: Ibn al-Haytham (Alhazen) active -- develops optics, scientific method
 - 980 - 1037: Ibn Sina (Avicenna) active -- develops medicine, philosophy
@@ -103,38 +108,53 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1058 - 1111: al-Ghazali active -- develops theology, philosophy
 - 1095: al-Ghazali writes "The Incoherence of the Philosophers.
 - 1096: evidence of teaching at Oxford
-- 1096 - 1291: Crusades between Christians and Muslims over the Holy Land
+- 1096 - 1291: First Crusade initiated by Pope Urban II to capture Jerusalem and the Holy Land from Muslim control
 - 1100 - 1156: Thierry of Chartres active -- develops metaphysics, theology, neo-Platonism
+- 1115: Florentine Republic established
 - 1126 - 1198: Ibn Rushd (Averroes) active -- develops philosophy, science, theology
+- 1147 - 1149: Second Crusade (failure in Anatolia and Syria)
+- 1189 - 1192: Third Crusade (Richard the Lionheart vs. Saladin); failed to retake Jerusalem but secured Christian access
+- 13th century: Venice becomes most properous city in Europe due to trading extensively with the Byzantine Empire and the Middle East
+- 13th century: "fall" of Islamic "Golden Age"
 - 1200 - 1280: Albertus Magnus active -- develops theology, philosophy, science
 - 1201 - 1274: al-Tusi active -- develops mathematics, astronomy, proposes the al-Tusi couple
+- 1202 - 1204: Fourth Crusade (sack of Constantinople), damaged Western vs. Eastern Christian relaions
 - 1206 - 1368: Mongol Empire under Genghis Khan and successors; largest contiguous land empire
 - 1210: Grosseteste becomes a "secular master" at Oxford, develops light metaphysics
 - 1214 - 1292: Roger Bacon active -- develops optics, scientific method
-- 13th century: "fall" of Islamic "Golden Age"
+- 1217 - 1221: Fifth Crusade (failed to capture Egypt)
 - 1225 - 1274: Thomas Aquinas active -- develops theology, philosophy, science
+- 1228 - 1229: Sixth Crusade (Frederick II captures Jerusalem peacefully via negotiation)
 - 1240 - 1284: Siger of Brabant, proponent of Averroism, professor at Paris
+- 1248 - 1254: Seventh Crusade (Louis IX of France captured in Egypt)
 - 1259: Maragheh observatory established
 - 1270: Bishop condemns 13 propositions of Aristotle in Paris
+- 1270: Eighth Crusade (Louis IX of France dies in Tunisia of disease)
+- 1271 - 1272: Ninth Crusade (Edward I of England fails to capture Acre)
 - 1277: Condemnations of 1277, rejection of Aristotelianism in Paris universities
 - 1287 - 1347: William of Ockham active -- develops nominalism, theology, philosophy
+- 1299: Ottoman Empire established in Anatolia
 - 1300: end of the "High Middle Ages", start of the "Late Middle Ages"
 - 1301 - 1358: Jean Buridan active -- develops physics, impetus theory (solution to projectile motion)
 - 1323: Aquinas becomes a saint, defends the Christianization of Aristotle
 - 1323 - 1382: Nicole Oresme active, develops physics (e.g. mean speed theorem)
-- 1347 - 1351: Black Death in Europe
+- 1326: Ottomans capture Bursa, cutting off Byzantine Empire from Anatolia / Asia Minor
+- 1346 - 1351: Black Death in Europe
 - 14th century: Oxford Calculators (Merton College, Oxford) take a mathematical rather than causal approach to physics
 - 1420: Ulugh Beg establishes Samarkand observatory, in modern Uzbekistan
 - 1492: Christopher Columbus reaches the Americas
-- 1453: Fall of Constantinople to the Ottoman Empire, end of the Byzantine Empire
+- 1453: Fall of Constantinople to the Ottoman Empire to Sultan Mehmed II the Conquerer, end of the Byzantine Empire
 - 1473 - 1543: Nicolaus Copernicus active -- develops heliocentrism
 - 1493 - 1541: Paracelsus active -- develops medicine, alchemy, proposes "wandering around" as a method, likes Aristotle but opposes the institutionalization of his thought
+- 1498: Girolamo Savonarola executed in Florence for heresy -- accuses the Pope of corruption, lambasts attachment to material riches
 - 1499 - 1557: Niccolo Tartaglia active -- improves upon the Aristoteilan explanation for projectile motion, combination of violent and natural motion
 - 1500: start of the "Early Modern Period"
 - 1510: Copernicus writes *Commentariolus*, suggesting heliocentrism
+- 1513: Niccolo Machiavelli writes *The Prince*
 - 1517: Martin Luther nails 95 Theses to church door, beginning of Protestant Reformation, scorns Copernicus
 - 1519 - 1521: Hernan Cortes conquers Aztec Empire
 - 1526: Mughal Empire established in India
+- 1531: Florence becomes a monarchy
 - 1535 - 1615: Giambattista della Porta active -- develops "natural magic"
 - 1543: *On the Revolutions of the Heavenly Spheres* by Copernicus published
 - 1543: supposed start of the "Scientific Revolution"
@@ -142,6 +162,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1556: Agricola writes *De Re Metallica*, mining and metallurgy
 - 1561 - 1626: Francis Bacon active -- develops empiricism, inductive reasoning, experimental method
 - Late 16th century: Elizabethan government grants patents for inventions
+- 1629 - 1631: Italian plague; kills 1/3 of Venice's citizens
 - 1642 - 1651: English Civil War, execution of Charles I and rule of Oliver Cromwell
 - 1643 - 1727: Isaac Newton active -- develops calculus, physics, optics, gravity
 - 1660: Royal Society of London founded
@@ -150,9 +171,14 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1789: French Revolution begins, Declaration of the Rights of Man
 - 1791: Catherine the Great establishes the Pale of Settlement in Russia
 - 1791: Enslaved Haitians revolt against French rule
+- 1792 - 1797: War of the First Coalition (France vs. UK, Austria, Prussia, etc.)
 - 1794: French National Convention abolishes slavery in all French territories
+- 1797: Republic of Venice loses independence to Napolean Bonparte
+- 1798: Austrians take control of Venice by agreement
 - 1804: Haiti becomes independent from France; massacre of French colonists
+- 1805: Venice taken back again from Austria by Napolean
 - 1812: War of 1812 (US vs. UK)
+- 1814: Venice returned to Austria following Napolean's defeat
 - 1825: France forces Haiti to pay crippling reparations for independence
 - 1830: France invades and colonizes Algeria
 - 1833: Abolition of slavery in British colonies
@@ -162,6 +188,8 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1857 - 1858: Indian Rebellion (Sepoy Mutiny) against British rule
 - 1858: Ottoman land reform enabling private land sales
 - 1861 - 1865: American Civil War
+- 1865: Florence becomes the capital of Italy
+- 1866: Third Italian War of Independence between Kingdom of Italy and Austrian Empire
 - 1869: Ottoman citizenship law allows non-Muslims to become citizens
 - 1871: Mokrani revolt in Algeria against French rule by Algerian Berbers an Arabs
 - 1872: Jerusalem designated as an independent Ottoman district
