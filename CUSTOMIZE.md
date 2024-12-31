@@ -154,6 +154,22 @@ You can add a newsletter subscription form by adding the specified information a
 
 Depending on your specified footer behavior, the sign up form either will appear at the bottom of the `About` page and at the bottom of blogposts if `related_posts` are enabled, or in the footer at the bottom of each page.
 
+## Removing content
+
+Since this template have a lot of content, you may want to delete some of it. Here is a list of the main components that you may want to delete, and how to do it:
+
+### Removing the blog page
+
+To remove the blog, you can delete the [\_posts](_posts/) directory, remove the blog page [\_pages/blog.md](_pages/blog.md), and also the reference to it in our [\_pages/dropdown.md](_pages/dropdown.md). You can also remove the blog section in the [\_config.yml](_config.yml) file and the related parts, like the `jekyll-archives` and `latest_posts`.
+
+### Removing the projects page
+
+To remove the projects, you can delete the [\_projects](_projects/) directory, remove the projects page [\_pages/projects.md](_pages/projects.md), and also the projects part in the `Collections` section in the [\_config.yml](_config.yml) file.
+
+### Removing the news section
+
+To remove the news section, you can delete the [\_news](_news/) directory, remove the file [\_includes/news.liquid](_includes/news.liquid) and the references to it in the [\_pages/about.md](_pages/about.md), and also the news part in the `Collections` section in the [\_config.yml](_config.yml) file.
+
 ## Adding Token for Lighthouse Badger
 
 To add secrets for [lighthouse-badger](https://github.com/alshedivat/al-folio/actions/workflows/lighthouse-badger.yml), create a [personal access token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token) and add it as a [secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-encrypted-secrets-for-a-repository) named `LIGHTHOUSE_BADGER_TOKEN` to your repository. The [lighthouse-badger documentation](https://github.com/MyActionWay/lighthouse-badger-workflows#lighthouse-badger-easyyml) specifies using an environment variable, but using it as a secret is more secure and appropriate for a PAT.
