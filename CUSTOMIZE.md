@@ -156,19 +156,74 @@ Depending on your specified footer behavior, the sign up form either will appear
 
 ## Removing content
 
-Since this template have a lot of content, you may want to delete some of it. Here is a list of the main components that you may want to delete, and how to do it:
+Since this template have a lot of content, you may want to delete some of it. Here is a list of the main components that you may want to delete, and how to do it.
 
 ### Removing the blog page
 
-To remove the blog, you can delete the [\_posts](_posts/) directory, remove the blog page [\_pages/blog.md](_pages/blog.md), and also the reference to it in our [\_pages/dropdown.md](_pages/dropdown.md). You can also remove the blog section in the [\_config.yml](_config.yml) file and the related parts, like the `jekyll-archives` and `latest_posts`.
+To remove the blog, you have to:
 
-### Removing the projects page
+- delete [\_posts](_posts/) directory
+- delete blog page [\_pages/blog.md](_pages/blog.md)
+- remove reference to blog page in our [\_pages/dropdown.md](_pages/dropdown.md)
+- remove the `Blog` section in the [\_config.yml](_config.yml) file and the related parts, like the `jekyll-archives` and `latest_posts`
 
-To remove the projects, you can delete the [\_projects](_projects/) directory, remove the projects page [\_pages/projects.md](_pages/projects.md), and also the projects part in the `Collections` section in the [\_config.yml](_config.yml) file.
+You can also:
+
+- delete [\_includes/latest_posts.liquid](_includes/latest_posts.liquid)
+- delete [\_includes/related_posts.liquid](_includes/related_posts.liquid)
+- delete [\_layouts/archive-category.liquid](_layouts/archive-category.liquid)
+- delete [\_layouts/archive-tag.liquid](_layouts/archive-tag.liquid)
+- delete [\_layouts/archive-year.liquid](_layouts/archive-year.liquid)
+- delete [\_plugins/external-posts.rb](_plugins/external-posts.rb)
+- remove the `jekyll-archives` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml)
+- remove the `classifier-reborn` gem from the [Gemfile](Gemfile)
 
 ### Removing the news section
 
-To remove the news section, you can delete the [\_news](_news/) directory, remove the file [\_includes/news.liquid](_includes/news.liquid) and the references to it in the [\_pages/about.md](_pages/about.md), and also the news part in the `Collections` section in the [\_config.yml](_config.yml) file.
+To remove the news section, you can:
+
+- delete the [\_news](_news/) directory
+- delete the file [\_includes/news.liquid](_includes/news.liquid) and the references to it in the [\_pages/about.md](_pages/about.md)
+- remove the news part in the `Collections` section in the [\_config.yml](_config.yml) file
+
+### Removing the projects page
+
+To remove the projects, you can:
+
+- delete the [\_projects](_projects/) directory
+- delete the projects page [\_pages/projects.md](_pages/projects.md)
+- remove projects part in the `Collections` section in the [\_config.yml](_config.yml) file
+
+You can also:
+
+- delete [\_includes/projects_horizontal.liquid](_includes/projects_horizontal.liquid)
+- delete [\_includes/projects.liquid](_includes/projects.liquid)
+
+### Removing the publications page
+
+To remove the publications, you can:
+
+- delete the [\_bibliography](_bibliography/) directory
+- delete the publications page [\_pages/publications.md](_pages/publications.md)
+- remove `Jekyll Scholar` section in the [\_config.yml](_config.yml) file
+
+You can also:
+
+- delete the [\_layouts/bib.liquid](_layouts/bib.liquid) file
+- delete [\_includes/bib_search.liquid](_includes/bib_search.liquid)
+- delete [\_includes/citation.liquid](_includes/citation.liquid)
+- delete [\_includes/selected_papers.liquid](_includes/selected_papers.liquid)
+- delete [\_plugins/google-scholar-citations.rb](_plugins/google-scholar-citations.rb)
+- delete [\_plugins/hide-custom-bibtex.rb](_plugins/hide-custom-bibtex.rb)
+- delete [\_plugins/inspirehep-citations.rb](_plugins/inspirehep-citations.rb)
+- remove the `jekyll-scholar` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml)
+
+### Removing the repositories page
+
+To remove the repositories, you can:
+
+- delete the repositories page [\_pages/repositories.md](_pages/repositories.md)
+- delete [\_includes/repository/](_includes/repository/) directory
 
 ## Adding Token for Lighthouse Badger
 
