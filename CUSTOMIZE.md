@@ -156,7 +156,7 @@ Depending on your specified footer behavior, the sign up form either will appear
 
 ## Removing content
 
-Since this template have a lot of content, you may want to delete some of it. Here is a list of the main components that you may want to delete, and how to do it.
+Since this template have a lot of content, you may want to delete some of it. Here is a list of the main components that you may want to delete, and how to do it. Don't forget if you delete a page, to update the `nav_order` of the remaining pages.
 
 ### Removing the blog page
 
@@ -184,6 +184,7 @@ To remove the news section, you can:
 
 - delete the [\_news](_news/) directory
 - delete the file [\_includes/news.liquid](_includes/news.liquid) and the references to it in the [\_pages/about.md](_pages/about.md)
+- remove the `announcements` part in [\_config.yml](_config.yml)
 - remove the news part in the `Collections` section in the [\_config.yml](_config.yml) file
 
 ### Removing the projects page
@@ -192,6 +193,7 @@ To remove the projects, you can:
 
 - delete the [\_projects](_projects/) directory
 - delete the projects page [\_pages/projects.md](_pages/projects.md)
+- remove reference to projects page in our [\_pages/dropdown.md](_pages/dropdown.md)
 - remove projects part in the `Collections` section in the [\_config.yml](_config.yml) file
 
 You can also:
@@ -205,6 +207,7 @@ To remove the publications, you can:
 
 - delete the [\_bibliography](_bibliography/) directory
 - delete the publications page [\_pages/publications.md](_pages/publications.md)
+- remove reference to publications page in our [\_pages/dropdown.md](_pages/dropdown.md)
 - remove `Jekyll Scholar` section in the [\_config.yml](_config.yml) file
 
 You can also:
