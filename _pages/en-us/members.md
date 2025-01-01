@@ -40,6 +40,7 @@ members:
 
 ## Research Students
 
+- LÎM Tîng-iông, Master student, National Dong Hwa University
 - Lan Thuong Nguyen, PhD student, National Chengchi University
 - Li-Fang Wang, Master student, National Cheng Kung University
 - Hung-Yen Wu, undergraduate student, National Yang Ming Chiao Tung University
