@@ -32,6 +32,9 @@ layout: default
             cache_bust=true
           %}
         {% endif %}
+        {% if page.profile.image_credit %}
+          <div class="image-credit">{{ page.profile.image_credit }}</div>
+        {% endif %}
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}

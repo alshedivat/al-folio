@@ -38,3 +38,13 @@
     border-left: 1px solid $grey-900;
   }
 }
+
+.profile {
+  .image-credit {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+    font-size: 0.8rem;
+    opacity: 0.8;
+  }
+}
