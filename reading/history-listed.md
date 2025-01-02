@@ -28,7 +28,8 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1046 BCE - 256 BCE: Zhou Dynasty in China
 - 800 BCE - 400 BCE: Development of Upanishads in India and key Hindu texts
 - 770 BCE - 476 BCE: Spring and Autumn Period in China
-- 753 BCE: Rome founded by Romulus and Remus
+- 753 BCE: Rome founded by Romulus and Remus, twin brothers of Mars
+- 717 BCE: Numa Pompilius becomes second king of Rome, introduces the Roman lunar calendar
 - 700 BCE: Hesiod, *Works and Days* and *Theogony*
 - 624 BCE - 546 BCE: Thales of Miletus active, "first scientist" -- searches for an "arche", or natural explanation for natural phenomena
 - 624 BCE - 428 BCE: Ionian philosophers active (Anaximander, Anaximenes, Heraclitus, etc.) -- propose different arche (water, apeiron, air, fire, bundle, etc.)
@@ -40,6 +41,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 500 BCE: defeat of the king of Rome, oligarchy senate (Roman Republic) established
 - 500 BCE - 428 BCE: Anaxagoras active -- proposes "nous" as the arche
 - 499 BCE - 493 BCE: Ionian Revolt against Persia, crushed
+- 494 BCE: First Secession of the Plebs in Rome, plebeians demand political representation
 - 492 BCE - 449 BCE: Persian Wars; Athens and Sparta defeat Persia
 - 484 BCE - 424 BCE: Empedocles active -- proposes four elements
 - 480 BCE - 420 BCE: Leucippus active -- proposes atomism
@@ -48,11 +50,16 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 470 BCE - 399 BCE: Socrates active -- develops dialectic
 - 460 BCE - 370 BCE: Democritus active -- develops atomism
 - 460 BCE - 370 BCE: Hippocrates active -- develops medicine, humor theory
+- 451 - 450 BCE: The Twelve Tables, Roman law code
 - 431 BCE - 404 BCE: Peloponnesian War between Athens and Sparta over hegemony of Greece; results in Athenian defeat
 - 427 BCE - 347 BCE: Plato active -- develops idealism
 - 4th century BCE: rise of Asclepian healing temples
 - 384 BCE - 322 BCE: Aristotle active -- develops "empiricism"
+- 380 BCE: Plato writes *The Republic*
+- 367 BCE: Lician-Sextian reforms, allowing plebeians to become consuls
+- 343 BCE - 290 BCE: Latin and Samnite wars (central Italy)
 - 341 BCE - 270 BCE: Epicurus active -- develops atomism, hedonism
+- 340 BCE: Aristotle writes the *Nicomachean Ethics*
 - 338 BCE: Philip II of Macedon defeats Greece at Chaeronea
 - 325 BCE - 265 BCE: Euclid active -- develops geometry
 - 323 BCE: Alexander the Great dies
@@ -60,28 +67,52 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 300 BCE: Euclid publishes *Elements of Geometry*
 - 3rd century BCE: Archimedes writes *The Sand Reckoner*
 - 287 BCE - 212 BCE: Archimedes active -- develops mathematics, physics
+- 287 BCE: Lex Hortensia, gives decisions of the plebeian council the force of law
 - 264 BCE - 146 BCE: Punic Wars between Rome and Carthage
 - 221 BCE: Qin Dynasty unifies China, starts the Great Wall
 - 212 BCE: Rome conquers Syracuse
 - 212 BCE: Archimedes killed by Roman soldier in siege of Syracuse
 - 168 BCE: Roman conquest of Greece
+- 133 BCE - 121 CE: Gracchi Reforms, Tiberius and Gaius attempt law reforms
+- 107 BCE - 78 BCE: Marius and Sulla reform the army and politicla system
 - 100 BCE - 44 BCE: Julius Caesar active -- conquers Gaul, civil war, dictator
 - 99 BCE - 55 BCE: Lucretius active, revives Epicureanism with political dimensions
 - 59 BCE: Florence established by Romans as a colony for veteran soldiers
+- 59 BCE - 44 BCE: Rise of Julius Caesar
+- 58 - 50 BCE: Caesar conquers Gaul (modern France)
 - 50s BCE: Lucretius writes *On the Nature of Things*
+- 49 BCE: Caesar crosses the Rubicon, civil war begins
 - 47 BCE: Vitruvius writes *On Architecture*
 - 44 BCE: Julius Caesar assassinated
-- 30 BCE: Rome conquers Egypt
+- 43 BCE: Second Triumvirate formed by Octavian, Antony, Lepidus
+- 31 BCE: Battle of Actium, Octavian defeats Antony and Cleopatra
 - 27 BCE: Roman Empire established, Augustus (Octavian) becomes first emperor
+- 14 BCE: Tiberius becomes emperor of Roman Empire
 - 1 BCE - 65: Seneca active -- develops Stoicism
 - 0: Jesus of Nazareth born
 - 23 - 79: Pliny the Elder active -- writes *Natural History*, "cut and paste"
+- 37 - 41: Caligula becomes emperor of Roman Empire
+- 41 - 54: Claudius becomes emperor of Roman Empire
+- 43: Roman conquest of Britain
+- 54: Claudius is poisoned by Agrippina the Younger to ensure Nero's succession
+- 54 - 68: Nero becomes emperor of Roman Empire
 - 61 - 112: Pliny the Younger active -- writes letters, civil historian
+- 64: Great Fire of Rome
+- 68: Nero overthrown, commits suicide and declared enemy of the state
+- 68 - 69: Year of the Four Emporers, civil war between Galba, Otho, Vitellius, and Vespasian
+- 69 - 79: Vespasian becomes emporer of the Roman Empire, begins construction of the Colosseum
 - 70: Romans expel Jews from Judea, creating Jewish diaspora
+- 79: Eruption of Mount Vesuvius
+- 80: Fire in Rome
+- 81 - 96: Domitian becomes emporer of Roman Empire
+- 98 - 117: Trajan becomes emporer of Roman Empire, expands Empire to its greatest territorial extent
 - 100 - 170: Claudius Ptolemy active -- develops astronomy
+- 117: Hadrian becomes emporer of Roman Empire
 - 129 - 216: Galen active -- develops medicine, anatomy
 - 150: Ptolemy publishes *Almagest* ("The Greatest")
 - 155 - 220: Tertullian active -- "What has Athens to teach Jerusalem?"
+- 161 - 180: Marcus Aurelius becomes emporer of Roman Empire
+- 170: Marcus Aurelius writes *Meditations*
 - 313: Edict of Milan legalizes Christianity
 - 324: Constantinople founded on Byzantium
 - 330: Constantine moves capital of Roman Empire to Constantinople from Rome
@@ -136,6 +167,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1240 - 1284: Siger of Brabant, proponent of Averroism, professor at Paris
 - 1248 - 1254: Seventh Crusade (Louis IX of France captured in Egypt)
 - 1259: Maragheh observatory established
+- 1265 - 1274: Thomas Aquinas writes *Summa Theologica*
 - 1270: Bishop condemns 13 propositions of Aristotle in Paris
 - 1270: Eighth Crusade (Louis IX of France dies in Tunisia of disease)
 - 1271 - 1272: Ninth Crusade (Edward I of England fails to capture Acre)
@@ -168,6 +200,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1526: Mughal Empire established in India
 - 1527: Sack of Rome by Charles V
 - 1531: Florence becomes a monarchy
+- 1532: Niccolo Machiavelli writes *The Prince*
 - 1535 - 1615: Giambattista della Porta active -- develops "natural magic"
 - 1543: *On the Revolutions of the Heavenly Spheres* by Copernicus published
 - 1543: supposed start of the "Scientific Revolution"
@@ -177,12 +210,17 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1561 - 1626: Francis Bacon active -- develops empiricism, inductive reasoning, experimental method
 - Late 16th century: Elizabethan government grants patents for inventions
 - 1629 - 1631: Italian plague; kills 1/3 of Venice's citizens
+- 1641: Rene Descartes writes *Meditations on First Philosophy*
 - 1642 - 1651: English Civil War, execution of Charles I and rule of Oliver Cromwell
 - 1643 - 1727: Isaac Newton active -- develops calculus, physics, optics, gravity
+- 1651: Thomas Hobbes writes *Leviathan*
 - 1660: Royal Society of London founded
+- 1677: Baruch Spinoza's *Ethics* published
 - 1687: *Philosophiæ Naturalis Principia Mathematica* by Newton published
 - 1713: Treaty of Utrecht transfers Italian territories to Austrian Hapsburgs
+- 1762: Jean-Jacques Rousseau writes *The Social Contract*
 - 1775 - 1783: American Revolutionary War
+- 1781: Immanuel Kant writes *Critique of Pure Reason*
 - 1789: French Revolution begins, Declaration of the Rights of Man
 - 1791: Catherine the Great establishes the Pale of Settlement in Russia
 - 1791: Enslaved Haitians revolt against French rule
@@ -195,16 +233,20 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1804: Haiti becomes independent from France; massacre of French colonists
 - 1805: Venice taken back again from Austria by Napolean
 - 1805 - 1814: Kingdom of Italy
+- 1807: Georg Wilhelm Friedrich Hegel writes *Phenomenology of Spirit*
 - 1812: War of 1812 (US vs. UK)
 - 1814: Venice returned to Austria following Napolean's defeat
 - 1815: Congress of Vienna reinforces fragmented Italian states
+- 1818: Arthur Schopenhauer writes *The World as Will and Representation*
 - 1825: France forces Haiti to pay crippling reparations for independence
 - 1830: France invades and colonizes Algeria
 - 1831 - 1861: Resurgence movement aims to unify Italy under a single state
 - 1833: Abolition of slavery in British colonies
 - 1839: beginning of Tanzimat reforms in the Ottoman Empire
+- 1843: Soren Kierkegaard writes *Fear and Trembling*
 - 1846 - 1848: Mexican-American War (US annexes Texas, California, etc.)
 - 1848 - 1849: Revlutions across Italy push for unification and liberal reforms
+- 1848: Karl Marx and Friedrich Engels write *The Communist Manifesto*
 - 1856: Imperial Reform Decree in the Ottoman Empire
 - 1857 - 1858: Indian Rebellion (Sepoy Mutiny) against British rule
 - 1858: Ottoman land reform enabling private land sales
@@ -220,7 +262,10 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1880s: porgroms in Russia lead to Jewish emigration to the US and Palestine
 - 1882 - 1903: First Aliyah to Palestine from Eastern Europe and Yemen motivated by Zionism and persecution
 - 1882: Italy joins the Triple Alliance with Germany and Austria-Hungary
+- 1883: Friedrich  Nietzsche writes *Thus Spoke Zarathustra*
 - 1884 - 1885: The Scramble for Africa, Europeans divide Africa at Berlin Conference
+- 1886: Friedrich Nietzsche writes *Beyond Good and Evil*
+- 1890: Eritrea becomes an Italian colony
 - 1896: Italy suffers a humiliating defeat in Ethiopia trying to colonize it
 - 1898: Spanish-American War (US annexes Philippines, Guam, Puerto Rico)
 - 1899: Philippine-American War
@@ -230,6 +275,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1904 - 1905: Russo-Japanese War, Japan emerges as colonial power
 - 1905: Partition of Bengal by British
 - 1907: Peak of Second Boer War, British consolidate control over South Africa
+- 1910: Bertrand Russell and Alfred North Whitehead write *Principia Mathematica*
 - 1910: Japan annexes Korea
 - 1911: Chinese Revolution overthrows Qing Dynasty
 - 1914 - 1918: World War I
@@ -255,13 +301,14 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1923: Ottoman Sultanate abolished, Turkey becomes a republic
 - 1923: Palestine mandate comes into effect
 - 1924 - 1929: Fourth Aliyah to Palestine, middle-class Jews from Poland and Hungary
+- 1927: Martin Heidegger writes *Being and Time*
 - 1929: Wall Street Crash, beginning of the Great Depression
 - 1929 - 1939: Fifth Aliyah, Jews escaping anti-Semitism in Europe and Nazis in Germany
 - 1929: Western Wall / Al-Buraq riots; Shaw commission investigates
 - 1929: Lateran Treaty establishes Vatican City
 - 1930: Gandhi leads the Salt March
 - 1931: Statute of Westminster grants autonomy to British dominions (Canada, Australia, South Africa)
-- 1933: Hitelr becomes Chancellor of Germany
+- 1933: Hitler becomes Chancellor of Germany
 - 1934 - 1948: Aliyah Bet, illegal Jewish immigration to Palestine
 - 1935: Izz al-Din al-Qassam is killed by British forces, becomes a symbol of Palestinian resistance (even until today)
 - 1935: Italian invasion of Ethiopia under Mussolini
@@ -274,6 +321,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1941: Amin al-Husseini, Grand Mufti of Jerusalem, meets with Adolf Hitler in Berlin
 - 1942: Biltmore Conference in New York calls for a Jewish state in Palestine
 - 1943: Mussolini deposed, Italy surreners to Allies
+- 1943: Jean-Paul Sartre writes *Being and Nothingness*
 - 1944: Assassination of Lord Moyne by the Stern Gang, extremist Zionist group
 - 1944: Rome is liberated by Allied forces during WWII
 - 1945: End of World War II, establishment of the United Nations, beginning of the Cold War
@@ -283,16 +331,19 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1947: Exodus steamship carrying Jewish refugees is returned to Germany
 - 1947: UN General Assembly Resolution 181 proposes partition of Palestine
 - 1947: Partition of India, creation of Pakistan
+- 1947: Theodor Adorno and Max Horkheimer write *Dialectic of Enlightenment*
 - 1948: Deir Yassin massacre by Irgun and Lehi, Jewish paramilitary groups
 - 1948: Apartheid established in South Africa
 - 1948: Israel declares independence on May 14
 - 1948: British Mandate ends; Arab-Israeli War begins May 15
 - 1949: Indonesian independence recognized by Netherlands after armed struggle
+- 1949: Simone de Beauvoir writes *The Second Sex*
 - 1949: Armistic agreements signed, forming Green Line
 - 1950 - 1953: Korean War
 - 1950: Israel passes Absentee Property Law which allows confiscation of Palestinian property, and Preventing Infiltration Law which allows expulsion of Palestinians, denies right of return to Palestinians expelled during the 1948 war
 - 1951: King Abdullah of Jordan is assassinated at Al-Aqsa Mosque for perceived collaboration with Israelis
 - 1952: Mau Mau Urprising in Kenya against British rule
+- 1952: Eritrea federated with Ethopia under UN resolution
 - 1953: Qibya Massacre by Israeli forces
 - 1954: First Indochina War ends, Vietnam divided at 17th parallel
 - 1954 - 1962: Algerian War of Independence against France
@@ -302,7 +353,9 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1958: Coup in Iraq overthrows King Faisal II
 - 1960: Rome hosts the Summer Olympics
 - 1961: Bay of Pigs invasion of Cuba by US
+- 1961: Eritrean War of Independence begins
 - 1962: Cuban Missile Crisis, peak of US-Soviet tensions
+- 1962: Ethiopia annexes Eritrea
 - 1962: Evian accords grant Algerian independence from France
 - 1964 - 1973: US involvement in the Vietnam War
 - 1964: Founding of the Palestine Liberation Organization (PLO) in East Jerusalem (Jordan)
@@ -317,6 +370,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1966: Botswana and Lesotho gain independence
 - 1966: South African border war begins
 - 1967: Six-Day War, Israel occupies West Bank, Gaza, Sinai, Golan Heights
+- 1967: Jacques Derrida writes *Of Grammatology*
 - 1967: UN Resolution 242 calls for "land for peace"
 - 1967: Summer of Love in San Francisco
 - 1967: Che Guevara captured and executed
@@ -362,7 +416,10 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1973: Roe v. Wade, Supreme Court legalizes abortion
 - 1973: US ends draft for Vietnam War
 - 1973: Pinochet overthrows Allende with U.S. support, establishing military dictatorship in Chile
+- 1975: Michel Foucault writes *Discipline and Punish*
 - 1979: Camp David Accords, Israel withdraws from Sinai and establishes peace with Egypt
+- 1980: Gilles Deleuze and Felix Guattari write *A Thousand Plateaus*
+- 1980: Saul Kripke writes *Naming and Necessity*
 - 1982: First Lebanon War; Israel invades Lebanont to expel PLO
 - 1982: Sabra and Shatila Massacres under Israeli watch and support
 - 1983: Invasion of Grenada by US
@@ -371,10 +428,13 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1989: Invasion of Panama by US
 - 1990 - 1991: Gulf War
 - 1991 - 2002: Algerian Civil War, over 150k killed
+- 1991: The Eritrean Liberation Front defeats Ethiopia, Eritrea becomes independent
 - 1993: Oslo I Accord signed, establishing mutual recognition
+- 1993: Eritrea votes for independence in UN supervised referendum and becomes fully sovereign state
 - 1994: Massacre at Al-Aqsa Mosque by Jewish extremist
 - 1995: Oslo II Accord signed, establishing Palestinian Authority and limited self-rule
 - 1995: Assassination of Yitzhak Rabin by Jewish extremist
+- 1998 - 2000: Border dispute leads Eritrea to war with Ethopia
 - 2000: Camp David talks collapse
 - 2000: Second Intifada begins after Ariel Sharon visits Temple Mount
 - 2001: 9/11 attacks
@@ -387,6 +447,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 2011: Arab Spring uprisings throughout the Middle East
 - 2014: Third Gaza War becomes most deadly conflict in Gaza
 - 2018: Great March of Return protests in Gaza
+- 2018: Eritrea and Ethiopia sign peace agreement
 - 2018: the "Nation State Law" / "Basic Law" is passed by Israel
 - 2020: Israel establishes normalization agreements with Bahrain, UAE, Morocco
 - 2021: Fourth Gaza War
