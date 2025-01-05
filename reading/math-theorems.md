@@ -52,3 +52,17 @@ There may be mistakes or simplifications in the following.
 - **A complication for proving $$P ?= NP$$.** There exists an oracle $$A$$ such that $$P^A = NP^A$$, and an oracle $$B$$ such that $$P^B \neq NP^B$$. Therefore any proof on $$P ?= NP$$ may not work in relativized worlds where access to both is permitted, whereas other familiar proofs to relativize.
 - **The blind man.** A blind man is trying to buy a red rag and a blue rag. But he is not sure if the salesman is trying to trick him or not. The salesman could, for instance, give him two red rags or two blue rags. The blind man shuffles rags behind his back, but keeps track of the identities of each (so at first he doesn't know the true colors, but he knows which rag is which). He randomly pulls out a rag and asks the salesman what color it is. Then, he puts it behind his back and shuffles again, repeating this several times. If the salesman gives two conflicting answers for the same rag (e.g., calling it red one time and blue another time), then the blind man knows that he is lying. If, on the other hand, the salesman consistently calls one rag blue and the other rag red, then the blind man is sure that he indeed has one blue and one red rag. The moral of this story is that even a "handicapped" verifier can compute powerful functions with randomness and interaction.
 - **A double-ended tight bound:** $$\frac{1}{3} \le \frac{a^2 + b^2 + c^2}{(a + b + c)^2} \le \frac{1}{2}$$
+
+
+
+*Starting from the empty set, perform a few operations, like forming the set of all subsets. Before long you have a magnifi cent structure in which you can embed the real numbers, complex numbers, quaterions, Hilbert spaces, infi nite-dimensional differentiable manifolds, and anything else you like." -- Reuben Harsh
+
+
+"Transfinites and infinitesimals are two types of infinite number, which characterize degrees of infinity in different fashions. In effect, this means that contemporary mathematics has “two distinct rigorous formulations of the calculus”: that of Weierstrass and Cantor, who eliminated infinitesimals, and that of Robinson, who rehabilitated and legitimized them. Both these endeavors, however, had their genesis in the imposition of the notion of infinitesimals as a problematic concept, which in turn gave rise to differing but related axiomatizations. Deleuze’s claim is that the ontology of mathematics is poorly understood if it does not take into account the specificity of problematics."
+-- Daniel Smith
+
+"Hilbert and de Broglie were as much politicians as scientists: they reestablished order."
+-- Deleuze and Guattari, *A Thousand Plateaus*
+
+"...the axiomatic method is nothing but the ‘Taylor System’ — the ‘scientific management’ — of mathematics”
+-- Nicholas Bourbaki
