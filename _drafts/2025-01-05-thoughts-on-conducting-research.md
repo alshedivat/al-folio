@@ -20,79 +20,97 @@ toc:
   - name: So, that's it?
 ---
 
-In my job and academic study, I've read a lot of research papers in Computer Science field. There are many advices on how to get started on reading a paper, and I believe I can do it really well throughout years of working. But I have no clearly thought of how to conduct the research from scratch.
+In my work and academic studies, I've read numerous research papers in the field of Computer Science. There are plenty advices on how to get started with reading a paper, and I believe I can do it really well over years. However, I have never given much thought to how to conduct research from scratch.
 
-Last Sunday, I found the book _`Doing Research: A New Researcher's Guide`_ <d-cite key="Hiebert_2023"></d-cite> and spent days on reading the guide and advice from the authors. Although the examples in the book are not family with me since they all are in Education domain, but the basic principles about research are quite logical and easy to understand. So I write this articles to note to myself, for my future journey.
+Last Sunday, I found the book _`Doing Research: A New Researcher's Guide`_ <d-cite key="Hiebert_2023"></d-cite> and spent days on reading the authors' guidance and advice. Although the examples in the book are unfamiliar with me since they are all within the domain of Education, the basic principles about research are logical and easy to understand. So I decided to write this article to document these insights for my future journey.
 
-One of the principles of conducting research is **continuously asking questions**, so it is a good idea to structure this articles in a series of 5 questions. Let's get started.
+One key principle of conducting research is **continuously asking questions**, so it is a good idea to structure this article around a series of numerous questions. Let's get started.
 
 ---
 
 ## What is research?
 
-If you're reading this articles, I guess you should sometimes be asked to "research" a topic in the school, university or even at your work, and we could all agree that we don't need to known clearly what the research is to complete the tasks. The asking of research should be, for examples, Conducting interviews to understand community behavior, Benchmarking the performance of a database system to find the best specs for the upcomming launching plan, etc. But in this article, I only focus on the term "research" in the scientific world, and more pointedly, it's `scientific inquiry`.
+If you're reading this article, I assume that you've sometimes been asked to "research" a topic whether in the school, university or even at work. We can probably agree that we don't need to understand clearly what the research is to complete the tasks. The asking of research should be, for instance, Conducting interviews to understand community behavior, Benchmarking the performance of a database system to determine the best specifications for an upcomming launch plan, etc. However, in this article, I only focus on the concept of "research" in the scientific world, and more precisely, on the concept of `scientific inquiry`.
 
 > Scientific inquiry is a process, a particular way of finding out about something that involves a number of phases, that
 > are formulating, testing, and revising hypotheses about phenomena of interest.
 
-**From now on, I prefer to use the term "research" for short**. There are some aspects to guide a research on to the right direction.
+**From now on, I'll to use the term "research" or "study" for simplicity**. There are several key aspects that guide research in the right direction.
 
-- The research is based on interacting with the real world, so it must be testable. At the begining of research, we need to plan carefully and understand clearly about how to test your idea/topic in our research.
-- While doing research, we study how our idea interact with the real world, and try to explain why it is and the way it is.
-- The result of research is to update everyone’s thinking in response to more and better information. The term “everyone” includes you, the author, as you adjust your thinking based on the best rationale for the outcomes or observations. This is why we can say that **research is an iterative process**.
+- **Testability**: The research is based on interacting with the real world, so it must be testable. At the begining of research, it's essential to plan carefully and have a clear understanding of how to test your idea or topic.
+- **Observe and explain**: During research, we study how our idea interacts with the real world, and try to explain why it is and the way it is.
+- **Iterative Thinking**: The goal of research is to refine and update everyone’s thinking by incorporating new and better information. The term "everyone" includes you, the research author, as you adjust your thinking based on the most logical and well-supported observations or outcomes. **This iterative process is what makes research a continuous cycle of learning and improvement**.
 
 > Scientific inquiry does not let you pick and choose which data to believe; it _mandates_ that everyone update their
 > thinking when the data warrant an update.
 
-Note that the book's authors mentioned about term such as hypotheses, we will go into detail in the next section.
+Note that the book's authors have mentioned term "hypotheses", we will go into detail in the next section.
 
 ## What does the research process look like?
 
-Revising the definition of research from previous section: _"Scientific inquiry is a process, a particular way of finding out about something that involves a number of phases, that are **formulating, testing, and revising hypotheses about phenomena of interest**"_, the highlight parts in this definition are also the phases of conducting research.
+Revisiting the definition of research from the previous section: _"Scientific inquiry is a process, a particular way of finding out about something that involves a number of phases, that are **formulating, testing, and revising hypotheses about phenomena of interest**"_. The highlighted phases in this definition also represent the fundamental steps of conducting research.
 
-Firstly, let's talk about **hypotheses**. The book's authors said _"We define a hypothesis to include both a prediction and a rationale. Both parts act in concert, and they provide different kinds of information."_. The hypotheses are the backbone of your study, is the starting point of your research.
+### Formulating Hypotheses
 
-Generally, you come up with a research when observing a problem situation occur, you make some questions to understand and also make predictions to explain things. The more questions you make and more rationales you try to explain things, the more you understand the problem. After have a clearly thought of that, you come up with hypotheses involves set of predictions and rationales. This process is called **Formulating**. The Fig. 1 show that the hypotheses become more clearer everytime you iteratively make questions, predicts and try to explain things.
+Firstly, let's talk about **hypotheses**. The book's authors state, _"We define a hypothesis to include both a prediction and a rationale. Both parts act in concert, and they provide different kinds of information."_. The hypotheses form the backbone of your study and the starting point of your research.
 
-After getting your hypotheses, you need to think about how to test and measure them in the real world, this's call **"Theoretical Frameworks"**, which is _"your set of custom-designed rationales for your predictions"_, which support and strengthen your predictions and rationales. To be more clear, it is a coherent argument that threads together the individual rationales and explains why your predictions are the best predictions at this time. Some points on your theoretical frameworks:
+Research often begins by observing a problematic situation. You ask questions to understand and also make predictions to explain things. The more questions you ask and rationales you explore, the more you understand the problem. Once your thoughts are clear, you end up with hypotheses involves set of predictions and their supporting rationales. This process is refered to as **Formulating**.
+
+<div class="row mt-3">
+  {% include figure.liquid loading="eager" path="assets/img/post-new-research/Fig01.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+  Hypotheses become clearer as you iteratively refine them through questioning, predicting, and reasoning (image from the book <d-cite key="Hiebert_2023"></d-cite>).
+</div>
+
+### Building Theoretical Frameworks
+
+Once your hypotheses are established, you need to think about how to test and measure them in the real world. This's call **"Theoretical Frameworks"**, described as _"your set of custom-designed rationales for your predictions"_. Theoretical frameworks support and strengthen your hypotheses by providing a coherent argument that connects individual rationales and explains why your predictions are currently the best. Some points on your theoretical frameworks:
 
 - Aligned with your hypotheses.
-- Able to experiment in the real world.
+- Testable in the real world.
 - Includes the selection of variables, mechanisms, and methods that contribute to the findings.
 
-Because of the experiment can be conducted in various contexts/variables and mechanisms, and each choices of these can lead to separate outcomes, you need to carefully plan and a strong rationale on making the choice. As the hypotheses, you need to iteratively strengthen your framework while conducting experiment.
+Since experiments can be conducted in various contexts/variables and mechanisms, and each choices of these can lead to separated outcomes. Therefore, careful planning and strong rationales are essential for making these choices. Just as with hypotheses, your theoretical framework should be iteratively refined as you conduct experiments.
 
-Next, it's time to revise hypotheses of your research. Yes, we do not only iteratively strengthen hypotheses and theoretical frameworks, we need to finetune the overall process. Whenever you get the expermental findings, revise the correctness of your predictions and the strong of your rationales, and finetune them it possible. Don't worry when the findings is not as your expectation, isn't finding something new is the motivation that people conduct the research, right?
+### Revising Hypotheses
 
-The unexpected findings could be due to some reasons. It could be **due to unfortunate choices** or **due to missing variables**. If that happens, you can choose to strengthen your theoretical frameworks, or to wrap it up with **discussion** about the limitation and future improvement, we will detail it later.
+Finally, it's time to revise hypotheses of your research. Research is not a linear process; it involves constant refinement. After conducting experiments and analyzing findings, revisit your hypotheses to evaluate the correctness of your predictions and the strength of your rationales, and finetune them it possible. Don't worry when the findings is not as your expectation — discovering the unexpected is often the most exciting part of research!
 
-Fig 2 Show the all the parts of a research study.
+The unexpected findings could be due to some reasons, **due to unfortunate choices** or **due to missing variables**. When this happens, you can choose to strengthen your theoretical frameworks, or to conclude your study with **discussions** about the limitation and future improvement.
+
+<div class="row mt-3">
+  {% include figure.liquid loading="eager" path="assets/img/post-new-research/Fig02.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+</div>
+<div class="caption">
+   All the steps of a research study (image from the book <d-cite key="Hiebert_2023"></d-cite>).
+</div>
 
 ## How can your research contribute to the community?
 
-We can determine the contribution of a study into 3 vectors: significance (the impact, is there any motivation to answer the study's questions), contributions (how it impact) and implications (what we learn and improve).
+The contribution of a study can be analyzed through three key vectors: significance (the impact and the motivation to address the study's questions), contributions (how the study creates an impact), and implications (what we learn and how it informs or improves future work).
 
 > What makes a study significant is that the theoretical framework and the predictions make clear how the study
 > will increase the field's understanding toward achieving a goal of shared value; contribution lies in the value of its findings for revising the hypotheses, making clear what has been learned, what is now better understood.
 
-As the book's authors mentioned, the significance can be determined when choosing topic and doing hypotheses whereas the contributions are presented after the results. Finally, the implications is added as the conclusions about how the study help improve the community understanding and yield the future study.
+As the book's authors mention, significance is established during the selection of topic and formulation of hypotheses, while contributions are revealed after obtaining the results. Lastly, implications are drawn as conclusions that highlight how the study improves community understanding and guides future research.
 
-So the contributions are not only the results of the research, it also includes the hypotheses and theoretical frameworks, because all the predictions, rationales, data, variables, the mindset and methods to appropriately test the hypotheses in the real world will be studied to conduct the next research.
+So the contributions are not limited to the results of the research. They also includes the hypotheses and theoretical frameworks, because all the predictions, rationales, data, variables, mindset and methods to test the hypotheses appropriately in the real world will be studied to conduct the next research.
 
 ## What should be included at the end of a research paper?
 
-Most people recommend the efficient way to read a paper, for examples, we first read the abstract, then the results, etc.
-So, what is included in the result section? The book's authors recommended to include the **Discussion** section in the end of paper, as this section is where the people find the contribution of the study, and see if that help them on their study. This section involves:
+Most people recommend efficient strategies for reading a research paper, such as starting with the abstract, then the moving to the results.
+But what does the results section include? The book's authors recommended to include the **Discussion** section in the end of paper, as this section is where the readers can identify the contribution of the study and determine whether they are helpful for their own work. This section involves:
 
-- Beginning with a brief summary of the main results, then move to presenting the contributions.
-- Point out the limitations of unfortunate choices or variables or context (if exists).
-- Conclude with the implications of the study for methodological choices that could improve research, and how future studies could overcome the limitations identified above.
+- Starting with a brief summary of the main results, then move to presenting the contributions.
+- Highlighting the limitations of unfortunate choices or variables or context (if applicable).
+- Concluding with the implications of the study for methodological choices that could improve research, and how future studies could overcome the limitations identified above.
 
 ## How does this apply to my scientific research?
 
 ### A simple example
 
-I asked `ChatGPT` to read through my writting and make an example in the Computer Science domain. I don't care about the correctness of the content, but how ChatGPT understand the concept and method on conducting research is quite good. So let's see.
+I asked `ChatGPT` to read through my writting and come up with an example in the field of Computer Science. While I don't focus on the correctness of the content, I find its understanding of the concepts and methods for conducting research quite impressive. Let's take a look.
 
 ---
 
@@ -144,14 +162,14 @@ In the discussion section of the research paper, I:
 
 ### Advices from book's authors
 
-- Write the evolving research paper at the same time you are planning and conducting the study, includes your hypotheses, theoretical frameworks into the paper, and you can improve it during strengthening hypotheses by iteratively questioning and making predictions. It saves time and keep you in the right direction, and ensure all the things are planned carefully and coherance before conducting the test and experiment. In the end of this, you can confirm to yourself that your research is doable.
-- Do not pick and choose which data to believe, keep an open mind and adjust the hypotheses according to the findings.
-- You can always do plot study (study on the smaller data) to speedup your predictions and rationales and make a new iteration earlier.
+- **Write the evolving research paper** at the same time you are planning and conducting the study, includes your hypotheses, theoretical frameworks into the paper, and you can improve it as you refine the hypotheses by iteratively questioning and making predictions. It saves time and keep you in the right direction, and ensure all the things are carefully planned and coherant before conducting the tests and experiments. By the end of this process, you can clearly confirm that your research is feasible.
+- **Keep an open mind**. Do not pick and choose which data to believe, keep an open mind and adjust the hypotheses according to the findings.
+- **Conduct a pilot study** (a smaller-scale study) to accelerate the process of refining your predictions and rationales. This allows you to iterate and improve your research earlier.
 
 > The primary activity that generates more specific and clearer hypotheses is searching and _reviewing literature_. You can return to the literature as often as you need to build your rationales.
 
 ## So, that's it?
 
-Yes, that's it. Note that this section should be titled "Conclusions", but I named it as this to form the series of questions as mentioned in the beginning. Again, conducting research is **continuously asking questions**.
+Yes, that’s it. Note that this section should be titled "Conclusions", but I named it differently to align with the series of questions mentioned at the beginning. Once again, **conducting research is about continuously asking questions**.
 
-Reminding that I am just a beginner in the scientific research. But reading this book and making this note help me a lot on planning to conduct research, determining what I should do and how it should go. To get more detail, reading the original book _`Doing Research: A New Researcher's Guide`_ is highly recommendation.
+I’d like to remind you that I am just a beginner in scientific research. However, reading this book and creating these notes has significantly helped me in planning how to conduct research, identifying what needs to be done, and understanding how the process should progress. For more details, I highly recommend reading the original book, _`Doing Research: A New Researcher's Guide`_ <d-cite key="Hiebert_2023"></d-cite>.
