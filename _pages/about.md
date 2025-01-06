@@ -6,8 +6,8 @@ subtitle: about.subtitle
 
 profile:
   align: right
-  image: profile_circular.png
-  image_circular: true # crops the image to make it circular
+  image: prof_pic.png
+  image_circular: false # crops the image to make it circular
   address: #
 
 news: false  # includes a list of news items
