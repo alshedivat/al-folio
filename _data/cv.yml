@@ -62,6 +62,10 @@
 - title: Refereed talks in conferences
   type: time_table
   contents:
+    - title: "Memory as learning"
+      year: 2025
+      description: Southern Society for Philosophy and Psychology, Mobile, AL
+
     - title: "From episodic to semantic: why semantization is a problem for enactivism about memory"
       year: 2024
       description: Society for Philosophy and Psychology, Purdue University, West Lafayette, USA 
@@ -97,11 +101,19 @@
 - title: Teaching
   type: time_table
   contents:
-    - title: State Highschool Coronel Pilar
+    - title: Teaching Assistant - Present Moral Problems - WashU
+      year: Spring 2025
+      description: "Primary instructor: Anne Baril" 
+
+    - title: Teaching Assistant - Philosophy of Medicine - WashU
+      year: Fall 2024
+      description: "Primary instructor: Marina DiMarco" 
+
+    - title: Sole instructor - State Highschool Coronel Pilar
       year: 2021 - 2022
       description: "Teached Introduction to logic, Philosophy of science, and Free will for senior highschool students"
     
-    - title: Pedagogical Residency
+    - title: Sole instructor - Pedagogical Residency
       year: 2020 - 2022
       description: "Participant of UFSM’s education project for teaching at public highschools"
 # - title: Honors and Awards
