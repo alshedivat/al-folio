@@ -86,11 +86,14 @@
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
             {%- if site.philpeople_username -%}
-            <a href="https://philpeople.org/profiles/{{site.philpeople_username}}" title="PhilPeople"> <i class="ai ai-psyarxiv-square"></i> </a>
+            <a href="https://philpeople.org/profiles/{{site.philpeople_username}}" title="PhilPeople"> <i class="ai ai-philpapers"></i> </a>
             {% endif %}
             {%- if site.lattes_id -%}
             <a href="http://lattes.cnpq.br/{{site.lattes_id}}" title="Lattes"> <i class="ai ai-lattes"></i> </a>
             {% endif %}
             {%- if site.twitter_username -%}
             <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
+            {% endif %}
+            {%- if site.bluesky_username_username -%}
+            <a href="https://bsky.app/profile/{{ site.bluesky_username }}" title="Blue Sky"><i class="fa-brands fa-square-bluesky"></i></a>
             {% endif %}
