@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Ambulatory care (on-going)
+title: Ambulatory care
 description: Dynamic distributed appointment scheduling
 img: assets/img/AC.jpg
-importance: 1
+importance: 3
 category: Healthcare
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Residential care
 description: Staff scheduling under pandemic conditions
 img: assets/img/RC.jpg
-importance: 3
+importance: 4
 category: Healthcare
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Operating theater
 description: Planning and scheduling under uncertainty
 img: assets/img/OR.jpg
-importance: 4
+importance: 5
 category: Healthcare
 ---
 

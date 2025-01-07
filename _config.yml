@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Amirhossein
 middle_name:
 last_name: Moosavi
-email: moosavi@telfer.uottawa.ca
+email: moosavia@umich.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A personal website of Amirhossein Moosavi.
 footer_text: >
@@ -14,7 +14,8 @@ footer_text: >
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: amirhossein-moosavi, telfer-school-of-management, operations-research,
           optimizaiton, machine-learning, advanced-analytics, data-science,
-          operations-management, atrificial-intelligence, business-analytics # add your own keywords or leave empty
+          operations-management, atrificial-intelligence, business-analytics, university-of-michigan, umich
+          u of m, midas, ioe, michigan-institute-for-data-and-ai-in-society, industrial-and-operations-engineering # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -70,7 +71,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: MoosaviAH
+twitter_username: # your GitLab user name
 linkedin_username: ahmoosavi
 scholar_userid: ZN1zDJ4AAAAJ&hl
 semanticscholar_id: # your Semantic Scholar ID

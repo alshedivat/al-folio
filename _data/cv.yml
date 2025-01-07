@@ -11,7 +11,7 @@
   contents:
     - title: PhD in Management
       institution: University of Ottawa, Ontario, Canada
-      year: 2019-Present
+      year: 2019-2023
       description:
         - Dynamic planning and scheduling in healthcare
         - Supervised by Dr. Onur Ozturk and Dr. Jonathan Patrick
@@ -36,15 +36,18 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Part-time Professor, Applications of Statistical Methods in Business
+    - title: Postdoc Fellow, Kidney Transplantation Decision-Making
+      institution: University of Michigan
+      year: 2024-Present
+    - title: Postdoc Fellow, Operating Room Scheduling
+      institution: Ottawa Heart Institute; University of Ottawa
+      year: 2024
+    - title: Instructor, Applications of Statistical Methods in Business
       institution: Telfer School of Management, University of Ottawa
-      year: 2021-2022
-    - title: Teaching Assistant, Statistics for Management
-      institution: Telfer School of Management, University of Ottawa
-      year: 2020
+      year: 2022, 2024
     - title: Teaching Assistant, Applications of Statistical Methods in Business
       institution: Telfer School of Management, University of Ottawa
-      year: 2019-Present
+      year: 2019-2023
     - title: Research Assistant
       institution: Faculty of Engineering, Azad University
       year: 2015-2018
@@ -56,24 +59,20 @@
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 2022
+    - year: 2023
+      items:
+        - Thesis Presentation Competition (2nd place), University of Ottawa
+    - year: 2022, 2023
       items:
         - PhD Engagement Award ($5,000), University of Ottawa
     - year: 2021
       items:
         - <a href="https://www2.uottawa.ca/study/graduate-studies/funding-financing/awards/ontario">International Ontario Graduate Scholarship</a> ($15,000), University of Ottawa
         - Admission Scholarship ($18,000), University of Ottawa
-    - year: 2020
+    - year: 2020, 2021
       items:
         - International Ontario Graduate Scholarship ($15,000), University of Ottawa
         - Excellence Scholarship ($10,000), University of Ottawa
     - year: 2019
       items:
         - International Doctoral Scholarship ($60,000), University of Ottawa
-    - year: 2017
-      items:
-        - "Exempted from the PhD university entrance exam (GPA: 19.63/ 20), Azad University"
-        - Best Thesis Award ($2,000), Azad University
-    - year: 2016
-      items:
-        - Selected as the best MSc student of the university out of more than 2000 students, Azad University
