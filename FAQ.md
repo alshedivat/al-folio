@@ -161,7 +161,7 @@ Currently we have the following workflows:
 In the configuration file `_config.yml` the tag `google-site-verification` should be updated to use this functionality. Here is how you can proceed,
 
 - Generate your HTML tag by following [https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag](https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag) with URL prefix option.
-- In the verify ownership option choose HTML tag and copy the tag contents which should look like `<meta name="google-site-verification" content="GoogleSearchConsoleID" />`. 
+- In the verify ownership option choose HTML tag and copy the tag contents which should look like `<meta name="google-site-verification" content="GoogleSearchConsoleID" />`.
 - The string against `content` is the Google Search Console ID that can be used in the template. e.g. `google-site-verification: GoogleSearchConsoleID`. Now set the property `enable_google_verification: true`.
 
-It looks like the Domain type property in the Google Search Console to verify the ownership of all URLs across all subdomains with GitHub Pages does not work. 
+It looks like the Domain type property in the Google Search Console to verify the ownership of all URLs across all subdomains with GitHub Pages does not work.
