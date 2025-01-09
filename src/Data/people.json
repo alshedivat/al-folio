@@ -102,7 +102,7 @@
         "position": "Undergraduate Intern",
         "image": "seokyoung.png",
         "homepage": "",
-        "current": true
+        "current": false
     },
     {
         "name": "Inhwa Song",
@@ -116,7 +116,7 @@
         "position": "Undergraduate Intern",
         "image": "gahyeon.png",
         "homepage": "",
-        "current": true
+        "current": false
     },
     {
         "name": "Donggun Lee",

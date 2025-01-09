@@ -5,6 +5,10 @@
         "description": "This course explores the social implications of AI technologies and human-centric theories and methods for envisioning socially responsible AI systems.",
         "courses": [
             {
+                "period": "Spring 2025",
+                "url":""
+            },
+            {
                 "period": "Spring 2024",
                 "url":""
             },
@@ -19,6 +23,10 @@
         "title": "Information Design",
         "description": "This course introduces basic concepts, methods, and procedures of information design with a focus on the visual representation of data.",
         "courses": [
+            {
+                "period": "Fall 2024",
+                "url":""
+            },
             {
                 "period": "Fall 2023",
                 "url":""
