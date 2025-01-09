@@ -159,7 +159,7 @@ Admission to university at 14 through the [Robinson Center](https://robinsoncent
 
 **Teaching Assistant, CSE [160, 163, 311]** (intro and intermediate Python programming, discrete math for CS).
 Allen School of CSE, University of Washington.
-5 quarters.
+6 quarters.
 
 **Teaching Assistant, English Composition and Literary Analysis.**
 Robinson Center, University of Washington.
