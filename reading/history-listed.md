@@ -19,10 +19,12 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 3000 BCE: Egyptian base-10 number system appears
 - 2700 BCE - 1500 BCE: Egyptian pyramids construction
 - 2600 BCE - 2500 BCE: peak of Indus Valley civilization
+- 2070 BCE: Xia Dynasty in China starts
 - 2000 BCE: Babylonian base-60 place-value number system appear
 - 1900 BCE - 1600 BCE: dates of many astronomical cuniform tablets
 - 1792 BCE - 1750 BCE: Reign of Hammurabi, Babylonian king
 - 1600 BCE: date of the Edwin Smith Papyrus, Egyptian surgical text
+- 1600 BCE: Shang Dynasty in China starts
 - 1550 BCE: date of the Ebers papyrus, Egyptian herbal medicine text
 - 10th century BCE: Veneti people inhabit Venice area
 - 1046 BCE - 256 BCE: Zhou Dynasty in China
@@ -72,6 +74,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 221 BCE: Qin Dynasty unifies China, starts the Great Wall
 - 212 BCE: Rome conquers Syracuse
 - 212 BCE: Archimedes killed by Roman soldier in siege of Syracuse
+- 206 BCE: Han Dynasty in China starts
 - 168 BCE: Roman conquest of Greece
 - 133 BCE - 121 CE: Gracchi Reforms, Tiberius and Gaius attempt law reforms
 - 107 BCE - 78 BCE: Marius and Sulla reform the army and politicla system
@@ -113,6 +116,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 155 - 220: Tertullian active -- "What has Athens to teach Jerusalem?"
 - 161 - 180: Marcus Aurelius becomes emporer of Roman Empire
 - 170: Marcus Aurelius writes *Meditations*
+- 200 - 280: Three Kingdoms Period between Wei, Shu, Wu
 - 313: Edict of Milan legalizes Christianity
 - 324: Constantinople founded on Byzantium
 - 330: Constantine moves capital of Roman Empire to Constantinople from Rome
@@ -122,6 +126,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 394 - 400: Augustine writes *Confessions*, reflection on scripture vs. classical philosophy, "handmaid"
 - 410: Visigoths sack Rome
 - 415: Hypatia killed by Christian mob (What does Hypatia stand for in scientific history?)
+- 420 - 589: Southern and North Dynasties in China
 - 421: Dedication of first church on Rialto (Venice), San Giacomo
 - 476: Fall of the Western Roman Empire when Odoacer deposes the last emporer Roulus Augustus, Byzantine Empire continues
 - 476: "Middle Ages" / "Dark Ages" / "Medeilval Period" begins
@@ -130,8 +135,10 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 490 - 585: Cassiodorus active, establishes monastic handbook
 - 537: Siege of Rome by Ostrogoths during GOTHIC WAR
 - 570: Muhammad born, prophet of Islam
-- 590: GREGORY I BECOMES POPE
+- 581 - 618: Sui Dynasty
+- 590: Gregory I becomes pope
 - 610: Muhammad receives first revelation
+- 618 - 907: Tang Dynasty in China
 - 636: Isidore of Selville dies, "last scholar of the ancient world"
 - 697: First Doge of Venice, Paolo Lucio Anafesto, elected; Republic of Venice established
 - 8th century: Islamic "Golden Age" begins
@@ -140,6 +147,8 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 774: Charlemagne conquers Florence
 - 790 - 850: Al-Khwarizmi active -- develops algebra, algorithm
 - 800: Charlemagne crowned Holy Roman Emperor by Pope Leo III, reviving the Roman Empire concept
+- 907 - 960: Five Dynasties and Ten Kingdoms period in China
+- 960 - 12279: Song Dynasty in China
 - 965 - 1040: Ibn al-Haytham (Alhazen) active -- develops optics, scientific method
 - 980 - 1037: Ibn Sina (Avicenna) active -- develops medicine, philosophy
 - 1000: start of the "High Middle Ages"
@@ -171,6 +180,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1270: Bishop condemns 13 propositions of Aristotle in Paris
 - 1270: Eighth Crusade (Louis IX of France dies in Tunisia of disease)
 - 1271 - 1272: Ninth Crusade (Edward I of England fails to capture Acre)
+- 1271 - 1368: Yuan Dynasty in China
 - 1277: Condemnations of 1277, rejection of Aristotelianism in Paris universities
 - 1287 - 1347: William of Ockham active -- develops nominalism, theology, philosophy
 - 1299: Ottoman Empire established in Anatolia
@@ -181,6 +191,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1326: Ottomans capture Bursa, cutting off Byzantine Empire from Anatolia / Asia Minor
 - 1346 - 1351: Black Death in Europe
 - 14th century: Oxford Calculators (Merton College, Oxford) take a mathematical rather than causal approach to physics
+- 1368 - 1644: Ming Dynasty in China
 - 1420: Ulugh Beg establishes Samarkand observatory, in modern Uzbekistan
 - 1492: Christopher Columbus reaches the Americas
 - 1453: Fall of Constantinople to the Ottoman Empire to Sultan Mehmed II the Conquerer, end of the Byzantine Empire
@@ -213,6 +224,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1641: Rene Descartes writes *Meditations on First Philosophy*
 - 1642 - 1651: English Civil War, execution of Charles I and rule of Oliver Cromwell
 - 1643 - 1727: Isaac Newton active -- develops calculus, physics, optics, gravity
+- 1664 - 1912: Qing Dynasty in China
 - 1651: Thomas Hobbes writes *Leviathan*
 - 1660: Royal Society of London founded
 - 1677: Baruch Spinoza's *Ethics* published
