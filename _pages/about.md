@@ -2,24 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>HackTheBox</a> | <a href='https://tryhackme.com/r/p/BiscottiDiskette'>TryHackMe</a> | <a href='#'>HackerOne</a> | <a href='#'>BugCrowd</a>
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: frontpage/Logo1.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Ahoy hoy! 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a passionate cybersecurity researcher with three years of hands-on experience. My primary focus lies in securing web applications, where I strive to stay ahead of potential threats and protect users' data.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+But my true passion is reverse engineering. I love the challenge of deconstructing code, understanding its inner workings, and uncovering vulnerabilities that others might miss. This intricate process not only sharpens my skills but also fuels my curiosity and drives me to learn more.
+
+In addition to my professional work, I enjoy participating in Capture The Flag (CTF) challenges and solving various online boxes to keep my skills sharp and my mind agile. These exercises not only help me stay on top of the latest trends in cybersecurity but also allow me to connect with a vibrant community of like-minded individuals.
+
+When I'm not diving into the depths of code, you can find me exploring the latest advancements in cybersecurity and contributing to open-source projects. My commitment to continuous learning and growth ensures that I remain at the forefront of this ever-evolving field.
