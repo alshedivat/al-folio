@@ -108,7 +108,7 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: habeeb_babat # your X handle
+x_username: habeeb_babatww # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
@@ -183,7 +183,7 @@ disqus_shortname: # put your disqus shortname
 #newsletter:
 #  enabled: false
 #  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-  # https://loops.so/docs/forms/custom-form
+# https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
 # Collections
