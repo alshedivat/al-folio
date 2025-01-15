@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:  <a href='#'>liangqi1@msu.edu | 517-580-1321 | 431 Glenmoor Rd, East Lansing, MI 48823</a>
+#Affiliations.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>RM 2506</p>
+    <p>Engineering Building, 428 S Shaw Ln</p>
+    <p> East Lansing, MI 48824</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
