@@ -18,8 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Angqi Li is a Ph.D. student in Computational Mathematics, Science, and Engineering at Michigan State University, where he began his doctoral studies in 2023. He holds a B.S. in Chemical Engineering with a concentration in Computer Science and Mathematics from MSU, earned in 2022.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+His research focuses on neuroscience and medical imaging, including EEG data analysis and MRI undersampling techniques. Angqi has presented at major conferences such as ICASSP, Neuroscience, and NeurIPS, with publications advancing meditation studies and computational imaging.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Previously, he worked as a Laboratory Assistant at Shanghai Jiaotong University, contributing to non-toxic tissue transparency methods. Since 2024, he has co-hosted the DUNES Webinar Series, fostering discussions on meditation, neuroscience, and machine learning.
+
+Angqi's expertise includes Python, C++, Matlab, EEG analysis, and medical image processing, applying his skills to innovate in his fields of interest.
