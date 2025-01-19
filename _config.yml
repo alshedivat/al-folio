@@ -208,6 +208,7 @@ keep_files:
 
 # Plug-ins
 plugins:
+  # Jekyll plugins
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
@@ -228,6 +229,7 @@ plugins:
 
   # al-folio plugins
   - al_citations
+  - al_ext_posts
 
 # Sitemap settings
 defaults:
