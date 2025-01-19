@@ -9,36 +9,59 @@ cv:
     username: AlbertEinstein
   sections:
     summary:
-    - A German-born theoretical physicist, widely ranked among the greatest and most
-      influential scientists of all time
-    education:
-    - institution: University of Zurich, Zurich, Switzerland
-      area: Software Development
-      degree: PhD
-      start_date: '1905-01-01'
-      end_date: '1905-01-01'
-      highlights:
-      - Theory of Relativity
-    - institution: University of Zurich, Zurich, Switzerland
-      area: Software Development
-      degree: PhD
-      start_date: '1908-01-01'
-      end_date: '1908-01-01'
-      highlights:
-      - Theory of Relativity
+    - A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
     experience:
     - company: Institute for Advanced Study, Princeton University
       position: Professor of Theoretical Physics
       location: 'Princeton, NY'
       start_date: '1933-01-01'
       end_date: '1955-01-01'
+      summary: 'Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.'
       highlights:
       - Relativity
+    education:
+    - institution: University of Zurich
+      area: Physics
+      degree: PhD
+      start_date: '1905-01-01'
+      end_date: '1905-01-01'
+      location: 'Zurich, CH'
+      highlights:
+      - Molecular Physics
+      - "***Thesis:*** Eine neue Bestimmung der Moleküldimensionen"
+    awards:
+    - label: Nobel Prize in Physics
+      details: Royal Swedish Academy of Sciences
+      summary: 'The Nobel Prize in Physics 1921 was awarded to me for my services to Theoretical Physics, and especially for my discovery of the law of the photoelectric effect'
+      date: '1921-11-01'
+    certificates:
+      - institution: Stanford University
+        area: '[Quantum Teleportation](https:\\example.com)'
+        degree: 'Certificate'
+        date: '2018-01-01'
+        icon: 'fa-solid fa-clipboard-check'
+      - institution: Stanford University
+        area: '[Quantum Computing](https:\\example.com)'
+        degree: 'Certificate'
+        date: '2018-01-01'
+        icon: 'fa-solid fa-tag'
+      - institution: Stanford University
+        area: '[Quantum Cryptography](https:\\example.com)'
+        degree: 'Certificate'
+        date: '2018-01-01'
+        icon: 'fa-solid fa-hashtag'
+      - institution: Stanford University
+        area: '[Quantum Communication](https:\\example.com)'
+        degree: 'Certificate'
+        date: '2018-01-01'
+        icon: 'fa-solid fa-envelope'
     publications:
     - title: "Zur Elektrody/namik bewegter K\xF6rper"
-      authors: []
+      authors: ['Albert Einstein', 'Hermann Minkowski']
       date: '1905-06-30'
       url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+      publisher: '[Annalen der Physik](https://onlinelibrary.wiley.com/journal/15213889)'
+      summary: 'It concerned an interpretation of the [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.'
     - title: "\xDCber einen die Erzeugung und Verwandlung des Lichtes betreffenden\
         \ heuristischen Gesichtspunkt"
       authors: []
@@ -49,14 +72,48 @@ cv:
       date: '1916-03-20'
       url: "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativit\xE4\
         tstheorie"
+    volunteering:
+    - company: "People's Climate March"
+      position: Lead Organizer
+      location: 'Zurich, CH'
+      start_date: '2014-01-01'
+      end_date: '2015-07-01'
+      summary: "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
+      highlights:
+      - Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.
+      - Men of the year 2014 by Time magazine
     projects:
-    - name: Quantum Computing
-      date: '2018-01-01'
-      highlights: []
-    technologies:
+    - name: '[Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)'
+      start_date: '2018-01-01'
+      end_date: '2019-09-01'
+      summary: 'Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.'
+      highlights: ['Quantum Teleportation', 'Quantum Cryptography']
+    - name: '[Example Project](https://example.com)'
+      date: 2024-05
+      highlights:
+        - Launched an [iOS app](https://example.com) in 09/2024
+          that currently has 10k+ monthly active users
+        - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
+      summary: A web application for writing essays
+    skills:
     - label: Physics
       details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
         Cryptography, Quantum Communication, Quantum Teleportation
-    awards:
-    - label: Nobel Prize in Physics
-      details: Royal Swedish Academy of Sciences
+      icon: 'fa-solid fa-hashtag'
+    interests:
+    - label: Physics
+      details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
+        Cryptography, Quantum Communication, Quantum Teleportation
+      icon: 'fa-solid fa-hashtag'
+    languages:
+    - label: German
+      details: Native
+    - label: English
+      details: Fluent
+    references:
+    - label: "[Professor John Doe](mailto:professor@john.doe)"
+      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
+      icon: 'fa-solid fa-laptop'
+    - label: "[Professor John Doe](mailto:professor@john.doe)"
+      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
+      icon: 'fa-solid fa-thumbtack'

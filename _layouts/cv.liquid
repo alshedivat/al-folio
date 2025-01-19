@@ -30,18 +30,87 @@ layout: default
       <div class="cv">
 		  {% assign cv = site.data.cv.cv %}
 		  {% include cv/gen-info.liquid %}
-		  {% for entry in cv.sections %}
+		  {% for entry in cv.sections  %}
 			  {% unless entry[0] == "summary" %}
-				<a class="anchor" id="basics"></a>
-				<div class="card mt-3 p-3">
-					<h3 class="card-title font-weight-medium">{{ entry[0]|capitalize }}</h3>
-					{% if entry[0] == "education" %}
+				{% if entry[0] == "education" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
 						{% include cv/education.liquid %}
-					{% endif %}
-				</div>
+					</div>
+				{% endif %}
+				{% if entry[0] == "experience" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+						{% include cv/work.liquid %}
+					</div>
+				{% endif %}
+				{% if entry[0] == "publications" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+						{% include cv/publications.liquid %}
+					</div>
+				{% endif %}
+				{% if entry[0] == "projects" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+						{% include cv/projects.liquid %}
+					</div>
+				{% endif %}
+				{% if entry[0] == "skills" or entry[0] == "technologies" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+						{% include cv/skills.liquid %}
+					</div>
+				{% endif %}
+				{% if entry[0] == "interests" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+						{% include cv/skills.liquid %}
+					</div>
+				{% endif %}
+				{% if entry[0] == "languages" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+						{% include cv/languages.liquid %}
+					</div>
+				{% endif %}
+				{% if entry[0] == "awards" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+						{% include cv/awards.liquid %}
+					</div>
+				{% endif %}
+				{% if entry[0] == "references" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+						{% include cv/references.liquid %}
+					</div>
+				{% endif %}
+				{% if entry[0] == "volunteering" or entry[0] == "volunteer" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+						{% include cv/work.liquid %}
+					</div>
+				{% endif %}
+				{% if entry[0] == "certificates" %}
+					<a class="anchor" id={{ entry[0] }}></a>
+					<div class="card mt-3 p-3">
+						<h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+						{% include cv/certificates.liquid %}
+					</div>
+				{% endif %}
 			  {% endunless %}
 		  {% endfor %}
-		</div>
       </div>
     </article>
   </div>
