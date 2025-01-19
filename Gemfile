@@ -36,3 +36,8 @@ group :other_plugins do
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end
+
+# Gems for al-folio plugins
+group :al_folio_plugins do
+    gem 'al_citations', :git => 'https://github.com/al-org-dev/al-citations.git'
+end

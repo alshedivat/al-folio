@@ -6,6 +6,15 @@ GIT
       jekyll (>= 0.10.0)
       terser (>= 1.0.0)
 
+GIT
+  remote: https://github.com/al-org-dev/al-citations.git
+  revision: d6dd73152f8ceafe475f0f0ad5c846167c006e4f
+  specs:
+    al_citations (0.1.0)
+      activesupport
+      jekyll (>= 3.0)
+      nokogiri
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -255,6 +264,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  al_citations!
   classifier-reborn
   css_parser
   feedjira
