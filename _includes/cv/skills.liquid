@@ -13,17 +13,17 @@
             {% endif %}
             <!-- Calculate colspan number for category title -->
             {% assign i = 1 %}
-            {% assign details = content.details | split: ", " %}
+            {% assign details = content.details | split: ', ' %}
             {% for item in details %}
               {% assign i = i | plus: 1 %}
             {% endfor %}
-            <td colspan="{{ i }}" class="list-group-category">{{ content.label | markdownify | remove: "<p>" | remove: "</p>" }}</td>
+            <td colspan="{{ i }}" class="list-group-category">{{ content.label | markdownify | remove: '<p>' | remove: '</p>' }}</td>
           </tr>
           {% for item in details %}
             <tr>
               <td></td>
               <td class="list-group-name">
-                <b>{{ item | markdownify | remove: "<p>" | remove: "</p>" }}</b>
+                <b>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</b>
               </td>
             </tr>
           {% endfor %}
@@ -32,4 +32,3 @@
     </div>
   {% endfor %}
 </div>
-

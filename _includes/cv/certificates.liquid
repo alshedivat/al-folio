@@ -18,13 +18,13 @@
               {% assign i = i | plus: 1 %}
             {% endfor %}
             <td colspan="{{ i }}" class="list-group-category">
-              {{ content.area  | markdownify | remove: "<p>" | remove: "</p>" }}
+              {{ content.area | markdownify | remove: '<p>' | remove: '</p>' }}
             </td>
           </tr>
           <tr>
             <td></td>
             <td class="list-group-name">
-              <b>{{ content.institution  | markdownify | remove: "<p>" | remove: "</p>" }}</b>
+              <b>{{ content.institution | markdownify | remove: '<p>' | remove: '</p>' }}</b>
             </td>
             <td class="list-group-name">{{ content.date }}</td>
           </tr>
@@ -33,4 +33,3 @@
     </div>
   {% endfor %}
 </div>
-

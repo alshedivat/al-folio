@@ -5,115 +5,115 @@ cv:
   phone: +49(912) 123-4567
   website: https://alshedivat.github.io/al-folio/
   social_networks:
-  - network: GitHub
-    username: AlbertEinstein
+    - network: GitHub
+      username: AlbertEinstein
   sections:
     summary:
-    - A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+      - A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
     experience:
-    - company: Institute for Advanced Study, Princeton University
-      position: Professor of Theoretical Physics
-      location: 'Princeton, NY'
-      start_date: '1933-01-01'
-      end_date: '1955-01-01'
-      summary: 'Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.'
-      highlights:
-      - Relativity
+      - company: Institute for Advanced Study, Princeton University
+        position: Professor of Theoretical Physics
+        location: "Princeton, NY"
+        start_date: "1933-01-01"
+        end_date: "1955-01-01"
+        summary: "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus."
+        highlights:
+          - Relativity
     education:
-    - institution: University of Zurich
-      area: Physics
-      degree: PhD
-      start_date: '1905-01-01'
-      end_date: '1905-01-01'
-      location: 'Zurich, CH'
-      highlights:
-      - Molecular Physics
-      - "***Thesis:*** Eine neue Bestimmung der Moleküldimensionen"
+      - institution: University of Zurich
+        area: Physics
+        degree: PhD
+        start_date: "1905-01-01"
+        end_date: "1905-01-01"
+        location: "Zurich, CH"
+        highlights:
+          - Molecular Physics
+          - "***Thesis:*** Eine neue Bestimmung der Moleküldimensionen"
     awards:
-    - label: Nobel Prize in Physics
-      details: Royal Swedish Academy of Sciences
-      summary: 'The Nobel Prize in Physics 1921 was awarded to me for my services to Theoretical Physics, and especially for my discovery of the law of the photoelectric effect'
-      date: '1921-11-01'
+      - label: Nobel Prize in Physics
+        details: Royal Swedish Academy of Sciences
+        summary: "The Nobel Prize in Physics 1921 was awarded to me for my services to Theoretical Physics, and especially for my discovery of the law of the photoelectric effect"
+        date: "1921-11-01"
     certificates:
       - institution: Stanford University
         area: '[Quantum Teleportation](https:\\example.com)'
-        degree: 'Certificate'
-        date: '2018-01-01'
-        icon: 'fa-solid fa-clipboard-check'
+        degree: "Certificate"
+        date: "2018-01-01"
+        icon: "fa-solid fa-clipboard-check"
       - institution: Stanford University
         area: '[Quantum Computing](https:\\example.com)'
-        degree: 'Certificate'
-        date: '2018-01-01'
-        icon: 'fa-solid fa-tag'
+        degree: "Certificate"
+        date: "2018-01-01"
+        icon: "fa-solid fa-tag"
       - institution: Stanford University
         area: '[Quantum Cryptography](https:\\example.com)'
-        degree: 'Certificate'
-        date: '2018-01-01'
-        icon: 'fa-solid fa-hashtag'
+        degree: "Certificate"
+        date: "2018-01-01"
+        icon: "fa-solid fa-hashtag"
       - institution: Stanford University
         area: '[Quantum Communication](https:\\example.com)'
-        degree: 'Certificate'
-        date: '2018-01-01'
-        icon: 'fa-solid fa-envelope'
+        degree: "Certificate"
+        date: "2018-01-01"
+        icon: "fa-solid fa-envelope"
     publications:
-    - title: "Zur Elektrody/namik bewegter K\xF6rper"
-      authors: ['Albert Einstein', 'Hermann Minkowski']
-      date: '1905-06-30'
-      url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-      publisher: '[Annalen der Physik](https://onlinelibrary.wiley.com/journal/15213889)'
-      summary: 'It concerned an interpretation of the [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.'
-    - title: "\xDCber einen die Erzeugung und Verwandlung des Lichtes betreffenden\
-        \ heuristischen Gesichtspunkt"
-      authors: []
-      date: '1905-03-18'
-      url: "https://de.wikisource.org/wiki/\xDCber_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt"
-    - title: "Die Grundlage der allgemeinen Relativit\xE4tstheorie"
-      authors: []
-      date: '1916-03-20'
-      url: "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativit\xE4\
-        tstheorie"
+      - title: "Zur Elektrody/namik bewegter K\xF6rper"
+        authors: ["Albert Einstein", "Hermann Minkowski"]
+        date: "1905-06-30"
+        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+        publisher: "[Annalen der Physik](https://onlinelibrary.wiley.com/journal/15213889)"
+        summary: "It concerned an interpretation of the [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      - title: "\xDCber einen die Erzeugung und Verwandlung des Lichtes betreffenden\
+          \ heuristischen Gesichtspunkt"
+        authors: []
+        date: "1905-03-18"
+        url: "https://de.wikisource.org/wiki/\xDCber_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt"
+      - title: "Die Grundlage der allgemeinen Relativit\xE4tstheorie"
+        authors: []
+        date: "1916-03-20"
+        url: "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativit\xE4\
+          tstheorie"
     volunteering:
-    - company: "People's Climate March"
-      position: Lead Organizer
-      location: 'Zurich, CH'
-      start_date: '2014-01-01'
-      end_date: '2015-07-01'
-      summary: "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
-      highlights:
-      - Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.
-      - Men of the year 2014 by Time magazine
+      - company: "People's Climate March"
+        position: Lead Organizer
+        location: "Zurich, CH"
+        start_date: "2014-01-01"
+        end_date: "2015-07-01"
+        summary: "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
+        highlights:
+          - Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.
+          - Men of the year 2014 by Time magazine
     projects:
-    - name: '[Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)'
-      start_date: '2018-01-01'
-      end_date: '2019-09-01'
-      summary: 'Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.'
-      highlights: ['Quantum Teleportation', 'Quantum Cryptography']
-    - name: '[Example Project](https://example.com)'
-      date: 2024-05
-      highlights:
-        - Launched an [iOS app](https://example.com) in 09/2024
-          that currently has 10k+ monthly active users
-        - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-      summary: A web application for writing essays
+      - name: "[Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)"
+        start_date: "2018-01-01"
+        end_date: "2019-09-01"
+        summary: "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers."
+        highlights: ["Quantum Teleportation", "Quantum Cryptography"]
+      - name: "[Example Project](https://example.com)"
+        date: 2024-05
+        highlights:
+          - Launched an [iOS app](https://example.com) in 09/2024
+            that currently has 10k+ monthly active users
+          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
+        summary: A web application for writing essays
     skills:
-    - label: Physics
-      details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
-        Cryptography, Quantum Communication, Quantum Teleportation
-      icon: 'fa-solid fa-hashtag'
+      - label: Physics
+        details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
+          Cryptography, Quantum Communication, Quantum Teleportation
+        icon: "fa-solid fa-hashtag"
     interests:
-    - label: Physics
-      details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
-        Cryptography, Quantum Communication, Quantum Teleportation
-      icon: 'fa-solid fa-hashtag'
+      - label: Physics
+        details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
+          Cryptography, Quantum Communication, Quantum Teleportation
+        icon: "fa-solid fa-hashtag"
     languages:
-    - label: German
-      details: Native
-    - label: English
-      details: Fluent
+      - label: German
+        details: Native
+      - label: English
+        details: Fluent
     references:
-    - label: "[Professor John Doe](mailto:professor@john.doe)"
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
-      icon: 'fa-solid fa-laptop'
-    - label: "[Professor John Doe](mailto:professor@john.doe)"
-      details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
-      icon: 'fa-solid fa-thumbtack'
+      - label: "[Professor John Doe](mailto:professor@john.doe)"
+        details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
+        icon: "fa-solid fa-laptop"
+      - label: "[Professor John Doe](mailto:professor@john.doe)"
+        details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
+        icon: "fa-solid fa-thumbtack"
