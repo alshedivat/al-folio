@@ -226,6 +226,9 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
+  # al-folio plugins
+  - al_citations
+
 # Sitemap settings
 defaults:
   - scope:
