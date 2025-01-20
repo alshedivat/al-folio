@@ -5,7 +5,7 @@ title: resume
 description: Curriculum Vitae.
 nav: true
 nav_order: 1
-#cv_pdf: /assets/pdf/CV_2022.pdf
+#cv_pdf: /assets/pdf/1CV_2024.pdf
 ---
 
 ---
@@ -13,50 +13,47 @@ Name: Wenbin (Bean) Zhou
 
 E-mail: wenbin.evolution@gmail.com
 
-[CV PDF version](https://bean061.github.io/assets/pdf/CV_2022.pdf)
+[CV PDF version](https://bean061.github.io/assets/pdf/1CV_2024.pdf)
 
 ---
 #### **Current position**
-- 2021.9 – Present&ensp;&ensp;&ensp;&ensp;**Postdoc** at University of North Carolina at Chapel Hill (Advisors: Dr. [Corbin Jones](https://www.med.unc.edu/genetics/directory/corbin-jones-phd/) and Dr. [Alan Jones](https://bio.unc.edu/faculty-profile/jones/))
+- 2021 – Present &ensp;&ensp;&ensp;&ensp;**Postdoc** at University of North Carolina at Chapel Hill (Advisors: Dr. [Corbin Jones](https://www.med.unc.edu/genetics/directory/corbin-jones-phd/) and Dr. [Alan Jones](https://bio.unc.edu/faculty-profile/jones/))
 
 ---
 #### **Education**
-- 2016.8 – 2021.8&ensp;&ensp;&ensp;&ensp; **Ph.D.** in Plant Biology, North Carolina State University, USA. Advisor: Dr. [Jenny Xiang](https://sites.google.com/site/jennyxiangslabatncsu/home)
-- 2013.8 – 2016.6&ensp;&ensp;&ensp;&ensp; **MSc** in Plant Biology, Zhejiang University, China. Advisor: Dr. Yunpeng Zhao
-- 2009.8 – 2013.6&ensp;&ensp;&ensp;&ensp; **BSc** in Bio-technology, Zhejiang A & F University, China. Advisor: Dr. Bingsong Zheng
-
----
-#### **Projects**
-- Genome-environment interactions in grasses (Poaceae) using both illumina sequncing and Nanopore sequencing methods (Advisors: Dr. Corbin Jones and Dr. Alan Jones)
-
-- Phylogenomic and biogeographic studies of *Nyssa* (Nyssaceae), *Hamamelis* (Hamamelidaceae), *Castanea* (Fagaceae), and *Torreya* (Taxaceae) using RAD-seq, Fluidigm sequencing, and Hyb-Seq methods (Advisor: Dr. Jenny Xiang)
-
-- Comparative analyses of endophyte diversity in eastern Asian-Eastern North American disjunct plant species pairs (Advisor: Dr. Jenny Xiang)
-
-- Phylogeography of *Ginkgo biloba* using plastid genomic and comparative transcriptomic approaches. (Advisor: Dr. [Yunpeng Zhao](https://person.zju.edu.cn/en/ypzhao))
-
-- Contribution of environmental and genetic variation to chemical similarity of maca (*Lepidium meyenii* Walp.) (Advisor: Dr. Yunpeng Zhao)
+- 2016 – 2021 &ensp;&ensp;&ensp;&ensp; **Ph.D.** in Plant Biology, North Carolina State University, USA. Advisor: Dr. [Jenny Xiang](https://sites.google.com/site/jennyxiangslabatncsu/home)
+- 2013 – 2016 &ensp;&ensp;&ensp;&ensp; **MSc** in Plant Biology, Zhejiang University, China. Advisor: Dr. Yunpeng Zhao
+- 2009 – 2013 &ensp;&ensp;&ensp;&ensp; **BSc** in Bio-technology, Zhejiang A & F University, China. Advisor: Dr. Bingsong Zheng
 
 ---
 #### **Major Awards**
-- 2019.3–2020.3 &ensp; Shiu-Ying Hu Student/Post-Doctoral Exchange Award ([Arnold Arboretum at Harvard University](https://arboretum.harvard.edu/research/arboretum-award-recipients/)) ([Spotlight in CALS, NCSU](https://cals.ncsu.edu/news/spotlight-bean-zhou-studies-plants-across-a-great-divide/))
-- 2019.5 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  [Charles W. Stuber Graduate Student Award at NC State](https://cals.ncsu.edu/crop-and-soil-sciences/news/breeding-success/)
-- 2019.4 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ASPT Travel Grant for Botany 2019 in Tucson
-- 2018.7 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Graduate Travel award from Plant & Microbial Biology at NC State
+- 2019 – 2020 &ensp; Shiu-Ying Hu Student/Post-Doctoral Exchange Award ([Arnold Arboretum at Harvard University](https://arboretum.harvard.edu/research/arboretum-award-recipients/)) ([Spotlight in CALS, NCSU](https://cals.ncsu.edu/news/spotlight-bean-zhou-studies-plants-across-a-great-divide/))
+- 2019 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  [Charles W. Stuber Graduate Student Award at NC State](https://cals.ncsu.edu/crop-and-soil-sciences/news/breeding-success/)
+- 2019 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ASPT Travel Grant for Botany 2019 in Tucson
+- 2018 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Graduate Travel award from Plant & Microbial Biology at NC State
 
 ---
-#### **Publications**
-16. **Zhou, W.**, Armijos, C., Lee, C., Lu, R., Wang, J., Ruhlman, T., Jansen, R., Jones, A. and Jones, C., 2022. Plastid Genome Assembly Using Long-read Data (ptGAUL). bioRxiv.
+#### **Peer Reviewed Publications: \(\* Corresponding author\)**
 
-15. Zhang, Z., Xie, P., Guo, Y., **Zhou, W.**, Liu, E. and Yu, Y., 2022. Easy353: A tool to get Angiosperms353 genes for phylogenomic research. Molecular Biology and Evolution.
+ 20. Lou, F., **Zhou, W.**, Tunc-Ozdemir, M., Yang, J., Velazhahan, V., Tate, C.G. and Jones, A.M., 2024, VPS26 Moonlights as a β-Arrestin-like Adapter for a 7-Transmembrane RGS Protein in Arabidopsis thaliana. Biochemistry, 63(22), 2990-2999.
 
-14. Du, Z.Y., Xiang, Q.Y., Cheng, J., **Zhou, W.**, Wang, Q.F., Soltis, D.E. and Soltis, P.S., 2022. An updated phylogeny, biogeography, and PhyloCode‐based classification of Cornaceae based on three sets of genomic data. American Journal of Botany.
+ 19. Xie, P., Guo, Y., Teng, Y., **Zhou, W.** and Yu, Y., 2024, GeneMiner: A tool for extracting phylogenetic markers from next-generation sequencing data. Molecular Ecology Resources, 24(3), p.e13924.
+
+18. Du, Z.Y., Xiang, Q.Y., Cheng, J., **Zhou, W.**, Wang, Q.F., Soltis, D.E., Soltis, P.S.,2023, An updated phylogeny, biogeography, and PhyloCode-based classification of Cornaceae based on three sets of genomic data. American Journal of Botany, 110(2), p.e16116.
+
+17. **Zhou, W.\***, Armijos, E.C., Lee, C., Lu, R.S., Wang, J., Ruhlman, A.T., Jansen, K.R., Jones, A.M., Jones, C.D., 2023, Plastid Genome Assembly Using Long-read data. Molecular Ecology Resources, 23(6), 1442-1457.
+
+16. **Zhou, W.\***, Shi, W., Soltis, P.S., Soltis, D.E. and Xiang, Q.Y., 2023, Foliar endophyte diversity in Eastern Asian-Eastern North American disjunct tree species–influences of host identity, environment, phylogeny, and geographic isolation. Frontiers in Plant Science, 14, p.1274746.
+
+15. Zhang, Z., Xie, P., Guo, Y., **Zhou, W.**, Liu, E. and Yu, Y., 2022, Easy353: A tool to get Angiosperms353 genes for phylogenomic research. Molecular Biology and Evolution, 39(12), p.msac261.
+
+14. **Zhou, W.\***, Xiang, Q.Y., 2022, Phylogenomics and Biogeography of Castanea and Hamamelis - a comparison between RAD-seq and Hyb-Seq data. Molecular Phylogenetics and Evolution, 176, 107529.
 
 13. **Zhou, W.**, Harris, AJ, Xiang, Q.Y. 2022. Phylogenomics and biogeography of *Torreya* (Taxaceae) – Integrating data from three organelle genomes, morphology, and fossils and a practical method for reducing missing data from RAD-seq. Journal of Systematics and Evolution.
 
 12. **Zhou, W.**, Soghigian, J., Xiang, Q.Y., 2021. A new pipeline for removing paralogs in target enrichment data. Systematic Biology.
 
-11. **Zhou, W.\***, Xiang, Q.Y.'\*, Wen, J., 2020. Phylogenomics, biogeography, and evolution of morphology and ecological niche of the eastern Asian‐eastern North American *Nyssa* (Nyssaceae). Journal of Systematics and Evolution. 58(5), pp.571-603. (IF: 4.098, JCR: Q1)
+11. **Zhou, W.\***, Xiang, Q.Y.'\*, Wen, J., 2020. Phylogenomics, biogeography, and evolution of morphology and ecological niche of the eastern Asian‐eastern North American *Nyssa* (Nyssaceae). Journal of Systematics and Evolution. 58(5), pp.571-603. 
 
 10. Lindelof, K., Lindo, J.A., **Zhou, W.**, Ji, X., Xiang, Q.Y., 2020. Phylogenomics, biogeography, and evolution of the blue‐or white‐fruited dogwoods (*Cornus*)‐insights into morphological and ecological niche divergence following intercontinental geographic isolation. Journal of Systematics and Evolution.
 
@@ -80,11 +77,13 @@ E-mail: wenbin.evolution@gmail.com
 
 ---
 #### **Papers in review or revision**
-- **Zhou, W.**, Xiang, Q.Y. Major Revision. Phylogenomics and Biogeography of *Castanea* and *Hamamelis* - a comparison between RAD-seq and Hyb-Seq data. Molecular Phylogenetics and Evolution. (IF: 4.286, JCR: Q2)
+- Sun, Y.X., **Zhou, W.**, Xiang, Q.Y., Genomic data uncover complex hybridization and evolutionary history of the bunchberry species complex (*Cornus* L., Cornaceae), Horticulture Research. (Accepted).
 
 ---
 #### **Talks**
 ##### **Abstracts of Talks and Posters at Important Conferences**
+- 2022. **Zhou, W.**, Jones, A.M., Jones, C.D., Hybrid genome sequencing to reveal genomic evolution associated with different environmental niches in Grasses. Botany 2022, July 24, Anchorage, AK, US. (poster)
+
 - 2021 **Zhou, W.**, Harris, AJ, Xiang, Q.Y. An integrative approach to test biographical hypotheses in nutmeg yew (*Torreya*) and a practical method for reducing missing data from RAD-seq. Botany 2021, July 18-23, online. (Invited presentation for a Colloquium “Mechanisms underlying exceptional plant diversity across eastern Asia”).
 
 - 2020 **Zhou, W.**, Soghigian, J., Xiang, Q.Y. A new approach for cleaning paralogs in Hybseq data from Angiosperm353 kit – application for the phylogenomic studies of *Castanea* and *Hamamelis* with comparison to RAD-seq data. Botany 2020, July 27-31, online. (Presentation)
@@ -105,6 +104,7 @@ E-mail: wenbin.evolution@gmail.com
 - 2018.4 &ensp;&ensp;&ensp; NCSU Genomic Sciences & Biomathematics Symposium
 - 2021.10 &ensp;&ensp; Hainan University Huafeng Wang Lab
 - 2021.11 &ensp;&ensp; UNC Alan Weakley Lab
+- 2023.8 &ensp;&ensp;&ensp; Duke University Pryer & Windham Lab
 
 ---
 ##### **Teaching Experience**
@@ -113,6 +113,7 @@ E-mail: wenbin.evolution@gmail.com
 - 2020 - 2021 &ensp;&ensp; NCSU Plant Systematics PB403/503 Lab TA
 - 2022.5.23-25 &ensp; [BAAGs](https://tarheels.live/baags/) workshop (basic assembly and annotation of genomes)
 - 2022.6.20-24 &ensp; [Summer Institute on College Teaching](https://summer-institute.unc.edu/) at UNC
+- 2023.5 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; UNC Pembroke Guest Lecturer in Evolutionary Biology
 
 ---
 ##### **Professional Societies**
@@ -120,6 +121,9 @@ E-mail: wenbin.evolution@gmail.com
 - Society of Systematic Biologists (SSB)
 
 ---
-##### **Scientific Software ('https://github.com/Bean061/')**
+##### **Scientific Software**
+- [ptGAUL](https://github.com/Bean061/ptgaul) — Plastid Genome Assembly Using Long‐read data
 - [PPD](https://github.com/Bean061/putative_paralog) — Putative Paralogs Detection for Enrichment Data
 - [RADADOR](https://github.com/Bean061/RAD_Allele_Dropout_Remedy) — RAD-seq Allele Dropout Remedy
+- [GeneMiner](https://github.com/happywithxpl/GeneMiner) — Gene assembly for Next Generation Sequencing
+- [Easy353](https://github.com/plant720/Easy353) — An Efficient Tool Designed to Recover the Angiosperms353 Gene Set

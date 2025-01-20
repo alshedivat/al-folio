@@ -57,7 +57,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: Bean061 # your GitHub user name
 #gitlab_username: # your GitLab user name
-twitter_username: Bean_061 # your Twitter handle
+#twitter_username: Bean_061 # your Twitter handle
 #linkedin_username: # your LinkedIn user name
 #scholar_userid: weMOLQcAAAAJ&hl=en&oi=ao # your Google Scholar ID
 orcid_id: 0000-0003-4413-2227 # your ORCID ID
@@ -163,7 +163,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
-  - jekyll-twitter-plugin
+  #- jekyll-twitter-plugin
   - jemoji
 
 # Sitemap settings

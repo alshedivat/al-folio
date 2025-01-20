@@ -17,6 +17,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a postdoctral researcher in Drs. Jones lab at UNC-Chapel Hill. I am intestested in plant evolutionary biology. Currently, I am working on grass genomic comparison under different environments. 
+I am a postdoctral research associate in Drs. Jones lab at UNC-Chapel Hill. I am intestested in plant evolutionary biology. Currently, I am working on grasses and rashes genomic comparison under different environments. 
 
 My Ph.D. thesis is foucused on bioinformatics, molecular systematics, biogeography, and population genetics; with emphases on the disjunct plant taxa in eastern Asia and eastern North America.
