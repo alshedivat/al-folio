@@ -185,7 +185,6 @@ You can also:
 - delete [\_layouts/archive-category.liquid](_layouts/archive-category.liquid)
 - delete [\_layouts/archive-tag.liquid](_layouts/archive-tag.liquid)
 - delete [\_layouts/archive-year.liquid](_layouts/archive-year.liquid)
-- delete [\_plugins/external-posts.rb](_plugins/external-posts.rb)
 - remove the `jekyll-archives` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml)
 - remove the `classifier-reborn` gem from the [Gemfile](Gemfile)
 
@@ -227,9 +226,7 @@ You can also:
 - delete [\_includes/bib_search.liquid](_includes/bib_search.liquid)
 - delete [\_includes/citation.liquid](_includes/citation.liquid)
 - delete [\_includes/selected_papers.liquid](_includes/selected_papers.liquid)
-- delete [\_plugins/google-scholar-citations.rb](_plugins/google-scholar-citations.rb)
 - delete [\_plugins/hide-custom-bibtex.rb](_plugins/hide-custom-bibtex.rb)
-- delete [\_plugins/inspirehep-citations.rb](_plugins/inspirehep-citations.rb)
 - remove the `jekyll-scholar` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml)
 
 ### Removing the repositories page
