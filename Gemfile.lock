@@ -7,6 +7,14 @@ GIT
       terser (>= 1.0.0)
 
 GIT
+  remote: https://github.com/al-org-dev/al-analytics.git
+  revision: a9c7821b0a3639ed3f1cc8a8cdcaabfbb4f64f5d
+  specs:
+    al_analytics (0.1.0)
+      jekyll (>= 3.0)
+      liquid (>= 4.0)
+
+GIT
   remote: https://github.com/al-org-dev/al-citations.git
   revision: d6dd73152f8ceafe475f0f0ad5c846167c006e4f
   specs:
@@ -288,6 +296,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  al_analytics!
   al_citations!
   al_ext_posts!
   classifier-reborn

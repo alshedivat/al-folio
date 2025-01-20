@@ -37,6 +37,7 @@ end
 
 # Gems for al-folio plugins
 group :al_folio_plugins do
+    gem 'al_analytics', :git => 'https://github.com/al-org-dev/al-analytics.git'
     gem 'al_citations', :git => 'https://github.com/al-org-dev/al-citations.git'
     gem 'al_ext_posts', :git => 'https://github.com/al-org-dev/al-ext-posts.git'
 end
