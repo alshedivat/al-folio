@@ -20,13 +20,52 @@ permalink: /final_challenge.html
     <p>Solve the following problems using Python on your computer. You may not use GenAI to do so, and you must use
         programming to solve the problems-- do not solve by hand. Make sure everyone in the group has the code.
     </p>
-    <p>Once you do, send one member of the group to the front of the classroom to get the key for the box below. This
-        will unlock a page that has three lists on it. Use these lists as input for each of your three solutions, and
-        use the answers that are printed out as a lockbox code. Go to the front of the classroom and use this code on
+    <p>Once you solve the three problems, use the answers that are printed out as a lockbox code. Go to the front of the
+        classroom and use this code on
         the lockbox. If people are waiting, you only have 1 try before going to the back of the line again.
     </p>
-    <input type="text" id="code" placeholder="Enter your key">
-    <button onclick="unlockPage()">Submit</button>
+    <!-- <p>
+        <input type="text" id="code" placeholder="Enter your key">
+        <button onclick="unlockPage()">Submit</button>
+    </p> -->
+    <h2>Problem 1</h2>
+    <p> Write a function that takes in an integer (n) and calculates a sequence such that
+        the next number is the sum of the square of the previous number's digits (i.e. if n = 157, the next number will
+        be 1^2+5^2+7^2 = 1 + 25 + 49 = 75). Repeat this process until n becomes a single-digit number.
+
+    <p><b>RETURN</b> the single-digit number.</p>
+    <p><b>Then run your function with an input of n=63946.</b></p>
+
+    </p>
+
+    <h2>Problem 2</h2>
+    <p> Write a function that takes in a list (l) as an argument and calculates a total by going
+        through
+        the items in the list and:
+    <ol type="1">
+        <li>Adds any numbers that are even to the total</li>
+        <li>Subtracts any numbers that are odd and divisible by 3 to the total</li>
+    </ol>
+    <p><b>RETURN</b> the total.</p>
+    <p><b>Then run your function with an input of l =
+            [4,6,2,8,4,6,9,3,1,1,1,2,5,4,9,7,12,15,3,0,2,3,9,6,5,10,14,19,15,9,4]</b></p>
+
+    <h2>Problem 3</h2>
+    </p>Write a function that takes in an integer (n) and calculates a sequence of integers using the
+    following rules:
+    <ol type="1">
+        <li>If the number is even, divide it by 2</li>
+        <li>If the number is odd, multiply it by 3 and add 1</li>
+    </ol>
+
+    (This sequence is related to the Collatz Conjecture, which asks whether this sequence will always reach 1 for
+    any starting number.)
+
+    <p><b>RETURN</b> the first digit that is less than 10 in the sequence.</p>
+
+    <p><b>Then run your function with an input of n = 703.</b></p>
+    </ol>
+    </p>
 </body>
 
 </html>
