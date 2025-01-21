@@ -2,24 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD candidate at the <a href='https://www.uc3m.es/home'>Universidad Carlos III de Madrid</a>–UC3M
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <div class="about-info">
+      <p>Department of Social Sciences</p>
+      <p>Getafe, Madrid</p>
+    </div>
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+
+#news: true # includes a list of news items
+#selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+Welcome to my website! 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student in Social and Political Science at the UC3M under the supervision of [Pedro Riera](https://pedro-riera.com/). During the Spring of 2024, I was a visiting researcher at the [EUI](https://www.eui.eu/en/home). I am also part of the POLGEO research group led by Pedro Riera (PI).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am interested in political behavior and comparative politics using quantitative methods. In my PhD research, I study the interplay of context and socialization dynamics. Specifically, I look at how changes in the environment influence a) socialization in the community, b) socialization in the family, and c) political socialization. In different papers, I see how touristification affects community participation, how unexpected election outcomes influence parents´ efforts to transmit their identity traits to their children, and how economic hardship shapes the development of partisan identification. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Before starting my PhD, I earned an MS in Economics from the Universitat de Barcelona and a BS in Economics from the Universidad Carlos III de Madrid. 
+
+You can download my [CV](/al-folio/cv/) here.
+
+You can reach out [jmaycas@clio.uc3m.es](mailto:jmaycas@clio.uc3m.es)
+
