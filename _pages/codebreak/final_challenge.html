@@ -37,18 +37,21 @@ permalink: /final_challenge.html
     <p><b>Then run your function with an input of n=63946.</b></p>
     </p>
 
-    <p> Code to get you started:</p>
+    <h4> Code to get you started:</h4>
     <pre><code> 
     def sum_of_squared_digits(n):
-        sequence = []
-        count = 0
-        while #REPLACE WITH  YOUR CODE:  # Continue until n becomes a single digit
-            sequence.append(n) # Add the current value to the sequence
-            #REPLACE WITH YOUR CODE to get the sum of the squares of digits
+        next_value = n
+
+        counter = 0
+        while #REPLACE WITH  YOUR CODE:  # Continue until next_value becomes a single digit
+            #REPLACE WITH YOUR CODE to get the sum of the squares of digits as the next_value
             #Hint: You can convert the number to a string to access individual digits
-            count += 1
-        sequence.append(n)  # Add the final single-digit value
-        return sequence
+            #Hint 2: You might want to have a break statement while testing code so it doesn't run forever (if the code isn't right on the first try). 
+            # This is what the counter is for. You can remove it from the final code.
+            counter += 1
+            if counter > 100:
+                break
+        return next_value
     
     sum_of_squared_digits(63946)
     </code></pre>
@@ -66,14 +69,14 @@ permalink: /final_challenge.html
     <p><b>Then run your function with an input of l =
             [4,6,2,8,4,6,9,3,1,1,1,2,5,4,9,7,12,15,3,0,2,3,9,6,5,10,14,19,15,9,4]</b></p>
 
-    <p> Code to get you started:</p>
+    <h4> Code to get you started:</h4>
     <pre><code> 
     def calculate_total(lst):
         total = 0
         for num in lst:
-            if #REPLACE WITH YOUR CODE:  # Add even numbers
+            if #REPLACE WITH YOUR CODE:  
                 #REPLACE WITH YOUR CODE
-            elif #REPLACE WITH YOUR CODE:  # Subtract odd numbers divisible by 3
+            elif #REPLACE WITH YOUR CODE:  
                 #REPLACE WITH YOUR CODE
         return total
     
@@ -97,21 +100,19 @@ permalink: /final_challenge.html
     <p><b>Then run your function with an input of n = 703.</b></p>
     </ol>
     </p>
-    <p> Code to get you started:</p>
+    <h4> Code to get you started:</h4>
     <pre><code> 
-    def collatz_sequence(start):
+    def collatz_sequence(n):
         sequence = [] 
-        current = start
+        next_number = n
 
-        while #REPLACE WITH YOUR CODE:  # Continue until the first digit is less than 10
-            sequence.append(current)
+        while #REPLACE WITH YOUR CODE:  # Continue until next_number becomes a single digit
             if #REPLACE WITH YOUR CODE:
-                #REPLACE WITH YOUR CODE
+                #REPLACE WITH YOUR CODE to update the next_number variable accordingly
             else:
-                #REPLACE WITH YOUR CODE  # Multiply by 3 and add 1 if odd
-        sequence.append(current)  # Add the last value (less than 10) to the sequence
-        return sequence
-        
+                #REPLACE WITH YOUR CODE  to update the next_number variable accordingly
+        return next_number
+
     collatz_sequence(703)
     </code></pre>
 </body>
