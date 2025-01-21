@@ -35,8 +35,23 @@ permalink: /final_challenge.html
 
     <p><b>RETURN</b> the single-digit number.</p>
     <p><b>Then run your function with an input of n=63946.</b></p>
-
     </p>
+
+    <p> Code to get you started:</p>
+    <pre><code> 
+    def sum_of_squared_digits(n):
+        sequence = []
+        count = 0
+        while #REPLACE WITH  YOUR CODE:  # Continue until n becomes a single digit
+            sequence.append(n) # Add the current value to the sequence
+            #REPLACE WITH YOUR CODE to get the sum of the squares of digits
+            #Hint: You can convert the number to a string to access individual digits
+            count += 1
+        sequence.append(n)  # Add the final single-digit value
+        return sequence
+    
+    sum_of_squared_digits(63946)
+    </code></pre>
 
     <h2>Problem 2</h2>
     <p> Write a function that takes in a list (l) as an argument and calculates a total by going
@@ -47,8 +62,24 @@ permalink: /final_challenge.html
         <li>Subtracts any numbers that are odd and divisible by 3 to the total</li>
     </ol>
     <p><b>RETURN</b> the total.</p>
+
     <p><b>Then run your function with an input of l =
             [4,6,2,8,4,6,9,3,1,1,1,2,5,4,9,7,12,15,3,0,2,3,9,6,5,10,14,19,15,9,4]</b></p>
+
+    <p> Code to get you started:</p>
+    <pre><code> 
+    def calculate_total(lst):
+        total = 0
+        for num in lst:
+            if #REPLACE WITH YOUR CODE:  # Add even numbers
+                #REPLACE WITH YOUR CODE
+            elif #REPLACE WITH YOUR CODE:  # Subtract odd numbers divisible by 3
+                #REPLACE WITH YOUR CODE
+        return total
+    
+    l =[4,6,2,8,4,6,9,3,1,1,1,2,5,4,9,7,12,15,3,0,2,3,9,6,5,10,14,19,15,9,4]  
+    calculate_total(l)
+    </code></pre>
 
     <h2>Problem 3</h2>
     </p>Write a function that takes in an integer (n) and calculates a sequence of integers using the
@@ -66,6 +97,23 @@ permalink: /final_challenge.html
     <p><b>Then run your function with an input of n = 703.</b></p>
     </ol>
     </p>
+    <p> Code to get you started:</p>
+    <pre><code> 
+    def collatz_sequence(start):
+        sequence = [] 
+        current = start
+
+        while #REPLACE WITH YOUR CODE:  # Continue until the first digit is less than 10
+            sequence.append(current)
+            if #REPLACE WITH YOUR CODE:
+                #REPLACE WITH YOUR CODE
+            else:
+                #REPLACE WITH YOUR CODE  # Multiply by 3 and add 1 if odd
+        sequence.append(current)  # Add the last value (less than 10) to the sequence
+        return sequence
+        
+    collatz_sequence(703)
+    </code></pre>
 </body>
 
 </html>
