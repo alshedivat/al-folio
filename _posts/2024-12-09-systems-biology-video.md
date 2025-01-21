@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Why should we use systems approaches in cancer research? An educational video project
+title:  This is how we solve the problem of cancer
 date:   2024-12-09
 description: As the Education Scholar for UVA's NIH-funded Center, I created a video series about systems biology and its use in cancer research. 
 categories: systems-biology 
