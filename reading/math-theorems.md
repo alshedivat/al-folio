@@ -55,7 +55,8 @@ There may be mistakes or simplifications in the following.
 - **A double-ended tight bound:** $$\frac{1}{3} \le \frac{a^2 + b^2 + c^2}{(a + b + c)^2} \le \frac{1}{2}$$
 - **A joke.** $$e^{i \frac{pi}{2}} \cdot 8 = \infty$$
 - **Perfect secrecy theorem.** A cryptosystem has perfect secrecy if the ciphertext reveals no information about the plaintext. Formally, for any plaintext $$M$$ and ciphertext $$C$$: $$P(M \vert C) = P(M)$$. If a cryptosystem has perfect secrecy, then the key space must be at least as large as the message space, making perfect secrecy an impractical goal for cryptosystems.
-
+- [**All about XOR**](https://accu.org/journals/overload/20/109/lewin_1915/){:target="_blank"}
+- **Prime gaps.** There are infinitely many prime pairs with a gap less than 246.
 
 
 *Starting from the empty set, perform a few operations, like forming the set of all subsets. Before long you have a magnifi cent structure in which you can embed the real numbers, complex numbers, quaterions, Hilbert spaces, infi nite-dimensional differentiable manifolds, and anything else you like." -- Reuben Harsh

@@ -42,6 +42,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 509 BCE: Roman Republic founded after overthrow of Etruscan king
 - 500 BCE: defeat of the king of Rome, oligarchy senate (Roman Republic) established
 - 500 BCE - 428 BCE: Anaxagoras active -- proposes "nous" as the arche
+- 500 BCE: roughly the time Confucius was active
 - 499 BCE - 493 BCE: Ionian Revolt against Persia, crushed
 - 494 BCE: First Secession of the Plebs in Rome, plebeians demand political representation
 - 492 BCE - 449 BCE: Persian Wars; Athens and Sparta defeat Persia
@@ -193,6 +194,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 14th century: Oxford Calculators (Merton College, Oxford) take a mathematical rather than causal approach to physics
 - 1368 - 1644: Ming Dynasty in China
 - 1420: Ulugh Beg establishes Samarkand observatory, in modern Uzbekistan
+- 1436: the Chinese abacus is first mentioned
 - 1492: Christopher Columbus reaches the Americas
 - 1453: Fall of Constantinople to the Ottoman Empire to Sultan Mehmed II the Conquerer, end of the Byzantine Empire
 - 1473 - 1543: Nicolaus Copernicus active -- develops heliocentrism
