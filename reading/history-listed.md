@@ -19,11 +19,13 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 3000 BCE: Egyptian base-10 number system appears
 - 2700 BCE - 1500 BCE: Egyptian pyramids construction
 - 2600 BCE - 2500 BCE: peak of Indus Valley civilization
+- 2600 BCE: The Egyptian Hieratic Numeration system is introduced, using distinct symbols for 1-9 and each power of 10.
 - 2070 BCE: Xia Dynasty in China starts
 - 2000 BCE: Babylonian base-60 place-value number system appear
 - 1900 BCE - 1600 BCE: dates of many astronomical cuniform tablets
 - 1792 BCE - 1750 BCE: Reign of Hammurabi, Babylonian king
 - 1600 BCE: date of the Edwin Smith Papyrus, Egyptian surgical text
+- 1600 BCE: The Babylonians use spaces to indicate missing places in theri place value statement
 - 1600 BCE: Shang Dynasty in China starts
 - 1550 BCE: date of the Ebers papyrus, Egyptian herbal medicine text
 - 10th century BCE: Veneti people inhabit Venice area
@@ -56,7 +58,9 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 451 - 450 BCE: The Twelve Tables, Roman law code
 - 431 BCE - 404 BCE: Peloponnesian War between Athens and Sparta over hegemony of Greece; results in Athenian defeat
 - 427 BCE - 347 BCE: Plato active -- develops idealism
+- 400 BCE: The Mayan numeration system uses dots for 1, bars for 5, and a positional system generally based on 20, as well as a shell symbol for zero
 - 4th century BCE: rise of Asclepian healing temples
+- 4th century BCE: Babylonians put a dot to avoid ambiguity in spacing to represent absent places in their place value system
 - 384 BCE - 322 BCE: Aristotle active -- develops "empiricism"
 - 380 BCE: Plato writes *The Republic*
 - 367 BCE: Lician-Sextian reforms, allowing plebeians to become consuls
@@ -138,6 +142,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 570: Muhammad born, prophet of Islam
 - 581 - 618: Sui Dynasty
 - 590: Gregory I becomes pope
+- 600s: Indians had already developed place-value system in base 10, using the digits 0 to 9. A small circle was used as a placeholder, "sunya" was an absence of quantity
 - 610: Muhammad receives first revelation
 - 618 - 907: Tang Dynasty in China
 - 636: Isidore of Selville dies, "last scholar of the ancient world"
@@ -148,6 +153,9 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 774: Charlemagne conquers Florence
 - 790 - 850: Al-Khwarizmi active -- develops algebra, algorithm
 - 800: Charlemagne crowned Holy Roman Emperor by Pope Leo III, reviving the Roman Empire concept
+- 9th century: emergence of "cathedral schools" for training preists and clerics, teaching the trivium (grammar, rhetoric, logic) and quadrivium (arithmetic, geometry, music, astronomy)
+- 9th century: Mahavira declares that $$n \cdot 0 = 0$$ and $$n - 0 = n$$, claiming $$n / 0 = n$$; Bhaskara II later proposes that $$n / 0 = \infty$$. Arabs adopt the Indian system during Islamic expansion into India, using "sifr" for zero
+- 10th century: erbert d'Aurillac (Pope Sylvester II) visits Spain to lain mathematics and reorganizes the cathedral school in Rheims, France to introduce the study of arithmetic and geometry, using Hindu-Arabic numerals
 - 907 - 960: Five Dynasties and Ten Kingdoms period in China
 - 960 - 12279: Song Dynasty in China
 - 965 - 1040: Ibn al-Haytham (Alhazen) active -- develops optics, scientific method
@@ -158,7 +166,9 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1095: al-Ghazali writes "The Incoherence of the Philosophers.
 - 1096: evidence of teaching at Oxford
 - 1096 - 1291: First Crusade initiated by Pope Urban II to capture Jerusalem and the Holy Land from Muslim control
+- 12th century: Al-Khwarizmi's works introduce zero to Europe
 - 1100 - 1156: Thierry of Chartres active -- develops metaphysics, theology, neo-Platonism
+- 1145: Translation of Al-Khwarizmi's algebra book by Robert of Chesta
 - 1115: Florentine Republic established
 - 1126 - 1198: Ibn Rushd (Averroes) active -- develops philosophy, science, theology
 - 1147 - 1149: Second Crusade (failure in Anatolia and Syria)
@@ -167,6 +177,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 13th century: "fall" of Islamic "Golden Age"
 - 1200 - 1280: Albertus Magnus active -- develops theology, philosophy, science
 - 1201 - 1274: al-Tusi active -- develops mathematics, astronomy, proposes the al-Tusi couple
+- 1202: Leonardo of Pisa writes the *Liber Abbaci* (Book of Calculation), exploring quadratic equations geometrically and addressing practical problems of currency conversion and profits
 - 1202 - 1204: Fourth Crusade (sack of Constantinople), damaged Western vs. Eastern Christian relaions
 - 1206 - 1368: Mongol Empire under Genghis Khan and successors; largest contiguous land empire
 - 1210: Grosseteste becomes a "secular master" at Oxford, develops light metaphysics
@@ -195,14 +206,21 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1368 - 1644: Ming Dynasty in China
 - 1420: Ulugh Beg establishes Samarkand observatory, in modern Uzbekistan
 - 1436: the Chinese abacus is first mentioned
+- 1470s: Regiomonatus uses "et" for addition and unconventional symbols, e.g. "5 et 6 7-4" to represent 5 + 6 - 7 = 4
 - 1492: Christopher Columbus reaches the Americas
 - 1453: Fall of Constantinople to the Ottoman Empire to Sultan Mehmed II the Conquerer, end of the Byzantine Empire
 - 1473 - 1543: Nicolaus Copernicus active -- develops heliocentrism
+- 1489: Johann Widman introduces + and - for addition and subtraction in print, using "5 + 6 - 7 das ist 4" to represent 5 + 6 - 7 = 4
 - 1493 - 1541: Paracelsus active -- develops medicine, alchemy, proposes "wandering around" as a method, likes Aristotle but opposes the institutionalization of his thought
 - 1494 - 1559: Italian Wars, France and Spain vy for control of Italy
+- 1494: Luca Pacioli uses p for plus and m for minus, "using 5 p 6 m 7 - 4" to represent 5 + 6 - 7 = 4
 - 1498: Girolamo Savonarola executed in Florence for heresy -- accuses the Pope of corruption, lambasts attachment to material riches
 - 1499 - 1557: Niccolo Tartaglia active -- improves upon the Aristoteilan explanation for projectile motion, combination of violent and natural motion
+- 15th century: establishment of Jesuit schools worldwide
+- 15th century: Artists explore perspective, leading to mathematical insights
 - 1500: start of the "Early Modern Period"
+- 16th century: printing of Luca Pacioli's *Summa de arithmetica, geometria, proportioni et proportionalita* (Venice, 1494) introduces double-entry bookkeeping, early work on algebraic notation by European "cossists"
+- 1500s: Discovery of methods for solving cubic equations by Sciopione del Ferro, Niccolo Tartaglia, and Gerolamo Cardano
 - 1501 - 1504: Michelangelo sculpts *David* in Florence
 - 1506: Construction begins on St. Peter's Basilica under Pope Julius II
 - 1510: Copernicus writes *Commentariolus*, suggesting heliocentrism
@@ -211,6 +229,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1517: Martin Luther nails 95 Theses to church door, beginning of Protestant Reformation, scorns Copernicus
 - 1519 - 1521: Hernan Cortes conquers Aztec Empire
 - 1526: Mughal Empire established in India
+- 1526 - 1572: Rafael Bombelli active; addresses issues in Cardano's method for solving cubic equations involving square roots of negative numbers, initiates the development of complex number
 - 1527: Sack of Rome by Charles V
 - 1531: Florence becomes a monarchy
 - 1532: Niccolo Machiavelli writes *The Prince*
@@ -219,10 +238,20 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1543: supposed start of the "Scientific Revolution"
 - 1545 - 1612: John Gerard active -- writes *Herball*, herbal medicine
 - 1545: Council of Trent begins, Catholic Counter-Reformation
+- 1545: Cardano publishes the *Ars Magna*, generalizing Tartaglia's method for solving all cubic equations and fourth-egree equations
 - 1556: Agricola writes *De Re Metallica*, mining and metallurgy
+- 1557: Robert Recorde introduces the equality symbol =, explaining it as "no two things can be more equal than parallel lines", writing "5 + 6 - 7 = 4" to represent 5 + 6 - 7 = 4
 - 1561 - 1626: Francis Bacon active -- develops empiricism, inductive reasoning, experimental method
+- 1570s: Francois Viete is active, introducing systematic algebraic notation with vowels for unknowns and consonants for knowns, pursues equidimensionality in algebraic quantities, links Greek analysis to algebra, and promotes algebra as a field
+- 1596 - 1650: Rene Decartes active, advancing algebraic notation, developing coordinate geometry
+- 1598 - 1647: Bonaventura Cavalieri active -- develops the "principle of indivisibles", considering planar regions as infinite sets of parallel lines, computing areas of curved figures
 - Late 16th century: Elizabethan government grants patents for inventions
+- 1600s: Fermat active, introducing new algebraic problems focused on whole numbers and proving negative propositions (there are no solutions for some equations)
+- Early 17th century: Thomas Harriot develops Harriot's principle by proposing rewriting equations in the form $$f(x) = 0$$, revolutionizing algebraic problem solving by linking roots to zero properties of integral domains, popularized by Rene Decartes in analytic geometry
 - 1629 - 1631: Italian plague; kills 1/3 of Venice's citizens
+- 1629: Albert Girard uses ÷ for subtraction and division interchangeably
+- 1631: William Oughtred advocates for +, -, = and use scolons for grouping: :5 + 6 :-7 = 4. Popularizes the $$\times$$ symbolf ro multiplication.
+- 1637: Rene Decartes uses unconventional symbols, delaying the widespread acceptance of the = symbol.
 - 1641: Rene Descartes writes *Meditations on First Philosophy*
 - 1642 - 1651: English Civil War, execution of Charles I and rule of Oliver Cromwell
 - 1643 - 1727: Isaac Newton active -- develops calculus, physics, optics, gravity
@@ -230,33 +259,47 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1651: Thomas Hobbes writes *Leviathan*
 - 1660: Royal Society of London founded
 - 1677: Baruch Spinoza's *Ethics* published
+- Late 1600s: Isaac Newton an Gottfried Wilhelm Leibniz independently develop calculus, Newton using "fluxions" and Leibniz using "infinitesimals"
 - 1687: *Philosophiæ Naturalis Principia Mathematica* by Newton published
+- 1696: Johann Bernoulli teaches calculus to Marquis de l'Hospital, leading to the first calculus textbook (*Analyse des Infiniment Petits*)
+- 1698: Leibniz introduces the raised dot for multiplication to avoid confusion with the variable $$x$$ and advocates for the colon for division
+- Early 1700s: parentheses become standard for grouping terms in arithmetic expressions, promoted by Leibniz, the Bernoullis, and Euler
 - 1713: Treaty of Utrecht transfers Italian territories to Austrian Hapsburgs
+- 1725  - 1783: Leonhard Euler active -- advances calculus and applies to a variety of contexts, develops the concept of functions, introduces a lot of modern matehmatical notation, pioneered graph theory
+- 1734: George Berkeley publishes *The Analyst*, criticizing the foundations of calculus, calling Newton's and Leibniz's methods "ghosts of departed quantities"; Jean le Rond d'Alembert encourages faith in calculus, "Persist, and faith will come"
 - 1762: Jean-Jacques Rousseau writes *The Social Contract*
+- 1770s - 1827: Pierre-Simon Laplace is active, writing extensively on celestial mechanics and probability
 - 1775 - 1783: American Revolutionary War
 - 1781: Immanuel Kant writes *Critique of Pure Reason*
-- 1789: French Revolution begins, Declaration of the Rights of Man
+- 1789: French Revolution begins, Declaration of the Rights of Man; influences mathematics and education with emphasis on technical education to create a skilled middle class
 - 1791: Catherine the Great establishes the Pale of Settlement in Russia
 - 1791: Enslaved Haitians revolt against French rule
 - 1792 - 1797: War of the First Coalition (France vs. UK, Austria, Prussia, etc.)
 - 1794: French National Convention abolishes slavery in all French territories
+- 1795: French Academy of Sciences develops the metric system and is adopted, then spread internationally later by the late 19th century
 - 1796 - 1814: Napoleon invades Italy
 - 1797: Republic of Venice loses independence to Napolean Bonparte
 - 1798: Austrians take control of Venice by agreement
 - 1798: French forces under Napoleon occupy Rome, briefly ending papal rule
+- 1801: Carl Friedrich Gauss publishes *Disquisitiones Arithmeticae* (Arithmetic Investigations), marking rigorous developments in number theory
 - 1804: Haiti becomes independent from France; massacre of French colonists
 - 1805: Venice taken back again from Austria by Napolean
 - 1805 - 1814: Kingdom of Italy
 - 1807: Georg Wilhelm Friedrich Hegel writes *Phenomenology of Spirit*
 - 1812: War of 1812 (US vs. UK)
+- 1813: Joseph-Louis Lagrange dies; he analyzed permutations of polynomial roots to understand solutions for equations.
 - 1814: Venice returned to Austria following Napolean's defeat
 - 1815: Congress of Vienna reinforces fragmented Italian states
 - 1818: Arthur Schopenhauer writes *The World as Will and Representation*
+- 1821: Augustin Louis Cauchy publishes *Cours d'Analyse* (The Ecole Polytechnique Analysis Course), introducing the concept of limits and continuity rigorously, highlighting the fundamental theorem of calculus
+- 1820s - 1830s: Gauss, János Bolyai, Nicolai Lobachevsky, and Bernhard Riemann develop non-Euclidean geometry
+- 1822: Niels Henrik Abel proves that there is no general solution in radicals to the general polynomial equation of degree five or higher
 - 1825: France forces Haiti to pay crippling reparations for independence
 - 1830: France invades and colonizes Algeria
 - 1831 - 1861: Resurgence movement aims to unify Italy under a single state
+- 1832: Evariste Galois develops Galois theory, linking group theory and algebraic equations.
 - 1833: Abolition of slavery in British colonies
-- 1839: beginning of Tanzimat reforms in the Ottoman Empire
+- 1839: Beginning of Tanzimat reforms in the Ottoman Empire
 - 1843: Soren Kierkegaard writes *Fear and Trembling*
 - 1846 - 1848: Mexican-American War (US annexes Texas, California, etc.)
 - 1848 - 1849: Revlutions across Italy push for unification and liberal reforms
@@ -264,8 +307,10 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1856: Imperial Reform Decree in the Ottoman Empire
 - 1857 - 1858: Indian Rebellion (Sepoy Mutiny) against British rule
 - 1858: Ottoman land reform enabling private land sales
+- 1859: The Riemann Hypothesis is proposed by Bernhard Riemann
 - 1859 - 1861: Kingdom of Sardinia begins unifying Italy; Lombardy annexed after Second Italian War of Independence (1859)
 - 1861 - 1865: American Civil War
+- 1861: Karl Weierstrauss develops the epsilon-delta definition of limit, rigorously defining continuity and differentiability
 - 1865: Florence becomes the capital of Italy
 - 1866: Third Italian War of Independence between Kingdom of Italy and Austrian Empire; Venetia annexed
 - 1869: Ottoman citizenship law allows non-Muslims to become citizens
@@ -273,16 +318,20 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1871: Rome is declared the capital of Italy
 - 1871: Mokrani revolt in Algeria against French rule by Algerian Berbers an Arabs
 - 1872: Jerusalem designated as an independent Ottoman district
+- 1879 - 1884: Georg Cantor develops set theory, introducing the concept of infinite sets and cardinality
 - 1880s: porgroms in Russia lead to Jewish emigration to the US and Palestine
 - 1882 - 1903: First Aliyah to Palestine from Eastern Europe and Yemen motivated by Zionism and persecution
 - 1882: Italy joins the Triple Alliance with Germany and Austria-Hungary
 - 1883: Friedrich  Nietzsche writes *Thus Spoke Zarathustra*
 - 1884 - 1885: The Scramble for Africa, Europeans divide Africa at Berlin Conference
 - 1886: Friedrich Nietzsche writes *Beyond Good and Evil*
+- 1888: Richard Dedekind formalizes arithmetic, publishing "Was sind und was sollen die Zahlen?" (What are numbers and what should they be?)
+- 1889: Giuseppe Peano publishes the Peano axioms for arithmetic
 - 1890: Eritrea becomes an Italian colony
 - 1896: Italy suffers a humiliating defeat in Ethiopia trying to colonize it
 - 1898: Spanish-American War (US annexes Philippines, Guam, Puerto Rico)
 - 1899: Philippine-American War
+- 1900: Hilbert's 23 problems are presented at the International Congress of Mathematicians in Paris
 - 1900: Boxer Rebellion in China against foreign influence
 - 1901: Australia becomes a federation within the British Empire
 - 1904 - 1914: Second Aliyah to Palestine by Jews fleeing pogroms in Russia and Eastern Europe
@@ -313,6 +362,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1922: Benito Mussolini and Fascist Party rise to power
 - 1922: Irish Free State established under Anglo-Irish treaty, Northern Ireland remains part of UK
 - 1923: Ottoman Sultanate abolished, Turkey becomes a republic
+- 1923: The Mathematical Association of America recommends abandoning ÷ and : for division in favor of fractional notation
 - 1923: Palestine mandate comes into effect
 - 1924 - 1929: Fourth Aliyah to Palestine, middle-class Jews from Poland and Hungary
 - 1927: Martin Heidegger writes *Being and Time*
@@ -321,7 +371,9 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1929: Western Wall / Al-Buraq riots; Shaw commission investigates
 - 1929: Lateran Treaty establishes Vatican City
 - 1930: Gandhi leads the Salt March
+- 1930s: A group of young mathematicians writing under the pseudonym Bourbaki writes a series of textbooks on modern mathematics, the *Elements of Mathematics*
 - 1931: Statute of Westminster grants autonomy to British dominions (Canada, Australia, South Africa)
+- 1931: Kurt Godel publishes his incompleteness theorems
 - 1933: Hitler becomes Chancellor of Germany
 - 1934 - 1948: Aliyah Bet, illegal Jewish immigration to Palestine
 - 1935: Izz al-Din al-Qassam is killed by British forces, becomes a symbol of Palestinian resistance (even until today)
