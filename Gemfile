@@ -29,11 +29,16 @@ end
 # Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
     gem 'css_parser'
-    gem 'feedjira'
-    gem 'httparty'
     gem 'observer'       # used by jekyll-scholar
     gem 'ostruct'        # used by jekyll-twitter-plugin
     gem 'terser'         # used by jekyll-terser
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
+end
+
+# Gems for al-folio plugins
+group :al_folio_plugins do
+    gem 'al_analytics', :git => 'https://github.com/al-org-dev/al-analytics.git'
+    gem 'al_citations', :git => 'https://github.com/al-org-dev/al-citations.git'
+    gem 'al_ext_posts', :git => 'https://github.com/al-org-dev/al-ext-posts.git'
 end

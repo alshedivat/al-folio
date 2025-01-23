@@ -212,29 +212,9 @@
   {% endunless %}
 {% endif %}
 
-{% if site.enable_google_analytics %}
+{% if site.plugins contains 'al_analytics' %}
   <!-- Analytics -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script defer src="{{ '/assets/js/google-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
-{% endif %}
-
-{% if site.enable_cronitor_analytics %}
-  <!-- Cronitor RUM -->
-  <script async src="https://rum.cronitor.io/script.js"></script>
-  <script defer src="{{ '/assets/js/cronitor-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
-{% endif %}
-{% if site.enable_pirsch_analytics %}
-  <script
-    defer
-    src="https://api.pirsch.io/pa.js"
-    id="pianjs"
-    data-code="{{ site.pirsch_analytics }}"
-  ></script>
-{% endif %}
-{% if site.enable_openpanel_analytics %}
-  <script defer src="{{ '/assets/js/open-panel-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
-  <script async defer src="https://openpanel.dev/op1.js"></script>
+  {% al_analytics_scripts %}
 {% endif %}
 
 {% if site.enable_progressbar %}
