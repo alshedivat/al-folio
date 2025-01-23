@@ -208,6 +208,7 @@ keep_files:
 
 # Plug-ins
 plugins:
+  - jekyll-3rd-party-libraries
   - jekyll-archives
   - jekyll-email-protect
   - jekyll-feed
