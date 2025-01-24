@@ -159,5 +159,12 @@
         "image": "sieun.png",
         "homepage": "",
         "current": true
+    },
+    {
+        "name": "Suyeon Seo",
+        "position": "Undergraduate Intern",
+        "image": "suyeonseo.png",
+        "homepage": "https://bit.ly/SuyeonPortfolio",
+        "current": true
     }
   ]
