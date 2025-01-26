@@ -33,6 +33,14 @@ GIT
       jekyll (>= 3.0)
       nokogiri
 
+GIT
+  remote: https://github.com/al-org-dev/al-img-tools.git
+  revision: fad6f5b46c8b30c05ce8f6badb0f28d4b6294973
+  specs:
+    al_img_tools (0.1.0)
+      jekyll (>= 3.0)
+      liquid (>= 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -305,6 +313,7 @@ DEPENDENCIES
   al_analytics!
   al_citations!
   al_ext_posts!
+  al_img_tools!
   classifier-reborn
   css_parser
   jekyll
