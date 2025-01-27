@@ -176,7 +176,8 @@ To remove the blog, you have to:
 - delete [\_posts](_posts/) directory
 - delete blog page [\_pages/blog.md](_pages/blog.md)
 - remove reference to blog page in our [\_pages/dropdown.md](_pages/dropdown.md)
-- remove the `Blog` section in the [\_config.yml](_config.yml) file and the related parts, like the `jekyll-archives` and `latest_posts`
+- remove the `latest_posts` part in [\_pages/about.md](_pages/about.md)
+- remove the `Blog` section in the [\_config.yml](_config.yml) file and the related parts, like the `jekyll-archives`
 
 You can also:
 
@@ -195,7 +196,7 @@ To remove the news section, you can:
 
 - delete the [\_news](_news/) directory
 - delete the file [\_includes/news.liquid](_includes/news.liquid) and the references to it in the [\_pages/about.md](_pages/about.md)
-- remove the `announcements` part in [\_config.yml](_config.yml)
+- remove the `announcements` part in [\_pages/about.md](_pages/about.md)
 - remove the news part in the `Collections` section in the [\_config.yml](_config.yml) file
 
 ### Removing the projects page
