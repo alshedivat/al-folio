@@ -150,6 +150,8 @@ GEM
       webrick (~> 1.7)
     jekyll-archives (2.3.0)
       jekyll (>= 3.6, < 5.0)
+    jekyll-cache-bust (0.0.1)
+      jekyll (>= 3.6, < 5.0)
     jekyll-email-protect (1.1.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
@@ -303,6 +305,7 @@ DEPENDENCIES
   css_parser
   jekyll
   jekyll-archives
+  jekyll-cache-bust
   jekyll-email-protect
   jekyll-feed
   jekyll-get-json

@@ -211,6 +211,7 @@ keep_files:
 plugins:
   # Jekyll plugins
   - jekyll-archives
+  - jekyll-cache-bust
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
