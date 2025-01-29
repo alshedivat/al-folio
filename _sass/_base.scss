@@ -343,6 +343,11 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+.navbar-brand.social a:hover i::before {
+  color: #4682B4 !important;
+}
+
+
 .navbar-toggler {
   .icon-bar {
     display: block;
@@ -962,7 +967,7 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-  background-color: var(--global-theme-color);
+  background-color: #4682B4; /* Azul (sea Blue) */
 }
 
 progress::-moz-progress-bar {
