@@ -75,7 +75,7 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 bib_search: true
 
