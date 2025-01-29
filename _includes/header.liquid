@@ -117,6 +117,17 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+
+          <!-- Add "Others" page manually if it exists -->
+          {% assign others_page = site.pages | where: "title", "Others" | first %}
+          {% if others_page %}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ others_page.permalink | relative_url }}">
+                Others
+              </a>
+            </li>
+          {% endif %}
+
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
@@ -126,7 +137,7 @@
             </li>
           {% endif %}
           {% if site.enable_darkmode %}
-            <!-- Toogle theme mode -->
+            <!-- Toggle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
                 <i class="ti ti-sun-moon" id="light-toggle-system"></i>
@@ -148,3 +159,4 @@
     </progress>
   {% endif %}
 </header>
+

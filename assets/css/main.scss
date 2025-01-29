@@ -29,3 +29,68 @@ $max-content-width: {{ site.max_width }};
   font-size: 12px;
   line-height: 1.5;
 }
+
+a {
+  color: rgb(70, 130, 180) !important; // Azul 'seaBlue'
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(100, 149, 237) !important; // Azul más claro al pasar el ratón
+  text-decoration: underline;
+}
+
+/* Barra de progreso (si usa clases de progreso) */
+.progress-bar {
+  background-color: rgb(70, 130, 180) !important; /* Ajusta al azul 'seaBlue' */
+}
+
+/* Links dentro de barras de progreso u otros elementos */
+.progress-bar a {
+  color: rgb(70, 130, 180) !important; /* Fuerza el color azul */
+}
+
+/* Iconos sociales */
+.social a i {
+  color: rgb(70, 130, 180); /* Ajusta el color de los iconos */
+}
+
+.social a:hover i {
+  color: rgb(100, 149, 237); /* Color más claro al pasar el ratón */
+}
+
+/* Enlaces en todo el sitio */
+a, a:visited {
+  color: rgb(70, 130, 180) !important; /* Azul 'seaBlue' */
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: rgb(100, 149, 237) !important; /* Azul más claro al pasar el ratón */
+  text-decoration: underline;
+}
+
+/* Estilo para la galería de fotos */
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.photo-item {
+  text-align: center; /* Centra el texto y las imágenes */
+}
+
+.photo-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Bordes redondeados opcionales */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.photo-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333; /* Color de texto */
+}

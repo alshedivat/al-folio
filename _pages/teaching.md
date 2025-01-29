@@ -1,12 +1,14 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+description:
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+##  Udergraduate course(s): 
+* TA of [Comparative Politics](https://aplicaciones.uc3m.es/cpa/generaFicha?est=305&plan=504&asig=16614&idioma=2) at UC3M. Fall 2023, 2024.
 
-Organize your courses by years, topics, or universities, however you like!
+  * Main prof. [Pedro Riera](https://pedro-riera.com/). Excellence in Teaching Award. 
+  * [Syllabus](/assets/pdf/syllabus_CP_24.pdf) for the seminar sessions.

@@ -1,11 +1,11 @@
 ---
-layout: page
-permalink: /others/
-title: Some other stuff
-nav: true
-nav_order: 7
+layout: default
+title: others
 ---
-Some pictures I have taken over the years sum up my passions, experiences, and whereabouts.
+
+## Other Photos
+
+Aquí hay algunas fotos adicionales con pequeñas descripciones.
 
 <div class="photo-gallery">
   <div class="photo-item">
@@ -18,7 +18,7 @@ Some pictures I have taken over the years sum up my passions, experiences, and w
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/3.jpg' | relative_url }}" alt="Foto 3">
-    <p>Ole, ole, ole: Cholo Simeone.</p>
+    <p>Descripción de la Foto 3.</p>
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/4.jpg' | relative_url }}" alt="Foto 4">
@@ -36,17 +36,4 @@ Some pictures I have taken over the years sum up my passions, experiences, and w
     <img src="{{ '/assets/img/7.jpg' | relative_url }}" alt="Foto 7">
     <p>Descripción de la Foto 7.</p>
   </div>
-  <div class="photo-item">
-    <img src="{{ '/assets/img/8.jpg' | relative_url }}" alt="Foto 7">
-    <p>Descripción de la Foto 8.</p>
-  </div>
-  <div class="photo-item">
-    <img src="{{ '/assets/img/9.jpg' | relative_url }}" alt="Foto 7">
-    <p>Descripción de la Foto 9.</p>
-  </div>
-  <div class="photo-item">
-    <img src="{{ '/assets/img/10.jpg' | relative_url }}" alt="Foto 7">
-    <p>Descripción de la Foto 10.</p>
-  </div>
 </div>
-

@@ -7,26 +7,47 @@ first_name: Jose
 #middle_name:
 last_name: Maycas-Sardi
 baseurl: "" # Deja vacío para trabajo local
-url: "" # Deja vacío para trabajo local
+url: "https://jmaycas.github.io" # URL completa de tu sitio
 contact_note: >
   The header photo is in Asunción, Paraguay, where my mom is from.
 
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+description: > # el símbolo ">" ignora los saltos de línea hasta "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: jekyll, jekyll-theme, academic-website, portfolio-website # agrega tus propias palabras clave o déjalo vacío
+lang: en # el idioma de tu sitio (por ejemplo: en, fr, cn, ru, etc.)
+icon: "favicon.ico"
+last_updated: false # Cambiar a true para mostrar la última actualización en el pie de página
+impressum_path: # Deja vacío si no necesitas este enlace en el pie
+back_to_top: true # Cambia a false para desactivar el botón "Volver arriba"
 
-url: "https://jmaycas.github.io"
-baseurl: ""
-# the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+
+# -----------------------------------------------------------------------------
+# Secciones del sitio
+# -----------------------------------------------------------------------------
+sections:
+  - name: "Home"
+    url: "/"
+  - name: "About"
+    url: "/about/"
+  - name: "Research" # Nueva sección
+    url: "/research/" # Enlace al archivo research.md
+  - name: "Other" # Nueva sección
+    url: "/others/" # Enlace al archivo research.md
+  - name: "Contact"
+    url: "/contact/"
+
+# -----------------------------------------------------------------------------
+# Configuración de Research
+# -----------------------------------------------------------------------------
+research:
+  data_file: "_data/research.yml" # Archivo YAML con los datos de investigación
+  layout: "research" # Layout específico (si aplica)
+  title: "Research Projects" # Título de la sección
+  description: "Explore my research projects, publications, and collaborations."
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -91,7 +112,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
+blog_name: jmaycas # al-folio # blog_name will be displayed in your blog page
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
@@ -147,25 +168,9 @@ newsletter:
 # Collections
 # -----------------------------------------------------------------------------
 
-collections:
-  news:
-    defaults:
-      layout: post
-    output: true
-    permalink: /:collection/:title/
   projects:
     output: true
     permalink: /:collection/:title/
-
-announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
