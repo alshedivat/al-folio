@@ -36,6 +36,9 @@
 - title: Continuing education
   type: time_table
   contents:
+    - title: Philosophy of Emergent Technologies, Pedagogy Workshop
+      institution: Washington University in St. Louis
+      year: 2025
     - title: Computational Neuroscience Summer Course
       institution: Neuromatch Academy
       year: 2024
