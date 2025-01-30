@@ -17,9 +17,11 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'jekyll-multiple-languages-plugin'
-    gem 'bundler', '~> 2.2'
+    gem 'uri', '~> 1.0.2'
 end
 group :other_plugins do
     gem 'httparty'
     gem 'feedjira'
 end
+
+gem 'bundler', '~> 2.2'
