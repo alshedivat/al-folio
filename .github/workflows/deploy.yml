@@ -11,6 +11,12 @@ on:
       - main
 
 jobs:
+  before_deploy:
+    runs-on: ubuntu-latest
+      gem update --system --force
+      gem install bundler
+      gem install uri
+      gem install logger
   deploy:
     runs-on: ubuntu-latest
     steps:
