@@ -38,20 +38,13 @@ nav_order: 3
 ## Work in Progress
 
 {% for project in site.data.work_in_progress %}
-<details>
-  <summary>
-    <strong>{{ project.title }}</strong>
-    {% if project.authors %}
-      with 
-      {% for author in project.authors %}
-        <a href="{{ author.url }}" target="_blank">{{ author.name }}</a>{% if forloop.last == false %}, {% endif %}
-      {% endfor %}
-    {% endif %}
-  </summary>
-  <p><em>{{ project.description }}</em></p>
-</details>
----
+- **{{ project.title }}**{% if project.authors %} with {% for author in project.authors %}<a href="{{ author.url }}" target="_blank">{{ author.name }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}. <em>{{ project.description }}</em>
 {% endfor %}
+
+
+
+
+
 
 
 

@@ -6,10 +6,15 @@
     - name: "Fernando de la Cuesta"
       url: "https://www.ucm.es/directorio?id=38051"
 
-- title: "From Fields to Fringe"
+- title: "From Fields to Fringe: An Experimental Approach to the Economic and Cultural Determinants of Rural Resentment"
   description: ""
+  authors:
+    - name: "Rebeca G-Antuña"
+      url: "https://www.uni-potsdam.de/en/vergleichende-politikwissenschaft/team/rebeca-g-antuna"    
+    - name: "Sílvia Claveria"
+      url: "https://www.silviaclaveria.com/inicio"
 
-- title: "Revealed Preferences"
+- title: "The Role of Elections in Shaping Social Norms and Identity Polarization"
   description: ""
 
 - title: "How Context Shapes Partisan Identification"

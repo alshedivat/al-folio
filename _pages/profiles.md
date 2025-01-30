@@ -10,43 +10,43 @@ Some pictures I have taken over the years sum up my passions, experiences, and w
 <div class="photo-gallery">
   <div class="photo-item">
     <img src="{{ '/assets/img/1.jpg' | relative_url }}" alt="Foto 1">
-    <p>Descripción de la Foto 1.</p>
+    <p>Trip to Hervás, Extremadura</p>
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/2.jpg' | relative_url }}" alt="Foto 2">
-    <p>Descripción de la Foto 2.</p>
+    <p>Andy and spaghetti</p>
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/3.jpg' | relative_url }}" alt="Foto 3">
-    <p>Ole, ole, ole: Cholo Simeone.</p>
+    <p>Ole, ole, ole: Cholo Simeone</p>
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/4.jpg' | relative_url }}" alt="Foto 4">
-    <p>Descripción de la Foto 4.</p>
+    <p>Missing Berta and Nadal at the research Mecca</p>
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/5.jpg' | relative_url }}" alt="Foto 5">
-    <p>Descripción de la Foto 5.</p>
+    <p>Firenze from San Miniato al Monte</p>
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/6.jpg' | relative_url }}" alt="Foto 6">
-    <p>Descripción de la Foto 6.</p>
+    <p>Alton with B</p>
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/7.jpg' | relative_url }}" alt="Foto 7">
-    <p>Descripción de la Foto 7.</p>
+    <p>Walking around</p>
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/8.jpg' | relative_url }}" alt="Foto 7">
-    <p>Descripción de la Foto 8.</p>
+    <p>Rossoneri e viola</p>
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/9.jpg' | relative_url }}" alt="Foto 7">
-    <p>Descripción de la Foto 9.</p>
+    <p>PhDing</p>
   </div>
   <div class="photo-item">
     <img src="{{ '/assets/img/10.jpg' | relative_url }}" alt="Foto 7">
-    <p>Descripción de la Foto 10.</p>
+    <p>At R's</p>
   </div>
 </div>
 
