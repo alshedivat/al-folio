@@ -32,4 +32,4 @@ Soy Sebastián Guzmán, estudiante de Magíster en Ingeniería Eléctrica en la 
   desde modelos generativos (como LLMs, VAEs y diffusion models) hasta técnicas de explicabilidad
    en IA (XAI), siempre buscando conectar la teoría con aplicaciones prácticas. He trabajado en proyectos
     tan diversos como diagnóstico de fallas, inteligencia artificial en astronomía, robótica móvil, análisis
-     de señales cerebrales (EEG), optimización agrícola con imágenes satelitales y desarrollo de agentes inteligentes.
+     de señales cerebrales (EEG), optimización agrícola con imágenes satelitales y desarrollo de agentes inteligentes..
