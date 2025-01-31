@@ -1,7 +1,1 @@
----
-permalink: /robots.txt
----
-User-agent: *
-Disallow:
-
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+User-agent: * Disallow: Sitemap: https://m4thinking.github.io//sitemap.xml
