@@ -30,7 +30,7 @@
   contents:
     - title: UW-Madison
       items:
-        - Theory - Topics in Cryptographic Proof Systems, Computational Complexity
+        - Theory - Topics in Cryptographic Proof Systems, Graduate Cryptography, Computational Complexity
         - Other - Machine Learning, Security and Privacy for Machine Learning, Introduction to Human-Computer Interaction
     - title: UC Santa Barbara
       items:
