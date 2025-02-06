@@ -1,6 +1,8 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
+# Navigate to ~/OneDrive/Desktop/Resumes/portfolio/nick1117.github.io in git bash
+# then, to edit, run: bundle exec jekyll serve --trace 
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name:  Nicholas
