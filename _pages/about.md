@@ -14,10 +14,12 @@ selected_papers: true
 social: true
 ---
 
-I'm a second year PhD student in economics at Boston University. My research focuses on economic history, political economy, development and growth. I'm interested in applying machine learning and text analysis methods to economic research.
+I am a second-year PhD student in economics at Boston University. My research focuses on development and growth, economic history and political economy, with a strong emphasis on computational and data-driven methods. Most of my work applies machine learning and text analysis to investigate complex economic questions.
 
-I hold a BSc and MA in economics from Universidad de los Andes. I previously
-worked as a predoctoral fellow at <a href="https://econ.columbia.edu/per/">PER</a>. I'm originally from  <a href="https://en.wikipedia.org/wiki/Monteria"> Montería</a>, Córdoba, Colombia.
+My joint work with Prof. Réka Juhász and Prof. Nathaniel Lane on <a href="https://papers.ssrn.com/sol3/Papers.cfm?abstract_id=4198209">measuring industrial policy</a> through text analysis has been featured in <a href="https://www.bloomberg.com/news/features/2023-07-25/global-subsidy-wars-force-us-allies-to-pay-up-for-chips-evs?in_source=embedded-checkout-banner">Bloomberg</a>,<a href="https://www.wsj.com/articles/this-part-of-bidenomics-needs-more-economics-2cea1641">The Wall Street Journal</a>, <a href="https://www.economist.com/special-report/2023/10/02/governments-across-the-world-are-discovering-homeland-economics">The Economist</a>, and other major outlets.
+
+Before my PhD, I earned a BSc and MA in economics from Universidad de los Andes and worked as a predoctoral fellow at the Program for Economic Research (<a href="https://econ.columbia.edu/per/">PER</a>) at Columbia University. I am originally from <a href="https://en.wikipedia.org/wiki/Monteria"> Montería</a>, Córdoba, Colombia.
+
 
 #### **Contact**
 
