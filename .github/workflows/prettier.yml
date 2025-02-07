@@ -19,8 +19,6 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Node.js ⚙️
         uses: actions/setup-node@v4
-        with:
-          node-version: '14'  # 你可以指定你需要的版本
       - name: Install Prettier 💾
         run: npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
       - name: Prettier Check 🔎
