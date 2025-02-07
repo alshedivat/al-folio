@@ -19,4 +19,3 @@ gem 'webrick', group: :jekyll_plugins
 gem 'httparty', group: :other_plugins
 gem 'feedjira', group: :other_plugins
 
-gem 'uri', '~> 1.0.2'
