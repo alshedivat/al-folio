@@ -235,7 +235,6 @@ $ bundle exec jekyll build
 which will (re-)generate the static webpage in the `_site/` folder.
 Then simply copy the contents of the `_site/` foder to your hosting server.
 
-
 **Note:** Make sure to correctly set the `url` and `baseurl` fields in `_config.yml` before building the webpage. If you are deploying your webpage to `your-domain.com/your-project/`, you must set `url: your-domain.com` and `baseurl: /your-project/`. If you are deploing directly to `your-domain.com`, leave `baseurl` blank.
 
 </details>
