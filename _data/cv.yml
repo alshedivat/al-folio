@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
 cv:
   name: Albert Einstein
   location: San Francisco, US
@@ -57,10 +58,13 @@ cv:
         icon: "fa-solid fa-envelope"
     publications:
       - title: "Zur Elektrody/namik bewegter K\xF6rper"
-        authors: ["Albert Einstein", "Hermann Minkowski"]
+        authors:
+          - "Albert Einstein"
+          - "Hermann Minkowski"
         date: "1905-06-30"
         url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        publisher: "[Annalen der Physik](https://onlinelibrary.wiley.com/journal/15213889)"
+        doi: https://doi.org/10.1002/andp.19053221004
+        journal: "[Annalen der Physik](https://onlinelibrary.wiley.com/journal/15213889)"
         summary: "It concerned an interpretation of the [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
       - title: "\xDCber einen die Erzeugung und Verwandlung des Lichtes betreffenden\
           \ heuristischen Gesichtspunkt"
@@ -86,6 +90,7 @@ cv:
       - name: "[Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)"
         start_date: "2018-01-01"
         end_date: "2019-09-01"
+        location: "Princeton, NY"
         summary: "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers."
         highlights: ["Quantum Teleportation", "Quantum Cryptography"]
       - name: "[Example Project](https://example.com)"
