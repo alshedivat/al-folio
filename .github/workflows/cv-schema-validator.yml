@@ -1,0 +1,13 @@
+name: YAML schema validator
+on: [push]
+
+jobs:
+  yaml-schema-validation:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout
+    - uses: nrkno/yaml-schema-validator-github-action@v5
+      with:
+        schema: https://raw.githubusercontent.com/rendercv/rendercv/refs/heads/main/schema.json
+        target: _data/cv.yml
+        no-strict: true
