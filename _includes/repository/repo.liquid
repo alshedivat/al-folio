@@ -21,9 +21,9 @@
     {% endcase %}
 
     {% comment %} Add a new language using when... if needed {% endcomment %}
+    {% comment %} If you still encounter language-display issues, check the available locale codes in github-readme-stats (different from ISO-639 standard used in your website) {% endcomment %}
+    {% comment %} https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
 {% endcase %}
-
-{% comment %} If you still encounter language-display issues, check the available locale codes in github-readme-stats (different from ISO-639 standard used in your website): https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
 
 {% if site.data.repositories.repo_description_lines_max %}
   {% assign max_lines = site.data.repositories.repo_description_lines_max %}
