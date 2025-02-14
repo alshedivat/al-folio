@@ -1,15 +1,21 @@
 {% assign lang = site.active_lang | split: '-' | first %}
-{% if lang == 'pt' %}
-  {% assign lang = site.active_lang %}
-{% endif %}
-{% if lang == 'zh' %}
-  {% assign lang_last = site.active_lang | split: '-' | last %}
-  {% if lang_last == 'cn' or lang_last == 'sg' or lang_last == 'my' or lang_last == 'hans' %}
-    {% assign lang = 'cn' %}
-  {% elsif lang_last == 'tw' or lang_last == 'hk' or lang_last == 'mo' or lang_last == 'hant' %}
-    {% assign lang = 'zh-tw' %}
-  {% endif %}
-{% endif %}
+
+{% case lang %}
+  {% when 'pt' %}
+    {% assign lang = site.active_lang %}
+
+  {% when 'zh' %}
+    {% assign lang_last = site.active_lang | split: '-' | last %}
+    {% case lang_last %}
+      {% when 'cn', 'sg', 'my', 'hans' %}
+        {% assign lang = 'cn' %}
+      {% when 'tw', 'hk', 'mo', 'hant' %}
+        {% assign lang = 'zh-tw' %}
+
+        {% comment %} when... add a new language here if needed {% endcomment %}
+    {% endcase %}
+{% endcase %}
+
 {% comment %} If you still encounter language-display issues, check the available locale codes in github-readme-stats (different from ISO-639 standard used in your website): https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
 
 <div class="repo p-2 text-center">
