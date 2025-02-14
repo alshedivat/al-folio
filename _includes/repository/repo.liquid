@@ -5,6 +5,26 @@
   {% assign show_owner = true %}
 {% endif %}
 
+{% assign lang = site.lang | split: '-' | first %}
+
+{% case lang %}
+  {% when 'pt' %}
+    {% assign lang = site.lang %}
+
+  {% when 'zh' %}
+    {% assign lang_last = site.lang | split: '-' | last %}
+    {% case lang_last %}
+      {% when 'cn', 'sg', 'my', 'hans' %}
+        {% assign lang = 'cn' %}
+      {% when 'tw', 'hk', 'mo', 'hant' %}
+        {% assign lang = 'zh-tw' %}
+    {% endcase %}
+
+    {% comment %} Add a new language using when... if needed {% endcomment %}
+{% endcase %}
+
+{% comment %} If you still encounter language-display issues, check the available locale codes in github-readme-stats (different from ISO-639 standard used in your website): https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
+
 {% if site.data.repositories.repo_description_lines_max %}
   {% assign max_lines = site.data.repositories.repo_description_lines_max %}
 {% else %}
@@ -16,12 +36,12 @@
     <img
       class="only-light w-100"
       alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
     >
     <img
       class="only-dark w-100"
       alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
     >
   </a>
 </div>
