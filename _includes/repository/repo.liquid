@@ -9,7 +9,7 @@
 
 {% case lang %}
   {% when 'pt' %}
-    {% assign lang = site.active_lang %}
+    {% assign lang = site.lang %}
 
   {% when 'zh' %}
     {% assign lang_last = site.lang | split: '-' | last %}
@@ -18,7 +18,7 @@
         {% assign lang = 'cn' %}
       {% when 'tw', 'hk', 'mo', 'hant' %}
         {% assign lang = 'zh-tw' %}
-        
+
     {% endcase %}
 {% endcase %}
 
