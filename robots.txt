@@ -1,7 +1,1 @@
----
-permalink: /robots.txt
----
-User-agent: *
-Disallow:
-
-Sitemap: {{ site.baseurl | prepend: site.url }}/sitemap.xml
+User-agent: * Disallow: Sitemap: https://alshedivat.github.io/al-folio/sitemap.xml
