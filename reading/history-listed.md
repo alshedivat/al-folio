@@ -24,6 +24,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 2000 BCE: Babylonian base-60 place-value number system appear
 - 1900 BCE - 1600 BCE: dates of many astronomical cuniform tablets
 - 1792 BCE - 1750 BCE: Reign of Hammurabi, Babylonian king
+- 1650 BCE: The Rhind Papyrus approximates the area of a unit circle as $$4 (8/9)^2$$.
 - 1600 BCE: date of the Edwin Smith Papyrus, Egyptian surgical text
 - 1600 BCE: The Babylonians use spaces to indicate missing places in theri place value statement
 - 1600 BCE: Shang Dynasty in China starts
@@ -76,6 +77,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 287 BCE - 212 BCE: Archimedes active -- develops mathematics, physics
 - 287 BCE: Lex Hortensia, gives decisions of the plebeian council the force of law
 - 264 BCE - 146 BCE: Punic Wars between Rome and Carthage
+- 240 BCE: Archimedes shows that $$\pi$$ is between $$3 \frac{10}{71}$$ and $$3 \frac{10}{70}$$.
 - 221 BCE: Qin Dynasty unifies China, starts the Great Wall
 - 212 BCE: Rome conquers Syracuse
 - 212 BCE: Archimedes killed by Roman soldier in siege of Syracuse
@@ -84,6 +86,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 133 BCE - 121 CE: Gracchi Reforms, Tiberius and Gaius attempt law reforms
 - 107 BCE - 78 BCE: Marius and Sulla reform the army and politicla system
 - 100 BCE - 44 BCE: Julius Caesar active -- conquers Gaul, civil war, dictator
+- 100 BCE: The Chinese *Nine Chapters on Mathematical Art* is written, containing similar notation for fractions to our contemporary one
 - 99 BCE - 55 BCE: Lucretius active, revives Epicureanism with political dimensions
 - 59 BCE: Florence established by Romans as a colony for veteran soldiers
 - 59 BCE - 44 BCE: Rise of Julius Caesar
@@ -118,6 +121,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 117: Hadrian becomes emporer of Roman Empire
 - 129 - 216: Galen active -- develops medicine, anatomy
 - 150: Ptolemy publishes *Almagest* ("The Greatest")
+- 150: Ptolemy uses $$377 / 120$$ for $$\pi$$
 - 155 - 220: Tertullian active -- "What has Athens to teach Jerusalem?"
 - 161 - 180: Marcus Aurelius becomes emporer of Roman Empire
 - 170: Marcus Aurelius writes *Meditations*
@@ -137,7 +141,9 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 476: "Middle Ages" / "Dark Ages" / "Medeilval Period" begins
 - 480 - 524: Boethius active, establishes the seven liberal arts
 - 480 - 547: Benedict of Nursia active, establishes monasticism
+- 480: Zu Chongzhi uses $$355/113$$ to approximate $$\pi$$
 - 490 - 585: Cassiodorus active, establishes monastic handbook
+- 500: Aryabhata uses $$62832/20000$$ for $$\pi$$.
 - 537: Siege of Rome by Ostrogoths during GOTHIC WAR
 - 570: Muhammad born, prophet of Islam
 - 581 - 618: Sui Dynasty
@@ -147,6 +153,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 618 - 907: Tang Dynasty in China
 - 636: Isidore of Selville dies, "last scholar of the ancient world"
 - 697: First Doge of Venice, Paolo Lucio Anafesto, elected; Republic of Venice established
+- End of the 7th century: Brahmagupta starts to recognize and work with negative quantities, treating them as debts and doing arithmetic with them, yet still not allowing negative solutions to equations
 - 8th century: Islamic "Golden Age" begins
 - 732: Battle of Tours, Charles Martel defeats Muslim forces
 - 735: "The Venerable Bede" dies, monasterial intellectual tradition
@@ -155,6 +162,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 800: Charlemagne crowned Holy Roman Emperor by Pope Leo III, reviving the Roman Empire concept
 - 9th century: emergence of "cathedral schools" for training preists and clerics, teaching the trivium (grammar, rhetoric, logic) and quadrivium (arithmetic, geometry, music, astronomy)
 - 9th century: Mahavira declares that $$n \cdot 0 = 0$$ and $$n - 0 = n$$, claiming $$n / 0 = n$$; Bhaskara II later proposes that $$n / 0 = \infty$$. Arabs adopt the Indian system during Islamic expansion into India, using "sifr" for zero
+- 850: Mahavira introduces the "invert and multiply" rule for dividing fractions
 - 10th century: erbert d'Aurillac (Pope Sylvester II) visits Spain to lain mathematics and reorganizes the cathedral school in Rheims, France to introduce the study of arithmetic and geometry, using Hindu-Arabic numerals
 - 907 - 960: Five Dynasties and Ten Kingdoms period in China
 - 960 - 12279: Song Dynasty in China
@@ -167,6 +175,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1096: evidence of teaching at Oxford
 - 1096 - 1291: First Crusade initiated by Pope Urban II to capture Jerusalem and the Holy Land from Muslim control
 - 12th century: Al-Khwarizmi's works introduce zero to Europe
+- 12th century: Arbs insert a horizontal bar between top and bottom numbers in fractions
 - 1100 - 1156: Thierry of Chartres active -- develops metaphysics, theology, neo-Platonism
 - 1145: Translation of Al-Khwarizmi's algebra book by Robert of Chesta
 - 1115: Florentine Republic established
@@ -220,6 +229,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 15th century: Artists explore perspective, leading to mathematical insights
 - 1500: start of the "Early Modern Period"
 - 16th century: printing of Luca Pacioli's *Summa de arithmetica, geometria, proportioni et proportionalita* (Venice, 1494) introduces double-entry bookkeeping, early work on algebraic notation by European "cossists"
+- 16th century: porminent mathematicians like Cardano, VIete, and Stifel reject negative numbers, calling them fictiious or absurd
 - 1500s: Discovery of methods for solving cubic equations by Sciopione del Ferro, Niccolo Tartaglia, and Gerolamo Cardano
 - 1501 - 1504: Michelangelo sculpts *David* in Florence
 - 1506: Construction begins on St. Peter's Basilica under Pope Julius II
@@ -243,6 +253,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1557: Robert Recorde introduces the equality symbol =, explaining it as "no two things can be more equal than parallel lines", writing "5 + 6 - 7 = 4" to represent 5 + 6 - 7 = 4
 - 1561 - 1626: Francis Bacon active -- develops empiricism, inductive reasoning, experimental method
 - 1570s: Francois Viete is active, introducing systematic algebraic notation with vowels for unknowns and consonants for knowns, pursues equidimensionality in algebraic quantities, links Greek analysis to algebra, and promotes algebra as a field
+- 1585: Simon Stevin publishes *The Tenth*, introduces decimal fractions, contributes to the acceptance of irrationals and transcendentals as numbers
 - 1596 - 1650: Rene Decartes active, advancing algebraic notation, developing coordinate geometry
 - 1598 - 1647: Bonaventura Cavalieri active -- develops the "principle of indivisibles", considering planar regions as infinite sets of parallel lines, computing areas of curved figures
 - Late 16th century: Elizabethan government grants patents for inventions
@@ -257,6 +268,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1643 - 1727: Isaac Newton active -- develops calculus, physics, optics, gravity
 - 1664 - 1912: Qing Dynasty in China
 - 1651: Thomas Hobbes writes *Leviathan*
+- 1655: John Wallis argues in *Arithmetica Infinitorum* that negative numbers are larger than infinity, since 3/0 is infinite and 3/-1 = -3 should be larger
 - 1660: Royal Society of London founded
 - 1677: Baruch Spinoza's *Ethics* published
 - Late 1600s: Isaac Newton an Gottfried Wilhelm Leibniz independently develop calculus, Newton using "fluxions" and Leibniz using "infinitesimals"
@@ -266,9 +278,12 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - Early 1700s: parentheses become standard for grouping terms in arithmetic expressions, promoted by Leibniz, the Bernoullis, and Euler
 - 1713: Treaty of Utrecht transfers Italian territories to Austrian Hapsburgs
 - 1725  - 1783: Leonhard Euler active -- advances calculus and applies to a variety of contexts, develops the concept of functions, introduces a lot of modern matehmatical notation, pioneered graph theory
+- 1730s: Euler adopts symbol $$\pi$$ for the ratio of the circumference of a circle to its diameter, which becomes standard by the end of the century
 - 1734: George Berkeley publishes *The Analyst*, criticizing the foundations of calculus, calling Newton's and Leibniz's methods "ghosts of departed quantities"; Jean le Rond d'Alembert encourages faith in calculus, "Persist, and faith will come"
 - 1762: Jean-Jacques Rousseau writes *The Social Contract*
+- 1765: Johann Lambert proves that $$\pi$$ is an irrational number
 - 1770s - 1827: Pierre-Simon Laplace is active, writing extensively on celestial mechanics and probability
+- 1770: Euler demonstrates comfort over dealing with negative quantities, published in *Elements of Algebra*
 - 1775 - 1783: American Revolutionary War
 - 1781: Immanuel Kant writes *Critique of Pure Reason*
 - 1789: French Revolution begins, Declaration of the Rights of Man; influences mathematics and education with emphasis on technical education to create a skilled middle class
@@ -297,14 +312,18 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1825: France forces Haiti to pay crippling reparations for independence
 - 1830: France invades and colonizes Algeria
 - 1831 - 1861: Resurgence movement aims to unify Italy under a single state
+- 1831: British logician Augustus De Morgan writes that imaginary and negative expressions are equally imaginary / inconsistent / absurd
 - 1832: Evariste Galois develops Galois theory, linking group theory and algebraic equations.
 - 1833: Abolition of slavery in British colonies
 - 1839: Beginning of Tanzimat reforms in the Ottoman Empire
+- 1839 - 1842: First Opium War between UK and China
 - 1843: Soren Kierkegaard writes *Fear and Trembling*
 - 1846 - 1848: Mexican-American War (US annexes Texas, California, etc.)
 - 1848 - 1849: Revlutions across Italy push for unification and liberal reforms
 - 1848: Karl Marx and Friedrich Engels write *The Communist Manifesto*
+- 1850 - 1864: Taiping Rebellion in China against the Qing Dynasty
 - 1856: Imperial Reform Decree in the Ottoman Empire
+- 1856 - 1860: Second Opium War between UK and China
 - 1857 - 1858: Indian Rebellion (Sepoy Mutiny) against British rule
 - 1858: Ottoman land reform enabling private land sales
 - 1859: The Riemann Hypothesis is proposed by Bernhard Riemann
@@ -318,19 +337,25 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1871: Rome is declared the capital of Italy
 - 1871: Mokrani revolt in Algeria against French rule by Algerian Berbers an Arabs
 - 1872: Jerusalem designated as an independent Ottoman district
+- 1873: William Shanks computes a decimal value of $$\pi$$ to 607 places, taking him more than 15 years.
 - 1879 - 1884: Georg Cantor develops set theory, introducing the concept of infinite sets and cardinality
 - 1880s: porgroms in Russia lead to Jewish emigration to the US and Palestine
 - 1882 - 1903: First Aliyah to Palestine from Eastern Europe and Yemen motivated by Zionism and persecution
 - 1882: Italy joins the Triple Alliance with Germany and Austria-Hungary
 - 1883: Friedrich  Nietzsche writes *Thus Spoke Zarathustra*
 - 1884 - 1885: The Scramble for Africa, Europeans divide Africa at Berlin Conference
+- 1894 - 1896: First Sino-Japanese War, Japan emerges as a colonial power
 - 1886: Friedrich Nietzsche writes *Beyond Good and Evil*
 - 1888: Richard Dedekind formalizes arithmetic, publishing "Was sind und was sollen die Zahlen?" (What are numbers and what should they be?)
 - 1889: Giuseppe Peano publishes the Peano axioms for arithmetic
 - 1890: Eritrea becomes an Italian colony
+- 1893: Mao Zedong is born in Hunan Province, China to a peasant family
+- 1895: Japan takes Taiwan from China
 - 1896: Italy suffers a humiliating defeat in Ethiopia trying to colonize it
+- 1898: "100 Days of Reform" in China, attempt to modernize and reform the Qing Dynasty, fails
 - 1898: Spanish-American War (US annexes Philippines, Guam, Puerto Rico)
 - 1899: Philippine-American War
+- 1899: The *Communist Manifesto* is first translated into Chinese
 - 1900: Hilbert's 23 problems are presented at the International Congress of Mathematicians in Paris
 - 1900: Boxer Rebellion in China against foreign influence
 - 1901: Australia becomes a federation within the British Empire
@@ -338,18 +363,31 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1904 - 1905: Russo-Japanese War, Japan emerges as colonial power
 - 1905: Partition of Bengal by British
 - 1907: Peak of Second Boer War, British consolidate control over South Africa
+- 1908: Empress Dowager Cixi dies, leaves the two-year-old Puyi as emperor
 - 1910: Bertrand Russell and Alfred North Whitehead write *Principia Mathematica*
-- 1910: Japan annexes Korea
-- 1911: Chinese Revolution overthrows Qing Dynasty
+- 1910: Japan annexes Korea as a colony
+- 1911: Wuchang Uprising in China, beginning of the Xinhai Revolution
+- 1911: Xinhai Revolution overthrows Qing Dynasty
+- 1912: Sun-Yat Sen voted provincial president of Republic of China
+- 1912: The Kuomintang (Guomindang) is founded by Sun Yat-Sen
+- 1913: Yuan Shikai becomes president of Republic of China
+- 1913: Song Jiaoren, leader of the Guomindang, is assassinated supposedly by Yuan Shikai
 - 1914 - 1918: World War I
+- 1914: Sun Yat-Sen organizes the new Chinese Revolutionary Party
 - 1915 - 1934: US occupation of Haiti
 - 1915: Italy enters WWI on the Allies' side, hoping to gain territory
 - 1915 - 1916: McMahon-Hussein Correspondence, British promise of Arab independence
+- 1915: Chen Duxiu founds the influential journal *New Youth*
+- 1915: Japan gives Yuan Shikai the "Twenty-One Demands", increasing Japanese influence in China
+- 1915: New Culture Movement in China, promoting Western-style modernization and democracy
 - 1916: Sykes-Picot Agreement, British and French carve up the Middle East
+- 1916: Yuan Shikai dies, starts Warlord Era in China
 - 1916: Easter Rising in Ireland against British rule
+- 1916 - 1918: 150k Chinese contract workers sent to work in Europe
 - 1917: Russian Revolution; Bolsheviks take power and establish Soviet Union
 - 1917: Balfour Declaration, British support for a Jewish homeland in Palestine
 - 1917: British fofrces capture Palestine from the Ottomans
+- 1917: Sun Yat-Sen fails to re-establish the Republic of China
 - 1919: League of Nations Convenant Article 22 establishes Mandate system
 - 1919 - 1923: Third Aliyah to Palestine, supporte by Balfour Declaration
 - 1919: Treaty of Versailles establishes League of Nations manates
@@ -357,41 +395,80 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1920: Gandhi launches non-cooperation movement in India
 - 1920: San Remo Resolution applies the mandate system to Palestine and incorporates the Balfour declaration
 - 1920: Nabi Musa riots in Jerusalem, Haycraft commission investigates
+- 1920: Mao Zedong talks with Chen Duxiu and is convinced by communism
+- 1920 - 1921: Famine in China under warlord rule, kills ~0.5 million
+- 1921 - 1922: The episodic novella The True Story of Ah Q is published by Lu Xun, the first time vernacular Chinese is used in literature, criticizing Chinese people and their revolutionary leaders
+- 1921: Comintern agent Grigorii Vointinsky helps facilitate a meeting in the French Concession of Shanghai that establishes the Chinese Communist Party
+- 1921: Mao Zedong becomes a founding member of the Chinese Communist Party
 - 1921: Attack on the Hadassah house in Hebron
 - 1922: Palestine mandate document finalized
 - 1922: Benito Mussolini and Fascist Party rise to power
 - 1922: Irish Free State established under Anglo-Irish treaty, Northern Ireland remains part of UK
 - 1923: Ottoman Sultanate abolished, Turkey becomes a republic
+- 1923: Chiang Kai-Shek helps Sun Yat-Sen escape assassination by a local warlord
+- 1923: the First United Front is formed between the Guomindang and the Chinese Communist Party
 - 1923: The Mathematical Association of America recommends abandoning ÷ and : for division in favor of fractional notation
 - 1923: Palestine mandate comes into effect
 - 1924 - 1929: Fourth Aliyah to Palestine, middle-class Jews from Poland and Hungary
+- 1924: Sun Yat-Sen dies, split opens in the United Front between Chiang Kai-Shek and Wang Jingwei
+- 1925: May Thirtieth Incident in Shanghai when police fire on protesters, killing 9, sparks anti-imperialist movement
+- 1925: "White Terror" in China, Chiang Kai-Shek purges communists and United Front breaks down
+- 1926: Mao Zedong writes the “Analysis of the Classes in Chinese Society”, asserting that peasants are a semi-proletariat
 - 1927: Martin Heidegger writes *Being and Time*
+- 1927: Chiang Kai-Shek and the Nationalists (Guomindang) take over Shanghai and establish capital in Nanjing, beginning of the "Nanjing decade"
+- 1927: Mao Zedong writes the “Report on an Investigation of the Peasant movement in hunan”, asserting that violence is necessary to purge China of centuries of oppression
+- 1928 - 1930: Famine in China under warlord rule, kills ~3 millionh
 - 1929: Wall Street Crash, beginning of the Great Depression
 - 1929 - 1939: Fifth Aliyah, Jews escaping anti-Semitism in Europe and Nazis in Germany
+- 1929: Strike by Beijing rickshaw pullers
 - 1929: Western Wall / Al-Buraq riots; Shaw commission investigates
 - 1929: Lateran Treaty establishes Vatican City
 - 1930: Gandhi leads the Salt March
 - 1930s: A group of young mathematicians writing under the pseudonym Bourbaki writes a series of textbooks on modern mathematics, the *Elements of Mathematics*
+- 1930: Chiang Kai-shek attempts to eliminate the Communist presence in China with encirclement campaigns
 - 1931: Statute of Westminster grants autonomy to British dominions (Canada, Australia, South Africa)
+- 1931: Japan invades Manchuria, Chiang Kai-Shek refuses to fight
 - 1931: Kurt Godel publishes his incompleteness theorems
+- 1932: An anti-Japanese mob kills a Japanese monk in Shanghai, prompting Japanese arial bombing; over 20k are killed in the one-month conflict
 - 1933: Hitler becomes Chancellor of Germany
+- 1933: Chiang Kai-Shek launches fourth and fifth encirclement campaigns against the Communists
+- 1934: Chiang Kai-Shek launches the "New Life Movement" to simultaneously promote Confucianism, Christianity, and fascism
+- 1934: Chinese Communists start the long march to escape Nationalist forces
 - 1934 - 1948: Aliyah Bet, illegal Jewish immigration to Palestine
 - 1935: Izz al-Din al-Qassam is killed by British forces, becomes a symbol of Palestinian resistance (even until today)
 - 1935: Italian invasion of Ethiopia under Mussolini
+- 1935: Chinese Communists reach Yan'an, establish base
+- 1935: December Ninth demonstrations by Beijing students protesting Chiang Kai-Shek's civil war with the communists and refusal to fight Japan
 - 1936: Arab Revolt against British rule and Zionist expansion
+- 1936: Chiang Kai-shek flies to Xi'an to destroy the Communist base in Yan'an but is held hostage by Zhang Xueliang to form a second United Front to fight Japan
 - 1937: Peel Commission investigates 1936 Arab Revolt and recommends partition
-- 1937: Second Sino-Japanese War begins
+- 1937: Second Sino-Japanese War begins when Japan launches a full-scale invasion of China
+- 1937: "Black Saturday" --- 1000 people killed in Shanghai
+- 1937: The "Rape of Nanking" by Japanese forces
+- 1938: Chinese unified front breaks dams on the Yellow River to slow the Japanese advance, killing 500k locals either due to drowning or starvation
 - 1939: White Paper limits Jewish immigration into Palestine
 - 1939: Italy signs Pact of Steel with Germany
 - 1939 - 1945: World War II
+- 1940: Japan allows Wang Jingwei to establish a puppet government in Nanjing
 - 1941: Amin al-Husseini, Grand Mufti of Jerusalem, meets with Adolf Hitler in Berlin
+- 1941: Japan attacks Pearl Harbor, US enters WWII
 - 1942: Biltmore Conference in New York calls for a Jewish state in Palestine
+- 1942: Japanese attack Burma
+- 1942: Chiang Kai-shek meets with Mohatma Gandhi in India
+- 1942: Henan famine in China, 2-3 million people die
+- 1942: Mao begins the Rectification Movement
 - 1943: Mussolini deposed, Italy surreners to Allies
 - 1943: Jean-Paul Sartre writes *Being and Nothingness*
 - 1944: Assassination of Lord Moyne by the Stern Gang, extremist Zionist group
+- 1944: Japanese launch Operation Ichigo
 - 1944: Rome is liberated by Allied forces during WWII
+- 1944: Wang Jingwei dies
+- 1945: Roosevelt dies on April 12, Truman becomes president
+- 1945: Hiroshima and Nagasaki atomic bombings on August 6 and 9
+- 1945: Mao Zedong visits Chongqing to negotiate with Chiang Kai-Shek in August
 - 1945: End of World War II, establishment of the United Nations, beginning of the Cold War
 - 1945: Setif and Guelma Massacres, French forces kill thousands of protesting Algerians
+- 1945: Taiwan is returned to China from Japan
 - 1946: Italians vote in referendum to abolish monarchy, establishing Italian Republic
 - 1946: Anglo-American Committee of Inquiry investigates Jewish-Arab conflict
 - 1947: Exodus steamship carrying Jewish refugees is returned to Germany
@@ -400,11 +477,15 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1947: Theodor Adorno and Max Horkheimer write *Dialectic of Enlightenment*
 - 1948: Deir Yassin massacre by Irgun and Lehi, Jewish paramilitary groups
 - 1948: Apartheid established in South Africa
+- 1948: Communist forces surround the Chinese cities Shenyang and Changchun
 - 1948: Israel declares independence on May 14
 - 1948: British Mandate ends; Arab-Israeli War begins May 15
 - 1949: Indonesian independence recognized by Netherlands after armed struggle
 - 1949: Simone de Beauvoir writes *The Second Sex*
+- 1949: John von Neumann uses the ENIAC computer to work out $$\pi$$ to 2035 decimal places
 - 1949: Armistic agreements signed, forming Green Line
+- 1949: Beijing, Nanjing, Shanghai, Wuhan, and Hangzhou fall to the Communists
+- 1949: Mao Zedong declares the People's Republic of China on October 1
 - 1950 - 1953: Korean War
 - 1950: Israel passes Absentee Property Law which allows confiscation of Palestinian property, and Preventing Infiltration Law which allows expulsion of Palestinians, denies right of return to Palestinians expelled during the 1948 war
 - 1951: King Abdullah of Jordan is assassinated at Al-Aqsa Mosque for perceived collaboration with Israelis
@@ -490,6 +571,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1982: Sabra and Shatila Massacres under Israeli watch and support
 - 1983: Invasion of Grenada by US
 - 1987: First Intifada begins in Gaza and West Bank
+- 1987: Yasumasa Kanada works out $$\pi$$ to 134217000 decimal places.
 - 1988: Hamas founded as offshoot of the Muslim Brotherhood
 - 1989: Invasion of Panama by US
 - 1990 - 1991: Gulf War
