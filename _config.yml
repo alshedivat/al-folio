@@ -171,7 +171,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+include: ["_pages"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -184,9 +184,6 @@ exclude:
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
-  - lighthouse_results/
-  - package.json
-  - package-lock.json
   - _pages/about_einstein.md
   - purgecss.config.js
   - README.md

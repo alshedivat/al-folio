@@ -1061,7 +1061,6 @@ $ti-icon-building-factory: unicode('ee1c');
 $ti-icon-building-factory-2: unicode('f082');
 $ti-icon-building-fortress: unicode('ed89');
 $ti-icon-building-hospital: unicode('ea4d');
-$ti-icon-building-lighthouse: unicode('ed8a');
 $ti-icon-building-minus: unicode('10061');
 $ti-icon-building-monument: unicode('ed26');
 $ti-icon-building-mosque: unicode('fa57');
@@ -5945,7 +5944,6 @@ $ti-icon-zzz-off: unicode('f440');
 .#{$ti-prefix}-building-factory-2:before { content: $ti-icon-building-factory-2; }
 .#{$ti-prefix}-building-fortress:before { content: $ti-icon-building-fortress; }
 .#{$ti-prefix}-building-hospital:before { content: $ti-icon-building-hospital; }
-.#{$ti-prefix}-building-lighthouse:before { content: $ti-icon-building-lighthouse; }
 .#{$ti-prefix}-building-minus:before { content: $ti-icon-building-minus; }
 .#{$ti-prefix}-building-monument:before { content: $ti-icon-building-monument; }
 .#{$ti-prefix}-building-mosque:before { content: $ti-icon-building-mosque; }
