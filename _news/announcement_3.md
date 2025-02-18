@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-02-02
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I have started a new position as a PreDoc researcher at the [HPC Research Group](https://hpc.ec.tuwien.ac.at/) at [TU Wien](https://www.tuwien.at/).

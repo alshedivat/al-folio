@@ -1,34 +1,27 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"brandic":
+  - firstname: ["Ivona"]
+    url: https://www.ec.tuwien.ac.at/~ivona
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"ilager":
+  - firstname: ["Shashikant"]
+    url: https://shashikantilager.com
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"filzmoser":
+  - firstname: ["Peter"]
+    url: https://cstat.tuwien.ac.at/filz/
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"bonelli":
+  - firstname: ["Johannes"]
+    url: https://www.imabe.org/johannesbonelli
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"prat":
+  - firstname: ["Enrique H."]
+    url: https://www.imabe.org/enriqueprat
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"kummer":
+  - firstname: ["Susanne"]
+    url: https://www.imabe.org/susannekummer
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"tundo":
+  - firstname: ["Alessandro"]
+    url: https://alessandrotundo.me/
