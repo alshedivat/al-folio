@@ -2,31 +2,75 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Daniel May
     - name: Date of Birth
-      value: 14th March 1879
+      value: 14th December 1997
     - name: Languages
-      value: English, German
+      value: English (fluent), German (native)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    
+    - title: Dr.techn. (equivalent to PhD), Informatics
+      institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
+      year: 2025 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Working on AI and sustainability, exploring energy-efficient computing and optimization techniques in high-performance and edge AI systems.
+        - "Advisor: <a href='https://www.ec.tuwien.ac.at/~ivona/index.html'>Prof. Ivona Brandić</a>"
+
+    - title: Dipl.-Ing. (equivalent to MSc), Business Informatics
+      institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
+      year: 2021 - 2025
       description:
-        - Description 1.
-        - Description 2.
+        - "Average grade: 1.1 (1 = best, 5 = worst)"
+        - title: Focus
+          contents: 
+            - Data analytics
+            - Management science
+            - Economic modeling
+        - "Thesis: Neural network splitting for energy-efficient Edge-AI"
+        - "Advisor: <a href='https://www.ec.tuwien.ac.at/~ivona/index.html'>Prof. Ivona Brandić</a>"
+        - "Co-Advisor: <a href='https://shashikantilager.com/'>Shashikant Ilager</a>"
+    
+    - title: <a href="https://informatics.tuwien.ac.at/bachelor-with-honors/">Bachelor with Honors</a>, Informatics
+      institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
+      year: 2020 - 2022
+      description:
+        - "Average grade: 1.1 (1 = best, 5 = worst)"
+        - title: Focus
+          contents: 
+            - Data analytics
+            - Management science
+            - Economic modeling
+        - "Mentor: <a href='https://informatics.tuwien.ac.at/people/christian-huemer'>Prof. Christian Huemer</a>"
+    
+    - title: BSc, Software & Information Engineering
+      institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
+      year: 2018 - 2021
+      description:
+        - "Average grade: 1.0 (1 = best, 5 = worst)"
+        - title: Focus
+          contents: 
+            - Mathematics, Statistics and Theoretical Computer Science
+            - Algorithms and programming
+            - Computer science and society
+        - "Thesis: Prediction of End-of-Life Stages using Random Forests"
+        - "Advisor: <a href='https://cstat.tuwien.ac.at/filz/'>Prof. Peter Filzmoser</a>"
+
+    - title: Higher Technical Diploma, Information Technology
+      institution: <a href="https://www.tgm.ac.at/">Technologisches Gewerbemuseum</a>, Vienna, Austria
+      year: 2012 - 2017
+      description:
+        - "Average grade: 1.0 (1 = best, 5 = worst)"
+        - title: Focus
+          contents: 
+          - Software Development
+          - Distributed Systems
+          - Applied Maths
+        - Best student of the school 2017, honoured with an average grade of 1.00 over all courses of all five years.
+        - "Diploma work: Physical Authentication System (focus on facial recognition)"
+
 
 - title: Experience
   type: time_table

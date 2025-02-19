@@ -11,8 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to the personal website of Daniel May. I am a PhD student at TU Wien, Austria. My research focuses on artificial intelligence. I am particularly interested in energy-efficiency and sustainability. I am passionate about research and I am always looking for new challenges. Feel free to contact me if you have any questions or if you would like to collaborate.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  
 keywords: machine learning, artificial intelligence, split computing, energy-efficieny, sustainability, phd, research, computer science # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -348,7 +347,7 @@ max_author_limit: # leave blank to always show all authors
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
-enable_publication_thumbnails: false
+enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes

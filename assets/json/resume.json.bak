@@ -1,18 +1,15 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Daniel May",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "Passionate about AI and sustainability, I blend software engineering, data analytics, and business insights to optimize computing for efficiency and impact. Now pursuing my PhD at TU Wien’s HPC Research Group, I focus on AI and energy-efficient computing.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Favoritenstraße 9-11",
+      "postalCode": "1040",
+      "city": "Vienna",
+      "countryCode": "AT",
+      "region": "Vienna"
     },
     "profiles": [
       {
