@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Room HE 02 16</p>
-    <p>Favoritenstraße 9-11, 2nd floor</p>
+    <p>Favoritenstraße 9-11</p>
     <p>1040 Vienna, Austria</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
