@@ -59,7 +59,7 @@
         - "Advisor: <a href='https://cstat.tuwien.ac.at/filz/'>Prof. Peter Filzmoser</a>"
 
     - title: Higher Technical Diploma, Information Technology
-      institution: <a href="https://www.tgm.ac.at/">Technologisches Gewerbemuseum</a>, Vienna, Austria
+      institution: <a href="https://www.tgm.ac.at/">Technologisches Gewerbemuseum (TGM)</a>, Vienna, Austria
       year: 2012 - 2017
       description:
         - "Average grade: 1.0 (1 = best, 5 = worst)"
@@ -75,67 +75,72 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: PreDoc Researcher
+      institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
+      year: 02/2025 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - I am part of the <a href="https://hpc.ec.tuwien.ac.at/">HPC Research Group</a> led by <a href="https://www.ec.tuwien.ac.at/~ivona/index.html">Prof. Ivona Brandić</a>. 
+        - My research focuses on sustainability in AI, exploring energy-efficient computing and optimization techniques in high-performance and edge AI systems.
+    
+    - title: Research Assistant
+      institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
+      year: 02/2024 - 01/2025
+      description: 
+          - I am part of the <a href="https://hpc.ec.tuwien.ac.at/">HPC Research Group</a> led by <a href="https://www.ec.tuwien.ac.at/~ivona/index.html">Prof. Ivona Brandić</a>. 
+          - My research focuses on energy-efficient computing and optimization techniques edge AI systems.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Software Engineer
+      institution: <a href="https://mycts.at/">myCTS</a>, Austria
+      year: 01/2020 - present
+      description: 
+        - "Developing and maintaining customized software solutions with <a href='https://www.intersystems.com/'>Intersystems</a>."
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Data Engineer
+      institution: <a href="https://www.technologe.at/">Alumni Club of TGM</a>, Austria
+      year: 09/2017 - 12/2019
+      description: 
+        - "Database Maintenance & Engineering, Website Maintenance, Software Development"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Paramedic (Civilian Service)
+      institution: <a href="https://www.roteskreuz.at/home">Austrian Red Cross</a>, Austria
+      year: 08/2017 - 06/2018
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: IT Support Assistant (Internship)
+      institution: <a href="https://www.omv.at/de">OMV</a>, Austria
+      year: 07/2015
+    
+    - title: IT Assistant (Internship)
+      institution: <a href="https://www.artech.at/">A&R TECH</a>, Austria
+      year: 07/2014
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+    - title: IT Assistant (Internship)
+      institution: <a href="https://www.artech.at/">A&R TECH</a>, Austria
+      year: 07/2013
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items:
+#         - Nobel Prize in Physics
+#         - Matteucci Medal
+#     - year: 2029
+#       items:
+#         - Max Planck Medal
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
