@@ -289,12 +289,6 @@ imagemagick:
   output_formats:
     webp: "-resize 800x"
 
-# -----------------------------------------------------------------------------
-# # ...existing code...
-enable_navbar_social: true  # enables displaying social links in the navbar on the about page
-# ...existing code... Diagrams
-# -----------------------------------------------------------------------------
-
 jekyll-diagrams:
     # configuration, see https://github.com/zhustec/jekyll-diagrams.
     # feel free to comment out this section if not using jekyll diagrams.
