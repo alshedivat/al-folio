@@ -18,9 +18,9 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-      Created in {{ page.date | date: '%B %d, %Y' }}
+      Created on {{ page.date | date: '%B %d, %Y' }}
       {% if page.author %}by {{ page.author }}{% endif %}
-      {% if page.last_updated %}, last updated in {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
+      {% if page.last_updated %}, last updated on {{ page.last_updated | date: '%B %d, %Y' }}{% endif %}
       {% if page.meta %}• {{ page.meta }}{% endif %}
     </p>
     <p class="post-tags">
