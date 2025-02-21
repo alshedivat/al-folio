@@ -3,8 +3,6 @@
   contents:
     - name: Full Name
       value: Daniel May
-    - name: Date of Birth
-      value: 14th December 1997
     - name: Languages
       value: English (fluent), German (native)
 
@@ -14,62 +12,64 @@
     
     - title: Dr.techn. (equivalent to PhD), Informatics
       institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
-      year: 2025 - present
+      year: 2025 - now
       description:
         - Working on AI and sustainability, exploring energy-efficient computing and optimization techniques in high-performance and edge AI systems.
-        - "Advisor: <a href='https://www.ec.tuwien.ac.at/~ivona/index.html'>Prof. Ivona Brandić</a>"
+        - "<strong>Advisor</strong>: <a href='https://www.ec.tuwien.ac.at/~ivona/index.html'>Prof. Ivona Brandić</a>"
 
     - title: Dipl.-Ing. (equivalent to MSc), Business Informatics
       institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
       year: 2021 - 2025
       description:
-        - "Average grade: 1.1 (1 = best, 5 = worst)"
+        - "<strong>Average grade</strong>: 1.1 (1 = best, 5 = worst)"
         - title: Focus
           contents: 
             - Data analytics
             - Management science
             - Economic modeling
-        - "Thesis: Neural network splitting for energy-efficient Edge-AI"
-        - "Advisor: <a href='https://www.ec.tuwien.ac.at/~ivona/index.html'>Prof. Ivona Brandić</a>"
-        - "Co-Advisor: <a href='https://shashikantilager.com/'>Shashikant Ilager</a>"
+        - "<strong>Thesis</strong>: Neural network splitting for energy-efficient Edge-AI"
+        - "<strong>Advisor</strong>: <a href='https://www.ec.tuwien.ac.at/~ivona/index.html'>Prof. Ivona Brandić</a>"
+        - "<strong>Co-Advisor</strong>: <a href='https://shashikantilager.com/'>Shashikant Ilager</a>"
+        - My thesis was awarded the <strong>netidee Scholarship</strong> by the <a href='https://www.internetstiftung.at/'>Internet Foundation Austria</a> in 2024.
     
     - title: <a href="https://informatics.tuwien.ac.at/bachelor-with-honors/">Bachelor with Honors</a>, Informatics
       institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
       year: 2020 - 2022
       description:
-        - "Average grade: 1.1 (1 = best, 5 = worst)"
+        - "<strong>Average grade</strong>: 1.1 (1 = best, 5 = worst)"
         - title: Focus
           contents: 
             - Data analytics
             - Management science
             - Economic modeling
-        - "Mentor: <a href='https://informatics.tuwien.ac.at/people/christian-huemer'>Prof. Christian Huemer</a>"
+        - "Summer school on <a href='https://www.ucl.ac.uk/prospective-students/summer-school/modules/data-science'>Data Science and Big Data Analytics</a>, <a href='https://www.ucl.ac.uk/'>University College London</a>, 2022."
+        - "<strong>Mentor</strong>: <a href='https://informatics.tuwien.ac.at/people/christian-huemer'>Prof. Christian Huemer</a>"
     
     - title: BSc, Software & Information Engineering
       institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
       year: 2018 - 2021
       description:
-        - "Average grade: 1.0 (1 = best, 5 = worst)"
+        - "<strong>Average grade</strong>: 1.0 (1 = best, 5 = worst)"
         - title: Focus
           contents: 
             - Mathematics, Statistics and Theoretical Computer Science
             - Algorithms and programming
             - Computer science and society
-        - "Thesis: Prediction of End-of-Life Stages using Random Forests"
-        - "Advisor: <a href='https://cstat.tuwien.ac.at/filz/'>Prof. Peter Filzmoser</a>"
+        - "<strong>Thesis</strong>: Prediction of End-of-Life Stages using Random Forests"
+        - "<strong>Advisor</strong>: <a href='https://cstat.tuwien.ac.at/filz/'>Prof. Peter Filzmoser</a>"
 
     - title: Higher Technical Diploma, Information Technology
       institution: <a href="https://www.tgm.ac.at/">Technologisches Gewerbemuseum (TGM)</a>, Vienna, Austria
       year: 2012 - 2017
       description:
-        - "Average grade: 1.0 (1 = best, 5 = worst)"
+        - "<strong>Average grade</strong>: 1.0 (1 = best, 5 = worst)"
         - title: Focus
           contents: 
           - Software Development
-          - Distributed Systems
+          - Information Systems
           - Applied Maths
         - Best student of the school 2017, honoured with an average grade of 1.00 over all courses of all five years.
-        - "Diploma work: Physical Authentication System (focus on facial recognition)"
+        - "<strong>Diploma work</strong>: Physical Authentication System (focus on facial recognition)"
 
 
 - title: Experience
@@ -77,12 +77,12 @@
   contents:
     - title: PreDoc Researcher
       institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
-      year: 02/2025 - present
+      year: 02/2025 - now
       description:
         - I am part of the <a href="https://hpc.ec.tuwien.ac.at/">HPC Research Group</a> led by <a href="https://www.ec.tuwien.ac.at/~ivona/index.html">Prof. Ivona Brandić</a>. 
         - My research focuses on sustainability in AI, exploring energy-efficient computing and optimization techniques in high-performance and edge AI systems.
     
-    - title: Research Assistant
+    - title: Research Assistant (Student Staff)
       institution: <a href="https://www.tuwien.at/">TU Wien</a>, Austria
       year: 02/2024 - 01/2025
       description: 
@@ -91,11 +91,11 @@
 
     - title: Software Engineer
       institution: <a href="https://mycts.at/">myCTS</a>, Austria
-      year: 01/2020 - present
+      year: 01/2020 - now
       description: 
         - "Developing and maintaining customized software solutions with <a href='https://www.intersystems.com/'>Intersystems</a>."
 
-    - title: Data Engineer
+    - title: Software Engineer
       institution: <a href="https://www.technologe.at/">Alumni Club of TGM</a>, Austria
       year: 09/2017 - 12/2019
       description: 
@@ -117,16 +117,13 @@
       institution: <a href="https://www.artech.at/">A&R TECH</a>, Austria
       year: 07/2013
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
+- title: Honors and Awards
+  type: list
+  contents:
+    - "<strong>netidee Scholarship Master’s Thesis</strong> by <a href='https://www.internetstiftung.at/'>Internet Foundation Austria</a>, 2024. Awarded for theses that contribute to a better, more open, and transparent Internet."
+    - "<strong>Elevate Scholarship</strong> by <a href='https://www.palfinger.com/en-us'>Palfinger</a>, 2023. Awarded to the top master's student in Business Informatics among selected programs."
+    - "<strong>Seeds for the future Scholarship</strong> by <a href='https://www.huawei.com/''>Huawei</a>, 2022, 2023. Among the top 32 STEM master's students of <a href='https://www.tuwien.at/'>TU Wien</a>."
+    - "<strong>Merit-based scholarship</strong> for outstanding academic performance, <a href='https://www.tuwien.at/'>TU Wien</a>, 2019, 2020, 2021, 2022."
 
 # - title: Academic Interests
 #   type: nested_list
