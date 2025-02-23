@@ -198,6 +198,8 @@ To remove the news section, you can:
 - delete the file [\_includes/news.liquid](_includes/news.liquid) and the references to it in the [\_pages/about.md](_pages/about.md)
 - remove the `announcements` part in [\_pages/about.md](_pages/about.md)
 - remove the news part in the `Collections` section in the [\_config.yml](_config.yml) file
+- remove the news part in [_layouts/about.liquid](_layouts/about.liquid)
+- delete the file [_pages/news.md](_pages/news.md)
 
 ### Removing the projects page
 
