@@ -373,6 +373,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1913: Yuan Shikai becomes president of Republic of China
 - 1913: Song Jiaoren, leader of the Guomindang, is assassinated supposedly by Yuan Shikai
 - 1914 - 1918: World War I
+- 1914: Ramanujan comes to England to work with Hardy
 - 1914: Sun Yat-Sen organizes the new Chinese Revolutionary Party
 - 1915 - 1934: US occupation of Haiti
 - 1915: Italy enters WWI on the Allies' side, hoping to gain territory

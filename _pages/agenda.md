@@ -7,12 +7,15 @@ nav: true
 nav_order: 4
 ---
 
----
+Please see my [statement of purpose](/assets/pdf/phd-sop.pdf){:target="_blank"}.
+
+
+<!-- ---
 
 ### ongoing projects
-projects I am leading or co-leading
+projects I am leading or co-leading -->
 
-**Agonistic Image Generation.** with Andrew Shaw, Ranjay Krishna, and Amy Zhang. UW CSE.
+<!-- **Agonistic Image Generation.** with Andrew Shaw, Ranjay Krishna, and Amy Zhang. UW CSE.
 We seek to address cases of offense and harm in image generation of people by centering clarification of user intentionality, inspired from philosophical accounts of speech-acts and autonomy.
 
 **Discursive Datasets.** with Matt Wallingford, Amy Zhang, and Ranjay Krishna. UW CSE.
@@ -29,7 +32,7 @@ We set forth a framework for understanding and analyzing the pre-/political expe
 An analysis of what it really means to call things in language models "emergent", and what kinds of things can even be said to "emerge" in the first place -- not abilities, I claim.
 Essay forthcoming.
 
-**Benchmarking LLM Creativity.** with Tuhin Chakrabarty (Stony Brook), Roger Beaty (Penn).
+**Benchmarking LLM Creativity.** with Tuhin Chakrabarty (Stony Brook), Roger Beaty (Penn). -->
 
 
 

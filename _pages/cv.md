@@ -14,12 +14,13 @@ View CV as a [pdf](/assets/pdf/Ye%20Resume%20Public.pdf){:target="_blank"} and s
 
 *equal contribution.
 
-"Language Models as Critical Thinking Tools: A Case Study of Philosophers".
-**Andre Ye**, Jared Moore, Rose Novick, Amy X. Zhang.
+
+
+"Unsettling the Hegemony of Intention: Agonistic Image Generation".
+**Andre Ye\***, Andrew Shaw\*, Ranjay Krishna, Amy X. Zhang.
 Conference on Language Modeling (COLM) 2024.
 *Resources*:
-[arXiv](https://arxiv.org/abs/2404.04516){:target="_blank"},
-[philPapers](https://philpapers.org/rec/YELMAB){:target="_blank"}.
+[arXiv](https://arxiv.org/abs/2502.15242){:target="_blank"}.
 
 "Cultural and Linguistic Diversity Improves Visual Representations". 
 **Andre Ye**, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
