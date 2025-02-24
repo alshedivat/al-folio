@@ -10,12 +10,11 @@ nav: false
 - ["Wor(k/d)play."](/assets/pdf/workdplay.pdf){:target="_blank"} *Garden of Ideas*, Vol. 2, 2023 - Issue 1.
 - ["Economy of the Dataset: Marx and Large Language Models."](/assets/pdf/economy-of-the-dataset.pdf){:target="_blank"} *Reboot Fellowship, 2023 cohort. March 2023.*
 - ["The Wartime State and the Cigarette: Darkness and Temporality in *Pale Horse, Pale Rider*."](/assets/pdf/00144940.2022.pdf){:target="_blank"} *The Explicator*, Volume 80, 2022 - Issue 1-2, pages 30-33. [Publisher's link.](https://www.tandfonline.com/doi/full/10.1080/00144940.2022.2063706)
-- ["And Then the Hammer Broke: Seeing Machine Vision."](/assets/pdf/hammer-broke.pdf){:target="_blank"} Pacific University Philosophy Conference.
-- ["The Sacrifice of a 'Stoic Metaphysics'."](/assets/pdf/the-sacrifice-of-stoic-metaphysics.pdf){:target="_blank"}
-- ["Seeing Water: Building International Justice Beyond Embodied Metaphysics."](/assets/pdf/407_final_essay.pdf){:target="_blank"}
-- ["Ethical Crisis Under the Husserlian Epoché: Restoring the Normative Force of Doubt."](/assets/pdf/458_research_paper.pdf){:target="_blank"}
-- ["Subject Without Subjectivity: John Rawls and Liberalism through the Sixties."](/assets/pdf/subject-without-subjectivity.pdf){:target="_blank"}
-- ["Object and Orgasm: A Manifesto of the Melancholy."](/assets/pdf/object-and-orgasm.pdf){:target="_blank"}
+- ["And Then the Hammer Broke: Seeing Machine Vision."](/writing/files/hammer-broke.pdf){:target="_blank"} Pacific University Philosophy Conference.
+- ["The Sacrifice of a 'Stoic Metaphysics'."](/writing/files/the-sacrifice-of-stoic-metaphysics.pdf){:target="_blank"}
+- ["Ethical Crisis Under the Husserlian Epoché: Restoring the Normative Force of Doubt."](/writing/files/458_research_paper.pdf){:target="_blank"}
+<!-- - ["Subject Without Subjectivity: John Rawls and Liberalism through the Sixties."](/assets/pdf/subject-without-subjectivity.pdf){:target="_blank"} -->
+<!-- - ["Object and Orgasm: A Manifesto of the Melancholy."](/assets/pdf/object-and-orgasm.pdf){:target="_blank"} -->
 
 
 
