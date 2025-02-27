@@ -15,7 +15,7 @@ selected_papers: false
 social: true
 
 announcements:
-  enabled: false
+  enabled: true
 
 latest_posts:
   enabled: False
@@ -44,6 +44,8 @@ After relocating to Israel, I returned to IC role and joined Intuit, where I wor
 
 - DS projects for Data Aggregation Platform, resulting in optimization and error rate reduction by 30%
 - Founded and led Data Science Guild, professional community for experience & knowledge sharing (70+ members)
+
+And in August 2024 I moved to London, where I'm currently working as a Senior Data Scientist at Intuit. My work includes classical ML tasks (classification and matching) and LLM-related projects, as well as statistical analysis and experimental design.
 
 ## Why This Portfolio?
 
