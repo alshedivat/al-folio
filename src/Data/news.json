@@ -1,21 +1,26 @@
 [
     {
-        "content": "Three CHI papers Accepted🎉",
+        "content": "TCongratulation to professor Hwajung Hong on her tenure! 🎉",
+        "image": "feb2025_tenure.jpg",
+        "date": "FEB, 2025"
+    },
+    {
+        "content": "Three CHI papers Accepted 🎉",
         "image": "jan2025_chi.jpg",
         "date": "JAN, 2025"
     },
     {
-        "content": "Donggun and Suyoun won URP Program Excellent Award🎉",
+        "content": "Donggun and Suyoun won URP Program Excellent Award 🎉",
         "image": "dec2024_urp.jpg",
         "date": "DEC, 2024"
     },
     {
-        "content": "Yeohyun Received the Q-Day Creativity and Talent Education Award🎉",
+        "content": "Yeohyun Received the Q-Day Creativity and Talent Education Award 🎉",
         "image": "dec2024_qday.jpg",
         "date": "DEC, 2024"
     },
     {
-        "content": "DxD Tennis Tournament🎾",
+        "content": "DxD Tennis Tournament 🎾",
         "image": "nov2024_tennis.jpg",
         "date": "NOV, 2024"
     },
@@ -40,7 +45,7 @@
         "date": "APR-JUL, 2024"
     },
     {
-        "content": "One full paper and one poster Accepted🎉",
+        "content": "One full paper and one poster Accepted 🎉",
         "image": "jul2024_cscw.jpg",
         "date": "JUL, 2024"
     },
@@ -55,7 +60,7 @@
         "date": "JUN, 2024"
     },
     {
-        "content": "One DIS paper Accepted🎉",
+        "content": "One DIS paper Accepted 🎉",
         "image": "may2024_dis.jpg",
         "date": "MAY, 2024"
     },
@@ -65,7 +70,7 @@
         "date": "MAR, 2024"
     },
     {
-        "content": "Jongok won the Outstanding Graduation Research Award 2024🎉",
+        "content": "Jongok won the Outstanding Graduation Research Award 2024 🎉",
         "image": "feb2024_jongok_award.jpg",
         "date": "FEB, 2024"
     }
@@ -77,13 +82,13 @@
     }
     ,
     {
-        "content": "Taewan gave an invited talk at KNPA Jeonbuk Branch Conference 2024🎤",
+        "content": "Taewan gave an invited talk at KNPA Jeonbuk Branch Conference 2024 🎤",
         "image": "feb2024_knpa.jpg",
         "date": "FEB, 2024"
     }
     ,
     {
-        "content": "Three CHI papers Accepted🎉",
+        "content": "Three CHI papers Accepted 🎉",
         "image": "jan2024_chi.jpg",
         "date": "JAN, 2024"
     }
@@ -125,7 +130,7 @@
     }
     ,
     {
-        "content": "Taewan gave an invited talk at NAVER UX Designer Workshop🎤",
+        "content": "Taewan gave an invited talk at NAVER UX Designer Workshop 🎤",
         "image": "apr2023_naver.jpg",
         "date": "APR, 2023"
     }
@@ -143,13 +148,13 @@
     }
     ,
     {
-        "content": "Two CHI papers Accepted🎉",
+        "content": "Two CHI papers Accepted 🎉",
         "image": "jan2023_chi.jpg",
         "date": "JAN, 2023"
     }
     ,
     {
-        "content": "Professor Hwajung presented at opening talk of exhibition 'Inventive Minds and Ideas: Living in the Future' at DDP🎤",
+        "content": "Professor Hwajung presented at opening talk of exhibition 'Inventive Minds and Ideas: Living in the Future' at DDP 🎤",
         "image": "dec2022_ddptalk.jpg",
         "date": "DEC, 2022"
     }

@@ -12,7 +12,7 @@ export const Footer = () => {
                         Republic of Korea
                     </div>
                     <div className='copyrights'>
-                        © 2024. DxD Lab. All Rights Reserved.
+                        © 2025. DxD Lab. All Rights Reserved.
                     </div>
                     <div className='logoContainer'>
                         <img className='logo' src={"/images/logo.png"} alt={"logo"}/>
