@@ -18,7 +18,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://atyoshi.github.io # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -102,7 +102,7 @@ related_blog_posts:
 # Giscus comments (RECOMMENDED)
 # Follow instructions on https://giscus.app/ to setup for your repo to fill out the information below.
 giscus:
-  repo: # <your-github-user-name>/<your-github-repo-name>
+  repo: atyoshi/atyoshi.github.io # <your-github-user-name>/<your-github-repo-name>
   repo_id: # leave empty or specify your repo_id (see https://giscus.app/)
   category: Comments # name of the category under which discussions will be created
   category_id: # leave empty or specify your category_id (see https://giscus.app/)
@@ -164,13 +164,13 @@ kramdown:
   syntax_highlighter_opts:
     css_class: "highlight"
     span:
-      line_numbers: false
+      line_numbers: true
     block:
-      line_numbers: false
+      line_numbers: true
       start_line: 1
 
 # Includes & excludes
-include: ["_pages", "_scripts"]
+include: ["_pages", "_scripts", "notes"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -210,10 +210,11 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
-  - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-asciidoc
 
 # Sitemap settings
 defaults:
