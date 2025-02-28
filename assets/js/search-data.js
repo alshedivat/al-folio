@@ -58,19 +58,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio/people/";
           },
-        },{id: "dropdown-publications",
-              title: "publications",
+        },{id: "dropdown-bookshelf",
+              title: "bookshelf",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
-              },
-            },{id: "dropdown-projects",
-              title: "projects",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
+                window.location.href = "/al-folio/books/";
               },
             },{id: "dropdown-blog",
               title: "blog",
@@ -431,7 +424,12 @@ ninja.data = [{
           window.location.href = "/al-folio/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
+    },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/al-folio/books/the_godfather/";
+            },},{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
