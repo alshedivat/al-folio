@@ -1,5 +1,7 @@
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello, I'm Albert Yoshimoto!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm currently pursuing a Master's degree in Computer Science at the University of Texas at El Paso, where I focus on Object-Oriented Programming and Computation Theory. My background includes a Bachelor's degree in Music Performance from New Mexico State University, where I graduated with honors as a Conroy Scholar. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My passion lies in both technology and the arts, and I strive to merge my knowledge of computer science with my love for music, composition, and psychology. I have strong leadership and collaborative skills, and I'm eager to contribute to innovative projects that challenge both my technical and creative abilities.
+
+In my free time, you can find me playing the violin, composing music, studying philosophy, or diving into the latest trends in tech and psychology.
