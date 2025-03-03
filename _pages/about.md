@@ -1,20 +1,20 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Official AI Club of the College of Engineering
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: INNOVAI_logo.png
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>VERITAS VOS LIBERABIT</p>
+  #   <p>LIBERABIT VOS VERITAS</p>
+  #   <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -27,8 +27,20 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+**InnovAI** is the only **AI club** within the **College of Engineering** at <a href="https://www.yonsei.ac.kr">Yonsei University</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<h3>Key Topics</h3>
+<ul>
+  <li>Text-to-Image</li>
+  <li>Avatar</li>
+  <li>Text-to-3D</li>
+</ul>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<h3>Activities</h3>
+<ul>
+  <li>Weekly AI seminars</li>
+  <li>Small-group study sessions</li>
+  <li>Monthly guest lecture featuring industry experts</li>
+</ul>
+
+Currently, our members come from the **Departments of Electrical and Electronic Engineering, Mechanical Engineering,** and **Industrial Engineering**, with participation open to **all students within the College of Engineering**. For more information about **InnovAI**, please feel free to contact us at <a href="mailto:innovai.yonsei@gmail.com">innovai.yonsei@gmail.com</a>.

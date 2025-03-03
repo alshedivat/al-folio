@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /blog/
-title: blog
+permalink: /seminar/
+title: Seminar
 nav: true
 nav_order: 1
 pagination:
@@ -31,29 +31,47 @@ pagination:
 
 {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
-  <div class="tag-category-list">
-    <ul class="p-0 m-0">
+  <div class="tag-category-list container">
+    <div class="row row-cols-4">
       {% for tag in site.display_tags %}
-        <li>
-          <i class="fa-solid fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/blog/tag/' | relative_url }}">{{ tag }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
+      <div class="col mb-4">
+        {% if tag.name %}
+          {% assign tag_name = tag.name %}
+          {% assign tag_image = tag.image %}
+        {% else %}
+          {% assign tag_name = tag %}
+          {% assign tag_image = site.data.tag_images[tag] %}
+        {% endif %}
+        {% if tag_image == nil %}
+          {% assign tag_image = "/assets/images/placeholder.jpg" %}
+        {% endif %}
+        <a href="{{ tag_name | slugify | prepend: '/blog/tag/' | relative_url }}" class="text-decoration-none">
+          <div class="card h-100">
+            <img src="{{ tag_image | relative_url }}" class="card-img-top" alt="{{ tag_name }}">
+            <div class="card-body text-center">
+              {% case tag_name %}
+                {% when 'Text-to-Image' %}
+                  <i class="fa-solid fa-image fa-2x"></i>
+                {% when 'Text-to-3D' %}
+                  <i class="fa-solid fa-cube fa-2x"></i>
+                {% when 'Avatar' %}
+                  <i class="fa-solid fa-user-circle fa-2x"></i>
+                {% when 'Video' %}
+                  <i class="fa-solid fa-video fa-2x"></i>
+                {% else %}
+                  <i class="fa-solid fa-hashtag fa-2x"></i>
+              {% endcase %}
+              <h5 class="card-title mt-2">{{ tag_name }}</h5>
+            </div>
+          </div>
+        </a>
+      </div>
       {% endfor %}
-      {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>&bull;</p>
-      {% endif %}
-      {% for category in site.display_categories %}
-        <li>
-          <i class="fa-solid fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/blog/category/' | relative_url }}">{{ category }}</a>
-        </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
-      {% endfor %}
-    </ul>
+    </div>
   </div>
+
+
+
   {% endif %}
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}

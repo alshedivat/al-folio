@@ -40,20 +40,20 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
+    <!-- Latest Seminar -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+        <a href="{{ '/seminar/' | relative_url }}" style="color: inherit">Latest Seminar</a>
       </h2>
       {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Notices -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/notice/' | relative_url }}" style="color: inherit">Notices</a>
+      </h2>
+      {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Selected papers -->
