@@ -12,6 +12,18 @@
     "recording": ""
   },
   {
+    "title": "Automatically Evaluating the Paper Reviewing Capability of Large Language Models",
+    "author": "Hyungyu Shin, Jingyu Tang, Yoonjoo Lee, Nayoung Kim, Hyunseung Lim, Ji Yong Cho, Hwajung Hong, Moontae Lee, Juho Kim",
+    "venue": "arXiv",
+    "year": 2025,
+    "field": ["others"],
+    "type": "conference",
+    "pdf": "hyungyu2025",
+    "doi": "https://arxiv.org/abs/2502.17086",
+    "bibtex": "hyungyu2025.bib",
+    "recording": ""
+  },
+  {
     "title": "Identify Design Problems Through Questioning: Exploring Role-playing Interactions with Large Language Models to Foster Design Questioning Skills",
     "author": "Hyunseung Lim, Dasom Choi, Hwajung Hong",
     "venue": "CSCW Poster 2024",

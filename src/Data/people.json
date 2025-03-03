@@ -84,6 +84,20 @@
         "current": true
     },
     {
+        "name": "Gahyeon Bae",
+        "position": "Master's Student",
+        "image": "gahyeon.png",
+        "homepage": "",
+        "current": true
+    },
+    {
+        "name": "Joonyoung Park",
+        "position": "Master's Student",
+        "image": "joonyoung.png",
+        "homepage": "https://joonyoung.dev",
+        "current": true
+    },
+    {
         "name": "Yubin Choi",
         "position": "Undergraduate Intern",
         "image": "yubin.png",
@@ -110,13 +124,6 @@
         "image": "inhwasong.png",
         "homepage": "https://inhwasong.com",
         "current": true
-    },
-    {
-        "name": "Gahyeon Bae",
-        "position": "Undergraduate Intern",
-        "image": "gahyeon.png",
-        "homepage": "",
-        "current": false
     },
     {
         "name": "Donggun Lee",
