@@ -6,7 +6,12 @@
 # License: MIT
 # Copyright (c) 2021 Sitdisch
 
-name: "Lighthouse Badger"
+- name: Lighthouse Badger
+  uses: some-user/lighthouse-badger-easy@v1
+  with:
+    token: ${{ secrets.GITHUB_TOKEN }}
+    # 기타 필요한 입력값들
+
 
 ########################################################################
 # DEFINE YOUR INPUTS AND TRIGGERS IN THE FOLLOWING
