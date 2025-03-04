@@ -6,18 +6,10 @@
 # License: MIT
 # Copyright (c) 2021 Sitdisch
 
-- name: Lighthouse Badger
-  uses: some-user/lighthouse-badger-easy@v1
-  with:
-    token: ${{ secrets.GITHUB_TOKEN }}
-    # 기타 필요한 입력값들
-
-
 ########################################################################
 # DEFINE YOUR INPUTS AND TRIGGERS IN THE FOLLOWING
 ########################################################################
 
-# INPUTS as Secrets (env) for not manually triggered workflows
 env:
   URLS: https://alshedivat.github.io/al-folio/
   # If any of the following env is blank, a default value is used instead
@@ -25,13 +17,8 @@ env:
   MOBILE_LIGHTHOUSE_PARAMS: "--only-categories=performance,accessibility,best-practices,seo --throttling.cpuSlowdownMultiplier=2"
   DESKTOP_LIGHTHOUSE_PARAMS: "--only-categories=performance,accessibility,best-practices,seo --preset=desktop --throttling.cpuSlowdownMultiplier=1"
 
-# TRIGGERS
 on:
   page_build:
-  # schedule: # Check your schedule here => https://crontab.guru/
-  #   - cron: '55 23 * * 0' # e.g. every Sunday at 23:55
-  #
-  # THAT'S IT; YOU'RE DONE;
   workflow_dispatch:
 
 ########################################################################
@@ -62,6 +49,7 @@ jobs:
           path: temp_lighthouse_badges_nested
       - uses: myactionway/lighthouse-badger-action@v2.2
         with:
+          token: ${{ secrets.GITHUB_TOKEN }}
           urls: ${{ env.URLS }}
           mobile_lighthouse_params: ${{ env.MOBILE_LIGHTHOUSE_PARAMS }}
           desktop_lighthouse_params: ${{ env.DESKTOP_LIGHTHOUSE_PARAMS }}
