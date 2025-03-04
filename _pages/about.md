@@ -28,10 +28,4 @@ I am broadly interested in the theoretical aspects of classical and (post-)quant
 Previously, I was a student in the [computer science department](https://www.cs.ucsb.edu) at the University of California, Santa Barbara pursuing my master's degree in computer science.
 I worked with [Prof. Prabhanjan Ananth](https://sites.google.com/site/prabhanjanva) for my master's thesis requirement, in which we utilized functional encryption to eliminate interaction in the private set intersection problem.
 
-I graduated with a bachelor's degree in [Electrical Engineering](https://www.ee.iitm.ac.in) from Indian Institute of Technology, Madras(IIT Madras).
-I have been immensely fortunate to be advised by [Prof. Shweta Agrawal](http://www.cse.iitm.ac.in/~shwetaag/) for my Bachelor's thesis on recognizing and applying blockchain-based solutions to various everyday scenarios.
-My thesis was part of the preliminary phase 1 of [National Blockchain Project](https://blockchain.cse.iitk.ac.in).
-
-[comment]: <> I was also gainfully employed at Oracle R&D in Bengaluru, India as a software development engineer working on Oracle Cloud Database solutions.
-
-[comment]: <> ![visitors](https://visitor-badge.glitch.me/badge?page_id=saikumarysk.github.io&left_color=blue&right_color=green)
+I graduated with a bachelor's degree in [Electrical Engineering](https://www.ee.iitm.ac.in) from Indian Institute of Technology, Madras(IIT Madras) where I have been immensely fortunate to be advised by [Prof. Shweta Agrawal](http://www.cse.iitm.ac.in/~shwetaag/) for my Bachelor's thesis.
