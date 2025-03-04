@@ -30,10 +30,10 @@ authors:
   - name: Jiuxiang Gu
     affiliations:
       name: Adobe Research
-  
+
   - name: Sai Bi
     affiliations:
-      name:  Adobe Research
+      name: Adobe Research
 
   - name: Yang Zhou
     affiliations:
@@ -42,19 +42,19 @@ authors:
   - name: Difan Liu
     affiliations:
       name: Adobe Research
-  
+
   - name: Feng Liu
     affiliations:
       name: Adobe Research
-  
+
   - name: Kalyan Sunkavalli
     affiliations:
       name: Adobe Research
-  
+
   - name: Trung Bui
     affiliations:
       name: Adobe Research
-  
+
   - name: Hao Tan
     affiliations:
       name: Adobe Research
@@ -94,7 +94,9 @@ _styles: >
     font-size: 16px;
   }
 ---
+
 ---
+
 Date : 2025/02/21
 
 Presentator : Yu, Yiwon
@@ -103,11 +105,6 @@ Presentator : Yu, Yiwon
 
 ## Introduction
 
-
-
-
 ## Background
 
 ## LRM
-
-

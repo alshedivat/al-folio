@@ -2,7 +2,7 @@
 layout: page
 title: Notice
 permalink: /notice/
-nav : true
+nav: true
 ---
 
 {% include news.liquid %}

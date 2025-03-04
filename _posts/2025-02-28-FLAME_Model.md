@@ -22,7 +22,7 @@ authors:
   - name: TIANYE LI
     affiliations:
       name: University of Southern California
-            Max Planck Institute for Intelligent Systems
+        Max Planck Institute for Intelligent Systems
 
   - name: TIMO BOLKART
     affiliations:
@@ -31,11 +31,11 @@ authors:
   - name: MICHAEL J. BLACK
     affiliations:
       name: Max Planck Institute for Intelligent Systems
-  
+
   - name: HAO LI
     affiliations:
-      name:  Pinscreen, University of Southern California
-             USC Institute for Creative Technologies
+      name: Pinscreen, University of Southern California
+        USC Institute for Creative Technologies
 
   - name: JAVIER ROMERO
     affiliations:
@@ -79,6 +79,7 @@ _styles: >
     font-size: 16px;
   }
 ---
+
 Date : 2025/02/28
 
 Presentator : Lee, Hyunseo
@@ -86,31 +87,37 @@ Presentator : Lee, Hyunseo
 <img src="/assets/img/20250228 FALME 이현서_page-0001.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 
 ## Introduction
+
 <img src="/assets/img/20250228 FALME 이현서_page-0002.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0003.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0004.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 
 ## Model formulation
+
 <img src="/assets/img/20250228 FALME 이현서_page-0005.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0006.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0007.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0008.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 
 ## Registration
+
 <img src="/assets/img/20250228 FALME 이현서_page-0009.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 
 ## Temproal Registration
+
 <img src="/assets/img/20250228 FALME 이현서_page-0010.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0011.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0012.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0013.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 
 ## Model Training
+
 <img src="/assets/img/20250228 FALME 이현서_page-0014.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0015.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0016.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 
 ## Result
+
 <img src="/assets/img/20250228 FALME 이현서_page-0017.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0018.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 <img src="/assets/img/20250228 FALME 이현서_page-0019.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">

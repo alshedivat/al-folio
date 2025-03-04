@@ -70,9 +70,7 @@ pagination:
     </div>
   </div>
 
-
-
-  {% endif %}
+{% endif %}
 
 {% assign featured_posts = site.posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
