@@ -99,7 +99,7 @@ Date : 2025/02/21
 
 Presentator : Yu, Yiwon
 
-<img src="{{ '/assets/img/250221_유이원_LRM_page-0001.jpg' | relative_url }}" alt="FLAME Model" width="700">
+<img src="/assets/img/20250228 FALME 이현서_page-0001.jpg" alt="FLAME Model" style="max-width:100%; height:auto;">
 
 ## Introduction
 
