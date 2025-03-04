@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sudo rm -fr /var/www/html/*
+sudo cp -r _site/* /var/www/html/
+
+
