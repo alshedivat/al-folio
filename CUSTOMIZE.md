@@ -16,7 +16,8 @@ The project is structured as follows, focusing on the main components that you w
 ├── 📄 _config.yml: the configuration file of the template
 ├── 📂 _data/: contains some of the data used in the template
 │   ├── 📄 cv.yml: CV in YAML format, used when assets/json/resume.json is not found
-│   └── 📄 repositories.yml: users and repositories info in YAML format
+│   ├── 📄 repositories.yml: users and repositories info in YAML format
+│   └── 📄 socials.yml: your social media and contact info in YAML format
 ├── 📂 _includes/: contains code parts that are included in the main HTML file
 │   └── 📄 news.liquid: defines the news section layout in the about page
 ├── 📂 _layouts/: contains the layouts to choose from in the frontmatter of the Markdown files
@@ -58,9 +59,11 @@ You can create new pages by adding new Markdown files in the [\_pages](_pages/) 
 
 ## Creating new blog posts
 
-To create a new blog post, you can add a new Markdown file in the [\_posts](_posts/) directory. The [name of the file must follow](https://jekyllrb.com/docs/posts/#creating-posts) the format `YYYY-MM-DD-title.md`. The easiest way to do this is to copy an existing blog post and modify it. Note that some blog posts have optional fields in the [frontmatter](https://jekyllrb.com/docs/front-matter/) that are used to enable specific behaviors or functions.
+To create a new blog post, you can add a new Markdown file in the [\_posts](_posts/) directory, which is the [default location for posts in Jekyll](https://jekyllrb.com/docs/posts/). The [name of the file must follow](https://jekyllrb.com/docs/posts/#creating-posts) the format `YYYY-MM-DD-title.md`. The easiest way to do this is to copy an existing blog post and modify it. Note that some blog posts have optional fields in the [frontmatter](https://jekyllrb.com/docs/front-matter/) that are used to enable specific behaviors or functions.
 
 If you want to create blog posts that are not ready to be published, but you want to track it with git, you can create a [\_drafts](https://jekyllrb.com/docs/posts/#drafts) directory and store them there.
+
+Note that `posts` is also a collection, but it is a default collection created automatically by Jekyll. To access the posts, you can use the `site.posts` variable in your templates.
 
 ## Creating new projects
 
@@ -72,9 +75,13 @@ You can add news in the about page by adding new Markdown files in the [\_news](
 
 ## Adding Collections
 
-This Jekyll theme implements `collections` to let you break up your work into categories. The theme comes with two default collections: `news` and `projects`. Items from the `news` collection are automatically displayed on the home page. Items from the `projects` collection are displayed on a responsive grid on projects page.
+This Jekyll theme implements [collections](https://jekyllrb.com/docs/collections/) to let you break up your work into categories. The theme comes with three default collections: `news`, `projects`, and `books`. Items from the `news` collection are automatically displayed on the home page, while items from the `projects` collection are displayed on a responsive grid on projects page and items from the `books` collection are displayed on its own `bookshelf` page inside `submenus`.
 
 You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to [\_pages/projects.md](_pages/projects.md).
+
+If you wish to create a collection with support for categories and tags, like the blog posts, you just need to add this collection to the `jekyll-archives` section of your [\_config.yml](_config.yml) file. You can check how this is done with the `books` collection. For more information about customizing the archives section or creating your own archives page, check the [jekyll-archives-v2 documentation](https://george-gca.github.io/jekyll-archives-v2/).
+
+To access the collections, you can use the `site.COLLECTION_NAME` variable in your templates.
 
 ## Adding a new publication
 
@@ -145,13 +152,97 @@ A variety of beautiful theme colors have been selected for you to choose from. T
 
 ## Adding social media information
 
-You can add your social media links by adding the specified information at the `Social integration` section in the [\_config.yml](_config.yml) file. This information will appear at the bottom of the `About` page.
+You can add your social media links by adding the specified information in the [\_data/socials.yml](_data/socials.yml) file. This information will appear at the bottom of the `About` page and in the search results by default, but this could be changed to appear at the header of the page by setting `enable_navbar_social: true` and doesn't appear in the search by setting `socials_in_search: false`, both in [\_config.yml](_config.yml).
 
 ## Adding a newsletter
 
 You can add a newsletter subscription form by adding the specified information at the `newsletter` section in the [\_config.yml](_config.yml) file. To set up a newsletter, you can use a service like [Loops.so](https://loops.so/), which is the current supported solution. Once you have set up your newsletter, you can add the form [endpoint](https://loops.so/docs/forms/custom-form) to the `endpoint` field in the `newsletter` section of the [\_config.yml](_config.yml) file.
 
 Depending on your specified footer behavior, the sign up form either will appear at the bottom of the `About` page and at the bottom of blogposts if `related_posts` are enabled, or in the footer at the bottom of each page.
+
+## Removing content
+
+Since this template have a lot of content, you may want to remove some of it. The easiest way to achieve this and avoid merge conflicts when updating your code (as [pointed by CheariX ](https://github.com/alshedivat/al-folio/pull/2933#issuecomment-2571271117)) is to add the unwanted files to the `excludes` section in your `_config.yml` file instead of actually deleting them, for example:
+
+```yml
+excludes:
+  - _news/announcement_*.md
+  - _pages/blog.md
+  - _posts/
+  - _projects/?_project.md
+  - assets/jupyter/blog.ipynb
+```
+
+Here is a list of the main components that you may want to delete, and how to do it. Don't forget if you delete a page to update the `nav_order` of the remaining pages.
+
+### Removing the blog page
+
+To remove the blog, you have to:
+
+- delete [\_posts](_posts/) directory
+- delete blog page [\_pages/blog.md](_pages/blog.md)
+- remove reference to blog page in our [\_pages/dropdown.md](_pages/dropdown.md)
+- remove the `latest_posts` part in [\_pages/about.md](_pages/about.md)
+- remove the `Blog` section in the [\_config.yml](_config.yml) file and the related parts, like the `jekyll-archives`
+
+You can also:
+
+- delete [\_includes/latest_posts.liquid](_includes/latest_posts.liquid)
+- delete [\_includes/related_posts.liquid](_includes/related_posts.liquid)
+- delete [\_layouts/archive.liquid](_layouts/archive.liquid) (unless you have a custom collection that uses it)
+- delete [\_plugins/external-posts.rb](_plugins/external-posts.rb)
+- remove the `jekyll-archives-v2` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml) (unless you have a custom collection that uses it)
+- remove the `classifier-reborn` gem from the [Gemfile](Gemfile)
+
+### Removing the news section
+
+To remove the news section, you can:
+
+- delete the [\_news](_news/) directory
+- delete the file [\_includes/news.liquid](_includes/news.liquid) and the references to it in the [\_pages/about.md](_pages/about.md)
+- remove the `announcements` part in [\_pages/about.md](_pages/about.md)
+- remove the news part in the `Collections` section in the [\_config.yml](_config.yml) file
+
+### Removing the projects page
+
+To remove the projects, you can:
+
+- delete the [\_projects](_projects/) directory
+- delete the projects page [\_pages/projects.md](_pages/projects.md)
+- remove reference to projects page in our [\_pages/dropdown.md](_pages/dropdown.md)
+- remove projects part in the `Collections` section in the [\_config.yml](_config.yml) file
+
+You can also:
+
+- delete [\_includes/projects_horizontal.liquid](_includes/projects_horizontal.liquid)
+- delete [\_includes/projects.liquid](_includes/projects.liquid)
+
+### Removing the publications page
+
+To remove the publications, you can:
+
+- delete the [\_bibliography](_bibliography/) directory
+- delete the publications page [\_pages/publications.md](_pages/publications.md)
+- remove reference to publications page in our [\_pages/dropdown.md](_pages/dropdown.md)
+- remove `Jekyll Scholar` section in the [\_config.yml](_config.yml) file
+
+You can also:
+
+- delete the [\_layouts/bib.liquid](_layouts/bib.liquid) file
+- delete [\_includes/bib_search.liquid](_includes/bib_search.liquid)
+- delete [\_includes/citation.liquid](_includes/citation.liquid)
+- delete [\_includes/selected_papers.liquid](_includes/selected_papers.liquid)
+- delete [\_plugins/google-scholar-citations.rb](_plugins/google-scholar-citations.rb)
+- delete [\_plugins/hide-custom-bibtex.rb](_plugins/hide-custom-bibtex.rb)
+- delete [\_plugins/inspirehep-citations.rb](_plugins/inspirehep-citations.rb)
+- remove the `jekyll-scholar` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml)
+
+### Removing the repositories page
+
+To remove the repositories, you can:
+
+- delete the repositories page [\_pages/repositories.md](_pages/repositories.md)
+- delete [\_includes/repository/](_includes/repository/) directory
 
 ## Adding Token for Lighthouse Badger
 
