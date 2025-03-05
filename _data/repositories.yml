@@ -3,6 +3,7 @@ github_users:
 github_organizations:
   - uic-evl
   - spear-uic
+  - sage-3
 
 repo_description_lines_max: 3
 

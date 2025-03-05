@@ -1,4 +1,6 @@
 #!/bin/sh
 
-bundle exec jekyll build -b /
+#bundle exec jekyll build -b /
+
+bundle exec jekyll build
 
