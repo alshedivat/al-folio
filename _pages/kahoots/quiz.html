@@ -1,0 +1,75 @@
+---
+layout: default
+title: Exam 2 Review
+permalink: /questions/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Quiz Results</title>
+    <script>
+        const SHEET_API_URL = "https://script.google.com/macros/s/AKfycbwXNMPsU7BiAEP9Xtzrh9Nd5S26B3XdbvbCC2tVIErd0qqtt_tE9Wrj5570vBxajxpKqw/exec";
+        const RESET_URL = "https://script.google.com/macros/s/AKfycbwmaAVTpMmpI35WtcaVvX9UNQ-hwZM4KrPKxyeB0nTCxKGict0GwEC7O3b7v6UHIE_jRQ/exec?reset=true";
+
+        async function fetchResults() {
+            try {
+                let response = await fetch(SHEET_API_URL);
+                let data = await response.json();
+
+                let resultsDiv = document.getElementById("results");
+                resultsDiv.innerHTML = "<h3>Live Results</h3>";
+
+                for (let question in data) {
+                    resultsDiv.innerHTML += `<h4>${question}</h4>`;
+                    let responses = data[question].responses;
+                    let correctCount = data[question].correct;
+                    let totalCount = data[question].total;
+
+                    for (let answer in responses) {
+                        resultsDiv.innerHTML += `<p>${answer}: ${responses[answer]} votes</p>`;
+                    }
+
+                    resultsDiv.innerHTML += `<p><strong>Correct Answers:</strong> ${correctCount}/${totalCount}</p>`;
+                }
+            } catch (error) {
+                console.error("Error fetching results:", error);
+            }
+        }
+
+        async function resetResponses() {
+            if (confirm("Are you sure you want to clear all responses?")) {
+                try {
+                    let response = await fetch(RESET_URL);
+                    let text = await response.text();
+                    alert(text);
+                    fetchResults(); // Refresh results after reset
+                } catch (error) {
+                    console.error("Error resetting responses:", error);
+                    alert("Failed to reset responses.");
+                }
+            }
+        }
+
+        // Refresh results every 5 seconds
+        setInterval(fetchResults, 5000);
+    </script>
+</head>
+
+<body onload="fetchResults()">
+    <h1>Live Quiz Results</h1>
+    <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSd1NEmVQayWxy3f91zbbnf_92NAY7JKVLC6jRE4tkMG7uXP7w/viewform?usp=header"
+        width="100%" height="500px" style="border:none;"></iframe>
+
+    <div id="results">
+        <h3>Loading results...</h3>
+    </div>
+
+    <button onclick="resetResponses()">Reset Responses</button>
+</body>
+
+</html>
