@@ -40,8 +40,8 @@ jobs:
     steps:
       - name: Preparatory Tasks
         run: |
-          REPOSITORY=`expr "${{ env.REPO_BRANCH }}" : "\([^ ]*\)"`
-          BRANCH=`expr "${{ env.REPO_BRANCH }}" : ".* \([^ ]*\)"`
+          REPOSITORY=$(echo "${{ env.REPO_BRANCH }}" | cut -d' ' -f1)
+          BRANCH=$(echo "${{ env.REPO_BRANCH }}" | cut -d' ' -f2)
           echo "REPOSITORY=$REPOSITORY" >> $GITHUB_ENV
           echo "BRANCH=$BRANCH" >> $GITHUB_ENV
         env:
