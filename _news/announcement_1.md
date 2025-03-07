@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our research on **cofunctional gene groups across both cell types and tissue domains** has been accepted in *Genomics, Proteomics & Bioinformatics* (GPB)! :sparkles: :smile:
+Our research on cofunctional gene groups across both cell types and tissue domains has been accepted in GPB! :sparkles: :smile:
