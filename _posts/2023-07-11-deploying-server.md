@@ -99,6 +99,12 @@ To test whether you can access the server from a Windows system:
 telnet <remote_ip> <remote_port>
 ```
 
+You can find the IP address using:
+
+```bash
+ip a
+```
+
 [This website](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-20-04/) might be useful.
 
 When you log in to the server using the newly created user with bash, you might encounter an error like this:
@@ -256,8 +262,7 @@ Refer to this [website](https://jupyterhub.readthedocs.io/en/stable/tutorial/get
 Refer to
 this [website](https://professorkazarinoff.github.io/jupyterhub-engr114/systemd/) for how to run JupyterHub as a system service.
 
-Refer to
-this [website](https://linuxconfig.org/how-to-start-service-on-boot-on-ubuntu-20-04) for how to start the service on boot. The key command is
+The key command to start the service on boot is:
 
 ```bash
 sudo systemctl enable jupyterhub
