@@ -105,8 +105,6 @@ You can find the IP address using:
 ip a
 ```
 
-[This website](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-20-04/) might be useful.
-
 When you log in to the server using the newly created user with bash, you might encounter an error like this:
 
 ```bash
