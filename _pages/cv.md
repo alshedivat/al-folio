@@ -8,7 +8,7 @@ cv_pdf: example_pdf.pdf # you can also use external links here
 
 # [reverse|forward|none]: chronological sorting, none displays entries in the same order as in `resume.json`
 sort_entries:
-  awards: reverse 
+  awards: reverse
   certificates: reverse
   education: reverse
   projects: reverse
