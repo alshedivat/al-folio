@@ -10,10 +10,8 @@ email: evl-web@uic.edu
 description: Electronic Visualization Laboratory
 footer_text: >
 
-  The Electronic Visualization Laboratory
-  is part of the <a href="https://cs.uic.edu" target="_blank">Department of Computer Science</a> 
-  in the <a href="https://engineering.uic.edu" target="_blank">College of Engineering</a> 
-  at the <a href="https://www.uic.edu" target="_blank">University of Illinois Chicago</a>.
+  The Electronic Visualization Laboratory is part of the <a href="https://cs.uic.edu" target="_blank">Department of Computer Science</a> 
+  in the <a href="https://engineering.uic.edu" target="_blank">College of Engineering</a> at the <a href="https://www.uic.edu" target="_blank">University of Illinois Chicago</a>. For more information on the Electronic Visualization Laboratory please email <a href="mailto:sevl-web@uic.edu">evl-web@uic.edu</a> ...
 keywords: visualization, human computer interaction, high performance computing # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico
@@ -58,7 +56,7 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 1000px #930px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -116,8 +114,8 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: >
-  For more information on the Electronic Visualization Laboratory please email evl-web@uic.edu ...
+ct_note: >
+#  contaFor more information on the Electronic Visualization Laboratory please email evl-web@uic.edu ...
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
