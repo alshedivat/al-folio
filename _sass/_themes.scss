@@ -1,159 +1,179 @@
-/*******************************************************************************
- * Themes
- ******************************************************************************/
-
 @use "sass:color";
 
-:root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
-
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
-
-  #light-toggle-system {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
-
-  #light-toggle-dark {
-    display: none;
-  }
-
-  #light-toggle-light {
-    display: none;
-  }
-
-  .only-light {
-    display: block;
-  }
-
-  .only-dark {
-    display: none;
-  }
-
-  #back-to-top {
-    color: var(--global-back-to-top-text-color);
-    background: var(--global-back-to-top-bg-color);
-    bottom: $back-to-top-bottom;
-    right: $back-to-top-right;
-    height: $back-to-top-height;
-    width: $back-to-top-width;
-    z-index: $back-to-top-z-index;
-  }
-}
-
-html[data-theme="dark"] {
-  --global-bg-color: #{$grey-color-dark};
-  --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
-  --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($white-color, "red", $space: rgb)},
-    #{color.channel($white-color, "green", $space: rgb)},
-    #{color.channel($white-color, "blue", $space: rgb)},
-    0.5
-  );
-  --global-back-to-top-text-color: #{$black-color};
-  --global-newsletter-bg-color: #{$grey-color-light};
-  --global-newsletter-text-color: #{$grey-color-dark};
-
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
-
-  .only-light {
-    display: none;
-  }
-
-  .only-dark {
-    display: block;
-  }
-}
-
-html[data-theme-setting="dark"] {
-  #light-toggle-system {
-    display: none;
-  }
-
-  #light-toggle-dark {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
-
-  #light-toggle-light {
-    display: none;
-  }
-
-  #back-to-top {
-    color: var(--global-back-to-top-text-color);
-    background: var(--global-back-to-top-bg-color);
-  }
-}
-
-html[data-theme-setting="light"] {
-  #light-toggle-system {
-    display: none;
-  }
-
-  #light-toggle-dark {
-    display: none;
-  }
-
-  #light-toggle-light {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
-  }
-}
+ /*--------------------------------------------------------------------------
+    Default Theme – “Light” (Dark-Inspired Look)
+    Background is light enough for pure black text.
+ --------------------------------------------------------------------------*/
+ :root {
+   /* Backgrounds & Code Blocks */
+   --global-bg-color: #EDEDED;         /* light grey background */
+   --global-code-bg-color: #D0D0D0;      /* slightly darker grey for code blocks */
+ 
+   /* Text Colors */
+   --global-text-color: #000000;         /* main text: pure black */
+   --global-text-color-light: #333333;   /* secondary text: dark grey */
+ 
+   /* Primary & Interactive Colors */
+   --global-theme-color: #D50032;        /* UICred as primary accent */
+   --global-link-color: #D50032;         /* UICred for all links */
+   --global-hover-color: #D50032;        /* same for hover */
+   --global-hover-text-color: #000000;   /* pure black on hover */
+ 
+   /* Footer & Card Elements */
+   --global-footer-bg-color: #A0A0A0;    /* medium grey footer background */
+   --global-footer-text-color: #000000;  /* pure black footer text */
+   --global-footer-link-color: #D50032;   /* UICred for footer links */
+   --global-distill-app-color: #333333;
+   --global-divider-color: rgba(0, 0, 0, 0.1);
+   --global-card-bg-color: #EDEDED;
+ 
+   /* Back-to-Top Button */
+   --global-back-to-top-bg-color: rgba(213, 0, 50, 0.8);
+   --global-back-to-top-text-color: #000000;
+ 
+   /* Newsletter Section */
+   --global-newsletter-bg-color: #EDEDED;
+   --global-newsletter-text-color: #000000;
+ 
+   /* Alert Blocks – using UICred accents */
+   --global-tip-block: #D50032;
+   --global-tip-block-bg: #D0D0D0;
+   --global-tip-block-text: #000000;
+   --global-tip-block-title: #D50032;
+ 
+   --global-warning-block: #D50032;
+   --global-warning-block-bg: #D0D0D0;
+   --global-warning-block-text: #000000;
+   --global-warning-block-title: #D50032;
+ 
+   --global-danger-block: #D50032;
+   --global-danger-block-bg: #FFE0E0;
+   --global-danger-block-text: #000000;
+   --global-danger-block-title: #D50032;
+ 
+   /* Toggles & Repo Images */
+   #light-toggle-system {
+     padding-left: 10px;
+     padding-top: 12px;
+     display: block;
+   }
+   #light-toggle-dark {
+     display: none;
+   }
+   #light-toggle-light {
+     display: none;
+   }
+   .repo-img-light {
+     display: block;
+   }
+   .repo-img-dark {
+     display: none;
+   }
+ 
+   /* Back-to-Top Positioning (assuming variables exist) */
+   #back-to-top {
+     color: var(--global-back-to-top-text-color);
+     background: var(--global-back-to-top-bg-color);
+     bottom: $back-to-top-bottom;
+     right: $back-to-top-right;
+     height: $back-to-top-height;
+     width: $back-to-top-width;
+     z-index: $back-to-top-z-index;
+   }
+ }
+ 
+ /*--------------------------------------------------------------------------
+    Alternate Dark Theme – A Deeper Dark Version
+    (Text is a soft light grey instead of white for better readability)
+ --------------------------------------------------------------------------*/
+ html[data-theme="dark"] {
+   /* Backgrounds & Code Blocks */
+   --global-bg-color: #222222;         /* very dark grey background */
+   --global-code-bg-color: #2A2A2A;      /* dark code block background */
+ 
+   /* Text Colors */
+   --global-text-color: #CCCCCC;         /* soft light grey for main text */
+   --global-text-color-light: #999999;   /* lighter grey for secondary text */
+ 
+   /* Primary & Interactive Colors */
+   --global-theme-color: #D50032;        /* UICred remains primary */
+   --global-link-color: #D50032;         /* UICred for links throughout */
+   --global-hover-color: #D50032;
+   --global-hover-text-color: #CCCCCC;
+ 
+   /* Footer & Card Elements */
+   --global-footer-bg-color: #111111;    /* nearly black footer */
+   --global-footer-text-color: #CCCCCC;
+   --global-footer-link-color: #D50032;
+   --global-distill-app-color: #AAAAAA;
+   --global-divider-color: rgba(255, 255, 255, 0.1);
+   --global-card-bg-color: #222222;
+ 
+   /* Back-to-Top Button */
+   --global-back-to-top-bg-color: rgba(213, 0, 50, 0.8);
+   --global-back-to-top-text-color: #CCCCCC;
+ 
+   /* Newsletter Section */
+   --global-newsletter-bg-color: #222222;
+   --global-newsletter-text-color: #CCCCCC;
+ 
+   /* Alert Blocks – unified with UICred accents */
+   --global-tip-block: #D50032;
+   --global-tip-block-bg: #2A2A2A;
+   --global-tip-block-text: #CCCCCC;
+   --global-tip-block-title: #D50032;
+ 
+   --global-warning-block: #D50032;
+   --global-warning-block-bg: #2A2A2A;
+   --global-warning-block-text: #CCCCCC;
+   --global-warning-block-title: #D50032;
+ 
+   --global-danger-block: #D50032;
+   --global-danger-block-bg: #2A2A2A;
+   --global-danger-block-text: #CCCCCC;
+   --global-danger-block-title: #D50032;
+ 
+   /* Repo Images switched for dark mode */
+   .repo-img-light {
+     display: none;
+   }
+   .repo-img-dark {
+     display: block;
+   }
+ }
+ 
+ /*--------------------------------------------------------------------------
+    Theme Setting Toggles (remain unchanged)
+ --------------------------------------------------------------------------*/
+ html[data-theme-setting="dark"] {
+   #light-toggle-system {
+     display: none;
+   }
+   #light-toggle-dark {
+     padding-left: 10px;
+     padding-top: 12px;
+     display: block;
+   }
+   #light-toggle-light {
+     display: none;
+   }
+   #back-to-top {
+     color: var(--global-back-to-top-text-color);
+     background: var(--global-back-to-top-bg-color);
+   }
+ }
+ 
+ html[data-theme-setting="light"] {
+   #light-toggle-system {
+     display: none;
+   }
+   #light-toggle-dark {
+     display: none;
+   }
+   #light-toggle-light {
+     padding-left: 10px;
+     padding-top: 12px;
+     display: block;
+   }
+ }
+ 
