@@ -1,31 +1,60 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news = site.news | reverse %}
-    {% assign grouped_by_year = news | group_by_exp:"item", "item.date | date: '%Y'" %}
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-        {% for year_group in grouped_by_year %}
-          <!-- Year divider row -->
-          <tr class="year-divider">
-            <th colspan="2">{{ year_group.name }}</th>
-          </tr>
-          {% for item in year_group.items %}
+    
+    {% comment %}
+      If a numeric limit is provided, slice the news items.
+    {% endcomment %}
+    {% if include.limit and include.limit != true %}
+      {% assign news = news | slice: 0, include.limit %}
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+          {% for item in news %}
             {% if item.date <= site.time %}
-            <tr>
-              <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
-              <td>
-                {% if item.inline %}
-                  {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-                {% else %}
-                  <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-                {% endif %}
-              </td>
-            </tr>
+              <tr>
+                <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
+                <td>
+                  {% if item.inline %}
+                    {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                  {% else %}
+                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                  {% endif %}
+                </td>
+              </tr>
             {% endif %}
           {% endfor %}
-        {% endfor %}
-      </table>
-    </div>
+        </table>
+      </div>
+    {% else %}
+      {% comment %}
+        No numeric limit passed, so group by year for the news page.
+      {% endcomment %}
+      {% assign grouped_by_year = news | group_by_exp:"item", "item.date | date: '%Y'" %}
+      <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+          {% for year_group in grouped_by_year %}
+            <!-- Year divider row -->
+            <tr class="year-divider">
+              <th colspan="2">{{ year_group.name }}</th>
+            </tr>
+            {% for item in year_group.items %}
+              {% if item.date <= site.time %}
+                <tr>
+                  <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
+                  <td>
+                    {% if item.inline %}
+                      {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+                    {% else %}
+                      <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    {% endif %}
+                  </td>
+                </tr>
+              {% endif %}
+            {% endfor %}
+          {% endfor %}
+        </table>
+      </div>
+    {% endif %}
   {% else %}
     <p>No news so far...</p>
   {% endif %}

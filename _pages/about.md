@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: about
 subtitle: Electronic Visualization Laboratory
 permalink: /about
