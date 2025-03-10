@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% raw %}
 {% assign year = page.date | date: '%Y' %}
 {% assign tags = page.tags | join: '' %}
 {% assign categories = page.categories | join: '' %}
@@ -93,4 +94,5 @@ layout: default
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
   {% endif %}
+  {% endraw %}
 </div>
