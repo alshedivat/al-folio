@@ -37,6 +37,7 @@ jobs:
           echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
         fi
         echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_ENV
+        echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_ENV
     - name: Deploy website 
       run: |
-        yes | bash bin/deploy --verbose ${{ env.NO_PUSH }} --src ${{ env.SRC_BRANCH }} --deploy ${{ env.DEPLOY_BRANCH }}
+        yes | bash bin/deploy --verbose ${{ env.NO_PUSH || '' }} --src ${{ env.SRC_BRANCH }} --deploy ${{ env.DEPLOY_BRANCH }}
