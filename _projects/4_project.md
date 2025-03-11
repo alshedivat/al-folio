@@ -3,11 +3,11 @@ layout: page
 title: work in progress
 description: Click here for abstracts
 img: assets/img/7.jpg
-importance: 1
+importance: 3
 category: papers
 ---
 
-Integrating AI with Physical Measurements: Using AlphaFold2 to Accelerate X-Ray Crystallography
+Representation Learning without Representationalism (in progress)
 
 <p>
   <button class="btn " type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
@@ -17,7 +17,7 @@ Integrating AI with Physical Measurements: Using AlphaFold2 to Accelerate X-Ray 
 
 <div class="collapse" id="collapse1">
   <div class="card card-body">
-   This paper examines the integration of predictive methods based on machine learning within measurement practices in the physical sciences. Traditional wisdom holds that predictive methods should be validated with experimental methods when a high degree of accuracy is required. I aim to show, however, that in some contexts the relationship between AI predictions and physical measurement is not always a one-way street in which experimental methods univocally verify predictions. Many cases of physical measurement involved inferring a measurement outcome from a set of indicators based on a theoretical model of a particular experimental setup. In some such cases, AI predictions can function as inputs in model-based corrections of derived physical measurements. In these cases, scientists treat AI predictions as epistemically on par with physical measurements methods. This suggests that assessing the epistemic status of AI predictions in science is a deeply contextual affair. I illustrate this phenomenon with a concrete case from computational crystallography, wherein AI model predictions are integrated into experimental methods of measuring the structure of a protein using x-ray crystallography via a procedure called molecular replacement.  
+   Both machine learning research and philosophy of model-based science appeal to representations. Given this shared emphasis, it seems natural to conclude that we should understand the epistemic worth of deep learning models in science in terms of their capacity to represent the world. I argue that this is a mistake. I distinguish the prevailing notion of representation used in machine learning research from the concept of scientific representation that figures in the philosophy of model-based science. I argue that the former cannot do the work of the latter in model-based inferences. I then defend an artifactualist approach to machine learning models in science, which aims to understand their epistemic worth in terms of the material practices of constructing and applying them. Machine learning models are instruments that we use to facilitate our epistemic activities in science. They do so without scientific representation.   
   </div>
 </div>
 
@@ -40,7 +40,7 @@ Artiface of Objectivity: why algorithms are necessarily value-laden (in progress
   </div>
 </div>
 
-Getting Real About Manifolds: Data models and exploratory concept formation in computational cognitive neuroscience (in progress)
+Getting Real About Manifolds: Data models and exploratory concept formation in computational cognive neuroscience (in progress)
 
 <p>  <button class="btn " type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
  Abstract

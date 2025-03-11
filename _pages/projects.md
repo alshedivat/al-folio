@@ -7,7 +7,7 @@ description: My primary research interests concern the philosophy of machine lea
   Click below to explore my ongoing projects and papers in progress. 
 nav: true
 nav_order: 2
-display_categories: [papers, projects]
+display_categories: [projects, papers]
 horizontal: false
 ---
 
