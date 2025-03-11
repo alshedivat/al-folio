@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://phkieval.github.io/sitemap.xml
