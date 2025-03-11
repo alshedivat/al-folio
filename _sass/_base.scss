@@ -311,6 +311,24 @@ ul.task-list input[type="checkbox"] {
     font-size: 1.7rem;
 
     a {
+      img {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-bottom: 0.5rem;
+        // margin: 0.5rem;
+      }
+
+      svg {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-bottom: 0.5rem;
+
+        image {
+          width: 1.7rem;
+          height: 1.7rem;
+        }
+      }
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -386,12 +404,31 @@ ul.task-list input[type="checkbox"] {
     font-size: 4rem;
 
     a {
+      img {
+        width: 3.2rem;
+        height: 3.2rem;
+        margin-bottom: 1rem;
+      }
+
+      svg {
+        width: 3.5rem;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+
+        image {
+          width: 3.5rem;
+          height: 3.5rem;
+        }
+      }
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
+        text-decoration: none;
+
         i::before {
           color: var(--global-theme-color);
         }
@@ -589,6 +626,7 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
+      padding: 0.75rem 1.15rem;
 
       &:hover {
         color: $black-color;
@@ -701,6 +739,7 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
+          color: var(--global-card-bg-color) !important;
 
           a {
             color: white;
@@ -1303,4 +1342,78 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+figure.cover {
+  display: inline-block;
+  text-align: center;
+  margin: 0.5rem; /* adjust as needed */
+
+  img {
+    vertical-align: bottom;
+  }
+
+  figcaption.abandoned {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #ee5f5b;
+  }
+
+  figcaption.finished,
+  figcaption.watched {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #62c462;
+  }
+
+  figcaption.interested {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #7691db;
+  }
+
+  figcaption.paused {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #bdac7e;
+  }
+
+  figcaption.queued {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #9e76b5;
+  }
+
+  figcaption.reading,
+  figcaption.watching {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #f89406;
+  }
+
+  figcaption.reread,
+  figcaption.rewatch {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #a6517d;
+  }
+
+  figcaption.uncategorized {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #b0abb3;
+  }
+
+  /* mouse over link */
+  a.cover-link:hover {
+    color: #23212d !important;
+  }
 }

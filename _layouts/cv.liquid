@@ -8,12 +8,17 @@ layout: default
         {{ page.title }}
         {% if page.cv_pdf %}
           <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            {% if page.cv_pdf contains '://' %}
+              href="{{ page.cv_pdf }}"
+            {% else %}
+              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+          >
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
         {% endif %}
       </h1>
       {% if page.description %}
@@ -54,12 +59,17 @@ layout: default
         {{ page.title }}
         {% if page.cv_pdf %}
           <a
-            href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url}}"
+            {% if page.cv_pdf contains '://' %}
+              href="{{ page.cv_pdf }}"
+            {% else %}
+              href="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+            {% endif %}
             target="_blank"
             rel="noopener noreferrer"
             class="float-right"
-            ><i class="fa-solid fa-file-pdf"></i
-          ></a>
+          >
+            <i class="fa-solid fa-file-pdf"></i>
+          </a>
         {% endif %}
       </h1>
       {% if page.description %}
