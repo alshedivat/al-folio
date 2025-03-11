@@ -32,4 +32,4 @@ I also have other projects in the philosophy of cognitive neuroscience, artifici
 
 Before Cambridge I was a student at the University of Houston where I earned my BA and MA in Philosophy.
 
-I share my life with my brilliant wife and our two cats <a target = "_blank" href="assets/img/winston.jpg">Winston</a> and <a target = "_blank" href="assets/img/lumi.jpg">Lumi</a>.
+<!--I share my life with my brilliant wife and our two cats <a target = "_blank" href="assets/img/winston.jpg">Winston</a> and <a target = "_blank" href="assets/img/lumi.jpg">Lumi</a>.
