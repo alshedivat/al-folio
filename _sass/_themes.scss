@@ -5,6 +5,7 @@
 @use "sass:color";
 
 :root {
+  color-scheme: light;
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -76,6 +77,7 @@
 }
 
 html[data-theme="dark"] {
+  color-scheme: dark;
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
