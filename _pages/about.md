@@ -17,9 +17,18 @@ profile:
 #    <p>Your City, State 12345</p>
     
 
-news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+selected_papers: true # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
+
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 Hi! I am Qingqin Liu (刘晴钦 in Chinese). I am a PhD student of the <a href='https://meilab-hk.github.io/index.html'>MEI Lab</a> at City University of Hong Kong, mentored by <a href='https://zhukening.wixsite.com/aboutme'>Prof. Kening Zhu</a>. I received my Master's degree in Communication from the University of Science and Technology of China (USTC), advised by <a href='https://dblp.org/pid/117/0075-1.html'>Prof. Yanxiang Zhang</a>. Prior to that, I completed a Bachelor of Science in Astronomy at USTC.
