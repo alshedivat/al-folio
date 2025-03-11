@@ -26,6 +26,7 @@ I work on the history and philosophy of machine learning and applied statistics 
 
 <!-- My current research broadly concerns the epistemic, moral, and political significance of machine learning in science and public life. Tackling these issues leads me to confront fundamental questions concerning the role non-epistemic values in science and technology, the relationship between various conceptions of objectivity and trust, and the nature and importance of uncertainty estimates for responsibility. 
  -->
+ 
 I also have other projects in the philosophy of cognitive neuroscience, artificial intelligence, general philosophy of science, general epistemology, and social-political philosophy, especially where these areas intersect with aspects of machine learning. 
 
 Before Cambridge I was a student at the University of Houston where I earned my BA and MA in Philosophy.
