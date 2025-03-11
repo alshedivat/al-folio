@@ -13,6 +13,7 @@ The project is structured as follows, focusing on the main components that you w
     │   └── 📄 resume.json: CV in JSON format (https://jsonresume.org/)
 ├── 📂 _bibliography/
 │   └── 📄 papers.bib: bibliography in BibTeX format
+├── 📂 _books/: contains the bookshelf pages
 ├── 📄 _config.yml: the configuration file of the template
 ├── 📂 _data/: contains some of the data used in the template
 │   ├── 📄 cv.yml: CV in YAML format, used when assets/json/resume.json is not found
@@ -122,7 +123,7 @@ If the entry matches one form of the last names and the first names, it will be 
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 ```
 
-If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided. Note that the keys **MUST BE** lower cased and **MUST NOT** contain accents. This is because the keys are used to match the last names in the BibTeX entries, considering possible variations.
+If the entry matches one of the combinations of the last names and the first names, it will be highlighted and linked to the url provided. Note that the keys **MUST BE** lower cased and **MUST NOT** contain accents. This is because the keys are used to match the last names in the BibTeX entries, considering possible variations (see [related discussion](https://github.com/alshedivat/al-folio/discussions/2213)).
 
 ### Buttons (through custom bibtex keywords)
 
