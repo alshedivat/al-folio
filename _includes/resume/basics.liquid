@@ -14,7 +14,17 @@
       </td>
       <td class="p-1 pl-2 font-weight-light text">
         {% if content[0] == 'url' %}
-          <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">{{ content[1] }}</a>
+          {% if content[1] contains 'http' %}
+            <a href="{{ content[1] }}" target="_blank" rel="noopener noreferrer">{{ content[1] }}</a>
+          {% else %}
+            <a href="https://{{ content[1] }}" target="_blank" rel="noopener noreferrer">{{ content[1] }}</a>
+          {% endif %}
+        {% elsif content[0] == 'linkedin' %}
+          {% if content[1] contains 'http' %}
+            <a href="{{ content[1] }}" target="_blank" rel="noopener">{{ content[1] }}</a>
+          {% else %}
+            <a href="https://{{ content[1] }}" target="_blank" rel="noopener">{{ content[1] }}</a>
+          {% endif %}
         {% elsif content[0] == 'email' %}
           <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>
         {% elsif content[0] == 'phone' %}

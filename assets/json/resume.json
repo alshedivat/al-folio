@@ -1,139 +1,175 @@
 {
   "basics": {
     "name": "Aleksandr Kim",
-    "label": "Lead Data Scientist",
+    "label": "Senior Data Scientist",
     "image": "",
     "email": "aleksandr.v.kim@gmail.com",
     // "phone": "+44 7506 607 689",
-    "url": "https://www.linkedin.com/in/aleksandrkim/",
+    "linkedin": "linkedin.com/in/aleksandrkim/",
+    "url": "alexkimds.github.io",
     "summary": "Experienced Data Scientist with a background in leading projects and teams, and in applying data-backed solutions to complex business issues. My journey has progressed from being an Individual Contributor to a Team Leader, and then to working in a diverse international environment. I am always focused on creating tangible customer-oriented solutions through Data Science, rather than just enhancing ML metrics.",
     "location": {
-      // "address": "2712 Broadway St",
-      // "postalCode": "CA 94115",
       "city": "London",
       "countryCode": "UK"
-      // "region": "California"
     }
-    // "profiles": [
-    //   {
-    //     "network": "Twitter",
-    //     "username": "AlbertEinstein",
-    //     "url": "https://twitter.com/AlbertEinstein"
-    //   }
-    // ]
   },
   "work": [
     {
-      "name": "Intuit",
+      "name": "Intuit (Leading Financial Software Company)",
       "position": "Senior Data Scientist",
-      // "url": "https://example.com",
-      "startDate": "2022-07-18",
-      "endDate": "-",
-      // "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["LLMs & Prod"]
+      "startDate": "2024-09",
+      "endDate": "Present",
+      "location": "London, UK",
+      "highlights": [
+        "Leveraged LLMs and classical ML models to enhance UX for millions of online users. Yes, yes, we improved user engament metrics by <b>&gt;30%</b> using LLMs, however, we didn't forget about \"classical\" ML models.",
+        "Improved AB tesing approach for non-IID data and not normaly distributed metrics"
+      ]
+    },
+    {
+      "name": "Intuit (Leading Financial Software Company)",
+      "position": "Senior Data Scientist",
+      "startDate": "2022-07",
+      "endDate": "2024-08",
+      "location": "Tel Aviv, Israel",
+      "highlights": [
+        "Founded and led Data Science Guild (70+ members)",
+        "Optimized a complex data aggregation system using ML, reducing the error rate by <b>40%</b>"
+      ]
+    },
+    {
+      "name": "X5 Retail Group (top Russian retailer, about 20k stores)",
+      "position": "Team Lead, Data Science",
+      "startDate": "2021-10",
+      "endDate": "2022-06",
+      "location": "Moscow, Russia",
+      "highlights": [
+        "Developed promotion optimization system forecasting <b>100K+</b> time series daily",
+        "Built pricing models for <b>millions</b> of goods",
+        "Hired and built my own team while also supporting the hiring of data scientists, data engineers, and data quality specialists for other teams",
+        "Organized data quality monitoring for Hive data bases"
+      ]
+    },
+    {
+      "name": "Kaspersky Lab (international cybersecurity company)",
+      "position": "Senior Data Scientist",
+      "startDate": "2019-03",
+      "endDate": "2021-09",
+      "location": "Moscow, Russia",
+      "highlights": [
+        "Developed and Deployed BERT-based model for customers support automation (<b>20% reduce of support costs</b>)",
+        "Analyzed user's behavior data, generated hypotheses and conducted AB tests to verify them (customers' Retention Rate increase)",
+        "Developed and Deployed language identification model for customer's support (<b>SLA increase + automation</b>)"
+      ]
+    },
+    {
+      "name": "Raiffeisen Bank  (international bank)",
+      "position": "Data Scientist",
+      "startDate": "2018-06",
+      "endDate": "2019-03",
+      "location": "Moscow, Russia",
+      "highlights": [
+        "Improved local compliance scoring system (significant revenue growth)",
+        "Developed model for customer identification (employees' workload optimization)"
+      ]
+    },
+    {
+      "name": "Digital Diesel Ltd. (diesel equipment service)",
+      "position": "Data Analyst",
+      "startDate": "2017-04",
+      "endDate": "2018-04",
+      "location": "Moscow, Russia",
+      "highlights": ["Analyzed market of suppliers and created model to forecast suppliers' prices"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Moscow Institute of Physics and Technology",
+      "area": "Applied Mathematics and Physics",
+      "studyType": "Master's Degree",
+      "startDate": "2016-09",
+      "endDate": "2018-06",
+      "location": "Moscow, Russia",
+      "thesis": "Thesis: Distributed Support Vector Machines with Privileged Information"
+    },
+    {
+      "institution": "Moscow Institute of Physics and Technology",
+      "area": "Applied Mathematics and Physics",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2012-09",
+      "endDate": "2016-06",
+      "location": "Moscow, Russia",
+      "thesis": "Thesis: Research of Quadratic Mappings. Building a Border of Image Set of Non Convex Functions"
+    }
+  ],
+  "skills": [
+    {
+      "name": "ML tasks",
+      "keywords": ["NLP", "LLMs", "Uplift‑modeling", "Ranking", "Matching", "Dynamic pricing", "TS Forcastin"]
+    },
+    {
+      "name": "Machine Learning",
+      "keywords": ["Python", "Scikit-learn", "PyTorch", "Transformers", "LLMs", "Pandas", "Numpy"]
+    },
+    {
+      "name": "Soft Skills",
+      "keywords": ["Team Leadership", "Project Management", "Expectation Management", "Cross-functional Collaboration", "Mentoring"]
+    },
+    {
+      "name": "MLOps",
+      "keywords": ["Airflow", "MLflow", "Docker and Kubernetes", "Code and Data versioning (Git, DVC)", "CI/CD", "Prototyping (Flask, FastAPI)"]
+    },
+    {
+      "name": "Data Mining",
+      "keywords": ["PySpark", "Hadoop", "SQL", "Parsing (Scrapy, Selenium, Beautiful Soup)"]
+    }
+    // {
+    //   "name": "Cloud Computing",
+    //   "keywords": ["AWS", "Databricks"]
+    // }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    },
+    {
+      "language": "Hebrew",
+      "fluency": "Basic"
+    },
+    {
+      "language": "German",
+      "fluency": "Basic"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Quantum Computing",
+      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
+      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
+      "startDate": "2018-01-01",
+      "endDate": "2018-01-01",
+      "url": "https://example.com"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Cooking",
+      "icon": "fa-solid fa-fire-burner"
+    },
+    {
+      "name": "Freediving",
+      "icon": "custom-icon",
+      "image": "assets/img/snorkel.png"
+    },
+    {
+      "name": "Travelling",
+      "icon": "fa-solid fa-person-hiking"
     }
   ]
-  // "volunteer": [
-  //   {
-  //     "organization": "People's Climate March",
-  //     "location": "Zurich, Switzerland",
-  //     "position": "Lead Organizer",
-  //     "url": "https://example.com",
-  //     "startDate": "2014-04-01",
-  //     "endDate": "2015-07-01",
-  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-  //   }
-  // ],
-  //   "education": [
-  //     {
-  //       "institution": "University of Zurich, Zurich, Switzerland",
-  //       "location": "Zurich, Switzerland",
-  //       "url": "https://www.uzh.ch/",
-  //       "area": "Software Development",
-  //       "studyType": "PhD",
-  //       "startDate": "1905-01-01",
-  //       "endDate": "1905-01-01",
-  //       "score": "10",
-  //       "courses": ["Theory of Relativity"]
-  //     }
-  //   ],
-  //   "awards": [
-  //     {
-  //       "title": "Nobel Prize in Physics",
-  //       "date": "1921-11-01",
-  //       "awarder": "Royal Swedish Academy of Sciences",
-  //       "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-  //       "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-  //     }
-  //   ],
-  //   "certificates": [
-  //     {
-  //       "name": "Machine Learning",
-  //       "date": "2018-01-01",
-  //       "issuer": "Stanford University",
-  //       "url": "https://example.com",
-  //       "icon": "fa-solid fa-location-dot"
-  //     },
-  //     {
-  //       "name": "Quantum Computing",
-  //       "date": "2018-01-01",
-  //       "issuer": "Stanford University",
-  //       "url": "https://example.com",
-  //       "icon": "fa-solid fa-tag"
-  //     },
-  //     {
-  //       "name": "Quantum Information",
-  //       "date": "2018-01-01",
-  //       "issuer": "Stanford University",
-  //       "url": "https://example.com",
-  //       "icon": "fa-solid fa-envelope"
-  //     },
-  //     {
-  //       "name": "Quantum Cryptography",
-  //       "date": "2018-01-01",
-  //       "issuer": "Stanford University",
-  //       "url": "https://example.com",
-  //       "icon": "fa-solid fa-hashtag"
-  //     },
-  //     {
-  //       "name": "Quantum Communication",
-  //       "date": "2018-01-01",
-  //       "issuer": "Stanford University",
-  //       "url": "https://example.com",
-  //       "icon": "fa-solid fa-calendar"
-  //     },
-  //     {
-  //       "name": "Quantum Teleportation",
-  //       "date": "2018-01-01",
-  //       "issuer": "Stanford University",
-  //       "url": "https://example.com",
-  //       "icon": "fa-solid fa-clipboard-check"
-  //     }
-  //   ],
-  //   "publications": [
-  //     {
-  //       "name": "Zur Elektrody/namik bewegter Körper",
-  //       "publisher": "Annalen der Physik",
-  //       "releaseDate": "1905-06-30",
-  //       "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-  //       "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-  //     },
-  //     {
-  //       "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-  //       "publisher": "Annalen der Physik",
-  //       "releaseDate": "1905-03-18",
-  //       "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-  //       "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-  //     },
-  //     {
-  //       "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-  //       "publisher": "Annalen der Physik",
-  //       "releaseDate": "1916-03-20",
-  //       "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-  //       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-  //     }
-  //   ],
   //   "skills": [
   //     {
   //       "name": "Physics",

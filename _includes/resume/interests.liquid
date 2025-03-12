@@ -6,7 +6,11 @@
           <tr>
             {% if content.icon %}
               <td class="list-group-category-icon">
-                <i class="{{ content.icon }}"></i>
+                {% if content.icon contains 'fa-' %}
+                  <i class="{{ content.icon }}"></i>
+                {% else %}
+                  <span class="{{ content.icon }}" data-icon="{{ content.image }}"></span>
+                {% endif %}
               </td>
             {% else %}
               <td class="list-group-category-icon"></td>

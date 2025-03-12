@@ -1,0 +1,14 @@
+.custom-icon {
+  width: 1em; /* Same size as FontAwesome icons */
+  height: 1em;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid red; /* Debug border */
+  background-color: yellow; /* Debug background */
+}
+
+.custom-icon[data-icon="assets/img/snorkel.png"] {
+  background-image: url("../img/snorkel.png"); /* Changed from absolute to relative path */
+}
