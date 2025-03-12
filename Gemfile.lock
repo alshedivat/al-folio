@@ -73,6 +73,7 @@ GEM
     ffi (1.17.1-arm-linux-gnu)
     ffi (1.17.1-arm-linux-musl)
     ffi (1.17.1-arm64-darwin)
+    ffi (1.17.1-x64-mingw-ucrt)
     ffi (1.17.1-x86_64-darwin)
     ffi (1.17.1-x86_64-linux-gnu)
     ffi (1.17.1-x86_64-linux-musl)
@@ -86,6 +87,9 @@ GEM
       bigdecimal
       rake (>= 13)
     google-protobuf (4.30.0-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.30.0-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.30.0-x86_64-darwin)
@@ -154,6 +158,8 @@ GEM
       citeproc-ruby (~> 1.0)
       csl-styles (~> 1.0)
       jekyll (~> 4.0)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-tabs (1.2.1)
@@ -202,6 +208,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.18.3-arm64-darwin)
       racc (~> 1.4)
+    nokogiri (1.18.3-x64-mingw-ucrt)
+      racc (~> 1.4)
     nokogiri (1.18.3-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.3-x86_64-linux-gnu)
@@ -235,6 +243,8 @@ GEM
       google-protobuf (~> 4.29)
     sass-embedded (1.85.1-arm64-darwin)
       google-protobuf (~> 4.29)
+    sass-embedded (1.85.1-x64-mingw-ucrt)
+      google-protobuf (~> 4.29)
     sass-embedded (1.85.1-x86_64-darwin)
       google-protobuf (~> 4.29)
     sass-embedded (1.85.1-x86_64-linux-gnu)
@@ -256,6 +266,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.6.0)
     uri (1.0.3)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -267,6 +278,7 @@ PLATFORMS
   arm-linux-musl
   arm-linux-musleabihf
   arm64-darwin
+  x64-mingw-ucrt
   x86_64-darwin
   x86_64-linux
   x86_64-linux-gnu
@@ -289,6 +301,7 @@ DEPENDENCIES
   jekyll-paginate-v2
   jekyll-regex-replace
   jekyll-scholar
+  jekyll-seo-tag (~> 2.8)
   jekyll-sitemap
   jekyll-tabs
   jekyll-terser!
@@ -297,6 +310,7 @@ DEPENDENCIES
   jemoji
   observer
   ostruct
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.6.5
