@@ -395,6 +395,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1919: Amritsar Massacre in India, British kill hundreds of protesters
 - 1920: Gandhi launches non-cooperation movement in India
 - 1920: San Remo Resolution applies the mandate system to Palestine and incorporates the Balfour declaration
+- 1920s: 40-50k landowners in Canton escape to Hong Kong to avoid executions by Communist-led farmer uprisings, which were extremely violent and hateful
 - 1920: Nabi Musa riots in Jerusalem, Haycraft commission investigates
 - 1920: Mao Zedong talks with Chen Duxiu and is convinced by communism
 - 1920 - 1921: Famine in China under warlord rule, kills ~0.5 million
@@ -413,12 +414,15 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1924 - 1929: Fourth Aliyah to Palestine, middle-class Jews from Poland and Hungary
 - 1924: Sun Yat-Sen dies, split opens in the United Front between Chiang Kai-Shek and Wang Jingwei
 - 1925: May Thirtieth Incident in Shanghai when police fire on protesters, killing 9, sparks anti-imperialist movement
-- 1925: "White Terror" in China, Chiang Kai-Shek purges communists and United Front breaks down
+- 1926 - 1928: Great Northern Expedition in China, Chiang Kai-Shek attempts to unify China in collaboration with the Communists and the Soviet Union
 - 1926: Mao Zedong writes the “Analysis of the Classes in Chinese Society”, asserting that peasants are a semi-proletariat
 - 1927: Martin Heidegger writes *Being and Time*
 - 1927: Chiang Kai-Shek and the Nationalists (Guomindang) take over Shanghai and establish capital in Nanjing, beginning of the "Nanjing decade"
+- 1927: Chiang Kai-Shek purges communists in Shanghai and United Front breaks down
 - 1927: Mao Zedong writes the “Report on an Investigation of the Peasant movement in hunan”, asserting that violence is necessary to purge China of centuries of oppression
-- 1928 - 1930: Famine in China under warlord rule, kills ~3 millionh
+- 1928 - 1930: Famine in China under warlord rule, kills ~3 million
+- 1928 - 1938: the "Nanjing decade" in China, relative peace with the Nationalist government in Nanjing
+- 1928: Chiang Kai-Shek officially establishes the Nationalist Government following the split of the united front
 - 1929: Wall Street Crash, beginning of the Great Depression
 - 1929 - 1939: Fifth Aliyah, Jews escaping anti-Semitism in Europe and Nazis in Germany
 - 1929: Strike by Beijing rickshaw pullers
@@ -472,6 +476,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1945: Taiwan is returned to China from Japan
 - 1946: Italians vote in referendum to abolish monarchy, establishing Italian Republic
 - 1946: Anglo-American Committee of Inquiry investigates Jewish-Arab conflict
+- 1946: Land reform begins in "old liberated areas" in Northern China under Communist influence
 - 1947: Exodus steamship carrying Jewish refugees is returned to Germany
 - 1947: UN General Assembly Resolution 181 proposes partition of Palestine
 - 1947: Partition of India, creation of Pakistan
@@ -487,24 +492,50 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1949: Armistic agreements signed, forming Green Line
 - 1949: Beijing, Nanjing, Shanghai, Wuhan, and Hangzhou fall to the Communists
 - 1949: Mao Zedong declares the People's Republic of China on October 1
+- 1949: The new Communist government closes 224 brothels and arrests 1,286 prostitutes in Beijings
 - 1950 - 1953: Korean War
+- 1950: CCP passes the Agrarian Reform Law, redistributing land to peasants
 - 1950: Israel passes Absentee Property Law which allows confiscation of Palestinian property, and Preventing Infiltration Law which allows expulsion of Palestinians, denies right of return to Palestinians expelled during the 1948 war
+- 1950: Sino-Soviet Friendship Treaty signed
+- 1950: CCP passes the Marriage Law, affirming the euqal rights of both sexes and protection of lawful interests of women and children
+- 1950 - 1951: CCP launches aggressive anti-counter-revolutionary campaign, arresting 2.6m and carrying out 712k
+- 1950 - 1951: Tens of thousands of intellectuals go through thought reform at revolutionary universities in China
 - 1951: King Abdullah of Jordan is assassinated at Al-Aqsa Mosque for perceived collaboration with Israelis
+- 1951 - 1952: Three Antis campaign by CCP targets corruption, waste, and mismanagement
 - 1952: Mau Mau Urprising in Kenya against British rule
 - 1952: Eritrea federated with Ethopia under UN resolution
+- 1952: "Land to the Tiller" movement complete under Communist China; 43% of cultivated land redistributed to 60% of rural population; 88% of households affected
+- 1952: Five Antis Campaign by CCP targets bribery and tax evasion by businessmen
+- 1952: Dismantling of secret societies in Shanghai by CCP
 - 1953: Qibya Massacre by Israeli forces
+- 1953: Death of Stalin; Khrushchev becomes leader of USSR
+- 1953: CCP announces end of "new democracy" phase, beginning of First Five-Year Plan, emphasizing central planning and growth of industry
+- 1953 - 1954: CCP introuces new quota-based district-level system for agricultural production
 - 1954: First Indochina War ends, Vietnam divided at 17th parallel
 - 1954 - 1962: Algerian War of Independence against France
+- 1954: Full achievement of CCP state building in China; state and Party organs function fully in China
 - 1955 - 1975: Vietnam War
+- 1955: Mao aims to accelerate cooperatization by encouraging labor-intensive industries
 - 1956: Suez Crisis, Egypt nationalizes the Suez Canal -- UK, France, and Israel invade Egypt, Israel temporarily occupies Sinai and Gaza
 - 1956 - 1957: Israeli occupation of Gaza following the Suez Crisis
+- 1956: Believing that intellectuals were not voicing their concerns, Mao Zedong launches the Hundred Flowers Campaign, inviting criticism of the government
+- 1956 - 1957: Large-scale strike in Shanghai
+- 1956: CCP announces 5-7 year plan to reduce illiteracy, process of simplifying Chinese characters begins
+- 1957: Population of the urban industrial working class in China reaches 10 million; urban population reaches 100 million
+- 1957 - 1958: Anti-rightist campaign in China, 1.1m people branded as rightists
 - 1958: Coup in Iraq overthrows King Faisal II
+- 1958 - 1961: Great Leap Forward in China, Mao's attempt to rapidly industrialize and collectivize agriculture, away from the Soviet model. China should rely on its one major resource -- people.
+- 1958: In Jiangsu, Pi County, peasants produce 105k paintings, drawings, and murals depicting a glorious Communist future
+- 1958: The CCP knows about widening famine in regions but continues with the Great Leap Forward
+- 1959: Mao Zedong orders a second Great Leap Forward, leading to the worst famine in human history
 - 1960: Rome hosts the Summer Olympics
 - 1961: Bay of Pigs invasion of Cuba by US
 - 1961: Eritrean War of Independence begins
 - 1962: Cuban Missile Crisis, peak of US-Soviet tensions
+- 1962: Following the 1958 Central Committee announcement that official labors should do labor, 2 million urbanites have been sent to the countryside for 1-year stints, although this appeared not to have reduced bureaucratism and factionalism, leading to the Cultural Revolution
 - 1962: Ethiopia annexes Eritrea
 - 1962: Evian accords grant Algerian independence from France
+- 1962: Taming of CCP agricultural policy; 30% of households are farming inependently; the CCP launches the Socialist Education Movement to ensure ideological alignment and pinning the Great Leap Forward's failures on local officials
 - 1964 - 1973: US involvement in the Vietnam War
 - 1964: Founding of the Palestine Liberation Organization (PLO) in East Jerusalem (Jordan)
 - 1965: Voting Rights Act passes
