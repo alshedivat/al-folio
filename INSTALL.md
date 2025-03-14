@@ -76,6 +76,36 @@ $ docker compose up --build
 
 If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that.
 
+## Have Bugs on Docker Image?
+
+Sometimes, there might be some bugs in the current docker image. It might be version mismatch or anything. If you want to debug and easily solve the problem for yourself you can do the following steps:
+
+```
+docker compose up -d
+docker compose logs
+```
+
+Then you can see the bug! You can enter the container via this command:
+
+```
+docker compose exec -it jekyll /bin/bash
+```
+
+Then you can run the script:
+```
+./bin/entry_point.sh
+```
+
+You might see problems for package dependecy or something which is not available. You can fix it now by using 
+```
+bundle install
+./bin/entry_point.sh
+```
+
+Most likely, this will solve the problem but it shouldn't really happen. So, please open a bug report for us. 
+
+
+
 ## Local Setup with Development Containers
 
 `al-folio` supports [Development Containers](https://containers.dev/supporting).
