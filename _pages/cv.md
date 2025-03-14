@@ -18,12 +18,12 @@ View CV as a [pdf](/assets/pdf/Ye%20Resume%20Public.pdf){:target="_blank"} and s
 
 "Unsettling the Hegemony of Intention: Agonistic Image Generation".
 **Andre Ye\***, Andrew Shaw\*, Ranjay Krishna, Amy X. Zhang.
-Conference on Language Modeling (COLM) 2024.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2502.15242){:target="_blank"}.
 
 "Cultural and Linguistic Diversity Improves Visual Representations". 
 **Andre Ye**, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
+Computer Vision and Pattern Recognition (CVPR) 2025.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"},
 RAIVN lab talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7jStpekaF1E4vfnpVpXPx-bxpPTg/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/RAIVN-presentation-11_28.pdf),
