@@ -6,6 +6,7 @@
   - [Local setup on Windows](#local-setup-on-windows)
   - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
     - [Build your own docker image](#build-your-own-docker-image)
+    - [Have Bugs on Docker Image?](#have-bugs-on-docker-image)
   - [Local Setup with Development Containers](#local-setup-with-development-containers)
   - [Local Setup (Legacy, no longer supported)](#local-setup-legacy-no-longer-supported)
   - [Deployment](#deployment)
@@ -75,6 +76,36 @@ $ docker compose up --build
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of the previous command! It will download Ruby and Jekyll and install all Ruby packages again from scratch.
 
 If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that.
+
+### Have Bugs on Docker Image?
+
+Sometimes, there might be some bugs in the current docker image. It might be version mismatch or anything. If you want to debug and easily solve the problem for yourself you can do the following steps:
+
+```
+docker compose up -d
+docker compose logs
+```
+
+Then you can see the bug! You can enter the container via this command:
+
+```
+docker compose exec -it jekyll /bin/bash
+```
+
+Then you can run the script:
+
+```
+./bin/entry_point.sh
+```
+
+You might see problems for package dependecy or something which is not available. You can fix it now by using
+
+```
+bundle install
+./bin/entry_point.sh
+```
+
+Most likely, this will solve the problem but it shouldn't really happen. So, please open a bug report for us.
 
 ## Local Setup with Development Containers
 
@@ -211,7 +242,7 @@ If you installed **al-folio** as described above, you can manually update your c
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase v0.14.2
+$ git rebase v0.14.3
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
