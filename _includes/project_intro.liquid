@@ -1,0 +1,20 @@
+<div class="Intro">
+  {% if include.img %}
+    <div class="Icon">
+      {% include figure.liquid path=include.img max-height="300px" max-width="300px" width="auto" style="margin: auto;" %}
+    </div>
+    <hr class="vertical-hr">
+  {% endif %}
+
+  <div class="Info">
+    <h1 class="Title">{{ include.title }}</h1>
+    <div class="TechIconsBox">
+      {% for icon in include.icons %}
+        <div class="TechIcon">
+          {% include tech-icon.liquid site=icon.site file=icon.file %}
+        </div>
+      {% endfor %}
+    </div>
+    <p>{{ include.description }}</p>
+  </div>
+</div>

@@ -6,6 +6,9 @@
   {% if include.slot %}
     slot="{{ include.slot }}"
   {% endif %}
+  {% if include.style %}
+    style="{{ include.style }}"
+  {% endif %}
 >
   <picture>
     <!-- Auto scaling with imagemagick -->
