@@ -1,5 +1,13 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% for content in data[1] %}
+  {% case page.sort_entries.awards %}
+    {% when 'reverse' %}
+      {% assign awards = data[1] | sort: 'date' | reverse %}
+    {% when 'forward' %}
+      {% assign awards = data[1] | sort: 'date' %}
+    {% else %}
+      {% assign awards = data[1] %}
+  {% endcase %}
+  {% for content in awards %}
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
