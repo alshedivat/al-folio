@@ -104,8 +104,6 @@ bundle install
 
 Most likely, this will solve the problem but it shouldn't really happen. So, please open a bug report for us. 
 
-
-
 ## Local Setup with Development Containers
 
 `al-folio` supports [Development Containers](https://containers.dev/supporting).
