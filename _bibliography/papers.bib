@@ -550,17 +550,23 @@ while significantly reducing CPU usage.},
   abbr = {SC}
 }
 
-@article{2024sebsflow,
+@inproceedings{2025sebsflow,
     title={SeBS-Flow: Benchmarking Serverless Cloud Function Workflows}, 
     author={Larissa Schmid and Marcin Copik and Alexandru Calotoiu and Laurin Brandner and Anne Koziolek and Torsten Hoefler},
-    year={2024},
-    archivePrefix={arXiv},
+    year={2025},
+    url = {https://doi.org/10.1145/3689031.3717465},
+    doi = {10.1145/3689031.3717465},
     primaryClass={cs.DC},
-    abbr = {arXiv},
+    archivePrefix={arXiv},
     arxiv={2410.03480},
-    bibtex_show = {True},
     abstract = {Serverless computing has emerged as a prominent paradigm, with a significant adoption rate among cloud customers. While this model offers advantages such as abstraction from the deployment and resource scheduling, it also poses limitations in handling complex use cases due to the restricted nature of individual functions. Serverless workflows address this limitation by orchestrating multiple functions into a cohesive application. However, existing serverless workflow platforms exhibit significant differences in their programming models and infrastructure, making fair and consistent performance evaluations difficult in practice. To address this gap, we propose the first serverless workflow benchmarking suite SeBS-Flow, providing a platform-agnostic workflow model that enables consistent benchmarking across various platforms. SeBS-Flow includes six real-world application benchmarks and four microbenchmarks representing different computational patterns. We conduct comprehensive evaluations on three major cloud platforms, assessing performance, cost, scalability, and runtime deviations. We make our benchmark suite open-source, enabling rigorous and comparable evaluations of serverless workflows over time.},
-    pdf = {2024_sebs_flow_preprint.pdf}
+    pdf = {2025_sebs_flow_paper.pdf},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA}, 
+    booktitle = {Proceedings of the Twentieth European Conference on Computer Systems},
+    abbr = {EuroSys},
+    series = {EuroSys '25},
+    bibtex_show = {True}
 }
 
 @article{2024chainsdemistifying,
@@ -576,3 +582,39 @@ while significantly reducing CPU usage.},
     pdf = {2024_demistifying_chains_preprint.pdf}
 }
 
+@article{2025reasoningblueprint,
+    title={Reasoning Language Models: A Blueprint},
+    author={Maciej Besta and Julia Barth and Eric Schreiber and Ales Kubicek and Afonso Catarino and Robert Gerstenberger and Piotr Nyczyk and Patrick Iff and Yueling Li and Sam Houliston and Tomasz Sternal and Marcin Copik and Grzegorz Kwaśniewski and Jürgen Müller and Łukasz Flis and Hannes Eberhard and Hubert Niewiadomski and Torsten Hoefler},
+    year={2025},
+    archivePrefix={arXiv},
+    primaryClass={cs.DC},
+    abbr = {arXiv},
+    arxiv={2501.11223},
+    bibtex_show = {True},
+    abstract = {Reasoning language models (RLMs), also known as Large Reasoning Models (LRMs), such as OpenAI's o1 and o3, DeepSeek-V3, and Alibaba's QwQ, have redefined AI's problem-solving capabilities by extending LLMs with advanced reasoning mechanisms. Yet, their high costs, proprietary nature, and complex architectures - uniquely combining Reinforcement Learning (RL), search heuristics, and LLMs - present accessibility and scalability challenges. To address these, we propose a comprehensive blueprint that organizes RLM components into a modular framework, based on a survey and analysis of all RLM works. This blueprint incorporates diverse reasoning structures (chains, trees, graphs, and nested forms), reasoning strategies (e.g., Monte Carlo Tree Search, Beam Search), RL concepts (policy, value models and others), supervision schemes (Outcome-Based and Process-Based Supervision), and other related concepts (e.g., Test-Time Compute, Retrieval-Augmented Generation, agent tools). We also provide detailed mathematical formulations and algorithmic specifications to simplify RLM implementation. By showing how schemes like LLaMA-Berry, QwQ, Journey Learning, and Graph of Thoughts fit as special cases, we demonstrate the blueprint's versatility and unifying potential. To illustrate its utility, we introduce x1, a modular implementation for rapid RLM prototyping and experimentation. Using x1 and a literature review, we provide key insights, such as multi-phase training for policy and value models, and the importance of familiar training distributions. Finally, we discuss scalable RLM cloud deployments and we outline how RLMs can integrate with a broader LLM ecosystem. Our work demystifies RLM construction, democratizes advanced reasoning capabilities, and fosters innovation, aiming to mitigate the gap between "rich AI" and "poor AI" by lowering barriers to RLM design and experimentation.},
+    pdf = {2025_reasoning_blueprint_preprint.pdf}
+}
+
+@article{2025carboncredits,
+    title={Core Hours and Carbon Credits: Incentivizing Sustainability in HPC},
+    author={Alok Kamatar and Maxime Gonthier and Valerie Hayot-Sasson and Andre Bauer and Marcin Copik and Torsten Hoefler and Raul Castro Fernandez and Kyle Chard and Ian Foster},
+    year={2025},
+    archivePrefix={arXiv},
+    primaryClass={cs.DC},
+    abbr = {arXiv},
+    arxiv={2501.09557},
+    bibtex_show = {True},
+    abstract = {Realizing a shared responsibility between providers and consumers is critical to manage the sustainability of HPC. However, while cost may motivate efficiency improvements by infrastructure operators, broader progress is impeded by a lack of user incentives. We conduct a survey of HPC users that reveals fewer than 30 percent are aware of their energy consumption, and that energy efficiency is among users' lowest priority concerns. One explanation is that existing pricing models may encourage users to prioritize performance over energy efficiency. We propose two transparent multi-resource pricing schemes, Energy- and Carbon-Based Accounting, that seek to change this paradigm by incentivizing more efficient user behavior. These two schemes charge for computations based on their energy consumption or carbon footprint, respectively, rewarding users who leverage efficient hardware and software. We evaluate these two pricing schemes via simulation, in a prototype, and a user study.},
+    pdf = {2025_carbon_credits_preprint.pdf}
+}
+
+@article{2025sebs20,
+    title={SeBS 2.0: Keeping up with the Clouds},
+    author={Marcin Copik and Alexandru Calotoiu and Torsten Hoefler},
+    year={2025},
+    abstract = {Three years ago, SeBS, the serverless benchmarking suite, was introduced to address the need for an automatic, representative, and easy-to-use benchmarking framework for FaaS applications. SeBS has been widely adopted in research projects and has evolved to incorporate new features addressing the changing landscape of FaaS platforms. As serverless workflows and services continue to grow in size and complexity, there is an ongoing need to support emerging application classes. In this paper, we outline both the progress made and the roadmap for supporting new workloads and frameworks, while identifying upcoming trends and paradigm shifts to provide researchers with reliable and reproducible benchmarks. The serverless community needs an open and portable benchmarking framework to drive future progress, and SeBS aims to fulfill this crucial role.},
+    pdf = {2025_sebs_20_paper.pdf},
+    abbr = {SESAME @ EuroSyS},
+    series = {SESAME '25},
+    bibtex_show = {True}
+}
