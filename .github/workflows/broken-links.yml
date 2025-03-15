@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - deployment
+      - working-luc
       - main
     paths:
       - "assets/**"
