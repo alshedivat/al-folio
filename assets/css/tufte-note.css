@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*****************************************************************************/
+/*
+/* Tufte Jekyll blog theme
+/* Based on Tufte CSS by Dave Liepmann ( https://github.com/edwardtufte/tufte-css )
+/*
+/* The README.md will show you how to set up your site along with other goodies
+/*****************************************************************************/
+@font-face {
+  font-family: "Comic Mono";
+  src: url("/assets/fonts/ComicMono.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* This file contains all the constants for colors and font styles */
+/** Syntax highlighting styles */
+body {
+  counter-reset: sidenote-counter;
+}
+.sidenote,
+.marginnote {
+  float: right;
+  clear: right;
+  margin-right: -55%;
+  width: 50%;
+  margin-top: 0;
+  margin-bottom: 1.96rem;
+  font-size: 1rem;
+  line-height: 1.96;
+  vertical-align: baseline;
+  position: relative;
+}
+
+li .sidenote,
+li .marginnote {
+  margin-right: -80%;
+}
+
+blockquote .sidenote,
+blockquote .marginnote {
+  margin-right: -79%;
+}
+
+.sidenote-number {
+  counter-increment: sidenote-counter;
+}
+
+.sidenote-number:after,
+.sidenote:before {
+  content: counter(sidenote-counter) " ";
+  font-family: et-bembo-roman-old-style;
+  color: #a00000;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.sidenote-number:after {
+  content: counter(sidenote-counter);
+  font-size: 1rem;
+  top: -0.5rem;
+  left: 0.1rem;
+}
+
+.sidenote:before {
+  content: counter(sidenote-counter) ". ";
+  color: #a00000;
+  top: 0rem;
+}
+
+.marginnote code,
+.sidenote code {
+  font-size: 1rem;
+}
+
+span.newthought {
+  font-variant: small-caps;
+  font-size: 1.2em;
+  letter-spacing: 0.05rem;
+}
+
+.fullwidth,
+li.listing div {
+  max-width: 90%;
+}
+
+.full-width .sidenote,
+.full-width .sidenote-number,
+.full-width .marginnote {
+  display: none;
+}
+
+input.margin-toggle {
+  display: none;
+}
+
+label.sidenote-number {
+  display: inline;
+}
+
+label.margin-toggle:not(.sidenote-number) {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  label.margin-toggle:not(.sidenote-number) {
+    display: inline;
+    color: #a00000;
+  }
+  .sidenote,
+  .marginnote {
+    display: none;
+  }
+  .margin-toggle:checked + .sidenote,
+  .margin-toggle:checked + .marginnote {
+    display: block;
+    float: left;
+    left: 1rem;
+    clear: both;
+    width: 95%;
+    margin: 1rem 2.5%;
+    vertical-align: baseline;
+    position: relative;
+  }
+  label {
+    cursor: pointer;
+  }
+}
