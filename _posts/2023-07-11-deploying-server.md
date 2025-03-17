@@ -2,7 +2,7 @@
 layout: post
 title: Deploying a Server for Bioinformatics Research
 date: 2023-07-11
-last_updated: 2024-06-04
+last_updated: 2024-03-17
 description: how to deploy a server for bioinformatics research
 tags: deployment server Ubuntu
 categories: computer
@@ -640,7 +640,7 @@ Failed to initialize NVML: Driver/library version mismatch
 
 ```bash
 sudo apt purge nvidia* libnvidia*
-sudo ubuntu-drivers install
+sudo ubuntu-drivers autoinstall
 ```
 
 and then `sudo reboot` your server.
