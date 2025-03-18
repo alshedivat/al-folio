@@ -1,8 +1,8 @@
 ---
-layout: about
+layout: default
 title: about
 subtitle: Electronic Visualization Laboratory
-permalink: /about
+permalink: /about/
 nav: true
 nav_order: 1
 ---
