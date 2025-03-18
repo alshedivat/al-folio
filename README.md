@@ -20,7 +20,7 @@ ubuntu:
   - If not, go to the branch on github and click on the "New pull request" button
   - Select the deployment branch as the base branch
   - Check for conflicts
-- Add Mike as a reviewer to merge the pull request
+- Add Mike/Luc/Lance as a reviewer to merge the pull request
 - Wait
 
 ## Deploy on www-new
