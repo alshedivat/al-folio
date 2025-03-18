@@ -1,11 +1,5 @@
 # EVL
 
-## Setup
-
-ubuntu:
-  sudo bundle install
-  bundle exec jekyll serve --host 0.0.0.0
-
 ## Development
 
 - git checkout deployment
@@ -22,6 +16,12 @@ ubuntu:
   - Check for conflicts
 - Add Mike/Luc/Lance as a reviewer to merge the pull request
 - Wait
+
+## Testing
+
+On your machine (can vary depending on OS):
+- sudo bundle install
+- bundle exec jekyll serve --host 0.0.0.0
 
 ## Deploy on www-new
 
