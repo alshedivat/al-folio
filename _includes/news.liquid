@@ -10,7 +10,6 @@
       <div class="table-responsive">
         <table class="table table-sm table-borderless">
           {% for item in news %}
-            {% if item.date <= site.time %}
               <tr>
                 <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
                 <td>
@@ -21,7 +20,6 @@
                   {% endif %}
                 </td>
               </tr>
-            {% endif %}
           {% endfor %}
         </table>
       </div>
@@ -38,7 +36,6 @@
               <th colspan="2">{{ year_group.name }}</th>
             </tr>
             {% for item in year_group.items %}
-              {% if item.date <= site.time %}
                 <tr>
                   <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
                   <td>
@@ -49,7 +46,6 @@
                     {% endif %}
                   </td>
                 </tr>
-              {% endif %}
             {% endfor %}
           {% endfor %}
         </table>
