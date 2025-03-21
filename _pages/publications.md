@@ -13,6 +13,10 @@ Peer-reviewed journal publications:-
 
 9. Manjunath Mulimani, Spoorthy V., Shashidhar G. Koolagudi. "Acoustic Event and Scene Classification: A Review", SN Computer Science 2025, vol.6, no. 54,  Springer. 
 
+10. Manjunath Mulimani, Annamaria Mesaros. "A Closer Look at Class-Incremental Learning for Multi-Label Audio Classification", IEEE Transactions on Audio, Speech and Language Processing 2025, vol. 33, IEEE.
+
+9. Manjunath Mulimani, Spoorthy V., Shashidhar G. Koolagudi. "Acoustic Event and Scene Classification: A Review", SN Computer Science 2025, vol.6, no. 54,  Springer. 
+
 8. Spoorthy V., Manjunath Mulimani, Shashidhar G. Koolagudi. "Acoustic Scene Classification using Deep Fisher Network", Digital Signal Processing 2023, vol.139, Elsevier. 
 
 7. Manjunath Mulimani, Ritika Nandi, Shashidhar G. Koolagudi. "Acoustic Scene Classification using Projection Kervolutional Neural Network", Multimedia Tools and Applications 2022, pp. 1-11, Springer.

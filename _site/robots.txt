@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://mulimani.github.io/sitemap.xml
