@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
+gem "jekyll-paginate"
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
