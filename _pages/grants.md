@@ -32,6 +32,6 @@ Conference Review:
 
 4. WASPAA
 
-5. DCASE
+5. DCASE Workshop
 
  
