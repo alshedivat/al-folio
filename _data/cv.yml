@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Albert Yoshimoto
     - name: Date of Birth
-      value: 14th March 1879
+      value: 28th May 2001
     - name: Languages
-      value: English, German
+      value: English, Spanish, German, French
 
 - title: Education
   type: time_table

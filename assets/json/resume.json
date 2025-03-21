@@ -4,8 +4,8 @@
     "label": "Computer Science Graduate Student",
     "image": "prof_pic.jpg",
     "email": "ayoshimoto@miners.utep.edu",
-    "phone": "+1 (915) 731-4379",
-    "url": "https://atyoshi.github.io",
+    "phone": "",
+    "URL": "https://atyoshi.github.io",
     "summary": "A highly motivated and results-oriented professional with experience in Computer Science, specializing Object-Oriented Programming and Computation Theory. Strong leadership and communication skills, with a focus on collaborative teamwork to achieve organizational goals. Seeking a challenging role where I can leverage my expertise to contribute significantly to team success.",
     "location": {
       "address": "875 Silent View Pl",
@@ -84,14 +84,6 @@
         "Python",
         "OOP"
       ]
-    },
-    {
-      "name": "Computation Theory",
-      "keywords": []
-    },
-    {
-      "name": "Object-Oriented Programming",
-      "keywords": []
     },
     {
       "name": "Music",
