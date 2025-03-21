@@ -7,7 +7,7 @@ years: [2017, 1967, 1956, 1950, 1935, 1905]
 nav: true
 nav_order: 1
 ---
-Peer-reviewed journal publications:
+Peer-reviewed journal publications:-
 
 10. Manjunath Mulimani, Annamaria Mesaros. "A Closer Look at Class-Incremental Learning for Multi-Label Audio Classification", IEEE Transactions on Audio, Speech and Language Processing 2025, vol. 33, IEEE.
 
@@ -30,7 +30,7 @@ Peer-reviewed journal publications:
 1. Manjunath Mulimani, Shashidhar G. Koolagudi. "Robust Acoustic Event Classification using Fusion Fisher Vector features", Applied Acoustics 2019, vol. 155, pp. 130-138, Elsevier.
 
 
-Peer-reviewed conference publications:
+Peer-reviewed conference publications:-
 
 20. Manjunath Mulimani, Annamaria Mesaros, “Domain-Incremental Learning for Audio Classification ,” IEEE ICASSP, 2025 (Accepted)
 
