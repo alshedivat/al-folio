@@ -9,6 +9,10 @@ nav_order: 1
 ---
 Peer-reviewed journal publications:
 
+10. Manjunath Mulimani, Annamaria Mesaros. "A Closer Look at Class-Incremental Learning for Multi-Label Audio Classification", IEEE Transactions on Audio, Speech and Language Processing 2025, vol. 33, IEEE.
+
+9. Manjunath Mulimani, Spoorthy V., Shashidhar G. Koolagudi. "Acoustic Event and Scene Classification: A Review", SN Computer Science 2025, vol.6, no. 54,  Springer. 
+
 8. Spoorthy V., Manjunath Mulimani, Shashidhar G. Koolagudi. "Acoustic Scene Classification using Deep Fisher Network", Digital Signal Processing 2023, vol.139, Elsevier. 
 
 7. Manjunath Mulimani, Ritika Nandi, Shashidhar G. Koolagudi. "Acoustic Scene Classification using Projection Kervolutional Neural Network", Multimedia Tools and Applications 2022, pp. 1-11, Springer.
@@ -28,7 +32,11 @@ Peer-reviewed journal publications:
 
 Peer-reviewed conference publications:
 
-18. Manjunath Mulimani, Annamaria Mesaros. "Acoustic Scene Classification Across Multiple Devices through Incremental Learning of Device-Specific Domains", DCASE Workshop 2024, pp. 81–85.
+20. Manjunath Mulimani, Annamaria Mesaros, “Domain-Incremental Learning for Audio Classification ,” IEEE ICASSP, 2025 (Accepted)
+
+19. Ruchi Pandey, Manjunath Mulimani, Archontis Politis, Annamaria Mesaros. "Class-Incremental Learning for Sound Event Localization and Detection", IEEE ICASSP Workshop 2025 (Accepted)
+
+18. Manjunath Mulimani, Annamaria Mesaros. "Acoustic Scene Classification Across Multiple Devices through Incremental Learning of Device-Specific Domains", DCASE Workshop 2024, pp. 81–85. (Best paper award)
 
 17. Manjunath Mulimani, Annamaria Mesaros. "Online Domain-Incremental Learning Approach to Classify Acoustic Scenes in All Locations", IEEE EUSIPCO 2024, pp. 96–100.
 

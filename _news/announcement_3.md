@@ -1,10 +1,10 @@
 ---
 layout: post
-date: 2023-12-13 09:59:00-0400
+date: 2025-04-21 09:59:00-0400
 inline: true
 ---
 
-Our paper "Class-Incremental Learning for Multi-label Audio Classification" has been accepted for presentation at IEEE ICASSP 2024. See you in Seoul from 14th to 19th April.
+Our paper "Domain-Incremental Learning for Audio Classification" has been accepted for presentation at 50th IEEE ICASSP 2025. See you in Hyderabad from 06th to 11th April.
 
 
 
