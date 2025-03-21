@@ -2,11 +2,25 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Teaching by EVL faculty
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Spring'25
 
-Organize your courses by years, topics, or universities, however you like!
+- Chattopadhyay, Debaleena: CS 535 - User Experience Research Methods
+- Kerne, Andruid: CS 377 - Ethical Issues in Computing
+- Kumar, Siddharth: CS 569 - High-Performance Processors and Systems
+- Lan, Zhiling: CS 594 - Emerging Trends in Large-Scale Computer Systems
+- Marai, Georgeta-Elisabeta: CS 426 - Video Game Design and Development
+- Michaelis, Joseph: CS 422 - User Interface Design and Programming
+- Miranda, Fabio: CS 424 - Visualization and Visual Analytics
+- Papka, Michael: CS 455 - Introduction to High Performance Computing, CS 427 - Creative Coding,
+- Tang, Wei: CS 515 - Advanced Computer Vision
+- Tsoupikova, Daria: DES 427 - Creative Coding
+
+## Catalogs
+
+- [2024-2025 Undergraduate Catalog](https://catalog.uic.edu/ucat/course-descriptions/cs/)
+- [2024-2025 Graduate & Professional Catalog](https://catalog.uic.edu/gcat/course-descriptions/cs/)
