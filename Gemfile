@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem "jekyll-paginate"
 gem "jekyll-archives"
+gem "jekyll-diagrams"
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
