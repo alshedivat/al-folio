@@ -29,7 +29,7 @@ jobs:
           ${{ runner.os }}-gems-
     - name: Install deps
       run: |
-        gem install bundler
+        gem install bundler -v 2.4.22
         bundle config path vendor/bundle
         bundle install --jobs 4 --retry 3
     - name: Setup deploy options
