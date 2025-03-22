@@ -25,11 +25,12 @@ jobs:
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
         restore-keys: |
           ${{ runner.os }}-gems-
-    - name: Install deps
+    - name: Install latest bundler
       run: |
-        gem install bundler -v 2.4.22
+        gem update --system
+        gem install bundler --no-document
         bundle config path vendor/bundle
-        bundle install --jobs 4 --retry 3
+        bundle install --jobs 4 --retry 3 --standalone
     - name: Setup deploy options
       id: setup
       run: |
@@ -46,13 +47,9 @@ jobs:
         else
           echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
         fi
-    # This is the key change - modify script in-place with Git attribute override
     - name: Fix script without Git detecting changes
       run: |
-        # Tell Git to ignore changes to bin/deploy temporarily
         git update-index --assume-unchanged bin/deploy
-        
-        # Fix the line endings in place
         tr -d '\r' < bin/deploy > temp_deploy && mv temp_deploy bin/deploy
         chmod +x bin/deploy
     - name: Deploy website 
