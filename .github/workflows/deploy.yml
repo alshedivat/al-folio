@@ -46,14 +46,18 @@ jobs:
         else
           echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
         fi
-    - name: Create clean script copy
+    # This is the key change - modify script in-place with Git attribute override
+    - name: Fix script without Git detecting changes
       run: |
-        # Create a temporary copy with correct line endings instead of modifying the original
-        cat bin/deploy | tr -d '\r' > bin/deploy_fixed
-        chmod +x bin/deploy_fixed
+        # Tell Git to ignore changes to bin/deploy temporarily
+        git update-index --assume-unchanged bin/deploy
+        
+        # Fix the line endings in place
+        tr -d '\r' < bin/deploy > temp_deploy && mv temp_deploy bin/deploy
+        chmod +x bin/deploy
     - name: Deploy website 
       run: |
-        bin/deploy_fixed --verbose ${{ steps.setup.outputs.NO_PUSH }} \
+        bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
           --src ${{ steps.setup.outputs.SRC_BRANCH }} \
           --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} << EOF
         y
