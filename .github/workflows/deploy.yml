@@ -46,12 +46,14 @@ jobs:
         else
           echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
         fi
-    - name: Fix line endings
+    - name: Fix line endings and commit changes
       run: |
         sed -i 's/\r$//' bin/deploy
         chmod +x bin/deploy
+        git add bin/deploy
+        git commit -m "Fix line endings in deploy script" || echo "No changes to commit"
     - name: Deploy website 
       run: |
-        yes | bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
+        bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
           --src ${{ steps.setup.outputs.SRC_BRANCH }} \
-          --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }}
+          --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} < <(echo y)
