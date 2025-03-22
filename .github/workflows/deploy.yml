@@ -20,22 +20,15 @@ jobs:
       with:
         ruby-version: '2.7'
     
-    - name: Inspect Ruby and RubyGems versions
-      run: |
-        ruby --version
-        gem --version
-        which ruby
-        which gem
-    
     - name: Fix bundler and dependencies
       run: |
         # Install a compatible bundler version for Ruby 2.7
         gem install bundler -v 2.3.26 --no-document
         
-        # Show bundler version to confirm
-        bundle --version
+        # Create bundle directory first
+        mkdir -p ~/.bundle
         
-        # Create a .bundler.yml file to resolve URI gem issues
+        # Create a .bundler config file to resolve URI gem issues
         cat > ~/.bundle/config << EOF
         ---
         BUNDLE_ONLY: ""
@@ -44,8 +37,15 @@ jobs:
         BUNDLE_JOBS: "4"
         EOF
         
-        # Install dependencies with explicit paths
-        bundle install --path vendor/bundle --jobs 4 --retry 3
+        # Make sure we're using our newly installed bundler
+        export GEM_HOME="$(gem env home)"
+        export PATH="$GEM_HOME/bin:$PATH"
+        
+        # Verify we're using the right bundler
+        bundler -v
+        
+        # Install dependencies
+        bundle _2.3.26_ install --path vendor/bundle --jobs 4 --retry 3
     
     - name: Setup deploy options
       id: setup
@@ -70,13 +70,13 @@ jobs:
         tr -d '\r' < bin/deploy > temp_deploy && mv temp_deploy bin/deploy
         chmod +x bin/deploy
     
-    - name: Debug bin/deploy script
-      run: cat bin/deploy
-    
-    - name: Deploy website 
+    - name: Deploy website with specific bundler
       run: |
-        # Use bundle exec to ensure correct environment
-        export BUNDLE_GEMFILE=$PWD/Gemfile
+        # Ensure we're using the right bundler for deployment
+        export GEM_HOME="$(gem env home)"
+        export PATH="$GEM_HOME/bin:$PATH"
+        
+        # Use specific bundler version
         bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
           --src ${{ steps.setup.outputs.SRC_BRANCH }} \
           --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} << EOF
