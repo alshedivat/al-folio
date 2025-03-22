@@ -28,5 +28,5 @@ First, I was a Masters student and researcher in the <a href="https://www.it.uu.
 </p>
 
 <p class="content">
-On securing a tenured faculty position at <a href="https://cse.iith.ac.in/" target="blank">IIT-H</a>, I have aggressively pursued AI research and collaborated with both academia and industry alike to create sophisticated next-generation AI tools. The <a href="https://krama.cse.iith.ac.in" target="blank">क्रम (Krama) Lab</a> is a culmination of several years worth of effort to accelerate such collaborations.
+On securing a tenured faculty position at <a href="https://cse.iith.ac.in/" target="blank">IIT-H</a>, I have aggressively pursued AI research and collaborated with both academia and industry alike to create sophisticated next-generation AI tools.  
 </p>
