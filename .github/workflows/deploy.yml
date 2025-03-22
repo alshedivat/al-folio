@@ -17,8 +17,19 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.2' # Upgrade from 2.7 to 3.2
-        bundler-cache: true # This caches dependencies automatically
+        ruby-version: '2.7'
+    - name: Enable bundler cache
+      uses: actions/cache@v4
+      with:
+        path: vendor/bundle
+        key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-gems-
+    - name: Install deps
+      run: |
+        gem install bundler -v 2.4.22
+        bundle config path vendor/bundle
+        bundle install --jobs 4 --retry 3
     - name: Setup deploy options
       id: setup
       run: |
@@ -35,14 +46,15 @@ jobs:
         else
           echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
         fi
-    - name: Fix line endings and commit changes
+    - name: Create clean script copy
       run: |
-        sed -i 's/\r$//' bin/deploy
-        chmod +x bin/deploy
-        git add bin/deploy
-        git commit -m "Fix line endings in deploy script" || echo "No changes to commit"
+        # Create a temporary copy with correct line endings instead of modifying the original
+        cat bin/deploy | tr -d '\r' > bin/deploy_fixed
+        chmod +x bin/deploy_fixed
     - name: Deploy website 
       run: |
-        bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }} \
+        bin/deploy_fixed --verbose ${{ steps.setup.outputs.NO_PUSH }} \
           --src ${{ steps.setup.outputs.SRC_BRANCH }} \
-          --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} < <(echo y)
+          --deploy ${{ steps.setup.outputs.DEPLOY_BRANCH }} << EOF
+        y
+        EOF
