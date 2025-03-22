@@ -24,7 +24,10 @@ jobs:
       run: |
         # Install a compatible bundler version for Ruby 2.7
         gem install bundler -v 2.3.26 --no-document
-        
+
+        gem update --system --no-document
+        bundle update --bundler
+
         # Create bundle directory first
         mkdir -p ~/.bundle
         
