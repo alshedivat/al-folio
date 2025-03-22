@@ -4,6 +4,7 @@ gem 'jekyll'
 gem "jekyll-paginate"
 gem "jekyll-archives"
 gem "jekyll-diagrams"
+gem "jekyll-target-blank"
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
