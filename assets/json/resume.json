@@ -151,16 +151,20 @@
       "summary": "We created a comprehensive template that combines RAG capabilities with MLOps best practices and Telegram Bot as UI",
       "highlights": ["LLM, RAG, Docker, MLFlow, Postgres, DVC etc."],
       "startDate": "2023",
-      // "endDate": "2018-01-01",
       "url": "https://gitlab.com/1AlexKim/ai-helper"
     },
     {
-      "name": "RAG project with a Telegram Bot UI",
-      "summary": "We created a comprehensive template that combines RAG capabilities with MLOps best practices and Telegram Bot as UI",
-      "highlights": ["LLM", "RAG", "Docker", "MLFlow", "Postgres", "DVC"],
-      "startDate": "2023"
-      // "endDate": "2018-01-01",
-      // "url": "https://example.com"
+      "name": "Overdue payments prediction model",
+      "summary": "Freelance project for an energy supplying company, automatic reminder system for clients",
+      "highlights": ["XGBoost, EDA, tabular data, consulting, delivery"],
+      "startDate": "2018",
+      "endDate": "2019"
+    },
+    {
+      "name": "Hackathon ”Human Capital Convention”",
+      "summary": "Best task solution award for employee - job description matching",
+      "highlights": ["Hackathon, Matching, NLP"],
+      "startDate": "2018"
     }
   ],
   "interests": [
