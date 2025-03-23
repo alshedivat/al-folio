@@ -7,7 +7,7 @@ years: [2017, 1967, 1956, 1950, 1935, 1905]
 nav: true
 nav_order: 1
 ---
-Peer-reviewed journal publications:
+Peer-reviewed journal publications:-
 
 10. Manjunath Mulimani, Annamaria Mesaros. "A Closer Look at Class-Incremental Learning for Multi-Label Audio Classification", IEEE Transactions on Audio, Speech and Language Processing 2025, vol. 33, IEEE.
 
