@@ -2,7 +2,7 @@
 layout: post
 title: Deploying a Server for Bioinformatics Research
 date: 2023-07-11
-last_updated: 2024-03-17
+last_updated: 2025-03-23
 description: how to deploy a server for bioinformatics research
 tags: deployment server Ubuntu
 categories: computer
@@ -172,7 +172,7 @@ I prefer install anaconda at `/usr/local/miniforge3` so that the environments ca
 To initialize mamba, conduct
 
 ```bash
-/path/to/mamba init  # /usr/local/anaconda3/bin/mamba in my case
+/path/to/mamba init  # /usr/local/miniforge3/bin/mamba in my case
 ```
 
 and reopen the terminal.
@@ -296,12 +296,12 @@ jupyter kernelspec uninstall <kernel_name>
 Our research involves deep learning, so I need to install `pytorch` along with other required packages. [RAPIDS](https://rapids.ai/) provides a series of packages that utilize GPUs. These packages are easier to install in a fresh environment so I recommend installing them first, following the [Installation Guide](https://docs.rapids.ai/install). `pytorch` can be installed simultaneously with the guide.
 
 ```bash
-mamba install ipykernel ipywidgets # for running in JupyterHub
+mamba install ipykernel ipywidgets # for Jupyter Notebook
 mamba install lightning  # for deep learning tasks
-mamba install pyro-ppl numpyro  # for probabilistic programming
+mamba install pyro-ppl numpyro funsor arviz  # for probabilistic programming
 mamba install scanpy squidpy omicverse biopython rpy2 opencv   # for biological analysis
 mamba install anndata2ri -c bioconda  # for conversion between Python and R
-mamba install xgboost lightgbm catboost hdbscan optuna  # for machine learning tasks (optional)
+mamba install xgboost lightgbm catboost hdbscan optuna  # for machine learning tasks
 ```
 
 Sometimes you may use `mamba search <package_name>` to search for a package with a specific build number. To install a specific version/build of a certain packages, conduct:
