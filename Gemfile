@@ -2,13 +2,13 @@ source 'https://rubygems.org'
 
 gem 'jekyll'
 #gem "jekyll-paginate"
-#gem "jekyll-archives"
+gem "jekyll-archives"
 #gem "jekyll-diagrams"
 #gem "jekyll-target-blank"
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'jekyll-archives-v2'
+    #gem 'jekyll-archives-v2'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
