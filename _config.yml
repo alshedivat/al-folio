@@ -86,8 +86,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: "TODO: come up with a better name than 'My Blog'" # blog_name will be displayed in your blog page
-blog_description: "TODO: add description"
+blog_name: "Inference Insights" # blog_name will be displayed in your blog page
+blog_description: "Exploring advanced techniques in AI reasoning, prompt engineering, and LLM optimization" # replacing placeholder description
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -192,7 +192,7 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/_pages__old
-  - _posts/
+  - _posts_old/
   - _projects/
 
 keep_files:
@@ -260,8 +260,8 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["LLM", "Agents", "Prompt Optimisation", "Reasoning", "AI"] # these tags will be displayed on the front page of your blog
+display_categories: ["external-services", "AI-techniques"] # these categories will be displayed on the front page of your blog
 
 # # -----------------------------------------------------------------------------
 # # Jekyll Scholar
