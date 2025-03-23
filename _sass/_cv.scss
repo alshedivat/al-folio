@@ -126,6 +126,22 @@ td.list-group-category-icon {
   padding-right: 0.4rem;
 }
 
+/* Custom icon for interests section */
+img.custom-icon {
+  /* Match font-awesome sizing exactly */
+  height: 1em;
+  width: 1em;
+  font-size: inherit;
+  vertical-align: -0.125em;
+  display: inline-block;
+  /* Theme color */
+  filter: brightness(0) saturate(100%) invert(14%) sepia(89%) saturate(6106%) hue-rotate(308deg) brightness(90%) contrast(105%);
+  /* Sharpness */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -webkit-font-smoothing: antialiased;
+}
+
 td.list-group-name {
   font-size: 0.8rem;
 }

@@ -6,10 +6,18 @@
           <tr>
             {% if content.icon %}
               <td class="list-group-category-icon">
-                {% if content.icon contains 'fa-' %}
-                  <i class="{{ content.icon }}"></i>
+                {% if content.icon == 'custom-icon' and content.image %}
+                  <img
+                    src="/assets/img/snorkel.svg"
+                    alt="{{ content.name }}"
+                    class="custom-icon"
+                    width="16"
+                    height="16"
+                    role="img"
+                    aria-hidden="true"
+                  >
                 {% else %}
-                  <span class="{{ content.icon }}" data-icon="{{ content.image }}"></span>
+                  <i class="{{ content.icon }}"></i>
                 {% endif %}
               </td>
             {% else %}

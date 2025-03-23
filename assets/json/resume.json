@@ -37,7 +37,7 @@
       ]
     },
     {
-      "name": "X5 Retail Group (top Russian retailer, about 20k stores)",
+      "name": "X5 Retail Group (Top Russian Retailer, about 20k stores)",
       "position": "Team Lead, Data Science",
       "startDate": "2021-10",
       "endDate": "2022-06",
@@ -50,7 +50,7 @@
       ]
     },
     {
-      "name": "Kaspersky Lab (international cybersecurity company)",
+      "name": "Kaspersky Lab (International Cybersecurity Company)",
       "position": "Senior Data Scientist",
       "startDate": "2019-03",
       "endDate": "2021-09",
@@ -62,7 +62,7 @@
       ]
     },
     {
-      "name": "Raiffeisen Bank  (international bank)",
+      "name": "Raiffeisen Bank  (International Bank)",
       "position": "Data Scientist",
       "startDate": "2018-06",
       "endDate": "2019-03",
@@ -73,7 +73,7 @@
       ]
     },
     {
-      "name": "Digital Diesel Ltd. (diesel equipment service)",
+      "name": "Digital Diesel Ltd. (Diesel Engine Products and Services)",
       "position": "Data Analyst",
       "startDate": "2017-04",
       "endDate": "2018-04",
@@ -83,7 +83,7 @@
   ],
   "education": [
     {
-      "institution": "Moscow Institute of Physics and Technology",
+      "institution": "Moscow Institute of Physics and Technology (Leading Russian University in STEM)",
       "area": "Applied Mathematics and Physics",
       "studyType": "Master's Degree",
       "startDate": "2016-09",
@@ -92,7 +92,7 @@
       "thesis": "Thesis: Distributed Support Vector Machines with Privileged Information"
     },
     {
-      "institution": "Moscow Institute of Physics and Technology",
+      "institution": "Moscow Institute of Physics and Technology (Leading Russian University in STEM)",
       "area": "Applied Mathematics and Physics",
       "studyType": "Bachelor's Degree",
       "startDate": "2012-09",
@@ -158,15 +158,19 @@
   "interests": [
     {
       "name": "Cooking",
-      "icon": "fa-solid fa-fire-burner"
+      "icon": "fa-solid fa-burger"
     },
     {
       "name": "Freediving",
       "icon": "custom-icon",
-      "image": "assets/img/snorkel.png"
+      "image": "assets/img/snorkel.svg"
     },
     {
       "name": "Travelling",
+      "icon": "fa-solid fa-plane-departure"
+    },
+    {
+      "name": "Hiking",
       "icon": "fa-solid fa-person-hiking"
     }
   ]
