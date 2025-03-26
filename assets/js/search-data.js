@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/al-folio/blog/";
               },
-            },{id: "post-a-post-with-image-galleries",
+            },{id: "post-a-post-with-plotly-js",
+        
+          title: "a post with plotly.js",
+        
+        description: "this is what included plotly.js code could look like",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/al-folio/blog/2025/plotly/";
+          
+        },
+      },{id: "post-a-post-with-image-galleries",
         
           title: "a post with image galleries",
         
