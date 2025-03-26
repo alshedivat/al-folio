@@ -81,6 +81,17 @@
   <script defer src="{{ '/assets/js/echarts-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
+{% if page.chart and page.chart.plotly %}
+  <!-- Plotly -->
+  <script
+    defer
+    src="{{ site.third_party_libraries.plotly.url.js }}"
+    integrity="{{ site.third_party_libraries.plotly.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/assets/js/plotly-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
 {% if page.chart and page.chart.vega_lite %}
   <!-- Vega -->
   <script
