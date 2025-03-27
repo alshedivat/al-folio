@@ -6,21 +6,23 @@
 		"dockerfile": "Dockerfile"
 	},
 
-	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "git config --global core.editor 'code --wait' &&  bundle exec jekyll --version",
+
 
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
 			"settings": {
-				"terminal.integrated.defaultProfile.linux": "zsh",
+				"terminal.integrated.defaultProfile.linux": "zsh"
 			},
 			"extensions": [
 				"bierner.markdown-mermaid",
 				"DavidAnson.vscode-markdownlint",
 				"goessner.mdmath",
 				"yzhang.markdown-all-in-one"
-			],
+			]
 		}
-	}
+	},
+
+	// Uncomment the next line to run commands after the container is created.
+	"postCreateCommand": "git config --global core.editor 'code --wait' && bundle exec jekyll --version"
 }
