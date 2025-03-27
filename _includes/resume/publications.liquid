@@ -1,5 +1,12 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign publications = data[1] | sort: 'releaseDate' | reverse %}
+  {% case page.sort_entries.publications %}
+    {% when 'reverse' %}
+      {% assign publications = data[1] | sort: 'releaseDate' | reverse %}
+    {% when 'forward' %}
+      {% assign publications = data[1] | sort: 'releaseDate' %}
+    {% else %}
+      {% assign publications = data[1] %}
+  {% endcase %}
   {% for content in publications %}
     <li class="list-group-item">
       <div class="row">
