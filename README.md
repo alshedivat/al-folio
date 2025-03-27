@@ -1,4 +1,4 @@
-Personal site of Rômulo Drumond.
+Personal site of Romulo Drumond.
 
 Set up: Use devcontainer.
 

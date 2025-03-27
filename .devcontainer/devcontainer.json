@@ -15,6 +15,12 @@
 			"settings": {
 				"terminal.integrated.defaultProfile.linux": "zsh",
 			},
+			"extensions": [
+				"bierner.markdown-mermaid",
+				"DavidAnson.vscode-markdownlint",
+				"goessner.mdmath",
+				"yzhang.markdown-all-in-one"
+			],
 		}
 	}
 }
