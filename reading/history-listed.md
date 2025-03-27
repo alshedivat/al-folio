@@ -451,6 +451,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1937: "Black Saturday" --- 1000 people killed in Shanghai
 - 1937: The "Rape of Nanking" by Japanese forces
 - 1938: Chinese unified front breaks dams on the Yellow River to slow the Japanese advance, killing 500k locals either due to drowning or starvation
+- 1938: Mao Zedong marries Jiang Qing, Shanghai actress
 - 1939: White Paper limits Jewish immigration into Palestine
 - 1939: Italy signs Pact of Steel with Germany
 - 1939 - 1945: World War II
@@ -521,6 +522,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1956: Believing that intellectuals were not voicing their concerns, Mao Zedong launches the Hundred Flowers Campaign, inviting criticism of the government
 - 1956 - 1957: Large-scale strike in Shanghai
 - 1956: CCP announces 5-7 year plan to reduce illiteracy, process of simplifying Chinese characters begins
+- 1956: Mao launches the hundred flowers campaign
 - 1957: Population of the urban industrial working class in China reaches 10 million; urban population reaches 100 million
 - 1957 - 1958: Anti-rightist campaign in China, 1.1m people branded as rightists
 - 1958: Coup in Iraq overthrows King Faisal II
@@ -534,16 +536,20 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1962: Cuban Missile Crisis, peak of US-Soviet tensions
 - 1962: Following the 1958 Central Committee announcement that official labors should do labor, 2 million urbanites have been sent to the countryside for 1-year stints, although this appeared not to have reduced bureaucratism and factionalism, leading to the Cultural Revolution
 - 1962: Ethiopia annexes Eritrea
-- 1962: Evian accords grant Algerian independence from France
+- 1962: Evian accords grant Algerian 
+independence from France
+- 1962: China and India fight a brief border war
 - 1962: Taming of CCP agricultural policy; 30% of households are farming inependently; the CCP launches the Socialist Education Movement to ensure ideological alignment and pinning the Great Leap Forward's failures on local officials
 - 1964 - 1973: US involvement in the Vietnam War
 - 1964: Founding of the Palestine Liberation Organization (PLO) in East Jerusalem (Jordan)
+- 1964: France recognizes the People's Republic of China
+- 1964: China successfuly tests a nuclear bomb
 - 1965: Voting Rights Act passes
 - 1965: Indian-Pakistan War
 - 1965: Malcolm X assassinated
 - 1965: Rhodesia declares independence from UK
 - 1965: Civil War in Dominican Republic, US intervenes
-- 1965: Indonesia anti-communist purge begins, 500k killed
+- 1965: Indonesia anti-communist purge/coup begins
 - 1966: Chinese Cultural Revolution begins
 - 1966: Formation of the Black Panther Party
 - 1966: Botswana and Lesotho gain independence
@@ -575,17 +581,21 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1969: Muammar Gaddafi leads coup in Libya
 - 1969: Stonewall riots in New York City
 - 1969: The Troubles begin in Northern Ireland between Catholics and Protestants
-- 1969: China-USSR border conflicts
+- 1969: China-USSR border conflicts at the Ussuri River border
 - 1969: Woodstock music festival
 - 1970: Incursion of Vietnam War into Cambodia
 - 1970: Overthrow of Cambodian government by Khmer Rouge, leading to genocide in 1975
 - 1970: Black September in Jordan, PLO is expelled from Jordan
 - 1970: Dawson’s Field Hijackings in Jordan by PFLP
+- 1970: American journalist Edgar Snow is invited to stand beside Mao at the 1970 national day parade
 - 1970: Kent State shootings
 - 1970: Death of Abdel Nasser, Sadat becomes president of Egypt
 - 1970: Black September in Jordan, PLO vs. Jordanian government
 - 1971: Nixon declares War on Drugs
 - 1971: Bangladesh War of Independence / Liberation War
+- 1971: Lin Biao, who attempted a coup against Mao, is put on a plane fleeing China, crashing in Mongolia
+- 1971: UN awards China a seat
+- 1971: "Ping-Pong" diplomacy trip between American ping pong team and Chinese
 - 1972: Israeli athletes killed at the Munich Olympics by Black September
 - 1972: Watergate scandal
 - 1972: Nixon visits China
@@ -595,8 +605,14 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1973: Roe v. Wade, Supreme Court legalizes abortion
 - 1973: US ends draft for Vietnam War
 - 1973: Pinochet overthrows Allende with U.S. support, establishing military dictatorship in Chile
+- 1974: China seizes the Xisha islands from South Vietnam
 - 1975: Michel Foucault writes *Discipline and Punish*
+- 1975: Deng Xiao Ping is reinstated to inner circle of power in CCP
+- 1976: Zhou Enlai dies; radicals demonstrate in his memory in Tiananmen Square
+- 1976: A devastating earthquake kills a quarter of a million people in Tangshan, China -- the "mandate of heaven" has been lost
+- 1976: Mao Zedong dies on September 9th
 - 1979: Camp David Accords, Israel withdraws from Sinai and establishes peace with Egypt
+- 1979: United States removes troops and diplomatic recognition from Taiwan
 - 1980: Gilles Deleuze and Felix Guattari write *A Thousand Plateaus*
 - 1980: Saul Kripke writes *Naming and Necessity*
 - 1982: First Lebanon War; Israel invades Lebanont to expel PLO
@@ -604,6 +620,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1983: Invasion of Grenada by US
 - 1987: First Intifada begins in Gaza and West Bank
 - 1987: Yasumasa Kanada works out $$\pi$$ to 134217000 decimal places.
+- 1987: CCP endorses authoritarian state capitalism, mixing market economy with tight political control.
 - 1988: Hamas founded as offshoot of the Muslim Brotherhood
 - 1989: Invasion of Panama by US
 - 1990 - 1991: Gulf War
