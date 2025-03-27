@@ -241,6 +241,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
       - [The iconic style of Distill](#the-iconic-style-of-distill)
       - [Full support for math \& code](#full-support-for-math--code)
       - [Photos, Audio, Video and more](#photos-audio-video-and-more)
+      - [Sidenote,Marginnote and MarginFigure](#sidenotemarginnote-and-marginfigure)
     - [Other features](#other-features)
       - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
       - [Theming](#theming)
@@ -348,6 +349,14 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
     <img src="readme_preview/photos-screenshot.png" width="75%">
   </a>
 </p>
+
+#### Sidenote,Marginnote and MarginFigure
+
+Thanks for the excellent theme [tufte](https://github.com/edwardtufte/tufte-css) css and the [tufte jeklly theme](https://github.com/clayh53/tufte-jekyll).
+
+The sidenote is useful when you cite something.
+
+You can refer the post(2025-03-15-tufte-style-jekyll-blog) to get how to add sidenotes and marginfigures.
 
 ---
 
