@@ -329,29 +329,39 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1859: The Riemann Hypothesis is proposed by Bernhard Riemann
 - 1859 - 1861: Kingdom of Sardinia begins unifying Italy; Lombardy annexed after Second Italian War of Independence (1859)
 - 1861 - 1865: American Civil War
+- 1861: Abraham Lincoln becomes president of US
 - 1861: Karl Weierstrauss develops the epsilon-delta definition of limit, rigorously defining continuity and differentiability
 - 1865: Florence becomes the capital of Italy
+- 1865: Andrew Johnson becomes president of US
 - 1866: Third Italian War of Independence between Kingdom of Italy and Austrian Empire; Venetia annexed
 - 1869: Ottoman citizenship law allows non-Muslims to become citizens
+- 1869: Ulysses S. Grant becomes president of US
 - 1870: Italy annexes Rome from the Papal States during the Franco-Prussian War, completing unification
 - 1871: Rome is declared the capital of Italy
 - 1871: Mokrani revolt in Algeria against French rule by Algerian Berbers an Arabs
 - 1872: Jerusalem designated as an independent Ottoman district
 - 1873: William Shanks computes a decimal value of $$\pi$$ to 607 places, taking him more than 15 years.
+- 1877: Rutherford B. Hayes becomes president of US
 - 1879 - 1884: Georg Cantor develops set theory, introducing the concept of infinite sets and cardinality
+- 1881: James Garfield becomes president of US
+- 1881: Chester Arthur becomes president of US after Garfield's assassination by Charles Guiteau for no apparent materialist reason
 - 1880s: porgroms in Russia lead to Jewish emigration to the US and Palestine
 - 1882 - 1903: First Aliyah to Palestine from Eastern Europe and Yemen motivated by Zionism and persecution
 - 1882: Italy joins the Triple Alliance with Germany and Austria-Hungary
 - 1883: Friedrich  Nietzsche writes *Thus Spoke Zarathustra*
 - 1884 - 1885: The Scramble for Africa, Europeans divide Africa at Berlin Conference
+- 1885: Grover Cleveland becomes president of US
 - 1894 - 1896: First Sino-Japanese War, Japan emerges as a colonial power
 - 1886: Friedrich Nietzsche writes *Beyond Good and Evil*
 - 1888: Richard Dedekind formalizes arithmetic, publishing "Was sind und was sollen die Zahlen?" (What are numbers and what should they be?)
 - 1889: Giuseppe Peano publishes the Peano axioms for arithmetic
+- 1889: Benjamin Harrison becomes president of US
 - 1890: Eritrea becomes an Italian colony
 - 1893: Mao Zedong is born in Hunan Province, China to a peasant family
+- 1893: Grover Cleveland becomes president of US
 - 1895: Japan takes Taiwan from China
 - 1896: Italy suffers a humiliating defeat in Ethiopia trying to colonize it
+- 1897: William McKinley becomes president of US
 - 1898: "100 Days of Reform" in China, attempt to modernize and reform the Qing Dynasty, fails
 - 1898: Spanish-American War (US annexes Philippines, Guam, Puerto Rico)
 - 1899: Philippine-American War
@@ -359,11 +369,13 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1900: Hilbert's 23 problems are presented at the International Congress of Mathematicians in Paris
 - 1900: Boxer Rebellion in China against foreign influence
 - 1901: Australia becomes a federation within the British Empire
+- 1901: Theodore Roosevelt becomes president of US after McKinley's assassination
 - 1904 - 1914: Second Aliyah to Palestine by Jews fleeing pogroms in Russia and Eastern Europe
 - 1904 - 1905: Russo-Japanese War, Japan emerges as colonial power
 - 1905: Partition of Bengal by British
 - 1907: Peak of Second Boer War, British consolidate control over South Africa
 - 1908: Empress Dowager Cixi dies, leaves the two-year-old Puyi as emperor
+- 1909: William Howard Taft becomes president of US
 - 1910: Bertrand Russell and Alfred North Whitehead write *Principia Mathematica*
 - 1910: Japan annexes Korea as a colony
 - 1911: Wuchang Uprising in China, beginning of the Xinhai Revolution
@@ -371,6 +383,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1912: Sun-Yat Sen voted provincial president of Republic of China
 - 1912: The Kuomintang (Guomindang) is founded by Sun Yat-Sen
 - 1913: Yuan Shikai becomes president of Republic of China
+- 1913: Woodrow Wilson becomes president of US
 - 1913: Song Jiaoren, leader of the Guomindang, is assassinated supposedly by Yuan Shikai
 - 1914 - 1918: World War I
 - 1914: Ramanujan comes to England to work with Hardy
@@ -399,6 +412,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1920: Nabi Musa riots in Jerusalem, Haycraft commission investigates
 - 1920: Mao Zedong talks with Chen Duxiu and is convinced by communism
 - 1920 - 1921: Famine in China under warlord rule, kills ~0.5 million
+- 1921: Warren G. Harding becomes president of US
 - 1921 - 1922: The episodic novella The True Story of Ah Q is published by Lu Xun, the first time vernacular Chinese is used in literature, criticizing Chinese people and their revolutionary leaders
 - 1921: Comintern agent Grigorii Vointinsky helps facilitate a meeting in the French Concession of Shanghai that establishes the Chinese Communist Party
 - 1921: Mao Zedong becomes a founding member of the Chinese Communist Party
@@ -409,6 +423,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1923: Ottoman Sultanate abolished, Turkey becomes a republic
 - 1923: Chiang Kai-Shek helps Sun Yat-Sen escape assassination by a local warlord
 - 1923: the First United Front is formed between the Guomindang and the Chinese Communist Party
+- 1923: Calvin Coolidge becomes president of US
 - 1923: The Mathematical Association of America recommends abandoning ÷ and : for division in favor of fractional notation
 - 1923: Palestine mandate comes into effect
 - 1924 - 1929: Fourth Aliyah to Palestine, middle-class Jews from Poland and Hungary
