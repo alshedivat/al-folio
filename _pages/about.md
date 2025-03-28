@@ -21,13 +21,13 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring. -->
 
-I am an honors, Phi Beta Kappa, and Mary Gates scholar at the University of Washington studying philosophy and computer science, minoring in math and history.
-*Long term*, I want to build **AI tools for thought** (esp. for the textual social sciences).
-*Short term*, I want to build AI which can proactively ask thought-provoking questions and introduce **new conceptual vocabulary**.
-My general intellectual interests include phenomenology, philosophy of science, and human-computer interaction.
+I am an incoming EECS PhD student at MIT working in human-AI interaction.
+I am completing my undergraduate at the University of Washington studying philosophy and computer science, minoring in math and history.
+I want to build **AI tools for thought** (esp. for the textual social sciences and the public), **computational models for philosophy**, and **AI that produces new concepts** (in the form of vocabulary, metaphors, connections).
+My philosophical interests include existentialist phenomenology, "pragmatist" philosophy of science, and Deleuze-like metaphysics.
+Currently I am thinking about what a *task* is --- in AI, in philosophy, in science, in political and ethical life.
 Please see my [research agenda](/agenda), [CV](/cv), and [SOP](/assets/pdf/phd-sop.pdf){:target="_blank"} for more details.
-I am very fortunate to be advised by [Amy Zhang](https://homes.cs.washington.edu/~axz/){:target="_blank"}, [Ranjay Krishna](https://ranjaykrishna.com/index.html){:target="_blank"}, and [Rose Novick](https://www.rosenovick.com/){:target="_blank"}.
-<!-- I have written a few [essays](/writing/philosophy){:target="_blank"} in philosophy, [two](/writing/mdldna){:target="_blank"} [books](/writing/mdl4td){:target="_blank"} on deep learning, a little bit of [fiction](/writing/fiction){:target="_blank"}, and many data science [articles](https://andre-ye.medium.com/){:target="_blank"}. -->
+I was very fortunate to be advised by [Amy Zhang](https://homes.cs.washington.edu/~axz/){:target="_blank"}, [Ranjay Krishna](https://ranjaykrishna.com/index.html){:target="_blank"}, and [Rose Novick](https://www.rosenovick.com/){:target="_blank"} at UW.
 My email is `andreye [at] uw [dot] edu`.
 
 <br>
