@@ -440,6 +440,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1928: Chiang Kai-Shek officially establishes the Nationalist Government following the split of the united front
 - 1929: Wall Street Crash, beginning of the Great Depression
 - 1929 - 1939: Fifth Aliyah, Jews escaping anti-Semitism in Europe and Nazis in Germany
+- 1929: Herbert Hoover becomes president of US
 - 1929: Strike by Beijing rickshaw pullers
 - 1929: Western Wall / Al-Buraq riots; Shaw commission investigates
 - 1929: Lateran Treaty establishes Vatican City
@@ -451,6 +452,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1931: Kurt Godel publishes his incompleteness theorems
 - 1932: An anti-Japanese mob kills a Japanese monk in Shanghai, prompting Japanese arial bombing; over 20k are killed in the one-month conflict
 - 1933: Hitler becomes Chancellor of Germany
+- 1933: Franklin D. Roosevelt becomes president of US
 - 1933: Chiang Kai-Shek launches fourth and fifth encirclement campaigns against the Communists
 - 1934: Chiang Kai-Shek launches the "New Life Movement" to simultaneously promote Confucianism, Christianity, and fascism
 - 1934: Chinese Communists start the long march to escape Nationalist forces
@@ -486,6 +488,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1944: Wang Jingwei dies
 - 1945: Roosevelt dies on April 12, Truman becomes president
 - 1945: Hiroshima and Nagasaki atomic bombings on August 6 and 9
+- 1945: Harry Truman becomes president of US
 - 1945: Mao Zedong visits Chongqing to negotiate with Chiang Kai-Shek in August
 - 1945: End of World War II, establishment of the United Nations, beginning of the Cold War
 - 1945: Setif and Guelma Massacres, French forces kill thousands of protesting Algerians
@@ -527,6 +530,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1953: Death of Stalin; Khrushchev becomes leader of USSR
 - 1953: CCP announces end of "new democracy" phase, beginning of First Five-Year Plan, emphasizing central planning and growth of industry
 - 1953 - 1954: CCP introuces new quota-based district-level system for agricultural production
+- 1953: Dwigth D. Eisenhower becomes president of US
 - 1954: First Indochina War ends, Vietnam divided at 17th parallel
 - 1954 - 1962: Algerian War of Independence against France
 - 1954: Full achievement of CCP state building in China; state and Party organs function fully in China
@@ -548,6 +552,7 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1960: Rome hosts the Summer Olympics
 - 1961: Bay of Pigs invasion of Cuba by US
 - 1961: Eritrean War of Independence begins
+- 1961: John F. Kennedy becomes president of US
 - 1962: Cuban Missile Crisis, peak of US-Soviet tensions
 - 1962: Following the 1958 Central Committee announcement that official labors should do labor, 2 million urbanites have been sent to the countryside for 1-year stints, although this appeared not to have reduced bureaucratism and factionalism, leading to the Cultural Revolution
 - 1962: Ethiopia annexes Eritrea
@@ -555,6 +560,8 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 independence from France
 - 1962: China and India fight a brief border war
 - 1962: Taming of CCP agricultural policy; 30% of households are farming inependently; the CCP launches the Socialist Education Movement to ensure ideological alignment and pinning the Great Leap Forward's failures on local officials
+- 1963: Assassination of John F. Kennedy
+- 1963: Lyndon B. Johnson becomes president of US
 - 1964 - 1973: US involvement in the Vietnam War
 - 1964: Founding of the Palestine Liberation Organization (PLO) in East Jerusalem (Jordan)
 - 1964: France recognizes the People's Republic of China
@@ -594,6 +601,7 @@ independence from France
 - 1968: Italy's Hot Autumn, massive strikes and protests
 - 1969: Apollo 11 mission, first moon landing
 - 1969: Muammar Gaddafi leads coup in Libya
+- 1969: Richard Nixon becomes president of US
 - 1969: Stonewall riots in New York City
 - 1969: The Troubles begin in Northern Ireland between Catholics and Protestants
 - 1969: China-USSR border conflicts at the Ussuri River border
@@ -621,15 +629,18 @@ independence from France
 - 1973: US ends draft for Vietnam War
 - 1973: Pinochet overthrows Allende with U.S. support, establishing military dictatorship in Chile
 - 1974: China seizes the Xisha islands from South Vietnam
+- 1974: Nixon resigns, Gerald Ford becomes president of US
 - 1975: Michel Foucault writes *Discipline and Punish*
 - 1975: Deng Xiao Ping is reinstated to inner circle of power in CCP
 - 1976: Zhou Enlai dies; radicals demonstrate in his memory in Tiananmen Square
 - 1976: A devastating earthquake kills a quarter of a million people in Tangshan, China -- the "mandate of heaven" has been lost
 - 1976: Mao Zedong dies on September 9th
+- 1977: Jimmy Carter becomes president of US
 - 1979: Camp David Accords, Israel withdraws from Sinai and establishes peace with Egypt
 - 1979: United States removes troops and diplomatic recognition from Taiwan
 - 1980: Gilles Deleuze and Felix Guattari write *A Thousand Plateaus*
 - 1980: Saul Kripke writes *Naming and Necessity*
+- 1981: Ronald Reagan becomes president of US
 - 1982: First Lebanon War; Israel invades Lebanont to expel PLO
 - 1982: Sabra and Shatila Massacres under Israeli watch and support
 - 1983: Invasion of Grenada by US
@@ -638,11 +649,13 @@ independence from France
 - 1987: CCP endorses authoritarian state capitalism, mixing market economy with tight political control.
 - 1988: Hamas founded as offshoot of the Muslim Brotherhood
 - 1989: Invasion of Panama by US
+- 1989: George H.W. Bush becomes president of US
 - 1990 - 1991: Gulf War
 - 1991 - 2002: Algerian Civil War, over 150k killed
 - 1991: The Eritrean Liberation Front defeats Ethiopia, Eritrea becomes independent
 - 1993: Oslo I Accord signed, establishing mutual recognition
 - 1993: Eritrea votes for independence in UN supervised referendum and becomes fully sovereign state
+- 1993: Bill Clinton becomes president of US
 - 1994: Massacre at Al-Aqsa Mosque by Jewish extremist
 - 1995: Oslo II Accord signed, establishing Palestinian Authority and limited self-rule
 - 1995: Assassination of Yitzhak Rabin by Jewish extremist
@@ -651,21 +664,26 @@ independence from France
 - 2000: Second Intifada begins after Ariel Sharon visits Temple Mount
 - 2001: 9/11 attacks
 - 2001 - 2021: War in Afghanistan
+- 2001: George W. Bush becomes president of US
 - 2003 - 2011: Iraq War
 - 2005: Israel withdraws settlers and military forces from Gaza
 - 2006: Second Lebanon War begins
 - 2008: Global financial crisis due to subprime mortgage crisis
+- 2009: Barack Obama becomes president of US
 - 2011: US intervention in Libya
 - 2011: Arab Spring uprisings throughout the Middle East
 - 2014: Third Gaza War becomes most deadly conflict in Gaza
+- 2017: Donald Trump becomes president of US
 - 2018: Great March of Return protests in Gaza
 - 2018: Eritrea and Ethiopia sign peace agreement
 - 2018: the "Nation State Law" / "Basic Law" is passed by Israel
 - 2020: Israel establishes normalization agreements with Bahrain, UAE, Morocco
+- 2021: Joseph Biden becomes president of US
 - 2021: Fourth Gaza War
 - 2023: October 7th Massacre by Hamas in Israel
 - 2023 - present: Hamas-Israeli war in Gaza
 - 2024: Fall of the Syrian Assad regime
+- 2025: Donald Trump becomes president of US again
 
 <!-- ---
 
