@@ -79,8 +79,8 @@
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
+          {% if forloop.first == false and forloop.last == false%},&nbsp;{% endif %}
+          {%- if forloop.last and author_array_limit == author_array_size %}&nbsp;and&nbsp;{% endif -%}
         {% endif %}
         {%- if author_is_self -%}
           <em>
