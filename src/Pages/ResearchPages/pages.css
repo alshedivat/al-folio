@@ -1,0 +1,29 @@
+.research_banner {
+    width: 90%;
+    margin-bottom: 40px;
+    opacity: 0;
+    transition: 1.6s;
+}
+
+.research_banner.animation {
+    opacity: 1;
+}
+
+.research_description {
+    margin: 30px 0 80px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 160%;
+    opacity: 0;
+    transform: translate(0, 30px);
+    transition: .6s;
+}
+
+.research_description.animation {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.research {
+    margin-bottom: 100px;
+}
