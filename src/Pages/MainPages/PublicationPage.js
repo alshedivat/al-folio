@@ -94,13 +94,9 @@ export const PublicationPage = (props) => {
 
       return (
         <span key={index}>
-          {index > 0 && index === authorList.length - 1
-            ? " and "
-            : index > 0
-            ? ", "
-            : ""}
+          {index > 0 ? ", " : ""}
           {isLabMember ? (
-            <span style={{ textDecoration: "underline" }}>{author}</span>
+            <span style={{ fontWeight: "bold" }}>{author}</span>
           ) : (
             author
           )}
