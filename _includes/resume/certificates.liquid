@@ -1,5 +1,12 @@
 <div class="list-groups">
-  {% assign certificates = data[1] | sort: 'date' | reverse %}
+  {% case page.sort_entries.certificates %}
+    {% when 'reverse' %}
+      {% assign certificates = data[1] | sort: 'date' | reverse %}
+    {% when 'forward' %}
+      {% assign certificates = data[1] | sort: 'date' %}
+    {% else %}
+      {% assign certificates = data[1] %}
+  {% endcase %}
   {% for content in certificates %}
     <div class="list-group col-md-6">
       <table class="table-cv list-group-table">
