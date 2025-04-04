@@ -1,0 +1,34 @@
+<div class="list-groups">
+  {% for content in entry[1] %}
+    <div class="list-group col-md-6" title="{{ content.label }}">
+      <table class="table-cv list-group-table">
+        <tbody>
+          <tr>
+            {% if content.icon %}
+              <td class="list-group-category-icon">
+                <i class="{{ content.icon }}"></i>
+              </td>
+            {% else %}
+              <td class="list-group-category-icon"></td>
+            {% endif %}
+            <!-- Calculate colspan number for category title -->
+            {% assign i = 1 %}
+            {% assign details = content.details | split: ', ' %}
+            {% for item in details %}
+              {% assign i = i | plus: 1 %}
+            {% endfor %}
+            <td colspan="{{ i }}" class="list-group-category">{{ content.label | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+          </tr>
+          {% for item in details %}
+            <tr>
+              <td></td>
+              <td class="list-group-name">
+                <b>{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</b>
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  {% endfor %}
+</div>
