@@ -105,13 +105,15 @@ export const PeoplePage = (props) => {
               </div>
             ))}
         </div>
-        {/* <div ref={element} className='title'>Alumni</div> */}
         <img
           className="line"
           ref={element}
           src={`${process.env.PUBLIC_URL}/icons/line.svg`}
           alt="line"
         />
+        <div ref={element} className="title">
+          • Alumni •
+        </div>
         <div className="container">
           {/* Filter and map through people data to show only alumni */}
           {peopledata
