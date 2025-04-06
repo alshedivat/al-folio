@@ -175,5 +175,12 @@
     "image": "suyeonseo.png",
     "homepage": "https://bit.ly/SuyeonPortfolio",
     "current": true
+  },
+  {
+    "name": "Enrique Jose Delgado Garcia",
+    "position": "Undergraduate Intern",
+    "image": "enrique.jpg",
+    "homepage": "",
+    "current": true
   }
 ]
