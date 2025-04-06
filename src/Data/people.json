@@ -8,42 +8,42 @@
   },
   {
     "name": "Taewan Kim",
-    "position": "Ph.D Student",
+    "position": "Ph.D. Student",
     "image": "taewan.png",
     "homepage": "https://taewankim.io/",
     "current": false
   },
   {
     "name": "Dasom Choi",
-    "position": "Ph.D Student",
+    "position": "Ph.D. Student",
     "image": "dasom.png",
     "homepage": "https://dasomchoi.com/",
     "current": true
   },
   {
     "name": "Kwangyoung Lee",
-    "position": "Ph.D Student",
+    "position": "Ph.D. Student",
     "image": "kwangyoung.png",
     "homepage": "https://kylee5514.github.io/",
     "current": true
   },
   {
     "name": "Hyunseung Lim",
-    "position": "Ph.D Student",
+    "position": "Ph.D. Student",
     "image": "hyunseung.png",
     "homepage": "",
     "current": true
   },
   {
     "name": "Peter Daish",
-    "position": "Visiting Ph.D Student",
+    "position": "Visiting Ph.D. Student",
     "image": "peter.png",
     "homepage": "",
     "current": false
   },
   {
     "name": "Jiazhou Wu",
-    "position": "Ph.D Student",
+    "position": "Ph.D. Student",
     "image": "jiazhou.png",
     "homepage": "",
     "research_interest": "Accessibility, Collaborative Learning, Educational Technology",
