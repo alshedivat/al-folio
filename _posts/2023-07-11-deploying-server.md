@@ -595,7 +595,12 @@ Run this code in your RStudio console and log in to your GitHub account. Click `
 gitcreds::gitcreds_set()
 ```
 
-also in your RStudio console to add the token. The limit should be relaxed and you can continue the installation.
+also in your RStudio console (or in the terminal if you are `sudo`) to add the token. The limit should be relaxed and you can continue the installation, and you can see a message like:
+
+```text
+Using GitHub PAT from the git credential store.
+Downloading GitHub repo <github_username>/<repo_name>@<branch_name>
+```
 
 ## Synchronize data
 
