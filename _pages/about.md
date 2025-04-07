@@ -24,7 +24,7 @@ latest_posts:
 ---
 
 
-Welcome to my GitHub page! I am RC Grear.
+Welcome to my GitHub page!
 
 I recently graduated from Western Governors University with a degree in Data Analytics. I’m excited to share my journey, showcase the projects I’ve been working on, and connect with others with similar interests. During my time at university, I worked on real-world problems through my coursework, which helped me build a strong foundation in technical and analytical skills.
 
