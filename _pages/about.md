@@ -9,10 +9,7 @@ profile:
   image: ""          #Change this to "prof_pic.jpg" if needed
   image_circular: false # crops the image to make it circular
   more_info: ""
-      #Change more info to these if needed, follow correct indentation more_info: >
-                    # <p>555 your office number</p>
-                    # <p>123 your address street</p>
-                    # <p>Your City, State 12345</p>
+
 
 selected_papers: false # includes a list of papers marked as "selected={true}"           #Change to true if needed on the page
 social: false # includes social icons at the bottom of the page              #Change to true if needed on the page
