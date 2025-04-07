@@ -2,8 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<span style='color: green; font-weight: bold; font-style: italic;'>Affiliations. Address. Contacts. Motto. Etc.</span><br><br>"
-
+subtitle: |
+  <span style='color: green; font-weight: bold; font-style: italic;'>Contact.</span><br>
+  <span style='color: green; font-weight: bold; font-style: italic;'>Motto.</span><br>
+  <span style='color: green; font-weight: bold; font-style: italic;'>Etc.</span>
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"           #Change to true if needed on the page
@@ -31,4 +33,4 @@ Before I began teaching, I worked in the corporate world, where I gained valuabl
 
 During the COVID-19 pandemic, we realized the importance of being close to family, which led us to relocate to the United States. Through conversations with my in-laws and reading about the education system here, I came to understand how different teaching high school in the U.S. can be compared to Asia. This realization ultimately reignited my passion for data and technology, motivating me to pursue what I'm most passionate about. Earning my Bachelor of Science in Data Analytics has brought that goal to life, and I’m now ready to take the next step in my professional journey.
 
-I’m always eager to explore new ideas and broaden my skill set, so I hope you’ll check back here for updates on any fresh projects I’ve got in the works. If you’d like to connect, feel free to reach out—I’d love to hear from you!
+I’m always eager to explore new ideas and broaden my skill set, so I hope you’ll check back here for updates on any projects I’ve got in the works. If you’d like to connect, feel free to reach out—I’d love to hear from you!
