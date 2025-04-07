@@ -813,7 +813,7 @@
 .person > .research-tags > .research-tag {
   color: #666666; /* Dark gray text color */
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 400;
   margin-right: 8px; /* Increased space between tags for hashtags */
   margin-bottom: 4px; /* Space between wrapped lines */
   display: inline-flex; /* Keep inline display */
