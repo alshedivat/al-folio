@@ -1,9 +1,9 @@
 ---
-layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
-inline: false
-related_posts: false
+#layout: post                                    #Uncomment if needed. This is on the same page as the 'about'
+#title: A long announcement with details         #Uncomment if needed. This is on the same page as the 'about'
+#date: 2015-11-07 16:11:00-0400                  #Uncomment if needed. This is on the same page as the 'about'
+#inline: false                                   #Uncomment if needed. This is on the same page as the 'about'
+#related_posts: false                            #Uncomment if needed. This is on the same page as the 'about'
 ---
 
 Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
