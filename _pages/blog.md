@@ -1,16 +1,16 @@
 ---
 layout: default
-permalink: /blog/
+permalink: /blog/  # this entry is "/blog/". Making it empty for i only need portfolios
 title: blog
 nav: true
 nav_order: 1
 pagination:
-  enabled: true
+  enabled: false # this entry is "/blog/". Making it empty for i only need portfolios, change to true if needed blog
   collection: posts
   permalink: /page/:num/
   per_page: 5
   sort_field: date
-  sort_reverse: true
+  sort_reverse: false # this entry is "/blog/". Making it empty for i only need portfolios, change to true if needed blog
   trail:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
