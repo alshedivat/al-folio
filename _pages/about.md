@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<span style='color:green;'>Affiliations</span>. Address. Contacts. Motto. Etc."
+subtitle: "<span style='color:blue;'>Affiliations. Address. Contacts. Motto. Etc.</span>"
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"           #Change to true if needed on the page
