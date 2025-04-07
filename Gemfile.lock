@@ -256,6 +256,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.6.0)
     uri (1.0.3)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
@@ -297,6 +298,7 @@ DEPENDENCIES
   jemoji
   observer
   ostruct
+  wdm
 
 BUNDLED WITH
    2.6.6
