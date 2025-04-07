@@ -5,7 +5,7 @@ permalink: /
 subtitle: |
   <span style='color: green; font-weight: bold; font-style: italic;'>Contact.</span><br>
   <span style='color: green; font-weight: bold; font-style: italic;'>Motto.</span><br>
-  <span style='color: green; font-weight: bold; font-style: italic;'>Etc.</span>
+  <span style='color: green; font-weight: bold; font-style: italic;'>Etc.</span><br><br>
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"           #Change to true if needed on the page
