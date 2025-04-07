@@ -19,7 +19,7 @@
     "position": "Ph.D. Student",
     "image": "dasom.png",
     "homepage": "https://dasomchoi.com/",
-    "research_interest": "Accessibility, Human-AI Interaction, Marginalized people",
+    "research_interest": "Accessibility, Human-AI Interaction, Marginalized People",
     "current": true
   },
   {
@@ -58,7 +58,7 @@
     "position": "Master's Student",
     "image": "chowon.png",
     "homepage": "https://kangchowon.github.io/",
-    "research_interest": "Human-AI Interaction, Mental Health, Online dating",
+    "research_interest": "Human-AI Interaction, Mental Health, Online Dating",
     "current": false
   },
   {
@@ -82,7 +82,7 @@
     "position": "Master's Student",
     "image": "jongok.jpeg",
     "homepage": "https://froggyjo.github.io/",
-    "research_interest": "Data visualization, Mental Health, Neurodiversity, HCI",
+    "research_interest": "Data Visualization, Mental Health, Neurodiversity, HCI",
     "current": true
   },
   {
@@ -130,7 +130,7 @@
     "position": "Undergraduate Intern",
     "image": "seokyoung.png",
     "homepage": "",
-    "research_interest": "Human-AI Interaction, Mental health, Data Visualization",
+    "research_interest": "Human-AI Interaction, Mental Health, Data Visualization",
     "current": false
   },
   {
@@ -183,7 +183,7 @@
     "position": "Intern",
     "image": "sieun.png",
     "homepage": "",
-    "research_interest": "Human-AI interaction, Mental Health, Participatory Design, Responsible AI",
+    "research_interest": "Human-AI Interaction, Mental Health, Participatory Design, Responsible AI",
     "current": true
   },
   {
@@ -191,6 +191,7 @@
     "position": "Undergraduate Intern",
     "image": "suyeonseo.png",
     "homepage": "https://bit.ly/SuyeonPortfolio",
+    "research_interest": "Human-AI Interaction, LLM Agent, Data Visualization",
     "current": true
   },
   {
