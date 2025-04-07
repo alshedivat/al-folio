@@ -426,7 +426,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.85);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -445,17 +445,16 @@
 
 /* Research tag style */
 .person > .image-container > .research-overlay > .research-tag {
-  background-color: #f5f5f5;
-  color: #666666;
+  color: #666666; /* Dark gray text color */
   font-size: 12px;
-  padding: 2px 8px;
-  border-radius: 12px;
-  font-weight: 500;
+  font-weight: 800;
+  margin-bottom: 4px; /* Space between tags */
   display: inline-flex;
   align-items: center;
   justify-content: center;
   max-width: 120px; /* Mobile size - leave some padding */
   text-align: center;
+  font-style: italic;
 }
 
 .person > .name {
@@ -812,17 +811,13 @@
 
 /* Individual research interest tag */
 .person > .research-tags > .research-tag {
-  background-color: #f5f5f5; /* 연한 회색 배경 */
-  color: #666666; /* 진한 회색 텍스트 */
+  color: #666666; /* Dark gray text color */
   font-size: 12px;
-  padding: 2px 8px;
-  border-radius: 12px;
   font-weight: 500;
-  white-space: nowrap; /* Prevent text wrapping within tags */
-  margin-bottom: 4px; /* Add space between wrapped lines */
-  display: inline-flex; /* Ensure proper centering */
-  align-items: center; /* Vertically center text */
-  justify-content: center; /* Horizontally center text */
+  margin-right: 8px; /* Increased space between tags for hashtags */
+  margin-bottom: 4px; /* Space between wrapped lines */
+  display: inline-flex; /* Keep inline display */
+  /* Removed background-color, padding, and border-radius */
 }
 
 @media (min-width: 800px) {

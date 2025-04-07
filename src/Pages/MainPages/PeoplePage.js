@@ -78,7 +78,7 @@ export const PeoplePage = (props) => {
                         .split(",")
                         .map((interest, index) => (
                           <span key={index} className="research-tag">
-                            {interest.trim()}
+                            # {interest.trim()}
                           </span>
                         ))}
                     </div>
@@ -111,9 +111,9 @@ export const PeoplePage = (props) => {
           src={`${process.env.PUBLIC_URL}/icons/line.svg`}
           alt="line"
         />
-        <div ref={element} className="title">
+        {/* <div ref={element} className="title">
           • Alumni •
-        </div>
+        </div> */}
         <div className="container">
           {/* Filter and map through people data to show only alumni */}
           {peopledata
@@ -136,7 +136,7 @@ export const PeoplePage = (props) => {
                         .split(",")
                         .map((interest, index) => (
                           <span key={index} className="research-tag">
-                            {interest.trim()}
+                            # {interest.trim()}
                           </span>
                         ))}
                     </div>
