@@ -3,5 +3,5 @@
 #title: news             #Uncomment if needed. This is on the same page as the 'about'
 #permalink: /news/          #Uncomment if needed. This is on the same page as the 'about'
 ---
+    # {% include news.liquid %}         #Uncomment this if needed in the future, no indentation
 
-{% include news.liquid %}
