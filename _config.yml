@@ -56,7 +56,7 @@ rss_icon: false            #Change to true if needed on the page
 #bib_search: false            #Change to true if needed on the page
 
 # Dimensions
-# max_width: 930px
+max_width: 930px
 
 # TODO: add layout settings (single page vs. multi-page)
 
