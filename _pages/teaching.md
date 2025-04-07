@@ -4,7 +4,7 @@
 #title: teaching             #Uncomment if needing teaching tab
 #description: Materials for courses you taught. Replace this text with your description.         #Uncomment if needing teaching tab
 nav: false                   # Change to true if teaching tab is enabled
-# nav_order: 6                 # Change to true if teaching tab is enabled
+nav_order: 6                 # Change to true if teaching tab is enabled
 ---
 
 
