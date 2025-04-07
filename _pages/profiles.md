@@ -1,9 +1,9 @@
 ---
-layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
-nav: true
+#layout: profiles       # Uncomment if needing a profiles(people on the webpage) in the future
+#permalink: /people/     # Uncomment if needing a profiles(people on the webpage) in the future
+#title: people           # Uncomment if needing a profiles(people on the webpage) in the future
+#description: members of the lab or group        # Uncomment if needing a profiles(people on the webpage) in the future
+nav: false           # change to true if needing a profiles(people on the webpage) in the future
 nav_order: 7
 
 profiles:
