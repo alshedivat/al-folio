@@ -48,8 +48,8 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
+navbar_fixed: false            #Change to true if needed on the page
+footer_fixed: false            #Change to true if needed on the page
 search_enabled: false        #Change to true if needed on the page
 socials_in_search: false     #Change to true if needed on the page
 posts_in_search: false       #Change to true if needed on the page
