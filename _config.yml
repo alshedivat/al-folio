@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: "<b>blank</b>" # the website title (if blank, full name will be used instead)
 first_name: RC
 middle_name:
 last_name: Grear
