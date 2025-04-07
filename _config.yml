@@ -48,12 +48,12 @@ rss_icon: false            #Change to true if needed on the page
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: false            #Change to true if needed on the page
-footer_fixed: false            #Change to true if needed on the page
-search_enabled: false        #Change to true if needed on the page
-socials_in_search: false     #Change to true if needed on the page
-posts_in_search: false       #Change to true if needed on the page
-bib_search: false            #Change to true if needed on the page
+#navbar_fixed: false            #Change to true if needed on the page
+#footer_fixed: false            #Change to true if needed on the page
+#search_enabled: false        #Change to true if needed on the page
+#socials_in_search: false     #Change to true if needed on the page
+#posts_in_search: false       #Change to true if needed on the page
+#bib_search: false            #Change to true if needed on the page
 
 # Dimensions
 # max_width: 930px
