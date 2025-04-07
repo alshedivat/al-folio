@@ -1,9 +1,9 @@
 ---
-layout: page
-title: submenus
-nav: true
+#layout: page            #Uncomment if needing submenus on the webpage in the future
+#title: submenus             # #Uncomment if needing submenus on the webpage in the future
+nav: false                   # Change to false if needing submenus on the webpage in the future
 nav_order: 8
-dropdown: true
+dropdown: false            # Change to false if needing submenus on the webpage in the future  
 children:
   - title: bookshelf
     permalink: /books/
