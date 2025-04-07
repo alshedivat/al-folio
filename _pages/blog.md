@@ -1,16 +1,16 @@
 ---
-layout: default
-permalink: /blog/  # this entry is "/blog/". Making it empty for i only need portfolios
-title: blog
-nav: true
-nav_order: 1
+#layout: default    #Uncomment this if needs a blog in the future
+#permalink: /blog/  #Uncomment this if needs a blog in the future
+#title: blog        #Uncomment this if needs a blog in the future
+nav: false           # Change true to false for now, i do nto want this to appear
+#nav_order: 1         #Uncomment this if nav is true
 pagination:
-  enabled: false # this entry is "/blog/". Making it empty for i only need portfolios, change to true if needed blog
+  enabled: false    # change to true if blog is uncomment
   collection: posts
   permalink: /page/:num/
   per_page: 5
   sort_field: date
-  sort_reverse: false # this entry is "/blog/". Making it empty for i only need portfolios, change to true if needed blog
+  sort_reverse: false # change to true if blog is uncomment
   trail:
     before: 1 # The number of links before the current page
     after: 3 # The number of links after the current page
