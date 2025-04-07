@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: "<span style='color:green;'>Affiliations</span>. Address. Contacts. Motto. Etc."
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"           #Change to true if needed on the page
@@ -18,6 +18,7 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items       #Change to true if needed on the page
   limit: 3 # leave blank to include all the blog posts
 ---
+
 
 Welcome to my GitHub page! I am RC Grear.
 
