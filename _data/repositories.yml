@@ -1,14 +1,8 @@
-github_users:
-  - torvalds
-  - alshedivat
+github_users:     # Can add any github username
+  - noirXnyx
 
-repo_description_lines_max: 2
+repo_description_lines_max: 1 # can change to any number
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - noirXnyx/Project-Build-an-ML-Pipeline-Starter
+
