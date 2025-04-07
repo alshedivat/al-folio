@@ -27,7 +27,7 @@ I recently graduated from Western Governors University with a degree in Data Ana
 
 In addition to my degree in Data Analytics, I also hold a degree in Secondary Education with a focus on Chemistry. My teaching experience not only sharpened my subject knowledge but also strengthened my interpersonal and communication skills—both of which continue to serve me well in collaborative and professional settings.
 
-Before I began teaching, I worked in the corporate world, where I gained valuable insight into how dynamic and fast-paced the business environment can be. Later, my husband and I moved to Vietnam, where I applied my teaching license in an international setting. It was a fulfilling and memorable experience, and I’m grateful for the incredible people I met along the way.
+Before I began teaching, I worked in the corporate world, where I gained valuable insight into how dynamic and fast-paced the business environment can be. Later, I moved to Vietnam, where I applied my teaching license in an international setting. It was a fulfilling and memorable experience, and I’m grateful for the incredible people I met along the way.
 
 During the COVID-19 pandemic, we realized the importance of being close to family, which led us to relocate to the United States. Through conversations with my in-laws and reading about the education system here, I came to understand how different teaching high school in the U.S. can be compared to Asia. This realization ultimately reignited my passion for data and technology, motivating me to pursue my long-time goal. Earning my Bachelor of Science in Data Analytics has brought that goal to life, and I’m now ready to take the next step in my professional journey.
 
