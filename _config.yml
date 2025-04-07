@@ -50,10 +50,10 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+search_enabled: false        #Change to true if needed on the page
+socials_in_search: false     #Change to true if needed on the page
+posts_in_search: false       #Change to true if needed on the page
+bib_search: false            #Change to true if needed on the page
 
 # Dimensions
 max_width: 930px
