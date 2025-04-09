@@ -21,7 +21,7 @@ social: true  # includes social icons at the bottom of the page
 
 <!-- I am currently relocating my personal website. You can view my original website [here](https://andre-ye.github.io/andre-ye.github.io-retired/){:target="_blank"} while I am transferring. -->
 
-I am an incoming EECS PhD student at MIT working in human-AI interaction.
+I am an incoming EECS PhD student at MIT working in human-AI interaction and PD Soros Fellow.
 I am completing my undergraduate at the University of Washington studying philosophy and computer science, minoring in math and history.
 I want to build **AI tools for thought** (esp. for the textual social sciences and the public), **computational models for philosophy**, and **AI that produces new concepts** (in the form of vocabulary, metaphors, connections).
 My philosophical interests include existentialist phenomenology, "pragmatist" philosophy of science, and Deleuze-like metaphysics.
