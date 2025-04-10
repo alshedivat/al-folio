@@ -7,34 +7,44 @@ nav: true
 nav_order: 1
 ---
 
-Established in 1973, the Electronic Visualization Laboratory (EVL) is an interdisciplinary research laboratory in the UIC College of Engineering’s Computer Science department. EVL specializes in collaborative visualization, virtual reality, visual data science, and advanced computing and networking infrastructure. EVL enables scientists and engineers to uniquely manage the scale and complexity of their data - to create information visualizations of multidimensional and multivariate data, explore 3D immersive worlds, juxtapose related yet heterogeneous 2D and 3D datasets, access computer infrastructure for machine learning, and move large datasets over high-speed networks - thereby using advanced tools and technologies to access, display, share and interact with their data and glean insight and knowledge.
+Established in 1973 by [Tom DeFanti](https://en.wikipedia.org/wiki/Thomas_A._DeFanti) and [Dan Sandin](https://en.wikipedia.org/wiki/Daniel_J._Sandin), the [Electronic Visualization Laboratory (EVL)](https://en.wikipedia.org/wiki/Electronic_Visualization_Laboratory) is a pioneering interdisciplinary research laboratory in the Computer Science department at the [University of Illinois at Chicago (UIC)](https://en.wikipedia.org/wiki/University_of_Illinois_Chicago) College of Engineering. Initially named the Circle Graphics Habitat, reflecting UIC's original designation, the laboratory has continuously specialized in collaborative visualization, [virtual reality](https://en.wikipedia.org/wiki/Virtual_reality), visual data science, and advanced computing and networking infrastructure.
 
-EVL has always looked 10-15 years into the future, and has a legacy of past successes. In the ’70s, the Lab pioneered real-time interactive graphics and videogame technology; in the ’80s, it began focusing on scientific visualization; in the ’90s, it focused on advanced virtual reality, and on high-speed networking infrastructure; and, in the ’00s, on accessing, sharing and displaying ultra-high-resolution images on tiled display walls. EVL’s best-known inventions include the CAVE™ virtual-reality environment, the ImmersaDesk™, OptIPortal, and the SAGE™ scalable adaptive graphics environment, and the Continuum Collaborative Smart Space; EVL’s key networking initiative is StarLight.
+EVL is known for consistently looking 10-15 years into the future and has built a significant legacy of innovation. Leadership over the decades has been provided by:
 
-In the ’10s, EVL is building on its decades of experience to create new hardware and software technologies, notably the CAVE2™ hybrid-reality environment, the SAGE2™ scalable amplified group environment, and the SAGE3™ smart amplified group environment,and with the addition of new faculty, is expanding the breadth and depth of its expertise in scientific visualization, information visualization and visual analytics.
+- [Thomas A. DeFanti](https://en.wikipedia.org/wiki/Thomas_A._DeFanti) and [Daniel J. Sandin](https://en.wikipedia.org/wiki/Daniel_J._Sandin), Founding Directors (1973–2004)  
+- [Jason Leigh](https://www.mindmeister.com/app/map/2671123807?t=8kkUtoEmru), Director (2004–2014)  
+- [Maxine D. Brown](https://en.wikipedia.org/wiki/Maxine_D._Brown), Director (2014–2020)  
+- [Andrew Johnson](https://www.evl.uic.edu/aej/), Interim Director (2020–2024)  
+- [Michael E. Papka](https://en.wikipedia.org/wiki/Michael_E._Papka), Director (2024–present)  
 
-From EVL’s early collaborations with artists to today’s global collaborations with computational scientists and application scientists in academia, government and industry, EVL has had many successes developing, nurturing and growing user communities. To fulfill its mission of enabling scientific discovery, EVL faculty, staff and students form interdisciplinary teams of computer scientists, application scientists and artists in order to create useful and usable visualization and virtual-reality tools and techniques connected to remote data stores and distant colleagues via high-speed networks.
+In the 1970s, the lab pioneered real-time interactive graphics and videogame technology, developing groundbreaking tools such as the [GRASS programming language](https://en.wikipedia.org/wiki/GRASS_(programming_language)) and the Sandin Image Processor, which facilitated real-time video and animation. Notably, EVL technology contributed to iconic film imagery, including [Larry Cuba](https://en.wikipedia.org/wiki/Larry_Cuba)’s wireframe animation of the Death Star for the original ["Star Wars"](https://en.wikipedia.org/wiki/Star_Wars_(film)) film.
 
-EVL maintains a distinguished publication record, with students, faculty and staff publishing in major journals and conferences worldwide.
+In the 1980s, EVL shifted focus to scientific visualization and introduced innovations such as the Sayre Glove—one of the earliest [data gloves](https://en.wikipedia.org/wiki/Wired_glove) for virtual interaction—and PHSColograms, autostereoscopic holograms enabling 3D visualization without special glasses.
 
-EVL is supported in part by the National Science Foundation (NSF) awards CNS-2320261, CCF-2316157, OAC-2003800; the National Institutes of Health (NIH) award R01CA258827, Department of Energy awards DE-SC0023524, DE-SC0024271. The Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago (UIC) also receives funding from Argonne National Laboratory, The Joseph and Bessie Feinberg Foundation, the Shirley Ryan AbilityLab, Procter & Gamble, the State of Illinois, and UIC. Any opinions, findings, and conclusions or recommendations expressed in this publication are those of the authors and do not necessarily reflect the views of the funding agencies and companies.
+Throughout the 1990s, EVL became internationally renowned for its advances in virtual reality and high-speed networking infrastructure. Key developments included the invention of the influential [CAVE™ virtual-reality environment](https://en.wikipedia.org/wiki/Cave_automatic_virtual_environment), the ImmersaDesk™, the Infinity Wall, and significant contributions to grid computing initiatives like I-WAY. EVL also spearheaded critical networking initiatives such as STAR TAP and [StarLight](https://en.wikipedia.org/wiki/StarLight), connecting international scientific communities with high-speed networking.
+
+During the 2000s, EVL further expanded its innovations, developing technologies to access, share, and display ultra-high-resolution imagery on tiled display walls, including the OptIPortal and the [SAGE™ (Scalable Adaptive Graphics Environment)](https://en.wikipedia.org/wiki/Scalable_Adaptive_Graphics_Environment). More recent advancements from the 2010s onward include the CAVE2™ hybrid-reality environment and collaborative visualization systems such as SAGE2™ and SAGE3™ (Scalable Amplified Group Environments).
+
+From early collaborations with artists to today's global partnerships with scientists and engineers in academia, government, and industry, EVL has nurtured and expanded user communities, fostering interdisciplinary research and application. Its faculty, staff, and students consistently publish in prestigious journals and conferences worldwide.
+
+EVL’s work continues to be supported by various organizations, including the [National Science Foundation (NSF)](https://en.wikipedia.org/wiki/National_Science_Foundation), [National Institutes of Health (NIH)](https://en.wikipedia.org/wiki/National_Institutes_of_Health), [Department of Energy](https://en.wikipedia.org/wiki/United_States_Department_of_Energy), [Argonne National Laboratory](https://en.wikipedia.org/wiki/Argonne_National_Laboratory), The Joseph and Bessie Feinberg Foundation, Shirley Ryan AbilityLab, [Procter & Gamble](https://en.wikipedia.org/wiki/Procter_%26_Gamble), the State of Illinois, and UIC. EVL remains committed to its mission of advancing scientific discovery by creating cutting-edge visualization and virtual-reality tools, techniques, and infrastructure.
 
 ## Funding:
 
 **National Science Foundation (NSF)**
-- CNS-2320261: Research Infrastructure: MRI: Track 2 Acquisition of Data Observation and Computation Collaboratory (DOCC) (Johnson, PI)
+- CNS-2320261: Research Infrastructure: MRI: Track 2 Acquisition of Data Observation and Computation Collaboratory (DOCC) (Renambot, PI)
 - CCF-2316157: Collaborative Research: PPoSS: Large: A Full-stack Approach to Declarative Analytics at Scale (Kumar, PI of subaward to UIC)
-- OAC-2003800: SAGE3 (Johnson, PI of subaward to UIC)
+- OAC-2003800: SAGE3 (Renambot, PI of subaward to UIC)
 
 **National Institutes of Health (NIH)**
 - NCI-R01CA258827: Longitudinal Spatial-Nonspatial Decision Support for Competing Outcomes in Head and Neck Cancer Therapy (Marai, PI)
 
 **Department of Energy**
-- DE-SC0023524: C^2-THE-P^2=Chicagoland Computational Traineeship in High Energy and Particle Physics (Papka, co-PI)
+- DE-SC0023524: $$C^2$$ the $$P^2$$ Chicagoland Computational Traineeship in High Energy and Particle Physics (Papka, co-PI)
 - DE-SC0024271: Tachyon: Intelligent Multi-Scale Modeling of Distributed Resilient Infrastructure and Workflows for Data Intensive HEP Analyses (Lan, PI)
+- 0J-60008-0050A: Data Sharing and Analysis Across Leadership Computing Facilities (Papka, PI) (subcontract from Argonne National Laboratory)
 
 **Argonne National Laboratory**
-- 0J-60008-0050A: Data Sharing and Analysis Across Leadership Computing Facilities (Papka, PI)
 - 0J-60008-0047A: Kronos: Enabling Long Timescale PDES Simulations via Multi-Resolution Methods (Lan, PI)
 - 0J-60008-0032A: High Performance Computing Research (Papka, PI)
 
