@@ -175,6 +175,7 @@ The Coding School.
 ## recognition & scholarships
 
 - Fellow, Paul and Daisy Soros Fellowship for New Americans (2025)
+- Fellow, Ashar Aziz Presidential Fellowship (MIT) (2025)
 - Finalist, Hertz Foundation Fellowship (2025)
 - Honorable Mention, NSF Graduate Research Fellowship Program (2025)
 - UW Philosophy Department Outstanding Undergraduate Scholar (2024)
