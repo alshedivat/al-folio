@@ -161,6 +161,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://dmitryryumin.github.io/" target="_blank">★</a>
 <a href="https://alexiglad.github.io/" target="_blank">★</a>
 <a href="https://nishanthjkumar.com/" target="_blank">★</a>
+<a href="https://joszuijderwijk.nl/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
