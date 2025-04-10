@@ -174,8 +174,9 @@ The Coding School.
 
 ## recognition & scholarships
 
-- Finalist, Paul and Daisy Soros Fellowship for New Americans (2024)
-- Finalist, Hertz Foundation Fellowship (2024)
+- Fellow, Paul and Daisy Soros Fellowship for New Americans (2025)
+- Finalist, Hertz Foundation Fellowship (2025)
+- Honorable Mention, NSF Graduate Research Fellowship Program (2025)
 - UW Philosophy Department Outstanding Undergraduate Scholar (2024)
 - CRA Outstanding Undergraduate Researcher Finalist (2023)
 - Mary Gates Research Scholar (2023)
