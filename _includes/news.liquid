@@ -13,6 +13,9 @@
               <tr>
                 <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
                 <td>
+                  {% if item.icon %}
+                    <i class="fa {{ item.icon }}"></i>
+                  {% endif %}
                   {% if item.inline %}
                     {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                   {% else %}
