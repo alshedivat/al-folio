@@ -17,7 +17,8 @@ View CV as a [pdf](/assets/pdf/Ye%20Resume%20Public.pdf){:target="_blank"} and s
 
 
 "Unsettling the Hegemony of Intention: Agonistic Image Generation".
-**Andre Ye\***, Andrew Shaw\*, Ranjay Krishna, Amy X. Zhang.
+Andrew Shaw\*, **Andre Ye\*** Ranjay Krishna, Amy X. Zhang.
+ACM Conference on Fairness, Accountability, and Transparency 2025.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2502.15242){:target="_blank"}.
 
@@ -38,7 +39,7 @@ Moral Psychology and Philosophy Workshop, NeurIPS 2023.
 
 "Confidence Contours".
 **Andre Ye**, Quan Ze Chen, Amy Zhang.
-Human Computation (HCOMP) 2023.
+AAAI Human Computation (HCOMP) 2023.
 🏆 Honorable Mention, Best Paper Award.
 *Resources*:
 [proceedings](https://ojs.aaai.org/index.php/HCOMP/article/view/27559){:target="_blank"},
@@ -51,7 +52,7 @@ IJCAI 2023 [submission](/assets/pdf/ijcai_confidence_contours_submission.pdf){:t
 
 "A Roadmap to Pluralistic Alignment".
 Taylor Sorenson, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshghallah, Christopher Michael Rytting, **Andre Ye**, Liwei Jiang, Ximing Lu, Nouha Dziri, Tim Althoff, Yejin Choi.
-ICML 2024.
+International Conference for Machine Learning 2024.
 *Resources*:
 [arXiv](https://arxiv.org/abs/2402.05070){:target="_blank"}.
 
