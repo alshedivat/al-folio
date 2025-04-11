@@ -6,8 +6,8 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Xin 
 middle_name:  
 last_name: Liu
-contact_note:  liuxin56@msu.edu 
- description: > # the ">" symbol means to ignore newlines until "footer_text:"
+contact_note: liuxin56@msu.edu 
+description: > # the ">" symbol means to ignore newlines until "footer_text:"
   PhD Candidate in of Economics, at Michigan State University
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
