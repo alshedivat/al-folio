@@ -4,7 +4,6 @@
 
 # Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 
----
 **About Me**  
 👨💻 Cyber Security Engineer with over six years of experience in safeguarding enterprise systems, reducing vulnerabilities by 70%, and optimizing security postures for global clients. Holding a Bachelor’s in Electronics and Computer Engineering and a Postgraduate Diploma in Network Security, I blend technical expertise with strategic risk management to align security solutions with business goals. Certified as a CISSP professional, I thrive in fast-paced environments—whether leading incident response teams, mentoring junior analysts, or architecting cloud and on-premises security frameworks.  
 
@@ -28,5 +27,4 @@
 📍 **Based in**: 135 Canon Jackson Drive, York, Ontario, M6M 0C3  
 📸 *[Drop your profile picture in the `img/` folder and name it `prof_pic.jpg` to add it here!]*  
 
-💡 **When I’m not securing networks**, I’m tinkering with Python scripts, exploring AI/ML applications in threat detection, or volunteering as a technical mentor. Let’s build a safer digital future—one patch at a time!  
----
+💡 **When I’m not securing networks**, I’m tinkering with Python scripts, exploring AI/ML applications in threat detection, or volunteering as a technical mentor. Let’s build a safer digital future—one patch at a time!
