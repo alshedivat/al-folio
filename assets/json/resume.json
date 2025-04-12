@@ -1,11 +1,11 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Suman Sedhai",
+    "label": "Cyber Security Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "sumansedhai01@gmail.com",
+    "phone": "(204) 979-8804",
+    "url": "https://sumansedhai.com",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
@@ -17,20 +17,29 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "prakritsedhai",
+        "url": "https://twitter.com/prakritsedhai"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
+      "name": "Arctic Wolf Networks, Canada",
+      "position": "Cyber Security Engineer",
+      "url": "https://www.arcticwolf.com",
+      "startDate": "2022-06-16",
       "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "summary": "Proactive Security Engineer reducing vulnerabilities and breaches through strategic partnerships, threat analysis, and system optimization, ensuring high availability while mentoring teams and collaborating cross-functionally.",
+      "highlights": ["Cyber Security"]
+    },
+    {
+      "name": "Macdon Industries Ltd",
+      "position": "Technical Support Specialist",
+      "url": "https://www.macdon.com",
+      "startDate": "2019-07-01",
+      "endDate": "2022-05-25",
+      "summary": "Dedicated Security Operations Specialist managing day-to-day risk mitigation, incident response, and security system implementation while developing policies, monitoring threats, and enhancing infrastructure resilience through proactive security practices.",
+      "highlights": ["Cyber Security"]
     }
   ],
   "volunteer": [
@@ -47,15 +56,14 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "The University of Winnipeg",
+      "location": "Winnipeg, Manitoba, Canada",
+      "url": "https://www.uwinnipeg.ca/",
+      "area": "Network and Cyber Security",
+      "studyType": "Post Graduate Diploma",
+      "startDate": "2017-09-01",
+      "endDate": "2018-10-01",
+      "courses": ["Network Security Diploma"]
     }
   ],
   "awards": [
@@ -134,67 +142,124 @@
       "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
+  "skills": [  
+    {  
+      "name": "Cybersecurity",  
+      "level": "Expert",  
+      "icon": "fa-solid fa-shield-halved",  
+      "keywords": [  
+        "Penetration Testing",  
+        "Vulnerability Analysis",  
+        "Threat Intelligence",  
+        "Incident Response",  
+        "Malware Analysis",  
+        "SIEM Tools",  
+        "Zero Trust Architecture",  
+        "Disaster Recovery",  
+        "Compliance Standards",  
+        "Risk Assessment"  
+      ]  
+    },  
+    {  
+      "name": "Network Security",  
+      "level": "Expert",  
+      "icon": "fa-solid fa-network-wired",  
+      "keywords": [  
+        "Firewall/IDS/IPS Configuration",  
+        "CISCO CCNA",  
+        "DHCP/DNS/TCP/IP",  
+        "LAN/WAN Design",  
+        "Network Security Monitoring",  
+        "Cloud Security (AWS, O365)",  
+        "Data Loss Prevention (DLP)"  
+      ]  
+    },  
+    {  
+      "name": "Systems Administration",  
+      "level": "Advanced",  
+      "icon": "fa-solid fa-server",  
+      "keywords": [  
+        "Windows/Linux/UNIX Server Administration",  
+        "Endpoint Security",  
+        "Telecommunications (BTS, Optical Fiber)",  
+        "AWS Infrastructure",  
+        "Log Correlation Tools",  
+        "Forensic Analysis"  
+      ]  
+    },  
+    {  
+      "name": "Programming & Scripting",  
+      "level": "Advanced",  
+      "icon": "fa-solid fa-code",  
+      "keywords": [  
+        "Python",  
+        "C/C++",  
+        "SQL",  
+        "MATLAB",  
+        "Automation Scripting",  
+        "Web Application Security"  
+      ]  
+    },  
+    {  
+      "name": "Certifications",  
+      "level": "Professional",  
+      "icon": "fa-solid fa-certificate",  
+      "keywords": [  
+        "CISSP (Certified Information Systems Security Professional)"  
+      ]  
+    },  
+    {  
+      "name": "Management & Leadership",  
+      "level": "Advanced",  
+      "icon": "fa-solid fa-people-group",  
+      "keywords": [  
+        "Team Leadership",  
+        "Security Policy Development",  
+        "Client Relationship Management",  
+        "Mentorship",  
+        "Stakeholder Communication",  
+        "Incident Remediation"  
+      ]  
+    }  
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Nepali",
+      "fluency": "Native Speaker",
+      "icon": ""
+    },
+    {
+      "language": "French",
+      "fluency": "Basic",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Cyber Security",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Defence in Depth",  
+        "Vulnerability and Patch Management",  
+        "Cryptography",  
+        "Incident Response",  
+        "Threat Intelligence",  
+        "Zero Trust Architecture",  
+        "Security Information and Event Management (SIEM)",  
+        "Penetration Testing",  
+        "Multi-Factor Authentication (MFA)",  
+        "Network Security Monitoring",  
+        "Advanced Persistent Threat (APT)",  
+        "Data Loss Prevention (DLP)",  
+        "Endpoint Detection and Response (EDR)",  
+        "Cloud Security Posture Management",  
+        "Red Team/Blue Team Exercises"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
