@@ -1,11 +1,11 @@
 ---
 layout: cv
 permalink: /cv/
-title: Suman Sedhai' Resume
+title: Resume
 nav: true
 nav_order: 5
 cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is the place where you can find my information. 
+description: This is the place where you can find my information related to my work and experiences. 
 #This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
 toc:
   sidebar: left
