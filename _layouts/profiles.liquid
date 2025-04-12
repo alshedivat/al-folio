@@ -1,69 +1,90 @@
 ---
 layout: page
 ---
-<div class="post">
-  <article>
-    <!-- Set the threshold variable -->
-    {% assign threshold = 24 %} <!-- This can be set as needed -->
 
-    <!-- First Level Navigation: Status -->
-    <div class="status-index">
-      {% assign statuses = site.data.people | map: 'status' | uniq | sort %}
-      {% for status in statuses %}
-        <a href="#{{ status }}">{{ status }}</a>
-        {% if forloop.last == false %}
-          &nbsp;|&nbsp;
-        {% endif %}
-      {% endfor %}
-    </div>
+<div class="profiles-page">
+  <div class="post">
+    <article>
+      <!-- Set the threshold variable -->
+      {% assign threshold = 24 %}
 
+      <!-- Define desired status order and display names -->
+      {% assign status_order = "faculty,staff,affiliate,student,emeritus,friend,alumni" | split: "," %}
+      {% assign display_names = "faculty,staff,affiliates,students,emeritus,friends,alumni" | split: "," %}
 
-    <!-- Loop through each unique status -->
-    {% for status in statuses %}
-      <div class="status-section">
-        <h2 id="{{ status }}">{{ status }}</h2>
+      <!-- First Level Navigation: Status -->
+      <div class="status-index">
+        {% for status in status_order %}
+          {% assign people_in_status = site.data.people | where: "status", status %}
+          {% if people_in_status.size > 0 %}
+            {% assign status_display = display_names[forloop.index0] %}
+            <a href="#{{ status }}">{{ status_display }}</a>
+            {% unless forloop.last %} | {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div>
 
-        <!-- Assign people based on status and sort by last name -->
+      <!-- Loop through each status in custom order -->
+      {% for status in status_order %}
         {% assign people_in_status = site.data.people | where: "status", status | sort: 'dirLastName' %}
-        {% assign people_count = people_in_status | size %}
+        {% if people_in_status.size > 0 %}
+          <div class="status-section">
+            {% assign status_display = display_names[forloop.index0] %}
+            <h2 id="{{ status }}">{{ status_display }}</h2>
 
-        <!-- If number of people in the status group exceeds the threshold, show alphabetical index -->
-        {% if people_count > threshold %}
-          <!-- Second Level Navigation: Alphabetical -->
-          <div class="letter-index">
-            {% assign alphabet = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," %}
-            {% for letter in alphabet %}
-              <a href="#{{ status }}-{{ letter }}">{{ letter }}</a>
-              {% if forloop.last == false %}
-                &nbsp;|&nbsp;
-              {% endif %}
-            {% endfor %}
-          </div>
-        {% endif %}
+            <!-- Assign people based on status and sort by last name -->
+            {% assign people_count = people_in_status | size %}
 
-        <div class="profile-grid">
-          {% assign current_letter = "" %}
-
-          <!-- Loop through each person, sorted by last name -->
-          {% for profile in people_in_status %}
-            {% assign first_letter = profile.dirLastName | slice: 0, 1 | upcase %}
-
-            <!-- If the alphabetical index is used and the first letter of the last name changes, create a new section with a heading -->
-            {% if people_count > threshold and current_letter != first_letter %}
-              <div class="letter-section">
-                <h3 id="{{ status }}-{{ first_letter }}">{{ first_letter }}</h3>
+            <!-- If number of people in the status group exceeds the threshold, show alphabetical index -->
+            {% if people_count > threshold %}
+              <!-- Second Level Navigation: Alphabetical -->
+              <div class="letter-index">
+                {% assign alphabet = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," %}
+                {% for letter in alphabet %}
+                  <a href="#{{ status }}-{{ letter }}">{{ letter }}</a>
+                  {% unless forloop.last %} | {% endunless %}
+                {% endfor %}
               </div>
-              {% assign current_letter = first_letter %}
             {% endif %}
 
-            <div class="profile profile-column">
-              <strong>{{ profile.dirFirstName }} {{ profile.dirLastName }}</strong><br>
-              <strong>Department:</strong> {{ profile.department }}<br>
-              <strong>Email:</strong> <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+            <div class="profile-grid">
+              {% assign current_letter = "" %}
+
+              <!-- Loop through each person, sorted by last name -->
+              {% for profile in people_in_status %}
+                {% assign first_letter = profile.dirLastName | slice: 0, 1 | upcase %}
+
+                <!-- If the alphabetical index is used and the first letter of the last name changes, create a new section with a heading -->
+                {% if people_count > threshold and current_letter != first_letter %}
+                  <div class="letter-section">
+                    <h3 id="{{ status }}-{{ first_letter }}">{{ first_letter }}</h3>
+                  </div>
+                  {% assign current_letter = first_letter %}
+                {% endif %}
+
+                <div class="profile profile-column">
+                  <strong>
+                    {{ profile.title }}
+                    <!-- Social icons section: inline after name -->
+                    <span class="social-icons">
+                      {% if profile.email %}
+                        <a href="mailto:{{ profile.email }}" title="Email"><i class="fa fa-envelope"></i></a>
+                      {% endif %}
+                      {% if profile.url %}
+                        <a href="{{ profile.url }}" title="Website"><i class="fa fa-globe"></i></a>
+                      {% endif %}
+                      {% if profile.linkedin %}
+                        <a href="{{ profile.linkedin }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                      {% endif %}
+                    </span>
+                  </strong><br>
+                  {{ profile.department }}
+                </div>
+              {% endfor %}
             </div>
-          {% endfor %}
-        </div>
-      </div>
-    {% endfor %}
-  </article>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </article>
+  </div>
 </div>
