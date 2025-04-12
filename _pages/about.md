@@ -49,6 +49,5 @@ latest_posts:
 - **Favorite Subreddit**: [r/cybersecurity](https://www.reddit.com/r/cybersecurity/) – A hub for threat intel and industry trends!  
 
 📍 **Based in**: Toronto, Ontario 
-# 📸 *[Drop your profile picture in the `img/` folder and name it `prof_pic.jpg` to add it here!]*  
 
 💡 **When I’m not securing networks**, I’m tinkering with Python scripts, exploring AI/ML applications in threat detection, or volunteering as a technical mentor. Let’s build a safer digital future—one patch at a time!
