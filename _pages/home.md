@@ -2,15 +2,13 @@
 layout: home
 title: home
 permalink: /
-subtitle: Electronic Visualization Laboratory - UIC
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
+subtitle: "Electronic Visualization Laboratory"
+selected_papers: true
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 10 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 10
+social: true
 ---
 
 Established in 1973, the Electronic Visualization Laboratory (EVL) is an interdisciplinary research laboratory in the UIC College of Engineering’s Computer Science department. EVL specializes in collaborative visualization, virtual reality, visual data science, and advanced computing and networking infrastructure. EVL enables scientists and engineers to uniquely manage the scale and complexity of their data - to create information visualizations of multidimensional and multivariate data, explore 3D immersive worlds, juxtapose related yet heterogeneous 2D and 3D datasets, access computer infrastructure for machine learning, and move large datasets over high-speed networks - thereby using advanced tools and technologies to access, display, share and interact with their data and glean insight and knowledge.

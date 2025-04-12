@@ -9,9 +9,7 @@ last_name: Laboratory
 email: evl-web@uic.edu
 description: Electronic Visualization Laboratory
 footer_text: >
-
-  The Electronic Visualization Laboratory is part of the <a href="https://cs.uic.edu" target="_blank">Department of Computer Science</a> 
-  in the <a href="https://engineering.uic.edu" target="_blank">College of Engineering</a> at the <a href="https://www.uic.edu" target="_blank">University of Illinois Chicago</a>. For more information on the Electronic Visualization Laboratory please email <a href="mailto:sevl-web@uic.edu">evl-web@uic.edu</a> ...
+ For more information on the please email <a href="mailto:sevl-web@uic.edu">evl-web@uic.edu</a>.
 keywords: visualization, human computer interaction, high performance computing # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico

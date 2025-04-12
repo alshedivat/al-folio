@@ -1,17 +1,47 @@
 ---
 layout: default
 ---
+
+<!-- Custom Hero Section -->
+<style>
+  /* These CSS rules only apply to the hero section */
+  .hero {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px; /* adjust spacing as needed */
+  }
+  .hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4); /* semi-transparent overlay */
+    text-align: left;
+  }
+  /* Let your base fonts be defined in your main CSS but force white color here */
+  .hero-overlay h1 {
+    margin: 0;
+    color: white;
+  }
+</style>
+
+<header class="hero">
+  <img id="hero-image" src="" alt="Hero Image" />
+  <div class="hero-overlay">
+    <!-- Use page.subtitle so the title overlay text is what you want -->
+    <h1 class="hero-title">{{ page.subtitle }}</h1>
+  </div>
+</header>
+
+<!-- Begin Original Content -->
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
 
   <article>
     {% if page.profile %}
@@ -23,7 +53,7 @@ layout: default
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
           {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
         {% endif %}
         {% if page.profile.more_info %}
@@ -34,7 +64,7 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
+    <!-- News Section -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
@@ -42,15 +72,7 @@ layout: default
       {% include news.liquid limit=page.announcements.limit %}
     {% endif %}
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected publications -->
+    <!-- Selected Publications -->
     {% if page.selected_papers %}
       <h2>
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
@@ -58,7 +80,7 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
+    <!-- Social Section -->
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
@@ -71,3 +93,16 @@ layout: default
     {% endif %}
   </article>
 </div>
+<!-- End Original Content -->
+
+<!-- JavaScript to randomly select the hero image on each page load -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var heroImages = [
+    '/assets/img/homepage/evl00.png',
+    '/assets/img/homepage/evl01.png'
+  ];
+  var randomIndex = Math.floor(Math.random() * heroImages.length);
+  document.getElementById("hero-image").src = heroImages[randomIndex];
+});
+</script>
