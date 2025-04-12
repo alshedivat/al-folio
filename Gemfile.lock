@@ -37,9 +37,10 @@ GEM
       namae (~> 1.0)
       observer (< 1.0)
       open-uri (< 1.0)
-    citeproc-ruby (1.1.14)
+    citeproc-ruby (2.1.1)
       citeproc (~> 1.0, >= 1.0.9)
-      csl (~> 1.6)
+      csl (~> 2.0)
+      observer (< 1.0)
     classifier-reborn (2.3.0)
       fast-stemmer (~> 1.0)
       matrix (~> 0.4)
@@ -47,11 +48,16 @@ GEM
     concurrent-ruby (1.3.5)
     connection_pool (2.5.0)
     crass (1.0.6)
-    csl (1.6.0)
-      namae (~> 1.0)
-      rexml
-    csl-styles (1.0.1.11)
-      csl (~> 1.0)
+    csl (2.1.0)
+      forwardable (~> 1.3)
+      namae (~> 1.2)
+      open-uri (< 1.0)
+      rexml (~> 3.0)
+      set (~> 1.1)
+      singleton (< 1.0)
+      time (< 1.0)
+    csl-styles (2.0.1)
+      csl (~> 2.0)
     css_parser (1.21.1)
       addressable
     cssminify2 (2.0.1)
@@ -68,30 +74,11 @@ GEM
     feedjira (3.2.4)
       loofah (>= 2.3.1, < 3)
       sax-machine (>= 1.0, < 2)
-    ffi (1.17.1-aarch64-linux-gnu)
-    ffi (1.17.1-aarch64-linux-musl)
-    ffi (1.17.1-arm-linux-gnu)
-    ffi (1.17.1-arm-linux-musl)
-    ffi (1.17.1-arm64-darwin)
-    ffi (1.17.1-x86_64-darwin)
-    ffi (1.17.1-x86_64-linux-gnu)
-    ffi (1.17.1-x86_64-linux-musl)
+    ffi (1.17.1-x64-mingw-ucrt)
     forwardable (1.3.3)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
-    google-protobuf (4.30.1)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.30.1-aarch64-linux)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.30.1-arm64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.30.1-x86_64-darwin)
-      bigdecimal
-      rake (>= 13)
-    google-protobuf (4.30.1-x86_64-linux)
+    google-protobuf (4.30.2-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     html-pipeline (2.14.3)
@@ -99,7 +86,7 @@ GEM
       nokogiri (>= 1.4)
     htmlcompressor (0.4.0)
     http_parser.rb (0.8.0)
-    httparty (0.22.0)
+    httparty (0.23.1)
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
@@ -149,10 +136,10 @@ GEM
     jekyll-regex-replace (1.1.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
-    jekyll-scholar (7.1.3)
+    jekyll-scholar (7.2.0)
       bibtex-ruby (~> 6.0)
-      citeproc-ruby (~> 1.0)
-      csl-styles (~> 1.0)
+      citeproc-ruby (~> 2.0)
+      csl-styles (~> 2.0)
       jekyll (~> 4.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
@@ -180,7 +167,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    logger (1.6.6)
+    logger (1.7.0)
     loofah (2.24.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -192,21 +179,7 @@ GEM
       bigdecimal (~> 3.1)
     namae (1.2.0)
       racc (~> 1.7)
-    nokogiri (1.18.5-aarch64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.5-aarch64-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.5-arm-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.5-arm-linux-musl)
-      racc (~> 1.4)
-    nokogiri (1.18.5-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.5-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.18.5-x86_64-linux-gnu)
-      racc (~> 1.4)
-    nokogiri (1.18.5-x86_64-linux-musl)
+    nokogiri (1.18.7-x64-mingw-ucrt)
       racc (~> 1.4)
     observer (0.1.2)
     open-uri (0.5.0)
@@ -225,25 +198,13 @@ GEM
     rexml (3.4.1)
     rouge (4.5.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.86.0-aarch64-linux-gnu)
-      google-protobuf (~> 4.30)
-    sass-embedded (1.86.0-aarch64-linux-musl)
-      google-protobuf (~> 4.30)
-    sass-embedded (1.86.0-arm-linux-gnueabihf)
-      google-protobuf (~> 4.30)
-    sass-embedded (1.86.0-arm-linux-musleabihf)
-      google-protobuf (~> 4.30)
-    sass-embedded (1.86.0-arm64-darwin)
-      google-protobuf (~> 4.30)
-    sass-embedded (1.86.0-x86_64-darwin)
-      google-protobuf (~> 4.30)
-    sass-embedded (1.86.0-x86_64-linux-gnu)
-      google-protobuf (~> 4.30)
-    sass-embedded (1.86.0-x86_64-linux-musl)
+    sass-embedded (1.86.3-x64-mingw-ucrt)
       google-protobuf (~> 4.30)
     sax-machine (1.3.2)
     securerandom (0.4.1)
-    stringio (3.1.5)
+    set (1.1.1)
+    singleton (0.3.0)
+    stringio (3.1.6)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
     terser (1.2.5)
@@ -256,21 +217,11 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.6.0)
     uri (1.0.3)
+    wdm (0.2.0)
     webrick (1.9.1)
 
 PLATFORMS
-  aarch64-linux
-  aarch64-linux-gnu
-  aarch64-linux-musl
-  arm-linux-gnu
-  arm-linux-gnueabihf
-  arm-linux-musl
-  arm-linux-musleabihf
-  arm64-darwin
-  x86_64-darwin
-  x86_64-linux
-  x86_64-linux-gnu
-  x86_64-linux-musl
+  x64-mingw-ucrt
 
 DEPENDENCIES
   classifier-reborn
@@ -297,6 +248,7 @@ DEPENDENCIES
   jemoji
   observer
   ostruct
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
-   2.6.6
+   2.6.7
