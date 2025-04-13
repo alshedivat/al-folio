@@ -29,12 +29,17 @@ From early collaborations with artists to today's global partnerships with scien
 
 EVL’s work continues to be supported by various organizations, including the [National Science Foundation (NSF)](https://en.wikipedia.org/wiki/National_Science_Foundation), [National Institutes of Health (NIH)](https://en.wikipedia.org/wiki/National_Institutes_of_Health), [Department of Energy](https://en.wikipedia.org/wiki/United_States_Department_of_Energy), [Argonne National Laboratory](https://en.wikipedia.org/wiki/Argonne_National_Laboratory), The Joseph and Bessie Feinberg Foundation, Shirley Ryan AbilityLab, [Procter & Gamble](https://en.wikipedia.org/wiki/Procter_%26_Gamble), the State of Illinois, and UIC. EVL remains committed to its mission of advancing scientific discovery by creating cutting-edge visualization and virtual-reality tools, techniques, and infrastructure.
 
-## Funding:
+## Current Funding:
 
 **National Science Foundation (NSF)**
 - CNS-2320261: Research Infrastructure: MRI: Track 2 Acquisition of Data Observation and Computation Collaboratory (DOCC) (Renambot, PI)
 - CCF-2316157: Collaborative Research: PPoSS: Large: A Full-stack Approach to Declarative Analytics at Scale (Kumar, PI of subaward to UIC)
 - OAC-2003800: SAGE3 (Renambot, PI of subaward to UIC)
+- OAC-2331263: NAIRR Pilot: A National-Scale Testbed Supporting Artificial Intelligence Research Spanning the Computing Continuum (Papka, PI of subaward to UIC)
+- OAC-2402901: AIMCI: AI-Guided Resource Management for Advanced Cyberinfrastructure (Lan, Papka Co-PI)
+- OAC-2440948: Conference: NAIRR Software Workshop (Papka, PI)
+- OAC-2436842: Sage Grande: An Open Artificial Intelligence Testbed for Edge Computing and Intelligent Sensing (Papka, PI of subaward to UIC)
+- OAC-2411223: Frameworks: Cyberinfrastructure to Catalyze and Sustain the Urban Computing Community (Miranda, PI)
 
 **National Institutes of Health (NIH)**
 - NCI-R01CA258827: Longitudinal Spatial-Nonspatial Decision Support for Competing Outcomes in Head and Neck Cancer Therapy (Marai, PI)
@@ -42,13 +47,15 @@ EVL’s work continues to be supported by various organizations, including the [
 **Department of Energy**
 - DE-SC0023524: $$C^2$$ the $$P^2$$ Chicagoland Computational Traineeship in High Energy and Particle Physics (Papka, co-PI)
 - DE-SC0024271: Tachyon: Intelligent Multi-Scale Modeling of Distributed Resilient Infrastructure and Workflows for Data Intensive HEP Analyses (Lan, PI)
-- 0J-60008-0050A: Data Sharing and Analysis Across Leadership Computing Facilities (Papka, PI) (subcontract from Argonne National Laboratory)
+- 0J-60008-0050A: Data Sharing and Analysis Across Leadership Computing Facilities (Papka, PI of subaward to UIC)
+- Tele-robotics to Tele-autonomous Robotics for Isotope Production (Papka, PI of subaward to UIC)
+- Digital twins and AI-enabled & IMmmersive Environments for Automated Scientific Laboratories (DAIMSL) (Papka, PI of subaward to UIC)
 
 **Argonne National Laboratory**
 - 0J-60008-0047A: Kronos: Enabling Long Timescale PDES Simulations via Multi-Resolution Methods (Lan, PI)
 - 0J-60008-0032A: High Performance Computing Research (Papka, PI)
 
-**UIC (Internal Funding)**
-- Discovery Partners Institute: Mid-scale RI-1 (M1:IP): SAGE: A Software-Defined Sensor Network (Papka, PI)
+<!-- **UIC (Internal Funding)**
+- Discovery Partners Institute: Mid-scale RI-1 (M1:IP): SAGE: A Software-Defined Sensor Network (Papka, PI)-->
 
 SAGE / SAGE2 / SAGE3 / CAVE / CAVE2 are trademarks of the University of Illinois Board of Trustees.
