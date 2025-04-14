@@ -32,7 +32,7 @@ jobs:
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          curl https://raw.githubusercontent.com/ekalinin/github-markdown-toc/master/gh-md-toc -o gh-md-toc
+          curl https://raw.githubusercontent.com/george-gca/github-markdown-toc/refs/heads/main/gh-md-toc -o gh-md-toc
           chmod a+x gh-md-toc
           for file in ${ALL_CHANGED_FILES}; do
             # Check if the file is a markdown file
