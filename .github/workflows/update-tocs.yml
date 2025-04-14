@@ -7,13 +7,13 @@ on:
       - main
       - master
     paths:
-      - '*.md'
+      - "*.md"
   push:
     branches:
       - main
       - master
     paths:
-      - '*.md'
+      - "*.md"
   workflow_dispatch:
 
 permissions:
@@ -26,7 +26,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # OR "2" -> To retrieve the preceding commit.
+          fetch-depth: 0 # OR "2" -> To retrieve the preceding commit.
 
       - name: Get changed files
         id: changed-files
