@@ -6,6 +6,7 @@ Here are some frequently asked questions. If you have a different question, plea
 
 <!--ts-->
 * [Frequently Asked Questions](#frequently-asked-questions)
+   * [Table of Contents](#table-of-contents)
       * [After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?](#after-i-create-a-new-repository-from-this-template-and-setup-the-repo-i-get-a-deployment-error-isnt-the-website-supposed-to-correctly-deploy-automatically)
       * [I am using a custom domain (e.g., foo.com). My custom domain becomes blank in the repository settings after each deployment. How do I fix that?](#i-am-using-a-custom-domain-eg-foocom-my-custom-domain-becomes-blank-in-the-repository-settings-after-each-deployment-how-do-i-fix-that)
       * [My webpage works locally. But after deploying, it fails to build and throws Unknown tag 'toc'. How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-fails-to-build-and-throws-unknown-tag-toc-how-do-i-fix-that)
