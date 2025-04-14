@@ -2,12 +2,6 @@ name: Update TOCs
 # This workflow automatically updates the Table of Contents (TOC) in markdown files
 
 on:
-  pull_request:
-    branches:
-      - main
-      - master
-    paths:
-      - "*.md"
   push:
     branches:
       - main
