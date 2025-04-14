@@ -39,7 +39,7 @@ jobs:
             if [[ "$file" != *.md ]]; then
               continue
             fi
-            ./gh-md-toc --insert --no-backup --hide-footer --indent 2 $file
+            ./gh-md-toc --indent 2 --insert --no-backup --hide-footer $file
           done
           rm gh-md-toc
 
