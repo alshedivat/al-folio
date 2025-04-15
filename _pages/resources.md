@@ -4,7 +4,7 @@ permalink: /resources/
 title: resources
 description: Hardware available at EVL
 nav: true
-nav_order: 7
+nav_order: 8
 ---
 
 <div class="row justify-content-sm-center">
