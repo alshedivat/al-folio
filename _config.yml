@@ -622,24 +622,39 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
 
-# -----------------------------------------------------------------------------
-# Get external JSON data
-# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------  
+# Load external JSON data 
+# -----------------------------------------------------------------------------  
 
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
 
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# Map section keys (must match resume.json) to display labels  
+# 'key' = section name in resume.json (unchanged)
+# 'label' = name shown on the site
+jsonresume:  
+  - key: basics  
+    label: "Profile"   # Renaming section basics to "Profile"
+  - key: work  
+    label: "Work Experience"  
+  - key: education  
+    label: "Education"  
+  - key: publications  
+    label: "Publications"  
+  - key: projects  
+    label: "Projects"  
+  - key: volunteer  
+    label: "Volunteer Experience"  
+  - key: awards  
+    label: "Honors & Awards"  
+  - key: certificates  
+    label: "Certifications"  
+  - key: skills  
+    label: "Skills"  
+  - key: languages  
+    label: "Languages"  
+  - key: interests  
+    label: "Specializations & Interests"  
+  - key: references  
+    label: "References"

@@ -81,14 +81,21 @@ layout: default
       <div class="cv">
         {% for data in site.data.resume %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
-            {% unless site.jsonresume contains data[0] %}
+            {% assign section_entry = site.jsonresume | where: "key", data[0] | first %}
+            {% if section_entry == null %}
               {% continue %}
-            {% endunless %}
+            {% endif %}
           {% endif %}
-          {% if data[0] == 'meta' or data[1].size == 0 %} {% continue %} {% endif %}
-          <a class="anchor" id="{{ data[0] }}"></a>
+
+          {% if data[0] == 'meta' or data[1].size == 0 %}
+            {% continue %}
+          {% endif %}
+
+          <a class="anchor" id="{{ data[0] | slugify }}"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            {% assign section_label = section_entry.label | default: data[0] | capitalize %}
+            <h3 class="card-title font-weight-medium">{{ section_label }}</h3>
+
             <div>
               {% case data[0] %}
                 {% when 'basics' %}
@@ -115,8 +122,6 @@ layout: default
                   {% include resume/certificates.liquid %}
                 {% when 'references' %}
                   {% include resume/references.liquid %}
-                {% else %}
-
               {% endcase %}
             </div>
           </div>
