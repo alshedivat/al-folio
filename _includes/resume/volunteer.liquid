@@ -1,5 +1,12 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign volunteer = data[1] | sort: 'startDate' | reverse %}
+  {% case page.sort_entries.volunteer %}
+    {% when 'reverse' %}
+      {% assign volunteer = data[1] | sort: 'startDate' | reverse %}
+    {% when 'forward' %}
+      {% assign volunteer = data[1] | sort: 'startDate' %}
+    {% else %}
+      {% assign volunteer = data[1] %}
+  {% endcase %}
   {% for content in volunteer %}
     <li class="list-group-item">
       <div class="row">
