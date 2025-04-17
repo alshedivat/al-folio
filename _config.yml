@@ -70,6 +70,12 @@ serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
+# BibTeX to CV Sync
+# -----------------------------------------------------------------------------
+auto_sync_publications: true   # Enable/disable automatic sync of publications from BibTeX to resume.json
+auto_sync_backup: true         # Enable/disable automatic backup of resume.json before updating
+
+# -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
