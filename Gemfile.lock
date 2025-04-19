@@ -15,6 +15,7 @@ GEM
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
     base64 (0.2.0)
+    benchmark (0.4.0)
     bibtex-ruby (6.1.0)
       latex-decode (~> 0.0)
       racc (~> 1.7)
@@ -217,6 +218,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  benchmark
   classifier-reborn
   css_parser
   feedjira
