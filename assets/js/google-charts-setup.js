@@ -1,7 +1,7 @@
 /* Create google charts chart as another node and hide the code block, appending the google charts node after it */
 document.addEventListener("readystatechange", () => {
   if (document.readyState === "complete") {
-    google.charts.load('current');
+    google.charts.load("current");
     google.charts.setOnLoadCallback(drawCharts);
 
     function drawCharts() {
@@ -16,8 +16,7 @@ document.addEventListener("readystatechange", () => {
         // add containerId to jsonData, replace if it exists
         if (jsonData.includes('"containerId":')) {
           jsonData = jsonData.replace(/"containerId":\s*".*?"/, '"containerId": "google-charts-' + index + '"');
-        }
-        else {
+        } else {
           jsonData = jsonData.replace(/(\{)/, '$1"containerId": "google-charts-' + index + '",');
         }
         backup.after(chartElement);
