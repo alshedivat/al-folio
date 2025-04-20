@@ -1,0 +1,85 @@
+{% if site.courses %}
+  <div class="courses">
+    {% assign courses_by_year = site.courses | sort: 'year' | reverse | group_by: 'year' %}
+
+    {% for year_group in courses_by_year %}
+      <h2 class="year">{{ year_group.name }}</h2>
+      <div class="course-list">
+        {% assign year_courses = year_group.items | sort: 'term' %}
+        {% for course in year_courses %}
+          <div class="course-item">
+            <h3 class="course-title">
+              <a href="{{ course.url | relative_url }}">{{ course.title }}</a>
+            </h3>
+
+            <div class="course-meta">
+              {% if course.term %}
+                <span class="course-term">{{ course.term }}</span>
+              {% endif %}
+
+              {% if course.instructor %}
+                <span class="course-instructor">{{ course.instructor }}</span>
+              {% endif %}
+            </div>
+
+            {% if course.description %}
+              <div class="course-description">
+                {{ course.description | markdownify }}
+              </div>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+
+  <style>
+    .courses {
+      margin-top: 30px;
+    }
+    .year {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--global-divider-color);
+      padding-bottom: 10px;
+    }
+    .course-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+    }
+    .course-item {
+      border: 1px solid var(--global-divider-color);
+      border-radius: 5px;
+      padding: 15px;
+      background-color: var(--global-bg-color);
+      transition: transform 0.2s ease-in-out;
+    }
+    .course-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+    }
+    .course-title {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    .course-meta {
+      font-size: 0.9rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 10px;
+    }
+    .course-term,
+    .course-instructor {
+      margin-right: 15px;
+    }
+    .course-description {
+      font-size: 0.9rem;
+      margin-bottom: 15px;
+    }
+    .course-description p {
+      margin-bottom: 0;
+    }
+  </style>
+{% else %}
+  <p>No courses available yet.</p>
+{% endif %}
