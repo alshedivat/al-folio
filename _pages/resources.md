@@ -3,8 +3,7 @@ layout: page
 permalink: /resources/
 title: resources
 description: Hardware available at EVL
-nav: true
-nav_order: 8
+nav: false
 ---
 
 <div class="row justify-content-sm-center">
