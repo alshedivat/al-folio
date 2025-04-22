@@ -33,39 +33,54 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1046 BCE - 256 BCE: Zhou Dynasty in China
 - 800 BCE - 400 BCE: Development of Upanishads in India and key Hindu texts
 - 770 BCE - 476 BCE: Spring and Autumn Period in China
-- 753 BCE: Rome founded by Romulus and Remus, twin brothers of Mars
-- 717 BCE: Numa Pompilius becomes second king of Rome, introduces the Roman lunar calendar
+- 753 BCE: Rome founded by Romulus and Remus, twin brothers of Mars; Romulus is the first king
+- 715 BCE: Numa Pompilius becomes second king of Rome, introduces the Roman lunar calendar
 - 700 BCE: Hesiod, *Works and Days* and *Theogony*
+- 672 BCE: Tullus Hostilus becomes the third king of Rome
+- 640 BCE: Ancus Marcius becomes the fourth king of Rome
 - 624 BCE - 546 BCE: Thales of Miletus active, "first scientist" -- searches for an "arche", or natural explanation for natural phenomena
 - 624 BCE - 428 BCE: Ionian philosophers active (Anaximander, Anaximenes, Heraclitus, etc.) -- propose different arche (water, apeiron, air, fire, bundle, etc.)
+- 616 BCE: Lucius Tarquinius Priscus becomes the fifth king of Rome
+- 594 BCE: Solon institutes debt relief in Athens, was popular among the indebted
+- 576 BCE: Servius Tullius becomes the sixth king of Rome
 - 570 BCE - 490 BCE: Pythagoras active
 - 559 BCE - 500 BCE: Persian expansion under Cyrus the Great
 - 546 BCE: Kingdom of Lydia (controls Ionian cities) falls to Persia
+- 534 BCE: Lucius Tarquinius Superbus becomes the seventh king of Rome after killing Servius Tullius
 - 515 BCE - 450 BCE: Parmenides active -- rejects Heraclitus, proposes a static universe
-- 509 BCE: Roman Republic founded after overthrow of Etruscan king
+- 509 BCE: Roman Republic founded after the rape of Lucretia and the revolt against Tarquin the Proud (Lucius Tarquinius Superbus)
+- 508 BCE: Cleisthenes establishes democracy in Athens, giving power to the people
 - 500 BCE: defeat of the king of Rome, oligarchy senate (Roman Republic) established
 - 500 BCE - 428 BCE: Anaxagoras active -- proposes "nous" as the arche
 - 500 BCE: roughly the time Confucius was active
 - 499 BCE - 493 BCE: Ionian Revolt against Persia, crushed
-- 494 BCE: First Secession of the Plebs in Rome, plebeians demand political representation
+- 494 BCE: First Secession of the Plebs in Rome, plebeians demand political representation, establishes the tribunes of the plebs
 - 492 BCE - 449 BCE: Persian Wars; Athens and Sparta defeat Persia
 - 484 BCE - 424 BCE: Empedocles active -- proposes four elements
 - 480 BCE - 420 BCE: Leucippus active -- proposes atomism
 - 480 BCE - 479 BCE: Second Persian invasion of Greece, Athens is burned, but Persians defeated at Salamis
 - 475 BCE - 221 BCE: Warring States Period in China
 - 470 BCE - 399 BCE: Socrates active -- develops dialectic
+- 461 BCE - 429 BCE: Pericles active in the Golden age of Athenian democracy
 - 460 BCE - 370 BCE: Democritus active -- develops atomism
+- 460 BCE: Ephialtes creates "radical democracy" in Athens, e.g. paying juries, sometimes with thousands of people serving on juries
 - 460 BCE - 370 BCE: Hippocrates active -- develops medicine, humor theory
-- 451 - 450 BCE: The Twelve Tables, Roman law code
+- 451 - 450 BCE: The Twelve Tables, Roman law is codified in writing by the decemvirite
+- 449 BCE: the second secession of the Plebs, ends the Decemvirate after the Decemvir attempts to enslave Verginia as his sex slave
+- 445 BCE: the third secession of the Plebs, ends intermarriage prohibition
 - 431 BCE - 404 BCE: Peloponnesian War between Athens and Sparta over hegemony of Greece; results in Athenian defeat
 - 427 BCE - 347 BCE: Plato active -- develops idealism
+- 404 BCE - 403 BCE: the Thirty Tyrants rule Athens, oligarchic government
+- 403 BCE: Athens is returned to nominal democratic rule after the Thirty Tyrants are overthrown
 - 400 BCE: The Mayan numeration system uses dots for 1, bars for 5, and a positional system generally based on 20, as well as a shell symbol for zero
 - 4th century BCE: rise of Asclepian healing temples
 - 4th century BCE: Babylonians put a dot to avoid ambiguity in spacing to represent absent places in their place value system
 - 384 BCE - 322 BCE: Aristotle active -- develops "empiricism"
 - 380 BCE: Plato writes *The Republic*
 - 367 BCE: Lician-Sextian reforms, allowing plebeians to become consuls
+- 347 BCE: Speusippus, Plato's nephew, becomes head of the Academy; modifies the school towards a dogmatically skeptical phase
 - 343 BCE - 290 BCE: Latin and Samnite wars (central Italy)
+- 342 BCE - fourth secession of the Plebs, an obscure military revolt
 - 341 BCE - 270 BCE: Epicurus active -- develops atomism, hedonism
 - 340 BCE: Aristotle writes the *Nicomachean Ethics*
 - 338 BCE: Philip II of Macedon defeats Greece at Chaeronea
@@ -75,30 +90,57 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 300 BCE: Euclid publishes *Elements of Geometry*
 - 3rd century BCE: Archimedes writes *The Sand Reckoner*
 - 287 BCE - 212 BCE: Archimedes active -- develops mathematics, physics
-- 287 BCE: Lex Hortensia, gives decisions of the plebeian council the force of law
+- 287 BCE: the fifth secession of the Plebs, Lex Hortensia, gives decisions of the plebeian council the force of law, gives plebians full equality - makes decisions of the Plebian Council binding on all citizens, ends the struggle of the orders
 - 264 BCE - 146 BCE: Punic Wars between Rome and Carthage
+- 261 BCE: first Punic war, the Romans defeat the Carthiginians
 - 240 BCE: Archimedes shows that $$\pi$$ is between $$3 \frac{10}{71}$$ and $$3 \frac{10}{70}$$.
 - 221 BCE: Qin Dynasty unifies China, starts the Great Wall
+- 218 BCE - 201 BCE: second Punic war, Hannibal gets into Italy but does not defeat Rome, Romans defeat Carthage again and take over their empire
+- 214 BCE - 148 BCE: Rome intervenes in various conflicts between different Greek kingdoms, Rome annexes all of Greece eventually
 - 212 BCE: Rome conquers Syracuse
 - 212 BCE: Archimedes killed by Roman soldier in siege of Syracuse
 - 206 BCE: Han Dynasty in China starts
 - 168 BCE: Roman conquest of Greece
-- 133 BCE - 121 CE: Gracchi Reforms, Tiberius and Gaius attempt law reforms
-- 107 BCE - 78 BCE: Marius and Sulla reform the army and politicla system
+- 155 BCE: Carneades takes over Plato's Academy
+- 146 BCE: Rome concludes the third Punic war, destroying Carthage
+- 133 BCE - 121 CE: Gracchi Reforms, Tiberius and Gaius attempt law reforms - beginning of the Gracchi period
+- 133 BCE: Tiberius Gracchus is assassinated by the Senate for proposing land reforms unpopular with the aristocracy
+- 123 BCE: Gaius Gracchus, younger brother of Tiberius Gracchus, is elected to the tribune of the plebs
+- 121 BCE: Gaius Gracchus is assassinated by the Senate for proposing economic reforms unpopular with the aristocracy; 3000 of his followers are executed; open political violence era
+- 112 BCE - 105 BCE: Jugurthine War, Gaius Marius rises to prominence with the help of Lucius Cornelius Sulla
+- 107 BCE: Gaius Marius is elected consul, begins military reforms
+- 107 BCE - 78 BCE: Marius and Sulla reform the army and political system
+- 106 BCE: Marcus Tullius Cicero is buorn in Arpinum
 - 100 BCE - 44 BCE: Julius Caesar active -- conquers Gaul, civil war, dictator
 - 100 BCE: The Chinese *Nine Chapters on Mathematical Art* is written, containing similar notation for fractions to our contemporary one
 - 99 BCE - 55 BCE: Lucretius active, revives Epicureanism with political dimensions
+- 91 BCE - 87 BCE: Social War between Rome and its Italian allies, who demand Roman citizenship
+- 88 BCE: Sulla becomes consul, commands the Roman army to make war against the Mithradates king of Pontus
+- 88 BCE: Sulla marches his legions on Rome, violating the sacrosanct boundary, proscribes all of his enemies, reorganizes the government, castrates the plebian tribunate, and benefits the optimates
+- 63 BCE: Cicero becomes consul
+- 63 BCE: Octavian / Augustus is born
 - 59 BCE: Florence established by Romans as a colony for veteran soldiers
 - 59 BCE - 44 BCE: Rise of Julius Caesar
+- 59 BCE: Caesar is elected to consul
+- 59 BCE: Roman historian Livy is born
 - 58 - 50 BCE: Caesar conquers Gaul (modern France)
+- 58 BCE: Cicero is exiled by the tribune Clodius Pulcher
+- 57 BCE: Cicero is recalled at the behsest of Pompey
+- 51 - 50 BCE: Cicero serves as governor of Cilicia
 - 50s BCE: Lucretius writes *On the Nature of Things*
-- 49 BCE: Caesar crosses the Rubicon, civil war begins
+- 49 BCE: Pompey orchestrates to deny Caesar the right to run for re-election to the consulship after Caesar wants to run again; Mark Antony vetoes the anti-Caesar measures but is threatened by the Pompeians
+- 49 BCE: Caesar crosses the Rubicon, civil war begins; Cicero sides with the Pompeians; Pompey is defeated in Greece and flees to Egypt; Egypt kills pompey.
 - 47 BCE: Vitruvius writes *On Architecture*
-- 44 BCE: Julius Caesar assassinated
+- 47 BCE: Caesar pardons Cicero
+- 44 BCE: Cicero delivers the 14 *Philippics*, a denunciation against the consul Mark Antony
+- 44 BCE: Julius Caesar assassinated by a conspiracy of 60-70 senators, including Cassius, Brutus' co-leader
+- 43 BCE: Octavian allies with the Senate to defeat Mark Antony at Mutina, then abandons the senate
+- 43 BCE: Cicero is killed by the Second Triumvirate as part of the Second Proscription launched by the Second Triumvirate; more organized than Sulla's proscription
 - 43 BCE: Second Triumvirate formed by Octavian, Antony, Lepidus
-- 31 BCE: Battle of Actium, Octavian defeats Antony and Cleopatra
+- 39 BCE: the Second Triumvirate forms a peace pact with Sextus Pompey in Sicily but then wage war and kill him in 35 BCE
+- 31 BCE: Battle of Actium, Octavian defeats Antony and Cleopatra to become the sole ruler of Rome
 - 27 BCE: Roman Empire established, Augustus (Octavian) becomes first emperor
-- 14 BCE: Tiberius becomes emperor of Roman Empire
+- 14 BCE: Tiberius becomes emperor of Roman Empire after Augustus dies; Tiberius is Augustus' adopted son but chosen last since all other successors died. The Principate is institutionalized with this lineage succession.
 - 1 BCE - 65: Seneca active -- develops Stoicism
 - 0: Jesus of Nazareth born
 - 23 - 79: Pliny the Elder active -- writes *Natural History*, "cut and paste"
@@ -285,10 +327,25 @@ Topics I will be adding soon: Israel/Palestine; revolutions of America, France, 
 - 1770s - 1827: Pierre-Simon Laplace is active, writing extensively on celestial mechanics and probability
 - 1770: Euler demonstrates comfort over dealing with negative quantities, published in *Elements of Algebra*
 - 1775 - 1783: American Revolutionary War
+- 1776: Adam Smith writes *The Wealth of Nations*
 - 1781: Immanuel Kant writes *Critique of Pure Reason*
-- 1789: French Revolution begins, Declaration of the Rights of Man; influences mathematics and education with emphasis on technical education to create a skilled middle class
+- 1787: King Louis XVI convenes the Assembly of Notables to address the financial crisis in France, Charles Alexandre de Calonne proposes a universal land tax but is rejected and Calonne is dismissed. Brienne attempts similar reforms but is also rejected. Parlement claims that only the Estates-General can authorize new taxes
+- 1789 (May 5): The Estates-General Convenes for the first time since 1614; the Third Estate demands double representation and voting by head; the Third Estate declares itself the National Assembly; the deputies convene in a tennis court and take the Tennis Court Oath not to disband until they've written a constitution
+- 1789 (July 11): Jacques Necker is dismissed by King Louis XVI, enraging the Parisian public, leading to the storming of the Bastille on July 14th
+- 1789 (June-July): Louis begins concentrating royal troops around Paris and Versailles to defend against possible grain riots
+- 1789 (July-August): Great Fear, fear in the countryside of aristocratic conspiracy (withholding grain, hoarding grain, starving the revolution, nobles recruited brigands, etc.)  - peasants gather together and arm/defend themselves against brigands, lots of violence on the chateaus, destroying papersand symbols of privilege like windmills and weathervanes
+- 1789 (August 4th): National Assembly adopts the Declaration of the Rights of Man and of the Citizen
+- 1789 (October 5-6): Women march on Versailles, angry over bread shortages, the King is brought back to Paris with the Queen after protesters break into the palace and kill royal guards; the royal family moves to the Tuileries Palace
+- 1789 (October): the Jacobin Club begoins
+- 1789 (November): National Assembly decrees the nationalization of church lands
+- 1790: The English conservative Edmund Burke writes the critical *Reflections on the Revolution in France*
+- 1790 (July 12th): The Civil Constitution of the Clergy is passed by the nAtional Assembly, reorganizing the church under state authority; in November the National Assembly declares all clergy must swear an oath of loyalty to this Civil Constitution
+- 1790 (July 14th): The Festival of Federation held on the first anniversary of the toppling of the Bastille is head in the Champs de Mars, Lousi XVI takes an oath of commitment to the constitution
+- 1791: Olympe de Gouges writes *Declaration of the Rights of Woman and of the Female Citizen*
+- 1971: Pope Pius VI officially condemns the Civil Constitution of the clergy
 - 1791: Catherine the Great establishes the Pale of Settlement in Russia
 - 1791: Enslaved Haitians revolt against French rule
+- 1791 (June 20-21): The Flight to Varennes, King Louis XVI and his family attempt to flee Paris but are caught and returned, leading to the King being seen as a traitor
 - 1792 - 1797: War of the First Coalition (France vs. UK, Austria, Prussia, etc.)
 - 1794: French National Convention abolishes slavery in all French territories
 - 1795: French Academy of Sciences develops the metric system and is adopted, then spread internationally later by the late 19th century
@@ -651,6 +708,7 @@ independence from France
 - 1989: Invasion of Panama by US
 - 1989: George H.W. Bush becomes president of US
 - 1990 - 1991: Gulf War
+- 1991 - Orlando Patterson writes *Freedom in the Making of Western Culture*
 - 1991 - 2002: Algerian Civil War, over 150k killed
 - 1991: The Eritrean Liberation Front defeats Ethiopia, Eritrea becomes independent
 - 1993: Oslo I Accord signed, establishing mutual recognition
