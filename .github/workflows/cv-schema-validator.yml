@@ -1,0 +1,30 @@
+name: Validate CV.yml
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - "_data/cv.yml"
+  pull_request:
+    branches:
+      - master
+      - main
+    paths:
+      - "_data/cv.yml"
+  workflow_dispatch:
+
+jobs:
+  validate_cv:
+    # available images: https://github.com/actions/runner-images#available-images
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v4
+    - name: Validate cv.yml 🧪
+      uses: cardinalby/schema-validator-action@v3
+      with:
+        file: "_data/cv.yml"
+        mode: "lax"
+    
