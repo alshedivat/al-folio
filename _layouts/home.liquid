@@ -114,7 +114,20 @@ document.addEventListener("DOMContentLoaded", function() {
     '/assets/img/homepage/sensei-panama-imageofresearch-1400.webp',
     '/assets/img/homepage/tsoupikovadaria-magazine-240805-1400.webp',
   ];
-  var randomIndex = Math.floor(Math.random() * heroImages.length);
-  document.getElementById("hero-image").src = heroImages[randomIndex];
+
+  var heroImageElement = document.getElementById("hero-image");
+
+  function updateHeroImage() {
+    if (!heroImageElement) return;
+    var randomIndex = Math.floor(Math.random() * heroImages.length);
+    heroImageElement.src = heroImages[randomIndex];
+  }
+
+  // Initial image load
+  updateHeroImage();
+
+  // Change image every 5 minutes (300,000 ms)
+  setInterval(updateHeroImage, 5*60*1000);
+
 });
 </script>
