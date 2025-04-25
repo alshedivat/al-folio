@@ -17,7 +17,7 @@
               src="https://skillicons.dev/icons?i={{ icon.file }}"
             {% endif %}
           {% else %}
-            src="{{ icon.file }}"
+            src="{% if icon.file contains "https://" %}{{ icon.file }}{% else %}{{ icon.file | relative_url }}{% endif %}"
           {% endif %}
           width="auto"
           height="40"

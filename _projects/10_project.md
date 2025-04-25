@@ -1,20 +1,47 @@
 ---
-layout: github-project
-img: /assets/img/prof_pic.jpg
-title: al-folio
+layout: page
+title: project 10
+description: A project with an introduction section
+img: assets/img/5.jpg
+importance: 5
+category: work
+project_intro: true
 icons:
   - file: javascript/javascript-original.svg
     site: devicons
-  - file: html5/html5-original.svg
-    site: devicons
-  - file: sass/sass-original.svg
-    site: devicons
-  - file: https://sissel.gallerycdn.vsassets.io/extensions/sissel/shopify-liquid/4.0.1/1699358936199/Microsoft.VisualStudio.Services.Icons.Default
+  - file: processing
+    site: skillicons
+  - file: https://www.espressif.com/sites/all/themes/espressif/images/logo-guidelines/primary-vertical-logo.png
 repository:
   - alshedivat/al-folio
-description: >
-  A portfolio website template made using Jekyll
-project_intro: true
 ---
 
-Project explanation, refrences etc.
+# Project Intros
+
+A simple way to efficiently display your github project, or any other project as well!
+
+To add a project intro just set `project_intro` to `true` in the front matter. Also add icons to display the tech-stacks used in the project. Finally add relevant repositories to be displayed right below the intro.
+
+    ---
+    project_intro: true
+    icons:
+      - file: javascript/javascript-original.svg
+    	  site: devicons
+      - file: processing
+    	  site: skillicons
+      - file: https://www.espressif.com/sites/all/themes/espressif/images/logo-guidelines/primary-vertical-logo.png
+    repository:
+      - alshedivat/al-folio
+    ---
+
+# Icons
+
+Adding more icons is very simple. `icon` is a list, and each item on the list has a `file` and a `site`. The `file` is the icon file which will be displayed, `site` is the directory from where this file will be displayed.
+
+However, using `site` is optional. If the item doesn't contain a value for site, al-folio will automatically detect and decide whether the link is an absolute URL to some icon on a different website, or a relative URL to an image inside the repository.
+
+# Repository
+
+`repository` is also a list of all the repositories that can be displayed. Each item needs to be written in the following format: `owner/repository`.
+
+After this, al-folio will automatically generate a card with the proper theme. It will also create a link that will redirect viewers to the repository whenever they click the card.
