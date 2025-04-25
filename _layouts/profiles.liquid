@@ -78,6 +78,9 @@ layout: page
                       {% endif %}
                     </span>
                   </strong><br>
+	          {% if profile.dirTitle %}
+		     {{ profile.dirTitle }}<br>
+		  {% endif %}
                   {{ profile.department }}
                 </div>
               {% endfor %}
