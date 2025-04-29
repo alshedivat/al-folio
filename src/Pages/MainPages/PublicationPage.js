@@ -4,6 +4,7 @@ import { Footer } from "../../Components/Footer/footer";
 import { SegmentedControl } from "../../Components/SegmentedButton/segmentedbutton";
 import bibdata from "../../Data/bib.json";
 import peopleData from "../../Data/people.json";
+import { Link } from "react-router-dom";
 
 export const PublicationPage = (props) => {
   const element = useCallback((node) => {
@@ -107,7 +108,7 @@ export const PublicationPage = (props) => {
 
   function getYear(currentbib) {
     let newYearList = [];
-    for (let i = 0; i < currentbib.length; i++) {
+    for (let i = 0; i <currentbib.length; i++) {
       if (currentbib[i].year && !newYearList.includes(currentbib[i].year)) {
         newYearList = [...newYearList, currentbib[i].year];
       }
@@ -237,6 +238,24 @@ export const PublicationPage = (props) => {
                       </div>
                       <div ref={element} className="others">
                         <div className="venue">{bib.venue}</div>
+                        {bib.award && (
+                          <span style={{
+                              backgroundColor: '#FFEB3B', /* badge background color */
+                              borderRadius: '9999px', /* fully rounded container */
+                              padding: '1px 8px', /* smaller vertical/horizontal padding */
+                              marginLeft: '4px', /* reduced space from title */
+                              fontSize: '0.7em', /* smaller font size */
+                              fontWeight: 'bold', /* bold text for emphasis */
+                              display: 'inline-block' /* inline-block for positioning */
+                            }}>
+                            🏆 {bib.award}
+                          </span>
+                        )}
+                        {bib.web && (
+                          <div className="other">
+                            &nbsp; • &nbsp;<Link to={`/publication/${bib.pdf}`}>WEB</Link>
+                          </div>
+                        )}
                         {bib.pdf ? (
                           <div className="other">
                             &nbsp; • &nbsp;
