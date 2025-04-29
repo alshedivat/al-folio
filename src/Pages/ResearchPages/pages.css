@@ -5,31 +5,121 @@
 
 /* Publication title styling */
 .publication-title {
-  font-family: "montserrat-Extrabold";
+  /* Font family for the publication title - using Montserrat Bold for strong visual presence */
+  font-family: "montserrat-bold";
+  /* Using flex display for better control of the element */
   display: flex;
+  /* Setting width to 100% to span the full container width */
   width: 100%;
-  justify-content: center;
+  /* Changed from center to flex-start to left-align the content */
+  justify-content: flex-start;
+  /* Font size set to 28px for good readability on mobile devices */
   font-size: 28px;
-  text-align: center;
-  margin-bottom: 24px;
+  /* Changed from center to left for text alignment */
+  text-align: left;
+  /* Reduced bottom margin to bring title and subtitle closer together */
+  margin-bottom: 8px;
+  /* Initial opacity set to 0 for fade-in animation */
   opacity: 0;
+  /* Initial transform for slide-up animation */
   transform: translate(0, 50%);
+  /* Transition duration for smooth animation */
   transition: 0.6s;
+  /* Using theme color variable for consistent branding */
   color: var(--theme-color);
+  /* Line height for better readability with multi-line titles */
   line-height: 1.3;
 }
 
 .publication-title.animation {
+  /* Animation state for the publication title - full opacity and no transform */
   opacity: 1;
+  /* Reset the transform to show the element in its final position */
+  transform: translate(0, 0);
+}
+
+/* Publication subtitle styling */
+.publication-subtitle {
+  /* Font family for the publication subtitle - changed to match the title font (Montserrat ExtraBold) */
+  font-family: "montserrat-medium";
+  /* Using flex display for better control of the element */
+  display: flex;
+  /* Setting width to 100% to span the full container width */
+  width: 100%;
+  /* Left-align the content */
+  justify-content: flex-start;
+  /* Font size smaller than the title for visual hierarchy */
+  font-size: 20px;
+  /* Left text alignment */
+  text-align: left;
+  /* Adding bottom margin for spacing between subtitle and metadata */
+  margin-bottom: 16px;
+  /* Initial opacity set to 0 for fade-in animation */
+  opacity: 0;
+  /* Initial transform for slide-up animation */
+  transform: translate(0, 16px);
+  /* Transition duration for smooth animation */
+  transition: 0.6s;
+  /* Slight delay after the title animation */
+  transition-delay: 0.1s;
+  /* Using a slightly lighter color than the title for visual hierarchy */
+  color: var(--theme-color);
+  /* Line height for better readability with multi-line subtitles */
+  line-height: 1.3;
+}
+
+.publication-subtitle.animation {
+  /* Animation state for the publication subtitle - full opacity and no transform */
+  opacity: 1;
+  /* Reset the transform to show the element in its final position */
+  transform: translate(0, 0);
+}
+
+/* Publication venue at the top styling */
+.publication-venue {
+  /* Font family for the venue information */
+  font-family: "montserrat-bold";
+  /* Using flex display for better control of the element */
+  display: flex;
+  /* Setting width to 100% to span the full container width */
+  width: 100%;
+  /* Left-align the content */
+  justify-content: flex-start;
+  /* Increased font size for better visibility */
+  font-size: 18px;
+  /* Left text alignment */
+  text-align: left;
+  /* Adding bottom margin for spacing between venue and title */
+  margin-bottom: 12px;
+  /* Initial opacity set to 0 for fade-in animation */
+  opacity: 0;
+  /* Initial transform for slide-up animation */
+  transform: translate(0, 16px);
+  /* Transition duration for smooth animation */
+  transition: 0.6s;
+  /* Setting text color to black as requested */
+  color: #000000;
+  /* Line height for better readability */
+  line-height: 1.2;
+}
+
+.publication-venue.animation {
+  /* Animation state for the venue - full opacity and no transform */
+  opacity: 1;
+  /* Reset the transform to show the element in its final position */
   transform: translate(0, 0);
 }
 
 /* Publication metadata styling */
 .publication-meta {
+  /* Using flex display with column direction for stacking author information */
   display: flex;
+  /* Setting flex direction to column to stack child elements vertically */
   flex-direction: column;
+  /* Adding bottom margin for spacing between metadata and next element */
   margin-bottom: 32px;
-  text-align: center;
+  /* Changed from center to left for text alignment to match the title */
+  text-align: left;
 }
 
 .publication-authors {
@@ -42,21 +132,6 @@
 }
 
 .publication-authors.animation {
-  opacity: 1;
-  transform: translate(0, 0);
-}
-
-.publication-venue {
-  color: #666;
-  font-size: 14px;
-  font-style: italic;
-  opacity: 0;
-  transform: translate(0, 16px);
-  transition: 0.6s;
-  transition-delay: 0.2s;
-}
-
-.publication-venue.animation {
   opacity: 1;
   transform: translate(0, 0);
 }
@@ -94,12 +169,19 @@
 
 /* Publication links */
 .publication-links {
+  /* Using flex display for button positioning */
   display: flex;
-  justify-content: center;
+  /* Changed from center to flex-start to left-align the links */
+  justify-content: flex-start;
+  /* Adding bottom margin for spacing between links and next element */
   margin-bottom: 40px;
+  /* Initial opacity set to 0 for fade-in animation */
   opacity: 0;
+  /* Initial transform for slide-up animation */
   transform: translate(0, 16px);
+  /* Transition duration for smooth animation */
   transition: 0.6s;
+  /* Delay for sequential animation after other elements */
   transition-delay: 0.5s;
 }
 
@@ -133,50 +215,93 @@
 
 /* Responsive styles */
 @media (min-width: 800px) {
+  /* Container width for medium screens */
   .page {
+    /* Increased width for better readability on medium screens */
     width: 720px;
   }
   
+  /* Responsive title size for medium screens */
   .publication-title {
+    /* Larger font size for better visibility on medium screens */
     font-size: 32px;
   }
   
+  /* Responsive subtitle size for medium screens */
+  .publication-subtitle {
+    /* Adjusted font size for subtitle on medium screens */
+    font-size: 24px;
+    /* Increased bottom margin for better spacing */
+    margin-bottom: 28px;
+  }
+  
+  /* Adjusted metadata spacing for medium screens */
   .publication-meta {
+    /* Increased bottom margin for better spacing between elements */
     margin-bottom: 40px;
   }
   
+  /* Responsive author text size for medium screens */
   .publication-authors {
+    /* Increased font size for better readability */
     font-size: 18px;
   }
   
+  /* Responsive venue text size for medium screens */
   .publication-venue {
-    font-size: 16px;
+    /* Increased font size for better readability on medium screens */
+    font-size: 22px;
+    /* Increased bottom margin for better spacing on larger screens */
+    margin-bottom: 14px;
   }
   
+  /* Responsive description text size and spacing for medium screens */
   .research_description {
+    /* Increased font size for better readability */
     font-size: 16px;
+    /* Increased bottom margin for better spacing */
     margin-bottom: 40px;
   }
 }
 
 @media (min-width: 1200px) {
+  /* Container width for large screens */
   .page {
+    /* Increased width for optimal readability on large screens */
     width: 960px;
   }
   
+  /* Responsive title size for large screens */
   .publication-title {
+    /* Larger font size for better visibility on large screens */
     font-size: 36px;
   }
   
+  /* Responsive subtitle size for large screens */
+  .publication-subtitle {
+    /* Adjusted font size for subtitle on large screens */
+    font-size: 26px;
+    /* Increased bottom margin for better spacing */
+    margin-bottom: 32px;
+  }
+  
+  /* Responsive banner size and positioning for large screens */
   .research_banner {
+    /* Maximum width to prevent the image from becoming too large */
     max-width: 800px;
+    /* Center the banner horizontally */
     margin-left: auto;
+    /* Center the banner horizontally */
     margin-right: auto;
   }
   
+  /* Responsive description width and positioning for large screens */
   .research_description {
+    /* Maximum width for optimal readability */
     max-width: 800px;
+    /* Center the description horizontally */
     margin-left: auto;
+    /* Center the description horizontally */
     margin-right: auto;
   }
 }

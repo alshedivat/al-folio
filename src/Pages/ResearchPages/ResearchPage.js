@@ -57,31 +57,34 @@ export const ResearchPage = () => {
                     <div className="loading">Loading...</div>
                 ) : publication ? (
                     <>
-                        <div ref={element} className='publication-title'>{publication.title}</div>
+                        {/* Display publication venue above the title */}
+                        <div ref={element} className='publication-venue'>
+                            {/* Display venue and year */}
+                            {publication.venue}
+                        </div>
+                        
+                        {/* Check if the publication title contains a colon */}
+                        {publication.title.includes(':') ? (
+                            <>
+                                {/* If title has colon, split it and display the first part as title */}
+                                <div ref={element} className='publication-title'>
+                                    {/* Extract the part before the colon */}
+                                    {publication.title.split(':')[0]}
+                                </div>
+                                {/* Display the part after the colon as subtitle */}
+                                <div ref={element} className='publication-subtitle'>
+                                    {/* Extract the part after the colon and trim any leading whitespace */}
+                                    {publication.title.split(':')[1].trim()}
+                                </div>
+                            </>
+                        ) : (
+                            /* If no colon in title, display the entire title as subtitle */
+                            <div ref={element} className='publication-subtitle'>{publication.title}</div>
+                        )}
                         <div ref={element} className='publication-meta'>
+                            {/* Display only authors in the metadata section */}
                             <div className='publication-authors'>{publication.author}</div>
-                            <div className='publication-venue'>{publication.venue} ({publication.year})</div>
                         </div>
-                        {publication.pdf && (
-                            <img 
-                                ref={element} 
-                                className='research_banner' 
-                                src={`/images/publications/${publication.pdf}.png`} 
-                                alt={publication.title}
-                            />
-                        )}
-                        <div ref={element} className='research_description'>
-                            {/* Publication abstract or description would go here */}
-                            This publication explores innovative approaches in the field 
-                            of {publication.field?.join(', ')}.
-                        </div>
-                        {publication.doi && (
-                            <div ref={element} className='publication-links'>
-                                <a href={publication.doi} target="_blank" rel="noopener noreferrer">
-                                    View Publication
-                                </a>
-                            </div>
-                        )}
                     </>
                 ) : (
                     <div className="not-found">Publication not found</div>
