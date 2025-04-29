@@ -12,6 +12,7 @@ import { HealthPage } from "./Pages/ProjectPages/HealthPage";
 import { AIPage } from "./Pages/ProjectPages/AIPage";
 import { InclusivePage } from "./Pages/ProjectPages/InclusivePage";
 import { DataPage } from "./Pages/ProjectPages/DataPage";
+import { ResearchPage } from "./Pages/ResearchPages/ResearchPage";
 
 // Import the ScrollToTop component
 import ScrollToTop from "./Util/ScrollToTop";
@@ -28,6 +29,7 @@ function App() {
           <Route path="/people" element={<PeoplePage />} />
           <Route path="/project" element={<ProjectPage />} />
           <Route path="/publication" element={<PublicationPage />} />
+          <Route path="/publication/:id" element={<ResearchPage />} />
           <Route path="/course" element={<CoursePage />} />
           <Route path="/project/health" element={<HealthPage />} />
           <Route path="/project/ai" element={<AIPage />} />

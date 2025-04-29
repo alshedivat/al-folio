@@ -30,8 +30,8 @@
     "year": 2025,
     "field": ["hai", "inclusive"],
     "type": "conference",
-    "pdf": "",
-    "doi": "",
+    "pdf": "dasom2025",
+    "doi": "https://dl.acm.org/doi/10.1145/3706598.3713792",
     "bibtex": "",
     "recording": ""
   },
