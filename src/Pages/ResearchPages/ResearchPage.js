@@ -61,7 +61,7 @@ export const ResearchPage = () => {
             <div className='page'>
                 {loading ? (
                     <div className="loading">Loading...</div>
-                ) : publication ? (
+                ) : publication && publication.web ? (
                     <>
                         {/* Display publication venue above the title */}
                         <div ref={element} className='publication-venue'>
@@ -190,7 +190,7 @@ export const ResearchPage = () => {
                         </div>
 
                         {/* Horizontal line */}
-                        <img class="line animation" src='/icons/line.svg' alt="line" />
+                        <img className="animation" src='/icons/line.svg' alt="line" />
                     </>
                 ) : (
                     /* Display the 404 NotFound component when publication is not found */
