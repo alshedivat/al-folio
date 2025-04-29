@@ -3,7 +3,12 @@ import { useParams } from 'react-router-dom';
 import { Navbar } from '../../Components/Navbar/navbar';
 import { Footer } from '../../Components/Footer/footer';
 import { NotFound } from '../../Components/NotFound/NotFound';
+
+// Import data sources
 import publicationData from '../../Data/bib.json';
+import peopleData from '../../Data/people.json';
+
+// Import styles
 import './pages.css';
 
 export const ResearchPage = () => {
@@ -82,10 +87,110 @@ export const ResearchPage = () => {
                             /* If no colon in title, display the entire title as subtitle */
                             <div ref={element} className='publication-subtitle'>{publication.title}</div>
                         )}
-                        <div ref={element} className='publication-meta'>
-                            {/* Display only authors in the metadata section */}
-                            <div className='publication-authors'>{publication.author}</div>
+                        {/* Author profiles with circular images */}
+                        <div ref={element} className='author-profiles-container'>
+                            {/* Group authors into rows of maximum 5 */}
+                            {(() => {
+                                // Split author names by comma
+                                const authors = publication.author.split(', ');
+                                // Calculate number of authors per row (max 5)
+                                const authorsPerRow = Math.min(5, authors.length);
+                                // Calculate number of rows needed
+                                const numRows = Math.ceil(authors.length / authorsPerRow);
+                                // Create an array of rows
+                                const rows = [];
+                                
+                                // Distribute authors into rows
+                                for (let i = 0; i < numRows; i++) {
+                                    // Get authors for this row (up to authorsPerRow)
+                                    const rowAuthors = authors.slice(i * authorsPerRow, (i + 1) * authorsPerRow);
+                                    // Add row to rows array
+                                    rows.push(rowAuthors);
+                                }
+                                
+                                // Return the JSX for all rows
+                                return rows.map((row, rowIndex) => {
+                                    // Calculate width percentage for each author in this row
+                                    // Each author in a row will take an equal proportion of the available width
+                                    const widthPercent = 100 / row.length;
+                                    
+                                    return (
+                                        // Create a row container
+                                        <div key={`row-${rowIndex}`} className='author-row'>
+                                            {/* Map each author in the row to a profile */}
+                                            {row.map((authorName, authorIndex) => {
+                                                // Calculate the global author index for affiliation
+                                                const globalAuthorIndex = rowIndex * authorsPerRow + authorIndex;
+                                                
+                                                // Check if the author is in the people.json file
+                                                const labMember = peopleData.find(person => person.name === authorName);
+                                                
+                                                // Get the author's affiliation if available
+                                                // Split affiliations by comma to match with authors
+                                                const authorAffiliation = publication.affiliation ? 
+                                                    publication.affiliation.split(', ')[globalAuthorIndex] : null;
+                                                
+                                                // Return the author profile with dynamic width based on number of authors in row
+                                                return (
+                                                    <div 
+                                                        key={`author-${rowIndex}-${authorIndex}`} 
+                                                        className='author-profile'
+                                                        style={{ width: `${widthPercent}%` }}
+                                                    >
+                                                        {/* Profile content wrapper for better alignment */}
+                                                        <div className='profile-content'>
+                                                            {/* Circular image container */}
+                                                            <div className='author-image-container'>
+                                                                {/* Use lab member image if available, otherwise use placeholder */}
+                                                                <img 
+                                                                    className='author-image'
+                                                                    src={labMember 
+                                                                        ? `/images/people/${labMember.image}` 
+                                                                        : '/images/people/human-placeholder.png'}
+                                                                    alt={authorName}
+                                                                />
+                                                            </div>
+                                                            
+                                                            {/* Author details container */}
+                                                            <div className='author-details'>
+                                                                {/* Author name with special formatting for lab members */}
+                                                                <div className={`author-name ${labMember ? 'lab-member' : ''}`}>
+                                                                    {authorName}
+                                                                </div>
+                                                                
+                                                                {/* Author affiliation if available */}
+                                                                {authorAffiliation && (
+                                                                    <div className='author-affiliation'>
+                                                                        {authorAffiliation}
+                                                                    </div>
+                                                                )}
+                                                                
+                                                                {/* Homepage link for lab members */}
+                                                                {labMember && labMember.homepage && labMember.homepage !== '' && (
+                                                                    <div className='author-homepage'>
+                                                                        <a href={labMember.homepage} target='_blank' rel='noopener noreferrer'>
+                                                                            <img 
+                                                                                className='homepage-icon'
+                                                                                src='/icons/home.svg'
+                                                                                alt='Homepage'
+                                                                            />
+                                                                        </a>
+                                                                    </div>
+                                                                )}
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                );
+                                            })}
+                                        </div>
+                                    );
+                                });
+                            })()}
+                            
                         </div>
+
+                        {/* Horizontal line */}
+                        <img class="line animation" src='/icons/line.svg' alt="line" />
                     </>
                 ) : (
                     /* Display the 404 NotFound component when publication is not found */

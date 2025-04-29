@@ -2,14 +2,18 @@
   {
     "title": "",
     "author": "",
+    "affiliation": "",
     "venue": "",
+    "award": "",
     "year": 0,
     "field": [""],
     "type": "",
     "pdf": "",
     "doi": "",
     "bibtex": "",
-    "recording": ""
+    "recording": "",
+    "abstract": "",
+    "web": false
   },
   {
     "title": "Thinking Outside the Data Box: Investigating the Potential of Data Manipulation for Self-Reflection on Personal Data",
@@ -26,14 +30,18 @@
   {
     "title": "AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation",
     "author": "Dasom Choi, SoHyun Park, Kyungah Lee, Hwajung Hong, Young-Ho Kim",
-    "venue": "CHI 2025",
+    "affiliation": "KAIST, NAVER Cloud, Dodakim Child Development Center, KAIST, NAVER AI Lab",
     "year": 2025,
+    "venue": "CHI 2025",
+    "award": "Best Paper Award",
     "field": ["hai", "inclusive"],
     "type": "conference",
     "pdf": "dasom2025",
     "doi": "https://dl.acm.org/doi/10.1145/3706598.3713792",
-    "bibtex": "",
-    "recording": ""
+    "bibtex": "dasom2025",
+    "recording": "",
+    "abstract": "As minimally verbal autistic (MVA) children communicate with parents through few words and nonverbal cues, parents often struggle to encourage their children to express subtle emotions and needs and to grasp their nuanced signals. We present AACessTalk, a tablet-based, AI-mediated communication system that facilitates meaningful exchanges between an MVA child and a parent. AACessTalk provides real-time guides to the parent to engage the child in conversation and, in turn, recommends contextual vocabulary cards to the child. Through a two-week deployment study with 11 MVA child-parent dyads, we examine how AACessTalk fosters everyday conversation practice and mutual engagement. Our findings show high engagement from all dyads, leading to increased frequency of conversation and turn-taking. AACessTalk also encouraged parents to explore their own interaction strategies and empowered the children to have more agency in communication. We discuss the implications of designing technologies for balanced communication dynamics in parent-MVA child interaction.",
+    "web": true
   },
   {
     "title": "Exploring Design Spaces to Facilitate Household Collaboration for Cohabiting Couples",
