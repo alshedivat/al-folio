@@ -12,4 +12,4 @@ During my internship, I delved into the rapidly evolving field of SMT solving, a
 
 CHCs play an important role in mapping essential programming constructs, such as loops and recursion, so Golem's successful generation of Alethe proofs is what I consider a critical step in enhancing the reliability and trustworthiness of software verification processes.
 
-The code I worked on can be found [here](https://github.com/m4mbo/alethe-golem).
+The code I worked on can be found [here](https://github.com/mbaranr/alethe-golem).

@@ -18,7 +18,7 @@ I created art and can't even draw a straight line! The following projects were a
 
 ### Simpson face generation
 
-Generative Adversarial Networks for the task of generating simpson faces. The code can be found [here](https://github.com/m4mbo/simpsons-gan).
+Generative Adversarial Networks for the task of generating simpson faces. The code can be found [here](https://github.com/mbaranr/simpsons-gan).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -163,7 +163,7 @@ class Discriminator(nn.Module):
 
 Two approaches to the coulourization task of CIFAR10 images: Auto Encoder U-Net and Conditional GANs. Over the last decade, the process of automatic colorization had been studied thoroughly due to its vast application such as colourization of grayscale images and restoration of aged and/or degraded images. This problem is highly ill-posed due to the extremely large degrees of freedom during the assignment of color information. In this approach, I attempted to fully generalize this procedure using a conditional Deep Convolutional Generative Adversarial Network (DCGAN). The network is trained over a dataset that is publicly available, CIFAR10.
 
-The code can be found [here](https://github.com/m4mbo/recolor-cifar10).
+The code can be found [here](https://github.com/mbaranr/recolor-cifar10).
 
 #### DCGAN
 
@@ -209,7 +209,7 @@ The code can be found [here](https://github.com/m4mbo/recolor-cifar10).
 
 Supervised machine learning is a widely used form of artificial intelligence. There are plenty of ways to approach supervised learning: Some of them being Neural Networks, Convolutional Neural Networks and Residual Networks. I developed an in depth analysis of the difference between these on the CIFAR10 dataset using Jupyter Notebooks and Pytorch.
 
-The code can be found [here](https://github.com/m4mbo/supervised-cifar10).
+The code can be found [here](https://github.com/mbaranr/supervised-cifar10).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -221,7 +221,7 @@ The code can be found [here](https://github.com/m4mbo/supervised-cifar10).
 
 I worked on the waste classification task for a joint project between Lancaster University campuses in Leipzig (Germany) and Bailrigg (England). A pretrained residual network (ResNet50) was used on a curated dataset. 
 
-The dataset can be downloaded [here](https://www.dropbox.com/scl/fi/2cj0e81iuq9tk5y9bx06v/dataset.zip?rlkey=bd5icdcy1cd6okra36cy1fzvi&st=zmtqsghl&dl=0) and the code can be found [here](https://github.com/m4mbo/waste-sorter).
+The dataset can be downloaded [here](https://www.dropbox.com/scl/fi/2cj0e81iuq9tk5y9bx06v/dataset.zip?rlkey=bd5icdcy1cd6okra36cy1fzvi&st=zmtqsghl&dl=0) and the code can be found [here](https://github.com/mbaranr/waste-sorter).
 
 #### Results
 
