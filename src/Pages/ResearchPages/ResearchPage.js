@@ -2,6 +2,7 @@ import React, { useCallback, useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Navbar } from '../../Components/Navbar/navbar';
 import { Footer } from '../../Components/Footer/footer';
+import { NotFound } from '../../Components/NotFound/NotFound';
 import publicationData from '../../Data/bib.json';
 import './pages.css';
 
@@ -87,7 +88,8 @@ export const ResearchPage = () => {
                         </div>
                     </>
                 ) : (
-                    <div className="not-found">Publication not found</div>
+                    /* Display the 404 NotFound component when publication is not found */
+                    <NotFound />
                 )}
             </div>
             <Footer/>

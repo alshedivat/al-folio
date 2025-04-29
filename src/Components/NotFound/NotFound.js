@@ -7,7 +7,7 @@ import './NotFound.css';
  * @returns {JSX.Element} The rendered NotFound component
  */
 export const NotFound = () => {
-    // Return the JSX for the 404 error page
+    // Return the JSX for the 404 error page with a container, error code, message, description, and a link to return to the home page
     return (
         <div className="not-found-container">
             {/* Error code displayed prominently */}
