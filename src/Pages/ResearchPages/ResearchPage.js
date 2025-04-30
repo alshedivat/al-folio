@@ -277,8 +277,8 @@ export const ResearchPage = () => {
             {/* If there is a video, display the video player centered below the line */}
             {publication.video && publication.video !== "" && (
               <>
-                <div className="responsive-video-container">
-                  {/* Responsive video player: width 100%, max-width 800px, always centered */}
+                <div ref={element} className="responsive-video-container">
+                  {/* Responsive video player: width 100%, always centered */}
                   <video
                     className="responsive-video"
                     controls
@@ -317,7 +317,7 @@ export const ResearchPage = () => {
 
             {publication.bibtex && (
               <>
-                <div ref={element} className="section-container">
+                <div ref={element} className="section-container animation">
                   {/* Section title for the bibtex citation, styled to match publication-title */}
                   <div ref={element} className="section-title">
                     Cite This Work

@@ -846,12 +846,23 @@
   vertical-align: middle;
 }
 
+/* Responsive video container: 중앙 정렬 및 애니메이션 효과 */
 .responsive-video-container {
   /* Use flex to center the video horizontally */
   display: flex;
   justify-content: center;
   /* Add vertical margin for spacing */
   margin: 32px 0;
+  /* --- 애니메이션 효과 추가: 주요 요소와 동일하게 --- */
+  opacity: 0; /* 처음엔 투명하게 */
+  transform: translate(0, 32px); /* 아래에서 올라오게 */
+  transition: 0.6s; /* 부드러운 전환 */
+}
+
+.responsive-video-container.animation {
+  /* 애니메이션이 활성화되면 완전히 보이고 원래 위치로 */
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 .responsive-video {
@@ -993,6 +1004,17 @@ img[src$="/icons/line.svg"] {
   padding-right: 12px;
   /* Use border-box to include padding in width calculation */
   box-sizing: border-box;
+  /* --- 애니메이션 효과 추가: 다른 주요 요소와 동일하게 --- */
+  opacity: 0; /* 처음엔 투명하게 */
+  transform: translate(0, 32px); /* 아래에서 올라오게 */
+  transition: 0.6s; /* 부드러운 전환 */
+  /* 필요시 delay 조정 가능 */
+}
+
+.section-container.animation {
+  /* 애니메이션이 활성화되면 완전히 보이고 원래 위치로 */
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
 @media (max-width: 480px) {
@@ -1048,7 +1070,6 @@ img[src$="/icons/line.svg"] {
     font-size: 13px;
     padding: 12px 6px;
     border-radius: 6px;
-    max-height: 200px;
   }
 }
 
