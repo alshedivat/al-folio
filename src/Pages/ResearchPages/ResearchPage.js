@@ -221,6 +221,29 @@ export const ResearchPage = () => {
 
             {/* Horizontal line */}
             <img className="animation" src="/icons/line.svg" alt="line" />
+
+            {/* If there is a video, display the video player centered below the line */}
+            {publication.video && publication.video !== "" && (
+              <div className="responsive-video-container">
+                {/* Responsive video player: width 100%, max-width 800px, always centered */}
+                <video
+                  className="responsive-video"
+                  controls
+                  poster="/icons/video-placeholder.svg"
+                >
+                  <source
+                    src={`/videos/${publication.video}.mp4`}
+                    type="video/mp4"
+                  />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            )}
+
+            {/* Add another horizontal line below the video if video exists */}
+            {publication.video && publication.video !== "" && (
+              <img className="animation" src="/icons/line.svg" alt="line" />
+            )}
           </>
         ) : (
           /* Display the 404 NotFound component when publication is not found */

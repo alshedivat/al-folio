@@ -821,3 +821,45 @@
   /* Align vertically with text */
   vertical-align: middle;
 }
+
+.responsive-video-container {
+  /* Use flex to center the video horizontally */
+  display: flex;
+  justify-content: center;
+  /* Add vertical margin for spacing */
+  margin: 32px 0;
+}
+
+.responsive-video {
+  /* Make video take full width of its container */
+  width: 100%;
+  /* Limit the maximum width for large screens */
+  max-width: 800px;
+  /* Maintain aspect ratio */
+  height: auto;
+  /* Rounded corners for modern look */
+  border-radius: 12px;
+  /* Subtle shadow for depth */
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  /* Black background for letterboxing */
+  background: #000;
+}
+
+@media (max-width: 900px) {
+  .responsive-video {
+    max-width: 100vw;
+  }
+  .responsive-video-container {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .responsive-video {
+    max-width: 100vw;
+    border-radius: 8px;
+  }
+  .responsive-video-container {
+    margin: 12px 0;
+  }
+}
