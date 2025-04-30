@@ -12,6 +12,7 @@
     "doi": "",
     "bibtex": "",
     "recording": "",
+    "video": "",
     "abstract": "",
     "web": false
   },
@@ -25,7 +26,8 @@
     "pdf": "",
     "doi": "",
     "bibtex": "",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation",
@@ -40,6 +42,7 @@
     "doi": "https://dl.acm.org/doi/10.1145/3706598.3713792",
     "bibtex": "dasom2025",
     "recording": "",
+    "video": "dasom2025",
     "abstract": "As minimally verbal autistic (MVA) children communicate with parents through few words and nonverbal cues, parents often struggle to encourage their children to express subtle emotions and needs and to grasp their nuanced signals. We present AACessTalk, a tablet-based, AI-mediated communication system that facilitates meaningful exchanges between an MVA child and a parent. AACessTalk provides real-time guides to the parent to engage the child in conversation and, in turn, recommends contextual vocabulary cards to the child. Through a two-week deployment study with 11 MVA child-parent dyads, we examine how AACessTalk fosters everyday conversation practice and mutual engagement. Our findings show high engagement from all dyads, leading to increased frequency of conversation and turn-taking. AACessTalk also encouraged parents to explore their own interaction strategies and empowered the children to have more agency in communication. We discuss the implications of designing technologies for balanced communication dynamics in parent-MVA child interaction.",
     "web": true
   },
@@ -50,10 +53,13 @@
     "year": 2025,
     "field": ["health"],
     "type": "conference",
-    "pdf": "",
+    "pdf": "gahyeon2025",
     "doi": "",
     "bibtex": "",
-    "recording": ""
+    "recording": "",
+    "video": "",
+    "abstract": "Household collaboration among cohabiting couples presents unique challenges due to the intimate nature of the relationships and the lack of external rewards. Current efficiency-oriented technologies neglect these distinct dynamics. Our study aims to examine the real-world context and underlying needs of couples in their collaborative homemaking. We conducted a 10-day empirical investigation involving six Korean couples, supplemented by a probe approach to facilitate reflection on their current homemaking practices. We identified the requirement for ideal household collaboration as a ’shared ritual for celebratory interaction’ and pinpointed the challenges in achieving this goal. We propose three design opportunities for domestic technology to address this gap: strengthening the meaning of housework around family values, supporting recognition of the partner’s efforts through visualization, and initiating negotiation through defamiliarization. These insights extend the design considerations for domestic technologies, advocating for a broader understanding of the values contributing to satisfactory homemaking activities within the household.",
+    "web": true
   },
   {
     "title": "Peerspective: A Study on Reciprocal Tracking for Self-awareness and Relational Insight",
@@ -65,7 +71,8 @@
     "pdf": "",
     "doi": "",
     "bibtex": "",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Automatically Evaluating the Paper Reviewing Capability of Large Language Models",
@@ -77,7 +84,8 @@
     "pdf": "hyungyu2025",
     "doi": "https://arxiv.org/abs/2502.17086",
     "bibtex": "hyungyu2025",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Identify Design Problems Through Questioning: Exploring Role-playing Interactions with Large Language Models to Foster Design Questioning Skills",
@@ -89,7 +97,8 @@
     "pdf": "hyunseung2024cscw",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3678884.3681912",
     "bibtex": "hyunseung2024cscw",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Beyond Swipes and Scores: Investigating Practices, Challenges and User-Centered Values in Online Dating Algorithms",
@@ -101,7 +110,8 @@
     "pdf": "chowon2024",
     "doi": "https://dl.acm.org/doi/10.1145/3687025",
     "bibtex": "chowon2024",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Co-Creating Question-and-Answer Style Articles with Large Language Models for Research Promotion",
@@ -113,7 +123,8 @@
     "pdf": "hyunseung2024",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3643834.3660705",
     "bibtex": "hyunseung2024",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling",
@@ -125,7 +136,8 @@
     "pdf": "taewan2024mindfuldiary",
     "doi": "https://dl.acm.org/doi/full/10.1145/3613904.3642937",
     "bibtex": "taewan2024mindfuldiary",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "DiaryMate: Understanding User Perceptions and Experience in Human-AI Collaboration for Personal Journaling",
@@ -137,7 +149,8 @@
     "pdf": "taewan2024diarymate",
     "doi": "https://dl.acm.org/doi/full/10.1145/3613904.3642693",
     "bibtex": "taewan2024diarymate",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Unlock Life with a Chat(GPT): Integrating Conversational AI with Large Language Models into Everyday Lives of Autistic Individuals",
@@ -149,7 +162,8 @@
     "pdf": "dasom2024",
     "doi": "https://dl.acm.org/doi/pdf/10.1145/3613904.3641989",
     "bibtex": "dasom2024",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Narrating Routines through Game Dynamics: Impact of a Gamified Routine Management App for Autistic Individuals",
@@ -161,7 +175,8 @@
     "pdf": "bogoan2024",
     "doi": "https://dl.acm.org/doi/full/10.1145/3613904.3642357",
     "bibtex": "bogoan2024",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Together we turn uncertainty into action: understanding the role of artificial intelligence in supporting the financial concerns of older adults",
@@ -173,7 +188,8 @@
     "pdf": "yubin2023",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3584931.3607018",
     "bibtex": "yubin2023",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "RECIPE: How to Integrate ChatGPT into EFL Writing Education",
@@ -185,7 +201,8 @@
     "pdf": "jieun2023",
     "doi": "https://dl.acm.org/doi/10.1145/3573051.3596200",
     "bibtex": "jieun2023",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Love on the spectrum: Toward Inclusive online dating experience of autistic individuals",
@@ -197,7 +214,8 @@
     "pdf": "dasom2023",
     "doi": "https://dl.acm.org/doi/10.1145/3544548.3581341",
     "bibtex": "dasom2023",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "RoutineAid: Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism",
@@ -209,7 +227,8 @@
     "pdf": "bogoan2023",
     "doi": "https://dl.acm.org/doi/10.1145/3544548.3581048",
     "bibtex": "bogoan2023",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "DiaryMate: Exploring the Roles of Large Language Models in Facilitating AI-mediated Journaling",
@@ -221,7 +240,8 @@
     "pdf": "taewan2023workshop",
     "doi": "",
     "bibtex": "",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Coping with Emotional Labor in Call Centers: Design Approaches for Dealing with Emotional Dissonance",
@@ -233,7 +253,8 @@
     "pdf": "kwangyoung2023",
     "doi": "",
     "bibtex": "",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "MindTerior: A Mental Healthcare Game with Metaphoric Gamespace and Efective Activities for Mitigating Mild Emotional Dificulties",
@@ -245,7 +266,8 @@
     "pdf": "sooyeon2023",
     "doi": "https://dl.acm.org/doi/10.1145/3544549.3583831",
     "bibtex": "sooyeon2023",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "AI Story Relay: A Collaborative Writing of Design Fiction to Investigate Artificial Intelligence Design Considerations",
@@ -257,7 +279,8 @@
     "pdf": "hyeonjeong2023",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3565967.3570973",
     "bibtex": "hyeonjeong2023",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "You Are Not Alone: How Trending Stress Topics Brought #Awareness and #Resonance on Campus",
@@ -269,7 +292,8 @@
     "pdf": "ryuhaerang2022",
     "doi": "https://dl.acm.org/doi/10.1145/3555612",
     "bibtex": "ryuhaerang2022",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Understanding Cultural Influence on Perspectives Around Contact Tracing Strategies",
@@ -281,7 +305,8 @@
     "pdf": "xi2022",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3555569",
     "bibtex": "xi2022",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "The Workplace Playbook VR: Exploring the Design Space of Virtual Reality to Foster Understanding of and Support for Autistic People",
@@ -293,7 +318,8 @@
     "pdf": "jennifer2022",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3555082",
     "bibtex": "jennifer2022",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "It's not wrong, but I'm quite disappointed: Toward an Inclusive Algorithmic Experience for Content Creators with Disabilities",
@@ -305,7 +331,8 @@
     "pdf": "dasom2022",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3491102.3517574",
     "bibtex": "dasom2022",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Sad or just jealous? Using Experience Sampling to Understand and Detect Negative Affective Experiences on Instagram",
@@ -317,7 +344,8 @@
     "pdf": "mintra2022",
     "doi": "https://dl.acm.org/doi/10.1145/3491102.3517561",
     "bibtex": "mintra2022",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Prediction for Retrospection: Integrating Algorithmic Stress Prediction into Personal Informatics Systems for College Students' Mental Health",
@@ -329,7 +357,8 @@
     "pdf": "taewan2022",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3491102.3517701",
     "bibtex": "taewan2022",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Fact-Checking and Audience Engagement: A Study of Content Analysis and Audience Behavioral Data of Fact-Checking Coverage from News Media",
@@ -341,7 +370,8 @@
     "pdf": "hyunsuk2022",
     "doi": "https://www.tandfonline.com/doi/full/10.1080/21670811.2021.2006073",
     "bibtex": "hyunsuk2022",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "GeniAuti: Toward Data-Driven Interventions to Challenging Behaviors of Autistic Children through Caregivers' Tracking",
@@ -353,7 +383,8 @@
     "pdf": "eunkyung2022",
     "doi": "https://dl.acm.org/doi/10.1145/3512939",
     "bibtex": "eunkyung2022",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Korean Emoticons: Understanding How Subtle Emotional Differences Are Evoked Online",
@@ -365,7 +396,8 @@
     "pdf": "chowon2022",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3500868.3559463",
     "bibtex": "chowon2022",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Exploring the Effects of AI-assisted Emotional Support Processes in Online Mental Health Community",
@@ -377,7 +409,8 @@
     "pdf": "donghoon2022",
     "doi": "https://dl.acm.org/doi/10.1145/3491101.3519854",
     "bibtex": "donghoon2022",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Understanding University Students' Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-Related Problems on Social Networking Sites: Online Survey and Interview Study",
@@ -389,7 +422,8 @@
     "pdf": "taewan2021",
     "doi": "https://mental.jmir.org/2021/10/e23465",
     "bibtex": "taewan2021",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Sticky Goals: Understanding Goal Commitments for Behavioral Changes in the Wild",
@@ -401,7 +435,8 @@
     "pdf": "hyunsoo2021",
     "doi": "https://dl.acm.org/doi/10.1145/3411764.3445295",
     "bibtex": "hyunsoo2021",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "ADIO: An Interactive Artifact Physically Representing the Intangible Digital Audiobook Listening Experience in Everyday Living Spaces",
@@ -413,7 +448,8 @@
     "pdf": "kyungryong2021",
     "doi": "https://dl.acm.org/doi/10.1145/3411764.3445440",
     "bibtex": "kyungryong2021",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Exploring the Use of a Voice-based Conversational Agent to Empower Adolescents with Autism Spectrum Disorder",
@@ -425,7 +461,8 @@
     "pdf": "inha2021",
     "doi": "https://dl.acm.org/doi/10.1145/3411764.3445116",
     "bibtex": "inha2021",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Comparing Perspectives Around Human and Technology Support for Contact Tracing",
@@ -437,7 +474,8 @@
     "pdf": "xi2021",
     "doi": "https://dl.acm.org/doi/10.1145/3411764.3445669",
     "bibtex": "xi2021",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Papers101: Supporting the discovery process in the literature review workflow for novice researchers",
@@ -449,7 +487,8 @@
     "pdf": "kiroong2021",
     "doi": "https://ieeexplore.ieee.org/document/9438793",
     "bibtex": "kiroong2021",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "How Do You Feel Online: Exploiting Smartphone Sensors to Detect Transitory Emotions during Social Media Use",
@@ -461,7 +500,8 @@
     "pdf": "mintra2020",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3432223",
     "bibtex": "mintra2020",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Enriched Social Translucence in Medical Crowdfunding",
@@ -473,7 +513,8 @@
     "pdf": "jennifer2020",
     "doi": "https://dl.acm.org/doi/10.1145/3357236.3395520",
     "bibtex": "jennifer2020",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "MAMAS: Supporting Parent-Child Mealtime Interactions Using Automated Tracking and Speech Recognition",
@@ -485,7 +526,8 @@
     "pdf": "eunkyung2020cscw",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3392876",
     "bibtex": "eunkyung2020cscw",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "In Helping a Vulnerable Bot, You Help Yourself: Designing a Social Bot as a Care-Receiver to Promote Mental Health and Reduce Stigma",
@@ -497,7 +539,8 @@
     "pdf": "taewan2020",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3313831.3376743",
     "bibtex": "taewan2020",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Understanding Parenting Stress through Co-designed Self-Trackers",
@@ -509,7 +552,8 @@
     "pdf": "eunkyung2020chi",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3313831.3376359",
     "bibtex": "eunkyung2020chi",
-    "recording": ""
+    "recording": "",
+    "video": ""
   },
   {
     "title": "Toward Future-Centric Personal Informatics: Expecting Stressful Events and Preparing Personalized Interventions in Stress Management",
@@ -521,6 +565,7 @@
     "pdf": "kwangyoung2020",
     "doi": "https://dl.acm.org/doi/abs/10.1145/3313831.3376475",
     "bibtex": "kwangyoung2020",
-    "recording": ""
+    "recording": "",
+    "video": ""
   }
 ]
