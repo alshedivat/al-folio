@@ -416,7 +416,8 @@
 }
 
 /* Loading and error states */
-.loading, .not-found {
+.loading,
+.not-found {
   text-align: center;
   padding: 40px 0;
   font-size: 18px;
@@ -432,13 +433,13 @@
     /* Add padding for better spacing */
     padding: 0 10px;
   }
-  
+
   /* Responsive title size for extra small screens */
   .publication-title {
     /* Reduced font size for extra small screens */
     font-size: 24px;
   }
-  
+
   /* Responsive subtitle size for extra small screens */
   .publication-subtitle {
     /* Reduced font size for extra small screens */
@@ -446,7 +447,7 @@
     /* Reduced bottom margin for tighter spacing */
     margin-bottom: 12px;
   }
-  
+
   /* Responsive venue size for extra small screens */
   .publication-venue {
     /* Reduced font size for extra small screens */
@@ -454,7 +455,7 @@
     /* Reduced bottom margin for tighter spacing */
     margin-bottom: 8px;
   }
-  
+
   /* Mobile-specific styles for author rows */
   .author-row {
     /* Allow wrapping on mobile to create 2 items per row */
@@ -464,7 +465,7 @@
     /* Ensure space is evenly distributed */
     justify-content: space-between;
   }
-  
+
   /* Mobile-specific styles for author profiles */
   .author-profile {
     /* Override inline styles for mobile - 2 items per row */
@@ -472,13 +473,13 @@
     /* Add bottom margin for spacing between rows */
     margin-bottom: 15px;
   }
-  
+
   /* Responsive author profiles container for extra small screens */
   .author-profiles-container {
     /* Add padding to the container */
     padding: 0 5px;
   }
-  
+
   /* Responsive author name for extra small screens */
   .author-name {
     /* Slightly reduced font size for extra small screens */
@@ -487,13 +488,13 @@
     margin-top: 6px;
     margin-bottom: 1px;
   }
-  
+
   /* Responsive author affiliation for extra small screens */
   .author-affiliation {
     /* Reduced font size for extra small screens */
     font-size: 9px;
   }
-  
+
   /* Responsive author image for extra small screens */
   .author-image-container {
     /* Reduced size for author images on extra small screens */
@@ -516,7 +517,7 @@
     /* Ensure proper box-sizing */
     box-sizing: border-box;
   }
-  
+
   /* Responsive author row for small screens */
   .author-row {
     /* Adjusted gap between authors on small screens */
@@ -526,7 +527,7 @@
     /* Ensure proper justification on small screens */
     justify-content: center;
   }
-  
+
   /* Responsive author profile for small screens */
   .author-profile {
     /* Adjusted width for author profiles on small screens */
@@ -534,7 +535,7 @@
     /* Add padding for better spacing in wrapped layout */
     padding: 0 3px;
   }
-  
+
   /* Responsive author name for small screens */
   .author-name {
     /* Adjusted font size for small screens */
@@ -542,7 +543,7 @@
     /* Match width to the profile width */
     width: 90px;
   }
-  
+
   /* Responsive author affiliation for small screens */
   .author-affiliation {
     /* Adjusted font size for small screens */
@@ -550,7 +551,7 @@
     /* Match width to the profile width */
     width: 90px;
   }
-  
+
   /* Responsive author image for small screens */
   .author-image-container {
     /* Adjusted size for author images on small screens */
@@ -567,13 +568,13 @@
     /* Increased width for better readability on medium screens */
     width: 720px;
   }
-  
+
   /* Responsive title size for medium screens */
   .publication-title {
     /* Larger font size for better visibility on medium screens */
     font-size: 32px;
   }
-  
+
   /* Responsive subtitle size for medium screens */
   .publication-subtitle {
     /* Adjusted font size for subtitle on medium screens */
@@ -581,13 +582,13 @@
     /* Increased bottom margin for better spacing */
     margin-bottom: 28px;
   }
-  
+
   /* Adjusted metadata spacing for medium screens */
   .publication-meta {
     /* Increased bottom margin for better spacing between elements */
     margin-bottom: 40px;
   }
-  
+
   /* Medium screen styles for author profiles container */
   .author-profiles-container {
     /* Add some padding for better spacing */
@@ -596,7 +597,7 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   /* Medium screen styles for author rows */
   .author-row {
     /* Keep items in a single row */
@@ -606,14 +607,14 @@
     /* Distribute space between items */
     justify-content: space-between;
   }
-  
+
   /* Medium screen styles for author profiles */
   .author-profile {
     /* Width is controlled via inline style, no need to override */
     /* Add adequate padding for spacing */
     padding: 0 10px;
   }
-  
+
   /* Responsive author image size for medium screens */
   .author-image-container {
     /* Increased size for author images on medium screens */
@@ -623,7 +624,7 @@
     /* Add spacing between image and text */
     margin-bottom: 12px;
   }
-  
+
   /* Responsive author name size for medium screens */
   .author-name {
     /* Increased font size for better readability on medium screens */
@@ -634,7 +635,7 @@
     margin-top: 10px;
     margin-bottom: 2px;
   }
-  
+
   /* Responsive author affiliation for medium screens */
   .author-affiliation {
     /* Increased font size for better readability on medium screens */
@@ -642,7 +643,7 @@
     /* Better line height for wrapped text */
     line-height: 1.2;
   }
-  
+
   /* Responsive homepage icon for medium screens */
   .homepage-icon {
     /* Increased size for better visibility on medium screens */
@@ -650,13 +651,13 @@
     /* Increased size for better visibility on medium screens */
     height: 18px;
   }
-  
+
   /* Responsive author text size for medium screens - kept for compatibility */
   .publication-authors {
     /* Increased font size for better readability */
     font-size: 18px;
   }
-  
+
   /* Responsive venue text size for medium screens */
   .publication-venue {
     /* Increased font size for better readability on medium screens */
@@ -664,7 +665,7 @@
     /* Increased bottom margin for better spacing on larger screens */
     margin-bottom: 14px;
   }
-  
+
   /* Responsive description text size and spacing for medium screens */
   .research_description {
     /* Increased font size for better readability */
@@ -681,13 +682,13 @@
     /* Increased width for optimal readability on large screens */
     width: 960px;
   }
-  
+
   /* Responsive title size for large screens */
   .publication-title {
     /* Larger font size for better visibility on large screens */
     font-size: 36px;
   }
-  
+
   /* Responsive subtitle size for large screens */
   .publication-subtitle {
     /* Adjusted font size for subtitle on large screens */
@@ -695,7 +696,7 @@
     /* Increased bottom margin for better spacing */
     margin-bottom: 32px;
   }
-  
+
   /* Responsive banner size and positioning for large screens */
   .research_banner {
     /* Maximum width to prevent the image from becoming too large */
@@ -705,7 +706,7 @@
     /* Center the banner horizontally */
     margin-right: auto;
   }
-  
+
   /* Large screen styles for author profiles container */
   .author-profiles-container {
     /* Add spacing to the container */
@@ -717,7 +718,7 @@
     /* Center the container horizontally */
     margin-right: auto;
   }
-  
+
   /* Large screen styles for author rows */
   .author-row {
     /* Keep items in a single row */
@@ -727,7 +728,7 @@
     /* Distribute space evenly between items */
     justify-content: space-between;
   }
-  
+
   /* Large screen styles for author profiles */
   .author-profile {
     /* Width is controlled via inline style, no need to override */
@@ -736,7 +737,7 @@
     /* Box sizing properly accounts for padding */
     box-sizing: border-box;
   }
-  
+
   /* Responsive author image size for large screens */
   .author-image-container {
     /* Increased size for author images on large screens */
@@ -746,7 +747,7 @@
     /* Increased bottom margin for better spacing */
     margin-bottom: 12px;
   }
-  
+
   /* Responsive author name size for large screens */
   .author-name {
     /* Increased font size for better readability on large screens */
@@ -760,7 +761,7 @@
     /* Maintain tight bottom margin */
     margin-bottom: 2px;
   }
-  
+
   /* Responsive author affiliation for large screens */
   .author-affiliation {
     /* Increased font size for better readability on large screens */
@@ -774,7 +775,7 @@
     /* Maintain tight bottom margin */
     margin-bottom: 2px;
   }
-  
+
   /* Responsive homepage icon for large screens */
   .homepage-icon {
     /* Increased size for better visibility on large screens */
@@ -784,7 +785,7 @@
     /* Reduced margin for tighter spacing */
     margin-top: 3px;
   }
-  
+
   /* Responsive description width and positioning for large screens */
   .research_description {
     /* Maximum width for optimal readability */
@@ -794,4 +795,29 @@
     /* Center the description horizontally */
     margin-right: auto;
   }
+}
+
+.award-badge {
+  /* Bright yellow background for award badge */
+  background-color: rgb(255, 243, 131);
+  /* Fully rounded container for pill shape */
+  border-radius: 9999px;
+  /* Small vertical and horizontal padding for compact badge */
+  padding: 1px 12px; /* Increased horizontal padding for better centering */
+  /* Increased margin to the left for more space from venue */
+  margin-left: 12px;
+  /* Smaller font size for badge text */
+  font-size: 0.7em;
+  /* Bold text for emphasis */
+  font-weight: bold;
+  /* Inline-flex for proper positioning and centering */
+  display: inline-flex;
+  /* Align items vertically center */
+  align-items: center;
+  /* Justify content horizontally center */
+  justify-content: center;
+  /* Set text color to black for better readability */
+  color: #666;
+  /* Align vertically with text */
+  vertical-align: middle;
 }

@@ -253,7 +253,7 @@ export const PublicationPage = (props) => {
                         )}
                         {bib.web && (
                           <div className="other">
-                            &nbsp; • &nbsp;<Link to={`/publication/${bib.pdf}`}>WEB</Link>
+                            &nbsp; • &nbsp;<Link to={`/publication/${bib.pdf}`} target="_blank">WEB</Link>
                           </div>
                         )}
                         {bib.pdf ? (
