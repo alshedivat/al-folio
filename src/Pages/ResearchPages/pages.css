@@ -1051,3 +1051,26 @@ img[src$="/icons/line.svg"] {
     max-height: 200px;
   }
 }
+
+/* Copied! message above the BibTeX container */
+.bibtex-copied-message {
+  /* Green color for success feedback */
+  color: #22c55e;
+  /* Bold for visibility */
+  font-weight: 600;
+  /* Slightly larger font for emphasis */
+  font-size: 16px;
+  /* Add check emoji before the text */
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  /* Margin below for spacing from the code block */
+  margin-bottom: 8px;
+  /* Use a modern, readable font */
+  font-family: "Montserrat", Arial, sans-serif;
+}
+.bibtex-copied-message::before {
+  content: "✅";
+  font-size: 18px;
+  margin-right: 2px;
+}

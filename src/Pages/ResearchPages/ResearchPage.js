@@ -21,6 +21,8 @@ export const ResearchPage = () => {
   const [bibtexLoading, setBibtexLoading] = useState(false);
   // State to track error status for BibTeX
   const [bibtexError, setBibtexError] = useState(null);
+  // State to show 'Copied!' message
+  const [bibtexCopied, setBibtexCopied] = useState(false);
 
   useEffect(() => {
     // Find the publication with the matching ID
@@ -93,6 +95,18 @@ export const ResearchPage = () => {
       observer.observe(node);
     }
   }, []);
+
+  // Handler for copying BibTeX to clipboard
+  const handleCopyBibtex = useCallback(() => {
+    // Only copy if bibtexText is available and not loading/error
+    if (bibtexText && !bibtexLoading && !bibtexError) {
+      // Use the Clipboard API to copy text
+      navigator.clipboard.writeText(bibtexText).then(() => {
+        // Show the 'Copied!' message (persistent)
+        setBibtexCopied(true);
+      });
+    }
+  }, [bibtexText, bibtexLoading, bibtexError]);
 
   return (
     <>
@@ -308,8 +322,35 @@ export const ResearchPage = () => {
                   <div ref={element} className="section-title">
                     Cite This Work
                   </div>
-                  {/* BibTeX code block in a styled container */}
-                  <pre className="bibtex-container">
+                  {/* BibTeX code block in a styled container, clickable for copy */}
+                  <pre
+                    className="bibtex-container"
+                    tabIndex={0}
+                    role="button"
+                    aria-label="Copy BibTeX to clipboard"
+                    title="Click to copy BibTeX"
+                    onClick={handleCopyBibtex}
+                    onKeyDown={(e) => {
+                      if (e.key === "Enter" || e.key === " ")
+                        handleCopyBibtex();
+                    }}
+                    style={{
+                      cursor:
+                        bibtexText && !bibtexLoading && !bibtexError
+                          ? "pointer"
+                          : "default",
+                    }}
+                  >
+                    {/* Show green Copied! message inside the bibtex container when copied */}
+                    {bibtexCopied && (
+                      <div
+                        className="bibtex-copied-message"
+                        role="status"
+                        aria-live="polite"
+                      >
+                        Copied!
+                      </div>
+                    )}
                     {/* Show loading, error, or the BibTeX text */}
                     {bibtexLoading
                       ? "Loading..."
@@ -318,8 +359,6 @@ export const ResearchPage = () => {
                       : bibtexText}
                   </pre>
                 </div>
-                {/* Add another horizontal line below the bibtex section */}
-                <img className="animation" src="/icons/line.svg" alt="line" />
               </>
             )}
           </>
