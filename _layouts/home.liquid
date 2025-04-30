@@ -33,11 +33,12 @@ layout: default
 </style>
 
 <header class="hero">
+  <h1 class="hero-title">{{ page.subtitle }}</h1>
   <img id="hero-image" src="" alt="Hero Image" />
-  <div class="hero-overlay">
+  <!-- <div class="hero-overlay"> -->
     <!-- Use page.subtitle so the title overlay text is what you want -->
-    <h1 class="hero-title">{{ page.subtitle }}</h1>
-  </div>
+    <!-- <h1 class="hero-title">{{ page.subtitle }}</h1> -->
+  <!-- </div> -->
 </header>
 
 <!-- Begin Original Content -->
@@ -127,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function() {
   updateHeroImage();
 
   // Change image every 5 minutes (300,000 ms)
-  setInterval(updateHeroImage, 5*60*1000);
+  setInterval(updateHeroImage, 1000);
 
 });
 </script>
