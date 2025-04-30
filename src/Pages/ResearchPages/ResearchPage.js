@@ -15,6 +15,12 @@ export const ResearchPage = () => {
   const { id } = useParams();
   const [publication, setPublication] = useState(null);
   const [loading, setLoading] = useState(true);
+  // State to hold the loaded BibTeX text
+  const [bibtexText, setBibtexText] = useState("");
+  // State to track loading status for BibTeX
+  const [bibtexLoading, setBibtexLoading] = useState(false);
+  // State to track error status for BibTeX
+  const [bibtexError, setBibtexError] = useState(null);
 
   useEffect(() => {
     // Find the publication with the matching ID
@@ -33,6 +39,38 @@ export const ResearchPage = () => {
     }
     setLoading(false);
   }, [id]);
+
+  // Effect to fetch BibTeX file if publication.bibtex exists
+  useEffect(() => {
+    // Only fetch if bibtex field is present
+    if (publication && publication.bibtex) {
+      // Start loading
+      setBibtexLoading(true);
+      setBibtexError(null);
+      // Construct the file path
+      const bibtexPath = `/bib/${publication.bibtex}.bib`;
+      // Fetch the BibTeX file from the public directory
+      fetch(bibtexPath)
+        .then((res) => {
+          if (!res.ok) throw new Error("BibTeX file not found");
+          return res.text();
+        })
+        .then((text) => {
+          setBibtexText(text);
+          setBibtexLoading(false);
+        })
+        .catch((err) => {
+          setBibtexError("BibTeX 파일을 불러올 수 없습니다.");
+          setBibtexText("");
+          setBibtexLoading(false);
+        });
+    } else {
+      // Reset if no bibtex
+      setBibtexText("");
+      setBibtexLoading(false);
+      setBibtexError(null);
+    }
+  }, [publication]);
 
   const element = useCallback((node) => {
     const options = {
@@ -224,25 +262,65 @@ export const ResearchPage = () => {
 
             {/* If there is a video, display the video player centered below the line */}
             {publication.video && publication.video !== "" && (
-              <div className="responsive-video-container">
-                {/* Responsive video player: width 100%, max-width 800px, always centered */}
-                <video
-                  className="responsive-video"
-                  controls
-                  poster="/icons/video-placeholder.svg"
-                >
-                  <source
-                    src={`/videos/${publication.video}.mp4`}
-                    type="video/mp4"
-                  />
-                  Your browser does not support the video tag.
-                </video>
-              </div>
+              <>
+                <div className="responsive-video-container">
+                  {/* Responsive video player: width 100%, max-width 800px, always centered */}
+                  <video
+                    className="responsive-video"
+                    controls
+                    poster="/icons/video-placeholder.svg"
+                  >
+                    <source
+                      src={`/videos/${publication.video}.mp4`}
+                      type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                {/* Add another horizontal line below the video if video exists */}
+                <img className="animation" src="/icons/line.svg" alt="line" />
+              </>
             )}
 
-            {/* Add another horizontal line below the video if video exists */}
-            {publication.video && publication.video !== "" && (
-              <img className="animation" src="/icons/line.svg" alt="line" />
+            {publication.abstract && (
+              <>
+                <div ref={element} className="section-container">
+                  {/* Abstract section title, always shown below the last horizontal line */}
+                  <div ref={element} className="section-title">
+                    {/* Section title for the abstract, styled to match publication-title */}
+                    Abstract
+                  </div>
+                  {/* Render the publication's abstract below the section title if available */}
+                  <div ref={element} className="publication-abstract">
+                    {/* The abstract text from the publication data */}
+                    {publication.abstract}
+                  </div>
+                </div>
+                {/* Add another horizontal line below the abstract */}
+                <img className="animation" src="/icons/line.svg" alt="line" />
+              </>
+            )}
+
+            {publication.bibtex && (
+              <>
+                <div ref={element} className="section-container">
+                  {/* Section title for the bibtex citation, styled to match publication-title */}
+                  <div ref={element} className="section-title">
+                    Cite This Work
+                  </div>
+                  {/* BibTeX code block in a styled container */}
+                  <pre className="bibtex-container">
+                    {/* Show loading, error, or the BibTeX text */}
+                    {bibtexLoading
+                      ? "Loading..."
+                      : bibtexError
+                      ? bibtexError
+                      : bibtexText}
+                  </pre>
+                </div>
+                {/* Add another horizontal line below the bibtex section */}
+                <img className="animation" src="/icons/line.svg" alt="line" />
+              </>
             )}
           </>
         ) : (
