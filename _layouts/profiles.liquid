@@ -17,9 +17,7 @@ layout: page
         {% for status in status_order %}
           {% assign people_in_status = site.data.people | where: "status", status %}
           {% if people_in_status.size > 0 %}
-            {% assign status_display = display_names[forloop.index0] %}
-            <a href="#{{ status }}">{{ status_display }}</a>
-            {% unless forloop.last %} | {% endunless %}
+            <a href="#{{ status }}">{{ display_names[forloop.index0] }}</a>{% unless forloop.last %} | {% endunless %}
           {% endif %}
         {% endfor %}
       </div>
@@ -29,20 +27,15 @@ layout: page
         {% assign people_in_status = site.data.people | where: "status", status | sort: 'dirLastName' %}
         {% if people_in_status.size > 0 %}
           <div class="status-section">
-            {% assign status_display = display_names[forloop.index0] %}
-            <h2 id="{{ status }}">{{ status_display }}</h2>
+            <h2 id="{{ status }}">{{ display_names[forloop.index0] }}</h2>
 
-            <!-- Assign people based on status and sort by last name -->
+            <!-- Optional alphabetical index -->
             {% assign people_count = people_in_status | size %}
-
-            <!-- If number of people in the status group exceeds the threshold, show alphabetical index -->
             {% if people_count > threshold %}
-              <!-- Second Level Navigation: Alphabetical -->
               <div class="letter-index">
                 {% assign alphabet = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," %}
                 {% for letter in alphabet %}
-                  <a href="#{{ status }}-{{ letter }}">{{ letter }}</a>
-                  {% unless forloop.last %} | {% endunless %}
+                  <a href="#{{ status }}-{{ letter }}">{{ letter }}</a>{% unless forloop.last %} | {% endunless %}
                 {% endfor %}
               </div>
             {% endif %}
@@ -50,11 +43,8 @@ layout: page
             <div class="profile-grid">
               {% assign current_letter = "" %}
 
-              <!-- Loop through each person, sorted by last name -->
               {% for profile in people_in_status %}
                 {% assign first_letter = profile.dirLastName | slice: 0, 1 | upcase %}
-
-                <!-- If the alphabetical index is used and the first letter of the last name changes, create a new section with a heading -->
                 {% if people_count > threshold and current_letter != first_letter %}
                   <div class="letter-section">
                     <h3 id="{{ status }}-{{ first_letter }}">{{ first_letter }}</h3>
@@ -63,10 +53,14 @@ layout: page
                 {% endif %}
 
                 <div class="profile profile-column">
-                  <strong>
-                    {{ profile.title }}
-                    <!-- Social icons section: inline after name -->
-                    <span class="social-icons">
+                  {% if status == "faculty" or status == "staff" %}
+                    <!-- Faculty & Staff: Name & alumni, dirTitle, department, left-aligned icons -->
+                    <strong>
+                      {{ profile.name }}{% if profile.alumni %} ({{ profile.alumni }}){% endif %}
+                    </strong><br>
+                    {% if profile.dirTitle %}{{ profile.dirTitle }}<br>{% endif %}
+                    {{ profile.department }}<br>
+                    <div class="social-icons">
                       {% if profile.email %}
                         <a href="mailto:{{ profile.email }}" title="Email"><i class="fa fa-envelope"></i></a>
                       {% endif %}
@@ -76,12 +70,46 @@ layout: page
                       {% if profile.linkedin %}
                         <a href="{{ profile.linkedin }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
                       {% endif %}
-                    </span>
-                  </strong><br>
-	          {% if profile.dirTitle %}
-		     {{ profile.dirTitle }}<br>
-		  {% endif %}
-                  {{ profile.department }}
+                    </div>
+
+                  {% elsif status == "alumni" %}
+                    <!-- Alumni: Name & alumni, department, left-aligned icons -->
+                    <strong>
+                      {{ profile.name }}{% if profile.alumni %} ({{ profile.alumni }}){% endif %}
+                    </strong><br>
+                    {{ profile.department }}<br>
+                    <div class="social-icons">
+                      {% if profile.email %}
+                        <a href="mailto:{{ profile.email }}" title="Email"><i class="fa fa-envelope"></i></a>
+                      {% endif %}
+                      {% if profile.url %}
+                        <a href="{{ profile.url }}" title="Website"><i class="fa fa-globe"></i></a>
+                      {% endif %}
+                      {% if profile.linkedin %}
+                        <a href="{{ profile.linkedin }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                      {% endif %}
+                    </div>
+
+                  {% else %}
+                    <!-- Others: Name, dirTitle, department, left-aligned icons -->
+                    <strong>
+                      {{ profile.name }}
+                    </strong><br>
+                    {% if profile.dirTitle %}{{ profile.dirTitle }}<br>{% endif %}
+                    {{ profile.department }}<br>
+                    <div class="social-icons">
+                      {% if profile.email %}
+                        <a href="mailto:{{ profile.email }}" title="Email"><i class="fa fa-envelope"></i></a>
+                      {% endif %}
+                      {% if profile.url %}
+                        <a href="{{ profile.url }}" title="Website"><i class="fa fa-globe"></i></a>
+                      {% endif %}
+                      {% if profile.linkedin %}
+                        <a href="{{ profile.linkedin }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                      {% endif %}
+                    </div>
+
+                  {% endif %}
                 </div>
               {% endfor %}
             </div>
