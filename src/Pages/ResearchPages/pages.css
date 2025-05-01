@@ -982,7 +982,7 @@
 }
 
 /* Make the horizontal line image always take 100% width */
-img[src$="/icons/line.svg"] {
+img[src$="/icons/long-line.svg"] {
   /* Force the image to span the full width of its container */
   width: 100%;
   /* Remove any default max-width restriction */

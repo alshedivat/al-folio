@@ -272,7 +272,7 @@ export const ResearchPage = () => {
             </div>
 
             {/* Horizontal line */}
-            <img className="animation" src="/icons/line.svg" alt="line" />
+            <img className="animation" src="/icons/long-line.svg" alt="line" />
 
             {/* If there is a video, display the video player centered below the line */}
             {publication.video && publication.video !== "" && (
@@ -292,7 +292,11 @@ export const ResearchPage = () => {
                   </video>
                 </div>
                 {/* Add another horizontal line below the video if video exists */}
-                <img className="animation" src="/icons/line.svg" alt="line" />
+                <img
+                  className="animation"
+                  src="/icons/long-line.svg"
+                  alt="line"
+                />
               </>
             )}
 
@@ -347,7 +351,11 @@ export const ResearchPage = () => {
                 </div>
 
                 {/* Add another horizontal line below the abstract */}
-                <img className="animation" src="/icons/line.svg" alt="line" />
+                <img
+                  className="animation"
+                  src="/icons/long-line.svg"
+                  alt="line"
+                />
               </>
             )}
 
