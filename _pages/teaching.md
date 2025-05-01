@@ -9,16 +9,17 @@ nav_order: 6
 
 ## Spring'25
 
-- Chattopadhyay, Debaleena: CS 535 - User Experience Research Methods
-- Kerne, Andruid: CS 377 - Ethical Issues in Computing
-- Kumar, Siddharth: CS 569 - High-Performance Processors and Systems
-- Lan, Zhiling: CS 594 - Emerging Trends in Large-Scale Computer Systems
-- Marai, Georgeta-Elisabeta: CS 426 - Video Game Design and Development
-- Michaelis, Joseph: CS 422 - User Interface Design and Programming
-- Miranda, Fabio: CS 424 - Visualization and Visual Analytics
-- Papka, Michael: CS 455 - Introduction to High Performance Computing, CS 427 - Creative Coding,
-- Tang, Wei: CS 515 - Advanced Computer Vision
-- Tsoupikova, Daria: DES 427 - Creative Coding
+- **CS 377** *Ethical Issues in Computing* – Andruid Kerne  
+- **CS 422** *User Interface Design and Programming* – Joseph Michaelis  
+- **CS 424** *Visualization and Visual Analytics* – Fabio Miranda  
+- **CS 426** *Video Game Design and Development* – Georgeta-Elisabeta Marai  
+- **CS 427** *Creative Coding* – Michael Papka  
+- **CS 455** *Introduction to High Performance Computing* – Michael Papka  
+- **CS 515** *Advanced Computer Vision* – Wei Tang  
+- **CS 535** *User Experience Research Methods* – Debaleena Chattopadhyay  
+- **CS 569** *High-Performance Processors and Systems* – Siddharth Kumar  
+- **CS 594** *Emerging Trends in Large-Scale Computer Systems* – Zhiling Lan  
+- **DES 427** *Creative Coding* – Daria Tsoupikova  
 
 ## Catalogs
 
