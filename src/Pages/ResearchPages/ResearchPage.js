@@ -309,7 +309,43 @@ export const ResearchPage = () => {
                     {/* The abstract text from the publication data */}
                     {publication.abstract}
                   </div>
+                  {/* Publication materials */}
+                  {(publication.pdf || publication.doi) && (
+                    <div ref={element} className="publication-materials">
+                      {publication.pdf && (
+                        <a
+                          href={publication.pdf}
+                          className="material-button"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            src="/icons/document.png"
+                            alt="PDF"
+                            className="pdf-icon"
+                          />
+                          PDF
+                        </a>
+                      )}
+                      {publication.doi && (
+                        <a
+                          href={`https://doi.org/${publication.doi}`}
+                          className="material-button"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <img
+                            src="/icons/link.png"
+                            alt="DOI"
+                            className="doi-icon"
+                          />
+                          DOI
+                        </a>
+                      )}
+                    </div>
+                  )}
                 </div>
+
                 {/* Add another horizontal line below the abstract */}
                 <img className="animation" src="/icons/line.svg" alt="line" />
               </>
