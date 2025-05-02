@@ -1,3 +1,10 @@
+<div id="filter-buttons" class="mb-3">
+  <button data-tag="all" class="filter-button active">All</button>
+  <button data-tag="event" class="filter-button">Events</button>
+  <button data-tag="paper" class="filter-button">Papers</button>
+  <button data-tag="research" class="filter-button">Research</button>
+</div>
+
 <div class="news">
   {% if site.news != blank %}
     {% assign news = site.news | reverse %}
@@ -39,7 +46,7 @@
               <th colspan="2">{{ year_group.name }}</th>
             </tr>
             {% for item in year_group.items %}
-                <tr>
+                <tr class="news-item" data-tags="{{ item.tags | join: ' ' }}">
                   <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
                   <td>
                     {% if item.inline %}
@@ -58,3 +65,29 @@
     <p>No news so far...</p>
   {% endif %}
 </div>
+
+
+<script>
+  const buttons = document.querySelectorAll('.filter-button');
+  const newsItems = document.querySelectorAll('.news-item');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      const tag = button.getAttribute('data-tag');
+
+      // Update active button style
+      buttons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+
+      // Filter news
+      newsItems.forEach(item => {
+        const itemTags = item.getAttribute('data-tags').split(' ');
+        if (tag === 'all' || itemTags.includes(tag)) {
+          item.style.display = '';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    });
+  });
+</script>
