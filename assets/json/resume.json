@@ -1,18 +1,17 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Shunya Tadano",
+    "label": "Ph.D student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "shunya.tadano@gmail.com",
+    "phone": "+81 90-6259-3458",
+    "url": "https://shunya-tadano.github.io/",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Sendai",
+      "countryCode": "JP",
+      "region": "Tokyo",
     },
     "profiles": [
       {
@@ -69,8 +68,8 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
+      "name": "Enginneering",
+      "date": "2023-03-01",
       "issuer": "Stanford University",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
