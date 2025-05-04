@@ -28,7 +28,7 @@ latest_posts:
 ---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
-I am a Ph.D student at [Tohoku University](https://www.eng.tohoku.ac.jp/english/). He received his Ph.D. in Information Science and Technology from the [University of Tokyo](https://www.u-tokyo.ac.jp/) in 2025, advised by [Assoc. Prof. Yusuke Tamura](https://scholar.google.co.jp/citations?user=Z1PbGrMAAAAJ). His research interests include mobile robot and human-robot interaction. In particular, I am interested in the social navigation and pedestrian trajectory prediction.
+I am a Ph.D student at [Tohoku University](https://www.eng.tohoku.ac.jp/english/). from 2025, advised by [Assoc. Prof. Yusuke Tamura](https://scholar.google.co.jp/citations?user=Z1PbGrMAAAAJ). His research interests include mobile robot and human-robot interaction. In particular, I am interested in the social navigation and pedestrian trajectory prediction.
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
