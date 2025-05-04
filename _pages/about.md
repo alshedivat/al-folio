@@ -8,10 +8,10 @@ profile:
   align: right
   image: prof_shunya.jpg
   image_circular: true # crops the image to make it circular
-  # more_info: >
-  #   <p>Tohoku University</p>
-  #   <p>Shunya Tadano</p>
-  #   <p>只野 竣也</p>
+  more_info: >
+    <div style="text-align: center;">
+      <p>只野 竣也</p>
+    </div>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
