@@ -9,14 +9,14 @@ last_name: Tadano
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal website of Shunya Tadano, Ph.D student in Sendai, Japan at Tohoku University.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+lang: ja # en/ja the language of your site (for example: en, fr, cn, ru, etc.)
+icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://shunyatadano.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -146,13 +146,13 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false # set to false if you don't want to display books in the collection
   news:
     defaults:
       layout: post
-    output: true
+    output: false # true / false
   projects:
-    output: true
+    output: false # true / false
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -193,6 +193,11 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  # my settings
+  - _pages/blog.md
+  - _posts/
+  - _projects/?_project.md
+  - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
   - .nojekyll
