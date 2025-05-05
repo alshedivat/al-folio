@@ -14,13 +14,26 @@
               <tr>
                 <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
                 <td>
-                  {% if item.icon %}
-                    <i class="fa {{ item.icon }}"></i>
+                  {% assign tt = item.tags %}
+                  {% if tt[0] == "event" %}
+                    <i class="fa fa-calendar-days" style="margin-right: 4px" title="{{tt[0]}}"></i>
+                  {% elsif tt[0] == "paper" %}
+                    <i class="fa fa-file-pdf" style="margin-right: 4px" title="{{tt[0]}}"></i>
+                  {% elsif tt[0] == "research" %}
+                    <i class="fa fa-lightbulb" style="margin-right: 4px" title="{{tt[0]}}"></i>
+                  {% else %}
+                    <i class="fa fa-file" style="margin-right: 4px" title="{{tt[0]}}"></i>
                   {% endif %}
                   {% if item.inline %}
                     {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                   {% else %}
-                    <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    <a class="news-title" href="{{ item.url | relative_url }}">
+                     {% if tt[0] == "paper" %}
+                      New paper: {{ item.title }}
+                      {% else %}
+                      {{ item.title }}
+                      {% endif %}
+                    </a>
                   {% endif %}
                 </td>
               </tr>
@@ -33,9 +46,9 @@
       {% endcomment %}
       <div id="filter-buttons" class="mb-3">
         <button data-tag="all" class="filter-button active">All</button>
-        <button data-tag="event" class="filter-button">Events</button>
-        <button data-tag="paper" class="filter-button">Papers</button>
-        <button data-tag="research" class="filter-button">Research</button>
+        <button data-tag="event" class="filter-button"> <i class="fa fa-calendar-days" title="event"></i> Events</button>
+        <button data-tag="paper" class="filter-button"> <i class="fa fa-file-pdf" title="event"></i> Papers</button>
+        <button data-tag="research" class="filter-button"><i class="fa fa-lightbulb" title="event"></i> Research</button>
       </div>
       {% assign grouped_by_year = news | group_by_exp:"item", "item.date | date: '%Y'" %}
       <div class="table-responsive">
@@ -49,6 +62,16 @@
                 <tr class="news-item" data-tags="{{ item.tags | join: ' ' }}">
                   <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
                   <td>
+                  {% assign tt = item.tags %}
+                  {% if tt[0] == "event" %}
+                    <i class="fa fa-calendar-days" style="margin-right: 4px" title="{{tt[0]}}"></i>
+                  {% elsif tt[0] == "paper" %}
+                    <i class="fa fa-file-pdf" style="margin-right: 4px" title="{{tt[0]}}"></i>
+                  {% elsif tt[0] == "research" %}
+                    <i class="fa fa-lightbulb" style="margin-right: 4px" title="{{tt[0]}}"></i>
+                  {% else %}
+                    <i class="fa fa-file" style="margin-right: 4px" title="{{tt[0]}}"></i>
+                  {% endif %}
                     {% if item.inline %}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {% else %}
