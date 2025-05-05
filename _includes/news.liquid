@@ -1,9 +1,3 @@
-<div id="filter-buttons" class="mb-3">
-  <button data-tag="all" class="filter-button active">All</button>
-  <button data-tag="event" class="filter-button">Events</button>
-  <button data-tag="paper" class="filter-button">Papers</button>
-  <button data-tag="research" class="filter-button">Research</button>
-</div>
 
 <div class="news">
   {% if site.news != blank %}
@@ -37,6 +31,12 @@
       {% comment %}
         No numeric limit passed, so group by year for the news page.
       {% endcomment %}
+      <div id="filter-buttons" class="mb-3">
+        <button data-tag="all" class="filter-button active">All</button>
+        <button data-tag="event" class="filter-button">Events</button>
+        <button data-tag="paper" class="filter-button">Papers</button>
+        <button data-tag="research" class="filter-button">Research</button>
+      </div>
       {% assign grouped_by_year = news | group_by_exp:"item", "item.date | date: '%Y'" %}
       <div class="table-responsive">
         <table class="table table-sm table-borderless">
