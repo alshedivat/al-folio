@@ -6,17 +6,15 @@ nav: true
 nav_order: 2
 ---
 
-View CV as a [pdf](/assets/pdf/Ye%20Resume%20Public.pdf){:target="_blank"} and see my [PhD application statement of purpose](/assets/pdf/phd-sop.pdf){:target="_blank"}.
+View CV as a compact [pdf](/assets/pdf/Ye-Resume-Updated.pdf){:target="_blank"} and see my [PhD application statement of purpose](/assets/pdf/phd-sop.pdf){:target="_blank"}.
 
 ---
 
-### computer science research
+### computer science articles
 
 *equal contribution.
 
-
-
-"Unsettling the Hegemony of Intention: Agonistic Image Generation".
+"Agonistic Image Generation: Unsettling the Hegemony of Intention".
 Andrew Shaw\*, **Andre Ye\*** Ranjay Krishna, Amy X. Zhang.
 ACM Conference on Fairness, Accountability, and Transparency 2025.
 *Resources*:
@@ -77,6 +75,10 @@ eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:targ
 ### philosophy work
 
 
+"Commentary: Who are you to philosophy?"
+**Andre Ye**.
+*Garden of Ideas*, Volume 4, 2025 -- Issue 1.
+*Resources*: [link](https://static1.squarespace.com/static/615a290d98f69f13289b90c2/t/680c26d45069c938e13ce227/1745626919556/Volume+4+Issue+1+Online+Version+%286%29.pdf){:target="_blank"}.
 
 "And then the Hammer Broke: Reflections on Machine Ethics from Feminist Philosophy of Science."
 **Andre Ye**.
@@ -86,18 +88,11 @@ Pacific University Philosophy Conference: Forest Grove, Oregon. April 2024.
 [philPapers](https://philpapers.org/rec/YEATTV){:target="_blank"},
 reading [video](https://youtu.be/Rob_OLoSZ64){:target="_blank"} and artistic [slides](https://docs.google.com/presentation/d/1PrUgoPwqw0bPweM-l57m1kGAEQz5JsZGPCykjq1N5cI/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/PacU%20Phil%20Conference%20Presentation.pdf){:target="_blank"}.
 
-"Seeing Water: Building International Justice Beyond Embodied Metaphysics."
-**Andre Ye**.
-Seattle University Philosophy Conference: Seattle, Washington. May 2024.
-*Resources*:
-[philPapers](https://philpapers.org/rec/YESWBR){:target="_blank"}.
-
 "Wor(k/d)play."
 Mark Pock*, **Andre Ye\***.
 *Garden of Ideas*, Volume 2, 2023 -- Issue 1.
 *Resources*:
 [link](/writing/files/workdplay.pdf){:target="_blank"}.
-
 
 "Computational Production of Simulacra."
 **Andre Ye**.
@@ -114,9 +109,7 @@ See other writings [here](https://andre-ye.github.io/writing/philosophy){:target
 
 ---
 
-### expository writing
-
-
+### other writing
 
 *Modern Deep Learning Design and Applications*.
 Andre Ye.
@@ -134,8 +127,6 @@ Apress (Springer Nature).
 ---
 
 ## education
-
-
 
 **B.A., Philosophy with Honors**.
 Focus on social & political philosophy, philosophy of science.
@@ -161,7 +152,7 @@ Admission to university at 14 through the [Robinson Center](https://robinsoncent
 
 **Teaching Assistant, CSE [160, 163, 311]** (intro and intermediate Python programming, discrete math for CS).
 Allen School of CSE, University of Washington.
-6 quarters.
+7 quarters.
 
 **Teaching Assistant, English Composition and Literary Analysis.**
 Robinson Center, University of Washington.
@@ -193,8 +184,7 @@ The Coding School.
 
 ## academic service & volunteering
 
-
-
+- 2024 CSCW (Computer-Supported Cooperative Work) Reviewer
 - 2023 NeurIPS Moral Psychology and Moral Philosophy Workshop Reviewer
 - 2023 ICML AI + HCI Workshop Reviewer
 - Volunteer Data Scientist @ Coronawhy (April 2020 - June 2020)
@@ -204,9 +194,7 @@ The Coding School.
 
 ---
 
-## other research and projects
-
-
+## other projects and unserious work
 
 "AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs." SIGBOVIK 2023.
 *Resources*:
