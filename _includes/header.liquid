@@ -17,12 +17,20 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            {{- site.title -}}
+            {% if site.logo %}
+              <img src="{{ site.logo | relative_url }}" title="{{ site.description }}" alt="EVL" height="48px"/>
+            {% else %}
+              {{- site.title -}}
+            {% endif %}
           {% endif %}
         </a>
       {% elsif site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
+        {% else %}
+           {% if site.logo %}
+              <img src="{{ site.logo }}" alt="EVL" height="48px" style="padding:0;margin:0;"/>
+           {% endif %}
       {% endif %}
       <!-- Navbar Toggle -->
       <button
