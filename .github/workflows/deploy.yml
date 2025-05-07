@@ -22,8 +22,10 @@ jobs:
         ruby-version: '3.0.2'
         bundler-cache: false
         
-    - name: Update Bundler
-      run: gem install bundler
+    - name: Install Bundler
+      run: |
+        gem install bundler
+        bundle install
         
     - name: Install deps
       run: |
