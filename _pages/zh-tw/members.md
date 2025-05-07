@@ -7,6 +7,12 @@ nav: true
 nav_order: 2
 
 members:
+  - name: 莊婷伃
+    img: tyc.jpg
+    position: 助理工程師
+    email: tychuang@citi.sinica.edu.tw
+    twitter_username: tychuang1211
+    description: 現任職於中央研究院資訊科技創新研究中心。目前擔任助理工程師，參與「研究資料寄存所」(depositar / data.depositar.io) 的系統維運與平台開發工作。平時亦持續投入開源社群活動，關注開放資料與自由軟體的實務應用。
   - name: 莊庭瑞
     img: trc.jpg
     position: 實驗室主持人
