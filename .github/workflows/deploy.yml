@@ -21,6 +21,10 @@ jobs:
       with:
         ruby-version: '3.0.2'
         bundler-cache: true
+        
+    - name: Update Bundler
+      run: gem install bundler
+        
     - name: Install deps
       run: |
         npm install -g mermaid.cli
@@ -36,6 +40,7 @@ jobs:
           echo "SRC_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
         fi
         echo "DEPLOY_BRANCH=gh-pages" >> $GITHUB_OUTPUT
+
     - name: Deploy website 
       run:  yes | bash bin/deploy --verbose ${{ steps.setup.outputs.NO_PUSH }}
                     --src ${{ steps.setup.outputs.SRC_BRANCH }} 
