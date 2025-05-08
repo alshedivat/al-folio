@@ -7,6 +7,12 @@ nav: true
 nav_order: 2
 
 members:
+  - name: Ting-Yu Chuang
+    img: tyc.jpg
+    position: Assistant Engineer
+    email: tychuang@citi.sinica.edu.tw
+    twitter_username: tychuang1211
+    description: Ting-Yu Chuang is currently working at the Research Center for Information Technology Innovation, Academia Sinica, as an assistant engineer. She contributes to the maintenance and development of the depositar (data.depositar.io). She is also an active participant in open source communities, with a focus on the application of open data and free software.
   - name: Tyng-Ruey Chuang
     img: trc.jpg
     position: Principal Investigator and Project lead
