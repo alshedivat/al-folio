@@ -4,7 +4,7 @@ title: funding
 permalink: /funding/
 description: Our Supporters
 nav: true
-nav-order: 6
+nav_order: 6
 horizontal: false
 ---
 
