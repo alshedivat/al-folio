@@ -1,5 +1,10 @@
 {% if site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
+    {% if site.territorial_acknowledgement %}
+    <div class="container territorial-acknowledgement m-1 pb-2">
+      {{ site.territorial_acknowledgement }}
+    </div>
+    {% endif %}
     <div class="container mt-0">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
@@ -18,7 +23,11 @@
     {% if site.newsletter.enabled %}
       {% include scripts/newsletter.liquid %}
     {% endif %}
-
+    {% if site.territorial_acknowledgement %}
+    <div class="container territorial-acknowledgement pb-2">
+      {{ site.territorial_acknowledgement }}
+    </div>
+    {% endif %}
     <div class="container">
       &copy; Copyright {{ site.time | date: '%Y' }}
       {{ site.first_name }}
