@@ -1,29 +1,1136 @@
+.page {
+  margin: 100px auto 0;
+  width: 320px;
+}
+
+/* Publication title styling */
+.publication-title {
+  /* Font family for the publication title - using Montserrat Bold for strong visual presence */
+  font-family: "montserrat-bold";
+  /* Using flex display for better control of the element */
+  display: flex;
+  /* Setting width to 100% to span the full container width */
+  width: 100%;
+  /* Changed from center to flex-start to left-align the content */
+  justify-content: flex-start;
+  /* Font size set to 28px for good readability on mobile devices */
+  font-size: 28px;
+  /* Changed from center to left for text alignment */
+  text-align: left;
+  /* Reduced bottom margin to bring title and subtitle closer together */
+  margin-bottom: 8px;
+  /* Initial opacity set to 0 for fade-in animation */
+  opacity: 0;
+  /* Initial transform for slide-up animation */
+  transform: translate(0, 50%);
+  /* Transition duration for smooth animation */
+  transition: 0.6s;
+  /* Using theme color variable for consistent branding */
+  color: var(--theme-color);
+  /* Line height for better readability with multi-line titles */
+  line-height: 1.3;
+}
+
+.publication-title.animation {
+  /* Animation state for the publication title - full opacity and no transform */
+  opacity: 1;
+  /* Reset the transform to show the element in its final position */
+  transform: translate(0, 0);
+}
+
+/* Publication subtitle styling */
+.publication-subtitle {
+  /* Font family for the publication subtitle - changed to match the title font (Montserrat ExtraBold) */
+  font-family: "montserrat-medium";
+  /* Using flex display for better control of the element */
+  display: flex;
+  /* Setting width to 100% to span the full container width */
+  width: 100%;
+  /* Left-align the content */
+  justify-content: flex-start;
+  /* Font size smaller than the title for visual hierarchy */
+  font-size: 20px;
+  /* Left text alignment */
+  text-align: left;
+  /* Adding bottom margin for spacing between subtitle and metadata */
+  margin-bottom: 16px;
+  /* Initial opacity set to 0 for fade-in animation */
+  opacity: 0;
+  /* Initial transform for slide-up animation */
+  transform: translate(0, 16px);
+  /* Transition duration for smooth animation */
+  transition: 0.6s;
+  /* Slight delay after the title animation */
+  transition-delay: 0.1s;
+  /* Using a slightly lighter color than the title for visual hierarchy */
+  color: var(--theme-color);
+  /* Line height for better readability with multi-line subtitles */
+  line-height: 1.3;
+}
+
+.publication-subtitle.animation {
+  /* Animation state for the publication subtitle - full opacity and no transform */
+  opacity: 1;
+  /* Reset the transform to show the element in its final position */
+  transform: translate(0, 0);
+}
+
+/* Publication venue at the top styling */
+.publication-venue {
+  /* Font family for the venue information */
+  font-family: "montserrat-bold";
+  /* Using flex display for better control of the element */
+  display: flex;
+  /* Setting width to 100% to span the full container width */
+  width: 100%;
+  /* Left-align the content */
+  justify-content: flex-start;
+  /* Increased font size for better visibility */
+  font-size: 18px;
+  /* Left text alignment */
+  text-align: left;
+  /* Adding bottom margin for spacing between venue and title */
+  margin-bottom: 12px;
+  /* Initial opacity set to 0 for fade-in animation */
+  opacity: 0;
+  /* Initial transform for slide-up animation */
+  transform: translate(0, 16px);
+  /* Transition duration for smooth animation */
+  transition: 0.6s;
+  /* Using theme color variable for consistent branding */
+  color: #bce5e0;
+  /* Line height for better readability */
+  line-height: 1.2;
+}
+
+.publication-venue.animation {
+  /* Animation state for the venue - full opacity and no transform */
+  opacity: 1;
+  /* Reset the transform to show the element in its final position */
+  transform: translate(0, 0);
+}
+
+/* Publication metadata styling */
+.publication-meta {
+  /* Using flex display with column direction for stacking author information */
+  display: flex;
+  /* Setting flex direction to column to stack child elements vertically */
+  flex-direction: column;
+  /* Adding bottom margin for spacing between metadata and next element */
+  margin-bottom: 32px;
+  /* Changed from center to left for text alignment to match the title */
+  text-align: left;
+}
+
+/* Author profiles container */
+.author-profiles-container {
+  /* Display as flex for vertical alignment */
+  display: flex;
+  /* Stack rows vertically */
+  flex-direction: column;
+  /* Center items horizontally */
+  align-items: center;
+  /* Add spacing between rows */
+  gap: 15px;
+  /* Initial opacity set to 0 for fade-in animation */
+  opacity: 0;
+  /* Initial transform for slide-up animation */
+  transform: translate(0, 16px);
+  /* Transition duration for smooth animation */
+  transition: 0.6s;
+  /* Delay for sequential animation after title */
+  transition-delay: 0.3s;
+  /* Add responsive width */
+  width: 100%;
+  /* Add box-sizing to include padding in width calculation */
+  box-sizing: border-box;
+  /* Add padding for small screens */
+  padding: 0 10px;
+}
+
+/* Animation state for author profiles container */
+.author-profiles-container.animation {
+  /* Full opacity when animated */
+  opacity: 1;
+  /* Reset transform when animated */
+  transform: translate(0, 0);
+}
+
+/* Author row */
+.author-row {
+  /* Display authors in a flex row */
+  display: flex;
+  /* Distribute space evenly between items */
+  justify-content: space-between;
+  /* Ensure items stay on one row */
+  flex-wrap: nowrap;
+  /* Margin to separate rows */
+  margin-bottom: 20px;
+  /* Full width to use available space */
+  width: 100%;
+}
+
+/* Profile content wrapper for better alignment */
+.profile-content {
+  /* Display as flex column for vertical alignment */
+  display: flex;
+  /* Center align content */
+  align-items: center;
+  /* Stack elements vertically */
+  flex-direction: column;
+}
+
+/* Author details container */
+.author-details {
+  /* Display as flex column for vertical stacking */
+  display: flex;
+  /* Center align content */
+  align-items: center;
+  /* Stack elements vertically */
+  flex-direction: column;
+  /* Remove spacing between elements */
+  gap: 0;
+  /* Take full width of parent */
+  width: 100%;
+}
+
+/* Author profile */
+.author-profile {
+  /* Flexible width set via inline style based on number of items */
+  /* display: block to ensure consistent behavior */
+  display: block;
+  /* Ensure proper box sizing */
+  box-sizing: border-box;
+  /* Add padding for spacing between profiles */
+  padding: 0 8px;
+  /* Ensure margin doesn't interfere with width calculation */
+  margin: 0;
+  display: flex;
+  /* Stack image and name vertically */
+  flex-direction: column;
+  /* Center items horizontally */
+  align-items: center;
+  /* Remove right margin since we're using gap in the parent */
+  margin-right: 0;
+  /* Fixed width for mobile */
+  width: 80px;
+  /* Add bottom margin for better spacing when names wrap */
+  margin-bottom: 10px;
+  /* Add padding for better spacing in wrapped layout */
+  padding: 0 5px;
+}
+
+/* Author image container for circular crop */
+.author-image-container {
+  /* Set fixed width and height for circle */
+  width: 60px;
+  /* Set fixed width and height for circle */
+  height: 60px;
+  /* Make container a perfect circle */
+  border-radius: 50%;
+  /* Hide overflow for circular crop */
+  overflow: hidden;
+  /* Add margin below image */
+  margin-bottom: 8px;
+}
+
+/* Author image */
+.author-image {
+  /* Make image fill the container */
+  width: 100%;
+  /* Make image fill the container */
+  height: 100%;
+  /* Maintain aspect ratio while filling container */
+  object-fit: cover;
+}
+
+/* Author name */
+.author-name {
+  /* Center text */
+  text-align: center;
+  /* Font size */
+  font-size: 12px;
+  /* Text can wrap to next line if too long */
+  white-space: normal;
+  /* Force text to wrap if it exceeds width */
+  word-wrap: break-word;
+  /* Ensure width fills parent container */
+  width: 100%;
+  /* Maintain consistent line spacing */
+  line-height: 1.2;
+  /* Ensure good font weight for readability */
+  font-weight: 500;
+  /* Remove bottom margin completely */
+  margin-bottom: 0;
+  /* Keep small margin from image to name */
+  margin-top: 6px;
+}
+
+/* Author affiliation */
+.author-affiliation {
+  /* Center text */
+  text-align: center;
+  /* Smaller font size for affiliation */
+  font-size: 10px;
+  /* Ensure width fills parent container */
+  width: 100%;
+  /* Allow text to wrap to multiple lines */
+  white-space: normal;
+  /* Force text to wrap if it exceeds width */
+  word-wrap: break-word;
+  /* Maintain consistent line spacing */
+  line-height: 1.1;
+  /* Remove bottom margin completely */
+  margin-bottom: 0;
+  /* Add color for distinction */
+  color: #666;
+}
+
+/* Author homepage link */
+.author-homepage {
+  /* Center the link */
+  display: flex;
+  /* Center horizontally */
+  justify-content: center;
+  /* Remove top margin completely */
+  margin-top: 0;
+}
+
+/* Homepage link icon */
+.homepage-icon {
+  /* Set icon size */
+  width: 16px;
+  /* Set icon size */
+  height: 16px;
+  /* Add transition for hover effect */
+  transition: transform 0.2s;
+}
+
+/* Lab member name styling */
+.lab-member {
+  /* Make lab members bold */
+  font-weight: bold;
+  /* Use theme color for lab members */
+  color: var(--theme-color);
+}
+
+/* Original publication authors class - kept for compatibility */
+.publication-authors {
+  /* Hide the original authors display */
+  display: none;
+  /* Original font size */
+  font-size: 16px;
+  /* Original margin */
+  margin-bottom: 8px;
+  /* Original opacity */
+  opacity: 0;
+  /* Original transform */
+  transform: translate(0, 16px);
+  /* Original transition */
+  transition: 0.6s;
+  /* Original delay */
+  transition-delay: 0.1s;
+}
+
+/* Original animation class - kept for compatibility */
+.publication-authors.animation {
+  /* Original opacity when animated */
+  opacity: 1;
+  /* Original transform when animated */
+  transform: translate(0, 0);
+}
+
+/* Research banner image */
 .research_banner {
-    width: 90%;
-    margin-bottom: 40px;
-    opacity: 0;
-    transition: 1.6s;
+  width: 100%;
+  margin-bottom: 24px;
+  opacity: 0;
+  transform: translate(0, 16px);
+  transition: 0.6s;
+  transition-delay: 0.3s;
 }
 
 .research_banner.animation {
-    opacity: 1;
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
+/* Research description */
 .research_description {
-    margin: 30px 0 80px;
-    font-size: 13px;
-    text-align: left;
-    line-height: 160%;
-    opacity: 0;
-    transform: translate(0, 30px);
-    transition: .6s;
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 32px;
+  opacity: 0;
+  transform: translate(0, 16px);
+  transition: 0.6s;
+  transition-delay: 0.4s;
 }
 
 .research_description.animation {
-    opacity: 1;
-    transform: translate(0, 0);
+  opacity: 1;
+  transform: translate(0, 0);
 }
 
-.research {
-    margin-bottom: 100px;
+/* Publication materials */
+.publication-materials {
+  /* Full width to match container */
+  width: 100%;
+  /* Using flex display for item layout */
+  display: flex;
+  /* Center items vertically */
+  align-items: center;
+  /* Add some spacing below this section */
+  margin-bottom: 32px;
+  /* Gap */
+  gap: 10px;
+
+  /* Initial state for animation */
+  opacity: 0;
+  transform: translate(0, 16px);
+  /* Smooth transition for animation */
+  transition: 0.6s;
+}
+
+.publication-materials.animation {
+  /* Animation end state */
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* Unified button style for PDF and DOI */
+.material-button {
+  /* Button-like appearance */
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 6px;
+  /* White background */
+  background-color: white;
+  /* Green border using theme color */
+  border: 1.5px solid var(--theme-color);
+  /* Black text */
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  gap: 8px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.material-button:hover {
+  /* Hover state */
+  transform: translateY(-2px);
+}
+
+.material-button:active {
+  /* Active state */
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Button icons */
+.pdf-icon,
+.doi-icon {
+  /* Icon styling */
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .material-button {
+    /* Smaller padding on mobile */
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+
+  .pdf-icon,
+  .doi-icon {
+    /* Slightly smaller icons on mobile */
+    width: 14px;
+    height: 14px;
+  }
+}
+
+/* Loading and error states */
+.loading,
+.not-found {
+  text-align: center;
+  padding: 40px 0;
+  font-size: 18px;
+  color: #666;
+}
+
+/* Responsive styles for extra small screens */
+@media (max-width: 480px) {
+  /* Container width for extra small screens */
+  .page {
+    /* Full width with padding for extra small screens */
+    width: 100%;
+    /* Add padding for better spacing */
+    padding: 0 10px;
+  }
+
+  /* Responsive title size for extra small screens */
+  .publication-title {
+    /* Reduced font size for extra small screens */
+    font-size: 24px;
+  }
+
+  /* Responsive subtitle size for extra small screens */
+  .publication-subtitle {
+    /* Reduced font size for extra small screens */
+    font-size: 18px;
+    /* Reduced bottom margin for tighter spacing */
+    margin-bottom: 12px;
+  }
+
+  /* Responsive venue size for extra small screens */
+  .publication-venue {
+    /* Reduced font size for extra small screens */
+    font-size: 16px;
+    /* Reduced bottom margin for tighter spacing */
+    margin-bottom: 8px;
+  }
+
+  /* Mobile-specific styles for author rows */
+  .author-row {
+    /* Allow wrapping on mobile to create 2 items per row */
+    flex-wrap: wrap;
+    /* Add appropriate gap between items */
+    gap: 10px;
+    /* Ensure space is evenly distributed */
+    justify-content: space-between;
+  }
+
+  /* Mobile-specific styles for author profiles */
+  .author-profile {
+    /* Override inline styles for mobile - 2 items per row */
+    width: 48% !important;
+    /* Add bottom margin for spacing between rows */
+    margin-bottom: 15px;
+  }
+
+  /* Responsive author profiles container for extra small screens */
+  .author-profiles-container {
+    /* Add padding to the container */
+    padding: 0 5px;
+  }
+
+  /* Responsive author name for extra small screens */
+  .author-name {
+    /* Slightly reduced font size for extra small screens */
+    font-size: 11px;
+    /* Reduced margin for tighter spacing */
+    margin-top: 6px;
+    margin-bottom: 1px;
+  }
+
+  /* Responsive author affiliation for extra small screens */
+  .author-affiliation {
+    /* Reduced font size for extra small screens */
+    font-size: 9px;
+  }
+
+  /* Responsive author image for extra small screens */
+  .author-image-container {
+    /* Reduced size for author images on extra small screens */
+    width: 50px;
+    /* Reduced size for author images on extra small screens */
+    height: 50px;
+  }
+
+  /* Responsive section title for extra small screens */
+  .section-title {
+    /* Match mobile font size to .publication-title */
+    font-size: 22px;
+    margin-top: 36px;
+    margin-bottom: 8px;
+  }
+}
+
+/* Responsive styles for small screens */
+@media (min-width: 481px) and (max-width: 799px) {
+  /* Container width for small screens */
+  .page {
+    /* Adjusted width for small screens */
+    width: 100%;
+    /* Maximum width to prevent excessive spreading */
+    max-width: 600px;
+    /* Add padding for better spacing */
+    padding: 0 15px;
+    /* Ensure proper box-sizing */
+    box-sizing: border-box;
+  }
+
+  /* Responsive author row for small screens */
+  .author-row {
+    /* Adjusted gap between authors on small screens */
+    gap: 15px;
+    /* Ensure proper wrapping on small screens */
+    flex-wrap: wrap;
+    /* Ensure proper justification on small screens */
+    justify-content: center;
+  }
+
+  /* Responsive author profile for small screens */
+  .author-profile {
+    /* Adjusted width for author profiles on small screens */
+    width: 90px;
+    /* Add padding for better spacing in wrapped layout */
+    padding: 0 3px;
+  }
+
+  /* Responsive author name for small screens */
+  .author-name {
+    /* Adjusted font size for small screens */
+    font-size: 12px;
+    /* Match width to the profile width */
+    width: 90px;
+  }
+
+  /* Responsive author affiliation for small screens */
+  .author-affiliation {
+    /* Adjusted font size for small screens */
+    font-size: 10px;
+    /* Match width to the profile width */
+    width: 90px;
+  }
+
+  /* Responsive author image for small screens */
+  .author-image-container {
+    /* Adjusted size for author images on small screens */
+    width: 60px;
+    /* Adjusted size for author images on small screens */
+    height: 60px;
+  }
+}
+
+/* Responsive styles for medium screens */
+@media (min-width: 800px) {
+  /* Container width for medium screens */
+  .page {
+    /* Increased width for better readability on medium screens */
+    width: 720px;
+  }
+
+  /* Responsive title size for medium screens */
+  .publication-title {
+    /* Larger font size for better visibility on medium screens */
+    font-size: 32px;
+  }
+
+  /* Responsive subtitle size for medium screens */
+  .publication-subtitle {
+    /* Adjusted font size for subtitle on medium screens */
+    font-size: 24px;
+    /* Increased bottom margin for better spacing */
+    margin-bottom: 28px;
+  }
+
+  /* Adjusted metadata spacing for medium screens */
+  .publication-meta {
+    /* Increased bottom margin for better spacing between elements */
+    margin-bottom: 40px;
+  }
+
+  /* Medium screen styles for author profiles container */
+  .author-profiles-container {
+    /* Add some padding for better spacing */
+    padding: 0 10px;
+    /* Center the container */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Medium screen styles for author rows */
+  .author-row {
+    /* Keep items in a single row */
+    flex-wrap: nowrap;
+    /* Add space between rows */
+    margin-bottom: 25px;
+    /* Distribute space between items */
+    justify-content: space-between;
+  }
+
+  /* Medium screen styles for author profiles */
+  .author-profile {
+    /* Width is controlled via inline style, no need to override */
+    /* Add adequate padding for spacing */
+    padding: 0 10px;
+  }
+
+  /* Responsive author image size for medium screens */
+  .author-image-container {
+    /* Increased size for author images on medium screens */
+    width: 70px;
+    /* Increased size for author images on medium screens */
+    height: 70px;
+    /* Add spacing between image and text */
+    margin-bottom: 12px;
+  }
+
+  /* Responsive author name size for medium screens */
+  .author-name {
+    /* Increased font size for better readability on medium screens */
+    font-size: 14px;
+    /* Better line height for readability */
+    line-height: 1.3;
+    /* Add spacing between elements */
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+
+  /* Responsive author affiliation for medium screens */
+  .author-affiliation {
+    /* Increased font size for better readability on medium screens */
+    font-size: 11px;
+    /* Better line height for wrapped text */
+    line-height: 1.2;
+  }
+
+  /* Responsive homepage icon for medium screens */
+  .homepage-icon {
+    /* Increased size for better visibility on medium screens */
+    width: 18px;
+    /* Increased size for better visibility on medium screens */
+    height: 18px;
+  }
+
+  /* Responsive author text size for medium screens - kept for compatibility */
+  .publication-authors {
+    /* Increased font size for better readability */
+    font-size: 18px;
+  }
+
+  /* Responsive venue text size for medium screens */
+  .publication-venue {
+    /* Increased font size for better readability on medium screens */
+    font-size: 22px;
+    /* Increased bottom margin for better spacing on larger screens */
+    margin-bottom: 14px;
+  }
+
+  /* Responsive description text size and spacing for medium screens */
+  .research_description {
+    /* Increased font size for better readability */
+    font-size: 16px;
+    /* Increased bottom margin for better spacing */
+    margin-bottom: 40px;
+  }
+
+  /* Responsive section title for medium screens */
+  .section-title {
+    /* Match large screen font size to .publication-title */
+    font-size: 32px;
+    margin-top: 36px;
+    margin-bottom: 16px;
+  }
+}
+
+/* Large screen styles */
+@media (min-width: 1200px) {
+  /* Container width for large screens */
+  .page {
+    /* Increased width for optimal readability on large screens */
+    width: 960px;
+  }
+
+  /* Responsive title size for large screens */
+  .publication-title {
+    /* Larger font size for better visibility on large screens */
+    font-size: 36px;
+  }
+
+  /* Responsive subtitle size for large screens */
+  .publication-subtitle {
+    /* Adjusted font size for subtitle on large screens */
+    font-size: 26px;
+    /* Increased bottom margin for better spacing */
+    margin-bottom: 32px;
+  }
+
+  /* Responsive banner size and positioning for large screens */
+  .research_banner {
+    /* Maximum width to prevent the image from becoming too large */
+    max-width: 800px;
+    /* Center the banner horizontally */
+    margin-left: auto;
+    /* Center the banner horizontally */
+    margin-right: auto;
+  }
+
+  /* Large screen styles for author profiles container */
+  .author-profiles-container {
+    /* Add spacing to the container */
+    padding: 0 15px;
+    /* Maximum width to prevent excessive spreading */
+    max-width: 960px;
+    /* Center the container horizontally */
+    margin-left: auto;
+    /* Center the container horizontally */
+    margin-right: auto;
+  }
+
+  /* Large screen styles for author rows */
+  .author-row {
+    /* Keep items in a single row */
+    flex-wrap: nowrap;
+    /* Add space between rows */
+    margin-bottom: 30px;
+    /* Distribute space evenly between items */
+    justify-content: space-between;
+  }
+
+  /* Large screen styles for author profiles */
+  .author-profile {
+    /* Width is controlled via inline style, no need to override */
+    /* Add adequate padding for better spacing between profiles */
+    padding: 0 15px;
+    /* Box sizing properly accounts for padding */
+    box-sizing: border-box;
+  }
+
+  /* Responsive author image size for large screens */
+  .author-image-container {
+    /* Increased size for author images on large screens */
+    width: 80px;
+    /* Increased size for author images on large screens */
+    height: 80px;
+    /* Increased bottom margin for better spacing */
+    margin-bottom: 12px;
+  }
+
+  /* Responsive author name size for large screens */
+  .author-name {
+    /* Increased font size for better readability on large screens */
+    font-size: 16px;
+    /* Increased width to accommodate longer names */
+    width: 140px;
+    /* Reduced height for tighter spacing on large screens */
+    min-height: 26px;
+    /* Improved line height for better readability */
+    line-height: 1.3;
+    /* Maintain tight bottom margin */
+    margin-bottom: 2px;
+  }
+
+  /* Responsive author affiliation for large screens */
+  .author-affiliation {
+    /* Increased font size for better readability on large screens */
+    font-size: 12px;
+    /* Increased width to accommodate longer affiliations */
+    width: 140px;
+    /* Reduced height for tighter spacing on large screens */
+    min-height: 20px;
+    /* Improved line height for better readability */
+    line-height: 1.2;
+    /* Maintain tight bottom margin */
+    margin-bottom: 2px;
+  }
+
+  /* Responsive homepage icon for large screens */
+  .homepage-icon {
+    /* Increased size for better visibility on large screens */
+    width: 20px;
+    /* Increased size for better visibility on large screens */
+    height: 20px;
+    /* Reduced margin for tighter spacing */
+    margin-top: 3px;
+  }
+
+  /* Responsive description width and positioning for large screens */
+  .research_description {
+    /* Maximum width for optimal readability */
+    max-width: 800px;
+    /* Center the description horizontally */
+    margin-left: auto;
+    /* Center the description horizontally */
+    margin-right: auto;
+  }
+
+  /* Responsive section title for large screens */
+  .section-title {
+    /* Match large screen font size to .publication-title */
+    font-size: 36px;
+    margin-top: 36px;
+    margin-bottom: 16px;
+  }
+}
+
+.award-badge {
+  /* Bright yellow background for award badge */
+  background-color: rgb(255, 243, 131);
+  /* Fully rounded container for pill shape */
+  border-radius: 9999px;
+  /* Small vertical and horizontal padding for compact badge */
+  padding: 1px 12px; /* Increased horizontal padding for better centering */
+  /* Increased margin to the left for more space from venue */
+  margin-left: 12px;
+  /* Smaller font size for badge text */
+  font-size: 0.7em;
+  /* Bold text for emphasis */
+  font-weight: bold;
+  /* Inline-flex for proper positioning and centering */
+  display: inline-flex;
+  /* Align items vertically center */
+  align-items: center;
+  /* Justify content horizontally center */
+  justify-content: center;
+  /* Set text color to black for better readability */
+  color: #666;
+  /* Align vertically with text */
+  vertical-align: middle;
+}
+
+/* Responsive video container: 중앙 정렬 및 애니메이션 효과 */
+.responsive-video-container {
+  /* Use flex to center the video horizontally */
+  display: flex;
+  justify-content: center;
+  /* Add vertical margin for spacing */
+  margin: 32px 0;
+  /* --- 애니메이션 효과 추가: 주요 요소와 동일하게 --- */
+  opacity: 0; /* 처음엔 투명하게 */
+  transform: translate(0, 32px); /* 아래에서 올라오게 */
+  transition: 0.6s; /* 부드러운 전환 */
+}
+
+.responsive-video-container.animation {
+  /* 애니메이션이 활성화되면 완전히 보이고 원래 위치로 */
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.responsive-video {
+  /* Make video take full width of its container */
+  width: 100%;
+  /* Maintain aspect ratio */
+  height: auto;
+  /* Rounded corners for modern look */
+  border-radius: 12px;
+  /* Subtle shadow for depth */
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+  /* Black background for letterboxing */
+  background: #000;
+}
+
+@media (max-width: 900px) {
+  .responsive-video {
+    max-width: 100vw;
+  }
+  .responsive-video-container {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .responsive-video {
+    max-width: 100vw;
+    border-radius: 8px;
+  }
+  .responsive-video-container {
+    margin: 12px 0;
+  }
+}
+
+/* Section title for Abstract and similar sections */
+.section-title {
+  /* Use the same font as publication-title for consistency */
+  font-family: "montserrat-medium";
+  /* Use flex for alignment control */
+  display: flex;
+  /* Full width to align with other titles */
+  width: 100%;
+  /* Left align content */
+  justify-content: flex-start;
+  /* Default font size for normal screens (matches .publication-title) */
+  font-size: 24px;
+  /* Left text alignment */
+  text-align: left;
+  /* Top margin for spacing from previous element */
+  margin-top: 28px;
+  /* Bottom margin for spacing before content */
+  margin-bottom: 12px;
+  /* Use requested color for section title */
+  color: var(--theme-color);
+  /* Line height for readability */
+  line-height: 1.3;
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    /* Mobile: match .publication-title font size */
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 800px) {
+  .section-title {
+    /* Medium screens: match .publication-title font size */
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-title {
+    /* Large screens: match .publication-title font size */
+    font-size: 32px;
+  }
+}
+
+/* Make the horizontal line image always take 100% width */
+img[src$="/icons/long-line.svg"] {
+  /* Force the image to span the full width of its container */
+  width: 100%;
+  /* Remove any default max-width restriction */
+  max-width: 100%;
+  /* Display as block to remove extra space below image */
+  display: block;
+  /* Center the image horizontally if container is wider */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Abstract text below the Abstract section-title */
+.publication-abstract {
+  /* Use a readable font family, matching body or subtitle */
+  font-family: "montserrat-medium", Arial, sans-serif;
+  /* Left align the abstract text for readability */
+  text-align: left;
+  /* Font size for good readability on most screens (2px smaller) */
+  font-size: 16px;
+  /* Line height for comfortable reading */
+  line-height: 1.7;
+  /* Top margin to separate from section-title */
+  margin-top: 12px;
+  /* Bottom margin for spacing from next section */
+  margin-bottom: 28px;
+  /* Slightly muted color for body text */
+  color: #333;
+  /* Responsive width */
+  width: 100%;
+  /* Prevent overflow on small screens */
+  word-break: break-word;
+}
+
+@media (max-width: 480px) {
+  .publication-abstract {
+    /* Slightly smaller font size for mobile (2px smaller) */
+    font-size: 13px;
+    /* Reduce bottom margin for tighter layout */
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 800px) {
+  .publication-abstract {
+    /* Slightly larger font size for large screens (2px smaller) */
+    font-size: 18px;
+    /* Increase bottom margin for more space */
+    margin-bottom: 32px;
+  }
+}
+
+/* Container for the abstract section (title + text) */
+.section-container {
+  /* Full width to align with main content */
+  width: 100%;
+  /* Small horizontal padding for visual comfort */
+  padding-left: 12px;
+  padding-right: 12px;
+  /* Use border-box to include padding in width calculation */
+  box-sizing: border-box;
+  /* --- 애니메이션 효과 추가: 다른 주요 요소와 동일하게 --- */
+  opacity: 0; /* 처음엔 투명하게 */
+  transform: translate(0, 32px); /* 아래에서 올라오게 */
+  transition: 0.6s; /* 부드러운 전환 */
+  /* 필요시 delay 조정 가능 */
+}
+
+.section-container.animation {
+  /* 애니메이션이 활성화되면 완전히 보이고 원래 위치로 */
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+@media (max-width: 480px) {
+  .section-container {
+    /* Even smaller padding on mobile for tight layout */
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+@media (min-width: 800px) {
+  .section-container {
+    /* Slightly more padding on large screens for balance */
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+/* BibTeX code block container for citation section */
+.bibtex-container {
+  /* Light gray background for code block */
+  background: #f5f5f5;
+  /* Rounded corners for modern look */
+  border-radius: 8px;
+  /* Use a monospaced font for code readability */
+  font-family: "Fira Mono", "Consolas", "Menlo", "Monaco", "Liberation Mono",
+    monospace;
+  /* Slightly smaller font size for code */
+  font-size: 15px;
+  /* Padding for comfortable reading and copy-paste */
+  padding: 18px 16px;
+  /* Subtle border for separation */
+  border: 1px solid #e0e0e0;
+  /* Force line breaks for long lines and unbreakable strings */
+  white-space: pre-wrap !important;
+  word-break: break-all !important;
+  overflow-wrap: anywhere !important;
+  /* Margin above and below for spacing from other sections */
+  margin: 16px 0 24px 0;
+  /* Preserve whitespace and line breaks */
+  white-space: pre;
+  /* Text color for good contrast */
+  color: #222;
+  /* Box shadow for subtle elevation */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  /* Text align left */
+  text-align: left;
+}
+
+@media (max-width: 480px) {
+  .bibtex-container {
+    /* Slightly smaller font and padding for mobile */
+    font-size: 13px;
+    padding: 12px 6px;
+    border-radius: 6px;
+  }
+}
+
+/* Copied! message above the BibTeX container */
+.bibtex-copied-message {
+  /* Green color for success feedback */
+  color: #22c55e;
+  /* Bold for visibility */
+  font-weight: 600;
+  /* Slightly larger font for emphasis */
+  font-size: 16px;
+  /* Add check emoji before the text */
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  /* Margin below for spacing from the code block */
+  margin-bottom: 8px;
+  /* Use a modern, readable font */
+  font-family: "Montserrat", Arial, sans-serif;
+}
+.bibtex-copied-message::before {
+  content: "✅";
+  font-size: 18px;
+  margin-right: 2px;
 }

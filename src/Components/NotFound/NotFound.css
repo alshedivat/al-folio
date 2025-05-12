@@ -1,0 +1,110 @@
+/* NotFound.css - Styling for the 404 error page */
+
+/* Container for the entire 404 error page */
+.not-found-container {
+  /* Center the content both horizontally and vertically */
+  display: flex;
+  /* Arrange elements in a column */
+  flex-direction: column;
+  /* Center items horizontally */
+  align-items: center;
+  /* Center items vertically */
+  justify-content: center;
+  /* Take up the full height of the page */
+  min-height: 80vh;
+  /* Add padding for smaller screens */
+  padding: 20px;
+  /* Set text alignment to center */
+  text-align: center;
+}
+
+/* Style for the 404 error code */
+.error-code {
+  /* Use theme color for the error code */
+  color: var(--theme-color);
+  /* Large font size for emphasis */
+  font-size: 120px;
+  /* Remove default margin */
+  margin: 0;
+  /* Add bottom margin for spacing */
+  margin-bottom: 10px;
+  /* Font weight for emphasis */
+  font-weight: bold;
+  /* Add a subtle text shadow for depth */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the error message */
+.error-message {
+  /* Dark color for readability */
+  color: #333;
+  /* Appropriate font size */
+  font-size: 32px;
+  /* Add spacing between elements */
+  margin-bottom: 20px;
+  /* Font weight for emphasis */
+  font-weight: 500;
+}
+
+/* Style for the error description */
+.error-description {
+  /* Lighter color for secondary text */
+  color: #666;
+  /* Appropriate font size */
+  font-size: 18px;
+  /* Add spacing between elements */
+  margin-bottom: 30px;
+  /* Maximum width for better readability */
+  max-width: 500px;
+  /* Line height for better readability */
+  line-height: 1.5;
+}
+
+/* Style for the home link button */
+.home-link {
+  /* Use theme color for background */
+  background-color: var(--theme-color);
+  /* White text for contrast */
+  color: white;
+  /* Remove underline from link */
+  text-decoration: none;
+  /* Add padding for button appearance */
+  padding: 12px 24px;
+  /* Round the corners */
+  border-radius: 4px;
+  /* Add smooth transition for hover effect */
+  transition: background-color 0.3s;
+  /* Font size for button text */
+  font-size: 16px;
+  /* Font weight for emphasis */
+  font-weight: 500;
+}
+
+/* Hover effect for the home link button */
+.home-link:hover {
+  /* Darken the background color on hover */
+  background-color: #5a8c97;
+  /* Add box shadow for depth */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+  /* Adjust error code size for mobile */
+  .error-code {
+    /* Smaller font size on mobile */
+    font-size: 80px;
+  }
+  
+  /* Adjust error message size for mobile */
+  .error-message {
+    /* Smaller font size on mobile */
+    font-size: 24px;
+  }
+  
+  /* Adjust error description size for mobile */
+  .error-description {
+    /* Smaller font size on mobile */
+    font-size: 16px;
+  }
+}
