@@ -1,28 +1,7 @@
-# Table of Contents
+# Installing and Deploying
 
 <!--ts-->
-
-- [Table of Contents](#table-of-contents)
-- [Installing and Deploying](#installing-and-deploying)
-  - [Recommended Approach](#recommended-approach)
-  - [Local setup on Windows](#local-setup-on-windows)
-  - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
-    - [Build your own docker image](#build-your-own-docker-image)
-    - [Have Bugs on Docker Image?](#have-bugs-on-docker-image)
-  - [Local Setup with Development Containers](#local-setup-with-development-containers)
-  - [Local Setup (Legacy, no longer supported)](#local-setup-legacy-no-longer-supported)
-  - [Deployment](#deployment)
-    - [For personal and organization webpages](#for-personal-and-organization-webpages)
-    - [For project pages](#for-project-pages)
-    - [Enabling automatic deployment](#enabling-automatic-deployment)
-    - [Manual deployment to GitHub Pages](#manual-deployment-to-github-pages)
-    - [Deploy on <a href="https://www.netlify.com/" rel="nofollow">Netlify</a>](https://www.netlify.com/)
-    - [Deployment to another hosting server (non GitHub Pages)](#deployment-to-another-hosting-server-non-github-pages)
-    - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
-  - [Upgrading from a previous version](#upgrading-from-a-previous-version)
-  <!--te-->
-
-# Installing and Deploying
+<!--te-->
 
 ## Recommended Approach
 
