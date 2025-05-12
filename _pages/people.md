@@ -1,6 +1,6 @@
 ---
 layout: page
-title: lab members
+title: people
 permalink: /labmembers/
 # description: Lab Members
 nav: true
