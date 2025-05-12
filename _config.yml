@@ -7,7 +7,7 @@ first_name:
 middle_name:
 last_name:
 email: yani.ioannou@ucalgary.ca
-description: 
+description: Calgary Machine Learning Lab
 long_description: "The Calgary Machine Learning Lab is a research group led by Yani Ioannou within the Schulich School of Engineering at the University of Calgary. The lab has a research focus on improving Deep Neural Network (DNN) training and models, in particular for computer vision applications. Topics of research include: Sparse Neural Network Training, Bias and Robustness of Efficient Deep Learning methods and Domain-Agnostic Self-Supervised Learning. We collaborate with other research groups within the university with the Calgary Artificial Intelligence Research Group, and broader, on applying machine learning and computer vision to novel problems."
 territorial_acknowledgement: We would like to acknowledge the traditional territories of the People of the Treaty 7 region in Southern Alberta which includes the Blackfoot Confederacy (comprising the Siksika, Piikani, and Kainai First Nations), as well as the Tsuut’ina First Nation, and the Stoney Nakoda (including the Chiniki, Bearspaw, and Wesley First Nations). The City of Calgary is also home to Métis Nation of Alberta, Region 3.
 footer_text: >
