@@ -199,6 +199,8 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  books:
+    output: true
   news:
     defaults:
       layout: post
@@ -210,6 +212,10 @@ collections:
   places:
     output: true
     permalink: /places/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+  
 
 announcements:
   enabled: true
