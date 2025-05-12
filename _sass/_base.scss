@@ -658,6 +658,169 @@ footer.sticky-bottom {
   }
 }
 
+// Funding
+
+.funding {
+  a {
+    text-decoration: none;
+  }
+
+  .card {
+    background-color: var(--global-bg-color);
+    img {
+      width: 25em;
+      height: auto;
+    }
+    .card-title {
+      color: var(--global-text-color)
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 0.5em;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .grid-item {
+    width: auto;
+    margin-bottom: 0.5em;
+  }
+}
+
+// People
+
+.people {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    box-shadow: none;
+    background-color: var(--global-bg-color);
+    img {
+      width: 100%;
+    }
+    .card-title {
+      text-align: center;
+      color: var(--global-text-color)
+    }
+    .card-icons {
+      text-align: center;
+      color: var(--global-text-color);
+      a {
+        i::before {
+          color: var(--global-text-color);
+          transition-property: all 0.2s ease-in-out;
+        }
+        &:hover {
+          i::before {
+            color: var(--global-theme-color);
+          }
+        }
+      }
+    }
+    .card-text {
+      text-align: center;
+      font-size: larger
+    }
+    .card-pronouns {
+      text-align: center;
+      font-size: larger;
+    }
+    .icon {
+      font-size: larger;
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 0.5em;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .grid-item {
+    width: 15em;
+    margin-bottom: 0.5em;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
+
+  h2.category {
+    color: var(--global-text-color-light);
+    border-bottom: 2px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
+
+
+// Places
+
+.places {
+  a {
+    text-decoration: none;
+
+    &:hover {
+      .card-title {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .card {
+    box-shadow: none;
+    background-color: var(--global-bg-color);
+    img {
+      width: 100%;
+    }
+    text-align: right;
+    .card-title {
+      color: var(--global-text-color)
+    }
+  }
+
+  .card-item {
+    width: auto;
+    margin-bottom: 0.5em;
+
+    .row {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .grid-item {
+    width: auto;
+    margin-bottom: 0.5em;
+  }
+
+  h2.category {
+    color: var(--global-fg-color);
+    border-bottom: 2px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
+
 // Publications
 
 .publications {
