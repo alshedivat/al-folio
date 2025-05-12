@@ -17,6 +17,23 @@
     "web": false
   },
   {
+    "title": "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models",
+    "author": "Hyunseung Lim, Dasom Choi, Hwajung Hong",
+    "affiliation": "KAIST, KAIST, KAIST",
+    "venue": "FAccT 2025 (to appear)",
+    "award": "",
+    "year": 2025,
+    "field": ["hai"],
+    "type": "conference",
+    "pdf": "",
+    "doi": "",
+    "bibtex": "",
+    "recording": "",
+    "video": "",
+    "abstract": "",
+    "web": false
+  },
+  {
     "title": "Thinking Outside the Data Box: Investigating the Potential of Data Manipulation for Self-Reflection on Personal Data",
     "author": "Yeohyun Jung, Kwangyoung Lee, Hwajung Hong",
     "venue": "DIS 2025 (to appear)",
@@ -69,11 +86,13 @@
     "year": 2025,
     "field": ["health"],
     "type": "conference",
-    "pdf": "",
-    "doi": "",
-    "bibtex": "",
+    "pdf": "kwangyoung2025",
+    "doi": "https://dl.acm.org/doi/10.1145/3706598.3713404",
+    "bibtex": "kwangyoung2025",
     "recording": "",
-    "video": ""
+    "video": "",
+    "abstract": "Personal informatics helps individuals understand themselves, but it often struggles to capture non-conscious behaviors such as stress responses, habitual actions, and communication styles. Incorporating social aspects into PI systems offers new perspectives on self-understanding, yet prior research has largely focused on unidirectional approaches that center benefits on the primary tracker. To address this gap, we introduce the Peerspective study, which explores reciprocal tracking—a bidirectional practice where two participants observe and provide feedback to each other, fostering mutual self-understanding and collaboration. In a week-long study with eight peer dyads, we explored how reciprocal observation and feedback influence self-awareness and interpersonal relationships. Our findings reveal that reciprocal tracking not only helps participants uncover blind spots and expand their self-concepts but also enhances empathy, deepens communication, and promotes sustained engagement. We discuss key facilitators and challenges of integrating reciprocity into personal informatics systems and offer design considerations for supporting collaborative tracking in everyday contexts.",
+    "web": true
   },
   {
     "title": "Automatically Evaluating the Paper Reviewing Capability of Large Language Models",
