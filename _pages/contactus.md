@@ -30,6 +30,6 @@ Please reach out by e-mail directly.
 
 <div class="social">
     <div class="contact-icons">
-    {% include social.html %}
+    {% include social.liquid %}
     </div>
 </div>

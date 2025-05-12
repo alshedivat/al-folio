@@ -9,7 +9,7 @@ category: The Canadian Rockies
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/banffphotos/peytolakepano.jpg" title="Peyto Lake, Banff National Park" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/banffphotos/peytolakepano.jpg" title="Peyto Lake, Banff National Park" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -34,16 +34,16 @@ The [Canadian Rocky Mountains](https://en.wikipedia.org/wiki/Canadian_Rockies) a
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/banffphotos/lakelouise.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/banffphotos/lakelouise.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/banffphotos/IMG_6911-HDR.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/banffphotos/IMG_6911-HDR.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/banffphotos/IMG_6852.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/banffphotos/IMG_6852.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/banffphotos/IMG_6898.jpg" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/banffphotos/IMG_6898.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

@@ -19,7 +19,7 @@ horizontal: false
   <!-- Generate cards for each project -->
   <div class="grid">
     {%- for place in sorted_places -%}
-      {% include places.html %}
+      {% include places.liquid %}
     {%- endfor %}
   </div>
   {% endfor %}
@@ -30,7 +30,7 @@ horizontal: false
   <!-- Generate cards for each project -->
   <div class="grid">
     {%- for place in sorted_places -%}
-      {% include places.html %}
+      {% include places.liquid %}
     {%- endfor %}
   </div>
 {%- endif -%}

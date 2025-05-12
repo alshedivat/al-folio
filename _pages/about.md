@@ -9,10 +9,11 @@ profile:
   align: left
   image: ucmllogo-text.svg
   name: Calgary ML Lab
+  image_circular: false # crops the image to make it circular
 
-news: true  # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 
@@ -21,7 +22,7 @@ is a research group led by [Yani Ioannou](https://yani.ai) within the [Schulich 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/labphotos/neurips2024.jpg" title="NeurIPS 2024" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/labphotos/neurips2024.jpg" title="NeurIPS 2024" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

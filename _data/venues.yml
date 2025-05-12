@@ -2,10 +2,12 @@
     url: https://openaccess.thecvf.com/menu
 "NeurIPS":
     url: https://proceedings.neurips.cc
+    color: "#00369f"
 "NeurIPS Workshops":
     url: https://proceedings.neurips.cc
 "ICLR":
     url: https://iclr.cc
+    color: "#009f36"
 "ICLR Workshops":
     url: https://iclr.cc
 "ICML":

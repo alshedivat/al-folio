@@ -8,7 +8,7 @@ category: Calgary
 ---
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/calgaryphotos/calgaryskylineveryclose.jpg" title="Calgary Skyline" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/calgaryphotos/calgaryskylineveryclose.jpg" title="Calgary Skyline" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -17,19 +17,19 @@ category: Calgary
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/calgaryphotos/peacebridgenight.jpg" title="Peace Bridge at Night" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/calgaryphotos/peacebridgenight.jpg" title="Peace Bridge at Night" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Peace Bridge at Night
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/calgaryphotos/princesislandpark.jpg" title="Prince's Island Park" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/calgaryphotos/princesislandpark.jpg" title="Prince's Island Park" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Prince's Island Park
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/calgaryphotos/calgarybowhead.jpg" title="Wonderland Sculpture" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/calgaryphotos/calgarybowhead.jpg" title="Wonderland Sculpture" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Wonderland Sculpture at Bow Tower
         </div>
@@ -54,10 +54,10 @@ Canada's **3rd most diverse** and **4th largest population centre**, [Calgary](h
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/calgaryphotos/calgarycentrallibraryoutside.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/calgaryphotos/calgarycentrallibraryoutside.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/calgaryphotos/calgarycentrallibraryportraitinside.jpg" title="Calgary Central Library Interior" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/calgaryphotos/calgarycentrallibraryportraitinside.jpg" title="Calgary Central Library Interior" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -68,19 +68,19 @@ With about 30% of the city's population being born outside Canada and 140 spoken
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/calgaryphotos/calgaryrooftopskyline.jpg" title="Rooftop Views of Downtown Calgary" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/calgaryphotos/calgaryrooftopskyline.jpg" title="Rooftop Views of Downtown Calgary" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Rooftop Views of Downtown Calgary
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/calgaryphotos/calgarytransit.jpg" title="Calgary C-Train at Stampede Station" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/calgaryphotos/calgarytransit.jpg" title="Calgary C-Train at Stampede Station" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Calgary C-Train at Stampede Station
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/calgaryphotos/calgaryalfornocafe.jpg" title="Al-Forno Cafe" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/calgaryphotos/calgaryalfornocafe.jpg" title="Al-Forno Cafe" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
             Al-Forno Cafe
         </div>
