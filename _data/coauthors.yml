@@ -1,32 +1,27 @@
-"Mohammed":
+"mohammed":
   - firstname: ["Mohd", "Adnan", "A."]
-    lastname: "Mohammed"
-    url: https://adnan1306.github.io
-"Adnan":
+    url: /labmembers/
+"adnan":
   - firstname: ["Mohd", "Mohammed", "M."]
-    lastname: "Adnan"
-    url: https://adnan1306.github.io
-"Golubeva":
-  - firstname: ["Anna", "A."]
-    lastname: "Golubeva"
-    url: https://annagolubeva.github.io/
-"Lasby":
+    url: /labmembers/
+"lasby":
   - firstname: ["Mike", "Michael", "M."]
-    lastname: "Lasby"
-    url: https://github.com/mklasby
-"Mohammadshahi":
+    url: /labmembers/
+"mohammadshahi":
   - firstname: ["Aida", "A."]
-    lastname: "Mohammadshahi"
-    url: https://github.com/aidamohammadshahi
-"Jain":
+    url: /labmembers/
+"jain":
   - firstname: ["Rohan", "R."]
-    lastname: "Jain"
-    url: https://github.com/JainRohan
-"Feng":
+    url: /labmembers/
+"feng":
   - firstname: ["Yufan", "Y."]
-    lastname: "Feng"
-    url: https://github.com/JoycexxZ
-"Pote":
+    url: /labmembers/
+"pote":
   - firstname: ["Tejas", "T."]
-    lastname: "Pote"
-    url: https://github.com/TejasPote
+    url: /labmembers/
+"ganaie":
+  - firstname: ["Muhammad Athar", "Muhammad", "Athar", "A."]
+    url: /labmembers/
+"uyuk":
+  - firstname: ["Cem", "C."]
+    url: /labmembers/
