@@ -25,8 +25,7 @@ $max-content-width: {{ site.max_width }};
 ;
 
 * {
-font-family: proxima-nova, "Proxima Nova", "Raleway", Arial, Helvetica;
-font-weight: 400;
+font-family: "proxima-nova", "Proxima Nova", Arial, Helvetica, sans-serif;
 };
 
 img.navbar {
@@ -42,7 +41,6 @@ img.title {
 };
 
 svg.ucalgary-outline-color {
-  font-family: proxima-nova, "Proxima Nova", "Raleway", Arial, Helvetica;
   font-weight: 800;
 }
 

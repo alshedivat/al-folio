@@ -463,6 +463,9 @@ enable_video_embedding: false # enables video embedding for bibtex entries. If f
 # Integrity hashes not provided by the libraries were generated using https://www.srihash.org/
 third_party_libraries:
   download: false # if true, download the versions of the libraries specified below and use the downloaded files
+  adobe_fonts:
+    url:
+      fonts: "https://use.typekit.net/pzd6qvr.css"
   bootstrap-table:
     integrity:
       css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
