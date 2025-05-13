@@ -1,4 +1,4 @@
-- logo: /assets/img/AI-LOGO_COLOUR-1.jpg
+- logo: /assets/img/alberta_innovates_logo.svg
   url: https://albertainnovates.ca
   name: "Alberta Innovates (AI)"
 
@@ -13,3 +13,7 @@
 - logo: /assets/img/dnd-logo.svg
   url: https://www.nserc-crsng.gc.ca/professors-professeurs/grants-subs/dnd-nserc_eng.asp
   name: "Department of National Defense (DND)"
+
+- logo: /assets/img/drac-logo.svg
+  url: https://alliancecan.ca
+  name: "Digital Research Alliance of Canada (DRAC)"
