@@ -35,5 +35,5 @@ is a research group led by [Yani Ioannou](https://yani.ai) within the [Schulich 
     </div>
 </div>
 <div class="caption">
-    NeurIPS 2024, Vancouver, BC, Canada (December 2024)
+    CML had <a href="https://www.calgaryml.com/assets/pdf/cml_neurips_2024.pdf">5 different works being presented by 6 students</a> at the premier machine learning conference, <a href="https://neurips.cc/Conferences/2024">Neural Information Processing Systems (NeurIPS) 2024</a>, across the workshops and main conference.
 </div>
