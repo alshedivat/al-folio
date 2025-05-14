@@ -2,7 +2,7 @@
 layout: page
 firstname: Muhammad Athar
 lastname: Ganaie
-description: MSc Student
+description: MSc Student (Fall 2023 - Present)
 img: assets/img/people/muhammad_athar_ganaie.jpg
 linkedin_username: matharg7
 github: matharg7
