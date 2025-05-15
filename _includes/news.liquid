@@ -45,10 +45,18 @@
         No numeric limit passed, so group by year for the news page.
       {% endcomment %}
       <div id="filter-buttons" class="mb-3">
-        <button data-tag="all" class="filter-button active">All</button>
-        <button data-tag="event" class="filter-button"> <i class="fa fa-calendar-days" title="event"></i> Events</button>
-        <button data-tag="paper" class="filter-button"> <i class="fa fa-file-pdf" title="event"></i> Papers</button>
-        <button data-tag="research" class="filter-button"><i class="fa fa-lightbulb" title="event"></i> Research</button>
+
+        <button data-tag="all" class="filter-button">
+        <i class="fa fa-list mr-1"></i> All </button>
+        <button data-tag="event" class="filter-button">
+        <i class="fa fa-calendar-days mr-1"></i> Events </button>
+        <button data-tag="paper" class="filter-button">
+        <i class="fa fa-file-pdf mr-1"></i> Papers </button>
+        <button data-tag="research" class="filter-button">
+        <i class="fa fa-lightbulb mr-1"></i> Research </button>
+        <button data-tag="art" class="filter-button">
+        <i class="fa fa-palette mr-1"></i> Art </button>
+
       </div>
       {% assign grouped_by_year = news | group_by_exp:"item", "item.date | date: '%Y'" %}
       <div class="table-responsive">
