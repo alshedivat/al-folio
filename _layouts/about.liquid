@@ -14,67 +14,68 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+  <div class="clearfix">{{ content }}</div>
 
-    <div class="clearfix">{{ content }}</div>
+  <section class="current-funding">
+    <h2>Current Funding</h2>
+    {% assign grants = site.data.grants %}
+    {% assign funders = grants | map: "Funder" | uniq %}
+    {% for funder in funders %}
+      <p><strong>{{ funder }}</strong></p>
+      <ul>
+        {% assign byFunder = grants | where: "Funder", funder %}
+        {% for g in byFunder %}
+          <li>
+            {% comment %} Choose display title: prefer ShortTitle, else LongTitle {% endcomment %}
+            {% assign displayTitle = g.ShortTitle | default: g.LongTitle %}
+            <em>
+              {% if g.Link %}
+                <a href="{{ g.Link }}">{{ displayTitle }}</a>
+              {% else %}
+                {{ displayTitle }}
+              {% endif %}
+            </em>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
+            {% assign details = "" %}
+            {% if g.PI %}
+              {% assign details = details | append: "PI: " | append: g.PI %}
+            {% endif %}
+            {% if g.SubawardFrom and g.SubawardFrom != "" %}
+              {% if details != "" %}
+                {% assign details = details | append: ", subaward from " | append: g.SubawardFrom %}
+              {% else %}
+                {% assign details = details | append: "subaward from " | append: g.SubawardFrom %}
+              {% endif %}
+            {% endif %}
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+            {% if g.StartDate and g.EndDate %}
+              {% assign startYear = g.StartDate | split: ", " | last %}
+              {% assign endYear   = g.EndDate   | split: ", " | last %}
+              {% if details != "" %}
+                {% assign details = details | append: ", " | append: startYear | append: " - " | append: endYear %}
+              {% else %}
+                {% assign details = details | append: startYear | append: " - " | append: endYear %}
+              {% endif %}
+            {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
+            {% if g.UICAward and g.UICAward != "" %}
+              {% if details != "" %}
+                {% assign details = details | append: ", " | append: g.UICAward %}
+              {% else %}
+                {% assign details = details | append: ", " | append: g.UICAward %}
+              {% endif %}
+            {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+            {% if details != "" %}
+              ({{ details }})
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </section>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
-  </article>
+  <div class="clearfix text-center" style="font-size: 0.8em;">
+    <small>{{ page.copyright }}</small>
+  </div>
 </div>
