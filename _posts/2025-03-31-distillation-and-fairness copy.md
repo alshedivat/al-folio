@@ -52,6 +52,15 @@ _styles: >
 <!-- 
 Knowledge Distillation <d-cite key="Hinton2015distilling"></d-cite> is a popular technique in the world of Deep Neural Networks (DNNs). Think of it as a skilled artisan (the "teacher" model) passing down their knowledge to an apprentice (the "student" model). The goal is usually to create a smaller, faster student model that performs almost as well as the larger, more complex teacher. As deep Learning models are becoming increasingly powerful, but their size and computational demands can be a major hurdle.  -->
 
+## TL;DR
+Knowledge Distillation (KD) is a technique used to compress large AI models into smaller, more efficient versions. For example, DeepSeek R1 with 671 billion parameters <d-cite key="DeepSeek2024v3"></d-cite>, was distilled into smaller, more manageable versions that are easier to deploy in real-world applications.
+
+While distillation often succeeds in maintaining overall accuracy, our recently accepted Transactions in Machine Learning Research (TMLR) paper, "[What's Left After Distillation? How Knowledge Transfer Impacts Fairness and Bias](https://openreview.net/forum?id=xBbj46Y2fN)" <d-cite key="Mohammadshahi2025distillation"></d-cite> explores how the distillation process affects model decisions, particularly in terms of fairness and bias. We found that:
+* The distillation temperature significantly influences the biases of the student model relative to the teacher model, and a smaller student model trained from scratch.
+* Higher distillation temperatures generally lead distilled models that make more fair decisions, to improved group fairness and individual fairness.
+* Surprisingly, distilled models can sometimes be fairer than their larger teacher counterparts!
+* This research highlights the need to consider fairness implications when using KD, especially in sensitive applications like hiring or loan approvals.
+
 ## Introduction: Knowledge Distillation
 
 <div class="row">
@@ -210,6 +219,7 @@ The research <d-cite key="Mohammadshahi2025distillation"></d-cite> yielded sever
 
 Experiments were conducted across various datasets (CIFAR-10/100, SVHN, Tiny ImageNet, ImageNet) and model architectures (ResNets, ViTs) <d-cite key="Mohammadshahi2025distillation"></d-cite>.
 
+<div class="container text-center align-items-center justify-content-center" markdown=1>
 <div class="caption">
 Class-wise Bias and Distillation. The number of statistically significantly affected classes comparing the class-wise accuracy of *teacher vs. Distilled Student (DS) models*, denoted #TC, and *Non-Distilled Student (NDS) vs. distilled student models*, denoted #SC for the ImageNet dataset.
 </div>
@@ -229,16 +239,20 @@ Class-wise Bias and Distillation. The number of statistically significantly affe
 | DS      | 9    | 70.52 &plusmn; 0.09                   | 371                   | 101                   | 80.16 &plusmn; 0.17                   | 397                    | 96                     |
 | DS      | 10   | 70.83 &plusmn; 0.15                   | 408                   | 86                    | 79.98 &plusmn; 0.12                   | 426                    | 78                     |
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/distillation_fig2_a.svg" title="CIFAR-10 using T=9" class="img-fluid rounded z-depth-0"  zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/distillation_fig2_b.svg" title="SVHN using T=7" class="img-fluid rounded z-depth-0"  zoomable=true %}
-    </div>
 </div>
-<div class="caption">
-    Class-wise Disagreement. Disagreement between a ResNet-56 teacher and ResNet-20 (left) non-distilled/(right) distilled student for (a) CIFAR-10 using T= 9 and (b) SVHN using T= 7. The diagonals are excluded since here both models predict the same class without any disagreement.
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_fig2_a.svg" title="CIFAR-10 using T=9" class="img-fluid rounded z-depth-0"  zoomable=true %}
+        </div>
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_fig2_b.svg" title="SVHN using T=7" class="img-fluid rounded z-depth-0"  zoomable=true %}
+        </div>
+    </div>
+    <div class="caption">
+        Class-wise Disagreement. Disagreement between a ResNet-56 teacher and ResNet-20 (left) non-distilled/(right) distilled student for (a) CIFAR-10 using T= 9 and (b) SVHN using T= 7. The diagonals are excluded since here both models predict the same class without any disagreement.
+    </div>
 </div>
 
 <!-- 
@@ -250,23 +264,43 @@ The study <d-cite key="Mohammadshahi2025distillation"></d-cite> found that a cha
 
 ### Group Fairness: Temperature Matters
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_celeba.svg"  class="img-fluid rounded z-depth-0" %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_celeba_gender.svg"  class="img-fluid rounded z-depth-0" %}
+        </div>
     </div>
-</div>
-<div class="caption">
-    Combined/representative graphs showing EOD/DPD decreasing with increasing temperature for CelebA. 
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_celeba_race.svg"  class="img-fluid rounded z-depth-0" %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_legend.svg" class="img-fluid rounded z-depth-0" %}
+        </div>
+    </div>
+    <div class="caption">
+        Combined graphs showing EOD/DPD decreasing with increasing temperature for CelebA image dataset. 
+    </div>
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_hateexplain.png" class="img-fluid rounded z-depth-0" %}
+<div class="container">
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_hatexplain.svg" class="img-fluid rounded z-depth-0" %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_legend.svg" class="img-fluid rounded z-depth-0" %}
+        </div>
+    </div>
+    <div class="caption">
+        Combined graphs showing EOD/DPD decreasing with increasing temperature for the HateXplain language dataset. 
     </div>
 </div>
-<div class="caption">
-    Combined/representative graphs showing EOD/DPD decreasing with increasing temperature for HateXplain. 
-</div>
+
 <!-- [Placeholder for Figure 3: Combined/representative graphs showing EOD/DPD decreasing with increasing temperature for CelebA. (Based on slide 40 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)]
 [Placeholder for Figure 4: Combined/representative graphs showing EOD/DPD decreasing with increasing temperature for Trifeature. (Based on slide 43 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)]
 [Placeholder for Figure 5: Graph showing EOD/DPD decreasing with increasing temperature for HateXplain. (Based on slide 46 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)] -->
@@ -275,10 +309,30 @@ Across all three datasets (CelebA, Trifeature, HateXplain) and for both computer
 * **Increasing the distillation temperature ($T$) generally leads to improved group fairness** in the student model, as measured by lower DPD and EOD values.
 * Remarkably, in some instances, the **distilled student model (especially at higher temperatures) can become fairer than the original, larger teacher model**.
 
+#### Very High Temperatures
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_hatexplain_all.svg" class="img-fluid rounded z-depth-0" %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_legend.svg" class="img-fluid rounded z-depth-0" %}
+        </div>
+    </div>
+    <div class="caption">
+        Combined/representative graphs showing EOD/DPD decreasing with very high temperatures for HateXplain. 
+    </div>
+</div>
+
+Of course at higher levels of temperature, the model's predictions become more uniform, which can lead to a loss of accuracy. The study found that while distillation a moderately high temperature (e.g., $T=10$) can lead to improved fairness, very high temperatures (e.g. $T>10$) can lead to a significant drop in accuracy and fairness.
+
 ### Individual Fairness: Consistency Improves
 Similar to group fairness, the study <d-cite key="Mohammadshahi2025distillation"></d-cite> found a **clear improvement in individual fairness with increased distillation temperature** across the tested datasets. This suggests that higher temperatures not only help in equitable group outcomes but also in making the model's predictions more consistent for similar inputs.
-
-[Placeholder for Figure 6: Graph showing improvement in individual fairness metrics with increasing temperature. (Based on slide 51 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)]
+<!-- 
+[Placeholder for Figure 6: Graph showing improvement in individual fairness metrics with increasing temperature. (Based on slide 51 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)] -->
 
 ## Conclusion: Distillation, A Double-Edged Sword?
 
