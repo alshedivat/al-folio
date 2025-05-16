@@ -49,29 +49,27 @@ _styles: >
         font-family: "Times New Roman";
     }
 ---
+<!-- 
+Knowledge Distillation <d-cite key="Hinton2015distilling"></d-cite> is a popular technique in the world of Deep Neural Networks (DNNs). Think of it as a skilled artisan (the "teacher" model) passing down their knowledge to an apprentice (the "student" model). The goal is usually to create a smaller, faster student model that performs almost as well as the larger, more complex teacher. As deep Learning models are becoming increasingly powerful, but their size and computational demands can be a major hurdle.  -->
 
-Knowledge Distillation <d-cite key="Hinton2015distilling"></d-cite> is a popular technique in the world of Deep Neural Networks (DNNs). Think of it as a skilled artisan (the "teacher" model) passing down their knowledge to an apprentice (the "student" model). The goal is usually to create a smaller, faster student model that performs almost as well as the larger, more complex teacher. This is incredibly useful for deploying AI on devices with limited resources, like your smartphone.
+## Introduction: Knowledge Distillation
 
-While distillation often succeeds in maintaining overall accuracy, our recent paper, "[What's Left After Distillation? How Knowledge Transfer Impacts Fairness and Bias](https://openreview.net/forum?id=xBbj46Y2fN)" <d-cite key="Mohammadshahi2025distillation"></d-cite>, takes a deeper dive into understanding how distillation affects the decisions made by a model, through the lens of fairness and bias.
-This is particularly important as AI systems are increasingly used in sensitive areas like hiring, loan applications, and medical diagnosis, where fairness is crucial.
-
-**Does the distilled student model treat all groups and types of data the same way the teacher did, or does the process introduce new, potentially harmful, biases?**
-
-{% twitter https://x.com/Aidamo27/status/1912626418867196160 %}
-
-
-## Introduction: The Allure of Smaller Models
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/distillation_teachertostudent_simple.svg" title="Distillation of a smaller student from a larger teacher model." class="img-fluid rounded z-depth-0" %}
     </div>
 </div>
 
-Deep Learning models are becoming increasingly powerful, but their size and computational demands can be a major hurdle. Large models, like DeepSeek R1 with 671 billion parameters <d-cite key="DeepSeek2024v3"></d-cite>, are often distilled into smaller, more manageable versions (e.g., 1.5-70B Llama models) that are easier to deploy in real-world applications. This process, known as Knowledge Distillation (KD) <d-cite key="Hinton2015distilling"></d-cite>, aims to transfer the "knowledge" from a large "teacher" model to a smaller "student" model, often preserving overall performance like test accuracy. But what else is transferred, or lost, in this process? This post explores recent research <d-cite key="Mohammadshahi2025distillation"></d-cite> that looks beyond accuracy to understand how KD impacts fairness and bias.
+Large models, like DeepSeek R1 with 671 billion parameters <d-cite key="DeepSeek2024v3"></d-cite>, are often distilled into smaller, more manageable versions (e.g., 1.5-70B Llama models) that are easier to deploy in real-world applications. This process, known as Knowledge Distillation (or just distillation) <d-cite key="Hinton2015distilling"></d-cite>, aims to transfer the "knowledge" from a large "teacher" model to a smaller "student" model, often preserving overall performance like test accuracy. 
+
+While distillation often succeeds in maintaining overall accuracy, our recenly accepted Transactions in Machine Learning Researc (TMLR) paper, "[What's Left After Distillation? How Knowledge Transfer Impacts Fairness and Bias](https://openreview.net/forum?id=xBbj46Y2fN)" <d-cite key="Mohammadshahi2025distillation"></d-cite>, takes a deeper dive into understanding how distillation affects the decisions made by a model, through the lens of fairness and bias.
+This is particularly important as AI systems are increasingly used in sensitive areas like hiring, loan applications, and medical diagnosis, where fairness is crucial.
+
+**Does the distilled student model treat all groups and types of data the same way the teacher did, or does the process introduce new, potentially harmful, biases?** To grasp the implications of KD, let's first revisit some core concepts.
+
 
 ## Understanding Knowledge Distillation:
 
-To grasp the implications of KD, let's first revisit some core concepts.
 
 ### Neural Networks as Function Approximators
 
@@ -83,23 +81,45 @@ where $f$ is the model, $\mathbf{x}$ is the input (like an image or text), and $
 
 ### The Concept of "Dark Knowledge"
 
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/distillation_softtargets_catdogairplane.png" class="img-fluid rounded z-depth-0" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/distillation_softtargets_T1.svg" class="img-fluid rounded z-depth-0" %}
+    </div>
+</div>
+
 Trained models, especially large ones, learn much more than just how to map inputs to correct labels. They capture a rich, nuanced understanding of the data's structure and relationships. For example, an ImageNet model doesn't just learn to identify a "cat"; it also implicitly learns that a cat is more similar to a "dog" than to an "airplane". This richer information, beyond the direct class predictions, is often termed "dark knowledge" <d-cite key="Hinton2015distilling"></d-cite>.
 
 ### The Role of Temperature in Softmax
-
 In classification, the raw outputs of a neural network (logits, $z$) are typically converted into probabilities using the softmax function. Knowledge distillation introduces a "temperature" parameter ($T$) into this softmax calculation:
 
 $$ p_i = \frac{\exp(z_i/T)}{\sum_j \exp(z_j/T)}. $$
 
 When $T=1$ (standard softmax), the output probabilities are often very sharp, with the correct class having a probability close to 1 and others close to 0 (a "hard" distribution). As $T$ increases, the probability distribution becomes "softer," meaning the probabilities for incorrect classes become larger, revealing more of the teacher's "dark knowledge" about class similarities. 
 
-For example, 
+For example with a temperature of $T=1$, the softmax output for an input $\mathbf{x}$ might be:
 
-$$f(\mathbf{x}, T=1) = \{0.09, 0.9, 0.01\},$$ 
+<!-- $$f(\mathbf{x}, T=1) = \{0.09, 0.9, 0.01\},$$  -->
 
-might become 
+<div class="row align-items-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/distillation_softtargets_T1.svg" class="img-fluid rounded z-depth-0" %}
+    </div>
+</div>
 
-$$f(\mathbf{x}, T=10) = \{0.4, 0.5, 0.1\}.$$
+while at a higher temperature of $T=10$, the output might be:
+
+<!-- $$f(\mathbf{x}, T=10) = \{0.4, 0.5, 0.1\}.$$ -->
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/distillation_softtargets_T10.svg" class="img-fluid rounded z-depth-0" %}
+    </div>
+</div>
 
 ### The Distillation Process
 
@@ -111,26 +131,24 @@ These two losses are typically combined using a weighting hyperparameter $\alpha
 
 [Placeholder for Figure 1: Diagram illustrating the standard training vs. knowledge distillation process, showing teacher, student, hard targets, soft targets, and loss functions. (Based on slide 5)]
 
-## Beyond Accuracy: Does the Student Learn the Same Lessons?
-<div class="row">
+## Beyond Accuracy: Does the Student Learn the Same Function?
+<div class="row  bg-white">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/distillation_teachertostudentfunctions.svg" title="Distillation of a smaller student from a larger teacher model can learn different functions." class="img-fluid rounded z-depth-0" %}
     </div>
 </div>
 
-While knowledge distillation often maintains the overall generalization performance (test accuracy) of the teacher model <d-cite key="Hinton2015distilling"></d-cite>, a crucial question arises: Does this mean the student model has learned the *same function* as the teacher?.
+While knowledge distillation often maintains the overall generalization performance (test accuracy) of the teacher model <d-cite key="Hinton2015distilling"></d-cite>, a crucial question arises: Does this mean the student model has learned approximately the *same function* as the teacher?.
 
-The answer is not necessarily. Accuracy is an aggregate measure over many samples. It's possible for the student ($g(\mathbf{x})$) to learn a different function than the teacher ($f(\mathbf{x})$) while still achieving similar overall accuracy.
+The answer is: not necessarily. Accuracy is an aggregate measure over many samples. It's possible for the student ($g(\mathbf{x})$) to learn a different function than the teacher ($f(\mathbf{x})$) while still achieving similar overall accuracy.
 
 This divergence matters because if the student learns a different function, it may also learn different **algorithmic biases** than the teacher, even if the original teacher model was carefully analyzed for fairness. 
 
 ## Research Deep Dive: Unpacking the Impact of Distillation
 
-This concern prompted the research by Aida Mohammadshahi and Yani Ioannou <d-cite key="Mohammadshahi2025distillation"></d-cite>, which was recently accepted at Transactions on Machine Learning Research (TMLR).
+This concern prompted the research questions behind our work <d-cite key="Mohammadshahi2025distillation"></d-cite>:
 
 ### Research Questions
-
-The core questions guiding this research <d-cite key="Mohammadshahi2025distillation"></d-cite> were:
 1.  Which specific classes are significantly affected by the distillation process in terms of their accuracy?
 2.  How does varying the distillation temperature ($T$) impact the class-level biases of the student model?
 3.  What is the effect of distillation temperature on **group fairness** (ensuring equitable outcomes across different demographic groups)?
@@ -143,6 +161,52 @@ To understand which classes are affected, the researchers <d-cite key="Mohammads
 $$ CMP(f(\mathbf{x}_n), g(\mathbf{x}_n)) = \begin{cases} 0 & \text{if } f(\mathbf{x}_n) = g(\mathbf{x}_n) \\ 1 & \text{if } f(\mathbf{x}_n) \neq g(\mathbf{x}_n) \end{cases} $$
 
 This disagreement was analyzed on a per-class basis, comparing the (teacher vs. distilled student) and (non-distilled student vs. distilled student). A non-distilled student (trained from scratch on hard labels) served as a baseline.
+
+### Probing Group Fairness
+
+A more direct concern is when changes in model behavior lead to unfair outcomes for different demographic groups. The research <d-cite key="Mohammadshahi2025distillation"></d-cite> investigated two standard group fairness notions:
+
+<div class="row align-items-center justify-content-center bg-white">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/distillation_demographicparity.svg"  title="Demographic Parity" class="img-fluid rounded z-depth-0" %}
+        <caption>Demographic Partity</caption>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/distillation_equalizedodds.svg" title="Equalized Odds" class="img-fluid rounded z-depth-0" %}
+        <caption>Equalized Odds</caption>
+    </div>
+</div>
+
+* **Demographic Parity:** Aims for the probability of a positive outcome ($Y=1$) to be the same across different sensitive groups $A=a$ and $A=b$ (e.g., men vs. women being hired).
+  
+    $$ P(\hat{Y}=1 | A=a) = P(\hat{Y}=1 | A=b) $$
+  
+    This is often measured by the **Demographic Parity Difference (DPD)**, where DPD=0 indicates perfect fairness under this definition.
+    
+    $$ DPD = \max_{a \in A} P(\hat{Y}=1 | A=a) - \min_{a \in A} P(\hat{Y}=1 | A=a) $$
+
+* **Equalized Odds** <d-cite key="Hardt2016equality"></d-cite>: Aims for the true positive rate and false positive rate to be similar across different groups, given the true label $Y=y$ (e.g., qualified men and qualified women having equal hiring rates).
+    
+    $$ P(\hat{Y}=1 | Y=y, A=a) = P(\hat{Y}=1 | Y=y, A=b) $$
+  
+    This is measured by the **Equalized Odds Difference (EOD)**, where EOD=0 is ideal.
+
+These metrics were evaluated on datasets with known demographic attributes:
+* **CelebA** <d-cite key="Liu2015celeba"></d-cite>: Celebrity faces with attributes like gender and age, used for tasks like "smiling" prediction.
+* **Trifeature** <d-cite key="Hermann2020shapes"></d-cite>: A synthetic dataset with controlled shapes, textures, and colors, used to isolate the effect of feature difficulty.
+* **HateXplain** <d-cite key="Mathew2021hatexplain"></d-cite>: A dataset for hate speech detection, with annotations for targeted communities.
+
+### Investigating Individual Fairness
+
+Beyond group-level fairness, the study <d-cite key="Mohammadshahi2025distillation"></d-cite> also examined **individual fairness**: the principle that similar individuals should receive similar predictions. This was quantified using a metric based on the Lipschitz condition proposed by Dwork et al. <d-cite key="Dwork2012fairness"></d-cite>, where smaller values indicate better individual fairness.
+
+$$ \mathcal{I}(f) = \mathbb{E}_{(\mathbf{x},\mathbf{x}') \sim P} \left[ \frac{|f(\mathbf{x}) - f(\mathbf{x}')|}{d(\mathbf{x},\mathbf{x}')} \right] $$
+
+## Key Findings and Insights
+
+The research <d-cite key="Mohammadshahi2025distillation"></d-cite> yielded several important findings regarding the interplay of knowledge distillation, temperature, and fairness.
+
+### Class-wise Bias: An Uneven Impact
 
 Experiments were conducted across various datasets (CIFAR-10/100, SVHN, Tiny ImageNet, ImageNet) and model architectures (ResNets, ViTs) <d-cite key="Mohammadshahi2025distillation"></d-cite>.
 
@@ -180,52 +244,36 @@ Class-wise Bias and Distillation. The number of statistically significantly affe
 <!-- 
 [Placeholder for Table/Figure 2: Summary of class-wise bias results, showing the number of significantly affected classes (#SC, #TC) for different datasets and temperatures. (Based on table from slide 23 and general idea of graph from slide 26/paper Figure 3 in <d-cite key="Mohammadshahi2025distillation"></d-cite>)] -->
 
-The study <d-cite key="Mohammadshahi2025distillation"></d-cite> found that a change in class bias by itself isn't inherently good or bad; its implications depend on the application context.
-
-### Probing Group Fairness
-
-A more direct concern is when changes in model behavior lead to unfair outcomes for different demographic groups. The research <d-cite key="Mohammadshahi2025distillation"></d-cite> investigated two standard group fairness notions:
-
-* **Demographic Parity:** Aims for the probability of a positive outcome ($Y=1$) to be the same across different sensitive groups $A=a$ and $A=b$ (e.g., men vs. women being hired).
-  
-    $$ P(\hat{Y}=1 | A=a) = P(\hat{Y}=1 | A=b) $$
-  
-    This is often measured by the **Demographic Parity Difference (DPD)**, where DPD=0 indicates perfect fairness under this definition.
-    
-    $$ DPD = \max_{a \in A} P(\hat{Y}=1 | A=a) - \min_{a \in A} P(\hat{Y}=1 | A=a) $$
-
-* **Equalized Odds** <d-cite key="Hardt2016equality"></d-cite>: Aims for the true positive rate and false positive rate to be similar across different groups, given the true label $Y=y$ (e.g., qualified men and qualified women having equal hiring rates).
-    
-    $$ P(\hat{Y}=1 | Y=y, A=a) = P(\hat{Y}=1 | Y=y, A=b) $$
-  
-    This is measured by the **Equalized Odds Difference (EOD)**, where EOD=0 is ideal.
-
-These metrics were evaluated on datasets with known demographic attributes:
-* **CelebA** <d-cite key="Liu2015celeba"></d-cite>: Celebrity faces with attributes like gender and age, used for tasks like "smiling" prediction.
-* **Trifeature** <d-cite key="Hermann2020shapes"></d-cite>: A synthetic dataset with controlled shapes, textures, and colors, used to isolate the effect of feature difficulty.
-* **HateXplain** <d-cite key="Mathew2021hatexplain"></d-cite>: A dataset for hate speech detection, with annotations for targeted communities.
-
-### Investigating Individual Fairness
-
-Beyond group-level fairness, the study <d-cite key="Mohammadshahi2025distillation"></d-cite> also examined **individual fairness**: the principle that similar individuals should receive similar predictions. This was quantified using a metric based on the Lipschitz condition proposed by Dwork et al. <d-cite key="Dwork2012fairness"></d-cite>, where smaller values indicate better individual fairness.
-
-$$ \mathcal{I}(f) = \mathbb{E}_{(\mathbf{x},\mathbf{x}') \sim P} \left[ \frac{|f(\mathbf{x}) - f(\mathbf{x}')|}{d(\mathbf{x},\mathbf{x}')} \right] $$
-
-## Key Findings and Insights
-
-The research <d-cite key="Mohammadshahi2025distillation"></d-cite> yielded several important findings regarding the interplay of knowledge distillation, temperature, and fairness.
-
-### Class-wise Bias: An Uneven Impact
 Distillation does not affect all classes uniformly; a significant percentage of classes can experience changes in accuracy. The distillation temperature $T$ influences which model (teacher or non-distilled student) the distilled student's biases more closely resemble. Higher temperatures tend to align the student more with the teacher's class-specific performance patterns <d-cite key="Mohammadshahi2025distillation"></d-cite>.
 
+The study <d-cite key="Mohammadshahi2025distillation"></d-cite> found that a change in class bias by itself isn't inherently good or bad; its implications depend on the application context, leading to the analysis of the impact on decisions, i.e., group and individual fairness.
+
 ### Group Fairness: Temperature Matters
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_celeba.svg"  class="img-fluid rounded z-depth-0" %}
+    </div>
+</div>
+<div class="caption">
+    Combined/representative graphs showing EOD/DPD decreasing with increasing temperature for CelebA. 
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/distillation_fairness_hateexplain.png" class="img-fluid rounded z-depth-0" %}
+    </div>
+</div>
+<div class="caption">
+    Combined/representative graphs showing EOD/DPD decreasing with increasing temperature for HateXplain. 
+</div>
+<!-- [Placeholder for Figure 3: Combined/representative graphs showing EOD/DPD decreasing with increasing temperature for CelebA. (Based on slide 40 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)]
+[Placeholder for Figure 4: Combined/representative graphs showing EOD/DPD decreasing with increasing temperature for Trifeature. (Based on slide 43 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)]
+[Placeholder for Figure 5: Graph showing EOD/DPD decreasing with increasing temperature for HateXplain. (Based on slide 46 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)] -->
+
 Across all three datasets (CelebA, Trifeature, HateXplain) and for both computer vision and NLP tasks, a consistent trend emerged <d-cite key="Mohammadshahi2025distillation"></d-cite>:
 * **Increasing the distillation temperature ($T$) generally leads to improved group fairness** in the student model, as measured by lower DPD and EOD values.
 * Remarkably, in some instances, the **distilled student model (especially at higher temperatures) can become fairer than the original, larger teacher model**.
-
-[Placeholder for Figure 3: Combined/representative graphs showing EOD/DPD decreasing with increasing temperature for CelebA. (Based on slide 40 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)]
-[Placeholder for Figure 4: Combined/representative graphs showing EOD/DPD decreasing with increasing temperature for Trifeature. (Based on slide 43 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)]
-[Placeholder for Figure 5: Graph showing EOD/DPD decreasing with increasing temperature for HateXplain. (Based on slide 46 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)]
 
 ### Individual Fairness: Consistency Improves
 Similar to group fairness, the study <d-cite key="Mohammadshahi2025distillation"></d-cite> found a **clear improvement in individual fairness with increased distillation temperature** across the tested datasets. This suggests that higher temperatures not only help in equitable group outcomes but also in making the model's predictions more consistent for similar inputs.
@@ -248,3 +296,6 @@ These findings <d-cite key="Mohammadshahi2025distillation"></d-cite> open up sev
 * How do these fairness dynamics play out in the context of even larger models, such as modern Large Language Models (LLMs) like DeepSeek <d-cite key="DeepSeek2024v3"></d-cite>?
 
 Understanding these aspects will be crucial for the responsible development and deployment of distilled AI models.
+
+{% twitter https://x.com/Aidamo27/status/1912626418867196160 %}
+
