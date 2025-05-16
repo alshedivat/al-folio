@@ -2,7 +2,7 @@
 layout: page
 title: DAIMSL
 description: Digital Twins and AI-enabled & Immersive Environments for Automated Scientific Laboratories
-img: assets/img/logo.png
+img: assets/img/new-logo-withtext.png
 importance: 1
 category: research
 tags: [daimsl]

@@ -2,7 +2,7 @@
 layout: page
 title: Tele-robotics to Tele-autonomous Robotics for Isotope Production
 description: Tele-robotics to Tele-autonomous Robotics for Isotope Production
-img: assets/img/logo.png
+img: assets/img/new-logo-withtext.png
 importance: 1
 category: research
 tags: [tele-robotics]

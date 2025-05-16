@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: EVL
-logo: /assets/img/logo-480.webp
+logo: /assets/img/new-logo-small-480.webp
 first_name: Electronic
 middle_name: Visualization
 last_name: Laboratory
@@ -66,7 +66,7 @@ max_width: 1000px #930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
-og_image: /assets/img/logo.png
+og_image: /assets/img/new-logo.png
 
 # -----------------------------------------------------------------------------
 # Social integration

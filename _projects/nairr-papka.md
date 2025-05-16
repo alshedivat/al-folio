@@ -2,7 +2,7 @@
 layout: page
 title: NAIRR Pilot
 description: A National-Scale Testbed Supporting Artificial Intelligence Research Spanning the Computing Continuum
-img: assets/img/logo.png
+img: assets/img/new-logo-withtext.png
 importance: 1
 category: research
 tags: [nairr-pilot]
