@@ -79,6 +79,17 @@
       {% endif %}
 
       <d-article>
+        <d-contents>
+          <nav class="l-text figcaption">
+          <h3>Contents</h3>
+            {% toc %}
+          </nav>
+        </d-contents>
+
+        {{ content }}
+      </d-article>
+
+      <d-article>
         {% if page.toc %}
           <d-contents>
             <nav class="l-text figcaption">
