@@ -5,7 +5,7 @@ description: "A summary of our research exploring the effects of knowledge disti
 thumbnail: assets/img/publication_preview/fairness-distillation.png
 tags: distillation fairness bias ml compression
 date: 2025-03-31
-featured: true
+featured: false
 toc: true
 related_posts: true
 pretty_table: true
@@ -47,9 +47,9 @@ _styles: >
 
 ---
 
-Knowledge Distillation <d-cite key="hinton2015distilling"></d-cite> is a popular technique in the world of Deep Neural Networks (DNNs). Think of it as a skilled artisan (the "teacher" model) passing down their knowledge to an apprentice (the "student" model). The goal is usually to create a smaller, faster student model that performs almost as well as the larger, more complex teacher. This is incredibly useful for deploying AI on devices with limited resources, like your smartphone.
+Knowledge Distillation <d-cite key="Hinton2015distilling"></d-cite> is a popular technique in the world of Deep Neural Networks (DNNs). Think of it as a skilled artisan (the "teacher" model) passing down their knowledge to an apprentice (the "student" model). The goal is usually to create a smaller, faster student model that performs almost as well as the larger, more complex teacher. This is incredibly useful for deploying AI on devices with limited resources, like your smartphone.
 
-While distillation often succeeds in maintaining overall accuracy, our recent paper, "[What's Left After Distillation? How Knowledge Transfer Impacts Fairness and Bias](https://openreview.net/forum?id=xBbj46Y2fN)" <d-cite key="mohammadshahi2025leftafterdistillation"></d-cite>, takes a deeper dive into understanding how distillation affects the decisions made by a model, through the lens of fairness and bias.
+While distillation often succeeds in maintaining overall accuracy, our recent paper, "[What's Left After Distillation? How Knowledge Transfer Impacts Fairness and Bias](https://openreview.net/forum?id=xBbj46Y2fN)" <d-cite key="Mohammadshahi2025distillation"></d-cite>, takes a deeper dive into understanding how distillation affects the decisions made by a model, through the lens of fairness and bias.
 This is particularly important as AI systems are increasingly used in sensitive areas like hiring, loan applications, and medical diagnosis, where fairness is crucial.
 
 **Does the distilled student model treat all groups and types of data the same way the teacher did, or does the process introduce new, potentially harmful, biases?**
