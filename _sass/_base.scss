@@ -664,6 +664,7 @@ footer.sticky-bottom {
 }
 
 /* Projects */
+
 .projects {
   a {
     text-decoration: none;
@@ -1157,22 +1158,16 @@ swiper-container {
 .filter-button {
   background: var(--global-theme-color);
   color: var(--global-bg-color);
-  // display: flex;
   width: min-content;
   max-width: 200px;
   white-space: nowrap;
-  // height: 38px;
   align-items: center;
   flex-direction: row;
-  // padding: 9px 17px;
-  // box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px;
   border-radius: 4px;
   text-align: center;
   font-style: normal;
   font-weight: 500;
-  // line-height: 20px;
   border: none;
-  // cursor: pointer;
 }
 
 .newsletter-form-button {

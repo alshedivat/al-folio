@@ -2,7 +2,7 @@
 layout: page
 title: C² the P² Chicagoland Computational Traineeship
 description: A education focused program to train physics and computer science students in the computational tools necessary to advance the particle physics field.
-img: assets/img/c2p2.png
+img: assets/img/c2p2.jpg
 importance: 1
 category: research
 tags: [c2-p2]
@@ -22,12 +22,12 @@ tags: [c2-p2]
 **We are looking to hire MS/PhD students - see the <a href="https://www.c2thep2.org">C2 the P2 website</a> for requirements.**
 
 - Students:
-    - [Amy J. Byrnes](https://www.c2thep2.org/people/amy-byrnes/) 
-    - [Sreten Kljaic](https://www.c2thep2.org/people/sreten-kljaic/) [BS 2023, MS Student]
-    - [Wesley Kwiecinski](https://www.c2thep2.org/people/wesley-kwiecinski/)
+  - [Amy J. Byrnes](https://www.c2thep2.org/people/amy-byrnes/) 
+  - [Sreten Kljaic](https://www.c2thep2.org/people/sreten-kljaic/) [BS 2023, MS Student]
+  - [Wesley Kwiecinski](https://www.c2thep2.org/people/wesley-kwiecinski/)
 - Faculty:
-    - [Rick Cavanaugh](https://phys.uic.edu/profiles/cavanaugh-richard/) (UIC)
-    - [Andrew Johnson](https://cs.uic.edu/profiles/andrew-johnson/) (UIC)
-    - [Zhiling Lan](https://cs.uic.edu/profiles/lan-zhiling/) (UIC)
-    - Michael E. Papka (UIC)
-    - [Jahred Adelman](https://www.niu.edu/jadelman/index.shtml) (NIU)
+  - [Rick Cavanaugh](https://phys.uic.edu/profiles/cavanaugh-richard/) (UIC)
+  - [Andrew Johnson](https://cs.uic.edu/profiles/andrew-johnson/) (UIC)
+  - [Zhiling Lan](https://cs.uic.edu/profiles/lan-zhiling/) (UIC)
+  - Michael E. Papka (UIC)
+  - [Jahred Adelman](https://www.niu.edu/jadelman/index.shtml) (NIU)
