@@ -4,7 +4,7 @@ title: "Beyond Compression: How Knowledge Distillation Impacts Fairness and Bias
 description: "A summary of our research exploring the effects of knowledge distillation on how deep neural networks make decisions, particularly in terms of fairness and bias."
 thumbnail: assets/img/publication_preview/fairness-distillation.png
 tags: distillation fairness bias ml compression
-date: 2025-03-31
+date: 2025-05-16
 featured: false
 toc: true
 related_posts: true
@@ -21,7 +21,7 @@ authors:
   - name: Yani Ioannou
     url: "https://yani.ai"
 
-bibliography: 2025-03-31-distillation.bib
+bibliography: 2025-05-16-distillation.bib
 
 # _styles: >
 #   d-article table th, d-article table td {
@@ -112,13 +112,13 @@ $$ p_i = \frac{\exp(z_i/T)}{\sum_j \exp(z_j/T)}. $$
 
 When $T=1$ (standard softmax), the output probabilities are often very sharp, with the correct class having a probability close to 1 and others close to 0 (a "hard" distribution). As $T$ increases, the probability distribution becomes "softer," meaning the probabilities for incorrect classes become larger, revealing more of the teacher's "dark knowledge" about class similarities. 
 
-For example with a temperature of $T=1$, the softmax output for an input $\mathbf{x}$ might be:
+For example with a temperature of $T=1$, the softmax output for an input $\mathbf{x}$ might be a probability distribution over three classes (dog, cat, airplane):
 
 $$\require{colorv2} \Large f(\textcolor{red}{\mathbf{x}}, T=1) = \{\textcolor{green}{0.09}, \textcolor{red}{0.9}, \textcolor{blue}{0.01}\},$$
 
-while at a higher temperature of $T=10$, the output might be:
+while at a higher temperature of $T=10$, the output might be less confident in the its predictions:
 
-$$\require{colorv2} \Large f(\textcolor{red}{\mathbf{x}}, T=10) = \{\textcolor{green}{0.4}, \textcolor{red}{0.5}, \textcolor{blue}{0.1}\},$$
+$$\require{colorv2} \Large f(\textcolor{red}{\mathbf{x}}, T=10) = \{\textcolor{green}{0.4}, \textcolor{red}{0.5}, \textcolor{blue}{0.1}\}.$$
 
 <!-- 
 ```echarts
@@ -148,7 +148,7 @@ $$\require{colorv2} \Large f(\textcolor{red}{\mathbf{x}}, T=10) = \{\textcolor{g
   ]
 }
 ``` -->
- 
+<!--  
 ```plotly
 {
   "data": [
@@ -159,7 +159,7 @@ $$\require{colorv2} \Large f(\textcolor{red}{\mathbf{x}}, T=10) = \{\textcolor{g
     }
   ],
 }
-```
+``` -->
 
 ### The Distillation Process
 
