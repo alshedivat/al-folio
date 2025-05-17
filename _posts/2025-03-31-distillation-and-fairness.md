@@ -97,13 +97,13 @@ where $f$ is the model, $\mathbf{x}$ is the input (like an image or text), and $
         {% include figure.liquid loading="eager" path="assets/img/distillation_softtargets_catdogairplane.png" class="img-fluid rounded z-depth-0" %}
     </div>
 </div>    
-<div class="row align-items-center">
-    <div class="col-xl mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/distillation_softtargets_T1.svg" class="img-fluid rounded z-depth-0" %}
-    </div>
+<div class="row align-item-center justify-content-center" markdown=1>
+
+$$\require{colorv2} \Large f(\textcolor{red}{\mathbf{x} \textrm{: image of cat}}) = \{ \textcolor{green}{\textrm{dog: } 0.09}, \textcolor{red}{\textrm{cat: } 0.9}, \textcolor{blue}{\textrm{airplane: } 0.01}\}$$
+
 </div>
 
-Trained models, especially large ones, learn much more than just how to map inputs to correct labels. They capture a rich, nuanced understanding of the data's structure and relationships. For example, an ImageNet model doesn't just learn to identify a "cat"; it also implicitly learns that a cat is more similar to a "dog" than to an "airplane". This richer information, beyond the direct class predictions, is often termed "dark knowledge" <d-cite key="Hinton2015distilling"></d-cite>.
+Trained models, especially large ones, learn much more than just how to map inputs to correct labels. They capture a rich, nuanced understanding of the data's structure and relationships. For example, an ImageNet model doesn't just learn to identify a "cat"; it also implicitly learns that a cat is more similar to a "dog" than to an "airplane". In this example, the model is 90% confident the center image is of a cat, while 9% confident the image is of a dog and only 1% confident that the image is of an airplane. This richer information, beyond the direct class predictions alone, is often termed "dark knowledge" <d-cite key="Hinton2015distilling"></d-cite>.
 
 ### The Role of Temperature in Softmax
 In classification, the raw outputs of a neural network (logits, $z$) are typically converted into probabilities using the softmax function. Knowledge distillation introduces a "temperature" parameter ($T$) into this softmax calculation:
@@ -200,6 +200,13 @@ This concern prompted the research questions behind our work <d-cite key="Mohamm
 
 ### Analyzing Class-wise Bias
 
+<div class="row align-items-center justify-content-center text-center bg-white">
+    <div class="col-lg mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/distillation_distilledvsnondistilledstudent.svg"  title="Student vs. Non-Distilled Student" class="img-fluid rounded z-depth-0" %}
+        <div class="caption">Figure: In order to better understand the effect of Knowledge Distillation, and to control effects on bias/fairness of model size, we compared a Distilled Student (DS) to a Non-Distilled Student (NDS), i.e. a student trained with distillation from a teacher compared to a student model trained from random initialization with the same dataset.</div>
+    </div>
+</div>
+
 To understand which classes are affected, we can compared model predictions across a dataset. They defined disagreement between two models, $f$ and $g$, for an input $\mathbf{x}_n$ using a comparison metric (CMP) similar to approaches in works like <d-cite key="Fort2019deepensembles"></d-cite>:
 
 $$ CMP(f(\mathbf{x}_n), g(\mathbf{x}_n)) = \begin{cases} 0 & \text{if } f(\mathbf{x}_n) = g(\mathbf{x}_n) \\ 1 & \text{if } f(\mathbf{x}_n) \neq g(\mathbf{x}_n) \end{cases} $$
@@ -208,14 +215,19 @@ This disagreement was analyzed on a per-class basis, comparing the (teacher vs. 
 
 ### Probing Group Fairness
 
-<div class="row align-items-center justify-content-center text-center bg-white">
-    <div class="col-lg mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/distillation_demographicparity.svg"  title="Demographic Parity" class="img-fluid rounded z-depth-0" %}
-        <caption>Demographic Partity</caption>
+<div class="container align-items-center justify-content-center text-center bg-white">
+    <div class="row">
+        <div class="col-lg mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_demographicparity.svg"  title="Demographic Parity" class="img-fluid rounded z-depth-0" %}
+            <div class="caption">Demographic Partity</div>
+        </div>
+        <div class="col-lg mt-3 mt-md-0">
+            {% include figure.liquid loading="eager" path="assets/img/distillation_equalizedodds.svg" title="Equalized Odds" class="img-fluid rounded z-depth-0" %}
+            <div class="caption">Equalized Odds</div>
+        </div>
     </div>
-    <div class="col-lg mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/distillation_equalizedodds.svg" title="Equalized Odds" class="img-fluid rounded z-depth-0" %}
-        <caption>Equalized Odds</caption>
+    <div class="row text-center justify-content-center">
+        <div class="caption">Figure: Group fairness metrics used in our analysis.</div>
     </div>
 </div>
 
@@ -256,18 +268,9 @@ Our research <d-cite key="Mohammadshahi2025distillation"></d-cite> yielded sever
 
 ### Class-wise Bias: An Uneven Impact
 
-<div class="row align-items-center justify-content-center text-center bg-white">
-    <div class="col-lg mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/distillation_distilledvsnondistilledstudent.svg"  title="Student vs. Non-Distilled Student" class="img-fluid rounded z-depth-0" %}
-        <div class="caption">In order to better understand the effect of Knowledge Distillation, and to control effects on bias/fairness of model size, we compared a Distilled Student (DS) to a Non-Distilled Student (NDS), i.e. a student trained with distillation from a teacher compared to a student model trained from random initialization with the same dataset.</div>
-    </div>
-</div>
-
-Class-wise bias experiments were conducted across various datasets (CIFAR-10/100, SVHN, Tiny ImageNet, ImageNet) and model architectures (ResNets, ViTs) <d-cite key="Mohammadshahi2025distillation"></d-cite>. In order to understand the effect of distillation on a student model, we compared the distilled student model to both the teacher model and a non-distilled student model (trained from scratch on hard labels).
-
 <div class="container text-center align-items-center justify-content-center mx-auto" markdown=1>
 <div class="caption">
-Class-wise Bias and Distillation. The number of statistically significantly affected classes comparing the class-wise accuracy of *teacher vs. Distilled Student (DS) models*, denoted #TC, and *Non-Distilled Student (NDS) vs. distilled student models*, denoted #SC for the ImageNet dataset.
+Table: Class-wise Bias and Distillation. The number of statistically significantly affected classes comparing the class-wise accuracy of *teacher vs. Distilled Student (DS) models*, denoted #TC, and *Non-Distilled Student (NDS) vs. distilled student models*, denoted #SC for the ImageNet dataset.
 </div>
 
 | Model   | Temp | ResNet50/ResNet18 ||| ViT-Base/TinyViT |||
@@ -297,12 +300,11 @@ Class-wise Bias and Distillation. The number of statistically significantly affe
         </div>
     </div>
     <div class="caption">
-        Class-wise Disagreement. Disagreement between a ResNet-56 teacher and ResNet-20 (left) non-distilled/(right) distilled student for (a) CIFAR-10 using T= 9 and (b) SVHN using T= 7. The diagonals are excluded since here both models predict the same class without any disagreement.
+        Figure: Class-wise Disagreement. Disagreement between a ResNet-56 teacher and ResNet-20 (left) non-distilled/(right) distilled student for (a) CIFAR-10 using T= 9 and (b) SVHN using T= 7. The diagonals are excluded since here both models predict the same class without any disagreement.
     </div>
 </div>
 
-<!-- 
-[Placeholder for Table/Figure 2: Summary of class-wise bias results, showing the number of significantly affected classes (#SC, #TC) for different datasets and temperatures. (Based on table from slide 23 and general idea of graph from slide 26/paper Figure 3 in <d-cite key="Mohammadshahi2025distillation"></d-cite>)] -->
+Class-wise bias experiments were conducted across various datasets (CIFAR-10/100, SVHN, Tiny ImageNet, ImageNet) and model architectures (ResNets, ViTs) <d-cite key="Mohammadshahi2025distillation"></d-cite>. In order to understand the effect of distillation on a student model, we compared the distilled student model to both the teacher model and a non-distilled student model (trained from scratch on hard labels).
 
 Distillation does not affect all classes uniformly; a significant percentage of classes can experience changes in accuracy. The distillation temperature $T$ influences which model (teacher or non-distilled student) the distilled student's biases more closely resemble. Higher temperatures tend to align the student more with the teacher's class-specific performance patterns <d-cite key="Mohammadshahi2025distillation"></d-cite>.
 
@@ -327,7 +329,7 @@ Our study <d-cite key="Mohammadshahi2025distillation"></d-cite> found that a cha
         </div>
     </div>
     <div class="caption">
-        Combined graphs showing EOD/DPD decreasing with increasing temperature for CelebA image dataset. 
+        Figure: Combined graphs showing EOD/DPD decreasing with increasing temperature for CelebA image dataset. 
     </div>
 </div>
 
@@ -343,7 +345,7 @@ Our study <d-cite key="Mohammadshahi2025distillation"></d-cite> found that a cha
         </div>
     </div>
     <div class="caption">
-        Combined graphs showing EOD/DPD decreasing with increasing temperature for the HateXplain language dataset. 
+        Figure: Combined graphs showing EOD/DPD decreasing with increasing temperature for the HateXplain language dataset. 
     </div>
 </div>
 
@@ -365,7 +367,7 @@ Across all three datasets (CelebA, Trifeature, HateXplain) and for both computer
         </div>
     </div>
     <div class="caption">
-        Combined/representative graphs showing EOD/DPD decreasing with very high temperatures for HateXplain. 
+        Figure: Combined/representative graphs showing EOD/DPD decreasing with very high temperatures for HateXplain. 
     </div>
 </div>
 
@@ -378,7 +380,7 @@ Similar to group fairness, our study <d-cite key="Mohammadshahi2025distillation"
 
 <div class="container text-center align-items-center justify-content-center mx-auto" markdown=1>
 <div class="caption">
-Individual Fairness Metrics Across Datasets. Individual fairness scores for teacher, Non-Distilled Student (NDS), and Distilled Student (DS) models across CelebA, Trifeature, and HateXplain datasets. For DS models, scores are reported for varying temperature values $T$.
+Table: Individual Fairness Metrics Across Datasets. Individual fairness scores for teacher, Non-Distilled Student (NDS), and Distilled Student (DS) models across CelebA, Trifeature, and HateXplain datasets. For DS models, scores are reported for varying temperature values $T$.
 </div>
 
 | Model   | Temp | CelebA (ResNet-50 / ResNet-18) | Trifeature (ResNet-20 / LeNet-5) | HateXplain (Bert-Base / DistilBERT) |
