@@ -375,8 +375,6 @@ Of course at higher levels of temperature, the model's predictions become more u
 
 ### Individual Fairness: Consistency Improves
 Similar to group fairness, our study <d-cite key="Mohammadshahi2025distillation"></d-cite> found a **clear improvement in individual fairness with increased distillation temperature** across the tested datasets. This suggests that higher temperatures not only help in equitable group outcomes but also in making the model's predictions more consistent for similar inputs.
-<!-- 
-[Placeholder for Figure 6: Graph showing improvement in individual fairness metrics with increasing temperature. (Based on slide 51 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)] -->
 
 <div class="container text-center align-items-center justify-content-center mx-auto" markdown=1>
 <div class="caption">
