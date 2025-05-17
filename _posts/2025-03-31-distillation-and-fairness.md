@@ -242,17 +242,28 @@ These metrics were evaluated on datasets with known demographic attributes:
 
 ### Investigating Individual Fairness
 
-Beyond group-level fairness, the study <d-cite key="Mohammadshahi2025distillation"></d-cite> also examined **individual fairness**: the principle that similar individuals should receive similar predictions. This was quantified using a metric based on the Lipschitz condition proposed by Dwork et al. <d-cite key="Dwork2012fairness"></d-cite>, where smaller values indicate better individual fairness.
+Beyond group-level fairness, our study <d-cite key="Mohammadshahi2025distillation"></d-cite> also examined **individual fairness**: the principle that similar individuals should receive similar outcomes. This was quantified using a metric based on the Lipschitz condition proposed by Dwork et al. <d-cite key="Dwork2012fairness"></d-cite>, where smaller values indicate better individual fairness:
 
-$$ \mathcal{I}(f) = \mathbb{E}_{(\mathbf{x},\mathbf{x}') \sim P} \left[ \frac{|f(\mathbf{x}) - f(\mathbf{x}')|}{d(\mathbf{x},\mathbf{x}')} \right] $$
+$$ \mathcal{I}(f) = \mathbb{E}_{(\mathbf{x},\mathbf{x}') \sim P} \left[ \frac{|f(\mathbf{x}) - f(\mathbf{x}')|}{d(\mathbf{x},\mathbf{x}')} \right] . $$
+
+Intuitively this metric captures whether a model provides consistent predictions for semantically similar inputs.
+
 
 ## Key Findings and Insights
 
-The research <d-cite key="Mohammadshahi2025distillation"></d-cite> yielded several important findings regarding the interplay of knowledge distillation, temperature, and fairness.
+Our research <d-cite key="Mohammadshahi2025distillation"></d-cite> yielded several important findings regarding the interplay of knowledge distillation, temperature, and fairness. 
+
 
 ### Class-wise Bias: An Uneven Impact
 
-Experiments were conducted across various datasets (CIFAR-10/100, SVHN, Tiny ImageNet, ImageNet) and model architectures (ResNets, ViTs) <d-cite key="Mohammadshahi2025distillation"></d-cite>.
+<div class="row align-items-center justify-content-center text-center bg-white">
+    <div class="col-lg mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/distillation_distilledvsnondistilledstudent.svg"  title="Student vs. Non-Distilled Student" class="img-fluid rounded z-depth-0" %}
+        <div class="caption">In order to better understand the effect of Knowledge Distillation, and to control effects on bias/fairness of model size, we compared a Distilled Student (DS) to a Non-Distilled Student (NDS), i.e. a student trained with distillation from a teacher compared to a student model trained from random initialization with the same dataset.</div>
+    </div>
+</div>
+
+Class-wise bias experiments were conducted across various datasets (CIFAR-10/100, SVHN, Tiny ImageNet, ImageNet) and model architectures (ResNets, ViTs) <d-cite key="Mohammadshahi2025distillation"></d-cite>. In order to understand the effect of distillation on a student model, we compared the distilled student model to both the teacher model and a non-distilled student model (trained from scratch on hard labels).
 
 <div class="container text-center align-items-center justify-content-center mx-auto" markdown=1>
 <div class="caption">
@@ -295,7 +306,7 @@ Class-wise Bias and Distillation. The number of statistically significantly affe
 
 Distillation does not affect all classes uniformly; a significant percentage of classes can experience changes in accuracy. The distillation temperature $T$ influences which model (teacher or non-distilled student) the distilled student's biases more closely resemble. Higher temperatures tend to align the student more with the teacher's class-specific performance patterns <d-cite key="Mohammadshahi2025distillation"></d-cite>.
 
-The study <d-cite key="Mohammadshahi2025distillation"></d-cite> found that a change in class bias by itself isn't inherently good or bad; its implications depend on the application context, leading to the analysis of the impact on decisions, i.e., group and individual fairness.
+Our study <d-cite key="Mohammadshahi2025distillation"></d-cite> found that a change in class bias by itself isn't inherently good or bad; its implications depend on the application context, leading to the analysis of the impact on decisions, i.e., group and individual fairness.
 
 ### Group Fairness: Temperature Matters
 
@@ -358,12 +369,34 @@ Across all three datasets (CelebA, Trifeature, HateXplain) and for both computer
     </div>
 </div>
 
-Of course at higher levels of temperature, the model's predictions become more uniform, which can lead to a loss of accuracy. The study found that while distillation a moderately high temperature (e.g., $T=10$) can lead to improved fairness, very high temperatures (e.g. $T>10$) can lead to a significant drop in accuracy and fairness.
+Of course at higher levels of temperature, the model's predictions become more uniform, which can lead to a loss of accuracy. Our study found that while distillation a moderately high temperature (e.g., $T=10$) can lead to improved fairness, very high temperatures (e.g. $T>10$) can lead to a significant drop in accuracy and fairness.
 
 ### Individual Fairness: Consistency Improves
-Similar to group fairness, the study <d-cite key="Mohammadshahi2025distillation"></d-cite> found a **clear improvement in individual fairness with increased distillation temperature** across the tested datasets. This suggests that higher temperatures not only help in equitable group outcomes but also in making the model's predictions more consistent for similar inputs.
+Similar to group fairness, our study <d-cite key="Mohammadshahi2025distillation"></d-cite> found a **clear improvement in individual fairness with increased distillation temperature** across the tested datasets. This suggests that higher temperatures not only help in equitable group outcomes but also in making the model's predictions more consistent for similar inputs.
 <!-- 
 [Placeholder for Figure 6: Graph showing improvement in individual fairness metrics with increasing temperature. (Based on slide 51 from presentation discussing <d-cite key="Mohammadshahi2025distillation"></d-cite>)] -->
+
+<div class="container text-center align-items-center justify-content-center mx-auto" markdown=1>
+<div class="caption">
+Individual Fairness Metrics Across Datasets. Individual fairness scores for teacher, Non-Distilled Student (NDS), and Distilled Student (DS) models across CelebA, Trifeature, and HateXplain datasets. For DS models, scores are reported for varying temperature values $T$.
+</div>
+
+| Model   | Temp | CelebA (ResNet-50 / ResNet-18) | Trifeature (ResNet-20 / LeNet-5) | HateXplain (Bert-Base / DistilBERT) |
+| :------ | :--- | :-------------------------------------------------------: | :--------------------------------------------------------: | :----------------------------------------------------------: |
+| Teacher | --   |                          0.0407                           |                          0.016                           |                           0.0320                           |
+| NDS     | --   |                          0.1240                            |                          0.0462                          |                           0.1078                           |
+| DS      | 1    |                          0.1130                            |                          0.0422                          |                           0.0994                           |
+| DS      | 2    |                          0.1040                            |                          0.0407                          |                           0.0985                           |
+| DS      | 3    |                          0.0908                           |                          0.0393                          |                           0.0927                           |
+| DS      | 4    |                          0.0906                           |                          0.0387                          |                           0.0882                           |
+| DS      | 5    |                          0.0886                           |                          0.0384                          |                           0.0823                           |
+| DS      | 6    |                          0.0799                           |                          0.0377                          |                           0.0768                           |
+| DS      | 7    |                          0.0753                           |                          0.0356                          |                           0.0727                           |
+| DS      | 8    |                          0.0712                           |                          0.0349                          |                           0.0689                           |
+| DS      | 9    |                          0.0701                           |                          0.0341                          |                           0.0681                           |
+| DS      | 10   |                          0.0697                           |                          0.0338                          |                           0.0654                           |
+
+</div>
 
 ## Conclusion: Distillation, A Double-Edged Sword?
 
