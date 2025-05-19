@@ -21,7 +21,7 @@ I am a Ph.D. Student at the Department of Mechanical Engineering, Texas A&M Univ
 
 My current research involves developing and deploying Massively parallelized Computational Fluid Dynamics programs that are used to study Fluid Structure Interactions. As the name suggests, Fluid Structure interactions are phenomena which involve generally viscoelastic materials that interact with fluids which cause variation in physical properties of both the fluid and the immersed body itself.
 
-This is  especially relevant in developing an understanding of cardiac haemodynamics as well as structural cardiovascular disease(SCD). SCDs such as myochardial infarction along with thrombosis and aneurysms need to be better understood to develop  modern Protocals and tools to battle the swelling tide of  heart disease fatalities globally.
+This is  especially relevant in developing an understanding of cardiac haemodynamics as well as structural cardiovascular disease(SCD). SCDs such as myochardial infarction along with thrombosis and aneurysms need to be better understood to develop  modern Protocols and tools to battle the swelling tide of  heart disease fatalities globally.
 I have previously worked on computational chemical kinetics models for turbulent combustion and have a variety of domains that I would like to explore. These include, but are not limited to: 
 
  - High Performance Computing (for scientific applications).
