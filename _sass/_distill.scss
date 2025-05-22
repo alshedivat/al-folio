@@ -138,26 +138,6 @@ d-article {
     }
   }
 
-  /* Styling for footnote pop-ups (d-hover-box element) */
-  /* Distill's JS creates these dynamically. */
-  d-hover-box { /* This is a custom element for Distill pop-ups */
-    background-color: var(--global-card-bg-color) !important;
-    border: 1px solid var(--global-divider-color) !important; /* Border for the pop-up box */
-    color: var(--global-text-color) !important; /* Default text color inside pop-up */
-    
-    /* Ensure paragraphs, list items, and other common elements inside also get the correct text color */
-    p, li, span, div { 
-      color: var(--global-text-color) !important;
-    }
-
-    a { /* Links inside pop-up */
-      color: var(--global-theme-color) !important;
-      &:hover {
-        color: var(--global-hover-color) !important;
-      }
-    }
-  }
-
   /* Citations */
   d-cite a,
   a.citation { /* Target citations within d-cite and also general .citation links */
