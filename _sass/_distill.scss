@@ -140,7 +140,8 @@ d-article {
 
   /* Citations */
   d-cite a,
-  a.citation { /* Target citations within d-cite and also general .citation links */
+  a.citation {
+    /* Target citations within d-cite and also general .citation links */
     color: var(--global-theme-color) !important;
     &:hover {
       color: var(--global-hover-color) !important;
