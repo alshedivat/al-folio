@@ -15,6 +15,22 @@
     "current": false
   },
   {
+    "name": "Bogoan Kim",
+    "position": "Postdoctoral Researcher",
+    "image": "bogoan.jpg",
+    "homepage": "https://bogoankim.github.io/",
+    "research_interest": "HCI, Digital Healthcare",
+    "current": true
+  },
+  {
+    "name": "Sangsu Jang",
+    "position": "Postdoctoral Researcher",
+    "image": "sangsu.jpg",
+    "homepage": "https://www.sangsu.in/",
+    "research_interest": "Personal Informatics, Mental Health, Design for Reflection",
+    "current": true
+  },
+  {
     "name": "Dasom Choi",
     "position": "Ph.D. Student",
     "image": "dasom.png",
