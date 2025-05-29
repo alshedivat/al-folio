@@ -484,3 +484,22 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/main/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
+
+## calendar-control
+1. Enable the Calendar Module
+
+In your _config.yml, add the following block (if not already present):
+
+calendar:
+  enabled: true  # set to false to disable calendar
+  calendar_id: your_calendar_id_here@group.calendar.google.com
+  timezone: Asia/Shanghai   # Optional. Default: UTC
+  style: 'border:0; width:100%; height:600px;'  # Optional CSS inline styles
+
+calendar_id: your Google Calendar ID, which can be found in the Google Calendar Settings → Integrate calendar → Calendar ID.
+
+enabled: set to true to show the calendar, or false to hide it.
+
+timezone: adjusts the calendar display to your local time zone.
+
+style: To keep visual consistency with the theme, styling is defined in _sass/_base.scss files.
