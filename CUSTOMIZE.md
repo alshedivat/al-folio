@@ -158,6 +158,19 @@ A variety of beautiful theme colors have been selected for you to choose from. T
 
 You can add your social media links by adding the specified information in the [\_data/socials.yml](_data/socials.yml) file. This information will appear at the bottom of the `About` page and in the search results by default, but this could be changed to appear at the header of the page by setting `enable_navbar_social: true` and doesn't appear in the search by setting `socials_in_search: false`, both in [\_config.yml](_config.yml).
 
+Note that you can add more custom social media link by duplicating `custom_social` section and its tree with NEW name like below (pay attention to `custom_social2`
+
+```yaml
+custom_social: # can be any name here other than the ones already defined above
+  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Lemmy_logo.svg/1200px-Lemmy_logo.svg.png # can be png, svg, jpg
+  title: Lemmy
+  url: https://www.lemmy.website/
+custom_social2: # can be any name here other than the ones already defined above
+  logo: https://upload.wikimedia.org/wikipedia/commons/3/31/Pleroma-Logo.png # can be png, svg, jpg
+  title: Pleroma
+  url: https://pleroma.site/
+```
+
 ## Adding a newsletter
 
 You can add a newsletter subscription form by adding the specified information at the `newsletter` section in the [\_config.yml](_config.yml) file. To set up a newsletter, you can use a service like [Loops.so](https://loops.so/), which is the current supported solution. Once you have set up your newsletter, you can add the form [endpoint](https://loops.so/docs/forms/custom-form) to the `endpoint` field in the `newsletter` section of the [\_config.yml](_config.yml) file.
