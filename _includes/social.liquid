@@ -1,5 +1,7 @@
 {% for social in site.data.socials %}
   {% case social[0] %}
+    {% when 'academia_edu' %}
+      <a href="https://{{ social[1].organization }}.academia.edu/{{ social[1].username }}" title="Academia.edu"><i class="ai ai-academia"></i></a>
     {% when 'acm_id' %}
       <a href="https://dl.acm.org/profile/{{ social[1] }}/" title="ACM DL"><i class="ai ai-acm"></i></a>
     {% when 'blogger_url' %}
