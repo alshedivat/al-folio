@@ -170,6 +170,7 @@ The Coding School.
 - Fellow, Ashar Aziz Presidential Fellowship (MIT) (2025)
 - Finalist, Hertz Foundation Fellowship (2025)
 - Honorable Mention, NSF Graduate Research Fellowship Program (2025)
+- UW Philosophy Department Outstanding Graduating Senior (2025)
 - UW Philosophy Department Outstanding Undergraduate Scholar (2024)
 - CRA Outstanding Undergraduate Researcher Finalist (2023)
 - Mary Gates Research Scholar (2023)
