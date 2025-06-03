@@ -18,4 +18,4 @@ Our works are supported by Taiwan's [Academia Sinica](https://www.sinica.edu.tw/
 
 We are based [at a hillside in Nangang, Taipei](https://www.openstreetmap.org/way/127949217/). Our partners, past and present, include the Center for GIS of Academia Sinica, National Museum of Taiwan History, Taiwan Biodiversity Information Facility (TaiBIF), Taiwan Biodiversity Research Institute, Taiwan Long-Term Social-Ecological Research Network (LTSER Taiwan), Word Gleaners Ltd., Nature Watch Ecological and Environmental Consultancy Ltd., among others.
 
-The members of the depositar lab are Shao-Chuan Chang, Tyng-Ruey Chuang, Cheng-Jen Lee, Hilary Szu Yin Shiue, and Chia-Hsun Ally Wang (in last name alphabetical order).
+The members of the depositar lab are Shao-Chuan Chang, Ting-Yu Chuang, Tyng-Ruey Chuang, Cheng-Jen Lee, Hilary Szu Yin Shiue, and Chia-Hsun Ally Wang (in last name alphabetical order).
