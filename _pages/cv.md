@@ -170,16 +170,16 @@ The Coding School.
 - Finalist, Hertz Foundation Fellowship (2025)
 - Honorable Mention, NSF Graduate Research Fellowship Program (2025)
 - Gonfalonier (Banner Carrier) for the College of Arts and Sciences, 150th University of Washington Commencement (2025)
+- UW CSE Outstanding Senior (2025)
 - UW Philosophy Department Outstanding Graduating Senior (2025)
 - UW Philosophy Department Outstanding Undergraduate Scholar (2024)
 - CRA Outstanding Undergraduate Researcher Finalist (2023)
 - Mary Gates Research Scholar (2023)
 - Phi Beta Kappa Scholar (2023)
 - Philosophy Department Honors (2023)
-- HCOMP/CI Student Scholarship (2023)
+<!-- - HCOMP/CI Student Scholarship (2023)
 - Departmental and University Research Travel Scholarships (2023, 2024)
-- Kaggle Master rank
-- Global Nominee, 2020 NASA Space Applications Hackathon
+- Kaggle Master rank -->
 
 ---
 
