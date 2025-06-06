@@ -170,6 +170,7 @@ The Coding School.
 - Finalist, Hertz Foundation Fellowship (2025)
 - Honorable Mention, NSF Graduate Research Fellowship Program (2025)
 - Gonfalonier (Banner Carrier) for the College of Arts and Sciences, 150th University of Washington Commencement (2025)
+- UW College of Arts and Sciences Dean's Medal (2025)
 - UW CSE Outstanding Senior (2025)
 - UW Philosophy Department Outstanding Graduating Senior (2025)
 - UW Philosophy Department Outstanding Undergraduate Scholar (2024)
