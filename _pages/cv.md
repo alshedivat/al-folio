@@ -17,6 +17,7 @@ View CV as a compact [pdf](/assets/pdf/Ye-Resume-Updated.pdf){:target="_blank"} 
 "Agonistic Image Generation: Unsettling the Hegemony of Intention".
 Andrew Shaw\*, **Andre Ye\*** Ranjay Krishna, Amy X. Zhang.
 ACM Conference on Fairness, Accountability, and Transparency 2025.
+UW CSE Best Senior Thesis (submitted by Andrew Shaw).
 *Resources*:
 [arXiv](https://arxiv.org/abs/2502.15242){:target="_blank"}.
 
@@ -173,6 +174,7 @@ The Coding School.
 - UW College of Arts and Sciences Dean's Medal (2025)
 - UW CSE Outstanding Senior (2025)
 - UW Philosophy Department Outstanding Graduating Senior (2025)
+- UW CSE Best Senior Thesis Award (submitted by co-first author Andrew Shaw) (2025)
 - UW Philosophy Department Outstanding Undergraduate Scholar (2024)
 - CRA Outstanding Undergraduate Researcher Finalist (2023)
 - Mary Gates Research Scholar (2023)
