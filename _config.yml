@@ -53,7 +53,7 @@ footer_fixed: true
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
-bib_search: true
+bib_search: false # enables search for publications in the bibtex file
 
 # Dimensions
 max_width: 930px

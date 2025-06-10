@@ -1,0 +1,54 @@
+@inproceedings{只野竣也2024不確実性を考慮した歩行者軌道予測への姿勢情報の統合,
+  bibtex_show={true},
+  title={不確実性を考慮した歩行者軌道予測への姿勢情報の統合},
+  author={只野竣也 and 田村雄介 and 平田泰久},
+  booktitle={ロボティクス・メカトロニクス講演会講演概要集 2024},
+  pages={2P2--N01},
+  year={2024},
+  organization={一般社団法人 日本機械学会},
+  abbr={Conference}
+}
+
+@article{釼持優人2024株式会社弘栄ドリームワークス最先端配管点検ロボット,
+  bibtex_show={true},
+  title={株式会社弘栄ドリームワークス最先端配管点検ロボット 「配管くん」 の秘密に迫る},
+  author={釼持優人 and 只野竣也 and 長岡瞬 and 山本晃平},
+  journal={日本ロボット学会誌},
+  volume={42},
+  number={6},
+  pages={543--547},
+  year={2024},
+  publisher={一般社団法人 日本ロボット学会},
+  abbr={misc}
+}
+
+@inproceedings{米倉達郎2022北極海氷調査自律移動ロボットの開発,
+  bibtex_show={true},
+  title={北極海氷調査自律移動ロボットの開発―氷雪上走行における検討と高精度測位システムの基礎的開発―},
+  author={米倉達郎 and 古舘守道 and 只野竣也 and 菅良太郎 and 吉田弘 and 三好扶},
+  booktitle={ロボティクス・メカトロニクス講演会講演概要集 2022},
+  pages={1A1--L03},
+  year={2022},
+  organization={一般社団法人 日本機械学会},
+  abbr={Conference}
+}
+
+@inproceedings{Tadano-ICRA2024,
+  bibtex_show={true},
+  title={Pedestrian Trajectory Prediction with Pose Estimation and Monte Carlo Dropout},
+  author={Shunya Tadano and Yusuke Tamura and Yasuhisa Hirata},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA2024), Rate Breaking Result Poster},
+  pages={ThAL-EX.17},
+  year={2024},
+  abbr={Conference}
+}
+
+@article{吉田弘海中アンテナの開発とその極域探査ロボットへの応用,
+  bibtex_show={true},
+  title={海中アンテナの開発とその極域探査ロボットへの応用},
+  author={吉田弘 and 野一色崇志 and 高橋応明 and 屋比久怜 and 菅良太郎 and 米倉達郎 and 只野竣也 and 川村昴 and 松下拓磨 and 松井康浩},
+  journal={電子情報通信学会技術研究報告; 信学技報},
+  publisher={電子情報通信学会},
+  year={2022},
+  abbr={Conference}
+}

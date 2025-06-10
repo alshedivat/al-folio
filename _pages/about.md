@@ -28,7 +28,11 @@ latest_posts:
 ---
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
-I am a Ph.D student at [Tohoku University](https://www.eng.tohoku.ac.jp/english/). from 2025, advised by [Assoc. Prof. Yusuke Tamura](https://scholar.google.co.jp/citations?user=Z1PbGrMAAAAJ). His research interests include mobile robot and human-robot interaction. In particular, I am interested in the social navigation and pedestrian trajectory prediction.
+I am a Ph.D student at [Tohoku University](https://www.eng.tohoku.ac.jp/english/) from 2025, advised by [Assoc. Prof. Yusuke Tamura](https://tamlab.jp/). My research interests include mobile robot and human-robot interaction. In particular, I am interested in social navigation and pedestrian trajectory prediction.
+
+東北大学 工学研究科 ロボティクス専攻 博士後期課程１年の只野竣也です。   
+[田村研究室](https://tamlab.jp/)にて、自律移動ロボットと人の共存について研究しています。  
+特に、社会的ナビゲーションや歩行者の軌道予測などに取り組んでいます。
 
 ### Contact
 
