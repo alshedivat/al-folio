@@ -167,11 +167,11 @@ The Coding School.
 
 ## recognition & scholarships
 - Fellow, Paul and Daisy Soros Fellowship for New Americans (2025)
+- Awardee, NSF Graduate Research Fellowship Program (2025)
 - Fellow, Ashar Aziz Presidential Fellowship (MIT) (2025)
 - Finalist, Hertz Foundation Fellowship (2025)
-- Honorable Mention, NSF Graduate Research Fellowship Program (2025)
 - Gonfalonier (Banner Carrier) for the College of Arts and Sciences, 150th University of Washington Commencement (2025)
-- UW College of Arts and Sciences Dean's Medal (2025)
+- UW College of Arts and Sciences Dean's Medal (for the Social Sciences) (2025)
 - UW CSE Outstanding Senior (2025)
 - UW Philosophy Department Outstanding Graduating Senior (2025)
 - UW CSE Best Senior Thesis Award (submitted by co-first author Andrew Shaw) (2025)
