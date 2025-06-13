@@ -2,11 +2,14 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Here is some of my teaching experience
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+## Teaching assistant.
+- Faculty of science, National autonomous University of Mexico.
+  - 2025 spring
+    - [Artifical intelligence (Undergraduate level)](https://web.fciencias.unam.mx/docencia/horarios/presentacion/360871)
+  - 2024 fall
+    - [Artifical intelligence (Undergraduate level)](https://web.fciencias.unam.mx/docencia/horarios/presentacion/360871)
