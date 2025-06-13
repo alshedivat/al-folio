@@ -27,6 +27,7 @@ I want to build **AI tools for thought** (esp. for the textual social sciences a
 My philosophical interests include existentialist phenomenology, "pragmatist" philosophy of science, and Deleuze-like metaphysics.
 Currently I am thinking about what a *task* is --- in AI, in philosophy, in science, in political and ethical life.
 Please see my [research agenda](/agenda), [CV](/cv), and [SOP](/assets/pdf/phd-sop.pdf){:target="_blank"} for more details.
+My work is also supported by the NSF GRFP.
 I was very fortunate to be advised by [Amy Zhang](https://homes.cs.washington.edu/~axz/){:target="_blank"}, [Ranjay Krishna](https://ranjaykrishna.com/index.html){:target="_blank"}, and [Rose Novick](https://www.rosenovick.com/){:target="_blank"} at UW.
 My email is `andreye [at] uw [dot] edu`.
 
