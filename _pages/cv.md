@@ -186,6 +186,12 @@ The Coding School.
 
 ---
 
+## news
+- ["Undergrad Questions the AI Answer"](https://www.washington.edu/uaa/undergrad-researcher-questions-the-ai-answer/){:target="_blank"}
+- ["UW undergraduate with interdisciplinary AI focus earns fellowship of up to $90,000 for graduate study"](https://www.washington.edu/uaa/2025/04/09/uw-undergraduate-earns-fellowship-for-graduate-study/){:target="_blank"}
+
+---
+
 ## academic service & volunteering
 
 - 2024 CSCW (Computer-Supported Cooperative Work) Reviewer
