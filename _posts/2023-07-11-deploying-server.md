@@ -2,7 +2,7 @@
 layout: post
 title: Deploying a Server for Bioinformatics Research
 date: 2023-07-11
-last_updated: 2025-03-23
+last_updated: 2025-06-17
 description: how to deploy a server for bioinformatics research
 tags: deployment server Ubuntu
 categories: computer
@@ -692,5 +692,28 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 12
 ```
 
 After the headers are reinstalled, you need to `sudo reboot` the server. Then `nvidia-smi` should work now.
+
+
+### Can't use $\LaTeX$ fonts in `matplotlib` figures
+
+According to the [demo](https://matplotlib.org/stable/gallery/text_labels_and_annotations/tex_demo.html) of `matplotlib`, you should be able to use $\LaTeX$ fonts by setting
+
+```python
+import matplotlib.pyplot as plt
+
+plt.rcParams['text.usetex'] = True
+```
+
+However, if you don't install $\LaTeX$ in your system, you will get an error:
+
+```text
+RuntimeError: Failed to process string with tex because latex could not be found
+```
+
+So just install $\LaTeX$:
+
+```bash
+sudo apt install texlive texlive-latex-extra texlive-fonts-recommended dvipng cm-super
+```
 
 Now, your server should be well-suited for your bioinformatics research and you know what to do when things go wrong. Enjoy it!
