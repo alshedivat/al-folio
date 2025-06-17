@@ -6,7 +6,8 @@ title: Marcin Copik # the website title (if blank, full name will be used instea
 first_name: Marcin
 middle_name: 
 last_name: Copik
-email: mcopik@gmail.com
+contact_note: >
+  Feel free to reach out to me on email or Twitter!
 description: Personal webpage
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -38,8 +39,6 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: false
-
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -48,6 +47,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
+posts_in_search: true
 bib_search: true
 
 # Dimensions 
@@ -64,55 +64,6 @@ serve_og_meta: false # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-
-acm_id: # your dl.acm.org/profile/id
-blogger_url: # your blogger URL
-bluesky_url: # your bluesky URL
-dblp_url: # your DBLP profile url
-discord_id: # your discord id (18-digit unique numerical identifier)
-facebook_id: # your facebook id
-flickr_id: # your flickr id
-github_username: mcopik # your GitHub user name
-gitlab_username: # your GitLab user name
-ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
-instagram_id: # your instagram id
-kaggle_id: # your kaggle id
-keybase_username: # your keybase user name
-lastfm_id: # your lastfm id
-lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-medium_username: # your Medium username
-linkedin_username: # your LinkedIn user name
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-orcid_id: 0000-0002-7606-5519 # your ORCID ID
-osf_id: # your OSF ID
-pinterest_id: # your pinterest id
-publons_id: # your ID on Publons
-quora_username: # your Quora username
-scholar_userid: JdXd8pQAAAAJ # your Google Scholar ID
-research_gate_profile: # your profile on ResearchGate
-scopus_id: # your profile on Scopus
-semanticscholar_id: # your Semantic Scholar ID
-spotify_id: # your spotify id
-stackoverflow_id: # your stackoverflow id
-telegram_username: # your Telegram user name
-unsplash_id: # your unsplash id
-wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-wikidata_id: # your wikidata id
-wikipedia_id: # your wikipedia id (Case sensitive)
-work_url: # work page URL
-x_username: copikmarcin # your Twitter handle
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-zotero_username: # your zotero username
-
-contact_note: >
-  Feel free to reach out to me on email or Twitter!
-
-# -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
@@ -121,6 +72,7 @@ contact_note: >
 google_analytics: G-SMNWMM80NC # your Goole Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
+openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: # your google-site-verification ID (Google Search Console)
@@ -181,24 +133,14 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  books:
+    output: true
   news:
     defaults:
       layout: post
     output: true
-    permalink: /:collection/:title/
   projects:
     output: true
-    permalink: /:collection/:title/
-
-announcements:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -218,7 +160,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages", "_scripts"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -245,7 +187,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives
+  - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -258,6 +200,7 @@ plugins:
   - jekyll/scholar
   - jekyll-sitemap
   - jekyll-tabs
+  - jekyll-terser
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
@@ -277,24 +220,30 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js", "assets/libs/**/*"]
-  uglifier_args:
-    harmony: true
+  compress_javascript: false # set to false since we are using terser as the js minifier
+  exclude: ["robots.txt", "assets/js/search/*.js"]
+
+# -----------------------------------------------------------------------------
+# Terser
+# -----------------------------------------------------------------------------
+
+terser:
+  compress:
+    drop_console: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: "/blog/:year/"
-    tag: "/blog/tag/:name/"
-    category: "/blog/category/:name/"
+  posts:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+    permalinks:
+      year: "/blog/:year/"
+      tags: "/blog/:type/:name/"
+      categories: "/blog/:type/:name/"
+  books:
+    enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ['linux', 'serverless', 'cloud', 'c++'] # this tags will be dispalyed on the front page of your blog
 display_categories: [] # these categories will be displayed on the front page of your blog
@@ -422,6 +371,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 enable_google_analytics:    true   # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
+enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
@@ -529,6 +479,14 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/leaflet@{{version}}/dist/leaflet.js.map"
     version: "1.9.4"
+  lightbox2:
+    integrity:
+      css: "sha256-uypRbsAiJcFInM/ndyI/JHpzNe6DtUNXaWEUWEPfMGo="
+      js: "sha256-A6jI5V9s1JznkWwsBaRK8kSeXLgIqQfxfnvdDOZEURY="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/css/lightbox.min.css"
+      js: "https://cdn.jsdelivr.net/npm/lightbox2@{{version}}/dist/js/lightbox.min.js"
+    version: "2.11.5"
   mathjax:
     integrity:
       js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
@@ -568,6 +526,25 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/mermaid@{{version}}/dist/mermaid.min.js"
     version: "10.7.0"
+  photoswipe:
+    integrity:
+      js: "sha256-VCBpdxvrNNxGHNuTdNqK9kPFkev2XY7DYzHdmgaB69Q="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.min.css"
+      js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe.esm.min.js"
+    version: "5.4.4"
+  photoswipe-lightbox:
+    integrity:
+      js: "sha256-uCw4VgT5DMdwgtjhvU9e98nT2mLZXcw/8WkaTrDd3RI="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
+    version: "5.4.4"
+  plotly:
+    integrity:
+      js: "sha256-oy6Be7Eh6eiQFs5M7oXuPxxm9qbJXEtTpfSI93dW16Q="
+    url:
+      js: "https://cdn.jsdelivr.net/npm/plotly.js@{{version}}/dist/plotly.min.js"
+    version: "3.0.1"
   polyfill:
     url:
       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
@@ -580,6 +557,13 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.css"
       js: "https://cdn.jsdelivr.net/npm/pseudocode@{{version}}/build/pseudocode.min.js"
     version: "2.4.1"
+  spotlight:
+    integrity:
+      css: "sha256-Dsvkx8BU8ntk9Iv+4sCkgHRynYSQQFP6gJfBN5STFLY="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/css/spotlight.min.css"
+      js: "https://cdn.jsdelivr.net/npm/spotlight.js@{{version}}/dist/spotlight.bundle.min.js"
+    version: "0.7.8"
   swiper:
     integrity:
       css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
@@ -620,6 +604,14 @@ third_party_libraries:
       js: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js"
       js_map: "https://cdn.jsdelivr.net/npm/vega-lite@{{version}}/build/vega-lite.min.js.map"
     version: "5.16.3"
+  venobox:
+    integrity:
+      css: "sha256-ohJEB0/WsBOdBD+gQO/MGfyJSbTUI8OOLbQGdkxD6Cg="
+      js: "sha256-LsGXHsHMMmTcz3KqTaWvLv6ome+7pRiic2LPnzTfiSo="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
+      js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
+    version: "2.1.8"
 
 # -----------------------------------------------------------------------------
 # Get external JSON data
@@ -628,6 +620,7 @@ third_party_libraries:
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
+
 jsonresume:
   - basics
   - work

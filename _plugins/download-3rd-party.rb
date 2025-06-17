@@ -70,7 +70,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     unless File.file?(dest)
       puts "Downloading #{url} to #{dest}"
       File.open(dest, "wb") do |saved_file|
-        URI.open(url, "rb") do |read_file|
+        URI(url).open("rb") do |read_file|
           saved_file.write(read_file.read)
         end
       end
@@ -92,7 +92,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     unless File.directory?(dest) && !Dir.empty?(dest)
       puts "Downloading fonts from #{url} to #{dest}"
       # get available fonts from the url
-      doc = Nokogiri::HTML(URI.open(url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
+      doc = Nokogiri::HTML(URI(url).open("User-Agent" => "Ruby/#{RUBY_VERSION}"))
       doc.css('a').each do |link|
         # get the file name from the url
         file_name = link['href'].split('/').last.split('?').first
@@ -116,7 +116,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
     unless File.directory?(dest) && !Dir.empty?(dest)
       puts "Downloading images from #{url} to #{dest}"
       # get available fonts from the url
-      doc = Nokogiri::HTML(URI.open(url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
+      doc = Nokogiri::HTML(URI(url).open("User-Agent" => "Ruby/#{RUBY_VERSION}"))
       doc.xpath('/html/body/div/div[3]/table/tbody/tr/td[1]/a').each do |link|
         # get the file name from the url
         file_name = link['href'].split('/').last.split('?').first
@@ -148,7 +148,7 @@ Jekyll::Hooks.register :site, :after_init do |site|
       puts "Downloading fonts from #{url} to #{dest}"
       # download the css file with a fake user agent to force downloading woff2 fonts instead of ttf
       # user agent from https://www.whatismybrowser.com/guides/the-latest-user-agent/chrome
-      doc = Nokogiri::HTML(URI.open(url, "User-Agent" => "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"))
+      doc = Nokogiri::HTML(URI(url).open("User-Agent" => "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"))
       css = CssParser::Parser.new
       css.load_string! doc.document.text
 
