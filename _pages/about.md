@@ -26,18 +26,15 @@ statisics research and applications.
 
 Previously, I obtained my Ph.D. in mathematics from Nanyang Technological
 University (NTU) in 2022. In my [dissertation](https://hdl.handle.net/10356/163311),
-I developed a framework to transfer knowledge encoded in predictions to a
-learning algorithm, which fits a hybrid of an additive and varying coefficient
-model.
-- Notably, this approach resulted in base boosting, which is a generalization
-of gradient boosting.
-  - That is, gradient boosting fits an additive model, where the boosting
-  mechanism begins optimization in function space at a constant model.
-  - Base boosting, on the other hand, fits a hybrid of an additive and varying
-  coefficient model, where the boosting mechanism begins optimization in
-  function space at a base model, which may be a non-constant model.
-- Empirically, base boosting outperformed popular boosting libraries and Google's
-quantum physics model on quantum device and Taylor series data sets.
+I developed a reformulation of additive models and their fitting algorithms, which
+fused the methods of reroughing, stacking, and additive models in the context of
+multi-target regression.
+- Notably, this formulated the non-constant initialization of gradient boosting,
+which tied the pragmatic tweak of an offset to well-established methods in data
+analysis, machine learning, and statistics.
+- In the case that the offset were predictions from Google's quantum device calibration
+model, then the formulation enhanced those predictions and decreased test error in a
+numerical experiment.
 
 Additionally, I am an original member of the 
 [Mathematical Picture Language Project](https://mathpicture.fas.harvard.edu/)
