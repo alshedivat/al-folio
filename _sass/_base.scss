@@ -1291,71 +1291,6 @@ swiper-container {
 }
 
 /*******************************************************************************
- * Letter Navigation & Profile Grid
- ******************************************************************************/
-/* Sticky letter navigation bar */
-.letter-index {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 100px;
-  width: 100%;
-  background-color: white;
-  padding: 10px 0;
-  z-index: 1000;
-  text-align: center;
-  margin-bottom: 20px;
-  border-bottom: 1px solid #ccc;
-  white-space: nowrap;
-}
-
-.letter-index a {
-  margin: 0 0.5%;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.letter-index a:hover {
-  text-decoration: underline;
-}
-
-/* Letter sections for navigation */
-.letter-section {
-  width: 100%;
-  margin-top: 40px;
-}
-
-.letter-section h2 {
-  text-align: left;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 5px;
-  margin-bottom: 10px;
-}
-
-/* Profile grid layout (responsive three-column layout) */
-.profile-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.profile-column {
-  flex: 1 1 calc(33.333% - 20px);
-  box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-  .profile-column {
-    flex: 1 1 calc(50% - 20px);
-  }
-}
-
-@media (max-width: 480px) {
-  .profile-column {
-    flex: 1 1 100%;
-  }
-}
-
-/*******************************************************************************
  * Figure Cover Styling
  ******************************************************************************/
 figure.cover {
@@ -1477,21 +1412,12 @@ figure.cover {
       font-size: 1.2em;
     }
   }
+}
 
-  // Letter navigation matching the page background
-  .letter-index {
-    background-color: inherit;
-    padding: 10px;
-    text-align: center;
+.people-status-anchor-target {
+  scroll-margin-top: 65px;
+}
 
-    a {
-      margin: 0 5px;
-      text-decoration: none;
-    }
-  }
-
-  // Profile column spacing
-  .profile-column {
-    margin-bottom: 20px;
-  }
+.people-anchor-target {
+  scroll-margin-top: 150px;
 }

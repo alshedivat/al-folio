@@ -1,121 +1,116 @@
 ---
 layout: page
 ---
+{% assign status_order = "faculty,staff,affiliate,student,emeritus,friend,alumni" | split: "," %}
+{% assign display_names = "faculty,staff,affiliates,students,emeritus,friends,alumni" | split: "," %}
 
-<div class="profiles-page">
-  <div class="post">
-    <article>
-      <!-- Set the threshold variable -->
-      {% assign threshold = 24 %}
+<div class="profiles-page container-fluid">
+  <div class="row">
 
-      <!-- Define desired status order and display names -->
-      {% assign status_order = "faculty,staff,affiliate,student,emeritus,friend,alumni" | split: "," %}
-      {% assign display_names = "faculty,staff,affiliates,students,emeritus,friends,alumni" | split: "," %}
-
-      <!-- First Level Navigation: Status -->
-      <div class="status-index">
-        {% for status in status_order %}
-          {% assign people_in_status = site.data.people | where: "status", status %}
-          {% if people_in_status.size > 0 %}
-            <a href="#{{ status }}">{{ display_names[forloop.index0] }}</a>{% unless forloop.last %} | {% endunless %}
-          {% endif %}
-        {% endfor %}
+    <!-- Sticky left menu -->
+    <div class="col-md-2 d-none d-md-block">
+      <div class="sticky-top" style="top: 100px;">
+        <ul class="list-unstyled">
+          {% for status in status_order %}
+            {% assign people_in_status = site.data.people | where: "status", status %}
+            {% if people_in_status.size > 0 %}
+              <li><a class="status-link" href="#{{ status }}">{{ display_names[forloop.index0] }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
+    </div>
 
-      <!-- Loop through each status in custom order -->
-      {% for status in status_order %}
-        {% assign people_in_status = site.data.people | where: "status", status | sort: 'dirLastName' %}
-        {% if people_in_status.size > 0 %}
-          <div class="status-section">
-            <h2 id="{{ status }}">{{ display_names[forloop.index0] }}</h2>
+    <!-- Main content -->
+    <div class="col-md-10">
+      <div class="post">
+        <article>
+          {% for status in status_order %}
+            {% assign people_in_status = site.data.people | where: "status", status %}
 
-            <!-- Optional alphabetical index -->
-            {% assign people_count = people_in_status | size %}
-            {% if people_count > threshold %}
-              <div class="letter-index">
-                {% assign alphabet = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z" | split: "," %}
-                {% for letter in alphabet %}
-                  <a href="#{{ status }}-{{ letter }}">{{ letter }}</a>{% unless forloop.last %} | {% endunless %}
-                {% endfor %}
+            {% assign grouped_people = people_in_status | group_by: "order" %}
+            {% assign people_in_status = people_in_status | sort: "dirLastName" %}
+
+            {% for item in grouped_people reversed %}
+              {% assign sorted_people = item['items'] | sort: 'dirLastName' %}
+              {% if forloop.first %}
+                  {% assign people_in_status = sorted_people %}
+              {% else %}
+                  {% assign people_in_status = people_in_status | concat: sorted_people %}
+              {% endif %}
+            {% endfor %}
+
+            {% if people_in_status.size > 0 %}
+              <div class="status-section  people-status-anchor-target" id="{{ status }}">
+                <div class="row sticky-top sticky-heading border-bottom" style="top: 76px; background: var(--global-bg-color);">
+                  <div class="col-12 col-md-4 px-0">
+                    <h2 id="{{ status }}">{{ display_names[forloop.index0] }}</h2>
+                  </div>
+                  {% assign people_count = people_in_status | size %}
+
+                  {% if status == "alumni" %}
+                  {% assign grouped_letters = "A,B-C,D-F,G-I,J-L,M-O,P-R,S-U,V-Z" | split: "," %}
+                    <div class="col-12 col-md-8 mt-0 mt-md-4 pt-1 pt-md-3 pb-1 text-center text-md-right">
+                      {% for group in grouped_letters %}
+                        <a class="letter-link" href="#{{ status }}-{{ group | replace: '-', '' }}">{{ group }}</a>{% unless forloop.last %} | {% endunless %}
+                      {% endfor %}
+                    </div>
+                  {% endif %}
+                  
+                </div>
+
+                <div class="container px-0">
+                  <div class="row">
+                    {% assign current_letter = "" %}
+                    {% for profile in people_in_status %}
+                      {% assign first_letter = profile.dirLastName | slice: 0, 1 | upcase %}
+                      {% assign group_anchor = "" %}
+                      {% for group in grouped_letters %}
+                        {% assign letters_in_group = group | split: "-" %}
+                        {% if letters_in_group.size == 1 %}
+                          {% if first_letter == letters_in_group[0] %}
+                            {% assign group_anchor = group | replace: '-', '' %}
+                          {% endif %}
+                        {% else %}
+                          {% assign start = letters_in_group[0] %}
+                          {% assign end = letters_in_group[1] %}
+                          {% if first_letter >= start and first_letter <= end %}
+                            {% assign group_anchor = group | replace: '-', '' %}
+                          {% endif %}
+                        {% endif %}
+                      {% endfor %}
+
+                      {% if status == "alumni" and current_letter != first_letter %}
+                        <div class="col-12 px-0 letter-section people-anchor-target" id="{{ status }}-{{ group_anchor }}"><h3>{{ first_letter }}</h3>
+                        </div>
+                        {% assign current_letter = first_letter %}
+                      {% endif %}
+
+                      <div class="col-4 px-0 py-2">
+                        <strong>{{ profile.name }}{% if profile.alumni %} ({{ profile.alumni }}){% endif %}</strong><br>
+                        {% if profile.dirTitle %}{{ profile.dirTitle }}<br>{% endif %}
+                        {{ profile.department }}<br>
+                        <div class="social-icons" style="margin-left: 1px !important;">
+                        
+                          {% if profile.email %}
+                            <a href="mailto:{{ profile.email }}" class="mx-0" title="Email"><i class="fa fa-envelope mr-1"></i></a>
+                          {% endif %}
+                          {% if profile.url %}
+                            <a href="{{ profile.url }}" class="mx-0" title="Website"><i class="fa fa-globe  mr-1"></i></a>
+                          {% endif %}
+                          {% if profile.linkedin %}
+                            <a href="{{ profile.linkedin }}" class="mx-0" title="LinkedIn"><i class="fa-brands fa-linkedin  mr-1"></i></a>
+                          {% endif %}
+                        </div>
+                      </div>
+                    {% endfor %}
+                  </div>
+                </div>
               </div>
             {% endif %}
-
-            <div class="profile-grid">
-              {% assign current_letter = "" %}
-
-              {% for profile in people_in_status %}
-                {% assign first_letter = profile.dirLastName | slice: 0, 1 | upcase %}
-                {% if people_count > threshold and current_letter != first_letter %}
-                  <div class="letter-section">
-                    <h3 id="{{ status }}-{{ first_letter }}">{{ first_letter }}</h3>
-                  </div>
-                  {% assign current_letter = first_letter %}
-                {% endif %}
-
-                <div class="profile profile-column">
-                  {% if status == "faculty" or status == "staff" %}
-                    <!-- Faculty & Staff: Name & alumni, dirTitle, department, left-aligned icons -->
-                    <strong>
-                      {{ profile.name }}{% if profile.alumni %} ({{ profile.alumni }}){% endif %}
-                    </strong><br>
-                    {% if profile.dirTitle %}{{ profile.dirTitle }}<br>{% endif %}
-                    {{ profile.department }}<br>
-                    <div class="social-icons">
-                      {% if profile.email %}
-                        <a href="mailto:{{ profile.email }}" title="Email"><i class="fa fa-envelope"></i></a>
-                      {% endif %}
-                      {% if profile.url %}
-                        <a href="{{ profile.url }}" title="Website"><i class="fa fa-globe"></i></a>
-                      {% endif %}
-                      {% if profile.linkedin %}
-                        <a href="{{ profile.linkedin }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                      {% endif %}
-                    </div>
-
-                  {% elsif status == "alumni" %}
-                    <!-- Alumni: Name & alumni, department, left-aligned icons -->
-                    <strong>
-                      {{ profile.name }}{% if profile.alumni %} ({{ profile.alumni }}){% endif %}
-                    </strong><br>
-                    {{ profile.department }}<br>
-                    <div class="social-icons">
-                      {% if profile.email %}
-                        <a href="mailto:{{ profile.email }}" title="Email"><i class="fa fa-envelope"></i></a>
-                      {% endif %}
-                      {% if profile.url %}
-                        <a href="{{ profile.url }}" title="Website"><i class="fa fa-globe"></i></a>
-                      {% endif %}
-                      {% if profile.linkedin %}
-                        <a href="{{ profile.linkedin }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                      {% endif %}
-                    </div>
-
-                  {% else %}
-                    <!-- Others: Name, dirTitle, department, left-aligned icons -->
-                    <strong>
-                      {{ profile.name }}
-                    </strong><br>
-                    {% if profile.dirTitle %}{{ profile.dirTitle }}<br>{% endif %}
-                    {{ profile.department }}<br>
-                    <div class="social-icons">
-                      {% if profile.email %}
-                        <a href="mailto:{{ profile.email }}" title="Email"><i class="fa fa-envelope"></i></a>
-                      {% endif %}
-                      {% if profile.url %}
-                        <a href="{{ profile.url }}" title="Website"><i class="fa fa-globe"></i></a>
-                      {% endif %}
-                      {% if profile.linkedin %}
-                        <a href="{{ profile.linkedin }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                      {% endif %}
-                    </div>
-
-                  {% endif %}
-                </div>
-              {% endfor %}
-            </div>
-          </div>
-        {% endif %}
-      {% endfor %}
-    </article>
+          {% endfor %}
+        </article>
+      </div>
+    </div>
   </div>
 </div>
