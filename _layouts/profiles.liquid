@@ -8,7 +8,7 @@ layout: page
   <div class="row">
 
     <!-- Sticky left menu -->
-    <div class="col-md-2 d-none d-md-block">
+    <div class="col-md-2 d-none d-md-block" style="padding-left:0;">
       <div class="sticky-top" style="top: 100px;">
         <ul class="list-unstyled">
           {% for status in status_order %}
@@ -60,7 +60,7 @@ layout: page
                 </div>
 
                 <div class="container px-0">
-                  <div class="row">
+                  <div class="row pb-4">
                     {% assign current_letter = "" %}
                     {% for profile in people_in_status %}
                       {% assign first_letter = profile.dirLastName | slice: 0, 1 | upcase %}
