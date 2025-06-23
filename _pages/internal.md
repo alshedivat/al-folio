@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /resources/
-title: resources
-description: Hardware available at EVL
+permalink: /internal/
+title: internal
+description: For EVLers only
 nav: false
 ---
 
