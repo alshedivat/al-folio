@@ -62,6 +62,15 @@ members:
 - Yu-Huang Wang, Nature Watch Ecological and Environmental Consultancy Ltd.
 - Eric Yen, Institute of Physics, Academia Sinica (Academia Sinica Grid-computing Centre)
 
+## Postdoctoral Scholar 
+
+- James X. Morris (Center for GIS, Research Center for Humanities and Social Sciences, Academia Sinica)
+
+## Visiting Scholar
+
+- Yoann Goudin (Summer, 2025; Université Lyon 3 -- Jean Moulin)
+- Cynthia Shih-Chia Wang (January -- June, 2023; Northwestern University) 
+
 ## Lab Alumni
 
 - Ming-Syuan Ho, now at the National Institute of Cyber Security, Ministry of
