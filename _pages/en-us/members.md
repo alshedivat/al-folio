@@ -64,12 +64,12 @@ members:
 
 ## Postdoctoral Scholar 
 
-- James X. Morris (Center for GIS, Research Center for Humanities and Social Sciences, Academia Sinica)
+- James X. Morris, Research Center for Humanities and Social Sciences (Center for GIS), Academia Sinica
 
 ## Visiting Scholar
 
-- Yoann Goudin (Summer, 2025; Université Lyon 3 -- Jean Moulin)
-- Cynthia Shih-Chia Wang (January -- June, 2023; Northwestern University) 
+- Yoann Goudin, Université Lyon 3 -- Jean Moulin (Summer, 2025)
+- Cynthia Shih-Chia Wang, Northwestern University (January -- June, 2023)
 
 ## Lab Alumni
 
