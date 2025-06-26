@@ -1,80 +1,88 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
+title: XLEAP
+description: Recreational braindumps.
+img: assets/img/publication_preview/snow.png
 importance: 4
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This is not really a project, I waste my time creating myself problems that I think not solveable. And go through pain to try to find a way to solve them. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Below are some screenshots that I mix and publish on my site, xleap.pro. 
 
     ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
+    layout: Standard
+    title: Recreational
     ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/blog.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/proj.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/slow.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Find your drive and stick to it. You probably heard the motto. Be careful, that your drive does not stick to you. Friendly advice.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/publication_preview/plow.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    This is the flybar. Every hour is an happy hour.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+An existential crisis arises when we confront the unsettling gap between our desires for meaning and the apparent indifference of the universe. In that void, however, lies a quiet invitation—to create purpose not from certainty, but from conscious choice. The weight of questioning can become a foundation for living more authentically, rather than a reason to despair.
+
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/publication_preview/home.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/publication_preview/flow.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+     <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/publication_preview/grow.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    You shall know the truth. And the truth shall make you mad. Aldous Huxley.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Start is always the hardest part. You do not know where to start? Ask some expert. You can not find your way without getting lost. It is what it is.
 
-{% raw %}
+<style>
+.equal-height-img {
+    height: 100%;
+    object-fit: cover;
+}
+.equal-height-wrapper {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+</style>
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+<div class="row justify-content-sm-center align-items-stretch">
+    <div class="col-sm-8 mt-3 mt-md-0 d-flex flex-column">
+        {% include figure.liquid path="assets/img/publication_preview/glow.png" title="example image" class="img-fluid rounded z-depth-1 h-100" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0 d-flex flex-column">
+        <div class="equal-height-wrapper">
+            <img src="/assets/img/publication_preview/crow.png" class="img-fluid rounded z-depth-1 equal-height-img" alt="example image">
+        </div>
+    </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+    To live! Like a tree alone and free, and like a forest in brotherhood. Nazim Hikmet
+</div>

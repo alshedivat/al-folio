@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='#'>Computer Scientist | Control Engineer</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Milky Way Galaxy,</p>
+    <p>CET</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,9 +25,10 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Researcher with a strong foundation in Control and Automation Engineering from [Istanbul Technical University](https://www.itu.edu.tr/) and a Master’s degree in Computer Science from [TU Berlin](https://www.tu.berlin), experienced in Software-Defined Networking, Mobile/Wireless Communication, and Automation Systems in research and development activities at several organisations in academia and industry.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am passionate about leveraging cutting-edge technologies to solve complex engineering challenges and have worked on multiple interdisciplinary projects involving IoT, data-driven automation, and network optimization. My experience includes developing innovative solutions for optimizing infrastructure and enhancing the network performance on public and private networks.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+With a deep understanding of both hardware and software components, I am adept at designing integrated systems that bridge the gap between theoretical concepts and practical applications, ensuring high performance and scalability in computer and communication networks. I do like to experiment web technologies irregularly and share my experiences on [xleap](https://xleap.pro).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Feel free to drop me an [email](mailto:tanrmetn@gmail.com) if you have anything to discuss with.

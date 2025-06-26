@@ -1,0 +1,1 @@
+Uzundere was chosen as the slowest city on Earth. This dog showed me how to live chill — even if just for a moment. Traveling broadens our horizons, exposes us to diverse cultures, and fosters personal growth. It's a powerful way to learn about the world and ourselves, creating lasting memories and enriching our lives. ⛰️

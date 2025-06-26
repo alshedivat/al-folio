@@ -7,12 +7,13 @@ first_name: Taner
 middle_name: 
 last_name: Metin
 contact_note: >
+  Best way to reach me is email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: me1.jpg  # the ⚛️ emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://tanerjn.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -83,7 +84,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: tanerjn # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: a simple whitespace blog for academics
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -106,12 +107,12 @@ giscus:
   strict: 1 # use strict identification mode
   reactions_enabled: 1 # enable (1) or disable (0) emoji reactions
   input_position: bottom # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme # name of the color scheme (preferred works well with al-folio light/dark mode)
+  theme: preferred_color_scheme # name of the color scheme 
   emit_metadata: 0
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: tanerjn # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -119,11 +120,11 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
+    rss_url: https://medium.com/@stanermetin/feed
   - name: Google Blog
     posts:
       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+        published_date: 2025-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -182,7 +183,13 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
+  - _pages/bio-1.md
+  - _pages/bio-2.md
+  - _pages/bio-3.md
+  - _pages/bio-4.md
+  - _pages/bio-5.md
+  - _pages/bio-6.md
+  - _pages/bio-7.md
   - purgecss.config.js
   - README.md
   - readme_preview/
