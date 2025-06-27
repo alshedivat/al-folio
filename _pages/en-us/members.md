@@ -48,7 +48,7 @@ members:
 
 - LÎM Tîng-iông, Master student, National Dong Hwa University
 - Lan Thuong Nguyen, PhD student, National Chengchi University
-- Li-Fang Wang, Master student, National Cheng Kung University
+- Li Fang Wang, Master student, National Cheng Kung University
 - Hung-Yen Wu, undergraduate student, National Yang Ming Chiao Tung University
 - Wen-Ting Yang, PhD student, Maastricht University
 
