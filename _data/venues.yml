@@ -5,5 +5,32 @@
 "PhysRev":
   url: https://journals.aps.org/
 
-"Vision":
-  color: "#009f36"
+"preprint":
+  color: "#00369f"
+
+"book":
+  url: 
+
+"EuroHaptics":
+  url: 
+
+"IEEE WHC":
+  url:
+
+"IJCAI 2020":
+  url:
+
+"ECML-PKDD 2021":
+  url:
+
+"IEEE Haptics Symposium 2022":
+  url:
+
+"PLOS ONE 2023":
+  url:
+
+"Multimodal SIGKDD 2023":
+  url:
+
+"NeurIPS XAIA 2023":
+  url:

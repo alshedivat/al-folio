@@ -1,115 +1,289 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{priyadarshini2024ds1,
+  abbr      = {AI Review},
+  title     = {Link prediction for hypothesis generation: an active curriculum learning infused temporal graph-based approach},
+  author    = {Akujuobi*, Uchenna and  Kumari, Priyadarshini and Choi, Jihun  and Badreddine, Samy and Maruyama, Kana and Palaniappan, Sucheendra K.  and Besold, Tarek R. },
+  booktitle = {Artificial Intelligence Review},
+  year      = {2024},
+  pdf       = {ds1.pdf},
+  preview   = {ds1.png},
+  abstract  = {Over the last few years Literature-based Discovery (LBD) has regained popularity as a means to enhance the scientific research process. The resurgent interest has spurred the development of supervised and semi-supervised machine learning models aimed at making previously implicit connections between scientific concepts/entities explicit based on often extensive repositories of published literature. Understanding the temporally evolving interactions between these entities can provide valuable information for predicting the future development of entity relationships. However, existing methods often underutilize the latent information embedded in the temporal aspects of interaction data. In this context, motivated by applications in the food domain—where we aim to connect nutritional information with health-related benefits—we address the hypothesis-generation problem using a temporal graph-based approach. Given that hypothesis generation involves predicting future (i.e., still to be discovered) entity connections, the ability to capture the dynamic evolution of connections over time is pivotal for a robust model. To address this, we introduce THiGER, a novel batch contrastive temporal node-pair embedding method. THiGER excels in providing a more expressive node-pair encoding by effectively harnessing node-pair relationships. Furthermore, we present THiGER-A, an incremental training approach that incorporates an active curriculum learning strategy to mitigate label bias arising from unobserved connections. By progressively training on increasingly challenging and high-utility samples, our approach significantly enhances the performance of the embedding model. Empirical validation of our proposed method demonstrates its effectiveness on established temporal-graph benchmark datasets, as well as on real-world datasets within the food domain.},
+  summary   = {We present THiGER-A, a solution aimed at addressing the hypothesis-generation problem. This method utilizes a temporal graph-based node-pair embedding and incorporates an active-curriculum training approach to precisely capture the dynamic evolution of discoveries over time.},
+  selected  = {true}
+}
+@inproceedings{priyadarshini2024bmvc,
+  abbr      = {BMVC},
+  title     = {CosFairNet:A Parameter-Space based Approach for Bias Free Learning},
+  author    = {Dwivedi, Rajeev Ranjan and Kumari, Priyadarshini and Kurmi, Vinod Kumar},
+  booktitle = {British Machine Vision Conference},
+  year      = {2024},
+  pdf       = {Fairnesss_BMVC_2024.pdf},
+  preview   = {bmvc.png},
+  abstract  = {Deep neural networks trained on biased data often inadvertently learn unintended inference rules, particularly when labels are strongly correlated with biased features. Existing bias mitigation methods typically involve either a) predefining bias types and enforcing them as prior knowledge or b) reweighting training samples to emphasize bias-conflicting samples over bias-aligned samples. However, both strategies address bias indirectly in the feature or sample space, with no control over learned weights, making it difficult to control the bias propagation across different layers. Based on this observation, we introduce a novel approach to address bias directly in the model's parameter space, preventing its propagation across layers. Our method involves training two models: a bias model for biased features and a debias model for unbiased details, guided by the bias model. We enforce dissimilarity in the debias model's later layers and similarity in its initial layers with the bias model, ensuring it learns unbiased low-level features without adopting biased high-level abstractions. By incorporating this explicit constraint during training, our approach shows enhanced classification accuracy and debiasing effectiveness across various synthetic and real-world datasets of different sizes. Moreover, the proposed method demonstrates robustness across different bias types and percentages of biased samples in the training data.},
+  summary   = {},
+  selected  = {false}
+}
+@inproceedings{priyadarshini2023neurips,
+  abbr      = {NeurIPS XAIA},
+  title     = {FRUNI and FTREE synthetic knowledge graphs for evaluating explainability},
+  author    = {Martin, Pablo Sanchez and Besold, Tarek and Kumari, Priyadarshini },
+  booktitle = {NeurIPS 2023 Workshop XAIA},
+  abstract  = {Research on knowledge graph completion (KGC)---i.e., link prediction within incomplete KGs---is witnessing significant growth in popularity. Recently, KGC using KG embedding (KGE) models, primarily based on complex architectures (e.g., transformers), have achieved remarkable performance. Still, extracting the \emph{minimal and relevant} information employed by KGE models to make predictions, while constituting a major part of \emph{explaining the predictions}, remains a challenge. While there exists a growing literature on explainers for trained KGE models, systematically exposing and quantifying their failure cases poses even greater challenges. In this work, we introduce two synthetic datasets, FRUNI and FTREE, designed to demonstrate the (in)ability of explainer methods to spot link predictions that rely on indirectly connected links. Notably, we empower practitioners to control various aspects of the datasets, such as noise levels and dataset size, enabling them to assess the performance of explainability methods across diverse scenarios. Through our experiments, we assess the performance of four recent explainers in providing accurate explanations for predictions on the proposed datasets. We believe that these datasets are valuable resources for further validating explainability methods within the knowledge graph community.},
+  year      = {2023},
+  pdf       = {fruni_and_ftree.pdf},
+  selected  = {true},
+  preview   = {fruni_ftree.png},
+  code      = {https://github.com/SonyResearch/synthetic_knowledge_graphs},
+  summary   = {We introduce two synthetic datasets, FRUNI and FTREE, to assess explainer methods' ability to identify predictions relying on indirectly connected links.}
+}
+@inproceedings{priyadarshini2023aromasense,
+  abbr      = {Multimodal SIGKDD},
+  title     = {Optimizing Learning Across Multimodal Transfer Features for Modeling Olfactory Perception},
+  author    = {Shin, Daniel and Pei, Gao and Kumari, Priyadarshini  and Besold, Tarek },
+  booktitle = {International Workshop on Multimodal Learning at SIGKDD},
+  abstract  = {For humans and other animals, the sense of smell provides crucial information in many situations of everyday life. Still, the study of olfactory perception has received only limited attention outside of the biological sciences. From an AI perspective, the complexity of the interactions between olfactory receptors and volatile molecules and the scarcity of comprehensive olfactory datasets, present unique challenges in this sensory domain. Previous works have explored the relationship between molecular structure and odor descriptors using fully supervised training approaches. However, these methods are data-intensive and poorly generalize due to labeled data scarcity, particularly for rare-class samples. Our study partially tackles the challenges of data scarcity and label skewness through multimodal transfer learning. We investigate the potential of large molecular foundation models trained on extensive unlabeled molecular data to effectively model olfactory perception. Additionally, we explore the integration of different molecular representations, including molecular graphs and text-based SMILES encodings, to achieve data efficiency and generalization of the learned model, particularly on sparsely represented classes. By leveraging complementary representations, we aim to learn robust perceptual features of odorants. However, we observe that traditional methods of combining modalities do not yield substantial gains in high-dimensional skewed label spaces. To address this challenge, we introduce a novel label-balancer technique specifically designed for high-dimensional multi-label and multi-modal training.  The label-balancer technique distributes learning objectives across modalities to optimize collaboratively for distinct subsets of labels. Our results suggest that multi-modal transfer features learned using the label-balancer technique are more effective and robust, surpassing the capabilities of traditional uni- or multi-modal approaches, particularly on rare-class samples.},
+  year      = {2023},
+  pdf       = {Multimodal_KDD_2023.pdf},
+  slides    = {multimodal_SIGKDD_2023_slides.pdf},
+  selected  = {true},
+  preview   = {label_balancer_method.png},
+  code      = {https://github.com/priyadarshini-sony/multimodal-olfaction},
+  summary   = {We introduce a novel multilabel and multimodal transfer learning technique for modeling olfactory perception. Our approach aims to tackle the challenges of data scarcity and label skewness in the olfactory domain.}
+}
+@inproceedings{priyadarshini2023new2,
+  abbr      = {PLOS ONE},
+  title     = {Perceptual metrics for odorants: learning from non-expert similarity feedback using machine learning},
+  booktitle = {PLOS ONE},
+  abstract  = {Defining perceptual similarity metrics for odorant comparisons is crucial to understanding the mechanism of olfactory perception. Current methods in olfaction rely on molecular physicochemical features or discrete verbal descriptors (floral,  burnt, etc.) to approximate perceptual (dis)similarity between odorants. However, structural or verbal descriptors alone are limited in modeling complex nuances of odor perception. While structural features inadequately characterize odor perception, language-based discrete descriptors lack the granularity needed to model a continuous perception space. We introduce data-driven approaches to perceptual metrics learning (PMeL) based on two key insights: a) by combining physicochemical features with the user's perceptual feedback, we can leverage both structural and perceptual attributes of odors to define dissimilarity, and b) instead of discrete labels, user's perceptual feedback can be gathered as relative similarity comparisons, such as ``Does molecule-A smell more like molecule-B, or molecule-C?" These triplet comparisons are easier even for non-experts users and offer a more effective representation of the continuous perception space. Experimental results on several defined tasks show the effectiveness of our approach in evaluating perceptual dissimilarity between odorants. Finally, we investigate how closely our model, trained on non-expert feedback, aligns with the expert's similarity judgments. Our effort aims to reduce reliance on expert annotations.},
+  author    = { Kumari,Priyadarshini and Besold, Tarek  and Spranger, Michael },
+  year      = {2023},
+  selected  = {false},
+  preview   = {perceptual_metric.png},
+  pdf       = {plosone_perceptual.pdf},
+  summary   = {
+               We propose Perceptual Metrics Learning (PMeL) for olfactory perception, which combines physicochemical features with user feedback via triplet comparisons to assess perceptual dissimilarity effectively and reduce reliance, to some extent, on expert annotations.}
+}
+@inproceedings{priyadarshini2023new3,
+  abbr      = {PLOS ONE},
+  title     = {Comparing molecular representations, e-nose signals, and other featurization, for learning to smell aroma molecules},
+  booktitle = {PLOS ONE},
+  abstract  = {Recent research has attempted to predict our perception of odorants using Machine Learning models. The featurization of the olfactory stimuli usually represents the odorants using molecular structure parameters, molecular fingerprints, mass spectra, or e-nose signals. However, the impact of the choice of featurization on predictive performance remains poorly reported in direct comparative studies. This paper experiments with different sensory fea- tures for several olfactory perception tasks. We investigate the multilabel classification of aroma molecules in odor descriptors. We investigate single-label classification not only in fine-grained odor descriptors ("orange," "waxy," etc.) but also in odor descriptor groups. We created a database of odor vectors for 114 aroma molecules to conduct our experiments using a QCM (Quartz Crystal Microbalance) type smell sensor module (Aroma Coder®V2 Set). We compare these smell features with different baseline features to evaluate the cluster composition, considering the frequencies of the top odor descriptors carried by the aroma molecules. Experimental results suggest a statistically significant better performance of the QCM-type smell sensor module compared with other baseline features with the F1 evaluation metric.},
+  author    = {Debnath,Tanoy  and Badreddine, Samy and Kumari, Priyadarshini  and Spranger, Michael },
+  year      = {2023},
+  pdf       = {plosone2023.pdf},
+  selected  = {false},
+  preview   = {plosone.png}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{priyadarshini2022enhancing,
+  abbr         = {IEEE Haptics Symposium},
+  title        = {Enhancing Haptic Distinguishability of Surface Materials With Boosting Technique},
+  author       = {Kumari, Priyadarshini and Chaudhuri, Subhasis},
+  booktitle    = {IEEE Haptics Symposium},
+  pages        = {1--6},
+  abstract     = {Discriminative features are crucial for several learning applications, such as object detection and classification. Neural networks are extensively used for extracting discriminative features of images and speech signals. However, the lack of large datasets in the haptics domain often limits the applicability of such techniques. This paper presents a general framework for the analysis of the discriminative properties of haptic signals. We demonstrate the effectiveness of spectral features and a boosted embedding technique in enhancing the distinguishability of haptic signals. Experiments indicate our framework needs less training data, generalizes well for different predictors, and outperforms the related state-of-the-art.},
+  year         = {2022},
+  pdf          = {symposium2022.pdf},
+  organization = {IEEE},
+  selected     = {false},
+  preview      = {hapsymposium2022.gif},
+  slides       = {hapsymposium2022_slide.pdf},
+  summary      = {We develop a discriminative feature learning framework to improve separability for high-dimensional and highly correlated haptic signals.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{priyadarshini2021unified,
+  abbr         = {ECML-PKDD},
+  title        = {A Unified Batch Selection Policy for Active Metric Learning},
+  author       = {Kumari, Priyadarshini and Chaudhuri, Siddhartha and Borkar, Vivek and Chaudhuri, Subhasis},
+  booktitle    = {ECML-PKDD},
+  abstract     = {Active metric learning is the problem of incrementally selecting high-utility batches of 
+                  training data (typically, ordered triplets) to annotate, in order to 
+                  progressively improve a learned model of a metric over some input domain 
+                  as rapidly as possible. Standard approaches, which independently assess 
+                  the informativeness of each triplet in a batch, are susceptible to highly 
+                  correlated batches with many redundant triplets and hence low overall utility. 
+                  While a recent work proposes batch-decorrelation strategies for metric 
+                  learning, they rely on ad hoc heuristics to estimate the correlation between 
+                  two triplets at a time. We present a novel batch active metric learning method 
+                  that leverages the Maximum Entropy Principle to learn the least biased 
+                  estimate of triplet distribution for a given set of prior constraints. 
+                  To avoid redundancy between triplets, our method collectively selects batches 
+                  with maximum joint entropy, which simultaneously captures both informativeness 
+                  and diversity. We take advantage of the submodularity of the joint entropy 
+                  function to construct a tractable solution using an efficient greedy 
+                  algorithm based on Gram-Schmidt orthogonalization that is provably 
+                  (1−\frac{1}{𝑒})-optimal. Our approach is the first batch active metric learning 
+                  method to define a unified score that balances informativeness and diversity 
+                  for an entire batch of triplets. Experiments with several real-world datasets 
+                  demonstrate that our algorithm is robust, generalizes well to different 
+                  applications and input modalities, and consistently outperforms the 
+                  state-of-the-art.},
+  pages        = {599--616},
+  year         = {2021},
+  pdf          = {ecml.pdf},
+  organization = {Springer},
+  selected     = {true},
+  preview      = {ecml2021.png},
+  slides       = {ecml2021_slide.pdf},
+  summary      = {We propose a batch-mode active learning method that balances informativeness and diversity 
+                  of batches of triplets combinedly. }
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{kumari2021batch,
+  abbr      = {IJCAI},
+  title     = {Batch decorrelation for active metric learning},
+  author    = {Kumari, Priyadarshini  and Goru, Ritesh and Chaudhuri, Siddhartha and Chaudhuri, Subhasis},
+  abstract  = {We present an active learning strategy for training parametric 
+               models of distance metrics, given triplet-based similarity assessments: 
+               object xi is more similar to object xj than to xk. In contrast to prior 
+               work on class-based learning, where the fundamental goal is classification 
+               and any implicit or explicit metric is binary, we focus on perceptual 
+               metrics that express the degree of (dis) similarity between objects. 
+               We find that standard active learning approaches degrade when annotations 
+               are requested for batches of triplets at a time: our studies suggest that 
+               correlation among triplets is responsible. In this work, we propose a novel 
+               method to decorrelate batches of triplets, that jointly balances 
+               informativeness and diversity while decoupling the choice of heuristic 
+               for each criterion. Experiments indicate our method is general, adaptable, 
+               and outperforms the state-of-the-art.},
+  booktitle = {IJCAI},
+  pages     = {2255--2261},
+  year      = {2021},
+  pdf       = {ijcai.pdf},
+  selected  = {true},
+  preview   = {ijcai2020.png},
+  slides    = {ijcai2020_slide.pdf},
+  code      = {https://github.com/priyadarshini-kumari/BatchAML_Decorrelation},
+  summary   = {We propose triplet-based decorrelation measures to 
+               improve the performance of batch-mode active metric learning strategies. }
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{priyadarshini2019perceptnet,
+  abbr         = {IEEE WHC},
+  title        = {PerceptNet: Learning perceptual similarity of haptic textures in presence of unorderable triplets},
+  author       = {Kumari, Priyadarshini  and Chaudhuri, Siddhartha and Chaudhuri, Subhasis},
+  abstract     = {In order to design haptic icons or build a haptic vocabulary, 
+                  we require a set of easily distinguishable haptic signals to avoid perceptual 
+                  ambiguity, which in turn requires a way to accurately estimate the perceptual 
+                  (dis)similarity of such signals. In this work, we present a novel method to 
+                  learn such a perceptual metric based on data from human studies. Our method 
+                  is based on a deep neural network that projects signals to an embedding 
+                  space where the natural Euclidean distance accurately models the degree 
+                  of dissimilarity between two signals. The network is trained only on 
+                  non-numerical comparisons of triplets of signals, using a novel triplet 
+                  loss that considers both types of triplets that are easy to order 
+                  (inequality constraints), as well as those that are unorderable/ambiguous 
+                  (equality constraints). Unlike prior MDS-based non-parametric approaches, 
+                  our method can be trained on a partial set of comparisons and can embed 
+                  new haptic signals without retraining the model from scratch. Extensive 
+                  experimental evaluations show that our method is significantly more 
+                  effective at modeling perceptual dissimilarity than alternatives.},
+  booktitle    = {IEEE World Haptics Conference (WHC)},
+  pages        = {163--168},
+  year         = {2019},
+  organization = {IEEE},
+  pdf          = {whc2019.pdf},
+  selected     = {true},
+  preview      = {whc2019.png},
+  slides       = {whc2019_slide.pdf},
+  code         = {https://github.com/priyadarshini-kumari/perceptNet},
+  summary      = {We propose a deep metric learning approach that demonstrates the utility of 
+                  ambiguous triplets for effectively modeling human perception. }
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{kumari2016haptic,
+  abbr         = {EuroHaptics},
+  title        = {Haptic Rendering of Thin, Deformable Objects with Spatially Varying Stiffness},
+  author       = {Kumari, Priyadarshini  and Chaudhuri, Subhasis},
+  abstract     = {In real world, we often come across with soft objects having 
+                  spatially varying stiffness such as human palm or a wart on the skin. 
+                  In this paper, we propose a novel approach to render thin, deformable objects having spatially varying stiffness (inhomogeneous material). We use the classical Kirchhoff thin plate theory to compute the deformation. In general, physics based rendering of an arbitrary 3D surface is complex and time consuming. Therefore, we approximate the 3D surface locally by a 2D plane using an area preserving mapping technique - Gall-Peters mapping. Once the deformation is computed by solving a fourth order partial differential equation, we project the points back onto the original object for proper haptic rendering. The method was validated through user experiments and was found to be realistic.},
+  booktitle    = {EuroHaptics},
+  pages        = {483--492},
+  year         = {2016},
+  pdf          = {eurohaptics2016.pdf},
+  organization = {Springer},
+  preview      = {eurohaptics2016.png},
+  summary      = {We introduce a haptic rendering algorithm to model deformation in objects with varying stiffness. }
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{aniyath2014combined,
+  abbr         = {ACCVw},
+  title        = {Combined hapto-visual and auditory rendering of cultural heritage objects},
+  author       = {Aniyath, Praseedha Krishnan and Gopalan, Sreeni Kamalalayam and Kumari, Priyadarshini  and Chaudhuri, Subhasis},
+  abstract     = {In this work, we develop a multi-modal rendering framework
+                  comprising of hapto-visual and auditory data. The prime focus is to
+                  haptically render point cloud data representing virtual 3-D models of
+                  cultural significance and also to handle their affine transformations. Cultural heritage objects could potentially be very large and one may be
+                  required to render the object at various scales of details. Further, surface
+                  effects such as texture and friction are incorporated in order to provide
+                  a realistic haptic perception to the users. Moreover, the proposed framework includes an appropriate sound synthesis to bring out the acoustic
+                  properties of the object. It also includes a graphical user interface with
+                  varied options such as choosing the desired orientation of 3-D objects
+                  and selecting the desired level of spatial resolution adaptively at runtime. A fast, point proxy-based haptic rendering technique is proposed
+                  with proxy update loop running 100 times faster than the required haptic update frequency of 1 kHz. The surface properties are integrated in
+                  the system by applying a bilateral filter on the depth data of the virtual
+                  3-D models. Position dependent sound synthesis is incorporated with the
+                  incorporation of appropriate audio clips.},
+  booktitle    = {ACCVw},
+  pages        = {491--506},
+  year         = {2014},
+  pdf          = {accv.pdf},
+  organization = {Springer},
+  preview      = {accvw.png}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{kumari2013scalable,
+  abbr         = {IEEE WHC},
+  title        = {Scalable rendering of variable density point cloud data},
+  author       = {Kumari, Priyadarshini  and Sreeni, KG and Chaudhuri, Subhasis},
+  booktitle    = {IEEE World Haptics Conference (WHC)},
+  abstract     = {In this paper, we present a novel proxy based method of adaptive
+                  haptic rendering of a variable density 3D point cloud data at different levels of detail without pre-computing the mesh structure.
+                  We also incorporate features like rotation, translation and friction
+                  to provide a better realistic experience to the user. A proxy based
+                  rendering technique is used to avoid the pop-through problem while
+                  rendering thin parts of the object. Instead of a point proxy, a spherical proxy of variable radius is used which avoids the sinking of
+                  proxy during the haptic interaction of sparse data. The radius of
+                  the proxy is adaptively varied depending upon the local density of
+                  the point data using kernel bandwidth estimation. During the interaction, the proxy moves in small steps tangentially over the point
+                  cloud such that the new position always minimizes the distance between the proxy and the haptic interaction point (HIP). The raw
+                  point cloud data re-sampled in a regular 3D lattice of voxels are
+                  loaded to the haptic space after proper smoothing to avoid aliasing effects. The rendering technique is experimented with several
+                  subjects and it is observed that this functionality supplements the
+                  user’s experience by allowing the user to interact with an object at
+                  multiple resolutions.},
+  pages        = {91--96},
+  year         = {2013},
+  pdf          = {whc2013.pdf},
+  organization = {IEEE},
+  preview      = {whc2013.png}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{sreeni2012haptic,
+  abbr         = {EuroHaptics},
+  title        = {Haptic rendering of cultural heritage objects at different scales},
+  author       = {Sreeni, KG and Kumari, Priyadarshini and Praseedha, AK and Chaudhuri, Subhasis},
+  booktitle    = {EuroHaptics},
+  abstract     = {In this work, we address the issue of virtual representation of objects of cultural heritage for haptic interaction. Our main focus is to provide a haptic access of artistic objects of any physical scale to the differently abled people. This is a low-cost system and, in conjunction with a stereoscopic visual display, gives a better immersive experience even to the sighted persons. To achieve this, we propose a simple multilevel, proxy-based hapto-visual rendering technique for point cloud data which includes the much desired scalability feature which enables the users to change the scale of the objects adaptively during the haptic interaction. For the proposed haptic rendering technique the proxy updation loop runs at a rate 100 times faster than the required haptic updation frequency of 1KHz. We observe that this functionality augments very well to the realism of the experience.},
+  pages        = {505--516},
+  year         = {2012},
+  pdf          = {eurohaptics2012.pdf},
+  organization = {Springer},
+  preview      = {eurohaptics2012.gif}
+}
+
+@inproceedings{chaudhuri2017cultural,
+  abbr      = {Book},
+  title     = {Cultural heritage objects: Bringing them alive through virtual touch},
+  author    = {Chaudhuri, Subhasis and Kumari, Priyadarshini },
+  booktitle = {Digital Hampi: Preserving Indian Cultural Heritage},
+  pages     = {337--354},
+  year      = {2017},
+  pdf       = {book.pdf},
+  publisher = {Springer},
+  preview   = {book.png},
+  summary   = {We develop a multi-modal rendering framework to provide haptic, 
+               visual, and auditory perception of objects at different scales and rotations.}
 }
