@@ -180,9 +180,6 @@ The Coding School.
 - Mary Gates Research Scholar (2023)
 - Phi Beta Kappa Scholar (2023)
 - Philosophy Department Honors (2023)
-<!-- - HCOMP/CI Student Scholarship (2023)
-- Departmental and University Research Travel Scholarships (2023, 2024)
-- Kaggle Master rank -->
 
 ---
 
