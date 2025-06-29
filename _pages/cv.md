@@ -189,6 +189,7 @@ The Coding School.
 ## news
 - ["Undergrad Questions the AI Answer"](https://www.washington.edu/uaa/undergrad-researcher-questions-the-ai-answer/){:target="_blank"}
 - ["UW undergraduate with interdisciplinary AI focus earns fellowship of up to $90,000 for graduate study"](https://www.washington.edu/uaa/2025/04/09/uw-undergraduate-earns-fellowship-for-graduate-study/){:target="_blank"}
+- ["2025 Dean's Medalists, Energized & Inspiring"](https://artsci.washington.edu/news/2025-06/2025-deans-medalists-energized-inspiring){:target="_blank"}
 
 ---
 
