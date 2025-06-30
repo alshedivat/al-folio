@@ -9,4 +9,3 @@ description: Details of my past and present research activities.
 toc:
   sidebar: left
 ---
-

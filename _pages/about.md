@@ -25,6 +25,7 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
 Researcher with a strong foundation in Control and Automation Engineering from [Istanbul Technical University](https://www.itu.edu.tr/) and a Master’s degree in Computer Science from [TU Berlin](https://www.tu.berlin), experienced in Software-Defined Networking, Mobile/Wireless Communication, and Automation Systems in research and development activities at several organisations in academia and industry.
 
 I am passionate about leveraging cutting-edge technologies to solve complex engineering challenges and have worked on multiple interdisciplinary projects involving IoT, data-driven automation, and network optimization. My experience includes developing innovative solutions for optimizing infrastructure and enhancing the network performance on public and private networks.
