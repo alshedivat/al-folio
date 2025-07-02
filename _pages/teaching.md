@@ -8,6 +8,7 @@ nav_order: 6
 ---
 
 ## Fall'25
+
 - **CS 522** *User Experience Research Methods* – Debaleena Chattopadhyay  
 - **CS 422** *User Interface Design and Programming* – Andruid Kerne  
 - **CS 455** *Introduction to High Performance Computing* – Zhiling Lan  

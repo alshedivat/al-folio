@@ -1170,6 +1170,27 @@ swiper-container {
   border: none;
 }
 
+.filter-link {
+  color: var(--global-theme-color);
+  width: min-content;
+  max-width: 200px;
+  white-space: nowrap;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 4px;
+  text-align: center;
+  font-style: normal;
+  border: none;
+  font-weight: 300;
+}
+
+.filter-link:hover {
+  font-weight: 500;
+}
+.news_selected {
+  font-weight: 500;
+}
+
 .newsletter-form-button {
   background: var(--global-theme-color);
   color: var(--global-bg-color);
