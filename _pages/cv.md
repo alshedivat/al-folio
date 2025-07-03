@@ -222,8 +222,7 @@ SIGBOVIK 2024.
 *Mobiod Streams*. Digital art.
 [Link](https://andre-ye.github.io/mobiod-streams/){:target="_blank"}
 
-*tserk – цирк(овь)*. Digital art.
-[Link](https://andre-ye.github.io/tserk/){:target="_blank"}
+
 
 
 
