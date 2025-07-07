@@ -51,23 +51,6 @@
     "web": false
   },
   {
-    "title": "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models",
-    "author": "Hyunseung Lim, Dasom Choi, Hwajung Hong",
-    "affiliation": "KAIST, KAIST, KAIST",
-    "venue": "FAccT 2025",
-    "award": "",
-    "year": 2025,
-    "field": ["hai"],
-    "type": "conference",
-    "pdf": "",
-    "doi": "",
-    "bibtex": "",
-    "recording": "",
-    "video": "",
-    "abstract": "",
-    "web": false
-  },
-  {
     "title": "Beyond the Scroll: Exploring the Design Space of Balanced Short-form Video Consumption through Everyday User Experiences",
     "author": "Yeohyun Jung, Suyeon Seo, Hwajung Hong",
     "affiliation": "KAIST, Yonsei University, KAIST",
@@ -76,13 +59,13 @@
     "year": 2025,
     "field": ["health"],
     "type": "poster",
-    "pdf": "",
-    "doi": "",
-    "bibtex": "",
+    "pdf": "yeohyun2025pwip",
+    "doi": "https://doi.org/10.1145/3715668.3736346",
+    "bibtex": "yeohyun2025pwip",
     "recording": "",
     "video": "",
-    "abstract": "",
-    "web": false
+    "abstract": "Short-form videos on platforms like YouTube Shorts provide accessible entertainment and quick information. Yet, excessive consumption can lead to psychological, cognitive, and emotional side effects. To design interventions that seamlessly integrate balanced short-form video consumption into daily routines, understanding how users engage with these videos in their everyday lives is crucial. However, few studies have qualitatively explored users’ daily interactions with short-form videos. To this end, we conducted a four-day diary study with eight active users. Our findings show that users watch videos during brief breaks or moments of mental fatigue, appreciating the value of short-form videos in their everyday lives. However, they often lose awareness of their viewing, passively consume content, and struggle to recall any videos afterward, which leads to regret and self-blame. Drawing from these insights, we propose a holistic intervention aimed at supporting more mindful and balanced consumption that naturally fits within users’ existing routines.",
+    "web": true
   },
   {
     "title": "From Impulsive Investment to Mindful Decisions: Exploring Design Opportunities of AI-Mediated Interventions for Emotionally Biased Investors",
@@ -93,13 +76,13 @@
     "year": 2025,
     "field": ["hai"],
     "type": "poster",
-    "pdf": "",
-    "doi": "",
-    "bibtex": "",
+    "pdf": "sooyohn2025",
+    "doi": "https://doi.org/10.1145/3715668.3736345",
+    "bibtex": "sooyohn2025",
     "recording": "",
     "video": "",
-    "abstract": "",
-    "web": false
+    "abstract": "While providing convenient market access, mobile investment applications often amplify emotional trading through features such as real-time market data and news updates. Our study explored design opportunities for AI-mediated interventions that help investors recognize their emotional biases. Through interviews with 13 investors, we examined how emotions emerge throughout the investment process, how they are reflected in investment behavior, and whether emotion-based interventions can be effective. Our findings revealed that participants experienced recurring cycles of impulsive decisions driven by anxiety, overconfidence, and immediate reward-seeking, which persisted due to intermittent successes and platform convenience. They preferred objective data over directive interventions and valued real-time support that preserves autonomy and retrospective analysis capabilities for long-term improvement. Drawing on these insights, we propose a design concept featuring data-driven reflection mechanisms that help users recognize deviations from established investment patterns. Our work highlights opportunities for adaptive, reflection-oriented AI interventions explicitly tailored to investors’ emotional awareness.",
+    "web": true
   },
   {
     "title": "Seeking Harmony in a Beautiful Mess: Designing for Romantic Relationship Navigation of ADHD-Neurotypical Couples",
@@ -110,13 +93,13 @@
     "year": 2025,
     "field": ["inclusive"],
     "type": "poster",
-    "pdf": "",
-    "doi": "",
-    "bibtex": "",
+    "pdf": "jongok2025",
+    "doi": "https://doi.org/10.1145/3715668.3736343",
+    "bibtex": "jongok2025",
     "recording": "",
     "video": "",
-    "abstract": "",
-    "web": false
+    "abstract": "Romantic relationships require continuous effort in maintaining emotional connection, building trust, and adapting to each other’s needs. These dynamics become more complex in neurodiverse relationships, where partners may have differing cognitive styles and ways of processing emotions. When one partner has ADHD, differences in attention regulation, decision-making approaches, and time management can shape relationship interactions in unique ways. This study explores how ADHD-neurotypical romantic partners navigate these differences, emphasizing mutual adaptation rather than deficit correction. Through semi-structured interviews with ten participants, we identify key challenges in communication, emotional regulation, and conflict resolution, as well as the strengths that ADHD partners bring to relationships. Findings highlight the need for support mechanisms that foster collaboration and shared agency, rather than reinforcing asymmetrical caregiving dynamics. We propose design implications for embracing neurodiversity and promoting equitable relationship practices, contributing to more inclusive and adaptive relationship-support technologies.",
+    "web": true
   },
   {
     "title": "Thinking Outside the Data Box: Investigating the Potential of Data Manipulation for Self-Reflection on Personal Data",
@@ -126,11 +109,30 @@
     "year": 2025,
     "field": ["data"],
     "type": "conference",
-    "pdf": "",
-    "doi": "",
-    "bibtex": "",
+    "pdf": "yeohyun2025",
+    "doi": "https://doi.org/10.1145/3715336.3735840",
+    "bibtex": "yeohyun2025",
     "recording": "",
-    "video": ""
+    "video": "",
+    "abstract": "In the practice of personal informatics (PI), self-reflection is crucial for enhancing self-knowledge and driving behavior change. Numerous studies have focused on effectively interpreting and representing data to support self-reflection. However, despite their efforts, some self-trackers find themselves stuck in repetitive insights and stagnant process. For them, a fundamental shift beyond re-representing existing data could provide a significant opportunity. We explore data manipulation—altering the data value or structure—as an alternative approach. We conducted an exploratory workshop and a one-week field trial with 10 self-trackers, using five types of data manipulation. We found that data manipulation could revitalize self-reflection, uncovering diverse perspectives and overlooked aspects. It also fostered positive illusions and emotions, potentially setting the stage for behavioral change and engagement. However, it introduces perceptual distortions and has limited applicability, highlighting the importance of balanced use. We further discuss design implications for integrating data manipulation into future PI systems.",
+    "web": true
+  },
+  {
+    "title": "How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models",
+    "author": "Hyunseung Lim, Dasom Choi, Hwajung Hong",
+    "affiliation": "KAIST, KAIST, KAIST",
+    "venue": "FAccT 2025",
+    "award": "",
+    "year": 2025,
+    "field": ["hai"],
+    "type": "conference",
+    "pdf": "hyunseung2025",
+    "doi": "https://doi.org/10.1145/3715275.373220",
+    "bibtex": "hyunseung2025",
+    "recording": "",
+    "video": "",
+    "abstract": "Stereotypical biases in large language models (LLMs) have the potential to result in discriminatory responses, posing harm to users and disrupting interactions. While prior research has predominantly focused on assessing stereotypes in LLMs with fairness metrics, there is a limited understanding of how users identify and perceive stereotypes in LLMs. To address this gap, we introduce StereoHunter, a research probe tool designed to examine how individuals identify and perceive stereotypes by observing interactions in which users elicit stereotypical responses from LLMs. Our findings reveal the nuanced considerations and challenges participants faced when evaluating these stereotypes, which varied based on their backgrounds and preconceptions about LLMs. Based on these insights, we discuss how diverse user perspectives can be reflected in identifying stereotypes and informing fairness metrics for mitigating biases in LLMs.",
+    "web": true
   },
   {
     "title": "AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation",
