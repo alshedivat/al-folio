@@ -318,7 +318,7 @@ export const ResearchPage = () => {
                     <div ref={element} className="publication-materials">
                       {publication.pdf && (
                         <a
-                          href={publication.pdf}
+                          href={`/pdf/${publication.pdf}.pdf`}
                           className="material-button"
                           target="_blank"
                           rel="noopener noreferrer"
@@ -333,7 +333,7 @@ export const ResearchPage = () => {
                       )}
                       {publication.doi && (
                         <a
-                          href={`https://doi.org/${publication.doi}`}
+                          href={publication.doi}
                           className="material-button"
                           target="_blank"
                           rel="noopener noreferrer"
