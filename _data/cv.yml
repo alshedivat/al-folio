@@ -5,7 +5,7 @@
       value: Zhihao LIU
 
     - name: Languages
-      value: Chinese, English, Norsk (beginner)
+      value: Chinese, English
 
 - title: Tech stack
   type: map
@@ -115,6 +115,7 @@
   
     - title: Cryosphere x Remote Sensing
       items:
+        - Retrieving snow depth distribution by downscaling ERA5 Reanalysis with ICESat-2 laser altimetry · Cold Regions Science and Technology · July 1, 2025.
         - Snow depth retrieval and downscaling using satellite laser altimetry, machine learning and climate reanalysis · IUGG 2023 Berlin · July 13, 2023.
         - Unlocking the Secrets of Snow Depth · Student Presentation at SDG Conference 2023, UiO · Feb 08, 2023.
     - title: Offshore seismic
