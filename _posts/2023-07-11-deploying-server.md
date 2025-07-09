@@ -2,7 +2,7 @@
 layout: post
 title: Deploying a Server for Bioinformatics Research
 date: 2023-07-11
-last_updated: 2025-06-17
+last_updated: 2025-07-09
 description: how to deploy a server for bioinformatics research
 tags: deployment server Ubuntu
 categories: computer
@@ -552,6 +552,8 @@ As an example, let's install one of the most prevalent R package in the field of
 ```bash
 sudo apt-get install build-essential libssl-dev libcurl4-openssl-dev libxml2-dev libfontconfig1-dev libharfbuzz-dev libfribidi-dev libfreetype6-dev libpng-dev libtiff5-dev libjpeg-dev libhdf5-dev libgsl-dev
 ```
+
+Also note that `Seurat` requires `R>=4.4`, so you'd better install the [latest version of R](#install-r).
 
 Then the process of installing `Seurat` should be very smooth:
 
