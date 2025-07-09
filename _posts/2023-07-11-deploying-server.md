@@ -695,7 +695,6 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-12 12
 
 After the headers are reinstalled, you need to `sudo reboot` the server. Then `nvidia-smi` should work now.
 
-
 ### Can't use $\LaTeX$ fonts in `matplotlib` figures
 
 According to the [demo](https://matplotlib.org/stable/gallery/text_labels_and_annotations/tex_demo.html) of `matplotlib`, you should be able to use $\LaTeX$ fonts by setting
