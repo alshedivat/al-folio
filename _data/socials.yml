@@ -5,7 +5,7 @@
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
-# dblp_url: https://dblp.org/pid/232/8009.html # your DBLP profile url
+dblp_url: https://dblp.org/pid/232/8009.html # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: tanrmetn@gmail.com # your email address
 # facebook_id: # your facebook id
@@ -42,7 +42,7 @@ research_gate_profile: Taner-Metin # your profile on ResearchGate
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
-# x_username: # your X handle
+x_username: tanerjn
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 custom_social: # can be any name here other than the ones already defined above
