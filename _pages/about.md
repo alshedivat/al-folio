@@ -12,9 +12,12 @@ profile:
 news: false
 social: true
 ---
-I am a computer science student pursuing my PhD at the University of California - Santa Cruz. My broad focus is quantum computing with particular interest in optimization algorithms for combinatorial problems. Teaching is my main passion and I hope to pursue a position teaching at the university level after completion of my degree. I am supported by [Alex Kolla](https://home.cs.colorado.edu/~alko5368/) who would love to (dis/)prove the [Unique Games Conjecture](https://en.wikipedia.org/wiki/Unique_games_conjecture), please reach out if you have any leads! 
+I am a computer science student focused on quantum computing, earning my PhD at the University of California - Santa Cruz. I take a ''full stack'' approach to quantum computation: I enjoy working on high-level theoretical algorithms as well as breaking down pseudocode and circuits into gate implementations that can run efficiently on existing quantum hardware. In particular, I find it satisfying to find potential speed-ups and efficiency enhancements to circuit implementations and unitary decompositions for near-term devices. I think that even constant-size gains in performance will go a long way in bringing practical quantum computing to realistic scale.
 
-I spent the few years of my graduate career earning my masters in the [CS Theory](https://www.colorado.edu/cs-theory) group at the University of Colorado Boulder. As an undergraduate, I studied mathematics at the [University of Denver](https://www.math.du.edu/) while also pursuing minors in computer science, physics, and psychology. Between school I spent a few years as a software engineer at [Nasdaq](https://www.nasdaq.com/solutions/nasdaq-financial-framework-nff) developing data-driven real-time risk management systems.
+Teaching is one my passions and has been an important part of my graduate school experience. I have taught multiple courses as a graduate instructor. One of my best skills is breaking down abstract problems to their bare components and building up complexity bit by bit. I believe in direct, simple communication and pride myself in my ability to connect with students, helping them work through difficult concepts. In Spring of 2023, I was awarded the Best TA Award of the Department of Computer Science and Engineering.
 
-In Spring of 2023, I was awarded the Best TA Award of the Department of Computer Science and Engineering.
+<!-- I spent the first years of my graduate career earning my masters in the [CS Theory](https://www.colorado.edu/cs-theory) group at the University of Colorado Boulder. As an undergraduate, I studied mathematics at the [University of Denver](https://www.math.du.edu/) while also pursuing minors in computer science, physics, and psychology.  -->
+
+Between school I worked as a software engineer at [Nasdaq](https://www.nasdaq.com/solutions/nasdaq-financial-framework-nff) developing real-time risk management systems. I enjoyed my time working in software where I learned how to professionally code (Java and Python mostly), work in a team environment, and learn modern software practices.
+
 

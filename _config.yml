@@ -47,20 +47,21 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 research:
   - project:
     title: ''
-    description: 'Comparing classical and quantum FLIP algorithms for the local max-cut problem. [preprint](https://arxiv.org/abs/2304.08420)'
+    description: 'Monogamy of Entanglement Bounds and Improved Approximation Algorithms for Qudit Hamiltonians. [preprint](https://arxiv.org/abs/2410.15544)'
     collaborators:
-      - 
-        name: Alex Kolla
-        site: https://people.ucsc.edu/~akolla/
-      -
-        name: Charles Carlson
-        site: www.charlieintheory.com
       -
         name: Zack Jorquera
-        site: https://zackjorquera.github.io/
-    link: 
-      filename: qip-2021-poster.pdf
-      title: QIP 2021 Poster
+        # site: https://zackjorquera.github.io/
+      - 
+        name: Alex Kolla
+        # site: https://people.ucsc.edu/~akolla/
+      -
+        name: Juspreet Singh Sandhu
+      - 
+        name:  Stuart Wayland
+    # link: 
+    #   filename: qip-2021-poster.pdf
+    #   title: QIP 2021 Poster
       
   - project:
     title: 'Approximating the quantum extension of Max-k-Cut'

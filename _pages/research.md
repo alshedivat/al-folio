@@ -2,15 +2,17 @@
 layout: page
 title: research
 permalink: /research/
-description: My research focuses on quantum optimization algorithms but I am generally interested in full-stack quantum computation. This involves understanding the fundamental quantum computing principles to quantum gate models to higher level algorithms. The interdisciplinary nature of the subject is what drew me in and I have taken quantum courses in computer science, physics, engineering, and chemistry to build a well-rounded understanding of the subject.
+description: My research focuses on quantum optimization algorithms but I am generally interested in full-stack quantum computation, from theory to implementation. This involves understanding high-level algorithms, circuit implementations and tricks, as well as some understand of running on different quantum computer archictectures.
 
 social: false
 ---
+* [The Lie Algebra of XY-mixer Topologies and Warm Starting QAOA for Constrained Optimization](https://arxiv.org/abs/2505.18396) with Hannes Leipold (2025, in submission)
 
+* [Monogamy of Entanglement Bounds and Improved Approximation Algorithms for Qudit Hamiltonians](https://arxiv.org/abs/2410.15544) with Zackary Jorquera, Alexandra Kolla, Juspreet Singh Sandhu, Stuart Wayland (2024, in submission)
 
-* [Quantum Advantage Over Classical for Local Max Cut.](https://arxiv.org/abs/2304.08420) with Charlie Carlson, Alex Kolla, Zack Jorquera (2023, in submission)
+* [Approximation Algorithms for Quantum Max-d-Cut](https://arxiv.org/abs/2309.10957) with Charlie Carlson, Zackary Jorquera, Alexandra Kolla, Stuart Wayland (2023)
 
-* Approximating the quantum max-k-cut. with Charlie Carlson, Alex Kolla, Zack Jorquera (ongoing)
+* [Quantum Advantage Over Classical for Local Max Cut.](https://arxiv.org/abs/2304.08420) with Charlie Carlson, Alex Kolla, Zack Jorquera (2023)
   
 <!-- {% for project in site.research %}
 
