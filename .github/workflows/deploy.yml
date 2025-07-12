@@ -2,51 +2,72 @@ name: deploy
 
 on:
   push:
-    branches:
-      - master
-      - main
+    branches: [master, main]
   pull_request:
-    branches:
-      - master
-      - main
+    branches: [master, main]
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+# Least-privilege token for Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
 jobs:
-  deploy:
-    # available images: https://github.com/actions/runner-images#available-images
+  # 1️⃣ BUILD the site and upload it as an artifact
+  build:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout 🛎️
-      uses: actions/checkout@v3
-    - name: Setup Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.2.2'
-        bundler-cache: true
-    - name: Update _config.yml ⚙️
-      uses: fjogeleit/yaml-update-action@v0.13.1
-      with:
-        commitChange: false
-        valueFile: '_config.yml'
-        propertyPath: 'giscus.repo'
-        value: ${{ github.repository }}
-    - name: Install and Build 🔧
-      run: |
-        pip install jupyter
-        npm install -g mermaid.cli
-        npm install -g purgecss
-        export JEKYLL_ENV=production
-        bundle exec jekyll build --lsi
-        purgecss -c purgecss.config.js
-    - name: Upload artifact
-      uses: actions/upload-pages-artifact@v1 # This will automatically upload an artifact from the '/_site' directory
-    - name: Deploy 🚀
-      if: github.event_name != 'pull_request'
-      uses: actions/deploy-pages@v1
+      # 1. Checkout code
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
 
+      # 2. Set up GitHub Pages environment variables
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      # 3. Set up Ruby (Jekyll is happiest on 3.1.x)
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1.4'      # or 3.2.x if you run Jekyll ≥ 4.3.3
+          bundler-cache: true
+
+      # 4. Patch your _config.yml (giscus.repo) without committing
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@v0.13.1
+        with:
+          commitChange: false
+          valueFile: _config.yml
+          propertyPath: giscus.repo
+          value: ${{ github.repository }}
+
+      # 5. Install extra tools + build
+      - name: Install CLI helpers & Build 🔧
+        run: |
+          pip install --upgrade pip jupyter
+          npm install -g @mermaid-js/mermaid-cli purgecss
+          export JEKYLL_ENV=production
+          bundle exec jekyll build --lsi
+          purgecss -c purgecss.config.js
+
+      # 6. Upload the _site folder as the pages artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site   # explicit path = safer
+
+  # 2️⃣ DEPLOY the uploaded artifact to Pages
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - name: Deploy 🚀
+        id: deploy
+        uses: actions/deploy-pages@v4
