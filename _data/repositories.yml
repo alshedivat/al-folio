@@ -11,5 +11,5 @@ github_repos:
   - tanerjn/go-solutions
   - tanerjn/core5
   - tanerjn/elk-scripts
-  - tanerjn/aws-load-balancer
+  - tanerjn/openstack-deployment
 
