@@ -45,6 +45,11 @@ scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
+# coffee: # your buy me a coffee username (only use one of the four, not all four)
+# beer: # your buy me a coffee username (only use one of the four, not all four)
+# pizza: # your buy me a coffee username (only use one of the four, not all four)
+# book: # your buy me a coffee username (only use one of the four, not all four)
+# thingiverse: # your Thingiverse username
 custom_social: # can be any name here other than the ones already defined above
   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
   title: Custom Social
