@@ -92,6 +92,16 @@
       <a href="https://youtube.com/@{{ social[1] }}" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     {% when 'zotero_username' %}
       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
+    {% when 'coffee' %}
+      <a href="https://coff.ee/{{ social[1] }}" title="Buy me a coffee"><i class="fa-solid fa-mug-hot"></i></a>
+    {% when 'beer' %}
+      <a href="https://coff.ee/{{ social[1] }}" title="Buy me a beer"><i class="fa-solid fa-beer-mug-empty"></i></a>
+    {% when 'pizza' %}
+      <a href="https://coff.ee/{{ social[1] }}" title="Buy me a pizza"><i class="fa-solid fa-pizza-slice"></i></a>
+    {% when 'book' %}
+      <a href="https://coff.ee/{{ social[1] }}" title="Buy me a book"><i class="fa-solid fa-book"></i></a>
+    {% when 'thingiverse' %}
+      <a href="https://www.thingiverse.com/{{ social[1] }}/designs" title="Thingiverse"><i class="fa-solid fa-cube"></i></a>
     {% else %}
       <a href="{{ social[1].url }}" title="{{ social[1].title }}">
         {% assign file_ext = social[1].logo | split: '.' | last %}
