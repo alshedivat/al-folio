@@ -5,7 +5,6 @@ date: 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
 ---
----
 
 What makes this so clever is that it doesn’t rely on heavy obfuscation or complex anti-analysis tricks. Instead, it leverages the fact that many sandboxes rename files to generic names like sample.exe, malware.tmp, or even a hash. The sample in question is a .lnk file (Windows shortcut) that uses a simple cmd one-liner to search for files that match a specific pattern — in this case: dir /b "Comp*.*k"
 
