@@ -6,238 +6,363 @@ nav: true
 nav_order: 2
 ---
 
-View CV as a compact [pdf](/assets/pdf/Ye-Resume-Updated.pdf){:target="_blank"} and see my [PhD application statement of purpose](/assets/pdf/phd-sop.pdf){:target="_blank"}.
+<!-- Personal Blurb Space -->
+I am an incoming PhD student at MIT EECS, advised by [Mitchell Gordon](https://mgordon.me/){:target="_blank"}.
+I received by bachelor's in Computer Science (BS) and Philosophy (BA w/ honors) with minors in mathematics and history.
+In undergrad, I was very fortunate to be advised by [Amy Zhang](https://homes.cs.washington.edu/~axz/){:target="_blank"} and [Ranjay Krishna](https://www.ranjaykrishna.com/index.html){:target="_blank"} in CS and [Rose Novick](https://www.rosenovick.com/){:target="_blank"} in philosophy.
+I was also mentored by [Jared Moore](https://jaredmoore.org/){:target="_blank"}, [Quan Ze (Jim) Chen](https://cqz.name/){:target="_blank"}, [Sebastin Santy](https://sebastinsanty.com/){:target="_blank"}, [Matt Wallingford](https://mattwallingford.github.io/){:target="_blank"}, [Carina Fourie](https://phil.washington.edu/people/carina-fourie){:target="_blank"}, and others.
 
----
+<!-- CV Links -->
+<div style="text-align: center; margin: 2rem 0;">
+<a href="/assets/pdf/Ye-Resume-Updated.pdf" target="_blank" style="display: inline-block; margin-right: 1rem; margin-bottom: 0.5rem; padding: 0.5rem 1rem; background-color: var(--global-theme-color); color: var(--global-hover-text-color); text-decoration: none; border-radius: 5px; font-size: 0.9rem; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='var(--global-hover-color)'; this.style.boxShadow='0 0 10px rgba(255, 68, 68, 0.5)';" onmouseout="this.style.backgroundColor='var(--global-theme-color)'; this.style.boxShadow='none';">CV PDF</a>
+<a href="/assets/pdf/phd-sop.pdf" target="_blank" style="display: inline-block; margin-bottom: 0.5rem; padding: 0.5rem 1rem; background-color: var(--global-theme-color); color: var(--global-hover-text-color); text-decoration: none; border-radius: 5px; font-size: 0.9rem; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='var(--global-hover-color)'; this.style.boxShadow='0 0 10px rgba(255, 68, 68, 0.5)';" onmouseout="this.style.backgroundColor='var(--global-theme-color)'; this.style.boxShadow='none';">PhD Statement of Purpose</a>
+</div>
 
-### computer science articles
+<!-- Computer Science Publications -->
+<div class="cv-section">
+<h2>CS Work</h2>
 
-*equal contribution.
+<div class="paper-item">
+<div class="paper-title">Agonistic Image Generation: Unsettling the Hegemony of Intention</div>
+<div class="paper-authors">Andrew Shaw*, <strong>Andre Ye*</strong>, Ranjay Krishna, Amy X. Zhang</div>
+<div class="paper-venue">ACM Conference on Fairness, Accountability, and Transparency (FAccT) 2025</div>
+<div class="paper-links">
+<a href="https://arxiv.org/abs/2502.15242" target="_blank">arXiv</a>
+<div class="paper-award">🏆 UW CSE Best Senior Thesis</div>
+</div>
+</div>
 
-"Agonistic Image Generation: Unsettling the Hegemony of Intention".
-Andrew Shaw\*, **Andre Ye\*** Ranjay Krishna, Amy X. Zhang.
-ACM Conference on Fairness, Accountability, and Transparency 2025.
-UW CSE Best Senior Thesis (submitted by Andrew Shaw).
-*Resources*:
-[arXiv](https://arxiv.org/abs/2502.15242){:target="_blank"}.
+<div class="paper-item">
+<div class="paper-title">Cultural and Linguistic Diversity Improves Visual Representations</div>
+<div class="paper-authors"><strong>Andre Ye</strong>, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna</div>
+<div class="paper-venue">Computer Vision and Pattern Recognition (CVPR) 2025</div>
+<div class="paper-links">
+<a href="https://arxiv.org/abs/2310.14356" target="_blank">arXiv</a>
+<a href="https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7jStpekaF1E4vfnpVpXPx-bxpPTg/edit?usp=sharing" target="_blank">RAIVN Slides</a>
+<a href="/assets/pdf/RAIVN-presentation-11_28.pdf" target="_blank">RAIVN PDF</a>
+<a href="/assets/pdf/URS%20-%20Cultural%20Relativity.pdf" target="_blank">UW Symposium</a>
+</div>
+</div>
 
-"Cultural and Linguistic Diversity Improves Visual Representations". 
-**Andre Ye**, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
-Computer Vision and Pattern Recognition (CVPR) 2025.
-*Resources*:
-[arXiv](https://arxiv.org/abs/2310.14356){:target="_blank"},
-RAIVN lab talk [slides](https://docs.google.com/presentation/d/10c61-Nep6oZuO1l7jStpekaF1E4vfnpVpXPx-bxpPTg/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/RAIVN-presentation-11_28.pdf),
-27th UW Research Symposium talk [slides](https://docs.google.com/presentation/d/15-6LxTeyhR1u4dJRnWlc0xLfYlBts5MbvXkjqCeX1iQ/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/URS%20-%20Cultural%20Relativity.pdf){:target="_blank"}.
+<div class="paper-item">
+<div class="paper-title">LLMs grasp morality in concept</div>
+<div class="paper-authors">Mark Pock*, <strong>Andre Ye*</strong>, Jared Moore</div>
+<div class="paper-venue">Moral Psychology and Philosophy Workshop, NeurIPS 2023</div>
+<div class="paper-links">
+<a href="https://arxiv.org/abs/2311.02294" target="_blank">arXiv</a>
+<a href="/assets/pdf/neurips-model-meaning-final.pdf" target="_blank">Poster</a>
+</div>
+</div>
 
-"LLMs grasp morality in concept". 
-Mark Pock*, **Andre Ye\***, Jared Moore.
-Moral Psychology and Philosophy Workshop, NeurIPS 2023.
-*Resources*:
-[arXiv](https://arxiv.org/abs/2311.02294){:target="_blank"},
-[poster](/assets/pdf/neurips-model-meaning-final.pdf){:target="_blank"}
+<div class="paper-item">
+<div class="paper-title">Confidence Contours</div>
+<div class="paper-authors"><strong>Andre Ye</strong>, Quan Ze Chen, Amy Zhang</div>
+<div class="paper-venue">AAAI Human Computation (HCOMP) 2023</div>
+<div class="paper-award">🏆 Honorable Mention, Best Paper Award</div>
+<div class="paper-links">
+<a href="https://ojs.aaai.org/index.php/HCOMP/article/view/27559" target="_blank">Proceedings</a>
+<a href="https://arxiv.org/abs/2308.07528" target="_blank">arXiv</a>
+<a href="/assets/pdf/HCOMP-Presentation.pdf" target="_blank">HCOMP Talk</a>
+<a href="/assets/pdf/confidence_contours_research_showcase.pdf" target="_blank">Poster</a>
+</div>
+</div>
 
-"Confidence Contours".
-**Andre Ye**, Quan Ze Chen, Amy Zhang.
-AAAI Human Computation (HCOMP) 2023.
-🏆 Honorable Mention, Best Paper Award.
-*Resources*:
-[proceedings](https://ojs.aaai.org/index.php/HCOMP/article/view/27559){:target="_blank"},
-[arXiv](https://arxiv.org/abs/2308.07528){:target="_blank"}.
-HCOMP talk [slides](https://docs.google.com/presentation/d/1e6VEJRU2SGr-0wFi85ZeyMlNQYvyw8ct5mxSrlU9hZQ/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/HCOMP-Presentation.pdf){:target="_blank"},
-26th UW Research Symposium talk [slides](https://docs.google.com/presentation/d/17qrow18og678_tatb9ZtHjlaAQlSHnHcFnQ_k4DXO9c/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/urp_confidence_contours.pdf){:target="_blank"},
-Allen School Research Showcase [poster](/assets/pdf/confidence_contours_research_showcase.pdf){:target="_blank"}.
-*Archival*:
-IJCAI 2023 [submission](/assets/pdf/ijcai_confidence_contours_submission.pdf){:target="_blank"} and [rebuttal](/assets/pdf/ijcai_confidence_contours_rebuttal.pdf){:target="_blank"}.
-
-"A Roadmap to Pluralistic Alignment".
-Taylor Sorenson, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshghallah, Christopher Michael Rytting, **Andre Ye**, Liwei Jiang, Ximing Lu, Nouha Dziri, Tim Althoff, Yejin Choi.
-International Conference for Machine Learning 2024.
-*Resources*:
-[arXiv](https://arxiv.org/abs/2402.05070){:target="_blank"}.
-
-"A Novel Approach to Segment Specialized Annotations in Electron Microscopy Images of Glomerular Podocytes."
-David Smerkous, **Andre Ye**, Behzad Najafian.
-[Najafian Lab for Kidney Pathology](https://dlmp.uw.edu/research-labs/najafian){:target="_blank}, UW Medicine.
-*Resources*:
-25th UW Research Symposium [pdf](/assets/pdf/podocyte_seg.pdf){:target="_blank"}.
-
-"Emergent Language: Independent AI Development of a Language-Like Syntax."
-Alec Bunn, Amelia Johnson, **Andre Ye**, Yegor Kuznetzov, Eric Xia.
-Interactive Intelligence research group, Paul G. Allen School of Computer Science.
-*Resources*:
-eScience Institute AI Showcase [poster](/assets/pdf/emergent_language.pdf){:target="_blank"}
-
-"What Philosophy Can Bring to the Study of AI". *Talk.* **Andre Ye.** Given 5/23/2024.
-*Resources*:
-[slides](https://docs.google.com/presentation/d/1WIepD1SvyePmvww6u2t2AkHGSH_dGH9ErZNrxn6fA1Q/edit#slide=id.p){:target="_blank"} ([pdf](/assets/pdf/Ranjay%20Group%20-%20Philosophy%20x%20AI.pdf) version), [reading list](https://docs.google.com/document/d/1YUB32IRPXfx4Z5jvbeVPOrM1ov6WwcM0hAZUyt0hXy0/edit){:target="_blank"}.
-
----
-
-### philosophy work
-
-
-"Commentary: Who are you to philosophy?"
-**Andre Ye**.
-*Garden of Ideas*, Volume 4, 2025 -- Issue 1.
-*Resources*: [link](https://static1.squarespace.com/static/615a290d98f69f13289b90c2/t/680c26d45069c938e13ce227/1745626919556/Volume+4+Issue+1+Online+Version+%286%29.pdf){:target="_blank"}.
-
-"And then the Hammer Broke: Reflections on Machine Ethics from Feminist Philosophy of Science."
-**Andre Ye**.
-Pacific University Philosophy Conference: Forest Grove, Oregon. April 2024.
-*Resources*:
-[arXiv](https://arxiv.org/abs/2403.05805){:target="_blank"},
-[philPapers](https://philpapers.org/rec/YEATTV){:target="_blank"},
-reading [video](https://youtu.be/Rob_OLoSZ64){:target="_blank"} and artistic [slides](https://docs.google.com/presentation/d/1PrUgoPwqw0bPweM-l57m1kGAEQz5JsZGPCykjq1N5cI/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/PacU%20Phil%20Conference%20Presentation.pdf){:target="_blank"}.
-
-"Wor(k/d)play."
-Mark Pock*, **Andre Ye\***.
-*Garden of Ideas*, Volume 2, 2023 -- Issue 1.
-*Resources*:
-[link](/writing/files/workdplay.pdf){:target="_blank"}.
-
-"Computational Production of Simulacra."
-**Andre Ye**.
-*Garden of Ideas*, Volume 3, 2023 -- Issue 1, pages 3-17.
-*Resources*:
-[link](/assets/pdf/garden-of-ideas-1-17.pdf){:target="_blank"}.
-
-"The Wartime State and the Cigarette: Darkness and Temporality in Pale Horse, Pale Rider."
-**Andre Ye**.
-*The Explicator*, Volume 80, 2022 - Issue 1-2, pages 30-33.
-[Publisher’s link.](https://www.tandfonline.com/doi/full/10.1080/00144940.2022.2063706){:target="_blank"}.
-
-See other writings [here](https://andre-ye.github.io/writing/philosophy){:target="_blank"}.
-
----
-
-### other writing
-
-*Modern Deep Learning Design and Applications*.
-Andre Ye.
-Apress (Springer Nature).
-[SpringerLink](https://link.springer.com/book/10.1007/978-1-4842-7413-2){:target="_blank"}
-
-*Modern Deep Learning for Tabular Data.*
-Andre Ye, Andy Wang.
-Apress (Springer Nature).
-[SpringerLink](https://link.springer.com/book/10.1007/978-1-4842-8692-0){:target="_blank"}.
-
-*Blog* on [Medium](https://andre-ye.medium.com/){:target="_blank"}.
-10k followers and counting... but no longer active.
-
----
-
-## education
-
-**B.A., Philosophy with Honors**.
-Focus on social & political philosophy, philosophy of science.
-University of Washington. 2021-2025.
-
-**B.S., Computer Science**.
-University of Washington. 2021-2025.
-
-**Minor, Mathematics**.
-Focus on abstract algebra.
-
-**Minor, History**.
-Focus on 21st century comparative and transregional history.
-
-**Early Entrance Program.**
-Admission to university at 14 through the [Robinson Center](https://robinsoncenter.uw.edu/){:target="_blank"}.
-
----
-
-## teaching
+<div class="paper-item">
+<div class="paper-title">A Roadmap to Pluralistic Alignment</div>
+<div class="paper-authors">Taylor Sorenson, Jared Moore, Jillian Fisher, Mitchell Gordon, Niloofar Mireshghallah, Christopher Michael Rytting, <strong>Andre Ye</strong>, Liwei Jiang, Ximing Lu, Nouha Dziri, Tim Althoff, Yejin Choi</div>
+<div class="paper-venue">International Conference for Machine Learning (ICML) 2024</div>
+<div class="paper-links">
+<a href="https://arxiv.org/abs/2402.05070" target="_blank">arXiv</a>
+</div>
+</div>
 
 
+</div>
 
-**Teaching Assistant, CSE [160, 163, 311]** (intro and intermediate Python programming, discrete math for CS).
-Allen School of CSE, University of Washington.
-7 quarters.
+<!-- Philosophy Work -->
+<div class="cv-section">
+<h2>Philosophy Writings</h2>
 
-**Teaching Assistant, English Composition and Literary Analysis.**
-Robinson Center, University of Washington.
-2 years.
+<div class="paper-item">
+<div class="paper-title">Commentary: Who are you to philosophy?</div>
+<div class="paper-authors"><strong>Andre Ye</strong></div>
+<div class="paper-venue">Garden of Ideas, Volume 4, 2025 — Issue 1</div>
+<div class="paper-links">
+<a href="https://static1.squarespace.com/static/615a290d98f69f13289b90c2/t/680c26d45069c938e13ce227/1745626919556/Volume+4+Issue+1+Online+Version+%286%29.pdf" target="_blank">Publication</a>
+</div>
+</div>
 
-**Teaching Assistant, Introduction to Machine Learning.**
-The Coding School.
-1 year.
+<div class="paper-item">
+<div class="paper-title">And then the Hammer Broke: Reflections on Machine Ethics from Feminist Philosophy of Science</div>
+<div class="paper-authors"><strong>Andre Ye</strong></div>
+<div class="paper-venue">Pacific University Philosophy Conference, April 2024</div>
+<div class="paper-links">
+<a href="https://arxiv.org/abs/2403.05805" target="_blank">arXiv</a>
+<a href="https://philpapers.org/rec/YEATTV" target="_blank">PhilPapers</a>
+<a href="https://youtu.be/Rob_OLoSZ64" target="_blank">Reading Video</a>
+<a href="/assets/pdf/PacU%20Phil%20Conference%20Presentation.pdf" target="_blank">Slides PDF</a>
+</div>
+</div>
 
----
-
-## recognition & scholarships
-- Fellow, Paul and Daisy Soros Fellowship for New Americans (2025)
-- Awardee, NSF Graduate Research Fellowship Program (2025)
-- Fellow, Ashar Aziz Presidential Fellowship (MIT) (2025)
-- Finalist, Hertz Foundation Fellowship (2025)
-- Gonfalonier (Banner Carrier) for the College of Arts and Sciences, 150th University of Washington Commencement (2025)
-- UW College of Arts and Sciences Dean's Medal (for the Social Sciences) (2025)
-- UW CSE Outstanding Senior (2025)
-- UW Philosophy Department Outstanding Graduating Senior (2025)
-- UW CSE Best Senior Thesis Award (submitted by co-first author Andrew Shaw) (2025)
-- UW Philosophy Department Outstanding Undergraduate Scholar (2024)
-- CRA Outstanding Undergraduate Researcher Finalist (2023)
-- Mary Gates Research Scholar (2023)
-- Phi Beta Kappa Scholar (2023)
-- Philosophy Department Honors (2023)
-
----
-
-## news
-- ["Undergrad Questions the AI Answer"](https://www.washington.edu/uaa/undergrad-researcher-questions-the-ai-answer/){:target="_blank"}
-- ["UW undergraduate with interdisciplinary AI focus earns fellowship of up to $90,000 for graduate study"](https://www.washington.edu/uaa/2025/04/09/uw-undergraduate-earns-fellowship-for-graduate-study/){:target="_blank"}
-- ["2025 Dean's Medalists, Energized & Inspiring"](https://artsci.washington.edu/news/2025-06/2025-deans-medalists-energized-inspiring){:target="_blank"}
-- ["For these nationally recognized Allen School undergraduates, research impact is its own reward"](https://news.cs.washington.edu/2024/06/28/for-these-nationally-recognized-allen-school-undergraduates-research-impact-is-its-own-reward/){:target="_blank"}
-
----
-
-## academic service & volunteering
-
-- 2024 CSCW (Computer-Supported Cooperative Work) Reviewer
-- 2023 NeurIPS Moral Psychology and Moral Philosophy Workshop Reviewer
-- 2023 ICML AI + HCI Workshop Reviewer
-- Volunteer Data Scientist @ Coronawhy (April 2020 - June 2020)
-- 2024 Allen School Direct Admits, Undergrad Research Panelist
-- 2022, 2023 Robinson Center Student Panelist
-- 2024 Robinson Center Research Panelist, Student Host
-
----
-
-## other projects and unserious work
-
-"AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs." SIGBOVIK 2023.
-*Resources*:
-[proceedings](/assets/pdf/SIGBOVIK_2023.pdf){:target="_blank"},
-RAIVN Lab seminar talk [slides](https://docs.google.com/presentation/d/1kiU1Vlu2yo3pYGjeEF4cMzE8EKvMi3MvQb9WUDq1oio/edit?usp=sharing){:target="_blank"} and [pdf](/assets/pdf/AyahuascaNet.pdf){:target="_blank"}.
-
-"How does the AI community pronounce `epoch'? A semirigorous sociolinguistic survey." 
-SIGBOVIK 2024.
-*Resources*:
-[proceedings](/assets/pdf/Epoch_SIGBOVIK_2024.pdf){:target="_blank"}.
-
-"ITF;)LM: Innocuous Table Formatting ;) with Language Models." SIGBOVIK 2024. 
-*Resources*:
-[proceedings](/assets/pdf/Table_SIGBOVIK_2024.pdf){:target="_blank"}.
-
-*Mobiod Streams*. Digital art.
-[Link](https://andre-ye.github.io/mobiod-streams/){:target="_blank"}
+<div class="paper-item">
+<div class="paper-title">Wor(k/d)play</div>
+<div class="paper-authors">Mark Pock*, <strong>Andre Ye*</strong></div>
+<div class="paper-venue">Garden of Ideas, Volume 2, 2023 — Issue 1</div>
+<div class="paper-links">
+<a href="/writing/files/workdplay.pdf" target="_blank">Publication</a>
+</div>
+</div>
 
 
+<div class="paper-item">
+<div class="paper-title">The Wartime State and the Cigarette: Darkness and Temporality in Pale Horse, Pale Rider</div>
+<div class="paper-authors"><strong>Andre Ye</strong></div>
+<div class="paper-venue">The Explicator, Volume 80, 2022 - Issue 1-2, pages 30-33</div>
+<div class="paper-links">
+<a href="https://www.tandfonline.com/doi/full/10.1080/00144940.2022.2063706" target="_blank">Publisher</a>
+</div>
+</div>
 
+</div>
 
+<!-- Education -->
+<div class="cv-section">
+<h2>Education</h2>
 
+<div class="education-item">
+<div class="item-title">Ph.D., Computer Science</div>
+<div class="item-institution">Massachusetts Institute of Technology, 2025-?</div>
+</div>
 
+<div class="education-item">
+<div class="item-title">B.A., Philosophy with Honors</div>
+<div class="item-institution">University of Washington, 2021-2025</div>
+<div class="item-details">Minor in History.</div>
+</div>
 
-<!-- ## misc
-- Languages: English (native), Mandarin Chinese (conversational), Russian (basic), French (learning) -->
-<!-- - Typing speed over 150 wpm -->
+<div class="education-item">
+<div class="item-title">B.S., Computer Science</div>
+<div class="item-institution">University of Washington, 2021-2025</div>
+<div class="item-details">Minor in Mathematics.</div>
+</div>
 
+<div class="education-item">
+<div class="item-title">Early Entrance Program</div>
+<div class="item-institution">Robinson Center, University of Washington</div>
+<div class="item-details">Admission to university at 14</div>
+</div>
 
-<!-- ---
-layout: cv
-permalink: /cv/
-title: cv
-nav: true
-nav_order: 2
-cv_pdf: Ye_Resume_Officially.pdf
---- -->
+</div>
+
+<!-- Recognition & Scholarships Timeline -->
+<div class="cv-section">
+<h2>Recognition & Scholarships</h2>
+
+<div class="timeline">
+<div class="timeline-item">
+<div class="timeline-year">2025</div>
+<div class="timeline-content">
+• Fellow, Paul and Daisy Soros Fellowship for New Americans<br>
+• Awardee, NSF Graduate Research Fellowship Program<br>
+• Fellow, Ashar Aziz Presidential Fellowship (MIT)<br>
+• Finalist, Hertz Foundation Fellowship<br>
+• Gonfalonier (Banner Carrier) for the College of Arts and Sciences, 150th University of Washington Commencement<br>
+• UW College of Arts and Sciences Dean's Medal (for the Social Sciences)<br>
+• UW CSE Outstanding Senior<br>
+• UW Philosophy Department Outstanding Graduating Senior<br>
+• UW CSE Best Senior Thesis Award (submitted by co-first author Andrew Shaw)
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-year">2024</div>
+<div class="timeline-content">
+• UW Philosophy Department Outstanding Undergraduate Scholar
+</div>
+</div>
+
+<div class="timeline-item">
+<div class="timeline-year">2023</div>
+<div class="timeline-content">
+• CRA Outstanding Undergraduate Researcher Finalist<br>
+• Mary Gates Research Scholar<br>
+• Phi Beta Kappa Scholar<br>
+• Philosophy Department Honors
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- Teaching -->
+<div class="cv-section">
+<h2>Teaching</h2>
+
+<div class="teaching-item">
+<div class="item-title">Teaching Assistant, CSE [160, 163, 311]</div>
+<div class="item-institution">Allen School of CSE, University of Washington, 2022-2025</div>
+<div class="item-details">Intro and intermediate Python programming, discrete math for CS. 7 quarters.</div>
+</div>
+
+<div class="teaching-item">
+<div class="item-title">Teaching Assistant, English Composition and Literary Analysis</div>
+<div class="item-institution">Robinson Center, University of Washington, 2022-2024</div>
+<div class="item-details">2 years</div>
+</div>
+
+<div class="teaching-item">
+<div class="item-title">Teaching Assistant, Introduction to Machine Learning</div>
+<div class="item-institution">The Coding School, 2022-2023</div>
+<div class="item-details">1 year</div>
+</div>
+
+</div>
+
+<!-- News -->
+<div class="cv-section">
+<h2>News</h2>
+
+<div class="paper-item">
+<div class="paper-title">Undergrad Questions the AI Answer</div>
+<div class="paper-venue">University of Washington Office of Undergraduate Academic Affairs</div>
+<div class="paper-links">
+<a href="https://www.washington.edu/uaa/undergrad-researcher-questions-the-ai-answer/" target="_blank">Article</a>
+</div>
+</div>
+
+<div class="paper-item">
+<div class="paper-title">UW undergraduate with interdisciplinary AI focus earns fellowship of up to $90,000 for graduate study</div>
+<div class="paper-venue">University of Washington Office of Undergraduate Academic Affairs</div>
+<div class="paper-links">
+<a href="https://www.washington.edu/uaa/2025/04/09/uw-undergraduate-earns-fellowship-for-graduate-study/" target="_blank">Article</a>
+</div>
+</div>
+
+<div class="paper-item">
+<div class="paper-title">2025 Dean's Medalists, Energized & Inspiring</div>
+<div class="paper-venue">University of Washington College of Arts and Sciences</div>
+<div class="paper-links">
+<a href="https://artsci.washington.edu/news/2025-06/2025-deans-medalists-energized-inspiring" target="_blank">Article</a>
+</div>
+</div>
+
+<div class="paper-item">
+<div class="paper-title">For these nationally recognized Allen School undergraduates, research impact is its own reward</div>
+<div class="paper-venue">University of Washington Allen School News</div>
+<div class="paper-links">
+<a href="https://news.cs.washington.edu/2024/06/28/for-these-nationally-recognized-allen-school-undergraduates-research-impact-is-its-own-reward/" target="_blank">Article</a>
+</div>
+</div>
+
+</div>
+
+<!-- Academic Service -->
+<div class="cv-section">
+<h2>Academic Service & Volunteering</h2>
+
+<div class="service-item">
+<div class="item-title">Reviewer</div>
+<div class="item-details">
+• 2024 CSCW (Computer-Supported Cooperative Work)<br>
+• 2023 NeurIPS Moral Psychology and Moral Philosophy Workshop<br>
+• 2023 ICML AI + HCI Workshop
+</div>
+</div>
+
+<div class="service-item">
+<div class="item-title">Panelist & Host</div>
+<div class="item-details">
+• 2024 Allen School Direct Admits, Undergrad Research Panelist<br>
+• 2022, 2023 Robinson Center Student Panelist<br>
+• 2024 Robinson Center Research Panelist, Student Host
+</div>
+</div>
+
+<div class="service-item">
+<div class="item-title">Volunteer Data Scientist</div>
+<div class="item-institution">Coronawhy, April 2020 - June 2020</div>
+</div>
+
+</div>
+
+<!-- Other Publications -->
+<div class="cv-section">
+<h2>Books</h2>
+
+<div class="paper-item">
+<div class="paper-title">Modern Deep Learning Design and Applications</div>
+<div class="paper-authors">Andre Ye</div>
+<div class="paper-venue">Apress (Springer Nature)</div>
+<div class="paper-links">
+<a href="https://link.springer.com/book/10.1007/978-1-4842-7413-2" target="_blank">SpringerLink</a>
+</div>
+</div>
+
+<div class="paper-item">
+<div class="paper-title">Modern Deep Learning for Tabular Data</div>
+<div class="paper-authors">Andre Ye, Andy Wang</div>
+<div class="paper-venue">Apress (Springer Nature)</div>
+<div class="paper-links">
+<a href="https://link.springer.com/book/10.1007/978-1-4842-8692-0" target="_blank">SpringerLink</a>
+</div>
+</div>
+
+</div>
+
+<!-- Fun Projects -->
+<div class="cv-section">
+<h2>Misc. Work</h2>
+
+<div class="paper-item">
+<div class="paper-title">AyahuascaNet: Rigorously Investigating Hallucination in Large Language Models with Hardcore Psychedelic Drugs</div>
+<div class="paper-venue">SIGBOVIK 2023</div>
+<div class="paper-links">
+<a href="/assets/pdf/SIGBOVIK_2023.pdf" target="_blank">Proceedings</a>
+<a href="/assets/pdf/AyahuascaNet.pdf" target="_blank">Talk PDF</a>
+<a href="https://x.com/deepfates/status/1752052061863387374" target="_blank">Viral Tweet</a>
+</div>
+</div>
+
+<div class="paper-item">
+<div class="paper-title">How does the AI community pronounce 'epoch'? A semirigorous sociolinguistic survey</div>
+<div class="paper-venue">SIGBOVIK 2024</div>
+<div class="paper-links">
+<a href="/assets/pdf/Epoch_SIGBOVIK_2024.pdf" target="_blank">Proceedings</a>
+</div>
+</div>
+
+<div class="paper-item">
+<div class="paper-title">ITF;)LM: Innocuous Table Formatting ;) with Language Models</div>
+<div class="paper-venue">SIGBOVIK 2024</div>
+<div class="paper-links">
+<a href="/assets/pdf/Table_SIGBOVIK_2024.pdf" target="_blank">Proceedings</a>
+</div>
+</div>
+
+<div class="paper-item">
+<div class="paper-title">Mobiod Streams</div>
+<div class="paper-venue">Digital Art</div>
+<div class="paper-links">
+<a href="https://andre-ye.github.io/mobiod-streams/" target="_blank">Interactive Art</a>
+</div>
+</div>
+
+<div class="paper-item">
+<div class="paper-title">A Novel Approach to Segment Specialized Annotations in Electron Microscopy Images of Glomerular Podocytes</div>
+<div class="paper-authors">David Smerkous, <strong>Andre Ye</strong>, Behzad Najafian</div>
+<div class="paper-venue">Najafian Lab for Kidney Pathology, UW Medicine</div>
+<div class="paper-links">
+<a href="/assets/pdf/podocyte_seg.pdf" target="_blank">UW Symposium PDF</a>
+</div>
+</div>
+
+<div class="paper-item">
+<div class="paper-title">Emergent Language: Independent AI Development of a Language-Like Syntax</div>
+<div class="paper-authors">Alec Bunn, Amelia Johnson, <strong>Andre Ye</strong>, Yegor Kuznetzov, Eric Xia</div>
+<div class="paper-venue">Interactive Intelligence Research Group, Paul G. Allen School</div>
+<div class="paper-links">
+<a href="/assets/pdf/emergent_language.pdf" target="_blank">eScience Poster</a>
+</div>
+</div>
+
+</div>

@@ -79,7 +79,7 @@ table {
   border-left: 3px solid var(--global-theme-color);
   border-radius: 5px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  z-index: 900;
   opacity: 0.9;
   transition: opacity 0.3s ease;
 
@@ -120,18 +120,17 @@ table {
   }
 }
 
-// Fixed Image Box (left margin)
+// Fixed Image Box (left margin, top aligned)
 .fixed-image-box {
   position: fixed;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 120px; // Align with page header
   width: 300px;
   background-color: var(--global-card-bg-color);
   border-right: 3px solid var(--global-theme-color);
   border-radius: 0 5px 5px 0;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  z-index: 900;
   opacity: 0.9;
   transition: opacity 0.3s ease;
   overflow: hidden;
@@ -173,10 +172,240 @@ table {
   }
 }
 
+// Dynamic Navigation Panel
+.nav-panel {
+  position: fixed;
+  left: 0;
+  top: 480px; // Position below the image
+  width: 200px;
+  background-color: var(--global-bg-color);
+  z-index: 898;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+  max-height: 50vh;
+  overflow-y: auto;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  .nav-header {
+    padding: 0.5rem 1rem;
+    color: var(--global-text-color-light);
+    font-weight: normal;
+    font-size: 0.8rem;
+    text-align: left;
+    border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .nav-items {
+    padding: 0.25rem 0;
+  }
+
+  .nav-item {
+    display: block;
+    padding: 0.4rem 1rem;
+    color: var(--global-text-color-light);
+    text-decoration: none;
+    font-size: 0.75rem;
+    transition: all 0.3s ease;
+    position: relative;
+    
+    &:hover {
+      color: var(--global-theme-color);
+      background-color: rgba(255, 68, 68, 0.05);
+    }
+    
+    &.active {
+      color: var(--global-theme-color);
+      background-color: rgba(255, 68, 68, 0.08);
+      
+      &::before {
+        content: '•';
+        position: absolute;
+        left: 0.5rem;
+        color: var(--global-theme-color);
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+
 // Hide both fixed boxes on smaller screens
 @media (max-width: 1200px) {
-  .fixed-quote-box, .fixed-image-box {
+  .fixed-quote-box, .fixed-image-box, .nav-panel {
     display: none;
+  }
+}
+
+// CV Styling
+.cv-section {
+  margin: 2.5rem 0;
+  padding: 2rem;
+  background-color: var(--global-card-bg-color);
+  border: 2px solid var(--global-theme-color);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 68, 68, 0.2);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 30%, rgba(255, 68, 68, 0.05) 50%, transparent 70%);
+    pointer-events: none;
+  }
+
+  h2, h3 {
+    color: var(--global-theme-color);
+    text-shadow: 0 0 10px rgba(255, 68, 68, 0.4);
+    margin-bottom: 1.5rem;
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.cv-blurb {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: linear-gradient(135deg, var(--global-card-bg-color) 0%, rgba(255, 68, 68, 0.1) 100%);
+  border-left: 4px solid var(--global-theme-color);
+  border-radius: 5px;
+  font-style: italic;
+  text-align: center;
+}
+
+.paper-item {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: rgba(255, 68, 68, 0.05);
+  border-radius: 8px;
+  border-left: 4px solid var(--global-theme-color);
+  
+  .paper-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--global-theme-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .paper-authors {
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    color: var(--global-text-color);
+  }
+  
+  .paper-venue {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.5rem;
+  }
+  
+  .paper-award {
+    background-color: var(--global-theme-color);
+    color: var(--global-hover-text-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .paper-links {
+    margin-top: 1rem;
+    
+    a {
+      display: inline-block;
+      margin-right: 1rem;
+      margin-bottom: 0.5rem;
+      padding: 0.3rem 0.8rem;
+      background-color: var(--global-theme-color);
+      color: var(--global-hover-text-color);
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 0.85rem;
+      transition: all 0.3s ease;
+      
+      &:hover {
+        background-color: var(--global-hover-color);
+        box-shadow: 0 0 10px rgba(255, 68, 68, 0.5);
+      }
+    }
+  }
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0.5rem;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, var(--global-theme-color), var(--global-hover-color));
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    
+    &::before {
+      content: '';
+      position: absolute;
+      left: -0.4rem;
+      top: 0.2rem;
+      width: 0.8rem;
+      height: 0.8rem;
+      background-color: var(--global-theme-color);
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(255, 68, 68, 0.6);
+    }
+    
+    .timeline-year {
+      font-size: 0.85rem;
+      color: var(--global-theme-color);
+      font-weight: bold;
+      margin-bottom: 0.3rem;
+    }
+    
+    .timeline-content {
+      color: var(--global-text-color);
+      line-height: 1.4;
+    }
+  }
+}
+
+.education-item, .teaching-item, .service-item {
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: rgba(255, 68, 68, 0.03);
+  border-radius: 5px;
+  border-left: 3px solid var(--global-theme-color);
+  
+  .item-title {
+    font-weight: bold;
+    color: var(--global-theme-color);
+    margin-bottom: 0.3rem;
+  }
+  
+  .item-institution {
+    font-style: italic;
+    color: var(--global-text-color-light);
+    margin-bottom: 0.3rem;
+  }
+  
+  .item-details {
+    color: var(--global-text-color);
+    font-size: 0.9rem;
   }
 }
 

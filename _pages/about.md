@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page 
 ---
 
-I am an incoming EECS PhD student at MIT working in **human-AI interaction**, advised by [Mitchell Gordon](https://mgordon.me/){:target="_blank"}.
+I am an incoming MIT EECS PhD student & PD Soros Fellow working in **human-AI interaction**, advised by [Mitchell Gordon](https://mgordon.me/){:target="_blank"}.
 I want to build **AI concept tools** that help us *define* and *collaborate* on concepts (personal, ethical, political, scientific, ...) in the form of neologisms , metaphors, connections, graphs, and more.
 I want to find AI-readable formats and operations for representing (trans-?)humanist concepts --- with wacky, creative, speculative human-AI interactions.
 My philosophical interests are in philosophies that center the structuring role of concepts in life and thought, e.g. Deleuze, Foucault, Sellars.
