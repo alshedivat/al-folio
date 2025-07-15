@@ -50,7 +50,16 @@
     <div class="fixed-quote-box">
       <p id="random-quote" class="quote-text"></p>
       <p id="random-quote-author" class="quote-author"></p>
+      <p class="quote-source">from <a href="/mythought/">my thought</a></p>
     </div>
+
+    <!-- Fixed Image Box (exclude from about page) -->
+    {% unless page.permalink == '/' %}
+    <div class="fixed-image-box">
+      <img id="fixed-ai-image" class="ai-image" src="" alt="Random AI image from Better Images of AI" />
+      <p class="image-caption">from <a href="https://betterimagesofai.org/images" target="_blank">Better Images of AI</a></p>
+    </div>
+    {% endunless %}
 
     <!-- Footer -->
     {%- include footer.html %}

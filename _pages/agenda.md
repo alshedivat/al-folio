@@ -4,7 +4,7 @@ title: agenda
 permalink: /agenda/
 description: My research agenda and ideas that excite me
 nav: true
-nav_order: 4
+nav_order: 1
 ---
 
 Please see my [statement of purpose](/assets/pdf/phd-sop.pdf){:target="_blank"}.

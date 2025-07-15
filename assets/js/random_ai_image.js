@@ -30,13 +30,23 @@ document.addEventListener('DOMContentLoaded', function() {
         'Wheel of Progress 3200x1800.png'
     ];
 
-    const randomImageElement = document.getElementById('random-ai-image');
-    if (randomImageElement) {
-        const randomIndex = Math.floor(Math.random() * aiImages.length);
-        const selectedImage = aiImages[randomIndex];
-        const imagePath = '/assets/better-ai-imgs/' + encodeURIComponent(selectedImage);
-        
-        randomImageElement.src = imagePath;
-        randomImageElement.alt = 'Random AI image from Better Images of AI';
+    // Function to set random image for any element
+    function setRandomImage(imageElement) {
+        if (imageElement) {
+            const randomIndex = Math.floor(Math.random() * aiImages.length);
+            const selectedImage = aiImages[randomIndex];
+            const imagePath = '/assets/better-ai-imgs/' + encodeURIComponent(selectedImage);
+            
+            imageElement.src = imagePath;
+            imageElement.alt = 'Random AI image from Better Images of AI';
+        }
     }
+
+    // Set image for about page
+    const randomImageElement = document.getElementById('random-ai-image');
+    setRandomImage(randomImageElement);
+
+    // Set image for fixed left margin box (other pages)
+    const fixedImageElement = document.getElementById('fixed-ai-image');
+    setRandomImage(fixedImageElement);
 });

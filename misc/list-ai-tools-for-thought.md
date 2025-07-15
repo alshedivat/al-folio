@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /reading/ai-tools-for-thought
+permalink: /misc/ai-tools-for-thought
 title: AI Tools for Thought
 description: Curated collection.
 nav: false

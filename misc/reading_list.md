@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /reading/reading_list
+permalink: /misc/reading_list
 title: Reading List
 description: A curated collection of literature I recommend for reading / viewing.
 nav: false

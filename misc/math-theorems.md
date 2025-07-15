@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /reading/recmath
+permalink: /misc/recmath
 title: Recreational Math
 description:
 nav: false

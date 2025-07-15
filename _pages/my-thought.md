@@ -3,7 +3,7 @@ layout: page
 title: my thought
 permalink: /mythought/
 nav: true
-nav_order: 1
+nav_order: 3
 ---
 
 

@@ -1,6 +1,6 @@
 <!-- ---
 layout: page
-permalink: /reading/listening_list
+permalink: /misc/listening_list
 title: Listening List
 description: A curated collection of incredible music.
 nav: false

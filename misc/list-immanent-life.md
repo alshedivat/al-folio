@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /reading/immanent-life
+permalink: /misc/immanent-life
 title: Immanent Life
 description: Curated collection.
 nav: false

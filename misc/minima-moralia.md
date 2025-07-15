@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /reading/minima-moralia
+permalink: /misc/minima-moralia
 title: Minima Moralia
 description:
 nav: false

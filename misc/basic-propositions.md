@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /reading/basic-propositions
+permalink: /misc/basic-propositions
 title: Basic Propositions
 description:
 nav: false

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /reading/history-listed
+permalink: /misc/history-listed
 title: History Flat-Listed
 description:
 nav: false

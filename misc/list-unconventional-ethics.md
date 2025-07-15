@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /reading/unconventional-ethics
+permalink: /misc/unconventional-ethics
 title: Unconventional Ethics
 description: Curated collection.
 nav: false

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /reading/metaphilosophy
+permalink: /misc/metaphilosophy
 title: Metaphilosophy
 description: Curated collection.
 nav: false
