@@ -49,4 +49,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set image for fixed left margin box (other pages)
     const fixedImageElement = document.getElementById('fixed-ai-image');
     setRandomImage(fixedImageElement);
+    
+    // Set image for 404 page
+    const image404Element = document.getElementById('404-ai-image');
+    setRandomImage(image404Element);
 });

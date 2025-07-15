@@ -5,7 +5,7 @@
             "description": "These papers make really interesting arguments about human-AI interaction which I find compelling or at least useful to think about.",
             "papers": [
                 {
-                    "title": "We Can’t Understand AI Using our Existing Vocabulary",
+                    "title": "We Can't Understand AI Using our Existing Vocabulary",
                     "authors": "John Hewitt, Robert Geirhos, Been Kim",
                     "year": 2025,
                     "commentary": "A compelling articulation of what human-AI communication could look like. Proposes neologism learning.",
@@ -17,13 +17,85 @@
                     "year": 2025,
                     "commentary": "Advocates and proposes directions for systematic AI evalutions involving real human interaction.",
                     "link": "https://openreview.net/pdf?id=LkdH35003E"
+                },
+                {
+                    "title": "AI Technologies are System Maps, and You are a Cartographer",
+                    "authors": "Nicholas Vincent",
+                    "year": 2023,
+                    "commentary": "Explains the 'data as labor' perspective for AI via the compelling analogy of map economics.",
+                    "link": "https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer"
                 }
             ]
         },
 
         {
+            "title": "AI Tools for Human Knowledge",
+            "description": "These tools leverage the properties of AI to help us know more.",
+            "papers": [
+                {
+                    "title": "Sparse Autoencoders for Hypothesis Generation",
+                    "authors": "Rajiv Movva, Kenny Peng, Nikhil Garg, Jon Kleinberg, Emma Pierson",
+                    "year": 2025,
+                    "commentary": "This paper uses sparse autoencoder features to identify possible hypotheses to explain relationships between text and a dependent variable.",
+                    "link": "https://arxiv.org/abs/2502.04382"
+                },
+                {
+                    "title": "Concept Induction: Analyzing Unstructured Text with High-Level Concepts Using LLooM",
+                    "authors": "Michelle S. Lam, Janice Teoh, James Landay, Jeffrey Heer, Michael S. Bernstein",
+                    "year": 2024,
+                    "commentary": "This paper defines LLM operations for extracting concepts from large amounts of unstructured text, useful for social sciences inquiry.",
+                    "link": "https://arxiv.org/abs/2404.12259"
+                },
+                {
+                    "title": "Bridging the Human-AI Knowledge Gap: Concept Discovery and Transfer in AlphaZero",
+                    "authors": "Lisa Schut, Nenad Tomasev, Tom McGrath, Demis Hassabis, Ulrich Paquet, Been Kim",
+                    "year": 2023,
+                    "commentary": "The authors show how machine-unique/discovered chess-playing concepts can be extracted and taught to human chess-players.",
+                    "link": "https://arxiv.org/abs/2310.16410"
+                }
+            ]
+        },
+
+        {
+            "title": "Concept-structured AI",
+            "description": "These approaches systematically build human-level concepts into the way AI models are designed, so we can understand and intervene.",
+            "papers": [
+                {
+                    "title": "Jury Learning: Integrating Dissenting Voices into Machine Learning Models",
+                    "authors": "Mitchell L. Gordon, Michelle S. Lam, Joon Sung Park, Kayur Patel, Jeffrey T. Hancock, Tatsunori Hashimoto, Michael S. Bernstein",
+                    "year": 2022,
+                    "commentary": "By modeling individual views rather than an aggregated 'view', we can explicitly define the voices 'heard' in making a decision and consider counterfactuals.",
+                    "link": "https://arxiv.org/abs/2202.02950"
+                },
+                {
+                    "title": "Concept Bottleneck Models",
+                    "authors": "Pang Wei Koh, Thao Nguyen, Yew Siang Tang, Stephen Mussmann, Emma Pierson, Been Kim, Percy Liang",
+                    "year": 2020,
+                    "commentary": "By learning explicitly defined concepts to bridge independent and dependent variables, we can better interpret model decisions and intervene on mistakes.",
+                    "link": "https://arxiv.org/abs/2007.04612"
+                }
+            ]
+        },
+
+
+        {
             "title": "Interpretability",
-            "description": "...",
+            "description": "Interesting works on understanding how complex models produce outputs and represent knowledge.",
+            "papers": [
+                {
+                    "title": "Placeholder",
+                    "authors": "Ana Doe",
+                    "year": 2025,
+                    "commentary": "So interesting.",
+                    "link": "https://google.com"
+                }
+            ]
+        },
+
+
+        {
+            "title": "Human-AI Interaction",
+            "description": "Interesting HCI-oriented work exploring how we can interact with AI or with other humans mediated by AI.",
             "papers": [
                 {
                     "title": "Placeholder",

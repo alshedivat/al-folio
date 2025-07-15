@@ -16,14 +16,14 @@ Please see [PhD SOP](https://andre-ye.org/assets/pdf/phd-sop.pdf){:target="_blan
 <div class="agenda-title">Concept Definition</div>
 <div class="agenda-description">
 The computational abstractions which have been useful for the field of interpretability may be useful abstractions for defining concepts.
-Therefore, in an "interpretability as interaction" paradigm, concept definition does not only have to look like explaining something to someone, "thinking in your own head", or writing an essay, but also in *discovering the right language model internals* that capture a concept (e.g. vectors, sparse autoencoder features).
+Therefore, in an "interpretability as interaction" paradigm, concept definition does not only have to look like explaining something to someone, "thinking in your own head", or writing an essay, but also in <i>discovering the right language model internals</i> that capture a concept (e.g. vectors, sparse autoencoder features).
 More forthcoming.
 </div>
 </div>
 
 <div class="agenda-card">
 <div class="agenda-title">Socratic Topologies</div>
-<div class="agenda-description">Forthcoming</div>
+<div class="agenda-description">Thinking is like mapping out a space -- understanding </div>
 </div>
 
 <div class="agenda-card">
@@ -36,7 +36,7 @@ More forthcoming.
 <div class="grabbag-grid">
 <div class="grabbag-item">Systematic human-AI evaluation as a social computing problem</div>
 <div class="grabbag-item">Multiscalar human oversight</div>
-<div class="grabbag-item">Forthcoming</div>
+<div class="grabbag-item">AI for knowledge production</div>
 </div>
 </div>
 

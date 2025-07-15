@@ -14,6 +14,7 @@ profile:
   #   <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
+socials: true  # includes Twitter and Instagram panels
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page 
@@ -38,8 +39,8 @@ My email is `andreye [at] mit [dot] edu`.
   This is a randomly chosen image from <a href="https://betterimagesofai.org/images" target="_blank">Better Images of AI</a>, an excellent project which seeks to supplement and challenge dominant visualization of AI as a Terminator-robot-agent by emphasizing how people, data, labor, resources, and ideas go into making AI.
 </small>
 
-<br>
+<hr class="random-section-divider">
 
 <center>
-<a href="https://info.flagcounter.com/42Y6"><img src="https://s11.flagcounter.com/count2/42Y6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+<a href="https://info.flagcounter.com/42Y6"><img src="https://s11.flagcounter.com/count2/42Y6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0" style="display: none;"></a>
 </center>

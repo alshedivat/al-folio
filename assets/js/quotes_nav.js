@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             createQuotesNavigation(data.categories);
             buildQuotesContent(data.categories);
+            setupRandomQuoteBox(data.categories);
         })
         .catch(error => {
             console.error('Error loading quotes data:', error);
@@ -95,10 +96,24 @@ function buildQuotesContent(categories) {
     const quotesContainer = document.getElementById('quotes-content');
     if (!quotesContainer) return;
     
-    quotesContainer.innerHTML = categories.map(category => `
+    quotesContainer.innerHTML = `
+        <div class="random-quote-section">
+            <div class="random-quote-box">
+                <div class="random-quote-header">
+                    <h3>Random Quote</h3>
+                    <button class="refresh-quote-btn" onclick="refreshRandomQuote()">🔄</button>
+                </div>
+                <div class="random-quote-content">
+                    <div class="random-quote-text"></div>
+                    <div class="random-quote-author"></div>
+                </div>
+            </div>
+        </div>
+        <hr class="random-section-divider">
+    ` + categories.map(category => `
         <div class="quotes-section" id="${createSlug(category.title)}">
             <h2 class="quotes-section-header">${category.title}</h2>
-            <div class="quotes-section-description">${category.description}</div>
+            <div class="quotes-section-description-inline">${category.description}</div>
             <div class="quotes-grid">
                 ${category.quotes.map(quote => `
                     <div class="quote-item">
@@ -117,4 +132,35 @@ function createSlug(text) {
         .replace(/\s+/g, '-')
         .replace(/-+/g, '-')
         .trim();
+}
+
+// Global variable to store quotes data for random quote functionality
+let allQuotes = [];
+
+function setupRandomQuoteBox(categories) {
+    // Flatten all quotes into a single array
+    allQuotes = [];
+    categories.forEach(category => {
+        category.quotes.forEach(quote => {
+            allQuotes.push(quote);
+        });
+    });
+    
+    // Show initial random quote
+    refreshRandomQuote();
+}
+
+function refreshRandomQuote() {
+    if (allQuotes.length === 0) return;
+    
+    const randomIndex = Math.floor(Math.random() * allQuotes.length);
+    const randomQuote = allQuotes[randomIndex];
+    
+    const quoteTextElement = document.querySelector('.random-quote-text');
+    const quoteAuthorElement = document.querySelector('.random-quote-author');
+    
+    if (quoteTextElement && quoteAuthorElement) {
+        quoteTextElement.textContent = randomQuote.text;
+        quoteAuthorElement.textContent = randomQuote.author;
+    }
 }

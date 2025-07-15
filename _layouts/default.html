@@ -51,6 +51,7 @@
       <p id="random-quote" class="quote-text"></p>
       <p id="random-quote-author" class="quote-author"></p>
       <p class="quote-source">from <a href="/me-like/quotes/">me like</a></p>
+      <p class="bubble-instructions">press <kbd>e</kbd> to toggle word bubbles<br>press <kbd>m</kbd> to show meaning</p>
     </div>
 
     <!-- Fixed Image Box (exclude from about page) -->
@@ -73,5 +74,11 @@
     {% include scripts/mathjax.html %}
     {% include scripts/analytics.html %}
     {% include scripts/progressBar.html %}
+    
+    <!-- Custom cursor script -->
+    <script src="{{ '/assets/js/custom_cursor.js' | relative_url }}"></script>
+    
+    <!-- Page transitions script -->
+    <script src="{{ '/assets/js/page_transitions.js' | relative_url }}"></script>
   </body>
 </html>
