@@ -720,9 +720,17 @@ footer.sticky-bottom {
     }
   }
 
-  h2.bibliography {
+/*  h2.bibliography {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    margin-top: 2rem;
+    text-align: right;
+  }*/
+  h2.bibliography {
+    color: #D50032;  /* red text */
+    border-top: 1px solid var(--global-divider-color);  /* keep divider
+  line original color */
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
@@ -1432,6 +1440,14 @@ figure.cover {
       text-decoration: none;
       font-size: 1.2em;
     }
+  }
+
+  h2.people-category {
+      color: #D50032;
+      border-top: 1px solid var(--global-divider-color);
+      padding-top: 1rem;
+      margin-top: 2rem;
+      text-align: right;
   }
 }
 
