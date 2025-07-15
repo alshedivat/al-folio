@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Filename-Based Sandbox Evasion
-date: 2025-15-07 20:00:00-0000
+title: A long announcement with details
+date: 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
 ---
+---
 
-
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+What makes this so clever is that it doesn’t rely on heavy obfuscation or complex anti-analysis tricks. Instead, it leverages the fact that many sandboxes rename files to generic names like sample.exe, malware.tmp, or even a hash. The sample in question is a .lnk file (Windows shortcut) that uses a simple cmd one-liner to search for files that match a specific pattern — in this case: dir /b "Comp*.*k"
 
 ---
 
 [Original Post](https://isc.sans.edu/diary/28708)
 
-What makes this so clever is that it doesn’t rely on heavy obfuscation or complex anti-analysis tricks. Instead, it leverages the fact that many sandboxes rename files to generic names like sample.exe, malware.tmp, or even a hash. The sample in question is a .lnk file (Windows shortcut) that uses a simple cmd one-liner to search for files that match a specific pattern — in this case: dir /b "Comp*.*k"
 
 If the sample’s name has been changed (as sandboxes often do), this command will fail, and the script won't proceed to the next stage. Genius.
 
