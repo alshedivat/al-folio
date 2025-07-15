@@ -28,4 +28,4 @@ latest_posts:
 ---
 
 I am a Threat Hunter with a passion for digging deep into logs and exploring raw data. My favorite tools are Kusto, Kibana, MISP, and WSL2.
-Beyond work, I love taking part in Capture the Flag (CTF) competitions, hitting the mountain bike trails, or experimenting with new cocktail recipes as a hobby mixologist.
+Outside of work, I love participating in Capture the Flag (CTF) competitions, mixing up new cocktail recipes, and spending my free time outdoors—whether mountain biking in the summer or snowboarding in the winter.
