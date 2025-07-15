@@ -108,7 +108,6 @@ I was also mentored by [Jared Moore](https://jaredmoore.org/){:target="_blank"},
 <div class="paper-links">
 <a href="https://arxiv.org/abs/2403.05805" target="_blank">arXiv</a>
 <a href="https://philpapers.org/rec/YEATTV" target="_blank">PhilPapers</a>
-<a href="https://youtu.be/Rob_OLoSZ64" target="_blank">Reading Video</a>
 <a href="/assets/pdf/PacU%20Phil%20Conference%20Presentation.pdf" target="_blank">Slides PDF</a>
 </div>
 </div>
