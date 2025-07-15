@@ -1,0 +1,120 @@
+// Dynamic Navigation Panel for Quotes Page
+document.addEventListener('DOMContentLoaded', function() {
+    // Only run on quotes page
+    if (!window.location.pathname.includes('/me-like/quotes')) return;
+    
+    // Fetch quotes data and build navigation
+    fetch('/assets/json/me-like-quotes.json')
+        .then(response => response.json())
+        .then(data => {
+            createQuotesNavigation(data.categories);
+            buildQuotesContent(data.categories);
+        })
+        .catch(error => {
+            console.error('Error loading quotes data:', error);
+        });
+});
+
+function createQuotesNavigation(categories) {
+    // Create navigation panel
+    const navPanel = document.createElement('div');
+    navPanel.className = 'quotes-nav-panel';
+    navPanel.innerHTML = `
+        <div class="quotes-nav-header">Navigate</div>
+        <div class="quotes-nav-items">
+            ${categories.map(category => 
+                `<a href="#${createSlug(category.title)}" class="quotes-nav-item" data-section="${createSlug(category.title)}">${category.title}</a>`
+            ).join('')}
+        </div>
+    `;
+    
+    document.body.appendChild(navPanel);
+    
+    // Add smooth scrolling for navigation links
+    const navItems = document.querySelectorAll('.quotes-nav-panel .quotes-nav-item');
+    navItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+    
+    // Scroll spy functionality
+    function updateActiveSection() {
+        const scrollPosition = window.scrollY + 200;
+        let activeSection = null;
+        
+        categories.forEach(category => {
+            const sectionId = createSlug(category.title);
+            const sectionElement = document.getElementById(sectionId);
+            if (sectionElement) {
+                const sectionTop = sectionElement.offsetTop;
+                const sectionHeight = sectionElement.offsetHeight;
+                
+                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                    activeSection = sectionId;
+                }
+            }
+        });
+        
+        // Update active state
+        navItems.forEach(item => {
+            const sectionId = item.getAttribute('data-section');
+            if (sectionId === activeSection) {
+                item.classList.add('active');
+            } else {
+                item.classList.remove('active');
+            }
+        });
+    }
+    
+    // Throttled scroll listener
+    let ticking = false;
+    function handleScroll() {
+        if (!ticking) {
+            requestAnimationFrame(() => {
+                updateActiveSection();
+                ticking = false;
+            });
+            ticking = true;
+        }
+    }
+    
+    window.addEventListener('scroll', handleScroll);
+    updateActiveSection(); // Initial call
+}
+
+function buildQuotesContent(categories) {
+    const quotesContainer = document.getElementById('quotes-content');
+    if (!quotesContainer) return;
+    
+    quotesContainer.innerHTML = categories.map(category => `
+        <div class="quotes-section" id="${createSlug(category.title)}">
+            <h2 class="quotes-section-header">${category.title}</h2>
+            <div class="quotes-section-description">${category.description}</div>
+            <div class="quotes-grid">
+                ${category.quotes.map(quote => `
+                    <div class="quote-item">
+                        <div class="quote-text">${quote.text}</div>
+                        <div class="quote-author">${quote.author}</div>
+                    </div>
+                `).join('')}
+            </div>
+        </div>
+    `).join('');
+}
+
+function createSlug(text) {
+    return text.toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-')
+        .trim();
+}

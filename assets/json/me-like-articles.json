@@ -1,0 +1,38 @@
+{
+    "categories": [
+        {
+            "title": "Position Papers",
+            "description": "These papers make really interesting arguments about human-AI interaction which I find compelling or at least useful to think about.",
+            "papers": [
+                {
+                    "title": "We Can’t Understand AI Using our Existing Vocabulary",
+                    "authors": "John Hewitt, Robert Geirhos, Been Kim",
+                    "year": 2025,
+                    "commentary": "A compelling articulation of what human-AI communication could look like. Proposes neologism learning.",
+                    "link": "https://openreview.net/pdf?id=asQJx56NqB"
+                },
+                {
+                    "title": "AI Should Not Be An Imitation Game: Centaur Evaluations",
+                    "authors": "Andreas Haupt, Erik Brynjolfsson",
+                    "year": 2025,
+                    "commentary": "Advocates and proposes directions for systematic AI evalutions involving real human interaction.",
+                    "link": "https://openreview.net/pdf?id=LkdH35003E"
+                }
+            ]
+        },
+
+        {
+            "title": "Interpretability",
+            "description": "...",
+            "papers": [
+                {
+                    "title": "Placeholder",
+                    "authors": "Ana Doe",
+                    "year": 2025,
+                    "commentary": "So interesting.",
+                    "link": "https://google.com"
+                }
+            ]
+        }
+    ]
+}
