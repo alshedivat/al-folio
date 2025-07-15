@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Brilliant and Simple: Filename-Based Sandbox Evasion – A Hidden Gem
+title: Filename-Based Sandbox Evasion
 date: 2025-15-07 20:00:00-0000
 inline: false
 related_posts: false
