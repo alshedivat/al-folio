@@ -45,6 +45,15 @@ I was also mentored by [Jared Moore](https://jaredmoore.org/){:target="_blank"},
 </div>
 
 <div class="paper-item">
+<div class="paper-title">Language Models as Critical Thinking Tools: A Case Study of Philosophers</div>
+<div class="paper-authors"><strong>Andre Ye</strong>, Jared Moore, Rose Novick, Amy X. Zhang</div>
+<div class="paper-venue">Conference on Language Modeling (COLM) 2024</div>
+<div class="paper-links">
+<a href="https://arxiv.org/abs/2404.04516" target="_blank">arXiv</a>
+</div>
+</div>
+
+<div class="paper-item">
 <div class="paper-title">LLMs grasp morality in concept</div>
 <div class="paper-authors">Mark Pock*, <strong>Andre Ye*</strong>, Jared Moore</div>
 <div class="paper-venue">Moral Psychology and Philosophy Workshop, NeurIPS 2023</div>

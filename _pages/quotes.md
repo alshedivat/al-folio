@@ -1,9 +1,11 @@
 ---
 layout: page
-title: my thought
-permalink: /mythought/
-nav: true
-nav_order: 3
+title: quotes
+permalink: /me-like/quotes/
+nav: false
+dropdown: true
+parent: me like
+nav_order: 1
 ---
 
 

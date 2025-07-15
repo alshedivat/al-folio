@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Smooth scrolling for navigation links
-    const navItems = document.querySelectorAll('.nav-item');
+    const navItems = document.querySelectorAll('.nav-panel .nav-item');
     navItems.forEach(item => {
         item.addEventListener('click', function(e) {
             e.preventDefault();
