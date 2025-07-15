@@ -19,6 +19,27 @@ strong {
   color: var(--global-text-color);
 }
 
+// Dark Red Theme Enhancements
+h1, h2, h3, h4, h5, h6 {
+  color: var(--global-theme-color);
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(255, 68, 68, 0.3);
+}
+
+strong, b {
+  color: var(--global-bold-color);
+  text-shadow: 0 0 8px rgba(255, 68, 68, 0.2);
+}
+
+img {
+  filter: drop-shadow(0 0 15px rgba(255, 68, 68, 0.4));
+  transition: filter 0.3s ease;
+  
+  &:hover {
+    filter: drop-shadow(0 0 25px rgba(255, 68, 68, 0.6));
+  }
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -27,10 +48,88 @@ table {
   td,
   th {
     font-size: 1rem;
+    color: var(--global-text-color);
   }
 
   th {
     font-weight: bold;
+  }
+}
+
+// Name styling
+.name-andre {
+  color: var(--global-theme-color) !important;
+  font-weight: bold;
+}
+
+.name-ye {
+  color: var(--global-text-color) !important;
+  font-weight: normal;
+}
+
+// Fixed Quote Box
+.fixed-quote-box {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 250px;
+  padding: 1rem;
+  background-color: var(--global-card-bg-color);
+  border-left: 3px solid var(--global-theme-color);
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  .quote-text {
+    font-style: italic;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    color: var(--global-text-color);
+  }
+
+  .quote-author {
+    font-size: 0.75rem;
+    color: var(--global-text-color-light);
+    margin: 0;
+    text-align: right;
+  }
+}
+
+// Hide quote box on smaller screens
+@media (max-width: 1200px) {
+  .fixed-quote-box {
+    display: none;
+  }
+}
+
+// News section styling
+.news {
+  table {
+    td, th {
+      color: var(--global-text-color) !important;
+    }
+    
+    th {
+      width: 150px;
+      min-width: 150px;
+      white-space: nowrap;
+    }
+    
+    .news-title {
+      color: var(--global-theme-color) !important;
+      
+      &:hover {
+        color: var(--global-hover-color) !important;
+      }
+    }
   }
 }
 

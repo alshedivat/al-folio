@@ -33,6 +33,7 @@ My email is `andreye [at] uw [dot] edu`.
 
 <br>
 
+
 <!-- <center>
 <img src="/assets/img/new-shot.png" width="100%" />
 </center>
@@ -40,10 +41,11 @@ My email is `andreye [at] uw [dot] edu`.
 <br> -->
 
 <center>
-<img src="\assets\img\ghost-portraits.png" width="100%" />
+<img id="random-ai-image" src="" width="100%" />
 </center>
+<div style="height: 20px;"></div>
 <small>
-  Composite image of The Disintegration of the Persistence of Memory (Dali), Edward Bellamy (GAN), Guernica (Picasso), still from Battleship Potemkin (Eisenstein), Relativity (Escher).
+  This is a randomly chosen image from <a href="https://betterimagesofai.org/images" target="_blank">Better Images of AI</a>, an excellent project which seeks to supplement and challenge dominant visualization of AI as a Terminator-robot-agent by emphasizing how people, data, labor, resources, and ideas go into making AI.
 </small>
 
 <br>

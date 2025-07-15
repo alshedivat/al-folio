@@ -9,7 +9,6 @@ nav_order: 4
 
 Please see my [statement of purpose](/assets/pdf/phd-sop.pdf){:target="_blank"}.
 
-
 <!-- ---
 
 ### ongoing projects

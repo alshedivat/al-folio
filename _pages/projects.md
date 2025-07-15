@@ -11,6 +11,7 @@ nav_order: 3
 
 ### research
 
+
 **"Cultural and Linguistic Diversity Improves Visual Representations"**.
 Andre Ye, Sebastin Santy, Jena D. Hwang, Amy X. Zhang, Ranjay Krishna.
 [RAIVN Lab](https://raivn.cs.washington.edu/){:target="_blank"} & [Social Futures Lab](https://social.cs.washington.edu/){:target="_blank"}, Paul G. Allen School of Computer Science.
