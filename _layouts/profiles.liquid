@@ -42,10 +42,11 @@ layout: page
 
             {% if people_in_status.size > 0 %}
               <div class="status-section  people-status-anchor-target" id="{{ status }}">
-                <div class="row sticky-top sticky-heading border-bottom" style="top: 76px; background: var(--global-bg-color);">
-                  <div class="col-12 col-md-4 px-0">
-                    <h2 id="{{ status }}">{{ display_names[forloop.index0] }}</h2>
-                  </div>
+  <div class="row">
+    <div class="col-12">
+      <h2 class="people-category" id="{{ status }}">{{
+  display_names[forloop.index0] }}</h2>
+    </div>
                   {% assign people_count = people_in_status | size %}
 
                   {% if status == "alumni" %}
