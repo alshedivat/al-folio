@@ -1,33 +1,25 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: Brilliant and Simple: Filename-Based Sandbox Evasion – A Hidden Gem
+date: 2025-07-15 20:00:00-0000
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+While digging through some malware analysis write-ups yesterday, I stumbled across a fantastic blog post by Xavier Mertens (@xme) that really impressed me. It highlights a sandbox evasion technique that is both incredibly simple and surprisingly effective — and it all comes down to just the filename of the sample!
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+[Original Post](https://isc.sans.edu/diary/28708)
 
-#### Hipster list
+What makes this so clever is that it doesn’t rely on heavy obfuscation or complex anti-analysis tricks. Instead, it leverages the fact that many sandboxes rename files to generic names like sample.exe, malware.tmp, or even a hash. The sample in question is a .lnk file (Windows shortcut) that uses a simple cmd one-liner to search for files that match a specific pattern — in this case: dir /b "Comp*.*k"
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+If the sample’s name has been changed (as sandboxes often do), this command will fail, and the script won't proceed to the next stage. Genius.
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+Xavier shows how this ultimately leads to a PowerShell iex (Invoke-Expression) command that tries to fetch further payloads from a C2 server, with the next stage hidden behind a Set-Cookie header. There’s even an embedded PNG image in the .lnk file that contains additional commands — a nice touch of steganography.
 
----
+💡 Lesson learned: If you're analyzing malware, keep the original filename and path. Changing them might break the execution and hide what the sample is really trying to do.
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+This is one of those simple yet powerful tricks that reminds me how creative malware authors can be — and how small operational details (like how a file is named) can have a huge impact on analysis.
 
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+Thanks to @xme for sharing this — a truly elegant technique that’s easy to overlook!
