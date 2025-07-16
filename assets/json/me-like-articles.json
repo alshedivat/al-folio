@@ -24,6 +24,14 @@
                     "year": 2023,
                     "commentary": "Explains the 'data as labor' perspective for AI via the compelling analogy of map economics.",
                     "link": "https://dataleverage.substack.com/p/ai-technologies-are-system-maps-and-you-are-a-cartographer"
+                },
+                {
+                    "title": "Toward cultural interpretability: A linguistic anthropological framework for describing and evaluating large language models",
+                    "authors": "Graham M Jones, Shai Satran, Arvind Satyanarayan",
+                    "year": 2025,
+                    "commentary": "Advocates for understanding LLM behavior as indicative of nuances in human social behavior.",
+                    "link": "https://vis.csail.mit.edu/pubs/cultural-interpretability.pdf"
+                    
                 }
             ]
         },
@@ -73,6 +81,20 @@
                     "year": 2020,
                     "commentary": "By learning explicitly defined concepts to bridge independent and dependent variables, we can better interpret model decisions and intervene on mistakes.",
                     "link": "https://arxiv.org/abs/2007.04612"
+                },
+                {
+                    "title": "Explaining Datasets in Words: Statistical Models with Natural Language Parameters",
+                    "authors": "Ruiqi Zhong, Heng Wang, Dan Klein, Jacob Steinhardt",
+                    "year": 2024,
+                    "commentary": "Language modeling in terms of natural language predicates",
+                    "link": "https://arxiv.org/abs/2409.08466"
+                },
+                {
+                    "title": "Large Concept Models: Language Modeling in a Sentence Representation Space",
+                    "authors": "Loïc Barrault, Paul-Ambroise Duquenne, Maha Elbayad, Artyom Kozhevnikov, Belen Alastruey, et al.",
+                    "year": 2024,
+                    "commentary": "Language modeling by operating in embedding space.",
+                    "link": "https://arxiv.org/abs/2412.08821"
                 }
             ]
         },
