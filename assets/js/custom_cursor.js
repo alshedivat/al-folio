@@ -35,19 +35,66 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.json())
         .then(data => {
             wordsData = data;
-            selectRandomWord();
+            selectDailyWord();
         })
         .catch(error => {
             console.error('Error loading words:', error);
             wordsData = [{word: "hello", meaning: "a greeting"}];
-            selectRandomWord();
+            selectDailyWord();
         });
     
-    // Function to select random word
-    function selectRandomWord() {
+    // Function to get current EST date as seed
+    function getESTDateSeed() {
+        const now = new Date();
+        // Convert to EST (UTC-5) or EDT (UTC-4) - accounting for daylight saving
+        const estOffset = -5; // EST is UTC-5
+        const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
+        const est = new Date(utc + (estOffset * 3600000));
+        
+        // Check if it's daylight saving time (rough approximation)
+        const year = est.getFullYear();
+        const dstStart = new Date(year, 2, 14 - (Math.floor(5 * year / 4) + 1) % 7); // 2nd Sunday in March
+        const dstEnd = new Date(year, 10, 7 - (Math.floor(5 * year / 4) + 1) % 7); // 1st Sunday in November
+        
+        if (now >= dstStart && now < dstEnd) {
+            // It's EDT (UTC-4), adjust by 1 hour
+            est.setHours(est.getHours() + 1);
+        }
+        
+        // Return date string as seed (YYYY-MM-DD format)
+        return est.getFullYear() + '-' + 
+               String(est.getMonth() + 1).padStart(2, '0') + '-' + 
+               String(est.getDate()).padStart(2, '0');
+    }
+    
+    // Simple seeded random number generator
+    function seededRandom(seed) {
+        let hash = 0;
+        for (let i = 0; i < seed.length; i++) {
+            const char = seed.charCodeAt(i);
+            hash = ((hash << 5) - hash) + char;
+            hash = hash & hash; // Convert to 32-bit integer
+        }
+        
+        // Use the hash as seed for a simple linear congruential generator
+        let x = Math.abs(hash);
+        return function() {
+            x = (x * 9301 + 49297) % 233280;
+            return x / 233280;
+        };
+    }
+    
+    // Function to select daily word based on EST date
+    function selectDailyWord() {
         if (wordsData.length > 0) {
-            currentWord = wordsData[Math.floor(Math.random() * wordsData.length)];
+            const dateSeed = getESTDateSeed();
+            const rng = seededRandom(dateSeed);
+            const index = Math.floor(rng() * wordsData.length);
+            currentWord = wordsData[index];
             wordBubble.textContent = currentWord.word;
+            
+            // Debug: log the date seed and selected word
+            console.log('Daily word for', dateSeed, ':', currentWord.word);
         }
     }
     
