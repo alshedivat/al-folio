@@ -121,6 +121,15 @@
   >
 {% endif %}
 
+<!-- GitHub Project Introduction Section -->
+{% if page.project_intro %}
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ '/assets/css/project-intro.css' | relative_url | bust_file_cache }}"
+  >
+{% endif %}
+
 {% if page.images %}
   <!-- Image comparison slider -->
   {% if page.images.compare %}
