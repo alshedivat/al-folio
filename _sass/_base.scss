@@ -1458,3 +1458,11 @@ figure.cover {
 .people-anchor-target {
   scroll-margin-top: 150px;
 }
+
+h2.year-divider {
+  color: var(--global-theme-color);
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1rem;
+  margin-top: 2rem;
+  text-align: right;
+}

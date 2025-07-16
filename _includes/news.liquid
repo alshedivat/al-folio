@@ -25,20 +25,22 @@
                     <i class="fa fa-file" style="margin-right: 4px" title="{{tt[0]}}"></i>
                   {% endif %}
                   </td>
+
                   <td>
                   {% if item.image %}
                    {% assign full_url = "https://www.evl.uic.edu/output/originals/" | append: item.image %}
-                     <div style="width: 300px; height:200px;overflow: hidden;">
+                     <div style="width: 250px; height:187px;overflow: hidden;">
                       <a class="news-title" href="{{ item.url | relative_url }}">
                         <img src="{{ full_url }}" alt="{{ item.title }}" style="width: 100%; height: 100%; object-fit: cover;" />
                       </a>
                     </div>
                   {% else %}
-                     <div style="width: 300px; height:200px;overflow: hidden;">
+                     <div style="width: 250px; height:187px;overflow: hidden;">
                        <img src="{{ 'assets/img/new-logo-small-480.webp' | relative_url }}" alt="{{ item.title }}" style="width: 100%; height: 100%; object-fit: cover;" />
                     </div>
                   {% endif %}
                   </td>
+
                 <td>
                   {% if item.inline %}
                     {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
@@ -85,10 +87,9 @@
         <tbody>
           {% for year_group in grouped_by_year %}
              {% assign post_year = year_group.name | plus: 0 %}
-    {% if post_year >= 1970 %}
             <!-- Year divider row -->
-            <tr class="year-divider">
-              <td colspan="4" style="padding-top: 0;"><h2 style="color: var(--global-theme-color);">{{ year_group.name }}</h2></td>
+            <tr>
+              <td colspan="4" style="padding-top: 0;"><h2 class="year-divider">{{ year_group.name }}</h2></td>
             </tr>
 
             {% for item in year_group.items %}
@@ -106,7 +107,9 @@
                     <i class="fa fa-file" style="margin-right: 4px" title="{{tt[0]}}"></i>
                   {% endif %}
                   </td>
+
                   <td>
+{% comment %}
                   {% if item.image %}
                    {% assign full_url = "https://www.evl.uic.edu/output/originals/" | append: item.image %}
                      <div style="width: 300px; height:200px;overflow: hidden;">
@@ -121,7 +124,9 @@
                       </a>
                     </div>
                   {% endif %}
+{% endcomment %}
                   </td>
+
                   <td>
                     {% if item.inline %}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
@@ -131,9 +136,7 @@
                   </td>
                 </tr>
             {% endfor %}
-       {% endif %}
           {% endfor %}
-
           </tbody>
         </table>
       </div>
