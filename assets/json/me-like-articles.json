@@ -31,7 +31,20 @@
                     "year": 2025,
                     "commentary": "Advocates for understanding LLM behavior as indicative of nuances in human social behavior.",
                     "link": "https://vis.csail.mit.edu/pubs/cultural-interpretability.pdf"
-                    
+                },
+                {
+                    "title": "HCI for AGI",
+                    "authors": "Meredith Ringel Morris",
+                    "year": 2025,
+                    "commentary": "Useful outline of what HCI researchers can contribute to 'AGI'. It's not obvious (and people may fear that) interaction problems will be solved by AGI. Perhaps not?",
+                    "link": "https://dl.acm.org/doi/10.1145/3708815"
+                },
+                {
+                    "title": "AI and the Demise of College Writing",
+                    "authors": "Adam Walker",
+                    "year": 2025,
+                    "commentary": "Advocates for rhetoric over composition as the methodology for writing pedagogy in the AI era.",
+                    "link": "https://www.youtube.com/watch?v=_PPx4KV8SaQ"
                 }
             ]
         },
@@ -93,8 +106,15 @@
                     "title": "Large Concept Models: Language Modeling in a Sentence Representation Space",
                     "authors": "Loïc Barrault, Paul-Ambroise Duquenne, Maha Elbayad, Artyom Kozhevnikov, Belen Alastruey, et al.",
                     "year": 2024,
-                    "commentary": "Language modeling by operating in embedding space.",
+                    "commentary": "Language modeling operating in embedding rather than token space.",
                     "link": "https://arxiv.org/abs/2412.08821"
+                },
+                {
+                    "title": "Backpack Language Models",
+                    "authors": "John Hewitt, John Thickstun, Christopher D. Manning, Percy Liang",
+                    "year": 2023,
+                    "commentary": "By creating an LM architecture in which input tokens have a direct log-linear effect on the output, we can intervene precisely on the model output.",
+                    "link": "https://arxiv.org/abs/2305.16765"
                 }
             ]
         },
@@ -105,11 +125,11 @@
             "description": "Interesting works on understanding how complex models produce outputs and represent knowledge.",
             "papers": [
                 {
-                    "title": "Placeholder",
-                    "authors": "Ana Doe",
-                    "year": 2025,
-                    "commentary": "So interesting.",
-                    "link": "https://google.com"
+                    "title": "Finding Neurons in a Haystack: Case Studies with Sparse Probing",
+                    "authors": "Wes Gurnee, Neel Nanda, Matthew Pauly, Katherine Harvey, Dmitrii Troitskii, Dimitris Bertsimas",
+                    "year": 2023,
+                    "commentary": "By probing with sparsity constraints, we can identify not only if model activations represent some feature but whether specific neurons encode certain features.",
+                    "link": "https://arxiv.org/abs/2305.01610"
                 }
             ]
         },
@@ -120,11 +140,11 @@
             "description": "Interesting HCI-oriented work exploring how we can interact with AI or with other humans mediated by AI.",
             "papers": [
                 {
-                    "title": "Placeholder",
-                    "authors": "Ana Doe",
-                    "year": 2025,
-                    "commentary": "So interesting.",
-                    "link": "https://google.com"
+                    "title": "Embedding Comparator: Visualizing Differences in Global Structure and Local Neighborhoods via Small Multiples",
+                    "authors": "Angie Boggust, Brandon Carter, Arvind Satyanarayan",
+                    "year": 2022,
+                    "commentary": "A very useful interface for comparing differences in embeddings with interesting applications to model training development and the social sciences.",
+                    "link": "https://arxiv.org/abs/1912.04853"
                 }
             ]
         }
