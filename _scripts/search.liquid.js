@@ -143,6 +143,10 @@ ninja.data = [
           {%- assign social_id = "social-gitlab" -%}
           {%- assign social_title = "GitLab" -%}
           {%- capture social_url %}"https://gitlab.com/{{ social[1] }}"{% endcapture -%}
+        {%- when "hal_id" -%}
+          {%- assign social_id = "social-hal" -%}
+          {%- assign social_title = "HAL" -%}
+          {%- capture social_url %}"https://cv.hal.science/{{ social[1] }}"{% endcapture -%}
         {%- when "ieee_id" -%}
           {%- assign social_id = "social-ieee" -%}
           {%- assign social_title = "IEEE Xplore" -%}
