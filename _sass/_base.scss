@@ -1186,7 +1186,7 @@ swiper-container {
   align-items: center;
   flex-direction: row;
   border-radius: 4px;
-  text-align: center;
+  text-align: left;
   font-style: normal;
   border: none;
   font-weight: 300;
@@ -1465,4 +1465,8 @@ h2.year-divider {
   padding-top: 1rem;
   margin-top: 2rem;
   text-align: right;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
 }
