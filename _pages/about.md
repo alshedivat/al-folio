@@ -19,7 +19,8 @@ announcements:
 
 ---
 
-I am a Threat Hunter with a passion for digging deep into logs and exploring raw data. My favorite tools are Kusto, Kibana, MISP, and WSL2.
-In addition, I work as a freelancer and am available for consulting in the areas of Threat Hunting and Image Forensics.I have experience working with DAX companies, medium-sized enterprises, and very small businesses, providing tailored solutions to meet their unique needs.
-Outside of work, I enjoy participating in Capture the Flag (CTF) competitions, mixing up new cocktail recipes, and spending my free time outdoors—whether mountain biking in the summer or snowboarding in the winter.
-If you're interested in collaborating, feel free to reach out!
+I’m a Threat Hunter who loves digging into logs and exploring raw data. My go-to tools are Kusto, Kibana, MISP, and WSL2. 
+I also work as a freelancer, offering consulting in Threat Hunting and Image Forensics. I have experience with DAX companies, medium-sized businesses, and small startups, providing customized solutions to fit their needs.
+
+Outside of work, I enjoy participating in Capture the Flag (CTF) competitions, trying out new cocktail recipes, and spending time outdoors—whether it’s mountain biking in the summer or snowboarding in the winter.
+If you’re interested in collaborating, feel free to reach out!
