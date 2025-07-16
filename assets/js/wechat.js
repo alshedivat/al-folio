@@ -1,0 +1,1 @@
+for(var wechatModal=document.getElementById("WeChatMod"),wechatBtn=document.querySelectorAll('[id="WeChatBtn"]'),i=0;i<wechatBtn.length;i++)wechatBtn[i].onclick=function(){wechatModal.style.display="block"};window.onclick=function(t){t.target==wechatModal&&(wechatModal.style.display="none")};
