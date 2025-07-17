@@ -13,22 +13,25 @@ Please see [PhD SOP](https://andre-ye.org/assets/pdf/phd-sop.pdf){:target="_blan
 
 
 <div class="agenda-card">
-<div class="agenda-title">Concept Definition</div>
+<div class="agenda-title">Machine Concept Definition</div>
 <div class="agenda-description">
 The computational abstractions which have been useful for the field of interpretability may be useful abstractions for defining concepts.
 Therefore, in an "interpretability as interaction" paradigm, concept definition does not only have to look like explaining something to someone, "thinking in your own head", or writing an essay, but also in <i>discovering the right language model internals</i> that capture a concept (e.g. vectors, sparse autoencoder features).
-More forthcoming.
+Can we represent the concepts we yearn to capture by finding the right set of sparse autoencoder features, or latent vectors, or whatever other relevant internal language model construct? What interaction tools would we need to capture our mushy and complex thoughts into these mushy and complex computational constructs?
+Is there a future where I text my friend not words, nor emojis, but some a cluster of sparse autoencoder features because it more dynamically captures what I mean? Maybe one where these features become neologisms in a new iteration of human language?
+Is there a future where we write "constitutions" for AI not in terms of human language, but by identifying internal LM representations and mechanisms that we can control and clamp on?
+Machine concept definition is about finding the right kinds of constructs and tools for better human-machine communication.
 </div>
 </div>
 
 <div class="agenda-card">
 <div class="agenda-title">Socratic Topologies</div>
-<div class="agenda-description">Thinking is like mapping out a space -- understanding </div>
+<div class="agenda-description">Thinking through a concept is like mapping out space --- figuring out how different areas of land, levels of elevation, features of the landscape, borders, etc. position and act in relation to each other. Humans have expressed these maps in free-form writing for centuries. Now that AI is here and ready to help, we give these maps to them in free-form writing. And to say the least, they are subpar. From an interaction standpoint, it's hard for AI to intervene in a transparent and multiscalar way. From a content standpoint, AI can be sycophantic or "miss the point". Maybe what we need is not "better AI assistants" per se (whatever that means) but a map format which is better conducive towards concept AI tools. Imagine a basic format: every concept map consists of nodes, which have text associated with them, and directed edges, which are predefined conceptual relations (e.g., "A supports B", "A contradicts B", "unlike A, B", "A is similar to B", "A is a metaphor for B") mined from conceptual literature (history, philosophy, etc.). Below the surface, each node corresponds to a vector embedding, and as the user builds out the graph, we can get the user's sense of contradiction, support, metaphor, etc. in terms of vector differentials. We can then use these to suggest possible connections between nodes, suggest possible tensions (e.g. different senses of relations), transitive contradictions, areas to add to the network that would maximize variance, etc. One can also imagine that many of the natural language operations studied in NLP like "summarization" which are inherently conditioned on user goals could be made much more transparent (e.g., summarization on this graph could be a principled method of edge contraction in a way specified by the user).</div>
 </div>
 
 <div class="agenda-card">
 <div class="agenda-title">Parallel Human-AI Interactions</div>
-<div class="agenda-description">Forthcoming</div>
+<div class="agenda-description">What if your AI interrupted you? What interactions with AI were not just turn-by-turn conversations but had multiple simultaneous tracks of conversation, just like with humans (implicit cues, subtext, body language, environment information, etc.)?</div>
 </div>
 
 <div class="grabbag-section">
