@@ -45,6 +45,20 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
+          window.open("https://ctftime.org/user/82511", "_blank");
+        },
+      },{
+        id: 'social-custom_social1',
+        title: 'Custom_social1',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://app.hackthebox.com/profile/61653", "_blank");
+        },
+      },{
+        id: 'social-custom_social2',
+        title: 'Custom_social2',
+        section: 'Socials',
+        handler: () => {
           window.open("https://freakazoids.de/", "_blank");
         },
       },{
