@@ -52,13 +52,6 @@ ninja.data = [{
         title: 'Custom_social1',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.svgrepo.com/show/331423/hack-the-box.svg", "_blank");
-        },
-      },{
-        id: 'social-custom_social2',
-        title: 'Custom_social2',
-        section: 'Socials',
-        handler: () => {
           window.open("https://freakazoids.de/", "_blank");
         },
       },{
