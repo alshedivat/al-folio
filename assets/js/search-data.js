@@ -52,7 +52,7 @@ ninja.data = [{
         title: 'Custom_social1',
         section: 'Socials',
         handler: () => {
-          window.open("https://old.roi4cio.com/uploads/roi/company/hack_the_box.png", "_blank");
+          window.open("https://www.svgrepo.com/show/331423/hack-the-box.svg", "_blank");
         },
       },{
         id: 'social-custom_social2',
