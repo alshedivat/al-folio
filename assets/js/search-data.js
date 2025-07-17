@@ -45,7 +45,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("https://ctftime.org/user/82511", "_blank");
+          window.open("https://freakazoids.de/", "_blank");
         },
       },{
       id: 'light-theme',
