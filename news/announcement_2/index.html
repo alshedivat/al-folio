@@ -80,10 +80,10 @@
     </span><span class="nv">$SetLastErrorField</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[</span><span class="n">Runtime.InteropServices.DllImportAttribute</span><span class="p">]</span><span class="o">.</span><span class="nf">GetField</span><span class="p">(</span><span class="s2">"SetLastError"</span><span class="p">)</span><span class="w">
 
     </span><span class="nv">$IKShBKVmWEOGXMvFmV</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">New-Object</span><span class="w"> </span><span class="nx">Reflection.Emit.CustomAttributeBuilder</span><span class="p">(</span><span class="w">
-        </span><span class="nv">$DllImportCtor</span><span class="p">,</span><span class="w">              
-        </span><span class="p">@(</span><span class="s2">"kernel32.dll"</span><span class="p">),</span><span class="w">            
-        </span><span class="p">[</span><span class="n">Reflection.FieldInfo</span><span class="p">[]]@(</span><span class="nv">$SetLastErrorField</span><span class="p">),</span><span class="w"> 
-        </span><span class="p">@(</span><span class="bp">$true</span><span class="p">)</span><span class="w">                      
+        </span><span class="nv">$DllImportCtor</span><span class="p">,</span><span class="w">
+        </span><span class="p">@(</span><span class="s2">"kernel32.dll"</span><span class="p">),</span><span class="w">
+        </span><span class="p">[</span><span class="n">Reflection.FieldInfo</span><span class="p">[]]@(</span><span class="nv">$SetLastErrorField</span><span class="p">),</span><span class="w">
+        </span><span class="p">@(</span><span class="bp">$true</span><span class="p">)</span><span class="w">
     </span><span class="p">)</span><span class="w">
 
     </span><span class="nv">$funcs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">@(</span><span class="w">
