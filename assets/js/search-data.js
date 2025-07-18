@@ -55,6 +55,13 @@ ninja.data = [{
           window.open("https://freakazoids.de/", "_blank");
         },
       },{
+        id: 'social-custom_social2',
+        title: 'Custom_social2',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://app.hackthebox.com/profile/61653", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
