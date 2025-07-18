@@ -126,6 +126,14 @@
     "current": true
   },
   {
+    "name": "Se Hee Kim",
+    "position": "Master's Student",
+    "image": "sehee.jpeg",
+    "homepage": "",
+    "research_interest": "Accessibility, Human-AI Interaction, Marginalized People",
+    "current": true
+  },
+  {
     "name": "Yubin Choi",
     "position": "Undergraduate Intern",
     "image": "yubin.png",
@@ -163,14 +171,14 @@
     "image": "donggun.png",
     "homepage": "",
     "research_interest": "Human-AI Interaction, AI Ethics",
-    "current": true
+    "current": false
   },
   {
     "name": "Suyoun Lee",
     "position": "Undergraduate Intern",
     "image": "suyounlee.png",
     "homepage": "",
-    "current": true
+    "current": false
   },
   {
     "name": "Junghoon Han",
@@ -200,14 +208,6 @@
     "image": "sieun.png",
     "homepage": "",
     "research_interest": "Human-AI Interaction, Mental Health, Participatory Design, Responsible AI",
-    "current": true
-  },
-  {
-    "name": "Se Hee Kim",
-    "position": "Intern",
-    "image": "sehee.jpeg",
-    "homepage": "",
-    "research_interest": "Accessibility, Human-AI Interaction, Marginalized People",
     "current": true
   },
   {
