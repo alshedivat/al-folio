@@ -62,6 +62,13 @@ ninja.data = [{
           window.open("https://app.hackthebox.com/profile/61653", "_blank");
         },
       },{
+        id: 'social-custom_social3',
+        title: 'Custom_social3',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.credly.com/users/manuel-boll/badges#credly", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
