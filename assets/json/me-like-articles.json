@@ -52,6 +52,20 @@
                     "year": 2024,
                     "commentary": "A recognition that not only must AI 'align to' human (values, behavior, knowledge, etc.) (-- whatever this means), but we also need to think about how humans might 'align' to AI by working with AI-structured systems. This paper recognizes social 'looping effects' brought about by AI and its behavior.",
                     "link": "https://arxiv.org/abs/2406.09264"
+                },
+                {
+                    "title": "Large AI models are cultural and social technologies",
+                    "authors": "Henry Farrell, Alison Gopnik, Cosma Shalizi, James Evans",
+                    "year": 2025,
+                    "commentary": "Argues for understanding LLMs as technologies that reconstitute human knowledge in efficient and widely distributed ways, in a lineage of other such instruments, including markets and communication media.",
+                    "link": "https://henryfarrell.net/wp-content/uploads/2025/03/Science-Accepted-Version.pdf"
+                },
+                {
+                    "title": "Political Neutrality in AI Is Impossible- But Here Is How to Approximate It",
+                    "authors": "Jillian Fisher, Ruth E. Appel, Chan Young Park, Yujin Potter, Liwei Jiang, et al.",
+                    "year": 2025,
+                    "commentary": "Makes what I think is an important point that there is no such thing as 'eliminating bias' in AI, and gives reasonable measures for how to proceed nevertheless in not building partisan hack LLMs. I personally find the 'Output Transparency', 'System Transaprency', and 'Neutrality Through Diversity' approximation techniques the most compelling. I appreciate what this paper does for broadening a notion of 'neutrality' in AI, drawing on the large existing body of political and philosophical work making the point.",
+                    "link": "https://arxiv.org/abs/2503.05728"
                 }
             ]
         },
