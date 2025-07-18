@@ -5,6 +5,7 @@
 # acm_id: # your dl.acm.org/profile/id
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
+cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
 email: you@example.com # your email address
@@ -31,7 +32,6 @@ inspirehep_id: 1010907 # Inspire HEP author ID
 # research_gate_profile: # your profile on ResearchGate
 rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
-cv_pdf: /assets/pdf/example_pdf.pdf # path to your CV PDF file
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
