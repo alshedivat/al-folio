@@ -1,0 +1,46 @@
+<a class="anchor" id="basics"></a>
+<div class="card mt-3 p-3">
+  <h3 class="card-title font-weight-medium">Basics</h3>
+  <table class="table table-cv table-sm table-borderless table-responsive">
+    {% if cv.name %}
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold">
+          <b>Name</b>
+        </td>
+        <td class="p-1 pl-2 font-weight-light text">{{ cv.name }}</td>
+      </tr>
+    {% endif %}
+    {% if cv.email %}
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold">
+          <b>Email</b>
+        </td>
+        <td class="p-1 pl-2 font-weight-light text">{{ cv.email }}</td>
+      </tr>
+    {% endif %}
+    {% if cv.phone %}
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold">
+          <b>Phone</b>
+        </td>
+        <td class="p-1 pl-2 font-weight-light text">{{ cv.phone }}</td>
+      </tr>
+    {% endif %}
+    {% if cv.website %}
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold">
+          <b>Url</b>
+        </td>
+        <td class="p-1 pl-2 font-weight-light text">{{ cv.website }}</td>
+      </tr>
+    {% endif %}
+    {% if cv.sections.summary %}
+      <tr>
+        <td class="p-1 pr-2 font-weight-bold">
+          <b>Summary</b>
+        </td>
+        <td class="p-1 pl-2 font-weight-light text">{{ cv.sections.summary }}</td>
+      </tr>
+    {% endif %}
+  </table>
+</div>

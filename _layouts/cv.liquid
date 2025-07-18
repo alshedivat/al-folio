@@ -28,26 +28,100 @@ layout: default
 
     <article>
       <div class="cv">
-        {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-            <div>
-              {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
-              {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
-              {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
-              {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
-              {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
-              {% else %}
-                {{ entry.contents }}
-              {% endif %}
-            </div>
-          </div>
+        {% assign cv = site.data.cv.cv %}
+        {% include cv/gen-info.liquid %}
+        {% for entry in cv.sections %}
+          {% unless entry[0] == 'summary' %}
+            {% if entry[0] == 'education' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/education.liquid %}
+                </div>
+              </div>
+            {% elsif entry[0] == 'experience' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/work.liquid %}
+                </div>
+              </div>
+            {% elsif entry[0] == 'publications' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/publications.liquid %}
+                </div>
+              </div>
+            {% elsif entry[0] == 'projects' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/projects.liquid %}
+                </div>
+              </div>
+            {% elsif entry[0] == 'skills' or entry[0] == 'technologies' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/skills.liquid %}
+                </div>
+              </div>
+            {% elsif entry[0] == 'interests' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/skills.liquid %}
+                </div>
+              </div>
+            {% elsif entry[0] == 'languages' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/languages.liquid %}
+                </div>
+              </div>
+            {% elsif entry[0] == 'awards' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/awards.liquid %}
+                </div>
+              </div>
+            {% elsif entry[0] == 'references' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/references.liquid %}
+                </div>
+              </div>
+            {% elsif entry[0] == 'volunteering' or entry[0] == 'volunteer' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/work.liquid %}
+                </div>
+              </div>
+            {% elsif entry[0] == 'certificates' %}
+              <a class="anchor" id="{{ entry[0] }}"></a>
+              <div class="card mt-3 p-3">
+                <h3 class="card-title font-weight-medium">{{ entry[0] | capitalize }}</h3>
+                <div>
+                  {% include cv/certificates.liquid %}
+                </div>
+              </div>
+            {% endif %}
+          {% endunless %}
         {% endfor %}
       </div>
     </article>
