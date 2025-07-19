@@ -1,0 +1,13 @@
+<script>
+  (function() {
+    const key = 'visitor-count';
+    let count = localStorage.getItem(key);
+    if (!count) {
+      count = 1;
+    } else {
+      count = parseInt(count) + 1;
+    }
+    localStorage.setItem(key, count);
+    console.log(`Bu cihazdan site ${count} kez ziyaret edildi.`);
+  })();
+</script>
