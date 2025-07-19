@@ -7,14 +7,71 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('/assets/json/me-like-quotes.json')
         .then(response => response.json())
         .then(data => {
-            createQuotesNavigation(data.categories);
-            buildQuotesContent(data.categories);
-            setupRandomQuoteBox(data.categories);
+            // Apply daily randomization to categories and quotes
+            const shuffledData = applyDailyRandomization(data);
+            createQuotesNavigation(shuffledData.categories);
+            buildQuotesContent(shuffledData.categories);
+            setupRandomQuoteBox(shuffledData.categories);
         })
         .catch(error => {
             console.error('Error loading quotes data:', error);
         });
 });
+
+// Seeded random number generator for consistent daily randomization
+function seededRandom(seed) {
+    const x = Math.sin(seed) * 10000;
+    return x - Math.floor(x);
+}
+
+// Get today's date as a seed (YYYY-MM-DD format)
+function getTodaysSeed() {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = String(today.getMonth() + 1).padStart(2, '0');
+    const day = String(today.getDate()).padStart(2, '0');
+    const dateString = `${year}-${month}-${day}`;
+    
+    // Convert date string to a numeric seed
+    let seed = 0;
+    for (let i = 0; i < dateString.length; i++) {
+        seed = seed * 31 + dateString.charCodeAt(i);
+    }
+    return seed;
+}
+
+// Shuffle array using seeded random
+function shuffleWithSeed(array, seed) {
+    const shuffled = [...array];
+    let currentSeed = seed;
+    
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        currentSeed++;
+        const randomValue = seededRandom(currentSeed);
+        const j = Math.floor(randomValue * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    
+    return shuffled;
+}
+
+// Apply daily randomization to categories and quotes
+function applyDailyRandomization(data) {
+    const todaysSeed = getTodaysSeed();
+    
+    // Shuffle categories
+    const shuffledCategories = shuffleWithSeed(data.categories, todaysSeed);
+    
+    // Shuffle quotes within each category
+    const categoriesWithShuffledQuotes = shuffledCategories.map((category, categoryIndex) => ({
+        ...category,
+        quotes: shuffleWithSeed(category.quotes, todaysSeed + categoryIndex * 1000)
+    }));
+    
+    return {
+        categories: categoriesWithShuffledQuotes
+    };
+}
 
 function createQuotesNavigation(categories) {
     // Create navigation panel

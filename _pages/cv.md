@@ -287,8 +287,11 @@ I was also mentored by [Jared Moore](https://jaredmoore.org/){:target="_blank"},
 </div>
 
 <div class="service-item">
-<div class="item-title">Volunteer Data Scientist</div>
-<div class="item-institution">Coronawhy, April 2020 - June 2020</div>
+<div class="item-title">Marketing Manager</div>
+<div class="item-institution">Vivek for Redmond City Council, Summer 2025</div>
+<div class="item-details">
+Managed social media presence and produced social media content for Vivek Prakriya's compaign runnning for Redmond City Council seat no. 2.
+</div>
 </div>
 
 </div>

@@ -2,7 +2,7 @@
     "categories": [
         {
             "title": "Position Papers",
-            "description": "These papers make really interesting arguments about human-AI interaction which I find compelling or at least useful to think about.",
+            "description": "These papers make really interesting arguments about human-AI interaction which I find compelling or at least useful to think about. (I don't necessarily agree with all the papers below.)",
             "papers": [
                 {
                     "title": "We Can't Understand AI Using our Existing Vocabulary",
@@ -10,6 +10,13 @@
                     "year": 2025,
                     "commentary": "A compelling articulation of what human-AI communication could look like. Proposes neologism learning.",
                     "link": "https://openreview.net/pdf?id=asQJx56NqB"
+                },
+                {
+                    "title": "Prompting as Scientific Inquiry",
+                    "authors": "Ari Holtzman, Chenhao Tan",
+                    "year": 2025,
+                    "commentary": "Makes a really interesting case for disambiguating prompt 'engineering' from a possible 'prompt science'. The writing is very compelling. A helpful analogy presented in the paper is the idea that plant breeders were able to infer a lot of the internal structure of plants before genetic theory explained it. Not sure where I stand on this still but it's given me a lot to think about, especially w.r.t. 'aesthetic' concerns in ML research that bar 'prompting' from being seen as a legitimate research method. I do agree with the paper's claim that many important works in NLP are basically interfaces/structures upon prompting, and we shouldn't be afraid to more closely associate them with a 'prompt science'.",
+                    "link": "https://arxiv.org/abs/2507.00163"
                 },
                 {
                     "title": "AI Should Not Be An Imitation Game: Centaur Evaluations",
@@ -158,6 +165,13 @@
                     "year": 2024,
                     "commentary": "A method to probe structure in language models without any notion of ground truth, relying instead on the consistency property of tru statements.",
                     "link": "https://arxiv.org/abs/2212.03827"
+                },
+                {
+                    "title": "Language Models Use Trigonometry to Do Addition",
+                    "authors": "Subhash Kantamneni, Max Tegmark",
+                    "year": 2025,
+                    "commentary": "The title is all you need to know! Super cool!",
+                    "link": "https://arxiv.org/abs/2502.00873"
                 }
             ]
         },
