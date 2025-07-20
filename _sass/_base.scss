@@ -584,10 +584,37 @@ table {
   }
 }
 
-// Hide both fixed boxes on smaller screens
-@media (max-width: 1200px) {
+// Progressive shrinking and hiding of fixed elements
+@media (max-width: 1400px) {
   .fixed-quote-box, .fixed-image-box, .nav-panel {
-    display: none;
+    width: 220px;
+    font-size: 0.85rem;
+  }
+  
+  .weather-widget {
+    width: 220px !important;
+    height: 140px !important;
+    font-size: 0.7rem !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .fixed-quote-box, .fixed-image-box, .nav-panel {
+    width: 200px;
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+  
+  .weather-widget {
+    width: 200px !important;
+    height: 130px !important;
+    font-size: 0.65rem !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .fixed-quote-box, .fixed-image-box, .nav-panel, .weather-widget {
+    display: none !important;
   }
 }
 

@@ -40,9 +40,27 @@ layout: default
             {{ content }}
           </div>
 
+          <!-- Papers Carousel -->
+          <div class="papers-section">
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+              <h2 style="text-align: left; margin: 0;">papers</h2>
+              <a href="/cv/" class="bubble-link-small">See more in CV</a>
+            </div>
+            <div class="papers-carousel-container">
+              <div class="papers-carousel scrollable" id="papers-carousel">
+                <!-- Papers will be loaded here by JavaScript -->
+              </div>
+            </div>
+          </div>
+          
+          <hr class="random-section-divider">
+
           <!-- News -->
           {% if page.news and site.announcements.enabled -%}
-            <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit;">news</a></h2>
+            <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+              <h2 style="text-align: left; margin: 0;">news</h2>
+              <a href="{{ '/news/' | relative_url }}" class="bubble-link-small">See all news</a>
+            </div>
             {%- include news.html limit=true %}
           {%- endif %}
 
@@ -64,3 +82,5 @@ layout: default
         </article>
 
 </div>
+
+<script src="{{ '/assets/js/papers_carousel.js' | relative_url }}"></script>

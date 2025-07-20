@@ -123,6 +123,12 @@ document.addEventListener('DOMContentLoaded', function() {
     let lastMouseX = mouseX;
     let lastMouseY = mouseY;
     
+    // Random settling position variables
+    let settleOffsetX = (Math.random() - 0.5) * 120; // Random settle position around cursor
+    let settleOffsetY = (Math.random() - 0.5) * 100;
+    let settleChangeTime = Date.now() + 3000 + Math.random() * 5000; // Time to change settle position
+    let driftPhase = Math.random() * Math.PI * 2; // Random drift phase
+    
     // Track mouse movement
     document.addEventListener('mousemove', function(e) {
         // Calculate mouse speed for dynamic behavior
@@ -160,69 +166,133 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Enhanced organic bubble animation
     function animateCursor() {
-        const cursorSpeed = 0.25; // Cursor speed
+        const cursorSpeed = 0.4; // Increased cursor responsiveness
         const currentTime = Date.now();
         const timeSinceLastMove = currentTime - lastMouseMoveTime;
         
-        // Update cursor position
+        // Update cursor position with higher responsiveness
         cursorX += (mouseX - cursorX) * cursorSpeed;
         cursorY += (mouseY - cursorY) * cursorSpeed;
         cursor.style.left = cursorX + 'px';
         cursor.style.top = cursorY + 'px';
         
+        // Check if it's time to change settle position
+        if (currentTime > settleChangeTime) {
+            settleOffsetX = (Math.random() - 0.5) * 120;
+            settleOffsetY = (Math.random() - 0.5) * 100;
+            settleChangeTime = currentTime + 4000 + Math.random() * 6000; // 4-10 seconds
+            driftPhase = Math.random() * Math.PI * 2; // New random drift phase
+        }
+        
         // Dynamic movement parameters based on mouse speed and time
-        const isMouseMoving = timeSinceLastMove < 100; // Mouse considered moving if moved within 100ms
-        const speedMultiplier = Math.min(mouseSpeed * 0.5, 2); // Scale with mouse speed, cap at 2x
-        const restingFactor = isMouseMoving ? 1 : Math.max(0.3, 1 - (timeSinceLastMove - 100) / 2000); // Slow down when resting
+        const isMouseMoving = timeSinceLastMove < 200; // Mouse considered moving if moved within 200ms
+        const speedMultiplier = Math.min(mouseSpeed * 0.3, 1.5); // Reduced sensitivity, lower cap
+        const restingFactor = isMouseMoving ? 0.8 : Math.max(0.4, 1 - (timeSinceLastMove - 200) / 4000); // Slower transition to rest
         
-        // Organic movement for word bubble
-        swerveTime += 0.02; // Increment for sine wave
-        const bubbleBaseSpeed = 0.06 * restingFactor; // Base speed affected by resting
-        const bubbleSwerve = Math.sin(swerveTime * 1.2) * 8; // Swerving motion
-        const bubbleJitter = (Math.random() - 0.5) * 2; // Small random jitter
+        // Organic movement for word bubble - smooth and fluid
+        swerveTime += 0.004; // Even slower for ultra-smooth movement
+        driftPhase += 0.003; // Much slower drift progression
+        const bubbleBaseSpeed = 0.02 * restingFactor; // Slower base speed for smoothness
+        const bubbleSwerve = Math.sin(swerveTime * 0.3) * 2; // Much smaller and slower swerving
+        const bubbleJitter = (Math.random() - 0.5) * 0.2; // Minimal jitter
         
-        // Dynamic offset that changes slightly over time
-        bubbleOffsetX += (Math.random() - 0.5) * 0.3;
-        bubbleOffsetY += (Math.random() - 0.5) * 0.3;
-        bubbleOffsetX = Math.max(20, Math.min(100, bubbleOffsetX)); // Keep within bounds
-        bubbleOffsetY = Math.max(-80, Math.min(10, bubbleOffsetY));
+        // Very gentle continuous drifting behavior
+        const driftAmplitude = isMouseMoving ? 4 : 8; // Much smaller drift amplitudes
+        const driftX = Math.sin(driftPhase * 0.4) * driftAmplitude + Math.cos(driftPhase * 0.2) * (driftAmplitude * 0.5);
+        const driftY = Math.cos(driftPhase * 0.3) * driftAmplitude + Math.sin(driftPhase * 0.5) * (driftAmplitude * 0.5);
         
-        const targetBubbleX = mouseX + bubbleOffsetX + bubbleSwerve + bubbleJitter;
-        const targetBubbleY = mouseY + bubbleOffsetY + Math.sin(swerveTime * 0.8) * 5;
+        // Minimal local wandering - almost eliminated
+        const wanderTime = currentTime * 0.0002; // Much slower wandering
+        const localWanderRadius = 8; // Much smaller radius
+        const autonomousWanderX = Math.sin(wanderTime * 0.4) * localWanderRadius * 0.2;
+        const autonomousWanderY = Math.cos(wanderTime * 0.3) * localWanderRadius * 0.2;
         
-        // Apply momentum and drag
+        // Smoother transition to settle position
+        const settleTransition = isMouseMoving ? 0.9 : Math.min(1.0, (timeSinceLastMove - 200) / 3000); // Slower transition
+        const currentSettleX = settleOffsetX * settleTransition;
+        const currentSettleY = settleOffsetY * settleTransition;
+        
+        // Reduced autonomy for smoother behavior
+        const autonomyFactor = isMouseMoving ? 0.05 : Math.min(0.2, (timeSinceLastMove - 200) / 6000); // Much lower autonomy
+        const mouseInfluence = 1 - autonomyFactor * 0.15; // Very strong mouse influence
+        
+        let targetBubbleX = mouseX + currentSettleX + driftX + autonomousWanderX * autonomyFactor + bubbleSwerve + bubbleJitter;
+        let targetBubbleY = mouseY + currentSettleY + driftY + autonomousWanderY * autonomyFactor + Math.sin(swerveTime * 0.2) * 1;
+        
+        // Prevent bubble from overlapping with cursor - maintain minimum distance
+        const minDistance = 40; // Minimum distance from cursor center
+        const cursorDistanceX = targetBubbleX - mouseX;
+        const cursorDistanceY = targetBubbleY - mouseY;
+        const currentDistance = Math.sqrt(cursorDistanceX * cursorDistanceX + cursorDistanceY * cursorDistanceY);
+        
+        if (currentDistance < minDistance) {
+            // Push bubble away from cursor to maintain minimum distance
+            const pushDirection = currentDistance > 0 ? 1 : 1; // Avoid division by zero
+            const normalizedX = currentDistance > 0 ? cursorDistanceX / currentDistance : 1;
+            const normalizedY = currentDistance > 0 ? cursorDistanceY / currentDistance : 0;
+            
+            targetBubbleX = mouseX + normalizedX * minDistance;
+            targetBubbleY = mouseY + normalizedY * minDistance;
+        }
+        
+        // Apply momentum and drag with higher friction for smoothness
         const bubbleForceX = (targetBubbleX - bubbleX) * bubbleBaseSpeed;
         const bubbleForceY = (targetBubbleY - bubbleY) * bubbleBaseSpeed;
         bubbleVelX += bubbleForceX;
         bubbleVelY += bubbleForceY;
-        bubbleVelX *= 0.85; // Drag/friction
-        bubbleVelY *= 0.85;
+        bubbleVelX *= 0.95; // Higher drag for smoother movement
+        bubbleVelY *= 0.95;
+        
+        // Impose maximum speed limit
+        const maxSpeed = 2.0; // Maximum pixels per frame
+        const currentSpeed = Math.sqrt(bubbleVelX * bubbleVelX + bubbleVelY * bubbleVelY);
+        if (currentSpeed > maxSpeed) {
+            bubbleVelX = (bubbleVelX / currentSpeed) * maxSpeed;
+            bubbleVelY = (bubbleVelY / currentSpeed) * maxSpeed;
+        }
         
         bubbleX += bubbleVelX;
         bubbleY += bubbleVelY;
         wordBubble.style.left = bubbleX + 'px';
         wordBubble.style.top = bubbleY + 'px';
         
-        // Organic movement for meaning bubble (even more chaotic)
-        const meaningBaseSpeed = 0.04 * restingFactor;
-        const meaningSwerve = Math.sin(swerveTime * 0.7 + Math.PI) * 12; // Different phase
-        const meaningJitter = (Math.random() - 0.5) * 3;
+        // Organic movement for meaning bubble - controlled local wandering
+        const meaningBaseSpeed = 0.025 * restingFactor; // Slightly faster to stay close
+        const meaningSwerve = Math.sin(swerveTime * 0.4 + Math.PI) * 4; // Reduced amplitude
+        const meaningJitter = (Math.random() - 0.5) * 0.8; // Reduced jitter
         
-        // Dynamic offset for meaning bubble
-        meaningOffsetX += (Math.random() - 0.5) * 0.4;
-        meaningOffsetY += (Math.random() - 0.5) * 0.4;
-        meaningOffsetX = Math.max(40, Math.min(120, meaningOffsetX));
-        meaningOffsetY = Math.max(10, Math.min(80, meaningOffsetY));
+        // Local wandering for meaning bubble (different pattern from word bubble)
+        const meaningLocalRadius = 30; // Slightly larger wander area than word bubble
+        const meaningWanderX = Math.cos(wanderTime * 0.5 + Math.PI) * meaningLocalRadius * 0.4 + Math.sin(wanderTime * 0.9) * meaningLocalRadius * 0.3;
+        const meaningWanderY = Math.sin(wanderTime * 0.7 + Math.PI/2) * meaningLocalRadius * 0.4 + Math.cos(wanderTime * 0.3) * meaningLocalRadius * 0.2;
         
-        const targetMeaningX = mouseX + meaningOffsetX + meaningSwerve + meaningJitter;
-        const targetMeaningY = mouseY + meaningOffsetY + Math.sin(swerveTime * 0.5) * 8;
+        // Dynamic offset for meaning bubble - slower changes
+        meaningOffsetX += (Math.random() - 0.5) * 0.05; // Slower drift
+        meaningOffsetY += (Math.random() - 0.5) * 0.05;
+        meaningOffsetX = Math.max(50, Math.min(110, meaningOffsetX)); // Tighter bounds
+        meaningOffsetY = Math.max(20, Math.min(70, meaningOffsetY));
+        
+        // Meaning bubble stays close but has slightly more autonomy than word bubble
+        const meaningAutonomyFactor = isMouseMoving ? 0.15 : Math.min(0.5, (timeSinceLastMove - 200) / 3500);
+        const meaningMouseInfluence = 1 - meaningAutonomyFactor * 0.4; // Keep strong mouse influence
+        
+        const targetMeaningX = (mouseX + meaningOffsetX) * meaningMouseInfluence + meaningWanderX * meaningAutonomyFactor + meaningSwerve + meaningJitter;
+        const targetMeaningY = (mouseY + meaningOffsetY) * meaningMouseInfluence + meaningWanderY * meaningAutonomyFactor + Math.sin(swerveTime * 0.3) * 3;
         
         const meaningForceX = (targetMeaningX - meaningX) * meaningBaseSpeed;
         const meaningForceY = (targetMeaningY - meaningY) * meaningBaseSpeed;
         meaningVelX += meaningForceX;
         meaningVelY += meaningForceY;
-        meaningVelX *= 0.8; // More drag for meaning bubble
-        meaningVelY *= 0.8;
+        meaningVelX *= 0.92; // Slightly higher drag
+        meaningVelY *= 0.92;
+        
+        // Impose maximum speed limit for meaning bubble too
+        const meaningMaxSpeed = 1.8; // Slightly slower than word bubble
+        const meaningCurrentSpeed = Math.sqrt(meaningVelX * meaningVelX + meaningVelY * meaningVelY);
+        if (meaningCurrentSpeed > meaningMaxSpeed) {
+            meaningVelX = (meaningVelX / meaningCurrentSpeed) * meaningMaxSpeed;
+            meaningVelY = (meaningVelY / meaningCurrentSpeed) * meaningMaxSpeed;
+        }
         
         meaningX += meaningVelX;
         meaningY += meaningVelY;

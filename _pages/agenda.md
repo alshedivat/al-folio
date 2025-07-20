@@ -8,7 +8,7 @@ nav_order: 1
 ---
 
 Some of the ideas I have been mulling on.
-Please see [PhD SOP](https://andre-ye.org/assets/pdf/phd-sop.pdf){:target="_blank"} for one aspect of my interests, and [great articles I've been reading](https://andre-ye.org/me-like/articles/){:target="_blank"}.
+Please see [PhD SOP](https://andre-ye.org/assets/pdf/phd-sop.pdf){:target="_blank" class="bubble-link"} for one aspect of my interests, and [great articles I've been reading](https://andre-ye.org/me-like/articles/){:target="_blank" class="bubble-link"}.
 **Still under construction.**
 
 

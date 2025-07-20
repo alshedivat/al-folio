@@ -27,6 +27,8 @@ My philosophical interests are in philosophies that center the structuring role 
 
 My email is `andreye [at] mit [dot] edu`.
 
+Please see my <a href="/agenda/" class="bubble-link">agenda</a> and my <a href="/cv/" class="bubble-link">CV</a>!
+
 <br>
 
 

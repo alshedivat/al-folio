@@ -10,6 +10,7 @@ nav_order: 1
 
 
 An unorganized and continuously growing archive of quotes, ideas, and works that influence or represent my thought in some way across a wide range of topics.
+To maximize each item's exposure, the order of categories and order of quotes within each category are randomly reordered each day.
 Continuously under construction.
 
 <div id="quotes-content">

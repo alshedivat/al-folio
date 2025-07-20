@@ -59,11 +59,24 @@ function shuffleWithSeed(array, seed) {
 function applyDailyRandomization(data) {
     const todaysSeed = getTodaysSeed();
     
-    // Shuffle categories
-    const shuffledCategories = shuffleWithSeed(data.categories, todaysSeed);
+    // Separate "Miscellaneous" section from other categories
+    const miscellaneousCategory = data.categories.find(cat => 
+        cat.title.toLowerCase() === 'miscellaneous'
+    );
+    const otherCategories = data.categories.filter(cat => 
+        cat.title.toLowerCase() !== 'miscellaneous'
+    );
+    
+    // Shuffle only the non-miscellaneous categories
+    const shuffledOtherCategories = shuffleWithSeed(otherCategories, todaysSeed);
+    
+    // Combine shuffled categories with miscellaneous at the end
+    const finalCategories = miscellaneousCategory ? 
+        [...shuffledOtherCategories, miscellaneousCategory] : 
+        shuffledOtherCategories;
     
     // Shuffle papers within each category
-    const categoriesWithShuffledPapers = shuffledCategories.map((category, categoryIndex) => ({
+    const categoriesWithShuffledPapers = finalCategories.map((category, categoryIndex) => ({
         ...category,
         papers: shuffleWithSeed(category.papers, todaysSeed + categoryIndex * 1000)
     }));
