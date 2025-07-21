@@ -1,13 +1,31 @@
-name: YAML schema validator
-on: [push]
+name: Validate CV.yml
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - "_data/cv.yml"
+  pull_request:
+    branches:
+      - master
+      - main
+    paths:
+      - "_data/cv.yml"
+  workflow_dispatch:
 
 jobs:
-  yaml-schema-validation:
+  validate_cv:
+    # available images: https://github.com/actions/runner-images#available-images
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout
-    - uses: nrkno/yaml-schema-validator-github-action@v5
-      with:
-        schema: https://raw.githubusercontent.com/rendercv/rendercv/refs/heads/main/schema.json
-        target: _data/cv.yml
-        no-strict: true
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+      - name: Validate cv.yml 🧪
+        uses: cardinalby/schema-validator-action@v3
+        with:
+          file: "_data/cv.yml|_data/cv_design.yaml|_data/cv_locale.yaml"
+          mode: "lax"
+          schema: "rendercv-schema.json"
+          fixSchemas: true
