@@ -1,0 +1,28 @@
+name: CI
+
+on: [ push, pull_request ]
+
+jobs:
+  tests:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - ubuntu-latest
+          - macos-latest
+    name: "Tests [${{ matrix.os }}]"
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt-get update -y && \
+          sudo apt-get install -y curl wget shunit2
+        if: ${{ runner.os == 'Linux' }}
+      - name: Install dependencies
+        run: brew install wget shunit2
+        if: ${{ runner.os == 'macOS' }}
+      - name: Configure env
+        run: echo "SHUNIT2=$(command -v shunit2 2>/dev/null)" >> $GITHUB_ENV
+      - name: Run tests
+        run: make test

@@ -1,0 +1,7 @@
+apt: openjdk-8-jdk
+dnf: java-openjdk
+yum: java-openjdk
+pacman: jre8-openjdk
+zypper: java-1.8.0-openjdk
+pkg: openjdk
+xbps: openjdk

@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+
+source "${0%/*}/../share/ruby-install/ruby-install.sh"
+
+parse_options "$@" || exit $?
+
+if [[ -z "$ruby" ]]; then
+	list_rubies
+	exit $?
+fi
+
+if [[ $force_update -eq 1 ]] ||
+   are_ruby_versions_missing "$ruby" ||
+   is_unknown_ruby_version "$ruby" "$ruby_version"; then
+	log "Updating $ruby versions ..."
+	download_ruby_versions "$ruby" || fail "Failed to download $ruby versions!"
+fi
+
+init || exit $?
+
+if [[ $no_reinstall -eq 1 ]] && [[ -x "$install_dir/bin/ruby" ]]; then
+	log "Ruby is already installed into $install_dir"
+	exit
+fi
+
+log "Installing $ruby $ruby_version into $install_dir ..."
+
+pre_install || fail "Pre-install tasks failed!"
+
+if [[ ! $no_install_deps -eq 1 ]]; then
+	install_deps || fail "Installing dependencies failed!"
+fi
+
+if [[ ! $no_download -eq 1 ]]; then
+	download_ruby || fail "Download of $ruby_url failed!"
+fi
+
+if [[ ! $no_verify -eq 1 ]]; then
+	verify_ruby || fail "Verification of $ruby_archive failed!"
+fi
+
+if [[ ! $no_extract -eq 1 ]]; then
+	extract_ruby   || fail "Unpacking of $ruby_archive failed!"
+fi
+
+download_patches || fail "Fetching patches $patches failed!"
+apply_patches  || fail "Patching $ruby $ruby_version failed!"
+cd "$ruby_build_dir" || fail "ruby build directory is missing: $ruby_build_dir"
+configure_ruby || fail "Configuration of $ruby $ruby_version failed!"
+clean_ruby     || fail "Cleaning $ruby $ruby_version failed!"
+compile_ruby   || fail "Compiling $ruby $ruby_version failed!"
+install_ruby   || fail "Installation of $ruby $ruby_version failed!"
+post_install   || fail "Post-install tasks failed!"
+
+if [[ $cleanup -eq 1 ]]; then
+	cleanup_source  || fail "Cleanup of archive and unpacked source in $src_dir/ failed!"
+fi
+
+log "Successfully installed $ruby $ruby_version into $install_dir"

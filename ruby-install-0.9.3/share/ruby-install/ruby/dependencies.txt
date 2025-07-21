@@ -1,0 +1,9 @@
+apt: xz-utils build-essential bison zlib1g-dev libyaml-dev libssl-dev libgdbm-dev libreadline-dev libncurses5-dev libffi-dev
+dnf: xz gcc automake bison zlib-devel libyaml-devel openssl-devel gdbm-devel readline-devel ncurses-devel libffi-devel
+yum: xz gcc automake bison zlib-devel libyaml-devel openssl-devel gdbm-devel readline-devel ncurses-devel libffi-devel
+port: automake bison readline libyaml gdbm libffi
+brew: automake bison readline libyaml gdbm libffi
+pacman: xz gcc make bison zlib ncurses openssl readline libyaml gdbm libffi
+zypper: xz gcc make automake zlib-devel libyaml-devel libopenssl-devel gdbm-devel readline-devel ncurses-devel libffi-devel
+pkg: openssl readline libyaml gdbm libffi
+xbps: base-devel openssl-devel zlib-devel libyaml-devel gdbm-devel readline-devel ncurses-devel libffi-devel

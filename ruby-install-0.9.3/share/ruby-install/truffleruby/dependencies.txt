@@ -1,0 +1,9 @@
+apt: zlib1g-dev libssl-dev make gcc libxml2 libyaml-dev
+dnf: zlib-devel openssl-devel make gcc libxml2 libyaml-devel
+yum: zlib-devel openssl-devel make gcc libxml2 libyaml-devel
+port: openssl libyaml
+brew: openssl@1.1 libyaml
+pacman: zlib openssl make gcc libxml2 libyaml
+zypper: zlib-devel libopenssl-devel make gcc libxml2 libyaml-devel
+pkg: openssl gmake gcc libxml2 libyaml
+xbps: base-devel openssl-devel zlib-devel libxml2 libyaml-devel

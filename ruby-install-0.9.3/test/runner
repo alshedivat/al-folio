@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+function log() {
+	if [[ -t 1 ]]; then
+		echo -e "\x1b[1m\x1b[32m>>>\x1b[0m \x1b[1m$1\x1b[0m"
+	else
+		echo ">>> $1"
+	fi
+}
+
+error=0
+for test in ${0%/*}/{,*-tests/}*_test.sh; do
+	log "Running $test ..."
+	$test || error=1
+	echo
+done
+
+exit $error
