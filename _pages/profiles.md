@@ -45,4 +45,10 @@ profiles:
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>Ride mode</p>
+  - align: left
+    image: speech.jpg
+    content: bio-7.md
+    image_circular: false # crops the image to make it circular
+    more_info: >
+      <p>Talk mode</p>
 ---
