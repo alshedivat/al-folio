@@ -7,4 +7,4 @@ importance: 1
 category: fun
 ---
 
-Taking part in telemetry system development and testing. Due to the weight of this car, 5th generation car was developed based on lessons taken.
+This is the first car of the team, that joined World Solar Car Challenge in Australia, where cars are requiered to finish 3000 km by only getting energy from solar panels.
