@@ -13,6 +13,9 @@
   crossorigin="anonymous"
 ></script>
 
+<!-- Custom overrides -->
+<script src="{{ '/assets/js/distillpub/overrides.js' | relative_url }}"></script>
+
 {% if page.mermaid and page.mermaid.enabled %}
   <!-- Mermaid and D3 -->
   <script
@@ -79,6 +82,17 @@
     ></script>
   {% endif %}
   <script defer src="{{ '/assets/js/echarts-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
+{% if page.chart and page.chart.plotly %}
+  <!-- Plotly -->
+  <script
+    defer
+    src="{{ site.third_party_libraries.plotly.url.js }}"
+    integrity="{{ site.third_party_libraries.plotly.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/assets/js/plotly-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
 {% endif %}
 
 {% if page.chart and page.chart.vega_lite %}
@@ -184,13 +198,13 @@
   <!-- Analytics -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-  <script defer src="{{ '/assets/js/google-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
+  <script defer src="{{ '/assets/js/google-analytics-setup.js' | relative_url }}"></script>
 {% endif %}
 
 {% if site.enable_cronitor_analytics %}
   <!-- Cronitor RUM -->
   <script async src="https://rum.cronitor.io/script.js"></script>
-  <script defer src="{{ '/assets/js/cronitor-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
+  <script defer src="{{ '/assets/js/cronitor-analytics-setup.js' | relative_url }}"></script>
 {% endif %}
 {% if site.enable_pirsch_analytics %}
   <script
@@ -201,7 +215,7 @@
   ></script>
 {% endif %}
 {% if site.enable_openpanel_analytics %}
-  <script defer src="{{ '/assets/js/open-panel-analytics-setup.js' | relative_url | bust_file_cache }}"></script>
+  <script defer src="{{ '/assets/js/open-panel-analytics-setup.js' | relative_url }}"></script>
   <script async defer src="https://openpanel.dev/op1.js"></script>
 {% endif %}
 
@@ -229,7 +243,7 @@
     ></script>
   {% endif %}
   {% if page.images.photoswipe %}
-    <script defer src="{{ '/assets/js/photoswipe-setup.js' | relative_url | bust_file_cache }}" type="module"></script>
+    <script defer src="{{ '/assets/js/photoswipe-setup.js' | relative_url }}" type="module"></script>
   {% endif %}
   {% if page.images.slider %}
     <script

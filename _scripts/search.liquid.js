@@ -25,7 +25,7 @@ ninja.data = [
           {%- unless child.title == 'divider' -%}
             {
               {%- assign title = child.title | escape | strip -%}
-              {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.url -%}{%- endif -%}
+              {%- if child.permalink contains "/blog/" -%}{%- assign url = "/blog/" -%} {%- else -%}{%- assign url = child.permalink -%}{%- endif -%}
               id: "dropdown-{{ title | slugify }}",
               title: "{{ title | truncatewords: 13 }}",
               description: "{{ child.description | strip_html | strip_newlines | escape | strip }}",
@@ -52,30 +52,32 @@ ninja.data = [
       {%- endif -%}
     {%- endif -%}
   {%- endfor -%}
-  {%- for post in site.posts -%}
-    {
-      {%- assign title = post.title | escape | strip -%}
-      id: "post-{{ title | slugify }}",
-      {% if post.redirect == blank %}
-        title: "{{ title | truncatewords: 13 }}",
-      {% elsif post.redirect contains '://' %}
-        title: '{{ title | truncatewords: 13 }} <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      {% else %}
-        title: "{{ title | truncatewords: 13 }}",
-      {% endif %}
-      description: "{{ post.description | strip_html | strip_newlines | escape | strip }}",
-      section: "Posts",
-      handler: () => {
+  {%- if site.posts_in_search -%}
+    {%- for post in site.posts -%}
+      {
+        {%- assign title = post.title | escape | strip -%}
+        id: "post-{{ title | slugify }}",
         {% if post.redirect == blank %}
-          window.location.href = "{{ post.url | relative_url }}";
+          title: "{{ title | truncatewords: 13 }}",
         {% elsif post.redirect contains '://' %}
-          window.open("{{ post.redirect }}", "_blank");
+          title: '{{ title | truncatewords: 13 }} <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         {% else %}
-          window.location.href = "{{ post.redirect | relative_url }}";
+          title: "{{ title | truncatewords: 13 }}",
         {% endif %}
+        description: "{{ post.description | strip_html | strip_newlines | escape | strip }}",
+        section: "Posts",
+        handler: () => {
+          {% if post.redirect == blank %}
+            window.location.href = "{{ post.url | relative_url }}";
+          {% elsif post.redirect contains '://' %}
+            window.open("{{ post.redirect }}", "_blank");
+          {% else %}
+            window.location.href = "{{ post.redirect | relative_url }}";
+          {% endif %}
+        },
       },
-    },
-  {%- endfor -%}
+    {%- endfor -%}
+  {%- endif -%}
   {%- for collection in site.collections -%}
     {%- if collection.label != 'posts' -%}
       {%- for item in collection.docs -%}
@@ -141,6 +143,10 @@ ninja.data = [
           {%- assign social_id = "social-gitlab" -%}
           {%- assign social_title = "GitLab" -%}
           {%- capture social_url %}"https://gitlab.com/{{ social[1] }}"{% endcapture -%}
+        {%- when "hal_id" -%}
+          {%- assign social_id = "social-hal" -%}
+          {%- assign social_title = "HAL" -%}
+          {%- capture social_url %}"https://cv.hal.science/{{ social[1] }}"{% endcapture -%}
         {%- when "ieee_id" -%}
           {%- assign social_id = "social-ieee" -%}
           {%- assign social_title = "IEEE Xplore" -%}
