@@ -55,6 +55,12 @@ jobs:
       - name: Jekyll Tester
         uses: epstechtheatre/Jekyll-Tester@v1.2.0
 
+      - name: Jekyll 4 Build
+      # You may pin to the exact commit or the version.
+      # uses: nan-wang/jekyll4-deploy-gh-pages@6313a761f8d723ec4aace430548330e2f97ab179
+      uses: nan-wang/jekyll4-deploy-gh-pages@0.0.1
+          
+
 
   # Deployment job
   deploy:
