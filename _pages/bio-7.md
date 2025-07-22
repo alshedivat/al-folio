@@ -1,1 +1,1 @@
-"I scream, you scream, we all scream for ice cream." quote from a Jim Jarmusch film. 🥊
+"I scream, you scream, we all scream for ice cream." from my favourite film.
