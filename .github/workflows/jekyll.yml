@@ -52,6 +52,10 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
+      - name: Jekyll Tester
+        uses: epstechtheatre/Jekyll-Tester@v1.2.0
+
+
   # Deployment job
   deploy:
     environment:
