@@ -1,8 +1,8 @@
 {
     "categories": [
         {
-            "title": "Position Papers",
-            "description": "These papers make really interesting arguments about human-AI interaction which I find compelling or at least useful to think about. (I don't necessarily agree with all the papers below.)",
+            "title": "Positions and Visions",
+            "description": "These papers stake out general positions and visions which I find compelling or at least useful to think about. (I don't necessarily agree with all the papers below.)",
             "papers": [
                 {
                     "title": "We Can't Understand AI Using our Existing Vocabulary",
@@ -19,13 +19,6 @@
                     "link": "https://arxiv.org/abs/2507.00163"
                 },
                 {
-                    "title": "AI Should Not Be An Imitation Game: Centaur Evaluations",
-                    "authors": "Andreas Haupt, Erik Brynjolfsson",
-                    "year": 2025,
-                    "commentary": "Advocates and proposes directions for systematic AI evalutions involving real human interaction.",
-                    "link": "https://openreview.net/pdf?id=LkdH35003E"
-                },
-                {
                     "title": "AI Technologies are System Maps, and You are a Cartographer",
                     "authors": "Nicholas Vincent",
                     "year": 2023,
@@ -40,11 +33,11 @@
                     "link": "https://vis.csail.mit.edu/pubs/cultural-interpretability.pdf"
                 },
                 {
-                    "title": "HCI for AGI",
-                    "authors": "Meredith Ringel Morris",
+                    "title": "AI as Governance",
+                    "authors": "Henry Farrell",
                     "year": 2025,
-                    "commentary": "Useful outline of what HCI researchers can contribute to 'AGI'. It's not obvious (and people may fear that) interaction problems will be solved by AGI. Perhaps not?",
-                    "link": "https://dl.acm.org/doi/10.1145/3708815"
+                    "commentary": "Really useful description of AI as a governance system, akin to markets, democracy, and bureaucracy -- a lens that lets political scientists to usefully contribute towards thinking on AI.",
+                    "link": "https://www.annualreviews.org/content/journals/10.1146/annurev-polisci-040723-013245"
                 },
                 {
                     "title": "AI and the Demise of College Writing",
@@ -52,13 +45,6 @@
                     "year": 2025,
                     "commentary": "Advocates for rhetoric over composition as the methodology for writing pedagogy in the AI era.",
                     "link": "https://www.youtube.com/watch?v=_PPx4KV8SaQ"
-                },
-                 {
-                    "title": "Towards Bidirectional Human-AI Alignment: A Systematic Review for Clarifications, Framework, and Future Directions",
-                    "authors": "Hua Shen, Tiffany Knearem, Reshmi Ghosh, Kenan Alkiek, Kundan Krishna, et al.",
-                    "year": 2024,
-                    "commentary": "A recognition that not only must AI 'align to' human (values, behavior, knowledge, etc.) (-- whatever this means), but we also need to think about how humans might 'align' to AI by working with AI-structured systems. This paper recognizes social 'looping effects' brought about by AI and its behavior.",
-                    "link": "https://arxiv.org/abs/2406.09264"
                 },
                 {
                     "title": "Large AI models are cultural and social technologies",
@@ -170,8 +156,36 @@
                     "title": "Language Models Use Trigonometry to Do Addition",
                     "authors": "Subhash Kantamneni, Max Tegmark",
                     "year": 2025,
-                    "commentary": "The title is all you need to know! Super cool!",
+                    "commentary": "The title is all you need! Super cool!",
                     "link": "https://arxiv.org/abs/2502.00873"
+                },
+                {
+                    "title": "Reflections on Qualitative Research",
+                    "authors": "Chris Olah, Adam Jermyn",
+                    "year": 2024,
+                    "commentary": "Interesting thoughts on what kind of methodology suits interpretability as a growing, immature field.",
+                    "link": "https://transformer-circuits.pub/2024/qualitative-essay/index.html"
+                },
+                {
+                    "title": "Towards Monosemanticity: Decomposing Language Models With Dictionary Learning",
+                    "authors": "Trenton Bricken*, Adly Templeton*, Joshua Batson*, Brian Chen*, Adam Jermyn*, et al.",
+                    "year": 2023,
+                    "commentary": "Really incredible work on discovering and visualizing feature decompositions of neuron layers with sparse autoencoders. Gorgeous visualizations and interfaces, and thoughtful reflections on interpretability methodology. I am a big fan of this publication style.",
+                    "link": "https://transformer-circuits.pub/2024/qualitative-essay/index.html"
+                }
+            ]
+        },
+
+        {
+            "title": "Representation Learning",
+            "description": "Interesting/illuminating/surprising articles and perspectives on representation learning.",
+            "papers": [
+                {
+                    "title": "Deep Learning is Not So Mysterious or Different",
+                    "authors": "Andrew Gordon Wilson",
+                    "year": 2025,
+                    "commentary": "Super interesting and illuminating perspective explaining why supposedly deep-learning-unique phenomena like deep double descent, overparametrization, etc. can be explained using soft inductive biases and existing generalization frameworks. The references are a treasure trove!",
+                    "link": "https://openreview.net/pdf?id=42Au7FoD8F"
                 }
             ]
         },
@@ -187,13 +201,34 @@
                     "year": 2022,
                     "commentary": "A very useful interface for comparing differences in embeddings with interesting applications to model training development and the social sciences.",
                     "link": "https://arxiv.org/abs/1912.04853"
+                },
+                {
+                    "title": "Towards Bidirectional Human-AI Alignment: A Systematic Review for Clarifications, Framework, and Future Directions",
+                    "authors": "Hua Shen, Tiffany Knearem, Reshmi Ghosh, Kenan Alkiek, Kundan Krishna, et al.",
+                    "year": 2024,
+                    "commentary": "A recognition that not only must AI 'align to' human (values, behavior, knowledge, etc.) (-- whatever this means), but we also need to think about how humans might 'align' to AI by working with AI-structured systems. This paper recognizes social 'looping effects' brought about by AI and its behavior.",
+                    "link": "https://arxiv.org/abs/2406.09264"
+                },
+                {
+                    "title": "AI Should Not Be An Imitation Game: Centaur Evaluations",
+                    "authors": "Andreas Haupt, Erik Brynjolfsson",
+                    "year": 2025,
+                    "commentary": "Advocates and proposes directions for systematic AI evalutions involving real human interaction.",
+                    "link": "https://openreview.net/pdf?id=LkdH35003E"
+                },
+                {
+                    "title": "HCI for AGI",
+                    "authors": "Meredith Ringel Morris",
+                    "year": 2025,
+                    "commentary": "Useful outline of what HCI researchers can contribute to 'AGI'. It's not obvious (and people may fear that) interaction problems will be solved by AGI. Perhaps not?",
+                    "link": "https://dl.acm.org/doi/10.1145/3708815"
                 }
             ]
         },
 
         {
             "title": "Philosophy",
-            "description": "Smaller articles in contemporary-ish philosophy that I think are interesting or insightful.",
+            "description": "Smaller articles/essays/books in contemporary-ish philosophy that I think are interesting or insightful.",
             "papers": [
                 {
                     "title": "Why Isn’t There More Progress in Philosophy?",
@@ -201,6 +236,13 @@
                     "year": 2011,
                     "commentary": "Asks an interesting question and gives some helpful directions to start thinking about what progress means in philosophy and how 'premise deniability' might be a relevant factor.",
                     "link": "https://consc.net/papers/progress.pdf"
+                },
+                {
+                    "title": "Proofs and Refutations: The Logic of Mathematical Discovery",
+                    "authors": "Imre Lakatos",
+                    "year": 1976,
+                    "commentary": "Uses an extremely entertaining and well-focused example of understanding the 'V - E + F = 2' Euler characterization of polyhedra to illustrate how mathemematics develops -- dialectically between criticism (proof-analysis, refutation, counterexamples) and development (proof, lemma-incorporation, etc.). Entertainingly written as a Socratic conversation among a classroom of incredibly bright students.",
+                    "link": "https://dl1.cuni.cz/pluginfile.php/730446/mod_resource/content/2/Imre%20Lakatos%3B%20Proofs%20and%20Refutations.pdf"
                 }
             ]
         },

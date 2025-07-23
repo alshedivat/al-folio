@@ -321,14 +321,14 @@ table {
 
   .quote-text {
     font-style: italic;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     line-height: 1.4;
     margin-bottom: 0.5rem;
     color: var(--global-text-color);
   }
 
   .quote-author {
-    font-size: 0.75rem;
+    font-size: 0.65rem;
     color: var(--global-text-color-light);
     margin: 0;
     text-align: right;
@@ -339,6 +339,7 @@ table {
     color: var(--global-text-color-light);
     margin: 0.5rem 0 0 0;
     text-align: center;
+    flex-shrink: 0; // Don't shrink
     
     a {
       color: var(--global-theme-color);
@@ -591,6 +592,7 @@ table {
     font-size: 0.85rem;
   }
   
+  
   .weather-widget {
     width: 220px !important;
     height: 140px !important;
@@ -604,6 +606,7 @@ table {
     font-size: 0.8rem;
     padding: 0.8rem;
   }
+  
   
   .weather-widget {
     width: 200px !important;

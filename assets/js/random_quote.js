@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .catch(error => {
                 console.error('Error loading quotes:', error);
-                randomQuoteElement.textContent = '"Philosophy creates concepts, which are neither generalities nor truths. They are more along the lines of the Singular, the Important, the New."';
-                randomQuoteAuthorElement.textContent = '— Gilles Deleuze';
+                randomQuoteElement.textContent = '"The task is not to see what no one else has seen, but to think what nobody else has thought about that which everybody sees."';
+                randomQuoteAuthorElement.textContent = '— Arthur Schopenhauer';
             });
     }
 });

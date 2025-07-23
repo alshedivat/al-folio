@@ -12,6 +12,14 @@ Please see [PhD SOP](https://andre-ye.org/assets/pdf/phd-sop.pdf){:target="_blan
 **Still under construction.**
 
 
+
+<div class="agenda-card">
+<div class="agenda-title">Qualitative Knowledge Certification</div>
+<div class="agenda-description">One of the most powerful uses of LLMs is to apply existing and produce new qualitative knowledge --- they are able to operate in the world of senses, vibes, liminal words. But why should we trust what knowledge these models produce? No, trust isn't the right word --- more like, what are the kinds of reasons we would want to believe in the knowledge these models produce, and what are the methods for structuring model outputs with those reasons? We can draw from the methodology of the social sciences and the humanities: what are the reasons why we would believe (or trust, or be intruiged by, or entertain, ...) what a historian, philosopher, literary theorist, etc. has to say? How can we 'certify' qualitative knowledge application and production, one of the most distinctive features of LLMs as a social technology?</div>
+</div>
+
+
+
 <div class="agenda-card">
 <div class="agenda-title">Machine Concept Definition</div>
 <div class="agenda-description">
@@ -38,8 +46,8 @@ Machine concept definition is about finding the right kinds of constructs and to
 <div class="grabbag-header">Grabbag of ideas</div>
 <div class="grabbag-grid">
 <div class="grabbag-item">Systematic human-AI evaluation as a social computing problem</div>
-<div class="grabbag-item">Multiscalar human oversight</div>
-<div class="grabbag-item">AI for knowledge production</div>
+<div class="grabbag-item">Algorithms and interfaces for multiscalar human oversight</div>
+<div class="grabbag-item">Emphasizing human deliberation in the often overlooked "interpretation" stage of AI Constitutions (to draw from the legal analogy)</div>
 </div>
 </div>
 

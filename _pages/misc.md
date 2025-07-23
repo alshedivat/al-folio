@@ -15,6 +15,8 @@ children:
       permalink: /misc/history-listed
     - title: Recreational Math
       permalink: /misc/recmath
+    # - title: Mini-Cambridge
+    #   permalink: /misc/mini-cambridge
     # - title: Basic Propositions
     #   permalink: /misc/basic-propositions
     # - title: Minima Moralia

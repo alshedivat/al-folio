@@ -1,0 +1,81 @@
+---
+layout: default
+permalink: /misc/mini-cambridge
+title: Mini-Cambridge
+description: Full-screen Cambridge weather widget
+nav: false
+---
+
+<style>
+.mini-cambridge-container {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(circle, rgba(25, 25, 45, 1) 0%, rgba(15, 15, 35, 1) 100%);
+    margin: 20px 0;
+    border-radius: 12px;
+    position: relative;
+}
+
+/* Override the weather widget to be centered and large */
+.mini-cambridge-container .weather-widget {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    width: 90% !important;
+    max-width: 800px !important;
+    height: 70vh !important;
+    max-height: 600px !important;
+    min-width: 400px !important;
+    min-height: 300px !important;
+}
+
+/* Hide other page elements for cleaner look */
+.fixed-quote-box,
+.fixed-image-box {
+    display: none !important;
+}
+
+/* Scale up skyline for better visibility */
+.mini-cambridge-container .mit-skyline {
+    height: 200px !important;
+}
+
+@media (max-width: 768px) {
+    .mini-cambridge-container .weather-widget {
+        width: 95% !important;
+        height: 60vh !important;
+        min-width: 300px !important;
+        min-height: 250px !important;
+    }
+    
+    .mini-cambridge-container .mit-skyline {
+        height: 150px !important;
+    }
+}
+</style>
+
+<div class="mini-cambridge-container">
+    <div id="mini-cambridge-widget">
+        <!-- Weather widget will be injected here by the script -->
+    </div>
+</div>
+
+<script>
+// Wait for DOM to load, then create the widget in the container
+document.addEventListener('DOMContentLoaded', function() {
+    // The weather widget script will run and create the widget
+    // We need to move it to our container after it's created
+    setTimeout(function() {
+        const widget = document.querySelector('.weather-widget');
+        const container = document.getElementById('mini-cambridge-widget');
+        if (widget && container) {
+            container.appendChild(widget);
+        }
+    }, 100);
+});
+</script>
+
+<script src="/assets/js/weather_widget.js"></script>

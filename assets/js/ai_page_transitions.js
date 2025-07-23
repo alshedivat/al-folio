@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'Morning View by Elise Recine.jpg'
     ];
     
-    // Add CSS animation for fade effect
+    // Add CSS animation for fade effect and mobile responsiveness
     const style = document.createElement('style');
     style.textContent = `
         @keyframes fadeOut {
@@ -41,6 +41,44 @@ document.addEventListener('DOMContentLoaded', function() {
         
         .ai-transition-overlay.fading-out {
             animation: fadeOut 1.5s ease-out forwards;
+        }
+        
+        /* Mobile responsive styles */
+        @media (max-width: 768px) {
+            .ai-transition-overlay {
+                background-position: center center !important;
+                background-size: cover !important;
+            }
+            
+            .skip-instruction-display {
+                bottom: 80px !important;
+                padding: 12px 20px !important;
+                font-size: 16px !important;
+                background: rgba(0, 0, 0, 0.8) !important;
+                border: 2px solid rgba(255, 255, 255, 0.6) !important;
+                border-radius: 10px !important;
+                color: white !important;
+                font-weight: bold !important;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+            }
+            
+            .countdown-display {
+                top: 30px !important;
+                right: 30px !important;
+                width: 50px !important;
+                height: 50px !important;
+                font-size: 22px !important;
+                background: rgba(0, 0, 0, 0.8) !important;
+                border: 3px solid rgba(255, 255, 255, 0.9) !important;
+            }
+            
+            .ai-credit-display {
+                bottom: 30px !important;
+                padding: 10px 18px !important;
+                font-size: 16px !important;
+                background: rgba(0, 0, 0, 0.8) !important;
+                border: 2px solid rgba(255, 255, 255, 0.4) !important;
+            }
         }
     `;
     document.head.appendChild(style);
@@ -55,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
         width: 100vw;
         height: 100vh;
         z-index: 10000;
-        pointer-events: none;
+        pointer-events: auto;
         opacity: 0;
         background-size: cover;
         background-position: center;
@@ -102,6 +140,73 @@ document.addEventListener('DOMContentLoaded', function() {
         transition: opacity 0.3s ease;
     `;
     transitionOverlay.appendChild(countdownDisplay);
+    
+    // Add "From Better Images of AI" credit
+    const creditDisplay = document.createElement('div');
+    creditDisplay.className = 'ai-credit-display';
+    creditDisplay.style.cssText = `
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.7);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 8px;
+        padding: 8px 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        color: white;
+        z-index: 2;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        cursor: pointer;
+        pointer-events: auto;
+    `;
+    
+    const creditLink = document.createElement('a');
+    creditLink.href = 'https://betterimagesofai.org/';
+    creditLink.target = '_blank';
+    creditLink.rel = 'noopener noreferrer';
+    creditLink.textContent = 'From Better Images of AI';
+    creditLink.style.cssText = `
+        color: white;
+        text-decoration: none;
+        transition: color 0.2s ease;
+    `;
+    creditLink.addEventListener('mouseenter', () => {
+        creditLink.style.color = '#a8c8ff';
+    });
+    creditLink.addEventListener('mouseleave', () => {
+        creditLink.style.color = 'white';
+    });
+    
+    creditDisplay.appendChild(creditLink);
+    transitionOverlay.appendChild(creditDisplay);
+    
+    // Add skip instruction display
+    const skipDisplay = document.createElement('div');
+    skipDisplay.className = 'skip-instruction-display';
+    skipDisplay.style.cssText = `
+        position: absolute;
+        bottom: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: rgba(0, 0, 0, 0.6);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 6px;
+        padding: 6px 12px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.8);
+        z-index: 2;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+        text-align: center;
+    `;
+    skipDisplay.textContent = 'Press SPACE or tap to skip';
+    transitionOverlay.appendChild(skipDisplay);
+    
     document.body.appendChild(transitionOverlay);
     
     // Function to get random AI image
@@ -127,42 +232,93 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 1000);
     }
     
+    // Skip transition variables
+    let currentTransitionTimeouts = [];
+    let currentTransitionCallback = null;
+    let transitionActive = false;
+    
+    // Function to skip transition
+    function skipTransition() {
+        if (!transitionActive) return;
+        
+        console.log('Skipping transition');
+        
+        // Clear all timeouts
+        currentTransitionTimeouts.forEach(timeout => clearTimeout(timeout));
+        currentTransitionTimeouts = [];
+        
+        // Immediately fade out
+        transitionOverlay.classList.add('fading-out');
+        
+        // Complete transition quickly
+        setTimeout(() => {
+            transitionOverlay.classList.remove('fading-out');
+            transitionOverlay.style.display = 'none';
+            transitionOverlay.style.opacity = '0';
+            countdownDisplay.style.opacity = '0';
+            creditDisplay.style.opacity = '0';
+            skipDisplay.style.opacity = '0';
+            transitionActive = false;
+            
+            if (currentTransitionCallback) {
+                currentTransitionCallback();
+                currentTransitionCallback = null;
+            }
+        }, 300); // Quick fade out
+    }
+    
     // Function to show transition
     function showTransition(callback) {
         const randomImage = getRandomAIImage();
         console.log(`Starting transition with image: ${randomImage}`);
         
+        transitionActive = true;
+        currentTransitionCallback = callback;
+        currentTransitionTimeouts = [];
+        
         transitionOverlay.style.backgroundImage = `url('${randomImage}')`;
         transitionOverlay.style.display = 'block';
         
         // Fade in
-        setTimeout(() => {
+        const fadeInTimeout = setTimeout(() => {
             console.log('Fading in transition overlay');
             transitionOverlay.style.opacity = '1';
         }, 10);
+        currentTransitionTimeouts.push(fadeInTimeout);
         
-        // Start countdown at 2 seconds (to show 3, 2, 1 for the last 3 seconds)
-        setTimeout(() => {
+        // Start countdown and show skip instruction almost immediately
+        const startDisplayTimeout = setTimeout(() => {
             countdownDisplay.style.opacity = '1';
+            creditDisplay.style.opacity = '1';
+            skipDisplay.style.opacity = '1';
             startCountdown();
-        }, 2000);
+        }, 100);
+        currentTransitionTimeouts.push(startDisplayTimeout);
         
         // Hold for 5 seconds, then fade away
-        setTimeout(() => {
+        const fadeOutTimeout = setTimeout(() => {
             console.log('Starting fade out animation');
             // Use CSS animation for reliable fade effect
             transitionOverlay.classList.add('fading-out');
             
             // Complete transition and execute callback
-            setTimeout(() => {
+            const completeTimeout = setTimeout(() => {
                 console.log('Completing transition');
                 transitionOverlay.classList.remove('fading-out');
                 transitionOverlay.style.display = 'none';
                 transitionOverlay.style.opacity = '0';
                 countdownDisplay.style.opacity = '0';
-                if (callback) callback();
+                creditDisplay.style.opacity = '0';
+                skipDisplay.style.opacity = '0';
+                transitionActive = false;
+                if (callback) {
+                    callback();
+                    currentTransitionCallback = null;
+                }
             }, 1500);
+            currentTransitionTimeouts.push(completeTimeout);
         }, 5000);
+        currentTransitionTimeouts.push(fadeOutTimeout);
     }
     
     // Function to show transition with proper navigation timing
@@ -170,42 +326,57 @@ document.addEventListener('DOMContentLoaded', function() {
         const randomImage = getRandomAIImage();
         console.log(`Starting transition with navigation to: ${href}`);
         
+        transitionActive = true;
+        currentTransitionCallback = () => { window.location.href = href; };
+        currentTransitionTimeouts = [];
+        
         transitionOverlay.style.backgroundImage = `url('${randomImage}')`;
         transitionOverlay.style.display = 'block';
         
         // Fade in
-        setTimeout(() => {
+        const fadeInTimeout = setTimeout(() => {
             console.log('Fading in transition overlay');
             transitionOverlay.style.opacity = '1';
         }, 10);
+        currentTransitionTimeouts.push(fadeInTimeout);
         
         // Navigate to new page near the end of the display time
-        setTimeout(() => {
+        const navigationTimeout = setTimeout(() => {
             console.log(`Navigating to: ${href}`);
             window.location.href = href;
         }, 4500);
+        currentTransitionTimeouts.push(navigationTimeout);
         
-        // Start countdown at 2 seconds (to show 3, 2, 1 for the last 3 seconds)
-        setTimeout(() => {
+        // Start countdown and show skip instruction almost immediately
+        const startDisplayTimeout = setTimeout(() => {
             console.log('Starting countdown');
             countdownDisplay.style.opacity = '1';
+            creditDisplay.style.opacity = '1';
+            skipDisplay.style.opacity = '1';
             startCountdown();
-        }, 2000);
+        }, 100);
+        currentTransitionTimeouts.push(startDisplayTimeout);
         
         // Start fade out after showing image for 5 seconds
-        setTimeout(() => {
+        const fadeOutTimeout = setTimeout(() => {
             console.log('Starting fade out animation');
             transitionOverlay.classList.add('fading-out');
             
             // Complete transition (fade takes 1.5s)
-            setTimeout(() => {
+            const completeTimeout = setTimeout(() => {
                 console.log('Completing transition');
                 transitionOverlay.classList.remove('fading-out');
                 transitionOverlay.style.display = 'none';
                 transitionOverlay.style.opacity = '0';
                 countdownDisplay.style.opacity = '0';
+                creditDisplay.style.opacity = '0';
+                skipDisplay.style.opacity = '0';
+                transitionActive = false;
+                currentTransitionCallback = null;
             }, 1500);
+            currentTransitionTimeouts.push(completeTimeout);
         }, 5000);
+        currentTransitionTimeouts.push(fadeOutTimeout);
     }
     
     // Intercept all internal links
@@ -262,6 +433,41 @@ document.addEventListener('DOMContentLoaded', function() {
         childList: true,
         subtree: true
     });
+    
+    // Add skip event listeners
+    function setupSkipListeners() {
+        // Keyboard listener for spacebar
+        document.addEventListener('keydown', (event) => {
+            if (event.code === 'Space' && transitionActive) {
+                event.preventDefault(); // Prevent page scroll
+                skipTransition();
+            }
+        });
+        
+        // Touch/click listener for mobile and desktop
+        transitionOverlay.addEventListener('click', (event) => {
+            if (transitionActive) {
+                // Don't skip if user clicked on the credit link
+                if (!event.target.closest('.ai-credit-display')) {
+                    skipTransition();
+                }
+            }
+        });
+        
+        // Touch listener for better mobile support
+        transitionOverlay.addEventListener('touchstart', (event) => {
+            if (transitionActive) {
+                // Don't skip if user touched the credit link
+                if (!event.target.closest('.ai-credit-display')) {
+                    event.preventDefault();
+                    skipTransition();
+                }
+            }
+        });
+    }
+    
+    // Initialize skip listeners
+    setupSkipListeners();
     
     // Global test function for debugging
     window.testTransition = function() {

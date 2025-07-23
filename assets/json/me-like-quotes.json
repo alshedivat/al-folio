@@ -17,6 +17,10 @@
             "author": "J.L. Austin"
           },
           {
+            "text": "...examine these two ideas and determine how that which survives criticism in each is properly to be combined with the other...",
+            "author": "Wilfred Sellars"
+          },
+          {
             "text": "What faith is to religion, labor is to political economy: humans produce gods in the same way they produce automobiles.",
             "author": "Daniel Smith on Deleuze & Guattari's A Thousand Plateaus"
           },
@@ -38,6 +42,30 @@
           },
           {
             "text": "To say that man is a rational animal, is to say that man is a creature not of habits, but of rules. When God created Adam, he whispered in his ear, 'In all contexts of action you will recognize rules, if only the rule to grope for rules to recognize. When you cease to recognize rules, you will walk on four feet.'",
+            "author": "Wilfred Sellars"
+          },
+          {
+            "text": "...'looks' talk is not an autonomous language game - one that could be played though one played no other. It is entirely parasitic on the practice of making risky empirical reports of how things actually are. Thus Descartes seized on a genuine phenomenon -the incorrigibility of claims about appearances, reflecting the non-iterability of operators like 'looks', 'seems', and'appears' - but misunderstood its nature, and so mistakenly thought it available to play an epistemologically foundational role for which it is in no way suited.",
+            "author": "Wilfred Sellars"
+          },
+          {
+            "text": "Empirical knowledge is rational, not because it has a foundation but because it is a self-correcting enterprise which can put any claim in jeopardy, though not all at once.",
+            "author": "Wilfred Sellars"
+          },
+          {
+            "text": "KAPPA: But will they? What if God created polyhedra so that all true universal statements about them – formulated in human language – are infinitely long? Is it not blasphemous anthropomorphism to assume that (divine) true theorems are of finite length? Be frank: for some reason or other you are all bored with refutations and piecemeal theorem-formation. Why not call it a day and stop the game? You already gave up ‘Quod erat demonstrandum’. Why not give up ‘Quod erat demonstratum’ too? Truth is only for God. THETA [aside]: A religious sceptic is the worst enemy of science! SIGMA: Let’s not overdramatise! After all, only a narrow penumbra of vagueness is at stake. It is simply that, as I said before, not all propositions are true or false. There is a third class which I would now call ‘more or less rigorous’. THETA [aside]: Three-valued logic – the end of critical rationality! SIGMA: …and we state their domain of validity with a rigour that is more or less adequate. ALPHA: Adequate for what? SIGMA: Adequate for the solution of the problem which we want to solve. THETA [aside]: Pragmatism! Has everybody lost interest in truth? KAPPA: Or adequate for the Zeitgeist! ‘Sufficient unto the day is the rigour thereof’. THETA: Historicism! [Faints.]",
+            "author": "Imre Lakatos, from Proofs and Refutations"
+          },
+          {
+            "text": "Thus, different levels of rigour differ only about where they draw the line between the rigour of proof-analysis and the rigour of proof, i.e. about where criticism should stop and justification should start.",
+            "author": "Imre Lakatos, from Proofs and Refutations"
+          },
+          {
+            "text": "...different proofs of the same naive conjecture lead to quite different theorems",
+            "author": "Imre Lakatos, from Proofs and Refutations"
+          },
+          {
+            "text": "The essential point is that in characterizing an episode or a state as that of knowing, we are not giving an empirical description of that episode or state; we are placing it in the logical space of reasons, of justifying and being able to justify what one says",
             "author": "Wilfred Sellars"
           }
         ]
@@ -65,6 +93,20 @@
           {
             "text": "A concept is a brick. It can be used to build a courthouse of reason. Or it can be thrown through the window.",
             "author": "Gilles Deleuze and Félix Guattari"
+          }
+        ]
+      },
+      {
+        "title": "On Computers",
+        "description": "Interesting quotes on computation, information, and humans from diverse sources.",
+        "quotes": [
+          {
+            "text": "Bartlett et al. (2020) note “the phenomenon of benign overfitting is one of the key mysteries uncovered by deep learning methodology: deep neural networks seem to predict well, even with a perfect fit to noisy training data.” However, benign overfitting behaviour can be reproduced with other model classes, can be understood intuitively, and is described by rigorous frameworks for characterizing generalization that have existed for decades.",
+            "author": "Andrew Gordon Wilson"
+          },
+          {
+            "text": "We now have technologies that can do for written and visual culture something like what prices do for economic information and bureaucratic categories do for social information. Large models generate representations of a vast and ungraspable whole that do not fully capture that whole but are manipulable and reproducible at scale.",
+            "author": "Henry Farrell"
           }
         ]
       },
@@ -117,6 +159,10 @@
             "author": "Daniel Smith, from Essays on Deleuze"
           },
           {
+            "text": "For he defined the mind by its epistemic status, as what is best known to itself by falling within the reach of the subject's incorrigibility and local omniscience.",
+            "author": "Robert Brandom, on Decartes"
+          },
+          {
             "text": "It is this distinction that allows Spinoza to introduce an \"ethical difference\" between various types of modes of existence. In Spinoza, an individual will be considered \"bad\" (or servile, or weak, or foolish) who remains cut off from its power of acting, who remains in a state of slavery or impotence; conversely, a mode of existence will be called \"good\" (or free, or rational, or strong) that exercises its capacity for being affected in such a way that its power of acting increases, to the point where it produces active affections and adequate ideas. For Deleuze, this is the point of convergence that unites Nietzsche and Spinoza. It is never a matter of judging degrees of power quantitatively; the smallest degree of power is equivalent to the largest degree once it is not separated from what it can do. It is rather a question of knowing whether a mode of existence, however small or great, can deploy its power, increasing its power of acting to the point where it goes to the limit of what it \"can do\". Modes are no longer \"judged\" in terms of their degree of proximity to or distance from an external principle, but are \"evaluated\" in terms of the manner by which they \"occupy\" their existence: the intensity of their power, their \"tenor\" of life. What an ethics of immanence will criticize, then, is not simply modes of thought derived from base modes of existence, but anything that separates a mode of existence from its power of acting.",
             "author": "Daniel Smith, from Essays on Deleuze"
           },
@@ -138,6 +184,14 @@
           },
           {
             "text": "The virtue of a logical proof is not that it compels belief, but that it suggests doubts.",
+            "author": "Imre Lakatos"
+          },
+          {
+            "text": "ZETA: No, Omega. ‘More questions may be easier to answer than just one question. A new more ambitious problem may be easier to handle than the original problem.’ Indeed, I shall show you that your narrow, accidental problem can only be solved by solving the wider, essential problem. OMEGA: But I want to discover the secret of Eulerianness! ZETA: I understand your resistance. You have fallen in love with the problem of finding out where God drew the boundary dividing Eulerian from non-Eulerian polyhedra. But there is no reason to believe that the term ‘Eulerian’ occurred in God’s blueprint of the universe at all. What if Eulerianness is merely an accidental property of some polyhedra? In this case it would be uninteresting or even impossible to find out the random zig-zags of the demarcation line between Eulerian and non-Eulerian polyhedra. Such an admission however would leave rationalism unsullied, for Eulerianness is then not part of the rational design of the universe. So let us forget about it. One of the main points about critical rationalism is that one is always prepared to abandon one’s original problem in the course of the solution and replace it by another one.",
+            "author": "Imre Lakatos, from Proofs and Refutations"
+          },
+          {
+            "text": "I shall tell you. You yourself said you failed many times to fit them into a formula. Now what happened was this: you had three or four conjectures which in turn were quickly refuted. Your table was built up in the process of testing and refuting these conjectures. These dead and now forgotten conjectures suggested the facts, not the facts the conjectures. Naive conjectures are not inductive conjectures: we arrive at them by trial and error, through conjectures and refutations.",
             "author": "Imre Lakatos"
           }
         ]
