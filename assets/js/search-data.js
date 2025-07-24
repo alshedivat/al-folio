@@ -14,16 +14,16 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_1/";
+            },},{id: "news-a-promptly-bad-idea-malware-meets-ai",
+          title: 'A Promptly Bad Idea - Malware Meets AI',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_3/";
             },},{id: "news-from-obfuscated-garbage-to-clarity",
           title: 'From Obfuscated Garbage to Clarity',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-",
-          title: '',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
             },},{
         id: 'social-email',
         title: 'email',
