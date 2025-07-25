@@ -9,7 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "news-brilliant-and-simple-filename-based-sandbox-evasion",
+  },{id: "news-from-obfuscated-garbage-to-clarity",
+          title: 'From Obfuscated Garbage to Clarity',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_2/";
+            },},{id: "news-brilliant-and-simple-filename-based-sandbox-evasion",
           title: 'Brilliant and Simple - Filename-Based Sandbox Evasion',
           description: "",
           section: "News",handler: () => {
@@ -19,11 +24,6 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "news-from-obfuscated-garbage-to-clarity",
-          title: 'From Obfuscated Garbage to Clarity',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
             },},{
         id: 'social-email',
         title: 'email',
