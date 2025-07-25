@@ -253,6 +253,9 @@
   transform: translate(0, 16px);
   transition: 0.6s;
   transition-delay: 0.1s;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
 }
 
 .newstoggle:hover {

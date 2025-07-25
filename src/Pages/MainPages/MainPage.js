@@ -1,11 +1,11 @@
 import React, { useCallback, useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Navbar } from "../../Components/Navbar/navbar";
 import { Footer } from "../../Components/Footer/footer";
 import coursedata from "../../Data/course.json";
 import newsdata from "../../Data/news.json";
 
 export const MainPage = (props) => {
-  const [newsOn, setNewsOn] = useState(false);
   const [newsNum, setNewsNum] = useState(8);
 
   useEffect(() => {
@@ -51,10 +51,6 @@ export const MainPage = (props) => {
       observer.observe(node);
     }
   }, []);
-
-  function newsToggle() {
-    setNewsOn(!newsOn);
-  }
 
   return (
     <>
@@ -107,46 +103,29 @@ export const MainPage = (props) => {
         <div ref={element} className="title">
           • NEWS •
         </div>
-        <div className={newsOn ? "newsContainer" : "newsContainer Wrap"}>
-          {newsOn
-            ? newsdata.map((news, index) => (
-                <div className="news" key={news.content}>
-                  <img
-                    ref={element}
-                    className="image"
-                    src={"/images/news/" + news.image}
-                    alt={news.content}
-                  />
-                  <div ref={element} className="date">
-                    {news.date}
-                  </div>
-                  <div ref={element} className="newscontents">
-                    {news.content}
-                  </div>
+        <div className="newsContainer Wrap">
+          {newsdata.map((news, index) => {
+            return index < newsNum ? (
+              <div className="news" key={news.content}>
+                <img
+                  ref={element}
+                  className="image"
+                  src={"/images/news/" + news.image}
+                  alt={news.content}
+                />
+                <div ref={element} className="date">
+                  {news.date}
                 </div>
-              ))
-            : newsdata.map((news, index) => {
-                return index < newsNum ? (
-                  <div className="news" key={news.content}>
-                    <img
-                      ref={element}
-                      className="image"
-                      src={"/images/news/" + news.image}
-                      alt={news.content}
-                    />
-                    <div ref={element} className="date">
-                      {news.date}
-                    </div>
-                    <div ref={element} className="newscontents">
-                      {news.content}
-                    </div>
-                  </div>
-                ) : null;
-              })}
+                <div ref={element} className="newscontents">
+                  {news.content}
+                </div>
+              </div>
+            ) : null;
+          })}
         </div>
-        <div ref={element} className="newstoggle" onClick={newsToggle}>
-          {newsOn ? <>Show Less</> : <>Show More</>}
-        </div>
+        <Link to="/news" ref={element} className="newstoggle">
+          View All News
+        </Link>
 
         <div ref={element} className="title">
           • COURSE •

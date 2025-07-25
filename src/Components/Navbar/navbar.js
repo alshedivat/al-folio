@@ -17,6 +17,9 @@ export const Navbar = () => {
                         </Link>                           
                         <Link to="/people" className='hamburger-bar'>
                             <span>PEOPLE</span>
+                        </Link>
+                        <Link to="/news" className='hamburger-bar'>
+                            <span>NEWS</span>
                         </Link>                           
                         <Link to="/project" className='hamburger-bar'>
                             <span>PROJECT</span>
@@ -31,6 +34,9 @@ export const Navbar = () => {
                         </Link>                           
                         <Link to="/people" className='navBtn'>
                             <span>PEOPLE</span>
+                        </Link>
+                        <Link to="/news" className='navBtn'>
+                            <span>NEWS</span>
                         </Link>                           
                         <Link to="/project" className='navBtn'>
                             <span>PROJECT</span>

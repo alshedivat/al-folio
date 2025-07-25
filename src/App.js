@@ -5,6 +5,7 @@ import "./App.css";
 import { MainPage } from "./Pages/MainPages/MainPage";
 // import { AboutPage } from './Pages/MainPages/AboutPage';
 import { PeoplePage } from "./Pages/MainPages/PeoplePage";
+import { NewsPage } from "./Pages/MainPages/NewsPage";
 import { ProjectPage } from "./Pages/MainPages/ProjectPage";
 import { PublicationPage } from "./Pages/MainPages/PublicationPage";
 import { CoursePage } from "./Pages/MainPages/CoursePage";
@@ -33,6 +34,7 @@ function App() {
           <Route path="/" element={<MainPage />} />
           {/* <Route path='/about' element={<AboutPage/>}/> */}
           <Route path="/people" element={<PeoplePage />} />
+          <Route path="/news" element={<NewsPage />} />
           <Route path="/project" element={<ProjectPage />} />
           <Route path="/publication" element={<PublicationPage />} />
           <Route path="/publication/:id" element={<ResearchPage />} />
