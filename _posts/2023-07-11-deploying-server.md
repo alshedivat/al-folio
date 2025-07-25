@@ -2,7 +2,7 @@
 layout: post
 title: Deploying a Server for Bioinformatics Research
 date: 2023-07-11
-last_updated: 2025-07-09
+last_updated: 2025-07-25
 description: how to deploy a server for bioinformatics research
 tags: deployment server Ubuntu
 categories: computer
@@ -218,15 +218,14 @@ The commands for creating new environment are:
 
 ```bash
 # create with a specified name
-mamba create --name <new_env_name> python=3.11 --no-default-packages
+mamba create --name <new_env_name> python=3.11
 # create with a specified location; regular users can use this command to create an environment in their home directory
-mamba create --prefix /path/to/directory python=3.11 --no-default-packages
+mamba create --prefix /path/to/directory python=3.11
 ```
 
 - `--name <new_env_name>` will set the name of the new environment.
 - `--prefix /path/to/directory` will set the path to the directory where you want to create the environment
 - `python=3.11` means mamba will install `Python` 3.11 in the new environment.
-- `--no-default-packages` will only install `Python`. No other site packages will be included.
 
 I did not modify the `base` environment and proceeded to create two new environments: `jupyter` and `bio`. `jupyter` only contains packages related to jupyterhub, while `bio` encompasses all the necessary packages for research purposes.
 
@@ -718,3 +717,17 @@ sudo apt install texlive texlive-latex-extra texlive-fonts-recommended dvipng cm
 ```
 
 Now, your server should be well-suited for your bioinformatics research and you know what to do when things go wrong. Enjoy it!
+
+### SSH error: Permission denied, please try again
+
+The most possible reason is that the account has been locked. You can check the status by
+
+```bash
+sudo pam_tally2 --user <user_name>
+```
+
+If the account is indeed locked, reset it by
+
+```bash
+sudo pam_tally2 --user <user_name> --reset
+```
