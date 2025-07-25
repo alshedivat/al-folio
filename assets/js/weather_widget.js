@@ -581,118 +581,171 @@ document.addEventListener('DOMContentLoaded', function() {
     function getSkyBackground(weatherData = null) {
         const now = new Date();
         const hour = now.getHours();
-        const isDaytime = hour >= 6 && hour < 18;
-        const isSunrise = hour >= 5 && hour <= 7;
-        const isSunset = hour >= 17 && hour <= 19;
+        const minutes = now.getMinutes();
+        const timeDecimal = hour + minutes / 60; // More precise time calculation
+        
+        const isDaytime = timeDecimal >= 6 && timeDecimal < 18;
+        const isSunrise = timeDecimal >= 5.5 && timeDecimal <= 7.5;
+        const isSunset = timeDecimal >= 17.5 && timeDecimal <= 18.5; // Later sunset range to avoid darkening afternoon
+        
+        // Extract weather factors including UV index for sun coverage
+        let weatherFactors = {
+            cloudCover: 0,
+            humidity: 50,
+            visibility: 10000,
+            condition: 'clear',
+            windSpeed: 0,
+            pressure: 1013.25,
+            uvIndex: 0
+        };
+        
+        if (weatherData) {
+            weatherFactors.cloudCover = weatherData.clouds ? weatherData.clouds.all : 0;
+            weatherFactors.humidity = weatherData.main ? weatherData.main.humidity : 50;
+            weatherFactors.visibility = weatherData.visibility || 10000;
+            weatherFactors.condition = weatherData.weather && weatherData.weather[0] ? weatherData.weather[0].main.toLowerCase() : 'clear';
+            weatherFactors.windSpeed = weatherData.wind ? weatherData.wind.speed : 0;
+            weatherFactors.pressure = weatherData.main ? weatherData.main.pressure : 1013.25;
+            weatherFactors.uvIndex = weatherData.uvi || 0; // UV index as sun coverage measure
+        }
+        
+        // Calculate comprehensive brightness factor using UV index as primary sun coverage measure
+        const cloudiness = weatherFactors.cloudCover / 100; // 0-1 scale
+        
+        // UV index scaling for daytime brightness (0-11+ scale, typical range 0-10)
+        let uvFactor = 1.0;
+        if (isDaytime && weatherFactors.uvIndex !== undefined) {
+            // UV index 0-2 (low) = darker, 3-5 (moderate) = normal, 6-7 (high) = bright, 8+ (very high) = very bright
+            const normalizedUV = Math.min(weatherFactors.uvIndex / 6, 1.4); // Lower threshold, higher cap for brighter skies
+            uvFactor = Math.max(0.7, normalizedUV); // Minimum 70% brightness even with UV 0
+        }
+        
+        const humidityFactor = Math.max(0.8, 1 - (weatherFactors.humidity - 50) / 300); // Very gentle humidity effect
+        const visibilityFactor = Math.max(0.85, Math.min(1, weatherFactors.visibility / 10000)); // Less dramatic visibility effect
+        const pressureFactor = Math.min(1.05, Math.max(0.95, weatherFactors.pressure / 1013.25)); // Minimal pressure variation
+        
+        // Combine UV index with cloud coverage for more accurate sun coverage
+        let baseBrightnessFactor;
+        if (isDaytime) {
+            // UV index is the primary factor during daytime, clouds modify it less
+            baseBrightnessFactor = uvFactor * (1 - cloudiness * 0.15); // Clouds reduce UV-based brightness by up to 15% (less impact)
+        } else {
+            // At night, use traditional cloud-based calculation
+            baseBrightnessFactor = 1 - (cloudiness * 0.3);
+        }
+        
+        // Apply secondary factors additively with reduced impact
+        let brightnessDelta = 0;
+        brightnessDelta += (1 - humidityFactor) * 0.04; // Max 4% reduction for humidity
+        brightnessDelta += (1 - visibilityFactor) * 0.03; // Max 3% reduction for visibility  
+        brightnessDelta += (1 - pressureFactor) * 0.01; // Max 1% reduction for pressure
+        
+        const comprehensiveBrightnessFactor = baseBrightnessFactor - brightnessDelta;
+        const finalBrightnessFactor = Math.max(0.6, Math.min(1.4, comprehensiveBrightnessFactor)); // Higher minimum brightness, higher max
         
         // Default colors
         let skyColor1, skyColor2;
         
         if (isDaytime) {
-            // Handle sunrise/sunset times with warm colors
+            // Handle sunrise/sunset times with gradual warm color transitions
             if (isSunrise || isSunset) {
-                if (weatherData && weatherData.weather && weatherData.weather[0]) {
-                    const condition = weatherData.weather[0].main.toLowerCase();
-                    const cloudCover = weatherData.clouds ? weatherData.clouds.all : 0;
-                    const cloudiness = cloudCover / 100;
-                    
-                    if (condition === 'clear' || cloudiness < 0.3) {
-                        // Beautiful sunrise/sunset colors
-                        skyColor1 = 'rgba(255, 149, 85, 0.9)'; // Warm orange
-                        skyColor2 = 'rgba(255, 94, 77, 0.8)';  // Pink-red
-                    } else {
-                        // Muted sunrise/sunset with clouds
-                        skyColor1 = 'rgba(200, 140, 120, 0.9)';
-                        skyColor2 = 'rgba(180, 120, 140, 0.8)';
-                    }
+                // Calculate transition intensity (closer to exact sunrise/sunset time = more intense)
+                const sunEventTime = isSunrise ? 6.5 : 17.5;
+                const distanceFromSunEvent = Math.abs(timeDecimal - sunEventTime);
+                const sunEventIntensity = Math.max(0.3, 1 - distanceFromSunEvent);
+                
+                const adjustedBrightness = finalBrightnessFactor * sunEventIntensity;
+                
+                if (weatherFactors.condition === 'clear' || cloudiness < 0.3) {
+                    // Beautiful sunrise/sunset colors with brightness variation
+                    const orangeIntensity = Math.floor(255 * adjustedBrightness);
+                    const redIntensity = Math.floor(200 * adjustedBrightness);
+                    skyColor1 = `rgba(${orangeIntensity}, ${Math.floor(149 * adjustedBrightness)}, ${Math.floor(85 * adjustedBrightness)}, 0.9)`;
+                    skyColor2 = `rgba(${orangeIntensity}, ${Math.floor(94 * adjustedBrightness)}, ${Math.floor(77 * adjustedBrightness)}, 0.8)`;
                 } else {
-                    skyColor1 = 'rgba(255, 149, 85, 0.9)';
-                    skyColor2 = 'rgba(255, 94, 77, 0.8)';
+                    // Muted sunrise/sunset with clouds - more dramatic dimming
+                    const mutedFactor = adjustedBrightness * 0.7;
+                    skyColor1 = `rgba(${Math.floor(200 * mutedFactor)}, ${Math.floor(140 * mutedFactor)}, ${Math.floor(120 * mutedFactor)}, 0.9)`;
+                    skyColor2 = `rgba(${Math.floor(180 * mutedFactor)}, ${Math.floor(120 * mutedFactor)}, ${Math.floor(140 * mutedFactor)}, 0.8)`;
                 }
             } else {
-                // Regular daytime colors with weather sensitivity
-                if (weatherData && weatherData.weather && weatherData.weather[0]) {
-                    const condition = weatherData.weather[0].main.toLowerCase();
-                    const cloudCover = weatherData.clouds ? weatherData.clouds.all : 0;
-                    const cloudiness = cloudCover / 100; // 0-1 scale
-                    const brightnessFactor = 1 - (cloudiness * 0.3); // Reduce brightness by up to 30% based on cloud cover
-                    
-                    switch (condition) {
-                        case 'clear':
-                            // Bright blue sky
-                            skyColor1 = `rgba(${Math.floor(87 * brightnessFactor)}, ${Math.floor(165 * brightnessFactor)}, ${Math.floor(255 * brightnessFactor)}, 0.95)`;
-                            skyColor2 = `rgba(${Math.floor(135 * brightnessFactor)}, ${Math.floor(206 * brightnessFactor)}, ${Math.floor(255 * brightnessFactor)}, 0.9)`;
-                            break;
-                        case 'clouds':
-                            // Gray-blue cloudy sky
-                            const grayAmount = Math.floor(cloudiness * 60);
-                            skyColor1 = `rgba(${Math.floor(140 - grayAmount)}, ${Math.floor(160 - grayAmount)}, ${Math.floor(180 - grayAmount * 0.5)}, 0.9)`;
-                            skyColor2 = `rgba(${Math.floor(170 - grayAmount)}, ${Math.floor(185 - grayAmount)}, ${Math.floor(200 - grayAmount * 0.5)}, 0.85)`;
-                            break;
-                        case 'rain':
-                            // Dark gray rainy sky
-                            skyColor1 = 'rgba(90, 90, 100, 0.95)';
-                            skyColor2 = 'rgba(120, 120, 130, 0.9)';
-                            break;
-                        case 'snow':
-                            // Bright gray snowy sky
-                            skyColor1 = 'rgba(220, 220, 225, 0.95)';
-                            skyColor2 = 'rgba(240, 240, 245, 0.9)';
-                            break;
-                        case 'thunderstorm':
-                            // Very dark stormy sky
-                            skyColor1 = 'rgba(50, 50, 60, 0.95)';
-                            skyColor2 = 'rgba(70, 70, 80, 0.9)';
-                            break;
-                        default:
-                            skyColor1 = `rgba(${Math.floor(87 * brightnessFactor)}, ${Math.floor(165 * brightnessFactor)}, ${Math.floor(255 * brightnessFactor)}, 0.9)`;
-                            skyColor2 = `rgba(${Math.floor(135 * brightnessFactor)}, ${Math.floor(206 * brightnessFactor)}, ${Math.floor(255 * brightnessFactor)}, 0.85)`;
-                    }
-                } else {
-                    // Default bright blue sky
-                    skyColor1 = 'rgba(87, 165, 255, 0.9)';
-                    skyColor2 = 'rgba(135, 206, 255, 0.85)';
+                // Regular daytime colors with enhanced weather sensitivity
+                switch (weatherFactors.condition) {
+                    case 'clear':
+                        // Bright blue sky with dramatic brightness variation
+                        const blueR = Math.floor(87 * finalBrightnessFactor);
+                        const blueG = Math.floor(165 * finalBrightnessFactor);
+                        const blueB = Math.floor(255 * finalBrightnessFactor);
+                        skyColor1 = `rgba(${blueR}, ${blueG}, ${blueB}, 0.95)`;
+                        skyColor2 = `rgba(${Math.floor(135 * finalBrightnessFactor)}, ${Math.floor(206 * finalBrightnessFactor)}, ${blueB}, 0.9)`;
+                        break;
+                    case 'clouds':
+                        // Gray-blue cloudy sky with more reasonable gray calculation
+                        const grayReduction = Math.floor(cloudiness * 50); // Reduced from 80 to 50
+                        const cloudBrightness = finalBrightnessFactor; // Remove additional dimming since it's already factored in
+                        skyColor1 = `rgba(${Math.floor((140 - grayReduction) * cloudBrightness)}, ${Math.floor((160 - grayReduction) * cloudBrightness)}, ${Math.floor((180 - grayReduction * 0.5) * cloudBrightness)}, 0.9)`;
+                        skyColor2 = `rgba(${Math.floor((170 - grayReduction) * cloudBrightness)}, ${Math.floor((185 - grayReduction) * cloudBrightness)}, ${Math.floor((200 - grayReduction * 0.5) * cloudBrightness)}, 0.85)`;
+                        break;
+                    case 'rain':
+                        // Dark gray rainy sky with intensity variation
+                        const rainIntensity = Math.max(0.4, finalBrightnessFactor);
+                        skyColor1 = `rgba(${Math.floor(90 * rainIntensity)}, ${Math.floor(90 * rainIntensity)}, ${Math.floor(100 * rainIntensity)}, 0.95)`;
+                        skyColor2 = `rgba(${Math.floor(120 * rainIntensity)}, ${Math.floor(120 * rainIntensity)}, ${Math.floor(130 * rainIntensity)}, 0.9)`;
+                        break;
+                    case 'snow':
+                        // Bright gray snowy sky with reflection factor
+                        const snowBrightness = Math.min(1.1, finalBrightnessFactor + 0.2); // Snow reflects light
+                        skyColor1 = `rgba(${Math.floor(220 * snowBrightness)}, ${Math.floor(220 * snowBrightness)}, ${Math.floor(225 * snowBrightness)}, 0.95)`;
+                        skyColor2 = `rgba(${Math.floor(240 * snowBrightness)}, ${Math.floor(240 * snowBrightness)}, ${Math.floor(245 * snowBrightness)}, 0.9)`;
+                        break;
+                    case 'thunderstorm':
+                        // Very dark stormy sky
+                        const stormDarkness = Math.min(0.6, finalBrightnessFactor);
+                        skyColor1 = `rgba(${Math.floor(50 * stormDarkness)}, ${Math.floor(50 * stormDarkness)}, ${Math.floor(60 * stormDarkness)}, 0.95)`;
+                        skyColor2 = `rgba(${Math.floor(70 * stormDarkness)}, ${Math.floor(70 * stormDarkness)}, ${Math.floor(80 * stormDarkness)}, 0.9)`;
+                        break;
+                    default:
+                        // Default sky with comprehensive brightness
+                        skyColor1 = `rgba(${Math.floor(87 * finalBrightnessFactor)}, ${Math.floor(165 * finalBrightnessFactor)}, ${Math.floor(255 * finalBrightnessFactor)}, 0.9)`;
+                        skyColor2 = `rgba(${Math.floor(135 * finalBrightnessFactor)}, ${Math.floor(206 * finalBrightnessFactor)}, ${Math.floor(255 * finalBrightnessFactor)}, 0.85)`;
                 }
             }
         } else {
-            // Nighttime colors with weather sensitivity
-            if (weatherData && weatherData.weather && weatherData.weather[0]) {
-                const condition = weatherData.weather[0].main.toLowerCase();
-                
-                switch (condition) {
-                    case 'clear':
-                        // Deep blue-black clear night sky
-                        skyColor1 = 'rgba(8, 15, 35, 0.95)';
-                        skyColor2 = 'rgba(3, 8, 20, 0.95)';
-                        break;
-                    case 'clouds':
-                        // Overcast night sky with orange city glow
-                        skyColor1 = 'rgba(25, 22, 35, 0.95)';
-                        skyColor2 = 'rgba(18, 16, 28, 0.95)';
-                        break;
-                    case 'rain':
-                        // Dark rainy night sky
-                        skyColor1 = 'rgba(15, 18, 25, 0.95)';
-                        skyColor2 = 'rgba(8, 12, 20, 0.95)';
-                        break;
-                    case 'snow':
-                        // Bright snowy night sky reflecting snow
-                        skyColor1 = 'rgba(35, 35, 45, 0.95)';
-                        skyColor2 = 'rgba(25, 25, 35, 0.95)';
-                        break;
-                    case 'thunderstorm':
-                        // Very dark stormy night
-                        skyColor1 = 'rgba(10, 5, 15, 0.95)';
-                        skyColor2 = 'rgba(5, 3, 10, 0.95)';
-                        break;
-                    default:
-                        skyColor1 = 'rgba(15, 20, 35, 0.95)';
-                        skyColor2 = 'rgba(8, 12, 25, 0.95)';
-                }
-            } else {
-                // Default night sky
-                skyColor1 = 'rgba(8, 15, 35, 0.95)';
-                skyColor2 = 'rgba(3, 8, 20, 0.95)';
+            // Enhanced nighttime colors with weather sensitivity
+            const nightBrightnessFactor = Math.max(0.3, finalBrightnessFactor);
+            
+            switch (weatherFactors.condition) {
+                case 'clear':
+                    // Deep blue-black clear night sky
+                    skyColor1 = `rgba(${Math.floor(8 * nightBrightnessFactor)}, ${Math.floor(15 * nightBrightnessFactor)}, ${Math.floor(35 * nightBrightnessFactor)}, 0.95)`;
+                    skyColor2 = `rgba(${Math.floor(3 * nightBrightnessFactor)}, ${Math.floor(8 * nightBrightnessFactor)}, ${Math.floor(20 * nightBrightnessFactor)}, 0.95)`;
+                    break;
+                case 'clouds':
+                    // Overcast night sky with city glow reflection
+                    const cloudGlow = Math.min(1.3, nightBrightnessFactor + cloudiness * 0.3);
+                    skyColor1 = `rgba(${Math.floor(25 * cloudGlow)}, ${Math.floor(22 * cloudGlow)}, ${Math.floor(35 * cloudGlow)}, 0.95)`;
+                    skyColor2 = `rgba(${Math.floor(18 * cloudGlow)}, ${Math.floor(16 * cloudGlow)}, ${Math.floor(28 * cloudGlow)}, 0.95)`;
+                    break;
+                case 'rain':
+                    // Dark rainy night sky
+                    skyColor1 = `rgba(${Math.floor(15 * nightBrightnessFactor)}, ${Math.floor(18 * nightBrightnessFactor)}, ${Math.floor(25 * nightBrightnessFactor)}, 0.95)`;
+                    skyColor2 = `rgba(${Math.floor(8 * nightBrightnessFactor)}, ${Math.floor(12 * nightBrightnessFactor)}, ${Math.floor(20 * nightBrightnessFactor)}, 0.95)`;
+                    break;
+                case 'snow':
+                    // Bright snowy night sky reflecting snow
+                    const snowNightGlow = Math.min(1.4, nightBrightnessFactor + 0.4);
+                    skyColor1 = `rgba(${Math.floor(35 * snowNightGlow)}, ${Math.floor(35 * snowNightGlow)}, ${Math.floor(45 * snowNightGlow)}, 0.95)`;
+                    skyColor2 = `rgba(${Math.floor(25 * snowNightGlow)}, ${Math.floor(25 * snowNightGlow)}, ${Math.floor(35 * snowNightGlow)}, 0.95)`;
+                    break;
+                case 'thunderstorm':
+                    // Very dark stormy night
+                    const stormNightFactor = Math.min(0.5, nightBrightnessFactor);
+                    skyColor1 = `rgba(${Math.floor(10 * stormNightFactor)}, ${Math.floor(5 * stormNightFactor)}, ${Math.floor(15 * stormNightFactor)}, 0.95)`;
+                    skyColor2 = `rgba(${Math.floor(5 * stormNightFactor)}, ${Math.floor(3 * stormNightFactor)}, ${Math.floor(10 * stormNightFactor)}, 0.95)`;
+                    break;
+                default:
+                    skyColor1 = `rgba(${Math.floor(15 * nightBrightnessFactor)}, ${Math.floor(20 * nightBrightnessFactor)}, ${Math.floor(35 * nightBrightnessFactor)}, 0.95)`;
+                    skyColor2 = `rgba(${Math.floor(8 * nightBrightnessFactor)}, ${Math.floor(12 * nightBrightnessFactor)}, ${Math.floor(25 * nightBrightnessFactor)}, 0.95)`;
             }
         }
         
@@ -958,6 +1011,7 @@ document.addEventListener('DOMContentLoaded', function() {
             `;
             
             // Create the fluttering banner
+            /* COMMENTED OUT: Click me banner
             const banner = document.createElement('div');
             banner.className = 'plane-banner';
             banner.textContent = 'click me';
@@ -976,9 +1030,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 box-shadow: 0 1px 3px rgba(0,0,0,0.3);
                 animation: bannerFlutter 0.8s ease-in-out infinite alternate;
             `;
+            */
             
             planeContainer.appendChild(planeElement);
-            planeContainer.appendChild(banner);
+            // planeContainer.appendChild(banner); // COMMENTED OUT
             
             // Add click handler
             planeContainer.addEventListener('click', () => {
@@ -1120,15 +1175,42 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         try {
+            // Use One Call API 3.0 to get UV index and more comprehensive weather data
             const response = await fetch(
-                `https://api.openweathermap.org/data/2.5/weather?lat=${BOSTON_LAT}&lon=${BOSTON_LON}&appid=${API_KEY}&units=metric`
+                `https://api.openweathermap.org/data/3.0/onecall?lat=${BOSTON_LAT}&lon=${BOSTON_LON}&appid=${API_KEY}&units=metric&exclude=minutely,daily,alerts`
             );
             
             if (!response.ok) {
                 throw new Error(`HTTP ${response.status}`);
             }
             
-            const weatherData = await response.json();
+            const oneCallData = await response.json();
+            
+            // Transform One Call API data to match existing weather data structure
+            const weatherData = {
+                weather: oneCallData.current.weather,
+                main: {
+                    temp: oneCallData.current.temp,
+                    feels_like: oneCallData.current.feels_like,
+                    humidity: oneCallData.current.humidity,
+                    pressure: oneCallData.current.pressure
+                },
+                wind: {
+                    speed: oneCallData.current.wind_speed,
+                    deg: oneCallData.current.wind_deg
+                },
+                clouds: {
+                    all: oneCallData.current.clouds
+                },
+                visibility: oneCallData.current.visibility,
+                sys: {
+                    sunrise: oneCallData.current.sunrise,
+                    sunset: oneCallData.current.sunset
+                },
+                // NEW: UV index for sun coverage calculation
+                uvi: oneCallData.current.uvi || 0,
+                name: 'Cambridge'
+            };
             cacheWeatherData(weatherData);
             return weatherData;
             
@@ -1221,9 +1303,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Position from right (east) 215px to left (west) 10px across the widget  
         const leftPosition = 215 - (progress * 205);
         
-        // Height follows arc - highest at solar noon
-        const arcHeight = Math.sin(progress * Math.PI) * 18; // 0-18px arc
-        const topPosition = 22 - arcHeight;
+        // Height follows arc - highest at solar noon, positioned higher to avoid building overlap
+        const arcHeight = Math.sin(progress * Math.PI) * 25; // 0-25px arc for better visibility
+        const topPosition = 100 - arcHeight; // Center around 40-50% of 200px height (75-100px)
         
         const sun = document.createElement('div');
         sun.className = 'weather-sun';
@@ -1239,19 +1321,53 @@ document.addEventListener('DOMContentLoaded', function() {
             z-index: 12;
         `;
         
-        // Add glowing orb around the sun
-        const sunGlow = document.createElement('div');
-        sunGlow.style.cssText = `
+        // Add multiple concentric glowing orbs around the sun
+        // Inner glow - more prominent
+        const sunGlowInner = document.createElement('div');
+        sunGlowInner.style.cssText = `
             position: absolute;
             top: -8px;
             left: -8px;
             width: 36px;
             height: 36px;
-            background: radial-gradient(circle, rgba(255, 215, 0, 0.2) 0%, rgba(255, 165, 0, 0.1) 50%, transparent 100%);
+            background: radial-gradient(circle, rgba(255, 215, 0, 0.7) 0%, rgba(255, 165, 0, 0.4) 60%, transparent 100%);
             border-radius: 50%;
-            animation: sunGlow 3s ease-in-out infinite alternate;
+            animation: sunGlow 2.5s ease-in-out infinite alternate;
+            box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
         `;
-        sun.appendChild(sunGlow);
+        sun.appendChild(sunGlowInner);
+        
+        // Middle glow - enhanced
+        const sunGlowMiddle = document.createElement('div');
+        sunGlowMiddle.style.cssText = `
+            position: absolute;
+            top: -16px;
+            left: -16px;
+            width: 52px;
+            height: 52px;
+            background: radial-gradient(circle, rgba(255, 215, 0, 0.4) 0%, rgba(255, 165, 0, 0.2) 50%, transparent 100%);
+            border-radius: 50%;
+            animation: sunGlow 3.5s ease-in-out infinite alternate;
+            animation-delay: -0.5s;
+            box-shadow: 0 0 12px rgba(255, 215, 0, 0.3);
+        `;
+        sun.appendChild(sunGlowMiddle);
+        
+        // Outer glow - larger and more visible
+        const sunGlowOuter = document.createElement('div');
+        sunGlowOuter.style.cssText = `
+            position: absolute;
+            top: -24px;
+            left: -24px;
+            width: 68px;
+            height: 68px;
+            background: radial-gradient(circle, rgba(255, 215, 0, 0.2) 0%, rgba(255, 165, 0, 0.1) 40%, transparent 100%);
+            border-radius: 50%;
+            animation: sunGlow 4s ease-in-out infinite alternate;
+            animation-delay: -1s;
+            box-shadow: 0 0 16px rgba(255, 215, 0, 0.2);
+        `;
+        sun.appendChild(sunGlowOuter);
         
         animationContainer.appendChild(sun);
     }
@@ -1365,9 +1481,9 @@ document.addEventListener('DOMContentLoaded', function() {
         // Position from east (right) to west (left) across the sky
         const leftPosition = 215 - (nightProgress * 205);
         
-        // Height follows realistic lunar arc - highest at midnight (nightProgress = 0.5)
-        const arcHeight = Math.sin(nightProgress * Math.PI) * 12; // 0-12px arc for lower position
-        const topPosition = 50 - arcHeight; // Start from 50px down for much lower moon
+        // Height follows realistic lunar arc - highest at midnight, positioned at 60-70% widget height
+        const arcHeight = Math.sin(nightProgress * Math.PI) * 15; // 0-15px arc for better visibility
+        const topPosition = 130 - arcHeight; // Center around 60-70% of 200px height (115-130px)
         
         const moon = document.createElement('div');
         moon.className = 'weather-moon';
@@ -1498,6 +1614,73 @@ document.addEventListener('DOMContentLoaded', function() {
             pointer-events: none;
         `;
         animationContainer.appendChild(lightning);
+    }
+    
+    // Sailing boat animation - boat sails from left to right every 30-35 seconds
+    function createSailingBoatAnimation() {
+        // Random interval between 30-35 seconds
+        const interval = 30000 + Math.random() * 5000;
+        
+        setTimeout(() => {
+            // Create sailing boat element
+            const boat = document.createElement('div');
+            boat.className = 'sailing-boat';
+            boat.innerHTML = `
+                <svg width="20" height="20" viewBox="0 0 512 512" style="transform: scaleX(1);">
+                    <path style="fill:#BDDEFF;" d="M446.02,347.622L298.31,48.924c-3.289-6.654-10.733-10.164-17.956-8.476
+                        c-7.228,1.689-12.34,8.134-12.34,15.556v298.699c0,8.823,7.153,15.976,15.976,15.976h147.709c5.525,0,10.657-2.854,13.571-7.547
+                        S448.468,352.574,446.02,347.622z"/>
+                    <path style="fill:#D7EBFF;" d="M275.293,40.426c-7.274-1.651-14.727,1.953-17.948,8.685L124.468,326.84
+                        c-2.369,4.949-2.03,10.769,0.896,15.412c2.925,4.643,8.029,7.459,13.516,7.459h132.878c8.823,0,15.976-7.153,15.976-15.976V56.005
+                        C287.733,48.544,282.569,42.076,275.293,40.426z"/>
+                    <path style="fill:#7A4126;" d="M283.99,420.404c-8.823,0-15.976-7.153-15.976-15.976V15.976C268.014,7.153,275.167,0,283.99,0
+                        c8.823,0,15.976,7.153,15.976,15.976v388.451C299.966,413.251,292.813,420.404,283.99,420.404z"/>
+                    <path style="fill:#995D3D;" d="M283.99,420.404c-8.823,0-15.976-7.153-15.976-15.976V15.976C268.014,7.153,275.167,0,283.99,0
+                        V420.404z"/>
+                    <path style="fill:#7A4126;" d="M215.969,399.858H75.697c-8.823,0-15.976-7.153-15.976-15.976s7.153-15.976,15.976-15.976h140.272
+                        c8.823,0,15.976,7.153,15.976,15.976S224.792,399.858,215.969,399.858z"/>
+                    <path style="fill:#995D3D;" d="M145.833,399.858H75.697c-8.823,0-15.976-7.153-15.976-15.976s7.153-15.976,15.976-15.976h70.136
+                        V399.858z"/>
+                    <path style="fill:#34B2D9;" d="M452.506,388.451H59.494c-8.823,0-15.976,7.153-15.976,15.976C43.518,463.743,91.775,512,151.09,512
+                        H360.91c59.315,0,107.572-48.257,107.572-107.572C468.482,395.604,461.329,388.451,452.506,388.451z"/>
+                    <path style="fill:#A2B3BF;" d="M189.227,466.202h-18.338c-8.823,0-15.976-7.153-15.976-15.976c0-8.823,7.153-15.976,15.976-15.976
+                        h18.338c8.823,0,15.976,7.153,15.976,15.976C205.203,459.049,198.05,466.202,189.227,466.202z"/>
+                    <path style="fill:#C9D2D9;" d="M180.058,466.202h-9.169c-8.823,0-15.976-7.153-15.976-15.976c0-8.823,7.153-15.976,15.976-15.976
+                        h9.169V466.202z"/>
+                    <path style="fill:#A2B3BF;" d="M262.282,466.202h-18.338c-8.823,0-15.976-7.153-15.976-15.976c0-8.823,7.153-15.976,15.976-15.976
+                        h18.338c8.823,0,15.976,7.153,15.976,15.976C278.258,459.049,271.105,466.202,262.282,466.202z"/>
+                    <path style="fill:#C9D2D9;" d="M253.113,466.202h-9.169c-8.823,0-15.976-7.153-15.976-15.976c0-8.823,7.153-15.976,15.976-15.976
+                        h9.169V466.202z"/>
+                    <path style="fill:#A2B3BF;" d="M335.337,466.202h-18.338c-8.823,0-15.976-7.153-15.976-15.976c0-8.823,7.153-15.976,15.976-15.976
+                        h18.338c8.823,0,15.976,7.153,15.976,15.976C351.313,459.049,344.16,466.202,335.337,466.202z"/>
+                    <path style="fill:#C9D2D9;" d="M326.168,466.202h-9.169c-8.823,0-15.976-7.153-15.976-15.976c0-8.823,7.153-15.976,15.976-15.976
+                        h9.169V466.202z"/>
+                </svg>
+            `;
+            
+            boat.style.cssText = `
+                position: absolute;
+                left: -25px;
+                bottom: 10px;
+                width: 20px;
+                height: 20px;
+                z-index: 11;
+                animation: sailBoat 15s linear forwards, boatRock 2.5s ease-in-out infinite;
+                transform-origin: center bottom;
+            `;
+            
+            animationContainer.appendChild(boat);
+            
+            // Remove boat after animation completes
+            setTimeout(() => {
+                if (boat.parentNode) {
+                    boat.remove();
+                }
+            }, 15000);
+            
+            // Schedule next boat
+            createSailingBoatAnimation();
+        }, interval);
     }
     
     // Get current Boston time
@@ -3003,6 +3186,38 @@ document.addEventListener('DOMContentLoaded', function() {
             5%, 10% { opacity: 0.8; background: rgba(255, 255, 255, 0.9); }
         }
         
+        @keyframes sailBoat {
+            from { 
+                left: -25px; 
+                opacity: 0; 
+            }
+            5% { 
+                opacity: 1; 
+            }
+            95% { 
+                opacity: 1; 
+            }
+            to { 
+                left: calc(100% + 25px); 
+                opacity: 0; 
+            }
+        }
+        
+        @keyframes boatRock {
+            0%, 100% { 
+                transform: rotate(-2deg) translateY(0px); 
+            }
+            25% { 
+                transform: rotate(1deg) translateY(-1px); 
+            }
+            50% { 
+                transform: rotate(2deg) translateY(0px); 
+            }
+            75% { 
+                transform: rotate(-1deg) translateY(-1px); 
+            }
+        }
+        
         @keyframes planeFly {
             0% { 
                 left: 0px; /* Screen left edge */
@@ -3283,4 +3498,7 @@ document.addEventListener('DOMContentLoaded', function() {
             saveWidgetState();
         }
     });
+    
+    // Start the sailing boat animation
+    createSailingBoatAnimation();
 });

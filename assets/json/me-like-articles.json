@@ -40,6 +40,13 @@
                     "link": "https://www.annualreviews.org/content/journals/10.1146/annurev-polisci-040723-013245"
                 },
                 {
+                    "title": "Google and TikTok rank bundles of information; ChatGPT ranks grains.",
+                    "authors": "Nick Vincent",
+                    "year": 2025,
+                    "commentary": "Interesting analysis that Google, Tiktok, and ChatGPT are all ranking information, but the former two rank more bundled information than the latter. Bundled information has clearer economic, social, and institutional properties, such as notions of originality, labor, etc. Many 'fixes' to AI involve bundling information. Information-bundling and -splitting is therefore relevant for thinking about the economics of AI.",
+                    "link": "https://dataleverage.substack.com/p/google-and-tiktok-rank-bundles-of"
+                },
+                {
                     "title": "AI and the Demise of College Writing",
                     "authors": "Adam Walker",
                     "year": 2025,
@@ -244,6 +251,13 @@
                     "year": 2025,
                     "commentary": "Useful outline of what HCI researchers can contribute to 'AGI'. It's not obvious (and people may fear that) interaction problems will be solved by AGI. Perhaps not?",
                     "link": "https://dl.acm.org/doi/10.1145/3708815"
+                },
+                {
+                    "title": "Code Shaping: Iterative Code Editing with Free-form AI-Interpreted Sketching",
+                    "authors": "Ryan Yen, Jian Zhao, Daniel Vogel",
+                    "year": 2025,
+                    "commentary": "Cool classic HCI-style exploration into a new interaction for code editing using visual sketching, interpreted by VLMs.",
+                    "link": "https://arxiv.org/abs/2502.03719"
                 }
             ]
         },
