@@ -1,8 +1,18 @@
 [
   {
+    "content": "Yeohyun successfully defended her M.S. Thesis",
+    "image": "jun2025_yeohyun_defense.png",
+    "date": "JUN, 2025"
+  },
+  {
+    "content": "Sooyeon won an Honarable Mention Award for C&C 2025 🎉",
+    "image": "jun2025_honorable2.png",
+    "date": "JUN, 2025"
+  },
+  {
     "content": "Yeohyun won an Honarable Mention Award for DIS 2025 🎉",
     "image": "jun2025_honorable.png",
-    "date": "APR, 2025"
+    "date": "JUN, 2025"
   },
   {
     "content": "Bogoan and Sangsu joined DxD as postdoc researchers",
@@ -10,7 +20,7 @@
     "date": "MAY, 2025"
   },
   {
-    "content": "Dasom and her research have been featured on mutiple TV news programs 📺",
+    "content": "Dasom and her research have been featured on <a href='https://youtu.be/Y36zASSEaSs?si=J-Ohg6S6msTX27Wa' target='_blank'>mutiple TV news programs</a>",
     "image": "may2025_tvnews.png",
     "date": "MAY, 2025"
   },

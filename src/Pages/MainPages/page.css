@@ -243,6 +243,12 @@
   transform: translate(0, 0);
 }
 
+.news > .newscontents a {
+  text-decoration: underline;
+  color: inherit;
+  font-weight: inherit;
+}
+
 .newstoggle {
   text-align: center;
   font-weight: 600;

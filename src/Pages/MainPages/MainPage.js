@@ -2,8 +2,8 @@ import React, { useCallback, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Navbar } from "../../Components/Navbar/navbar";
 import { Footer } from "../../Components/Footer/footer";
+import { NewsContainer } from "../../Components/NewsContainer/NewsContainer";
 import coursedata from "../../Data/course.json";
-import newsdata from "../../Data/news.json";
 
 export const MainPage = (props) => {
   const [newsNum, setNewsNum] = useState(8);
@@ -100,29 +100,7 @@ export const MainPage = (props) => {
           </div>
           <img ref={element} src={"/images/thumbnail.png"} alt="thumbnail" />
         </div>
-        <div ref={element} className="title">
-          • NEWS •
-        </div>
-        <div className="newsContainer Wrap">
-          {newsdata.map((news, index) => {
-            return index < newsNum ? (
-              <div className="news" key={news.content}>
-                <img
-                  ref={element}
-                  className="image"
-                  src={"/images/news/" + news.image}
-                  alt={news.content}
-                />
-                <div ref={element} className="date">
-                  {news.date}
-                </div>
-                <div ref={element} className="newscontents">
-                  {news.content}
-                </div>
-              </div>
-            ) : null;
-          })}
-        </div>
+        <NewsContainer limit={newsNum} showTitle={true} />
         <Link to="/news" ref={element} className="newstoggle">
           View All News
         </Link>
