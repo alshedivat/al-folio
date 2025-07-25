@@ -1,5 +1,17 @@
 // Cute Weather Widget for Boston
 document.addEventListener('DOMContentLoaded', function() {
+    // Detect mobile and page type
+    const isMobile = window.innerWidth <= 1200;
+    const isAboutPage = window.location.pathname === '/';
+    
+    // Mobile logic: only show on about page, hide on all other pages
+    if (isMobile && !isAboutPage) {
+        console.log('Mobile detected on non-about page - not creating weather widget');
+        return; // Exit early, don't create widget
+    }
+    
+    console.log('Creating weather widget:', { isMobile, isAboutPage });
+    
     // OpenWeatherMap API configuration
     const API_KEY = 'c63bfb77a842aa6a4c0e5005fdf0bd12';
     const BOSTON_LAT = 42.3601;
@@ -8,9 +20,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // Weather state and caching
     let currentWeather = null;
     let lastWeatherUpdate = 0;
+    let currentWeatherCondition = null;
     const WEATHER_UPDATE_INTERVAL = 60 * 1000; // 1 minute to minimize API calls
     const CACHE_KEY = 'boston_weather_cache';
     const CACHE_DURATION = 2 * 60 * 1000; // 2 minutes cache duration
+    
+    // Flight data state and ultra-conservative caching
+    let currentFlights = [];
+    let lastFlightUpdate = 0;
+    const AEROAPI_KEY = 'ZNKOjf3B4lztBdMOBAltuk2RFbICSDI9';
+    const FLIGHT_UPDATE_INTERVAL = 30 * 1000; // 30 seconds - frequent updates to show new flights
+    const FLIGHT_CACHE_KEY = 'boston_flights_cache';
+    const FLIGHT_CACHE_DURATION = 30 * 60 * 1000; // 30 minutes cache duration
     
     // Widget state persistence
     const WIDGET_STATE_KEY = 'cambridge_widget_state';
@@ -47,24 +68,514 @@ document.addEventListener('DOMContentLoaded', function() {
         return null;
     }
     
-    // Create weather label
+    // Flight alert function
+    function showFlightAlert(flights) {
+        if (!flights || flights.length === 0) {
+            alert('No flights found arriving soon to Boston Logan (BOS)');
+            return;
+        }
+        
+        let alertMessage = `Next ${flights.length} flights arriving at Boston Logan (BOS):\n\n`;
+        
+        flights.forEach((flight, index) => {
+            const flightNumber = `${flight.operator_iata || flight.operator || 'N/A'}${flight.flight_number || ''}`;
+            const originCity = flight.origin?.name || flight.origin?.code_iata || 'Unknown';
+            const arrivalTime = flight.estimated_in || flight.scheduled_in;
+            
+            let timeString = 'Unknown';
+            if (arrivalTime) {
+                const time = new Date(arrivalTime);
+                timeString = time.toLocaleTimeString('en-US', { 
+                    hour: 'numeric', 
+                    minute: '2-digit',
+                    hour12: true,
+                    timeZone: 'America/New_York'  // EST/EDT timezone
+                });
+            }
+            
+            alertMessage += `${index + 1}. Flight ${flightNumber}\n   From: ${originCity}\n   Arriving: ${timeString}\n\n`;
+        });
+        
+        alert(alertMessage);
+    }
+    
+    /* Flight data fetching using FlightAware AeroAPI with CORS proxy - COMMENTED OUT
+    async function fetchFlightData() {
+        const now = Date.now();
+        
+        // Check if we can use cached data (30 minutes cache for more current data)
+        if (now - lastFlightUpdate < FLIGHT_UPDATE_INTERVAL) {
+            const cached = localStorage.getItem(FLIGHT_CACHE_KEY);
+            if (cached) {
+                try {
+                    const cachedData = JSON.parse(cached);
+                    if (now - cachedData.timestamp < FLIGHT_CACHE_DURATION) {
+                        console.log('Using cached flight data');
+                        return cachedData.flights;
+                    }
+                } catch (error) {
+                    console.log('Flight cache parse error');
+                }
+            }
+        }
+        
+        try {
+            console.log('Fetching fresh flight data from FlightAware AeroAPI');
+            
+            // Use a different CORS proxy that supports headers
+            const response = await fetch('https://corsproxy.io/?' + encodeURIComponent('https://aeroapi.flightaware.com/aeroapi/airports/KBOS/flights?max_pages=1'), {
+                headers: {
+                    'x-apikey': AEROAPI_KEY,
+                    'Accept': 'application/json'
+                }
+            });
+            
+            if (!response.ok) {
+                throw new Error(`AeroAPI error: ${response.status}`);
+            }
+            
+            const data = await response.json();
+            
+            // Combine arrivals and scheduled_arrivals for better coverage
+            const allArrivals = [];
+            if (data.arrivals && Array.isArray(data.arrivals)) {
+                allArrivals.push(...data.arrivals);
+            }
+            if (data.scheduled_arrivals && Array.isArray(data.scheduled_arrivals)) {
+                allArrivals.push(...data.scheduled_arrivals);
+            }
+            
+            if (allArrivals.length > 0) {
+                console.log(`Raw API returned ${allArrivals.length} flights`);
+                
+                // Debug: log some flight times
+                allArrivals.slice(0, 3).forEach((flight, i) => {
+                    const arrivalTime = flight.estimated_in || flight.scheduled_in;
+                    console.log(`Flight ${i+1}: ${flight.operator_iata}${flight.flight_number} arriving ${arrivalTime}`);
+                });
+                
+                // Filter for flights arriving within the next 4 hours (future only)
+                const relevantFlights = allArrivals
+                    .filter(flight => {
+                        if (!flight.estimated_in && !flight.scheduled_in) {
+                            return false;
+                        }
+                        
+                        const arrivalTime = new Date(flight.estimated_in || flight.scheduled_in);
+                        const timeDiff = arrivalTime.getTime() - now;
+                        
+                        // Show only future flights arriving within next 4 hours
+                        return timeDiff > 0 && timeDiff < 4 * 60 * 60 * 1000;
+                    })
+                    .sort((a, b) => {
+                        // Sort by arrival time (earliest first)
+                        const timeA = new Date(a.estimated_in || a.scheduled_in).getTime();
+                        const timeB = new Date(b.estimated_in || b.scheduled_in).getTime();
+                        return timeA - timeB;
+                    })
+                    .slice(0, 5); // Limit to 5 flights
+                
+                console.log(`Found ${relevantFlights.length} flights arriving within next 4 hours`);
+                
+                // Cache the results
+                const cacheData = {
+                    flights: relevantFlights,
+                    timestamp: now
+                };
+                localStorage.setItem(FLIGHT_CACHE_KEY, JSON.stringify(cacheData));
+                lastFlightUpdate = now;
+                
+                // Flight alert removed as requested
+                
+                return relevantFlights;
+            }
+            
+            console.log('No flights found in arrivals data');
+            return [];
+            
+        } catch (error) {
+            console.log('Flight data fetch error:', error.message);
+            alert(`Unable to fetch real-time flight data: ${error.message}`);
+            return [];
+        }
+    }
+    */
+    
+    // Boston Logan Airport flight scraping with conservative caching
+    async function fetchFlightData() {
+        try {
+            const now = Date.now();
+            
+            // Check cache first with conservative timing
+            if (now - lastFlightUpdate < FLIGHT_UPDATE_INTERVAL) {
+                try {
+                    const cachedData = JSON.parse(localStorage.getItem(FLIGHT_CACHE_KEY));
+                    if (cachedData && (now - cachedData.timestamp < FLIGHT_CACHE_DURATION)) {
+                        console.log('Using cached Boston Logan flight data');
+                        return cachedData.flights;
+                    }
+                } catch (error) {
+                    console.log('Boston Logan flight cache parse error');
+                }
+            }
+            
+            console.log('Attempting to scrape Boston Logan Airport flight data...');
+            
+            try {
+                // Attempt to scrape Boston Logan flight data
+                const response = await fetch('https://corsproxy.io/?' + encodeURIComponent('https://www.massport.com/logan-airport/flights/flight-status'), {
+                    method: 'GET',
+                    headers: {
+                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+                    }
+                });
+                
+                if (response.ok) {
+                    const html = await response.text();
+                    console.log(`Successfully retrieved Boston Logan page (${html.length} characters)`);
+                    
+                    // Try to parse flight data from the HTML
+                    const flights = parseBostonLoganHTML(html);
+                    
+                    if (flights.length > 0) {
+                        console.log(`Successfully parsed ${flights.length} flights from Boston Logan`);
+                        
+                        // Cache the results
+                        localStorage.setItem(FLIGHT_CACHE_KEY, JSON.stringify({
+                            timestamp: now,
+                            flights: flights,
+                        }));
+                        
+                        lastFlightUpdate = now;
+                        return flights;
+                    } else {
+                        console.log('No flights parsed from Boston Logan, falling back to mock data');
+                    }
+                } else {
+                    console.log(`Boston Logan scraping failed: ${response.status}`);
+                }
+            } catch (error) {
+                console.log('Boston Logan scraping error:', error.message);
+            }
+            
+            // Fallback to realistic mock data with rotating flights
+            console.log('Using realistic mock flight data for Boston Logan Airport');
+            
+            const airlines = [
+                { code: 'AA', name: 'American Airlines' },
+                { code: 'DL', name: 'Delta Air Lines' }, 
+                { code: 'UA', name: 'United Airlines' },
+                { code: 'B6', name: 'JetBlue Airways' },
+                { code: 'AS', name: 'Alaska Airlines' },
+                { code: 'SW', name: 'Southwest Airlines' },
+                { code: 'F9', name: 'Frontier Airlines' }
+            ];
+            
+            const origins = [
+                { name: 'New York', code_iata: 'JFK' },
+                { name: 'Chicago', code_iata: 'ORD' },
+                { name: 'San Francisco', code_iata: 'SFO' },
+                { name: 'Los Angeles', code_iata: 'LAX' },
+                { name: 'Seattle', code_iata: 'SEA' },
+                { name: 'Miami', code_iata: 'MIA' },
+                { name: 'Denver', code_iata: 'DEN' },
+                { name: 'Atlanta', code_iata: 'ATL' },
+                { name: 'Phoenix', code_iata: 'PHX' },
+                { name: 'Dallas', code_iata: 'DFW' }
+            ];
+            
+            // Create rotating realistic flight data based on current time
+            const baseTime = Math.floor(Date.now() / 30000) * 30000;
+            const mockFlights = [];
+            
+            for (let i = 0; i < 5; i++) {
+                const airline = airlines[(Math.floor(baseTime / 30000) + i) % airlines.length];
+                const origin = origins[(Math.floor(baseTime / 30000) + i) % origins.length];
+                const flightNumber = String(1000 + ((Math.floor(baseTime / 30000) + i) % 8999));
+                const arrivalTime = new Date(baseTime + (30 + i * 15) * 60 * 1000);
+                
+                mockFlights.push({
+                    flight: `${airline.code}${flightNumber}`,
+                    operator_iata: airline.code,
+                    flight_number: flightNumber,
+                    origin: origin,
+                    estimated_in: arrivalTime.toISOString(),
+                    time: arrivalTime
+                });
+            }
+            
+            console.log(`Generated ${mockFlights.length} rotating mock flights from Boston Logan`);
+            
+            // Cache the results
+            localStorage.setItem(FLIGHT_CACHE_KEY, JSON.stringify({
+                timestamp: now,
+                flights: mockFlights,
+            }));
+            
+            lastFlightUpdate = now;
+            
+            return mockFlights;
+            
+        } catch (error) {
+            console.log('Boston Logan flight fetch error:', error.message);
+            // Return minimal fallback data
+            return [
+                { 
+                    flight: 'AA1234', 
+                    operator_iata: 'AA',
+                    flight_number: '1234',
+                    origin: { name: 'New York', code_iata: 'JFK' },
+                    estimated_in: new Date(Date.now() + 30 * 60 * 1000).toISOString(),
+                    time: new Date(Date.now() + 30 * 60 * 1000)
+                }
+            ];
+        }
+    }
+    
+    // Helper function to parse Boston Logan HTML for flight data
+    function parseBostonLoganHTML(html) {
+        const flights = [];
+        
+        try {
+            // Look for potential flight data patterns in the HTML
+            // This is a simplified parser - real implementation would need more sophisticated parsing
+            
+            // Look for flight numbers (AA1234, DL5678, etc.)
+            const flightNumberPattern = /([A-Z]{2})(\d{3,4})/g;
+            const matches = [...html.matchAll(flightNumberPattern)];
+            
+            // Look for airport codes (JFK, LAX, etc.) 
+            const airportPattern = /\b([A-Z]{3})\b/g;
+            const airportMatches = [...html.matchAll(airportPattern)];
+            
+            // Look for time patterns (7:30 PM, 14:25, etc.)
+            const timePattern = /(\d{1,2}):(\d{2})\s*(AM|PM|am|pm)?/g;
+            const timeMatches = [...html.matchAll(timePattern)];
+            
+            console.log(`Found ${matches.length} potential flight numbers, ${airportMatches.length} airport codes, ${timeMatches.length} time patterns`);
+            
+            // Since the website likely uses JavaScript to render flight data,
+            // and we can't execute JavaScript in this context,
+            // we'll return empty array to fall back to mock data
+            return [];
+            
+        } catch (error) {
+            console.log('Error parsing Boston Logan HTML:', error.message);
+            return [];
+        }
+    }
+    
+    // Create info button and popup functionality
+    function createInfoButton() {
+        // Create info button with neon styling
+        const infoButton = document.createElement('div');
+        infoButton.id = 'info-button';
+        infoButton.innerHTML = 'i';
+        infoButton.style.cssText = `
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #4a0000 0%, #800000 100%);
+            border: 2px solid #ff4444;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: #ff4444;
+            cursor: pointer;
+            z-index: 10000;
+            box-shadow: 
+                0 0 20px rgba(255, 68, 68, 0.5),
+                0 0 40px rgba(255, 68, 68, 0.3),
+                0 0 60px rgba(255, 68, 68, 0.1),
+                inset 0 0 20px rgba(255, 68, 68, 0.1);
+            transition: all 0.3s ease;
+            text-shadow: 0 0 10px #ff4444;
+        `;
+        
+        // Create popup overlay
+        const popupOverlay = document.createElement('div');
+        popupOverlay.id = 'info-popup-overlay';
+        popupOverlay.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(80, 0, 0, 0.6);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 20000;
+            backdrop-filter: blur(2px);
+            cursor: inherit;
+        `;
+        
+        // Create popup content
+        const popupContent = document.createElement('div');
+        popupContent.style.cssText = `
+            background: linear-gradient(135deg, #2a0000 0%, #4a0000 50%, #2a0000 100%);
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 550px;
+            width: 85%;
+            max-height: 75vh;
+            overflow-y: auto;
+            position: relative;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            border: 2px solid #ff4444;
+            box-shadow: 0 10px 40px rgba(255, 68, 68, 0.4);
+            cursor: inherit;
+        `;
+        
+        // Create close button
+        const closeButton = document.createElement('div');
+        closeButton.innerHTML = '×';
+        closeButton.style.cssText = `
+            position: absolute;
+            top: 12px;
+            right: 15px;
+            font-size: 28px;
+            cursor: pointer;
+            color: #ff6666;
+            transition: all 0.3s ease;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-weight: 300;
+        `;
+        
+        closeButton.addEventListener('mouseenter', () => {
+            closeButton.style.color = '#ffaaaa';
+            closeButton.style.transform = 'scale(1.1)';
+        });
+        closeButton.addEventListener('mouseleave', () => {
+            closeButton.style.color = '#ff6666';
+            closeButton.style.transform = 'scale(1)';
+        });
+        
+        // Popup message with dark red styling
+        popupContent.innerHTML = `
+            <h2 style="margin-top: 0; color: #ffcccc; font-size: 24px; text-align: left; font-weight: 600;">Welcome to my website!</h2>
+            <p style="color: #ffaaaa; font-size: 15px; margin-bottom: 20px; text-align: left;">My website is a little bit eccentric, since I'm letting my design ideas go wild on this personal digital space. Notably, the following features:</p>
+            <ol style="color: #ff9999; font-size: 14px; padding-left: 20px; text-align: left;">
+                <li style="margin-bottom: 12px;">I've taken a daily word from the "obscure dictionary of sorrows" which will float around the cursor. Press <kbd style="background: #660000; color: #ffaaaa; padding: 2px 6px; border-radius: 3px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border: 1px solid #aa4444; font-size: 12px;">[m]</kbd> for a meaning of this word, and <kbd style="background: #660000; color: #ffaaaa; padding: 2px 6px; border-radius: 3px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border: 1px solid #aa4444; font-size: 12px;">[e]</kbd> to remove the word. My intent is that having this word float around your cursor gives a bit of mild friction that invokes reflection.</li>
+                <li style="margin-bottom: 12px;">I've added art and quotes that I like around the website, especially art from the Better Images of AI project. I think these images are worth looking at in detail, so on transitions between pages, they are displayed for 3 seconds. You can click space or tap to skip them though.</li>
+                <li style="margin-bottom: 12px;">I have a mini Cambridge widget with the weather and time in Boston on the right margin, to ground a little piece of my digital world with my physical world. Occasionally, planes will land in the widget, carrying a banner that when clicked on will open a random Wikipedia page. Press <kbd style="background: #660000; color: #ffaaaa; padding: 2px 6px; border-radius: 3px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border: 1px solid #aa4444; font-size: 12px;">[p]</kbd> to disable this.</li>
+            </ol>
+            <p style="color: #ff9999; font-size: 14px; text-align: left; margin-top: 20px;">This website is my sandbox for weird designs, so thank you for bearing with me! Press <kbd style="background: #660000; color: #ffaaaa; padding: 2px 6px; border-radius: 3px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; border: 1px solid #aa4444; font-size: 12px;">[i]</kbd> or click the button in the bottom left to show this information again.</p>
+        `;
+        
+        popupContent.appendChild(closeButton);
+        popupOverlay.appendChild(popupContent);
+        
+        // Add elements to page
+        document.body.appendChild(infoButton);
+        document.body.appendChild(popupOverlay);
+        
+        // Show/hide popup functions
+        function showPopup() {
+            popupOverlay.style.display = 'flex';
+            setTimeout(() => {
+                popupOverlay.style.opacity = '1';
+            }, 10);
+        }
+        
+        function hidePopup() {
+            popupOverlay.style.opacity = '0';
+            setTimeout(() => {
+                popupOverlay.style.display = 'none';
+            }, 300);
+        }
+        
+        // Event listeners
+        infoButton.addEventListener('click', showPopup);
+        closeButton.addEventListener('click', hidePopup);
+        popupOverlay.addEventListener('click', (e) => {
+            if (e.target === popupOverlay) {
+                hidePopup();
+            }
+        });
+        
+        // Keyboard listener for [i] key
+        document.addEventListener('keydown', (e) => {
+            if (e.key.toLowerCase() === 'i' && !e.ctrlKey && !e.metaKey && !e.altKey) {
+                if (popupOverlay.style.display === 'flex') {
+                    hidePopup();
+                } else {
+                    showPopup();
+                }
+            }
+        });
+        
+        // Enhanced hover effects for neon button - keeping it red
+        infoButton.addEventListener('mouseenter', () => {
+            infoButton.style.transform = 'scale(1.15)';
+            infoButton.style.boxShadow = `
+                0 0 30px rgba(255, 68, 68, 0.8),
+                0 0 60px rgba(255, 68, 68, 0.5),
+                0 0 90px rgba(255, 68, 68, 0.3),
+                inset 0 0 30px rgba(255, 68, 68, 0.2)`;
+            infoButton.style.color = '#ffffff';
+            infoButton.style.textShadow = '0 0 20px #ff4444';
+            infoButton.style.borderColor = '#ff6666';
+        });
+        
+        infoButton.addEventListener('mouseleave', () => {
+            infoButton.style.transform = 'scale(1)';
+            infoButton.style.boxShadow = `
+                0 0 20px rgba(255, 68, 68, 0.5),
+                0 0 40px rgba(255, 68, 68, 0.3),
+                0 0 60px rgba(255, 68, 68, 0.1),
+                inset 0 0 20px rgba(255, 68, 68, 0.1)`;
+            infoButton.style.color = '#ff4444';
+            infoButton.style.textShadow = '0 0 10px #ff4444';
+            infoButton.style.borderColor = '#ff4444';
+        });
+        
+        // Add CSS transitions
+        popupOverlay.style.transition = 'opacity 0.3s ease';
+        popupOverlay.style.opacity = '0';
+        
+        // Show popup on first visit
+        const hasVisitedBefore = localStorage.getItem('hasVisitedWebsite');
+        if (!hasVisitedBefore) {
+            setTimeout(() => {
+                showPopup();
+                localStorage.setItem('hasVisitedWebsite', 'true');
+            }, 1000); // Show after 1 second delay
+        }
+    }
+
+    // Create weather label conditionally
     const weatherLabel = document.createElement('div');
     weatherLabel.className = 'weather-label';
-    weatherLabel.style.cssText = `
-        position: fixed;
-        top: 215px;
-        right: 20px;
-        width: 250px;
-        text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 0.7rem;
-        color: rgba(255, 255, 255, 0.6);
-        z-index: 1001;
-        pointer-events: none;
-        margin-bottom: 5px;
-    `;
-    weatherLabel.textContent = 'Cambridge, MA';
-    document.body.appendChild(weatherLabel);
+    
+    if (isMobile && isAboutPage) {
+        // Don't show label on mobile inline widget (handled by h2)
+        weatherLabel.style.display = 'none';
+    } else {
+        // Desktop label positioning
+        weatherLabel.style.cssText = `
+            position: fixed;
+            top: 175px;
+            right: 20px;
+            width: 250px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 0.7rem;
+            color: rgba(255, 255, 255, 0.6);
+            z-index: 1001;
+            pointer-events: none;
+            margin-bottom: 5px;
+        `;
+        weatherLabel.textContent = 'Cambridge, MA';
+        document.body.appendChild(weatherLabel);
+    }
     
     // Function to get dynamic sky background based on weather and time
     function getSkyBackground(weatherData = null) {
@@ -188,33 +699,110 @@ document.addEventListener('DOMContentLoaded', function() {
         return `linear-gradient(180deg, ${skyColor1} 0%, ${skyColor2} 100%)`;
     }
     
-    // Create weather widget
+    // Create weather widget with conditional placement
     const weatherWidget = document.createElement('div');
     weatherWidget.className = 'weather-widget';
-    weatherWidget.style.cssText = `
-        position: fixed;
-        top: 240px;
-        right: 20px;
-        width: 250px;
-        height: 250px;
-        background: ${getSkyBackground()};
-        border: 1px solid rgba(255, 68, 68, 0.3);
-        border-radius: 12px;
-        z-index: 1000;
-        pointer-events: none;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 0.75rem;
-        color: rgba(255, 255, 255, 0.8);
-        backdrop-filter: blur(10px);
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-        transition: all 0.3s ease;
-        overflow: hidden;
-    `;
-    document.body.appendChild(weatherWidget);
+    
+    if (isMobile && isAboutPage) {
+        // Mobile inline styling for about page
+        weatherWidget.style.cssText = `
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            height: 200px;
+            margin: 0 auto;
+            background: ${getSkyBackground()};
+            border: 1px solid rgba(255, 68, 68, 0.3);
+            border-radius: 12px;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            overflow: hidden;
+        `;
+        
+        // Find news section and insert widget after it
+        setTimeout(() => {
+            // Wait for page to fully load
+            const allH2s = document.querySelectorAll('h2');
+            let newsH2 = null;
+            allH2s.forEach(h2 => {
+                if (h2.textContent.toLowerCase().includes('news')) {
+                    newsH2 = h2;
+                }
+            });
+            
+            if (newsH2) {
+                // Find the end of the news section (next hr)
+                let insertPoint = newsH2.parentElement;
+                let nextElement = insertPoint.nextElementSibling;
+                while (nextElement && !nextElement.matches('hr')) {
+                    insertPoint = nextElement;
+                    nextElement = nextElement.nextElementSibling;
+                }
+                
+                // Create a weather section container
+                const weatherSection = document.createElement('div');
+                weatherSection.innerHTML = `
+                    <hr class="random-section-divider">
+                    <h2 style="text-align: left; margin: 0 0 1.5rem 0;">weather</h2>
+                `;
+                weatherSection.appendChild(weatherWidget);
+                
+                // Insert after the news section
+                if (nextElement && nextElement.matches('hr')) {
+                    nextElement.insertAdjacentElement('afterend', weatherSection);
+                } else {
+                    insertPoint.insertAdjacentElement('afterend', weatherSection);
+                }
+            } else {
+                // Fallback: append to main article
+                const article = document.querySelector('article');
+                if (article) {
+                    const weatherSection = document.createElement('div');
+                    weatherSection.innerHTML = `
+                        <hr class="random-section-divider">
+                        <h2 style="text-align: left; margin: 0 0 1.5rem 0;">weather</h2>
+                    `;
+                    weatherSection.appendChild(weatherWidget);
+                    article.appendChild(weatherSection);
+                }
+            }
+        }, 100);
+    } else {
+        // Desktop fixed positioning (original behavior)
+        weatherWidget.style.cssText = `
+            position: fixed;
+            top: 200px;
+            right: 20px;
+            width: 250px;
+            height: 25vw;
+            background: ${getSkyBackground()};
+            border: 1px solid rgba(255, 68, 68, 0.3);
+            border-radius: 12px;
+            z-index: 1000;
+            pointer-events: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 0.75rem;
+            color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            box-sizing: border-box;
+            transition: all 0.3s ease;
+            overflow: hidden;
+        `;
+        document.body.appendChild(weatherWidget);
+    }
     
     // Create animation container inside widget
     const animationContainer = document.createElement('div');
@@ -229,6 +817,235 @@ document.addEventListener('DOMContentLoaded', function() {
         border-radius: 12px;
     `;
     weatherWidget.appendChild(animationContainer);
+    
+    // Create full-screen container for cross-screen plane animations
+    const fullScreenContainer = document.createElement('div');
+    fullScreenContainer.className = 'full-screen-planes';
+    fullScreenContainer.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        pointer-events: none;
+        z-index: 1000;
+    `;
+    document.body.appendChild(fullScreenContainer);
+    
+    // Flight display system
+    let activeFlightPlanes = [];
+    
+    // Create animated plane for imminent arrivals (within 2 minutes)
+    function createImminentArrivalPlane(flightData) {
+        const planeContainer = document.createElement('div');
+        planeContainer.className = 'imminent-arrival-plane-container';
+        
+        // Create animated plane element
+        const planeElement = document.createElement('div');
+        planeElement.className = 'weather-plane imminent-plane';
+        planeElement.style.cssText = `
+            position: absolute;
+            width: 50px;
+            height: 35px;
+            background-image: url('/assets/img/Hand-painted Side View.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: 1500;
+            pointer-events: none;
+            opacity: 1;
+            transform: scaleX(-1);
+            filter: brightness(1.3) drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+            animation: imminentFlight 18s linear infinite;
+        `;
+        
+        // Create enhanced info bubble
+        const infoBubble = document.createElement('div');
+        infoBubble.className = 'imminent-flight-info-bubble';
+        
+        // Extract flight information
+        let airline = flightData.operator_iata || flightData.operator || 'Unknown';
+        if (flightData.flight_number) {
+            airline += flightData.flight_number;
+        }
+        
+        const originName = flightData.origin?.name || flightData.origin?.code_iata || 'Unknown';
+        const arrivalTime = new Date(flightData.estimated_in || flightData.scheduled_in);
+        const timeString = arrivalTime.toLocaleTimeString('en-US', { 
+            hour: 'numeric', 
+            minute: '2-digit',
+            hour12: true,
+            timeZone: 'America/New_York'
+        });
+        
+        infoBubble.innerHTML = `
+            <div style="font-weight: bold; color: #ffff00; text-shadow: 0 0 5px #ffff00;">ARRIVING NOW</div>
+            <div>from ${originName}, arriving ${timeString}</div>
+        `;
+        
+        infoBubble.style.cssText = `
+            position: absolute;
+            top: -70px;
+            left: -40px;
+            background: linear-gradient(135deg, rgba(0, 0, 0, 0.9), rgba(40, 40, 40, 0.9));
+            color: white;
+            padding: 6px 10px;
+            border-radius: 6px;
+            font-size: 9px;
+            white-space: nowrap;
+            z-index: 1501;
+            border: 2px solid #ffff00;
+            box-shadow: 0 0 15px rgba(255, 255, 0, 0.5);
+            animation: pulseGlow 2s ease-in-out infinite alternate;
+        `;
+        
+        planeContainer.appendChild(planeElement);
+        planeContainer.appendChild(infoBubble);
+        
+        return planeContainer;
+    }
+    
+    // New simple plane system - straight line flight from left screen to widget right edge
+    function startNewPlaneSystem() {
+        // Check if planes are disabled via localStorage
+        if (localStorage.getItem('planesDisabled') === 'true') {
+            return; // Don't start the plane system
+        }
+        
+        let planeTimeoutId = null;
+        
+        function createPlane() {
+            const planeContainer = document.createElement('div');
+            planeContainer.className = 'plane-container';
+            
+            // Start position variation: top of left edge (5-25vh from screen top)
+            const startHeight = 5 + Math.random() * 20; // 5-25vh
+            
+            // End position variation: middle to top of widget area
+            // Widget is at 200px from top, so aim for 180-220px (widget middle to top area)
+            const endHeight = 180 + Math.random() * 40; // 180-220px
+            
+            // Set CSS variables for dynamic start and end positions
+            planeContainer.style.setProperty('--start-height', `${startHeight}vh`);
+            planeContainer.style.setProperty('--end-height', `${endHeight}px`);
+            
+            planeContainer.style.cssText = `
+                position: fixed;
+                left: -50px;
+                top: var(--start-height);
+                z-index: 1500;
+                pointer-events: auto;
+                cursor: pointer;
+                animation: simplePlaneFlight 19.2s linear;
+                --start-height: ${startHeight}vh;
+                --end-height: ${endHeight}px;
+            `;
+            
+            // Create the plane element
+            const planeElement = document.createElement('div');
+            planeElement.className = 'weather-plane';
+            planeElement.style.cssText = `
+                position: relative;
+                width: 55px;
+                height: 38px;
+                background-image: url('/assets/img/Hand-painted Side View.png');
+                background-size: contain;
+                background-repeat: no-repeat;
+                background-position: center;
+                transform: scaleX(-1);
+                opacity: 1;
+            `;
+            
+            // Create the fluttering banner
+            const banner = document.createElement('div');
+            banner.className = 'plane-banner';
+            banner.textContent = 'click me';
+            banner.style.cssText = `
+                position: absolute;
+                right: 60px;
+                top: 50%;
+                transform: translateY(-50%);
+                background: linear-gradient(45deg, #ff4444, #ff6666);
+                color: white;
+                padding: 3px 8px;
+                border-radius: 4px;
+                font-size: 11px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+                white-space: nowrap;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+                animation: bannerFlutter 0.8s ease-in-out infinite alternate;
+            `;
+            
+            planeContainer.appendChild(planeElement);
+            planeContainer.appendChild(banner);
+            
+            // Add click handler
+            planeContainer.addEventListener('click', () => {
+                window.open('https://en.wikipedia.org/wiki/Special:RandomInCategory/Featured_articles', '_blank');
+            });
+            
+            document.body.appendChild(planeContainer);
+            
+            // Clean up after animation completes
+            setTimeout(() => {
+                if (planeContainer.parentNode) {
+                    planeContainer.parentNode.removeChild(planeContainer);
+                }
+            }, 19200);
+        }
+        
+        function scheduleNextPlane() {
+            // Random interval between 2-3 minutes (120-180 seconds)
+            const interval = 120000 + Math.random() * 60000;
+            planeTimeoutId = setTimeout(() => {
+                if (localStorage.getItem('planesDisabled') !== 'true') {
+                    createPlane();
+                    scheduleNextPlane();
+                }
+            }, interval);
+        }
+        
+        // Start first plane after 10 seconds
+        planeTimeoutId = setTimeout(() => {
+            if (localStorage.getItem('planesDisabled') !== 'true') {
+                createPlane();
+                scheduleNextPlane();
+            }
+        }, 10000);
+        
+        // Store timeout ID globally for potential cleanup
+        window.planeSystemTimeoutId = planeTimeoutId;
+    }
+    
+    
+    
+    // Initialize new simple plane system
+    startNewPlaneSystem();
+    
+    // Add keyboard listener for plane toggle
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'p' || e.key === 'P') {
+            const currentState = localStorage.getItem('planesDisabled') === 'true';
+            const newState = !currentState;
+            localStorage.setItem('planesDisabled', newState.toString());
+            
+            if (newState) {
+                // Planes disabled - clear any pending timeouts
+                if (window.planeSystemTimeoutId) {
+                    clearTimeout(window.planeSystemTimeoutId);
+                }
+                // Remove any existing planes
+                const existingPlanes = document.querySelectorAll('.plane-container');
+                existingPlanes.forEach(plane => plane.remove());
+                console.log('Planes disabled. Press [p] again to re-enable.');
+            } else {
+                // Planes re-enabled - restart the system
+                console.log('Planes re-enabled.');
+                startNewPlaneSystem();
+            }
+        }
+    });
     
     // Create weather info container
     const weatherInfo = document.createElement('div');
@@ -258,7 +1075,7 @@ document.addEventListener('DOMContentLoaded', function() {
         bottom: 0;
         left: 0;
         width: 100%;
-        height: 160px;
+        height: 140px;
         z-index: 1;
         overflow: visible;
         border-radius: 0 0 12px 12px;
@@ -328,7 +1145,13 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Create cute weather animations based on time and weather
     function createWeatherAnimation(condition) {
-        animationContainer.innerHTML = '';
+        // Only clear animations if weather condition actually changed
+        if (currentWeatherCondition !== condition) {
+            // Clear only weather-specific animations, preserve persistent ones like plane
+            const weatherElements = animationContainer.querySelectorAll(':not(.weather-plane)');
+            weatherElements.forEach(element => element.remove());
+            currentWeatherCondition = condition;
+        }
         
         const now = new Date();
         const hour = now.getHours();
@@ -339,12 +1162,13 @@ document.addEventListener('DOMContentLoaded', function() {
             // Always show sun during daytime, regardless of weather condition
             createSunAnimation(currentWeather);
         } else {
-            // Show moon at night for clear conditions
-            if (condition.toLowerCase() === 'clear') {
+            // Show moon at night for most conditions (unless very stormy)
+            const condition_lower = condition.toLowerCase();
+            if (condition_lower !== 'thunderstorm' && condition_lower !== 'rain') {
                 createMoonAnimation(currentWeather);
             }
             // Always show stars at night (visibility varies by weather)
-            createStarsAnimation(condition.toLowerCase());
+            createStarsAnimation(condition_lower);
         }
         
         // Always show other weather conditions regardless of time
@@ -370,6 +1194,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Sun animation with position based on actual sunrise/sunset times
     function createSunAnimation(weatherData) {
+        // Remove existing sun if it exists
+        const existingSun = animationContainer.querySelector('.weather-sun');
+        if (existingSun) existingSun.remove();
         const now = new Date();
         const currentTimeMs = now.getTime();
         
@@ -399,6 +1226,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const topPosition = 22 - arcHeight;
         
         const sun = document.createElement('div');
+        sun.className = 'weather-sun';
         sun.style.cssText = `
             position: absolute;
             top: ${topPosition}px;
@@ -419,7 +1247,7 @@ document.addEventListener('DOMContentLoaded', function() {
             left: -8px;
             width: 36px;
             height: 36px;
-            background: radial-gradient(circle, rgba(255, 215, 0, 0.4) 0%, rgba(255, 165, 0, 0.2) 50%, transparent 100%);
+            background: radial-gradient(circle, rgba(255, 215, 0, 0.2) 0%, rgba(255, 165, 0, 0.1) 50%, transparent 100%);
             border-radius: 50%;
             animation: sunGlow 3s ease-in-out infinite alternate;
         `;
@@ -428,47 +1256,55 @@ document.addEventListener('DOMContentLoaded', function() {
         animationContainer.appendChild(sun);
     }
     
-    // Stars animation - visibility varies by weather condition
+    // Stars animation - fewer, better-looking stars with twinkling
     function createStarsAnimation(condition) {
-        let starCount = 8;
-        let starOpacity = 0.8;
+        // Remove existing stars if they exist
+        const existingStars = animationContainer.querySelectorAll('.weather-star');
+        existingStars.forEach(star => star.remove());
+        let starCount = 3;
+        let starOpacity = 0.9;
         
-        // Adjust star visibility based on weather
+        // Adjust star visibility based on weather (50% more stars)
         switch (condition) {
             case 'clear':
-                starCount = 12;
-                starOpacity = 0.9;
+                starCount = 6; // was 4
+                starOpacity = 1.0;
                 break;
             case 'clouds':
-                starCount = 6;
-                starOpacity = 0.4;
+                starCount = 3; // was 2
+                starOpacity = 0.6;
                 break;
             case 'rain':
             case 'thunderstorm':
-                starCount = 2;
-                starOpacity = 0.2;
+                starCount = 1; // kept at 1 (already minimal)
+                starOpacity = 0.3;
                 break;
             case 'snow':
-                starCount = 8;
-                starOpacity = 0.6;
+                starCount = 5; // was 3 (rounded up)
+                starOpacity = 0.7;
                 break;
             default:
-                starCount = 8;
-                starOpacity = 0.6;
+                starCount = 5; // was 3 (rounded up)
+                starOpacity = 0.8;
         }
         
         for (let i = 0; i < starCount; i++) {
             const star = document.createElement('div');
+            star.className = 'weather-star';
+            // Most stars are small (1-2px), with occasional larger ones (up to 3px)
+            const starSize = Math.random() < 0.7 ? 1 + Math.random() * 1 : 2 + Math.random() * 1; 
+            
             star.style.cssText = `
                 position: absolute;
-                top: ${5 + Math.random() * 60}px;
-                left: ${10 + Math.random() * 230}px;
-                width: ${1 + Math.random() * 2}px;
-                height: ${1 + Math.random() * 2}px;
+                top: ${10 + Math.random() * 120}px;
+                left: ${15 + Math.random() * 220}px;
+                width: ${starSize}px;
+                height: ${starSize}px;
                 background: rgba(255, 255, 255, ${starOpacity});
                 border-radius: 50%;
-                animation: starTwinkle ${2 + Math.random() * 4}s ease-in-out infinite alternate;
-                animation-delay: ${Math.random() * 3}s;
+                box-shadow: 0 0 6px rgba(255, 255, 255, 0.8), 0 0 12px rgba(255, 255, 255, 0.4);
+                animation: starTwinkleImproved ${3 + Math.random() * 4}s ease-in-out infinite;
+                animation-delay: ${Math.random() * 5}s;
                 z-index: 11;
             `;
             animationContainer.appendChild(star);
@@ -477,6 +1313,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Moon animation with position based on actual sunset/sunrise times
     function createMoonAnimation(weatherData) {
+        // Remove existing moon if it exists
+        const existingMoon = animationContainer.querySelector('.weather-moon');
+        if (existingMoon) existingMoon.remove();
         const now = new Date();
         const currentTimeMs = now.getTime();
         
@@ -495,30 +1334,43 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         // Calculate moon position during nighttime hours
-        const nightLengthMs = (24 * 60 * 60 * 1000) - (sunsetMs - sunriseMs); // Total night duration
-        let nightProgress;
+        let nightProgress = 0;
         
         if (currentTimeMs >= sunsetMs) {
-            // Evening to midnight
-            nightProgress = (currentTimeMs - sunsetMs) / nightLengthMs;
+            // Evening - from sunset to midnight (next day)
+            const midnightMs = new Date(sunsetMs + 24 * 60 * 60 * 1000).setHours(0, 0, 0, 0);
+            const eveningDurationMs = midnightMs - sunsetMs;
+            nightProgress = (currentTimeMs - sunsetMs) / (eveningDurationMs * 2); // First half of night
         } else if (currentTimeMs <= sunriseMs) {
-            // Midnight to sunrise
-            const midnightMs = sunsetMs + (nightLengthMs / 2);
-            nightProgress = 0.5 + ((currentTimeMs + (24 * 60 * 60 * 1000) - midnightMs) / nightLengthMs);
+            // Early morning - from midnight to sunrise
+            const midnightMs = new Date(currentTimeMs).setHours(0, 0, 0, 0);
+            const morningDurationMs = sunriseMs - midnightMs;
+            nightProgress = 0.5 + ((currentTimeMs - midnightMs) / (morningDurationMs * 2)); // Second half of night
         } else {
-            nightProgress = 0; // Shouldn't show moon during day
+            // Daytime - don't show moon (this shouldn't happen if called correctly)
+            return;
         }
         
         nightProgress = Math.max(0, Math.min(1, nightProgress));
         
-        // Position from right (east) 215px to left (west) 10px
+        // Debug info for moon positioning
+        console.log('Moon positioning:', {
+            currentTime: new Date(currentTimeMs).toLocaleTimeString(),
+            sunrise: new Date(sunriseMs).toLocaleTimeString(),
+            sunset: new Date(sunsetMs).toLocaleTimeString(),
+            nightProgress: nightProgress.toFixed(3),
+            isNight: currentTimeMs >= sunsetMs || currentTimeMs <= sunriseMs
+        });
+        
+        // Position from east (right) to west (left) across the sky
         const leftPosition = 215 - (nightProgress * 205);
         
-        // Height follows arc - highest at midnight
-        const arcHeight = Math.sin(nightProgress * Math.PI) * 15; // 0-15px arc
-        const topPosition = 18 - arcHeight;
+        // Height follows realistic lunar arc - highest at midnight (nightProgress = 0.5)
+        const arcHeight = Math.sin(nightProgress * Math.PI) * 12; // 0-12px arc for lower position
+        const topPosition = 50 - arcHeight; // Start from 50px down for much lower moon
         
         const moon = document.createElement('div');
+        moon.className = 'weather-moon';
         moon.style.cssText = `
             position: absolute;
             top: ${topPosition}px;
@@ -538,27 +1390,33 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Cloud animation - sleek rectangular style with randomness
     function createCloudAnimation() {
+        // Check if clouds already exist to prevent duplicates
+        if (animationContainer.querySelector('.weather-cloud')) {
+            return;
+        }
+        
         for (let i = 0; i < 3; i++) {
             const cloud = document.createElement('div');
-            // Add realistic randomness to speed and timing
-            const baseSpeed = 16 + (i * 2); // Base speed 16, 18, 20 seconds
-            const speedVariation = (Math.random() - 0.5) * 4; // ±2 seconds variation
-            const finalSpeed = Math.max(12, baseSpeed + speedVariation);
+            cloud.className = 'weather-cloud';
             
-            const baseDelay = i * 2; // Base delay 0, 2, 4 seconds  
-            const delayVariation = Math.random() * 3; // 0-3 seconds additional delay
-            const finalDelay = baseDelay + delayVariation;
+            // Staggered, continuous cloud movement with consistent speeds
+            const baseSpeed = 18 + (i * 2); // Base speed 18, 20, 22 seconds
+            const finalSpeed = baseSpeed; // Remove random variation for smoother continuous motion
+            
+            const baseDelay = i * 6; // Stagger clouds by 6 seconds each
+            const finalDelay = baseDelay;
             
             cloud.style.cssText = `
                 position: absolute;
-                top: ${10 + i * 15 + (Math.random() - 0.5) * 6}px;
-                left: ${-100 - (Math.random() * 20)}px;
-                width: ${75 + Math.random() * 10}px;
-                height: ${10 + Math.random() * 4}px;
-                background: rgba(200, 200, 220, ${0.7 + Math.random() * 0.2});
+                top: ${25 + i * 18}px;
+                left: -100px;
+                width: ${70 + i * 8}px;
+                height: ${8 + i * 2}px;
+                background: rgba(200, 200, 220, ${0.75 + i * 0.05});
                 border-radius: 20px;
                 animation: cloudFloat ${finalSpeed}s linear infinite;
                 animation-delay: ${finalDelay}s;
+                z-index: 5;
             `;
             animationContainer.appendChild(cloud);
         }
@@ -663,7 +1521,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const hour = now.getHours();
         const isDaytime = hour >= 6 && hour < 18;
         const windowOpacity = isDaytime ? 0.3 : 0.8;
-        const buildingBrightness = isDaytime ? 1.2 : 0.8;
+        // Use solid colors instead of transparency
+        const buildingBrightness = isDaytime ? 1.0 : 1.0;
         
         // Add Charles River at the bottom - larger riverbank
         const charlesRiver = document.createElement('div');
@@ -680,109 +1539,21 @@ document.addEventListener('DOMContentLoaded', function() {
             z-index: 0;
         `;
         
-        // Add subtle water shimmer with multiple layers for depth
-        const waterShimmer = document.createElement('div');
-        waterShimmer.style.cssText = `
-            position: absolute;
-            top: 2px;
-            left: 0;
-            width: 100%;
-            height: 2px;
-            background: linear-gradient(90deg, 
-                transparent 0%, 
-                rgba(150, 200, 250, 0.2) 50%, 
-                transparent 100%);
-            animation: riverFlowMain 12s ease-in-out infinite;
-        `;
-        charlesRiver.appendChild(waterShimmer);
-        
-        // Add secondary water movement layer for more realism
-        const waterFlow1 = document.createElement('div');
-        waterFlow1.style.cssText = `
-            position: absolute;
-            top: 6px;
-            left: 0;
-            width: 120%;
-            height: 1px;
-            background: linear-gradient(90deg, 
-                transparent 0%, 
-                rgba(120, 180, 230, 0.15) 30%, 
-                rgba(140, 190, 240, 0.15) 70%, 
-                transparent 100%);
-            animation: riverFlowSecondary 16s ease-in-out infinite;
-        `;
-        charlesRiver.appendChild(waterFlow1);
-        
-        // Add tertiary subtle flow for depth
-        const waterFlow2 = document.createElement('div');
-        waterFlow2.style.cssText = `
-            position: absolute;
-            top: 10px;
-            left: 0;
-            width: 110%;
-            height: 1px;
-            background: linear-gradient(90deg, 
-                transparent 0%, 
-                rgba(100, 160, 210, 0.1) 40%, 
-                rgba(130, 180, 220, 0.1) 60%, 
-                transparent 100%);
-            animation: riverFlowTertiary 20s ease-in-out infinite reverse;
-        `;
-        charlesRiver.appendChild(waterFlow2);
-        
-        // Add occasional gentle ripples
-        const ripples = document.createElement('div');
-        ripples.style.cssText = `
-            position: absolute;
-            top: 4px;
-            left: 0;
-            width: 100%;
-            height: 8px;
-            background: repeating-linear-gradient(90deg, 
-                transparent 0px, 
-                transparent 15px,
-                rgba(160, 200, 240, 0.08) 16px, 
-                rgba(160, 200, 240, 0.08) 18px,
-                transparent 19px,
-                transparent 35px);
-            animation: riverRipples 24s ease-in-out infinite;
-        `;
-        charlesRiver.appendChild(ripples);
-        
-        // Add floating debris/leaves for subtle motion cues
-        for (let i = 0; i < 3; i++) {
-            const debris = document.createElement('div');
-            debris.style.cssText = `
+        // Add simple flowing water lines
+        for (let i = 0; i < 5; i++) {
+            const waterLine = document.createElement('div');
+            waterLine.style.cssText = `
                 position: absolute;
-                top: ${8 + Math.random() * 8}px;
-                left: ${-5 - Math.random() * 10}px;
-                width: ${1 + Math.random()}px;
-                height: ${1 + Math.random()}px;
-                background: rgba(101, 67, 33, 0.4);
-                border-radius: 50%;
-                animation: debrisFloat ${18 + Math.random() * 8}s linear infinite;
-                animation-delay: ${Math.random() * 10}s;
-                z-index: 1;
-            `;
-            charlesRiver.appendChild(debris);
-        }
-        
-        // Add subtle current indicators (very small moving dots)
-        for (let i = 0; i < 4; i++) {
-            const currentDot = document.createElement('div');
-            currentDot.style.cssText = `
-                position: absolute;
-                top: ${6 + Math.random() * 10}px;
-                left: ${-3 - Math.random() * 8}px;
-                width: 0.5px;
-                height: 0.5px;
-                background: rgba(140, 180, 220, 0.3);
-                border-radius: 50%;
-                animation: currentFlow ${14 + Math.random() * 6}s linear infinite;
-                animation-delay: ${Math.random() * 8}s;
+                top: ${6 + i * 3}px;
+                left: -20px;
+                width: 15px;
+                height: 1px;
+                background: rgba(150, 200, 240, 0.6);
+                animation: simpleWaterFlow ${8 + i * 2}s linear infinite;
+                animation-delay: ${i * 1.5}s;
                 z-index: 2;
             `;
-            charlesRiver.appendChild(currentDot);
+            charlesRiver.appendChild(waterLine);
         }
         
         skylineContainer.appendChild(charlesRiver);
@@ -795,7 +1566,7 @@ document.addEventListener('DOMContentLoaded', function() {
             left: 0;
             width: 100%;
             height: 3px;
-            background: rgba(130, 130, 130, ${buildingBrightness});
+            background: rgb(130, 130, 130);
             z-index: 1;
         `;
         skylineContainer.appendChild(riverbankStrip);
@@ -809,8 +1580,8 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 100%;
             height: 8px;
             background: linear-gradient(180deg, 
-                rgba(120, 120, 120, ${buildingBrightness}) 0%, 
-                rgba(100, 100, 100, ${buildingBrightness}) 100%);
+                rgb(120, 120, 120) 0%, 
+                rgb(100, 100, 100) 100%);
             z-index: 1;
         `;
         skylineContainer.appendChild(sidewalk);
@@ -824,8 +1595,8 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 100%;
             height: 12px;
             background: linear-gradient(180deg, 
-                rgba(60, 60, 60, ${buildingBrightness}) 0%, 
-                rgba(40, 40, 40, ${buildingBrightness}) 100%);
+                rgb(60, 60, 60) 0%, 
+                rgb(40, 40, 40) 100%);
             z-index: 1;
         `;
         
@@ -838,8 +1609,8 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 100%;
             height: 1px;
             background: repeating-linear-gradient(90deg, 
-                rgba(200, 200, 200, ${buildingBrightness * 0.6}) 0px, 
-                rgba(200, 200, 200, ${buildingBrightness * 0.6}) 8px, 
+                rgb(200, 200, 200) 0px, 
+                rgb(200, 200, 200) 8px, 
                 transparent 8px, 
                 transparent 12px);
             z-index: 2;
@@ -899,7 +1670,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 left: ${goingRight ? -(carType.width + 5) : 280}px;
                 width: ${carType.width}px;
                 height: ${carType.height}px;
-                z-index: 15;
+                z-index: ${goingRight ? 16 : 15};
                 animation: ${goingRight ? 'carDriveRight' : 'carDriveLeft'} ${carSpeed}s linear forwards;
                 transform: ${goingRight ? 'none' : 'scaleX(-1)'};
             `;
@@ -914,8 +1685,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 height: 70%;
                 background: linear-gradient(180deg, 
                     ${carColor} 0%, 
-                    ${carColor}dd 60%, 
-                    ${carColor}aa 100%);
+                    ${carColor} 60%, 
+                    ${carColor} 100%);
                 border-radius: 2px 2px 1px 1px;
                 box-shadow: inset 0 1px 0 rgba(255,255,255,0.3);
             `;
@@ -931,8 +1702,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     width: 50%;
                     height: 30%;
                     background: linear-gradient(180deg, 
-                        ${carColor}cc 0%, 
-                        ${carColor}88 100%);
+                        ${carColor} 0%, 
+                        ${carColor} 100%);
                     border-radius: 1px 1px 0 0;
                 `;
             } else if (carType.type === 'suv') {
@@ -943,8 +1714,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     width: 60%;
                     height: 40%;
                     background: linear-gradient(180deg, 
-                        ${carColor}cc 0%, 
-                        ${carColor}88 100%);
+                        ${carColor} 0%, 
+                        ${carColor} 100%);
                     border-radius: 1px;
                 `;
             } else { // compact
@@ -955,8 +1726,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     width: 60%;
                     height: 30%;
                     background: linear-gradient(180deg, 
-                        ${carColor}cc 0%, 
-                        ${carColor}88 100%);
+                        ${carColor} 0%, 
+                        ${carColor} 100%);
                     border-radius: 2px 2px 0 0;
                 `;
             }
@@ -970,7 +1741,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 right: 10%;
                 width: 20%;
                 height: 20%;
-                background: rgba(135, 206, 235, 0.6);
+                background: rgb(135, 206, 235);
                 border-radius: 1px;
             `;
             car.appendChild(frontWindow);
@@ -982,7 +1753,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 left: 10%;
                 width: 20%;
                 height: 20%;
-                background: rgba(135, 206, 235, 0.6);
+                background: rgb(135, 206, 235);
                 border-radius: 1px;
             `;
             car.appendChild(rearWindow);
@@ -1055,16 +1826,93 @@ document.addEventListener('DOMContentLoaded', function() {
             }, carSpeed * 1000 + 1000);
         }
         
-        // Start car system - moderate traffic with max limit
-        // Create initial cars immediately
-        for (let i = 0; i < 2; i++) {
-            setTimeout(() => createCarAnimation(), i * 3000);
-        }
-        setInterval(() => {
-            if (Math.random() > 0.3) { // 70% chance each interval (moderate frequency)
-                createCarAnimation();
+        // Time-based car frequency system reflecting real MIT traffic patterns
+        function getCarFrequency() {
+            const now = new Date();
+            const hour = now.getHours();
+            const dayOfWeek = now.getDay(); // 0 = Sunday, 1 = Monday, etc.
+            const isWeekday = dayOfWeek >= 1 && dayOfWeek <= 5;
+            
+            let baseInterval, spawnChance;
+            
+            if (isWeekday) {
+                // Weekday schedule around MIT
+                if (hour >= 7 && hour <= 9) {
+                    // Morning rush hour (7-9 AM) - commuters, students
+                    baseInterval = 3000;
+                    spawnChance = 0.9;
+                } else if (hour >= 17 && hour <= 18.5) {
+                    // Evening rush hour (5-6:30 PM) - leaving campus
+                    baseInterval = 3500;
+                    spawnChance = 0.85;
+                } else if (hour >= 10 && hour <= 16) {
+                    // Daytime traffic (10 AM - 4 PM) - normal campus activity
+                    baseInterval = 6000;
+                    spawnChance = 0.65;
+                } else if (hour >= 19 && hour <= 22) {
+                    // Evening traffic (7-10 PM) - dining, events
+                    baseInterval = 8000;
+                    spawnChance = 0.5;
+                } else {
+                    // Night/early morning (10 PM - 7 AM) - minimal traffic
+                    baseInterval = 15000;
+                    spawnChance = 0.25;
+                }
+            } else {
+                // Weekend schedule - lighter but still active campus
+                if (hour >= 10 && hour <= 18) {
+                    // Weekend daytime - visitors, events
+                    baseInterval = 8000;
+                    spawnChance = 0.6;
+                } else if (hour >= 19 && hour <= 23) {
+                    // Weekend evening - social activities
+                    baseInterval = 10000;
+                    spawnChance = 0.45;
+                } else {
+                    // Weekend night/morning
+                    baseInterval = 18000;
+                    spawnChance = 0.2;
+                }
             }
-        }, 8000 + Math.random() * 6000); // 8-14 seconds (less frequent)
+            
+            // Add natural randomness to intervals
+            const randomVariation = (Math.random() - 0.5) * 0.3;
+            const finalInterval = baseInterval * (1 + randomVariation);
+            
+            return { interval: Math.max(2000, finalInterval), chance: spawnChance };
+        }
+        
+        // Dynamic car spawning with realistic timing
+        function scheduleNextCar() {
+            const { interval, chance } = getCarFrequency();
+            
+            setTimeout(() => {
+                if (Math.random() < chance) {
+                    createCarAnimation();
+                }
+                scheduleNextCar(); // Continue the cycle
+            }, interval);
+        }
+        
+        // Smart initial car deployment based on current time
+        const { chance: initialChance } = getCarFrequency();
+        if (initialChance > 0.7) {
+            // Rush hour - populate road with traffic
+            for (let i = 0; i < 3; i++) {
+                setTimeout(() => createCarAnimation(), i * 2000);
+            }
+        } else if (initialChance > 0.4) {
+            // Moderate traffic
+            for (let i = 0; i < 2; i++) {
+                setTimeout(() => createCarAnimation(), i * 3000);
+            }
+        } else {
+            // Light traffic
+            setTimeout(() => createCarAnimation(), 2000);
+        }
+        
+        // Begin dynamic traffic scheduling
+        scheduleNextCar();
         
         // Pedestrian tracking for maximum limit
         let activePedestrians = 0;
@@ -1381,7 +2229,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 left: currentLeft,
                 width: width,
                 height: height,
-                color: `rgba(${r}, ${g}, ${b}, ${buildingBrightness * 0.75})`
+                color: `rgb(${r}, ${g}, ${b})`
             });
             
             // Overlap buildings slightly for dense coverage
@@ -1399,7 +2247,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 height: ${building.height}px;
                 background: linear-gradient(180deg, 
                     ${building.color} 0%, 
-                    rgba(${building.color.match(/\d+/g)[0] - 10}, ${building.color.match(/\d+/g)[1] - 10}, ${building.color.match(/\d+/g)[2] - 10}, ${buildingBrightness * 0.7}) 100%);
+                    rgb(${building.color.match(/\d+/g)[0] - 10}, ${building.color.match(/\d+/g)[1] - 10}, ${building.color.match(/\d+/g)[2] - 10}) 100%);
                 box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
                 z-index: 1;
             `;
@@ -1432,12 +2280,19 @@ document.addEventListener('DOMContentLoaded', function() {
                         
                         updateWindowState();
                         
-                        // Set up random flickering for each window
-                        const flickerInterval = 30000 + Math.random() * 60000; // 30-90 seconds
-                        setInterval(() => {
-                            isLit = Math.random() > 0.3; // 70% chance to be lit
-                            updateWindowState();
-                        }, flickerInterval);
+                        // Individual window flickering with truly random timing
+                        function scheduleWindowFlicker() {
+                            setTimeout(() => {
+                                if (Math.random() > 0.75) { // 25% chance to change state
+                                    isLit = !isLit;
+                                    updateWindowState();
+                                }
+                                scheduleWindowFlicker(); // Schedule next check
+                            }, 8000 + Math.random() * 25000); // 8-33 second intervals
+                        }
+                        
+                        // Start with random delay
+                        setTimeout(scheduleWindowFlicker, Math.random() * 15000);
                         
                         bgBuilding.appendChild(window);
                     }
@@ -1456,8 +2311,8 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 60px;
             height: 32px;
             background: linear-gradient(180deg, 
-                rgba(233, 228, 212, ${buildingBrightness}) 0%, 
-                rgba(200, 190, 170, ${buildingBrightness}) 100%);
+                rgb(233, 228, 212) 0%, 
+                rgb(200, 190, 170) 100%);
             box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
             z-index: 3;
         `;
@@ -1472,8 +2327,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 width: 4px;
                 height: 32px;
                 background: linear-gradient(180deg, 
-                    rgba(220, 214, 197, ${buildingBrightness}) 0%, 
-                    rgba(180, 170, 150, ${buildingBrightness}) 100%);
+                    rgb(220, 214, 197) 0%, 
+                    rgb(180, 170, 150) 100%);
                 box-shadow: inset -1px 0 1px rgba(0, 0, 0, 0.2);
             `;
             
@@ -1485,7 +2340,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 left: -1px;
                 width: 6px;
                 height: 3px;
-                background: rgba(170, 170, 170, ${buildingBrightness});
+                background: rgb(170, 170, 170);
                 z-index: 1;
             `;
             column.appendChild(capital);
@@ -1498,7 +2353,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 left: -1px;
                 width: 6px;
                 height: 2px;
-                background: rgba(170, 170, 170, ${buildingBrightness});
+                background: rgb(170, 170, 170);
                 z-index: 1;
             `;
             column.appendChild(base);
@@ -1515,8 +2370,8 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 50px;
             height: 12px;
             background: linear-gradient(180deg, 
-                rgba(230, 220, 200, ${buildingBrightness}) 0%, 
-                rgba(200, 190, 170, ${buildingBrightness}) 100%);
+                rgb(230, 220, 200) 0%, 
+                rgb(200, 190, 170) 100%);
             box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
             z-index: 4;
         `;
@@ -1530,9 +2385,9 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 30px;
             height: 15px;
             background: radial-gradient(ellipse 30px 15px at 50% 100%, 
-                rgba(246, 240, 214, ${buildingBrightness}) 0%, 
-                rgba(220, 210, 190, ${buildingBrightness}) 40%, 
-                rgba(180, 167, 140, ${buildingBrightness}) 100%);
+                rgb(246, 240, 214) 0%, 
+                rgb(220, 210, 190) 40%, 
+                rgb(180, 167, 140) 100%);
             border-radius: 50% 50% 50% 50% / 100% 100% 0% 0%;
             overflow: hidden;
             box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.3);
@@ -1570,9 +2425,9 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 24px;
             height: 68px;
             background: linear-gradient(135deg, 
-                rgba(216, 140, 66, ${buildingBrightness}) 0%, 
-                rgba(200, 125, 50, ${buildingBrightness}) 50%,
-                rgba(180, 105, 30, ${buildingBrightness}) 100%);
+                rgb(216, 140, 66) 0%, 
+                rgb(200, 125, 50) 50%,
+                rgb(180, 105, 30) 100%);
             transform: skewX(-5deg);
             box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
             z-index: 6;
@@ -1587,9 +2442,9 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 20px;
             height: 61px;
             background: linear-gradient(135deg, 
-                rgba(227, 156, 62, ${buildingBrightness}) 0%, 
-                rgba(210, 140, 45, ${buildingBrightness}) 50%,
-                rgba(190, 120, 25, ${buildingBrightness}) 100%);
+                rgb(227, 156, 62) 0%, 
+                rgb(210, 140, 45) 50%,
+                rgb(190, 120, 25) 100%);
             transform: skewX(8deg);
             box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.35);
             z-index: 5;
@@ -1604,9 +2459,9 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 18px;
             height: 47px;
             background: linear-gradient(135deg, 
-                rgba(196, 196, 196, ${buildingBrightness}) 0%, 
-                rgba(160, 160, 160, ${buildingBrightness}) 50%,
-                rgba(140, 140, 140, ${buildingBrightness}) 100%);
+                rgb(196, 196, 196) 0%, 
+                rgb(160, 160, 160) 50%,
+                rgb(140, 140, 140) 100%);
             transform: skewX(12deg);
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
             z-index: 4;
@@ -1621,9 +2476,9 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 16px;
             height: 39px;
             background: linear-gradient(135deg, 
-                rgba(240, 240, 240, ${buildingBrightness}) 0%, 
-                rgba(220, 220, 220, ${buildingBrightness}) 50%,
-                rgba(200, 200, 200, ${buildingBrightness}) 100%);
+                rgb(240, 240, 240) 0%, 
+                rgb(220, 220, 220) 50%,
+                rgb(200, 200, 200) 100%);
             transform: skewX(-10deg);
             box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
             z-index: 7;
@@ -1638,8 +2493,8 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 8px;
             height: 42px;
             background: linear-gradient(135deg, 
-                rgba(245, 170, 80, ${buildingBrightness}) 0%, 
-                rgba(225, 150, 60, ${buildingBrightness}) 100%);
+                rgb(245, 170, 80) 0%, 
+                rgb(225, 150, 60) 100%);
             transform: skewX(-15deg);
             box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
             z-index: 6;
@@ -1653,56 +2508,78 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 10px;
             height: 34px;
             background: linear-gradient(135deg, 
-                rgba(180, 180, 200, ${buildingBrightness}) 0%, 
-                rgba(160, 160, 180, ${buildingBrightness}) 100%);
+                rgb(180, 180, 200) 0%, 
+                rgb(160, 160, 180) 100%);
             transform: skewX(18deg);
             box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
             z-index: 3;
         `;
         
-        // Add irregular windows to Stata buildings
-        const stataBuildings = [stataMain, stataSecondary, stataMetallic, stataWhite, stataDetail1, stataDetail2];
-        stataBuildings.forEach((building, buildingIndex) => {
+        // Add organized windows to Stata buildings with controlled chaos
+        const stataBuildings = [
+            { element: stataMain, rows: 4, cols: 2, irregularity: 0.3 },
+            { element: stataSecondary, rows: 3, cols: 1, irregularity: 0.4 },
+            { element: stataMetallic, rows: 3, cols: 1, irregularity: 0.5 },
+            { element: stataWhite, rows: 4, cols: 2, irregularity: 0.2 },
+            { element: stataDetail1, rows: 2, cols: 1, irregularity: 0.6 },
+            { element: stataDetail2, rows: 2, cols: 1, irregularity: 0.7 }
+        ];
+        
+        stataBuildings.forEach((building) => {
             const buildingRect = {
-                width: parseInt(building.style.width) || 15,
-                height: parseInt(building.style.height) || 30
+                width: parseInt(building.element.style.width) || 15,
+                height: parseInt(building.element.style.height) || 30
             };
             
-            const windowCount = Math.max(2, Math.floor((buildingRect.width * buildingRect.height) / 120));
-            
-            for (let i = 0; i < windowCount * 2; i++) { // Double the window count for more windows
-                if (Math.random() > 0.2) { // 80% chance for windows
-                    const window = document.createElement('div');
-                    let isLit = Math.random() > 0.4; // 60% chance of being lit initially
+            // Create organized grid of windows with Stata-style irregularity
+            for (let row = 0; row < building.rows; row++) {
+                for (let col = 0; col < building.cols; col++) {
+                    // Skip some windows randomly to maintain Stata's chaotic aesthetic
+                    if (Math.random() < 0.15) continue;
                     
-                    // Irregular positioning with overlap prevention
-                    const winX = 3 + Math.random() * (buildingRect.width - 8);
-                    const winY = 6 + Math.random() * (buildingRect.height - 12);
+                    const window = document.createElement('div');
+                    let isLit = Math.random() > 0.4;
+                    
+                    // Calculate grid position with architectural irregularity
+                    const baseX = (col + 0.5) * (buildingRect.width / building.cols);
+                    const baseY = (row + 0.5) * (buildingRect.height / building.rows);
+                    
+                    const irregularOffset = building.irregularity * 3;
+                    const winX = Math.max(1, Math.min(buildingRect.width - 4, 
+                        baseX + (Math.random() - 0.5) * irregularOffset));
+                    const winY = Math.max(2, Math.min(buildingRect.height - 3, 
+                        baseY + (Math.random() - 0.5) * irregularOffset));
                     
                     const updateWindowState = () => {
                         window.style.background = isLit ? `rgba(255, 224, 102, ${windowOpacity})` : 'rgba(50, 50, 50, 0.6)';
                         window.style.boxShadow = isLit ? `0 0 2px rgba(255, 224, 102, ${windowOpacity * 0.5})` : 'none';
                     };
                     
+                    // Vary window sizes for architectural diversity
+                    const windowWidth = 2.5 + Math.random() * 1.5;
+                    const windowHeight = 2 + Math.random() * 1.5;
+                    
                     window.style.cssText = `
                         position: absolute;
                         left: ${winX}px;
                         top: ${winY}px;
-                        width: 3px;
-                        height: 3px;
-                        border-radius: 0.5px;
+                        width: ${windowWidth}px;
+                        height: ${windowHeight}px;
+                        border-radius: 0.3px;
+                        z-index: 15;
                     `;
                     
                     updateWindowState();
+                    building.element.appendChild(window);
                     
-                    // Set up random flickering for each window
+                    // Individual random flickering for each window
                     const flickerInterval = 20000 + Math.random() * 40000; // 20-60 seconds
                     setInterval(() => {
-                        isLit = Math.random() > 0.35; // 65% chance to be lit
-                        updateWindowState();
+                        if (Math.random() > 0.85) { // 15% chance to change state each check
+                            isLit = !isLit;
+                            updateWindowState();
+                        }
                     }, flickerInterval);
-                    
-                    building.appendChild(window);
                 }
             }
         });
@@ -1723,8 +2600,8 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 18px;
             height: ${Math.floor(68 * 0.6)}px;
             background: linear-gradient(180deg, 
-                rgba(40, 60, 40, ${buildingBrightness}) 0%, 
-                rgba(20, 40, 20, ${buildingBrightness}) 100%);
+                rgb(40, 60, 40) 0%, 
+                rgb(20, 40, 20) 100%);
             box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
             z-index: 1;
         `;
@@ -1754,8 +2631,8 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 12px;
             height: ${Math.floor(68 * 0.4)}px;
             background: linear-gradient(180deg, 
-                rgba(80, 70, 60, ${buildingBrightness}) 0%, 
-                rgba(60, 50, 40, ${buildingBrightness}) 100%);
+                rgb(80, 70, 60) 0%, 
+                rgb(60, 50, 40) 100%);
             box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2);
             z-index: 1;
         `;
@@ -1770,8 +2647,8 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 15px;
             height: ${Math.floor(68 * 0.7)}px;
             background: linear-gradient(180deg, 
-                rgba(65, 75, 85, ${buildingBrightness}) 0%, 
-                rgba(45, 55, 65, ${buildingBrightness}) 100%);
+                rgb(65, 75, 85) 0%, 
+                rgb(45, 55, 65) 100%);
             box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
             z-index: 1;
         `;
@@ -1786,8 +2663,8 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 8px;
             height: ${Math.floor(68 * 0.45)}px;
             background: linear-gradient(180deg, 
-                rgba(70, 60, 80, ${buildingBrightness}) 0%, 
-                rgba(50, 40, 60, ${buildingBrightness}) 100%);
+                rgb(70, 60, 80) 0%, 
+                rgb(50, 40, 60) 100%);
             box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.2);
             z-index: 1;
         `;
@@ -1802,9 +2679,9 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 25px;
             height: ${Math.floor(68 * 0.5)}px;
             background: linear-gradient(135deg, 
-                rgba(40, 50, 70, ${buildingBrightness}) 0%, 
-                rgba(60, 70, 90, ${buildingBrightness}) 50%, 
-                rgba(30, 40, 60, ${buildingBrightness}) 100%);
+                rgb(40, 50, 70) 0%, 
+                rgb(60, 70, 90) 50%, 
+                rgb(30, 40, 60) 100%);
             box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
             z-index: 1;
         `;
@@ -1819,57 +2696,88 @@ document.addEventListener('DOMContentLoaded', function() {
             width: 25px;
             height: 20px;
             background: linear-gradient(180deg, 
-                rgba(45, 45, 65, ${buildingBrightness}) 0%, 
-                rgba(25, 25, 45, ${buildingBrightness}) 100%);
+                rgb(45, 45, 65) 0%, 
+                rgb(25, 25, 45) 100%);
             box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.2);
             z-index: 1;
         `;
         skylineContainer.appendChild(studentCenter);
         
-        // Add windows to major buildings (excluding Stata which has its own window system)
-        const buildings = [greenBuilding, kochBuilding, studentCenter, shortBuilding1, shortBuilding2, shortBuilding3];
+        // Add organized windows to major buildings with architectural consistency
+        const buildings = [
+            { element: greenBuilding, rows: 6, cols: 2, spacing: 'regular', name: 'Green Building' },
+            { element: kochBuilding, rows: 5, cols: 3, spacing: 'regular', name: 'Koch Institute' },
+            { element: studentCenter, rows: 4, cols: 4, spacing: 'regular', name: 'Student Center' },
+            { element: shortBuilding1, rows: 3, cols: 2, spacing: 'compact', name: 'Short Building 1' },
+            { element: shortBuilding2, rows: 3, cols: 2, spacing: 'compact', name: 'Short Building 2' },
+            { element: shortBuilding3, rows: 3, cols: 2, spacing: 'compact', name: 'Short Building 3' }
+        ];
+        
         buildings.forEach(building => {
             const buildingRect = {
-                width: parseInt(building.style.width) || 20,
-                height: parseInt(building.style.height) || 20
+                width: parseInt(building.element.style.width) || 20,
+                height: parseInt(building.element.style.height) || 20
             };
             
-            const windowsX = Math.max(1, Math.floor(buildingRect.width / 4));
-            const windowsY = Math.max(1, Math.floor(buildingRect.height / 6));
-            
-            for (let x = 0; x < windowsX; x++) {
-                for (let y = 0; y < windowsY; y++) {
-                    if (Math.random() > 0.2) { // 80% chance for windows
-                        const window = document.createElement('div');
-                        let isLit = Math.random() > 0.4; // 60% chance of being lit initially
-                        
-                        const updateWindowState = () => {
-                            window.style.background = isLit ? `rgba(255, 200, 100, ${windowOpacity})` : 'rgba(50, 50, 50, 0.6)';
-                            window.style.boxShadow = isLit ? `0 0 3px rgba(255, 200, 100, ${windowOpacity * 0.4})` : 'none';
-                        };
-                        
-                        window.className = 'building-window';
-                        window.dataset.isLit = isLit;
-                        window.style.cssText = `
-                            position: absolute;
-                            left: ${(x + 1) * (buildingRect.width / (windowsX + 1)) - 1}px;
-                            top: ${(y + 1) * (buildingRect.height / (windowsY + 1)) - 1}px;
-                            width: 3px;
-                            height: 3px;
-                            border-radius: 0.5px;
-                        `;
-                        
-                        updateWindowState();
-                        
-                        // Set up random flickering for each window
-                        const flickerInterval = 35000 + Math.random() * 70000; // 35-105 seconds
-                        setInterval(() => {
-                            isLit = Math.random() > 0.3; // 70% chance to be lit
-                            updateWindowState();
-                        }, flickerInterval);
-                        
-                        building.appendChild(window);
+            // Create systematic window layout
+            for (let row = 0; row < building.rows; row++) {
+                for (let col = 0; col < building.cols; col++) {
+                    // Skip some windows for realistic variation (5% skip rate)
+                    if (Math.random() < 0.05) continue;
+                    
+                    const window = document.createElement('div');
+                    let isLit = Math.random() > 0.35; // 65% chance of being lit
+                    
+                    // Calculate systematic window positioning
+                    const marginX = building.spacing === 'compact' ? 2 : 3;
+                    const marginY = building.spacing === 'compact' ? 2 : 3;
+                    
+                    const availableWidth = buildingRect.width - (2 * marginX);
+                    const availableHeight = buildingRect.height - (2 * marginY);
+                    
+                    const windowSpacingX = availableWidth / building.cols;
+                    const windowSpacingY = availableHeight / building.rows;
+                    
+                    const winX = marginX + (col * windowSpacingX) + (windowSpacingX / 2) - 1;
+                    const winY = marginY + (row * windowSpacingY) + (windowSpacingY / 2) - 1;
+                    
+                    const updateWindowState = () => {
+                        window.style.background = isLit ? `rgba(255, 220, 120, ${windowOpacity})` : 'rgba(45, 45, 60, 0.7)';
+                        window.style.boxShadow = isLit ? `0 0 2px rgba(255, 220, 120, ${windowOpacity * 0.6})` : 'none';
+                    };
+                    
+                    // Standard window size with slight variation
+                    const windowWidth = building.spacing === 'compact' ? 2.5 : 3;
+                    const windowHeight = building.spacing === 'compact' ? 2.5 : 3.5;
+                    
+                    window.className = 'building-window';
+                    window.style.cssText = `
+                        position: absolute;
+                        left: ${Math.round(winX)}px;
+                        top: ${Math.round(winY)}px;
+                        width: ${windowWidth}px;
+                        height: ${windowHeight}px;
+                        border-radius: 0.4px;
+                        z-index: 10;
+                    `;
+                    
+                    updateWindowState();
+                    building.element.appendChild(window);
+                    
+                    // Individual random flickering for each window
+                    // Use setTimeout for truly independent timing
+                    function scheduleNextFlicker() {
+                        setTimeout(() => {
+                            if (Math.random() > 0.8) { // 20% chance to change state
+                                isLit = !isLit;
+                                updateWindowState();
+                            }
+                            scheduleNextFlicker(); // Schedule next check with new random interval
+                        }, 5000 + Math.random() * 15000); // 5-20 second intervals between checks
                     }
+                    
+                    // Start with random initial delay
+                    setTimeout(scheduleNextFlicker, Math.random() * 10000);
                 }
             }
         });
@@ -1902,10 +2810,16 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         `;
         
-        createWeatherAnimation(condition);
+        // Only recreate animations if weather condition changed or it's the first time
+        if (currentWeatherCondition !== condition) {
+            createWeatherAnimation(condition);
+        }
+        // Always update skyline for time-based changes (day/night)
         createMITSkyline();
     }
     
+    
+
     // Update weather function
     async function updateWeather() {
         const now = Date.now();
@@ -1962,8 +2876,35 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         @keyframes sunGlow {
-            0% { opacity: 0.6; transform: scale(1); }
-            100% { opacity: 0.9; transform: scale(1.1); }
+            0% { opacity: 0.3; transform: scale(1); }
+            100% { opacity: 0.5; transform: scale(1.1); }
+        }
+        
+        @keyframes simplePlaneFlight {
+            0% { 
+                left: -50px;                    /* Off-screen left */
+                top: var(--start-height);       /* Variable start height */
+                opacity: 1; 
+            }
+            97% { 
+                left: calc(100vw - 66px);       /* Much closer to widget edge before fade */
+                top: var(--end-height);         /* Variable end height */
+                opacity: 1; 
+            }
+            100% { 
+                left: calc(100vw - 60px);       /* Plane completely gone before reaching widget edge */
+                top: var(--end-height);         /* Maintain end height */
+                opacity: 0;                     /* Very fast fade over only 6px of movement */
+            }
+        }
+        
+        @keyframes bannerFlutter {
+            0% { 
+                transform: translateY(-50%) rotate(-2deg) scale(1); 
+            }
+            100% { 
+                transform: translateY(-50%) rotate(2deg) scale(1.05); 
+            }
         }
         
         @keyframes starTwinkle {
@@ -1972,32 +2913,37 @@ document.addEventListener('DOMContentLoaded', function() {
             100% { opacity: 0.4; transform: scale(1); }
         }
         
-        @keyframes riverFlowMain {
-            0% { transform: translateX(-20px); opacity: 0.3; }
-            50% { transform: translateX(100%); opacity: 0.7; }
-            100% { transform: translateX(120%); opacity: 0.3; }
+        @keyframes starTwinkleImproved {
+            0% { 
+                opacity: 0.3; 
+                transform: scale(0.8); 
+                box-shadow: 0 0 4px rgba(255, 255, 255, 0.4), 0 0 8px rgba(255, 255, 255, 0.2);
+            }
+            25% { 
+                opacity: 0.8; 
+                transform: scale(1.1); 
+                box-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px rgba(255, 255, 255, 0.4);
+            }
+            50% { 
+                opacity: 1; 
+                transform: scale(1.3); 
+                box-shadow: 0 0 12px rgba(255, 255, 255, 1), 0 0 24px rgba(255, 255, 255, 0.6);
+            }
+            75% { 
+                opacity: 0.9; 
+                transform: scale(1); 
+                box-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 0 0 16px rgba(255, 255, 255, 0.4);
+            }
+            100% { 
+                opacity: 0.3; 
+                transform: scale(0.8); 
+                box-shadow: 0 0 4px rgba(255, 255, 255, 0.4), 0 0 8px rgba(255, 255, 255, 0.2);
+            }
         }
         
-        @keyframes riverFlowSecondary {
-            0% { transform: translateX(-30px); opacity: 0.15; }
-            25% { opacity: 0.35; }
-            60% { transform: translateX(80%); opacity: 0.35; }
-            100% { transform: translateX(110%); opacity: 0.12; }
-        }
-        
-        @keyframes riverFlowTertiary {
-            0% { transform: translateX(-15px); opacity: 0.05; }
-            40% { opacity: 0.1; }
-            70% { transform: translateX(90%); opacity: 0.1; }
-            100% { transform: translateX(105%); opacity: 0.03; }
-        }
-        
-        @keyframes riverRipples {
-            0% { transform: translateX(-25px) scaleX(1); opacity: 0.1; }
-            20% { opacity: 0.2; }
-            50% { transform: translateX(50%) scaleX(1.1); opacity: 0.2; }
-            80% { opacity: 0.15; }
-            100% { transform: translateX(125%) scaleX(0.9); opacity: 0.08; }
+        @keyframes simpleWaterFlow {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(280px); }
         }
         
         @keyframes carDriveRight {
@@ -2057,20 +3003,115 @@ document.addEventListener('DOMContentLoaded', function() {
             5%, 10% { opacity: 0.8; background: rgba(255, 255, 255, 0.9); }
         }
         
+        @keyframes planeFly {
+            0% { 
+                left: 0px; /* Screen left edge */
+                top: var(--start-height, 15vh); /* Randomized start height from TOP of screen */
+                opacity: 0; 
+            }
+            2% { 
+                opacity: 1; 
+            }
+            40% {
+                left: calc(100vw - 450px); /* Approaching widget area */
+                top: calc(200px + 3vw); /* Descending toward widget */
+                opacity: 1;
+            }
+            60% {
+                left: calc(100vw - 270px); /* Enter widget LEFT edge */
+                top: calc(200px + 5vw); /* 20% widget height */
+                opacity: 1;
+            }
+            80% {
+                left: calc(100vw - 145px); /* Cross middle of widget */
+                top: calc(200px + 6vw); /* 24% widget height */
+                opacity: 1;
+            }
+            95% {
+                left: calc(100vw - 30px); /* Near widget RIGHT edge */
+                top: calc(200px + 7vw); /* 28% widget height */
+                opacity: 1;
+            }
+            100% { 
+                left: calc(100vw + 30px); /* Past widget completely */
+                top: calc(200px + 7.5vw); /* 30% widget height */
+                opacity: 0; /* Disappear after flying through */
+            }
+        }
+        
+        @keyframes imminentFlight {
+            0% { 
+                left: -150px; 
+                top: 220px; 
+                opacity: 0; 
+            }
+            2% { 
+                opacity: 1; 
+            }
+            50% {
+                left: calc(100vw - 300px);
+                top: 235px;
+                opacity: 1;
+            }
+            85% {
+                left: calc(100vw - 80px);
+                top: 245px;
+                opacity: 1;
+            }
+            100% { 
+                left: calc(100vw + 30px); 
+                top: 250px; 
+                opacity: 0; 
+            }
+        }
+        
+        @keyframes pulseGlow {
+            0% { 
+                box-shadow: 0 0 15px rgba(255, 255, 0, 0.5);
+                transform: scale(1);
+            }
+            50% { 
+                box-shadow: 0 0 25px rgba(255, 255, 0, 0.8);
+                transform: scale(1.02);
+            }
+            100% { 
+                box-shadow: 0 0 15px rgba(255, 255, 0, 0.5);
+                transform: scale(1);
+            }
+        }
+        
         .weather-widget:hover {
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
         }
         
-        /* Progressive responsive behavior */
+        /* Progressive responsive behavior with overlap prevention */
+        @media (max-width: 1500px) {
+            .weather-widget {
+                top: 140px !important;
+                width: 250px !important;
+                height: 22vw !important;
+                max-height: 280px !important;
+            }
+            .weather-label {
+                top: 115px !important;
+                width: 250px !important;
+            }
+            .fixed-quote-box {
+                top: calc(140px + 22vw + 20px) !important;
+                transform: none !important;
+            }
+        }
+        
         @media (max-width: 1400px) {
             .weather-widget {
-                width: 220px !important;
-                height: 180px !important;
+                width: 250px !important;
+                height: 20vw !important;
+                max-height: 240px !important;
                 font-size: 0.7rem !important;
             }
             .weather-label {
-                width: 220px !important;
+                width: 250px !important;
                 font-size: 0.65rem !important;
             }
             .mit-skyline {
@@ -2083,12 +3124,12 @@ document.addEventListener('DOMContentLoaded', function() {
         
         @media (max-width: 1300px) {
             .weather-widget {
-                width: 200px !important;
-                height: 160px !important;
+                width: 180px !important;
+                height: 260px !important;
                 font-size: 0.65rem !important;
             }
             .weather-label {
-                width: 200px !important;
+                width: 180px !important;
                 font-size: 0.6rem !important;
             }
             .mit-skyline {
@@ -2100,21 +3141,45 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         @media (max-width: 1200px) {
-            .weather-widget, .weather-label {
-                display: none !important;
+            .weather-widget {
+                width: 160px !important;
+                height: 240px !important;
+                font-size: 0.6rem !important;
+            }
+            .weather-label {
+                width: 160px !important;
+                font-size: 0.55rem !important;
+            }
+            .mit-skyline {
+                height: 60px !important;
             }
         }
         
         @media (max-width: 768px) {
             .weather-widget {
                 right: 10px !important;
-                top: 150px !important;
-                width: 220px !important;
-                height: 120px !important;
+                top: 130px !important;
+                width: 250px !important;
+                height: 18vw !important;
+                max-height: 180px !important;
+                min-height: 160px !important;
                 font-size: 0.7rem !important;
             }
+            
+            /* Mobile inline widget styling */
+            .weather-widget[style*="position: relative"] {
+                position: relative !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                height: 240px !important;
+                margin: 0 auto !important;
+                right: auto !important;
+                top: auto !important;
+                font-size: 0.65rem !important;
+            }
+            
             .fixed-quote-box {
-                top: 320px !important; /* 150 + 120 + 50 gap */
+                top: 295px !important; /* 150 + 120 + 25 gap */
                 transform: none !important;
             }
             .mit-skyline {
@@ -2124,42 +3189,64 @@ document.addEventListener('DOMContentLoaded', function() {
         
         @media (max-height: 600px) {
             .weather-widget {
-                top: 120px !important;
-                height: 120px !important;
+                top: 80px !important;
+                height: 20vh !important;
+                max-height: 160px !important;
             }
             .fixed-quote-box {
-                top: 290px !important; /* 120 + 120 + 50 gap */
+                top: calc(80px + 20vh + 20px) !important;
                 transform: none !important;
             }
             .mit-skyline {
                 height: 40px !important;
             }
         }
+        
+        /* Next flight info responsive positioning */
+        @media (max-width: 1500px) {
+            #next-flight-info {
+                top: 480px !important;
+                width: 250px !important;
+            }
+        }
+        
+        @media (max-width: 1400px) {
+            #next-flight-info {
+                top: 440px !important;
+                width: 250px !important;
+            }
+        }
+        
+        @media (max-width: 1300px) {
+            #next-flight-info {
+                top: 420px !important;
+                width: 180px !important;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            #next-flight-info {
+                display: none !important;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            #next-flight-info {
+                right: 10px !important;
+                top: 360px !important;
+                width: 250px !important;
+                display: block !important;
+            }
+        }
+        
+        /* Responsive plane animations */
     `;
     document.head.appendChild(style);
     
-    // Position quotes box to avoid overlap with larger gap
-    function positionQuotesBox() {
-        const quotesBox = document.querySelector('.fixed-quote-box');
-        if (quotesBox) {
-            // Remove the transform that centers it vertically
-            quotesBox.style.transform = 'none';
-            
-            // Calculate safe position: weather label top + weather widget height + smaller gap
-            const labelTop = 215; // Weather label top position (215px)
-            const weatherHeight = 220; // Weather widget height (220px)
-            const safeGap = 20; // Smaller gap between widgets for closer positioning
-            const quotesTop = labelTop + weatherHeight + safeGap; // 215 + 220 + 20 = 455px
-            
-            quotesBox.style.top = quotesTop + 'px';
-            console.log(`Quotes box positioned at: ${quotesTop}px (transform removed)`);
-        }
-    }
+    // Let CSS handle positioning - removed dynamic positioning logic to prevent misalignment
     
-    // Position immediately and on resize
-    positionQuotesBox();
-    window.addEventListener('resize', positionQuotesBox);
-    
+    // Create info button and popup
+    createInfoButton();
 
     // Initialize with state persistence
     const savedState = loadWidgetState();
@@ -2178,10 +3265,16 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Update every minute to minimize API calls
+    // Update weather data periodically
     setInterval(() => {
         updateWeather();
         saveWidgetState(); // Save state on each update
     }, WEATHER_UPDATE_INTERVAL);
+    
+    // Update time display every minute for current time
+    setInterval(() => {
+        updateWeatherDisplay(currentWeather);
+    }, 60 * 1000);
     
     // Update when user returns to tab
     document.addEventListener('visibilitychange', () => {

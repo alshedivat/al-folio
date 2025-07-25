@@ -299,12 +299,24 @@ table {
   font-weight: normal;
 }
 
+// Weather Widget Base Styles
+.weather-widget {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 250px;
+  height: 25vw; // 25% of viewport width
+  max-height: 300px; // Reasonable maximum
+  min-height: 180px; // Minimum for usability
+  z-index: 1001;
+  box-sizing: border-box;
+}
+
 // Fixed Quote Box
 .fixed-quote-box {
   position: fixed !important;
   right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: calc(200px + 25vw + 20px); // Dynamic positioning below weather widget
   width: 250px;
   padding: 1rem;
   background-color: var(--global-card-bg-color);
@@ -314,6 +326,7 @@ table {
   z-index: 1000;
   opacity: 0.9;
   transition: opacity 0.3s ease;
+  box-sizing: border-box; // Include padding and border in width calculation
 
   &:hover {
     opacity: 1;
@@ -588,29 +601,37 @@ table {
 // Progressive shrinking and hiding of fixed elements
 @media (max-width: 1400px) {
   .fixed-quote-box, .fixed-image-box, .nav-panel {
-    width: 220px;
+    width: 250px; // Keep same as weather widget
     font-size: 0.85rem;
   }
   
+  .fixed-quote-box {
+    top: calc(200px + 20vw + 20px); // Dynamic height adjustment
+  }
   
   .weather-widget {
-    width: 220px !important;
-    height: 140px !important;
+    width: 250px !important; // Match quote box width
+    height: 20vw !important; // Adjusted for smaller screens
+    max-height: 180px !important;
     font-size: 0.7rem !important;
   }
 }
 
 @media (max-width: 1300px) {
   .fixed-quote-box, .fixed-image-box, .nav-panel {
-    width: 200px;
+    width: 250px; // Keep same as weather widget
     font-size: 0.8rem;
     padding: 0.8rem;
   }
   
+  .fixed-quote-box {
+    top: calc(200px + 18vw + 20px); // Dynamic height adjustment
+  }
   
   .weather-widget {
-    width: 200px !important;
-    height: 130px !important;
+    width: 250px !important; // Match quote box width
+    height: 18vw !important; // Adjusted for smaller screens
+    max-height: 160px !important;
     font-size: 0.65rem !important;
   }
 }

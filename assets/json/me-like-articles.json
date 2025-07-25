@@ -172,6 +172,13 @@
                     "year": 2023,
                     "commentary": "Really incredible work on discovering and visualizing feature decompositions of neuron layers with sparse autoencoders. Gorgeous visualizations and interfaces, and thoughtful reflections on interpretability methodology. I am a big fan of this publication style.",
                     "link": "https://transformer-circuits.pub/2024/qualitative-essay/index.html"
+                },
+                {
+                    "title": "Scaling Monosemanticity: Claude 3 Sonnet Feature Viewer",
+                    "authors": "Adly Templeton*, Tom Conerly*, Jonathan Marcus, Jack Lindsey, Trenton Bricken, et al.",
+                    "year": 2023,
+                    "commentary": "Really fascinating to explore all of these features. I am personally curious about 'nontrivial' features which we don't quite have great words to describe succintly / aren't just simple (possibly fuzzy) substring searches.",
+                    "link": "https://transformer-circuits.pub/2024/scaling-monosemanticity/features/index.html?featureId=34M_17337901"
                 }
             ]
         },
@@ -186,6 +193,21 @@
                     "year": 2025,
                     "commentary": "Super interesting and illuminating perspective explaining why supposedly deep-learning-unique phenomena like deep double descent, overparametrization, etc. can be explained using soft inductive biases and existing generalization frameworks. The references are a treasure trove!",
                     "link": "https://openreview.net/pdf?id=42Au7FoD8F"
+                }
+            ]
+        },
+
+
+        {
+            "title": "Open-ended Modeling",
+            "description": "Modeling unconstrained by a vanilla notion of raw 'ground truth' as supervisory signal.",
+            "papers": [
+                {
+                    "title": "Unsupervised Elicitation of Language Models",
+                    "authors": "Jiaxin Wen, Zachary Ankner, Arushi Somani, Peter Hase, Samuel Marks, et al.",
+                    "year": 2025,
+                    "commentary": "Interesting way to automatically label datasets using mutual predictability and logical consistency.",
+                    "link": "https://arxiv.org/abs/2506.10139"
                 }
             ]
         },
