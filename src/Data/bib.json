@@ -34,23 +34,6 @@
     "web": false
   },
   {
-    "title": "Designing OWN, The Inner World as a Virtual Space: By and For Introspection",
-    "author": "Sooyeon Ahn, Wonkwang Son, Hui Yeong Baek, Hwajung Hong",
-    "affiliation": "KAIST, , , KAIST",
-    "venue": "C&C Pictorial 2025 (to appear)",
-    "award": "",
-    "year": 2025,
-    "field": ["others"],
-    "type": "poster",
-    "pdf": "",
-    "doi": "",
-    "bibtex": "",
-    "recording": "",
-    "video": "",
-    "abstract": "",
-    "web": false
-  },
-  {
     "title": "Beyond the Scroll: Exploring the Design Space of Balanced Short-form Video Consumption through Everyday User Experiences",
     "author": "Yeohyun Jung, Suyeon Seo, Hwajung Hong",
     "affiliation": "KAIST, Yonsei University, KAIST",
@@ -133,6 +116,23 @@
     "video": "",
     "abstract": "Stereotypical biases in large language models (LLMs) have the potential to result in discriminatory responses, posing harm to users and disrupting interactions. While prior research has predominantly focused on assessing stereotypes in LLMs with fairness metrics, there is a limited understanding of how users identify and perceive stereotypes in LLMs. To address this gap, we introduce StereoHunter, a research probe tool designed to examine how individuals identify and perceive stereotypes by observing interactions in which users elicit stereotypical responses from LLMs. Our findings reveal the nuanced considerations and challenges participants faced when evaluating these stereotypes, which varied based on their backgrounds and preconceptions about LLMs. Based on these insights, we discuss how diverse user perspectives can be reflected in identifying stereotypes and informing fairness metrics for mitigating biases in LLMs.",
     "web": true
+  },
+  {
+    "title": "Designing OWN, The Inner World as a Virtual Space: By and For Introspection",
+    "author": "Sooyeon Ahn, Wonkwang Son, Hui Yeong Baek, Hwajung Hong",
+    "affiliation": "KAIST, , , KAIST",
+    "venue": "C&C Pictorial 2025",
+    "award": "",
+    "year": 2025,
+    "field": ["others"],
+    "type": "poster",
+    "pdf": "sooyeon2025",
+    "doi": "https://doi.org/10.1145/3698061.3726951",
+    "bibtex": "sooyeon2025",
+    "recording": "",
+    "video": "",
+    "abstract": "Nurturing the inner world of emotions, thoughts, and self is essential to our well-being. However, the abstract and invisible nature of the inner world makes it difficult for people to sense and manage. Then, what if people build their own virtual world where they can introspect inner sides? This pictorial presents the creation process of ‘OWN’, a personal virtual space where users, the OWNers, can explore and interact with their inner world. As part of the co-creation process, each OWNer expresses a personal narrative about themselves and their surroundings, allowing psychologists to gain an in-depth insight into their world. The psychologists’ analysis of the OWNer's inner state suggests various elements that the designer visualizes as space in the virtual world. By designing OWN with expressive activities, OWNers were able to reflect more deeply on their lives. OWN then became a virtual oasis where OWNers could relax, reflect, and improve themselves.",
+    "web": false
   },
   {
     "title": "AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation",
