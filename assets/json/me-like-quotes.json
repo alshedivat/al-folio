@@ -71,6 +71,10 @@
           {
             "text": "I think the educational and psychological studies I mentioned are examples of what I would like to call Cargo Cult Science.  In the South Seas there is a Cargo Cult of people.  During the war they saw airplanes land with lots of good materials, and they want the same thing to happen now.  So they’ve arranged to make things like runways, to put fires along the sides of the runways, to make a wooden hut for a man to sit in, with two wooden pieces on his head like headphones and bars of bamboo sticking out like antennas—he’s the controller—and they wait for the airplanes to land.  They’re doing everything right.  The form is perfect.  It looks exactly the way it looked before.  But it doesn’t work.  No airplanes land.  So I call these things Cargo Cult Science, because they follow all the apparent precepts and forms of scientific investigation, but they’re missing something essential, because the planes don’t land.",
             "author":"Richard Feynman"
+          },
+          {
+            "text": "Sellars's pragmatism dictates that issues of conceptual priority be translated into questions of the relative autonomy of different strata of language -that is, into questions concerning what language games can be played independently of and antecedently to which others.",
+            "author":"Robert Brandom"
           }
         ]
       },
@@ -111,6 +115,18 @@
           {
             "text": "We now have technologies that can do for written and visual culture something like what prices do for economic information and bureaucratic categories do for social information. Large models generate representations of a vast and ungraspable whole that do not fully capture that whole but are manipulable and reproducible at scale.",
             "author": "Henry Farrell"
+          },
+          {
+            "text": "I want to see more tools and fewer operated machines - we should be embracing our humanity instead of blindly improving efficiency. And that involves using our new AI technology in more deft ways than generating more content for humans to evaluate. I believe the real game changers are going to have very little to do with plain content generation. Let's build tools that offer suggestions to help us gain clarity in our thinking, let us sculpt prose like clay by manipulating geometry in the latent space, and chain models under the hood to let us move objects (instead of pixels) in a video.",
+            "author": "Amelia Wattenberger"
+          },
+          {
+            "text": "Instead of untangling every broken process, he just needs to define success and let AI navigate the mess. In fact, Bitter Lesson might actually be sweet: all those undocumented workflows and informal networks that pervade organizations might not matter. What matters is knowing good output when you see it.",
+            "author": "Ethan Mollick"
+          },
+          {
+            "text": "I do think there’s some hubris in arguing the bitter lesson does not apply to HCI, and AI is not coming for OUR work specifically. How many of the bespoke systems we are making today with carefully crafted prompt chains will be learned tomorrow? Likely it’s already true of some of the lower hanging LLM-wrapper systems from a few years ago. Food for thought for us - if we are simply crafting the processes that get automated later, that’s not a very exciting place to be as a researcher, especially if the “later” time horizon keeps getting shorter and shorter. Auditing the process is useful for some things, e.g., legitimacy, verification. It’s more important for high stakes and/or collective tasks. But not always important.",
+            "author": "Adapted from private quote"
           }
         ]
       },
@@ -215,6 +231,16 @@
           {
             "text": "Do not ask who I am and do not ask me to remain the same: leave it to our bureaucrats and our police to see that our papers are in order.",
             "author": "Michel Foucault"
+          }
+        ]
+      },
+      {
+        "title": "The Centrality of Concepts",
+        "description": "Understanding the Concept and its structuring role in life and knowledge.",
+        "quotes": [
+          {
+            "text": "For to notice something-to be aware of it in the sense relevant to assessments of sapience, rather than of mere sentience is to respond to it by applying a concept, making a noninferential judgment about it. So until one has the concept 'green, one cannot notice or be aware of green things, though one can respond differentially to them - obviously, in ways other than by applying the concept green.",
+            "author": "Robert Brandom, on Wilfred Sellars"
           }
         ]
       },

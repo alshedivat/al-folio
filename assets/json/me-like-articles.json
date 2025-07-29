@@ -186,6 +186,20 @@
                     "year": 2023,
                     "commentary": "Really fascinating to explore all of these features. I am personally curious about 'nontrivial' features which we don't quite have great words to describe succintly / aren't just simple (possibly fuzzy) substring searches.",
                     "link": "https://transformer-circuits.pub/2024/scaling-monosemanticity/features/index.html?featureId=34M_17337901"
+                },
+                {
+                    "title": "Steering Llama 2 via Contrastive Activation Addition",
+                    "authors": "Nina Panickssery, Nick Gabrieli, Julian Schulz, Meg Tong, Evan Hubinger, Alexander Matt Turner",
+                    "year": 2023,
+                    "commentary": "A clean and simiple method for steering model behavior using discovered representations specified by positive and negative samples. I feel this has strong potential for helping out metaphor-/sense-making in the HCI space.",
+                    "link": "https://arxiv.org/abs/2312.06681"
+                },
+                {
+                    "title": "Scaling and evaluating sparse autoencoders",
+                    "authors": "Leo Gao, Tom Dupré la Tour, Henk Tillman, Gabriel Goh, Rajan Troll, et al.",
+                    "year": 2024,
+                    "commentary": "Really nice technical details and knowledge on training and understanding large sparse autoencoders,",
+                    "link": "https://arxiv.org/abs/2406.04093"
                 }
             ]
         },
@@ -258,6 +272,34 @@
                     "year": 2025,
                     "commentary": "Cool classic HCI-style exploration into a new interaction for code editing using visual sketching, interpreted by VLMs.",
                     "link": "https://arxiv.org/abs/2502.03719"
+                },
+                {
+                    "title": "Why Chatbots Are Not the Future",
+                    "authors": "Amelia Wattenberger",
+                    "year": 2025,
+                    "commentary": "Really nice argumentative piece on why we can build much better AI interfaces than chat interfaces.",
+                    "link": "https://wattenberger.com/thoughts/boo-chatbots"
+                },
+                {
+                    "title": "Fish Eye for Text",
+                    "authors": "Amelia Wattenberger",
+                    "year": 2025,
+                    "commentary": "A beautifully designed webpage that illustrates a 'fisheye' principle for building knowledge interfaces that expose users to the 'peripheral' context.",
+                    "link": "https://wattenberger.com/thoughts/fish-eye"
+                }
+            ]
+        },
+
+        {
+            "title": "AI for Social Science",
+            "description": "AI methods for producing new knowledge in history, literature, political science, psychology, philosophy, etc.",
+            "papers": [
+                {
+                    "title": "Can Large Language Models Transform Computational Social Science?",
+                    "authors": "Caleb Ziems, William Held, Omar Shaikh, Jiaao Chen, Zhehao Zhang, Diyi Yang",
+                    "year": 2024,
+                    "commentary": "Nice overview of the AI for computational social sciences landscape.",
+                    "link": "https://arxiv.org/abs/2305.03514"
                 }
             ]
         },
