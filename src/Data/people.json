@@ -91,7 +91,7 @@
     "image": "yeohyun.png",
     "homepage": "",
     "research_interest": "Mental Health, Personal Informatics",
-    "current": true
+    "current": false
   },
   {
     "name": "Jongok Hong",
@@ -163,7 +163,7 @@
     "image": "inhwasong.png",
     "homepage": "https://inhwasong.com",
     "research_interest": "Social Computing, HCI, Computational Social Science",
-    "current": true
+    "current": false
   },
   {
     "name": "Donggun Lee",
@@ -216,7 +216,7 @@
     "image": "suyeonseo.png",
     "homepage": "https://suyeonportfolio.netlify.app/",
     "research_interest": "Human-AI Interaction, LLM Agent, Data Visualization",
-    "current": true
+    "current": false
   },
   {
     "name": "Enrique Jose Delgado Garcia",
@@ -224,6 +224,6 @@
     "image": "enrique.jpg",
     "homepage": "",
     "research_interest": "Human-AI Interaction, Family Informatics, Gamification",
-    "current": true
+    "current": false
   }
 ]
