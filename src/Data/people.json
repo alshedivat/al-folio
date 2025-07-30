@@ -233,5 +233,13 @@
     "homepage": "",
     "research_interest": "Human-AI interaction, HCI, Data Visualization",
     "current": true
+  },
+  {
+    "name": "Hyunji Huh",
+    "position": "Undergraduate Intern",
+    "image": "hyunji.png",
+    "homepage": "",
+    "research_interest": "Accessibility, Marginalized People, Wearable Computing",
+    "current": true
   }
 ]
