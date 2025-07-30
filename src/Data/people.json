@@ -225,5 +225,13 @@
     "homepage": "",
     "research_interest": "Human-AI Interaction, Family Informatics, Gamification",
     "current": false
+  },
+  {
+    "name": "Eunji Shin",
+    "position": "Undergraduate Intern",
+    "image": "eunji.png",
+    "homepage": "",
+    "research_interest": "Human-AI interaction, HCI, Data Visualization",
+    "current": true
   }
 ]
