@@ -13,7 +13,7 @@
   contents:
     - "Languages: python, SQL, DAX, beginner JavaScript"
     - "Data Tools: Power BI, Tableau, Google Sheets, Excel, Airtable, Smartsheet"
-    - "Design Tools: Adobe Photoshop, PowerPoint for design, Camtasia"
+    - "Design Tools: Adobe Photoshop, PowerPoint, Camtasia"
     - "Other Tools: git, GitHub, Jira"
 
 - title: Education
@@ -57,18 +57,19 @@
       institution: City of Boston
       year: Mar 2023 - present
       description:
-        - Ideate, manage and mature two city-wide initiatives to measure departmental effectiveness
-        - Lead creation of Performance Management team annual strategy, including a team theory of change
-        - Create and scale a city-wide data culture program, which upskilled 50+ staff in 4 quarter-long cohorts in 2023
-        - Advise and delegate tasks to two junior Analysts, aligned to professional development and team needs
-        - Build and maintain data products and analyses in Power BI, Knack, Python and SQL
+        - Create and implement Mission to Metrics, an internal consulting service that develops strategic department performance goals in partnership with senior leaders
+        - Develop, design and scale the Metric Library, a centralized resource in dbt that quickly and accurately calculates 60+ City metrics across 14+ departments on-demand
+        - Advise and delegate to two Analysts, aligned to professional development and team needs
+        - Mentor and advise on Power BI for 100+ users, developing governance and best practices
+        - Co-chair the <a href="https://www.boston.gov/departments/innovation-and-technology/boston-data-collective">Boston Data Collective</a>, an employee resource group with 90+ members
+
     - title: Analyst, Performance Management
       institution: City of Boston
       year: May 2022 - Mar 2023
       description:
-        - Delivered internal and external data products and analyses in Tableau, Knack, Python and SQL
-        - Partnered with two departments to create custom values, goals, and metrics that measure departmental effectiveness
-        - Advised on integrating equity and inclusion into data collection, analysis, and visualization efforts
+        - Delivered data products in Tableau, Knack, Python, and SQL, including a custom Knack app to collect reporting data representing $560 million in grant funds
+        - Created goals, objectives, and metrics for departments managing $20-50m budgets
+        - Founded a city-wide data culture program dedicated to building an ethical data culture
     - title: Data Analysis Consultant
       institution: Mobile Game Doctor
       year: Jun 2021 - Feb 2022
@@ -80,13 +81,13 @@
       description:
         - Modeled, cleaned, analyzed and visualized internal and external data in Power BI and Excel
         - Designed feminist data collection processes, including how to quantify investment in gender justice work across 200+ staff
-        - Led strategy, operations and budget management for [Data Pack](https://www.youtube.com/watch?v=4O_DIl0fJzU), a staff-led community of practice, to build a feminist data culture
+        - Led strategy, operations and budget management for <a href="https://www.youtube.com/watch?v=4O_DIl0fJzU">Data Pack</a>, a staff-led community of practice, to build a feminist data culture
     - title: Volunteer Data Analyst
       institution: Ward 6 Mutual Aid
       year: Mar to Aug 2020
       description:
-        - Developed data process and system for face mask acquisition and delivery
-        - Analyzed and visualized fundraising data
+        - Developed data collection system for face mask acquisition and delivery in Airtable
+        - Analyzed and visualized fundraising data in Tableau to drive additional donations
     - title: Program Coordinator, LEAD and ICT4D
       institution: Oxfam America
       year: Feb 2017 - Dec 2019

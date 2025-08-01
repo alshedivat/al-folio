@@ -1,8 +1,8 @@
 ---
 layout: post
-title: a long-form introduction
+title: A Long-Form Introduction
 date: 2024-03-24
-description: reflecting on my path to data work
+description: Reflecting on my path to data work
 tags: about career
 categories: posts
 thumbnail: assets/img/bundokim_dogs.jpg
@@ -18,7 +18,7 @@ toc:
   
 Because I've had a less-than-conventional path into data work, it feels appropriate to start this blog with a little more about me. How did I end up here (and why am I, as a former colleague once asked me, not a poet or a baker instead)? Where am I looking to grow (as all close to me know that I am fully, if sometimes overly, committed to growing towards _the next thing_)? And perhaps most importantly, how does all of this shape my approach to data work? I believe that the analysis can't be divorced from the analyst, so consider this my longer-form introduction to me--and by extension, my approach to analytics and data work in general.
 
-## my entrance into data
+## My entrance into data
 
 I graduated college with minimal math exposure. No part of me identified as a "numbers person." But the first full-time job I landed out of college--a Coordinator role for an evaluation team at a nonprofit--needed those "numbers" skills to answer the financial questions I was responsible for. So with nothing but a barely-supported edition of Oracle BI, an Excel license, and a grit I've come to love about myself, I set to figuring it out. I started with learning pivot tables in Excel. When I wanted the ability to see multiple tables in the same visualization, I graduated to data transformations and modeling in Power BI. When I learned about databases, I sought out SQL bootcamps and consulting projects for practice. And when I finally was starting to feel something close to analyst, I dove into learning pandas and matplotlib in Python. Over a few short years, I had completely pivoted my career towards data work.
 
@@ -42,7 +42,7 @@ In 2019, I co-founded Data Pack, a staff-led community of practice dedicated to 
 
 Personally, I learned Power BI, SQL and (the start of) Python all through Data Pack funds and learning opportunities. Data Pack was transformational to my career, and whether or not it still exists at Oxfam today, it was really special. You can learn more about Data Pack in the Harvard Data Science Initiative talk I gave in 2021, available on [Youtube](https://www.youtube.com/watch?v=4O_DIl0fJzU) starting at 23:21.
 
-## taking the (analyst) title
+## Taking the (analyst) title
 
 After almost six years at Oxfam, I had begun to question the role of international non-governmental organizations (INGOs)--or, at the very least, my role in them. I began looking for other opportunities. In May of 2022, I accepted full-time Analyst position at the City of Boston. I was placed on the Performance Management vertical, a team dedicated to telling the story of the City's performance through data. (Not too far off from my old evaluation team at Oxfam.) The initial nervousness I felt about my experience level faded as I learned that Oxfam's challenges were common across large organizations. The skills I had built in relationship and project management, in translating stakeholder needs into analytic products, in data visualization design, and in facilitation were all relevant. The only difference was that the City employs some 20,000 staff instead of a few hundred.
 
@@ -57,7 +57,7 @@ That size and scale of the City's workforce afforded a unique opportunity to tes
 
 We delivered a total of four learning cohorts in 2023, including JavaScript. One was in Python fundamentals, and two more were dedicated to learning Power BI as part of the City's transition to the tool. Overall, 55 unique staff across the City completed 50% or more of their cohort in 2023. Through all of this, I also earned a promotion to Performance Manager. This role, which I'm still in today, increased my responsibility in developing strategy for and formally leading Performance Management programs.
 
-## looking ahead
+## Looking Ahead
 
 So, what next? I don't think it's a terrible thing to be open to many paths. I know where my interests lie:
 
@@ -68,7 +68,7 @@ So, what next? I don't think it's a terrible thing to be open to many paths. I k
 - **Learning Feminist Leadership:** I'm continually obsessed with the building blocks required to be a fantastic feminist leader in the workplace. I'm interested in evaluating (and growing!) my leadership skills, as well as continuing to volunteer for non-hierarchical leadership opportunities.
 
 
-## (p.s. why I'm not a poet)
+## (P.S. Why I'm not a poet)
 
 The truth is that I never dreamed of being a full-time poet. Most of the poets I idolized in high school (Billy Collins, Tony Hoagland, Li-Young Lee) were professors and published on the side, so that's what I imagined for myself. I'd sit on desks and teach kids to see poetry as a window into the world, and into the worlds of others.
 

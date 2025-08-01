@@ -1,9 +1,9 @@
 ---
 layout: post
-title: a future place for data thoughts?
+title: A Future Place for Data Thoughts
 date: 2024-01-20 12:03:00
-description: setting some intentions for 2024
-tags: formatting links
+description: Setting some intentions for 2024
+tags: 
 categories: posts
 ---
 

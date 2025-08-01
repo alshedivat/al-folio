@@ -1,11 +1,11 @@
 ---
 layout: post
-title: when the metrics have no mission
-date: 2025-07-30
-description: making the case that an imperfect goal that's used is better than none at all
+title: When the Metrics Have No Mission
+date: 2025-07-31
+description: Making the case that an imperfect goal that's used is better than none at all
 tags: goals metrics reporting
 categories: posts
-thumbnail: 
+thumbnail: assets/img/neom_mountains.jpg
 toc:
   sidebar: left
 ---
@@ -16,7 +16,7 @@ toc:
 
 </div>
 
-## introduction: on trend(s) 
+## Introduction: On Trend(s) 
 For most organizations, metrics are no longer new. It’s not cutting-edge to talk about measuring and monitoring success, even if most organizations still struggle to do it well. (Once, when pressed, a senior fundraising executive told me that bringing in $500,000 in donations was success for a large campaign because the number “just felt right.” Absolutely no shade to her – I’d wager that more metrics are done on intuition than we admit.) The tricky thing is, as metrics lose their sparkle, a lot of organizations are left with an unsettling sense that they should already be doing it. Doing the metric thing. And that, in fact, is actually quite hard to do.
 
 It’s hard to imagine where your team should be in a year, when you have an immediate, crushing to-do list today. It’s hard to track the metrics that matter, when the data you have is irrelevant, unreliable, or otherwise unusable. It’s hard to build a culture that uses metrics effectively, when so many people have learned that metrics equate to punishment and blame. All of which is to say it’s unsurprising to see organizations spending a lot of time tracking metrics they can’t quite articulate the importance of, don’t use in decision-making, and/or overblow to make unsubstantiated claims of success. (“We trained 100 people, we’re changing the world!”)
@@ -29,7 +29,7 @@ The first half of this post will lay out the reasons why your metrics deserve th
 
 I am writing with the assumption that you do not need to be convinced that metrics are a worthwhile management tool, or that data makes decision-making better. If that’s you and you’ve found your way to my blog, I invite you to read my [post](https://amy-hood.github.io/blog/2024/a-longer-introduction/) about my own journey into data work before diving into this one.
 
-### quick definition break
+### Quick Definition Break
 
 Because a lot of organizations use the same terms to signify vastly different things, I hope you’ll forgive a brief pause for definitions. These definitions avoid describing an ideal state – that’s what the rest of the blog post is for!
 
@@ -45,14 +45,14 @@ Because a lot of organizations use the same terms to signify vastly different th
 
 Okay, back to business!
 
-## part 1: your metrics should have a goal
+## Part 1: Your metrics should have a goal
 For those who prefer an outline (guilty), here’s what you can expect in this section:
 1. [On Ghost Goals](#on-ghost-goals): Your goals may not be written, but they can still haunt you. 
 2. [Beans, Beans, the Magical Fruit](#beans-beans-the-magical-fruit): Even a million beans is still a pile of beans.
 3. [It’s Just Not That Deep](#its-just-not-that-deep): Lower your bar for good-enough goals. 
 
 
-### on ghost goals
+### On Ghost Goals
 
 {% include figure.liquid path="assets/img/shaylyn_ghosts.jpg" class="img-fluid rounded z-depth-1"%}
 
@@ -71,7 +71,7 @@ That’s the thing about ghost goals: they haunt. It feels like you’re arguing
 
 I’m simplifying a lot of real-world complexities here, but I hope the point comes through: Why spend time disagreeing about ghost goals when you could be having more productive conversations about real ones?
 
-### beans, beans, the magical fruit
+### Beans, Beans, the Magical Fruit
 
 {% include figure.liquid path="assets/img/shelley-pauls_beans.jpg" class="img-fluid rounded z-depth-1"%}
 
@@ -89,7 +89,7 @@ The thing that goals do really well, though, is answer why. Without a goal, you�
 
 Without a documented justification for tracking the metric (e.g., a goal), your metrics may very well be bean-counters. Counting to count. No one wants to spend precious time and resources counting a pile of beans, and the only way to ensure you’re not doing that is to write a goal. 
 
-### it's just not that deep
+### It's Just Not That Deep
 
 {% include figure.liquid path="assets/img/marisol-falcon_pool.jpg" class="img-fluid rounded z-depth-1" height="200"%}
 
@@ -107,7 +107,7 @@ The incremental benefits of documenting goals for your metrics now – ridding y
 
 The key to this is that your goals have to be used to be useful. There is no point to writing goals, perfect or not, if they’re only looked at when you’re proposing a budget or making a communications push. Write the imperfect goal, but refer to it often. Bring it up in your team meetings, use it when you talk to others about your work, and include it in your reporting. If you have goals that no one on your team could rattle off when asked, you’re doing it wrong. 
 
-## part 2: getting started, the practical way
+## Part 2: Getting started, the practical way
 {% include figure.liquid path="assets/img/kelly-sikkema_papers.jpg" class="img-fluid rounded z-depth-1"%}
 
 <div class="caption">
@@ -120,14 +120,14 @@ If you’re an individual contributor, that might look like taking the 3-5 metri
 
 If you manage a team, you likely have more say on your team’s goals, so it’ll be up to you to evaluate your circumstances. The ideal situation is a deeper reflection on your team’s mission and strategy, but I know there’s many times where that’s not feasible to do immediately. If, for whatever reason, you cannot do more robust reflection, I recommend identifying the 3-5 metrics your team uses most to describe its work, and writing something out. Share the draft with your team and your leadership, and keep it light – “This is how I’m thinking about the work we’re doing right now. Do you see it the same way? We can definitely change things as we go.” The hope is to create some initial clarity, not solve it all. 
 
-### goals vs. objectives
-Before I dive into recommendations for writing goals, I want to share a bit about how objectives should connect to goals. (I shared a bit about how I'm defining goals and objectives earlier [here](#quick-definition-break).)
+### Goals vs. Objectives
+Before I dive into recommendations for writing goals, I want to pause on how objectives should connect to goals. (I shared a bit about how I'm defining goals and objectives earlier [here](#quick-definition-break).)
 
 Goals describe why. Objectives describe what and how. I typically write objectives as statements that, when all added together, make the goal a reality. These may be milestones or projects that address the same problem from different angles. Either way, objectives operationalize a larger goal, and typically describe the work that you’re doing right now. It may feel the most “real” to you, because the work you touch on a day-to-day basis. 
 
 If you don’t have written goals right now, I’d guess that your metrics are at the objective level. In my recommendations below, I have you start by writing an objective that describes your current metric, and then scaffold a goal – your “why” – atop it. 
 
-### writing a rapid goal
+### Writing a Rapid Goal
 I want to provide a very practical, very fast way to write a goal, using metrics that already exist. This will not produce a perfect goal – that’s not the point! – but it should help you right now, until you have the space and time for a more intentional process.
 
 1. **Write what you’re tracking right now:** Use a formula: verb + thing you’re tracking + a target value. The target is likely wrong at this stage, but I’ve found it helpful to put a placeholder at the beginning as a part of brainstorming. It makes the work feel real – and you don’t have to share it with anyone until you’re sure it’s right. Write an uninspiring, messy first draft, and resist revising. This is a draft objective. 
@@ -141,7 +141,7 @@ I want to provide a very practical, very fast way to write a goal, using metrics
 
 I could spend a long time recommending frameworks that would make your draft goal better, punchier, easier to track, better aligned to your mission, but I wouldn’t recommend doing that for a rapid goal. If you can do goal-writing in a more intentional way, this style of rapid goal-writing no longer makes sense. Thankfully, there are a lot of resources out there for writing goals in an intentional way if that’s where you’re at – a subject for another post. 
 
-### an example
+### An Example
 
 Let’s run a rapid, intentionally imperfect example with the above steps.
 
@@ -168,7 +168,7 @@ As you go through this exercise, you’ll likely feel the tension to press for a
 
 Of course, the thesis of writing rapid goals is twofold: they’re better than no goals at all, and having imperfect goals will eventually create enough tension to instigate a more intentional goal-writing process. If you find yourself consistently stuck with rapid goals that never graduate to an intentional process, then it might be time to take a step back and interrogate why. 
 
-## conclusion
+## Conclusion
 The curse of writing a blog post like this is that it has to be general and unspecific, in hopes that general and unspecific advice can be helpful to your situation. I hope I’ve given you enough reasoning why goals are important for your metrics, as well as a path to writing something more useful than not. 
 
 I want to end where I started: this work is hard. It’s okay to start where you are, with what you have right now. I believe in iterative improvement, as long as the iteration continues. You might surprise yourself with where you land with steps that seem very small to start.
