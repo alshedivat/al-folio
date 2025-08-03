@@ -24,8 +24,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_3/";
-            },},{id: "news-",
-          title: '',
+            },},{id: "news-lamehug-russians-let-gpt-do-the-dirty-work",
+          title: 'LameHug - Russians Let GPT Do the Dirty Work',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
