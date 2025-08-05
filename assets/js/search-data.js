@@ -29,6 +29,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_4/";
+            },},{id: "news-plague-in-your-pam-silent-stealthy-persistent",
+          title: 'Plague in Your PAM – Silent, Stealthy, Persistent',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_5/";
             },},{
         id: 'social-email',
         title: 'email',
