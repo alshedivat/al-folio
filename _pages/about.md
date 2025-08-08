@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am pursuing a Ph.D. in Applied Mathematics at <a href='https://www.cornell.edu/'>Cornell University</a> where I am fortunate to be advised by
+TI am pursuing a Ph.D. in Applied Mathematics at <a href='https://www.cornell.edu/'>Cornell University</a> where I am fortunate to be advised by
 <a href='https://people.orie.cornell.edu/aslewis/'>Adrian Lewis</a>, before which I completed my B.Sc. at <a href='https://www.mcgill.ca/'>McGill University</a> in Joint Honours
 Mathematics and Computer Science. I am interested in continuous optimization and variational analysis with an emphasis on geometry, as 
 well as probability, algorithm design, and applications thereof to data science and machine learning.
