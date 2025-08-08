@@ -1,1 +1,1 @@
-Some surfers don't need boards.⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖ 𓆉︎  
+Some surfers don't need boards.⊹ ࣪ ﹏𓊝﹏𓂁﹏⊹ ࣪ ˖
