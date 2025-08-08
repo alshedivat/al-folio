@@ -1,11 +1,11 @@
----
+<!-- ---
 layout: page
 title: XLEAP
 description: Recreational braindumps.
 img: assets/img/publication_preview/snow.png
 importance: 4
 category: fun
---- 
+---  -->
 
 This is not really a project, I waste my time creating myself problems that I think not solveable. And go through pain to try to find a way to solve them. 
 
