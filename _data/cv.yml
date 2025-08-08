@@ -1,0 +1,31 @@
+- title: Incremental Minimization in Spaces of Nonpositive Curvature
+  type: nested_list
+  contents:
+    - title: Midwest Optimization Meeting (MOM26)
+      items: 
+        - Poster Session 
+        - University of Waterloo, Waterloo, ON, November 2024
+        - <a href="incrmin.pdf" target="_blank">Poster</a>
+
+
+- title: The Maximum Entropy on the Mean Method for Linear Inverse Problems and Beyond 
+  type: nested_list
+  contents:
+    - title: International Conference on Continuous Optimization (ICCOPT 2022)
+      items: 
+        - Nonsmooth Optimization Session (contributed talk)
+        - Lehigh University, Bethlehem, PA, July 2022
+        - <a href="cramer.pdf" target="_blank">Slides</a>
+
+- title: Epigraphical Projections in Nonsmooth Optimization
+  type: nested_list
+  contents:
+    - title: Undergraduate Research Conference (2020)
+      items: 
+        - McGill University (online), Montreal, QC, August 2020
+        - <a href="epiproj.pdf" target="_blank">Slides</a>
+
+
+
+       
+
