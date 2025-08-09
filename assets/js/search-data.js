@@ -18,7 +18,7 @@ ninja.data = [{
           title: 'Slices of Suspicion – The Pentagon Pizza Theory',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/anouncement_6/";
+              window.location.href = "/news/announcement_6/";
             },},{id: "news-brilliant-and-simple-filename-based-sandbox-evasion",
           title: 'Brilliant and Simple - Filename-Based Sandbox Evasion',
           description: "",
