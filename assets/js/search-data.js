@@ -14,6 +14,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
+            },},{id: "news-slices-of-suspicion-the-pentagon-pizza-theory",
+          title: 'Slices of Suspicion – The Pentagon Pizza Theory',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/anouncement_6/";
             },},{id: "news-brilliant-and-simple-filename-based-sandbox-evasion",
           title: 'Brilliant and Simple - Filename-Based Sandbox Evasion',
           description: "",
