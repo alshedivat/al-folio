@@ -38,7 +38,7 @@ ninja.data = [{
           title: 'Plague in Your PAM – Silent, Stealthy, Persistent',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_5/";
+              window.location.href = "/news/announcement_6/";
             },},{
         id: 'social-email',
         title: 'email',
