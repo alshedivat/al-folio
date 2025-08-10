@@ -28,12 +28,12 @@ ninja.data = [{
           title: 'A Promptly Bad Idea - Malware Meets AI',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_3/";
+              window.location.href = "/news/announcement_4/";
             },},{id: "news-lamehug-russians-let-gpt-do-the-dirty-work",
           title: 'LameHug - Russians Let GPT Do the Dirty Work',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_4/";
+              window.location.href = "/news/announcement_5/";
             },},{id: "news-plague-in-your-pam-silent-stealthy-persistent",
           title: 'Plague in Your PAM – Silent, Stealthy, Persistent',
           description: "",
