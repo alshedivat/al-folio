@@ -23,7 +23,7 @@ ninja.data = [{
           title: 'Brilliant and Simple - Filename-Based Sandbox Evasion',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_1/";
+              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-promptly-bad-idea-malware-meets-ai",
           title: 'A Promptly Bad Idea - Malware Meets AI',
           description: "",
