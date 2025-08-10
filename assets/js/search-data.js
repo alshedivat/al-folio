@@ -18,7 +18,7 @@ ninja.data = [{
           title: 'Slices of Suspicion – The Pentagon Pizza Theory',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_6/";
+              window.location.href = "/news/announcement_7/";
             },},{id: "news-brilliant-and-simple-filename-based-sandbox-evasion",
           title: 'Brilliant and Simple - Filename-Based Sandbox Evasion',
           description: "",
@@ -33,12 +33,12 @@ ninja.data = [{
           title: 'LameHug - Russians Let GPT Do the Dirty Work',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_4/";
+              window.location.href = "/news/announcement_5/";
             },},{id: "news-plague-in-your-pam-silent-stealthy-persistent",
           title: 'Plague in Your PAM – Silent, Stealthy, Persistent',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_5/";
+              window.location.href = "/news/announcement_6/";
             },},{
         id: 'social-email',
         title: 'email',
