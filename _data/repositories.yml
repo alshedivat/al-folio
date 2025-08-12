@@ -8,7 +8,7 @@ github_repos:
   - tanerjn/terraform-gcp
   - tanerjn/openliberty-demo
   - tanerjn/jms-demo
-  - tanerjn/go-solutions
-  - tanerjn/core5
+  - tanerjn/certifications
+  - tanerjn/aws-load-balancer
   - tanerjn/elk-scripts
   - tanerjn/openstack-deployment
