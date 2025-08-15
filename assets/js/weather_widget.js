@@ -367,6 +367,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Create info button and popup functionality
     function createInfoButton() {
+        console.log('Inside createInfoButton function');
         // Create info button with neon styling
         const infoButton = document.createElement('div');
         infoButton.id = 'info-button';
@@ -474,8 +475,11 @@ document.addEventListener('DOMContentLoaded', function() {
         popupOverlay.appendChild(popupContent);
         
         // Add elements to page
+        console.log('About to append info button to body');
         document.body.appendChild(infoButton);
         document.body.appendChild(popupOverlay);
+        console.log('Info button appended. Button element:', infoButton);
+        console.log('Button should be visible at bottom-left with red neon styling');
         
         // Show/hide popup functions
         function showPopup() {
@@ -752,7 +756,8 @@ document.addEventListener('DOMContentLoaded', function() {
         return `linear-gradient(180deg, ${skyColor1} 0%, ${skyColor2} 100%)`;
     }
     
-    // Create weather widget with conditional placement
+    // COMMENTED OUT: Create weather widget with conditional placement - WEATHER WIDGET DISABLED
+    /* 
     const weatherWidget = document.createElement('div');
     weatherWidget.className = 'weather-widget';
     
@@ -1076,7 +1081,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     
     // Initialize new simple plane system
-    startNewPlaneSystem();
+    // startNewPlaneSystem(); // COMMENTED OUT: Flying airplane feature disabled
     
     // Add keyboard listener for plane toggle
     document.addEventListener('keydown', function(e) {
@@ -1136,8 +1141,11 @@ document.addEventListener('DOMContentLoaded', function() {
         border-radius: 0 0 12px 12px;
     `;
     weatherWidget.appendChild(skylineContainer);
+    */
+    // END WEATHER WIDGET DISABLED SECTION
     
-    // Load cached weather data
+    // COMMENTED OUT: Load cached weather data - WEATHER WIDGET DISABLED
+    /*
     function loadCachedWeather() {
         try {
             const cached = localStorage.getItem(CACHE_KEY);
@@ -3063,6 +3071,7 @@ document.addEventListener('DOMContentLoaded', function() {
             100% { opacity: 0.5; transform: scale(1.1); }
         }
         
+        /* COMMENTED OUT: Flying airplane animation keyframes
         @keyframes simplePlaneFlight {
             0% { 
                 left: -50px;                    /* Off-screen left */
@@ -3080,6 +3089,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 opacity: 0;                     /* Very fast fade over only 6px of movement */
             }
         }
+        */
         
         @keyframes bannerFlutter {
             0% { 
@@ -3313,8 +3323,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 width: 250px !important;
             }
             .fixed-quote-box {
-                top: calc(140px + 22vw + 20px) !important;
-                transform: none !important;
+                top: 50vh !important;
+                transform: translateY(-50%) !important;
             }
         }
         
@@ -3394,8 +3404,8 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             .fixed-quote-box {
-                top: 295px !important; /* 150 + 120 + 25 gap */
-                transform: none !important;
+                top: 50vh !important;
+                transform: translateY(-50%) !important;
             }
             .mit-skyline {
                 height: 40px !important;
@@ -3409,8 +3419,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 max-height: 160px !important;
             }
             .fixed-quote-box {
-                top: calc(80px + 20vh + 20px) !important;
-                transform: none !important;
+                top: 50vh !important;
+                transform: translateY(-50%) !important;
             }
             .mit-skyline {
                 height: 40px !important;
@@ -3455,15 +3465,18 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         /* Responsive plane animations */
+    */
+    // END WEATHER DATA FETCHING DISABLED SECTION
     `;
-    document.head.appendChild(style);
+    // COMMENTED OUT: Weather widget CSS styles - WEATHER WIDGET DISABLED  
+    // document.head.appendChild(style);
     
     // Let CSS handle positioning - removed dynamic positioning logic to prevent misalignment
     
-    // Create info button and popup
-    createInfoButton();
+    // Info button functionality moved to separate info_button.js file
 
-    // Initialize with state persistence
+    // COMMENTED OUT: Initialize with state persistence - WEATHER WIDGET DISABLED
+    /*
     const savedState = loadWidgetState();
     if (savedState && savedState.weatherData) {
         currentWeather = savedState.weatherData;
@@ -3478,7 +3491,10 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         updateWeather(); // Normal initialization
     }
+    */
     
+    // COMMENTED OUT: Weather update timers and event listeners - WEATHER WIDGET DISABLED
+    /*
     // Update every minute to minimize API calls
     // Update weather data periodically
     setInterval(() => {
@@ -3498,6 +3514,7 @@ document.addEventListener('DOMContentLoaded', function() {
             saveWidgetState();
         }
     });
+    */
     
     // Start the sailing boat animation
     createSailingBoatAnimation();

@@ -316,7 +316,8 @@ table {
 .fixed-quote-box {
   position: fixed !important;
   right: 20px;
-  top: calc(200px + 25vw + 20px); // Dynamic positioning below weather widget
+  top: 50vh;
+  transform: translateY(-50%);
   width: 250px;
   padding: 1rem;
   background-color: var(--global-card-bg-color);
@@ -548,7 +549,8 @@ table {
   }
   
   .fixed-quote-box {
-    top: calc(120px + 20vw + 20px); // Dynamic height adjustment
+    top: 50vh;
+    transform: translateY(-50%);
   }
   
   .weather-widget {
@@ -568,7 +570,8 @@ table {
   }
   
   .fixed-quote-box {
-    top: calc(120px + 18vw + 20px); // Dynamic height adjustment
+    top: 50vh;
+    transform: translateY(-50%);
   }
   
   .weather-widget {
@@ -1270,14 +1273,24 @@ table {
 .quotes-nav-panel {
   position: fixed !important;
   left: 0;
-  top: 480px; // Position below the image, same as CV nav panel
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 160px; // Narrower panel
-  background-color: var(--global-bg-color);
+  background-color: transparent;
   z-index: 999;
   opacity: 0.8;
   transition: all 0.3s ease;
-  max-height: 50vh;
-  overflow-y: auto;
+  pointer-events: none;
+  
+  > * {
+    pointer-events: all;
+    background-color: var(--global-bg-color);
+    max-height: 50vh;
+    overflow-y: auto;
+  }
 
   &:hover {
     opacity: 1;
@@ -1327,42 +1340,34 @@ table {
 }
 
 // Responsive quotes navigation panel positioning
+// Responsive quotes navigation panel positioning - removed specific top values to maintain centering
 @media (max-width: 1400px) {
-  .quotes-nav-panel {
-    top: 420px; // Adjust for smaller image
-  }
+  // .quotes-nav-panel continues to use 50% centering at all screen sizes
 }
 
 @media (max-width: 1300px) {
-  .quotes-nav-panel {
-    top: 370px; // Adjust for smaller image
-  }
+  // .quotes-nav-panel continues to use 50% centering at all screen sizes
 }
 
 @media (max-width: 1250px) {
-  .quotes-nav-panel {
-    top: 320px; // Adjust for smaller image
-  }
+  // .quotes-nav-panel continues to use 50% centering at all screen sizes
 }
 
 // Vertical responsiveness for quotes nav panel
 @media (max-height: 800px) {
   .quotes-nav-panel {
-    top: 370px;
     max-height: 40vh;
   }
 }
 
 @media (max-height: 700px) {
   .quotes-nav-panel {
-    top: 320px;
     max-height: 35vh;
   }
 }
 
 @media (max-height: 600px) {
   .quotes-nav-panel {
-    top: 270px;
     max-height: 30vh;
   }
 }

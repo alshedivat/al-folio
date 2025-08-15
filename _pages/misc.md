@@ -11,6 +11,8 @@ children:
     #   permalink: /misc/reading_list
     # - title: Listening List
     #   permalink: /misc/listening_list
+    - title: Season 3, Episode 1
+      permalink: /misc/season-3-episode-1
     - title: History, Listed
       permalink: /misc/history-listed
     - title: Recreational Math

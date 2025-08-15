@@ -47,20 +47,22 @@
     </div>
 
     <!-- Fixed Quote Box -->
+    {% unless page.hide_quote_margins %}
     <div class="fixed-quote-box">
       <p id="random-quote" class="quote-text"></p>
       <p id="random-quote-author" class="quote-author"></p>
       <p class="quote-source">from <a href="/me-like/quotes/">me like</a></p>
       <p class="bubble-instructions">press <kbd>e</kbd> to toggle word bubbles<br>press <kbd>m</kbd> to show meaning</p>
     </div>
+    {% endunless %}
 
     <!-- Fixed Image Box (exclude from about page) -->
-    {% unless page.permalink == '/' %}
+    {% unless page.permalink == '/' %}{% unless page.hide_art_widget %}
     <div class="fixed-image-box">
       <img id="fixed-ai-image" class="ai-image" src="" alt="Random AI image from Better Images of AI" />
       <p class="image-caption">from <a href="https://betterimagesofai.org/images" target="_blank">Better Images of AI</a></p>
     </div>
-    {% endunless %}
+    {% endunless %}{% endunless %}
 
     <!-- Footer -->
     {%- include footer.html %}
@@ -75,8 +77,17 @@
     {% include scripts/analytics.html %}
     {% include scripts/progressBar.html %}
     
+    <!-- Hourly AI Image System - loads first to provide synchronized images -->
+    <script src="{{ '/assets/js/hourly_ai_image.js' | relative_url }}"></script>
+    
+    <!-- Random AI Image selector - uses hourly synchronized system -->
+    <script src="{{ '/assets/js/random_ai_image.js' | relative_url }}"></script>
+    
     <!-- Custom cursor script -->
     <script src="{{ '/assets/js/custom_cursor.js' | relative_url }}"></script>
+    
+    <!-- Info button script -->
+    <script src="{{ '/assets/js/info_button.js' | relative_url }}"></script>
     
     <!-- Weather widget scripts -->
     <script src="{{ '/assets/js/weather_widget.js' | relative_url }}"></script>

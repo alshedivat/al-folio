@@ -94,6 +94,20 @@
                     "year": 2023,
                     "commentary": "The authors show how machine-unique/discovered chess-playing concepts can be extracted and taught to human chess-players.",
                     "link": "https://arxiv.org/abs/2310.16410"
+                },
+                {
+                    "title": "Can Large Language Models Transform Computational Social Science?",
+                    "authors": "Caleb Ziems, William Held, Omar Shaikh, Jiaao Chen, Zhehao Zhang, Diyi Yang",
+                    "year": 2024,
+                    "commentary": "Nice overview of the AI for computational social sciences landscape.",
+                    "link": "https://arxiv.org/abs/2305.03514"
+                },
+                {
+                    "title": "On Classification with Large Language Models in Cultural Analytics",
+                    "authors": "David Bamman, Kent K. Chang, Li Lucy, Naitian Zhou",
+                    "year": 2024,
+                    "commentary": "Really nice overview of how NLP methods can be applied to understand literary culture.",
+                    "link": "https://arxiv.org/abs/2410.12029"
                 }
             ]
         },
@@ -286,20 +300,6 @@
                     "year": 2025,
                     "commentary": "A beautifully designed webpage that illustrates a 'fisheye' principle for building knowledge interfaces that expose users to the 'peripheral' context.",
                     "link": "https://wattenberger.com/thoughts/fish-eye"
-                }
-            ]
-        },
-
-        {
-            "title": "AI for Social Science",
-            "description": "AI methods for producing new knowledge in history, literature, political science, psychology, philosophy, etc.",
-            "papers": [
-                {
-                    "title": "Can Large Language Models Transform Computational Social Science?",
-                    "authors": "Caleb Ziems, William Held, Omar Shaikh, Jiaao Chen, Zhehao Zhang, Diyi Yang",
-                    "year": 2024,
-                    "commentary": "Nice overview of the AI for computational social sciences landscape.",
-                    "link": "https://arxiv.org/abs/2305.03514"
                 }
             ]
         },

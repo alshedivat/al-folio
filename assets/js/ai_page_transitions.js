@@ -209,11 +209,16 @@ document.addEventListener('DOMContentLoaded', function() {
     
     document.body.appendChild(transitionOverlay);
     
-    // Function to get random AI image
+    // Function to get hourly synchronized AI image
     function getRandomAIImage() {
-        const randomIndex = Math.floor(Math.random() * aiImages.length);
-        const imageName = aiImages[randomIndex];
-        return `/assets/better-ai-imgs/${encodeURIComponent(imageName)}`;
+        if (window.HourlyAIImage) {
+            return window.HourlyAIImage.getCurrentImagePath();
+        } else {
+            // Fallback to old random method if hourly system not loaded
+            const randomIndex = Math.floor(Math.random() * aiImages.length);
+            const imageName = aiImages[randomIndex];
+            return `/assets/better-ai-imgs/${encodeURIComponent(imageName)}`;
+        }
     }
     
     // Countdown function
@@ -270,7 +275,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to show transition
     function showTransition(callback) {
         const randomImage = getRandomAIImage();
-        console.log(`Starting transition with image: ${randomImage}`);
+        const imageName = window.HourlyAIImage ? window.HourlyAIImage.getCurrentImageFilename() : 'unknown';
+        console.log(`Starting transition with hourly synchronized image: ${imageName} (${randomImage})`);
         
         transitionActive = true;
         currentTransitionCallback = callback;
@@ -324,7 +330,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to show transition with proper navigation timing
     function showTransitionWithNavigation(href) {
         const randomImage = getRandomAIImage();
-        console.log(`Starting transition with navigation to: ${href}`);
+        const imageName = window.HourlyAIImage ? window.HourlyAIImage.getCurrentImageFilename() : 'unknown';
+        console.log(`Starting transition with navigation to: ${href}, using hourly synchronized image: ${imageName}`);
         
         transitionActive = true;
         currentTransitionCallback = () => { window.location.href = href; };
