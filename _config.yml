@@ -247,8 +247,8 @@ terser:
 # -----------------------------------------------------------------------------
 
 PurgeCSS:
-  content: ['_site/**/*.html', '_site/**/*.js']
-  css: ['_site/assets/css/*.css']
+  content: ["_site/**/*.html", "_site/**/*.js"]
+  css: ["_site/assets/css/*.css"]
   output: _site/assets/css/
 
 # -----------------------------------------------------------------------------
