@@ -214,6 +214,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+  - jekyll-purge-css
 
 # Sitemap settings
 defaults:
@@ -240,6 +241,15 @@ jekyll-minifier:
 terser:
   compress:
     drop_console: true
+
+# -----------------------------------------------------------------------------
+# Jekyll PurgeCSS
+# -----------------------------------------------------------------------------
+
+PurgeCSS:
+  content: ['_site/**/*.html', '_site/**/*.js']
+  css: ['_site/assets/css/*.css']
+  output: _site/assets/css/
 
 # -----------------------------------------------------------------------------
 # Jekyll Archives
