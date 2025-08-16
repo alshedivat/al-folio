@@ -10,7 +10,20 @@
 
   {% if site.giscus.repo %}
     <script>
-      let giscusTheme = determineComputedTheme();
+      function determineGiscusTheme() {
+        {% if site.enable_darkmode %}
+          let theme = localStorage.getItem('theme') || document.documentElement.getAttribute('data-theme') || 'system';
+          if (theme === 'dark') return '{{ site.giscus.dark_theme }}';
+          if (theme === 'light') return '{{ site.giscus.light_theme }}';
+          const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          return prefersDark ? '{{ site.giscus.dark_theme }}' : '{{ site.giscus.light_theme }}';
+        {% else %}
+          return '{{ site.giscus.light_theme }}';
+        {% endif %}
+      }
+
+      let giscusTheme = determineGiscusTheme();
+
       let giscusAttributes = {
         src: 'https://giscus.app/client.js',
         'data-repo': '{{ site.giscus.repo }}',
@@ -25,7 +38,7 @@
         'data-theme': giscusTheme,
         'data-lang': '{{ site.giscus.lang }}',
         crossorigin: 'anonymous',
-        async: '',
+        async: true
       };
 
       let giscusScript = document.createElement('script');
