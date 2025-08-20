@@ -7,7 +7,7 @@ subtitle: <a href='#'>Assistant Professor of Statistics</a>. Department of Stati
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  address:
     <p>Mathematical Sciences Building</p> 
     <p>150 N University St</p>
     <p>West Lafayette, IN 47907</p>
