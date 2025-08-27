@@ -340,6 +340,22 @@ enable_project_categories:  true   # enables categorization of projects into
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
 
+# --------------------------------------------------------------------------------
+# Navigation Bar
+# --------------------------------------------------------------------------------
+navigation:
+  - title: "Bio"
+    url: /about/
+  - title: "CV"
+    url: /cv/
+  - title: "Projects"
+    url: /projects/
+  - title: "Publications"
+    url: /publications/
+  - title: "PIC Dev Docs"
+    url: /docs/
+
+
 # -----------------------------------------------------------------------------
 # Library versions
 # -----------------------------------------------------------------------------
