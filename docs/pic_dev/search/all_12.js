@@ -4,6 +4,5 @@ var searchData=
   ['q_5fr_1',['q_r',['../variables__old_8h.html#a12f9a4c96cb4503986bdedf9b32a8773',1,'FSInfo']]],
   ['ql_2',['Ql',['../variables__old_8h.html#a9ef9f0c1489d1e09be84074649f4ad17',1,'UserCtx']]],
   ['qnew_3',['Qnew',['../variables__old_8h.html#a51fea22f31ec3648cdfe2b88219590b6',1,'UserCtx']]],
-  ['quickstart_4',['Quickstart',['../index.html#quickstart',1,'']]],
-  ['qvec_5',['qvec',['../variables__old_8h.html#a5ff5a42371c73f38d5260e2ac21b7239',1,'IBMNodes']]]
+  ['qvec_4',['qvec',['../variables__old_8h.html#a5ff5a42371c73f38d5260e2ac21b7239',1,'IBMNodes']]]
 ];

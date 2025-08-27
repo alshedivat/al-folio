@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "pic_dev", "index.html", [
-    [ "pic_dev — Particle-in-Cell Development Toolkit", "index.html", "index" ],
+    [ "🌀 PICurv: A Parallel Particle-in-Cell Solver for Curvilinear LES", "index.html", "index" ],
     [ "mainpage", "md_mainpage.html", null ],
     [ "architecture", "md_architecture.html", null ],
     [ "Architecture", "architecture.html", [

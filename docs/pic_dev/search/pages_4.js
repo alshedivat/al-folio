@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['in_20cell_20development_20toolkit_0',['pic_dev — Particle-in-Cell Development Toolkit',['../index.html',1,'']]]
+  ['guide_20devguide_0',['Developer Guide {#devguide}',['../devguide.html',1,'']]]
 ];

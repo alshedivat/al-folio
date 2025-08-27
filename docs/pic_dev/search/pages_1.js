@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['cell_20development_20toolkit_0',['pic_dev — Particle-in-Cell Development Toolkit',['../index.html',1,'']]]
+  ['cell_20solver_20for_20curvilinear_20les_0',['🌀 PICurv: A Parallel Particle-in-Cell Solver for Curvilinear LES',['../index.html',1,'']]],
+  ['curvilinear_20les_1',['🌀 PICurv: A Parallel Particle-in-Cell Solver for Curvilinear LES',['../index.html',1,'']]]
 ];

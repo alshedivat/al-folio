@@ -17,7 +17,7 @@ var searchData=
   ['cdisy_14',['cdisy',['../variables__old_8h.html#a50936ba698e6fbe731cb559739ef930e',1,'UserCtx::cdisy'],['../variables_8h.html#a599be83bcac9867e2ba22fc981ae05fc',1,'SimCtx::cdisy']]],
   ['cdisz_15',['cdisz',['../variables_8h.html#a707859093eedbfdbcd1b61c3e58bd73d',1,'SimCtx::cdisz'],['../variables__old_8h.html#ab71c96ec3bb179e4c85d960cc26830b7',1,'UserCtx::cdisz']]],
   ['cell_16',['cell',['../variables__old_8h.html#structCell',1,'Cell'],['../variables_8h.html#a60bf09598e66928bf67a21a22bc17814',1,'Cell:&#160;variables.h'],['../variables__old_8h.html#a90250e79337972756b8ce1daae2321f9',1,'Particle::cell'],['../variables__old_8h.html#a6d4491402016b06d429f96689e263204',1,'IBMInfo::cell']]],
-  ['cell_20development_20toolkit_17',['pic_dev — Particle-in-Cell Development Toolkit',['../index.html',1,'']]],
+  ['cell_20solver_20for_20curvilinear_20les_17',['🌀 PICurv: A Parallel Particle-in-Cell Solver for Curvilinear LES',['../index.html',1,'']]],
   ['celltostr_18',['CellToStr',['../logging_8c.html#a90c3c89c64920d436a9079a419523e21',1,'logging.c']]],
   ['cent_19',['Cent',['../variables__old_8h.html#ad744b47ca3c5f3df2d1b737e432d6f07',1,'UserCtx']]],
   ['cent_5fx_20',['cent_x',['../variables__old_8h.html#aa5a24e2c8937e4836753555fafd02418',1,'IBMNodes::cent_x'],['../variables__old_8h.html#a8022ade03ed2a95b116a52f63182ddbf',1,'IBMVNodes::cent_x']]],
@@ -110,8 +110,9 @@ var searchData=
   ['ct3_107',['ct3',['../variables__old_8h.html#aa18634f591acfd68242f522ea62ee46a',1,'IBMInfo']]],
   ['ct33_108',['ct33',['../variables__old_8h.html#a4dbf08510cb5935676d9192f38424cec',1,'IBMInfo']]],
   ['current_5flog_5flevel_109',['current_log_level',['../logging_8c.html#a3903f35c62e68bc1cadbb294f727469c',1,'logging.c']]],
-  ['cv_5fye_110',['CV_ye',['../variables__old_8h.html#a03d777d3d310e154f385ad53f5ec168c',1,'FSInfo']]],
-  ['cv_5fys_111',['CV_ys',['../variables__old_8h.html#a31670fd5fc1904aaac6ced4c61a348d9',1,'FSInfo']]],
-  ['cv_5fze_112',['CV_ze',['../variables__old_8h.html#af8094d9eee5f0ec6bdc1e6b386ec5761',1,'FSInfo']]],
-  ['cv_5fzs_113',['CV_zs',['../variables__old_8h.html#a2990557269af36d6a44a4ec49d77f328',1,'FSInfo']]]
+  ['curvilinear_20les_110',['🌀 PICurv: A Parallel Particle-in-Cell Solver for Curvilinear LES',['../index.html',1,'']]],
+  ['cv_5fye_111',['CV_ye',['../variables__old_8h.html#a03d777d3d310e154f385ad53f5ec168c',1,'FSInfo']]],
+  ['cv_5fys_112',['CV_ys',['../variables__old_8h.html#a31670fd5fc1904aaac6ced4c61a348d9',1,'FSInfo']]],
+  ['cv_5fze_113',['CV_ze',['../variables__old_8h.html#af8094d9eee5f0ec6bdc1e6b386ec5761',1,'FSInfo']]],
+  ['cv_5fzs_114',['CV_zs',['../variables__old_8h.html#a2990557269af36d6a44a4ec49d77f328',1,'FSInfo']]]
 ];

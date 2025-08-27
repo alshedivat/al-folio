@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>pic_dev: pic_dev — Particle-in-Cell Development Toolkit</title>
+<title>pic_dev: 🌀 PICurv: A Parallel Particle-in-Cell Solver for Curvilinear LES</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -90,20 +90,28 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">pic_dev — Particle-in-Cell Development Toolkit </div></div>
+  <div class="headertitle"><div class="title">🌀 PICurv: A Parallel Particle-in-Cell Solver for Curvilinear LES </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>High-performance PIC/CFD codebase (C).</p>
-<h1><a class="anchor" id="intro"></a>
-Introduction</h1>
-<p>pic_dev is a research-grade codebase for Lagrangian particle simulation coupled to curvilinear grid solvers. This site documents public APIs, build steps, module responsibilities, and developer workflows.</p>
-<h1><a class="anchor" id="quickstart"></a>
-Quickstart</h1>
-<ul>
-<li>Clone &amp; build: <code>make</code></li>
-<li>Run unit tests: <code>make test</code></li>
-<li>Generate docs: <code>make docs</code></li>
+<div class="textblock"><p>PICurv is a parallel particle-in-cell (PIC) solver designed for low-Mach-number turbulent flows in complex geometries. Built using PETSc’s DMDA and DMSwarm infrastructure, it features:</p><ul>
+<li>A fractional-step incompressible Navier–Stokes solver with dynamic Smagorinsky LES</li>
+<li>Support for body-fitted curvilinear grids and immersed boundaries (CURVIB)</li>
+<li>Fully MPI-parallel particle tracking with two-way Eulerian–Lagrangian coupling</li>
+<li>Trilinear interpolation (grid → particle) and conservative face-based projection (particle → grid)</li>
 </ul>
+<p>The solver has been validated on canonical geometries such as curved pipes and demonstrates scalable performance for millions of particles on both structured Cartesian and curvilinear meshes.</p>
+<h1><a class="anchor" id="keyfeatures"></a>
+🔧 Key Features</h1>
+<p>Parallelized 3D particle-in-cell solver with PETSc Low-Mach number incompressible Navier–Stokes with LES modeling Two-way coupled Lagrangian particle transport Trilinear interpolation and deposition kernels Geometric flexibility via immersed boundary methods (CURVIB) Modular architecture with plug-and-play routines for scalar transport, stochastic mixing, and particle diagnostics</p>
+<h1><a class="anchor" id="gettingstarted"></a>
+🚀 Getting Started</h1>
+<ul>
+<li>Dependencies: PETSc 3.20.3 or newer (Built with MPI and 'DMSWARM' support).</li>
+<li>Build: To build the solver and postprocessor:</li>
+</ul>
+<div class="fragment"><div class="line">make inttest       # Builds main solver executable `inttest`</div>
+<div class="line">make postprocess   # Builds postprocessor executable `postprocess`</div>
+</div><!-- fragment --><p>Ensure PETSc paths are configured correctly in your Makefile or environment.</p>
 <h1><a class="anchor" id="layout"></a>
 Repository Layout</h1>
 <ul>
