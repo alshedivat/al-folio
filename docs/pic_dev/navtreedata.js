@@ -70,14 +70,14 @@ var NAVTREEINDEX =
 "AnalyticalSolution_8h.html",
 "cop__variables_8h.html#a63bf2824b9e784a2df2c4b6f8da12c7c",
 "grid_8c.html#a526448d3a1e34b608f7167a59f1d7e04",
-"logging_8h.html#a9585f583c260f40a73f2490914edc689",
-"variables_8h.html#a3ff353812541b8ebba309e8d3ba6674b",
+"logging_8h.html#a708710f957e5e79050260f913282f8dc",
+"variables_8h.html#a3fad79185f97288cad2fe2f7c820773e",
 "variables__old_8h.html#a0a9771638133dcba2d6819c8ee4ea7b6",
-"variables__old_8h.html#a3a4f052a75d9b1e1954b144454bc1e01",
+"variables__old_8h.html#a39fb6fb65f4a9dbb49a7e89ffcb8d6e3",
 "variables__old_8h.html#a684d9086b162387634a0a87b681f40eb",
 "variables__old_8h.html#a9ae22aa9dbda22c34f18afd5d06f7d3f",
-"variables__old_8h.html#ad0b918df35726143ee09371e5346b048",
-"variables__old_8h.html#structBoundaryFaceConfig__s"
+"variables__old_8h.html#ad072ad20881f5c1762daf18415c459e2",
+"variables__old_8h.html#structBC__Param__s"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

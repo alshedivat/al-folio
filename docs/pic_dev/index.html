@@ -109,18 +109,30 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <li>Dependencies: PETSc 3.20.3 or newer (Built with MPI and 'DMSWARM' support).</li>
 <li>Build: To build the solver and postprocessor:</li>
 </ul>
-<div class="fragment"><div class="line">make inttest       # Builds main solver executable `inttest`</div>
-<div class="line">make postprocess   # Builds postprocessor executable `postprocess`</div>
+<div class="fragment"><div class="line">cd   $pic          # change to the pic directory.</div>
+<div class="line">make clean_all     # clean all object and executable files.</div>
+<div class="line">make picsolver       # Builds main solver executable `picsolver`</div>
+<div class="line">make postprocessor   # Builds postprocessor executable `postprocessor`</div>
 </div><!-- fragment --><p>Ensure PETSc paths are configured correctly in your Makefile or environment.</p>
-<h1><a class="anchor" id="layout"></a>
-Repository Layout</h1>
-<ul>
-<li><code>include/</code> — Public headers (documented API)</li>
-<li><code>src/</code> — Implementations</li>
-<li><code>stubs/</code> — Placeholder or WIP sources</li>
-<li><code>test/</code> — Test configs &amp; fixtures</li>
-</ul>
-<p>See <a class="el" href="architecture.html">Architecture</a> and <a class="el" href="devguide.html">Developer Guide</a>. */ </p>
+<h1><a class="anchor" id="directorystructure"></a>
+Directory Structure</h1>
+<div class="fragment"><div class="line">.</div>
+<div class="line">├── src/           # Source files (*.c)</div>
+<div class="line">├── include/       # Header files (*.h)</div>
+<div class="line">├── scripts/       # Python utilities</div>
+<div class="line">├── obj/           # Object files (*.o)</div>
+<div class="line">├── bin/           # Executables</div>
+<div class="line">├── docs/          # Docs files</div>
+<div class="line">├── test/          # Config directories for different test cases.</div>
+</div><!-- fragment --><h1><a class="anchor" id="running"></a>
+▶️ Running The Code</h1>
+<ol type="1">
+<li><b>Create a new <code>run/</code> directory and <code>logs/</code>,<code>results/</code> sub-directories.</b>.</li>
+<li><b>Place the <code>test/config</code> directory in <code>run/</code></b></li>
+<li><b> **Create symbolic links</b> to the built executables: <code>bash ln -s $pic/bin/picsolver ln -s $pic/bin/postprocessor </code></li>
+<li>Run the solver: <code>bash mpirun -np 4 ./picsolver </code></li>
+</ol>
+<p>*/ </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

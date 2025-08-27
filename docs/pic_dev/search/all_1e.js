@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['🚀_20getting_20started_0',['🚀 Getting Started',['../index.html#gettingstarted',1,'']]]
+  ['🔧_20key_20features_0',['🔧 Key Features',['../index.html#keyfeatures',1,'']]]
 ];

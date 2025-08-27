@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['🔧_20key_20features_0',['🔧 Key Features',['../index.html#keyfeatures',1,'']]]
+  ['🌀_20picurv_3a_20a_20parallel_20particle_20in_20cell_20solver_20for_20curvilinear_20les_0',['🌀 PICurv: A Parallel Particle-in-Cell Solver for Curvilinear LES',['../index.html',1,'']]]
 ];
