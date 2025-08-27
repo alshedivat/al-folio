@@ -1,0 +1,17 @@
+<map id="CalculateParticleCountPerCell" name="CalculateParticleCountPerCell">
+<area shape="rect" id="Node000001" title="Counts particles in each cell of the DMDA &#39;da&#39; and stores the result in user&#45;&gt;ParticleCount." alt="" coords="1008,27,1223,52"/>
+<area shape="rect" id="Node000002" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="108,5,256,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="994,39,960,38,256,22,256,17,960,33,994,34"/>
+<area shape="rect" id="Node000004" href="$group__scatter__module__internal.html#gac35f52bb41ee862f912a146e86f1affd" title="Internal helper function to orchestrate the scatter operation (accumulate + normalize)." alt="" coords="765,47,960,87"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="995,55,961,59,960,54,994,50"/>
+<area shape="rect" id="Node000003" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,35,61,41,60,36,94,30"/>
+<area shape="rect" id="Node000005" href="$group__scatter__module.html#gaa6642e53fe1be75dcc180dab3cf3f692" title="Scatters a particle field (scalar or vector) to the corresponding Eulerian field average." alt="" coords="523,47,717,87"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="751,70,718,70,718,65,751,65"/>
+<area shape="rect" id="Node000006" href="$group__scatter__module.html#ga84b852e1186804ff34e9228fab1764c6" title="Scatters a predefined set of particle fields to their corresponding Eulerian fields." alt="" coords="304,47,475,87"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="509,70,475,70,475,65,509,65"/>
+<area shape="poly" id="edge6_Node000006_Node000002" title=" " alt="" coords="291,47,235,33,237,28,292,41"/>
+<area shape="rect" id="Node000007" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="108,55,256,80"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="290,70,256,70,256,65,290,65"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="94,56,60,50,60,45,95,51"/>
+</map>

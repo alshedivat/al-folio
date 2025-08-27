@@ -1,0 +1,5 @@
+<map id="GenerateAndSetCoordinates" name="GenerateAndSetCoordinates">
+<area shape="rect" id="Node000001" title="Programmatically generates and sets grid coordinates based on user parameters." alt="" coords="5,5,212,31"/>
+<area shape="rect" id="Node000002" href="$grid_8c.html#a54a2529affe522c9e29161aef1ca3847" title="Computes a stretched coordinate along one dimension." alt="" coords="260,5,441,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,15,246,15,246,21,212,21"/>
+</map>

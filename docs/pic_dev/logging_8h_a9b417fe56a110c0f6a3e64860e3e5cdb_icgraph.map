@@ -1,0 +1,7 @@
+<map id="BCFaceToString" name="BCFaceToString">
+<area shape="rect" id="node1" title="Helper function to convert BCFace enum to a string representation." alt="" coords="611,31,733,57"/>
+<area shape="rect" id="node2" href="$io_8c.html#adde32528a690c023bc98c9e56ae2f2fb" title="Displays a structured banner summarizing the simulation configuration." alt="" coords="145,5,262,32"/>
+<area shape="rect" id="node4" href="$Boundaries_8c.html#ae7f472e68b4ebad054e1391e5de8c9a0" title=" " alt="" coords="347,56,563,83"/>
+<area shape="rect" id="node3" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,57"/>
+<area shape="rect" id="node5" href="$setup_8c.html#ad9f399b16547eba3244159f7136a1eb9" title="(Orchestrator) Sets up all boundary conditions for the simulation." alt="" coords="108,56,299,83"/>
+</map>

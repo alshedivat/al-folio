@@ -1,0 +1,7 @@
+<map id="DisplayBanner" name="DisplayBanner">
+<area shape="rect" id="Node000001" title="Displays a structured banner summarizing the simulation configuration." alt="" coords="5,31,123,56"/>
+<area shape="rect" id="Node000002" href="$logging_8c.html#a46638a78fe01e24d946d9103d5d2fde9" title="Helper function to convert BCFace enum to a string representation." alt="" coords="171,5,293,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,32,157,27,158,32,123,37"/>
+<area shape="rect" id="Node000003" href="$logging_8c.html#aa28884cc21bbf93fee9f1b1a26dfed6a" title="Helper function to convert BCType enum to a string representation." alt="" coords="171,55,293,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,49,158,54,157,59,122,54"/>
+</map>

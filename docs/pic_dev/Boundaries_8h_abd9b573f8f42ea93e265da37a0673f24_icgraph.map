@@ -1,0 +1,19 @@
+<map id="InflowFlux" name="InflowFlux">
+<area shape="rect" id="Node000001" title=" " alt="" coords="665,55,755,80"/>
+<area shape="rect" id="Node000002" href="$implicitsolvers_8c.html#a148a238901a4674420c87137c087e3ac" title="Advances the momentum equations using an iterative explicit Runge&#45;Kutta scheme." alt="" coords="511,5,577,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="653,53,576,30,578,25,654,48"/>
+<area shape="rect" id="Node000006" href="$implicitsolvers_8c.html#a89ae58d48076ba82dc70438b5e389bf5" title="Advances the momentum equations using an explicit 4th&#45;order Runge&#45;Kutta scheme." alt="" coords="495,55,593,80"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="652,70,593,70,593,65,652,65"/>
+<area shape="rect" id="Node000007" href="$initialcondition_8c.html#a51d0251f84a962a611ff0c0a8797a3e4" title="(HELPER) Sets the t=0 fluid state for all blocks." alt="" coords="471,105,617,145"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="661,87,604,107,602,102,659,82"/>
+<area shape="rect" id="Node000003" href="$solvers_8c.html#a2ed4825273a593f371a3d48071708255" title="Orchestrates a single time step of the Eulerian fluid solver." alt="" coords="321,55,423,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="499,33,418,57,417,52,498,28"/>
+<area shape="rect" id="Node000004" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="117,59,265,84"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="308,71,265,72,265,67,307,66"/>
+<area shape="rect" id="Node000005" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,84,60,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="103,88,61,95,60,90,102,83"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="481,70,423,70,423,65,481,65"/>
+<area shape="rect" id="Node000008" href="$initialcondition_8c.html#ad0dd7d3f2528b6a7802fcd551e88ea99" title="High&#45;level orchestrator to set the complete initial state of the Eulerian solver." alt="" coords="108,108,273,133"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="457,126,273,124,273,119,457,121"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="94,109,60,103,60,98,95,103"/>
+</map>

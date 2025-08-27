@@ -1,0 +1,25 @@
+<map id="WriteFieldData" name="WriteFieldData">
+<area shape="rect" id="Node000001" title="Writes data from a specific PETSc vector to a file." alt="" coords="725,104,844,129"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#aa7fe2d107007076b401d19ba9145a354" title="Writes LES&#45;related fields." alt="" coords="538,5,657,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="757,98,720,70,676,44,648,33,650,28,679,40,723,66,760,93"/>
+<area shape="rect" id="Node000003" href="$io_8c.html#a6228caf497c8e6134362aab6ba62828c" title="Writes simulation fields to files." alt="" coords="304,104,469,129"/>
+<area shape="poly" id="edge9_Node000001_Node000003" title=" " alt="" coords="728,135,678,145,597,150,517,145,440,132,441,127,518,139,597,145,677,139,727,130"/>
+<area shape="rect" id="Node000007" href="$io_8c.html#a87768b32e2f93a36633fe104cebcdfe8" title="Writes RANS&#45;related fields." alt="" coords="532,55,663,80"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="722,103,646,83,647,78,724,98"/>
+<area shape="rect" id="Node000008" href="$io_8c.html#a3515d51bdd91f00faf8e5023bc82534b" title="Writes statistical fields for averaging purposes." alt="" coords="517,104,677,129"/>
+<area shape="poly" id="edge10_Node000001_Node000008" title=" " alt="" coords="711,119,678,119,678,114,711,114"/>
+<area shape="rect" id="Node000009" href="$io_8c.html#a2c3ac50e182d193208800c89201ff236" title="Writes data from a specific field in a PETSc Swarm to a file." alt="" coords="320,153,453,179"/>
+<area shape="poly" id="edge12_Node000001_Node000009" title=" " alt="" coords="742,137,678,155,619,164,559,169,454,171,453,166,559,163,618,159,677,150,740,132"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="536,38,518,44,457,76,408,106,406,102,455,71,516,40,534,33"/>
+<area shape="rect" id="Node000004" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="108,104,256,129"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="290,119,256,119,256,114,290,114"/>
+<area shape="rect" id="Node000006" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="108,153,256,179"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="321,135,236,156,235,151,320,130"/>
+<area shape="rect" id="Node000005" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,129,60,155"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="95,134,61,140,60,135,94,129"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="94,155,60,149,60,144,95,149"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="530,86,442,107,441,101,529,81"/>
+<area shape="poly" id="edge11_Node000008_Node000003" title=" " alt="" coords="503,119,469,119,469,114,503,114"/>
+<area shape="poly" id="edge13_Node000009_Node000004" title=" " alt="" coords="320,153,235,132,236,127,321,148"/>
+<area shape="poly" id="edge14_Node000009_Node000006" title=" " alt="" coords="306,169,256,169,256,163,306,163"/>
+</map>

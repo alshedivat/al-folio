@@ -1,0 +1,7 @@
+<map id="ReadPositionsFromFile" name="ReadPositionsFromFile">
+<area shape="rect" id="Node000001" title="Reads coordinate data (for particles) from file into a PETSc Vec, then gathers it to rank 0." alt="" coords="5,31,176,56"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#a570806d7e0694b5d996e0c6018b48908" title="Reads data for a specific field from a file into the provided vector." alt="" coords="242,5,359,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,30,228,24,228,29,177,36"/>
+<area shape="rect" id="Node000003" href="$io_8c.html#aa3512c89570bb1d27f4765819fad4985" title="Gathers a PETSc vector onto rank 0 as a contiguous array of doubles." alt="" coords="224,55,377,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="177,50,211,54,210,60,176,56"/>
+</map>

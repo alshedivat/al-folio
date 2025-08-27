@@ -1,0 +1,7 @@
+<map id="WriteVTPXMLHeader" name="WriteVTPXMLHeader">
+<area shape="rect" id="Node000001" title="Writes the XML header portion of a .vtp file for a point&#45;cloud representation." alt="" coords="464,5,621,31"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#abeb59f67fa68fabd9854709774dee119" title="Writes the initial XML header for a VTK file based on the provided metadata." alt="" coords="263,5,416,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="450,21,416,21,416,15,450,15"/>
+<area shape="rect" id="Node000003" href="$io_8c.html#ad4eeaada0c8227f332499bf5fc4d3bc0" title="Creates and writes a VTK file (either .vts or .vtp) based on the provided metadata." alt="" coords="5,5,215,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="249,21,215,21,215,15,249,15"/>
+</map>

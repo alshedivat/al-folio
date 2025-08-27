@@ -1,0 +1,15 @@
+<map id="ParseAllBoundaryConditions" name="ParseAllBoundaryConditions">
+<area shape="rect" id="Node000001" title="Parses the boundary conditions file to configure the type, handler, and any associated parameters for..." alt="" coords="5,129,211,155"/>
+<area shape="rect" id="Node000002" href="$logging_8c.html#a227ad490382f319c9b9e9a05dfbaab43" title="Converts a BCHandlerType enum to its string representation." alt="" coords="278,5,451,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,127,180,84,217,60,258,40,278,32,280,37,260,44,220,65,183,88,126,131"/>
+<area shape="rect" id="Node000003" href="$io_8c.html#acee53553fb7d51eb948f1d4030518860" title="Frees the memory allocated for a linked list of BC_Param structs." alt="" coords="295,55,434,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="143,127,258,89,289,81,290,86,259,94,144,132"/>
+<area shape="rect" id="Node000004" href="$io_8c.html#ab6896c293521673fcbff33001706d3ec" title="Converts a string representation of a face to a BCFace enum." alt="" coords="304,104,425,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="211,129,290,121,291,127,211,135"/>
+<area shape="rect" id="Node000005" href="$io_8c.html#a15bdb2122be30f52df280e1d7204f578" title="Converts a string representation of a handler to a BCHandlerType enum." alt="" coords="278,153,451,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="211,149,265,154,264,159,211,154"/>
+<area shape="rect" id="Node000006" href="$io_8c.html#ad5fc2fe7ae3aa77361c5ab62343358a7" title="Converts a string representation of a BC type to a BCType enum." alt="" coords="303,203,426,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="147,152,259,187,295,197,293,202,258,193,146,157"/>
+<area shape="rect" id="Node000007" href="$io_8c.html#a5fe767286174b757deb2d404f2b4843f" title="Validates that a specific handler is compatible with a general BC type." alt="" coords="259,252,471,277"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="126,153,183,194,220,217,260,237,284,246,282,251,258,242,218,222,180,198,123,157"/>
+</map>

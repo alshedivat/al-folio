@@ -1,0 +1,5 @@
+<map id="RegisterParticleFields" name="RegisterParticleFields">
+<area shape="rect" id="Node000001" title="Registers necessary particle fields within the DMSwarm." alt="" coords="5,5,168,31"/>
+<area shape="rect" id="Node000002" href="$ParticleSwarm_8c.html#a1b5741b17ffa7a57d8c1f6636e956d08" title="Registers a swarm field without finalizing registration." alt="" coords="216,5,368,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,15,202,15,202,21,168,21"/>
+</map>

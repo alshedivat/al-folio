@@ -1,0 +1,12 @@
+<map id="ScatterParticleFieldToEulerField" name="ScatterParticleFieldToEulerField">
+<area shape="rect" id="Node000001" title="Scatters a particle field (scalar or vector) to the corresponding Eulerian field average." alt="" coords="523,23,717,63"/>
+<area shape="rect" id="Node000002" href="$group__scatter__module.html#ga84b852e1186804ff34e9228fab1764c6" title="Scatters a predefined set of particle fields to their corresponding Eulerian fields." alt="" coords="304,23,475,63"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="509,46,475,46,475,41,509,41"/>
+<area shape="rect" id="Node000003" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="108,5,256,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="290,34,256,30,257,24,291,29"/>
+<area shape="rect" id="Node000005" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="108,55,256,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="291,57,257,61,256,56,290,52"/>
+<area shape="rect" id="Node000004" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="95,35,61,41,60,36,94,30"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="94,56,60,50,60,45,95,51"/>
+</map>

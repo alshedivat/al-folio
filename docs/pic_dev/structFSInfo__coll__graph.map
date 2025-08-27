@@ -1,0 +1,9 @@
+<map id="FSInfo" name="FSInfo">
+<area shape="rect" id="Node000001" title="Holds all data related to the state and motion of a body in FSI." alt="" coords="71,181,133,207"/>
+<area shape="rect" id="Node000002" href="$variables__old_8h.html#structSurfElmtInfo" title="Information about a surface element for FSI calculations." alt="" coords="5,93,108,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,132,71,156,90,180,86,183,66,159,58,133"/>
+<area shape="rect" id="Node000003" href="$variables__old_8h.html#structIBMInfo" title="Holds interpolation and distance information for a single IBM point." alt="" coords="133,93,205,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="153,131,113,182,109,179,149,128"/>
+<area shape="rect" id="Node000004" href="$variables__old_8h.html#structCmpnts" title="A 3D point or vector with PetscScalar components." alt="" coords="133,5,205,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="171,45,171,93,166,93,166,45"/>
+</map>

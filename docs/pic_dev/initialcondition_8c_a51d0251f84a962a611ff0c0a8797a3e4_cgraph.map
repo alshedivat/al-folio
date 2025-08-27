@@ -1,0 +1,45 @@
+<map id="SetInitialFluidState_FreshStart" name="SetInitialFluidState_FreshStart">
+<area shape="rect" id="Node000001" title="(HELPER) Sets the t=0 fluid state for all blocks." alt="" coords="5,194,152,234"/>
+<area shape="rect" id="Node000002" href="$initialcondition_8c.html#af6a26611066aa455efddcca2fd80fe35" title="(HELPER) Finalizes a block&#39;s state by applying BCs, converting to Cartesian, and synchronizing ghost ..." alt="" coords="208,77,351,103"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,192,244,108,247,112,114,196"/>
+<area shape="rect" id="Node000012" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="415,151,563,176"/>
+<area shape="poly" id="edge23_Node000001_Node000012" title=" " alt="" coords="152,195,200,186,304,173,401,166,402,171,305,179,200,191,153,200"/>
+<area shape="rect" id="Node000015" href="$Boundaries_8c.html#abd9b573f8f42ea93e265da37a0673f24" title=" " alt="" coords="235,201,324,227"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="152,211,221,211,221,217,152,217"/>
+<area shape="rect" id="Node000017" href="$Boundaries_8c.html#a684320111be78b3001fda2ba25638e79" title=" " alt="" coords="229,251,329,276"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="153,229,217,245,216,251,151,235"/>
+<area shape="rect" id="Node000018" href="$initialcondition_8c.html#a62dfa993750dc34d1729c575bb1dde66" title="Sets the initial values for the INTERIOR of a specified Eulerian field." alt="" coords="200,300,359,325"/>
+<area shape="poly" id="edge20_Node000001_Node000018" title=" " alt="" coords="109,232,152,260,201,286,218,293,216,298,199,291,149,264,106,237"/>
+<area shape="rect" id="Node000003" href="$setup_8c.html#a515c9a96eb4bcac29f79e78c8882d7aa" title="Reconstructs Cartesian velocity (Ucat) at cell centers from contravariant velocity (Ucont) defined on..." alt="" coords="649,5,749,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="328,75,406,57,528,37,635,22,636,28,529,42,407,62,329,80"/>
+<area shape="rect" id="Node000004" href="$Boundaries_8c.html#adcd96cff4b9e15e03cdff9f5ea695dec" title=" " alt="" coords="449,72,530,97"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="351,86,434,83,435,89,351,91"/>
+<area shape="poly" id="edge14_Node000002_Node000012" title=" " alt="" coords="318,100,440,144,438,149,316,105"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="528,69,619,39,642,32,644,37,621,45,529,74"/>
+<area shape="rect" id="Node000005" href="$wallfunction_8c.html#a82a96fd4f826d93b926bea9bb776b93e" title=" " alt="" coords="669,55,730,80"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="530,79,654,68,655,74,530,84"/>
+<area shape="rect" id="Node000006" href="$wallfunction_8c.html#aae67d9282b09691fffdea6f1012e6df7" title=" " alt="" coords="620,104,779,129"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="531,88,607,100,606,105,530,93"/>
+<area shape="rect" id="Node000007" href="$wallfunction_8c.html#aa22aca64a54a00ccaf354357cc1c0760" title=" " alt="" coords="827,79,960,104"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="779,104,812,99,813,104,779,109"/>
+<area shape="rect" id="Node000011" href="$wallfunction_8c.html#a071e294d71e268c014aa6047acb64730" title=" " alt="" coords="1008,129,1163,155"/>
+<area shape="poly" id="edge12_Node000006_Node000011" title=" " alt="" coords="779,119,994,133,994,139,779,124"/>
+<area shape="rect" id="Node000008" href="$wallfunction_8c.html#a39f08431792fc8f96ea8659756dfd749" title=" " alt="" coords="1042,28,1129,53"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="942,76,1028,53,1029,58,943,81"/>
+<area shape="rect" id="Node000009" href="$wallfunction_8c.html#ac7ee38b34b5a56a4e5c01a02c290229b" title=" " alt="" coords="1211,79,1289,104"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="960,89,1197,89,1197,94,960,94"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="1128,51,1199,73,1197,78,1127,56"/>
+<area shape="rect" id="Node000010" href="$wallfunction_8c.html#a5a5ea51c16915866975995631c0d2923" title=" " alt="" coords="1337,104,1407,129"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="1290,97,1324,104,1323,109,1289,102"/>
+<area shape="poly" id="edge13_Node000011_Node000010" title=" " alt="" coords="1163,133,1324,118,1324,123,1163,138"/>
+<area shape="rect" id="Node000013" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="645,153,754,179"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="564,162,631,162,631,168,564,167"/>
+<area shape="rect" id="Node000014" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="624,203,775,228"/>
+<area shape="poly" id="edge16_Node000012_Node000014" title=" " alt="" coords="542,173,635,197,634,202,541,179"/>
+<area shape="rect" id="Node000016" href="$Boundaries_8c.html#aa8017de37ede2f3151c445aafec42714" title=" " alt="" coords="422,201,557,227"/>
+<area shape="poly" id="edge18_Node000015_Node000016" title=" " alt="" coords="324,211,408,211,408,217,324,217"/>
+<area shape="rect" id="Node000019" href="$setup_8c.html#a25ce912d8aafa319a8c915cd350c7322" title="Gets the global cell range for a rank, including boundary cells." alt="" coords="407,300,572,325"/>
+<area shape="poly" id="edge21_Node000018_Node000019" title=" " alt="" coords="359,310,393,310,393,315,359,315"/>
+<area shape="rect" id="Node000020" href="$setup_8c.html#a135027905841ed83f1a3ef2279d865cc" title="Gets the global starting index of cells owned by this rank and the number of such cells." alt="" coords="621,300,777,325"/>
+<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="572,310,608,310,608,315,572,315"/>
+</map>

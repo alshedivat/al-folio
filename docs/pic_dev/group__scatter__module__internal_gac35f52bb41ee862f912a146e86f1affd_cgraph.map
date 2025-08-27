@@ -1,0 +1,9 @@
+<map id="ScatterParticleFieldToEulerField_Internal" name="ScatterParticleFieldToEulerField_Internal">
+<area shape="rect" id="Node000001" title="Internal helper function to orchestrate the scatter operation (accumulate + normalize)." alt="" coords="5,47,200,87"/>
+<area shape="rect" id="Node000002" href="$group__scatter__module__internal.html#gaa0d28beb3e582a9140180983a227bc1c" title="Accumulates a particle field (scalar or vector) into a target grid sum vector." alt="" coords="266,5,445,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,46,276,31,277,36,201,51"/>
+<area shape="rect" id="Node000003" href="$group__scatter__module.html#ga81cfdf7b32472d8f614b44e30005ec6c" title="Counts particles in each cell of the DMDA &#39;da&#39; and stores the result in user&#45;&gt;ParticleCount." alt="" coords="248,55,463,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="200,65,234,65,234,70,200,70"/>
+<area shape="rect" id="Node000004" href="$group__scatter__module__internal.html#ga95939f29ec3dfbb729bcceee7f138958" title="Normalizes a grid vector of sums by a grid vector of counts to produce an average." alt="" coords="249,104,461,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="201,84,277,99,276,104,200,89"/>
+</map>

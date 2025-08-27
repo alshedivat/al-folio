@@ -1,0 +1,7 @@
+<map id="InitializeAllGridDMs" name="InitializeAllGridDMs">
+<area shape="rect" id="Node000001" title="Orchestrates the creation of DMDA objects for every block and multigrid level." alt="" coords="5,31,156,56"/>
+<area shape="rect" id="Node000002" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="233,5,342,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="156,31,219,24,219,29,157,37"/>
+<area shape="rect" id="Node000003" href="$grid_8c.html#a7de9f73019e4a260a2edd616dcd40a6b" title="Creates the DMDA objects (da and fda) for a single UserCtx." alt="" coords="204,55,371,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="157,49,191,53,190,59,156,55"/>
+</map>

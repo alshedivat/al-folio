@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['b_0',['B',['../variables__old_8h.html#afb0db0163f5987323372d58a89e3efa1',1,'UserCtx']]],
+  ['b2_1',['B2',['../variables__old_8h.html#aab39e294cdaf3e4307d4a862904dcb8d',1,'UserCtx']]],
+  ['bbox_2',['bbox',['../variables__old_8h.html#ae85e7171c483d180ffe8759fd13b4312',1,'UserCtx']]],
+  ['bboxlist_3',['bboxlist',['../variables_8h.html#a8c248c162038dffe12e38228bcd06644',1,'SimCtx']]],
+  ['bcs_4',['Bcs',['../variables__old_8h.html#a77c29afd999c79749fc4a0163da98d2e',1,'UserCtx']]],
+  ['bcs_5ffiles_5',['bcs_files',['../variables_8h.html#a3b2b999940b9f6e1f8dc6c1f5494067f',1,'SimCtx']]],
+  ['bctype_6',['bctype',['../variables__old_8h.html#a771c8e564dcfe2d27c913ef90bbe9337',1,'UserCtx']]],
+  ['blank_7',['blank',['../variables_8h.html#af1abb750bddbd00d7149307d4c01a218',1,'SimCtx']]],
+  ['blkpbc_8',['blkpbc',['../variables_8h.html#a2892b7742faefb81b542c6fdd2351e68',1,'SimCtx']]],
+  ['block_5fid_9',['block_id',['../logging_8h.html#aeb27d528b5c766bb8c213bb2112a79f6',1,'DualMonitorCtx']]],
+  ['block_5fnumber_10',['block_number',['../variables_8h.html#a22580e0e52ca8ddccc76d24c96f00e4a',1,'SimCtx']]],
+  ['bnorm_11',['bnorm',['../logging_8h.html#a5f81613b3f10140c09097044c39eb0f7',1,'DualMonitorCtx']]],
+  ['boundary_5ffaces_12',['boundary_faces',['../variables__old_8h.html#a91ffa8462250c687df3e3aa4e16897bb',1,'UserCtx']]],
+  ['bvel_5fu_13',['Bvel_u',['../variables__old_8h.html#ac9b6c27c030c67d3e48c217b3176f64f',1,'IBMNodes']]],
+  ['bvel_5fv_14',['Bvel_v',['../variables__old_8h.html#a253e535c1ae16fb8fb70e93ef374dc51',1,'IBMNodes']]],
+  ['bvel_5fw_15',['Bvel_w',['../variables__old_8h.html#ae1905f667c0938afad233db51f283bf7',1,'IBMNodes']]]
+];

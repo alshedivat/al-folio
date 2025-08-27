@@ -1,0 +1,5 @@
+<map id="InitializeTraversalParameters" name="InitializeTraversalParameters">
+<area shape="rect" id="Node000001" title="Initializes traversal parameters for locating a particle." alt="" coords="5,5,216,31"/>
+<area shape="rect" id="Node000002" href="$walkingsearch_8c.html#afae6265db91aa72254a050c0b6159dab" title="Checks if the current GLOBAL CELL indices are within the LOCAL GHOSTED grid boundaries accessible by ..." alt="" coords="264,5,455,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,15,250,15,250,21,216,21"/>
+</map>

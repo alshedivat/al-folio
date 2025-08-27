@@ -1,0 +1,60 @@
+<map id="InitializeParticleSwarm" name="InitializeParticleSwarm">
+<area shape="rect" id="Node000001" title="Perform particle swarm initialization, particle&#45;grid interaction, and related operations." alt="" coords="5,359,176,384"/>
+<area shape="rect" id="Node000002" href="$ParticleSwarm_8c.html#af2b3080ee0e5c8e0175ac594a2c497b5" title="Initializes all particle properties in the swarm." alt="" coords="259,105,442,145"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,357,150,296,222,220,307,151,311,155,226,224,154,300,104,360"/>
+<area shape="rect" id="Node000013" href="$ParticleSwarm_8c.html#a063f4fd13a24b248fabd0268c49fd38c" title="Creates and initializes a Particle Swarm." alt="" coords="271,235,430,260"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="103,357,152,313,186,289,223,269,257,257,259,262,225,274,189,293,156,317,106,361"/>
+<area shape="rect" id="Node000020" href="$ParticleSwarm_8c.html#a075e674353bc5b06344aa4c17063babf" title="Finalizes the swarm setup by destroying random generators and logging completion." alt="" coords="273,284,428,309"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="120,356,168,337,223,318,259,309,261,314,225,323,170,342,122,361"/>
+<area shape="rect" id="Node000021" href="$ParticleSwarm_8c.html#ab723e91906e01ec26aab97de6623000c" title="Initializes random number generators for logical space operations [0.0, 1.0)." alt="" coords="251,333,450,359"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="176,360,237,354,238,360,177,366"/>
+<area shape="rect" id="Node000022" href="$ParticleSwarm_8c.html#a26fa0cca0aa8b05f2705cdd0e7d37658" title="Initializes random number generators for assigning particle properties." alt="" coords="249,383,453,408"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="177,377,235,382,235,387,176,382"/>
+<area shape="rect" id="Node000023" href="$ParticleMotion_8c.html#ae0c7489fc52fda6c92cd1f22c3f50c38" title="Checks particle count in the reference file and resizes the swarm if needed." alt="" coords="253,432,449,457"/>
+<area shape="poly" id="edge23_Node000001_Node000023" title=" " alt="" coords="124,382,225,417,264,426,263,432,223,422,122,387"/>
+<area shape="rect" id="Node000025" href="$ParticleSwarm_8c.html#a5488e87ab4fa163467b3db9ce10233a5" title="Resets the location&#45;dependent state of a loaded swarm to force relocation." alt="" coords="224,481,477,507"/>
+<area shape="poly" id="edge25_Node000001_Node000025" title=" " alt="" coords="107,382,156,424,189,447,225,466,249,475,247,480,223,471,187,452,153,428,103,386"/>
+<area shape="rect" id="Node000026" href="$io_8c.html#a64286adf953993b2a0c5c3fbee40d5a2" title="Reads multiple fields (positions, velocity, CellID, and weight) into a DMSwarm." alt="" coords="273,531,428,556"/>
+<area shape="poly" id="edge26_Node000001_Node000026" title=" " alt="" coords="102,383,148,448,183,486,225,517,261,531,259,536,223,522,180,490,144,452,97,386"/>
+<area shape="rect" id="Node000003" href="$ParticleSwarm_8c.html#a38c3c55ea49021ac59eea87b61e942d1" title="Initializes a generic swarm field with point&#45;level updates." alt="" coords="543,33,735,59"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="424,102,577,60,579,65,425,107"/>
+<area shape="rect" id="Node000005" href="$ParticleSwarm_8c.html#a95efc9f04a0187f2a1d920952bd610e0" title="Initializes basic properties for particles on the local process." alt="" coords="525,112,752,137"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="442,122,511,122,511,127,442,127"/>
+<area shape="rect" id="Node000004" href="$ParticleSwarm_8c.html#a836356591a56313ee45df507a984907d" title="Helper function to update a given particle’s field value." alt="" coords="839,5,1020,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="734,34,825,25,826,31,735,39"/>
+<area shape="rect" id="Node000006" href="$Boundaries_8c.html#ab679d620b2d750179fbc2363fc562a1f" title="Determines if the current MPI rank owns any part of the globally defined inlet face,..." alt="" coords="836,55,1023,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="703,109,799,90,850,80,851,85,801,95,704,115"/>
+<area shape="rect" id="Node000008" href="$ParticleSwarm_8c.html#ae333eaf5cdf54d396fb84ef574a4945b" title="Determines cell selection and intra&#45;cell logical coordinates for volumetric initialization (Mode 1)." alt="" coords="808,105,1051,145"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="752,122,794,122,794,127,752,127"/>
+<area shape="rect" id="Node000009" href="$Boundaries_8c.html#ac07befc354128d23bac8ed5f2612ffdf" title="Assuming the current rank services the inlet face, this function selects a random cell (owned by this..." alt="" coords="800,169,1059,195"/>
+<area shape="poly" id="edge8_Node000005_Node000009" title=" " alt="" coords="704,135,801,154,851,164,850,169,799,159,703,140"/>
+<area shape="rect" id="Node000010" href="$Metric_8c.html#af0ba1966641e609476ac6fc3d5cdbbfc" title="Public wrapper: map (cell index, ξ,η,ζ) to (x,y,z)." alt="" coords="841,219,1018,244"/>
+<area shape="poly" id="edge10_Node000005_Node000010" title=" " alt="" coords="729,135,753,146,770,161,778,176,787,191,801,204,828,216,826,221,799,208,782,194,774,179,765,164,751,151,727,140"/>
+<area shape="rect" id="Node000007" href="$setup_8c.html#a135027905841ed83f1a3ef2279d865cc" title="Determines the global starting index and number of CELLS owned by the current processor in a specifie..." alt="" coords="1110,145,1266,171"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1013,77,1060,90,1111,112,1156,136,1153,141,1109,117,1058,95,1012,83"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="1058,167,1096,164,1097,169,1059,173"/>
+<area shape="rect" id="Node000011" href="$Metric_8c.html#a4859ff8031c003e036eab9cf8fb351f6" title="Extract the eight vertex coordinates of the hexahedral cell (i,j,k)." alt="" coords="1107,195,1269,220"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="1018,220,1093,213,1093,219,1018,226"/>
+<area shape="rect" id="Node000012" href="$Metric_8c.html#a379d85074cc67dd1230cecc94b9169aa" title="Map logical coordinates to physical space using trilinear basis." alt="" coords="1133,244,1243,269"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="1018,237,1119,247,1119,253,1018,243"/>
+<area shape="rect" id="Node000014" href="$ParticleSwarm_8c.html#a1cc0975a3eec2e2f817d0e3a09040620" title="Distributes particles evenly across MPI processes, handling any remainders." alt="" coords="568,161,709,187"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="393,232,525,195,560,187,562,192,526,201,395,237"/>
+<area shape="rect" id="Node000015" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="584,211,693,236"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="430,238,570,226,570,232,431,243"/>
+<area shape="rect" id="Node000016" href="$ParticleSwarm_8c.html#ac3566e0b51587686bc6c1366a67c44af" title="Initializes the DMSwarm object within the UserCtx structure." alt="" coords="577,260,700,285"/>
+<area shape="poly" id="edge16_Node000013_Node000016" title=" " alt="" coords="431,252,564,263,564,269,430,257"/>
+<area shape="rect" id="Node000017" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="563,309,714,335"/>
+<area shape="poly" id="edge17_Node000013_Node000017" title=" " alt="" coords="431,256,478,269,503,282,526,294,555,303,554,308,524,299,500,286,476,274,430,261"/>
+<area shape="rect" id="Node000018" href="$ParticleSwarm_8c.html#aeae3fd559e91d7379302acb6ccd13011" title="Registers necessary particle fields within the DMSwarm." alt="" coords="557,359,720,384"/>
+<area shape="poly" id="edge18_Node000013_Node000018" title=" " alt="" coords="431,250,456,257,479,269,496,288,504,308,511,326,527,344,545,354,543,359,524,348,507,329,499,309,492,291,476,273,454,262,429,255"/>
+<area shape="rect" id="Node000019" href="$ParticleSwarm_8c.html#a1b5741b17ffa7a57d8c1f6636e956d08" title="Registers a swarm field without finalizing registration." alt="" coords="853,359,1005,384"/>
+<area shape="poly" id="edge19_Node000018_Node000019" title=" " alt="" coords="720,369,839,369,839,374,720,374"/>
+<area shape="rect" id="Node000024" href="$ParticleMotion_8c.html#a38b5e7348bc556d505e2c4b31c29b086" title=" " alt="" coords="557,432,721,457"/>
+<area shape="poly" id="edge24_Node000023_Node000024" title=" " alt="" coords="449,442,543,442,543,447,449,447"/>
+<area shape="rect" id="Node000027" href="$io_8c.html#ab7d7097c8ad047feb1d460e4694b8b4f" title="Checks for a data file&#39;s existence in a parallel&#45;safe manner." alt="" coords="581,505,697,531"/>
+<area shape="poly" id="edge27_Node000026_Node000027" title=" " alt="" coords="428,534,566,522,567,527,428,539"/>
+<area shape="rect" id="Node000028" href="$io_8c.html#a84fff45b8cbd148ed2429ba8fe12428f" title="Reads data from a file into a specified field of a PETSc DMSwarm." alt="" coords="573,555,704,580"/>
+<area shape="poly" id="edge28_Node000026_Node000028" title=" " alt="" coords="428,547,560,558,559,563,428,552"/>
+<area shape="rect" id="Node000029" href="$io_8c.html#a570806d7e0694b5d996e0c6018b48908" title="Reads data for a specific field from a file into the provided vector." alt="" coords="871,555,988,580"/>
+<area shape="poly" id="edge29_Node000028_Node000029" title=" " alt="" coords="704,565,857,565,857,570,704,570"/>
+</map>

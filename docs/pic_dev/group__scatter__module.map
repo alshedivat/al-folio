@@ -1,0 +1,4 @@
+<map id="Particle&#45;to&#45;Grid Scattering" name="Particle&#45;to&#45;Grid Scattering">
+<area shape="rect" id="Node000001" title="Functions for scattering particle data (scalar or vector) onto Eulerian grid fields by averaging cont..." alt="" coords="5,13,196,38"/>
+<area shape="rect" id="Node000002" href="$group__scatter__module__internal.html" title="Lower&#45;level functions used by the main scattering routines." alt="" coords="244,5,387,45"/>
+</map>

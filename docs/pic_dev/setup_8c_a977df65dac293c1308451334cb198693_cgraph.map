@@ -1,0 +1,13 @@
+<map id="CreateSimulationContext" name="CreateSimulationContext">
+<area shape="rect" id="Node000001" title="Allocates and populates the master SimulationContext object." alt="" coords="5,55,192,80"/>
+<area shape="rect" id="Node000002" href="$logging_8c.html#a6c0ddc8d3a828f3ab26c557ba0aedf75" title="Load function names from a text file." alt="" coords="240,5,463,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,52,271,31,272,36,165,57"/>
+<area shape="rect" id="Node000004" href="$logging_8c.html#a4d4a385a6fac09d0e106eeb2dfde18ba" title="Prints the current logging level to the console." alt="" coords="292,55,411,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,65,278,65,278,70,192,70"/>
+<area shape="rect" id="Node000006" href="$logging_8c.html#a0c30361e55f762e47599a9e2a5999d24" title="Sets the global list of function names that are allowed to log." alt="" coords="268,104,435,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="165,77,272,99,271,104,164,83"/>
+<area shape="rect" id="Node000003" href="$logging_8c.html#a6b21b3f128c91055d8784740fcf05519" title=" " alt="" coords="541,5,590,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="463,15,527,15,527,21,463,21"/>
+<area shape="rect" id="Node000005" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="511,55,620,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="411,65,497,65,497,70,411,70"/>
+</map>

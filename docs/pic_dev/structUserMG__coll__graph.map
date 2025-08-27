@@ -1,0 +1,58 @@
+<map id="UserMG" name="UserMG">
+<area shape="rect" id="Node000001" title="User&#45;level context for managing the entire multigrid hierarchy." alt="" coords="499,43,573,69"/>
+<area shape="rect" id="Node000004" href="$variables_8h.html#structSimCtx" title="The master context for the entire simulation." alt="" coords="775,241,844,266"/>
+<area shape="poly" id="edge15_Node000004_Node000001" title=" " alt="" coords="572,73,634,112,703,159,755,202,796,238,792,242,752,206,700,163,631,116,569,78"/>
+<area shape="rect" id="Node000002" href="$variables__old_8h.html#structMGCtx" title="Context for Multigrid operations." alt="" coords="1213,255,1280,281"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1228,244,1198,200,1154,146,1098,93,1066,71,1032,53,971,32,906,20,840,16,776,17,659,30,574,49,573,43,658,25,775,11,840,10,907,15,972,27,1034,48,1069,66,1101,89,1158,142,1202,197,1233,241"/>
+<area shape="rect" id="Node000003" href="$variables__old_8h.html#structUserCtx" title="User&#45;defined context containing data specific to a single computational grid level." alt="" coords="1057,521,1132,546"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1107,508,1236,279,1241,282,1112,510"/>
+<area shape="poly" id="edge28_Node000003_Node000003" title=" " alt="" coords="1078,506,1083,497,1095,494,1105,497,1110,503,1109,521,1104,520,1105,505,1102,501,1095,499,1087,502,1083,508"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="858,261,901,275,948,294,995,322,1035,357,1063,399,1080,445,1090,488,1095,520,1090,521,1085,489,1075,447,1058,401,1031,360,992,326,946,299,899,280,857,267"/>
+<area shape="rect" id="Node000005" href="$variables__old_8h.html#structCmpnts" title="A 3D point or vector with PetscScalar components." alt="" coords="5,314,77,339"/>
+<area shape="poly" id="edge34_Node000003_Node000005" title=" " alt="" coords="52,352,71,403,86,430,103,456,185,546,221,580,258,608,297,632,342,653,457,693,512,706,584,715,665,720,752,720,837,715,916,705,983,687,1010,676,1032,663,1057,637,1074,604,1084,571,1089,546,1094,547,1089,573,1079,606,1061,640,1035,667,1012,681,985,692,917,710,838,721,752,726,665,725,583,720,511,711,455,699,340,658,295,637,255,613,218,584,181,550,99,459,81,433,66,405,47,353"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="78,306,118,289,162,276,251,260,341,250,519,241,671,243,775,248,774,253,671,248,519,246,342,255,251,266,163,281,120,294,80,311"/>
+<area shape="rect" id="Node000006" href="$variables__old_8h.html#structBoundingBox" title="Defines a 3D axis&#45;aligned bounding box." alt="" coords="482,126,590,151"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="41,300,46,268,56,231,73,195,100,166,146,139,196,120,249,110,302,105,355,106,404,110,484,123,483,129,403,115,354,111,303,111,250,115,198,125,148,143,103,170,77,198,61,233,51,269,47,300"/>
+<area shape="rect" id="Node000007" href="$variables__old_8h.html#structIBMNodes" title="Represents a collection of nodes forming a surface for the IBM." alt="" coords="492,365,580,390"/>
+<area shape="poly" id="edge8_Node000007_Node000005" title=" " alt="" coords="74,344,116,367,163,384,253,397,344,398,427,392,491,383,492,388,427,397,345,403,253,402,162,389,113,372,72,349"/>
+<area shape="rect" id="Node000008" href="$variables__old_8h.html#structIBMVNodes" title="Represents a collection of nodes forming a volume for the IBM." alt="" coords="312,185,409,210"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="50,299,69,264,83,247,100,232,153,208,210,195,265,190,312,190,312,196,265,195,210,200,154,213,103,237,87,250,73,267,54,302"/>
+<area shape="rect" id="Node000011" href="$variables__old_8h.html#structIBMInfo" title="Holds interpolation and distance information for a single IBM point." alt="" coords="178,449,250,474"/>
+<area shape="poly" id="edge14_Node000011_Node000005" title=" " alt="" coords="53,351,71,393,85,414,103,431,120,442,140,449,178,457,177,462,138,454,118,447,100,435,81,417,67,396,48,353"/>
+<area shape="poly" id="edge16_Node000003_Node000006" title=" " alt="" coords="586,120,642,110,672,109,702,112,1035,262,1048,284,1058,314,1076,389,1095,520,1089,521,1071,390,1053,315,1043,286,1032,266,701,117,672,114,642,115,587,125"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="583,154,702,203,782,238,779,243,700,208,581,159"/>
+<area shape="poly" id="edge23_Node000003_Node000007" title=" " alt="" coords="594,363,685,352,740,349,800,350,861,356,922,369,981,389,1035,418,1059,441,1076,469,1093,520,1088,521,1071,471,1055,444,1032,422,978,394,920,374,860,362,799,356,740,355,685,357,594,369"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="589,358,700,314,787,264,790,268,702,318,591,363"/>
+<area shape="poly" id="edge9_Node000004_Node000008" title=" " alt="" coords="424,202,702,236,775,246,774,251,701,241,423,207"/>
+<area shape="rect" id="Node000009" href="$variables__old_8h.html#structFSInfo" title="Holds all data related to the state and motion of a body in FSI." alt="" coords="505,291,567,317"/>
+<area shape="poly" id="edge11_Node000004_Node000009" title=" " alt="" coords="581,299,638,294,701,284,774,263,775,268,702,289,639,299,581,304"/>
+<area shape="rect" id="Node000010" href="$variables__old_8h.html#structSurfElmtInfo" title="Information about a surface element for FSI calculations." alt="" coords="163,291,265,317"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="279,301,504,301,504,307,279,307"/>
+<area shape="poly" id="edge31_Node000003_Node000011" title=" " alt="" coords="264,455,289,453,456,452,536,451,616,452,755,463,894,480,965,483,996,486,1034,496,1077,518,1075,523,1032,501,995,491,964,488,893,485,755,469,616,457,536,456,456,457,289,459,264,460"/>
+<area shape="poly" id="edge13_Node000009_Node000011" title=" " alt="" coords="245,439,264,427,288,411,406,353,503,313,505,318,408,358,291,416,267,432,248,444"/>
+<area shape="rect" id="Node000018" href="$variables__old_8h.html#structIBMListNode" title="A linked list node containing IBM interpolation info." alt="" coords="484,506,588,531"/>
+<area shape="poly" id="edge26_Node000018_Node000011" title=" " alt="" coords="264,467,484,507,483,512,263,473"/>
+<area shape="rect" id="Node000012" href="$variables__old_8h.html#structRankNeighbors" title="Stores the MPI ranks of neighboring subdomains." alt="" coords="749,545,870,570"/>
+<area shape="poly" id="edge17_Node000003_Node000012" title=" " alt="" coords="884,559,956,558,1033,551,1060,544,1061,549,1034,556,957,564,884,564"/>
+<area shape="rect" id="Node000013" href="$variables__old_8h.html#structBoundaryFaceConfig__s" title="Holds the complete configuration for one of the six boundary faces." alt="" coords="725,594,893,619"/>
+<area shape="poly" id="edge18_Node000003_Node000013" title=" " alt="" coords="906,606,970,598,1032,580,1059,564,1080,544,1084,548,1062,568,1034,585,971,603,907,611"/>
+<area shape="rect" id="Node000014" href="$variables__old_8h.html#structBC__Param__s" title="A node in a linked list for storing key&#45;value parameters from the bcs.dat file." alt="" coords="485,594,587,619"/>
+<area shape="poly" id="edge19_Node000013_Node000014" title=" " alt="" coords="601,604,725,604,725,609,601,609"/>
+<area shape="poly" id="edge20_Node000014_Node000014" title=" " alt="" coords="510,579,518,571,536,567,552,570,561,576,564,586,559,595,554,593,558,585,557,579,550,575,536,573,520,575,513,583"/>
+<area shape="rect" id="Node000015" href="$structBoundaryCondition__s.html" title="The &quot;virtual table&quot; struct for a boundary condition handler object." alt="" coords="456,643,616,669"/>
+<area shape="poly" id="edge21_Node000013_Node000015" title=" " alt="" coords="622,638,701,624,740,617,741,622,702,629,623,644"/>
+<area shape="rect" id="Node000016" href="$variables__old_8h.html#structBCS" title="Legacy boundary condition data." alt="" coords="785,643,833,669"/>
+<area shape="poly" id="edge22_Node000003_Node000016" title=" " alt="" coords="847,657,888,659,936,656,986,645,1032,624,1052,607,1067,586,1087,545,1092,547,1072,588,1056,611,1035,629,987,650,937,661,888,664,847,663"/>
+<area shape="rect" id="Node000017" href="$variables__old_8h.html#structIBMList" title="Head of a linked list for IBM data." alt="" coords="774,495,845,521"/>
+<area shape="poly" id="edge24_Node000003_Node000017" title=" " alt="" coords="858,510,1057,527,1057,533,858,515"/>
+<area shape="poly" id="edge25_Node000017_Node000018" title=" " alt="" coords="602,513,774,507,774,512,602,519"/>
+<area shape="poly" id="edge27_Node000018_Node000018" title=" " alt="" coords="510,491,518,483,536,479,552,482,561,488,564,498,559,507,554,505,558,497,557,491,550,487,536,485,520,487,513,495"/>
+<area shape="rect" id="Node000019" href="$variables__old_8h.html#structRankCellInfo" title="A lean struct to hold the global cell ownership range for a single MPI rank." alt="" coords="757,745,862,770"/>
+<area shape="poly" id="edge29_Node000003_Node000019" title=" " alt="" coords="876,768,915,770,956,768,996,758,1032,738,1051,717,1066,693,1077,666,1084,638,1091,585,1091,546,1097,546,1096,585,1090,639,1082,667,1071,695,1056,721,1035,742,998,763,957,773,915,776,875,773"/>
+<area shape="rect" id="Node000020" href="$variables__old_8h.html#structCmpnts2" title="A 2D point or vector with PetscScalar components." alt="" coords="769,794,849,819"/>
+<area shape="poly" id="edge30_Node000003_Node000020" title=" " alt="" coords="863,817,904,822,949,821,993,812,1013,803,1031,790,1044,773,1056,746,1073,675,1084,600,1090,546,1095,547,1089,601,1078,676,1061,748,1049,775,1035,794,1016,807,995,817,950,826,904,827,863,822"/>
+<area shape="rect" id="Node000021" href="$variables__old_8h.html#structFlowWave" title="Represents a single point in a time&#45;varying flow waveform." alt="" coords="765,843,854,869"/>
+<area shape="poly" id="edge32_Node000003_Node000021" title=" " alt="" coords="868,868,908,873,952,873,995,863,1014,854,1031,842,1047,821,1059,787,1077,700,1086,609,1090,546,1096,546,1092,610,1082,701,1064,789,1051,823,1035,846,1017,859,996,868,953,878,908,878,867,873"/>
+<area shape="rect" id="Node000022" href="$variables__old_8h.html#structPostProcessParams" title="Parameters controlling post&#45;processing output actions." alt="" coords="735,59,883,85"/>
+<area shape="poly" id="edge33_Node000003_Node000022" title=" " alt="" coords="898,66,934,70,971,79,1006,95,1035,118,1054,151,1069,198,1080,256,1087,319,1094,440,1096,520,1091,521,1089,440,1082,319,1074,257,1064,200,1050,153,1031,122,1003,99,969,84,933,75,897,71"/>
+</map>

@@ -1,0 +1,41 @@
+<map id="GetOwnedCellRange" name="GetOwnedCellRange">
+<area shape="rect" id="Node000001" title="Gets the global starting index of cells owned by this rank and the number of such cells." alt="" coords="1173,183,1329,208"/>
+<area shape="rect" id="Node000002" href="$Boundaries_8c.html#a542a84809c7767ba2a314faaa08ee0a0" title="Determines if the current MPI rank owns any part of a specified global face." alt="" coords="917,5,1075,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1235,172,1192,107,1161,72,1124,44,1100,33,1074,26,1076,21,1102,28,1127,40,1164,69,1196,103,1240,169"/>
+<area shape="rect" id="Node000003" href="$Boundaries_8c.html#ab679d620b2d750179fbc2363fc562a1f" title="Determines if the current MPI rank owns any part of the globally defined inlet face,..." alt="" coords="903,55,1089,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1228,174,1183,132,1155,111,1124,94,1088,81,1090,76,1126,89,1157,107,1186,128,1231,170"/>
+<area shape="rect" id="Node000010" href="$setup_8c.html#a25ce912d8aafa319a8c915cd350c7322" title="Gets the global cell range for a rank, including boundary cells." alt="" coords="913,153,1079,179"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="1159,187,1079,178,1079,173,1160,182"/>
+<area shape="rect" id="Node000014" href="$Boundaries_8c.html#ac07befc354128d23bac8ed5f2612ffdf" title="Assuming the current rank services the inlet face, this function selects a random cell (owned by this..." alt="" coords="867,104,1125,129"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="1212,179,1170,160,1125,143,1080,132,1081,127,1126,138,1172,155,1214,174"/>
+<area shape="rect" id="Node000015" href="$interpolation_8c.html#ac3e3d9d03447563e1062d257af6046d2" title="Interpolates a scalar field from corner nodes to all face centers." alt="" coords="885,203,1107,243"/>
+<area shape="poly" id="edge18_Node000001_Node000015" title=" " alt="" coords="1160,208,1108,214,1107,208,1160,203"/>
+<area shape="rect" id="Node000016" href="$interpolation_8c.html#a173e2e54a5c09762ab6868eb78889886" title="Interpolates a vector field from corner nodes to all face centers." alt="" coords="885,267,1107,307"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="1216,217,1174,238,1126,258,1088,270,1087,265,1124,253,1172,233,1214,212"/>
+<area shape="rect" id="Node000017" href="$interpolation_8c.html#a178ae55ed2a5ace793e5ead8933d5c76" title="Safely interpolate a scalar field from corner nodes (from the coordinate DM) to cell centers (from th..." alt="" coords="896,331,1096,371"/>
+<area shape="poly" id="edge20_Node000001_Node000017" title=" " alt="" coords="1235,221,1190,272,1160,299,1127,322,1097,335,1095,330,1124,317,1157,295,1186,268,1231,217"/>
+<area shape="rect" id="Node000018" href="$interpolation_8c.html#a1572054c1f369e31e37b0f44b04828d6" title="Safely interpolate a vector field from corner nodes (from the coordinate DM) to cell centers (from th..." alt="" coords="896,395,1096,435"/>
+<area shape="poly" id="edge21_Node000001_Node000018" title=" " alt="" coords="1243,222,1226,259,1201,303,1168,348,1127,386,1098,401,1095,396,1124,381,1164,344,1196,300,1221,256,1238,220"/>
+<area shape="rect" id="Node000004" href="$ParticleSwarm_8c.html#a95efc9f04a0187f2a1d920952bd610e0" title="Initializes basic properties for particles on the local process." alt="" coords="575,43,801,68"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="889,66,802,62,802,57,889,61"/>
+<area shape="rect" id="Node000008" href="$ParticleMotion_8c.html#abb62172d12ae65122070a3674196c8e2" title="Re&#45;initializes the positions of particles currently on this rank if this rank owns part of the design..." alt="" coords="589,93,787,133"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="896,85,788,101,787,96,895,79"/>
+<area shape="rect" id="Node000005" href="$ParticleSwarm_8c.html#af2b3080ee0e5c8e0175ac594a2c497b5" title="Initializes all particle properties in the swarm." alt="" coords="327,35,509,75"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="561,58,509,58,509,53,561,53"/>
+<area shape="rect" id="Node000006" href="$ParticleSwarm_8c.html#ada215a5db25227a8fd2cd2596e7d3e57" title="Perform particle swarm initialization, particle&#45;grid interaction, and related operations." alt="" coords="108,47,279,72"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="313,60,279,60,279,55,313,55"/>
+<area shape="rect" id="Node000007" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,100,60,125"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="142,79,109,90,61,106,59,101,107,85,140,74"/>
+<area shape="rect" id="Node000009" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="119,100,267,125"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="575,115,267,115,267,110,575,110"/>
+<area shape="poly" id="edge9_Node000009_Node000007" title=" " alt="" coords="105,115,60,115,60,110,105,110"/>
+<area shape="rect" id="Node000011" href="$initialcondition_8c.html#a62dfa993750dc34d1729c575bb1dde66" title="Sets the initial values for the INTERIOR of a specified Eulerian field." alt="" coords="609,207,767,232"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="909,184,763,209,762,204,908,178"/>
+<area shape="rect" id="Node000012" href="$setup_8c.html#aeb77337317f41972d1c75c8d80527892" title="Creates and distributes a map of the domain&#39;s cell decomposition to all ranks." alt="" coords="557,157,819,183"/>
+<area shape="poly" id="edge12_Node000010_Node000012" title=" " alt="" coords="900,170,819,171,819,166,900,165"/>
+<area shape="rect" id="Node000013" href="$setup_8c.html#a1c08bf327e1aee897c56610a89f75814" title="Sets up the full rank communication infrastructure, including neighbor ranks and bounding box exchang..." alt="" coords="334,155,502,180"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="544,171,502,171,502,165,544,166"/>
+<area shape="poly" id="edge14_Node000013_Node000007" title=" " alt="" coords="320,166,217,157,107,139,59,125,61,120,109,134,218,151,320,160"/>
+<area shape="poly" id="edge16_Node000014_Node000004" title=" " alt="" coords="915,104,866,94,818,83,755,71,756,65,819,78,867,89,916,99"/>
+<area shape="poly" id="edge17_Node000014_Node000008" title=" " alt="" coords="853,117,787,117,787,111,853,112"/>
+</map>

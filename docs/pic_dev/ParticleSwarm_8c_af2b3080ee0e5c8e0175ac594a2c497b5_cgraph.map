@@ -1,0 +1,24 @@
+<map id="AssignInitialPropertiesToSwarm" name="AssignInitialPropertiesToSwarm">
+<area shape="rect" id="Node000001" title="Initializes all particle properties in the swarm." alt="" coords="5,81,188,121"/>
+<area shape="rect" id="Node000002" href="$ParticleSwarm_8c.html#a38c3c55ea49021ac59eea87b61e942d1" title="Initializes a generic swarm field with point&#45;level updates." alt="" coords="253,35,445,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,79,274,60,275,66,189,84"/>
+<area shape="rect" id="Node000004" href="$ParticleSwarm_8c.html#a95efc9f04a0187f2a1d920952bd610e0" title="Initializes basic properties for particles on the local process." alt="" coords="236,112,463,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,107,222,110,222,115,188,112"/>
+<area shape="rect" id="Node000003" href="$ParticleSwarm_8c.html#a836356591a56313ee45df507a984907d" title="Helper function to update a given particle’s field value." alt="" coords="549,5,731,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="445,35,536,26,536,31,446,40"/>
+<area shape="rect" id="Node000005" href="$Boundaries_8c.html#ab679d620b2d750179fbc2363fc562a1f" title="Determines if the current MPI rank owns any part of the globally defined inlet face,..." alt="" coords="547,55,733,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="414,109,510,90,561,80,562,85,511,95,415,115"/>
+<area shape="rect" id="Node000007" href="$ParticleSwarm_8c.html#ae333eaf5cdf54d396fb84ef574a4945b" title="Determines cell selection and intra&#45;cell logical coordinates for volumetric initialization (Mode 1)." alt="" coords="519,105,761,145"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="463,122,505,122,505,127,463,127"/>
+<area shape="rect" id="Node000008" href="$Boundaries_8c.html#ac07befc354128d23bac8ed5f2612ffdf" title="Assuming the current rank services the inlet face, this function selects a random cell (owned by this..." alt="" coords="511,169,769,195"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="415,135,511,154,562,164,561,169,510,159,414,140"/>
+<area shape="rect" id="Node000009" href="$Metric_8c.html#af0ba1966641e609476ac6fc3d5cdbbfc" title="Public wrapper: map (cell index, ξ,η,ζ) to (x,y,z)." alt="" coords="551,219,729,244"/>
+<area shape="poly" id="edge9_Node000004_Node000009" title=" " alt="" coords="372,135,433,169,512,203,544,213,543,218,510,209,431,174,370,140"/>
+<area shape="rect" id="Node000006" href="$setup_8c.html#a135027905841ed83f1a3ef2279d865cc" title="Determines the global starting index and number of CELLS owned by the current processor in a specifie..." alt="" coords="821,100,977,125"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="713,77,813,95,812,100,713,83"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="714,167,769,154,850,128,852,133,770,159,715,172"/>
+<area shape="rect" id="Node000010" href="$Metric_8c.html#a4859ff8031c003e036eab9cf8fb351f6" title="Extract the eight vertex coordinates of the hexahedral cell (i,j,k)." alt="" coords="817,193,980,219"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="728,220,804,213,804,218,729,225"/>
+<area shape="rect" id="Node000011" href="$Metric_8c.html#a379d85074cc67dd1230cecc94b9169aa" title="Map logical coordinates to physical space using trilinear basis." alt="" coords="843,243,954,268"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="729,237,830,246,830,252,728,242"/>
+</map>

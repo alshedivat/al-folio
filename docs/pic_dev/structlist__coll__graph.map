@@ -1,0 +1,6 @@
+<map id="list" name="list">
+<area shape="rect" id="Node000001" title="Head of a generic C&#45;style linked list." alt="" coords="11,93,54,119"/>
+<area shape="rect" id="Node000002" href="$variables__old_8h.html#structnode" title="A generic C&#45;style linked list node for integers." alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="35,45,35,93,30,93,30,45"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="75,8,83,11,87,18,78,27,60,29,60,23,76,22,81,18,79,15,73,13"/>
+</map>

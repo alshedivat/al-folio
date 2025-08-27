@@ -1,0 +1,7 @@
+<map id="SetInitialFluidState_FreshStart" name="SetInitialFluidState_FreshStart">
+<area shape="rect" id="Node000001" title="(HELPER) Sets the t=0 fluid state for all blocks." alt="" coords="321,5,468,45"/>
+<area shape="rect" id="Node000002" href="$initialcondition_8c.html#ad0dd7d3f2528b6a7802fcd551e88ea99" title="High&#45;level orchestrator to set the complete initial state of the Eulerian solver." alt="" coords="108,13,273,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="308,28,274,28,274,23,308,23"/>
+<area shape="rect" id="Node000003" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,28,60,28,60,23,94,23"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="MetricLogicalToPhysical" name="MetricLogicalToPhysical">
+<area shape="rect" id="Node000001" title="Public wrapper: map (cell index, ξ,η,ζ) to (x,y,z)." alt="" coords="5,31,183,56"/>
+<area shape="rect" id="Node000002" href="$Metric_8c.html#a4859ff8031c003e036eab9cf8fb351f6" title="Extract the eight vertex coordinates of the hexahedral cell (i,j,k)." alt="" coords="231,5,393,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,30,217,26,217,32,183,36"/>
+<area shape="rect" id="Node000003" href="$Metric_8c.html#a379d85074cc67dd1230cecc94b9169aa" title="Map logical coordinates to physical space using trilinear basis." alt="" coords="257,55,367,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,50,243,57,243,62,183,56"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="IBMInfo" name="IBMInfo">
+<area shape="rect" id="Node000001" title="Holds interpolation and distance information for a single IBM point." alt="" coords="5,93,77,119"/>
+<area shape="rect" id="Node000002" href="$variables__old_8h.html#structCmpnts" title="A 3D point or vector with PetscScalar components." alt="" coords="5,5,77,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="44,45,44,93,39,93,39,45"/>
+</map>

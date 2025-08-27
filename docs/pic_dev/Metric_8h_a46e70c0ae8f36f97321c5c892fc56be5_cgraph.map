@@ -1,0 +1,9 @@
+<map id="ComputeCellCentersAndSpacing" name="ComputeCellCentersAndSpacing">
+<area shape="rect" id="Node000001" title="Computes the physical location of cell centers and the spacing between them." alt="" coords="5,31,237,56"/>
+<area shape="rect" id="Node000002" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="285,31,433,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="238,41,271,41,271,46,238,46"/>
+<area shape="rect" id="Node000003" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="502,5,611,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="433,31,488,24,489,29,434,36"/>
+<area shape="rect" id="Node000004" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="481,55,632,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="434,50,468,54,468,59,433,55"/>
+</map>

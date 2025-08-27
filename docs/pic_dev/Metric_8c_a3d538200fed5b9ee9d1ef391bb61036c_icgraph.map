@@ -1,0 +1,14 @@
+<map id="Gidx" name="Gidx">
+<area shape="rect" id="Node000001" title=" " alt="" coords="788,31,840,56"/>
+<area shape="rect" id="Node000002" href="$Metric_8c.html#a2a99180f2d9db426e1cf73771b795498" title="Computes the max&#45;min values of the grid metrics." alt="" coords="556,5,721,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="774,40,721,33,722,27,775,35"/>
+<area shape="rect" id="Node000006" href="$Metric_8c.html#a63e70e9aa6a59c320cb2b1af6bd0a7e6" title="Performs a diagnostic check on the divergence of the face area metric vectors." alt="" coords="537,55,740,80"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="775,51,732,57,731,52,774,46"/>
+<area shape="rect" id="Node000003" href="$Metric_8c.html#a063043da47b68702c78c7e0769325b36" title="Orchestrates the calculation of all grid metrics." alt="" coords="315,31,489,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="542,31,490,37,489,31,541,26"/>
+<area shape="rect" id="Node000004" href="$setup_8c.html#a2be2815aeb79afe9b95caf39c7b3312c" title="The main orchestrator for setting up all grid&#45;related components." alt="" coords="108,31,267,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,46,267,46,267,41,301,41"/>
+<area shape="rect" id="Node000005" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,46,60,46,60,41,94,41"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="523,58,489,55,490,50,524,53"/>
+</map>

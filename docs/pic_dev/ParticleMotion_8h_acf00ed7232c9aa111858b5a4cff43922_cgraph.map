@@ -1,0 +1,7 @@
+<map id="IdentifyMigratingParticles" name="IdentifyMigratingParticles">
+<area shape="rect" id="Node000001" title="Identifies particles leaving the local bounding box and finds their target neighbor rank." alt="" coords="5,31,193,56"/>
+<area shape="rect" id="Node000002" href="$ParticleMotion_8c.html#a43df9caf0f5cbb317050f6258ac46fff" title="Safely adds a new migration task to a dynamically sized list." alt="" coords="241,5,388,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,30,228,26,228,31,194,35"/>
+<area shape="rect" id="Node000003" href="$ParticleMotion_8c.html#ad2b9ac6b5e4d13799fa82dcd34432da4" title="Checks if a particle position is within the bounds of a given bounding box." alt="" coords="255,55,374,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="194,51,242,57,241,62,194,57"/>
+</map>

@@ -1,0 +1,88 @@
+<map id="get_log_level" name="get_log_level">
+<area shape="rect" id="Node000001" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="1149,679,1259,705"/>
+<area shape="rect" id="Node000002" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="127,170,275,195"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1191,667,1150,574,1118,511,1077,443,1029,375,973,311,908,254,873,231,836,210,791,196,729,185,574,176,411,176,276,181,275,176,411,171,574,170,729,180,792,190,838,206,876,226,912,250,976,307,1033,372,1082,440,1122,508,1155,571,1196,665"/>
+<area shape="rect" id="Node000004" href="$setup_8c.html#acf739211501f0646c25ceb99a68a1163" title="Allocates the memory for the UserMG and UserCtx hierarchy." alt="" coords="355,825,545,850"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1193,718,1159,773,1133,801,1103,824,1023,857,939,878,853,888,768,889,687,884,613,875,499,853,500,847,613,869,687,879,768,884,852,882,938,872,1022,852,1100,819,1130,797,1155,770,1189,715"/>
+<area shape="rect" id="Node000006" href="$ParticleSwarm_8c.html#a063f4fd13a24b248fabd0268c49fd38c" title="Creates and initializes a Particle Swarm." alt="" coords="914,937,1073,962"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1201,719,1190,762,1172,816,1143,871,1125,897,1103,919,1069,939,1067,934,1100,915,1121,894,1139,869,1167,814,1185,761,1196,718"/>
+<area shape="rect" id="Node000008" href="$walkingsearch_8c.html#a556871801ba0b3214285a2ca1fe622ac" title="Determines the spatial relationship of a particle relative to a cubic cell." alt="" coords="904,70,1083,95"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="1199,666,1193,547,1177,379,1164,293,1147,215,1126,151,1113,127,1099,109,1082,95,1085,91,1103,105,1118,124,1130,149,1152,214,1169,292,1182,378,1198,546,1205,666"/>
+<area shape="rect" id="Node000012" href="$grid_8c.html#aa0b95ab3ac28c8df985e38b888c9bb52" title="Orchestrates the creation of DMDA objects for every block and multigrid level." alt="" coords="375,718,525,743"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="1170,714,1072,760,1006,786,932,810,853,829,770,839,686,839,645,834,605,825,562,809,523,787,465,746,468,741,526,783,565,804,606,820,646,829,687,834,769,834,852,823,931,805,1005,781,1070,755,1167,709"/>
+<area shape="rect" id="Node000013" href="$interpolation_8c.html#ad200d31b74c511e4388b757fb0359001" title="Interpolates a cell&#45;centered field (scalar or vector) onto DMSwarm particles, using a robust,..." alt="" coords="885,119,1101,145"/>
+<area shape="poly" id="edge17_Node000001_Node000013" title=" " alt="" coords="1198,666,1190,557,1172,407,1159,331,1142,261,1123,204,1099,166,1072,147,1075,143,1103,162,1127,202,1147,260,1164,330,1177,406,1195,557,1204,665"/>
+<area shape="rect" id="Node000015" href="$interpolation_8c.html#a8e20ad6b773e06f8cc29773322297095" title="Interpolates a vector field from cell centers to corner nodes." alt="" coords="893,1036,1093,1076"/>
+<area shape="poly" id="edge21_Node000001_Node000015" title=" " alt="" coords="1205,719,1201,781,1186,863,1173,907,1156,950,1133,990,1103,1026,1088,1038,1085,1034,1099,1022,1128,987,1151,948,1168,905,1181,862,1196,780,1200,718"/>
+<area shape="rect" id="Node000016" href="$logging_8c.html#a4d4a385a6fac09d0e106eeb2dfde18ba" title="Prints the current logging level to the console." alt="" coords="934,986,1053,1011"/>
+<area shape="poly" id="edge22_Node000001_Node000016" title=" " alt="" coords="1204,719,1197,773,1181,843,1168,879,1151,915,1130,948,1103,977,1080,991,1053,999,1052,994,1077,986,1100,973,1126,945,1147,912,1163,877,1176,841,1192,772,1199,718"/>
+<area shape="rect" id="Node000018" href="$walkingsearch_8c.html#ae8ed9e0a01de5ee0f332170562b1f9ea" title="Updates the cell indices based on the signed distances to each face." alt="" coords="894,5,1093,45"/>
+<area shape="poly" id="edge25_Node000001_Node000018" title=" " alt="" coords="1199,665,1194,537,1178,355,1165,262,1148,177,1126,107,1114,80,1099,59,1086,48,1090,44,1103,56,1118,77,1131,105,1154,175,1171,261,1184,355,1199,537,1205,665"/>
+<area shape="rect" id="Node000019" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="919,523,1067,549"/>
+<area shape="poly" id="edge27_Node000001_Node000019" title=" " alt="" coords="1173,673,1010,551,1014,547,1177,669"/>
+<area shape="rect" id="Node000003" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,535,60,561"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="191,209,42,536,37,534,186,207"/>
+<area shape="rect" id="Node000005" href="$setup_8c.html#a2be2815aeb79afe9b95caf39c7b3312c" title="The main orchestrator for setting up all grid&#45;related components." alt="" coords="122,683,281,709"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="413,820,224,711,226,707,416,815"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="173,676,47,563,50,559,177,672"/>
+<area shape="rect" id="Node000007" href="$ParticleSwarm_8c.html#ada215a5db25227a8fd2cd2596e7d3e57" title="Perform particle swarm initialization, particle&#45;grid interaction, and related operations." alt="" coords="116,774,287,799"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="900,950,786,944,645,929,492,904,416,887,342,865,273,834,220,802,223,797,275,830,344,860,417,881,493,899,646,924,786,938,900,945"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="162,769,133,749,106,723,78,680,57,634,34,562,39,560,62,632,83,678,110,720,136,745,165,765"/>
+<area shape="rect" id="Node000009" href="$walkingsearch_8c.html#a0b63dfe82e0fdee5c2c3bdd477f9901f" title="Locates a particle&#39;s host cell or identifies its migration target using a robust walk search." alt="" coords="613,55,830,95"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="890,82,830,81,830,75,890,77"/>
+<area shape="rect" id="Node000010" href="$ParticleMotion_8c.html#a727054a4a467fd8504a19caed5a5916b" title="Orchestrates the complete particle location and migration process for one timestep." alt="" coords="343,70,557,95"/>
+<area shape="poly" id="edge11_Node000009_Node000010" title=" " alt="" coords="599,81,558,82,558,77,599,76"/>
+<area shape="poly" id="edge12_Node000010_Node000002" title=" " alt="" coords="357,103,344,109,330,120,321,133,311,146,296,158,265,172,262,167,293,154,308,142,316,129,326,117,341,104,355,98"/>
+<area shape="rect" id="Node000011" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="127,119,275,145"/>
+<area shape="poly" id="edge13_Node000010_Node000011" title=" " alt="" coords="373,101,267,122,266,117,372,95"/>
+<area shape="poly" id="edge14_Node000011_Node000003" title=" " alt="" coords="118,152,110,159,92,189,77,233,55,345,43,459,37,535,32,535,37,458,50,344,72,231,87,186,106,156,114,148"/>
+<area shape="poly" id="edge16_Node000012_Node000005" title=" " alt="" coords="361,721,281,710,281,704,361,716"/>
+<area shape="rect" id="Node000014" href="$interpolation_8c.html#a25d384c0bcf5426864f90ab568e37511" title="Interpolates all relevant fields from the DMDA to the DMSwarm." alt="" coords="347,119,553,145"/>
+<area shape="poly" id="edge18_Node000013_Node000014" title=" " alt="" coords="871,135,553,135,553,129,871,129"/>
+<area shape="poly" id="edge19_Node000014_Node000002" title=" " alt="" coords="374,150,265,173,264,167,373,145"/>
+<area shape="poly" id="edge20_Node000014_Node000011" title=" " alt="" coords="333,135,276,135,276,129,333,129"/>
+<area shape="rect" id="Node000017" href="$setup_8c.html#a977df65dac293c1308451334cb198693" title="Allocates and populates the master SimulationContext object." alt="" coords="108,907,295,933"/>
+<area shape="poly" id="edge23_Node000016_Node000017" title=" " alt="" coords="920,1005,808,1006,664,1004,503,993,342,971,282,954,231,935,233,930,284,949,343,965,503,988,664,999,808,1001,920,999"/>
+<area shape="poly" id="edge24_Node000017_Node000003" title=" " alt="" coords="174,899,139,861,106,813,75,742,53,668,33,561,38,560,59,667,80,740,110,811,143,858,178,896"/>
+<area shape="poly" id="edge26_Node000018_Node000009" title=" " alt="" coords="881,48,831,58,830,52,880,43"/>
+<area shape="rect" id="Node000020" href="$Metric_8c.html#a436bb94905ee06971f632571f5bc8cbb" title="Ensure a right&#45;handed metric basis (Csi, Eta, Zet) and a positive Jacobian (Aj) over the whole domain..." alt="" coords="618,721,825,746"/>
+<area shape="poly" id="edge28_Node000019_Node000020" title=" " alt="" coords="980,562,957,596,925,637,885,678,839,712,813,723,811,718,836,707,881,674,921,634,952,593,975,559"/>
+<area shape="rect" id="Node000022" href="$Metric_8c.html#a92d28e2f14645b0eb563144f4ccf2b49" title="Calculates the cell&#45;centered inverse Jacobian determinant (1/J) for INTERIOR cells and stores it in u..." alt="" coords="611,771,831,811"/>
+<area shape="poly" id="edge31_Node000019_Node000022" title=" " alt="" coords="984,563,963,606,931,659,890,714,866,739,839,761,818,773,815,768,836,756,862,735,886,711,927,657,958,603,979,560"/>
+<area shape="rect" id="Node000023" href="$Metric_8c.html#a46e70c0ae8f36f97321c5c892fc56be5" title="Computes the physical location of cell centers and the spacing between them." alt="" coords="605,474,837,499"/>
+<area shape="poly" id="edge33_Node000019_Node000023" title=" " alt="" coords="909,523,792,502,793,497,910,518"/>
+<area shape="rect" id="Node000024" href="$Metric_8c.html#a6f0dfb324211e230a387501f93cfd316" title="Computes the primary face metric components (Csi, Eta, Zet), including boundary extrapolation,..." alt="" coords="642,523,801,549"/>
+<area shape="poly" id="edge35_Node000019_Node000024" title=" " alt="" coords="905,539,801,539,801,533,905,533"/>
+<area shape="rect" id="Node000025" href="$Metric_8c.html#af935307ea3e9727a63b6ef9a3932caa8" title="Computes metrics centered on constant&#45;i faces (i&#45;faces)." alt="" coords="640,573,803,598"/>
+<area shape="poly" id="edge37_Node000019_Node000025" title=" " alt="" coords="910,554,793,575,792,570,909,549"/>
+<area shape="rect" id="Node000026" href="$Metric_8c.html#a4ecbe44ffb23d82193f9278ab61c1b47" title="Computes metrics centered on constant&#45;j faces (j&#45;faces)." alt="" coords="640,622,803,647"/>
+<area shape="poly" id="edge39_Node000019_Node000026" title=" " alt="" coords="959,558,903,585,838,612,793,624,792,619,836,607,901,580,956,553"/>
+<area shape="rect" id="Node000027" href="$Metric_8c.html#a95e22e5238b2cd02b992366766730687" title="Computes metrics centered on constant&#45;k faces (k&#45;faces)." alt="" coords="638,671,805,697"/>
+<area shape="poly" id="edge41_Node000019_Node000027" title=" " alt="" coords="972,560,915,611,878,638,838,661,803,674,802,669,836,656,875,634,912,607,969,556"/>
+<area shape="rect" id="Node000028" href="$initialcondition_8c.html#af6a26611066aa455efddcca2fd80fe35" title="(HELPER) Finalizes a block&#39;s state by applying BCs, converting to Cartesian, and synchronizing ghost ..." alt="" coords="650,373,793,398"/>
+<area shape="poly" id="edge43_Node000019_Node000028" title=" " alt="" coords="968,516,910,468,874,442,836,420,784,401,786,396,838,415,877,437,914,463,971,512"/>
+<area shape="rect" id="Node000029" href="$initialcondition_8c.html#a51d0251f84a962a611ff0c0a8797a3e4" title="(HELPER) Sets the t=0 fluid state for all blocks." alt="" coords="377,359,523,399"/>
+<area shape="poly" id="edge49_Node000019_Node000029" title=" " alt="" coords="977,512,955,476,924,433,884,393,861,376,836,362,796,348,753,339,710,336,667,336,584,346,515,361,514,356,583,340,666,331,710,330,754,334,797,343,838,358,864,372,887,389,928,430,959,473,981,509"/>
+<area shape="rect" id="Node000031" href="$solvers_8c.html#a2ed4825273a593f371a3d48071708255" title="Orchestrates a single time step of the Eulerian fluid solver." alt="" coords="399,221,501,246"/>
+<area shape="poly" id="edge47_Node000019_Node000031" title=" " alt="" coords="978,512,957,471,925,422,885,372,836,330,810,317,773,304,682,279,500,244,501,239,683,274,775,299,812,312,839,326,889,368,930,419,961,469,983,509"/>
+<area shape="rect" id="Node000032" href="$initialcondition_8c.html#aff0951526ed36a87e2745da0154a68e5" title="(HELPER) Reads fluid state for all blocks from restart files." alt="" coords="377,423,523,463"/>
+<area shape="poly" id="edge50_Node000019_Node000032" title=" " alt="" coords="959,518,903,489,837,464,754,448,670,441,591,439,523,440,523,435,591,433,670,435,755,443,838,459,906,484,962,514"/>
+<area shape="rect" id="Node000033" href="$poisson_8c.html#a7cf2cfc0383ba0076f827f7d3856f2ed" title="Updates the pressure field P with the pressure correction Phi computed by the Poisson solver." alt="" coords="659,221,784,246"/>
+<area shape="poly" id="edge52_Node000019_Node000033" title=" " alt="" coords="982,511,964,459,934,393,891,325,865,294,836,267,811,253,784,244,785,239,813,248,839,263,869,291,896,322,938,391,969,457,987,509"/>
+<area shape="rect" id="Node000021" href="$Metric_8c.html#a063043da47b68702c78c7e0769325b36" title="Orchestrates the calculation of all grid metrics." alt="" coords="363,647,537,673"/>
+<area shape="poly" id="edge29_Node000020_Node000021" title=" " alt="" coords="640,720,605,712,487,675,489,670,606,707,641,715"/>
+<area shape="poly" id="edge30_Node000021_Node000005" title=" " alt="" coords="350,677,281,687,280,682,349,672"/>
+<area shape="poly" id="edge32_Node000022_Node000021" title=" " alt="" coords="616,767,604,761,588,748,579,735,570,722,556,709,523,690,489,675,491,670,525,685,559,705,574,718,583,732,592,744,607,756,618,763"/>
+<area shape="poly" id="edge34_Node000023_Node000021" title=" " alt="" coords="621,506,607,513,559,545,518,583,462,649,458,645,514,579,556,541,604,508,619,501"/>
+<area shape="poly" id="edge36_Node000024_Node000021" title=" " alt="" coords="629,554,606,562,565,583,527,606,468,649,465,645,524,602,563,578,604,558,627,549"/>
+<area shape="poly" id="edge38_Node000025_Node000021" title=" " alt="" coords="641,603,606,612,487,650,486,645,605,607,639,598"/>
+<area shape="poly" id="edge40_Node000026_Node000021" title=" " alt="" coords="627,646,538,655,537,649,626,641"/>
+<area shape="poly" id="edge42_Node000027_Node000021" title=" " alt="" coords="624,678,537,670,538,665,625,673"/>
+<area shape="poly" id="edge44_Node000028_Node000029" title=" " alt="" coords="636,386,523,383,524,378,636,381"/>
+<area shape="rect" id="Node000030" href="$initialcondition_8c.html#ad0dd7d3f2528b6a7802fcd551e88ea99" title="High&#45;level orchestrator to set the complete initial state of the Eulerian solver." alt="" coords="119,430,284,455"/>
+<area shape="poly" id="edge45_Node000029_Node000030" title=" " alt="" coords="364,403,252,432,251,427,363,398"/>
+<area shape="poly" id="edge46_Node000030_Node000003" title=" " alt="" coords="170,465,55,538,53,533,167,461"/>
+<area shape="poly" id="edge48_Node000031_Node000002" title=" " alt="" coords="385,223,264,198,265,193,386,218"/>
+<area shape="poly" id="edge51_Node000032_Node000030" title=" " alt="" coords="363,445,284,445,284,440,363,440"/>
+<area shape="poly" id="edge53_Node000033_Node000031" title=" " alt="" coords="645,236,501,236,501,231,645,231"/>
+</map>

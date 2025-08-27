@@ -1,0 +1,16 @@
+<map id="PoissonSolver_MG" name="PoissonSolver_MG">
+<area shape="rect" id="node1" title="Solves the pressure&#45;Poisson equation using a geometric multigrid method." alt="" coords="5,259,148,285"/>
+<area shape="rect" id="node2" href="$logging_8h.html#ab0414bd7dfd804d39019da707808a819" title="A custom KSP monitor that logs to a file and optionally to the console." alt="" coords="237,5,363,32"/>
+<area shape="rect" id="node3" href="$logging_8h.html#a26f628c9bae473d94674a1a97641b474" title="Destroys the DualMonitorCtx." alt="" coords="223,56,377,83"/>
+<area shape="rect" id="node4" href="$poisson_8c.html#aaec10e12d0e5fba6c1f53e47d62b6efe" title=" " alt="" coords="248,107,352,133"/>
+<area shape="rect" id="node5" href="$poisson_8c.html#aa2fc17959230252f30b2278d81a16caf" title="The callback function for the multigrid interpolation operator (MatShell)." alt="" coords="237,157,363,184"/>
+<area shape="rect" id="node6" href="$poisson_8c.html#a0f0addfc422c642ad5eb5315ace4ff2f" title=" " alt="" coords="226,259,374,285"/>
+<area shape="rect" id="node8" href="$poisson_8c.html#a26f0e6321b7ace56b3b105e1eb10475e" title="Assembles the Left&#45;Hand Side (LHS) matrix for the Pressure Poisson Equation." alt="" coords="237,208,363,235"/>
+<area shape="rect" id="node10" href="$poisson_8c.html#a2648a0c6cafb7916a706cd757e5b92f5" title="The callback function for PETSc&#39;s MatNullSpace object." alt="" coords="204,309,396,336"/>
+<area shape="rect" id="node11" href="$poisson_8c.html#a9340445ae2c0a3c7be290e2a1aea3d67" title="Computes the Right&#45;Hand&#45;Side (RHS) of the Poisson equation, which is the divergence of the intermedia..." alt="" coords="251,360,349,387"/>
+<area shape="rect" id="node12" href="$poisson_8c.html#a85e1eff3b6e34605b863323d6336eecd" title=" " alt="" coords="196,411,404,437"/>
+<area shape="rect" id="node13" href="$poisson_8c.html#a8c4cb4c082ab40cc20db95c962fc1d5c" title="Calculates the net flux across the immersed boundary surface." alt="" coords="250,461,350,488"/>
+<area shape="rect" id="node14" href="$poisson_8c.html#a34f6242556bffd27f00a84b377c1bf9d" title="A specialized version of VolumeFlux, likely for reversed normals." alt="" coords="236,512,364,539"/>
+<area shape="rect" id="node7" href="$poisson_8c.html#afe58ccf2bd0a359903645f7a0ee76485" title=" " alt="" coords="452,335,571,361"/>
+<area shape="rect" id="node9" href="$poisson_8c.html#a3d538200fed5b9ee9d1ef391bb61036c" title=" " alt="" coords="485,208,537,235"/>
+</map>

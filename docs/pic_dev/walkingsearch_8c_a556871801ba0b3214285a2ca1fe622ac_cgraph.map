@@ -1,0 +1,17 @@
+<map id="EvaluateParticlePosition" name="EvaluateParticlePosition">
+<area shape="rect" id="Node000001" title="Determines the spatial relationship of a particle relative to a cubic cell." alt="" coords="5,145,184,170"/>
+<area shape="rect" id="Node000002" href="$walkingsearch_8c.html#a7af34c8e2ed4672f0e1f83829159bbe6" title="Computes the signed distances from a point to each face of a cubic cell." alt="" coords="232,5,419,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,142,161,100,231,55,245,48,247,53,233,60,164,105,112,146"/>
+<area shape="rect" id="Node000004" href="$walkingsearch_8c.html#a7db2c59feb52c21a5d3bcd2bd67bbb43" title="Classifies a point based on precomputed face distances." alt="" coords="237,70,413,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="127,142,231,104,258,96,259,101,233,109,128,147"/>
+<area shape="rect" id="Node000005" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="271,119,380,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="184,145,256,137,257,142,184,150"/>
+<area shape="rect" id="Node000006" href="$walkingsearch_8c.html#a2ed7a27dd4de3fbd6bb46684482ce165" title="Estimates a characteristic length of the cell for threshold scaling." alt="" coords="232,169,419,194"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="184,164,219,168,218,173,184,169"/>
+<area shape="rect" id="Node000007" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="250,218,401,243"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="131,168,233,203,263,212,261,217,231,208,129,173"/>
+<area shape="rect" id="Node000008" href="$logging_8c.html#a9baaed9103be8264832b39c7dbb2ce1a" title="Prints the signed distances to each face of the cell." alt="" coords="241,267,409,293"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="112,168,163,209,197,232,233,252,254,261,252,266,231,257,194,237,160,214,109,172"/>
+<area shape="rect" id="Node000003" href="$walkingsearch_8c.html#a621082a77ddbec81ffd282870175b603" title="Computes the signed distance from a point to the plane approximating a quadrilateral face." alt="" coords="467,13,699,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="419,23,453,23,453,28,419,28"/>
+</map>

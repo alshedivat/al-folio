@@ -1,0 +1,9 @@
+<map id="ComputeFaceMetrics" name="ComputeFaceMetrics">
+<area shape="rect" id="Node000001" title="Computes the primary face metric components (Csi, Eta, Zet), including boundary extrapolation,..." alt="" coords="5,31,164,56"/>
+<area shape="rect" id="Node000002" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="212,31,360,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,41,198,41,198,46,165,46"/>
+<area shape="rect" id="Node000003" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="429,5,538,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="360,31,415,24,415,29,361,36"/>
+<area shape="rect" id="Node000004" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="408,55,559,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="361,50,395,54,394,59,360,55"/>
+</map>

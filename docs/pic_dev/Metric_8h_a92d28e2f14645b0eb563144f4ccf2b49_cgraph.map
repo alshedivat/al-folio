@@ -1,0 +1,9 @@
+<map id="ComputeCellCenteredJacobianInverse" name="ComputeCellCenteredJacobianInverse">
+<area shape="rect" id="Node000001" title="Calculates the cell&#45;centered inverse Jacobian determinant (1/J) for INTERIOR cells and stores it in u..." alt="" coords="5,23,225,63"/>
+<area shape="rect" id="Node000002" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="273,31,421,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="226,41,260,41,260,46,226,46"/>
+<area shape="rect" id="Node000003" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="490,5,599,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="421,31,476,24,477,29,422,36"/>
+<area shape="rect" id="Node000004" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="469,55,620,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="422,50,456,54,456,59,421,55"/>
+</map>

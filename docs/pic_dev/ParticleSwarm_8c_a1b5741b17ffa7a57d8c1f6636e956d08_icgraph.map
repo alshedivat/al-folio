@@ -1,0 +1,11 @@
+<map id="RegisterSwarmField" name="RegisterSwarmField">
+<area shape="rect" id="Node000001" title="Registers a swarm field without finalizing registration." alt="" coords="744,5,896,31"/>
+<area shape="rect" id="Node000002" href="$ParticleSwarm_8c.html#aeae3fd559e91d7379302acb6ccd13011" title="Registers necessary particle fields within the DMSwarm." alt="" coords="533,5,696,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="730,21,696,21,696,15,730,15"/>
+<area shape="rect" id="Node000003" href="$ParticleSwarm_8c.html#a063f4fd13a24b248fabd0268c49fd38c" title="Creates and initializes a Particle Swarm." alt="" coords="327,5,485,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="519,21,486,21,486,15,519,15"/>
+<area shape="rect" id="Node000004" href="$ParticleSwarm_8c.html#ada215a5db25227a8fd2cd2596e7d3e57" title="Perform particle swarm initialization, particle&#45;grid interaction, and related operations." alt="" coords="108,5,279,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="313,21,279,21,279,15,313,15"/>
+<area shape="rect" id="Node000005" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

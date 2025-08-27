@@ -1,0 +1,16 @@
+<map id="AddToMigrationList" name="AddToMigrationList">
+<area shape="rect" id="Node000001" title="Safely adds a new migration task to a dynamically sized list." alt="" coords="643,46,789,71"/>
+<area shape="rect" id="Node000002" href="$ParticleMotion_8c.html#acf00ed7232c9aa111858b5a4cff43922" title="Identifies particles leaving the local bounding box and finds their target neighbor rank." alt="" coords="393,17,581,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="629,50,581,44,582,39,629,45"/>
+<area shape="rect" id="Node000004" href="$ParticleMotion_8c.html#a727054a4a467fd8504a19caed5a5916b" title="Orchestrates the complete particle location and migration process for one timestep." alt="" coords="380,70,595,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="629,70,595,74,594,69,629,65"/>
+<area shape="rect" id="Node000003" href="$ParticleMotion_8c.html#ab2eeab12258446f697695ebdaef3f011" title="Performs one full cycle of particle migration: identify, set ranks, and migrate." alt="" coords="108,5,332,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="379,30,332,30,332,24,380,25"/>
+<area shape="rect" id="Node000005" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="146,70,294,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="366,85,294,85,294,80,366,80"/>
+<area shape="rect" id="Node000007" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="146,119,294,145"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="405,100,290,122,289,117,404,95"/>
+<area shape="rect" id="Node000006" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,95,60,121"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="133,97,60,107,60,102,132,92"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="132,123,60,114,60,109,133,118"/>
+</map>

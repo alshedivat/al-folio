@@ -1,0 +1,70 @@
+<map id="SetupGridAndSolvers" name="SetupGridAndSolvers">
+<area shape="rect" id="Node000001" title="The main orchestrator for setting up all grid&#45;related components." alt="" coords="5,619,164,644"/>
+<area shape="rect" id="Node000002" href="$setup_8c.html#acf739211501f0646c25ceb99a68a1163" title="Allocates the memory for the UserMG and UserCtx hierarchy." alt="" coords="759,519,949,544"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="143,616,212,603,349,585,457,575,564,567,702,551,759,543,760,549,703,557,565,572,457,581,350,590,212,609,144,621"/>
+<area shape="rect" id="Node000004" href="$grid_8c.html#ab2aef4bb6fc2d2223a52ff6a45c7c600" title="Orchestrates the assignment of physical coordinates to all DMDA objects." alt="" coords="224,619,411,644"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="165,629,210,629,210,634,165,634"/>
+<area shape="rect" id="Node000010" href="$Metric_8c.html#a063043da47b68702c78c7e0769325b36" title="Orchestrates the calculation of all grid metrics." alt="" coords="230,228,405,253"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="91,617,299,264,304,267,96,620"/>
+<area shape="rect" id="Node000023" href="$setup_8c.html#a47daae7d6e456ef74e75626c1c9d6c9a" title="Creates and initializes all PETSc Vec objects for all fields." alt="" coords="212,668,423,693"/>
+<area shape="poly" id="edge30_Node000001_Node000023" title=" " alt="" coords="146,641,244,662,243,668,145,647"/>
+<area shape="rect" id="Node000024" href="$grid_8c.html#a04f0887f08166a2a8d01411f39fa1a40" title="Orchestrates the parsing and setting of grid dimensions for all blocks." alt="" coords="225,717,410,743"/>
+<area shape="poly" id="edge31_Node000001_Node000024" title=" " alt="" coords="105,642,152,673,213,704,235,711,234,716,211,708,150,677,102,646"/>
+<area shape="rect" id="Node000028" href="$grid_8c.html#aa0b95ab3ac28c8df985e38b888c9bb52" title="Orchestrates the creation of DMDA objects for every block and multigrid level." alt="" coords="242,517,393,543"/>
+<area shape="poly" id="edge35_Node000001_Node000028" title=" " alt="" coords="105,616,152,588,211,560,253,544,255,549,213,564,155,593,108,621"/>
+<area shape="rect" id="Node000030" href="$setup_8c.html#a3766d23bad255474ff61d06fbb6f63f7" title=" " alt="" coords="230,767,405,792"/>
+<area shape="poly" id="edge38_Node000001_Node000030" title=" " alt="" coords="97,642,143,697,176,727,213,753,227,759,225,764,211,758,173,731,139,700,93,646"/>
+<area shape="rect" id="Node000003" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="1041,467,1151,492"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="913,516,1027,491,1028,496,914,521"/>
+<area shape="rect" id="Node000005" href="$grid_8c.html#a5b5fe86ae6791885769361fca4ad6b2f" title="Populates coarse grid coordinates by restricting from a fine grid." alt="" coords="511,668,662,693"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="388,641,504,663,503,668,387,647"/>
+<area shape="rect" id="Node000006" href="$grid_8c.html#acb950cd51656702b75ea84d6477d0d97" title="A router that populates the coordinates for a single finest&#45;level DMDA." alt="" coords="489,619,684,644"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="411,629,475,629,475,634,411,634"/>
+<area shape="rect" id="Node000007" href="$grid_8c.html#ac44553fe1434663c5211cc6ac32ef004" title="Programmatically generates and sets grid coordinates based on user parameters." alt="" coords="751,581,957,607"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="678,616,748,606,749,611,678,621"/>
+<area shape="rect" id="Node000009" href="$grid_8c.html#ac693c757c4fd3cb75e6e06e05e25d775" title="Reads physical coordinates from a file and populates the DMDA for a specific block." alt="" coords="765,631,943,656"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="684,633,751,636,751,641,684,638"/>
+<area shape="rect" id="Node000008" href="$grid_8c.html#a54a2529affe522c9e29161aef1ca3847" title="Computes a stretched coordinate along one dimension." alt="" coords="1005,581,1187,607"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="958,591,992,591,992,597,958,597"/>
+<area shape="rect" id="Node000011" href="$Metric_8c.html#a436bb94905ee06971f632571f5bc8cbb" title="Ensure a right&#45;handed metric basis (Csi, Eta, Zet) and a positive Jacobian (Aj) over the whole domain..." alt="" coords="483,252,690,277"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="405,246,470,252,469,257,405,251"/>
+<area shape="rect" id="Node000014" href="$Metric_8c.html#a92d28e2f14645b0eb563144f4ccf2b49" title="Calculates the cell&#45;centered inverse Jacobian determinant (1/J), including boundary extrapolation,..." alt="" coords="477,302,697,342"/>
+<area shape="poly" id="edge14_Node000010_Node000014" title=" " alt="" coords="359,251,471,286,503,296,502,301,470,291,357,256"/>
+<area shape="rect" id="Node000015" href="$Metric_8c.html#a46e70c0ae8f36f97321c5c892fc56be5" title="Computes the physical location of cell centers and the spacing between them." alt="" coords="471,5,703,31"/>
+<area shape="poly" id="edge16_Node000010_Node000015" title=" " alt="" coords="322,227,341,189,373,138,416,85,441,60,469,40,480,34,483,38,472,44,445,64,420,88,377,141,346,192,327,229"/>
+<area shape="rect" id="Node000016" href="$Metric_8c.html#a6f0dfb324211e230a387501f93cfd316" title="Computes the primary face metric components (Csi, Eta, Zet), including boundary extrapolation,..." alt="" coords="507,55,666,80"/>
+<area shape="poly" id="edge18_Node000010_Node000016" title=" " alt="" coords="326,226,381,160,422,121,469,89,493,79,495,84,472,94,425,125,384,164,330,230"/>
+<area shape="rect" id="Node000017" href="$Metric_8c.html#af935307ea3e9727a63b6ef9a3932caa8" title="Computes metrics centered on constant&#45;i faces (i&#45;faces)." alt="" coords="505,104,668,129"/>
+<area shape="poly" id="edge20_Node000010_Node000017" title=" " alt="" coords="332,226,390,182,429,158,470,138,491,131,493,136,472,143,431,163,393,187,336,230"/>
+<area shape="rect" id="Node000018" href="$Metric_8c.html#a4ecbe44ffb23d82193f9278ab61c1b47" title="Computes metrics centered on constant&#45;j faces (j&#45;faces)." alt="" coords="505,153,668,179"/>
+<area shape="poly" id="edge22_Node000010_Node000018" title=" " alt="" coords="353,225,470,187,505,179,506,184,471,193,354,230"/>
+<area shape="rect" id="Node000019" href="$Metric_8c.html#a95e22e5238b2cd02b992366766730687" title="Computes metrics centered on constant&#45;k faces (k&#45;faces)." alt="" coords="503,203,670,228"/>
+<area shape="poly" id="edge24_Node000010_Node000019" title=" " alt="" coords="405,230,489,222,490,227,405,235"/>
+<area shape="rect" id="Node000020" href="$Metric_8c.html#a2a99180f2d9db426e1cf73771b795498" title="Computes the max&#45;min values of the grid metrics." alt="" coords="504,367,669,392"/>
+<area shape="poly" id="edge26_Node000010_Node000020" title=" " alt="" coords="333,251,391,301,430,328,472,352,494,360,493,365,470,356,427,333,387,305,330,255"/>
+<area shape="rect" id="Node000022" href="$Metric_8c.html#a63e70e9aa6a59c320cb2b1af6bd0a7e6" title="Computes the divergence of the grid metrics and identifies the maximum value." alt="" coords="485,416,688,441"/>
+<area shape="poly" id="edge28_Node000010_Node000022" title=" " alt="" coords="329,252,350,283,383,324,424,366,472,401,488,409,486,414,469,406,421,370,379,327,346,286,325,255"/>
+<area shape="rect" id="Node000012" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="780,179,928,204"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="650,249,702,237,802,206,804,211,703,242,651,254"/>
+<area shape="poly" id="edge12_Node000012_Node000003" title=" " alt="" coords="868,202,1077,454,1073,457,864,206"/>
+<area shape="rect" id="Node000013" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="1021,179,1171,204"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="928,189,1007,189,1007,194,928,194"/>
+<area shape="poly" id="edge15_Node000014_Node000012" title=" " alt="" coords="668,299,702,286,769,249,824,210,827,215,772,253,704,291,670,304"/>
+<area shape="poly" id="edge17_Node000015_Node000012" title=" " alt="" coords="677,28,704,40,746,68,784,102,838,166,834,169,780,106,743,72,701,44,675,33"/>
+<area shape="poly" id="edge19_Node000016_Node000012" title=" " alt="" coords="667,77,704,89,739,106,773,127,829,168,825,172,770,132,737,111,702,94,666,82"/>
+<area shape="poly" id="edge21_Node000017_Node000012" title=" " alt="" coords="656,127,703,138,807,171,805,176,702,143,655,132"/>
+<area shape="poly" id="edge23_Node000018_Node000012" title=" " alt="" coords="668,171,766,180,766,186,668,176"/>
+<area shape="poly" id="edge25_Node000019_Node000012" title=" " alt="" coords="670,205,766,196,767,202,671,211"/>
+<area shape="rect" id="Node000021" href="$Metric_8c.html#a3d538200fed5b9ee9d1ef391bb61036c" title=" " alt="" coords="828,391,880,416"/>
+<area shape="poly" id="edge27_Node000020_Node000021" title=" " alt="" coords="670,384,815,397,814,403,669,389"/>
+<area shape="poly" id="edge29_Node000022_Node000021" title=" " alt="" coords="688,416,814,404,815,410,688,422"/>
+<area shape="rect" id="Node000025" href="$grid_8c.html#a526448d3a1e34b608f7167a59f1d7e04" title="Determines the grid source and calls the appropriate parsing routine." alt="" coords="501,717,672,743"/>
+<area shape="poly" id="edge32_Node000024_Node000025" title=" " alt="" coords="410,727,488,727,488,733,410,733"/>
+<area shape="rect" id="Node000026" href="$io_8c.html#a1454fbb30915c3284cbf5ecb100351d1" title="Sets grid dimensions from a file for a SINGLE block using a one&#45;time read cache." alt="" coords="801,704,907,729"/>
+<area shape="poly" id="edge33_Node000025_Node000026" title=" " alt="" coords="672,723,788,717,788,723,672,728"/>
+<area shape="rect" id="Node000027" href="$io_8c.html#a7dd125436244f23eba5c6b06fdd35031" title="Parses command&#45;line options for a programmatically generated grid for a SINGLE block." alt="" coords="757,753,951,779"/>
+<area shape="poly" id="edge34_Node000025_Node000027" title=" " alt="" coords="672,739,746,749,745,754,672,744"/>
+<area shape="poly" id="edge36_Node000028_Node000003" title=" " alt="" coords="384,515,470,502,627,489,782,482,1027,477,1027,482,782,487,627,495,471,507,384,520"/>
+<area shape="rect" id="Node000029" href="$grid_8c.html#a7de9f73019e4a260a2edd616dcd40a6b" title="Creates the DMDA objects (da and fda) for a single UserCtx." alt="" coords="503,517,670,543"/>
+<area shape="poly" id="edge37_Node000028_Node000029" title=" " alt="" coords="393,527,490,527,490,533,393,533"/>
+</map>

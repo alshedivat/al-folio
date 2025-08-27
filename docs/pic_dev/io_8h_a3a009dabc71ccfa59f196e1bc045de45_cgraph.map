@@ -1,0 +1,14 @@
+<map id="ReadSimulationFields" name="ReadSimulationFields">
+<area shape="rect" id="Node000001" title="Reads binary field data for velocity, pressure, and other required vectors." alt="" coords="5,54,168,80"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#a570806d7e0694b5d996e0c6018b48908" title="Reads data for a specific field from a file into the provided vector." alt="" coords="423,54,540,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,52,158,31,215,14,260,6,296,3,331,5,375,14,415,27,450,45,448,50,413,32,374,19,330,10,296,8,261,11,217,19,160,36,113,57"/>
+<area shape="rect" id="Node000003" href="$io_8c.html#a45ad89f26c78131d2990f09126abba4b" title="Reads LES&#45;related fields." alt="" coords="237,29,353,54"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="168,54,224,48,224,53,169,60"/>
+<area shape="rect" id="Node000004" href="$io_8c.html#a19e2e0b57afae458bae068610141c031" title="Reads RANS&#45;related fields." alt="" coords="231,78,360,104"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="169,74,217,79,216,85,168,79"/>
+<area shape="rect" id="Node000005" href="$io_8c.html#a03f5b76975eea55434d764a23fd42623" title="Reads statistical fields for averaging purposes." alt="" coords="216,128,375,153"/>
+<area shape="poly" id="edge6_Node000001_Node000005" title=" " alt="" coords="122,77,217,112,242,121,240,126,215,118,120,82"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="354,47,409,54,408,60,353,52"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="360,80,409,74,410,79,361,85"/>
+<area shape="poly" id="edge7_Node000005_Node000002" title=" " alt="" coords="338,125,374,113,441,83,443,88,376,117,340,130"/>
+</map>

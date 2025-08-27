@@ -1,0 +1,14 @@
+<map id="InterpolateEulerFieldToSwarmForParticle" name="InterpolateEulerFieldToSwarmForParticle">
+<area shape="rect" id="Node000001" title="Interpolates a single field (scalar or vector) for one particle, storing the result in a swarm array." alt="" coords="823,23,1039,63"/>
+<area shape="rect" id="Node000002" href="$interpolation_8c.html#ad200d31b74c511e4388b757fb0359001" title="Interpolates a cell&#45;centered field (scalar or vector) onto DMSwarm particles, using a robust,..." alt="" coords="559,31,775,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="809,46,775,46,775,41,809,41"/>
+<area shape="rect" id="Node000003" href="$interpolation_8c.html#a25d384c0bcf5426864f90ab568e37511" title="Interpolates all relevant fields from the DMDA to the DMSwarm." alt="" coords="304,31,511,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="545,46,511,46,511,41,545,41"/>
+<area shape="rect" id="Node000004" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="108,5,256,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="290,33,256,29,257,24,291,28"/>
+<area shape="rect" id="Node000006" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="108,55,256,80"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="291,58,257,62,256,57,290,53"/>
+<area shape="rect" id="Node000005" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="95,35,61,41,60,36,94,30"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="94,56,60,50,60,45,95,51"/>
+</map>

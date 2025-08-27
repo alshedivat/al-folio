@@ -1,0 +1,10 @@
+<map id="InterpolateAllFieldsToSwarm" name="InterpolateAllFieldsToSwarm">
+<area shape="rect" id="Node000001" title="Interpolates a cell&#45;centered field (scalar or vector) onto DMSwarm particles, converting the cell&#45;cen..." alt="" coords="304,31,511,56"/>
+<area shape="rect" id="Node000002" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="108,5,256,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="290,33,256,29,257,24,291,28"/>
+<area shape="rect" id="Node000004" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="108,55,256,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="291,58,257,62,256,57,290,53"/>
+<area shape="rect" id="Node000003" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="95,35,61,41,60,36,94,30"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="94,56,60,50,60,45,95,51"/>
+</map>

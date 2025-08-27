@@ -1,0 +1,31 @@
+<map id="ReadFieldData" name="ReadFieldData">
+<area shape="rect" id="Node000001" title="Reads data for a specific field from a file into the provided vector." alt="" coords="952,156,1069,181"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#a9b18cb531c659ac173987ed73b1c1d24" title="Reads a named field from file into a PETSc Vec, then gathers it to rank 0." alt="" coords="732,5,904,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="993,145,956,94,931,67,903,44,880,33,882,28,905,40,935,63,960,90,997,142"/>
+<area shape="rect" id="Node000003" href="$io_8c.html#a45ad89f26c78131d2990f09126abba4b" title="Reads LES&#45;related fields used in turbulence modeling." alt="" coords="760,55,876,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="980,150,944,126,903,102,857,83,860,78,905,97,947,121,983,146"/>
+<area shape="rect" id="Node000004" href="$io_8c.html#a3a009dabc71ccfa59f196e1bc045de45" title="Reads binary field data for velocity, pressure, and other required vectors." alt="" coords="521,205,684,231"/>
+<area shape="poly" id="edge10_Node000001_Node000004" title=" " alt="" coords="954,155,906,145,850,138,791,137,733,146,700,158,669,174,621,207,618,203,666,170,698,153,731,141,790,132,851,132,907,140,955,150"/>
+<area shape="rect" id="Node000008" href="$io_8c.html#abbdec83c0db92b3f9a78ccaf8ec06d60" title="Reads coordinate data (for particles) from file into a PETSc Vec, then gathers it to rank 0." alt="" coords="733,156,903,181"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="938,171,904,171,904,166,938,166"/>
+<area shape="rect" id="Node000009" href="$io_8c.html#a19e2e0b57afae458bae068610141c031" title="Reads RANS&#45;related fields for turbulence modeling." alt="" coords="753,205,883,231"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="948,187,869,208,868,203,947,182"/>
+<area shape="rect" id="Node000010" href="$io_8c.html#a03f5b76975eea55434d764a23fd42623" title="Reads statistical fields used for time&#45;averaged simulations." alt="" coords="739,255,897,280"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="985,192,948,219,905,244,872,257,870,252,903,240,945,215,982,188"/>
+<area shape="rect" id="Node000011" href="$io_8c.html#a84fff45b8cbd148ed2429ba8fe12428f" title="Reads data from a file into a specified field of a PETSc DMSwarm." alt="" coords="753,304,883,329"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="997,194,960,245,934,272,905,295,882,306,880,302,903,290,931,268,956,242,993,191"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="762,87,733,102,697,128,664,157,617,207,613,203,661,153,694,123,731,97,760,82"/>
+<area shape="rect" id="Node000005" href="$initialcondition_8c.html#aff0951526ed36a87e2745da0154a68e5" title="(HELPER) Reads fluid state for all blocks from restart files." alt="" coords="327,203,473,243"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="508,223,474,224,474,219,507,218"/>
+<area shape="rect" id="Node000006" href="$initialcondition_8c.html#ad0dd7d3f2528b6a7802fcd551e88ea99" title="High&#45;level orchestrator to set the complete initial state of the Eulerian solver." alt="" coords="111,224,276,249"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="313,232,276,234,276,229,313,226"/>
+<area shape="rect" id="Node000007" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,251,60,276"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="104,254,61,262,60,256,103,249"/>
+<area shape="poly" id="edge9_Node000009_Node000004" title=" " alt="" coords="739,221,684,221,684,215,739,215"/>
+<area shape="poly" id="edge12_Node000010_Node000004" title=" " alt="" coords="748,254,658,233,660,228,750,249"/>
+<area shape="rect" id="Node000012" href="$io_8c.html#a64286adf953993b2a0c5c3fbee40d5a2" title="Reads multiple fields (positions, velocity, CellID, and weight) into a DMSwarm." alt="" coords="525,299,680,324"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="739,317,680,316,680,311,739,312"/>
+<area shape="rect" id="Node000013" href="$ParticleSwarm_8c.html#ada215a5db25227a8fd2cd2596e7d3e57" title="Perform particle swarm initialization, particle&#45;grid interaction, and related operations." alt="" coords="108,275,279,300"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="512,309,279,295,279,290,512,303"/>
+<area shape="poly" id="edge16_Node000013_Node000007" title=" " alt="" coords="95,275,60,270,61,265,95,270"/>
+</map>

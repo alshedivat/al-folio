@@ -1,0 +1,35 @@
+<map id="E_coeff" name="E_coeff">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1553,81,1623,107"/>
+<area shape="rect" id="Node000002" href="$wallfunction_8c.html#ac7ee38b34b5a56a4e5c01a02c290229b" title=" " alt="" coords="1427,56,1505,81"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1539,87,1505,79,1506,74,1540,81"/>
+<area shape="rect" id="Node000015" href="$wallfunction_8c.html#a071e294d71e268c014aa6047acb64730" title=" " alt="" coords="1224,107,1379,132"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="1540,101,1379,115,1379,110,1539,96"/>
+<area shape="rect" id="Node000003" href="$wallfunction_8c.html#a39f08431792fc8f96ea8659756dfd749" title=" " alt="" coords="1258,5,1345,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1413,55,1343,33,1344,28,1414,50"/>
+<area shape="rect" id="Node000004" href="$wallfunction_8c.html#aa22aca64a54a00ccaf354357cc1c0760" title=" " alt="" coords="1043,56,1176,81"/>
+<area shape="poly" id="edge16_Node000002_Node000004" title=" " alt="" coords="1413,71,1176,71,1176,66,1413,66"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1246,35,1159,59,1158,53,1244,30"/>
+<area shape="rect" id="Node000005" href="$wallfunction_8c.html#aae67d9282b09691fffdea6f1012e6df7" title=" " alt="" coords="836,81,995,107"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="1029,82,995,86,994,81,1028,77"/>
+<area shape="rect" id="Node000006" href="$Boundaries_8c.html#adcd96cff4b9e15e03cdff9f5ea695dec" title=" " alt="" coords="707,81,788,107"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="822,97,788,97,788,91,822,91"/>
+<area shape="rect" id="Node000007" href="$initialcondition_8c.html#af6a26611066aa455efddcca2fd80fe35" title="(HELPER) Finalizes a block&#39;s state by applying BCs, converting to Cartesian, and synchronizing ghost ..." alt="" coords="516,32,659,57"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="692,80,629,60,630,55,694,75"/>
+<area shape="rect" id="Node000011" href="$implicitsolvers_8c.html#a148a238901a4674420c87137c087e3ac" title="Advances the momentum equations using an iterative explicit Runge&#45;Kutta scheme." alt="" coords="555,81,620,107"/>
+<area shape="poly" id="edge10_Node000006_Node000011" title=" " alt="" coords="693,97,620,97,620,91,693,91"/>
+<area shape="rect" id="Node000014" href="$implicitsolvers_8c.html#a89ae58d48076ba82dc70438b5e389bf5" title="Advances the momentum equations using an explicit 4th&#45;order Runge&#45;Kutta scheme." alt="" coords="539,131,636,156"/>
+<area shape="poly" id="edge14_Node000006_Node000014" title=" " alt="" coords="694,113,630,133,629,128,692,108"/>
+<area shape="rect" id="Node000008" href="$initialcondition_8c.html#a51d0251f84a962a611ff0c0a8797a3e4" title="(HELPER) Sets the t=0 fluid state for all blocks." alt="" coords="321,25,468,65"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="502,47,468,47,468,42,502,42"/>
+<area shape="rect" id="Node000009" href="$initialcondition_8c.html#ad0dd7d3f2528b6a7802fcd551e88ea99" title="High&#45;level orchestrator to set the complete initial state of the Eulerian solver." alt="" coords="108,35,273,60"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="308,48,274,49,273,44,308,43"/>
+<area shape="rect" id="Node000010" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,61,60,87"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="102,65,60,72,60,67,101,60"/>
+<area shape="rect" id="Node000012" href="$solvers_8c.html#a2ed4825273a593f371a3d48071708255" title="Orchestrates a single time step of the Eulerian fluid solver." alt="" coords="344,89,445,115"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="541,99,446,103,446,97,541,93"/>
+<area shape="rect" id="Node000013" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="117,85,265,111"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="330,103,265,102,265,97,330,98"/>
+<area shape="poly" id="edge13_Node000013_Node000010" title=" " alt="" coords="102,87,60,81,61,75,103,82"/>
+<area shape="poly" id="edge15_Node000014_Node000012" title=" " alt="" coords="525,133,445,115,446,110,526,128"/>
+<area shape="poly" id="edge18_Node000015_Node000005" title=" " alt="" coords="1210,116,995,102,995,96,1210,111"/>
+</map>

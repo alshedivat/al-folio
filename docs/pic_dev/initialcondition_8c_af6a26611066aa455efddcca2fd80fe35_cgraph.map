@@ -1,0 +1,30 @@
+<map id="FinalizeBlockState" name="FinalizeBlockState">
+<area shape="rect" id="Node000001" title="(HELPER) Finalizes a block&#39;s state by applying BCs, converting to Cartesian, and synchronizing ghost ..." alt="" coords="5,56,148,81"/>
+<area shape="rect" id="Node000002" href="$setup_8c.html#a515c9a96eb4bcac29f79e78c8882d7aa" title="Reconstructs Cartesian velocity (Ucat) at cell centers from contravariant velocity (Ucont) defined on..." alt="" coords="421,5,521,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,53,196,41,308,27,408,19,408,24,308,32,196,46,131,59"/>
+<area shape="rect" id="Node000003" href="$Boundaries_8c.html#adcd96cff4b9e15e03cdff9f5ea695dec" title=" " alt="" coords="229,56,311,81"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="148,66,215,66,215,71,148,71"/>
+<area shape="rect" id="Node000011" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="196,153,344,179"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="104,79,233,145,230,150,102,84"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="310,56,407,31,409,36,312,61"/>
+<area shape="rect" id="Node000004" href="$wallfunction_8c.html#a82a96fd4f826d93b926bea9bb776b93e" title=" " alt="" coords="441,55,502,80"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="311,66,427,65,427,70,311,71"/>
+<area shape="rect" id="Node000005" href="$wallfunction_8c.html#aae67d9282b09691fffdea6f1012e6df7" title=" " alt="" coords="392,104,551,129"/>
+<area shape="poly" id="edge5_Node000003_Node000005" title=" " alt="" coords="312,76,405,98,404,103,310,81"/>
+<area shape="rect" id="Node000006" href="$wallfunction_8c.html#aa22aca64a54a00ccaf354357cc1c0760" title=" " alt="" coords="599,79,732,104"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="551,104,584,99,585,104,551,109"/>
+<area shape="rect" id="Node000010" href="$wallfunction_8c.html#a071e294d71e268c014aa6047acb64730" title=" " alt="" coords="780,129,935,155"/>
+<area shape="poly" id="edge11_Node000005_Node000010" title=" " alt="" coords="551,119,766,133,766,139,551,124"/>
+<area shape="rect" id="Node000007" href="$wallfunction_8c.html#a39f08431792fc8f96ea8659756dfd749" title=" " alt="" coords="814,28,901,53"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="714,76,800,53,801,58,715,81"/>
+<area shape="rect" id="Node000008" href="$wallfunction_8c.html#ac7ee38b34b5a56a4e5c01a02c290229b" title=" " alt="" coords="983,79,1061,104"/>
+<area shape="poly" id="edge10_Node000006_Node000008" title=" " alt="" coords="732,89,969,89,969,94,732,94"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="900,51,971,73,969,78,899,56"/>
+<area shape="rect" id="Node000009" href="$wallfunction_8c.html#a5a5ea51c16915866975995631c0d2923" title=" " alt="" coords="1109,104,1179,129"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="1062,97,1096,104,1095,109,1061,102"/>
+<area shape="poly" id="edge12_Node000010_Node000009" title=" " alt="" coords="935,133,1096,118,1096,123,935,138"/>
+<area shape="rect" id="Node000012" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="417,153,526,179"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="344,163,403,163,403,169,344,169"/>
+<area shape="rect" id="Node000013" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="396,203,547,228"/>
+<area shape="poly" id="edge15_Node000011_Node000013" title=" " alt="" coords="323,176,406,197,405,202,322,181"/>
+</map>

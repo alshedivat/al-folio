@@ -1,0 +1,11 @@
+<map id="GetGhostedCellRange" name="GetGhostedCellRange">
+<area shape="rect" id="Node000001" title="Gets the global cell range for a rank, including boundary cells." alt="" coords="633,31,799,56"/>
+<area shape="rect" id="Node000002" href="$initialcondition_8c.html#a62dfa993750dc34d1729c575bb1dde66" title="Sets the initial values for the INTERIOR of a specified Eulerian field." alt="" coords="375,5,534,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="619,37,534,28,535,23,620,31"/>
+<area shape="rect" id="Node000003" href="$setup_8c.html#aeb77337317f41972d1c75c8d80527892" title="Creates and distributes a map of the domain&#39;s cell decomposition to all ranks." alt="" coords="324,55,585,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="620,55,586,58,585,53,619,49"/>
+<area shape="rect" id="Node000004" href="$setup_8c.html#a1c08bf327e1aee897c56610a89f75814" title="Sets up the full rank communication infrastructure, including neighbor ranks and bounding box exchang..." alt="" coords="108,55,276,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="310,70,276,70,276,65,310,65"/>
+<area shape="rect" id="Node000005" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,70,60,70,60,65,94,65"/>
+</map>

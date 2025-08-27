@@ -1,0 +1,5 @@
+<map id="MyRestriction" name="MyRestriction">
+<area shape="rect" id="Node000001" title="The callback function for the multigrid restriction operator (MatShell)." alt="" coords="5,5,117,31"/>
+<area shape="rect" id="Node000002" href="$poisson_8c.html#afe58ccf2bd0a359903645f7a0ee76485" title=" " alt="" coords="165,5,284,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,15,151,15,151,21,118,21"/>
+</map>

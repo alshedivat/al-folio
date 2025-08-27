@@ -1,0 +1,9 @@
+<map id="trim" name="trim">
+<area shape="rect" id="Node000001" title=" " alt="" coords="613,5,663,31"/>
+<area shape="rect" id="Node000002" href="$logging_8c.html#a6c0ddc8d3a828f3ab26c557ba0aedf75" title="Load function names from a text file." alt="" coords="343,5,565,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="600,21,566,21,566,15,600,15"/>
+<area shape="rect" id="Node000003" href="$setup_8c.html#a977df65dac293c1308451334cb198693" title="Allocates and populates the master SimulationContext object." alt="" coords="108,5,295,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="329,21,295,21,295,15,329,15"/>
+<area shape="rect" id="Node000004" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

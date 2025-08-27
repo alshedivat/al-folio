@@ -1,0 +1,11 @@
+<map id="InterpolateAllFieldsToSwarm" name="InterpolateAllFieldsToSwarm">
+<area shape="rect" id="Node000001" title="Interpolates all relevant fields from the DMDA to the DMSwarm." alt="" coords="5,63,212,88"/>
+<area shape="rect" id="Node000002" href="$interpolation_8c.html#ad200d31b74c511e4388b757fb0359001" title="Interpolates a cell&#45;centered field (scalar or vector) onto DMSwarm particles, using a robust,..." alt="" coords="260,63,476,88"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,73,246,73,246,78,212,78"/>
+<area shape="rect" id="Node000003" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="577,5,687,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="427,60,563,30,565,35,428,65"/>
+<area shape="rect" id="Node000004" href="$interpolation_8c.html#a556572fc2b40494da8bdb48d977dbaa1" title="Interpolates a single field (scalar or vector) for one particle, storing the result in a swarm array." alt="" coords="524,55,740,95"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="476,73,510,73,510,78,476,78"/>
+<area shape="rect" id="Node000005" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="557,120,707,145"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="428,85,560,115,559,120,427,91"/>
+</map>

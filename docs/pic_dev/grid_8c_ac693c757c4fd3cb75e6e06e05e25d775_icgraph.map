@@ -1,0 +1,11 @@
+<map id="ReadAndSetCoordinates" name="ReadAndSetCoordinates">
+<area shape="rect" id="Node000001" title="Reads physical coordinates from a file and populates the DMDA for a specific block." alt="" coords="792,5,971,31"/>
+<area shape="rect" id="Node000002" href="$grid_8c.html#acb950cd51656702b75ea84d6477d0d97" title="A router that populates the coordinates for a single finest&#45;level DMDA." alt="" coords="549,5,744,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="778,21,744,21,744,15,778,15"/>
+<area shape="rect" id="Node000003" href="$grid_8c.html#ab2aef4bb6fc2d2223a52ff6a45c7c600" title="Orchestrates the assignment of physical coordinates to all DMDA objects." alt="" coords="315,5,501,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="535,21,502,21,502,15,535,15"/>
+<area shape="rect" id="Node000004" href="$setup_8c.html#a2be2815aeb79afe9b95caf39c7b3312c" title="The main orchestrator for setting up all grid&#45;related components." alt="" coords="108,5,267,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,21,267,21,267,15,301,15"/>
+<area shape="rect" id="Node000005" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

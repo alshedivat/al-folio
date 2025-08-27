@@ -1,0 +1,17 @@
+<map id="CreateVTKFileFromMetadata" name="CreateVTKFileFromMetadata">
+<area shape="rect" id="Node000001" title="Creates and writes a VTK file (either .vts or .vtp) based on the provided metadata." alt="" coords="5,55,215,80"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#a1ba0fd207c663927535fbd6ab6e28ba1" title="Writes a data block in appended format for a VTK file, including a 4&#45;byte size prefix." alt="" coords="263,5,447,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,52,277,31,278,36,174,57"/>
+<area shape="rect" id="Node000003" href="$io_8c.html#a225e0a333b858e580840be12c245ab10" title="Writes the XML footer for a VTK file based on the provided metadata." alt="" coords="281,55,428,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="215,65,268,65,268,70,215,70"/>
+<area shape="rect" id="Node000006" href="$io_8c.html#abeb59f67fa68fabd9854709774dee119" title="Writes the initial XML header for a VTK file based on the provided metadata." alt="" coords="278,104,431,129"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="174,77,278,99,277,104,173,83"/>
+<area shape="rect" id="Node000004" href="$io_8c.html#a3acbf6495b06ddc31dcd318a6917bcec" title="Finalizes the .vtp file by closing the appended data section and the VTKFile tag." alt="" coords="498,5,649,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="411,52,502,31,504,36,412,57"/>
+<area shape="rect" id="Node000005" href="$io_8c.html#a3fcae786daf54e7706101dd9b955ed96" title="Finalizes the .vts file by closing the appended data section and the VTKFile XML tag." alt="" coords="498,55,649,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="429,65,484,65,484,70,429,70"/>
+<area shape="rect" id="Node000007" href="$io_8c.html#adc8540405ef08976e1bae9cbb5700545" title="Writes the XML header portion of a .vtp file for a point&#45;cloud representation." alt="" coords="495,104,652,129"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="432,114,481,114,481,119,432,119"/>
+<area shape="rect" id="Node000008" href="$io_8c.html#a8d20a414e822ac30150e6be7b6d780b2" title="Writes the XML header portion of a .vts file, defining the structured grid extents and data arrays." alt="" coords="495,153,652,179"/>
+<area shape="poly" id="edge7_Node000006_Node000008" title=" " alt="" coords="412,127,504,148,502,153,411,132"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="LOG_FACE_DISTANCES" name="LOG_FACE_DISTANCES">
+<area shape="rect" id="Node000001" title="Prints the signed distances to each face of the cell." alt="" coords="1079,35,1247,60"/>
+<area shape="rect" id="Node000002" href="$walkingsearch_8c.html#a556871801ba0b3214285a2ca1fe622ac" title="Determines the spatial relationship of a particle relative to a cubic cell." alt="" coords="842,5,1021,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1065,38,1020,32,1021,27,1065,32"/>
+<area shape="rect" id="Node000008" href="$walkingsearch_8c.html#ae8ed9e0a01de5ee0f332170562b1f9ea" title="Updates the cell indices based on the signed distances to each face." alt="" coords="832,55,1031,95"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="1065,62,1031,66,1031,61,1064,57"/>
+<area shape="rect" id="Node000003" href="$walkingsearch_8c.html#a0b63dfe82e0fdee5c2c3bdd477f9901f" title="Locates a particle&#39;s host cell or identifies its migration target using a robust walk search." alt="" coords="567,27,784,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="828,32,785,38,784,32,828,27"/>
+<area shape="rect" id="Node000004" href="$ParticleMotion_8c.html#a727054a4a467fd8504a19caed5a5916b" title="Orchestrates the complete particle location and migration process for one timestep." alt="" coords="304,35,519,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="553,50,519,50,519,45,553,45"/>
+<area shape="rect" id="Node000005" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="108,9,256,35"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="290,37,256,33,257,28,291,31"/>
+<area shape="rect" id="Node000007" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="108,59,256,84"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="291,63,257,66,256,61,290,57"/>
+<area shape="rect" id="Node000006" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,35,60,60"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="95,39,61,45,60,40,94,34"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="94,60,60,54,60,49,95,55"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="818,66,784,62,784,57,819,60"/>
+</map>

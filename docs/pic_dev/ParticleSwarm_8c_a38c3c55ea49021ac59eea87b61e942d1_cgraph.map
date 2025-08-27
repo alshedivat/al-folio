@@ -1,0 +1,5 @@
+<map id="AssignInitialFieldToSwarm" name="AssignInitialFieldToSwarm">
+<area shape="rect" id="Node000001" title="Initializes a generic swarm field with point&#45;level updates." alt="" coords="5,5,197,31"/>
+<area shape="rect" id="Node000002" href="$ParticleSwarm_8c.html#a836356591a56313ee45df507a984907d" title="Helper function to update a given particle’s field value." alt="" coords="245,5,427,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,15,232,15,232,21,197,21"/>
+</map>

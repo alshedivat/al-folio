@@ -1,0 +1,5 @@
+<map id="CheckAndRemoveOutOfBoundsParticles" name="CheckAndRemoveOutOfBoundsParticles">
+<area shape="rect" id="Node000001" title="Checks for particles outside the physical domain boundaries and removes them using DMSwarmRemovePoint..." alt="" coords="5,5,232,45"/>
+<area shape="rect" id="Node000002" href="$ParticleMotion_8c.html#ad2b9ac6b5e4d13799fa82dcd34432da4" title="Checks if a particle position is within the bounds of a given bounding box." alt="" coords="280,13,399,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="232,23,266,23,266,28,232,28"/>
+</map>

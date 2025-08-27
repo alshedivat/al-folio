@@ -1,0 +1,22 @@
+<map id="SetInitialFluidState_Restart" name="SetInitialFluidState_Restart">
+<area shape="rect" id="Node000001" title="(HELPER) Reads fluid state for all blocks from restart files." alt="" coords="5,122,152,162"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#a3a009dabc71ccfa59f196e1bc045de45" title="Reads binary field data for velocity, pressure, and other required vectors." alt="" coords="200,80,363,106"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,122,214,106,216,112,153,127"/>
+<area shape="rect" id="Node000007" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="207,179,355,204"/>
+<area shape="poly" id="edge9_Node000001_Node000007" title=" " alt="" coords="153,158,216,173,214,178,152,163"/>
+<area shape="rect" id="Node000003" href="$io_8c.html#a570806d7e0694b5d996e0c6018b48908" title="Reads data for a specific field from a file into the provided vector." alt="" coords="617,56,735,82"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="297,78,345,45,377,28,410,16,454,6,490,3,526,6,570,16,610,29,645,47,642,52,608,34,569,21,525,12,490,8,455,11,411,21,379,33,348,49,300,82"/>
+<area shape="rect" id="Node000004" href="$io_8c.html#a45ad89f26c78131d2990f09126abba4b" title="Reads LES&#45;related fields." alt="" coords="432,31,548,56"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="335,78,422,57,423,62,336,83"/>
+<area shape="rect" id="Node000005" href="$io_8c.html#a19e2e0b57afae458bae068610141c031" title="Reads RANS&#45;related fields." alt="" coords="425,80,555,106"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="363,90,411,90,411,96,363,96"/>
+<area shape="rect" id="Node000006" href="$io_8c.html#a03f5b76975eea55434d764a23fd42623" title="Reads statistical fields for averaging purposes." alt="" coords="411,130,569,155"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="336,103,423,124,422,129,335,108"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="549,49,604,56,603,62,548,54"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="555,82,604,76,604,81,555,87"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="532,127,568,114,635,85,637,90,570,119,534,132"/>
+<area shape="rect" id="Node000008" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="435,179,545,204"/>
+<area shape="poly" id="edge10_Node000007_Node000008" title=" " alt="" coords="356,189,422,189,422,194,356,194"/>
+<area shape="rect" id="Node000009" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="415,228,565,254"/>
+<area shape="poly" id="edge11_Node000007_Node000009" title=" " alt="" coords="336,202,423,223,422,228,335,207"/>
+</map>

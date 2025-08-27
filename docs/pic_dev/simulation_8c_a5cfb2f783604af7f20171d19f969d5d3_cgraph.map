@@ -1,0 +1,184 @@
+<map id="AdvanceSimulation" name="AdvanceSimulation">
+<area shape="rect" id="Node000001" title="Executes the main time&#45;marching loop for the coupled Euler&#45;Lagrange simulation." alt="" coords="5,861,153,886"/>
+<area shape="rect" id="Node000002" href="$group__scatter__module.html#ga81cfdf7b32472d8f614b44e30005ec6c" title="Counts particles in each cell of the DMDA &#39;da&#39; and stores the result in user&#45;&gt;ParticleCount." alt="" coords="1006,67,1221,93"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,860,84,789,102,676,117,611,138,545,165,480,199,420,259,341,287,312,316,288,385,248,475,205,559,182,708,151,1025,92,1026,98,709,156,561,187,477,211,387,253,320,293,291,316,263,344,204,423,170,483,143,547,123,613,107,677,90,790,84,861"/>
+<area shape="rect" id="Node000003" href="$ParticleMotion_8c.html#acb793f591b8baf11864bb85040730b28" title="Removes particles that have been definitively flagged as LOST by the location algorithm." alt="" coords="203,434,426,459"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="78,860,79,791,84,741,93,685,108,627,129,569,160,515,199,469,204,465,208,469,203,473,164,518,134,571,113,629,98,687,89,742,84,792,83,861"/>
+<area shape="rect" id="Node000004" href="$ParticleMotion_8c.html#a55852c79d34ca903c6e631941e210975" title="Checks for particles outside the physical domain boundaries and removes them using DMSwarmRemovePoint..." alt="" coords="201,668,428,708"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="86,859,128,795,161,757,200,724,223,711,225,716,203,729,165,761,133,799,90,862"/>
+<area shape="rect" id="Node000006" href="$solvers_8c.html#a2ed4825273a593f371a3d48071708255" title="Orchestrates a single time step of the Eulerian fluid solver." alt="" coords="264,1034,365,1059"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="99,884,286,1023,283,1028,96,888"/>
+<area shape="rect" id="Node000052" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="1059,681,1168,706"/>
+<area shape="poly" id="edge43_Node000001_Node000052" title=" " alt="" coords="105,858,149,838,201,819,318,787,440,761,562,740,680,724,891,702,1045,693,1045,698,892,708,681,729,563,745,441,766,320,792,202,824,151,843,107,863"/>
+<area shape="rect" id="Node000055" href="$interpolation_8c.html#a25d384c0bcf5426864f90ab568e37511" title="Interpolates all relevant fields from the DMDA to the DMSwarm." alt="" coords="211,834,418,859"/>
+<area shape="poly" id="edge44_Node000001_Node000055" title=" " alt="" coords="153,862,197,857,198,863,154,868"/>
+<area shape="rect" id="Node000058" href="$ParticleMotion_8c.html#a727054a4a467fd8504a19caed5a5916b" title="Orchestrates the complete particle location and migration process for one timestep." alt="" coords="207,483,422,509"/>
+<area shape="poly" id="edge49_Node000001_Node000058" title=" " alt="" coords="85,859,131,772,199,655,249,579,293,518,298,521,254,582,204,657,136,775,90,862"/>
+<area shape="rect" id="Node000084" href="$logging_8c.html#a9bb49594a4f7f15167fe4a9214709f29" title="Prints particle fields in a table that automatically adjusts its column widths." alt="" coords="231,1650,399,1675"/>
+<area shape="poly" id="edge74_Node000001_Node000084" title=" " alt="" coords="87,886,308,1636,303,1637,82,887"/>
+<area shape="rect" id="Node000092" href="$ParticleMotion_8c.html#a8be73031fbe89d58cd8f7ad2f312d2e9" title="This function is designed to be called at the end of a full timestep, after all particle&#45;based calcul..." alt="" coords="225,1699,405,1725"/>
+<area shape="poly" id="edge84_Node000001_Node000092" title=" " alt="" coords="83,886,86,1034,92,1149,101,1276,116,1404,137,1522,150,1575,166,1620,183,1657,203,1685,215,1694,211,1698,199,1688,179,1660,161,1622,145,1576,132,1524,110,1405,96,1276,86,1149,81,1034,78,886"/>
+<area shape="rect" id="Node000093" href="$group__scatter__module.html#ga84b852e1186804ff34e9228fab1764c6" title="Scatters a predefined set of particle fields to their corresponding Eulerian fields." alt="" coords="229,56,400,96"/>
+<area shape="poly" id="edge85_Node000001_Node000093" title=" " alt="" coords="78,860,84,722,102,498,117,379,138,268,165,176,181,140,199,113,215,98,219,102,203,116,186,143,170,178,143,269,122,379,107,498,89,722,84,860"/>
+<area shape="rect" id="Node000099" href="$ParticleMotion_8c.html#a74bec635d0f085bd2e8aef6c61aac629" title="Loops over all local particles in the DMSwarm, updating their positions based on velocity and the glo..." alt="" coords="218,1749,411,1774"/>
+<area shape="poly" id="edge90_Node000001_Node000099" title=" " alt="" coords="83,886,85,1042,89,1164,98,1299,113,1435,134,1561,148,1617,164,1665,182,1705,203,1734,208,1739,205,1743,199,1738,178,1707,159,1667,143,1618,129,1562,107,1436,93,1299,84,1164,80,1042,78,887"/>
+<area shape="rect" id="Node000101" href="$simulation_8c.html#a78d6ef98da860e3271d6b7277a54e642" title="Copies the current time step&#39;s solution fields into history vectors (e.g., U(t_n) &#45;&gt; U_o,..." alt="" coords="212,1798,417,1823"/>
+<area shape="poly" id="edge92_Node000001_Node000101" title=" " alt="" coords="83,887,83,1050,87,1179,95,1322,109,1466,131,1600,145,1659,162,1710,181,1752,203,1784,208,1788,204,1792,199,1787,177,1755,157,1712,140,1660,126,1601,104,1467,90,1322,82,1179,78,1051,78,887"/>
+<area shape="rect" id="Node000102" href="$io_8c.html#a6228caf497c8e6134362aab6ba62828c" title="Writes simulation fields to files." alt="" coords="232,1977,397,2002"/>
+<area shape="poly" id="edge93_Node000001_Node000102" title=" " alt="" coords="84,886,95,1052,119,1329,136,1480,155,1623,178,1744,204,1834,223,1872,246,1908,293,1965,289,1968,242,1911,218,1875,199,1836,173,1746,150,1623,130,1481,114,1330,90,1052,79,887"/>
+<area shape="rect" id="Node000107" href="$io_8c.html#a2c3ac50e182d193208800c89201ff236" title="Writes data from a specific field in a PETSc Swarm to a file." alt="" coords="248,2077,381,2102"/>
+<area shape="poly" id="edge101_Node000001_Node000107" title=" " alt="" coords="83,886,85,1081,89,1238,98,1415,112,1596,134,1767,147,1843,164,1910,182,1967,204,2012,217,2030,233,2045,270,2068,267,2073,230,2049,213,2033,199,2015,177,1969,159,1912,142,1844,128,1768,107,1597,92,1415,84,1238,79,1081,78,886"/>
+<area shape="rect" id="Node000005" href="$ParticleMotion_8c.html#ad2b9ac6b5e4d13799fa82dcd34432da4" title="Checks if a particle position is within the bounds of a given bounding box." alt="" coords="790,633,909,658"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="428,682,555,676,693,665,776,655,777,660,694,671,556,681,428,687"/>
+<area shape="rect" id="Node000007" href="$setup_8c.html#accdc3f1a3e5c7e95c6bdde11cde3b236" title=" " alt="" coords="537,1329,633,1354"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="330,1058,564,1317,560,1320,326,1062"/>
+<area shape="rect" id="Node000009" href="$implicitsolvers_8c.html#a148a238901a4674420c87137c087e3ac" title="Advances the momentum equations using an iterative explicit Runge&#45;Kutta scheme." alt="" coords="552,1526,617,1551"/>
+<area shape="poly" id="edge8_Node000006_Node000009" title=" " alt="" coords="324,1058,385,1184,478,1364,570,1513,565,1516,474,1367,380,1187,320,1061"/>
+<area shape="rect" id="Node000029" href="$logging_8c.html#ab2315d3303d45c97ca55836603a8acd3" title="Logs continuity metrics for a single block to a file." alt="" coords="483,1034,686,1059"/>
+<area shape="poly" id="edge17_Node000006_Node000029" title=" " alt="" coords="366,1044,469,1044,469,1049,366,1049"/>
+<area shape="rect" id="Node000030" href="$poisson_8c.html#acfdf6d56006b1b5f68d400deb6cf0959" title="Solves the pressure&#45;Poisson equation using a geometric multigrid method." alt="" coords="513,1157,656,1182"/>
+<area shape="poly" id="edge18_Node000006_Node000030" title=" " alt="" coords="345,1057,544,1149,542,1153,343,1062"/>
+<area shape="rect" id="Node000044" href="$poisson_8c.html#a34a113dcc9ca606d914c3d021a4d85fc" title="Corrects the contravariant velocity field Ucont to be divergence&#45;free using the gradient of the press..." alt="" coords="541,935,628,961"/>
+<area shape="poly" id="edge30_Node000006_Node000044" title=" " alt="" coords="349,1031,535,963,537,968,351,1036"/>
+<area shape="rect" id="Node000050" href="$implicitsolvers_8c.html#a89ae58d48076ba82dc70438b5e389bf5" title="Advances the momentum equations using an explicit 4th&#45;order Runge&#45;Kutta scheme." alt="" coords="536,1575,633,1601"/>
+<area shape="poly" id="edge33_Node000006_Node000050" title=" " alt="" coords="318,1059,321,1145,328,1208,340,1280,359,1356,388,1431,427,1501,451,1532,478,1561,499,1574,523,1582,522,1587,496,1579,474,1565,447,1536,422,1503,383,1433,354,1357,335,1281,322,1209,316,1145,313,1060"/>
+<area shape="rect" id="Node000051" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="775,734,923,759"/>
+<area shape="poly" id="edge38_Node000006_Node000051" title=" " alt="" coords="327,1032,387,978,429,947,475,920,507,908,537,903,589,901,614,901,639,896,664,887,692,869,703,857,709,845,715,820,720,794,728,781,740,769,761,756,764,761,743,773,732,784,725,796,720,821,714,847,707,860,695,873,667,891,640,902,614,906,589,907,537,908,509,913,477,925,432,951,390,982,330,1036"/>
+<area shape="rect" id="Node000054" href="$poisson_8c.html#a7cf2cfc0383ba0076f827f7d3856f2ed" title="Updates the pressure field P with the pressure correction Phi computed by the Poisson solver." alt="" coords="522,834,647,859"/>
+<area shape="poly" id="edge41_Node000006_Node000054" title=" " alt="" coords="323,1032,380,959,424,914,475,876,508,861,510,866,477,881,428,918,384,962,327,1035"/>
+<area shape="rect" id="Node000008" href="$setup_8c.html#a3d538200fed5b9ee9d1ef391bb61036c" title=" " alt="" coords="823,1477,875,1502"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="600,1352,658,1406,699,1436,742,1462,776,1474,810,1482,809,1487,775,1479,740,1466,696,1440,655,1410,597,1356"/>
+<area shape="rect" id="Node000010" href="$Boundaries_8c.html#adcd96cff4b9e15e03cdff9f5ea695dec" title=" " alt="" coords="809,1575,890,1601"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="618,1542,796,1575,795,1581,617,1547"/>
+<area shape="rect" id="Node000019" href="$rhs_8c.html#ae8a0a7cb4587034d295f6c7f23d70465" title="Computes the Right&#45;Hand Side (RHS) of the momentum equations." alt="" coords="790,1526,909,1551"/>
+<area shape="poly" id="edge13_Node000009_Node000019" title=" " alt="" coords="618,1536,776,1536,776,1541,618,1541"/>
+<area shape="rect" id="Node000026" href="$Boundaries_8c.html#abd9b573f8f42ea93e265da37a0673f24" title=" " alt="" coords="805,1625,894,1650"/>
+<area shape="poly" id="edge15_Node000009_Node000026" title=" " alt="" coords="618,1538,656,1545,695,1560,710,1573,720,1586,728,1598,743,1610,767,1620,792,1627,791,1633,765,1625,740,1614,724,1602,715,1589,706,1576,692,1565,654,1551,617,1544"/>
+<area shape="rect" id="Node000028" href="$Boundaries_8c.html#a684320111be78b3001fda2ba25638e79" title=" " alt="" coords="799,1674,899,1699"/>
+<area shape="poly" id="edge16_Node000009_Node000028" title=" " alt="" coords="618,1536,657,1542,677,1550,695,1561,707,1573,714,1586,720,1611,726,1636,732,1648,743,1659,763,1671,787,1679,785,1684,761,1676,740,1663,728,1651,721,1638,715,1612,709,1588,703,1576,692,1565,675,1554,656,1547,617,1541"/>
+<area shape="rect" id="Node000011" href="$setup_8c.html#a515c9a96eb4bcac29f79e78c8882d7aa" title="Reconstructs Cartesian velocity (Ucat) at cell centers from contravariant velocity (Ucont) defined on..." alt="" coords="1063,1526,1163,1551"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="890,1578,1049,1548,1050,1553,891,1583"/>
+<area shape="rect" id="Node000012" href="$wallfunction_8c.html#a82a96fd4f826d93b926bea9bb776b93e" title=" " alt="" coords="1083,1575,1144,1601"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="890,1585,1069,1585,1069,1591,890,1591"/>
+<area shape="rect" id="Node000013" href="$wallfunction_8c.html#aae67d9282b09691fffdea6f1012e6df7" title=" " alt="" coords="1034,1625,1193,1650"/>
+<area shape="poly" id="edge12_Node000010_Node000013" title=" " alt="" coords="891,1593,1031,1619,1030,1625,890,1598"/>
+<area shape="poly" id="edge14_Node000019_Node000011" title=" " alt="" coords="909,1536,1049,1536,1049,1541,909,1541"/>
+<area shape="rect" id="Node000031" href="$logging_8c.html#ab0414bd7dfd804d39019da707808a819" title="A custom KSP monitor that logs to a file and optionally to the console." alt="" coords="786,1181,913,1206"/>
+<area shape="poly" id="edge19_Node000030_Node000031" title=" " alt="" coords="656,1173,772,1184,772,1189,656,1178"/>
+<area shape="rect" id="Node000032" href="$logging_8c.html#a26f628c9bae473d94674a1a97641b474" title="Destroys the DualMonitorCtx." alt="" coords="773,1230,926,1255"/>
+<area shape="poly" id="edge20_Node000030_Node000032" title=" " alt="" coords="626,1180,742,1215,779,1224,778,1229,741,1220,624,1185"/>
+<area shape="rect" id="Node000033" href="$poisson_8c.html#aaec10e12d0e5fba6c1f53e47d62b6efe" title=" " alt="" coords="797,1279,901,1305"/>
+<area shape="poly" id="edge21_Node000030_Node000033" title=" " alt="" coords="604,1180,663,1221,702,1244,742,1264,784,1278,783,1283,740,1269,699,1249,660,1226,601,1184"/>
+<area shape="rect" id="Node000034" href="$poisson_8c.html#aa2fc17959230252f30b2278d81a16caf" title="The callback function for the multigrid interpolation operator (MatShell)." alt="" coords="787,1329,912,1354"/>
+<area shape="poly" id="edge22_Node000030_Node000034" title=" " alt="" coords="598,1180,654,1245,696,1282,743,1314,774,1326,772,1331,740,1318,693,1286,650,1249,594,1184"/>
+<area shape="rect" id="Node000035" href="$poisson_8c.html#a0f0addfc422c642ad5eb5315ace4ff2f" title=" " alt="" coords="775,1378,923,1403"/>
+<area shape="poly" id="edge23_Node000030_Node000035" title=" " alt="" coords="598,1181,675,1283,717,1336,743,1363,763,1373,761,1378,740,1367,713,1339,671,1287,593,1184"/>
+<area shape="rect" id="Node000037" href="$poisson_8c.html#a26f0e6321b7ace56b3b105e1eb10475e" title="Assembles the Left&#45;Hand Side (LHS) matrix for the Pressure Poisson Equation." alt="" coords="786,1427,913,1453"/>
+<area shape="poly" id="edge24_Node000030_Node000037" title=" " alt="" coords="599,1180,643,1237,696,1315,709,1344,715,1369,724,1391,743,1413,774,1429,772,1433,740,1417,719,1394,710,1370,704,1346,691,1317,639,1240,594,1184"/>
+<area shape="rect" id="Node000039" href="$poisson_8c.html#a2648a0c6cafb7916a706cd757e5b92f5" title="The callback function for PETSc&#39;s MatNullSpace object." alt="" coords="753,934,945,959"/>
+<area shape="poly" id="edge25_Node000030_Node000039" title=" " alt="" coords="602,1155,645,1119,691,1069,705,1042,711,1017,719,992,740,969,746,964,749,968,743,973,724,995,716,1018,710,1044,696,1072,649,1122,605,1159"/>
+<area shape="rect" id="Node000040" href="$poisson_8c.html#a9340445ae2c0a3c7be290e2a1aea3d67" title="Computes the Right&#45;Hand&#45;Side (RHS) of the Poisson equation, which is the divergence of the intermedia..." alt="" coords="800,983,899,1009"/>
+<area shape="poly" id="edge26_Node000030_Node000040" title=" " alt="" coords="599,1155,691,1069,713,1041,724,1029,740,1018,785,1001,787,1006,743,1022,727,1033,718,1045,695,1072,602,1159"/>
+<area shape="rect" id="Node000041" href="$poisson_8c.html#a85e1eff3b6e34605b863323d6336eecd" title=" " alt="" coords="745,1033,953,1058"/>
+<area shape="poly" id="edge27_Node000030_Node000041" title=" " alt="" coords="600,1154,659,1111,699,1087,740,1067,761,1059,763,1064,742,1072,701,1092,662,1116,603,1159"/>
+<area shape="rect" id="Node000042" href="$poisson_8c.html#a8c4cb4c082ab40cc20db95c962fc1d5c" title="Calculates the net flux across the immersed boundary surface." alt="" coords="800,1082,899,1107"/>
+<area shape="poly" id="edge28_Node000030_Node000042" title=" " alt="" coords="621,1154,741,1116,786,1105,787,1110,742,1121,623,1159"/>
+<area shape="rect" id="Node000043" href="$poisson_8c.html#a34f6242556bffd27f00a84b377c1bf9d" title="A specialized version of VolumeFlux, likely for reversed normals." alt="" coords="786,1131,913,1157"/>
+<area shape="poly" id="edge29_Node000030_Node000043" title=" " alt="" coords="656,1160,772,1149,772,1154,656,1165"/>
+<area shape="poly" id="edge31_Node000044_Node000011" title=" " alt="" coords="628,937,741,919,804,907,856,894,881,891,906,893,931,902,959,919,977,937,993,963,1023,1029,1048,1112,1068,1203,1097,1384,1112,1511,1107,1512,1092,1384,1063,1204,1042,1113,1018,1031,989,965,973,941,956,923,929,906,905,898,881,896,857,899,805,912,742,924,629,943"/>
+<area shape="rect" id="Node000045" href="$poisson_8c.html#a6046e36e2334fa29a86d652a0b8f0593" title=" " alt="" coords="776,833,923,858"/>
+<area shape="poly" id="edge32_Node000044_Node000045" title=" " alt="" coords="627,937,660,927,692,914,716,895,740,875,777,860,779,865,743,880,719,899,695,918,662,932,629,942"/>
+<area shape="poly" id="edge34_Node000050_Node000010" title=" " alt="" coords="633,1585,795,1585,795,1591,633,1591"/>
+<area shape="poly" id="edge35_Node000050_Node000019" title=" " alt="" coords="633,1576,776,1550,777,1555,634,1582"/>
+<area shape="poly" id="edge36_Node000050_Node000026" title=" " alt="" coords="634,1594,792,1624,791,1629,633,1600"/>
+<area shape="poly" id="edge37_Node000050_Node000028" title=" " alt="" coords="634,1590,665,1597,695,1610,710,1622,720,1635,728,1648,743,1659,787,1676,785,1681,740,1664,724,1651,715,1638,706,1626,692,1614,663,1602,633,1595"/>
+<area shape="poly" id="edge39_Node000051_Node000052" title=" " alt="" coords="913,731,1044,704,1046,710,914,737"/>
+<area shape="rect" id="Node000053" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="1038,730,1189,755"/>
+<area shape="poly" id="edge40_Node000051_Node000053" title=" " alt="" coords="923,743,1024,741,1024,747,924,748"/>
+<area shape="poly" id="edge42_Node000054_Node000051" title=" " alt="" coords="607,832,666,800,740,768,766,760,768,765,742,773,668,805,609,836"/>
+<area shape="rect" id="Node000056" href="$interpolation_8c.html#ad200d31b74c511e4388b757fb0359001" title="Interpolates a cell&#45;centered field (scalar or vector) onto DMSwarm particles, using a robust,..." alt="" coords="741,783,957,809"/>
+<area shape="poly" id="edge45_Node000055_Node000056" title=" " alt="" coords="387,831,476,819,606,807,728,799,728,804,606,812,476,824,388,837"/>
+<area shape="poly" id="edge46_Node000056_Node000052" title=" " alt="" coords="928,781,956,768,971,756,979,743,988,728,1004,715,1044,699,1046,704,1007,720,992,732,984,745,975,759,959,773,930,786"/>
+<area shape="poly" id="edge48_Node000056_Node000053" title=" " alt="" coords="913,781,1036,755,1037,761,914,786"/>
+<area shape="rect" id="Node000057" href="$interpolation_8c.html#a556572fc2b40494da8bdb48d977dbaa1" title="Interpolates a single field (scalar or vector) for one particle, storing the result in a swarm array." alt="" coords="1005,780,1221,820"/>
+<area shape="poly" id="edge47_Node000056_Node000057" title=" " alt="" coords="957,795,992,795,992,801,957,800"/>
+<area shape="rect" id="Node000059" href="$ParticleMotion_8c.html#a43df9caf0f5cbb317050f6258ac46fff" title="Safely adds a new migration task to a dynamically sized list." alt="" coords="511,221,658,246"/>
+<area shape="poly" id="edge50_Node000058_Node000059" title=" " alt="" coords="409,481,426,469,445,443,452,418,453,391,449,364,446,337,447,310,455,282,474,255,497,240,500,245,478,259,459,285,452,310,451,337,455,364,458,391,457,418,449,446,430,473,412,485"/>
+<area shape="rect" id="Node000060" href="$ParticleMotion_8c.html#ad247152a0dd47d07243fad4c2fd89c0a" title="Identifies newly arrived particles after migration and flags them for a location search." alt="" coords="483,270,686,295"/>
+<area shape="poly" id="edge51_Node000058_Node000060" title=" " alt="" coords="408,481,426,469,441,450,448,430,449,389,451,348,458,326,474,306,481,301,484,305,478,310,463,329,456,349,455,389,454,431,446,452,430,473,411,485"/>
+<area shape="rect" id="Node000062" href="$ParticleMotion_8c.html#a5d388b62daa726aa7ea467a71313a328" title="Creates a sorted snapshot of all Particle IDs (PIDs) from a raw data array." alt="" coords="504,385,665,410"/>
+<area shape="poly" id="edge53_Node000058_Node000062" title=" " alt="" coords="397,481,427,468,441,457,450,444,459,431,475,419,490,412,493,416,477,424,463,435,454,448,445,461,429,473,399,486"/>
+<area shape="rect" id="Node000063" href="$ParticleMotion_8c.html#a1050c4075c2fb507d4579008921dd7b6" title="Provides a fast, heuristic&#45;based guess for a particle&#39;s owner rank using bounding boxes." alt="" coords="477,631,693,657"/>
+<area shape="poly" id="edge54_Node000058_Node000063" title=" " alt="" coords="331,507,391,560,432,591,477,616,499,625,497,630,475,621,429,595,387,564,327,511"/>
+<area shape="rect" id="Node000064" href="$walkingsearch_8c.html#a0b63dfe82e0fdee5c2c3bdd477f9901f" title="Locates a particle&#39;s host cell or identifies its migration target using a robust walk search." alt="" coords="476,320,693,360"/>
+<area shape="poly" id="edge56_Node000058_Node000064" title=" " alt="" coords="405,481,426,469,437,457,444,446,450,421,456,396,463,383,474,370,480,365,483,370,478,374,467,386,461,397,455,422,449,448,442,461,430,473,408,485"/>
+<area shape="rect" id="Node000080" href="$ParticleMotion_8c.html#af68865be3bc987bdf1be2c5c7a1903fa" title="Performs particle migration based on the pre&#45;populated DMSwarmPICField_rank field." alt="" coords="517,434,653,459"/>
+<area shape="poly" id="edge70_Node000058_Node000080" title=" " alt="" coords="384,481,503,459,504,464,385,486"/>
+<area shape="rect" id="Node000081" href="$ParticleMotion_8c.html#a461def358c0f7c5337c283ba06dd65a0" title="Sets the target rank field (DMSwarmPICField_rank) for particles scheduled for migration." alt="" coords="512,483,657,509"/>
+<area shape="poly" id="edge71_Node000058_Node000081" title=" " alt="" coords="422,493,498,493,498,499,422,499"/>
+<area shape="rect" id="Node000082" href="$ParticleSwarm_8c.html#aa353055e357151aab1542bbad367c657" title="Initializes a Particle struct with data from DMSwarm fields." alt="" coords="507,533,662,558"/>
+<area shape="poly" id="edge72_Node000058_Node000082" title=" " alt="" coords="385,506,501,527,500,533,384,511"/>
+<area shape="rect" id="Node000083" href="$ParticleSwarm_8c.html#ac52b9e4afa9d1f2ba3bf59dc45b610d1" title="Updates DMSwarm fields with data from a Particle struct." alt="" coords="509,582,661,607"/>
+<area shape="poly" id="edge73_Node000058_Node000083" title=" " alt="" coords="341,506,402,536,477,567,508,576,506,581,475,572,400,541,339,511"/>
+<area shape="rect" id="Node000061" href="$setup_8c.html#acd8d87dc85f19ba3e32811a623bf5b36" title="Performs a binary search for a key in a sorted array of PetscInt64." alt="" coords="779,171,920,197"/>
+<area shape="poly" id="edge52_Node000060_Node000061" title=" " alt="" coords="663,267,692,255,706,244,715,231,724,218,740,206,764,195,766,200,743,210,728,222,719,234,710,247,695,260,665,272"/>
+<area shape="poly" id="edge55_Node000063_Node000005" title=" " alt="" coords="693,642,776,642,776,648,693,647"/>
+<area shape="rect" id="Node000065" href="$walkingsearch_8c.html#afae6265db91aa72254a050c0b6159dab" title="Checks if the current GLOBAL CELL indices are within the LOCAL GHOSTED grid boundaries accessible by ..." alt="" coords="1018,443,1209,469"/>
+<area shape="poly" id="edge57_Node000064_Node000065" title=" " alt="" coords="676,358,695,370,712,392,719,414,725,435,732,444,743,452,781,470,822,481,864,487,907,489,988,482,1055,469,1056,475,989,488,907,494,864,493,821,487,779,475,740,457,728,448,721,438,714,416,707,394,692,374,673,362"/>
+<area shape="rect" id="Node000066" href="$walkingsearch_8c.html#a556871801ba0b3214285a2ca1fe622ac" title="Determines the spatial relationship of a particle relative to a cubic cell." alt="" coords="760,583,939,609"/>
+<area shape="poly" id="edge58_Node000064_Node000066" title=" " alt="" coords="681,358,695,370,713,396,721,421,722,447,719,472,717,497,718,521,726,545,743,569,750,575,747,579,739,572,721,548,713,522,712,497,714,472,716,447,716,422,708,398,691,374,677,362"/>
+<area shape="rect" id="Node000072" href="$walkingsearch_8c.html#a9aedf40cb1545b554e113ebb0863859d" title="Finds the MPI rank that owns a given global cell index." alt="" coords="784,221,915,246"/>
+<area shape="poly" id="edge61_Node000064_Node000072" title=" " alt="" coords="665,318,692,304,706,293,715,280,724,267,740,255,770,243,772,248,743,260,728,271,719,283,710,296,695,309,668,322"/>
+<area shape="rect" id="Node000073" href="$walkingsearch_8c.html#af9a2ec1317c83d6dfad52415b83cd6e6" title="Initializes traversal parameters for locating a particle." alt="" coords="744,418,955,443"/>
+<area shape="poly" id="edge62_Node000064_Node000073" title=" " alt="" coords="665,358,695,370,719,387,743,403,766,412,764,417,740,408,716,391,692,374,663,362"/>
+<area shape="rect" id="Node000074" href="$walkingsearch_8c.html#a64b2ff5399052580bffaa58562dc0bcd" title="Logs the final outcome of the particle location search." alt="" coords="765,270,933,295"/>
+<area shape="poly" id="edge64_Node000064_Node000074" title=" " alt="" coords="677,317,776,296,777,301,678,323"/>
+<area shape="rect" id="Node000075" href="$walkingsearch_8c.html#acb77aa5204ab90392c67f10a55227bb6" title="Retrieves the coordinates of the eight vertices of the current cell." alt="" coords="774,319,925,345"/>
+<area shape="poly" id="edge65_Node000064_Node000075" title=" " alt="" coords="694,334,760,332,760,337,694,339"/>
+<area shape="rect" id="Node000078" href="$walkingsearch_8c.html#ae8ed9e0a01de5ee0f332170562b1f9ea" title="Updates the cell indices based on the signed distances to each face." alt="" coords="750,519,949,559"/>
+<area shape="poly" id="edge66_Node000064_Node000078" title=" " alt="" coords="679,358,695,370,709,386,716,403,720,435,724,467,731,483,743,498,757,510,754,514,739,502,726,485,719,468,715,436,711,404,704,389,692,374,676,362"/>
+<area shape="rect" id="Node000079" href="$ParticleSwarm_8c.html#a0001e483238e2b600cb9aa23a6e5338c" title="Updates a particle&#39;s interpolation weights based on distances to cell faces." alt="" coords="765,369,934,394"/>
+<area shape="poly" id="edge69_Node000064_Node000079" title=" " alt="" coords="694,354,755,364,754,369,693,360"/>
+<area shape="poly" id="edge59_Node000066_Node000052" title=" " alt="" coords="919,606,958,617,1023,644,1079,672,1076,677,1021,649,956,623,917,611"/>
+<area shape="poly" id="edge60_Node000066_Node000053" title=" " alt="" coords="940,607,959,618,971,630,978,643,984,668,990,693,996,704,1007,715,1026,727,1023,731,1004,719,992,707,985,695,979,669,973,645,967,633,956,622,937,611"/>
+<area shape="poly" id="edge63_Node000073_Node000065" title=" " alt="" coords="955,438,1004,443,1004,448,954,443"/>
+<area shape="poly" id="edge67_Node000078_Node000052" title=" " alt="" coords="931,556,959,568,998,592,1034,619,1092,669,1088,673,1031,623,995,596,956,573,929,561"/>
+<area shape="poly" id="edge68_Node000078_Node000053" title=" " alt="" coords="943,557,959,569,974,588,981,607,983,644,986,681,993,698,1007,715,1027,728,1024,733,1004,719,989,701,981,682,978,645,976,608,969,590,955,573,940,561"/>
+<area shape="rect" id="Node000085" href="$logging_8c.html#a7b3c43abc3eb1a2e0a5c1c74a9143b65" title=" " alt="" coords="515,1827,655,1853"/>
+<area shape="poly" id="edge75_Node000084_Node000085" title=" " alt="" coords="400,1668,430,1685,443,1700,451,1715,455,1746,459,1777,466,1792,478,1806,503,1822,500,1827,474,1810,461,1794,454,1779,450,1747,446,1717,439,1703,426,1689,397,1673"/>
+<area shape="rect" id="Node000086" href="$logging_8c.html#a64b10fa3837fcdfcbf13820eed2577ff" title=" " alt="" coords="501,1625,668,1650"/>
+<area shape="poly" id="edge76_Node000084_Node000086" title=" " alt="" coords="399,1652,487,1644,488,1649,399,1657"/>
+<area shape="rect" id="Node000087" href="$logging_8c.html#a90c3c89c64920d436a9079a419523e21" title=" " alt="" coords="810,1723,889,1749"/>
+<area shape="poly" id="edge77_Node000084_Node000087" title=" " alt="" coords="399,1671,694,1711,797,1726,796,1731,693,1716,398,1676"/>
+<area shape="rect" id="Node000088" href="$logging_8c.html#adc65395a00600e3e88641101c90725bf" title=" " alt="" coords="483,1726,687,1751"/>
+<area shape="poly" id="edge78_Node000084_Node000088" title=" " alt="" coords="386,1673,429,1684,477,1704,525,1720,523,1725,475,1709,427,1689,385,1678"/>
+<area shape="rect" id="Node000091" href="$logging_8c.html#a9cd4e0aea4743cc718e597959fec0774" title=" " alt="" coords="790,1871,909,1897"/>
+<area shape="poly" id="edge83_Node000084_Node000091" title=" " alt="" coords="400,1670,430,1685,447,1704,455,1724,462,1743,478,1761,506,1777,532,1786,582,1790,634,1792,663,1799,695,1812,710,1823,719,1835,728,1846,743,1856,777,1870,776,1875,740,1861,725,1850,715,1838,706,1827,692,1817,661,1804,633,1798,582,1796,531,1791,504,1782,474,1765,457,1746,450,1725,442,1706,426,1689,398,1675"/>
+<area shape="poly" id="edge79_Node000088_Node000087" title=" " alt="" coords="687,1735,796,1734,796,1739,687,1740"/>
+<area shape="rect" id="Node000089" href="$logging_8c.html#aa1977fc21fa13444d85147ec9798f76b" title=" " alt="" coords="806,1773,893,1798"/>
+<area shape="poly" id="edge80_Node000088_Node000089" title=" " alt="" coords="658,1749,793,1773,792,1778,657,1754"/>
+<area shape="rect" id="Node000090" href="$logging_8c.html#ad2ca09810919ecbbd0daceb827fe330e" title=" " alt="" coords="814,1822,885,1847"/>
+<area shape="poly" id="edge81_Node000088_Node000090" title=" " alt="" coords="645,1749,695,1768,709,1778,719,1788,729,1798,743,1807,771,1818,801,1825,800,1831,770,1823,740,1812,725,1802,715,1792,706,1782,692,1773,643,1754"/>
+<area shape="poly" id="edge82_Node000088_Node000091" title=" " alt="" coords="659,1749,695,1769,713,1791,720,1814,726,1836,743,1857,778,1873,776,1878,740,1861,721,1839,714,1816,708,1794,692,1773,656,1754"/>
+<area shape="rect" id="Node000094" href="$group__scatter__module.html#gaa6642e53fe1be75dcc180dab3cf3f692" title="Scatters a particle field (scalar or vector) to the corresponding Eulerian field average." alt="" coords="487,56,682,96"/>
+<area shape="poly" id="edge86_Node000093_Node000094" title=" " alt="" coords="400,73,473,73,473,79,400,79"/>
+<area shape="rect" id="Node000095" href="$group__scatter__module__internal.html#ga16dc04f7710ac752691f269400381913" title="Determines the target Eulerian DM and expected DOF for scattering a given particle field." alt="" coords="771,70,927,95"/>
+<area shape="poly" id="edge87_Node000094_Node000095" title=" " alt="" coords="682,76,758,78,758,83,682,81"/>
+<area shape="rect" id="Node000096" href="$group__scatter__module__internal.html#gac35f52bb41ee862f912a146e86f1affd" title="Internal helper function to orchestrate the scatter operation (accumulate + normalize)." alt="" coords="752,5,947,45"/>
+<area shape="poly" id="edge88_Node000094_Node000096" title=" " alt="" coords="682,55,738,44,739,49,683,60"/>
+<area shape="poly" id="edge89_Node000096_Node000002" title=" " alt="" coords="947,43,1039,62,1037,67,946,48"/>
+<area shape="rect" id="Node000100" href="$ParticleMotion_8c.html#a030c51d171d2f725c708cd334f51ef2c" title="Updates a particle&#39;s position based on its velocity and the timestep dt (stored in user&#45;&gt;dt)." alt="" coords="500,1877,669,1902"/>
+<area shape="poly" id="edge91_Node000099_Node000100" title=" " alt="" coords="409,1772,430,1783,447,1803,455,1824,462,1844,478,1862,489,1869,486,1873,474,1866,457,1846,450,1825,443,1806,426,1787,406,1777"/>
+<area shape="rect" id="Node000103" href="$io_8c.html#a3f37cf6ed1f13d0656740b8cff2b4ed8" title="Writes data from a specific PETSc vector to a file." alt="" coords="790,2027,909,2053"/>
+<area shape="poly" id="edge94_Node000102_Node000103" title=" " alt="" coords="398,1990,536,1998,694,2012,777,2024,776,2029,693,2017,536,2003,397,1995"/>
+<area shape="rect" id="Node000104" href="$io_8c.html#aa7fe2d107007076b401d19ba9145a354" title="Writes LES&#45;related fields." alt="" coords="525,2027,644,2053"/>
+<area shape="poly" id="edge95_Node000102_Node000104" title=" " alt="" coords="384,1999,513,2024,512,2029,383,2005"/>
+<area shape="rect" id="Node000105" href="$io_8c.html#a87768b32e2f93a36633fe104cebcdfe8" title="Writes RANS&#45;related fields." alt="" coords="519,2077,650,2102"/>
+<area shape="poly" id="edge97_Node000102_Node000105" title=" " alt="" coords="340,2000,401,2030,477,2061,507,2071,506,2076,475,2067,399,2035,338,2004"/>
+<area shape="rect" id="Node000106" href="$io_8c.html#a3515d51bdd91f00faf8e5023bc82534b" title="Writes statistical fields for averaging purposes." alt="" coords="505,1926,665,1951"/>
+<area shape="poly" id="edge99_Node000102_Node000106" title=" " alt="" coords="383,1974,502,1951,503,1957,384,1979"/>
+<area shape="poly" id="edge96_Node000104_Node000103" title=" " alt="" coords="644,2037,776,2037,776,2043,644,2043"/>
+<area shape="poly" id="edge98_Node000105_Node000103" title=" " alt="" coords="650,2075,776,2051,777,2056,651,2080"/>
+<area shape="poly" id="edge100_Node000106_Node000103" title=" " alt="" coords="634,1949,694,1968,811,2019,809,2024,692,1973,633,1954"/>
+<area shape="poly" id="edge102_Node000107_Node000103" title=" " alt="" coords="368,2099,434,2112,515,2122,604,2123,649,2120,693,2112,727,2102,760,2088,816,2057,819,2062,763,2093,729,2107,694,2117,650,2125,605,2129,515,2127,433,2117,367,2105"/>
+</map>

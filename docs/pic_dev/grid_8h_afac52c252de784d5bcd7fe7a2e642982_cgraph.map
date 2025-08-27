@@ -1,0 +1,5 @@
+<map id="GatherAllBoundingBoxes" name="GatherAllBoundingBoxes">
+<area shape="rect" id="Node000001" title="Gathers local bounding boxes from all MPI processes to rank 0." alt="" coords="5,5,188,31"/>
+<area shape="rect" id="Node000002" href="$grid_8c.html#ae0c39bc7c78a15bedf9f1415ab1dded4" title="Computes the local bounding box of the grid on the current process." alt="" coords="236,5,437,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,15,222,15,222,21,188,21"/>
+</map>

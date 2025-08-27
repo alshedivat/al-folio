@@ -1,0 +1,7 @@
+<map id="SetupDomainCellDecompositionMap" name="SetupDomainCellDecompositionMap">
+<area shape="rect" id="Node000001" title="Creates and distributes a map of the domain&#39;s cell decomposition to all ranks." alt="" coords="5,5,267,31"/>
+<area shape="rect" id="Node000002" href="$setup_8c.html#a25ce912d8aafa319a8c915cd350c7322" title="Gets the global cell range for a rank, including boundary cells." alt="" coords="315,5,480,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="267,15,301,15,301,21,267,21"/>
+<area shape="rect" id="Node000003" href="$setup_8c.html#a135027905841ed83f1a3ef2279d865cc" title="Gets the global starting index of cells owned by this rank and the number of such cells." alt="" coords="528,5,684,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="480,15,514,15,514,21,480,21"/>
+</map>

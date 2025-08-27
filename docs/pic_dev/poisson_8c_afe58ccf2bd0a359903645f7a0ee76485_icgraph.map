@@ -1,0 +1,18 @@
+<map id="GridRestriction" name="GridRestriction">
+<area shape="rect" id="Node000001" title=" " alt="" coords="900,55,1019,80"/>
+<area shape="rect" id="Node000002" href="$poisson_8c.html#a0f0addfc422c642ad5eb5315ace4ff2f" title=" " alt="" coords="674,5,822,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="892,54,851,45,804,33,805,28,853,39,893,49"/>
+<area shape="rect" id="Node000007" href="$poisson_8c.html#a5fa351d4c691fef0d76cedf5cc5cbb72" title="The callback function for the multigrid restriction operator (MatShell)." alt="" coords="692,55,804,80"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="886,70,804,70,804,65,886,65"/>
+<area shape="rect" id="Node000008" href="$poisson_8c.html#a85e1eff3b6e34605b863323d6336eecd" title=" " alt="" coords="644,104,852,129"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="892,86,804,107,803,101,891,81"/>
+<area shape="rect" id="Node000003" href="$poisson_8c.html#acfdf6d56006b1b5f68d400deb6cf0959" title="Solves the pressure&#45;Poisson equation using a geometric multigrid method." alt="" coords="453,55,596,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="677,36,584,57,582,52,676,31"/>
+<area shape="rect" id="Node000004" href="$solvers_8c.html#a2ed4825273a593f371a3d48071708255" title="Orchestrates a single time step of the Eulerian fluid solver." alt="" coords="304,55,405,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="439,70,406,70,406,65,439,65"/>
+<area shape="rect" id="Node000005" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="108,55,256,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="290,70,256,70,256,65,290,65"/>
+<area shape="rect" id="Node000006" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="94,70,60,70,60,65,94,65"/>
+<area shape="poly" id="edge8_Node000008_Node000003" title=" " alt="" coords="676,104,582,83,584,77,677,98"/>
+</map>

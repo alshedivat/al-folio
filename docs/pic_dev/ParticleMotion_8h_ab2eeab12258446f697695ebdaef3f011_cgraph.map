@@ -1,0 +1,19 @@
+<map id="PerformSingleParticleMigrationCycle" name="PerformSingleParticleMigrationCycle">
+<area shape="rect" id="Node000001" title="Performs one full cycle of particle migration: identify, set ranks, and migrate." alt="" coords="5,97,229,137"/>
+<area shape="rect" id="Node000002" href="$ParticleMotion_8c.html#ad247152a0dd47d07243fad4c2fd89c0a" title="Identifies newly arrived particles after migration and flags them for a location search." alt="" coords="277,5,480,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,94,211,66,276,39,301,32,303,37,278,45,213,71,157,99"/>
+<area shape="rect" id="Node000004" href="$ParticleMotion_8c.html#a5d388b62daa726aa7ea467a71313a328" title="Creates a sorted snapshot of all Particle IDs (PIDs) from a raw data array." alt="" coords="298,55,459,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="223,94,297,80,298,85,224,99"/>
+<area shape="rect" id="Node000005" href="$ParticleMotion_8c.html#acf00ed7232c9aa111858b5a4cff43922" title="Identifies particles that have left the local MPI rank&#39;s domain and determines their target rank." alt="" coords="285,104,473,129"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="229,114,271,114,271,119,229,119"/>
+<area shape="rect" id="Node000008" href="$ParticleMotion_8c.html#af68865be3bc987bdf1be2c5c7a1903fa" title="Performs particle migration based on the pre&#45;populated DMSwarmPICField_rank field." alt="" coords="311,153,447,179"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="224,134,298,148,297,153,223,139"/>
+<area shape="rect" id="Node000009" href="$ParticleMotion_8c.html#a461def358c0f7c5337c283ba06dd65a0" title="Sets the target rank field (DMSwarmPICField_rank) for particles scheduled for migration." alt="" coords="306,203,451,228"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="157,134,213,162,278,189,303,197,301,202,276,194,211,167,154,139"/>
+<area shape="rect" id="Node000003" href="$setup_8c.html#acd8d87dc85f19ba3e32811a623bf5b36" title="Performs a binary search for a key in a sorted array of PetscInt64." alt="" coords="531,5,672,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="480,15,517,15,517,21,480,21"/>
+<area shape="rect" id="Node000006" href="$ParticleMotion_8c.html#a43df9caf0f5cbb317050f6258ac46fff" title="Safely adds a new migration task to a dynamically sized list." alt="" coords="528,79,675,104"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="473,103,514,99,515,104,474,109"/>
+<area shape="rect" id="Node000007" href="$ParticleMotion_8c.html#ad2b9ac6b5e4d13799fa82dcd34432da4" title="Checks if a particle position is within the bounds of a given bounding box." alt="" coords="542,128,661,153"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="474,124,528,130,528,135,473,129"/>
+</map>

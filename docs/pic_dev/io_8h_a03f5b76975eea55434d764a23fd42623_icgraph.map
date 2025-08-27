@@ -1,0 +1,11 @@
+<map id="ReadStatisticalFields" name="ReadStatisticalFields">
+<area shape="rect" id="Node000001" title="Reads statistical fields used for time&#45;averaged simulations." alt="" coords="727,13,885,38"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#a3a009dabc71ccfa59f196e1bc045de45" title="Reads binary field data for velocity, pressure, and other required vectors." alt="" coords="516,13,679,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="713,28,679,28,679,23,713,23"/>
+<area shape="rect" id="Node000003" href="$initialcondition_8c.html#aff0951526ed36a87e2745da0154a68e5" title="(HELPER) Reads fluid state for all blocks from restart files." alt="" coords="321,5,468,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="502,28,468,28,468,23,502,23"/>
+<area shape="rect" id="Node000004" href="$initialcondition_8c.html#ad0dd7d3f2528b6a7802fcd551e88ea99" title="High&#45;level orchestrator to set the complete initial state of the Eulerian solver." alt="" coords="108,13,273,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="308,28,274,28,274,23,308,23"/>
+<area shape="rect" id="Node000005" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,28,60,28,60,23,94,23"/>
+</map>

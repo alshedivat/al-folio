@@ -1,0 +1,14 @@
+<map id="FlagNewcomersForLocation" name="FlagNewcomersForLocation">
+<area shape="rect" id="Node000001" title="Identifies newly arrived particles after migration and flags them for a location search." alt="" coords="576,59,779,84"/>
+<area shape="rect" id="Node000002" href="$ParticleMotion_8c.html#a727054a4a467fd8504a19caed5a5916b" title="Orchestrates the complete particle location and migration process for one timestep." alt="" coords="309,29,523,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="562,61,523,57,524,51,563,56"/>
+<area shape="rect" id="Node000006" href="$ParticleMotion_8c.html#ab2eeab12258446f697695ebdaef3f011" title="Performs one full cycle of particle migration: identify, set ranks, and migrate." alt="" coords="304,79,528,119"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="563,86,529,90,528,85,562,81"/>
+<area shape="rect" id="Node000003" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="108,5,256,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="295,32,256,28,256,23,295,27"/>
+<area shape="rect" id="Node000005" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="108,55,256,80"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="295,58,256,62,256,57,295,52"/>
+<area shape="rect" id="Node000004" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="95,35,61,41,60,36,94,30"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="94,56,60,50,60,45,95,51"/>
+</map>

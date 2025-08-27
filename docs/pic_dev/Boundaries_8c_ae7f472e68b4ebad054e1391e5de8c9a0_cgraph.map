@@ -1,0 +1,7 @@
+<map id="TranslateModernBCsToLegacy" name="TranslateModernBCsToLegacy">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,31,220,56"/>
+<area shape="rect" id="Node000002" href="$logging_8c.html#a46638a78fe01e24d946d9103d5d2fde9" title="Helper function to convert BCFace enum to a string representation." alt="" coords="269,5,390,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="220,28,255,24,255,29,221,33"/>
+<area shape="rect" id="Node000003" href="$logging_8c.html#aa28884cc21bbf93fee9f1b1a26dfed6a" title="Helper function to convert BCType enum to a string representation." alt="" coords="268,55,391,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="221,53,255,56,254,62,220,58"/>
+</map>

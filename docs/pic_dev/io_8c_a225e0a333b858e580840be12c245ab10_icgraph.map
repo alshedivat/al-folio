@@ -1,0 +1,5 @@
+<map id="WriteVTKFileFooter" name="WriteVTKFileFooter">
+<area shape="rect" id="Node000001" title="Writes the XML footer for a VTK file based on the provided metadata." alt="" coords="263,5,409,31"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#ad4eeaada0c8227f332499bf5fc4d3bc0" title="Creates and writes a VTK file (either .vts or .vtp) based on the provided metadata." alt="" coords="5,5,215,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="249,21,215,21,215,15,249,15"/>
+</map>

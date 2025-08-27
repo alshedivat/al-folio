@@ -1,0 +1,65 @@
+<map id="InitializeEulerianState" name="InitializeEulerianState">
+<area shape="rect" id="Node000001" title="High&#45;level orchestrator to set the complete initial state of the Eulerian solver." alt="" coords="5,256,171,281"/>
+<area shape="rect" id="Node000002" href="$initialcondition_8c.html#a51d0251f84a962a611ff0c0a8797a3e4" title="(HELPER) Sets the t=0 fluid state for all blocks." alt="" coords="248,249,395,289"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,266,235,266,235,271,171,271"/>
+<area shape="rect" id="Node000022" href="$initialcondition_8c.html#aff0951526ed36a87e2745da0154a68e5" title="(HELPER) Reads fluid state for all blocks from restart files." alt="" coords="248,122,395,162"/>
+<area shape="poly" id="edge25_Node000001_Node000022" title=" " alt="" coords="111,253,270,166,273,171,114,258"/>
+<area shape="rect" id="Node000028" href="$simulation_8c.html#a78d6ef98da860e3271d6b7277a54e642" title="Copies the current time step&#39;s solution fields into history vectors (e.g., U(t_n) &#45;&gt; U_o,..." alt="" coords="219,313,424,339"/>
+<area shape="poly" id="edge35_Node000001_Node000028" title=" " alt="" coords="141,279,257,307,255,313,140,284"/>
+<area shape="rect" id="Node000003" href="$initialcondition_8c.html#af6a26611066aa455efddcca2fd80fe35" title="(HELPER) Finalizes a block&#39;s state by applying BCs, converting to Cartesian, and synchronizing ghost ..." alt="" coords="482,281,625,307"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="396,274,469,282,468,287,395,279"/>
+<area shape="rect" id="Node000013" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="691,231,839,256"/>
+<area shape="poly" id="edge24_Node000002_Node000013" title=" " alt="" coords="395,262,678,246,678,251,395,267"/>
+<area shape="rect" id="Node000016" href="$Boundaries_8c.html#abd9b573f8f42ea93e265da37a0673f24" title=" " alt="" coords="509,380,598,405"/>
+<area shape="poly" id="edge18_Node000002_Node000016" title=" " alt="" coords="396,284,426,300,442,317,450,334,458,351,474,366,497,378,494,383,470,371,454,354,445,337,438,320,422,304,393,288"/>
+<area shape="rect" id="Node000018" href="$Boundaries_8c.html#a684320111be78b3001fda2ba25638e79" title=" " alt="" coords="503,331,603,356"/>
+<area shape="poly" id="edge20_Node000002_Node000018" title=" " alt="" coords="386,286,425,299,473,317,496,324,494,329,471,322,423,304,384,291"/>
+<area shape="rect" id="Node000019" href="$initialcondition_8c.html#a62dfa993750dc34d1729c575bb1dde66" title="Sets the initial values for the INTERIOR of a specified Eulerian field." alt="" coords="474,180,633,205"/>
+<area shape="poly" id="edge21_Node000002_Node000019" title=" " alt="" coords="383,246,500,207,502,212,384,251"/>
+<area shape="rect" id="Node000004" href="$setup_8c.html#a515c9a96eb4bcac29f79e78c8882d7aa" title="Reconstructs Cartesian velocity (Ucat) at cell centers from contravariant velocity (Ucont) defined on..." alt="" coords="925,283,1025,308"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="625,292,912,292,912,298,625,297"/>
+<area shape="rect" id="Node000005" href="$Boundaries_8c.html#adcd96cff4b9e15e03cdff9f5ea695dec" title=" " alt="" coords="725,332,806,357"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="608,304,712,329,711,334,607,309"/>
+<area shape="poly" id="edge15_Node000003_Node000013" title=" " alt="" coords="607,279,698,257,699,262,608,284"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="806,333,911,307,913,313,807,338"/>
+<area shape="rect" id="Node000006" href="$wallfunction_8c.html#a82a96fd4f826d93b926bea9bb776b93e" title=" " alt="" coords="945,381,1006,407"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="807,351,931,381,930,386,806,357"/>
+<area shape="rect" id="Node000007" href="$wallfunction_8c.html#aae67d9282b09691fffdea6f1012e6df7" title=" " alt="" coords="896,332,1055,357"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="806,342,882,342,882,347,806,347"/>
+<area shape="rect" id="Node000008" href="$wallfunction_8c.html#aa22aca64a54a00ccaf354357cc1c0760" title=" " alt="" coords="1103,307,1236,332"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="1055,332,1088,327,1089,332,1055,337"/>
+<area shape="rect" id="Node000012" href="$wallfunction_8c.html#a071e294d71e268c014aa6047acb64730" title=" " alt="" coords="1284,357,1439,383"/>
+<area shape="poly" id="edge13_Node000007_Node000012" title=" " alt="" coords="1055,347,1270,361,1270,367,1055,352"/>
+<area shape="rect" id="Node000009" href="$wallfunction_8c.html#a39f08431792fc8f96ea8659756dfd749" title=" " alt="" coords="1318,308,1405,333"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="1236,317,1304,318,1304,323,1236,322"/>
+<area shape="rect" id="Node000010" href="$wallfunction_8c.html#ac7ee38b34b5a56a4e5c01a02c290229b" title=" " alt="" coords="1487,307,1565,332"/>
+<area shape="poly" id="edge12_Node000008_Node000010" title=" " alt="" coords="1222,304,1284,294,1361,288,1439,294,1474,301,1473,306,1438,299,1361,293,1284,299,1223,309"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="1405,318,1473,317,1473,322,1405,323"/>
+<area shape="rect" id="Node000011" href="$wallfunction_8c.html#a5a5ea51c16915866975995631c0d2923" title=" " alt="" coords="1613,332,1683,357"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="1566,325,1600,332,1599,337,1565,330"/>
+<area shape="poly" id="edge14_Node000012_Node000011" title=" " alt="" coords="1439,361,1600,346,1600,351,1439,366"/>
+<area shape="rect" id="Node000014" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="921,233,1030,259"/>
+<area shape="poly" id="edge16_Node000013_Node000014" title=" " alt="" coords="840,242,907,242,907,248,840,247"/>
+<area shape="rect" id="Node000015" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="900,184,1051,209"/>
+<area shape="poly" id="edge17_Node000013_Node000015" title=" " alt="" coords="823,228,904,210,905,215,824,233"/>
+<area shape="rect" id="Node000017" href="$Boundaries_8c.html#aa8017de37ede2f3151c445aafec42714" title=" " alt="" coords="698,381,833,407"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="598,390,684,391,684,396,598,396"/>
+<area shape="rect" id="Node000020" href="$setup_8c.html#a25ce912d8aafa319a8c915cd350c7322" title="Gets the global cell range for a rank, including boundary cells." alt="" coords="683,179,848,204"/>
+<area shape="poly" id="edge22_Node000019_Node000020" title=" " alt="" coords="633,189,669,189,669,195,633,195"/>
+<area shape="rect" id="Node000021" href="$setup_8c.html#a135027905841ed83f1a3ef2279d865cc" title="Gets the global starting index of cells owned by this rank and the number of such cells." alt="" coords="897,135,1053,160"/>
+<area shape="poly" id="edge23_Node000020_Node000021" title=" " alt="" coords="826,176,900,160,902,165,827,181"/>
+<area shape="poly" id="edge34_Node000022_Node000013" title=" " alt="" coords="395,131,450,130,511,133,575,144,636,165,652,176,662,189,670,202,684,214,701,223,699,228,681,219,666,206,657,192,648,180,633,170,574,149,511,138,450,135,395,137"/>
+<area shape="rect" id="Node000023" href="$io_8c.html#a3a009dabc71ccfa59f196e1bc045de45" title="Reads binary field data for velocity, pressure, and other required vectors." alt="" coords="472,79,635,104"/>
+<area shape="poly" id="edge26_Node000022_Node000023" title=" " alt="" coords="395,123,481,104,482,110,396,129"/>
+<area shape="rect" id="Node000024" href="$io_8c.html#a570806d7e0694b5d996e0c6018b48908" title="Reads data for a specific field from a file into the provided vector." alt="" coords="917,56,1034,81"/>
+<area shape="poly" id="edge27_Node000023_Node000024" title=" " alt="" coords="569,76,617,44,649,27,682,15,728,5,765,3,802,7,849,15,897,29,939,48,937,52,895,34,847,21,801,12,765,8,729,11,683,21,651,32,620,48,572,81"/>
+<area shape="rect" id="Node000025" href="$io_8c.html#a45ad89f26c78131d2990f09126abba4b" title="Reads LES&#45;related fields." alt="" coords="707,31,823,56"/>
+<area shape="poly" id="edge28_Node000023_Node000025" title=" " alt="" coords="610,76,695,56,696,62,611,81"/>
+<area shape="rect" id="Node000026" href="$io_8c.html#a19e2e0b57afae458bae068610141c031" title="Reads RANS&#45;related fields." alt="" coords="701,80,830,105"/>
+<area shape="poly" id="edge30_Node000023_Node000026" title=" " alt="" coords="635,89,687,89,687,95,635,94"/>
+<area shape="rect" id="Node000027" href="$io_8c.html#a03f5b76975eea55434d764a23fd42623" title="Reads statistical fields for averaging purposes." alt="" coords="686,129,845,155"/>
+<area shape="poly" id="edge32_Node000023_Node000027" title=" " alt="" coords="608,101,699,124,698,129,607,107"/>
+<area shape="poly" id="edge29_Node000025_Node000024" title=" " alt="" coords="824,48,903,57,903,63,824,53"/>
+<area shape="poly" id="edge31_Node000026_Node000024" title=" " alt="" coords="830,83,902,74,903,80,830,88"/>
+<area shape="poly" id="edge33_Node000027_Node000024" title=" " alt="" coords="809,127,847,114,929,84,930,89,849,119,810,132"/>
+</map>

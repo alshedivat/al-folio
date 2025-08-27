@@ -1,0 +1,12 @@
+<map id="BCFaceToString" name="BCFaceToString">
+<area shape="rect" id="Node000001" title="Helper function to convert BCFace enum to a string representation." alt="" coords="609,29,731,55"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#adde32528a690c023bc98c9e56ae2f2fb" title="Displays a structured banner summarizing the simulation configuration." alt="" coords="145,5,262,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="595,41,262,24,262,18,595,36"/>
+<area shape="rect" id="Node000004" href="$Boundaries_8c.html#ae7f472e68b4ebad054e1391e5de8c9a0" title=" " alt="" coords="347,55,561,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="596,53,562,57,561,52,596,48"/>
+<area shape="rect" id="Node000003" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,31,60,42,60,37,131,26"/>
+<area shape="rect" id="Node000005" href="$setup_8c.html#ad9f399b16547eba3244159f7136a1eb9" title="(Orchestrator) Sets up all boundary conditions for the simulation." alt="" coords="108,55,299,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="333,70,299,70,299,65,333,65"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="99,55,60,50,61,44,100,50"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="UpdateSolverHistoryVectors" name="UpdateSolverHistoryVectors">
+<area shape="rect" id="Node000001" title="Copies the current time step&#39;s solution fields into history vectors (e.g., U(t_n) &#45;&gt; U_o,..." alt="" coords="321,55,527,80"/>
+<area shape="rect" id="Node000002" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="117,5,265,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="349,54,251,33,252,28,351,49"/>
+<area shape="rect" id="Node000004" href="$initialcondition_8c.html#ad0dd7d3f2528b6a7802fcd551e88ea99" title="High&#45;level orchestrator to set the complete initial state of the Eulerian solver." alt="" coords="108,55,273,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="308,70,273,70,273,65,308,65"/>
+<area shape="rect" id="Node000005" href="$simulation_8c.html#a4e2cad25ac1fbdc6745d6fd8fcc1bbc1" title="Finalizes the simulation setup at t=0, ensuring a consistent state before time marching." alt="" coords="117,104,265,129"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="351,85,252,107,251,101,349,80"/>
+<area shape="rect" id="Node000003" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="132,37,109,45,61,61,59,56,107,39,131,32"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="94,70,60,70,60,65,94,65"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="134,102,107,94,59,78,61,73,109,89,136,97"/>
+</map>

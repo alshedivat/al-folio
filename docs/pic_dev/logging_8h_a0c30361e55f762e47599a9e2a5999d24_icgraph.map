@@ -1,0 +1,7 @@
+<map id="set_allowed_functions" name="set_allowed_functions">
+<area shape="rect" id="Node000001" title="Sets the global list of function names that are allowed to log." alt="" coords="343,5,509,31"/>
+<area shape="rect" id="Node000002" href="$setup_8c.html#a977df65dac293c1308451334cb198693" title="Allocates and populates the master SimulationContext object." alt="" coords="108,5,295,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="329,21,295,21,295,15,329,15"/>
+<area shape="rect" id="Node000003" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ReadSwarmField" name="ReadSwarmField">
+<area shape="rect" id="Node000001" title="Reads data from a file into a specified field of a PETSc DMSwarm." alt="" coords="5,5,136,31"/>
+<area shape="rect" id="Node000002" href="$io_8c.html#a570806d7e0694b5d996e0c6018b48908" title="Reads data for a specific field from a file into the provided vector." alt="" coords="184,5,301,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,15,170,15,170,21,136,21"/>
+</map>

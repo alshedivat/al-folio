@@ -1,0 +1,9 @@
+<map id="CheckAndFixGridOrientation" name="CheckAndFixGridOrientation">
+<area shape="rect" id="Node000001" title="Ensure a right&#45;handed metric basis (Csi, Eta, Zet) and a positive Jacobian (Aj) over the whole domain..." alt="" coords="5,31,212,56"/>
+<area shape="rect" id="Node000002" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="260,31,408,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="212,41,246,41,246,46,212,46"/>
+<area shape="rect" id="Node000003" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="477,5,586,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="408,31,463,24,463,29,409,36"/>
+<area shape="rect" id="Node000004" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="456,55,607,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="409,50,443,54,442,59,408,55"/>
+</map>

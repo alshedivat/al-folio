@@ -1,0 +1,15 @@
+<map id="CreateParticleSwarm" name="CreateParticleSwarm">
+<area shape="rect" id="Node000001" title="Creates and initializes a Particle Swarm." alt="" coords="5,104,164,129"/>
+<area shape="rect" id="Node000002" href="$ParticleSwarm_8c.html#a1cc0975a3eec2e2f817d0e3a09040620" title="Distributes particles evenly across MPI processes, handling any remainders." alt="" coords="223,5,364,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,102,151,71,211,40,229,33,231,38,213,44,153,76,106,106"/>
+<area shape="rect" id="Node000003" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="239,55,348,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="138,101,225,81,226,86,140,107"/>
+<area shape="rect" id="Node000004" href="$ParticleSwarm_8c.html#ac3566e0b51587686bc6c1366a67c44af" title="Initializes the DMSwarm object within the UserCtx structure." alt="" coords="232,104,355,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="164,114,218,114,218,119,164,119"/>
+<area shape="rect" id="Node000005" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="218,153,369,179"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="140,127,226,148,225,153,138,132"/>
+<area shape="rect" id="Node000006" href="$ParticleSwarm_8c.html#aeae3fd559e91d7379302acb6ccd13011" title="Registers necessary particle fields within the DMSwarm." alt="" coords="212,203,375,228"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="106,127,154,157,213,188,234,196,232,201,211,192,151,161,104,132"/>
+<area shape="rect" id="Node000007" href="$ParticleSwarm_8c.html#a1b5741b17ffa7a57d8c1f6636e956d08" title="Registers a swarm field without finalizing registration." alt="" coords="423,203,575,228"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="375,213,409,213,409,218,375,218"/>
+</map>

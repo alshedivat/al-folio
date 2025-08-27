@@ -1,0 +1,23 @@
+<map id="FormBCS" name="FormBCS">
+<area shape="rect" id="Node000001" title=" " alt="" coords="784,95,865,121"/>
+<area shape="rect" id="Node000002" href="$Boundaries_8c.html#a47c050460ff0da893f9510ee9a459bfa" title="Acts as a temporary bridge to the legacy boundary condition implementation." alt="" coords="516,5,736,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="791,90,735,60,703,48,705,43,737,55,794,85"/>
+<area shape="rect" id="Node000003" href="$initialcondition_8c.html#af6a26611066aa455efddcca2fd80fe35" title="(HELPER) Finalizes a block&#39;s state by applying BCs, converting to Cartesian, and synchronizing ghost ..." alt="" coords="555,70,697,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="770,104,697,94,698,89,771,98"/>
+<area shape="rect" id="Node000007" href="$implicitsolvers_8c.html#a148a238901a4674420c87137c087e3ac" title="Advances the momentum equations using an iterative explicit Runge&#45;Kutta scheme." alt="" coords="593,119,659,145"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="770,117,660,131,659,125,770,112"/>
+<area shape="rect" id="Node000010" href="$implicitsolvers_8c.html#a89ae58d48076ba82dc70438b5e389bf5" title="Advances the momentum equations using an explicit 4th&#45;order Runge&#45;Kutta scheme." alt="" coords="577,169,675,194"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="794,130,737,160,675,177,674,171,735,155,792,126"/>
+<area shape="rect" id="Node000004" href="$initialcondition_8c.html#a51d0251f84a962a611ff0c0a8797a3e4" title="(HELPER) Sets the t=0 fluid state for all blocks." alt="" coords="321,63,468,103"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="540,85,468,85,468,80,540,80"/>
+<area shape="rect" id="Node000005" href="$initialcondition_8c.html#ad0dd7d3f2528b6a7802fcd551e88ea99" title="High&#45;level orchestrator to set the complete initial state of the Eulerian solver." alt="" coords="108,73,273,98"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="308,86,274,87,273,82,308,81"/>
+<area shape="rect" id="Node000006" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,99,60,125"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="102,103,60,110,60,105,101,98"/>
+<area shape="rect" id="Node000008" href="$solvers_8c.html#a2ed4825273a593f371a3d48071708255" title="Orchestrates a single time step of the Eulerian fluid solver." alt="" coords="344,127,445,153"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="580,136,446,141,445,136,579,131"/>
+<area shape="rect" id="Node000009" href="$simulation_8c.html#a5cfb2f783604af7f20171d19f969d5d3" title="Executes the main time&#45;marching loop for the particle simulation." alt="" coords="117,123,265,149"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="330,141,265,140,265,135,330,136"/>
+<area shape="poly" id="edge9_Node000009_Node000006" title=" " alt="" coords="102,125,60,119,61,113,103,120"/>
+<area shape="poly" id="edge11_Node000010_Node000008" title=" " alt="" coords="564,173,445,152,446,146,565,168"/>
+</map>

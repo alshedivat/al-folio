@@ -1,0 +1,17 @@
+<map id="SetupDomainRankInfo" name="SetupDomainRankInfo">
+<area shape="rect" id="Node000001" title="Sets up the full rank communication infrastructure, including neighbor ranks and bounding box exchang..." alt="" coords="5,80,173,105"/>
+<area shape="rect" id="Node000002" href="$grid_8c.html#a325b9d5da4b9b2c79d278fb848215632" title="Broadcasts the bounding box information collected on rank 0 to all other ranks." alt="" coords="250,5,454,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,77,166,58,221,39,256,31,257,36,222,45,167,63,120,82"/>
+<area shape="rect" id="Node000003" href="$setup_8c.html#a4d7b90ec69412357cf8c38ea8f4e71f6" title="Computes and stores the Cartesian neighbor ranks for the DMDA decomposition." alt="" coords="233,55,471,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,82,219,78,219,83,174,87"/>
+<area shape="rect" id="Node000004" href="$grid_8c.html#afac52c252de784d5bcd7fe7a2e642982" title="Gathers local bounding boxes from all MPI processes to rank 0." alt="" coords="261,104,443,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="174,98,247,104,247,110,173,103"/>
+<area shape="rect" id="Node000006" href="$setup_8c.html#aeb77337317f41972d1c75c8d80527892" title="Creates and distributes a map of the domain&#39;s cell decomposition to all ranks." alt="" coords="221,153,483,179"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="122,103,222,138,263,148,262,153,221,143,120,108"/>
+<area shape="rect" id="Node000005" href="$grid_8c.html#ae0c39bc7c78a15bedf9f1415ab1dded4" title="Computes the local bounding box of the grid on the current process." alt="" coords="531,104,732,129"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="444,114,517,114,517,119,444,119"/>
+<area shape="rect" id="Node000007" href="$setup_8c.html#a25ce912d8aafa319a8c915cd350c7322" title="Gets the global cell range for a rank, including boundary cells." alt="" coords="549,153,714,179"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="483,163,535,163,535,169,483,169"/>
+<area shape="rect" id="Node000008" href="$setup_8c.html#a135027905841ed83f1a3ef2279d865cc" title="Gets the global starting index of cells owned by this rank and the number of such cells." alt="" coords="780,153,936,179"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="714,163,766,163,766,169,714,169"/>
+</map>

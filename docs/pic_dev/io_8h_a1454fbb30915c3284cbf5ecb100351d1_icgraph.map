@@ -1,0 +1,11 @@
+<map id="ReadGridFile" name="ReadGridFile">
+<area shape="rect" id="Node000001" title="Sets grid dimensions from a file for a SINGLE block using a one&#45;time read cache." alt="" coords="767,5,872,31"/>
+<area shape="rect" id="Node000002" href="$grid_8c.html#a526448d3a1e34b608f7167a59f1d7e04" title="Determines the grid source and calls the appropriate parsing routine." alt="" coords="548,5,719,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="753,21,719,21,719,15,753,15"/>
+<area shape="rect" id="Node000003" href="$grid_8c.html#a04f0887f08166a2a8d01411f39fa1a40" title="Orchestrates the parsing and setting of grid dimensions for all blocks." alt="" coords="315,5,500,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="534,21,500,21,500,15,534,15"/>
+<area shape="rect" id="Node000004" href="$setup_8c.html#a2be2815aeb79afe9b95caf39c7b3312c" title="The main orchestrator for setting up all grid&#45;related components." alt="" coords="108,5,267,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="301,21,267,21,267,15,301,15"/>
+<area shape="rect" id="Node000005" href="$picsolver_8c.html#a3c04138a5bfe5d72780bb7e82a18e627" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,21,60,21,60,15,94,15"/>
+</map>

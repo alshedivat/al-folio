@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['validatebchandlerforbctype_0',['validatebchandlerforbctype',['../io_8h.html#a5fe767286174b757deb2d404f2b4843f',1,'ValidateBCHandlerForBCType(BCType type, BCHandlerType handler):&#160;io.c'],['../io_8c.html#a5fe767286174b757deb2d404f2b4843f',1,'ValidateBCHandlerForBCType(BCType type, BCHandlerType handler):&#160;io.c']]],
+  ['vectoarrayonrank0_1',['vectoarrayonrank0',['../io_8h.html#aa3512c89570bb1d27f4765819fad4985',1,'VecToArrayOnRank0(Vec inVec, PetscInt *N, double **arrayOut):&#160;io.c'],['../io_8c.html#aa3512c89570bb1d27f4765819fad4985',1,'VecToArrayOnRank0(Vec inVec, PetscInt *N, double **arrayOut):&#160;io.c']]],
+  ['viscous_2',['viscous',['../rhs_8h.html#a3e0cf2a027c25bb1f6510d4a7e5d4870',1,'Viscous(UserCtx *user, Vec Ucont, Vec Ucat, Vec Visc):&#160;rhs.c'],['../rhs_8c.html#a3e0cf2a027c25bb1f6510d4a7e5d4870',1,'Viscous(UserCtx *user, Vec Ucont, Vec Ucat, Vec Visc):&#160;rhs.c']]],
+  ['volumeflux_3',['volumeflux',['../poisson_8h.html#a8c4cb4c082ab40cc20db95c962fc1d5c',1,'VolumeFlux(UserCtx *user, PetscReal *ibm_Flux, PetscReal *ibm_Area, PetscInt flg):&#160;poisson.c'],['../poisson_8c.html#a8c4cb4c082ab40cc20db95c962fc1d5c',1,'VolumeFlux(UserCtx *user, PetscReal *ibm_Flux, PetscReal *ibm_Area, PetscInt flg):&#160;poisson.c']]],
+  ['volumeflux_5frev_4',['volumeflux_rev',['../poisson_8h.html#a34f6242556bffd27f00a84b377c1bf9d',1,'VolumeFlux_rev(UserCtx *user, PetscReal *ibm_Flux, PetscReal *ibm_Area, PetscInt flg):&#160;poisson.c'],['../poisson_8c.html#a34f6242556bffd27f00a84b377c1bf9d',1,'VolumeFlux_rev(UserCtx *user, PetscReal *ibm_Flux, PetscReal *ibm_Area, PetscInt flg):&#160;poisson.c']]]
+];

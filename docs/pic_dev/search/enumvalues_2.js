@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['characteristic_5fbc_0',['CHARACTERISTIC_BC',['../variables_8h.html#a0a00003814ee8095a2c39d1d5cba08faa9ee1404b18b6acf6db149de82f6d677d',1,'variables.h']]]
+];

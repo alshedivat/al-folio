@@ -1,0 +1,36 @@
+<map id="CalculateAllGridMetrics" name="CalculateAllGridMetrics">
+<area shape="rect" id="Node000001" title="Orchestrates the calculation of all grid metrics." alt="" coords="5,219,180,244"/>
+<area shape="rect" id="Node000002" href="$Metric_8c.html#a436bb94905ee06971f632571f5bc8cbb" title="Ensure a right&#45;handed metric basis (Csi, Eta, Zet) and a positive Jacobian (Aj) over the whole domain..." alt="" coords="241,5,447,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,217,113,182,141,134,179,83,201,61,227,41,240,34,242,38,229,46,205,65,183,87,145,137,118,184,102,219"/>
+<area shape="rect" id="Node000006" href="$Metric_8c.html#a92d28e2f14645b0eb563144f4ccf2b49" title="Calculates the cell&#45;centered inverse Jacobian determinant (1/J), including boundary extrapolation,..." alt="" coords="234,55,454,95"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="102,217,152,163,187,132,227,105,240,98,243,103,229,110,191,136,156,167,106,220"/>
+<area shape="rect" id="Node000007" href="$Metric_8c.html#a46e70c0ae8f36f97321c5c892fc56be5" title="Computes the physical location of cell centers and the spacing between them." alt="" coords="228,120,460,145"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="111,216,162,185,227,154,252,146,253,151,229,159,165,190,114,221"/>
+<area shape="rect" id="Node000008" href="$Metric_8c.html#a6f0dfb324211e230a387501f93cfd316" title="Computes the primary face metric components (Csi, Eta, Zet), including boundary extrapolation,..." alt="" coords="265,169,423,195"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="158,216,265,195,266,200,159,221"/>
+<area shape="rect" id="Node000009" href="$Metric_8c.html#af935307ea3e9727a63b6ef9a3932caa8" title="Computes metrics centered on constant&#45;i faces (i&#45;faces)." alt="" coords="263,219,425,244"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="180,229,249,229,249,234,180,234"/>
+<area shape="rect" id="Node000010" href="$Metric_8c.html#a4ecbe44ffb23d82193f9278ab61c1b47" title="Computes metrics centered on constant&#45;j faces (j&#45;faces)." alt="" coords="263,268,425,293"/>
+<area shape="poly" id="edge13_Node000001_Node000010" title=" " alt="" coords="159,241,266,263,265,268,158,247"/>
+<area shape="rect" id="Node000011" href="$Metric_8c.html#a95e22e5238b2cd02b992366766730687" title="Computes metrics centered on constant&#45;k faces (k&#45;faces)." alt="" coords="261,317,427,343"/>
+<area shape="poly" id="edge15_Node000001_Node000011" title=" " alt="" coords="115,242,165,272,229,302,258,311,256,316,227,307,163,277,112,246"/>
+<area shape="rect" id="Node000012" href="$Metric_8c.html#a2a99180f2d9db426e1cf73771b795498" title="Computes the max&#45;min values of the grid metrics." alt="" coords="261,367,427,392"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="106,242,155,296,190,326,229,352,249,360,247,365,227,356,187,331,151,300,102,246"/>
+<area shape="rect" id="Node000014" href="$Metric_8c.html#a63e70e9aa6a59c320cb2b1af6bd0a7e6" title="Computes the divergence of the grid metrics and identifies the maximum value." alt="" coords="243,416,445,441"/>
+<area shape="poly" id="edge19_Node000001_Node000014" title=" " alt="" coords="102,243,120,276,147,320,184,365,229,402,240,408,238,413,227,407,180,369,143,323,115,279,98,246"/>
+<area shape="rect" id="Node000003" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="508,169,656,195"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="433,28,461,41,496,67,526,98,569,156,564,159,522,101,492,71,459,46,430,33"/>
+<area shape="rect" id="Node000004" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="725,144,834,169"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="656,170,711,163,711,168,657,175"/>
+<area shape="rect" id="Node000005" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="704,193,855,219"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="657,188,691,193,690,198,656,194"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="429,93,461,105,511,131,554,159,551,163,508,136,459,110,427,98"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="407,143,461,154,507,164,506,169,459,159,405,148"/>
+<area shape="poly" id="edge10_Node000008_Node000003" title=" " alt="" coords="424,179,494,179,494,185,424,185"/>
+<area shape="poly" id="edge12_Node000009_Node000003" title=" " alt="" coords="405,216,506,195,507,200,406,221"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="419,265,459,253,509,228,551,201,554,205,511,233,461,258,421,270"/>
+<area shape="poly" id="edge16_Node000011_Node000003" title=" " alt="" coords="427,315,459,302,491,281,519,255,562,204,566,207,523,258,494,285,461,307,429,320"/>
+<area shape="rect" id="Node000013" href="$Metric_8c.html#a3d538200fed5b9ee9d1ef391bb61036c" title=" " alt="" coords="556,391,608,416"/>
+<area shape="poly" id="edge18_Node000012_Node000013" title=" " alt="" coords="427,385,543,397,542,402,427,390"/>
+<area shape="poly" id="edge20_Node000014_Node000013" title=" " alt="" coords="445,415,542,405,543,410,446,421"/>
+</map>

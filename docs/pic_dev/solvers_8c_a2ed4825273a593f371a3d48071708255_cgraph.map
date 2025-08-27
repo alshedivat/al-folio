@@ -1,0 +1,109 @@
+<map id="Flow_Solver" name="Flow_Solver">
+<area shape="rect" id="Node000001" title="Orchestrates a single time step of the Eulerian fluid solver." alt="" coords="5,304,107,329"/>
+<area shape="rect" id="Node000002" href="$setup_8c.html#accdc3f1a3e5c7e95c6bdde11cde3b236" title=" " alt="" coords="208,31,304,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,303,90,219,118,166,153,115,184,85,218,61,221,65,188,89,157,118,122,168,95,222,64,305"/>
+<area shape="rect" id="Node000004" href="$implicitsolvers_8c.html#a148a238901a4674420c87137c087e3ac" title="Advances the momentum equations using an iterative explicit Runge&#45;Kutta scheme." alt="" coords="223,129,289,155"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="59,303,71,274,91,236,118,197,153,164,180,150,209,143,210,148,182,155,156,168,122,200,95,239,76,276,64,305"/>
+<area shape="rect" id="Node000024" href="$logging_8c.html#ab2315d3303d45c97ca55836603a8acd3" title="Logs continuity metrics for a single block to a file." alt="" coords="155,328,357,353"/>
+<area shape="poly" id="edge26_Node000001_Node000024" title=" " alt="" coords="107,320,141,324,141,329,107,325"/>
+<area shape="rect" id="Node000025" href="$poisson_8c.html#acfdf6d56006b1b5f68d400deb6cf0959" title="Solves the pressure&#45;Poisson equation using a geometric multigrid method." alt="" coords="185,575,327,600"/>
+<area shape="poly" id="edge27_Node000001_Node000025" title=" " alt="" coords="69,328,239,562,235,565,64,331"/>
+<area shape="rect" id="Node000039" href="$poisson_8c.html#a34a113dcc9ca606d914c3d021a4d85fc" title="Corrects the contravariant velocity field Ucont to be divergence&#45;free using the gradient of the press..." alt="" coords="213,279,299,304"/>
+<area shape="poly" id="edge42_Node000001_Node000039" title=" " alt="" coords="107,308,198,296,199,301,107,313"/>
+<area shape="rect" id="Node000045" href="$implicitsolvers_8c.html#a89ae58d48076ba82dc70438b5e389bf5" title="Advances the momentum equations using an explicit 4th&#45;order Runge&#45;Kutta scheme." alt="" coords="207,179,305,204"/>
+<area shape="poly" id="edge49_Node000001_Node000045" title=" " alt="" coords="76,302,221,209,224,214,79,306"/>
+<area shape="rect" id="Node000046" href="$setup_8c.html#ad5f82951adcce74b3d37cb5880acf43a" title="Updates the local vector (including ghost points) from its corresponding global vector." alt="" coords="435,896,583,921"/>
+<area shape="poly" id="edge54_Node000001_Node000046" title=" " alt="" coords="62,329,72,377,91,449,119,530,157,610,200,664,276,752,356,836,407,882,423,890,421,895,404,887,352,840,273,755,196,668,152,613,114,532,86,450,67,379,57,330"/>
+<area shape="rect" id="Node000049" href="$poisson_8c.html#a7cf2cfc0383ba0076f827f7d3856f2ed" title="Updates the pressure field P with the pressure correction Phi computed by the Poisson solver." alt="" coords="193,859,319,884"/>
+<area shape="poly" id="edge57_Node000001_Node000049" title=" " alt="" coords="61,329,70,391,88,488,117,603,135,661,157,717,197,789,238,846,233,849,192,792,152,719,130,663,112,604,83,489,65,392,56,330"/>
+<area shape="rect" id="Node000003" href="$setup_8c.html#a3d538200fed5b9ee9d1ef391bb61036c" title=" " alt="" coords="483,5,535,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="304,36,470,19,470,25,305,41"/>
+<area shape="rect" id="Node000005" href="$Boundaries_8c.html#adcd96cff4b9e15e03cdff9f5ea695dec" title=" " alt="" coords="469,153,550,179"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="289,142,455,158,454,164,289,148"/>
+<area shape="rect" id="Node000014" href="$rhs_8c.html#ae8a0a7cb4587034d295f6c7f23d70465" title="Computes the Right&#45;Hand Side (RHS) of the momentum equations." alt="" coords="450,104,569,129"/>
+<area shape="poly" id="edge15_Node000004_Node000014" title=" " alt="" coords="289,136,436,121,437,127,289,141"/>
+<area shape="rect" id="Node000021" href="$Boundaries_8c.html#abd9b573f8f42ea93e265da37a0673f24" title=" " alt="" coords="465,55,554,80"/>
+<area shape="poly" id="edge23_Node000004_Node000021" title=" " alt="" coords="288,128,405,89,450,77,452,82,406,94,290,133"/>
+<area shape="rect" id="Node000023" href="$Boundaries_8c.html#a684320111be78b3001fda2ba25638e79" title=" " alt="" coords="459,203,559,228"/>
+<area shape="poly" id="edge25_Node000004_Node000023" title=" " alt="" coords="290,145,358,164,383,176,406,188,447,200,445,205,404,192,380,180,356,168,288,150"/>
+<area shape="rect" id="Node000006" href="$setup_8c.html#a515c9a96eb4bcac29f79e78c8882d7aa" title="Reconstructs Cartesian velocity (Ucat) at cell centers from contravariant velocity (Ucont) defined on..." alt="" coords="691,153,791,179"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="550,163,677,163,677,169,550,169"/>
+<area shape="rect" id="Node000007" href="$wallfunction_8c.html#a82a96fd4f826d93b926bea9bb776b93e" title=" " alt="" coords="710,203,771,228"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="551,172,697,203,696,209,550,177"/>
+<area shape="rect" id="Node000008" href="$wallfunction_8c.html#aae67d9282b09691fffdea6f1012e6df7" title=" " alt="" coords="661,252,820,277"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="551,167,583,175,615,188,630,200,640,213,649,225,663,237,677,244,674,249,660,242,645,229,635,216,627,204,612,192,581,180,550,172"/>
+<area shape="rect" id="Node000009" href="$wallfunction_8c.html#aa22aca64a54a00ccaf354357cc1c0760" title=" " alt="" coords="878,201,1011,227"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="792,249,879,227,881,233,793,254"/>
+<area shape="rect" id="Node000013" href="$wallfunction_8c.html#a071e294d71e268c014aa6047acb64730" title=" " alt="" coords="1093,252,1248,277"/>
+<area shape="poly" id="edge13_Node000008_Node000013" title=" " alt="" coords="820,262,1080,262,1080,267,820,267"/>
+<area shape="rect" id="Node000010" href="$wallfunction_8c.html#a39f08431792fc8f96ea8659756dfd749" title=" " alt="" coords="1127,203,1214,228"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1012,212,1114,212,1114,218,1012,217"/>
+<area shape="rect" id="Node000011" href="$wallfunction_8c.html#ac7ee38b34b5a56a4e5c01a02c290229b" title=" " alt="" coords="1357,201,1436,227"/>
+<area shape="poly" id="edge12_Node000009_Node000011" title=" " alt="" coords="999,199,1069,187,1171,181,1272,187,1345,199,1344,204,1272,193,1171,186,1070,193,1000,204"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="1214,212,1343,212,1343,217,1214,218"/>
+<area shape="rect" id="Node000012" href="$wallfunction_8c.html#a5a5ea51c16915866975995631c0d2923" title=" " alt="" coords="1521,227,1591,252"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="1437,218,1508,229,1507,234,1436,223"/>
+<area shape="poly" id="edge14_Node000013_Node000012" title=" " alt="" coords="1248,257,1507,240,1508,245,1248,262"/>
+<area shape="poly" id="edge16_Node000014_Node000006" title=" " alt="" coords="570,127,678,150,676,155,568,132"/>
+<area shape="rect" id="Node000015" href="$rhs_8c.html#a59a4e489633014a0f4e1e85318d395d3" title=" " alt="" coords="693,55,788,80"/>
+<area shape="poly" id="edge17_Node000014_Node000015" title=" " alt="" coords="568,101,679,78,680,83,570,107"/>
+<area shape="rect" id="Node000016" href="$rhs_8c.html#a3e0cf2a027c25bb1f6510d4a7e5d4870" title=" " alt="" coords="705,104,777,129"/>
+<area shape="poly" id="edge18_Node000014_Node000016" title=" " alt="" coords="569,114,691,114,691,119,569,119"/>
+<area shape="rect" id="Node000017" href="$rhs_8c.html#ad963b19ced6286425dc175745e4831ef" title=" " alt="" coords="876,79,1013,104"/>
+<area shape="poly" id="edge19_Node000016_Node000017" title=" " alt="" coords="777,110,862,99,863,104,777,115"/>
+<area shape="rect" id="Node000020" href="$wallfunction_8c.html#adc08703381597f75ccb620bf30d90ae1" title=" " alt="" coords="919,128,970,153"/>
+<area shape="poly" id="edge22_Node000016_Node000020" title=" " alt="" coords="777,118,905,133,905,139,777,123"/>
+<area shape="rect" id="Node000018" href="$rhs_8c.html#a3b9843c09e4984afec9e44b685ef1a43" title=" " alt="" coords="1069,79,1272,104"/>
+<area shape="poly" id="edge20_Node000017_Node000018" title=" " alt="" coords="1014,89,1055,89,1055,94,1014,94"/>
+<area shape="rect" id="Node000019" href="$rhs_8c.html#a932a672b919024b4d158a3b3ba569ac5" title=" " alt="" coords="1320,71,1473,111"/>
+<area shape="poly" id="edge21_Node000018_Node000019" title=" " alt="" coords="1273,89,1306,89,1306,94,1273,94"/>
+<area shape="rect" id="Node000022" href="$Boundaries_8c.html#aa8017de37ede2f3151c445aafec42714" title=" " alt="" coords="673,5,808,31"/>
+<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="554,55,667,31,668,36,555,61"/>
+<area shape="rect" id="Node000026" href="$logging_8c.html#ab0414bd7dfd804d39019da707808a819" title="A custom KSP monitor that logs to a file and optionally to the console." alt="" coords="446,600,573,625"/>
+<area shape="poly" id="edge28_Node000025_Node000026" title=" " alt="" coords="328,592,433,602,432,608,327,597"/>
+<area shape="rect" id="Node000027" href="$logging_8c.html#a26f628c9bae473d94674a1a97641b474" title="Destroys the DualMonitorCtx." alt="" coords="433,649,586,675"/>
+<area shape="poly" id="edge29_Node000025_Node000027" title=" " alt="" coords="294,598,406,634,440,643,439,649,405,639,292,603"/>
+<area shape="rect" id="Node000028" href="$poisson_8c.html#aaec10e12d0e5fba6c1f53e47d62b6efe" title=" " alt="" coords="457,699,561,724"/>
+<area shape="poly" id="edge30_Node000025_Node000028" title=" " alt="" coords="274,598,330,640,367,663,406,684,445,697,443,702,404,688,365,668,327,645,271,602"/>
+<area shape="rect" id="Node000029" href="$poisson_8c.html#aa2fc17959230252f30b2278d81a16caf" title="The callback function for the multigrid interpolation operator (MatShell)." alt="" coords="447,748,572,773"/>
+<area shape="poly" id="edge31_Node000025_Node000029" title=" " alt="" coords="274,598,359,679,382,709,391,721,407,733,434,745,432,750,404,738,387,725,377,712,355,682,270,602"/>
+<area shape="rect" id="Node000030" href="$poisson_8c.html#a0f0addfc422c642ad5eb5315ace4ff2f" title=" " alt="" coords="435,797,583,823"/>
+<area shape="poly" id="edge32_Node000025_Node000030" title=" " alt="" coords="277,598,317,632,360,679,374,709,380,736,388,760,407,784,424,794,421,799,404,788,383,763,375,737,369,711,355,682,313,636,273,602"/>
+<area shape="rect" id="Node000032" href="$poisson_8c.html#a26f0e6321b7ace56b3b105e1eb10475e" title="Assembles the Left&#45;Hand Side (LHS) matrix for the Pressure Poisson Equation." alt="" coords="446,353,573,379"/>
+<area shape="poly" id="edge34_Node000025_Node000032" title=" " alt="" coords="261,573,280,536,310,485,352,433,377,408,404,388,432,375,434,380,407,392,380,412,356,436,315,489,284,539,266,575"/>
+<area shape="rect" id="Node000034" href="$poisson_8c.html#a2648a0c6cafb7916a706cd757e5b92f5" title="The callback function for PETSc&#39;s MatNullSpace object." alt="" coords="413,403,605,428"/>
+<area shape="poly" id="edge36_Node000025_Node000034" title=" " alt="" coords="264,573,318,507,358,469,404,437,418,430,420,435,407,442,361,473,322,511,268,576"/>
+<area shape="rect" id="Node000035" href="$poisson_8c.html#a9340445ae2c0a3c7be290e2a1aea3d67" title="Computes the Right&#45;Hand&#45;Side (RHS) of the Poisson equation, which is the divergence of the intermedia..." alt="" coords="460,452,559,477"/>
+<area shape="poly" id="edge37_Node000025_Node000035" title=" " alt="" coords="271,572,327,530,365,506,404,486,446,473,448,478,406,491,367,511,330,534,274,576"/>
+<area shape="rect" id="Node000036" href="$poisson_8c.html#a85e1eff3b6e34605b863323d6336eecd" title=" " alt="" coords="405,847,613,872"/>
+<area shape="poly" id="edge38_Node000025_Node000036" title=" " alt="" coords="278,598,319,632,341,654,360,679,371,702,376,723,379,762,384,798,392,816,407,833,412,837,408,841,403,837,387,819,378,800,373,763,371,724,366,704,355,682,337,658,315,636,275,602"/>
+<area shape="rect" id="Node000037" href="$poisson_8c.html#a8c4cb4c082ab40cc20db95c962fc1d5c" title="Calculates the net flux across the immersed boundary surface." alt="" coords="460,501,559,527"/>
+<area shape="poly" id="edge40_Node000025_Node000037" title=" " alt="" coords="292,572,405,535,446,525,447,530,406,541,293,577"/>
+<area shape="rect" id="Node000038" href="$poisson_8c.html#a34f6242556bffd27f00a84b377c1bf9d" title="A specialized version of VolumeFlux, likely for reversed normals." alt="" coords="446,551,573,576"/>
+<area shape="poly" id="edge41_Node000025_Node000038" title=" " alt="" coords="327,578,432,568,433,573,328,583"/>
+<area shape="rect" id="Node000031" href="$poisson_8c.html#afe58ccf2bd0a359903645f7a0ee76485" title=" " alt="" coords="681,809,800,835"/>
+<area shape="poly" id="edge33_Node000030_Node000031" title=" " alt="" coords="584,811,668,816,667,821,584,816"/>
+<area shape="rect" id="Node000033" href="$poisson_8c.html#a3d538200fed5b9ee9d1ef391bb61036c" title=" " alt="" coords="715,401,767,427"/>
+<area shape="poly" id="edge35_Node000032_Node000033" title=" " alt="" coords="572,376,702,403,701,409,571,381"/>
+<area shape="poly" id="edge39_Node000036_Node000031" title=" " alt="" coords="588,844,667,831,668,836,589,849"/>
+<area shape="poly" id="edge43_Node000039_Node000006" title=" " alt="" coords="299,291,363,291,443,284,530,268,572,254,612,237,627,226,636,214,645,201,660,188,676,179,679,184,663,192,649,204,640,217,631,230,615,242,574,259,531,273,444,290,363,296,299,296"/>
+<area shape="rect" id="Node000040" href="$poisson_8c.html#a6046e36e2334fa29a86d652a0b8f0593" title=" " alt="" coords="436,304,583,329"/>
+<area shape="poly" id="edge44_Node000039_Node000040" title=" " alt="" coords="300,293,422,305,422,311,300,298"/>
+<area shape="rect" id="Node000041" href="$poisson_8c.html#aa52d855d542bca0968fd51febf43adc0" title=" " alt="" coords="673,352,809,377"/>
+<area shape="poly" id="edge45_Node000040_Node000041" title=" " alt="" coords="572,327,666,347,665,352,571,332"/>
+<area shape="rect" id="Node000043" href="$wallfunction_8c.html#a74ed1b371c557b826d503a1627351eec" title=" " alt="" coords="686,303,795,328"/>
+<area shape="poly" id="edge47_Node000040_Node000043" title=" " alt="" coords="583,314,673,313,673,318,583,319"/>
+<area shape="rect" id="Node000042" href="$poisson_8c.html#a932a672b919024b4d158a3b3ba569ac5" title=" " alt="" coords="868,353,1021,393"/>
+<area shape="poly" id="edge46_Node000041_Node000042" title=" " alt="" coords="809,365,854,366,854,372,809,370"/>
+<area shape="rect" id="Node000044" href="$wallfunction_8c.html#a7ded59b6a455ad3a8db66bea549aa82d" title=" " alt="" coords="903,303,986,328"/>
+<area shape="poly" id="edge48_Node000043_Node000044" title=" " alt="" coords="795,313,889,313,889,318,795,318"/>
+<area shape="poly" id="edge50_Node000045_Node000005" title=" " alt="" coords="305,184,454,169,455,174,305,189"/>
+<area shape="poly" id="edge51_Node000045_Node000014" title=" " alt="" coords="304,179,356,164,380,151,404,138,436,128,437,133,406,143,383,156,358,168,306,184"/>
+<area shape="poly" id="edge52_Node000045_Node000021" title=" " alt="" coords="304,184,331,177,356,164,372,146,379,128,386,108,404,89,426,77,451,70,452,75,428,82,407,93,391,111,384,130,376,149,359,168,333,182,305,189"/>
+<area shape="poly" id="edge53_Node000045_Node000023" title=" " alt="" coords="305,193,446,207,445,212,305,199"/>
+<area shape="rect" id="Node000047" href="$logging_8c.html#a9585f583c260f40a73f2490914edc689" title="Retrieves the current logging level from the environment variable LOG_LEVEL." alt="" coords="686,883,795,908"/>
+<area shape="poly" id="edge55_Node000046_Node000047" title=" " alt="" coords="583,902,672,897,672,902,584,907"/>
+<area shape="rect" id="Node000048" href="$logging_8c.html#a2358badbcda33fc9d80ebd6a59d2a2cd" title="Checks if a given function is in the allow&#45;list." alt="" coords="665,932,816,957"/>
+<area shape="poly" id="edge56_Node000046_Node000048" title=" " alt="" coords="584,918,652,928,651,933,583,923"/>
+<area shape="poly" id="edge58_Node000049_Node000046" title=" " alt="" coords="320,878,422,893,422,898,319,883"/>
+</map>
