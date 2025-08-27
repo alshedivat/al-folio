@@ -1,7 +1,1 @@
-var index =
-[
-    [ "🔧 Key Features", "index.html#keyfeatures", null ],
-    [ "🚀 Getting Started", "index.html#gettingstarted", null ],
-    [ "Directory Structure", "index.html#directorystructure", null ],
-    [ "▶️ Running The Code", "index.html#running", null ]
-];
+var index=[["\ud83d\udd27 Key Features","index.html#keyfeatures",null],["\ud83d\ude80 Getting Started","index.html#gettingstarted",null],["Directory Structure","index.html#directorystructure",null],["\u25b6\ufe0f Running The Code","index.html#running",null]];

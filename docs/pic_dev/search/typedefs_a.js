@@ -1,5 +1,1 @@
-var searchData=
-[
-  ['userctx_0',['userctx',['../variables_8h.html#a8af80dea40db36357149fbf3f19bdb1e',1,'UserCtx:&#160;variables.h'],['../variables__old_8h.html#a8af80dea40db36357149fbf3f19bdb1e',1,'UserCtx:&#160;variables_old.h']]],
-  ['usermg_1',['UserMG',['../variables_8h.html#a4fbd51eff54ceced404bfcd85622fdeb',1,'variables.h']]]
-];
+var searchData=[["userctx_0",["userctx",["../variables_8h.html#a8af80dea40db36357149fbf3f19bdb1e",1,"UserCtx:&#160;variables.h"],["../variables__old_8h.html#a8af80dea40db36357149fbf3f19bdb1e",1,"UserCtx:&#160;variables_old.h"]]],["usermg_1",["UserMG",["../variables_8h.html#a4fbd51eff54ceced404bfcd85622fdeb",1,"variables.h"]]]];

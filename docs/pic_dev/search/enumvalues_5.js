@@ -1,4 +1,1 @@
-var searchData=
-[
-  ['junction_0',['JUNCTION',['../variables_8h.html#a0a00003814ee8095a2c39d1d5cba08faaf450e16147ffcf97341b35890aa4056c',1,'variables.h']]]
-];
+var searchData=[["junction_0",["JUNCTION",["../variables_8h.html#a0a00003814ee8095a2c39d1d5cba08faaf450e16147ffcf97341b35890aa4056c",1,"variables.h"]]]];

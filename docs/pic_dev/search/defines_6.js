@@ -1,5 +1,1 @@
-var searchData=
-[
-  ['global_0',['GLOBAL',['../logging_8h.html#a3de33738fd3c7e77bffbcfaefc3e7645',1,'logging.h']]],
-  ['gridinterpolation_1',['GridInterpolation',['../poisson_8c.html#a846185bb780db2d5f6e9e58c09a08819',1,'poisson.c']]]
-];
+var searchData=[["global_0",["GLOBAL",["../logging_8h.html#a3de33738fd3c7e77bffbcfaefc3e7645",1,"logging.h"]]],["gridinterpolation_1",["GridInterpolation",["../poisson_8c.html#a846185bb780db2d5f6e9e58c09a08819",1,"poisson.c"]]]];

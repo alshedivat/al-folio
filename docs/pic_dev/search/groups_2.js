@@ -1,4 +1,1 @@
-var searchData=
-[
-  ['internal_20scattering_20helpers_0',['Internal Scattering Helpers',['../group__scatter__module__internal.html',1,'']]]
-];
+var searchData=[["internal_20scattering_20helpers_0",["Internal Scattering Helpers",["../group__scatter__module__internal.html",1,""]]]];

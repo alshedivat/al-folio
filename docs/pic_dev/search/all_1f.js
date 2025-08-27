@@ -1,4 +1,1 @@
-var searchData=
-[
-  ['🚀_20getting_20started_0',['🚀 Getting Started',['../index.html#gettingstarted',1,'']]]
-];
+var searchData=[["\ud83d\ude80_20getting_20started_0",["\ud83d\ude80 Getting Started",["../index.html#gettingstarted",1,""]]]];

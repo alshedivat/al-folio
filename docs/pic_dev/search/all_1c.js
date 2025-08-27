@@ -1,4 +1,1 @@
-var searchData=
-[
-  ['▶️_20running_20the_20code_0',['▶️ Running The Code',['../index.html#running',1,'']]]
-];
+var searchData=[["\u25b6\ufe0f_20running_20the_20code_0",["\u25b6\ufe0f Running The Code",["../index.html#running",1,""]]]];

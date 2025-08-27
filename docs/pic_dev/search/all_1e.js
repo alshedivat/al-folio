@@ -1,4 +1,1 @@
-var searchData=
-[
-  ['🔧_20key_20features_0',['🔧 Key Features',['../index.html#keyfeatures',1,'']]]
-];
+var searchData=[["\ud83d\udd27_20key_20features_0",["\ud83d\udd27 Key Features",["../index.html#keyfeatures",1,""]]]];
