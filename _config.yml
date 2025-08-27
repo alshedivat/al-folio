@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to the personal website of Daniel May. I am a PhD student at TU Wien, Austria. My research focuses on artificial intelligence. I am particularly interested in energy-efficiency and sustainability. I am passionate about research and I am always looking for new challenges. Feel free to contact me if you have any questions or if you would like to collaborate.
 footer_text: >
-  
+
 keywords: machine learning, artificial intelligence, split computing, energy-efficieny, sustainability, phd, research, computer science # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
@@ -136,7 +136,6 @@ disqus_shortname: al-folio # put your disqus shortname
 #     posts:
 #       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
 #         published_date: 2024-05-14
-
 
 # -----------------------------------------------------------------------------
 # Newsletter

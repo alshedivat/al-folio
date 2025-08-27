@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD student, <a href='https://informatics.tuwien.ac.at/people/daniel-may'>Technische Universität Wien (TU Wien)</a> 
+subtitle: PhD student, <a href='https://informatics.tuwien.ac.at/people/daniel-may'>Technische Universität Wien (TU Wien)</a>
 
 profile:
   align: right
