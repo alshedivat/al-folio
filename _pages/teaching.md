@@ -10,6 +10,7 @@ nav_order: 6
 ## Fall'25
 - **CS 422** *User Interface Design and Programming* – Andruid Kerne  
 - **CS 425** *Computer Graphics I* – Khairi Reda  
+- **CS 424** *Visualization and Visual Analytics* – Fabio Miranda  
 - **CS 455** *Introduction to High Performance Computing* – Zhiling Lan  
 - **CS 476** *Programming Language Design* – Saeed BoorBoor  
 - **CS 480** *Database Systems* – Siddharth Kumar  
