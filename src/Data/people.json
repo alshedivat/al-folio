@@ -6,21 +6,14 @@
     "homepage": "https://galaxytourist.notion.site/galaxytourist/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423",
     "current": true
   },
-  {
-    "name": "Taewan Kim",
-    "position": "Ph.D. Student",
-    "image": "taewan.png",
-    "homepage": "https://taewankim.io/",
-    "research_interest": "Human-AI Interaction, Mental Health, Self-reflection",
-    "current": false
-  },
+
   {
     "name": "Bogoan Kim",
     "position": "Postdoctoral Researcher",
     "image": "bogoan.jpg",
     "homepage": "https://bogoankim.github.io/",
     "research_interest": "HCI, Digital Healthcare",
-    "current": true
+    "current": false
   },
   {
     "name": "Sangsu Jang",
@@ -29,6 +22,14 @@
     "homepage": "https://www.sangsu.in/",
     "research_interest": "Personal Informatics, Mental Health, Design for Reflection",
     "current": true
+  },
+  {
+    "name": "Taewan Kim",
+    "position": "Ph.D. Student",
+    "image": "taewan.png",
+    "homepage": "https://taewankim.io/",
+    "research_interest": "Human-AI Interaction, Mental Health, Self-reflection",
+    "current": false
   },
   {
     "name": "Dasom Choi",
