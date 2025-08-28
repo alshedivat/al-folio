@@ -4,7 +4,7 @@ permalink: /projects/
 title: projects
 description: research projects I have been involved in as part of my research group.
 nav: true
-nav_order: 4
+nav_order: 6
 ---
 
 #### AI-supported Holographic Environmental Water Monitoring

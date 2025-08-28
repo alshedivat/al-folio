@@ -7,6 +7,7 @@ subtitle: PhD student, <a href='https://informatics.tuwien.ac.at/people/daniel-m
 profile:
   align: right
   image: prof_pic_square.jpg
+  image_alt: "Portrait of Daniel May"
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Room HE 02 16</p>
@@ -27,8 +28,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a **PhD Student** in the [High Performance Computing (HPC) Research Group](https://hpc.ec.tuwien.ac.at) at [TU Wien](https://www.tuwien.at), Austria. The group is led by [Prof. Ivona Brandić](https://www.ec.tuwien.ac.at/~ivona/index.html) and is part of the **Institute of Information Systems Engineering**. My research focuses on **AI, sustainability, and energy efficiency**, with a particular interest in optimizing AI workloads for resource-constrained environments.
+I am a PhD student at TU Wien in the [Research Unit of **Computational Sustainability**](https://informatics.tuwien.ac.at/orgs/e191-05) (formerly the High Performance Computing Group), working with [Prof. Ivona Brandić](https://www.ec.tuwien.ac.at/~ivona/index.html) within the Institute of Computer Engineering. I work on making AI systems more sustainable and energy-efficient, especially under resource constraints.
 
-I earned my **Master’s degree in Business Informatics** from TU Wien in 2025. Before starting my PhD, I worked as a **Research Assistant** in the HPC Group, contributing to projects on energy-efficient AI applications. My work involves techniques like **multi-objective optimization** to balance performance and energy consumption in AI systems.
+I earned my master’s degree in Business Informatics from TU Wien in 2025. My thesis focused on **split computing** for energy-efficient inference, where I used **multi-objective optimization** to balance accuracy, latency, and energy.
 
-I am passionate about making AI more **sustainable and efficient**. If you're interested in collaborating or learning more about my research, feel free to reach out!
+My current interests include **split computing and adaptive offloading** across devices in the **edge–cloud** continuum, **energy profiling and DVFS** for AI workloads, and **model compression** (quantization, pruning, distillation). I’m also involved in collaborative work on federated learning.
+
+I’m passionate about making AI more sustainable and efficient. If you’re interested in collaborating or learning more about my research, feel free to reach out.
+
+Outside research, I’m into space — rockets, telescopes, and the night sky. If you’re exploring edge/AI for space systems, I’d love to connect.
