@@ -38,36 +38,92 @@ layout: default
 
             {% assign details = "" %}
             {% if g.PI %}
-              {% assign details = details | append: "PI: " | append: g.PI %}
+              {% assign details = details | append: "PI: " | append: g.PI | strip %}
             {% endif %}
             {% if g.SubawardFrom and g.SubawardFrom != "" %}
               {% if details != "" %}
-                {% assign details = details | append: ", subaward from " | append: g.SubawardFrom %}
+                {% assign details = details | append: ", subaward from " | append: g.SubawardFrom | strip %}
               {% else %}
-                {% assign details = details | append: "subaward from " | append: g.SubawardFrom %}
+                {% assign details = details | append: "subaward from " | append: g.SubawardFrom | strip %}
               {% endif %}
             {% endif %}
 
             {% if g.StartDate and g.EndDate %}
-              {% assign startYear = g.StartDate | split: ", " | last %}
-              {% assign endYear   = g.EndDate   | split: ", " | last %}
-              {% if details != "" %}
-                {% assign details = details | append: ", " | append: startYear | append: " - " | append: endYear %}
+              {% comment %} Parse start date (e.g., "1-Oct-25") {% endcomment %}
+              {% assign startParts = g.StartDate | split: "-" %}
+              {% assign startMonth = startParts[1] %}
+              {% assign startYear = startParts[2] %}
+              
+              {% comment %} Parse end date (e.g., "30-Sep-28") {% endcomment %}
+              {% assign endParts = g.EndDate | split: "-" %}
+              {% assign endMonth = endParts[1] %}
+              {% assign endYear = endParts[2] %}
+              
+              {% comment %} Convert month abbreviations to full names {% endcomment %}
+              {% case startMonth %}
+                {% when "Jan" %}{% assign startMonthFull = "January" %}
+                {% when "Feb" %}{% assign startMonthFull = "February" %}
+                {% when "Mar" %}{% assign startMonthFull = "March" %}
+                {% when "Apr" %}{% assign startMonthFull = "April" %}
+                {% when "May" %}{% assign startMonthFull = "May" %}
+                {% when "Jun" %}{% assign startMonthFull = "June" %}
+                {% when "Jul" %}{% assign startMonthFull = "July" %}
+                {% when "Aug" %}{% assign startMonthFull = "August" %}
+                {% when "Sep" %}{% assign startMonthFull = "September" %}
+                {% when "Oct" %}{% assign startMonthFull = "October" %}
+                {% when "Nov" %}{% assign startMonthFull = "November" %}
+                {% when "Dec" %}{% assign startMonthFull = "December" %}
+              {% endcase %}
+              
+              {% case endMonth %}
+                {% when "Jan" %}{% assign endMonthFull = "January" %}
+                {% when "Feb" %}{% assign endMonthFull = "February" %}
+                {% when "Mar" %}{% assign endMonthFull = "March" %}
+                {% when "Apr" %}{% assign endMonthFull = "April" %}
+                {% when "May" %}{% assign endMonthFull = "May" %}
+                {% when "Jun" %}{% assign endMonthFull = "June" %}
+                {% when "Jul" %}{% assign endMonthFull = "July" %}
+                {% when "Aug" %}{% assign endMonthFull = "August" %}
+                {% when "Sep" %}{% assign endMonthFull = "September" %}
+                {% when "Oct" %}{% assign endMonthFull = "October" %}
+                {% when "Nov" %}{% assign endMonthFull = "November" %}
+                {% when "Dec" %}{% assign endMonthFull = "December" %}
+              {% endcase %}
+              
+              {% comment %} Convert 2-digit years to 4-digit {% endcomment %}
+              {% assign startYearInt = startYear | plus: 0 %}
+              {% if startYearInt < 50 %}
+                {% assign startYearFull = startYearInt | plus: 2000 %}
               {% else %}
-                {% assign details = details | append: startYear | append: " - " | append: endYear %}
+                {% assign startYearFull = startYearInt | plus: 1900 %}
+              {% endif %}
+              
+              {% assign endYearInt = endYear | plus: 0 %}
+              {% if endYearInt < 50 %}
+                {% assign endYearFull = endYearInt | plus: 2000 %}
+              {% else %}
+                {% assign endYearFull = endYearInt | plus: 1900 %}
+              {% endif %}
+              
+              {% assign formattedDate = startMonthFull | append: " " | append: startYearFull | append: " - " | append: endMonthFull | append: " " | append: endYearFull %}
+              
+              {% if details != "" %}
+                {% assign details = details | append: ", " | append: formattedDate %}
+              {% else %}
+                {% assign details = details | append: formattedDate %}
               {% endif %}
             {% endif %}
 
             {% if g.UICAward and g.UICAward != "" %}
               {% if details != "" %}
-                {% assign details = details | append: ", " | append: g.UICAward %}
+                {% assign details = details | append: ", " | append: g.UICAward | strip %}
               {% else %}
-                {% assign details = details | append: ", " | append: g.UICAward %}
+                {% assign details = details | append: g.UICAward | strip %}
               {% endif %}
             {% endif %}
 
             {% if details != "" %}
-              ({{ details }})
+              ({{ details | strip }})
             {% endif %}
           </li>
         {% endfor %}
