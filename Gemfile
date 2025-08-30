@@ -11,7 +11,7 @@ group :jekyll_plugins do
     gem 'jekyll-imagemagick'
     gem 'jekyll-jupyter-notebook'
     gem 'jekyll-link-attributes'
-    gem 'jekyll-minifier', '>= 0.2.0' # 0.2.0 replaces Uglifier with Terser
+    gem 'jekyll-minifier', '0.2.0' # 0.2.0 replaces Uglifier with Terser, 0.2.1 contains AI slop (https://github.com/digitalsparky/jekyll-minifier/issues/64)
     gem 'jekyll-paginate-v2'
     gem 'jekyll-regex-replace'
     gem 'jekyll-scholar'
