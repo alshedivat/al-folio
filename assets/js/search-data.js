@@ -18,7 +18,7 @@ ninja.data = [{
           title: 'Slices of Suspicion – The Pentagon Pizza Theory',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/news/announcement_7/";
+              window.location.href = "/news/announcement_1/";
             },},{id: "news-brilliant-and-simple-filename-based-sandbox-evasion",
           title: 'Brilliant and Simple - Filename-Based Sandbox Evasion',
           description: "",
@@ -39,6 +39,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_6/";
+            },},{id: "news-volt-typhoon-constructed-intelligence-or-defeated-adversary",
+          title: 'Volt Typhoon – Constructed Intelligence or Defeated Adversary?',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_7/";
             },},{
         id: 'social-email',
         title: 'email',
