@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "news-from-obfuscated-garbage-to-clarity",
+  },{id: "nav-about",
+          title: "about",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/about/";
+          },
+        },{id: "news-from-obfuscated-garbage-to-clarity",
           title: 'From Obfuscated Garbage to Clarity',
           description: "",
           section: "News",handler: () => {
