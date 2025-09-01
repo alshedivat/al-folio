@@ -1,97 +1,246 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# yaml-language-server: $schema=https://github.com/rendercv/rendercv/blob/main/schema.json?raw=true
+cv:
+  name: Albert Einstein
+  location: San Francisco, US
+  email: albert@einstein.de
+  phone: +49(912) 123-4567
+  website: https://alshedivat.github.io/al-folio/
+  social_networks:
+    - network: GitHub
+      username: AlbertEinstein
+  sections:
+    summary:
+      - A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+    experience:
+      - company: Institute for Advanced Study, Princeton University
+        position: Professor of Theoretical Physics
+        location: "Princeton, NY"
+        start_date: "1933-01-01"
+        end_date: "1955-01-01"
+        summary: "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus."
+        highlights:
+          - Relativity
+    education:
+      - institution: University of Zurich
+        area: Physics
+        degree: PhD
+        start_date: "1905-01-01"
+        end_date: "1905-01-01"
+        location: "Zurich, CH"
+        highlights:
+          - Molecular Physics
+          - "***Thesis:*** Eine neue Bestimmung der Moleküldimensionen"
+    awards:
+      - label: Nobel Prize in Physics
+        details: Royal Swedish Academy of Sciences
+        summary: "The Nobel Prize in Physics 1921 was awarded to me for my services to Theoretical Physics, and especially for my discovery of the law of the photoelectric effect"
+        date: "1921-11-01"
+    certificates:
+      - institution: Stanford University
+        area: '[Quantum Teleportation](https:\\example.com)'
+        degree: "Certificate"
+        date: "2018-01-01"
+        icon: "fa-solid fa-clipboard-check"
+      - institution: Stanford University
+        area: '[Quantum Computing](https:\\example.com)'
+        degree: "Certificate"
+        date: "2018-01-01"
+        icon: "fa-solid fa-tag"
+      - institution: Stanford University
+        area: '[Quantum Cryptography](https:\\example.com)'
+        degree: "Certificate"
+        date: "2018-01-01"
+        icon: "fa-solid fa-hashtag"
+      - institution: Stanford University
+        area: '[Quantum Communication](https:\\example.com)'
+        degree: "Certificate"
+        date: "2018-01-01"
+        icon: "fa-solid fa-envelope"
+    publications:
+      - title: "Zur Elektrody/namik bewegter K\xF6rper"
+        authors:
+          - "Albert Einstein"
+          - "Hermann Minkowski"
+        date: "1905-06-30"
+        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+        doi: https://doi.org/10.1002/andp.19053221004
+        journal: "[Annalen der Physik](https://onlinelibrary.wiley.com/journal/15213889)"
+        summary: "It concerned an interpretation of the [Michelson–Morley experiment](https://en.wikipedia.org/wiki/Michelson%E2%80%93Morley_experiment) and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      - title: "\xDCber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt"
+        authors: []
+        date: "1905-03-18"
+        url: "https://onlinelibrary.wiley.com/doi/10.1002/andp.19053220607"
+      - title: "Die Grundlage der allgemeinen Relativit\xE4tstheorie"
+        authors: []
+        date: "1916-03-20"
+        url: "https://onlinelibrary.wiley.com/doi/10.1002/andp.19163540702"
+    volunteering:
+      - company: "People's Climate March"
+        position: Lead Organizer
+        location: "Zurich, CH"
+        start_date: "2014-01-01"
+        end_date: "2015-07-01"
+        summary: "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history."
+        highlights:
+          - Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.
+          - Men of the year 2014 by Time magazine
+    projects:
+      - name: "[Quantum Computing](https://en.wikipedia.org/wiki/Quantum_computing)"
+        start_date: "2018-01-01"
+        end_date: "2019-09-01"
+        location: "Princeton, NY"
+        summary: "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers."
+        highlights: ["Quantum Teleportation", "Quantum Cryptography"]
+      - name: "[Example Project](https://example.com)"
+        date: 2024-05
+        highlights:
+          - Launched an [iOS app](https://example.com) in 09/2024
+            that currently has 10k+ monthly active users
+          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
+        summary: A web application for writing essays
+    skills:
+      - label: Physics
+        details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
+          Cryptography, Quantum Communication, Quantum Teleportation
+        icon: "fa-solid fa-hashtag"
+    interests:
+      - label: Physics
+        details: Quantum Mechanics, Quantum Computing, Quantum Information, Quantum
+          Cryptography, Quantum Communication, Quantum Teleportation
+        icon: "fa-solid fa-hashtag"
+    languages:
+      - label: German
+        details: Native
+      - label: English
+        details: Fluent
+    references:
+      - label: "[Professor John Doe](mailto:professor@john.doe)"
+        details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
+        icon: "fa-solid fa-laptop"
+      - label: "[Professor John Doe](mailto:professor@john.doe)"
+        details: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D
+        icon: "fa-solid fa-thumbtack"
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 2cm
+    bottom_margin: 2cm
+    left_margin: 2cm
+    right_margin: 2cm
+    show_page_numbering: false
+    show_last_updated_date: true
+  colors:
+    text: black
+    name: black
+    connections: black
+    section_titles: black
+    links: black
+    last_updated_date_and_page_numbering: rgb(128,128,128)
+  text:
+    font_family: XCharter
+    font_size: 10pt
+    leading: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+  links:
+    underline: true
+    use_external_link_icon: false
+  header:
+    name_font_size: 25pt
+    name_bold: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    separator_between_connections: "|"
+    use_icons_for_connections: false
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_size: 1.2em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.55cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 0.4cm
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    top_margin: 0.25cm
+    left_margin: 0cm
+    vertical_space_between_highlights: 0.19cm
+    horizontal_space_between_bullet_and_highlight: 0.3em
+    summary_left_margin: 0cm
+  entry_types:
+    one_line_entry:
+      template: "**LABEL:** DETAILS"
+    education_entry:
+      main_column_first_row_template: "**INSTITUTION**, DEGREE
+        in AREA -- LOCATION"
+      degree_column_width: 1cm
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: DATE
+    normal_entry:
+      main_column_first_row_template: "**NAME** -- **LOCATION**"
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: DATE
+    experience_entry:
+      main_column_first_row_template: "**POSITION**, COMPANY --
+        LOCATION"
+      main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
+      date_and_location_column_template: DATE
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: "AUTHORS\nURL (JOURNAL)"
+      main_column_second_row_without_journal_template: "AUTHORS\n\
+        URL"
+      main_column_second_row_without_url_template: "AUTHORS\n\
+        JOURNAL"
+      date_and_location_column_template: DATE
+locale:
+  language: en
+  phone_number_format: national
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  last_updated_date_template: Last updated in TODAY
+  date_template: MONTH_ABBREVIATION YEAR
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: –
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - June
+    - July
+    - Aug
+    - Sept
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December

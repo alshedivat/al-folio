@@ -1,1 +1,2 @@
+rendercv[full]==2.1
 nbconvert
