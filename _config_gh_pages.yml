@@ -1,0 +1,17 @@
+# GitHub Pages compatible configuration
+# Inherits from _config.yml but overrides plugins
+
+# Only use GitHub Pages supported plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-seo-tag
+
+# Disable features that require unsupported plugins
+imagemagick:
+  enabled: false
+
+# Disable advanced minification
+jekyll-minifier:
+  enabled: false
