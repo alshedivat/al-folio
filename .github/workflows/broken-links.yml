@@ -38,6 +38,9 @@ on:
       - "!.github/workflows/prettier.yml"
       - "!lighthouse_results/**"
 
+permissions:
+  contents: read
+
 jobs:
   link-checker:
     runs-on: ubuntu-latest
