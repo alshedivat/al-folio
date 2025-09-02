@@ -51,6 +51,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_7/";
+            },},{id: "news-one-ip-500-suspects",
+          title: 'One IP, 500 Suspects',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement_8/";
             },},{
         id: 'social-email',
         title: 'email',
