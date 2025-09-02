@@ -399,7 +399,29 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-#light-toggle,
+#light-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  /* Fix footprint to prevent navbar shifting when icon changes */
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}
+
+@media (min-width: 576px) {
+  #light-toggle {
+    transform: translateY(4px);
+  }
+}
+
 #search-toggle {
   padding: 0;
   border: 0;
@@ -751,8 +773,7 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      .preview {
-      }
+      .preview { display: inline-block; }
 
       .abbr {
         margin-bottom: 0.5rem;

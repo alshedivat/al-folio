@@ -44,9 +44,7 @@
   --global-danger-block-title: #c00;
 
   #light-toggle-system {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
+    display: inline-block;
   }
 
   #light-toggle-dark {
@@ -129,9 +127,7 @@ html[data-theme-setting="dark"] {
   }
 
   #light-toggle-dark {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
+    display: inline-block;
   }
 
   #light-toggle-light {
@@ -154,8 +150,55 @@ html[data-theme-setting="light"] {
   }
 
   #light-toggle-light {
-    padding-left: 10px;
-    padding-top: 12px;
-    display: block;
+    display: inline-block;
   }
+}
+
+.fa-half-sun-moon {
+  position: relative;
+  display: inline-block;
+
+  --fa-font: var(--fa-font-solid);
+  speak: none;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  width: 1em;
+  height: 1em;
+}
+
+.fa-half-sun-moon::before,
+.fa-half-sun-moon::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  text-align: center;
+  line-height: 1em;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  font: var(--fa-font);
+}
+
+/* Left half: MOON */
+.fa-half-sun-moon::before {
+  content: "\f186";
+  color: var(--global-text-color);
+  clip-path: polygon(0 0, calc(50% - 1px) 0, calc(50% - 1px) 100%, 0 100%);
+}
+
+/* Right half: SUN */
+.fa-half-sun-moon::after {
+  content: "\f185";
+  color: var(--global-text-color);
+  clip-path: polygon(calc(50% + 1px) 0, 100% 0, 100% 100%, calc(50% + 1px) 100%);
+}
+
+#light-toggle:hover .fa-half-sun-moon::before {
+  color: #{v.$blue-color};
+}
+
+#light-toggle:hover .fa-half-sun-moon::after {
+  color: #{v.$purple-color};
 }
