@@ -145,11 +145,25 @@
                     "link": "https://arxiv.org/abs/2412.08821"
                 },
                 {
+                    "title": "Tversky Neural Networks: Psychologically Plausible Deep Learning with Differentiable Tversky Similarity",
+                    "authors": "Moussa Koulako Bala Doumbouya, Dan Jurafsky, Christopher D. Manning",
+                    "year": 2025,
+                    "commentary": "Proposes a differentiable version of Tversky's (among another things,) asymmetric and (human-)psychologically plausible concept of similarity, then implements it into vision and language models. Interestingly, the results are more fundamentally interpretable due to the structure of the layer/model. Made me think more broadly about the geometry of information that we assume.",
+                    "link": "https://arxiv.org/pdf/2506.11035"
+                },
+                {
                     "title": "Backpack Language Models",
                     "authors": "John Hewitt, John Thickstun, Christopher D. Manning, Percy Liang",
                     "year": 2023,
                     "commentary": "By creating an LM architecture in which input tokens have a direct log-linear effect on the output, we can intervene precisely on the model output.",
                     "link": "https://arxiv.org/abs/2305.16765"
+                },
+                {
+                    "title": "DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing",
+                    "authors": "Shreya Shankar, Tristan Chambers, Tarak Shah, Aditya G. Parameswaran, Eugene Wu",
+                    "year": 2024,
+                    "commentary": "Creates a DSL and program optimizer to apply LLMs to large/complex document processing. Provides a more structured and visible way to interact with LLMs on large text corpuses.",
+                    "link": "https://arxiv.org/abs/2410.12189"
                 }
             ]
         },
