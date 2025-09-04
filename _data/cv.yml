@@ -3,10 +3,10 @@
   contents:
     - name: Full Name
       value: Mario Rico Ibáñez
+    - name: Phone
+      value: +41 076 688 07 25
     - name: Email
       value: mario.ricoibanez@epfl.ch
-    - name: Languages
-      value: Spanish (Native), English (Fluent)
     - name: Location
       value: Lausanne, Switzerland
 
@@ -15,30 +15,30 @@
   contents:
     - title: Master in Computer Science
       institution: École Polytechnique Fédérale de Lausanne (EPFL)
-      year: 2024 - Current
+      year: "2024 - Current"
       description:
-        - "Coursework: Machine Learning, Modern Natural Language Processing, Reinforcement Learning"
-        - "Coursework: Mobile Networks, Intelligent Agents, Algorithms, Distributed Algorithms"
+        - "Coursework: Machine Learning, Modern Natural Language Processing, Reinforcement Learning, Mobile Networks, Intelligent agents, Algorithms, Distributed Algorithms"
+        - "Projects: Adversarial Attacks on Image-to-image Generative Models"
         - "GPA: 5.36/6"
-    - title: Diploma in Artificial Intelligence (SAMSUNG INNOVATION)
-      institution: Universitat Politècnica de València
-      year: Sept. 2022 - Dec. 2022
-      description:
-        - "Diploma equivalent to 35 ECTS"
-        - "Coursework: Mathematics for Data Science, Probability and Statistics, Python for Data Science"
-        - "Coursework: Machine Learning, Deep Learning, Natural Language Processing"
-        - "Final Project: Emotion Detection through audio and text"
     - title: Bachelor in Telecommunications Engineering
       institution: Universitat Politècnica de València
-      year: 2020 - 2024
+      year: "2020 - 2024"
       description:
         - "Specialization: Telecommunication Systems"
         - "GPA: 4. 22/40 subjects with honours. Top 3 out of 200+ students"
         - "Participant in the High Performance Group with English teaching"
+        - "Coursework: Algebra, Calculus, Probability and Random Signals, Digital Signal Processing, Digital and Analog Electronics, Information Theory, Spatial Communications, Mobile and Wireless Communications, Digital Communications, Telematics, Antennas, Electromagnetic Waves, Microwaves"
         - "Bachelor's thesis: Deep Reinforcement Learning for UAV Base Station Dynamic Positioning"
-    - title: Mathematics (Long-term program)
+    - title: Diploma in Artificial Intelligence (SAMSUNG INNOVATION)
+      institution: Universitat Politècnica de València
+      year: "Sept. 2022 - Dec. 2022"
+      description:
+        - "Diploma equivalent to 35 ECTS"
+        - "Coursework: Maths for Data Science, Probability and Statistics, Python for Data Science, Machine Learning, Deep Learning, Natural Language Processing"
+        - "Final Project: Emotion Detection through audio and text"
+    - title: Bachelor in Mathematics
       institution: Universidad Nacional de Educación a Distancia
-      year: 2023 - 2030
+      year: "2023 - 2030"
       description:
         - "Currently enrolled in a long-term program"
         - "Coursework: Discrete Maths, Formal Languages and Basic Geometry"
@@ -48,14 +48,14 @@
   contents:
     - title: Machine Learning Developer
       institution: Computer Vision & Behaviour Analysis Lab
-      year: March 2023 - July 2024
+      year: "March 2023 - July 2024"
       description:
         - "Developed SOTA text models for Multilabel Emotion Recognition within a psychology context"
         - "Conducted research on Deep Learning for Emotion Recognition, comparing Encoder-only Transformers (like BERT and RoBERTa) with Decoder-only Transformers (like Llama-2, Mistral, Qwen)"
         - "Explored the explainability of Large Language Models in the context of Emotion Recognition"
     - title: Machine Learning Developer
       institution: Instituto de Telecomunicaciones y Aplicaciones Multimedia
-      year: January 2024 - Current
+      year: "January 2024 - Current"
       description:
         - "Developing 5G/6G multi-carrier, massive MIMO, GPU-based system-level wireless communication simulator (PyTorch)"
         - "Utilizing Deep Reinforcement Learning strategies to optimize the placement of Base Stations"
@@ -67,59 +67,50 @@
   contents:
     - year: 2025
       items:
-        - "Rico Ibáñez, Mario; Abad Rocamora, Elias; Cevher, Volkan. Query-free Attacks on Image-to-image Models are Hard to Avoid. International Conference on Machine Learning (ICML)."
-    - year: 2024
-      items:
         - "Rico Ibáñez, Mario; Akhtarshenas, Azim; López-Pérez, David; Geraci, Giovanni. Optimizing Aerial Base Station Positioning Using Deep Reinforcement Learning in UAV Networks. International Conference on Communications."
     - year: 2023
       items:
-        - "Rico Ibáñez, Mario; del Amor, Rocío; Naranjo, Valery. Mejorando el Análisis de Emociones en texto mediante Llama 2. XLI Congreso Anual de la Sociedad Española de Ingeniería Biomédica."
-        - "Rico Ibáñez, Mario. Deep Reinforcement Learning for UAV Base Station Dynamic Positioning. Bachelor Thesis, Universitat Politècnica de València."
+        - "Rico Ibáñez, Mario; del Amor, Rocío; Naranjo, Valery. Mejorando el Análisis de Emociones en texto mediante Llama 2. In: XLI Congreso Anual de la Sociedad Española de Ingeniería Biomédica. Valencia: Universitat Politècnica de València, 2023. Pp. 670-673. ISBN: 978-84-17853-76-1"
 
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: Adversarial Attacks on Image-to-Image Generative Models
-      year: 2024-2025
-      description: "Query-free adversarial attack framework targeting diffusion models (InstructPix2Pix, Kandinsky, Stable Diffusion). Demonstrated universal vulnerability across encoder architectures with imperceptible perturbations."
-    - title: UAV Base Station Optimization using Deep RL
-      year: 2022-2023
-      description: "Deep Reinforcement Learning system for optimizing aerial base station positioning in emergency communication networks. Implemented 3D positioning algorithms and multi-layer environment simulations."
-    - title: Evolution Strategies for Deep RL Pretraining
+    - title: "Adversarial Attacks on Image-to-Image Generative Models"
       year: 2024
-      description: "Comprehensive analysis comparing Evolution Strategies with traditional DRL methods across Flappy Bird, Breakout, and MuJoCo environments."
-    - title: Emotion Detection through Audio and Text
-      year: 2022-2023
-      description: "Multi-modal emotion recognition system combining audio and text processing for comprehensive sentiment analysis with real-time capabilities."
+      description:
+        - "Investigated the robustness of Image-to-Image generative models against adversarial attacks, such as Automatic Projected Gradient Descent, analyzing vulnerabilities and defenses, such as RobustCLIP"
+        - "Developed adversarial strategies targeting models based on Diffusion Models, specifically assessing the stability of embeddings"
+        - "Conducted extensive experiments evaluating the performance impacts of adversarial perturbations across datasets"
+        - "Supervised by Prof. Volkan Cevher and Elias Abad Rocamora"
+    - title: "Impact of Whole-Slide Image Resolution on Pathology Models"
+      year: 2024
+      description:
+        - "Systematically analyzed how changes in Whole-Slide Image (WSI) resolution affect the performance of histopathological foundation models"
+        - "Implemented a preprocessing pipeline to generate and validate tiles across varying magnification levels (5x, 10x, 20x, 40x), ensuring data integrity and consistency"
+        - "Utilized Multiple-Instance Learning (MIL) techniques, including mean pooling and gated attention mechanisms, to aggregate embeddings from the UNI model"
+        - "Conducted ablation studies on three breast histology datasets (BACH, BRACS, BreakHis) demonstrating the importance of magnification levels and model architecture choices"
 
 - title: Technical Skills
   type: nested_list
   contents:
-    - title: Telecommunications & Networks
+    - title: Programming
       items:
-        - "UAV Networks, Mobile Communications, 4G/5G Systems"
-        - "Base Station Optimization, RF Engineering"
-        - "Network Protocols, Emergency Communications"
-    - title: Machine Learning & AI
+        - "Python, Pytorch, Tensorflow, Keras, Bash, Assembly, SystemVerilog, Matlab, Java(Beginner), Git, LaTeX, Docker"
+    - title: Languages
       items:
-        - "Deep Reinforcement Learning, Natural Language Processing"
-        - "Computer Vision, Large Language Models, Transformers"
-        - "Statistical Analysis, Data Visualization"
-    - title: Programming & Tools
-      items:
-        - "Python, PyTorch, TensorFlow, Keras"
-        - "Git, Docker, Bash, LaTeX"
-        - "MATLAB, Assembly, SystemVerilog, Java"
-    - title: Research & Analytics
-      items:
-        - "Distributed Computing, System Optimization"
-        - "Performance Analysis, Algorithm Design"
-        - "Mathematical Modeling, Numerical Methods"
+        - "Spanish (Native), English (Fluent), French (B1)"
 
 - title: Interests & Activities
   type: list
   contents:
-    - "<u>Research:</u> Telecommunications Innovation, AI in Mobile Networks, UAV Technology"
-    - "<u>Sports:</u> Gym Training, Running, Tennis, Boxing, Mountain Hiking"
-    - "<u>Mental Challenges:</u> Rubik's Cube, Problem Solving, Algorithmic Thinking"
-    - "<u>Teaching:</u> Knowledge Sharing, Academic Mentoring, Technical Education"
+    - "<u>Interests:</u> Sports (Gym, Running, Tennis and Boxing in particular), Technological Advancements, Nature, Rubik Cube, Teaching"
+
+- title: Additional Experience and Awards
+  type: time_table
+  contents:
+    - year: "2023-2024"
+      items:
+        - "IAESTE Faculty Delegate: Served a full academic year as a delegate for the IAESTE organization, focusing on securing international job placements for students. Actively engaged with both students and employers, facilitating successful job matches and supporting students throughout their application processes"
+    - year: 2020
+      items:
+        - "Honors at Upper Secondary School: Achieved Honors in the last year"
