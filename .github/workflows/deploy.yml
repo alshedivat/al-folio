@@ -97,7 +97,7 @@ jobs:
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
-          purgecss -c file:///C:/Users/eloyw/documents/github/eloywin.github.io/purgecss.config.js
+          npx purgecss -c file:///C:/Users/eloyw/documents/github/eloywin.github.io/purgecss.config.js
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
         uses: JamesIves/github-pages-deploy-action@v4
