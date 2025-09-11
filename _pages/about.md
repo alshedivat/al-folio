@@ -29,6 +29,6 @@ We currently have weekly telecons alternating between a Journal Club on Galactic
 How to join
 -----------
 
-So far the leadership in the ACT, BICEP/Keck, BLAST, CCAT-prime, CMB-S4, LiteBIRD, SO, and SPT collaborations have endorsed membership in the GS Pan-Experiment Group, and we hope to grow to include other CMB experiments. If you represent an experiment that is interested in becoming affiliated, please contact <a href="https://physics.stanford.edu/people/susan-e-clark">Susan Clark</a> and <a href="https://bhensley.princeton.edu/">Brandon Hensley</a>. We are now also accepting members from the ISM community who are not affiliated with any CMB experiments.
+So far the leadership in the ACT, BICEP/Keck, BLAST, CCAT-prime, CMB-S4, LiteBIRD, SO, and SPT collaborations have endorsed membership in the GS Pan-Experiment Group, and we hope to grow to include other CMB experiments. If you represent an experiment that is interested in becoming affiliated, please contact <a href="https://physics.stanford.edu/people/susan-e-clark">Susan Clark</a> and <a href="https://science.jpl.nasa.gov/people/brandon-hensley/">Brandon Hensley</a>. We are now also accepting members from the ISM community who are not affiliated with any CMB experiments.
 
 Please [fill this Google Form to join](https://docs.google.com/forms/d/e/1FAIpQLSfIW5Djk13u9y23lRY5VUblIb4EfwZZBsrP3ZuUBWYdAlzAuw/viewform).
