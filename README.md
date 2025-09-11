@@ -1,5 +1,7 @@
 # Panexperiment Galactic Science group website
 
+<!-- This is a dummy change to trigger a build for investigation -->
+
 ## How to edit homepage
 
 [Edit `_pages/about.md`](https://github.com/galsci/galsci.github.io/blob/master/_pages/about.md)
