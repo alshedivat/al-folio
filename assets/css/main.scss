@@ -6,6 +6,10 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
+.name-container {
+  text-align: center;
+};
+
 @import
   "variables",
   "themes",
@@ -23,7 +27,3 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
-
-.name-container {
-  text-align: center;
-}
