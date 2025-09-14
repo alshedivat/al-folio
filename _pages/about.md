@@ -22,7 +22,6 @@ latest_posts:
 ---
 <br>
 <br>
-
 I am a PhD candidate in Economics at the University of Toronto. 
 <br>
 My research interests lie at the intersection of Labor & Spatial Economics.
