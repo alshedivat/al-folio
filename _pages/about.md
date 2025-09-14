@@ -1,9 +1,8 @@
 ---
-layout: About
+layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
+subtitle: 
 profile:
   align: left
   image: prof_pic.jpg
@@ -23,3 +22,4 @@ latest_posts:
 ---
 
 I am a PhD candidate in Economics at the University of Toronto. 
+My research interests lie at the intersection of Labor \& Spatial Ecomomics.
