@@ -20,6 +20,13 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+<br>
+<br>
 
 I am a PhD candidate in Economics at the University of Toronto. 
+<br>
 My research interests lie at the intersection of Labor & Spatial Economics.
+<br>
+<br>
+
+I will be on the 2025-2026 academic job market.
