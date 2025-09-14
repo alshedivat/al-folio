@@ -6,10 +6,6 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
-.name-container {
-  text-align: center;
-};
-
 @import
   "variables",
   "themes",
