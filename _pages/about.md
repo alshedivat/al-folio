@@ -22,4 +22,4 @@ latest_posts:
 ---
 
 I am a PhD candidate in Economics at the University of Toronto. 
-My research interests lie at the intersection of Labor & Spatial Ecomomics.
+My research interests lie at the intersection of Labor & Spatial Economics.
