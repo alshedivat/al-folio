@@ -56,9 +56,7 @@
             </a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="/assets/pdf/AmerAbdelrahman_CV2.pdf">CV</a>
-          </li>
+
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -99,6 +97,7 @@
                         </a>
                       {% endif %}
                     {% endfor %}
+
                   </div>
                 </li>
               {% else %}
@@ -129,6 +128,9 @@
               </button>
             </li>
           {% endif %}
+            <li class="nav-item">
+            <a class="nav-link" href="/assets/pdf/AmerAbdelrahman_CV2.pdf">CV</a>
+          </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
@@ -139,6 +141,7 @@
               </button>
             </li>
           {% endif %}
+
         </ul>
       </div>
     </div>

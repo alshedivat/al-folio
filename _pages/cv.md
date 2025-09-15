@@ -3,7 +3,7 @@ layout: page
 permalink: /cv/
 title: CV
 nav: false
-nav_order: 5
+nav_order: 3
 cv_pdf: AmerAbdelrahman_CV2.pdf # you can also use external links here
 ---
 
