@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: 
 profile:
-  align: left
+  align: right
   image: my_photo2.jpg
   image_circular: false # crops the image to make it circular
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -33,3 +33,10 @@ I will be on the 2025-2026 academic job market.
 <br>
 
 e-mail:[ abdelrahman.amer@mail.utoronto.ca](mailto:abdelrahman.amer@mail.utoronto.ca)
+<br><br>
+
+<br>
+<br>
+
+### Working Papers
+{% include working-papers-list.html %}
