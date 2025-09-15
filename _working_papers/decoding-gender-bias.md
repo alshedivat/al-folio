@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Title of Paper 1
+title: Decoding Gender Bias in Interviews
 authors:
   - name: Author 1
   - name: Author 2
