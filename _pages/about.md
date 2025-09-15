@@ -44,5 +44,3 @@ CV: [Here](/assets/pdf/AmerAbdelrahman_CV2.pdf)
 {% include working-papers-list.liquid %}
 
 
-## Work in Progress
-{% include work-in-progress-list.liquid %}
