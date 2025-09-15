@@ -148,19 +148,8 @@ collections:
     output: true
   projects:
     output: true
-
-# In your _config.yml file
-
-# In your _config.yml file
-
-collections:
-  - working_papers
-
-# Configure output to be true so Jekyll processes it
-working_papers:
-  output: true
-  permalink: /:collection/:name/
-
+  working_papers:
+    output: true
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
