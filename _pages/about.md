@@ -38,5 +38,3 @@ e-mail:[ abdelrahman.amer@mail.utoronto.ca](mailto:abdelrahman.amer@mail.utoront
 <br>
 <br>
 
-### Working Papers
-{% include working-papers-list.liquid%}
