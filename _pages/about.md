@@ -34,9 +34,11 @@ I will be on the 2025-2026 academic job market.
 
 e-mail:[ abdelrahman.amer@mail.utoronto.ca](mailto:abdelrahman.amer@mail.utoronto.ca)
 <br>
+
+CV: [Here](/assets/pdf/AmerAbdelrahman_CV2.pdf)
 <br>
 
-[Download my CV](/assets/files/AmerAbdelrahman_CV2.pdf)
+<br>
 
 ## Working Papers
 {% include working-papers-list.liquid %}

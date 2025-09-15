@@ -8,6 +8,9 @@ links:
   - name: Latest Version
     url: "/assets/pdf/ACV.pdf"
     icon: fas fa-download
+  - name: CESifo
+    url: https://www.ifo.de/en/cesifo/publications/2024/working-paper/decoding-gender-bias-role-personal-interaction
+    icon: fas fa-download
   - name: IZA
     url: "https://www.iza.org/publications/dp/17077/decoding-gender-bias-the-role-of-personal-interaction"
     icon: fas fa-external-link-alt
