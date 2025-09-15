@@ -1,5 +1,5 @@
 ---
-title: Production Hierarchies
+title: The Role of Production Hierarchies in Coordinating Specialization
 paper_order: 1
 authors:
   - name: Kevin Lim
