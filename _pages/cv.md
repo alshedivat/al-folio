@@ -1,6 +1,7 @@
 ---
-layout: redirect
+layout: page
 title: CV
 permalink: /cv/
-redirect_to: /assets/files/AmerAbdelrahman_CV2.pdf
 ---
+
+<meta http-equiv="refresh" content="0; url=/assets/files/AmerAbdelrahman_CV2.pd">
