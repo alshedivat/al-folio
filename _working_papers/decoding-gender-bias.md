@@ -1,5 +1,6 @@
 ---
 layout: page
+order: 2
 title: Decoding Gender Bias in Interviews
 authors:
   - name: Ashley Craig
@@ -8,8 +9,11 @@ links:
   - name: Latest Version
     url: "/assets/pdf/ACV.pdf"
     icon: fas fa-download
-  - name: Project Page
-    url: "aaa.com"
+  - name: IZA
+    url: "https://www.iza.org/publications/dp/17077/decoding-gender-bias-the-role-of-personal-interaction"
+    icon: fas fa-external-link-alt
+  - name: "Press:IZA"
+    url: "https://www.iza.org/publications/dp/17077/decoding-gender-bias-the-role-of-personal-interaction"
     icon: fas fa-external-link-alt
 ---
 
