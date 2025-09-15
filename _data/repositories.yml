@@ -3,7 +3,10 @@ github_users:
   - NischlMhrzn
 
 github_repos:
+  - nis-ane/Structure-From-motion
+  - nis-ane/CG-Rendering
+  - nis-ane/HLCV-Project
   - NischlMhrzn/math_ocr
   - nis-ane/Transfer-Learning-Implementation
-  - nis-ane/Horse-Navigation
-  - nis-ane/3D-point-cloud-construction
+  - nis-ane/Image_Reconstruction
+ 

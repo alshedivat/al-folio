@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-10-1 15:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+Awarded with Deutschland Stipendium der Universität des Saarlandes for the year 2024/2025.

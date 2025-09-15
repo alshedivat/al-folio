@@ -6,11 +6,30 @@
     - name: Date of Birth
       value: 7th January 1999
     - name: Languages
-      value: English, Nepali, Newari, Hindi
+      value: English, Nepali, Newari, German(A2.1)
 
 - title: Education
   type: time_table
   contents:
+    - title: M.Sc. in Data Science and Artificial Intelligence
+      institution: Universität des Saarlandes, Germany
+      year: 2023-Present
+      description:
+        - Current grade 1.1
+        - title: Relevant Courses
+          contents:
+            - 3D Computer Vision, High Level Computer Vision, Computer Graphics, Image Processing and Computer Vision, Neural Network, Elements of Machine Learning, Machine Learning, Robustness in ML, Explainable AI
+
+    - title: ETH Student Summer Research Fellowship 2025
+      institution: ETH Zürich, Switzerland
+      year: July 2025 - Aug 2025
+      description:
+        - Selected for the prestigious summer research fellowship program at ETH Zurich (1% acceptance rate)
+        - Worked under Prof. Dr. Siyu Tang in the Computer Vision and Learning Group
+        - title: Project title
+          contents: 3D-Reconstruction in Challenging Sparse view setup
+
+
     - title: Bachelor's in Electronics and Communication Engineering
       institution: Tribhuvan University, IOE Pulchowk Campus, Nepal
       year: 2016-2021
@@ -18,13 +37,28 @@
         - Full Scholarship
         - Aggregate 79.43%
         - Rank 9th in University (Top 1%)
+        - title: Relevant Courses
+          contents:
+            - C Programming, Object Oriented Programming, Artificial Intelligence, Data Mining, Computer Graphics, Computer Architecture, Discrete Structure, Database, Calculus, Probability and Statistics, Numerical Methods, Linear Algebra,  Computer Network, Digital Signal Processing
+        - title: (Thesis) Real Time Visual Localisation and Mapping of Mobile Robot in Dynamic Environment
+          contents: 
+            - Localisation of the mobile robot in case of changing environment by help of camera using concept of multiview geometry and computer vision.
+   
 
 - title: Experience
   type: time_table
   contents:
+    - title: Junior Researcher 
+      institution: August-Wilhelm Scheer Institute
+      year: Nov 2023 - Present
+      description:
+        - Implementation and Enhancement of RAG(Retrieval Augmented Generation) Pipeline
+        - Implementation of Document Classifier
+        - Tailored Text to Speech model for targeted use cases
+        - OCR based Document Extraction 
     - title: Machine Learning Engineer
       institution: Fusemachines Nepal Pvt. Ltd., Kathmandu, Nepal
-      year: April 2021 - Present
+      year: April 2021 - September 2023
       description: 
         - Joined as an Associate Engineer and gained knowledge and experience by working in projects under experienced Supervisors.
         - Promoted to an Machine Learning Engineer
@@ -58,12 +92,33 @@
             - Construction of autonomous robots and their control according to the <a href="https://www.youtube.com/watch?v=Z385ZXDbQc8">theme of the ABU Robocon competition </a>. The robots took part in the annual internationl competition held in Ulaanbaatar, Mongolia.
         - Mentored and oversaw junior batch for ABU Robocon 2020.
 
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Tutor for  Elements of Machine Learning
+      institution: Universität des Saarlandes, Germany
+      year: WS 2024/25
+      description: Instructor Prof. Dr. Isabel Valera
+
+    - title: Tutor for online course of fuse Academics
+      institution: Fusemachines Nepal Pvt. Ltd., Kathmandu, Nepal
+      year: 2021
+     
 - title: Academics and Personal Projects
   type: time_table
   contents:
-    - title: Real Time Visual Localisation and Mapping of Mobile Robot in Dynamic Environment<b>(College Major Project)</b> 
-      year: 2019-2021
-      description: Localisation of the mobile robot in case of changing environment by help of camera using concept of multiview geometry and computer vision.
+    - title: Lost City of Dwarka Image Rendering | Computer Graphics, MSc.
+      year: 2025
+      description:  Rendering of underwater scene using ray tracing framework with features like Photon mapping, volumetric rendering, sdf, normal shading, thinlens, color grading and denoising. 
+    - title: Generation of Real World Images from Simulated Images | High Level Computer Vision, MSc.
+      year: 2024
+      description: Experimentated image translation task with different architecture like Unet, ViT, Swin Transformer for GAN models to convert virtual image to real world image
+    - title: Structure from Motion framework | 3D Computer Vision , MSc.
+      year: 2024
+      description: Implementation of SFM framework to generate 3d structure from given set of images
+    - title: Robustness in Autonomous Driving Steering | Robustness in ML, MSc.
+      year: 2024
+      description: Experimented with methods for robustness against Adversarial attacks for Car steering estimation.
     - title: Precision Livestock Farming 
       year: 2019
       description: Smart poultry system with automatic maintenance of suitable environment and behavior analysis of chicken using image and sound analysis
@@ -85,15 +140,15 @@
   contents:
     - title: Computer Vision
       items: 
-        - Medical Imaging
-        - Robotic Perception
+        - Machine Perception
+        - 3D Vision and Reconstruction
         - Image Classification
         - Object Detection
         - Image Segmentation
-        - 3D Vision and Reconstruction
         - Image Similarity
         - Feature Extraction and Matching
         - Optical Character Recognition
+        - Medical Imaging
         
     - title: Machine Learning
       items:
@@ -109,16 +164,16 @@
   type: list
   contents:
     - <u><b>Programming Languages:</b></u> Python, C, C++, MATLAB, Assembly, MySQL
-    - <u><b>Computer Vision and Image Processing:</b></u> OpenCV, scikit-image, Pillow,Yolo, Detectron2
-    - <u><b>Deep Learning:</b></u> Pytorch, Tensorflow,  Tensorboard, Keras, CometML
+    - <u><b>Computer Vision:</b></u> OpenCV, Open3D, Pillow, Yolo, OCR, Detectron2, scikit-image, SimpleITK, Monai Framework
+    - <u><b>Deep Learning:</b></u> Pytorch, Tensorflow, Keras, Huggingface
     - <u><b>Machine Learning:</b></u> scikit-learn, SciPy, LightGBM
-    - <u><b>Natural Language Processing:</b></u> NLTK, spaCy
-    - <u><b>Data Anlaysis and Filter:</b></u> Numpy, Pandas, Matplotlib, Seaborn
+    - <u><b>Natural Language Processing:</b></u> NLTK, spaCy, Langchain
+    - <u><b>Data Anlaysis and Filter:</b></u> Numpy, Pandas, Matplotlib, Seaborn, Plotly, Altair
     - <u><b>Frontend:</b></u> HTML, CSS, Bootstrap
     - <u><b>Backend:</b></u> Flask, Rest Framework
     - <u><b>Hardware design and Fabrication</b></u>
     - <u><b>Embedded System Design and Programming</b></u>
-    - <u><b>Miscellaneous:</b></u> Git Version Control, AWS, Linux, Excel
+    - <u><b>Miscellaneous:</b></u> Git Version Control, Tmux, Tensorboard, AWS, Linux, CometML, Jira
 
 - title: Soft Skills
   type: list
@@ -128,6 +183,11 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: Deutschland Stipendium Scholarship 2024/25
+      year: 2024
+      items: 
+        - Awarded for academic excellence and personal achievements in the field of Data Science and Artificial Intelligence by Universität des Saarlandes
+
     - title: Hardware Thematic Project Winner
       year: 2019
       items: 
@@ -165,7 +225,7 @@
       year: 2017-2018-2019
       institution: Organised by LOCUS, IOE Pulchowk Campus
 
-- title: Volunteering and Teaching Experience
+- title: Volunteering
   type: time_table
   contents:
     - title: Instructor for Hardware Fellowship 

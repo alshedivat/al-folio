@@ -341,3 +341,7 @@ mdb:
 medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
+
+exclude:
+  - projects/cg-rendering
+  - "**/.git"
