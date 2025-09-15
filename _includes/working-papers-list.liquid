@@ -3,6 +3,9 @@
     <div class="card-body">
       <h3 class="card-title">{{ paper.title }}</h3>
       <p class="card-text text-muted">with {% for author in paper.authors %}{{ author.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+      
+      <div class="abstract-content">{{ paper.content }}</div>
+
       <div>
         {% for link in paper.links %}
           <a href="{{ link.url }}" class="me-3"><i class="{{ link.icon }}"></i> {{ link.name }}</a>
