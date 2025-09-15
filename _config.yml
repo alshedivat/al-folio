@@ -150,6 +150,8 @@ collections:
     output: true
   working_papers:
     output: true
+  work_in_progress:
+    output: true
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
