@@ -62,13 +62,6 @@ layout: default
     {% include citation.liquid %}
   {% endif %}
 
-  {% if page.related_publications %}
-    <h2>References</h2>
-    <div class="publications">
-      {% bibliography --group_by none --cited_in_order %}
-    </div>
-  {% endif %}
-
   {% if site.related_blog_posts and site.related_blog_posts.enabled %}
     {% if page.related_posts == null or page.related_posts %}
       {% include related_posts.liquid %}
