@@ -6,10 +6,10 @@ authors:
   - name: Author 2
 links:
   - name: PDF
-    url: "/path/to/paper.pdf"
+    url: ""
     icon: fas fa-download
   - name: Project Page
-    url: "#"
+    url: "aaa.com"
     icon: fas fa-external-link-alt
 ---
 
