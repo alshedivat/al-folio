@@ -36,6 +36,8 @@ e-mail:[ abdelrahman.amer@mail.utoronto.ca](mailto:abdelrahman.amer@mail.utoront
 <br>
 <br>
 
+[Download my CV](/assets/files/AmerAbdelrahman_CV2.pdf)
+
 ## Working Papers
 {% include working-papers-list.liquid %}
 
