@@ -1,6 +1,6 @@
 ---
 title: Decoding Gender Bias in Interviews
-order: 2
+paper_order: 2
 authors:
   - name: Ashley Craig
   - name: Clémentine Van Effenterre

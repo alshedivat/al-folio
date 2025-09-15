@@ -1,6 +1,6 @@
 ---
 title: "Monopsony in Space: Commuting & Labor Market Power (JMP)"
-order: 1
+paper_order: 1
 links:
   - name: Latest Version
     url: "/assets/pdf/jmp.pdf"
