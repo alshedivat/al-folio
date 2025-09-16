@@ -80,6 +80,10 @@
   <!-- Schema.org -->
   {% comment %} Social links generator for "sameAs schema" {% endcomment %}
   {% assign sameaslinks = '' | split: ',' %}
+  {% if site.arxiv_id %}
+    {% capture link %}https://arxiv.org/a/{{ site.arxiv_id }}.html{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: link %}
+  {% endif %}
   {% if site.orcid_id %}
     {% capture link %}https://orcid.org/{{ site.orcid_id }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
