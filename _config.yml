@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 
+title:
 first_name: Gautam
-middle_name: 
+middle_name:
 last_name: Sharma
 contact_note: >
   The best way to reach me is emailling me at <a href="mailto:gautam_sharma1@yahoo.com">gautam_sharma1@yahoo.com</a> or <a href="mailto:gs01@myyahoo.com">gs01@myyahoo.com</a>.
@@ -16,7 +16,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://g-s01.github.io # the base hostname & protocol for your site
-baseurl: 
+baseurl:
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
