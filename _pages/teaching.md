@@ -9,8 +9,7 @@ nav_order: 6
 
 # Courses
 
-I teach a range of courses in mechanical engineering, precision engineering, and applied sciences.  
-My teaching emphasizes both strong theoretical foundations and hands-on design and experimentation.
+I teach a range of courses in freshmen math, hands-on CAD, and the fundamentals of machine design — all taught in **Japanese**, unless stated otherwise!  
 
 - **MTH104 – 微分方程式の基礎 (Basics of Differential Equations)**  
 - **MEC211 – 機械システム設計の基礎 (Basics of Mechanical System Design)**  
