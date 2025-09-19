@@ -30,7 +30,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 I am a Ph.D. student in the Department of Computer Science and Engineering at [Korea University](https://www.korea.ac.kr/sites/ko/index.do), advised by [Prof. Sung Woo Chung](http://smrl.korea.ac.kr/Professor/biographical_sketch/).
-My research focuses on `OS-level thermal management for 3D-stacked CPUs and mobile application processors (APs)`.
+My research focuses on **OS-level thermal management** for 3D-stacked CPUs and mobile application processors (APs).
 
 During my undergraduate and graduate studies, I have worked on exploring the performance of heterogeneous cores under thermal constraints in mobile AP, emphasizing the importance of thermal-aware SoC design.
 
