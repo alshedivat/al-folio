@@ -2,7 +2,9 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor @[EAS](https://fst.sophia.ac.jp/en/department/eas), [Sophia University](https://www.sophia.ac.jp/eng/).
+subtitle: Assistant Professor, 
+  <a href="https://fst.sophia.ac.jp/en/department/eas/">EAS</a>, 
+  <a href="https://www.sophia.ac.jp/eng/">Sophia University</a>
 # for reference to hihgligh shit: <a href='#'>Affiliations</a>.
 
 profile:
