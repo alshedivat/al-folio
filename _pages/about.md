@@ -2,8 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Assistant Professor, 
-  <a href="https://fst.sophia.ac.jp/en/department/eas/">EAS</a>, 
+subtitle: Anatolion. An alumnus from  <a href="https://www.sabanciuniv.edu/en">Sabanci University</a>. Now, an assistant professor at PERG (Precision Engineering Research Group) @   <a href="https://fst.sophia.ac.jp/en/department/eas/">EAS</a>, 
   <a href="https://www.sophia.ac.jp/eng/">Sophia University</a>
 # for reference to hihgligh shit: <a href='#'>Affiliations</a>.
 
@@ -29,8 +28,6 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-
-An alumnus from [Sabanci University](https://www.sabanciuniv.edu/en). Now, an assistant professor at PERG (Precision Engineering Research Group) @ EAS, Sophia University.
 
 I am PI of the Precision Engineering Research Group (PERG) at Sophia University, where our research explores the fundamental and applied aspects of tribology, surface engineering, and thermal-fluid science. We investigate the behavior of machine elements under extreme environments, including piston ring–cylinder liner interactions in ammonia-fueled engines and functional surfaces for enhanced boiling heat transfer. Our work combines custom-built experimental rigs, advanced surface characterization, and high-speed imaging to reveal mechanisms of friction, wear, lubrication, and bubble dynamics. With these insights, we aim to enable next-generation sustainable energy systems and durable engine technologies.
 
