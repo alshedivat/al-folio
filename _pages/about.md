@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student @ <a href='https://www.korea.edu/sites/en/index.do'>Korea University</a> (Advised by <a href='http://smrl.korea.ac.kr/Professor/biographical_sketch/'>Sung Woo Chung</a>)
+subtitle: Ph.D. student @ <a href='https://www.korea.edu/sites/en/index.do'>Korea University</a> (Advised by <a href='http://smrl.korea.ac.kr/Professor/biographical_sketch/'>Prof. Sung Woo Chung</a>)
 
 profile:
   align: right
@@ -29,9 +29,12 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+I am a Ph.D. student in the Department of Computer Science and Engineering at [Korea University](https://www.korea.ac.kr/sites/ko/index.do), advised by [Prof. Sung Woo Chung](http://smrl.korea.ac.kr/Professor/biographical_sketch/).
+My research focuses on `OS-level thermal management for 3D-stacked CPUs and mobile application processors (APs)`.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+During my undergraduate and graduate studies, I have worked on exploring the performance of heterogeneous cores under thermal constraints in mobile AP, emphasizing the importance of thermal-aware SoC design.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have published as a first co-author at [ISLPED 2025](https://www.islped.org/2025/), analyzing thermal characteristics and proposing thermal-aware task scheduling techniques for 3D CPUs.
+I also served as a reviewer for [ICCAD 2025](https://2025.iccad.com/). 
+Beyond research, I enjoy exploring new technologies and collaborating on interdisciplinary projects that bridge hardware and software.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
