@@ -1,4 +1,4 @@
-- title: General Information
+where- title: General Information
   type: map
   contents:
     - name: Full Name
@@ -18,7 +18,7 @@
         - Description 1.
         - Description 2.
         - title: Description 3.
-          contents:
+    contents:
             - Sub-description 1.
             - Sub-description 2.
     - title: Federal teaching diploma
@@ -30,21 +30,17 @@
 
 - title: Experience
   type: time_table
-  contents:
+  contents:        # <-- must be indented 2 spaces
     - title: PostDoctoral Fellow
       institution: Sophia University, Tokyo, Japan
       year: 2020 - 2021
-      
-      - title: Maintenance Engineer
+
+    - title: Maintenance Engineer
       institution: Ford Otosan
       year: 2014 - 2015
       description:
         - Description 1.
         - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
 
 - title: Open Source Projects
   type: time_table
