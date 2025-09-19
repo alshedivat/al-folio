@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Krupp Hall, Room 327</p>
     <p>Sophia University</p>
-    <p>Tokyo, Japan</p>
+    <p>Chiyoda-ku, Tokyo, Japan</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
