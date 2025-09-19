@@ -8,37 +8,6 @@ where- title: General Information
     - name: Languages
       value: Turkish, English, Japanese
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: Sophia University, Tokyo, Japan
-      year: 2020
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents: 
-    - title: PostDoctoral Fellow
-      institution: Sophia University, Tokyo, Japan
-      year: 2020 - 2021
-
-    - title: Maintenance Engineer
-      institution: Ford Otosan
-      year: 2014 - 2015
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
 - title: Honors and Awards
   type: time_table
   contents:
