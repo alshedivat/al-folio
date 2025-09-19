@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Anatolian. An alumnus from <a href="https://www.sabanciuniv.edu/en">Sabanci University</a>. Now, an assistant professor @ PERG <br>(Precision Engineering Research Group), <a href="https://fst.sophia.ac.jp/en/department/eas/">EAS</a>, <a href="https://www.sophia.ac.jp/eng/">Sophia University</a>.
-# for reference to hihgligh shit: <a href='#'>Affiliations</a>.
+subtitle: Anatolian. An alumnus from <a href="https://www.sabanciuniv.edu/en">Sabanci University</a>. Now, an assistant professor @ PERG (Precision Engineering Research Group), <a href="https://fst.sophia.ac.jp/en/department/eas/">EAS</a>, <a href="https://www.sophia.ac.jp/eng/">Sophia University</a>.
+# for reference to hihgligh shit: <a href='#'>Affiliations</a>. <br> to break the line and go down
 
 profile:
   align: right
