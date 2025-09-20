@@ -2,7 +2,7 @@
 layout: post
 title: CM2025 at Sophia University!
 date: 2025-10-26 16:11:00-0400
-inline: false
+inline: true
 related_posts: false
 ---
 
