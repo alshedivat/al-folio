@@ -54,7 +54,7 @@ researchmap:
   logo: /assets/img/Researchmap.svg
   width: 100px   # adjust as needed
   height: 28pt
-  object-fit: contain
+#  object-fit: contain
   title: researchmap
   url: https://researchmap.jp/yilmaz
 # custom_social: # can be any name here other than the ones already defined above
