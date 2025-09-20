@@ -46,12 +46,12 @@ scholar_userid: R2D30vAAAAAJ # your Google Scholar ID
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
-researchmap:
-  logo: /assets/img/Researchmap.svg
-#  width: auto    # wide enough for text
-#  height: auto    # matches height of other icons
-  title: researchmap
-  url: https://researchmap.jp/yilmaz?lang=en
+# researchmap:
+#   logo: /assets/img/Researchmap.svg
+#   width: auto    # wide enough for text
+#   height: auto    # matches height of other icons
+#   title: researchmap
+#   url: https://researchmap.jp/yilmaz?lang=en
 x_username: eyilma41 # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
