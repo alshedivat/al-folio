@@ -7,7 +7,7 @@ first_name: Emir
 middle_name:
 last_name: Yılmaz
 contact_note: >
-  Yilmaz Lab., Krupp Hall, Room 327 | PERG, <a href="https://fst.sophia.ac.jp/en/department/eas" target="_blank">EAS</a>, 
+  Yilmaz Lab., Krupp Hall, Room 327 | <a href="https://fst.sophia.ac.jp/en/department/eas" target="_blank">EAS</a>, 
   <a href="https://www.sophia.ac.jp/eng/" target="_blank">Sophia University</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
