@@ -32,6 +32,6 @@ I am a co-PI of the Precision Engineering Research Group (PERG) at Sophia Univer
 
 Prior to joining PERG, I completed my M.Sc. (2017) and Ph.D. (2020) degrees in Mechanical Engineering at Sophia University, supported by the Japanese Government (MEXT) Scholarship. Before that, I worked as a maintenance engineer at Ford Otosan’s [Yeniköy Plant](https://www.fordotosan.com.tr/en/operations/production/plants) in Türkiye, where I gained hands-on experience in automotive manufacturing and reliability. I also hold a B.Sc. in Mechatronics Engineering from [Sabancı University](https://www.sabanciuniv.edu/en), during which I studied abroad at [Tokyo Metropolitan University](https://www.tmu.ac.jp/english/index.html), — an experience that first shaped my long-term academic career in Japan.
 
-You can find a copt of my CV <a href="/assets/files/Emir_Yilmaz_CV.pdf" target="_blank">here</a>
+You can find a copt of my CV <a href="/assets/files/Academic_CV_Nov24.pdf" target="_blank">here</a>
 
 Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
