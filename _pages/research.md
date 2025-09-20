@@ -8,7 +8,7 @@ nav_order: 7
 
 ## themes
 
-Our studies are focused on creating engineered surfaces for various engineering applications – from nucleate boiling to tribology. On-going projects are listed below:
+Our studies are focused on creating functional surfaces for various engineering applications – from nucleate boiling to tribology. On-going projects are listed below:
 
 # tribology & surface engineering
 
@@ -21,3 +21,16 @@ It is well-known that micro-textures under different lubricating regimes can act
 # deep learning
 
 Development of neural network-based “heat transfer models” to utilize <mark>nucleate-boiling (NB)</mark> phenomenon in thermal management systems for engines. In theory, NB can enhance the heat transfer coefficient immensely, around <mark>10<sup>3–5</sup>×</mark> times, when controlled properly thanks to air bubbles. However, the thermal interval for NB to work is limited, around <mark>10–30 °C</mark>, which needs a precise control algorithm for cooling systems. In addition, it is rather difficult to model these complex physical phenomena of multiphase fluid flow. This is where <mark>deep learning (DL)</mark> comes into the spotlight. The goal is to develop <mark>physics-based DL frameworks to predict heat flux during coolant flow</mark> and make necessary adjustments in the cooling system to ensure that the heat transfer is indeed in the NB regime. The physics-based model will be backed by <mark>visual data of air bubbles captured by high-speed cameras</mark> during the experiments. By utilizing NB phenomenon, it is possible to scale down the size and weight of conventional cooling systems, which will eventually result in <mark>higher mileage for EVs and reduced emissions for NG-ICEVs</mark>.
+
+## 卒業研配属について
+ただいま取り組んでいる研究テーマの詳細については，以下のリンクからご覧いただけます．
+また，進学・就職・研究室選びなどでお悩みの方は，ぜひお気軽にご相談ください．
+E-mail: yilmaz(at)sophia.ac.jp
+※ (at)を@に置き換えてください．
+
+## We are actively looking for gradaute students. 
+Feel free to reach out via email.
+E-mail: yilmaz(at)sophia.ac.jp
+  ※ replace (at) with @ mark.
+
+
