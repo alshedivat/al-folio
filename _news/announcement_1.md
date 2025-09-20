@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our page is up & alive!!
+Our lab page is up & alive!!
