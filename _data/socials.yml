@@ -56,7 +56,7 @@ researchmap:
   height: 28pt
 #  object-fit: contain
   title: researchmap
-  url: https://researchmap.jp/yilmaz
+  url: https://researchmap.jp/yilmaz?lang=en
 # custom_social: # can be any name here other than the ones already defined above
   # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
   # title: Custom Social
