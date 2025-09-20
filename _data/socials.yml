@@ -10,7 +10,7 @@
 # bluesky_url: # your bluesky URL
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: yilmaz[at]sophia.ac.jp *replace [at] with @ mark* # your email address
+# email: yilmaz[at]sophia.ac.jp *replace [at] with @ mark* # your email address
 # facebook_id: # your facebook id
 # flickr_id: # your flickr id
 # github_username: # your GitHub user name
@@ -24,7 +24,7 @@ email: yilmaz[at]sophia.ac.jp *replace [at] with @ mark* # your email address
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-# linkedin_username: # your LinkedIn user name
+linkedin_username: https://www.linkedin.com/in/emir-yilmaz-4107/ # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 orcid_id: 0000-0003-3173-1853 # your ORCID ID
@@ -32,9 +32,9 @@ orcid_id: 0000-0003-3173-1853 # your ORCID ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
-# research_gate_profile: # your profile on ResearchGate
+research_gate_profile: https://www.researchgate.net/profile/Emir_Yilmaz2?ev=hdr_xprf # your profile on ResearchGate
 # rss_icon: true # comment this line to hide the RSS icon
-# scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
+scholar_userid: R2D30vAAAAAJ # your Google Scholar ID
 scopus_id: 57908475500 # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
