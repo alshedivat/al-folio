@@ -938,6 +938,13 @@ html.transition *:after {
   }
 }
 
+mark {
+  background-color: $purple-color;   /* uses your global theme green */
+  color: #ffffff;
+  padding: 0 0.15em;
+  border-radius: 2px;
+}
+
 progress {
   /* Positioning */
   position: fixed;
