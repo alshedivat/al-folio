@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-10-26 16:11:00-0400
+date: 2025-09-26 16:11:00-0400
 inline: true
-related_posts: false
+related_posts: true
 ---
 
 CM2025 (13th International Conference on Contact Mechanics and Wear of Rail/Wheel Systems) was held at Yotsuya campus in Sophia University,Tokyo, Japan. 
