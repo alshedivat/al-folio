@@ -55,6 +55,6 @@ x_username: eyilma41 # your X handle
   # title: Custom Social
   # url: https://www.alberteinstein.com/
 researchmap: # can be any name here other than the ones already defined above
-  logo: /assets/img/Researchmap.png # can be png, svg, jpg
+  logo: /assets/img/Researchmap.svg # can be png, svg, jpg
   title: researchmap
   url: https://researchmap.jp/yilmaz
