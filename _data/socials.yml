@@ -51,7 +51,7 @@ x_username: eyilma41 # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 researchmap:
-  logo: /assets/img/Researchmap.svg
+  logo: /assets/img/Researchmap.png
   width: 120px    # wide enough for text
   height: 30px    # matches height of other icons
   title: researchmap
