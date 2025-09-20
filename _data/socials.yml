@@ -24,7 +24,6 @@
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: emir-yilmaz-4107# your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 orcid_id: 0000-0003-3173-1853 # your ORCID ID
@@ -47,17 +46,19 @@ scopus_id: 57908475500 # your profile on Scopus
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
 # work_url: # work page URL
-x_username: eyilma41 # your X handle
-# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-# zotero_username: # your zotero username
 researchmap:
   logo: /assets/img/Researchmap.svg
   width: 320px    # wide enough for text
   height: 80px    # matches height of other icons
   title: researchmap
   url: https://researchmap.jp/yilmaz?lang=en
+x_username: eyilma41 # your X handle
+# youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+# zotero_username: # your zotero username
 # custom_social: # can be any name here other than the ones already defined above
   # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
   # title: Custom Social
   # url: https://www.alberteinstein.com/
   #  object-fit: contain
+  linkedin_username: emir-yilmaz-4107# your LinkedIn user name
+  
