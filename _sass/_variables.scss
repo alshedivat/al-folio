@@ -19,6 +19,7 @@ $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
 $purple-color: #1a73e8 !default; // Google-style blue
+$purple-color-hover: #1558b0 !default;   // darker hover blue
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
