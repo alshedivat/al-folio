@@ -54,3 +54,7 @@ x_username: eyilma41 # your X handle
   # logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
   # title: Custom Social
   # url: https://www.alberteinstein.com/
+researchmap: # can be any name here other than the ones already defined above
+  logo: https://ja.wikipedia.org/wiki/Researchmap#/media/ファイル:Researchmap.png # can be png, svg, jpg
+  title: researchmap
+  url: https://researchmap.jp/yilmaz
