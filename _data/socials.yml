@@ -48,8 +48,8 @@ scopus_id: 57908475500 # your profile on Scopus
 # work_url: # work page URL
 researchmap:
   logo: /assets/img/Researchmap.svg
-  width: 400px    # wide enough for text
-  height: 100px    # matches height of other icons
+  width: auto    # wide enough for text
+  height: auto    # matches height of other icons
   title: researchmap
   url: https://researchmap.jp/yilmaz?lang=en
 x_username: eyilma41 # your X handle
