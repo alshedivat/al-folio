@@ -51,9 +51,9 @@ x_username: eyilma41 # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
 researchmap:
-  logo: /assets/img/Researchmap.png
-  width: 120px    # wide enough for text
-  height: 30px    # matches height of other icons
+  logo: /assets/img/Researchmap.jpg
+  width: 180px    # wide enough for text
+  height: 60px    # matches height of other icons
   title: researchmap
   url: https://researchmap.jp/yilmaz?lang=en
 # custom_social: # can be any name here other than the ones already defined above
