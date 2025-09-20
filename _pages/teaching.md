@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses can be found on [MOODLE](https://moodle.cc.sophia.ac.jp) page.
+description: Materials for each course can be found on [MOODLE](https://moodle.cc.sophia.ac.jp) page, after logging in via password.
 nav: true
 nav_order: 6
 ---
