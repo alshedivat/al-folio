@@ -15,7 +15,7 @@ On going projects are listed below:
 
 Investigation of tribological characteristics to improve the lifespan and efficiency of next-generation internal combustion engine vehicles (NG-ICEVs) by lowering wear and friction coefficient in liner-piston interactions. These NG-ICEVs are fueled with carbon-free/neutral fuels, such as ammonia and ethanol. Even though there are many studies focusing on the combustion phenomenon or engine performance, there are only a few studies focusing on the effect of tribological pairs when these fuels are used. Due to the differences in chemical properties, in the long run conventional engine components tend to corrode and new coating/materials are need to be introduced to the automotive sector. In our lab, wear-friction-corrosion analyses are being conducted on an ammonia-fueled ICEs.    
 
-# surface texturing via lst & edm
+# surface texturing via LST & EDM
 
 It is well-known fact that micro-textures under different lubricating regimes can act differently. In our laboratory we are assessing the usability of laser surface texturing (LST), electrical discharge machining (μEDM) and micro-milling techniques to create various micro-textures on tribological pairs. Currently, the focus is on the piston ring-cylinder liner pair , where the overall goal is to develop a comprehensive guideline for micro-texture characteristics (shape, size, density, etc...) depending on the piston's speed and spatial position. CFD simulations, and tribology experiments are being conducted concurrently. 
 
