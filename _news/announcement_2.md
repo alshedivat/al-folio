@@ -1,12 +1,12 @@
 ---
 layout: post
-title: A long announcement with details
+title: CM2025 @Sophia!
 date: 2015-11-07 16:11:00-0400
 inline: false
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+CM2025 (13th International Conference on Contact Mechanics and Wear of Rail/Wheel Systems) was held at Yotsuya campus in Sophia University,Tokyo,  Japan. Click here for more about the conference.
 
 ---
 
