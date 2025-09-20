@@ -18,7 +18,8 @@ $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+# $purple-color: #b509ac !default; #
+$purple-color: #007bff !default; // Bootstrap blue
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
@@ -44,9 +45,9 @@ $fa-font-path: "../webfonts";
 $ti-font-path: "../fonts";
 
 // Back To Top button config
-$back-to-top-z-index: 10;
-$back-to-top-bottom: 30px;
-$back-to-top-right: 30px;
-$back-to-top-diameter: 40px;
+$back-to-top-z-index: 15;
+$back-to-top-bottom: 35px;
+$back-to-top-right: 35px;
+$back-to-top-diameter: 50px;
 $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
