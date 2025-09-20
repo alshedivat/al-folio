@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CM2025 @Sophia!
-date: 2015-11-07 16:11:00-0400
+date: 2025-10-26 16:11:00-0400
 inline: false
 related_posts: false
 ---
@@ -9,8 +9,6 @@ related_posts: false
 CM2025 (13th International Conference on Contact Mechanics and Wear of Rail/Wheel Systems) was held at Yotsuya campus in Sophia University,Tokyo,  Japan. Click <a href="https://cm2025.jscmr.org/index.html">here</a> for more about the conference.
 
 ---
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
 
 #### Hipster list
 
