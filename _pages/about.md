@@ -32,4 +32,4 @@ I am a co-PI of the Precision Engineering Research Group (PERG) at Sophia Univer
 
 Prior to joining PERG, I completed my M.Sc. (2017) and Ph.D. (2020) degrees in Mechanical Engineering at Sophia University, supported by the Japanese Government (MEXT) Scholarship. Before that, I worked as a maintenance engineer at Ford Otosan’s [Yeniköy Plant](https://www.fordotosan.com.tr/en/operations/production/plants) in Türkiye, where I gained hands-on experience in automotive manufacturing and reliability. I also hold a B.Sc. in Mechatronics Engineering from [Sabancı University](https://www.sabanciuniv.edu/en), during which I studied abroad at [Tokyo Metropolitan University](https://www.tmu.ac.jp/english/index.html), — an experience that first shaped my long-term academic career in Japan.
 
-You can find a copy of my CV <a href="{{ site.baseurl }}/assets/pdf/Academic_CV_Nov24.pdf">here</a>.
+You can find a copy of my CV <a href="{{ site.baseurl }}/assets/pdf/Academic_CV_Nov24.pdf">here</a>.!
