@@ -7,14 +7,15 @@ first_name: Emir
 middle_name:
 last_name: Yilmaz
 contact_note: >
-  <i>Yilmaz Lab.</i> | PERG, EAS, Sophia University.
+  <i>Yilmaz Lab.</i> | PERG, <a href="https://fst.sophia.ac.jp/en/department/eas" target="_blank">EAS</a>, 
+  <a href="https://www.sophia.ac.jp/eng/" target="_blank">Sophia University</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+# Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>. #
+keywords: research, tribology, surface engineering, wettability, ammonia combustion # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
