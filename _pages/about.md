@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Anatolian. An alumnus from <a href="https://www.sabanciuniv.edu/en">Sabanci University</a>. Now, an Assistant Professor @PERG, <a href="https://fst.sophia.ac.jp/en/department/eas/">EAS</a>, <a href="https://www.sophia.ac.jp/eng/">Sophia University</a>.
+subtitle: Anatolian. An alumnus from <a href="https://www.sabanciuniv.edu/en">Sabanci University</a>. Now, an Assistant Professor @PERG, 
+<a href="https://fst.sophia.ac.jp/en/department/eas/">EAS</a>, <a href="https://www.sophia.ac.jp/eng/">Sophia University</a>.
 # for reference to hihgligh shit: <a href='#'>Affiliations</a>. <br> to break the line and go down '...' to highlight
 
 profile:
@@ -34,4 +35,4 @@ Prior to joining PERG, I completed my M.Sc. (2017) and Ph.D. (2020) degrees in M
 
 You can find a copy of my CV <a href="/assets/pdf/Academic_CV_Nov24.pdf">here</a>.
 
-Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below.
