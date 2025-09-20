@@ -52,7 +52,7 @@ x_username: eyilma41 # your X handle
 # zotero_username: # your zotero username
 researchmap:
   logo: /assets/img/Researchmap.svg
-  width: 100px   # adjust as needed
+  width: 140px   # adjust as needed
   height: 28pt
 #  object-fit: contain
   title: researchmap
