@@ -7,6 +7,4 @@ image: /assets/img/ammonia_flow.svg   # optional social/OG image
 preview_image: /assets/img/ammonia_flow.svg  # optional if your theme uses it
 ---
 
-Our collaborative research on ammonia-powered engines, led by Prof. Mitsuhisa Ichiyanagi, was featured in a [Sophia University press release](https://www.sophia.ac.jp/eng/article/news/release/release20240305/)!
-
-![Sophia University press release](/assets/img/ammonia_flow.svg)
+Our collaborative research on ammonia-powered engines, led by Prof. Mitsuhisa Ichiyanagi, was featured in a Sophia University [press release](https://www.sophia.ac.jp/eng/article/news/release/release20240305/)!
