@@ -9,5 +9,5 @@ links:
 
 <details>
   <summary>Abstract</summary>
-  <p>[INSERT Abstract]</p>
+  <p>Coming Soon</p>
 </details>
