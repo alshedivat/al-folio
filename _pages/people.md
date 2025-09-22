@@ -11,7 +11,6 @@ profiles:
   # and create one content file for each profile inside _pages/
   - align: right
     assets/img/labphotos/IMG_0161.png
-    content:  
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>FY22 PERG group photo</p>  
