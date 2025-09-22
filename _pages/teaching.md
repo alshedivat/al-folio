@@ -7,7 +7,7 @@ nav: true
 nav_order: 6
 ---
 
-Materials for each course can be found on <a href='https://moodle.cc.sophia.ac.jp'>MOODLE</a> page (course registration required).  
+Materials for each course can be found on <a href="https://moodle.cc.sophia.ac.jp">MOODLE</a> page (course registration required).  
 
 ## courses
 
