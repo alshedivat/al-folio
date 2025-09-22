@@ -10,7 +10,7 @@ nav_order: 7
 Feel free to reach out via email.  
 Email: yilmaz(at)sophia.ac.jp  
   ※ replace (at) with @ mark.  
-  [Admission Information for International Students](https://www.sophia.ac.jp/eng/admissions-and-aid/){: .btn .btn--primary }  
+  [Admission Information for International Students](https://www.sophia.ac.jp/eng/admissions-and-aid/)
   
 ### 卒業研配属について　　
 ただいま取り組んでいる研究テーマの詳細については，以下のリンクからご覧いただけます．  
