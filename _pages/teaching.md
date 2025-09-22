@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: "Materials for each course can be found on <a href='https://moodle.cc.sophia.ac.jp'>MOODLE</a> page (course registration required)."
+description: "Materials for each course can be found on <a href='https://moodle.cc.sophia.ac.jp'><mark>MOODLE</mark></a> page (course registration required)."
 nav: true
 nav_order: 6
 ---
