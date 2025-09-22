@@ -8,7 +8,8 @@ nav_order: 7
 
 ### We are actively looking for gradaute students.  
 Feel free to reach out via email.  
-E-mail: yilmaz(at)sophia.ac.jp  
+[Admission Information for International Students](https://www.sophia.ac.jp/eng/admissions-and-aid/){: .btn .btn--primary }
+Email: yilmaz(at)sophia.ac.jp  
   ※ replace (at) with @ mark.　　
   
 ### 卒業研配属について　　
