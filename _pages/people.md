@@ -10,8 +10,8 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: IMG_0161.png
-    content: assets/img/labphotos
+    assets/img/labphotos/IMG_0161.png
+    content:  
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>FY22 PERG group photo</p>  
