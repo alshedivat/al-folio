@@ -8,15 +8,15 @@ nav_order: 7
 
 ### We are actively looking for gradaute students.  
 Feel free to reach out via email.  
-[Admission Information for International Students](https://www.sophia.ac.jp/eng/admissions-and-aid/){: .btn .btn--primary }
 Email: yilmaz(at)sophia.ac.jp  
-  ※ replace (at) with @ mark.　　
+  ※ replace (at) with @ mark.  
+  [Admission Information for International Students](https://www.sophia.ac.jp/eng/admissions-and-aid/){: .btn .btn--primary }  
   
 ### 卒業研配属について　　
 ただいま取り組んでいる研究テーマの詳細については，以下のリンクからご覧いただけます．  
 また，進学・就職・研究室選びなどでお悩みの方は，ぜひお気軽にご相談ください．  
 E-mail: yilmaz(at)sophia.ac.jp  
-※ (at)を@に置き換えてください．  
+  ※ (at)を@に置き換えてください．  
 <a href="{{ site.baseurl }}/assets/pdf/laboverview_jp.pdf">詳細</a>　
   
 ## themes
