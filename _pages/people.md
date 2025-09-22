@@ -10,14 +10,14 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: assets/img/labphotos/IMG_0161.png
+    image: IMG_0161.png
     image_circular: false # crops the image to make it circular
     content: fy22.md
     more_info: >
       <p>FY22 PERG group photo</p>  
   - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
+    image: IMG_0159.png
+    content: hello world
     image_circular: false # crops the image to make it circular
     more_info: >
       <p>555 your office number</p>
