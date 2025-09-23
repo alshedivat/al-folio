@@ -57,6 +57,11 @@
   {
     "start": -1600,
     "end": -1600,
+    "event": "Babylonians knew how to solve quadratic equations, essentially using the method of completing the square, showing early algebraic thinking that would eventually contribute to equation theory"
+  },
+  {
+    "start": -1600,
+    "end": -1600,
     "event": "The Babylonians use spaces to indicate missing places in theri place value statement"
   },
   {
@@ -1290,6 +1295,11 @@
     "event": "Discovery of methods for solving cubic equations by Sciopione del Ferro, Niccolo Tartaglia, and Gerolamo Cardano"
   },
   {
+    "start": 1540,
+    "end": 1540,
+    "event": "Italian mathematicians developed algebraic methods for solving cubic and quartic equations, setting the stage for the next major problem: solving the quintic"
+  },
+  {
     "start": 1501,
     "end": 1504,
     "event": "Michelangelo sculpts *David* in Florence"
@@ -1426,6 +1436,11 @@
   },
   {
     "start": 1600,
+    "end": 1620,
+    "event": "Fermat worked on representing integers by binary quadratic forms, including his theorem that every prime of the form 4n+1 can be represented as a sum of two squares x²+y²"
+  },
+  {
+    "start": 1600,
     "end": 1630,
     "event": "Thomas Harriot develops Harriot's principle by proposing rewriting equations in the form $f(x) = 0$, revolutionizing algebraic problem solving by linking roots to zero properties of integral domains, popularized by Rene Decartes in analytic geometry"
   },
@@ -1515,6 +1530,11 @@
     "event": "parentheses become standard for grouping terms in arithmetic expressions, promoted by Leibniz, the Bernoullis, and Euler"
   },
   {
+    "start": 1700,
+    "end": 1799,
+    "event": "Euler uses complex integers to solve Diophantine equations like x² + 2 = y³, demonstrating that extending beyond ordinary integers helps solve integer problems"
+  },
+  {
     "start": 1713,
     "end": 1713,
     "event": "Treaty of Utrecht transfers Italian territories to Austrian Hapsburgs"
@@ -1548,6 +1568,11 @@
     "start": 1770,
     "end": 1827,
     "event": "Pierre-Simon Laplace is active, writing extensively on celestial mechanics and probability"
+  },
+  {
+    "start": 1770,
+    "end": 1770,
+    "event": "Joseph Louis Lagrange wrote \"Reflections on the solution of algebraic equations,\" analyzing methods by Viète, Descartes, Euler, and Bezout. He associated resolvent equations with polynomial equations and connected solutions with permutations of roots, establishing that k (number of values under permutation) divides n! - the source of Lagrange's theorem in group theory"
   },
   {
     "start": 1770,
@@ -1695,6 +1720,16 @@
     "event": "Carl Friedrich Gauss publishes *Disquisitiones Arithmeticae* (Arithmetic Investigations), marking rigorous developments in number theory"
   },
   {
+    "start": 1801,
+    "end": 1801,
+    "event": "Carl Friedrich Gauss published Disquisitiones Arithmeticae, unifying number theory and establishing properties of finite abelian groups without group terminology. He proved Z*p is cyclic, defined element order, and studied groups in four guises: integers modulo m, multiplicative groups, equivalence classes of binary quadratic forms, and nth roots of unity"
+  },
+  {
+    "start": 1800,
+    "end": 1850,
+    "event": "Ring theory begins as mathematicians recognize that number-theoretic problems require domains beyond ordinary integers"
+  },
+  {
     "start": 1804,
     "end": 1804,
     "event": "Haiti becomes independent from France; massacre of French colonists"
@@ -1735,6 +1770,11 @@
     "event": "Congress of Vienna reinforces fragmented Italian states"
   },
   {
+    "start": 1815,
+    "end": 1815,
+    "event": "Augustin-Louis Cauchy published papers making permutation theory an autonomous subject, introducing modern permutation notation, cyclic notation, and proving results like \"every even permutation is a product of 3-cycles\""
+  },
+  {
     "start": 1818,
     "end": 1818,
     "event": "Arthur Schopenhauer writes *The World as Will and Representation*"
@@ -1743,6 +1783,11 @@
     "start": 1821,
     "end": 1821,
     "event": "Augustin Louis Cauchy publishes *Cours d'Analyse* (The Ecole Polytechnique Analysis Course), introducing the concept of limits and continuity rigorously, highlighting the fundamental theorem of calculus"
+  },
+  {
+    "start": 1829,
+    "end": 1831,
+    "event": "Gauss introduces Gaussian integers Z[i] = {a + bi} and proves they form a unique factorization domain (UFD). This was revolutionary: showing that an extended number system could preserve the fundamental property of unique prime factorization"
   },
   {
     "start": 1820,
@@ -1763,6 +1808,11 @@
     "start": 1830,
     "end": 1830,
     "event": "France invades and colonizes Algeria"
+  },
+  {
+    "start": 1830,
+    "end": 1830,
+    "event": "Évariste Galois developed his theory (worked out around 1830, published posthumously). He first used \"group\" technically, defined normal subgroups, and showed that solvability of equations relates to properties of their associated groups"
   },
   {
     "start": 1831,
@@ -1797,7 +1847,37 @@
   {
     "start": 1843,
     "end": 1843,
+    "event": "Hamilton invents quaternions - the first noncommutative number system where multiplication order matters (ij ≠ ji). This shattered the assumption that all number systems must be commutative, opening an entirely new branch of mathematics"
+  },
+  {
+    "start": 1843,
+    "end": 1843,
     "event": "Soren Kierkegaard writes *Fear and Trembling*"
+  },
+  {
+    "start": 1844,
+    "end": 1844,
+    "event": "The floodgates open: Cayley introduces 8-dimensional octonions (nonassociative!), Grassmann creates exterior algebras for n-dimensional vector spaces. Mathematics suddenly has multiple new \"number systems\" to explore"
+  },
+  {
+    "start": 1844,
+    "end": 1844,
+    "event": "Cauchy published another major paper defining groups of permutations generated by elements, determining subgroups of S₃, S₄, S₅, and S₆"
+  },
+  {
+    "start": 1847,
+    "end": 1847,
+    "event": "Lamé's dramatic failed proof of Fermat's Last Theorem at the Paris Academy - Kummer points out that unique factorization fails in many algebraic integer domains, revealing a fundamental crisis in algebraic number theory"
+  },
+  {
+    "start": 1840,
+    "end": 1849,
+    "event": "Kummer saves unique factorization by introducing \"ideal numbers\" - mysterious objects that exist only through their divisibility properties, like \"free radicals\" in chemistry"
+  },
+  {
+    "start": 1846,
+    "end": 1846,
+    "event": "Liouville posthumously published Galois' work; Dirichlet established that the group of units in an algebraic number field is a direct product of a finite cyclic group and a free abelian group of finite rank; Kummer introduced \"ideal numbers\" for cyclotomic fields"
   },
   {
     "start": 1846,
@@ -1816,13 +1896,43 @@
   },
   {
     "start": 1850,
+    "end": 1850,
+    "event": "Beginning of Cayley-Sylvester Invariant Theory, studying invariants of \"forms\" under transformations, implicitly group-theoretic and a precursor to Klein's Erlangen Program"
+  },
+  {
+    "start": 1850,
     "end": 1864,
     "event": "Taiping Rebellion in China against the Qing Dynasty"
+  },
+  {
+    "start": 1854,
+    "end": 1854,
+    "event": "Cayley defines group algebras, connecting group theory to ring theory for the first time"
+  },
+  {
+    "start": 1854,
+    "end": 1854,
+    "event": "Arthur Cayley gave the first abstract definition of a finite group: \"A set of symbols 1, α, β, ..., all of them different, and such that the product of any two of them... belongs to the set.\" He proved Cayley's theorem (every abstract group is isomorphic to a permutation group)"
+  },
+  {
+    "start": 1855,
+    "end": 1858,
+    "event": "Cayley introduces matrices as \"single quantities\" that can be added and multiplied, noting their non-commutativity"
+  },
+  {
+    "start": 1856,
+    "end": 1856,
+    "event": "William Rowan Hamilton implicitly considered \"groups\" of regular solids in motion geometry"
   },
   {
     "start": 1856,
     "end": 1856,
     "event": "Imperial Reform Decree in the Ottoman Empire"
+  },
+  {
+    "start": 1858,
+    "end": 1858,
+    "event": "Richard Dedekind gave another abstract definition of groups in his Göttingen lectures on Galois theory"
   },
   {
     "start": 1856,
@@ -1848,6 +1958,11 @@
     "start": 1859,
     "end": 1861,
     "event": "Kingdom of Sardinia begins unifying Italy; Lombardy annexed after Second Italian War of Independence (1859)"
+  },
+  {
+    "start": 1860,
+    "end": 1880,
+    "event": "Camille Jordan wrote over 30 articles on groups during this period, synthesizing and extending group theory"
   },
   {
     "start": 1861,
@@ -1890,6 +2005,31 @@
     "event": "Ulysses S. Grant becomes president of US"
   },
   {
+    "start": 1868,
+    "end": 1868,
+    "event": "Jordan classified all subgroups of the group of motions of Euclidean 3-space"
+  },
+  {
+    "start": 1869,
+    "end": 1869,
+    "event": "Schering, Gauss's former student, found a basis for the abelian group of equivalence classes of binary quadratic forms"
+  },
+  {
+    "start": 1870,
+    "end": 1870,
+    "event": "Benjamin Peirce's groundbreaking 150-page \"Linear Associative Algebra\" - the first systematic study classifying all algebras up to dimension 6, introducing nilpotent and idempotent elements, and the Peirce decomposition"
+  },
+  {
+    "start": 1870,
+    "end": 1870,
+    "event": "Jordan published \"Treatise on Substitutions and Algebraic Equations,\" presenting group theory as its own field. He introduced concepts of isomorphism, homomorphism, solvable groups, composition series, and proved An is simple for n>4. Kronecker gave an abstract treatment of finite abelian groups in \"An exposition of some properties of the class number of ideal complex numbers\""
+  },
+  {
+    "start": 1871,
+    "end": 1871,
+    "event": "Dedekind's revolutionary introduction of ideals - replacing Kummer's vague \"ideal numbers\" with concrete sets of algebraic integers. This paper essentially created modern algebraic number theory and introduced the first essentially axiomatic definition of a ring (though in a concrete setting)"
+  },
+  {
     "start": 1870,
     "end": 1870,
     "event": "Italy annexes Rome from the Papal States during the Franco-Prussian War, completing unification"
@@ -1898,6 +2038,16 @@
     "start": 1871,
     "end": 1871,
     "event": "Rome is declared the capital of Italy"
+  },
+  {
+    "start": 1872,
+    "end": 1872,
+    "event": "Felix Klein delivered his Erlangen Program lecture at University of Erlangen, classifying geometry as the study of invariants under transformation groups (projective, rigid motions, similarities, etc.). Ludwig Sylow proved his theorem for permutation groups"
+  },
+  {
+    "start": 1874,
+    "end": 1874,
+    "event": "Sophus Lie introduced continuous transformation groups (Lie groups), aiming to do for differential equations what Abel and Galois did for algebraic equations. Klein focused on geometry applications"
   },
   {
     "start": 1871,
@@ -1915,9 +2065,34 @@
     "event": "William Shanks computes a decimal value of $\\pi$ to 607 places, taking him more than 15 years."
   },
   {
+    "start": 1876,
+    "end": 1876,
+    "event": "Henri Poincaré and Klein began work on automorphic functions and associated discontinuous groups"
+  },
+  {
     "start": 1877,
     "end": 1877,
     "event": "Rutherford B. Hayes becomes president of US"
+  },
+  {
+    "start": 1878,
+    "end": 1878,
+    "event": "Frobenius proves the stunning result that the ONLY finite-dimensional division algebras over real numbers are R, C, and Hamilton's quaternions - no other possibilities exist"
+  },
+  {
+    "start": 1878,
+    "end": 1878,
+    "event": "Cayley returned to abstract group theory with four influential papers, stating the problem of finding all groups of given order and noting that abstract treatment is better than just studying permutation groups"
+  },
+  {
+    "start": 1879,
+    "end": 1879,
+    "event": "Frobenius and Stickelberger prove every finite abelian group decomposes into cyclic groups of prime-power order - a \"fundamental theorem of arithmetic\" for groups"
+  },
+  {
+    "start": 1879,
+    "end": 1879,
+    "event": "Georg Frobenius and Ludwig Stickelberger explicitly used abstract abelian groups, proved the basis theorem including uniqueness of decomposition, and recognized that the abstract concept embraces multiple concrete realizations"
   },
   {
     "start": 1879,
@@ -1938,6 +2113,36 @@
     "start": 1880,
     "end": 1889,
     "event": "porgroms in Russia lead to Jewish emigration to the US and Palestine"
+  },
+  {
+    "start": 1882,
+    "end": 1882,
+    "event": "Dedekind and Weber's masterpiece connecting algebraic number theory to algebraic geometry by showing deep analogies between number fields and function fields"
+  },
+  {
+    "start": 1882,
+    "end": 1882,
+    "event": "Heinrich Weber gave a modern definition of abstract finite groups with three axioms. Walther von Dyck published \"Group-theoretic studies,\" first consciously combining all sources (algebraic, number-theoretic, geometric, analytic), defining groups via generators and relations, constructing free groups"
+  },
+  {
+    "start": 1883,
+    "end": 1883,
+    "event": "Von Dyck applied abstract group theory to various concrete cases. Émile Picard began work on Galois theory for differential equations (continuing through 1887)"
+  },
+  {
+    "start": 1884,
+    "end": 1884,
+    "event": "Klein published \"Lectures on the Icosahedron,\" using the icosahedron's symmetry group to \"solve\" the quintic, introducing the Klein 4-group"
+  },
+  {
+    "start": 1887,
+    "end": 1887,
+    "event": "Frobenius gave an abstract proof of Sylow's theorem, deliberately avoiding the \"alien\" symmetric group used in previous proofs"
+  },
+  {
+    "start": 1889,
+    "end": 1889,
+    "event": "Otto Hölder defined quotient groups abstractly (as groups of cosets) and completed the Jordan-Hölder theorem proof"
   },
   {
     "start": 1882,
@@ -1992,7 +2197,27 @@
   {
     "start": 1890,
     "end": 1890,
+    "event": "Hilbert shocks the mathematical world with his non-constructive proof of the Basis Theorem. Gordan protests \"This is not mathematics, it is theology!\" - but this \"theology\" becomes standard mathematics by the 1920s"
+  },
+  {
+    "start": 1890,
+    "end": 1899,
+    "event": "Cartan, Frobenius, Molien independently prove the structure theorem: every finite-dimensional algebra decomposes into nilpotent and semisimple parts, with the semisimple part being a direct sum of matrix algebras over division rings"
+  },
+  {
+    "start": 1890,
+    "end": 1890,
     "event": "Eritrea becomes an Italian colony"
+  },
+  {
+    "start": 1892,
+    "end": 1892,
+    "event": "Ernest Vessiot contributed to the Galois theory of differential equations"
+  },
+  {
+    "start": 1893,
+    "end": 1893,
+    "event": "Hölder introduced automorphisms abstractly, studied simple groups abstractly, and determined all simple groups of order up to 200"
   },
   {
     "start": 1893,
@@ -2016,6 +2241,11 @@
   },
   {
     "start": 1897,
+    "end": 1898,
+    "event": "Dedekind and G.A. Miller independently characterized Hamiltonian groups (non-abelian groups with all subgroups normal), introduced commutators and commutator subgroups"
+  },
+  {
+    "start": 1897,
     "end": 1897,
     "event": "William McKinley becomes president of US"
   },
@@ -2023,6 +2253,11 @@
     "start": 1898,
     "end": 1898,
     "event": "\"100 Days of Reform\" in China, attempt to modernize and reform the Qing Dynasty, fails"
+  },
+  {
+    "start": 1898,
+    "end": 1900,
+    "event": "William Burnside, Frobenius, and Theodor Molien created character theory and representation theory for finite groups"
   },
   {
     "start": 1898,
@@ -2061,6 +2296,11 @@
   },
   {
     "start": 1904,
+    "end": 1904,
+    "event": "J.A. de Séguier published \"Elements of the Theory of Abstract Groups,\" the first monograph entirely on abstract groups, including set-theoretic foundations based on Cantor"
+  },
+  {
+    "start": 1904,
     "end": 1914,
     "event": "Second Aliyah to Palestine by Jews fleeing pogroms in Russia and Eastern Europe"
   },
@@ -2073,6 +2313,11 @@
     "start": 1905,
     "end": 1905,
     "event": "Partition of Bengal by British"
+  },
+  {
+    "start": 1907,
+    "end": 1907,
+    "event": "Wedderburn's landmark paper extends the structure theorem from R and C to arbitrary fields, introducing modern conceptual approach with ideals, quotient algebras, radicals, direct sums"
   },
   {
     "start": 1907,
@@ -2142,6 +2387,11 @@
   {
     "start": 1914,
     "end": 1914,
+    "event": "Fraenkel gives the FIRST truly abstract definition of a ring - remarkably late! This is the birth of rings as abstract algebraic structures, not just specific examples like polynomials or matrices. He defines rings axiomatically with two operations (addition and multiplication) satisfying specific properties"
+  },
+  {
+    "start": 1914,
+    "end": 1914,
     "event": "Ramanujan comes to England to work with Hardy"
   },
   {
@@ -2182,6 +2432,11 @@
   {
     "start": 1916,
     "end": 1916,
+    "event": "Otto Schmidt published \"Abstract Theory of Groups,\" the first to treat infinite and finite groups on equal footing, with finite groups relegated to later chapters"
+  },
+  {
+    "start": 1916,
+    "end": 1916,
     "event": "Sykes-Picot Agreement, British and French carve up the Middle East"
   },
   {
@@ -2198,6 +2453,11 @@
     "start": 1916,
     "end": 1918,
     "event": "150k Chinese contract workers sent to work in Europe"
+  },
+  {
+    "start": 1917,
+    "end": 1917,
+    "event": "Sono gives an even more modern abstract treatment, discussing quotient rings, maximal ideals, isomorphism theorems - the full modern apparatus"
   },
   {
     "start": 1917,
@@ -2246,6 +2506,11 @@
   },
   {
     "start": 1920,
+    "end": 1930,
+    "event": "Group theory diverged into specialized areas: finite group theory, infinite groups with finiteness conditions, combinatorial group theory (Dehn, Tietze, Nielsen, Artin, Schreier), infinite abelian groups (Prüfer, Baer, Ulm), topological groups (Pontrjagin, Gelfand, von Neumann)"
+  },
+  {
+    "start": 1920,
     "end": 1920,
     "event": "San Remo Resolution applies the mandate system to Palestine and incorporates the Balfour declaration"
   },
@@ -2268,6 +2533,11 @@
     "start": 1920,
     "end": 1921,
     "event": "Famine in China under warlord rule, kills ~0.5 million"
+  },
+  {
+    "start": 1921,
+    "end": 1921,
+    "event": "Emmy Noether's \"Ideal theory in rings\" - shows that results seemingly specific to polynomial rings actually follow from a single axiom (ascending chain condition), creating the theory of Noetherian rings"
   },
   {
     "start": 1921,
@@ -2356,8 +2626,23 @@
   },
   {
     "start": 1926,
+    "end": 1926,
+    "event": "Otto Schreier developed the theory of group extensions, leading to cohomology of groups"
+  },
+  {
+    "start": 1926,
     "end": 1928,
     "event": "Great Northern Expedition in China, Chiang Kai-Shek attempts to unify China in collaboration with the Communists and the Soviet Union"
+  },
+  {
+    "start": 1927,
+    "end": 1927,
+    "event": "Two masterpieces: Noether characterizes Dedekind domains abstractly (rings where every ideal factors uniquely into prime ideals), Artin develops theory of rings with descending chain condition (Artinian rings). Together, Noether and Artin transform ring theory from studying specific examples to a powerful abstract theory, making rings equal partners with groups and fields in abstract algebra"
+  },
+  {
+    "start": 1928,
+    "end": 1928,
+    "event": "Schmidt proved the Remak-Krull-Schmidt theorem for groups with finiteness conditions"
   },
   {
     "start": 1926,
@@ -2568,6 +2853,11 @@
     "start": 1939,
     "end": 1945,
     "event": "World War II"
+  },
+  {
+    "start": 1940,
+    "end": 1949,
+    "event": "Armand Borel and Claude Chevalley made fundamental contributions to the theory of algebraic groups"
   },
   {
     "start": 1940,
@@ -2965,6 +3255,11 @@
     "event": "Bay of Pigs invasion of Cuba by US"
   },
   {
+    "start": 1963,
+    "end": 1963,
+    "event": "Walter Feit and John Thompson proved that every finite group of odd order is solvable (Feit-Thompson theorem)"
+  },
+  {
     "start": 1961,
     "end": 1961,
     "event": "Eritrean War of Independence begins"
@@ -3277,6 +3572,11 @@
   {
     "start": 1971,
     "end": 1971,
+    "event": "Proof that cyclotomic integer rings Dp fail unique factorization for all primes p ≥ 23, showing Kummer's ideal theory was absolutely necessary"
+  },
+  {
+    "start": 1971,
+    "end": 1971,
     "event": "Nixon declares War on Drugs"
   },
   {
@@ -3407,6 +3707,11 @@
   {
     "start": 1981,
     "end": 1981,
+    "event": "The classification of all finite simple groups was completed, solving a problem posed by Hölder in 1893"
+  },
+  {
+    "start": 1981,
+    "end": 1981,
     "event": "Ronald Reagan becomes president of US"
   },
   {
@@ -3493,6 +3798,11 @@
     "start": 1994,
     "end": 1994,
     "event": "Massacre at Al-Aqsa Mosque by Jewish extremist"
+  },
+  {
+    "start": 1995,
+    "end": 1995,
+    "event": "Wiles and Taylor's paper on \"Ring-theoretic properties of certain Hecke algebras\" fills the gap in the proof of Fermat's Last Theorem - ring theory comes full circle to solve the problem that helped create it"
   },
   {
     "start": 1995,

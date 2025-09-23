@@ -77,6 +77,10 @@
             "author":"Richard Feynman"
           },
           {
+            "text": "The development of consciousness in human beings is inseparably connected with the use of metaphor. Metaphors are not merely peripheral decorations or even useful models, they are fundamental forms of our awareness of our condition: metaphors of space, metaphors of movement, metaphors of vision.",
+            "author":"Iris Murdoch"
+          },
+          {
             "text": "Sellars's pragmatism dictates that issues of conceptual priority be translated into questions of the relative autonomy of different strata of language -that is, into questions concerning what language games can be played independently of and antecedently to which others.",
             "author":"Robert Brandom"
           },
@@ -117,8 +121,8 @@
         ]
       },
       {
-        "title": "On Computers",
-        "description": "Interesting quotes on computation, information, and humans from diverse sources.",
+        "title": "On computers, math, and formalization",
+        "description": "Interesting quotes on computation, information, formalization, and humans from diverse sources.",
         "quotes": [
           {
             "text": "Bartlett et al. (2020) note “the phenomenon of benign overfitting is one of the key mysteries uncovered by deep learning methodology: deep neural networks seem to predict well, even with a perfect fit to noisy training data.” However, benign overfitting behaviour can be reproduced with other model classes, can be understood intuitively, and is described by rigorous frameworks for characterizing generalization that have existed for decades.",
@@ -133,12 +137,28 @@
             "author": "Amelia Wattenberger"
           },
           {
+            "text": "Ultimately, then, satisfaction is determined not by the world but by a declaration on the part of the requestor that a condition is satisfied. The case of 'fit' may seem extreme, but every condition of satisfaction ultimately rests on a declaration by an individual, within the background of a community. The cases that seem 'objective' are those in which there is great regularity and for which possible conversations about satisfaction have been regularized (perhaps formally in the legal system). One kind of innovation lies in generating new interpretations and corresponding new domains for conditions of satisfaction. In fact, one might view this as the primary enterprise of the 'fashion' industry (and of every entrepreneur).",
+            "author": "Terry Winograd"
+          },
+          {
+            "text": "Computers are a tool for conducting the network of conversations.",
+            "author": "Terry Winograd"
+          },
+          {
             "text": "Instead of untangling every broken process, he just needs to define success and let AI navigate the mess. In fact, Bitter Lesson might actually be sweet: all those undocumented workflows and informal networks that pervade organizations might not matter. What matters is knowing good output when you see it.",
             "author": "Ethan Mollick"
           },
           {
-            "text": "I do think there’s some hubris in arguing the bitter lesson does not apply to HCI, and AI is not coming for OUR work specifically. How many of the bespoke systems we are making today with carefully crafted prompt chains will be learned tomorrow? Likely it’s already true of some of the lower hanging LLM-wrapper systems from a few years ago. Food for thought for us - if we are simply crafting the processes that get automated later, that’s not a very exciting place to be as a researcher, especially if the “later” time horizon keeps getting shorter and shorter. Auditing the process is useful for some things, e.g., legitimacy, verification. It’s more important for high stakes and/or collective tasks. But not always important.",
+            "text": "I do think there's some hubris in arguing the bitter lesson does not apply to HCI, and AI is not coming for OUR work specifically. How many of the bespoke systems we are making today with carefully crafted prompt chains will be learned tomorrow? Likely it's already true of some of the lower hanging LLM-wrapper systems from a few years ago. Food for thought for us - if we are simply crafting the processes that get automated later, that's not a very exciting place to be as a researcher, especially if the "later" time horizon keeps getting shorter and shorter. Auditing the process is useful for some things, e.g., legitimacy, verification. It's more important for high stakes and/or collective tasks. But not always important.",
             "author": "Adapted from private quote"
+          },
+          {
+            "text": "Hilbert, who wrote a thesis on invariants in 1885, and in 1888 gave a much simpler, but noncomputational, proof of Gordan's result on binary forms, astonished the mathematical community in 1890 by showing that any form, of any degree, in any number of variables, has a basis. Hilbert adopted a new, conceptual, approach to the subject. The idea was to consider, instead of invariants, expressions in a finite number of variables—in short, the polynomial ring in those variables. Hilbert then proved what came to be known as Hilbert's Basis Theorem, namely that every ideal in the ring of polynomials in finitely many variables has a finite basis. The existence of a basis for an arbitrary form now followed. "This is not mathematics, it is theology," protested Gordan in response to Hilbert's abstract, nonconstructive proof. The theology of the 1890s, however, became the mathematical gospel of the 1920s.",
+            "author": "Isabelle Kleiner"
+          },
+          {
+            "text": "While with Fraenkel and Sono we witness the birth of the abstract ring concept, with Noether and Artin we see the birth of abstract ring theory. Noether and Artin made the abstract ring concept central in algebra by framing in an abstract setting the theorems which were its major inspirations. In this context they introduced and gave prominence to such fundamental algebraic notions as ideal (including one-sided ideal), module, and chain conditions—both ascending and descending. Ring theory now took its rightful place along the by then well established theories of groups and fields as one of the pillars of abstract algebra.",
+            "author": "Isabelle Kleiner"
           }
         ]
       },
@@ -405,6 +425,14 @@
           {
             "text": "What is important now is to recover our senses. We must learn to see more, to hear more, to feel more. Our task is not to find the maximum amount of content in a work of art, much less to squeeze more content out of the work than is already there. Our task is to cut back content so that we can see the thing at all. The aim of all commentary on art now should be to make works of art-and, by analogy, our own experience-more, rather than less, real to us. The function of criticism should be to show how it is what it is, even that it is what it is, rather than to show what it means. In place of a hermeneutics we need an erotics of art.",
             "author": "Susan Sontag"
+          },
+          {
+            "text": "These arts, especially literature and painting, show us the peculiar sense in which the concept of virtue is tied on to the human condition. They show us the absolute pointlessness of virtue while exhibiting its supreme importance; the enjoyment of art is a training in the love of virtue. The pointlessness of art is not the pointlessness of a game; it is the pointlessness of human life itself, and form in art is properly the simulation of the self-contained aimlessness of the universe. Good art reveals what we are usually too selfish and too timid to recognize, the minute and absolutely random detail of the world, and reveals it together with a sense of unity and form. This form often seems to us mysterious because it resists the easy patterns of the fantasy, whereas there is nothing mysterious about the forms of bad art since they are the recognizable and familiar rat-runs of selfish day-dream. Good art shows us how difficult it is to be objective by showing us how differently the world looks to an objective vision. We are presented with a truthful image of the human condition in a form which can be steadily contemplated; and indeed this is the only context in which many of us are capable of contemplating it at all. Art transcends selfish and obsessive limitations of personality and can enlarge the sensibility of its consumer. It is a kind of goodness by proxy. Most of all it exhibits to us the connection, in human beings, of clear realistic vision with compassion. The realism of a great artist is not a photographic realism, it is essentially both pity and justice.",
+            "author": "Iris Murdoch"
+          },
+          {
+            "text": "Here we encounter an important quality in modern political discourse and in the way people commonly think about what measures are justified in response to the possibilities technologies make available. In many instances, to say that some technologies are inherently political is to say that certain widely accepted reasons of practical necessity?especially the need to maintain crucial technological systems as smoothly working.",
+            "author": "Langston Winner"
           }
         ]
       }

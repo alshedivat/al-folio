@@ -319,22 +319,43 @@
         },
 
         {
-            "title": "Philosophy",
-            "description": "Smaller articles/essays/books in contemporary-ish philosophy that I think are interesting or insightful.",
+            "title": "Philosophy and History of Math",
+            "description": "Books and articles on philosophy of mathematics and history of mathematical ideas.",
             "papers": [
-                {
-                    "title": "Why Isn’t There More Progress in Philosophy?",
-                    "authors": "David J. Chalmers",
-                    "year": 2011,
-                    "commentary": "Asks an interesting question and gives some helpful directions to start thinking about what progress means in philosophy and how 'premise deniability' might be a relevant factor.",
-                    "link": "https://consc.net/papers/progress.pdf"
-                },
                 {
                     "title": "Proofs and Refutations: The Logic of Mathematical Discovery",
                     "authors": "Imre Lakatos",
                     "year": 1976,
                     "commentary": "Uses an extremely entertaining and well-focused example of understanding the 'V - E + F = 2' Euler characterization of polyhedra to illustrate how mathemematics develops -- dialectically between criticism (proof-analysis, refutation, counterexamples) and development (proof, lemma-incorporation, etc.). Entertainingly written as a Socratic conversation among a classroom of incredibly bright students.",
                     "link": "https://dl1.cuni.cz/pluginfile.php/730446/mod_resource/content/2/Imre%20Lakatos%3B%20Proofs%20and%20Refutations.pdf"
+                },
+                {
+                    "title": "A History of Abstract Algebra",
+                    "authors": "Isabelle Kleiner",
+                    "year": 2007,
+                    "commentary": "A comprehensive historical survey of the development of abstract algebra from its origins to modern times.",
+                    "link": "https://pyrkov-professor.ru/Portals/0/Mediateka/18%20vek/kleiner_i_a_history_of_abstract_algebra.pdf"
+                }
+            ]
+        },
+
+        {
+            "title": "Philosophy",
+            "description": "Smaller articles/essays/books in contemporary-ish philosophy that I think are interesting or insightful.",
+            "papers": [
+                {
+                    "title": "Why Isn't There More Progress in Philosophy?",
+                    "authors": "David J. Chalmers",
+                    "year": 2011,
+                    "commentary": "Asks an interesting question and gives some helpful directions to start thinking about what progress means in philosophy and how 'premise deniability' might be a relevant factor.",
+                    "link": "https://consc.net/papers/progress.pdf"
+                },
+                {
+                    "title": "The Idea of Perfection",
+                    "authors": "Iris Murdoch",
+                    "year": 1964,
+                    "commentary": "From The Sovereignty of Good. Murdoch's influential essay on moral philosophy, arguing against the existentialist notion of radical choice and for the importance of attention and moral vision in ethical development.",
+                    "link": ""
                 }
             ]
         },
