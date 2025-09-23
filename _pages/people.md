@@ -10,7 +10,7 @@ profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
   - align: right
-    image: fy22.jpg
+    image: fy24.jpg
     content: fy22.md
     image_circular: false # crops the image to make it circular
     more_info: >
@@ -18,7 +18,7 @@ profiles:
       <p>123 your address street</p>
       <p>Your City, State 12345</p>
   - align: left
-    image: fy23.jpg
+    image: img_0159.jpg
     content: fy22.md
     image_circular: false # crops the image to make it circular
     more_info: >
