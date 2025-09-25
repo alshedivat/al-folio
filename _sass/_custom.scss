@@ -5,3 +5,25 @@
 .custom-subtitle h2 {
   color: #007bff; /* Example: changes the color to blue */
 }
+
+.research-subtitle {
+  text-align: left;
+  margin-left: -400px; /* Optional: adds a little space from the edge */
+  color: #6a00ff; 
+  font-weight: 600;
+  font-family: "Inter", sans-serif; /* Adds the Inter font */
+}
+
+.research-subtitle-about {
+  color: #6a00ff; 
+  font-weight: 600;
+  font-family: "Inter", sans-serif; /* Adds the Inter font */
+}
+
+.about-text {
+  font-family:  "Inter", serif ;  /* Changes the font to a classic, readable serif */
+  font-size: 1.2rem !important;  /* Increases the font size */
+}
+.my-name {
+  font-family: "Inter",  sans-serif  !important;
+}

@@ -20,18 +20,14 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-<br>
-<br>
-I am a PhD candidate in Economics at the University of Toronto. 
-<br>
-My research interests lie at the intersection of Labor, Applied Micro, and Spatial Economics.
-<br>
-<br>
 
-I will be on the 2025-2026 academic job market.
+<p class="about-text">I am a PhD candidate in Economics at the University of Toronto. 
+<br>
+My research interests lie at the intersection of Labor, Applied Micro, and Spatial Economics. 
 <br>
 <br>
-
+I will be on the 2025-2026 academic job market. </p>
+<br>
 e-mail:[ abdelrahman.amer@mail.utoronto.ca](mailto:abdelrahman.amer@mail.utoronto.ca)
 <br>
 
@@ -40,7 +36,8 @@ CV: [Here](/assets/pdf/AmerAbdelrahman_CV2.pdf)
 
 <br>
 
-## Working Papers
+<h2 class="research-subtitle-about">Working Papers</h2>
+---
 {% include working-papers-list.liquid %}
 
 
