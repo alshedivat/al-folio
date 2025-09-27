@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student @ <a href='https://www.korea.edu/sites/en/index.do'>Korea University</a> (Advised by <a href='http://smrl.korea.ac.kr/Professor/biographical_sketch/'>Prof. Sung Woo Chung</a>)
+subtitle: "Ph.D. student @ <a href='https://www.korea.edu/sites/en/index.do'>Korea University</a> (Advised by <a href='http://smrl.korea.ac.kr/Professor/biographical_sketch/'>Prof. Sung Woo Chung</a>)"
 
 profile:
   align: right
