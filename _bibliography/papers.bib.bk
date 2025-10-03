@@ -9,10 +9,11 @@
 %  #########   #####   #########  ######  
 %                                    
 %========================================
+
 @article{WaBr2025,
 	title        = {MFNetSim: A Multi-Fidelity Network Simulation Framework for Multi-Traffic Modeling of Dragonfly Systems},
 	author       = {Wang, Xin and Brown, Kevin A. and Ross, Robert B. and Carothers, Christopher D. and Lan, Zhiling},
-	year         = 2025,
+	year         = {2025},
 	month        = apr,
 	journal      = {ACM Trans. Model. Comput. Simul.},
 	publisher    = {Association for Computing Machinery},
@@ -25,10 +26,11 @@
 	keywords     = {Multi-fidelity modeling, Network simulation, Performance analysis, Dragonfly interconnect network},
 }
 
+
 @article{JyJo25,
 	title        = {Enhancing Consumer Insights through VR Metaphor Elicitation},
 	author       = {Jyothula, Sai Priya and Johnson, Andrew E.},
-	year         = 2025,
+	year         = {2025},
 	journal      = {IEEE Transactions on Visualization and Computer Graphics},
 	pages        = {1--10},
 	doi          = {10.1109/tvcg.2025.3549905},
@@ -36,13 +38,13 @@
 }
 
 @inproceedings{ReMaTs25,
-	title        = {Immersive Analytics at the Electronic Visualization Laboratory},
-	author       = {Renambot, Luc and Marai, G. Elisabeta and Tsoupikova, Daria and Talandis, Jonas and Papka, Michael E. and Miranda, Fabio and Soni, Nikita and Plepys, Dana and Long, Lance and Brown, Maxine and Johnson, Andrew and Sandin, Daniel and DeFanti, Thomas and Leigh, Jason},
-	year         = 2025,
-	month        = March,
-	booktitle    = {IEEE VR 2025 Workshop: Immersive Visualization Laboratory (IVL)},
-	address      = {Saint-Malo, France},
-	url          = {https://sites.google.com/view/ivl-workshop3},
+  author    = {Renambot, Luc and Marai, G. Elisabeta and Tsoupikova, Daria and Talandis, Jonas and Papka, Michael E. and Miranda, Fabio and Soni, Nikita and Plepys, Dana and Long, Lance and Brown, Maxine and Johnson, Andrew and Sandin, Daniel and DeFanti, Thomas and Leigh, Jason},
+  title     = {Immersive Analytics at the Electronic Visualization Laboratory},
+  booktitle = {IEEE VR 2025 Workshop: Immersive Visualization Laboratory (IVL)},
+  address   = {Saint-Malo, France},
+  year      = 2025,
+  month     = March,
+  url       = {https://sites.google.com/view/ivl-workshop3}
 }
 
 @article{WeAtZh25,
@@ -63,47 +65,6 @@
 	keywords     = {Digital twins;Visualization;Computational modeling;Data visualization;Data models;Tumors;Chemotherapy},
 }
 
-@inproceedings{JiRuXi24,
-	title        = {Analysis-by-Synthesis Transformer for Single-View 3D Reconstruction},
-	author       = {Jia, Dian and Ruan, Xiaoqian and Xia, Kun and Zou, Zhiming and Wang, Le and Tang, Wei},
-	year         = 2025,
-	booktitle    = {Computer Vision -- ECCV 2024},
-	publisher    = {Springer Nature Switzerland},
-	address      = {Cham},
-	pages        = {259--277},
-	isbn         = {978-3-031-72664-4},
-	editor       = {Leonardis, Ale{\v{s}} and Ricci, Elisa and Roth, Stefan and Russakovsky, Olga and Sattler, Torsten and Varol, G{\"u}l},
-	abstract     = {Deep learning approaches have made significant success in single-view 3D reconstruction, but they often rely on expensive 3D annotations for training. Recent efforts tackle this challenge by adopting an analysis-by-synthesis paradigm to learn 3D reconstruction with only 2D annotations. However, existing methods face limitations in both shape reconstruction and texture generation. This paper introduces an innovative Analysis-by-Synthesis Transformer that addresses these limitations in a unified framework by effectively modeling pixel-to-shape and pixel-to-texture relationships. It consists of a Shape Transformer and a Texture Transformer. The Shape Transformer employs learnable shape queries to fetch pixel-level features from the image, thereby achieving high-quality mesh reconstruction and recovering occluded vertices. The Texture Transformer employs texture queries for non-local gathering of texture information and thus eliminates the incorrect inductive bias. Experimental results on CUB-200-2011 and ShapeNet datasets demonstrate superior performance in shape reconstruction and texture generation compared to previous methods. The code is available at https://github.com/DianJJ/AST.},
-}
-
-@article{MoHoVe24,
-	title        = {Curio: A Dataflow-Based Framework for Collaborative Urban Visual Analytics},
-	author       = {Moreira, Gustavo and Hosseini, Maryam and Veiga, Carolina and Alexandre, Lucas and Colaninno, Nicola and de Oliveira, Daniel and Ferreira, Nivan and Lage, Marcos and Miranda, Fabio},
-	year         = 2025,
-	month        = {January},
-	journal      = {IEEE Transactions on Visualization and Computer Graphics},
-	volume       = 31,
-	number       = 1,
-	pages        = {1224--1234},
-	doi          = {10.1109/tvcg.2024.3456353},
-	issn         = {1941-0506},
-	abstract     = {Over the past decade, several urban visual analytics systems and tools have been proposed to tackle a host of challenges faced by cities, in areas as diverse as transportation, weather, and real estate. Many of these tools have been designed through collaborations with urban experts, aiming to distill intricate urban analysis workflows into interactive visualizations and interfaces. However, the design, implementation, and practical use of these tools still rely on siloed approaches, resulting in bespoke systems that are difficult to reproduce and extend. At the design level, these tools undervalue rich data workflows from urban experts, typically treating them only as data providers and evaluators. At the implementation level, they lack interoperability with other technical frameworks. At the practical use level, they tend to be narrowly focused on specific fields, inadvertently creating barriers to cross-domain collaboration. To address these gaps, we present Curio, a framework for collaborative urban visual analytics. Curio uses a dataflow model with multiple abstraction levels (code, grammar, GUI elements) to facilitate collaboration across the design and implementation of visual analytics components. The framework allows experts to intertwine data preprocessing, management, and visualization stages while tracking the provenance of code and visualizations. In collaboration with urban experts, we evaluate Curio through a diverse set of usage scenarios targeting urban accessibility, urban microclimate, and sunlight access. These scenarios use different types of data and domain methodologies to illustrate Curio's flexibility in tackling pressing societal challenges. Curio is available at urbantk.org/curio.},
-	keywords     = {Data visualization;Visual analytics;Collaboration;Three-dimensional displays;Urban areas;Codes;Pipelines;Urban analytics;urban data;spatial data;dataflow;provenance;visualization framework;visualization system},
-}
-
-@inproceedings{SiWaZh24,
-	title        = {Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection},
-	author       = {Shi, Haoyue and Wang, Le and Zhou, Sanping and Hua, Gang and Tang, Wei},
-	year         = 2025,
-	booktitle    = {Computer Vision -- ECCV 2024},
-	publisher    = {Springer Nature Switzerland},
-	address      = {Cham},
-	pages        = {163--180},
-	isbn         = {978-3-031-72658-3},
-	editor       = {Leonardis, Ale{\v{s}} and Ricci, Elisa and Roth, Stefan and Russakovsky, Olga and Sattler, Torsten and Varol, G{\"u}l},
-	abstract     = {Unsupervised video anomaly detection (UVAD) aims to detect abnormal events in videos without any annotations. It remains challenging because anomalies are rare, diverse, and usually not well-defined. Existing UVAD methods are purely data-driven and perform unsupervised learning by identifying various abnormal patterns in videos. Since these methods largely rely on the feature representation and data distribution, they can only learn salient anomalies that are substantially different from normal events but ignore the less distinct ones. To address this challenge, this paper pursues a different approach that leverages data-irrelevant prior knowledge about normal and abnormal events for UVAD. We first propose a new normality prior for UVAD, suggesting that the start and end of a video are predominantly normal. We then propose normality propagation, which propagates normal knowledge based on relationships between video snippets to estimate the normal magnitudes of unlabeled snippets. Finally, unsupervised learning of abnormal detection is performed based on the propagated labels and a new loss re-weighting method. These components are complementary to normality propagation and mitigate the negative impact of incorrectly propagated labels. Extensive experiments on the ShanghaiTech and UCF-Crime benchmarks demonstrate the superior performance of our method. The code is available at https://github.com/shyern/LANP-UVAD.git.},
-}
-
 % Section_2024
 %========================================
 %  #######    #####    #######  ##        
@@ -122,7 +83,7 @@
 	booktitle    = {2024 IEEE 14th Symposium on Large Data Analysis and Visualization (LDAV)},
 	pages        = {75--76},
 	doi          = {10.1109/ldav64567.2024.00019},
-	keywords     = {Three-dimensional displays;Pipelines;Data visualization;Focusing;Virtual reality;Games;Software;Hardware;Streams;Engines},
+	keywords     = {Three-dimensional displays;Pipelines;Data visualization;Focusing;Virtual reality;Games;Software;Hardware;Streams;Engines}
 }
 
 % Gordon Bell Finalist 2024
@@ -137,7 +98,7 @@
 	pages        = {74--86},
 	doi          = {10.1109/sc41406.2024.00013},
 	url          = {https://doi.ieeecomputersociety.org/10.1109/SC41406.2024.00013},
-	abstract     = {We present a scalable, end-to-end workflow for protein design. By augmenting protein sequences with natural language descriptions of their biochemical properties, we train generative models that can be preferentially aligned with protein fitness landscapes. Through complex experimental- and simulationbased observations, we integrate these measures as preferred parameters for generating new protein variants and demonstrate our workflow on five diverse supercomputers. We achieve >1 ExaFLOPS sustained performance in mixed precision on each supercomputer and a maximum sustained performance of 4.11 ExaFLOPS and peak performance of 5.57 ExaFLOPS. We establish the scientific performance of our model on two tasks: (1) across a predetermined benchmark dataset of deep mutational scanning experiments to optimize the fitness-determining mutations in the yeast protein HIS7, and (2) in optimizing the design of the enzyme malate dehydrogenase to achieve lower activation barriers (and therefore increased catalytic rates) using simulation data. Our implementation thus sets high watermarks for multimodal protein design workflows.},
+	abstract     = {We present a scalable, end-to-end workflow for protein design. By augmenting protein sequences with natural language descriptions of their biochemical properties, we train generative models that can be preferentially aligned with protein fitness landscapes. Through complex experimental- and simulationbased observations, we integrate these measures as preferred parameters for generating new protein variants and demonstrate our workflow on five diverse supercomputers. We achieve >1 ExaFLOPS sustained performance in mixed precision on each supercomputer and a maximum sustained performance of 4.11 ExaFLOPS and peak performance of 5.57 ExaFLOPS. We establish the scientific performance of our model on two tasks: (1) across a predetermined benchmark dataset of deep mutational scanning experiments to optimize the fitness-determining mutations in the yeast protein HIS7, and (2) in optimizing the design of the enzyme malate dehydrogenase to achieve lower activation barriers (and therefore increased catalytic rates) using simulation data. Our implementation thus sets high watermarks for multimodal protein design workflows.}
 }
 
 @article{FeMoHo24,
@@ -146,12 +107,12 @@
 	year         = 2024,
 	journal      = {Computers & Graphics},
 	volume       = 123,
-	pages        = 104013,
+	pages        = {104013},
 	doi          = {https://doi.org/10.1016/j.cag.2024.104013},
 	issn         = {0097-8493},
 	url          = {https://www.sciencedirect.com/science/article/pii/S0097849324001481},
 	keywords     = {Visual analytics, Visualization toolkits, Visualization grammars, Visualization authoring, Urban visual analytics},
-	abstract     = {Over the past decade, there has been a significant increase in the development of visual analytics systems dedicated to addressing urban issues. These systems distill intricate urban analysis workflows into intuitive, interactive visual representations and interfaces, enabling users to explore, understand, and derive insights from large and complex data, including street-level imagery, street networks, and building geometries. Developing urban visual analytics systems, however, is a challenging endeavor that requires considerable programming expertise and interaction between various multidisciplinary stakeholders. This situation often leads to monolithic and isolated prototypes that are hard to reproduce, combine, or extend. Concurrently, there has been an increase in the availability of general and urban-specific toolkits, frameworks, and authoring tools that are open source and abstract away the need to implement low-level visual analytics functionalities. This paper provides a hierarchical taxonomy of urban visual analytics systems to contextualize how they are usually designed, implemented, and evaluated. We develop this taxonomy across three distinct levels (i.e., dimensions, categories, and tags), juxtaposing visualization with analytics, data, and system dimensions. We then assess the extent to which current open-source toolkits, frameworks, and authoring tools can effectively support the development of components tailored to urban visual analytics, identifying their strengths and limitations in addressing the unique challenges posed by urban data. In doing so, we offer a roadmap that can guide the effective employment of existing resources and chart a pathway for developing and refining future systems.},
+	abstract     = {Over the past decade, there has been a significant increase in the development of visual analytics systems dedicated to addressing urban issues. These systems distill intricate urban analysis workflows into intuitive, interactive visual representations and interfaces, enabling users to explore, understand, and derive insights from large and complex data, including street-level imagery, street networks, and building geometries. Developing urban visual analytics systems, however, is a challenging endeavor that requires considerable programming expertise and interaction between various multidisciplinary stakeholders. This situation often leads to monolithic and isolated prototypes that are hard to reproduce, combine, or extend. Concurrently, there has been an increase in the availability of general and urban-specific toolkits, frameworks, and authoring tools that are open source and abstract away the need to implement low-level visual analytics functionalities. This paper provides a hierarchical taxonomy of urban visual analytics systems to contextualize how they are usually designed, implemented, and evaluated. We develop this taxonomy across three distinct levels (i.e., dimensions, categories, and tags), juxtaposing visualization with analytics, data, and system dimensions. We then assess the extent to which current open-source toolkits, frameworks, and authoring tools can effectively support the development of components tailored to urban visual analytics, identifying their strengths and limitations in addressing the unique challenges posed by urban data. In doing so, we offer a roadmap that can guide the effective employment of existing resources and chart a pathway for developing and refining future systems.}
 }
 
 @inproceedings{HeJeIn24,
@@ -161,7 +122,20 @@
 	booktitle    = {2024 IEEE 14th Symposium on Large Data Analysis and Visualization (LDAV)},
 	pages        = {71--72},
 	doi          = {10.1109/ldav64567.2024.00017},
-	keywords     = {Data analysis;Pipelines;Data visualization;Organizations;Software;Graphical user interfaces;In situ visualization;graphical user interface (GUI);HPC simulations;scientific visualization;Ascent},
+	keywords     = {Data analysis;Pipelines;Data visualization;Organizations;Software;Graphical user interfaces;In situ visualization;graphical user interface (GUI);HPC simulations;scientific visualization;Ascent}
+}
+
+@inproceedings{JiRuXi24,
+	title        = {Analysis-by-Synthesis Transformer for Single-View 3D Reconstruction},
+	author       = {Jia, Dian and Ruan, Xiaoqian and Xia, Kun and Zou, Zhiming and Wang, Le and Tang, Wei},
+	year         = 2025,
+	booktitle    = {Computer Vision -- ECCV 2024},
+	publisher    = {Springer Nature Switzerland},
+	address      = {Cham},
+	pages        = {259--277},
+	isbn         = {978-3-031-72664-4},
+	editor       = {Leonardis, Ale{\v{s}} and Ricci, Elisa and Roth, Stefan and Russakovsky, Olga and Sattler, Torsten and Varol, G{\"u}l},
+	abstract     = {Deep learning approaches have made significant success in single-view 3D reconstruction, but they often rely on expensive 3D annotations for training. Recent efforts tackle this challenge by adopting an analysis-by-synthesis paradigm to learn 3D reconstruction with only 2D annotations. However, existing methods face limitations in both shape reconstruction and texture generation. This paper introduces an innovative Analysis-by-Synthesis Transformer that addresses these limitations in a unified framework by effectively modeling pixel-to-shape and pixel-to-texture relationships. It consists of a Shape Transformer and a Texture Transformer. The Shape Transformer employs learnable shape queries to fetch pixel-level features from the image, thereby achieving high-quality mesh reconstruction and recovering occluded vertices. The Texture Transformer employs texture queries for non-local gathering of texture information and thus eliminates the incorrect inductive bias. Experimental results on CUB-200-2011 and ShapeNet datasets demonstrate superior performance in shape reconstruction and texture generation compared to previous methods. The code is available at https://github.com/DianJJ/AST.}
 }
 
 @article{JoReMa24,
@@ -176,7 +150,7 @@
 	issn         = {1054-7460},
 	url          = {https://doi.org/10.1162/pres\_a\_00421},
 	note         = {\_eprint: https://direct.mit.edu/pvar/article-pdf/doi/10.1162/pres\_a\_00421/2467669/pres\_a\_00421.pdf},
-	abstract     = {September 2023 marks the 50th anniversary of the Electronic Visualization Laboratory (EVL) at University of Illinois Chicago (UIC). EVL's introduction of the CAVE Automatic Virtual Environment in 1992, the first widely replicated, projection-based, walk-in, virtual-reality (VR) system in the world, put EVL at the forefront of collaborative, immersive data exploration and analytics. However, the journey did not begin then. Since its founding in 1973, EVL has been developing tools and techniques for real-time, interactive visualizations—pillars of VR. But EVL's culture is also relevant to its successes, as it has always been an interdisciplinary lab that fosters teamwork, where each person's expertise contributes to the development of the necessary tools, hardware, system software, applications, and human interface models to solve problems. Over the years, as multidisciplinary collaborations evolved and advanced scientific instruments and data resources were distributed globally, the need to access and share data and visualizations while working with colleagues, local and remote, synchronous and asynchronous, also became important fields of study. This paper is a retrospective of EVL's past 50 years that surveys the many networked, immersive, collaborative visualization and VR systems and applications it developed and deployed, as well as lessons learned and future plans.},
+	abstract     = {September 2023 marks the 50th anniversary of the Electronic Visualization Laboratory (EVL) at University of Illinois Chicago (UIC). EVL's introduction of the CAVE Automatic Virtual Environment in 1992, the first widely replicated, projection-based, walk-in, virtual-reality (VR) system in the world, put EVL at the forefront of collaborative, immersive data exploration and analytics. However, the journey did not begin then. Since its founding in 1973, EVL has been developing tools and techniques for real-time, interactive visualizations—pillars of VR. But EVL's culture is also relevant to its successes, as it has always been an interdisciplinary lab that fosters teamwork, where each person's expertise contributes to the development of the necessary tools, hardware, system software, applications, and human interface models to solve problems. Over the years, as multidisciplinary collaborations evolved and advanced scientific instruments and data resources were distributed globally, the need to access and share data and visualizations while working with colleagues, local and remote, synchronous and asynchronous, also became important fields of study. This paper is a retrospective of EVL's past 50 years that surveys the many networked, immersive, collaborative visualization and VR systems and applications it developed and deployed, as well as lessons learned and future plans.}
 }
 
 @article{KoPaRe24,
@@ -187,7 +161,7 @@
 	pages        = {1--11},
 	doi          = {10.1109/tvcg.2024.3456182},
 	abstract     = {People commonly utilize visualizations not only to examine a given dataset, but also to draw generalizable conclusions about the underlying models or phenomena. Prior research has compared human visual inference to that of an optimal Bayesian agent, with deviations from rational analysis viewed as problematic. However, human reliance on non-normative heuristics may prove advantageous in certain circumstances. We investigate scenarios where human intuition might surpass idealized statistical rationality. In two experiments, we examine individuals' accuracy in characterizing the parameters of known data-generating models from bivariate visualizations. Our findings indicate that, although participants generally exhibited lower accuracy compared to statistical models, they frequently outperformed Bayesian agents, particularly when faced with extreme samples. Participants appeared to rely on their internal models to filter out noisy visualizations, thus improving their resilience against spurious data. However, participants displayed overconfidence and struggled with uncertainty estimation. They also exhibited higher variance than statistical machines. Our findings suggest that analyst gut reactions to visualizations may provide an advantage, even when departing from rationality. These results carry implications for designing visual analytics tools, offering new perspectives on how to integrate statistical models and analyst intuition for improved inference and decision-making.},
-	keywords     = {Bayes methods;Data visualization;Uncertainty;Correlation;Accuracy;Decision making;Biological system modeling;Visual inference;statistical rationality;human-machine collaboration},
+	keywords     = {Bayes methods;Data visualization;Uncertainty;Correlation;Accuracy;Decision making;Biological system modeling;Visual inference;statistical rationality;human-machine collaboration}
 }
 
 @article{LiZhTa24,
@@ -202,7 +176,7 @@
 	doi          = {10.1007/s11263-024-02083-x},
 	issn         = {1573-1405},
 	url          = {https://doi.org/10.1007/s11263-024-02083-x},
-	abstract     = {Unsupervised semantic segmentation (USS) aims at partitioning an image into semantically meaningful segments by learning from a collection of unlabeled images. The effectiveness of current approaches is plagued by difficulties in coordinating representation learning and pixel clustering, modeling the varying feature distributions of different classes, handling outliers and noise, and addressing the pixel class imbalance problem. This paper introduces a novel approach, termed Imbalance-Aware Dense Discriminative Clustering (IDDC), for USS, which addresses all these difficulties in a unified framework. Different from existing approaches, which learn USS in two stages (i.e., generating and updating pseudo masks, or refining and clustering embeddings), IDDC learns pixel-wise feature representation and dense discriminative clustering in an end-to-end and self-supervised manner, through a novel objective function that transfers the manifold structure of pixels in the embedding space of a vision Transformer (ViT) to the label space while tolerating the noise in pixel affinities. During inference, the trained model directly outputs the classification probability of each pixel conditioned on the image. In addition, this paper proposes a new regularizer, based on the Weibull function, to handle pixel class imbalance and cluster degeneration in a single shot. Experimental results demonstrate that IDDC significantly outperforms all previous USS methods on three real-world datasets, COCO-Stuff-27, COCO-Stuff-171, and Cityscapes. Extensive ablation studies validate the effectiveness of each design. Our code is available at https://github.com/MY-LIU100101/IDDC.},
+	abstract     = {Unsupervised semantic segmentation (USS) aims at partitioning an image into semantically meaningful segments by learning from a collection of unlabeled images. The effectiveness of current approaches is plagued by difficulties in coordinating representation learning and pixel clustering, modeling the varying feature distributions of different classes, handling outliers and noise, and addressing the pixel class imbalance problem. This paper introduces a novel approach, termed Imbalance-Aware Dense Discriminative Clustering (IDDC), for USS, which addresses all these difficulties in a unified framework. Different from existing approaches, which learn USS in two stages (i.e., generating and updating pseudo masks, or refining and clustering embeddings), IDDC learns pixel-wise feature representation and dense discriminative clustering in an end-to-end and self-supervised manner, through a novel objective function that transfers the manifold structure of pixels in the embedding space of a vision Transformer (ViT) to the label space while tolerating the noise in pixel affinities. During inference, the trained model directly outputs the classification probability of each pixel conditioned on the image. In addition, this paper proposes a new regularizer, based on the Weibull function, to handle pixel class imbalance and cluster degeneration in a single shot. Experimental results demonstrate that IDDC significantly outperforms all previous USS methods on three real-world datasets, COCO-Stuff-27, COCO-Stuff-171, and Cityscapes. Extensive ablation studies validate the effectiveness of each design. Our code is available at https://github.com/MY-LIU100101/IDDC.}
 }
 
 @inproceedings{MaHoBr24,
@@ -213,14 +187,14 @@
 	location     = {Stockholm, Sweden},
 	publisher    = {Association for Computing Machinery},
 	address      = {New York, NY, USA},
-	series       = {Imx '24},
+	series       = {IMX '24},
 	pages        = {64–74},
 	doi          = {10.1145/3639701.3656312},
 	isbn         = 9798400705038,
 	url          = {https://doi.org/10.1145/3639701.3656312},
 	abstract     = {Stereoscopic 360° panoramas are a popular modality for creating cinematic virtual reality experiences. However, media in this format are typically static entities that consumers passively view. This is because objects visible in the scene, and camera properties such as depth of field, must be determined at capture time. We propose a real-time technique for dynamically synthesizing stereoscopic 360° panoramas from a collection of depth enhanced monoscopic panoramas. Using depth information, pixels can be transformed into three-dimensional space and re-projected to a different camera location. Our technique allows for head-motion parallax, dynamic depth of field, and integration of properly occluded virtual objects into the captured scene. Our technique shows minimal discrepancies compared to ground truth captures and reduces error when compared to existing stereoscopic 360° panoramic synthesis techniques. Additionally, our technique makes creating interactive extended reality experiences more accessible since monoscopic 360° cameras are much more common than their stereoscopic counterparts.},
 	numpages     = 11,
-	keywords     = {360° panoramas, Cinematic virtual reality, Image-based rendering, Omni-directional stereo},
+	keywords     = {360° panoramas, Cinematic virtual reality, Image-based rendering, Omni-directional stereo}
 }
 
 @article{MaMaMo24,
@@ -238,7 +212,7 @@
 	issn         = {1558-1756},
 	url          = {https://doi.ieeecomputersociety.org/10.1109/MCG.2024.3444460},
 	abstract     = {Scientists often explore and analyze large-scale scientific simulation data by leveraging 2-D and 3-D visualizations. The data and tasks can be complex and therefore best supported using myriad display technologies, from mobile devices to large high-resolution display walls to virtual reality headsets. Using a simulation of neuron connections in the human brain provided for the 2023 IEEE Scientific Visualization Contest, we present our work leveraging various web technologies to create a multiplatform scientific visualization application. Users can spread visualization and interaction across multiple devices to support flexible user interfaces and both colocated and remote collaboration. Drawing inspiration from responsive web design principles, this work demonstrates that a single codebase can be adapted to develop scientific visualization applications that operate everywhere.},
-	keywords     = {Neurons;Data visualization;Collaboration;Three-dimensional displays;Calcium;Web design;Task analysis},
+	keywords     = {Neurons;Data visualization;Collaboration;Three-dimensional displays;Calcium;Web design;Task analysis}
 }
 
 @inproceedings{MaPaKh24,
@@ -253,7 +227,7 @@
 	doi          = {10.1109/vis55277.2024.00051},
 	url          = {https://doi.ieeecomputersociety.org/10.1109/VIS55277.2024.00051},
 	abstract     = {Visualizations support rapid analysis of scientific datasets, allowing viewers to glean aggregate information (e.g., the mean) within split-seconds. While prior research has explored this ability in conventional charts, it is unclear if spatial visualizations used by computational scientists afford a similar ensemble perception capacity. We investigate people’s ability to estimate two summary statistics, mean and variance, from pseudocolor scalar fields. In a crowd- sourced experiment, we find that participants can reliably characterize both statistics, although variance discrimination requires a much stronger signal. Multi-hue and diverging colormaps outperformed monochromatic, luminance ramps in aiding this extraction. Analysis of qualitative responses suggests that participants often estimate the distribution of hotspots and valleys as visual proxies for data statistics. These findings suggest that people’s summary interpretation of spatial datasets is likely driven by the appearance of discrete color segments, rather than assessments of overall luminance. Implicit color segmentation in quantitative displays could thus prove more useful than previously assumed by facilitating quick, gist- level judgments about color-coded visualizations.},
-	keywords     = {Image color analysis;Visual analytics;Aggregates;Data visualization;Spatial databases;Reliability},
+	keywords     = {Image color analysis;Visual analytics;Aggregates;Data visualization;Spatial databases;Reliability}
 }
 
 @inproceedings{MaSeBo24,
@@ -263,7 +237,20 @@
 	booktitle    = {2024 IEEE 14th Symposium on Large Data Analysis and Visualization (LDAV)},
 	pages        = {69--70},
 	doi          = {10.1109/ldav64567.2024.00016},
-	keywords     = {Performance evaluation;Visualization;Leadership;Ion radiation effects;High performance computing;Data visualization;Propulsion;Rendering (computer graphics);Resource management;Magnetosphere;High Performance Computing (HPC);In Situ Visualization;Computational Fluid Dynamics (CFD);GPU Computing;Parallel Processing},
+	keywords     = {Performance evaluation;Visualization;Leadership;Ion radiation effects;High performance computing;Data visualization;Propulsion;Rendering (computer graphics);Resource management;Magnetosphere;High Performance Computing (HPC);In Situ Visualization;Computational Fluid Dynamics (CFD);GPU Computing;Parallel Processing}
+}
+
+@article{MaWeTr24,
+	title        = {Kiviat Defense: An Empirical Evaluation of Visual Encoding Effectiveness in Multivariate Data Similarity Detection},
+	author       = {Mirko Mantovani and Andrew Wentzel and Juan Trelles Trabucco and Joseph Michaelis and G. Elisabeta Marai},
+	year         = 2023,
+	journal      = {Journal of Imaging Science and Technology},
+	volume       = 67,
+	number       = 6,
+	pages        = {1--1},
+	doi          = {10.2352/J.ImagingSci.Technol.2023.67.6.060406},
+	url          = {https://library.imaging.org/jist/articles/67/6/060406},
+	abstract     = {Similarity detection seeks to identify similar, but distinct items over multivariate datasets. Often, similarity cannot be defined computationally, leading to a need for visual analysis, such as in cases with ensemble, computational, patient cohort, or geospatial data. In this work, we empirically evaluate the effectiveness of common visual encodings for multivariate data in the context of visual similarity detection. We conducted a user study with 40 participants to measure similarity detection performance and response time under moderate scale (16 items) and large scale (36 items). Our analysis shows that there are significant differences in performance between encodings, especially as the number of items increases. Surprisingly, we found that juxtaposed star plots outperformed superposed parallel coordinate plots. Furthermore, color-cues significantly improved response time, and attenuated error at larger scales. In contrast to existing guidelines, we found that filled star plots (Kiviats) outperformed other encodings in terms of scalability and error.}
 }
 
 @inproceedings{MaYaYa24,
@@ -281,7 +268,22 @@
 	url          = {https://doi.org/10.1145/3629526.3645035},
 	abstract     = {First-come first-serve scheduling can result in substantial (up to 10\%) of transiently idle nodes on supercomputers. Recognizing that such unfilled nodes are well-suited for deep neural network (DNN) training, due to the flexible nature of DNN training tasks, Liu et al. proposed that the re-scaling DNN training tasks to fit gaps in schedules be formulated as a mixed-integer linear programming (MILP) problem, and demonstrated via simulation the potential benefits of the approach. Here, we introduce MalleTrain, a system that provides the first practical implementation of this approach and that furthermore generalizes it by allowing it to be used even for DNN training applications for which model information is unknown before runtime. Key to this latter innovation is the use of a lightweight online job profiling advisor (JPA) to collect critical scalability information for DNN jobs---information that it then employs to optimize resource allocations dynamically, in real time. We describe the MalleTrain architecture and present the results of a detailed experimental evaluation on a supercomputer GPU cluster and several representative DNN training workloads, including neural architecture search and hyperparameter optimization. Our results not only confirm the practical feasibility of leveraging idle supercomputer nodes for DNN training but improve significantly on prior results, improving training throughput by up to 22.3\% without requiring users to provide job scalability information.},
 	keywords     = {deep neural network, distributed deep learning training, resource management, scheduling, supercomputer},
-	numpages     = 11,
+	numpages     = 11
+}
+
+@article{MoHoVe24,
+	title        = {Curio: A Dataflow-Based Framework for Collaborative Urban Visual Analytics},
+	author       = {Moreira, Gustavo and Hosseini, Maryam and Veiga, Carolina and Alexandre, Lucas and Colaninno, Nicola and de Oliveira, Daniel and Ferreira, Nivan and Lage, Marcos and Miranda, Fabio},
+	year         = 2025,
+	month        = {January},
+	journal      = {IEEE Transactions on Visualization and Computer Graphics},
+	volume       = 31,
+	number       = 1,
+	pages        = {1224--1234},
+	doi          = {10.1109/tvcg.2024.3456353},
+	issn         = {1941-0506},
+	abstract     = {Over the past decade, several urban visual analytics systems and tools have been proposed to tackle a host of challenges faced by cities, in areas as diverse as transportation, weather, and real estate. Many of these tools have been designed through collaborations with urban experts, aiming to distill intricate urban analysis workflows into interactive visualizations and interfaces. However, the design, implementation, and practical use of these tools still rely on siloed approaches, resulting in bespoke systems that are difficult to reproduce and extend. At the design level, these tools undervalue rich data workflows from urban experts, typically treating them only as data providers and evaluators. At the implementation level, they lack interoperability with other technical frameworks. At the practical use level, they tend to be narrowly focused on specific fields, inadvertently creating barriers to cross-domain collaboration. To address these gaps, we present Curio, a framework for collaborative urban visual analytics. Curio uses a dataflow model with multiple abstraction levels (code, grammar, GUI elements) to facilitate collaboration across the design and implementation of visual analytics components. The framework allows experts to intertwine data preprocessing, management, and visualization stages while tracking the provenance of code and visualizations. In collaboration with urban experts, we evaluate Curio through a diverse set of usage scenarios targeting urban accessibility, urban microclimate, and sunlight access. These scenarios use different types of data and domain methodologies to illustrate Curio's flexibility in tackling pressing societal challenges. Curio is available at urbantk.org/curio.},
+	keywords     = {Data visualization;Visual analytics;Collaboration;Three-dimensional displays;Urban areas;Codes;Pipelines;Urban analytics;urban data;spatial data;dataflow;provenance;visualization framework;visualization system}
 }
 
 @inproceedings{RuTa24,
@@ -291,7 +293,7 @@
 	booktitle    = {2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
 	pages        = {1038--1047},
 	doi          = {10.1109/cvprw63382.2024.00110},
-	keywords     = {Training;Computer vision;Codes;Conferences;Training data;Detectors;Object detection;test-time adaptation;pseudo-label selection;IoU-based indicators;duplicate detections removal},
+	keywords     = {Training;Computer vision;Codes;Conferences;Training data;Detectors;Object detection;test-time adaptation;pseudo-label selection;IoU-based indicators;duplicate detections removal}
 }
 
 @inproceedings{SaLuPa24,
@@ -309,7 +311,7 @@
 	abstract     = {Quantitative data is frequently represented using color, yet designing effective color mappings is a challenging task, requiring one to balance perceptual standards with personal color preference. Current design tools either overwhelm novices with complexity or offer limited customization options. We present ColorMaker, a mixed-initiative approach for creating colormaps. ColorMaker combines fluid user interaction with real-time optimization to generate smooth, continuous color ramps. Users specify their loose color preferences while leaving the algorithm to generate precise color sequences, meeting both designer needs and established guidelines. ColorMaker can create new colormaps, including designs accessible for people with color-vision deficiencies, starting from scratch or with only partial input, thus supporting ideation and iterative refinement. We show that our approach can generate designs with similar or superior perceptual characteristics to standard colormaps. A user study demonstrates how designers of varying skill levels can use this tool to create custom, high-quality colormaps. ColorMaker is available at: colormaker.org},
 	articleno    = 145,
 	numpages     = 17,
-	keywords     = {Mixed-initiative systems, color design, colormaps, simulated annealing.},
+	keywords     = {Mixed-initiative systems, color design, colormaps, simulated annealing.}
 }
 
 @inproceedings{SeDyMa24,
@@ -319,7 +321,7 @@
 	booktitle    = {2024 IEEE 14th Symposium on Large Data Analysis and Visualization (LDAV)},
 	pages        = {73--74},
 	doi          = {10.1109/ldav64567.2024.00018},
-	keywords     = {Point cloud compression;Solid modeling;Technological innovation;Three-dimensional displays;Pipelines;Rendering (computer graphics);Data models;Real-time systems;Image reconstruction;Isosurfaces;3D Gaussian splatting;scientific data;data reconstruction;machine learning},
+	keywords     = {Point cloud compression;Solid modeling;Technological innovation;Three-dimensional displays;Pipelines;Rendering (computer graphics);Data models;Real-time systems;Image reconstruction;Isosurfaces;3D Gaussian splatting;scientific data;data reconstruction;machine learning}
 }
 
 % Best Paper ISAV
@@ -328,7 +330,7 @@
 	author       = {Sewell, Andres and Fytanidis, Dimitrios K and Mateevitsi, Victor A and Harrison, Cyrus and Marsaglia, Nicole and Marrinan, Thomas and Rizzi, Silvio and Insley, Joseph A and Papka, Michael E. and Petruzza, Steve},
 	year         = 2024,
 	month        = November,
-	booktitle    = {ISAV 2024: In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization},
+	booktitle    = {ISAV 2024: In Situ Infrastructures for Enabling Extreme-Scale Analysis and Visualization}
 }
 
 @inproceedings{ShLuEm24,
@@ -343,7 +345,20 @@
 	doi          = {10.1109/CCGrid59990.2024.00060},
 	url          = {https://doi.ieeecomputersociety.org/10.1109/CCGrid59990.2024.00060},
 	abstract     = {The ability to monitor and interpret hardware system events and behaviors is crucial to improving the robustness and reliability of these systems, especially in a supercomputing facility. The growing complexity and scale of these systems demand an increase in monitoring data collected at multiple fidelity levels and varying temporal resolutions. In this work, we aim to build a holistic analytical system that helps make sense of such massive data, mainly the hardware logs, job logs, and environment logs collected from disparate subsystems and components of a supercomputer system. This end-to-end log analysis system, coupled with visual analytics support, allows users to glean and promptly extract supercomputer usage and error patterns at varying temporal and spatial resolutions. We use multi-resolution dynamic mode decomposition (mrDMD), a technique that depicts high-dimensional data as correlated spatial-temporal variations patterns or modes, to extract variation patterns isolated at specified frequencies. Our improvements to the mrDMD algorithm help promptly reveal useful information in the massive environment log dataset, which is then associated with the processed hardware and job log datasets using our visual analytics system. Furthermore, our system can identify the usage and error patterns filtered at user, project, and subcomponent levels. We exemplify the effectiveness of our approach with two use scenarios with the Cray XC40 supercomputer.},
-	keywords     = {Visual analytics;Heuristic algorithms;Time series analysis;Supercomputers;Hardware;Robustness;Real-time systems;Spatial resolution;Monitoring;Multiresolution analysis},
+	keywords     = {Visual analytics;Heuristic algorithms;Time series analysis;Supercomputers;Hardware;Robustness;Real-time systems;Spatial resolution;Monitoring;Multiresolution analysis}
+}
+
+@inproceedings{SiWaZh24,
+	title        = {Learning Anomalies with Normality Prior for Unsupervised Video Anomaly Detection},
+	author       = {Shi, Haoyue and Wang, Le and Zhou, Sanping and Hua, Gang and Tang, Wei},
+	year         = 2025,
+	booktitle    = {Computer Vision -- ECCV 2024},
+	publisher    = {Springer Nature Switzerland},
+	address      = {Cham},
+	pages        = {163--180},
+	isbn         = {978-3-031-72658-3},
+	editor       = {Leonardis, Ale{\v{s}} and Ricci, Elisa and Roth, Stefan and Russakovsky, Olga and Sattler, Torsten and Varol, G{\"u}l},
+	abstract     = {Unsupervised video anomaly detection (UVAD) aims to detect abnormal events in videos without any annotations. It remains challenging because anomalies are rare, diverse, and usually not well-defined. Existing UVAD methods are purely data-driven and perform unsupervised learning by identifying various abnormal patterns in videos. Since these methods largely rely on the feature representation and data distribution, they can only learn salient anomalies that are substantially different from normal events but ignore the less distinct ones. To address this challenge, this paper pursues a different approach that leverages data-irrelevant prior knowledge about normal and abnormal events for UVAD. We first propose a new normality prior for UVAD, suggesting that the start and end of a video are predominantly normal. We then propose normality propagation, which propagates normal knowledge based on relationships between video snippets to estimate the normal magnitudes of unlabeled snippets. Finally, unsupervised learning of abnormal detection is performed based on the propagated labels and a new loss re-weighting method. These components are complementary to normality propagation and mitigate the negative impact of incorrectly propagated labels. Extensive experiments on the ShanghaiTech and UCF-Crime benchmarks demonstrate the superior performance of our method. The code is available at https://github.com/shyern/LANP-UVAD.git.},
 }
 
 @inproceedings{TsJyNi24,
@@ -360,20 +375,20 @@
 	abstract     = {Hummingbird is an innovative, award-winning performance engaging participants in active storytelling that bridges live theater and collaborative interaction through virtual reality (VR). Hummingbird's story celebrates courage and coming of age through the eyes of a gutsy teen who must outsmart her mother's egotistic boss and survive a dangerous new technology in a live, immersive adventure. Developed at the University of Illinois Chicago by faculty and over 30 students from the departments of Computer Science and Design in partnership with professional theater producers, directors, actors, videographers and composers, this project advanced interdisciplinary collaboration, provided a unique learning environment and broadened the research experience for several cohorts of students. Over 500 people attended Hummingbird's performances at the Tony Award-winning Goodman Theatre's New Stages Festival, Chicago Children's Theater and SIGGRAPH 2022 in Vancouver, Canada, with over 200 active VR participants. In each performance, five VR participants actively collaborate with each other and a lead actor within the VR adventure, contributing problem-solving, collaboration and teamwork, while a greater audience simultaneously follows the virtual performance aspects on a large video wall in real-time. Discussion sessions and audience evaluations followed each performance, informed the Hummingbird team on script, design and interactivity to improve future performances. Through qualitative analysis of audience experiences and insights from our collaboration, we discuss key considerations and design recommendations for integrating VR with live theater. Hummingbird demonstrates how VR can revolutionize theatrical storytelling by enabling traditional theater to narrate epic stories that were once considered too ambitious for traditional stage by extending live theater and making VR accessible to a broader audience. This project serves as a prototype for successful partnerships between nonprofit theater and interdisciplinary research institutions to increase opportunities for cross-disciplinary student education.},
 	articleno    = 33,
 	numpages     = 7,
-	keywords     = {Design Process, Interdisciplinary Collaboration, Multi-user, Performance, Storytelling, Theater, Virtual reality},
+	keywords     = {Design Process, Interdisciplinary Collaboration, Multi-user, Performance, Storytelling, Theater, Virtual reality}
 }
 
 @article{TrWeBe24,
 	title        = {BI-LAVA: Biocuration With Hierarchical Image Labelling Through Active Learning and Visual Analytics},
 	author       = {Trelles, Juan and Wentzel, Andrew and Berrios, William and Shatkay, Hagit and Marai, G. Elisabeta},
-	year         = 2024,
+      year         = 2024,
 	journal      = {Computer Graphics Forum},
 	pages        = {e15261},
 	doi          = {https://doi.org/10.1111/cgf.15261},
 	url          = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.15261},
 	keywords     = {visualization, visual analytics, active learning, image labeling, biomedical images},
 	eprint       = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15261},
-	abstract     = {In the biomedical domain, taxonomies organize the acquisition modalities of scientific images in hierarchical structures. Such taxonomies leverage large sets of correct image labels and provide essential information about the importance of a scientific publication, which could then be used in biocuration tasks. However, the hierarchical nature of the labels, the overhead of processing images, the absence or incompleteness of labelled data and the expertise required to label this type of data impede the creation of useful datasets for biocuration. From a multi-year collaboration with biocurators and text-mining researchers, we derive an iterative visual analytics and active learning (AL) strategy to address these challenges. We implement this strategy in a system called BI-LAVA—Biocuration with Hierarchical Image Labelling through Active Learning and Visual Analytics. BI-LAVA leverages a small set of image labels, a hierarchical set of image classifiers and AL to help model builders deal with incomplete ground-truth labels, target a hierarchical taxonomy of image modalities and classify a large pool of unlabelled images. BI-LAVA's front end uses custom encodings to represent data distributions, taxonomies, image projections and neighbourhoods of image thumbnails, which help model builders explore an unfamiliar image dataset and taxonomy and correct and generate labels. An evaluation with machine learning practitioners shows that our mixed human–machine approach successfully supports domain experts in understanding the characteristics of classes within the taxonomy, as well as validating and improving data quality in labelled and unlabelled collections.},
+	abstract     = {In the biomedical domain, taxonomies organize the acquisition modalities of scientific images in hierarchical structures. Such taxonomies leverage large sets of correct image labels and provide essential information about the importance of a scientific publication, which could then be used in biocuration tasks. However, the hierarchical nature of the labels, the overhead of processing images, the absence or incompleteness of labelled data and the expertise required to label this type of data impede the creation of useful datasets for biocuration. From a multi-year collaboration with biocurators and text-mining researchers, we derive an iterative visual analytics and active learning (AL) strategy to address these challenges. We implement this strategy in a system called BI-LAVA—Biocuration with Hierarchical Image Labelling through Active Learning and Visual Analytics. BI-LAVA leverages a small set of image labels, a hierarchical set of image classifiers and AL to help model builders deal with incomplete ground-truth labels, target a hierarchical taxonomy of image modalities and classify a large pool of unlabelled images. BI-LAVA's front end uses custom encodings to represent data distributions, taxonomies, image projections and neighbourhoods of image thumbnails, which help model builders explore an unfamiliar image dataset and taxonomy and correct and generate labels. An evaluation with machine learning practitioners shows that our mixed human–machine approach successfully supports domain experts in understanding the characteristics of classes within the taxonomy, as well as validating and improving data quality in labelled and unlabelled collections.}
 }
 
 @article{WuInMa24,
@@ -384,20 +399,7 @@
 	pages        = {1--15},
 	doi          = {10.1109/tvcg.2024.3432710},
 	abstract     = {Implicit neural representations (INRs) have emerged as a powerful tool for compressing large-scale volume data. This opens up new possibilities for in situ visualization. However, the efficient application of INRs to distributed data remains an underexplored area. In this work, we develop a distributed volumetric neural representation and optimize it for in situ visualization. Our technique eliminates data exchanges between processes, achieving state-of-the-art compression speed, quality and ratios. Our technique also enables the implementation of an efficient strategy for caching large-scale simulation data in high temporal frequencies, further facilitating the use of reactive in situ visualization in a wider range of scientific problems. We integrate this system with the Ascent infrastructure and evaluate its performance and usability using real-world simulations.},
-	keywords     = {Data visualization;Data models;Computational modeling;Training;Adaptation models;Neural networks;Programming;Implicit neural representation;scientific visualization;in situ visualization;reactive programming},
-}
-
-@article{MaWeTr24,
-	title        = {Kiviat Defense: An Empirical Evaluation of Visual Encoding Effectiveness in Multivariate Data Similarity Detection},
-	author       = {Mirko Mantovani and Andrew Wentzel and Juan Trelles Trabucco and Joseph Michaelis and G. Elisabeta Marai},
-	year         = 2023,
-	journal      = {Journal of Imaging Science and Technology},
-	volume       = 67,
-	number       = 6,
-	pages        = {1--1},
-	doi          = {10.2352/J.ImagingSci.Technol.2023.67.6.060406},
-	url          = {https://library.imaging.org/jist/articles/67/6/060406},
-	abstract     = {Similarity detection seeks to identify similar, but distinct items over multivariate datasets. Often, similarity cannot be defined computationally, leading to a need for visual analysis, such as in cases with ensemble, computational, patient cohort, or geospatial data. In this work, we empirically evaluate the effectiveness of common visual encodings for multivariate data in the context of visual similarity detection. We conducted a user study with 40 participants to measure similarity detection performance and response time under moderate scale (16 items) and large scale (36 items). Our analysis shows that there are significant differences in performance between encodings, especially as the number of items increases. Surprisingly, we found that juxtaposed star plots outperformed superposed parallel coordinate plots. Furthermore, color-cues significantly improved response time, and attenuated error at larger scales. In contrast to existing guidelines, we found that filled star plots (Kiviats) outperformed other encodings in terms of scalability and error.},
+	keywords     = {Data visualization;Data models;Computational modeling;Training;Adaptation models;Neural networks;Programming;Implicit neural representation;scientific visualization;in situ visualization;reactive programming}
 }
 
 % Section_2023
@@ -414,12 +416,12 @@
 @article{BeLiTh23,
 	title        = {{Reflecting on the Scalable Adaptive Graphics Environment Team’s 20-Year Translational Research Endeavor in Digital Collaboration Tools}},
 	author       = {Belcaid, Mahdi and Leigh, Jason and Theriot, Ryan and Kirshenbaum, Nurit and Tabalba, Roderick and Rogers, Michael and Johnson, Andrew and Brown, Maxine and Renambot, Luc and Long, Lance and Nishimoto, Arthur and North, Chris and Harden, Jesse},
-	year         = 2023,
+	year         = {2023},
 	month        = {March},
 	journal      = {Computing in Science \& Engineering},
 	publisher    = {IEEE Computer Society},
 	address      = {Los Alamitos, CA, USA},
-	volume       = 25,
+	volume       = {25},
 	number       = {02},
 	pages        = {50--56},
 	doi          = {10.1109/mcse.2023.3297753},
@@ -432,15 +434,15 @@
 @inproceedings{BiBrMi23,
 	title        = {Effects of employing liquid-liquid emulsions on heat transfer within a turbulent Rayleigh-Benard convection},
 	author       = {Abbas Moradi Bilondi and Hal Brynteson and Parisa Mirbod and Michael E. Papka and Luca Brandt and Nicolo Scapin},
-	year         = 2023,
+	year         = {2023},
 	booktitle    = {76th Annual Meeting of the APS Division of Fluid Dynamics},
-	doi          = {https://doi.org/10.1103/APS.DFD.2023.GFM.P0060},
+	doi          = {https://doi.org/10.1103/APS.DFD.2023.GFM.P0060}
 }
 
 @misc{EmFoSa23,
 	title        = {A Comprehensive Performance Study of Large Language Models on Novel AI Accelerators},
 	author       = {Murali Emani and Sam Foreman and Varuni Sastry and Zhen Xie and Siddhisanket Raskar and William Arnold and Rajeev Thakur and Venkatram Vishwanath and Michael E. Papka},
-	year         = 2023,
+	year         = {2023},
 	abstract     = {Artificial intelligence (AI) methods have become critical in scientific applications to help accelerate scientific discovery. Large language models (LLMs) are being considered as a promising approach to address some of the challenging problems because of their superior generalization capabilities across domains. The effectiveness of the models and the accuracy of the applications is contingent upon their efficient execution on the underlying hardware infrastructure. Specialized AI accelerator hardware systems have recently become available for accelerating AI applications. However, the comparative performance of these AI accelerators on large language models has not been previously studied. In this paper, we systematically study LLMs on multiple AI accelerators and GPUs and evaluate their performance characteristics for these models. We evaluate these systems with (i) a micro-benchmark using a core transformer block, (ii) a GPT- 2 model, and (iii) an LLM-driven science use case, GenSLM. We present our findings and analyses of the models' performance to better understand the intrinsic capabilities of AI accelerators. Furthermore, our analysis takes into account key factors such as sequence lengths, scaling behavior, sparsity, and sensitivity to gradient accumulation steps.},
 	eprint       = {2310.04607},
 	arxiv        = {2310.04607},
@@ -451,23 +453,23 @@
 @article{HaBrLa23,
 	title        = {Leveraging National Laboratories to Increase Black Representation in STEM: Recommendations within the Department of Energy},
 	author       = {Hampton-Marcell, Jarrad and Bryson, Tasia and Larson, Jeffrey and Childers, J. Taylor and Pasero, Spencer and Watkins, Cortez and Reed, Thomas and Flucas-Payton, Dorletta and Papka, Michael E.},
-	year         = 2023,
+	year         = {2023},
 	journal      = {International Journal of STEM Education},
-	volume       = 10,
-	number       = 1,
-	pages        = 4,
+	volume       = {10},
+	number       = {1},
+	pages        = {4},
 	doi          = {10.1186/s40594-022-00394-4},
 	isbn         = {2196-7822},
 	url          = {https://doi.org/10.1186/s40594-022-00394-4},
 	abstract     = {Increasing diversity in STEM disciplines has been a goal at scientific institutions for many decades. Black representation in STEM, however, has remained critically low at all levels (high school, undergraduate, graduate, and professional) for over 40 years, highlighting the need for innovative strategies that promote and retain Black students and professionals in STEM. We refocus efforts on increasing Black representation in STEM by promoting early exposure and continued engagement while leveraging national laboratories---an underutilized resource with immense potential to centralize diversity and inclusion efforts nationally.},
 	bdsk-url-1   = {https://doi.org/10.1186/s40594-022-00394-4},
-	id           = {Hampton-Marcell2023},
+	id           = {Hampton-Marcell2023}
 }
 
 @inproceedings{HaKiTa23,
 	title        = {SAGE3 for Interactive Collaborative Visualization, Analysis, and Storytelling},
 	author       = {Harden, Jesse and Kirshenbaum, Nurit and Tabalba Jr., Roderick S. and Leigh, Jason and Renambot, Luc and North, Chris},
-	year         = 2023,
+	year         = {2023},
 	booktitle    = {Companion Proceedings of the 2023 Conference on Interactive Surfaces and Spaces},
 	location     = {Pittsburgh, PA, USA},
 	publisher    = {Association for Computing Machinery},
@@ -475,20 +477,20 @@
 	series       = {ISS Companion '23},
 	pages        = {50–52},
 	doi          = {10.1145/3626485.3626541},
-	isbn         = 9798400704253,
+	isbn         = {9798400704253},
 	url          = {https://doi.org/10.1145/3626485.3626541},
 	abstract     = {SAGE3, the newest and most advanced generation of the Smart Amplified Group Environment, is an open-source software designed to facilitate collaboration among scientists, researchers, students, and professionals across various fields. This tutorial aims to introduce attendees to the capabilities of SAGE3, demonstrating its ability to enhance collaboration and productivity in diverse settings, from co-located office collaboration to remote collaboration to both at once, with diverse displays, from personal laptops to large-scale display walls. Participants will learn how to effectively use SAGE3 for brainstorming, data analysis, and presentation purposes, as well as installation of private collaboration servers and development of custom applications.},
-	numpages     = 3,
+	numpages     = {3},
 	keywords     = {Collaboration, Computational Narratives, Data Analysis, Data Science, Large Displays, Space to Think, Visualization},
 }
 
 @article{KaClSu23,
 	title        = {ChemoGraph: Interactive Visual Exploration of the Chemical Space},
 	author       = {Kale, Bharat and Clyde, Austin and Sun, Maoyuan and Ramanathan, Arvind and Stevens, Rick and Papka, Michael E.},
-	year         = 2023,
+	year         = {2023},
 	journal      = {Computer Graphics Forum},
-	volume       = 42,
-	number       = 3,
+	volume       = {42},
+	number       = {3},
 	pages        = {13--24},
 	doi          = {https://doi.org/10.1111/cgf.14807},
 	url          = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14807},
@@ -500,10 +502,10 @@
 @article{KaSuPa23,
 	title        = {The State of the Art in Visualizing Dynamic Multivariate Networks},
 	author       = {Kale, Bharat and Sun, Maoyuan and Papka, Michael E.},
-	year         = 2023,
+	year         = {2023},
 	journal      = {Computer Graphics Forum},
-	volume       = 42,
-	number       = 3,
+	volume       = {42},
+	number       = {3},
 	pages        = {471--490},
 	doi          = {https://doi.org/10.1111/cgf.14856},
 	url          = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.14856},
@@ -515,7 +517,7 @@
 @inproceedings{LiFaPa23,
 	title        = {Encoding for Reinforcement Learning Driven Scheduling},
 	author       = {Li, Boyang and Fan, Yuping and Papka, Michael E. and Lan, Zhiling},
-	year         = 2023,
+	year         = {2023},
 	booktitle    = {Job Scheduling Strategies for Parallel Processing},
 	publisher    = {Springer Nature Switzerland},
 	address      = {Cham},
@@ -528,7 +530,7 @@
 @inproceedings{LiKePa23,
 	title        = {FreeTrain: A Framework to Utilize Unused Supercomputer Nodes for Training Neural Networks},
 	author       = {Liu, Zhengchun and Kettimuthu, Rajkumar and Papka, Michael E. and Foster, Ian},
-	year         = 2023,
+	year         = {2023},
 	booktitle    = {2023 IEEE/ACM 23rd International Symposium on Cluster, Cloud and Internet Computing (CCGrid)},
 	pages        = {299--310},
 	doi          = {doi.org/10.1109/CCGrid57682.2023.00036},
@@ -538,7 +540,7 @@
 @inproceedings{LiLaPa23,
 	title        = {Interpretable Modeling of Deep Reinforcement Learning Driven Scheduling},
 	author       = {Li, Boyang and Lan, Zhiling and Papka, Michael E.},
-	year         = 2023,
+	year         = {2023},
 	booktitle    = {2023 31st International Symposium on Modeling, Analysis, and Simulation of Computer and Telecommunication Systems (MASCOTS)},
 	pages        = {1--8},
 	doi          = {10.1109/mascots59514.2023.10387651},
@@ -548,7 +550,7 @@
 @inproceedings{MaBoFe23,
 	title        = {Scaling Computational Fluid Dynamics: In Situ Visualization of NekRS Using SENSEI},
 	author       = {Mateevitsi, Victor A. and Bode, Mathis and Ferrier, Nicola and Fischer, Paul and G\"{o}bbert, Jens Henrik and Insley, Joseph A. and Lan, Yu-Hsiang and Min, Misun and Papka, Michael E. and Patel, Saumil and Rizzi, Silvio and Windgassen, Jonathan},
-	year         = 2023,
+	year         = {2023},
 	booktitle    = {Proceedings of the SC '23 Workshops of The International Conference on High Performance Computing, Network, Storage, and Analysis},
 	location     = {Denver, CO, USA},
 	publisher    = {Association for Computing Machinery},
@@ -556,22 +558,22 @@
 	series       = {Sc-w '23},
 	pages        = {862–867},
 	doi          = {10.1145/3624062.3624159},
-	isbn         = 9798400707858,
+	isbn         = {9798400707858},
 	url          = {https://doi.org/10.1145/3624062.3624159},
 	abbr         = {Elsevier},
 	abstract     = {In the realm of Computational Fluid Dynamics (CFD), the demand for memory and computation resources is extreme, necessitating the use of leadership-scale computing platforms for practical domain sizes. This intensive requirement renders traditional checkpointing methods ineffective due to the significant slowdown in simulations while saving state data to disk. As we progress towards exascale and GPU-driven High-Performance Computing (HPC) and confront larger problem sizes, the choice becomes increasingly stark: to compromise data fidelity or to reduce resolution. To navigate this challenge, this study advocates for the use of in situ analysis and visualization techniques. These allow more frequent data "snapshots" to be taken directly from memory, thus avoiding the need for disruptive checkpointing. We detail our approach of instrumenting NekRS, a GPU-focused thermal-fluid simulation code employing the spectral element method (SEM), and describe varied in situ and in transit strategies for data rendering. Additionally, we provide concrete scientific use-cases and report on runs performed on Polaris, Argonne Leadership Computing Facility’s (ALCF) 44 Petaflop supercomputer and J\"{u}lich Wizard for European Leadership Science (JUWELS) Booster, J\"{u}lich Supercomputing Centre’s (JSC) 71 Petaflop High Performance Computing (HPC) system, offering practical insight into the implications of our methodology.},
-	numpages     = 6,
+	numpages     = {6},
 }
 
 @article{Mota2023,
 	title        = {A Comparison of Spatiotemporal Visualizations for 3D Urban Analytics},
 	author       = {Mota, Roberta and Ferreira, Nivan and Silva, Julio Daniel and Horga, Marius and Lage, Marcos and Ceferino, Luis and Alim, Usman and Sharlin, Ehud and Miranda, Fabio},
-	year         = 2023,
+	year         = {2023},
 	month        = {January},
 	journal      = {IEEE Transactions on Visualization and Computer Graphics},
 	publisher    = {IEEE Computer Society},
 	address      = {Los Alamitos, CA, USA},
-	volume       = 29,
+	volume       = {29},
 	number       = {01},
 	pages        = {1277--1287},
 	doi          = {10.1109/tvcg.2022.3209474},
@@ -583,10 +585,10 @@
 @article{Naik2023,
 	title        = {V-NeuroStack: Open-source 3D time stack software for identifying patterns in neuronal data},
 	author       = {Naik, Ashwini G. and Kenyon, Robert V. and Taheri, Aynaz and BergerWolf, Tanya Y. and Ibrahim, Baher A. and Shinagawa, Yoshitaka and Llano, Daniel A.},
-	year         = 2023,
+	year         = {2023},
 	journal      = {Journal of Neuroscience Research},
-	volume       = 101,
-	number       = 2,
+	volume       = {101},
+	number       = {2},
 	pages        = {217--231},
 	doi          = {https://doi.org/10.1002/jnr.25139},
 	url          = {https://onlinelibrary.wiley.com/doi/abs/10.1002/jnr.25139},
@@ -598,7 +600,7 @@
 @inproceedings{SaChVe23,
 	title        = {Active Research Data Management with the Django Globus Portal Framework},
 	author       = {Saint, Nickolaus and Chard, Ryan and Vescovi, Rafael and Pruyne, Jim and Blaiszik, Ben and Ananthakrishnan, Rachana and Papka, Michael E. and Wagner, Rick and Chard, Kyle and Foster, Ian},
-	year         = 2023,
+	year         = {2023},
 	booktitle    = {Practice and Experience in Advanced Research Computing},
 	location     = {Portland, OR, USA},
 	publisher    = {Association for Computing Machinery},
@@ -606,17 +608,17 @@
 	series       = {Pearc '23},
 	pages        = {43–51},
 	doi          = {10.1145/3569951.3593597},
-	isbn         = 9781450399852,
+	isbn         = {9781450399852},
 	url          = {https://doi.org/10.1145/3569951.3593597},
 	abstract     = {Publishing and sharing data is critical to fostering collaboration and advancing scientific research. Data portals are commonly used to organize, publish, and securely disseminate data—a critical step toward making data findable, accessible, interoperable, and reusable (FAIR). However, the diversity of scientific data types, sizes, and their location present significant challenges, e.g., it is difficult for portals to accommodate heterogenous research products when using strict metadata schemas and rigid interfaces. Thus, there is a need for a user-customizable data portal solution that enables rapid creation of new portals that may be tailored to a researchers needs while accommodating distributed data sources and engaging advanced computing resources. In this paper, we present the Django Globus Portal Framework (DGPF), a tool designed to help users rapidly create secure, customizable, and extensible data portals. DGPF is a powerful and flexible framework that builds upon the Globus platform for authentication, data sharing, creation of automation flows, and search capabilities, allowing for seamless integration with existing research workflows. We present the design and implementation of the DGPF and describe our experiences operating the Argonne Community Data Co-op (ACDC)—a collection of DGPF portals with over 1&nbsp;M records and over 100&nbsp;TB of published data that has been accessed by more than 300 users.},
 	keywords     = {FAIR Data, Modern Research Data Portal, Globus},
-	numpages     = 9,
+	numpages     = {9},
 }
 
 @misc{ShLuEm23,
 	title        = {A Multi-Level, Multi-Scale Visual Analytics Approach to Assessment of Multifidelity HPC Systems},
 	author       = {Shilpika and Bethany Lusch and Murali Emani and Filippo Simini and Venkatram Vishwanath and Michael E. Papka and Kwan-Liu Ma},
-	year         = 2023,
+	year         = {2023},
 	abstract     = {The ability to monitor and interpret of hardware system events and behaviors are crucial to improving the robustness and reliability of these systems, especially in a supercomputing facility. The growing complexity and scale of these systems demand an increase in monitoring data collected at multiple fidelity levels and varying temporal resolutions. In this work, we aim to build a holistic analytical system that helps make sense of such massive data, mainly the hardware logs, job logs, and environment logs collected from disparate subsystems and components of a supercomputer system. This end-to-end log analysis system, coupled with visual analytics support, allows users to glean and promptly extract supercomputer usage and error patterns at varying temporal and spatial resolutions. We use multiresolution dynamic mode decomposition (mrDMD), a technique that depicts high-dimensional data as correlated spatial-temporal variations patterns or modes, to extract variation patterns isolated at specified frequencies. Our improvements to the mrDMD algorithm help promptly reveal useful information in the massive environment log dataset, which is then associated with the processed hardware and job log datasets using our visual analytics system. Furthermore, our system can identify the usage and error patterns filtered at user, project, and subcomponent levels. We exemplify the effectiveness of our approach with two use scenarios with the Cray XC40 supercomputer.},
 	archiveprefix = {arXiv},
 	arxiv        = {2306.09457},
@@ -627,7 +629,7 @@
 @misc{SoKrZh23,
 	title        = {DeepSpeed4Science Initiative: Enabling Large-Scale Scientific Discovery through Sophisticated AI System Technologies},
 	author       = {Shuaiwen Leon Song and Bonnie Kruft and Minjia Zhang and Conglong Li and Shiyang Chen and Chengming Zhang and Masahiro Tanaka and Xiaoxia Wu and Jeff Rasley and Ammar Ahmad Awan and Connor Holmes and Martin Cai and Adam Ghanem and Zhongzhu Zhou and Yuxiong He and Pete Luferenko and Divya Kumar and Jonathan Weyn and Ruixiong Zhang and Sylwester Klocek and Volodymyr Vragov and Mohammed AlQuraishi and Gustaf Ahdritz and Christina Floristean and Cristina Negri and Rao Kotamarthi and Venkatram Vishwanath and Arvind Ramanathan and Sam Foreman and Kyle Hippe and Troy Arcomano and Romit Maulik and Maxim Zvyagin and Alexander Brace and Bin Zhang and Cindy Orozco Bohorquez and Austin Clyde and Bharat Kale and Danilo Perez-Rivera and Heng Ma and Carla M. Mann and Michael Irvin and J. Gregory Pauloski and Logan Ward and Valerie Hayot and Murali Emani and Zhen Xie and Diangen Lin and Maulik Shukla and Ian Foster and James J. Davis and Michael E. Papka and Thomas Brettin and Prasanna Balaprakash and Gina Tourassi and John Gounley and Heidi Hanson and Thomas E Potok and Massimiliano Lupo Pasini and Kate Evans and Dan Lu and Dalton Lunga and Junqi Yin and Sajal Dash and Feiyi Wang and Mallikarjun Shankar and Isaac Lyngaas and Xiao Wang and Guojing Cong and Pei Zhang and Ming Fan and Siyan Liu and Adolfy Hoisie and Shinjae Yoo and Yihui Ren and William Tang and Kyle Felker and Alexey Svyatkovskiy and Hang Liu and Ashwin Aji and Angela Dalton and Michael Schulte and Karl Schulz and Yuntian Deng and Weili Nie and Josh Romero and Christian Dallago and Arash Vahdat and Chaowei Xiao and Thomas Gibbs and Anima Anandkumar and Rick Stevens},
-	year         = 2023,
+	year         = {2023},
 	abstract     = {In the upcoming decade, deep learning may revolutionize the natural sciences, enhancing our capacity to model and predict natural occurrences. This could herald a new era of scientific exploration, bringing significant advancements across sectors from drug development to renewable energy. To answer this call, we present DeepSpeed4Science initiative which aims to build unique capabilities through AI system technology innovations to help domain experts to unlock today's biggest science mysteries. By leveraging DeepSpeed's current technology pillars (training, inference and compression) as base technology enablers, DeepSpeed4Science will create a new set of AI system technologies tailored for accelerating scientific discoveries by addressing their unique complexity beyond the common technical approaches used for accelerating generic large language models (LLMs). In this paper, we showcase the early progress we made with DeepSpeed4Science in addressing two of the critical system challenges in structural biology research.},
 	eprint       = {2310.04610},
 	arxiv        = {2310.04610},
@@ -638,10 +640,10 @@
 @article{ZvBrHi23,
 	title        = {GenSLMs: Genome-scale language models reveal SARS-CoV-2 evolutionary dynamics},
 	author       = {Maxim Zvyagin and Alexander Brace and Kyle Hippe and Yuntian Deng and Bin Zhang and Cindy Orozco Bohorquez and Austin Clyde and Bharat Kale and Danilo Perez-Rivera and Heng Ma and Carla M. Mann and Michael Irvin and Defne G. Ozgulbas and Natalia Vassilieva and James Gregory Pauloski and Logan Ward and Valerie Hayot-Sasson and Murali Emani and Sam Foreman and Zhen Xie and Diangen Lin and Maulik Shukla and Weili Nie and Josh Romero and Christian Dallago and Arash Vahdat and Chaowei Xiao and Thomas Gibbs and Ian Foster and James J. Davis and Michael E. Papka and Thomas Brettin and Rick Stevens and Anima Anandkumar and Venkatram Vishwanath and Arvind Ramanathan},
-	year         = 2023,
+	year         = {2023},
 	journal      = {The International Journal of High Performance Computing Applications},
-	volume       = 37,
-	number       = 6,
+	volume       = {37},
+	number       = {6},
 	pages        = {683--705},
 	doi          = {10.1177/10943420231201154},
 	url          = {https://doi.org/10.1177/10943420231201154},
@@ -1035,13 +1037,13 @@
 	volume       = 21,
 	number       = 3,
 	pages        = {179–191},
-	doi          = {10.1017/s1355771816000169},
+	doi          = {10.1017/s1355771816000169}
 }
 
 @inproceedings{MaFoJo16,
 	title        = {Interdisciplinary immersive analytics at the electronic visualization laboratory: Lessons learned and upcoming challenges},
 	author       = {Marai, G. Elisabeta and Forbes, Angus G. and Johnson, Andrew},
-	year         = 2016,
+	year         = {2016},
 	booktitle    = {2016 Workshop on Immersive Analytics (IA)},
 	pages        = {54--59},
 	doi          = {10.1109/immersive.2016.7932384},
@@ -1334,7 +1336,7 @@
 	journal      = {Proceedings of the IEEE},
 	volume       = 101,
 	pages        = {115--129},
-	doi          = {10.1109/jproc.2012.2191609},
+	doi          = {10.1109/jproc.2012.2191609}
 }
 
 @inproceedings{Febretti2013,
@@ -1497,10 +1499,10 @@
 @article{DeLeRe09,
 	title        = {The OptIPortal, a scalable visualization, storage, and computing interface device for the OptiPuter},
 	author       = {Thomas A. DeFanti and Jason Leigh and Luc Renambot and Byungil Jeong and Alan Verlo and Lance Long and Maxine Brown and Daniel J. Sandin and Venkatram Vishwanath and Qian Liu and Mason J. Katz and Philip Papadopoulos and Joseph P. Keefe and Gregory R. Hidley and Gregory L. Dawe and Ian Kaufman and Bryan Glogowski and Kai-Uwe Doerr and Rajvikram Singh and Javier Girado and Jurgen P. Schulze and Falko Kuester and Larry Smarr},
-	year         = 2009,
+	year         = {2009},
 	journal      = {Future Generation Computer Systems},
-	volume       = 25,
-	number       = 2,
+	volume       = {25},
+	number       = {2},
 	pages        = {114--123},
 	doi          = {https://doi.org/10.1016/j.future.2008.06.016},
 	issn         = {0167-739x},
@@ -1511,10 +1513,10 @@
 @article{ViBuLe09,
 	title        = {Accelerating tropical cyclone analysis using LambdaRAM, a distributed data cache over wide-area ultra-fast networks},
 	author       = {Venkatram Vishwanath and Robert Burns and Jason Leigh and Michael Seablom},
-	year         = 2009,
+	year         = {2009},
 	journal      = {Future Generation Computer Systems},
-	volume       = 25,
-	number       = 2,
+	volume       = {25},
+	number       = {2},
 	pages        = {184--191},
 	doi          = {https://doi.org/10.1016/j.future.2008.07.005},
 	issn         = {0167-739x},
@@ -1526,10 +1528,10 @@
 @article{ReJeHu09,
 	title        = {Enabling high resolution collaborative visualization in display rich virtual organizations},
 	author       = {Luc Renambot and Byungil Jeong and Hyejung Hur and Andrew Johnson and Jason Leigh},
-	year         = 2009,
+	year         = {2009},
 	journal      = {Future Generation Computer Systems},
-	volume       = 25,
-	number       = 2,
+	volume       = {25},
+	number       = {2},
 	pages        = {161--168},
 	doi          = {https://doi.org/10.1016/j.future.2008.07.004},
 	issn         = {0167-739x},
@@ -1537,6 +1539,7 @@
 	keywords     = {Collaborative computing, Visual, Network communication},
 	abstract     = {We predict that high-resolution displays will penetrate scientific laboratories first, and will become pervasive at the office, in the cubicle, and meeting room, and ultimately at home. In this paper, we present a novel approach to distribute high-resolution images to multiple tiled displays in real-time using a high-performance PC cluster. This approach allows users to share their visualization applications and videos on multiple tiled displays, repositioning and resizing each application window independently. These operations require high-resolution image multicasting from a rendering cluster to multiple display clusters. A high-performance bridging system called SAGE Bridge performs the image multicasting on a high-performance PC cluster. We show in several experiments that this system enables sharing of high-resolution scientific animations and high-definition videos (with audio) between multiples international sites, hence creating virtual research laboratories (i.e. virtual organizations), as observed in a figure given in this article.},
 }
+
 
 % Section_2008
 %========================================
@@ -1552,7 +1555,7 @@
 @inproceedings{ViLeSh08,
 	title        = {The Rails Toolkit – Enabling End-System Topology-Aware High End Computing},
 	author       = {Vishwanath, Venkatram and Leigh, Jason and Nam, Sungwon and Renambot, Luc and Shimizu, Takashi and Takahashi, Hirokazu and Takizawa, Makoto and Kamatani, Osamu},
-	year         = 2008,
+	year         = {2008},
 	booktitle    = {2008 IEEE Fourth International Conference on eScience},
 	pages        = {309--316},
 	doi          = {10.1109/eScience.2008.83},
@@ -1562,7 +1565,7 @@
 @inproceedings{LeReJo08,
 	title        = {Scalable Adaptive Graphics middleware for visualization streaming and collaboration in ultra resolution display environments},
 	author       = {Leigh, Jason and Renambot, Luc and Johnson, Andrew and Jagodic, Ratko and Hur, Hyejung and Hofer, Erik and Lee, David},
-	year         = 2008,
+	year         = {2008},
 	booktitle    = {2008 Workshop on Ultrascale Visualization},
 	pages        = {47--54},
 	doi          = {10.1109/ultravis.2008.5154063},
@@ -1572,7 +1575,7 @@
 @inproceedings{DeGoHu08,
 	title        = {Towards Interactive Training with an Avatar-based Human-Computer Interface},
 	author       = {Ronald F. DeMara and Avelino J. Gonzalez and Steve Jones and Andrew Johnson and Victor Hung and Carlos Leon-Barth and Raul A. Dookhoo and Jason Leigh and Luc Renambot and Sangyoon Lee and Gordon Carlson},
-	year         = 2008,
+	year         = {2008},
 	month        = December,
 	booktitle    = {Proceedings of the Interservice/Industry Training, Simulation and Education Conference (I/ITSEC)},
 	address      = {Orlando, Florida},
@@ -1583,7 +1586,7 @@
 @inproceedings{10.MaMoBh08,
 	title        = {Embodying scientific concepts in the physical space of the classroom},
 	author       = {Malcolm, Peter and Moher, Tom and Bhatt, Darshan and Uphoff, Brian and L\'{o}pez-Silva, Brenda},
-	year         = 2008,
+	year         = {2008},
 	booktitle    = {Proceedings of the 7th International Conference on Interaction Design and Children},
 	location     = {Chicago, Illinois},
 	publisher    = {Association for Computing Machinery},
@@ -1591,10 +1594,10 @@
 	series       = {Idc '08},
 	pages        = {234–241},
 	doi          = {10.1145/1463689.1463761},
-	isbn         = 9781595939944,
+	isbn         = {9781595939944},
 	url          = {https://doi.org/10.1145/1463689.1463761},
 	abstract     = {Several simulation environments exist that create a place in which students can explore scientific phenomena. In this paper, we propose design guidelines for creating a classroom environment that puts scientific concepts directly into that physical space. We examine the results of two implementations of WallCology, which we characterize as an embedded phenomenon, in elementary and middle-school classrooms. Several instances of innovative student inquiry emerged as a result of the design features. Along with the results of learning, we look at the relationship between an embodied approach to design and the imaginative role of the student.},
-	numpages     = 8,
+	numpages     = {8},
 }
 
 % Section_2007
@@ -1635,12 +1638,13 @@
 @inproceedings{LuKlFi05,
 	title        = {Integration of Augmented Reality and Assistive Devices for Post-Stroke Hand Opening Rehabilitation},
 	author       = {Xun Luo and Kline, T. and Fischer, H.C. and Stubblefield, K.A. and Kenyon, R.V. and Kamper, D.G.},
-	year         = 2005,
+	year         = {2005},
 	booktitle    = {2005 IEEE Engineering in Medicine and Biology 27th Annual Conference},
 	pages        = {6855--6858},
 	doi          = {10.1109/iembs.2005.1616080},
 	keywords     = {Augmented reality;Fingers;Virtual reality;Layout;Neodymium;USA Councils;Haptic interfaces;Displays;Biomedical engineering;Electromyography;Stroke;Hand Rehabilitation;Augmented Reality;Assistive Device;Feedback Control},
 }
+
 
 % Section_2004
 %========================================
@@ -1732,8 +1736,9 @@
 	isbn         = {978-1-4471-0259-5},
 	url          = {https://doi.org/10.1007/978-1-4471-0259-5_10},
 	editor       = {Earnshaw, Rae A. and Guedj, Richard A. and Dam, Andries van and Vince, John A.},
-	abstract     = {The Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago (UIC) has developed an aggressive program over the past decade to partner with scores of computational scientists and engineers all over the world. The focus of this effort has been to create visualization and virtual reality (VR) devices and applications for collaborative exploration of scientific and engineering data. Since 1995, our research and development activities have incorporated emerging high-bandwidth networks like the vBNS and its international connection point STAR TAP, in an effort now calledtele-immersion.},
+	abstract     = {The Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago (UIC) has developed an aggressive program over the past decade to partner with scores of computational scientists and engineers all over the world. The focus of this effort has been to create visualization and virtual reality (VR) devices and applications for collaborative exploration of scientific and engineering data. Since 1995, our research and development activities have incorporated emerging high-bandwidth networks like the vBNS and its international connection point STAR TAP, in an effort now calledtele-immersion.}
 }
+
 
 % Section_2000
 %========================================
@@ -1767,7 +1772,7 @@
 	volume       = 8,
 	number       = 3,
 	pages        = {247--263},
-	doi          = {10.1162/105474699566215},
+	doi          = {10.1162/105474699566215}
 }
 
 @inproceedings{Johnson1999,
@@ -1846,7 +1851,7 @@
 	day          = 11,
 	journal      = {Proceedings of the Advanced Simulation Technologies Conference &rsquo;99},
 	location     = {San Diego, CA},
-	date         = {April 11th, 1999},
+	date         = {April 11th, 1999}
 }
 
 @inproceedings{Wheless1999,
@@ -1861,7 +1866,7 @@
 	url          = {https://doi.org/10.1117/12.354656},
 	editor       = {Jody L. Wood-Putnam},
 	organization = {International Society for Optics and Photonics},
-	abstract     = {We describe our work on the development and use of collaborative virtual environments to support planing, rehearsal, and execution of tactical operations conducted as part of mine countermeasures missions (MCM). Utilizing our VR-based visual analysis tool, Cave5D, we construct interactive virtual environments based on graphical representations of bathymetry/topography, above-surface imags, in-water objects, and environmental conditions. The data sources may include archived data stores and real-time inputs from model simulations or advanced observational platforms. The Cave5D application allows users to view, navigate, and interact with time-varying data in a fully 3D context, thus preserving necessary geospatial relationships crucial for intuitive analysis. Collaborative capabilities have been integrated into Cave5D to enable users at many distributed sites to interact in near real-time with each other and with the data in a many-to-many session. The ability to rapidly configure scenario-based missions in a shared virtual environment has the potential to change the way mission critical information is used by the MCM community.},
+	abstract     = {We describe our work on the development and use of collaborative virtual environments to support planing, rehearsal, and execution of tactical operations conducted as part of mine countermeasures missions (MCM). Utilizing our VR-based visual analysis tool, Cave5D, we construct interactive virtual environments based on graphical representations of bathymetry/topography, above-surface imags, in-water objects, and environmental conditions. The data sources may include archived data stores and real-time inputs from model simulations or advanced observational platforms. The Cave5D application allows users to view, navigate, and interact with time-varying data in a fully 3D context, thus preserving necessary geospatial relationships crucial for intuitive analysis. Collaborative capabilities have been integrated into Cave5D to enable users at many distributed sites to interact in near real-time with each other and with the data in a many-to-many session. The ability to rapidly configure scenario-based missions in a shared virtual environment has the potential to change the way mission critical information is used by the MCM community.}
 }
 
 @article{Ye1999,
@@ -1873,7 +1878,7 @@
 	number       = 4,
 	pages        = {546--555},
 	doi          = {10.1109/5326.798768},
-	keywords     = {Assembly;Virtual reality;Tellurium;Computer aided manufacturing;Production planning;Design engineering;Virtual environment;Costs;Product safety;Design automation},
+	keywords     = {Assembly;Virtual reality;Tellurium;Computer aided manufacturing;Production planning;Design engineering;Virtual environment;Costs;Product safety;Design automation}
 }
 
 @article{Giallorenzo1999,
@@ -1888,7 +1893,7 @@
 	isbn         = {1434-9957},
 	url          = {https://doi.org/10.1007/BF01418158},
 	abstract     = {The airborne particles present in certain hospital environments, such as the tuberculosis isolation or operating rooms, can be extremely harmful for patients and/or hospital personnel. An important issue during the design of hospital facilities is an efficient airborne particle removal system. A near-optimal setup of the parameters that affect the airflow, and consequently the airborne particle trajectories within the room is desirable. Computational Fluid Dynamics (CFD) is an alternative to tedious and time-consuming experimental investigations during the design phase, when a large number of alternatives need to be evaluated. The main limitations of CFD application in building design are the high level of skill required, the complexity of the setup phase, and the difficulty of output data interpretation using common 2D (two-dimensional) display devices. A virtual reality (VR) environment can help in overcoming some of these limitations. A CFD/VR procedure for design of contaminant-free hospital facilities is presented in this paper. By means of a VR preprocessing step, inferior solutions can be discharged to drastically reduce the number of configurations to investigate. Then, a CFD/VR tool is used to explore the restricted set of room layouts. The 3D (three-dimensional), immersive visualisation of an indoor space and of the particle motion inside it allows the user to really see the particle flows and consequently understand the effects of room parameters on particle motion throughout the room. In this way a close-to-optimal configuration of the room layout and of the ventilation system can be achieved more speedily and more conveniently compared to traditional CFD investigations.},
-	date         = {1999/09/01},
+	date         = {1999/09/01}
 }
 
 @inproceedings{Leigh1999,
@@ -1902,7 +1907,7 @@
 	pages        = 8,
 	isbn         = {0769502873},
 	abstract     = {This paper proposes a methodology for employing collaborative, immersive virtual environments as a high-end visualization interface for massive data-sets. The methodology employs feature detection, partitioning, summarization and decimation to significantly cull massive data-sets. These reduced data-sets are then distributed to the remote CAVEs, ImmersaDesks and desktop workstations for viewing. The paper also discusses novel techniques for collaborative visualization and meta-data creation.},
-	keywords     = {collaborative virtual reality, data mining, tele-immersion},
+	keywords     = {collaborative virtual reality, data mining, tele-immersion}
 }
 
 @inproceedings{Sandor1999,
@@ -1920,6 +1925,7 @@
 	abstract     = {(art)n Laboratory and the Electronic Visualization Laboratory (EVL) at the University of Illinois at Chicago have collaborated on the development of the first real-time, stereoscopic hardcopy output of virtual reality applications - the ImmersaGram (IGram). The results of this new technology directly address a broad range of information visualization issues along a wide spectrum of disciplines from art, architecture, and science, to medicine, engineering and education.},
 	keywords     = {Virtual Reality;Art;Science;lenticular;PHSCologram;Autostereography},
 }
+
 
 % Section_1998
 %========================================
@@ -1943,7 +1949,7 @@
 	doi          = {10.1115/detc98/dfm-5733},
 	url          = {https://doi.org/10.1115/DETC98/DFM-5733},
 	abstract     = {Collision detection becomes a key issue when we want to model interactions between general, nonconvex objects in virtual reality applications which arise in manufacturing process domain. Despite significant progress which has been made in developing efficient, exact collision detection algorithms for convex objects, limited and slow progress has been reported in developing collision detection algorithms for general, nonconvex objects. To narrow this gap we introduce a concept of virtual objects which extends applicability of exact collision detection algorithms to nonconvex objects. This paper presents a methodology to encapsulate into virtual objects the surface patches of interest for collision detection as well as the automatic procedures for creation of virtual objects and for partitioning them into convex pieces.The collision detection technique described in this paper is best suited for interactive simulation and animation applications where high accuracy of object contact modeling is required. Examples include virtual assembly; mobile robot simulation; and simulation of manufacturing processes where accurate modeling of near-miss detection is essential, e.g. robotic painting, robotic welding, and NC machining operations.},
-	eprint       = {https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/DETC98/80340/V004T04A019/6635402/v004t04a019-detc98-dfm-5733.pdf},
+	eprint       = {https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings-pdf/DETC98/80340/V004T04A019/6635402/v004t04a019-detc98-dfm-5733.pdf}
 }
 
 % Section_1997
@@ -1975,7 +1981,7 @@
 	year         = 1996,
 	journal      = {The International Journal of Supercomputer Applications and High Performance Computing},
 	volume       = 10,
-	number       = 2,
+	number       = {2},
 	pages        = {123--131},
 	doi          = {10.1177/109434209601000201},
 	url          = {https://doi.org/10.1177/109434209601000201},
@@ -2108,7 +2114,7 @@
 %   ##   ##     ## ##     ## ##           
 % ######  #######   #######  #########    
 %                                    
-%========================================
+%======================================== 
 @article{Cruz-Neira1992,
 	title        = {The CAVE: audio visual experience automatic virtual environment},
 	author       = {Cruz-Neira, Carolina and Sandin, Daniel J. and DeFanti, Thomas A. and Kenyon, Robert V. and Hart, John C.},
@@ -2151,7 +2157,7 @@
 %   ##   ##     ## ##     ##    ##      
 % ######  #######   #######   ######    
 %                                    
-%========================================
+%======================================== 
 @inproceedings{Hart1991,
 	title        = {Efficient antialiased rendering of 3-D linear fractals},
 	author       = {Hart, John C. and DeFanti, Thomas A.},
@@ -2180,7 +2186,7 @@
 %   ##   ##     ## ##     ##  ##   ##     
 % ######  #######   #######    #####      
 %                                    
-%========================================
+%======================================== 
 @inproceedings{Hart1990,
 	title        = {Interactive visualization of quaternion Julia sets},
 	author       = {Hart, John C. and Kauffman, Louis H. and Sandim, Daniel J.},
@@ -2204,7 +2210,8 @@
 %   ##   ##     ## ##     ## ##     ##   
 % ######  #######   #######   #######    
 %                                    
-%========================================
+%======================================== 
+
 @article{Sandin1989,
 	title        = {Computer-Generated Barrier-Strip Autostereography},
 	author       = {Sandin, Daniel J. and Sandor, Ellen and Cunnally, William T. and Resch, Mark and DeFanti, Thomas A. and Brown, Maxine D.},
@@ -2230,7 +2237,7 @@
 %   ##   ##     ## ##     ##       ##  
 % ######  #######   #######        ##  
 %                                    
-%========================================
+%======================================== 
 @incollection{DeFanti1984,
 	title        = {The Mass Impact of Videogame Technology},
 	author       = {Thomas A. Defanti},
