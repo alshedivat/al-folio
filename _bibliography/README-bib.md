@@ -7,9 +7,7 @@ Do not make changes to this file, if you have additions or corrections to the EV
 
 ### Bibliography Files
 - **papers.bib** - Main bibliography file containing all EVL publications in BibTeX format. This is synchronized from the EVL bibliography repository.
-- **papers.bib.bk** - Backup copy of papers.bib
 - **papers-enhanced.bib** - Enhanced version of papers.bib with additional fields (bibtex_show, selected) added by enhanceBib.py for website display purposes
-- **papers-enhanced.bib.bk** - Backup copy of papers-enhanced.bib
 - **sage3.bib** - SAGE3-specific bibliography file for SAGE3-related publications
 
 ### Scripts
@@ -18,6 +16,13 @@ Do not make changes to this file, if you have additions or corrections to the EV
   - `selected = {false}` - marks papers as selected/featured
   - Usage: `python enhanceBib.py <bibtex_file>`
   - Outputs: `<filename>-enhanced.bib`
+
+- **cleanbib.py** - Python script that cleans BibTeX files:
+  - Removes fields with empty values
+  - Converts abbreviated month names to full names (e.g., apr → April, jan → January)
+  - Handles both braced and unbraced month formats
+  - Usage: `python cleanbib.py <bibtex_file>`
+  - Outputs: `<filename>-updated.bib`
 
 - **checkBranches.sh** - Shell script to compare papers.bib across all git branches
   - Shows which branches have identical versions to master
