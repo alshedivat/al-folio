@@ -1,5 +1,7 @@
 {% for social in site.data.socials %}
   {% case social[0] %}
+    {% when 'academia_edu' %}
+      <a href="https://{{ social[1].organization }}.academia.edu/{{ social[1].username }}" title="Academia.edu"><i class="ai ai-academia"></i></a>
     {% when 'acm_id' %}
       <a href="https://dl.acm.org/profile/{{ social[1] }}/" title="ACM DL"><i class="ai ai-acm"></i></a>
     {% when 'blogger_url' %}
@@ -20,6 +22,8 @@
       <a href="https://github.com/{{ social[1] }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
     {% when 'gitlab_username' %}
       <a href="https://gitlab.com/{{ social[1] }}" title="GitLab"><i class="fa-brands fa-gitlab"></i></a>
+    {% when 'hal_id' %}
+      <a href="https://cv.hal.science/{{ social[1] }}/" title="HAL"><i class="ai ai-hal"></i></a>
     {% when 'ieee_id' %}
       <a href="https://ieeexplore.ieee.org/author/{{ social[1] }}/" title="IEEE Xplore"><i class="ai ai-ieee"></i></a>
     {% when 'inspirehep_id' %}
@@ -55,7 +59,9 @@
     {% when 'research_gate_profile' %}
       <a href="https://www.researchgate.net/profile/{{ social[1] }}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
     {% when 'rss_icon' %}
-      <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
+      {% if social[1] == true %}
+        <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
+      {% endif %}
     {% when 'scholar_userid' %}
       <a href="https://scholar.google.com/citations?user={{ social[1] }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
     {% when 'scopus_id' %}
