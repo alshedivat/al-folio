@@ -1,25 +1,26 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: >
+  &ensp;<i class="fa-solid fa-address-card"></i>&ensp;<a href='#'>Affiliations</a>.
+  &ensp;<i class="fa-solid fa-location-dot"></i>&ensp;Vienna, Austria. 
+  &ensp;<i class="fa-solid fa-code"></i>&ensp;Computer Scientist. 
+  &ensp;<i class="fa-solid fa-book"></i>&ensp;Academic.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info: 
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My name is Mathias Baumgartinger-Seiringer. I am a creative developer that is passionate about craftsmanship surrounding software, games and other digital creations. Also, I am a firm believer in free and open source tools.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I study in the Computer Science Master Program at the University of Vienna (MSc). During my Bachelor's I started working at BOKU Vienna where I am currently employed.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Fun fact: My name is so long that it usually doesn't fit on cards and in forms; you might find me as just Mathias Baumgartinger in many places. It is also my preferred way.
