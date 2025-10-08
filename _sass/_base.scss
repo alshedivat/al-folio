@@ -1395,3 +1395,9 @@ swiper-container {
     width: 100%;
   }
 }
+
+
+// scrollbar
+::-webkit-scrollbar {
+  scrollbar-width: none;
+}
