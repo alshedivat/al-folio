@@ -8,6 +8,7 @@ nav_order: 6
 ---
 
 ## Fall'25
+
 - **CS 422** *User Interface Design and Programming* – Andruid Kerne  
 - **CS 425** *Computer Graphics I* – Khairi Reda  
 - **CS 424** *Visualization and Visual Analytics* – Fabio Miranda  
@@ -19,6 +20,7 @@ nav_order: 6
 - **CS 531** *Social Robotics and Human-Robot Interaction* – Joseph Michaelis  
 
 ## Spring'25
+
 - **CS 377** *Ethical Issues in Computing* – Andruid Kerne  
 - **CS 422** *User Interface Design and Programming* – Joseph Michaelis  
 - **CS 424** *Visualization and Visual Analytics* – Fabio Miranda  

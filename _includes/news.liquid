@@ -12,7 +12,7 @@
         <table class="table table-sm table-borderless">
           {% for item in news %}
               <tr>
-                <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
+                <td style="font-weight: bold;">{{ item.date | date: "%m/%d/%y" }}</td>
                 <td>
                   {% assign tt = item.tags %}
                   {% if tt[0] == "event" %}
@@ -24,6 +24,28 @@
                   {% else %}
                     <i class="fa fa-file" style="margin-right: 4px" title="{{tt[0]}}"></i>
                   {% endif %}
+                  </td>
+
+                  <td>
+                  {% if item.image %}
+                   {% assign full_url = "/images/" | append: item.image %}
+                     <div style="width: 250px; height:187px;overflow: hidden;">
+                      <a class="news-title zoom" href="{{ item.url | relative_url }}">
+                        <img src="{{ full_url }}" alt="{{ item.title }}" style="width: 100%; height: 100%; object-fit: cover;"
+                        class="img-fluid img-thumbnail rounded z-depth-1"/>
+                      </a>
+                    </div>
+                  {% else %}
+                     <div style="width: 250px; height:187px;overflow: hidden;">
+                      <a class="news-title zoom" href="{{ item.url | relative_url }}">
+                       <img src="{{ 'assets/img/new-logo-small-480.webp' | relative_url }}" alt="{{ item.title }}" style="width: 100%; height: 100%; object-fit: cover;"
+                       class="img-fluid img-thumbnail rounded z-depth-1"/>
+                       </a>
+                    </div>
+                  {% endif %}
+                  </td>
+
+                <td>
                   {% if item.inline %}
                     {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                   {% else %}
@@ -44,31 +66,39 @@
       {% comment %}
         No numeric limit passed, so group by year for the news page.
       {% endcomment %}
-      <div id="filter-buttons" class="mb-3">
 
-        <button data-tag="all" class="filter-button">
-        <i class="fa fa-list mr-1"></i> All </button>
-        <button data-tag="event" class="filter-button">
-        <i class="fa fa-calendar-days mr-1"></i> Events </button>
-        <button data-tag="paper" class="filter-button">
-        <i class="fa fa-file-pdf mr-1"></i> Papers </button>
-        <button data-tag="research" class="filter-button">
-        <i class="fa fa-lightbulb mr-1"></i> Research </button>
-        <button data-tag="art" class="filter-button">
-        <i class="fa fa-palette mr-1"></i> Art </button>
+    <div class="row">
 
+      <!-- Sticky left menu -->
+      <div class="col-md-2 d-none d-md-block">
+        <div class="sticky-top" style="top: 100px;">
+          <ul class="list-unstyled">
+            <li><a data-tag="all" class="filter-link news_selected" style="color: var(--global-theme-color);">all</a></li>
+            <li><a data-tag="event" class="filter-link" style="color: var(--global-theme-color);">events</a></li>
+            <li><a data-tag="paper" class="filter-link" style="color: var(--global-theme-color);">papers</a></li>
+            <li><a data-tag="research" class="filter-link" style="color: var(--global-theme-color);">research</a></li>
+            <li><a data-tag="art" class="filter-link" style="color: var(--global-theme-color);">art</a></li>
+          </ul>
+        </div>
       </div>
+
+
+    <!-- Main content -->
+    <div class="col-md-10">
       {% assign grouped_by_year = news | group_by_exp:"item", "item.date | date: '%Y'" %}
       <div class="table-responsive">
         <table class="table table-sm table-borderless">
+        <tbody>
           {% for year_group in grouped_by_year %}
+             {% assign post_year = year_group.name | plus: 0 %}
             <!-- Year divider row -->
-            <tr class="year-divider">
-              <th colspan="2">{{ year_group.name }}</th>
+            <tr>
+              <td colspan="4" style="padding-top: 0;"><h2 class="year-divider">{{ year_group.name }}</h2></td>
             </tr>
+
             {% for item in year_group.items %}
-                <tr class="news-item" data-tags="{{ item.tags | join: ' ' }}">
-                  <th scope="row">{{ item.date | date: "%m/%d/%y" }}</th>
+                <tr class="news-item" data-tags="{{ item.tags | join: ' ' }}" style="padding-bottom: 4px;">
+                  <td style="font-weight: bold;">{{ item.date | date: "%m/%d/%y" }}</td>
                   <td>
                   {% assign tt = item.tags %}
                   {% if tt[0] == "event" %}
@@ -80,6 +110,28 @@
                   {% else %}
                     <i class="fa fa-file" style="margin-right: 4px" title="{{tt[0]}}"></i>
                   {% endif %}
+                  </td>
+
+                  <td>
+{% comment %}
+                  {% if item.image %}
+                   {% assign full_url = "/images/" | append: item.image %}
+                     <div style="width: 300px; height:200px;overflow: hidden;">
+                      <a class="news-title" href="{{ item.url | relative_url }}">
+                        <img src="{{ full_url }}" alt="{{ item.title }}" style="width: 100%; height: 100%; object-fit: cover;"/>
+                      </a>
+                    </div>
+                  {% else %}
+                     <div style="width: 300px; height:200px;overflow: hidden;">
+                      <a class="news-title" href="{{ item.url | relative_url }}">
+                        <img src="{{ 'assets/img/new-logo-small-480.webp' | relative_url }}" alt="{{ item.title }}" style="width: 100%; height: 100%; object-fit: cover;" />
+                      </a>
+                    </div>
+                  {% endif %}
+{% endcomment %}
+                  </td>
+
+                  <td>
                     {% if item.inline %}
                       {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
                     {% else %}
@@ -89,9 +141,13 @@
                 </tr>
             {% endfor %}
           {% endfor %}
+          </tbody>
         </table>
       </div>
+    </div>
+
     {% endif %}
+    </div>
   {% else %}
     <p>No news so far...</p>
   {% endif %}
@@ -99,7 +155,7 @@
 
 
 <script>
-  const buttons = document.querySelectorAll('.filter-button');
+  const buttons = document.querySelectorAll('.filter-link');
   const newsItems = document.querySelectorAll('.news-item');
 
   buttons.forEach(button => {
@@ -107,8 +163,10 @@
       const tag = button.getAttribute('data-tag');
 
       // Update active button style
-      buttons.forEach(btn => btn.classList.remove('active'));
-      button.classList.add('active');
+      buttons.forEach((btn) => {
+        btn.classList.remove('news_selected');
+      });
+      button.classList.add('news_selected');
 
       // Filter news
       newsItems.forEach(item => {

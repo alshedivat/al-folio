@@ -1178,6 +1178,27 @@ swiper-container {
   border: none;
 }
 
+.filter-link {
+  color: var(--global-theme-color);
+  width: min-content;
+  max-width: 200px;
+  white-space: nowrap;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 4px;
+  text-align: left;
+  font-style: normal;
+  border: none;
+  font-weight: 300;
+}
+
+.filter-link:hover {
+  font-weight: 500;
+}
+.news_selected {
+  font-weight: 500;
+}
+
 .newsletter-form-button {
   background: var(--global-theme-color);
   color: var(--global-bg-color);
@@ -1436,4 +1457,16 @@ figure.cover {
 
 .people-anchor-target {
   scroll-margin-top: 150px;
+}
+
+h2.year-divider {
+  color: var(--global-theme-color);
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1rem;
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.zoom:hover {
+  transform: scale(1.05);
 }

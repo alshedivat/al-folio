@@ -2,7 +2,7 @@
 layout: post
 title: SAGE3
 description: Space To Think
-img: assets/img/sage3-evl.jpg
+img: assets/img/sage3-evl-cropped.jpg
 importance: 1
 category: research
 tags: [sage3, collaboration, visualization, AI, open-source]

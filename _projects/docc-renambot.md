@@ -4,7 +4,7 @@ title: DOCC / ARCADE
 description: Data Observation and Computation Collaboratory (DOCC)
 permalink: /projects/docc/
 date: 2025-05-10
-img: assets/img/arcade/arcade-arch.jpg
+img: assets/img/arcade/arcade-225.jpg
 category: research
 tags: [mri]
 ---
