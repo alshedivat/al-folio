@@ -192,8 +192,48 @@ ul.task-list input[type="checkbox"] {
 
 // Profile
 
-.profile {
-  width: 100%;
+.fancy-border > figure {
+  margin: 10%;
+  align-self: center;
+}
+
+.fancy-border {
+  position: relative;
+}
+
+.fancy-border:before {
+  content: "";
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 4px;
+  border-image-source: radial-gradient(circle at 300% -150%, var(--global-theme-color), rgba(0,0,0,0));
+  transition-property: all 0.2s ease-in-out;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  left: 15%;
+  bottom: 15%;
+}
+
+
+.fancy-border:after {
+  content: "";
+  border: 10px solid;
+  border-image-slice: 1;  
+  border-width: 2px;
+  border-image-source: radial-gradient(circle at -150% 300%, var(--global-theme-color), rgba(0,0,0,0));
+  transition-property: all 0.2s ease-in-out;
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  top: 15%;
+  right: 15%;
+  z-index: -1;
+}
+
+
+.profile {  
+  width: 100%;  
 
   .more-info {
     margin-bottom: 5px;
@@ -210,7 +250,7 @@ ul.task-list input[type="checkbox"] {
 .profile.float-right {
   margin-left: 1rem;
 }
-
+flex
 .profile.float-left {
   margin-right: 1rem;
 }
@@ -367,7 +407,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 #light-toggle {
-  padding: 0;
+  padding-right: 0;
   border: 0;
   background-color: inherit;
   color: var(--global-text-color);
@@ -378,6 +418,93 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Social (bottom)
+/* Extra small devices (phones, 600px and down) - show social bar at bottom near footer*/
+@media (max-width: 1000px) {
+  // display ul vertically
+  .social {
+    li {
+      list-style-type: none;
+      display: inline;
+    }
+  }
+  
+  .hide-small-dev {
+    visibility: hidden;
+    max-width: 0 !important;
+    display: none !important;
+  }
+
+  .show-small-dev {
+    visibility: visible;
+  }
+
+  .center-small-dev {
+    margin: auto;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) - show socials fancy on the sides */
+@media only screen and (min-width: 1000px) {
+  .hide-small-dev {
+    visibility: visible;
+  }
+
+  .show-small-dev {
+    visibility: hidden;
+    max-width: 0;
+  }
+
+  .social {
+    text-align: center;
+    // fix to left of screen
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    pointer-events: none;
+  
+    .vr {
+      flex-grow: 1;
+      min-height: 200px;
+    }
+  
+    .vr::before {
+      content:"";
+      display: flex;
+      flex-grow: 1;
+    }
+  
+    .vr::after {
+      content:"";
+      transition-property: all 0.2s ease-in-out;
+      display: flex;
+      flex-grow: 1;
+      border-left: 2px solid;
+      border-image: 
+        linear-gradient(
+          to bottom, 
+          var(--global-theme-color),
+          rgba(0, 0, 0, 0)
+        ) 1 100%;
+    }
+  
+    p, .mail {
+      writing-mode: vertical-lr; /* Vertical writing from bottom to top */
+      // text has no default width
+      min-width: 20px;
+      text-align: center;
+    }
+  
+    .mail {
+      padding: 20px;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      min-height: 10em;
+      line-height: 2em;
+    }
+  }
+}
+
 
 .enable-pointer {
   pointer-events: visible;
@@ -389,55 +516,6 @@ ul.task-list input[type="checkbox"] {
 }
 
 .social {
-  text-align: center;
-  // fix to left of screen
-  position: fixed;
-  width: 100vw;
-  bottom: 0;
-  pointer-events: none;
-
-  .vr {
-    flex-grow: 1;
-    min-height: 200px;
-  }
-
-  .vr::before {
-    content:"";
-    display: flex;
-    flex-grow: 1;
-  }
-
-  .vr::after {
-    content:"";
-    display: flex;
-    flex-grow: 1;
-    border-left: 2px solid;
-    border-image: 
-      linear-gradient(
-        to bottom, 
-        var(--global-theme-color),
-        rgba(0, 0, 0, 0)
-      ) 1 100%;
-  }
-
-  p, .mail {
-    writing-mode: vertical-lr; /* Vertical writing from bottom to top */
-    transform: rotate(180deg); /* For browser compatibility, rotate it back */
-    transform-origin: center; /* Rotate around the center */
-    // text has no default width
-    min-width: 20px;
-    text-align: center;
-  }
-
-  .mail {
-    padding: 20px;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    min-height: 10em;
-    line-height: 2em;
-  }
-
   ul {
     margin: 0;
     padding: 20px;
