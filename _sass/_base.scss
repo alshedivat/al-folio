@@ -530,8 +530,9 @@ footer.fixed-bottom {
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
-  padding-top: 40px;
+  .full-width {
+    padding-top: 40px;
+  }
   padding-bottom: 40px;
   font-size: 0.9rem;
 
@@ -1203,7 +1204,7 @@ swiper-container {
   min-height: calc(100vh - #{$navbar-height} - 3rem);
 }
 
-// full screen horizontal line (hr) no matter the parent divs dimensions
+// full screen horizontal line (hr) as div
 .full-width {
   width: 100vw;
   height: 2.5px;
@@ -1227,6 +1228,7 @@ swiper-container {
 // animated the arrows to bottom of page
 #animated-arrows {
   fill: var(--global-theme-color);
+  transition-property: all 0.2s ease-in-out;
   display: block;
   margin: auto;
 	width: 75px;
