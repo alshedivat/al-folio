@@ -1,87 +1,89 @@
 ---
 layout: default
 ---
-  <!-- About Page Content -->
-  <div class="full-height d-flex flex-column">
-    <div class="container d-flex flex-column flex-base justify-content-center">
-      
-      <div class="d-flex flex-column align-self-center">
-        <header class="post-header">
-          <h1 class="post-title">
-            {% if site.title == 'blank' %}
-              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-              {{ site.last_name }}
-            {% else %}
-              {{ site.title }}
-            {% endif %}
-          </h1>
-          <p class="desc">{{ page.subtitle }}</p>
-        </header>
-        
-        <hr>
-
-        <div class="d-flex flex-row flex-wrap flex-base">
-          {% if page.profile %}
-            <div style="flex-grow: 1" class="profile d-flex align-self-stretch flex-row fancy-border float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-              {% if page.profile.image %}
-                {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-                {% if page.profile.image_circular %}
-                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-                {% else %}
-                  {% assign profile_image_class = 'img-fluid fancy-border z-depth-1 rounded' %}
-                {% endif %}
-                {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-            30vw, 95vw"{% endcapture %}
-                {%
-                  include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-                  cache_bust=true
-                %}
-              {% endif %}
-              {% if page.profile.more_info %}
-                <div class="more-info">{{ page.profile.more_info }}</div>
-              {% endif %}
-            </div>
+<!-- About Page Content -->
+<div class="full-height d-flex flex-column">
+  <div class="container d-flex flex-column flex-base justify-content-center">
+    
+    <div class="d-flex flex-column align-self-center">
+      <header class="post-header">
+        <h1 class="post-title">
+          {% if site.title == 'blank' %}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+            {{ site.last_name }}
+          {% else %}
+            {{ site.title }}
           {% endif %}
+        </h1>
+        <p class="desc">{{ page.subtitle }}</p>
+      </header>
+      
+      <hr>
 
-          <div style="flex: 15" class="clearfix">{{ content }}</div>
+      <div class="d-flex flex-row flex-wrap flex-base">
+        {% if page.profile %}
+          <div style="flex-grow: 1" class="profile d-flex align-self-stretch flex-row fancy-border float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+            {% if page.profile.image %}
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {% if page.profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid fancy-border z-depth-1 rounded' %}
+              {% endif %}
+              {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+          30vw, 95vw"{% endcapture %}
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+                cache_bust=true
+              %}
+            {% endif %}
+            {% if page.profile.more_info %}
+              <div class="more-info">{{ page.profile.more_info }}</div>
+            {% endif %}
+          </div>
+        {% endif %}
 
-        </div>
+        <div style="flex: 15" class="clearfix">{{ content }}</div>
+
       </div>
     </div>
-
-    <!-- Bottom border line -->
-    <div class="algin-self-end" id="anchor-bottom">
-      <!-- font awesome arrows -->
-      <button id="invisible-button" 
-        onclick="document.getElementById('anchor-bottom').scrollIntoView({ behavior: 'smooth', inline: 'end' });">
-        <svg id="animated-arrows" xmlns="http://www.w3.org/2000/svg" viewBox="-256 0 1024 1024">
-          <path id="animated-arrow" class="animated-arrow-top" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
-          <path id="animated-arrow" class="animated-arrow-middle" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
-          <path id="animated-arrow" class="animated-arrow-bottom" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
-        </svg>
-      </button>
-      <!-- cheat a little bit to get full broweser size inside limited conta container -->
-      <div class="full-width"></div>
-    </div>
   </div>
-  
-  <div style="margin-top: 40px;"></div>
-  <div class="container">
-  <!-- News -->
+
+  <!-- Bottom border line -->
+  <div class="algin-self-end" id="anchor-bottom">
+    <!-- font awesome arrows -->
+    <button id="invisible-button" 
+      onclick="document.getElementById('anchor-bottom').scrollIntoView({ behavior: 'smooth', inline: 'end' });">
+      <svg id="animated-arrows" xmlns="http://www.w3.org/2000/svg" viewBox="-256 0 1024 1024">
+        <path id="animated-arrow" class="animated-arrow-top" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+        <path id="animated-arrow" class="animated-arrow-middle" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+        <path id="animated-arrow" class="animated-arrow-bottom" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
+      </svg>
+    </button>
+    <!-- cheat a little bit to get full broweser size inside limited conta container -->
+    <div class="full-width"></div>
+  </div>
+</div>
+
+<div style="margin-top: 40px;"></div>
+<div class="container">
+  <!-- News (site-level) -->
   {% if page.news and site.announcements.enabled %}
-    <h2>
-      <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-    </h2>
+    <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a></h2>
     {% include news.liquid limit=true %}
   {% endif %}
 
   <hr>
 
+  <!-- News (page-level) -->
+  {% if page.announcements and page.announcements.enabled %}
+    <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a></h2>
+    {% include news.liquid limit=true %}
+  {% endif %}
+
   <!-- Latest posts -->
-  {% if site.latest_posts.enabled %}
-    <h2>
-      <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-    </h2>
+  {% if page.latest_posts and page.latest_posts.enabled %}
+    <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a></h2>
     {% include latest_posts.liquid %}
   {% endif %}
 
@@ -89,9 +91,7 @@ layout: default
 
   <!-- Selected papers -->
   {% if page.selected_papers %}
-    <h2>
-      <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-    </h2>
+    <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a></h2>
     {% include selected_papers.liquid %}
   {% endif %}
 </div>
@@ -106,12 +106,17 @@ layout: default
       </div>
       <div class="contact-note"><p>{{ site.contact_note }}</p></div>
     </div>
+
     {% if site.email %}
-    <div class="flex-fill hide-small-dev"></div>
-    <div class="d-flex flex-column enable-pointer hide-small-dev" style="max-width: 64px">
-        <a class="mail" href="mailto:{{ site.email | encode_email }}" title="email"> {{ site.email }}</a>
-      <div class="vr d-flex flex-row"></div>
-    </div>
+      <div class="flex-fill hide-small-dev"></div>
+      <div class="d-flex flex-column enable-pointer hide-small-dev" style="max-width: 64px">
+        <a class="mail" href="mailto:{{ site.email | encode_email }}" title="email">{{ site.email }}</a>
+        <div class="vr d-flex flex-row"></div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% include newsletter.liquid center=true %}
     {% endif %}
   </div>
 {% endif %}

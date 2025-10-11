@@ -1,12 +1,19 @@
 $(document).ready(function () {
-  // add toggle functionality to abstract and bibtex buttons
+  // add toggle functionality to abstract, award and bibtex buttons
   $("a.abstract").click(function () {
     $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  });
+  $("a.award").click(function () {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden").toggleClass("open");
     $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
   });
   $("a.bibtex").click(function () {
-    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
     $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
   });
   $("a").removeClass("waves-effect waves-light");
 
@@ -30,18 +37,12 @@ $(document).ready(function () {
   cssLink.rel = "stylesheet";
   cssLink.type = "text/css";
 
-  let theme = localStorage.getItem("theme");
-  if (theme == null || theme == "null") {
-    const userPref = window.matchMedia;
-    if (userPref && userPref("(prefers-color-scheme: dark)").matches) {
-      theme = "dark";
-    }
-  }
+  let jupyterTheme = determineComputedTheme();
 
   $(".jupyter-notebook-iframe-container iframe").each(function () {
     $(this).contents().find("head").append(cssLink);
 
-    if (theme == "dark") {
+    if (jupyterTheme == "dark") {
       $(this).bind("load", function () {
         $(this).contents().find("body").attr({
           "data-jp-theme-light": "false",
@@ -49,5 +50,10 @@ $(document).ready(function () {
         });
       });
     }
+  });
+
+  // trigger popovers
+  $('[data-toggle="popover"]').popover({
+    trigger: "hover",
   });
 });

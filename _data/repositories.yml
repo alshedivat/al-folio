@@ -4,3 +4,7 @@ github_repos:
   - boku-ilen/landscapelab
   - boku-ilen/geodot-plugin
   - mathiasbaumgartinger/millionairequiz
+  - torvalds
+  - alshedivat
+
+repo_description_lines_max: 2
