@@ -52,11 +52,19 @@ Sage Grande will extend this infrastructure with more powerful hardware (NVIDIA 
 
 SGT integrates advanced edge computing, multi-modal sensing, and LLMs into an accessible, user-friendly research testbed. The platform allows scientists and students to deploy AI applications directly in the field, conduct high-resolution measurements of environmental conditions, and interact with complex datasets using natural language prompts. Sage Grande bridges the gap between laboratory-scale AI development and real-world, mission-critical deployment scenarios across fields such as urban science, agriculture, ecology, fire science, and disaster response.
 
+#### Research Team
+
+**Current Members**  
+- [Mahsa Alishiri](https://www.linkedin.com/in/mahsa-alishiri/)  
+- [Hossein Fathollahian](https://www.linkedin.com/in/hossein-fathollahian/) *(Honorary Member)*  
+- [Michael E. Papka](https://www.linkedin.com/in/michaelpapka)
 
 ## Learn More
 
-*   **Project Website: [sagecontinuum.org](https://sagecontinuum.org/)**
-*   **[Live Data and Apps (Sage Portal)](https://portal.sagecontinuum.org/)**
-*   **[Sage GitHub](https://github.com/waggle-sensor)**
-*   **[Contact us](https://sagecontinuum.org/docs/contact-us)**
+*   Project Website: [sagecontinuum.org](https://sagecontinuum.org/)
+*   [Live Data and Apps (Sage Portal)](https://portal.sagecontinuum.org/)
+*   [Sage GitHub](https://github.com/waggle-sensor)
+*   [Contact us](https://sagecontinuum.org/docs/contact-us)
 
+#### Funding
+This work funded in part by a National Science Foundation grant — [Sage Grande: An Open Artificial Intelligence Testbed for Edge Computing and Intelligent Sensing](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2436842). Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.

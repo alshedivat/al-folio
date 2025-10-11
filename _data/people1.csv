@@ -1,12 +1,12 @@
 name,authors,department,institution,dirFirstName,dirLastName,dirTitle,alumni,status,email,image,url,linkedin,order
-Dave Adamczyk,,Department of Electrical Engineering and Computer Science,University of Illinois Chicago,Dave,Adamczyk,,MS 94,alumni,dave@adamczyk.com,dave_adamczyk.jpg,,,9999
+Dave Adamczyk,,Department of Electrical Engineering and Computer Science,University of Illinois Chicago,Dave,Adamczyk,"MS Graduate, 1994",MS 94,alumni,dave@adamczyk.com,dave_adamczyk.jpg,,,9999
 Rita Addison,,,University of Illinois Chicago,Rita,Addison,Visiting Artist,,friend,raddison@world.std.com,rising_addison.gif,,,9999
-Michelle Afenya,,Department of Computer Science,University of Illinois Chicago,Michelle,Afenya,,MS 97,alumni,afenya@comm.mot.com,training_afenya.jpg,,,9999
-Sarthak Agarwal,,Department of Computer Science,University of Illinois Chicago,Sarthak,Agarwal,,,alumni,sagarw35@uic.edu,sagarwal.png,,,9999
-Julieta Aguilera,,School of Art and Design,University of Illinois Chicago,Julieta,Aguilera,,MFA 06,alumni,juli3ta@yahoo.com,juli.jpg,http://www.julietina.com,,9999
-Mark Akgulian,,School of Art and Design,University of Illinois Chicago,Mark,Akgulian,,,alumni,,akgulian.gif,,,9999
-Joshua Albers,,School of Art and Design,University of Illinois Chicago,Joshua,Albers,,MFA 13,alumni,joshua.albers@gmail.com,josh20120408.png,http://joshuaalbers.com,,9999
-Joseph Alexander (1973 - 2017),,School of Art and Design,University of Illinois Chicago,Joseph,Alexander,,MFA 99,alumni,,jalex.gif,http://www.evl.uic.edu/jalex,,9999
+Michelle Afenya,,Department of Computer Science,University of Illinois Chicago,Michelle,Afenya,"MS Graduate, 1997",MS 97,alumni,afenya@comm.mot.com,training_afenya.jpg,,,9999
+Sarthak Agarwal,,Department of Computer Science,University of Illinois Chicago,Sarthak,Agarwal,MS Candidate,,alumni,sagarw35@uic.edu,sagarwal.png,,,9999
+Julieta Aguilera,,School of Art and Design,University of Illinois Chicago,Julieta,Aguilera,"MFA Graduate, 2006",MFA 06,alumni,juli3ta@yahoo.com,juli.jpg,http://www.julietina.com,,9999
+Mark Akgulian,,School of Art and Design,University of Illinois Chicago,Mark,Akgulian,Former MFA Candidate,,alumni,,akgulian.gif,,,9999
+Joshua Albers,,School of Art and Design,University of Illinois Chicago,Joshua,Albers,"New Media Arts Graduate, 2013",MFA 13,alumni,joshua.albers@gmail.com,josh20120408.png,http://joshuaalbers.com,,9999
+Joseph Alexander (1973 - 2017),,School of Art and Design,University of Illinois Chicago,Joseph,Alexander,"MFA Graduate, 1999",MFA 99,alumni,,jalex.gif,http://www.evl.uic.edu/jalex,,9999
 Abdullah Ali,,Department of Computer Science,University of Illinois Chicago,Abdullah,Ali,,BS 25,alumni,abdullahalisye@gmail.com,aali.png,https://www.linkedin.com/in/abdullah-ali-9890b3221/,,9999
 Mir Masood Ali,,Department of Computer Science,University of Illinois Chicago,Mir Masood,Ali,,,alumni,mali92@uic.edu,masood.png,https://mirmasoodali.com/,,9999
 Mihailo Alic,,School of Art and Design,University of Illinois Chicago,Mihailo,Alic,,"MS 94, MFA 95",alumni,bgmix@verat.net,alic.gif,http://www.evl.uic.edu/alic,,9999
@@ -110,7 +110,7 @@ Blake Drolson,,Biomedical Visualization Laboratory,University of Illinois Chicag
 Landon Richard Dyken,,Department of Computer Science,University of Illinois Chicago,Landon,Dyken,Phd Student,,student,ldyke@uic.edu,lrdyken.png,https://landondyken.com/,,9999
 Joshua Eliason,,School of Art and Design,University of Illinois Chicago,Joshua,Eliason,MFA Graduate,,alumni,,j_eliason.jpg,http://www.evl.uic.edu/jelias1,,9999
 Roger Engelman,,Department of Computer Science,University of Illinois Chicago,Roger,Engelman,MS Graduate,,alumni,roger@hilum.bsd.uchicago.edu,crash_engleman.gif,,,9999
-Ke Fan,,Department of Computer Science,University of Illinois Chicago,Ke,Fan,,PhD 25,alumni,kfan23@uic.edu,kfan.png,https://scholar.google.com/citations?hl=en&user=2ieuIHQAAAAJ,,9999
+Ke Fan,,Department of Computer Science,University of Illinois Chicago,Ke,Fan,PhD Student,,student,kfan23@uic.edu,kfan.png,https://scholar.google.com/citations?hl=en&user=2ieuIHQAAAAJ,,9999
 Ray Fang,,Department of Computer Science,University of Illinois Chicago,Ray,Fang,MS Graduate,,alumni,,,,,9999
 Alessandro Febretti,,Department of Computer Science,University of Illinois Chicago,Alessandro,Febretti,"MS Gradudate, 2008<br>PhD Graduate, 2017","MS 08, PhD 17",alumni,febret@gmail.com,alessandrofebretti.jpg,http://www.febretpository.net,,9999
 Leonardo Ferreira,,Department of Computer Science,University of Illinois Chicago,Leonardo,Ferreira,PhD Student,,alumni,lferr10@uic.edu,lferreira.png,,,9999
@@ -193,7 +193,7 @@ Robert V. Kenyon,,Department of Computer Science,University of Illinois Chicago,
 Andruid Kerne,,Department of Computer Science,University of Illinois Chicago,Andruid,Kerne,Professor,,faculty,andruid@uic.edu,akerne.png,https://ecologylab.net,https://www.linkedin.com/in/andruid,9999
 Muhammad Ali Khan,,Department of Computer Science,University of Illinois Chicago,Muhammad Ali,Khan,Former Undergraduate REU,,alumni,,thing_growing_mak.jpg,,,9999
 Heejoo Kim,,School of Art and Design,University of Illinois Chicago,Heejoo,Kim,"MFA Graduate, 2010",MFA 10,alumni,scarlet.heejoo@gmail.com,evl_heejoo.jpg,,,9999
-Hyungil Kim,,Department of Mechanical and Industrial Engineering,University of Illinois Chicago,Hyungil,Kim,Assistant Professor,,affiliate,hyungil@uic.edu,,https://sites.google.com/view/human-centered-engineering,,9999
+Hyungil Kim,,Department of Mechanical & Industrial Engineering,University of Illinois Chicago,Hyungil,Kim,,,affiliate,hyungil@uic.edu,,https://sites.google.com/view/human-centered-engineering,,9999
 Janet Kim,,Department of Computer Science,University of Illinois Chicago,Janet,Kim,"MS Graduate, 2004",MS 04,alumni,janet@dragonflyesque.com,janet.jpg,http://www.evl.uic.edu/jkim,,9999
 Tae Jin Kim,,Department of Computer Science,University of Illinois Chicago,Tae Jin,Kim,MS Graduate,MS,alumni,,taejinkim.jpg,,,9999
 Jenny Kinahan,,Department of Computer Science,University of Illinois Chicago,Jenny,Kinahan,Research Experience Undergraduate,,alumni,,jennykinahan.png,,,9999
@@ -249,7 +249,7 @@ Todd Margolis,,School of Art and Design,University of Illinois Chicago,Todd,Marg
 Thomas Marrinan,,Department of Computer Science,University of Illinois Chicago,Thomas,Marrinan,"PhD Graduate, 2016",PhD 16,alumni,thomas.j.marrinan@gmail.com,tmarrinan01.jpg,http://tmarrinan.bitbucket.org,,9999
 Alessandro Martinolli,,Department of Computer Science,University of Illinois Chicago,Alessandro,Martinolli,MS Candidate,,alumni,alessandro.martinolli@live.com,amartinolli.png,,,9999
 Joanna Mason,,Department of Computer Science,University of Illinois Chicago,Joanna,Mason,"MS Graduate, 1995",MS 95,alumni,Joanna.Mason@gmail.com,posteuclid_half_mason.gif,,,9999
-Fredric Massa,,Department of Computer Science,University of Illinois Chicago,Fredric,Massa,,BS 25,alumni,rickmass2020@gmail.com,fmassa.png,,,9999
+Fredric Massa,,Department of Computer Science,University of Illinois Chicago,Fredric,Massa,Undergraduate Researcher,,student,rickmass2020@gmail.com,fmassa.png,,,9999
 Victor Mateevitsi,,Argonne National Laboratory,Argonne National Laboratory,Victor,Mateevitsi,PhD Graduate 2018,PhD 18,affiliate,mvictoras@gmail.com,,https://www.anl.gov/profile/victor-a-mateevitsi,,9999
 Victor Mateevitsi,,Department of Computer Science,University of Illinois Chicago,Victor,Mateevitsi,"PhD Graduate, 2018",PhD 18,alumni,mvictoras@gmail.com,vmateevitsi.jpg,http://www.vmateevitsi.com,,9999
 Jiri Matela,,"Masaryk University at Brno, Czech Republic",Masaryk University at Brno,Jiri,Matela,Visiting Researcher,,alumni,xmatela@fi.muni.cz,jirimatela.png,,,9999
@@ -267,7 +267,7 @@ Shreyas Mohan,,Metea Valley High School,University of Illinois Chicago,Shreyas,M
 Tom Moher,,Department of Computer Science,University of Illinois Chicago,Tom,Moher,"EVL Faculty<br>Associate Professor Emeritus, Computer Science",,alumni,moher@uic.edu,tmoher.png,,,9999
 Zsuzsanna Molnar,,School of Art and Design,University of Illinois Chicago,Zsuzsanna,Molnar,"MFA Graduate, 1981",MFA 81,alumni,zsuzsa@teleculture.com,,http://teleculture.com,,9999
 Gustavo Moreira,,Department of Computer Science,University of Illinois Chicago,Gustavo,Moreira,PhD Student,,alumni,gmorei3@uic.edu,gmoreira.png,,,9999
-Glen Murray,,Department of Computer Science,University of Illinois Chicago,Glen,Murray,EVL Staff,,emeritus,glen@wandavr.com,wanda.png,http://www.wandavr.com,,9999
+Glen Murray,,Department of Computer Science,University of Illinois Chicago,Glen,Murray,"EVL Staff, Retired",,alumni,glen@wandavr.com,wanda.png,http://www.wandavr.com,,9999
 Paul Murray,,Department of Computer Science,University of Illinois Chicago,Paul,Murray,"PhD Graduate Student, 2014-2016",,alumni,,paul_murray.png,,,9999
 Ashwini Naik,,Department of Computer Science,University of Illinois Chicago,Ashwini,Naik,"PhD Graduate, 2024",PhD 24,alumni,ashwinignaik@gmail.com,ashwininaik.jpg,https://sites.google.com/view/ashwinigprojects/,,9999
 Harish Naik,,Department of Computer Science,University of Illinois Chicago,Harish,Naik,PhD Candidate,,alumni,hnaik2@uic.edu,harishnaik.png,http://hnaik.com,,9999
@@ -324,8 +324,7 @@ Vivek Rajan,,Department of Computer Science,University of Illinois Chicago,Vivek
 Rakesh Raju,,School of Art and Design,University of Illinois Chicago,Rakesh,Raju,Former MFA Candidate,,alumni,rakesh@raju.net,raju_embryo.gif,,,9999
 Brittany Ransom,,School of Art and Design,University of Illinois Chicago,Brittany,Ransom,"MFA Graduate, 2011",MFA 11,alumni,brittany@brittanyransom.com,b-ransom.jpg,http://www.brittanyransom.com,,9999
 Arun Rao,,Department of Computer Science,University of Illinois Chicago,Arun,Rao,"MS Graduate, 2007",MS 07,alumni,arun.g.rao@gmail.com,arun_rao.jpg,http://www.evl.uic.edu/arao,,9999
-Mary Rasmussen,,College of Applied Health Sciences,University of Illinois Chicago,Mary,Rasmussen,EVL Affiliated Faculty<br>Research Associate Professor,MFA 89,emeritus,mary.rasmussen@gmail.com,mary_rass_new.jpg,,,9999
-Mary Rasmussen,,College of Applied Health Sciences,University of Illinois Chicago,Mary,Rasmussen,"MFA Graduate, 1989",MFA 89,alumni,mary.rasmussen@gmail.com,mary_rass_new.jpg,,,9999
+Mary Rasmussen,,College of Applied Health Sciences,University of Illinois Chicago,Mary,Rasmussen,"EVL Affiliated Faculty<br>Research Associate Professor (retired)<br>MFA Graduate, 1989",MFA 89,alumni,mary.rasmussen@gmail.com,mary_rass_new.jpg,,,9999
 Pranav Rathod,,Department of Computer Science,University of Illinois Chicago,Pranav,Rathod,Undergrauate Research Assistant iMIX Lab,,alumni,pranavrathodev@gmail.com,prathod.jpg,,,9999
 Maggie Rawlings,,School of Art and Design,University of Illinois Chicago,Maggie,Rawlings,"Associate Director (retired)<br>MFA Graduate, 1991",MFA 91,alumni,Mmrawlings@aol.com,maggie.gif,http://www.evl.uic.edu/maggie,,9999
 Khairi Reda,,Department of Computer Science,University of Illinois Chicago,Khairi,Reda,Associate Professor,PhD 14,faculty,redak@uic.edu,khairireda2.png,https://khreda.com,https://www.linkedin.com/in/khairi-reda-a26aa34/,9999
@@ -337,15 +336,15 @@ Bill Reynolds,,Department of Computer Science,University of Illinois Chicago,Bil
 Saleha Rizvi,,Department of Computer Science,University of Illinois Chicago,Saleha,Rizvi,"MS Graduate, 2005",MS 05,alumni,,saleha_duo.jpg,,,9999
 Joshua Rodriguez,,Department of Computer Science,University of Illinois Chicago,Joshua,Rodriguez,"Research Experience Undergraduate, 2015",,alumni,,jrodriguez.jpg,,,9999
 Chris Rosenthal,,Department of Electrical and Computer Engineering,Illinois Institue of Technology,Chris,Rosenthal,"Former EVL REU, IIT Graduate",,alumni,chris.rosenthal@gmail.com,chrisrosenthal2006.jpg,,,9999
-Sally Rosenthal,,School of Art and Design,University of Illinois Chicago,Sally,Rosenthal,,MFA 83,alumni,,sally_rosenthal_200x146.jpg,,,9999
+Sally Rosenthal,,School of Art and Design,University of Illinois Chicago,Sally,Rosenthal,"MFA Graduate, 1983",MFA 83,alumni,,sally_rosenthal_200x146.jpg,,,9999
 Paul Rossman,,School of Art and Design,University of Illinois Chicago,Paul,Rossman,,,alumni,paul.rossman@gmail.com,prossman.jpg,http://www.evl.uic.edu/paulr,,9999
-Andrea Rottigni,,Department of Computer Science,University of Illinois Chicago,Andrea,Rottigni,,MS 16,alumni,,,,,9999
-Maria Roussou,,Department of Computer Science<br>School of Art and Design,University of Illinois Chicago,Maria,Roussou,,"MFA 97, MS 97",alumni,maria@makebelieve.gr,mariaroussou_new.jpg,http://www.makebelieve.gr/mr,,9999
-Trina Roy,,Department of Computer Science,University of Illinois Chicago,Trina,Roy,,MS 95,alumni,trina@acm.org,troy.jpg,https://www.evl.uic.edu/trina/,,9999
-Xiaoqian Ruan,,Department of Computer Science,University of Illinois Chicago,Xiaoqian,Ruan,,,alumni,xruan9@uic.edu,xiaoqianruan.jpg,,,9999
-Marty Ryan,,Department of Computer Science,University of Illinois Chicago,Marty,Ryan,,MS 91,alumni,marty@rhythm.com,marty_ryan.gif,,,9999
-Nina Sakhnini,,Department of Computer Science,University of Illinois Chicago,Nina,Sakhnini,,,alumni,sakhnini.nina@gmail.com,nshakhnini.jpg,http://www.ninasakhnini.net,,9999
-Steve Sander (1953 - 2011),,Software Technologies Research Center,University of Illinois Chicago,Steve,Sander (1953-2011),"Assistant Director of Budgets and Contracts, 2003 - 2010",,emeritus,,steve_sander.jpg,,,9999
+Andrea Rottigni,,Department of Computer Science,University of Illinois Chicago,Andrea,Rottigni,"MS Graduate, 2016",MS 16,alumni,,,,,9999
+Maria Roussou,,Department of Computer Science<br>School of Art and Design,University of Illinois Chicago,Maria,Roussou,"MS &amp; MFA Graduate, 1997 (CS &amp; EV)","MFA 97, MS 97",alumni,maria@makebelieve.gr,mariaroussou_new.jpg,http://www.makebelieve.gr/mr,,9999
+Trina Roy,,Department of Computer Science,University of Illinois Chicago,Trina,Roy,"MS Graduate, 1995",MS 95,alumni,trina@acm.org,troy.jpg,https://www.evl.uic.edu/trina/,,9999
+Xiaoqian Ruan,,Department of Computer Science,University of Illinois Chicago,Xiaoqian,Ruan,PhD Student,,alumni,xruan9@uic.edu,xiaoqianruan.jpg,,,9999
+Marty Ryan,,Department of Computer Science,University of Illinois Chicago,Marty,Ryan,"MS Graduate, 1991",MS 91,alumni,marty@rhythm.com,marty_ryan.gif,,,9999
+Nina Sakhnini,,Department of Computer Science,University of Illinois Chicago,Nina,Sakhnini,MS Student,,alumni,sakhnini.nina@gmail.com,nshakhnini.jpg,http://www.ninasakhnini.net,,9999
+Steve Sander (1953 - 2011),,Software Technologies Research Center,University of Illinois Chicago,Steve,Sander (1953-2011),"Assistant Director of Budgets &amp; Contracts, 2003 - 2010 (retired)",,alumni,,steve_sander.jpg,,,9999
 Daniel J. Sandin,,School of Art and Design,University of Illinois Chicago,Daniel J.,Sandin,Director EVL (1973 - 2004)<br>Professor,,emeritus,dan@uic.edu,dansandin_sm.png,http://www.evl.uic.edu/dan,,9999
 Ellen Sandor,,School of Art and Design,University of Illinois Chicago,Ellen,Sandor,Former Adjunct Associate Professor,,alumni,ellen@artn.com,midway_sandor.jpg,http://www.artn.com/about_us_more.cfm?ID=13,,9999
 Aastha Saraf,,Department of Computer Science,University of Illinois Chicago,Aastha,Saraf,MS Student,,alumni,asaraf4@uic.edu,asaraf_cropped.jpg,https://asaraf1995.github.io,,9999
@@ -361,7 +360,7 @@ Tina Shah,,School of Art and Design,University of Illinois Chicago,Tina,Shah,"MF
 Aaqel Shaik,,Department of Computer Science,University of Illinois Chicago,Aaqel,Shaik,Undergraduate Researcher,,student,mshai4@uic.edu,ashaik.png,,,9999
 Haoyue Shi,,Department of Computer Science,Xi'an Jiaotong University,Haoyue,Shi,PhD Student,,alumni,hshi26@uic.edu,haoyueshi.png,,,9999
 Liushuai Shi,,Department of Computer Science,Xi'an Jiaotong University,Liushuai,Shi,PhD Student,,alumni,lshi26@uic.edu,liushuaishi.jpg,,,9999
-Ahmedur Rahman Shovon,,Department of Computer Science,University of Illinois Chicago,Ahmedur Rahman,Shovon,,PhD 25,alumni,ashov@uic.edu,ashovon.png,https://arshovon.com/,https://www.linkedin.com/in/arshovon/,9999
+Ahmedur Rahman Shovon,,Department of Computer Science,University of Illinois Chicago,Ahmedur Rahman,Shovon,PhD Student,,student,ashov@uic.edu,ashovon.png,https://arshovon.com/,,9999
 Sumayya Siddiqui,,Department of Computer Science,University of Illinois Chicago,Sumaya,Siddiqui,"Research Experience Undergraduate (REU), 2019",,alumni,,ssiddiqui.jpg,,,9999
 Lewis Siegel,,Department of Computer Science,University of Illinois Chicago,Lewis,Siegel,"MS Graduate, 1992",MS 92,alumni,lnsiegel@gmail.com,lewissiegel.jpg,,,9999
 Todd Richard Silvia,,Department of Computer Science,University of Illinois Chicago,Todd Richard,Silvia,"Research Experience Undergraduate, 2010-2011",,alumni,,toddsilvia.png,,,9999
@@ -411,7 +410,7 @@ Jane Veeder,,School of Design<br>San Francisco State University,San Francisco St
 Jonathan Vega,,Department of Computer Science,University of Illinois Chicago,Jonathan,Vega,"Undergrad Researcher, BS 2020",BS 20,alumni,,jvega.png,,,9999
 Shalini Venkataraman,,Department of Computer Science,University of Illinois Chicago,Shalini,Venkataraman,"MS Graduate, 2004",MS 04,alumni,,shaleni_new_03.jpg,,,9999
 Raghuraman Venkatesh,,Department of Computer Science,University of Illinois Chicago,Raghuraman,Venkatesh,MS Candidate,,alumni,rvenka26@uic.edu,raghuraman.jpg,https://github.com/Raghu-Raman,,9999
-Alan Verlo,,Department of Computer Science,University of Illinois Chicago,Alan,Verlo,"Associate Director, MS Graduate",,emeritus,,alan_verlo.jpg,,,9999
+Alan Verlo,,Department of Computer Science,University of Illinois Chicago,Alan,Verlo,"Associate Director (retired), MS Graduate",,emeritus,,alan_verlo.jpg,,,9999
 Rafael Vilasuso,,Department of Computer Science,University of Illinois Chicago,Rafael,Vilasuso,MS Graduate,,alumni,neferset0@hotmail.com,rafael.jpg,,,9999
 Venkatram Vishwanath,,Department of Computer Science,University of Illinois Chicago,Venkatram,Vishwanath,"PhD Graduate, 2009",PhD 09,alumni,venkatram.vishwanath@gmail.com,venkat_terabit.jpg,,,9999
 Santi Vitayaudom,,School of Art and Design,University of Illinois Chicago,Santi,Vitayaudom,Former MFA Graduate Student,,alumni,santiv@spacepixels.com,santi_vitayaudom2.jpg,http://www.spacepixels.com,,9999
@@ -420,11 +419,11 @@ Fang Wang,,Department of Computer Science,University of Illinois Chicago,Fang,Wa
 Haoyu Wang,,Department of Electrical and Computer Engineering,University of Illinois Chicago,Haoyu,Wang,"PhD, 2019",PhD 19,alumni,,,,,9999
 Muxuan Wang,,Department of Computer Science,University of Illinois Chicago,Muxuan,Wang,"PhD Graduate, 2011",PhD 11,alumni,,muxuan.jpg,,,9999
 Xi Wang,,Department of Computer Science,University of Illinois Chicago,Xi,Wang,Former Visiting Post-Doctoral Research Associate,,alumni,l0l0ll0l00l0l0@gmail.com,xiwang.png,,,9999
-Eda Warren,,School of Art and Design,University of Illinois Chicago,Eda,Warren,,MFA 95,alumni,edawarren@ameritech.net,edawarren.jpg,,,9999
-Margaret Watson,,School of Art and Design,University of Illinois Chicago,Margaret,Watson,,MFA 97,alumni,mw@mwatson.org,mwatson.jpg,http://mwatson.org,,9999
-Hubert Weldon,,School of Art and Design,University of Illinois Chicago,Hubert,Weldon,,MFA 09,alumni,hweldon@gravatonia.com,grav.png,,,9999
-Andrew Wentzel,,Department of Computer Science,University of Illinois Chicago,Andrew,Wentzel,,PhD 25,alumni,awentze2@uic.edu,,,https://www.linkedin.com/in/andrew-wentzel-80189b109/,9999
-Chris White,,School of Art and Design,University of Illinois Chicago,Chris,White,,MFA 04,alumni,rchrisw@mac.com,chris_white.jpg,,,9999
+Eda Warren,,School of Art and Design,University of Illinois Chicago,Eda,Warren,"MFA Graduate, 1995",MFA 95,alumni,edawarren@ameritech.net,edawarren.jpg,,,9999
+Margaret Watson,,School of Art and Design,University of Illinois Chicago,Margaret,Watson,"MFA Graduate, 1997",MFA 97,alumni,mw@mwatson.org,mwatson.jpg,http://mwatson.org,,9999
+Hubert Weldon,,School of Art and Design,University of Illinois Chicago,Hubert,Weldon,"MFA Graduate, 2009",MFA 09,alumni,hweldon@gravatonia.com,grav.png,,,9999
+Andrew Wentzel,,Department of Computer Science,University of Illinois Chicago,Andrew,Wentzel,MS Graduate Student,,alumni,awentze2@uic.edu,,,,9999
+Chris White,,School of Art and Design,University of Illinois Chicago,Chris,White,"MFA Graduate, 2004",MFA 04,alumni,rchrisw@mac.com,chris_white.jpg,,,9999
 Laura Wolf,,Software Technologies Research Center,University of Illinois Chicago,Laura,Wolf,Project Coordinator (1999 - 2009),,emeritus,laura.wolf@mac.com,laura_wolf.jpg,,,9999
 Kun Xia,,Department of Computer Science<br>Xi'an Jiaotong University,Xi'an Jiaotong University,Kun,Xia,Visiting Scholar,,friend,xiakun@stu.xjtu.edu.cn,kxia-visitingscholar.png,,,9999
 Kun Xia,,Department of Computer Science,Xi'an Jiaotong University,Kiun,Xia,PhD Student,,student,kxia5@uic.edu,kunxia.jpg,,,9999
