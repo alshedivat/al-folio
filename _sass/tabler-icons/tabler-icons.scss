@@ -1,3 +1,5 @@
+@use "sass:string";
+
 @charset "UTF-8";
 /*!
  * Tabler Icons 3.20.0 by tabler - https://tabler.io
@@ -33,7 +35,7 @@ $ti-prefix: 'ti' !default;
 }
 
 @function unicode($str) {
-  @return unquote("\"")+unquote(str-insert($str, "\\", 1))+unquote("\"")
+  @return string.unquote("\"")+string.unquote(string.insert($str, "\\", 1))+string.unquote("\"")
 }
 
 
