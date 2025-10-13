@@ -95,25 +95,8 @@ nav: false
             if (repos.length === 100) {
               fetchAllRepos(reposUrl, org, page + 1, allRepos);
             } else {
-              // Once all pages are fetched, sort the repositories by updated_at date
-              allRepos.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at));
-
-              // Clear "Loading repositories..." and display sorted repositories
-              const reposElement = document.getElementById(`${org}-repos`);
-              reposElement.innerHTML = ''; // Clear the initial loading message
-
-              allRepos.forEach(repo => {
-                // Display the repo immediately
-                reposElement.innerHTML += `<li id="${repo.name}"><a href="${repo.html_url}" target="_blank">${repo.name}</a>: ${repo.description || "No description available."} (Last updated: ${new Date(repo.updated_at).toLocaleDateString()})</li>`;
-
-                // Fetch last commit info if not cached
-                if (!commitCache[repo.name]) {
-                  fetchLastCommit(repo);
-                } else {
-                  // If commit data is cached, use it
-                  updateRepoWithLastCommit(repo, commitCache[repo.name]);
-                }
-              });
+              // Fetch last commit for all repos, then sort and display
+              fetchAllCommitsAndSort(allRepos, org);
             }
           } else if (page === 1) {
             // If there are no repositories at all
@@ -126,44 +109,71 @@ nav: false
         });
     }
 
-    // Function to fetch the last commit details for each repository
-    function fetchLastCommit(repo) {
-      fetch(`${repo.url}/commits?per_page=1`)
-        .then(response => response.json())
-        .then(commits => {
-          if (commits.length > 0) {
-            const lastCommit = commits[0];
-            const lastCommitter = lastCommit.commit.author.name;
-            const lastCommitterUrl = lastCommit.author ? lastCommit.author.html_url : '#';
-            const lastCommitDate = new Date(lastCommit.commit.author.date).toLocaleDateString();
+    // Function to fetch last commits for all repos, then sort and display
+    function fetchAllCommitsAndSort(repos, org) {
+      const reposElement = document.getElementById(`${org}-repos`);
+      reposElement.innerHTML = '<li>Loading commit information...</li>';
 
-            // Cache commit data to minimize API calls
-            commitCache[repo.name] = {
-              lastCommitter,
-              lastCommitterUrl,
-              lastCommitDate
-            };
+      // Fetch all commits in parallel
+      const commitPromises = repos.map(repo => {
+        if (commitCache[repo.name]) {
+          return Promise.resolve({ repo, commitData: commitCache[repo.name] });
+        }
+        return fetch(`${repo.url}/commits?per_page=1`)
+          .then(response => response.json())
+          .then(commits => {
+            if (commits.length > 0) {
+              const lastCommit = commits[0];
+              const commitData = {
+                lastCommitter: lastCommit.author ? lastCommit.author.login : lastCommit.commit.author.name,
+                lastCommitterUrl: lastCommit.author ? lastCommit.author.html_url : '#',
+                lastCommitDate: new Date(lastCommit.commit.author.date),
+                lastCommitDateString: new Date(lastCommit.commit.author.date).toLocaleDateString()
+              };
+              commitCache[repo.name] = commitData;
+              return { repo, commitData };
+            }
+            return { repo, commitData: null };
+          })
+          .catch(error => {
+            console.error(`Error fetching commit for ${repo.name}:`, error);
+            return { repo, commitData: null };
+          });
+      });
 
-            // Update the repository list item with the last commit details
-            updateRepoWithLastCommit(repo, commitCache[repo.name]);
-          }
-        })
-        .catch(error => {
-          console.error(`Error fetching last commit for ${repo.name}:`, error);
+      // Wait for all commits to be fetched, then sort and display
+      Promise.all(commitPromises).then(results => {
+        // Sort by last commit date (most recent first)
+        results.sort((a, b) => {
+          const dateA = a.commitData ? a.commitData.lastCommitDate : new Date(a.repo.updated_at);
+          const dateB = b.commitData ? b.commitData.lastCommitDate : new Date(b.repo.updated_at);
+          return dateB - dateA;
         });
+
+        // Clear and display sorted repositories
+        reposElement.innerHTML = '';
+        results.forEach(({ repo, commitData }) => {
+          const li = document.createElement('li');
+          li.id = repo.name;
+
+          if (commitData) {
+            li.innerHTML = `
+              <a href="${repo.html_url}" target="_blank">${repo.name}</a>:
+              ${repo.description || "No description available."}
+              (Last updated: ${commitData.lastCommitDateString} by <a href="${commitData.lastCommitterUrl}" target="_blank">${commitData.lastCommitter}</a>)
+            `;
+          } else {
+            li.innerHTML = `
+              <a href="${repo.html_url}" target="_blank">${repo.name}</a>:
+              ${repo.description || "No description available."}
+              (Last updated: ${new Date(repo.updated_at).toLocaleDateString()})
+            `;
+          }
+          reposElement.appendChild(li);
+        });
+      });
     }
 
-    // Function to update the repository list item with the last commit details
-    function updateRepoWithLastCommit(repo, commitData) {
-      const repoElement = document.getElementById(repo.name);
-      if (repoElement) {
-        repoElement.innerHTML = `
-          <a href="${repo.html_url}" target="_blank">${repo.name}</a>: 
-          ${repo.description || "No description available."} 
-          (Last updated: ${commitData.lastCommitDate} by <a href="${commitData.lastCommitterUrl}" target="_blank">${commitData.lastCommitter}</a>)
-        `;
-      }
-    }
   });
 </script>
 

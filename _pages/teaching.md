@@ -13,7 +13,7 @@ nav_order: 6
 - **CS 425** *Computer Graphics I* – Khairi Reda  
 - **CS 424** *Visualization and Visual Analytics* – Fabio Miranda  
 - **CS 455** *Introduction to High Performance Computing* – Zhiling Lan  
-- **CS 476** *Programming Language Design* – Saeed BoorBoor  
+- **CS 428** *Virtual Reality, Augmented Reality, Mixed Reality* – Saeed Boorboor
 - **CS 480** *Database Systems* – Siddharth Kumar  
 - **CS 522** *User Experience Research Methods* – Debaleena Chattopadhyay  
 - **CS 529** *Visual Data Science* – G. Elisabeta Marai  
@@ -35,5 +35,5 @@ nav_order: 6
 
 ## Catalogs
 
-- [2024-2025 Undergraduate Catalog](https://catalog.uic.edu/ucat/course-descriptions/cs/)
-- [2024-2025 Graduate & Professional Catalog](https://catalog.uic.edu/gcat/course-descriptions/cs/)
+- [2025-2026 Undergraduate Catalog](https://catalog.uic.edu/ucat/course-descriptions/cs/)
+- [2025-2026 Graduate & Professional Catalog](https://catalog.uic.edu/gcat/course-descriptions/cs/)

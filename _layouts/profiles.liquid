@@ -50,13 +50,13 @@ layout: page
 
                   {% if status == "alumni" %}
                   {% assign grouped_letters = "A,B-C,D-F,G-I,J-L,M-O,P-R,S-U,V-Z" | split: "," %}
-                    <div class="col-12 col-md-8 mt-0 mt-md-4 pt-1 pt-md-3 pb-1 text-center text-md-right">
+                    <div class="col-12 mt-0 mt-md-4 pt-1 pt-md-3 pb-1 text-center">
                       {% for group in grouped_letters %}
                         <a class="letter-link" href="#{{ status }}-{{ group | replace: '-', '' }}">{{ group }}</a>{% unless forloop.last %} | {% endunless %}
                       {% endfor %}
                     </div>
                   {% endif %}
-                  
+
                 </div>
 
                 <div class="container px-0">

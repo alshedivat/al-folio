@@ -1,6 +1,10 @@
 // mixins
 // --------------------------
 
+@use 'sass:string';
+@use 'functions' as *;
+@use 'variables' as *;
+
 // base rendering for an icon
 @mixin fa-icon {
   -webkit-font-smoothing: antialiased;
@@ -51,15 +55,15 @@
 @mixin fa-icon-solid($fa-var) {
   @extend .fa-solid;
 
-  & { #{$fa-icon-property}: unquote("\"#{ $fa-var }\""); #{$fa-duotone-icon-property}: unquote("\"#{ $fa-var }#{ $fa-var }\""); }
+  & { #{$fa-icon-property}: string.unquote("\"#{ $fa-var }\""); #{$fa-duotone-icon-property}: string.unquote("\"#{ $fa-var }#{ $fa-var }\""); }
 }
 @mixin fa-icon-regular($fa-var) {
   @extend .fa-regular;
 
-  & { #{$fa-icon-property}: unquote("\"#{ $fa-var }\""); #{$fa-duotone-icon-property}: unquote("\"#{ $fa-var }#{ $fa-var }\""); }
+  & { #{$fa-icon-property}: string.unquote("\"#{ $fa-var }\""); #{$fa-duotone-icon-property}: string.unquote("\"#{ $fa-var }#{ $fa-var }\""); }
 }
 @mixin fa-icon-brands($fa-var) {
   @extend .fa-brands;
 
-  & { #{$fa-icon-property}: unquote("\"#{ $fa-var }\""); #{$fa-duotone-icon-property}: unquote("\"#{ $fa-var }#{ $fa-var }\""); }
+  & { #{$fa-icon-property}: string.unquote("\"#{ $fa-var }\""); #{$fa-duotone-icon-property}: string.unquote("\"#{ $fa-var }#{ $fa-var }\""); }
 }

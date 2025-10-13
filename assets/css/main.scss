@@ -3,23 +3,20 @@
 ---
 @charset "utf-8";
 
-// Dimensions
-$max-content-width: {{ site.max_width }};
-
-@import
-  "variables",
-  "themes",
-  "layout",
-  "base",
-  "distill",
-  "cv",
-  "tabs",
-  "typograms",
-  "font-awesome/fontawesome",
-  "font-awesome/brands",
-  "font-awesome/solid",
-  "font-awesome/regular",
-  "tabler-icons/tabler-icons.scss",
-  "tabler-icons/tabler-icons-filled.scss",
-  "tabler-icons/tabler-icons-outline.scss"
-;
+@use "variables" as * with (
+  $max-content-width: {{ site.max_width }}
+);
+@use "themes" as *;
+@use "layout" as *;
+@use "base" as *;
+@use "distill" as *;
+@use "cv" as *;
+@use "tabs" as *;
+@use "typograms" as *;
+@use "font-awesome/fontawesome" as *;
+@use "font-awesome/brands" as *;
+@use "font-awesome/solid" as *;
+@use "font-awesome/regular" as *;
+@use "tabler-icons/tabler-icons.scss" as *;
+@use "tabler-icons/tabler-icons-filled.scss" as *;
+@use "tabler-icons/tabler-icons-outline.scss" as *;
