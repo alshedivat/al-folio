@@ -1,8 +1,8 @@
 ---
 layout: page
 title: DAIMSL
-description: Digital Twins and AI-enabled & Immersive Environments for Automated Scientific Laboratories
-img: assets/img/new-logo-withtext.png
+description: Digital Twins and AI-enabled and Immersive Environments for Automated Scientific Laboratories
+img: assets/img/daimsl/daimsl00.png
 importance: 1
 category: research
 tags: [daimsl]
@@ -20,17 +20,18 @@ As **DOE laboratories increasingly adopt AI and robotics**, this research is ess
 
 <!--**We are looking to hire both graduate and undergraduate students for this effort.** -->
 
-- Students:
-    - [Athena Angara](https://www.linkedin.com/in/athena-angara/) _Undergraduate Research Assistant_
-    - [Hal Brynteson](https://www.linkedin.com/in/hal-brynteson/) [BS 2022 (NIU), MS Student] _Graduate Research Assistant_
-    - [Fatima Jassim](https://www.linkedin.com/in/fatima-jassim/) _Undergraduate Research Assistant_
-    - [Hemalatha Ningappa Kondakundi](https://www.linkedin.com/in/hemaalatha-nk/) [MS Student] _Graduate Research Assistant_
+#### Research Team
 
-- Faculty/Researchers:
-    - [Nicola Ferrier](https://www.anl.gov/profile/nicola-j-ferrier) (Argonne/Northwestern)
-    - [Joseph Insley](https://www.alcf.anl.gov/about/people/joseph-insley) (Argonne/NIU)
-    - [Victor Mateevitsi](https://www.alcf.anl.gov/about/people/victor-mateevitsi) (Argonne/UIC)
-    - [Yongho Kim](https://www.anl.gov/profile/yongho-kim) (Argonne/Northwestern)
-    - [Patrick O'Leary](https://www.kitware.com/patrick-oleary/) (Kitware Inc.)
-    - Michael E. Papka (UIC/Argonne)
-    - [Silvio Rizzi](https://www.alcf.anl.gov/about/people/silvio-rizzi) (Argonne/UIC)
+**Current Members**  
+- [Hal Brynteson](https://www.linkedin.com/in/hal-brynteson/) [BS 2022 (NIU), MS Student] — *Graduate Research Assistant*  
+- [Nicola Ferrier](https://www.anl.gov/profile/nicola-j-ferrier) — (Argonne/Northwestern)  
+- [Joseph Insley](https://www.alcf.anl.gov/about/people/joseph-insley) — (Argonne)  
+- [Yongho Kim](https://www.anl.gov/profile/yongho-kim) — (Argonne/Northwestern)  
+- [Victor Mateevitsi](https://www.alcf.anl.gov/about/people/victor-mateevitsi) — (Argonne/UIC)  
+- [Patrick O'Leary](https://www.kitware.com/patrick-oleary/) — (Kitware Inc.)  
+- [Michael E. Papka](https://www.linkedin.com/in/michaelpapka/) — (UIC/Argonne)  
+- [Silvio Rizzi](https://www.alcf.anl.gov/about/people/silvio-rizzi) — (Argonne/UIC)
+- [Aaqel Shaik](https://www.linkedin.com/in/aaqel-shaik/) [BS 2025, MS Student]
+
+#### Funding
+This work is supported by the [U.S. Department of Energy](https://www.energy.gov/), [Office of Science](https://science.osti.gov/), [Advanced Scientific Computing Research (ASCR) program](https://science.osti.gov/ascr), via sub-award from [Argonne National Laboratory](https://www.anl.gov/).

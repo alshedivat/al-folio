@@ -12,24 +12,22 @@ New artificial intelligence (AI) is rapidly transforming how the nation conducts
 
 This project designs and builds a new national-scale testbed that supports computer scientists developing and exploring novel distributed-AI computing systems. The edge-based pilot testbed links low-power AI-enabled computers distributed across the country with high-resolution environmental sensors and instruments such as cameras, microphones, and weather sensors. The testbed supports scientists exploring design concepts, operational modes, and real-time sensor data workflows, contributing to the understanding of Earth's changing climate and biosphere. The pilot testbed also addresses today?s urgent need for a diverse, AI-trained scientific workforce by enabling students, researchers, and community scientists to ethically engage in multidisciplinary AI research, creating the next generation of scientists needed to responsibly develop AI capabilities in every facet of our economy. By addressing the current lack of a comprehensive, flexible toolset and infrastructure for AI-centric and computationally mediated research, the project provides a crucial research testbed that bridges current computational resources and the demands of advancing AI capabilities. This effort is also supported by National Discovery Cloud for Climate (NDC-C) resources.
 
-**We are looking to hire both graduate and undergraduate students for this effort.**
+#### Research Team
 
-**The NAIRR team at UIC:**
+**Current Members**  
+- [Elizabeth Cardoso](https://www.linkedin.com/in/elizabeth-cardoso-a20938302/)
+- [Michael Cortez](https://www.linkedin.com/in/michael--cortez/)
+- [Hossein Fathollahian](https://www.linkedin.com/in/hossein-fathollahian/) *Honorary Member*  
+- [Fatima Mora Garcia](https://www.linkedin.com/in/fatima-mora-garcia/)  
+- [Om Patel](https://www.linkedin.com/in/ompatel22/)
+- [Alejandra Rios](https://www.linkedin.com/in/alejandra-rios-70291132a/)  
+- [Michael E. Papka](https://www.linkedin.com/in/michaelpapka)
 
-- Students:
-    - JD Pirtle _Graduate Research Assistant_
+**Alumni**  
+- [Abdullah Ali](https://www.linkedin.com/in/abdullahalis/)  
+- [Ricky Massa](https://www.linkedin.com/in/fredric-massa/)  
+- [JD Pirtle](https://www.linkedin.com/in/jd-pirtle-b7338b346/)
+- [Aaqel Shaik](https://www.linkedin.com/in/aaqel-shaik/)
 
 
-    - Ricky Massa _Undergraduate Research Assistant_
-    - Aaqel Shaik _Undergraduate Research Assistant_
-
-- Faculty:
-    - Michael E. Papka (UIC)
-
-- Alumni:
-    - Abdullah Ali
-
-
-This work funded in part by a National Science Foundation grant - <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2331263">A National-Scale Testbed Supporting Artificial Intelligence Research Spanning the Computing Continuum</a>.
-
-This material is based upon work supported by the National Science Foundation under Grant No. OAC-2331263. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+This work funded in part by a National Science Foundation grant - <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2331263">A National-Scale Testbed Supporting Artificial Intelligence Research Spanning the Computing Continuum</a>. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
