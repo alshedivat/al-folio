@@ -5,7 +5,8 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Mathias
 middle_name: 
-last_name: Baumgartinger-S.
+last_name: Baumgartinger-Seiringer
+last_name_short: Baumgartinger-S.
 email: mathias.baumgartinger@proton.me
 contact_note: #  You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
