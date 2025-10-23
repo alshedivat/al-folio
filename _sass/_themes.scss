@@ -11,6 +11,7 @@
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$purple-color};
+  --global-theme-color-rgb: #{color.channel($purple-color, "red", $space: rgb)}, #{color.channel($purple-color, "green", $space: rgb)}, #{color.channel($purple-color, "blue", $space: rgb)};
   --global-hover-color: #{$purple-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
@@ -24,7 +25,7 @@
     #{color.channel($black-color, "red", $space: rgb)},
     #{color.channel($black-color, "green", $space: rgb)},
     #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
+    0.1
   );
   --global-back-to-top-text-color: #{$white-color};
   --global-newsletter-bg-color: #{$white-color};
@@ -83,6 +84,7 @@ html[data-theme="dark"] {
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
   --global-theme-color: #{$cyan-color};
+  --global-theme-color-rgb: #{color.channel($cyan-color, "red", $space: rgb)}, #{color.channel($cyan-color, "green", $space: rgb)}, #{color.channel($cyan-color, "blue", $space: rgb)};
   --global-hover-color: #{$cyan-color};
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};

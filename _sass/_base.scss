@@ -1707,3 +1707,26 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+.glassy-box {
+  backdrop-filter: blur(4px);
+  background-image: linear-gradient(to top left, rgba(var(--global-theme-color-rgb), 0.15) 0%, rgba(0, 0, 0, 0.001) 20%, rgba(0, 0, 0, 0.01) 50%, rgba(0, 0, 0, 0.05) 100%);
+  border: rgba(var(--global-theme-color-rgb), 0.05) 1px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(var(--global-theme-color-rgb), 0.15);
+}
+
+.project-logo-stamp {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+  height: 32px;
+  width: auto !important;
+  opacity: 0.8;
+}
+
+.project-image {
+  object-fit: cover;
+  min-height: 175px;
+  max-height: 175px;
+}
