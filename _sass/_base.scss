@@ -168,6 +168,7 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  position: relative; // ensure parent is positioned context
 
   .card-img {
     width: 100%;

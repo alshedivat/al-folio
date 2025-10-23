@@ -67,12 +67,13 @@
   }
 
   #back-to-top {
+    border: 1px solid var(--global-theme-color);
     color: var(--global-back-to-top-text-color);
     background: var(--global-back-to-top-bg-color);
     bottom: $back-to-top-bottom;
     right: $back-to-top-right;
     height: $back-to-top-height;
-    width: $back-to-top-width;
+    width: $back-to-top-width;  
     z-index: $back-to-top-z-index;
   }
 }
@@ -141,8 +142,9 @@ html[data-theme-setting="dark"] {
   }
 
   #back-to-top {
-    color: var(--global-back-to-top-text-color);
+    color: var(--global-theme-color);
     background: var(--global-back-to-top-bg-color);
+    fill: var(--global-theme-color);
   }
 }
 
