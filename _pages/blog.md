@@ -69,7 +69,7 @@ pagination:
 <div class="card hoverable">
 <div class="row g-0">
 <div class="col-md-12">
-<div class="card-body">
+<div class="card-body glassy-box">
 <div class="float-right">
 <i class="fa-solid fa-thumbtack fa-xs"></i>
 </div>
