@@ -10,6 +10,26 @@
     "image": ""
   },
   {
+    "title": "ADHD Couple Communication Support",
+    "year": "2025",
+    "people": "Jong-ok Hong, Dasom Choi, Eunchae Lee, Hwajung Hong",
+    "field": "inclusive",
+    "description": "How can couples that include ADHD tune daily life without “fixing” each other? We ran a weeklong diary with ADHD-inclusive couples to see what helps small efforts land, how talk feels safer, and how workable routines take shape. From this work, we distilled design guidelines for support tools that honor differences, ease pressure, and keep conversations clear.",
+    "related_research": "",
+    "related_video": "",
+    "image": "adhd.png"
+  },
+  {
+    "title": "MindStock",
+    "year": "2025",
+    "people": "Sooyohn Nam, Yeohyun Jung, Hyunseung Lim, Hwajung Hong",
+    "field": "data",
+    "description": "Mobile trading platforms often encourage impulsive, emotional decisions while discouraging reflection. Our research explores how interactive systems can create opportunities for mindfulness in these fast-paced environments. We developed MindStock, a technical probe that introduces lightweight reflection at key moments within a simulated trading environment. Our findings reveal that the ‘cognitive friction’ from combining subjective goal-setting with objective behavioral data is a key mechanism. This approach not only reduces impulsive trading but also helps users translate reflective practices, like note-taking, into their investment behavior.",
+    "related_research": "",
+    "related_video": "",
+    "image": "mindstock.png"
+  },
+  {
     "title": "Thinking Outside the Data Box",
     "year": "2025",
     "people": "Yeohyun Jung, Kwangyoung Lee, Hwajung Hong",
@@ -18,6 +38,16 @@
     "related_research": "",
     "related_video": "",
     "image": "thinking_outside_the_data_box.png"
+  },
+  {
+    "title": "Harmonious Household Collaboration of Couples",
+    "year": "2025",
+    "people": "Gahyeon Bae, Seo Kyoung Park, Taewan Kim, Hwajung Hong",
+    "field": "data",
+    "description": "Household collaboration among cohabiting couples presents unique challenges due to the intimate nature of their relationships and the lack of external rewards. Our study aims to examine the everyday context and underlying needs of couples in their collaborative homemaking. Through a diary study, we identified a ‘shared ritual for celebratory interaction’ as a key requirement for ideal household collaboration and pinpointed the challenges in achieving this goal. We propose three design opportunities for domestic technologies to address this gap: (1) strengthening the meaning of housework around shared family values, (2) supporting recognition of a partner’s efforts through visualization, and (3) initiating negotiation through defamiliarization.",
+    "related_research": "",
+    "related_video": "",
+    "image": "household.jpg"
   },
   {
     "title": "MindBattery",
