@@ -24,11 +24,13 @@ nav_order: 2
 <ol class="bibliography">
     <li> 
         <div class="row"> 
+            {% if talk.preview %}
             <div class="col-sm-2 preview"> 
-                <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/publication_preview/bach_thesis-480.webp 480w,/al-folio/assets/img/publication_preview/bach_thesis-800.webp 800w,/al-folio/assets/img/publication_preview/bach_thesis-1400.webp 1400w," sizes="200px" type="image/webp"> 
-                    <img src="/al-folio/assets/img/publication_preview/bach_thesis.png" class="preview z-depth-1 rounded" width="100%" height="auto" alt="bach_thesis.png" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> 
+                <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/publication_preview/{{ talk.preview }}-480.webp 480w,/al-folio/assets/img/publication_preview/{{ talk.preview }}-800.webp 800w,/al-folio/assets/img/publication_preview/{{ talk.preview }}-1400.webp 1400w," sizes="200px" type="image/webp"> 
+                    <img src="/al-folio/assets/img/publication_preview/{{ talk.preview }}" class="preview z-depth-1 rounded" width="100%" height="auto" alt="/al-folio/assets/img/publication_preview/{{ talk.preview }}" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"> 
                 </picture> </figure> 
-            </div> 
+            </div>
+            {% endif %}
             <div id="article" class="col-sm-8">
                 <div class="title"> {{ talk.title }} </div>
                 {% if talk.location != blank %}
