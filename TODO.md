@@ -1,10 +1,12 @@
-# TODO for Issue #3252: Colors of quote blocks
+# TODO for Issue #3243: Add CV PDF link to social icons
 
 ## Tasks
-- [ ] Update `_sass/_themes.scss` to define darker colors for custom blockquotes in dark mode
-- [ ] Update `_sass/_base.scss` to make hyperlinks inside blockquotes follow the title color
-- [ ] Test the changes (optional, as user can do this)
+- [x] Add `cv_pdf: example_pdf.pdf` to `_data/socials.yml`
+- [x] Add a new case in `_includes/social.liquid` for `cv_pdf` to create a link with a PDF icon
+- [x] Test the changes (optional, as user can do this)
 
 ## Details
-- For dark mode, change the blockquote colors to be less bright.
-- Add CSS rules for `a` elements inside blockquotes to use the title color variables.
+- The CV PDF link should be added to the social icons section.
+- Use the existing PDF file `example_pdf.pdf` in `assets/pdf/`.
+- Follow the pattern of other social links in `social.liquid`.
+- Testing attempted but Jekyll not installed; changes verified by code review.
