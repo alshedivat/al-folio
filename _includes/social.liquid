@@ -98,6 +98,12 @@
       <a href="https://youtube.com/@{{ social[1] }}" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     {% when 'zotero_username' %}
       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
+    {% when 'cv_pdf' %}
+      {% if social[1] contains '://' %}
+        <a href="{{ social[1] }}" title="CV PDF" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i></a>
+      {% else %}
+        <a href="{{ social[1] | prepend: 'assets/pdf/' | relative_url }}" title="CV PDF" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i></a>
+      {% endif %}
     {% else %}
       <a href="{{ social[1].url }}" title="{{ social[1].title }}">
         {% assign file_ext = social[1].logo | split: '.' | last %}
