@@ -98,6 +98,8 @@
       <a href="https://youtube.com/@{{ social[1] }}" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
     {% when 'zotero_username' %}
       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
+    {% when 'arxiv_id' %}
+      <a href="https://arxiv.org/a/{{ social[1] }}" title="arXiv"><i class="ai ai-arxiv"></i></a>
     {% when 'cv_pdf' %}
       {% if social[1] contains '://' %}
         <a href="{{ social[1] }}" title="CV PDF" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i></a>
