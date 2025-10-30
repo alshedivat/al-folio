@@ -30,18 +30,31 @@
   --global-newsletter-bg-color: #{$white-color};
   --global-newsletter-text-color: #{$black-color};
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: var(--global-tip-block-dark);
+  --global-tip-block-bg: var(--global-tip-block-bg-dark);
+  --global-tip-block-text: var(--global-tip-block-text-dark);
+  --global-tip-block-title: var(--global-tip-block-title-dark);
+  --global-warning-block: var(--global-warning-block-dark);
+  --global-warning-block-bg: var(--global-warning-block-bg-dark);
+  --global-warning-block-text: var(--global-warning-block-text-dark);
+  --global-warning-block-title: var(--global-warning-block-title-dark);
+  --global-danger-block: var(--global-danger-block-dark);
+  --global-danger-block-bg: var(--global-danger-block-bg-dark);
+  --global-danger-block-text: var(--global-danger-block-text-dark);
+  --global-danger-block-title: var(--global-danger-block-title-dark);
+
+  --global-tip-block-dark: #2d7d5c;
+  --global-tip-block-bg-dark: #1a3d2e;
+  --global-tip-block-text-dark: #a8d5b9;
+  --global-tip-block-title-dark: #4caf7a;
+  --global-warning-block-dark: #b89a00;
+  --global-warning-block-bg-dark: #3d3a1a;
+  --global-warning-block-text-dark: #e6d47a;
+  --global-warning-block-title-dark: #d4af37;
+  --global-danger-block-dark: #a00000;
+  --global-danger-block-bg-dark: #3d1a1a;
+  --global-danger-block-text-dark: #d5a8a8;
+  --global-danger-block-title-dark: #c0392b;
 
   #light-toggle-system {
     padding-left: 10px;
@@ -101,18 +114,18 @@ html[data-theme="dark"] {
   --global-newsletter-bg-color: #{$grey-color-light};
   --global-newsletter-text-color: #{$grey-color-dark};
 
-  --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
-  --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
-  --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-tip-block: var(--global-tip-block-dark);
+  --global-tip-block-bg: var(--global-tip-block-bg-dark);
+  --global-tip-block-text: var(--global-tip-block-text-dark);
+  --global-tip-block-title: var(--global-tip-block-title-dark);
+  --global-warning-block: var(--global-warning-block-dark);
+  --global-warning-block-bg: var(--global-warning-block-bg-dark);
+  --global-warning-block-text: var(--global-warning-block-text-dark);
+  --global-warning-block-title: var(--global-warning-block-title-dark);
+  --global-danger-block: var(--global-danger-block-dark);
+  --global-danger-block-bg: var(--global-danger-block-bg-dark);
+  --global-danger-block-text: var(--global-danger-block-text-dark);
+  --global-danger-block-title: var(--global-danger-block-title-dark);
 
   .only-light {
     display: none;
