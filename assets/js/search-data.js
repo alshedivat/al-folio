@@ -56,8 +56,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_8/";
-            },},{id: "news-ping-me-maybe-when-subcrawl-started-talking-to-teams",
-          title: 'Ping Me Maybe - When SubCrawl Started Talking to Teams',
+            },},{id: "news-subcrawl-to-teams",
+          title: 'SubCrawl to Teams',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_9/";
