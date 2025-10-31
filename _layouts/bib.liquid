@@ -185,6 +185,32 @@
       {{ entry.note | strip }}
     </div>
 
+    {% if entry.award %}
+      <!-- Award block -->
+      <div class="award d-print-inline">
+        <p>{{ entry.award | markdownify }}</p>
+      </div>
+    {% endif %}
+
+    {% if entry.abstract %}
+      <!-- Abstract block -->
+      <div class="abstract">
+        <p>{{ entry.abstract }}</p>
+      </div>
+    {% endif %}
+
+    {% if entry.video and site.enable_video_embedding %}
+      <!-- Video block -->
+      <div class="abstract">
+        <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
+      </div>
+    {% elsif entry.video %}
+      <!-- Video link -->
+      <div class="video-link">
+        <p><a href="{{ entry.video }}">Video</a></p>
+      </div>
+    {% endif %}
+
     <!-- Links/Buttons -->
     <div class="links">
       {% if entry.award %}
@@ -339,33 +365,12 @@
       {% endif %}
     {% endif %}
 
-    {% if entry.award %}
-      <!-- Hidden Award block -->
-      <div class="award hidden d-print-inline">
-        <p>{{ entry.award | markdownify }}</p>
-      </div>
-    {% endif %}
-
-    {% if entry.abstract %}
-      <!-- Hidden abstract block -->
-      <div class="abstract hidden">
-        <p>{{ entry.abstract }}</p>
-      </div>
-    {% endif %}
-
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
         {% endhighlight %}
-      </div>
-    {% endif %}
-
-    {% if entry.video and site.enable_video_embedding %}
-      <!-- Hidden video block -->
-      <div class="abstract hidden">
-        <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
   </div>
