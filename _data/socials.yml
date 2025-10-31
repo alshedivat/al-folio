@@ -27,7 +27,9 @@ inspirehep_id: 1010907 # Inspire HEP author ID
 # linkedin_username: # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-# orcid_id: # your ORCID ID
+
+orcid_id: "0000-0002-1825-0097" # your ORCID ID (replace with your actual ID if you have one)
+
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
 # publons_id: # your ID on Publons
@@ -50,7 +52,8 @@ scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+
+custom_social:
+  logo: https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg
+  title: ORCID Profile
+  url: https://orcid.org/0000-0002-1825-0097
