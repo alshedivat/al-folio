@@ -66,6 +66,13 @@
                     "year": 2025,
                     "commentary": "Makes what I think is an important point that there is no such thing as 'eliminating bias' in AI, and gives reasonable measures for how to proceed nevertheless in not building partisan hack LLMs. I personally find the 'Output Transparency', 'System Transaprency', and 'Neutrality Through Diversity' approximation techniques the most compelling. I appreciate what this paper does for broadening a notion of 'neutrality' in AI, drawing on the large existing body of political and philosophical work making the point.",
                     "link": "https://arxiv.org/abs/2503.05728"
+                },
+                {
+                    "title": "Extending Minds with Generative AI",
+                    "authors": "Andy Clark",
+                    "year": 2025,
+                    "commentary": "Argues that human-AI collaborations represent a continuation of our basic nature to build hybrid thinking systems that fluidly incorporate non-biological resources. Discusses 'extended cognitive hygiene' as essential for critically evaluating what we incorporate into our digitally extended minds.",
+                    "link": "https://www.nature.com/articles/s41467-025-59906-9"
                 }
             ]
         },
@@ -356,6 +363,13 @@
                     "year": 1964,
                     "commentary": "From The Sovereignty of Good. Murdoch's influential essay on moral philosophy, arguing against the existentialist notion of radical choice and for the importance of attention and moral vision in ethical development.",
                     "link": ""
+                },
+                {
+                    "title": "Tools for Conviviality",
+                    "authors": "Ivan Illich",
+                    "year": 1973,
+                    "commentary": "An ambitious yet informed vision for what it would mean and cost for us to have *convivial* tools -- tools that we can make and shape our own lives for joy and purpose.",
+                    "link": ""
                 }
             ]
         },
@@ -371,6 +385,13 @@
                     "year": 2020,
                     "commentary": "An interesting analysis of economic issues in who uses and produces maps.",
                     "link": "https://www.aeaweb.org/articles?id=10.1257/jep.34.1.196"
+                },
+                {
+                    "title": "Self-reports are better measurement instruments than implicit measures",
+                    "authors": "Olivier Corneille, Bertram Gawronski",
+                    "year": 2024,
+                    "commentary": "Challenges the assumption that implicit measures are superior to self-reports in psychological research. Argues that self-reports demonstrate greater reliability, stronger predictive validity for both deliberate and spontaneous behaviors, and unmatched flexibility in exploring complex psychological constructs.",
+                    "link": "https://www.nature.com/articles/s44159-024-00376-z"
                 }
             ]
         }

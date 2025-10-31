@@ -9,7 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             // Apply daily randomization to categories and quotes
             const shuffledData = applyDailyRandomization(data);
-            createQuotesNavigation(shuffledData.categories);
+            // Use original order for navigation, shuffled order for content
+            createQuotesNavigation(data.categories);
             buildQuotesContent(shuffledData.categories);
             setupRandomQuoteBox(shuffledData.categories);
         })

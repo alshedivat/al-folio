@@ -47,7 +47,7 @@
   {
     "start": -1650,
     "end": -1650,
-    "event": "The Rhind Papyrus approximates the area of a unit circle as $$4 (8/9)^2$$."
+    "event": "The Rhind Papyrus approximates the area of a unit circle as $$4^2$$."
   },
   {
     "start": -1600,
@@ -127,7 +127,7 @@
   {
     "start": -624,
     "end": -428,
-    "event": "Ionian philosophers active (Anaximander, Anaximenes, Heraclitus, etc.) -- propose different arche (water, apeiron, air, fire, bundle, etc.)"
+    "event": "Ionian philosophers active -- propose different arche"
   },
   {
     "start": -616,
@@ -157,7 +157,7 @@
   {
     "start": -546,
     "end": -546,
-    "event": "Kingdom of Lydia (controls Ionian cities) falls to Persia"
+    "event": "Kingdom of Lydia falls to Persia"
   },
   {
     "start": -534,
@@ -172,7 +172,7 @@
   {
     "start": -509,
     "end": -509,
-    "event": "Roman Republic founded after the rape of Lucretia and the revolt against Tarquin the Proud (Lucius Tarquinius Superbus)"
+    "event": "Roman Republic founded after the rape of Lucretia and the revolt against Tarquin the Proud"
   },
   {
     "start": -508,
@@ -182,7 +182,7 @@
   {
     "start": -500,
     "end": -500,
-    "event": "defeat of the king of Rome, oligarchy senate (Roman Republic) established"
+    "event": "defeat of the king of Rome, oligarchy senate established"
   },
   {
     "start": -500,
@@ -327,7 +327,7 @@
   {
     "start": -343,
     "end": -290,
-    "event": "Latin and Samnite wars (central Italy)"
+    "event": "Latin and Samnite wars"
   },
   {
     "start": -342,
@@ -547,7 +547,7 @@
   {
     "start": -58,
     "end": -50,
-    "event": "Caesar conquers Gaul (modern France)"
+    "event": "Caesar conquers Gaul"
   },
   {
     "start": -58,
@@ -627,7 +627,7 @@
   {
     "start": -27,
     "end": -27,
-    "event": "Roman Empire established, Augustus (Octavian) becomes first emperor"
+    "event": "Roman Empire established, Augustus becomes first emperor"
   },
   {
     "start": -14,
@@ -742,7 +742,7 @@
   {
     "start": 150,
     "end": 150,
-    "event": "Ptolemy publishes *Almagest* (\"The Greatest\")"
+    "event": "Ptolemy publishes *Almagest*"
   },
   {
     "start": 150,
@@ -812,7 +812,7 @@
   {
     "start": 415,
     "end": 415,
-    "event": "Hypatia killed by Christian mob (What does Hypatia stand for in scientific history?)"
+    "event": "Hypatia killed by Christian mob"
   },
   {
     "start": 420,
@@ -822,7 +822,7 @@
   {
     "start": 421,
     "end": 421,
-    "event": "Dedication of first church on Rialto (Venice), San Giacomo"
+    "event": "Dedication of first church on Rialto, San Giacomo"
   },
   {
     "start": 476,
@@ -942,7 +942,7 @@
   {
     "start": 800,
     "end": 899,
-    "event": "emergence of \"cathedral schools\" for training preists and clerics, teaching the trivium (grammar, rhetoric, logic) and quadrivium (arithmetic, geometry, music, astronomy)"
+    "event": "emergence of \"cathedral schools\" for training preists and clerics, teaching the trivium and quadrivium"
   },
   {
     "start": 800,
@@ -957,7 +957,7 @@
   {
     "start": 900,
     "end": 999,
-    "event": "erbert d'Aurillac (Pope Sylvester II) visits Spain to lain mathematics and reorganizes the cathedral school in Rheims, France to introduce the study of arithmetic and geometry, using Hindu-Arabic numerals"
+    "event": "erbert d'Aurillac visits Spain to lain mathematics and reorganizes the cathedral school in Rheims, France to introduce the study of arithmetic and geometry, using Hindu-Arabic numerals"
   },
   {
     "start": 907,
@@ -972,12 +972,12 @@
   {
     "start": 965,
     "end": 1040,
-    "event": "Ibn al-Haytham (Alhazen) active -- develops optics, scientific method"
+    "event": "Ibn al-Haytham active -- develops optics, scientific method"
   },
   {
     "start": 980,
     "end": 1037,
-    "event": "Ibn Sina (Avicenna) active -- develops medicine, philosophy"
+    "event": "Ibn Sina active -- develops medicine, philosophy"
   },
   {
     "start": 1000,
@@ -1037,17 +1037,17 @@
   {
     "start": 1126,
     "end": 1198,
-    "event": "Ibn Rushd (Averroes) active -- develops philosophy, science, theology"
+    "event": "Ibn Rushd active -- develops philosophy, science, theology"
   },
   {
     "start": 1147,
     "end": 1149,
-    "event": "Second Crusade (failure in Anatolia and Syria)"
+    "event": "Second Crusade"
   },
   {
     "start": 1189,
     "end": 1192,
-    "event": "Third Crusade (Richard the Lionheart vs. Saladin); failed to retake Jerusalem but secured Christian access"
+    "event": "Third Crusade; failed to retake Jerusalem but secured Christian access"
   },
   {
     "start": 1200,
@@ -1072,12 +1072,12 @@
   {
     "start": 1202,
     "end": 1202,
-    "event": "Leonardo of Pisa writes the *Liber Abbaci* (Book of Calculation), exploring quadratic equations geometrically and addressing practical problems of currency conversion and profits"
+    "event": "Leonardo of Pisa writes the *Liber Abbaci*, exploring quadratic equations geometrically and addressing practical problems of currency conversion and profits"
   },
   {
     "start": 1202,
     "end": 1204,
-    "event": "Fourth Crusade (sack of Constantinople), damaged Western vs. Eastern Christian relaions"
+    "event": "Fourth Crusade, damaged Western vs. Eastern Christian relaions"
   },
   {
     "start": 1206,
@@ -1097,7 +1097,7 @@
   {
     "start": 1217,
     "end": 1221,
-    "event": "Fifth Crusade (failed to capture Egypt)"
+    "event": "Fifth Crusade"
   },
   {
     "start": 1225,
@@ -1107,7 +1107,7 @@
   {
     "start": 1228,
     "end": 1229,
-    "event": "Sixth Crusade (Frederick II captures Jerusalem peacefully via negotiation)"
+    "event": "Sixth Crusade"
   },
   {
     "start": 1240,
@@ -1117,7 +1117,7 @@
   {
     "start": 1248,
     "end": 1254,
-    "event": "Seventh Crusade (Louis IX of France captured in Egypt)"
+    "event": "Seventh Crusade"
   },
   {
     "start": 1259,
@@ -1137,12 +1137,12 @@
   {
     "start": 1270,
     "end": 1270,
-    "event": "Eighth Crusade (Louis IX of France dies in Tunisia of disease)"
+    "event": "Eighth Crusade"
   },
   {
     "start": 1271,
     "end": 1272,
-    "event": "Ninth Crusade (Edward I of England fails to capture Acre)"
+    "event": "Ninth Crusade"
   },
   {
     "start": 1271,
@@ -1172,7 +1172,7 @@
   {
     "start": 1301,
     "end": 1358,
-    "event": "Jean Buridan active -- develops physics, impetus theory (solution to projectile motion)"
+    "event": "Jean Buridan active -- develops physics, impetus theory"
   },
   {
     "start": 1323,
@@ -1182,7 +1182,7 @@
   {
     "start": 1323,
     "end": 1382,
-    "event": "Nicole Oresme active, develops physics (e.g. mean speed theorem)"
+    "event": "Nicole Oresme active, develops physics"
   },
   {
     "start": 1326,
@@ -1197,7 +1197,7 @@
   {
     "start": 1300,
     "end": 1399,
-    "event": "Oxford Calculators (Merton College, Oxford) take a mathematical rather than causal approach to physics"
+    "event": "Oxford Calculators take a mathematical rather than causal approach to physics"
   },
   {
     "start": 1368,
@@ -1282,7 +1282,7 @@
   {
     "start": 1500,
     "end": 1599,
-    "event": "printing of Luca Pacioli's *Summa de arithmetica, geometria, proportioni et proportionalita* (Venice, 1494) introduces double-entry bookkeeping, early work on algebraic notation by European \"cossists\""
+    "event": "printing of Luca Pacioli's *Summa de arithmetica, geometria, proportioni et proportionalita* introduces double-entry bookkeeping, early work on algebraic notation by European \"cossists\""
   },
   {
     "start": 1500,
@@ -1325,6 +1325,11 @@
     "event": "Niccolo Machiavelli writes *The Prince*"
   },
   {
+    "start": 1513,
+    "end": 1513,
+    "event": "Vasco Núñez de Balboa executes Indigenous people accused of homosexuality in Panama"
+  },
+  {
     "start": 1517,
     "end": 1517,
     "event": "Martin Luther nails 95 Theses to church door, beginning of Protestant Reformation, scorns Copernicus"
@@ -1348,6 +1353,21 @@
     "start": 1527,
     "end": 1527,
     "event": "Sack of Rome by Charles V"
+  },
+  {
+    "start": 1532,
+    "end": 1532,
+    "event": "Holy Roman Empire makes sodomy punishable by death"
+  },
+  {
+    "start": 1532,
+    "end": 1832,
+    "event": "Michelangelo writes over 300 love poems, many to men, throughout his life"
+  },
+  {
+    "start": 1533,
+    "end": 1533,
+    "event": "Henry VIII passes Buggery Act 1533, making anal intercourse a capital offense in England"
   },
   {
     "start": 1531,
@@ -1432,7 +1452,7 @@
   {
     "start": 1600,
     "end": 1699,
-    "event": "Fermat active, introducing new algebraic problems focused on whole numbers and proving negative propositions (there are no solutions for some equations)"
+    "event": "Fermat active, introducing new algebraic problems focused on whole numbers and proving negative propositions"
   },
   {
     "start": 1600,
@@ -1517,7 +1537,7 @@
   {
     "start": 1696,
     "end": 1696,
-    "event": "Johann Bernoulli teaches calculus to Marquis de l'Hospital, leading to the first calculus textbook (*Analyse des Infiniment Petits*)"
+    "event": "Johann Bernoulli teaches calculus to Marquis de l'Hospital, leading to the first calculus textbook"
   },
   {
     "start": 1698,
@@ -1572,7 +1592,7 @@
   {
     "start": 1770,
     "end": 1770,
-    "event": "Joseph Louis Lagrange wrote \"Reflections on the solution of algebraic equations,\" analyzing methods by Viète, Descartes, Euler, and Bezout. He associated resolvent equations with polynomial equations and connected solutions with permutations of roots, establishing that k (number of values under permutation) divides n! - the source of Lagrange's theorem in group theory"
+    "event": "Joseph Louis Lagrange wrote \"Reflections on the solution of algebraic equations,\" analyzing methods by Viète, Descartes, Euler, and Bezout. He associated resolvent equations with polynomial equations and connected solutions with permutations of roots, establishing that k divides n! - the source of Lagrange's theorem in group theory"
   },
   {
     "start": 1770,
@@ -1617,7 +1637,7 @@
   {
     "start": 1789,
     "end": 1789,
-    "event": "Great Fear, fear in the countryside of aristocratic conspiracy (withholding grain, hoarding grain, starving the revolution, nobles recruited brigands, etc.) - peasants gather together and arm/defend themselves against brigands, lots of violence on the chateaus, destroying papersand symbols of privilege like windmills and weathervanes"
+    "event": "Great Fear, fear in the countryside of aristocratic conspiracy - peasants gather together and arm/defend themselves against brigands, lots of violence on the chateaus, destroying papersand symbols of privilege like windmills and weathervanes"
   },
   {
     "start": 1789,
@@ -1682,7 +1702,7 @@
   {
     "start": 1792,
     "end": 1797,
-    "event": "War of the First Coalition (France vs. UK, Austria, Prussia, etc.)"
+    "event": "War of the First Coalition"
   },
   {
     "start": 1794,
@@ -1717,7 +1737,7 @@
   {
     "start": 1801,
     "end": 1801,
-    "event": "Carl Friedrich Gauss publishes *Disquisitiones Arithmeticae* (Arithmetic Investigations), marking rigorous developments in number theory"
+    "event": "Carl Friedrich Gauss publishes *Disquisitiones Arithmeticae*, marking rigorous developments in number theory"
   },
   {
     "start": 1801,
@@ -1752,7 +1772,7 @@
   {
     "start": 1812,
     "end": 1812,
-    "event": "War of 1812 (US vs. UK)"
+    "event": "War of 1812"
   },
   {
     "start": 1813,
@@ -1782,12 +1802,12 @@
   {
     "start": 1821,
     "end": 1821,
-    "event": "Augustin Louis Cauchy publishes *Cours d'Analyse* (The Ecole Polytechnique Analysis Course), introducing the concept of limits and continuity rigorously, highlighting the fundamental theorem of calculus"
+    "event": "Augustin Louis Cauchy publishes *Cours d'Analyse*, introducing the concept of limits and continuity rigorously, highlighting the fundamental theorem of calculus"
   },
   {
     "start": 1829,
     "end": 1831,
-    "event": "Gauss introduces Gaussian integers Z[i] = {a + bi} and proves they form a unique factorization domain (UFD). This was revolutionary: showing that an extended number system could preserve the fundamental property of unique prime factorization"
+    "event": "Gauss introduces Gaussian integers Z[i] = {a + bi} and proves they form a unique factorization domain. This was revolutionary: showing that an extended number system could preserve the fundamental property of unique prime factorization"
   },
   {
     "start": 1820,
@@ -1812,7 +1832,7 @@
   {
     "start": 1830,
     "end": 1830,
-    "event": "Évariste Galois developed his theory (worked out around 1830, published posthumously). He first used \"group\" technically, defined normal subgroups, and showed that solvability of equations relates to properties of their associated groups"
+    "event": "Évariste Galois developed his theory. He first used \"group\" technically, defined normal subgroups, and showed that solvability of equations relates to properties of their associated groups"
   },
   {
     "start": 1831,
@@ -1847,7 +1867,7 @@
   {
     "start": 1843,
     "end": 1843,
-    "event": "Hamilton invents quaternions - the first noncommutative number system where multiplication order matters (ij ≠ ji). This shattered the assumption that all number systems must be commutative, opening an entirely new branch of mathematics"
+    "event": "Hamilton invents quaternions - the first noncommutative number system where multiplication order matters. This shattered the assumption that all number systems must be commutative, opening an entirely new branch of mathematics"
   },
   {
     "start": 1843,
@@ -1857,7 +1877,7 @@
   {
     "start": 1844,
     "end": 1844,
-    "event": "The floodgates open: Cayley introduces 8-dimensional octonions (nonassociative!), Grassmann creates exterior algebras for n-dimensional vector spaces. Mathematics suddenly has multiple new \"number systems\" to explore"
+    "event": "The floodgates open: Cayley introduces 8-dimensional octonions, Grassmann creates exterior algebras for n-dimensional vector spaces. Mathematics suddenly has multiple new \"number systems\" to explore"
   },
   {
     "start": 1844,
@@ -1882,7 +1902,7 @@
   {
     "start": 1846,
     "end": 1848,
-    "event": "Mexican-American War (US annexes Texas, California, etc.)"
+    "event": "Mexican-American War"
   },
   {
     "start": 1848,
@@ -1912,7 +1932,7 @@
   {
     "start": 1854,
     "end": 1854,
-    "event": "Arthur Cayley gave the first abstract definition of a finite group: \"A set of symbols 1, α, β, ..., all of them different, and such that the product of any two of them... belongs to the set.\" He proved Cayley's theorem (every abstract group is isomorphic to a permutation group)"
+    "event": "Arthur Cayley gave the first abstract definition of a finite group: \"A set of symbols 1, α, β, ..., all of them different, and such that the product of any two of them... belongs to the set.\" He proved Cayley's theorem"
   },
   {
     "start": 1855,
@@ -1942,7 +1962,7 @@
   {
     "start": 1857,
     "end": 1858,
-    "event": "Indian Rebellion (Sepoy Mutiny) against British rule"
+    "event": "Indian Rebellion against British rule"
   },
   {
     "start": 1858,
@@ -1957,7 +1977,7 @@
   {
     "start": 1859,
     "end": 1861,
-    "event": "Kingdom of Sardinia begins unifying Italy; Lombardy annexed after Second Italian War of Independence (1859)"
+    "event": "Kingdom of Sardinia begins unifying Italy; Lombardy annexed after Second Italian War of Independence"
   },
   {
     "start": 1860,
@@ -2027,7 +2047,12 @@
   {
     "start": 1871,
     "end": 1871,
-    "event": "Dedekind's revolutionary introduction of ideals - replacing Kummer's vague \"ideal numbers\" with concrete sets of algebraic integers. This paper essentially created modern algebraic number theory and introduced the first essentially axiomatic definition of a ring (though in a concrete setting)"
+    "event": "Dedekind's revolutionary introduction of ideals - replacing Kummer's vague \"ideal numbers\" with concrete sets of algebraic integers. This paper essentially created modern algebraic number theory and introduced the first essentially axiomatic definition of a ring"
+  },
+  {
+    "start": 1870,
+    "end": 1870,
+    "event": "Luke McRedmond files Homestead Act claim in what becomes Redmond, Washington"
   },
   {
     "start": 1870,
@@ -2042,12 +2067,12 @@
   {
     "start": 1872,
     "end": 1872,
-    "event": "Felix Klein delivered his Erlangen Program lecture at University of Erlangen, classifying geometry as the study of invariants under transformation groups (projective, rigid motions, similarities, etc.). Ludwig Sylow proved his theorem for permutation groups"
+    "event": "Felix Klein delivered his Erlangen Program lecture at University of Erlangen, classifying geometry as the study of invariants under transformation groups. Ludwig Sylow proved his theorem for permutation groups"
   },
   {
     "start": 1874,
     "end": 1874,
-    "event": "Sophus Lie introduced continuous transformation groups (Lie groups), aiming to do for differential equations what Abel and Galois did for algebraic equations. Klein focused on geometry applications"
+    "event": "Sophus Lie introduced continuous transformation groups, aiming to do for differential equations what Abel and Galois did for algebraic equations. Klein focused on geometry applications"
   },
   {
     "start": 1871,
@@ -2096,6 +2121,11 @@
   },
   {
     "start": 1879,
+    "end": 1879,
+    "event": "Gottlob Frege publishes *Begriffsschrift*, founding modern predicate logic and analytic philosophy"
+  },
+  {
+    "start": 1879,
     "end": 1884,
     "event": "Georg Cantor develops set theory, introducing the concept of infinite sets and cardinality"
   },
@@ -2122,12 +2152,12 @@
   {
     "start": 1882,
     "end": 1882,
-    "event": "Heinrich Weber gave a modern definition of abstract finite groups with three axioms. Walther von Dyck published \"Group-theoretic studies,\" first consciously combining all sources (algebraic, number-theoretic, geometric, analytic), defining groups via generators and relations, constructing free groups"
+    "event": "Heinrich Weber gave a modern definition of abstract finite groups with three axioms. Walther von Dyck published \"Group-theoretic studies,\" first consciously combining all sources, defining groups via generators and relations, constructing free groups"
   },
   {
     "start": 1883,
     "end": 1883,
-    "event": "Von Dyck applied abstract group theory to various concrete cases. Émile Picard began work on Galois theory for differential equations (continuing through 1887)"
+    "event": "Von Dyck applied abstract group theory to various concrete cases. Émile Picard began work on Galois theory for differential equations"
   },
   {
     "start": 1884,
@@ -2142,7 +2172,7 @@
   {
     "start": 1889,
     "end": 1889,
-    "event": "Otto Hölder defined quotient groups abstractly (as groups of cosets) and completed the Jordan-Hölder theorem proof"
+    "event": "Otto Hölder defined quotient groups abstractly and completed the Jordan-Hölder theorem proof"
   },
   {
     "start": 1882,
@@ -2182,7 +2212,7 @@
   {
     "start": 1888,
     "end": 1888,
-    "event": "Richard Dedekind formalizes arithmetic, publishing \"Was sind und was sollen die Zahlen?\" (What are numbers and what should they be?)"
+    "event": "Richard Dedekind formalizes arithmetic, publishing \"Was sind und was sollen die Zahlen?\""
   },
   {
     "start": 1889,
@@ -2242,7 +2272,7 @@
   {
     "start": 1897,
     "end": 1898,
-    "event": "Dedekind and G.A. Miller independently characterized Hamiltonian groups (non-abelian groups with all subgroups normal), introduced commutators and commutator subgroups"
+    "event": "Dedekind and G.A. Miller independently characterized Hamiltonian groups, introduced commutators and commutator subgroups"
   },
   {
     "start": 1897,
@@ -2262,7 +2292,7 @@
   {
     "start": 1898,
     "end": 1898,
-    "event": "Spanish-American War (US annexes Philippines, Guam, Puerto Rico)"
+    "event": "Spanish-American War"
   },
   {
     "start": 1899,
@@ -2273,6 +2303,11 @@
     "start": 1899,
     "end": 1899,
     "event": "The *Communist Manifesto* is first translated into Chinese"
+  },
+  {
+    "start": 1900,
+    "end": 1901,
+    "event": "Edmund Husserl publishes *Logical Investigations*, establishing phenomenology as distinct philosophical approach"
   },
   {
     "start": 1900,
@@ -2293,6 +2328,11 @@
     "start": 1901,
     "end": 1901,
     "event": "Theodore Roosevelt becomes president of US after McKinley's assassination"
+  },
+  {
+    "start": 1903,
+    "end": 1903,
+    "event": "First recorded US raid on gay bathhouse in New York City; 34 people arrested"
   },
   {
     "start": 1904,
@@ -2345,6 +2385,11 @@
     "event": "Japan annexes Korea as a colony"
   },
   {
+    "start": 1910,
+    "end": 1910,
+    "event": "Emma Goldman begins public advocacy for homosexual rights in the United States"
+  },
+  {
     "start": 1911,
     "end": 1911,
     "event": "Wuchang Uprising in China, beginning of the Xinhai Revolution"
@@ -2362,12 +2407,32 @@
   {
     "start": 1912,
     "end": 1912,
-    "event": "The Kuomintang (Guomindang) is founded by Sun Yat-Sen"
+    "event": "The Kuomintang is founded by Sun Yat-Sen"
+  },
+  {
+    "start": 1912,
+    "end": 1912,
+    "event": "Redmond, Washington incorporated after reaching 300 residents"
+  },
+  {
+    "start": 1912,
+    "end": 1912,
+    "event": "First Dutch anti-discrimination organization established to advocate for homosexual rights"
   },
   {
     "start": 1913,
     "end": 1913,
     "event": "Yuan Shikai becomes president of Republic of China"
+  },
+  {
+    "start": 1913,
+    "end": 1913,
+    "event": "Edmund Husserl publishes *Ideas: General Introduction to Pure Phenomenology*, introducing transcendental idealism"
+  },
+  {
+    "start": 1913,
+    "end": 1913,
+    "event": "Miguel de Unamuno publishes *The Tragic Sense of Life in Men and Nations*, early existentialist work"
   },
   {
     "start": 1913,
@@ -2387,7 +2452,7 @@
   {
     "start": 1914,
     "end": 1914,
-    "event": "Fraenkel gives the FIRST truly abstract definition of a ring - remarkably late! This is the birth of rings as abstract algebraic structures, not just specific examples like polynomials or matrices. He defines rings axiomatically with two operations (addition and multiplication) satisfying specific properties"
+    "event": "Fraenkel gives the FIRST truly abstract definition of a ring - remarkably late! This is the birth of rings as abstract algebraic structures, not just specific examples like polynomials or matrices. He defines rings axiomatically with two operations satisfying specific properties"
   },
   {
     "start": 1914,
@@ -2467,6 +2532,11 @@
   {
     "start": 1917,
     "end": 1917,
+    "event": "Russian Revolution decriminalizes homosexuality, making Soviet Union one of first countries to do so"
+  },
+  {
+    "start": 1917,
+    "end": 1917,
     "event": "Balfour Declaration, British support for a Jewish homeland in Palestine"
   },
   {
@@ -2483,6 +2553,11 @@
     "start": 1919,
     "end": 1919,
     "event": "League of Nations Convenant Article 22 establishes Mandate system"
+  },
+  {
+    "start": 1919,
+    "end": 1919,
+    "event": "Institute for Sex Research founded in Berlin by Magnus Hirschfeld, pioneering research on sexuality and gender"
   },
   {
     "start": 1919,
@@ -2507,7 +2582,7 @@
   {
     "start": 1920,
     "end": 1930,
-    "event": "Group theory diverged into specialized areas: finite group theory, infinite groups with finiteness conditions, combinatorial group theory (Dehn, Tietze, Nielsen, Artin, Schreier), infinite abelian groups (Prüfer, Baer, Ulm), topological groups (Pontrjagin, Gelfand, von Neumann)"
+    "event": "Group theory diverged into specialized areas: finite group theory, infinite groups with finiteness conditions, combinatorial group theory, infinite abelian groups, topological groups"
   },
   {
     "start": 1920,
@@ -2537,7 +2612,12 @@
   {
     "start": 1921,
     "end": 1921,
-    "event": "Emmy Noether's \"Ideal theory in rings\" - shows that results seemingly specific to polynomial rings actually follow from a single axiom (ascending chain condition), creating the theory of Noetherian rings"
+    "event": "Emmy Noether's \"Ideal theory in rings\" - shows that results seemingly specific to polynomial rings actually follow from a single axiom, creating the theory of Noetherian rings"
+  },
+  {
+    "start": 1921,
+    "end": 1921,
+    "event": "Ludwig Wittgenstein publishes *Tractatus Logico-Philosophicus*, developing logical atomism and picture theory of meaning"
   },
   {
     "start": 1921,
@@ -2572,12 +2652,32 @@
   {
     "start": 1922,
     "end": 1922,
+    "event": "USSR officially decriminalizes homosexual acts in new legal code"
+  },
+  {
+    "start": 1922,
+    "end": 1922,
+    "event": "First Marxist Workweek organized, precursor to Frankfurt School"
+  },
+  {
+    "start": 1922,
+    "end": 1922,
+    "event": "Martin Buber publishes *I and Thou*"
+  },
+  {
+    "start": 1922,
+    "end": 1922,
     "event": "Benito Mussolini and Fascist Party rise to power"
   },
   {
     "start": 1922,
     "end": 1922,
     "event": "Irish Free State established under Anglo-Irish treaty, Northern Ireland remains part of UK"
+  },
+  {
+    "start": 1923,
+    "end": 1923,
+    "event": "Institute for Social Research established at University of Frankfurt by Carl Grünberg"
   },
   {
     "start": 1923,
@@ -2637,7 +2737,7 @@
   {
     "start": 1927,
     "end": 1927,
-    "event": "Two masterpieces: Noether characterizes Dedekind domains abstractly (rings where every ideal factors uniquely into prime ideals), Artin develops theory of rings with descending chain condition (Artinian rings). Together, Noether and Artin transform ring theory from studying specific examples to a powerful abstract theory, making rings equal partners with groups and fields in abstract algebra"
+    "event": "Two masterpieces: Noether characterizes Dedekind domains abstractly, Artin develops theory of rings with descending chain condition. Together, Noether and Artin transform ring theory from studying specific examples to a powerful abstract theory, making rings equal partners with groups and fields in abstract algebra"
   },
   {
     "start": 1928,
@@ -2657,7 +2757,7 @@
   {
     "start": 1927,
     "end": 1927,
-    "event": "Chiang Kai-Shek and the Nationalists (Guomindang) take over Shanghai and establish capital in Nanjing, beginning of the \"Nanjing decade\""
+    "event": "Chiang Kai-Shek and the Nationalists take over Shanghai and establish capital in Nanjing, beginning of the \"Nanjing decade\""
   },
   {
     "start": 1927,
@@ -2717,6 +2817,11 @@
   {
     "start": 1930,
     "end": 1930,
+    "event": "Max Horkheimer becomes director of Frankfurt School; recruits Adorno, Fromm, and Marcuse"
+  },
+  {
+    "start": 1930,
+    "end": 1930,
     "event": "Gandhi leads the Salt March"
   },
   {
@@ -2732,7 +2837,7 @@
   {
     "start": 1931,
     "end": 1931,
-    "event": "Statute of Westminster grants autonomy to British dominions (Canada, Australia, South Africa)"
+    "event": "Statute of Westminster grants autonomy to British dominions"
   },
   {
     "start": 1931,
@@ -2753,6 +2858,26 @@
     "start": 1933,
     "end": 1933,
     "event": "Hitler becomes Chancellor of Germany"
+  },
+  {
+    "start": 1933,
+    "end": 1933,
+    "event": "Nazi Germany criminalizes homosexuality and burns Magnus Hirschfeld's Institute for Sex Research"
+  },
+  {
+    "start": 1933,
+    "end": 1933,
+    "event": "USSR recriminalizes homosexuality under Stalin with penalties up to 5 years imprisonment"
+  },
+  {
+    "start": 1933,
+    "end": 1933,
+    "event": "Frankfurt School flees Nazi Germany; Institute relocates from Frankfurt to Geneva"
+  },
+  {
+    "start": 1933,
+    "end": 1933,
+    "event": "Denmark decriminalizes homosexuality"
   },
   {
     "start": 1933,
@@ -2782,7 +2907,12 @@
   {
     "start": 1935,
     "end": 1935,
-    "event": "Izz al-Din al-Qassam is killed by British forces, becomes a symbol of Palestinian resistance (even until today)"
+    "event": "Izz al-Din al-Qassam is killed by British forces, becomes a symbol of Palestinian resistance"
+  },
+  {
+    "start": 1935,
+    "end": 1935,
+    "event": "Frankfurt School relocates from Geneva to New York City, joining Columbia University"
   },
   {
     "start": 1935,
@@ -2803,6 +2933,11 @@
     "start": 1936,
     "end": 1936,
     "event": "Arab Revolt against British rule and Zionist expansion"
+  },
+  {
+    "start": 1936,
+    "end": 1936,
+    "event": "Alan Turing publishes 'On Computable Numbers' introducing the Turing machine; Church and Turing independently prove the Entscheidungsproblem unsolvable"
   },
   {
     "start": 1936,
@@ -2910,6 +3045,16 @@
     "event": "Jean-Paul Sartre writes *Being and Nothingness*"
   },
   {
+    "start": 1943,
+    "end": 1943,
+    "event": "McCulloch and Pitts develop first mathematical model of artificial neural networks"
+  },
+  {
+    "start": 1944,
+    "end": 1944,
+    "event": "Adorno and Horkheimer publish *Dialectic of Enlightenment*, critique of Enlightenment rationality"
+  },
+  {
     "start": 1944,
     "end": 1944,
     "event": "Assassination of Lord Moyne by the Stern Gang, extremist Zionist group"
@@ -2953,6 +3098,21 @@
     "start": 1945,
     "end": 1945,
     "event": "End of World War II, establishment of the United Nations, beginning of the Cold War"
+  },
+  {
+    "start": 1945,
+    "end": 1945,
+    "event": "Holocaust ends; estimated 3,000-9,000 gay men died in Nazi concentration camps"
+  },
+  {
+    "start": 1945,
+    "end": 1945,
+    "event": "Sartre delivers lecture 'Existentialism Is a Humanism' at Club Maintenant in Paris"
+  },
+  {
+    "start": 1945,
+    "end": 1945,
+    "event": "First post-war gay bars open in major European and American cities"
   },
   {
     "start": 1945,
@@ -3037,6 +3197,11 @@
   {
     "start": 1949,
     "end": 1949,
+    "event": "Claude Shannon publishes 'Communication Theory of Secrecy Systems,' founding modern cryptography"
+  },
+  {
+    "start": 1949,
+    "end": 1949,
     "event": "John von Neumann uses the ENIAC computer to work out $\\pi$ to 2035 decimal places"
   },
   {
@@ -3082,7 +3247,17 @@
   {
     "start": 1950,
     "end": 1950,
+    "event": "Alan Turing publishes 'Computing Machinery and Intelligence,' proposing the Turing test"
+  },
+  {
+    "start": 1950,
+    "end": 1950,
     "event": "CCP passes the Marriage Law, affirming the euqal rights of both sexes and protection of lawful interests of women and children"
+  },
+  {
+    "start": 1950,
+    "end": 1950,
+    "event": "Mattachine Society established in Los Angeles, one of the earliest American homosexual rights organizations"
   },
   {
     "start": 1950,
@@ -3098,6 +3273,11 @@
     "start": 1951,
     "end": 1951,
     "event": "King Abdullah of Jordan is assassinated at Al-Aqsa Mosque for perceived collaboration with Israelis"
+  },
+  {
+    "start": 1951,
+    "end": 1951,
+    "event": "Marvin Minsky and Dean Edmonds build SNARC, the first neural network machine"
   },
   {
     "start": 1951,
@@ -3152,7 +3332,22 @@
   {
     "start": 1953,
     "end": 1953,
+    "event": "Frankfurt School formally re-established in Frankfurt; Horkheimer, Adorno, and Pollock return to West Germany"
+  },
+  {
+    "start": 1953,
+    "end": 1953,
+    "event": "Wittgenstein's *Philosophical Investigations* published posthumously, introducing language-games and meaning-as-use"
+  },
+  {
+    "start": 1953,
+    "end": 1953,
     "event": "Dwigth D. Eisenhower becomes president of US"
+  },
+  {
+    "start": 1954,
+    "end": 1954,
+    "event": "Alan Turing commits suicide after being subjected to chemical castration as punishment for homosexuality"
   },
   {
     "start": 1954,
@@ -3171,6 +3366,11 @@
   },
   {
     "start": 1955,
+    "end": 1955,
+    "event": "Daughters of Bilitis founded in San Francisco, first lesbian rights organization in the United States"
+  },
+  {
+    "start": 1955,
     "end": 1975,
     "event": "Vietnam War"
   },
@@ -3178,6 +3378,11 @@
     "start": 1955,
     "end": 1955,
     "event": "Mao aims to accelerate cooperatization by encouraging labor-intensive industries"
+  },
+  {
+    "start": 1956,
+    "end": 1956,
+    "event": "Dartmouth Conference establishes artificial intelligence as an academic discipline; term 'artificial intelligence' coined by John McCarthy"
   },
   {
     "start": 1956,
@@ -3208,6 +3413,11 @@
     "start": 1956,
     "end": 1956,
     "event": "Mao launches the hundred flowers campaign"
+  },
+  {
+    "start": 1957,
+    "end": 1957,
+    "event": "Frank Rosenblatt invents the perceptron, first trainable neural network"
   },
   {
     "start": 1957,
@@ -3257,7 +3467,7 @@
   {
     "start": 1963,
     "end": 1963,
-    "event": "Walter Feit and John Thompson proved that every finite group of odd order is solvable (Feit-Thompson theorem)"
+    "event": "Walter Feit and John Thompson proved that every finite group of odd order is solvable"
   },
   {
     "start": 1961,
@@ -3273,6 +3483,11 @@
     "start": 1962,
     "end": 1962,
     "event": "Cuban Missile Crisis, peak of US-Soviet tensions"
+  },
+  {
+    "start": 1962,
+    "end": 1962,
+    "event": "Illinois becomes first US state to decriminalize same-sex sexual activity"
   },
   {
     "start": 1962,
@@ -3317,7 +3532,7 @@
   {
     "start": 1964,
     "end": 1964,
-    "event": "Founding of the Palestine Liberation Organization (PLO) in East Jerusalem (Jordan)"
+    "event": "Founding of the Palestine Liberation Organization in East Jerusalem"
   },
   {
     "start": 1964,
@@ -3408,6 +3623,11 @@
     "start": 1967,
     "end": 1967,
     "event": "Loving v. Virginia, Supreme Court strikes down anti-miscegenation laws"
+  },
+  {
+    "start": 1967,
+    "end": 1967,
+    "event": "England and Wales decriminalize homosexuality for men over 21 years old"
   },
   {
     "start": 1967,
@@ -3512,7 +3732,17 @@
   {
     "start": 1969,
     "end": 1969,
-    "event": "Stonewall riots in New York City"
+    "event": "Canada decriminalizes homosexuality; Prime Minister Trudeau states \"the state has no place in the bedrooms of the nation\""
+  },
+  {
+    "start": 1969,
+    "end": 1969,
+    "event": "Stonewall riots at Greenwich Village gay bar in New York City mark turning point for LGBT rights movement"
+  },
+  {
+    "start": 1969,
+    "end": 1969,
+    "event": "Gay Liberation Front formed in New York following Stonewall riots"
   },
   {
     "start": 1969,
@@ -3557,7 +3787,22 @@
   {
     "start": 1970,
     "end": 1970,
+    "event": "Matiyasevich proves Hilbert's tenth problem is undecidable"
+  },
+  {
+    "start": 1970,
+    "end": 1970,
+    "event": "Seppo Linnainmaa publishes automatic differentiation method, foundational for backpropagation"
+  },
+  {
+    "start": 1970,
+    "end": 1970,
     "event": "Kent State shootings"
+  },
+  {
+    "start": 1970,
+    "end": 1970,
+    "event": "First Gay Pride marches held in New York, Los Angeles, San Francisco, and Chicago commemorating Stonewall"
   },
   {
     "start": 1970,
@@ -3607,7 +3852,7 @@
   {
     "start": 1972,
     "end": 1972,
-    "event": "Watergate scandal"
+    "event": "Watergate break-in at Democratic National Committee headquarters"
   },
   {
     "start": 1972,
@@ -3637,6 +3882,11 @@
   {
     "start": 1973,
     "end": 1973,
+    "event": "American Psychiatric Association removes homosexuality from the Diagnostic and Statistical Manual"
+  },
+  {
+    "start": 1973,
+    "end": 1973,
     "event": "US ends draft for Vietnam War"
   },
   {
@@ -3652,7 +3902,22 @@
   {
     "start": 1974,
     "end": 1974,
-    "event": "Nixon resigns, Gerald Ford becomes president of US"
+    "event": "Saturday Night Massacre in Watergate scandal; special prosecutor fired"
+  },
+  {
+    "start": 1974,
+    "end": 1974,
+    "event": "Nixon resigns over Watergate scandal, only US president to resign; Gerald Ford becomes president"
+  },
+  {
+    "start": 1974,
+    "end": 1974,
+    "event": "Gerald Ford pardons Richard Nixon"
+  },
+  {
+    "start": 1975,
+    "end": 1975,
+    "event": "Microsoft founded by Bill Gates and Paul Allen in Albuquerque, New Mexico"
   },
   {
     "start": 1975,
@@ -3677,12 +3942,42 @@
   {
     "start": 1976,
     "end": 1976,
+    "event": "Diffie and Hellman publish 'New Directions in Cryptography,' introducing public-key cryptography and Diffie-Hellman key exchange"
+  },
+  {
+    "start": 1976,
+    "end": 1976,
     "event": "Mao Zedong dies on September 9th"
   },
   {
     "start": 1977,
     "end": 1977,
+    "event": "Rivest, Shamir, and Adleman invent RSA algorithm, first practical public-key cryptosystem"
+  },
+  {
+    "start": 1977,
+    "end": 1977,
     "event": "Jimmy Carter becomes president of US"
+  },
+  {
+    "start": 1977,
+    "end": 1977,
+    "event": "Harvey Milk elected to San Francisco Board of Supervisors, one of first openly gay elected officials in US"
+  },
+  {
+    "start": 1977,
+    "end": 1977,
+    "event": "Quebec becomes first major jurisdiction to prohibit discrimination based on sexual orientation"
+  },
+  {
+    "start": 1978,
+    "end": 1978,
+    "event": "Rainbow flag first used as symbol of LGBT pride by Gilbert Baker in San Francisco"
+  },
+  {
+    "start": 1978,
+    "end": 1978,
+    "event": "Harvey Milk and Mayor George Moscone assassinated in San Francisco by Dan White"
   },
   {
     "start": 1979,
@@ -3712,6 +4007,11 @@
   {
     "start": 1981,
     "end": 1981,
+    "event": "IBM PC released with Microsoft's MS-DOS operating system"
+  },
+  {
+    "start": 1981,
+    "end": 1981,
     "event": "Ronald Reagan becomes president of US"
   },
   {
@@ -3728,6 +4028,36 @@
     "start": 1983,
     "end": 1983,
     "event": "Invasion of Grenada by US"
+  },
+  {
+    "start": 1985,
+    "end": 1985,
+    "event": "Windows 1.0 released by Microsoft"
+  },
+  {
+    "start": 1985,
+    "end": 1987,
+    "event": "Iran-Contra affair: Reagan administration secretly sells arms to Iran, diverts funds to Nicaraguan Contras"
+  },
+  {
+    "start": 1986,
+    "end": 1986,
+    "event": "Microsoft relocates headquarters to Redmond, Washington"
+  },
+  {
+    "start": 1986,
+    "end": 1986,
+    "event": "Microsoft goes public on NASDAQ"
+  },
+  {
+    "start": 1986,
+    "end": 1986,
+    "event": "Iran-Contra affair exposed in Lebanese magazine"
+  },
+  {
+    "start": 1986,
+    "end": 1986,
+    "event": "Rumelhart, Hinton, and Williams popularize backpropagation algorithm for training neural networks"
   },
   {
     "start": 1987,
@@ -3795,6 +4125,11 @@
     "event": "Bill Clinton becomes president of US"
   },
   {
+    "start": 1993,
+    "end": 1993,
+    "event": "\"Don't Ask, Don't Tell\" policy enacted, allowing closeted gay people to serve in US military"
+  },
+  {
     "start": 1994,
     "end": 1994,
     "event": "Massacre at Al-Aqsa Mosque by Jewish extremist"
@@ -3815,9 +4150,64 @@
     "event": "Assassination of Yitzhak Rabin by Jewish extremist"
   },
   {
+    "start": 1992,
+    "end": 1992,
+    "event": "President George H.W. Bush pardons six Iran-Contra officials including Caspar Weinberger"
+  },
+  {
+    "start": 1994,
+    "end": 1994,
+    "event": "Amazon founded by Jeff Bezos in Seattle as online bookstore"
+  },
+  {
+    "start": 1995,
+    "end": 1995,
+    "event": "Windows 95 released by Microsoft, major commercial success"
+  },
+  {
+    "start": 1997,
+    "end": 1997,
+    "event": "Amazon goes public on NASDAQ with IPO"
+  },
+  {
+    "start": 1997,
+    "end": 1997,
+    "event": "IBM's Deep Blue defeats chess world champion Garry Kasparov"
+  },
+  {
+    "start": 1997,
+    "end": 1997,
+    "event": "Hochreiter and Schmidhuber invent Long Short-Term Memory networks"
+  },
+  {
+    "start": 1998,
+    "end": 1998,
+    "event": "Clinton-Lewinsky scandal exposed; Clinton denies affair"
+  },
+  {
+    "start": 1998,
+    "end": 1998,
+    "event": "Clinton admits 'improper relationship' with Monica Lewinsky"
+  },
+  {
+    "start": 1998,
+    "end": 1998,
+    "event": "House of Representatives impeaches President Clinton for perjury and obstruction"
+  },
+  {
     "start": 1998,
     "end": 2000,
     "event": "Border dispute leads Eritrea to war with Ethopia"
+  },
+  {
+    "start": 1999,
+    "end": 1999,
+    "event": "Senate acquits President Clinton on both impeachment charges"
+  },
+  {
+    "start": 2000,
+    "end": 2000,
+    "event": "Steve Ballmer becomes CEO of Microsoft, succeeding Bill Gates"
   },
   {
     "start": 2000,
@@ -3828,6 +4218,16 @@
     "start": 2000,
     "end": 2000,
     "event": "Second Intifada begins after Ariel Sharon visits Temple Mount"
+  },
+  {
+    "start": 2001,
+    "end": 2001,
+    "event": "NIST adopts Advanced Encryption Standard replacing DES"
+  },
+  {
+    "start": 2001,
+    "end": 2001,
+    "event": "Netherlands becomes first country in the world to legalize same-sex marriage"
   },
   {
     "start": 2001,
@@ -3846,8 +4246,23 @@
   },
   {
     "start": 2003,
+    "end": 2003,
+    "event": "US Supreme Court rules in Lawrence v. Texas that sodomy laws nationwide are unconstitutional"
+  },
+  {
+    "start": 2003,
     "end": 2011,
     "event": "Iraq War"
+  },
+  {
+    "start": 2004,
+    "end": 2004,
+    "event": "Massachusetts becomes first US state to legalize same-sex marriage"
+  },
+  {
+    "start": 2004,
+    "end": 2004,
+    "event": "Facebook founded by Mark Zuckerberg and Harvard roommates"
   },
   {
     "start": 2005,
@@ -3875,6 +4290,86 @@
     "event": "Barack Obama becomes president of US"
   },
   {
+    "start": 2009,
+    "end": 2009,
+    "event": "Matthew Shepard and James Byrd Jr. Hate Crimes Prevention Act passed, expanding protections to include sexual orientation and gender identity"
+  },
+  {
+    "start": 2010,
+    "end": 2010,
+    "event": "7.0-magnitude earthquake strikes Haiti, killing approximately 315,000 people"
+  },
+  {
+    "start": 2010,
+    "end": 2010,
+    "event": "Polish President Lech Kaczyński dies in plane crash near Smolensk, Russia"
+  },
+  {
+    "start": 2010,
+    "end": 2010,
+    "event": "8.8-magnitude earthquake in Chile kills over 525 people"
+  },
+  {
+    "start": 2010,
+    "end": 2010,
+    "event": "Apple releases the first iPad"
+  },
+  {
+    "start": 2010,
+    "end": 2010,
+    "event": "Instagram officially launches as photo-sharing social media platform"
+  },
+  {
+    "start": 2010,
+    "end": 2010,
+    "event": "Julia Gillard becomes Australia's first female Prime Minister"
+  },
+  {
+    "start": 2011,
+    "end": 2011,
+    "event": "Tunisia's president flees after protests, marking start of Arab Spring uprisings"
+  },
+  {
+    "start": 2011,
+    "end": 2011,
+    "event": "Egyptian President Hosni Mubarak resigns after widespread protests"
+  },
+  {
+    "start": 2011,
+    "end": 2011,
+    "event": "9.1-magnitude earthquake and tsunami strike Japan, triggering Fukushima nuclear crisis; nearly 20,000 dead"
+  },
+  {
+    "start": 2011,
+    "end": 2011,
+    "event": "U.S. military operation kills al-Qaeda leader Osama bin Laden in Pakistan"
+  },
+  {
+    "start": 2011,
+    "end": 2011,
+    "event": "South Sudan becomes independent, the world's newest nation"
+  },
+  {
+    "start": 2011,
+    "end": 2011,
+    "event": "Libyan leader Muammar Gaddafi killed during civil conflict"
+  },
+  {
+    "start": 2011,
+    "end": 2011,
+    "event": "Royal wedding of Prince William and Catherine Middleton watched by ~2 billion viewers"
+  },
+  {
+    "start": 2011,
+    "end": 2011,
+    "event": "NASA's Space Shuttle program concludes with Atlantis's final mission"
+  },
+  {
+    "start": 2011,
+    "end": 2011,
+    "event": "\"Don't Ask, Don't Tell\" repealed on September 20; gays, lesbians, and bisexuals can serve openly in US military"
+  },
+  {
     "start": 2011,
     "end": 2011,
     "event": "US intervention in Libya"
@@ -3885,14 +4380,254 @@
     "event": "Arab Spring uprisings throughout the Middle East"
   },
   {
+    "start": 2012,
+    "end": 2012,
+    "event": "Vladimir Putin elected President of Russia"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "event": "Costa Concordia cruise ship disaster kills 32 people off Italy's coast"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "event": "Scientists at CERN announce discovery of particle consistent with Higgs boson"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "event": "NASA's Curiosity rover successfully lands on Mars"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "event": "Barack Obama wins reelection as U.S. President"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "event": "Xi Jinping becomes General Secretary of China's Communist Party"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "event": "Hurricane Sandy causes 233 deaths and $68.7 billion in damages"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "event": "Sandy Hook Elementary School shooting kills 20 students and 6 teachers in Connecticut"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "event": "AlexNet achieves breakthrough in ImageNet competition, launching deep learning revolution"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "event": "Facebook goes public with IPO at $38 per share, raising $16 billion"
+  },
+  {
+    "start": 2012,
+    "end": 2012,
+    "event": "Facebook acquires Instagram for $1 billion"
+  },
+  {
+    "start": 2013,
+    "end": 2013,
+    "event": "Pope Benedict XVI resigns, first to do so voluntarily since 1294"
+  },
+  {
+    "start": 2013,
+    "end": 2013,
+    "event": "Cardinal Jorge Mario Bergoglio elected Pope Francis"
+  },
+  {
+    "start": 2013,
+    "end": 2013,
+    "event": "Egyptian President Mohamed Morsi deposed in military coup"
+  },
+  {
+    "start": 2013,
+    "end": 2013,
+    "event": "Chelyabinsk meteor explosion over Russia injures approximately 1,500 people"
+  },
+  {
+    "start": 2013,
+    "end": 2013,
+    "event": "Typhoon Haiyan kills at least 6,241 people across Philippines and Vietnam"
+  },
+  {
+    "start": 2013,
+    "end": 2013,
+    "event": "Euromaidan pro-EU demonstrations begin in Ukraine"
+  },
+  {
+    "start": 2014,
+    "end": 2014,
+    "event": "Ukrainian President Viktor Yanukovych removed after Revolution of Dignity protests"
+  },
+  {
+    "start": 2014,
+    "end": 2014,
+    "event": "Russia formally annexes Crimea"
+  },
+  {
+    "start": 2014,
+    "end": 2014,
+    "event": "Malaysia Airlines Flight 370 disappears with 239 people"
+  },
+  {
+    "start": 2014,
+    "end": 2014,
+    "event": "ISIS declares itself a caliphate"
+  },
+  {
+    "start": 2014,
+    "end": 2014,
+    "event": "Malaysia Airlines Flight 17 shot down over eastern Ukraine, 298 killed"
+  },
+  {
+    "start": 2014,
+    "end": 2014,
+    "event": "West African Ebola epidemic becomes most severe in history; 28,616 infected, 11,310 deaths"
+  },
+  {
+    "start": 2014,
+    "end": 2014,
+    "event": "India's Mangalyaan reaches Mars orbit, first Asian nation to achieve this"
+  },
+  {
+    "start": 2014,
+    "end": 2014,
+    "event": "Satya Nadella becomes CEO of Microsoft, succeeding Steve Ballmer"
+  },
+  {
+    "start": 2014,
+    "end": 2014,
+    "event": "Facebook acquires WhatsApp for $19 billion"
+  },
+  {
     "start": 2014,
     "end": 2014,
     "event": "Third Gaza War becomes most deadly conflict in Gaza"
   },
   {
+    "start": 2015,
+    "end": 2015,
+    "event": "7.8-magnitude earthquake devastates Nepal, killing approximately 9,018 people"
+  },
+  {
+    "start": 2015,
+    "end": 2015,
+    "event": "Iran reaches historic nuclear agreement with long-term limits in exchange for sanctions relief"
+  },
+  {
+    "start": 2015,
+    "end": 2015,
+    "event": "Cuba and United States restore full diplomatic relations after 54 years"
+  },
+  {
+    "start": 2015,
+    "end": 2015,
+    "event": "Charlie Hebdo shooting in Paris kills 12 people"
+  },
+  {
+    "start": 2015,
+    "end": 2015,
+    "event": "Paris coordinated terror attacks kill 137 people"
+  },
+  {
+    "start": 2015,
+    "end": 2015,
+    "event": "NASA's New Horizons spacecraft becomes first to visit Pluto"
+  },
+  {
+    "start": 2015,
+    "end": 2015,
+    "event": "US Supreme Court rules in Obergefell v. Hodges that same-sex marriage is legal nationwide"
+  },
+  {
+    "start": 2016,
+    "end": 2016,
+    "event": "UK votes to leave European Union, triggering Brexit"
+  },
+  {
+    "start": 2016,
+    "end": 2016,
+    "event": "Donald Trump elected 45th U.S. President over Hillary Clinton"
+  },
+  {
+    "start": 2016,
+    "end": 2016,
+    "event": "Pokémon Go released, breaking numerous records in sales and revenue"
+  },
+  {
+    "start": 2016,
+    "end": 2016,
+    "event": "2016 Summer Olympics held in Rio de Janeiro, Brazil"
+  },
+  {
+    "start": 2016,
+    "end": 2016,
+    "event": "Google DeepMind's AlphaGo defeats world Go champion Lee Sedol"
+  },
+  {
+    "start": 2017,
+    "end": 2017,
+    "event": "UK initiates Article 50, formally beginning Brexit negotiations"
+  },
+  {
+    "start": 2017,
+    "end": 2017,
+    "event": "Hurricanes Harvey, Irma, and Maria devastate Caribbean and US"
+  },
+  {
+    "start": 2017,
+    "end": 2017,
+    "event": "Las Vegas shooting kills 60 people and injures 867, deadliest mass shooting by lone gunman in US history"
+  },
+  {
+    "start": 2017,
+    "end": 2017,
+    "event": "SpaceX successfully reflights first orbital-class rocket"
+  },
+  {
+    "start": 2017,
+    "end": 2017,
+    "event": "Fortnite battle royale game launches, becoming global phenomenon"
+  },
+  {
+    "start": 2017,
+    "end": 2017,
+    "event": "Google Brain introduces transformer architecture in 'Attention Is All You Need,' enabling modern large language models"
+  },
+  {
     "start": 2017,
     "end": 2017,
     "event": "Donald Trump becomes president of US"
+  },
+  {
+    "start": 2018,
+    "end": 2018,
+    "event": "Former Russian agent Sergei Skripal poisoned with Novichok nerve agent in England"
+  },
+  {
+    "start": 2018,
+    "end": 2018,
+    "event": "Kim Jong Un crosses into South Korea, first North Korean leader to do so since 1953"
+  },
+  {
+    "start": 2018,
+    "end": 2018,
+    "event": "SpaceX successfully launches Falcon Heavy rocket"
+  },
+  {
+    "start": 2018,
+    "end": 2018,
+    "event": "2018 FIFA World Cup held in Russia, won by France"
   },
   {
     "start": 2018,
@@ -3910,9 +4645,94 @@
     "event": "the \"Nation State Law\" / \"Basic Law\" is passed by Israel"
   },
   {
+    "start": 2019,
+    "end": 2019,
+    "event": "Venezuelan presidential crisis as Juan Guaidó declares President Maduro illegitimate"
+  },
+  {
+    "start": 2019,
+    "end": 2019,
+    "event": "Volodymyr Zelenskyy wins Ukraine's presidential election in landslide"
+  },
+  {
+    "start": 2019,
+    "end": 2019,
+    "event": "Emperor Akihito abdicates from Japan's throne, first imperial abdication in nearly two centuries"
+  },
+  {
+    "start": 2019,
+    "end": 2019,
+    "event": "Notre-Dame Cathedral in Paris suffers catastrophic fire during Holy Week"
+  },
+  {
+    "start": 2019,
+    "end": 2019,
+    "event": "Event Horizon Telescope releases first-ever image of a black hole in galaxy M87"
+  },
+  {
+    "start": 2019,
+    "end": 2019,
+    "event": "Cyclone Idai strikes Mozambique, causing over 1,000 deaths"
+  },
+  {
+    "start": 2019,
+    "end": 2019,
+    "event": "First known COVID-19 case identified in Wuhan, China"
+  },
+  {
+    "start": 2020,
+    "end": 2020,
+    "event": "U.S. drone strike kills Iranian general Qasem Soleimani at Baghdad airport"
+  },
+  {
+    "start": 2020,
+    "end": 2020,
+    "event": "WHO declares COVID-19 a public health emergency of international concern"
+  },
+  {
+    "start": 2020,
+    "end": 2020,
+    "event": "WHO declares COVID-19 a pandemic"
+  },
+  {
+    "start": 2020,
+    "end": 2020,
+    "event": "United Kingdom formally departs from European Union"
+  },
+  {
+    "start": 2020,
+    "end": 2020,
+    "event": "Kobe Bryant and daughter die in helicopter crash near Calabasas"
+  },
+  {
+    "start": 2020,
+    "end": 2020,
+    "event": "2020 Summer Olympics postponed to 2021 due to COVID-19 pandemic"
+  },
+  {
+    "start": 2020,
+    "end": 2020,
+    "event": "I start attending the Transition School program at the University of Washington"
+  },
+  {
+    "start": 2020,
+    "end": 2020,
+    "event": "US Supreme Court rules in Bostock v. Clayton County that sexual orientation and gender identity discrimination violates Civil Rights Act of 1964"
+  },
+  {
     "start": 2020,
     "end": 2020,
     "event": "Israel establishes normalization agreements with Bahrain, UAE, Morocco"
+  },
+  {
+    "start": 2020,
+    "end": 2020,
+    "event": "COVID-19 vaccines begin deployment to general public"
+  },
+  {
+    "start": 2021,
+    "end": 2021,
+    "event": "Supporters of Donald Trump attack U.S. Capitol during election certification; 5 dead"
   },
   {
     "start": 2021,
@@ -3922,17 +4742,167 @@
   {
     "start": 2021,
     "end": 2021,
+    "event": "Myanmar military stages coup removing Aung San Suu Kyi from power"
+  },
+  {
+    "start": 2021,
+    "end": 2021,
+    "event": "NASA's Perseverance rover and Ingenuity helicopter land on Mars"
+  },
+  {
+    "start": 2021,
+    "end": 2021,
+    "event": "Ingenuity helicopter performs first powered flight on another planet"
+  },
+  {
+    "start": 2021,
+    "end": 2021,
+    "event": "James Webb Space Telescope launches"
+  },
+  {
+    "start": 2021,
+    "end": 2021,
+    "event": "I start as a freshman at the University of Washington"
+  },
+  {
+    "start": 2021,
+    "end": 2021,
     "event": "Fourth Gaza War"
+  },
+  {
+    "start": 2021,
+    "end": 2021,
+    "event": "Facebook rebrands as Meta Platforms Inc., pivoting toward 'metaverse'"
+  },
+  {
+    "start": 2021,
+    "end": 2021,
+    "event": "Andy Jassy becomes CEO of Amazon, succeeding Jeff Bezos"
+  },
+  {
+    "start": 2022,
+    "end": 2022,
+    "event": "Hunga Tonga volcanic eruption triggers Pacific tsunami warnings, most powerful eruption of 21st century"
+  },
+  {
+    "start": 2022,
+    "end": 2022,
+    "event": "Russia launches full-scale invasion of Ukraine, displacing 15.7 million"
+  },
+  {
+    "start": 2022,
+    "end": 2022,
+    "event": "First successful heart transplant from pig to human in Baltimore"
+  },
+  {
+    "start": 2022,
+    "end": 2022,
+    "event": "2022 Winter Olympics in Beijing; first city hosting both Summer and Winter"
+  },
+  {
+    "start": 2022,
+    "end": 2022,
+    "event": "2022 FIFA World Cup held in Qatar, won by Argentina"
+  },
+  {
+    "start": 2022,
+    "end": 2022,
+    "event": "Queen Elizabeth II dies after 70 years as monarch"
+  },
+  {
+    "start": 2022,
+    "end": 2022,
+    "event": "OpenAI releases ChatGPT, bringing large language models to widespread public adoption"
   },
   {
     "start": 2023,
     "end": 2023,
-    "event": "October 7th Massacre by Hamas in Israel"
+    "event": "Supporters of Jair Bolsonaro storm Brazilian government buildings following electoral defeat"
+  },
+  {
+    "start": 2023,
+    "end": 2023,
+    "event": "7.8-magnitude earthquake devastates Turkey and Syria, killing over 59,000"
+  },
+  {
+    "start": 2023,
+    "end": 2023,
+    "event": "ICC issues arrest warrant for Vladimir Putin, first against permanent UN Security Council member leader"
+  },
+  {
+    "start": 2023,
+    "end": 2023,
+    "event": "Xi Jinping secures unprecedented third term as China's president"
+  },
+  {
+    "start": 2023,
+    "end": 2023,
+    "event": "Silicon Valley Bank fails, largest bank failure since 2008"
+  },
+  {
+    "start": 2023,
+    "end": 2023,
+    "event": "OpenAI unveils GPT-4, capable of processing images and up to 25,000 words"
+  },
+  {
+    "start": 2023,
+    "end": 2023,
+    "event": "WHO declares end to COVID-19 public health emergency"
+  },
+  {
+    "start": 2023,
+    "end": 2023,
+    "event": "October 7th Hamas attack on Israel kills 1,195 people; 251 taken hostage; deadliest day in Israeli history"
   },
   {
     "start": 2023,
     "end": 2025,
-    "event": "Hamas-Israeli war in Gaza"
+    "event": "Israel-Hamas war in Gaza; Israel's longest military conflict"
+  },
+  {
+    "start": 2023,
+    "end": 2023,
+    "event": "Israel invades Gaza with stated goals of destroying Hamas and freeing hostages"
+  },
+  {
+    "start": 2024,
+    "end": 2024,
+    "event": "7.5-magnitude earthquake strikes Japan's Noto Peninsula, killing 504 people"
+  },
+  {
+    "start": 2024,
+    "end": 2024,
+    "event": "Lai Ching-te wins Taiwan's presidential election"
+  },
+  {
+    "start": 2024,
+    "end": 2024,
+    "event": "Japan becomes fifth country to achieve soft lunar landing with SLIM mission"
+  },
+  {
+    "start": 2024,
+    "end": 2024,
+    "event": "Intuitive Machines' Nova-C becomes first commercial vehicle to land on Moon"
+  },
+  {
+    "start": 2024,
+    "end": 2024,
+    "event": "Donald Trump wins U.S. presidential election, first president elected to nonconsecutive second term since 1892"
+  },
+  {
+    "start": 2024,
+    "end": 2024,
+    "event": "South Korean President Yoon Suk Yeol impeached after attempting to declare martial law"
+  },
+  {
+    "start": 2024,
+    "end": 2024,
+    "event": "I turn 18 and come out to my parents"
+  },
+  {
+    "start": 2024,
+    "end": 2024,
+    "event": "Rafah offensive begins in Gaza; Israeli military operations intensify across Gaza Strip"
   },
   {
     "start": 2024,
@@ -3943,5 +4913,20 @@
     "start": 2025,
     "end": 2025,
     "event": "Donald Trump becomes president of US again"
+  },
+  {
+    "start": 2025,
+    "end": 2025,
+    "event": "I graduate from University of Washington and start my PhD at MIT"
+  },
+  {
+    "start": 2025,
+    "end": 2025,
+    "event": "Third ceasefire in Israel-Hamas war begins under US-backed peace plan"
+  },
+  {
+    "start": 2025,
+    "end": 2025,
+    "event": "US Supreme Court schedules consideration of Kim Davis case seeking to overturn Obergefell v. Hodges marriage equality ruling"
   }
 ]

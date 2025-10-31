@@ -1221,9 +1221,7 @@ table {
     position: relative;
 
     &:hover {
-      background-color: rgba(255, 68, 68, 0.12);
-      transform: translateX(5px);
-      box-shadow: 0 4px 12px rgba(255, 68, 68, 0.3);
+      background-color: rgba(255, 68, 68, 0.15);
     }
 
     .quote-text {
@@ -1273,17 +1271,15 @@ table {
 .quotes-nav-panel {
   position: fixed !important;
   left: 0;
-  top: 0;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  top: 480px; // Position below the image, same as CV nav panel
   width: 160px; // Narrower panel
-  background-color: transparent;
+  background-color: var(--global-bg-color);
   z-index: 999;
   opacity: 0.8;
   transition: all 0.3s ease;
-  pointer-events: none;
+  max-height: 50vh;
+  overflow-y: auto;
+  pointer-events: auto;
   
   > * {
     pointer-events: all;
@@ -1340,34 +1336,42 @@ table {
 }
 
 // Responsive quotes navigation panel positioning
-// Responsive quotes navigation panel positioning - removed specific top values to maintain centering
 @media (max-width: 1400px) {
-  // .quotes-nav-panel continues to use 50% centering at all screen sizes
+  .quotes-nav-panel {
+    top: 420px; // Adjust for smaller image
+  }
 }
 
 @media (max-width: 1300px) {
-  // .quotes-nav-panel continues to use 50% centering at all screen sizes
+  .quotes-nav-panel {
+    top: 370px; // Adjust for smaller image
+  }
 }
 
 @media (max-width: 1250px) {
-  // .quotes-nav-panel continues to use 50% centering at all screen sizes
+  .quotes-nav-panel {
+    top: 320px; // Adjust for smaller image
+  }
 }
 
 // Vertical responsiveness for quotes nav panel
 @media (max-height: 800px) {
   .quotes-nav-panel {
+    top: 370px;
     max-height: 40vh;
   }
 }
 
 @media (max-height: 700px) {
   .quotes-nav-panel {
+    top: 320px;
     max-height: 35vh;
   }
 }
 
 @media (max-height: 600px) {
   .quotes-nav-panel {
+    top: 270px;
     max-height: 30vh;
   }
 }
@@ -1657,11 +1661,9 @@ table {
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    
+
     &:hover {
-      background-color: rgba(255, 68, 68, 0.12);
-      transform: translateX(5px);
-      box-shadow: 0 4px 12px rgba(255, 68, 68, 0.3);
+      background-color: rgba(255, 68, 68, 0.15);
     }
     
     .article-compact-view {
@@ -1742,64 +1744,60 @@ table {
 
 // History Timeline Styling
 .history-timeline {
-  margin: 2rem 0;
-  margin-left: 150px; // Move timeline slightly to the right
-  
+  margin: 2rem auto;
+  max-width: 1200px;
+  padding: 0 1rem;
+
   .timeline-axis {
     position: relative;
-    margin-left: 4rem; // Increased margin for better spacing
-    
+    margin-left: clamp(8rem, 15vw, 11rem); // Responsive: adapts to screen width
+
     .timeline-line {
       position: absolute;
       left: 0;
       top: 0;
       bottom: 0;
       width: 3px;
-      background: linear-gradient(to bottom, 
-        var(--global-theme-color) 0%, 
-        rgba(255, 68, 68, 0.7) 50%, 
+      background: linear-gradient(to bottom,
+        var(--global-theme-color) 0%,
+        rgba(255, 68, 68, 0.7) 50%,
         var(--global-theme-color) 100%);
       border-radius: 1.5px;
       z-index: auto;
     }
-    
+
     .timeline-events {
       padding-left: 2rem;
     }
   }
-  
+
   .timeline-year-group {
     margin-bottom: 1.5rem;
     position: relative;
-    
+
     .timeline-year-label {
       position: absolute;
-      left: -15rem;
-      top: 0.1rem; // Align with the dots
-      width: 12rem;
+      left: calc(-1 * clamp(8rem, 15vw, 11rem)); // Matches timeline-axis margin
+      top: 0.1rem;
+      width: clamp(6rem, 13vw, 9rem);
       text-align: right;
       font-weight: bold;
       font-size: 0.9rem;
       color: var(--global-theme-color);
-      padding: 0;
+      padding-right: 1rem;
       z-index: auto;
     }
-    
+
     .timeline-events-container {
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
     }
   }
-  
+
   .timeline-event {
     position: relative;
-    transition: all 0.3s ease;
-    
-    &:hover {
-      transform: translateX(5px);
-    }
-    
+
     .timeline-event-marker {
       position: absolute;
       left: -2.15rem; // Centered on the line (3px line width / 2 + 10px marker width / 2)
@@ -1812,27 +1810,36 @@ table {
       box-shadow: 0 0 0 1px var(--global-theme-color);
       transition: all 0.3s ease;
       z-index: auto;
-      
+
       &.spanning {
         border-radius: 2px;
-        background: linear-gradient(45deg, 
-          var(--global-theme-color) 0%, 
-          rgba(255, 68, 68, 0.7) 50%, 
+        background: linear-gradient(45deg,
+          var(--global-theme-color) 0%,
+          rgba(255, 68, 68, 0.7) 50%,
           var(--global-theme-color) 100%);
       }
     }
-    
+
     .timeline-event-content {
       color: var(--global-text-color);
       font-size: 0.9rem;
       line-height: 1.4;
       margin-bottom: 0.3rem;
-      transition: all 0.3s ease;
     }
-    
+
     &:hover .timeline-event-marker {
-      transform: scale(1.2);
-      box-shadow: 0 0 0 2px var(--global-theme-color);
+      transform: scale(1.5);
+      box-shadow: 0 0 0 3px var(--global-theme-color), 0 0 10px rgba(255, 68, 68, 0.5);
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+  }
+
+  @keyframes pulse {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.7;
     }
   }
 }
@@ -2005,16 +2012,12 @@ table {
   .history-nav-panel {
     display: none;
   }
-  
-  .history-timeline {
-    margin-left: 0;
-  }
-  
+
   .cursor-bubble {
     font-size: 0.7rem;
     padding: 0.4rem 0.8rem;
   }
-  
+
   .mobile-random-btn {
     bottom: 15px;
     padding: 0.7rem 1.2rem;
@@ -2022,27 +2025,76 @@ table {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .history-timeline {
     .timeline-axis {
-      margin-left: 1rem;
-      
+      margin-left: 9rem; // Medium screens
+    }
+
+    .timeline-year-group {
+      .timeline-year-label {
+        left: -9rem;
+        width: 7.5rem;
+        font-size: 0.85rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .history-timeline {
+    padding: 0 0.5rem;
+
+    .timeline-axis {
+      margin-left: 6rem; // Fixed smaller value for mobile
+
+      .timeline-events {
+        padding-left: 1.5rem;
+      }
+    }
+
+    .timeline-year-group {
+      .timeline-year-label {
+        left: -6rem; // Match the margin-left
+        width: 5rem;
+        font-size: 0.75rem;
+        padding-right: 0.5rem;
+      }
+    }
+
+    .timeline-event {
+      .timeline-event-marker {
+        left: -1.75rem;
+      }
+
+      .timeline-event-content {
+        font-size: 0.85rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .history-timeline {
+    .timeline-axis {
+      margin-left: 5rem; // Extra small screens
+
       .timeline-events {
         padding-left: 1rem;
       }
     }
-    
+
     .timeline-year-group {
       .timeline-year-label {
-        left: -10rem;
-        width: 8rem;
-        font-size: 0.8rem;
+        left: -5rem;
+        width: 4rem;
+        font-size: 0.7rem;
       }
     }
-    
+
     .timeline-event {
-      .timeline-event-marker {
-        left: -1.75rem;
+      .timeline-event-content {
+        font-size: 0.8rem;
       }
     }
   }

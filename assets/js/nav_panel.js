@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <a href="#cs-publications" class="nav-item" data-section="cs-publications">CS Work</a>
             <a href="#philosophy-writings" class="nav-item" data-section="philosophy-writings">Philosophy Work</a>
             <a href="#education" class="nav-item" data-section="education">Education</a>
+            <a href="#news" class="nav-item" data-section="news">News</a>
             <a href="#recognition" class="nav-item" data-section="recognition">Recognition</a>
             <a href="#teaching" class="nav-item" data-section="teaching">Teaching</a>
-            <a href="#news" class="nav-item" data-section="news">News</a>
             <a href="#service" class="nav-item" data-section="service">Service</a>
             <a href="#books" class="nav-item" data-section="books">Books</a>
             <a href="#projects" class="nav-item" data-section="projects">Misc. Work</a>

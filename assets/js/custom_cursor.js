@@ -4,44 +4,53 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!window.matchMedia("(hover: hover)").matches) {
         return; // Skip cursor customization on touch devices
     }
+
+    // Skip word bubbles on feeling diary page
+    const skipBubblesOnPages = ['/misc/feeling-diary'];
+    const shouldSkipBubbles = skipBubblesOnPages.some(path => window.location.pathname.includes(path));
     
     // Create custom cursor element
     const cursor = document.createElement('div');
     cursor.className = 'custom-cursor';
     document.body.appendChild(cursor);
     
-    // Create word bubble element
-    const wordBubble = document.createElement('div');
-    wordBubble.className = 'cursor-word-bubble hidden';
-    wordBubble.style.fontFamily = 'sans-serif';
-    wordBubble.style.userSelect = 'none';
-    document.body.appendChild(wordBubble);
-    
-    // Create meaning bubble element
-    const meaningBubble = document.createElement('div');
-    meaningBubble.className = 'cursor-meaning-bubble hidden';
-    meaningBubble.style.fontFamily = 'sans-serif';
-    meaningBubble.style.userSelect = 'none';
-    document.body.appendChild(meaningBubble);
+    // Create word bubble element (skip on certain pages)
+    let wordBubble, meaningBubble;
+    if (!shouldSkipBubbles) {
+        wordBubble = document.createElement('div');
+        wordBubble.className = 'cursor-word-bubble hidden';
+        wordBubble.style.fontFamily = 'sans-serif';
+        wordBubble.style.userSelect = 'none';
+        document.body.appendChild(wordBubble);
+
+        // Create meaning bubble element
+        meaningBubble = document.createElement('div');
+        meaningBubble.className = 'cursor-meaning-bubble hidden';
+        meaningBubble.style.fontFamily = 'sans-serif';
+        meaningBubble.style.userSelect = 'none';
+        document.body.appendChild(meaningBubble);
+    }
     
     // Word functionality variables
     let wordsData = [];
     let currentWord = null;
-    let bubblesEnabled = localStorage.getItem('wordBubblesEnabled') !== 'false'; // Default true, false only if explicitly set
+    let bubblesEnabled = !shouldSkipBubbles && localStorage.getItem('wordBubblesEnabled') !== 'false'; // Default true, false only if explicitly set
     let meaningVisible = false;
-    
-    // Load words data
-    fetch('/assets/json/words.json')
-        .then(response => response.json())
-        .then(data => {
-            wordsData = data;
-            selectDailyWord();
-        })
-        .catch(error => {
-            console.error('Error loading words:', error);
-            wordsData = [{word: "hello", meaning: "a greeting"}];
-            selectDailyWord();
-        });
+
+    // Load words data (skip on certain pages)
+    if (!shouldSkipBubbles) {
+        fetch('/assets/json/words.json')
+            .then(response => response.json())
+            .then(data => {
+                wordsData = data;
+                selectDailyWord();
+            })
+            .catch(error => {
+                console.error('Error loading words:', error);
+                wordsData = [{word: "hello", meaning: "a greeting"}];
+                selectDailyWord();
+            });
+    }
     
     // Function to get current EST date as seed
     function getESTDateSeed() {
@@ -125,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
             cursor.style.top = cursorY + 'px';
             cursor.style.opacity = '1';
             
-            if (bubblesEnabled) {
+            if (bubblesEnabled && wordBubble) {
                 wordBubble.classList.remove('hidden');
             }
             isInitialized = true;
@@ -143,17 +152,21 @@ document.addEventListener('DOMContentLoaded', function() {
         cursor.style.top = cursorY + 'px';
         
         // Position bubbles relative to cursor position (not mouse position)
-        // Word bubble - top right of cursor
-        bubbleX = cursorX + 25;
-        bubbleY = cursorY - 35;
-        wordBubble.style.left = bubbleX + 'px';
-        wordBubble.style.top = bubbleY + 'px';
-        
-        // Meaning bubble - bottom right of cursor
-        meaningX = cursorX + 25;
-        meaningY = cursorY + 20;
-        meaningBubble.style.left = meaningX + 'px';
-        meaningBubble.style.top = meaningY + 'px';
+        if (wordBubble) {
+            // Word bubble - top right of cursor
+            bubbleX = cursorX + 25;
+            bubbleY = cursorY - 35;
+            wordBubble.style.left = bubbleX + 'px';
+            wordBubble.style.top = bubbleY + 'px';
+        }
+
+        if (meaningBubble) {
+            // Meaning bubble - bottom right of cursor
+            meaningX = cursorX + 25;
+            meaningY = cursorY + 20;
+            meaningBubble.style.left = meaningX + 'px';
+            meaningBubble.style.top = meaningY + 'px';
+        }
         
         requestAnimationFrame(animateCursor);
     }
@@ -170,26 +183,28 @@ document.addEventListener('DOMContentLoaded', function() {
         
         switch(e.key.toLowerCase()) {
             case 'e':
-                // Toggle all bubbles and save state to localStorage
-                bubblesEnabled = !bubblesEnabled;
-                localStorage.setItem('wordBubblesEnabled', bubblesEnabled.toString());
-                
-                if (bubblesEnabled) {
-                    if (isInitialized) {
-                        wordBubble.classList.remove('hidden');
-                        if (meaningVisible) {
-                            meaningBubble.classList.remove('hidden');
+                if (wordBubble && meaningBubble) {
+                    // Toggle all bubbles and save state to localStorage
+                    bubblesEnabled = !bubblesEnabled;
+                    localStorage.setItem('wordBubblesEnabled', bubblesEnabled.toString());
+
+                    if (bubblesEnabled) {
+                        if (isInitialized) {
+                            wordBubble.classList.remove('hidden');
+                            if (meaningVisible) {
+                                meaningBubble.classList.remove('hidden');
+                            }
                         }
+                    } else {
+                        wordBubble.classList.add('hidden');
+                        meaningBubble.classList.add('hidden');
+                        meaningVisible = false; // Reset meaning state when disabling
                     }
-                } else {
-                    wordBubble.classList.add('hidden');
-                    meaningBubble.classList.add('hidden');
-                    meaningVisible = false; // Reset meaning state when disabling
                 }
                 break;
-                
+
             case 'm':
-                if (bubblesEnabled && currentWord) {
+                if (bubblesEnabled && currentWord && meaningBubble) {
                     // Toggle meaning bubble
                     meaningVisible = !meaningVisible;
                     if (meaningVisible) {
@@ -304,19 +319,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // Hide cursor when leaving window
     document.addEventListener('mouseleave', function() {
         cursor.style.opacity = '0';
-        if (bubblesEnabled) {
+        if (bubblesEnabled && wordBubble && meaningBubble) {
             wordBubble.classList.add('hidden');
             meaningBubble.classList.add('hidden');
         }
         stopParticleEffect();
     });
-    
+
     // Show cursor when entering window
     document.addEventListener('mouseenter', function() {
         cursor.style.opacity = '1';
-        if (isInitialized && bubblesEnabled) {
+        if (isInitialized && bubblesEnabled && wordBubble) {
             wordBubble.classList.remove('hidden');
-            if (meaningVisible) {
+            if (meaningVisible && meaningBubble) {
                 meaningBubble.classList.remove('hidden');
             }
         }
@@ -335,8 +350,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set initial positions
     cursor.style.left = (window.innerWidth / 2) + 'px';
     cursor.style.top = (window.innerHeight / 2) + 'px';
-    wordBubble.style.left = (window.innerWidth / 2 + 25) + 'px';
-    wordBubble.style.top = (window.innerHeight / 2 - 35) + 'px';
-    meaningBubble.style.left = (window.innerWidth / 2 + 25) + 'px';
-    meaningBubble.style.top = (window.innerHeight / 2 + 20) + 'px';
+    if (wordBubble) {
+        wordBubble.style.left = (window.innerWidth / 2 + 25) + 'px';
+        wordBubble.style.top = (window.innerHeight / 2 - 35) + 'px';
+    }
+    if (meaningBubble) {
+        meaningBubble.style.left = (window.innerWidth / 2 + 25) + 'px';
+        meaningBubble.style.top = (window.innerHeight / 2 + 20) + 'px';
+    }
 });

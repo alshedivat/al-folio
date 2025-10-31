@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 
 <!-- Personal Blurb Space -->
-I am an incoming PhD student at MIT EECS, advised by [Mitchell Gordon](https://mgordon.me/){:target="_blank"}.
+I am a first-year PhD student at MIT EECS, advised by [Mitchell Gordon](https://mgordon.me/){:target="_blank"}.
 I received by bachelor's in Computer Science (BS) and Philosophy (BA w/ honors) with minors in mathematics and history from the University of Washington.
 In undergrad, I was very fortunate to be advised by [Amy Zhang](https://homes.cs.washington.edu/~axz/){:target="_blank"} and [Ranjay Krishna](https://www.ranjaykrishna.com/index.html){:target="_blank"} in CS and [Rose Novick](https://www.rosenovick.com/){:target="_blank"} in philosophy.
 I was also mentored by [Jared Moore](https://jaredmoore.org/){:target="_blank"}, [Quan Ze (Jim) Chen](https://cqz.name/){:target="_blank"}, [Sebastin Santy](https://sebastinsanty.com/){:target="_blank"}, [Matt Wallingford](https://mattwallingford.github.io/){:target="_blank"}, [Carina Fourie](https://phil.washington.edu/people/carina-fourie){:target="_blank"}, and others.

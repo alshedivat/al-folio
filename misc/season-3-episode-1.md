@@ -3,6 +3,7 @@ layout: page
 title: season 3, episode 1
 description: a reflective pause
 permalink: /misc/season-3-episode-1
+nav: false
 hide_art_widget: true
 hide_quote_margins: true
 ---
