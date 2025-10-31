@@ -1251,6 +1251,34 @@ ninja-keys::part(ninja-input-wrapper) {
   border-color: var(--global-theme-color) !important;
 }
 
+.bibsearch-form-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 350px;
+}
+
+.bibsearch-clear-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--global-text-color);
+  font-size: 18px;
+  cursor: pointer;
+  display: none;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  line-height: 1;
+}
+
+.bibsearch-clear-button:hover {
+  color: var(--global-theme-color);
+}
+
 .newsletter-form-button {
   background: var(--global-theme-color);
   color: var(--global-bg-color);

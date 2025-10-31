@@ -61,10 +61,34 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("bibsearch").addEventListener("input", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
     const searchTerm = this.value.toLowerCase();
-    timeoutId = setTimeout(filterItems(searchTerm), 300);
+    timeoutId = setTimeout(() => filterItems(searchTerm), 300);
+  });
+
+  // Clear button functionality
+  const clearButton = document.getElementById("bibsearch-clear");
+  const inputField = document.getElementById("bibsearch");
+
+  const toggleClearButton = () => {
+    if (inputField.value.length > 0) {
+      clearButton.style.display = "block";
+    } else {
+      clearButton.style.display = "none";
+    }
+  };
+
+  inputField.addEventListener("input", toggleClearButton);
+  clearButton.addEventListener("click", () => {
+    inputField.value = "";
+    toggleClearButton();
+    filterItems("");
+    // Update URL hash
+    if (window.location.hash) {
+      window.history.replaceState(null, null, window.location.pathname);
+    }
   });
 
   window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
 
   updateInputField(); // Update filter when page loads
+  toggleClearButton(); // Initial toggle
 });
