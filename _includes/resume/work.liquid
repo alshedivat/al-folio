@@ -29,6 +29,19 @@
                   </td>
                 </tr>
               {% endif %}
+              {% if content.highlights %}
+              <tr>
+                <td>
+                  <ul class="cv-skills" style="font-size: 0.75rem; font-weight: bold;">
+                  {% for item in content.highlights %}
+                    <li>
+                      <span class="item">{{ item }}</span>
+                    </li>
+                  {% endfor %}
+                  </ul>
+                </td>
+              </tr>
+              {% endif %}
             </tbody>
           </table>
         </div>
@@ -37,14 +50,7 @@
             <a href="{{ content.url }}">{{ content.position }}</a>
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.name }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
-          <ul class="items">
-            {% for item in content.highlights %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
-            {% endfor %}
-          </ul>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">  {{ content.summary | replace: '\n', '<br />' | newline_to_br }}</h6>
         </div>
       </div>
     </li>
