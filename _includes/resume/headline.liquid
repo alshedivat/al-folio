@@ -1,0 +1,65 @@
+{% comment %}
+  Reusable headline component for resume sections
+  
+  Usage: {% include resume/headline.liquid content=content head=head showDuration=true %}
+  
+  Parameters (passed via content object):
+  - content.logo: Logo path (optional)
+  - content.head: Main title text
+  - content.startDate: Start date in ISO format (optional)
+  - content.endDate: End date in ISO format (optional)
+  - showDuration: Boolean to show duration calculation (default: true)
+{% endcomment %}
+
+<div class="row mb-2">
+  {% if include.content.logo %}
+    <img src="{{ include.content.logo | relative_url }}" alt="logo" class="auto-invert cv-logo-stamp">
+  {% endif %}
+  <div class="ml-3">
+    <h6 style="font-weight: bold; font-size: 1.1rem">{{ include.head }}</h6>
+    <p style="font-size: 0.8rem; font-style: italic; margin-top: -10px;">
+    {% if include.content.date %}
+        {% assign date = include.content.date | date: "%b. %Y" %}
+        {{ date }}
+    {% elsif include.content.startDate %}
+      {% comment %} Format start date {% endcomment %}
+      {% assign startDateObj = include.content.startDate | date: "%b. %Y" %}
+      
+      {% comment %} Format end date {% endcomment %}
+      {% if include.content.endDate %}
+        {% assign endDateObj = include.content.endDate | date: "%b. %Y" %}
+      {% else %}
+        {% assign endDateObj = "Present" %}
+      {% endif %}
+      
+      {% assign date = startDateObj | append: ' - ' | append: endDateObj %}
+      
+      {% comment %} Check if we should show duration (default to true if not specified) {% endcomment %}
+      {% assign showDuration = include.showDuration | default: true %}
+      
+      {% if showDuration %}
+        {% assign start = include.content.startDate | date: "%s" %}
+        {% if include.content.endDate %}
+          {% assign end = include.content.endDate | date: "%s" %}
+        {% else %}
+          {% assign end = "now" | date: "%s" %}
+        {% endif %}
+        {% assign total_days = end | minus: start | divided_by: 86400 %}
+        {% assign years = total_days | divided_by: 365 %}
+        {% assign remaining_days = total_days | modulo: 365 %}
+        {% assign months = remaining_days | divided_by: 30 %}
+          {% if years > 0 %}
+            {{ years }} year{% if years > 1 %}s{% endif %}
+          {% endif %}
+          {% if years > 0 and months > 0 %},{% endif %}
+          {% if months > 0 %}
+            {{ months }} month{% if months > 1 %}s{% endif %}
+          {% endif %}
+          {% if date != '' %} &bull; {{ date }} {% endif %}
+      {% else %}
+          {{ date }}
+      {% endif %}
+    </p>
+    {% endif %}
+  </div>
+</div>

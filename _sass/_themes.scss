@@ -66,6 +66,11 @@
     display: none;
   }
 
+  .auto-invert {
+    // Light theme specific styles for logo
+    filter: brightness(1);
+  }
+
   #back-to-top {
     border: 1px solid var(--global-theme-color);
     color: var(--global-back-to-top-text-color);
@@ -123,6 +128,11 @@ html[data-theme="dark"] {
 
   .only-dark {
     display: block;
+  }
+
+  .auto-invert {
+    // Dark theme specific styles for logo - increase brightness for better visibility
+    filter: brightness(0) invert(1);
   }
 }
 

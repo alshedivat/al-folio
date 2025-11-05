@@ -670,10 +670,12 @@ footer.sticky-bottom {
     .list-group-item {
       background-color: inherit;
       border-color: var(--global-divider-color);
+      margin-top: 30px;
 
       .badge {
-        color: var(--global-card-bg-color) !important;
-        background-color: var(--global-theme-color) !important;
+        color: var(--global-text-color) !important;
+        background-color: transparent !important;
+        border-color: var(--global-theme-color) !important;
       }
     }
   }
@@ -1730,4 +1732,10 @@ figure.cover {
   object-fit: cover;
   min-height: 175px;
   max-height: 175px;
+}
+
+.cv-logo-stamp {
+  height: 42px;
+  width: auto !important;
+  opacity: 0.85;
 }

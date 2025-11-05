@@ -25,6 +25,7 @@
   "work": [
     {
       "name": "BOKU University",
+      "logo": "assets/img/employers/boku_new.png",
       "position": "Project-staff / Student worker",
       "location": "Austria, Vienna",
       "url": "https://boku.ac.at/lawi/ilen",
@@ -35,6 +36,7 @@
     },
     {
       "name": "BOKU University",
+      "logo": "assets/img/employers/boku_old.png",
       "position": "Freelancer",
       "location": "Austria, Vienna",
       "url": "https://boku.ac.at/lawi/ilen",
@@ -45,6 +47,7 @@
     },
     {
       "name": "BOKU University",
+      "logo": "assets/img/employers/boku_old.png",
       "position": "Internship",
       "location": "Austria, Vienna",
       "url": "https://boku.ac.at/lawi/ilen",
@@ -55,6 +58,7 @@
     },
     {
       "name": "BOKU University",
+      "logo": "assets/img/employers/boku_old.png",
       "position": "Freelancer",
       "location": "Austria, Vienna",
       "url": "https://boku.ac.at/lawi/ilen",
@@ -65,6 +69,7 @@
     },
     {
       "name": "Lenzing AG",
+      "logo": "assets/img/employers/lenzing.png",
       "position": "Internship",
       "location": "Austria, Lenzing",
       "url": "https://lenzing-ag.at",
@@ -75,6 +80,7 @@
     },
     {
       "name": "Jugendzentrum YouX",
+      "logo": "assets/img/employers/youx.png",
       "position": "Internship",
       "location": "Austria, Vöcklabruck",
       "url": "http://youx.at",
@@ -85,6 +91,7 @@
     },
     {
       "name": "Jugendzentrum YouX",
+      "logo": "assets/img/employers/youx.png",
       "location": "Austria, Vöcklabruck",
       "position": "Civil Service",
       "url": "http://youx.at",
@@ -97,6 +104,7 @@
   "volunteer": [
     {
       "organization": "Social Market",
+      "logo": "assets/img/employers/rotes_kreuz.png",
       "location": "Austria, Vöcklamarkt",
       "position": "Temporary Worker",
       "url": "https://www.nachrichten.at/oberoesterreich/salzkammergut/junge-leute-packten-im-sozialmarkt-an;art71,3260855",
@@ -107,26 +115,29 @@
   "education": [
     {
       "institution": "University of Vienna",
+      "logo": "assets/img/uni/univie.png",
       "location": "Austria, Vienna",
       "url": "https://www.informatik.univie.ac.at",
       "area": "Computer Science",
       "studyType": "MSc.",
       "startDate": "2020-10-01",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Foundations of Data Analysis", "Advanced Software Engineering", "Advanced Topics in Internet Computing & Software Technologies", "Visualisation and Visual Data Analysis", "Advanced Topics in Computer Graphics", "Scientific Data Management", "Advanced Software Engineering", "Numerical Algorithms", "Parallel Architectures and Programming Models", "Parallel Computing", "Foundations of Computer Graphics", "Algorithms and Data Structures 2", "Natural Language Processing", "Internship 1 & 2", "Scientific Practices"]
     },
     {
       "institution": "University of Applied Sciences Technikum Wien",
+      "logo": "assets/img/uni/fhtw.png",
       "location": "Austria, Vienna",
       "url": "https://www.fhtw.at/studiengaenge/bachelor-informatik",
       "area": "Computer Science",
       "studyType": "BSc.",
       "startDate": "2017-09-15",
       "endDate": "2020-07-15",
-      "courses": ["Theory of Relativity"]
+      "courses": [ "Introduction to Computer Science", "Operating Systems and Computer Architectures", "Data Modeling & Databases", "Fundamentals of Programming 1 & 2", "Fundamentals of Networking", "Computer Science and Society", "Mathematics 1 & 2", "Applied Mathematics 1 & 2", "Web Technologies 1 & 2", "Law 1 & 2", "Algorithms and Data Structures", "Open Operating Systems", "Business Administration 1 & 2", "Information Theory", "Project Management 1 & 2", "Distributed Systems 1 & 2", "Artificial Intelligence", "Data Security 1 & 2", "Database Systems", "Configuration Management", "Modeling Techniques and System Analysis", "Software Engineering 1 & 2", "Machine Learning", "User-Centered Design & User Experience Design", "Advanced Concepts in C++", "Cloud Infrastructure", "Continuous Integration", "Software Testing and Quality Assurance", "Functional Programming", "Software Component Systems", "Scientific Project Support", "Internship", "Soft Skills (English, Time Management, Teamwork, etc.)"]
     },
     {
       "institution": "BRG Schloss Wagrain",
       "location": "Austria, Vöcklabruck",
+      "logo": "assets/img/uni/brgsw.png",
       "url": "https://www.brgsw.at",
       "area": "natural sciences",
       "studyType": "A-Levels",
@@ -134,7 +145,15 @@
       "endDate": "2016-12-10"
     }
   ],
-  "awards": [],
+  "awards": [
+    {
+      "title": "Energy Globe Wien 2022",
+      "date": "2023-04-17",
+      "awarder": "Energy Globe Foundation",
+      "summary": "Recognized for exceptional contributions to climate protection.",
+      "url": "https://parkworking.at/wp-content/uploads/2023/04/energyglobe_parkworking_presse_230417_fin.pdf"
+    }
+  ],
   "certificates": [
     {
       "name": "Introduction to Working on the ASC Clusters",
@@ -146,25 +165,46 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Concepts of Virtual Reality in GIS",
+      "publisher": "Bachelor Thesis",
+      "releaseDate": "2020-05-01",
+      "url": "https://doi.org/10.13140/RG.2.2.14160.74247",
+      "summary": "Due to the rapid progress of virtual reality hardware, these technologies are no longer niche products. Together with the much easier access to open geodata, new possibilities for procedural visualizations have opened up, combining Virtual Reality and GIS (VRGIS) technologies. In this bachelor thesis a prototypical implementation of a modern VRGIS software is presented, including concepts for movement, orientation and visualization of data."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Large-Scale Agrivoltaics Visualisations for Assessing Landscape Impacts and Social Acceptance",
+      "publisher": "AgriVoltaics Conference Proceedings",
+      "releaseDate": "2024-02-01",
+      "url": "https://doi.org/10.52825/agripv.v1i.596",
+      "summary": "Research article on large-scale agrivoltaics visualizations and their role in assessing landscape impacts and social acceptance."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Fencing Virtual Landscapes: Using GIS to Identify and Classify Fences and Hedges for More Accurate Landscape Visualizations",
+      "publisher": "Journal of Digital Landscape Architecture",
+      "releaseDate": "2025-06-01",
+      "url": "https://doi.org/10.14627/537754054",
+      "summary": "Conference paper on using GIS to identify and classify fences and hedges for more accurate landscape visualizations."
+    },
+    {
+      "name": "Real-Time VR Landscape Visualization for Wind Farm Repowering: A Case Study in Eastern Austrian World Heritage Sites",
+      "publisher": "Journal of Digital Landscape Architecture",
+      "releaseDate": "2024-06-01",
+      "url": "https://doi.org/10.14627/537752033",
+      "summary": "Conference paper presenting a case study on real-time VR landscape visualization for wind farm repowering in Eastern Austrian World Heritage Sites."
+    },
+    {
+      "name": "Windenergie im Spannungsfeld: Gesellschaftliche Akzeptanz, ökologische Herausforderungen und innovative Lösungen",
+      "publisher": "Poster presentation",
+      "releaseDate": "2025-02-01",
+      "url": "",
+      "summary": "Poster presentation on wind energy in areas of tension: societal acceptance, ecological challenges, and innovative solutions."
+    },
+    {
+      "name": "Photovoltaik, Mensch und Biosphäre: Ein transdisziplinärer Ansatz zur Förderung der alpinen Resilienz",
+      "publisher": "Poster presentation",
+      "releaseDate": "2023-06-01",
+      "url": "https://doi.org/10.13140/RG.2.2.32718.23361",
+      "summary": "Poster presentation on a transdisciplinary approach to promote alpine resilience through photovoltaics, human interaction, and biosphere considerations."
     }
   ],
   "skills": [
@@ -249,7 +289,7 @@
       "level": "Advanced",
       "icon": "fa-solid fa-people-group",
       "keywords": [
-        "Scientific writing",
+        "Scientific Writing",
         "LaTeX",
         "Inter- and Transdisciplinary Research",
         "Workshops & Facilitation",
@@ -272,56 +312,59 @@
     },
     {
       "language": "Latinum",
-      "fluency": "intermediate Latin Certificate",
+      "fluency": "Intermediate Latin Certificate",
       "icon": "fa-solid fa-pen-nib"
     }
   ],
   "interests": [
     {
-      "name": "Cooking",
-      "icon": "fa-solid fa-kitchen-set"
-    },
-    {
-      "name": "Travel",
-      "icon": "fa-solid fa-compass"
-    },
-    {
-      "name": "Photography",
-      "icon": "fa-solid fa-camera"
-    },
-    {
       "name": "Music & Concerts",
       "icon": "fa-solid fa-music"
+    },
+    {
+      "name": "Video Games",
+      "icon": "fa-solid fa-gamepad"
     },
     {
       "name": "Bouldering",
       "icon": "fa-solid fa-person-running"
     },
     {
-      "name": "Video Games",
-      "icon": "fa-solid fa-gamepad"
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Travel",
+      "icon": "fa-solid fa-compass"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
+      "name": "Cooking",
+      "icon": "fa-solid fa-kitchen-set"
+    },
+    {
+      "name": "Photography",
+      "icon": "fa-solid fa-camera"
+    }   
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "WIMBY - Wind in My Backyard",
+      "summary": "Development of innovative tools to facilitate citizen and stakeholders interaction, knowledge sharing, and collaborative evaluation of impacts, conflicts, synergies and social innovation potential of wind energy.",
+      "highlights": ["Wind Energy", "Stakeholder Engagement", "Social Innovation", "Impact Assessment"],
+      "url": "http://wimby.eu/",
+      "startDate": "2023-01-01",
+      "endDate": "2026-03-31"
+    },
+    {
+      "name": "BioPV",
+      "summary": "Photovoltaics, people and the biosphere: a transdisciplinary approach to promote alpine resilience.",
+      "highlights": ["Photovoltaics", "Transdisciplinary Research", "Alpine Ecosystems", "Sustainability"],
+      "url": "https://biopv.boku.ac.at",
+      "startDate": "2022-11-09",
+      "endDate": "2025-12-31"
+    }, 
+    {
+      "name": "LandscapeLab",
+      "summary": "An open kit for developing game-based participatory landscape-planning tools.",
+      "highlights": ["Godot Engine", "Participatory Planning", "Game-Based Tools", "Open Source"],
+      "url": "https://landscapelab.boku.ac.at/",
+      "startDate": "2019-01-01"
     }
   ]
 }
