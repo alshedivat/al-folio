@@ -1345,7 +1345,7 @@ swiper-container {
         rgba(0, 0, 0, 0) 0%,
         var(--global-theme-color) 50%,
         rgba(0, 0, 0, 0) 100%
-      )
+      );
 }
 
 #invisible-button {
@@ -1719,10 +1719,11 @@ figure.cover {
 
 .glassy-box {
   backdrop-filter: blur(4px);
-  background-image: linear-gradient(to top left, rgba(var(--global-theme-color-rgb), 0.15) 0%, rgba(0, 0, 0, 0.001) 20%, rgba(0, 0, 0, 0.01) 50%, rgba(0, 0, 0, 0.05) 100%);
-  border: rgba(var(--global-theme-color-rgb), 0.05) 1px solid;
+  background-image: linear-gradient(to top left, rgba(var(--global-theme-color-rgb), 0.15) 0%, rgba(0, 0, 0, 0.0001) 20%, rgba(0, 0, 0, 0.001) 50%, rgba(0, 0, 0, 0.025) 100%);
+  border: rgba(var(--global-theme-color-rgb), 0.05) 1px solid !important;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(var(--global-theme-color-rgb), 0.15);
+  background-color: unset !important;
 }
 
 .project-logo-stamp {
@@ -1744,4 +1745,14 @@ figure.cover {
   height: 42px;
   width: auto !important;
   opacity: 0.85;
+}
+
+.diagonal-lines-bg {
+  background-image: repeating-linear-gradient(
+    45deg,
+    rgba(var(--global-theme-color-rgb), 0.1) 0,
+    rgba(var(--global-theme-color-rgb), 0.1) 1px,
+    transparent 1px,
+    transparent 20px
+  );
 }
