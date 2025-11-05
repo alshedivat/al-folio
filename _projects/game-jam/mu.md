@@ -9,8 +9,14 @@ category: game jam
 related_publications: false
 ---
 
-As our contribution to the 2019 Global Game Jam with the motto "What home means to you", we created a 2D platformer with the name "Mu". A triangle discovers its meaning of home: friendship. It can be downloaded on the official [GGJ website](https://v3.globalgamejam.org/2019/games/mu-0).
-
+<div class="row">
+    <div class="col-sm-3 mt-3">
+        {% include figure.liquid loading="eager" path="assets/img/mu/mu_logo.png" title="logo" %}
+    </div>
+    <div class="col-sm-9 mt-3">
+        As our contribution to the 2019 Global Game Jam with the motto "What home means to you", we created a 2D platformer with the name "Mu". A triangle discovers its meaning of home: friendship. It can be downloaded on the official [GGJ website](https://v3.globalgamejam.org/2019/games/mu-0).
+    </div>
+</div>
 
 <div class="row">
     <div class="col-sm-6 mt-3 mt-md-0">
