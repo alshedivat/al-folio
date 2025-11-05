@@ -195,6 +195,26 @@ ul.timeline li::before {
   top: -0.5rem;
 }
 
+.cv-skills {
+  text-align: left;
+  --icon-size: .8em;
+  --gutter: .5em;
+  padding: 0 0 0 var(--icon-size);
+  margin-left: 1.0rem;
+  
+
+  li {
+    padding-left: var(--gutter);
+  }
+
+  li::marker {
+    /* If you load FA6 v6+ CSS, this var is defined */
+    font: var(--fa-font-solid);
+    font-size: var(--icon-size);
+    content: "\f3a5"; /* check icon; adjust as needed */
+  }
+}
+
 /*ul.timeline::before {
      content: "●";
      font-size: 1em;
