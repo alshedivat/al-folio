@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Mathias Baumgartinger-Seiringer",
+    "label": "&ensp;<i class='fa-solid fa-code'></i>&ensp;Computer Scientist. &ensp;<i class='fa-solid fa-book'></i>&ensp;Academic.",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "mathias.baumgartinger@proton.me",
+    "phone": "+43 680 1311072",
+    "url": "https://toothgap.at",
+    "summary": "My name is Mathias Baumgartinger-Seiringer. I am a creative developer that is passionate about craftsmanship surrounding software, games and other digital creations. Also, I am a firm believer in free and open source tools.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Huglgasse 26",
+      "postalCode": "1150",
+      "city": "Vienna",
+      "countryCode": "AT",
+      "region": "Vienna"
     },
     "profiles": [
       {
@@ -24,91 +24,124 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "BOKU University",
+      "position": "Project-staff / Student worker",
+      "location": "Austria, Vienna",
+      "url": "https://boku.ac.at/lawi/ilen",
+      "startDate": "2021-10-15",
+      "endDate": "2025-10-14",
+      "summary": "• Developing & writing scientific articles\n• Visualizing big geospatial data using game-engine Godot\n• Analyzing and manipulating of geospatial data in python\n• Landscape planning and development for energy-infrastructure\n• Conducting of digital stakeholder-workshops with innovative input methods\n• Assistance in administrative and organizational matters\n• Maintenance and creation of project websites using Hugo",
+      "highlights": ["GIS", "Godot", "Geodata", "Python", "PyTorch", "Django", "Workshops"]
+    },
+    {
+      "name": "BOKU University",
+      "position": "Freelancer",
+      "location": "Austria, Vienna",
+      "url": "https://boku.ac.at/lawi/ilen",
+      "startDate": "2020-05-01",
+      "endDate": "2021-10-14",
+      "summary": "• Visualizing big geospatial data using game-engine Godot\n• Analyzing and processing of geospatial data\n• Development of a GIS-based serious game for energy-infrastructure",
+      "highlights": ["GIS", "Godot", "Geodata", "Python", "Django", "Serious Games", "Landscape Planning"]
+    },
+    {
+      "name": "BOKU University",
+      "position": "Internship",
+      "location": "Austria, Vienna",
+      "url": "https://boku.ac.at/lawi/ilen",
+      "startDate": "2020-02-01",
+      "endDate": "2020-04-30",
+      "summary": "• Visualizing big geospatial data using game-engine Godot\n• Development of Virtual Reality features in Godot for large scale landscape visualization\n• Analyzing and manipulating of geospatial data\n• First impressions of landscape planning and development",
+      "highlights": ["GIS", "Godot", "VR-Development", "Landscape Planning"]
+    },
+    {
+      "name": "BOKU University",
+      "position": "Freelancer",
+      "location": "Austria, Vienna",
+      "url": "https://boku.ac.at/lawi/ilen",
+      "startDate": "2019-05-01",
+      "endDate": "2020-01-31",
+      "summary": "• Visualizing big geospatial data using game-engine Godot\n• Gameplay and user-interface design\n• Analyzing and processing of geospatial data\n• Conceptualizing a GIS-based serious game for energy-infrastructure",
+      "highlights": ["GIS", "Godot", "Game-Development", "VR-Development", "Serious Games", "Python", "Django"]
+    },
+    {
+      "name": "Lenzing AG",
+      "position": "Internship",
+      "location": "Austria, Lenzing",
+      "url": "https://lenzing-ag.at",
+      "startDate": "2019-07-01",
+      "endDate": "2019-08-01",
+      "summary": "• Development of internal Web-Tools using ASP.NET MVC and Microsoft SQL\n• Insights into automation- and production-processes",
+      "highlights": ["ASP.NET MVC", "C#", "MSSQL" ]
+    },
+    {
+      "name": "Jugendzentrum YouX",
+      "position": "Internship",
+      "location": "Austria, Vöcklabruck",
+      "url": "http://youx.at",
+      "startDate": "2018-07-01",
+      "endDate": "2017-07-31",
+      "summary": "• Support during open operations, organization of workshops/events, and reliable handovers\n• Teamwork in shift operations, support during workshops/events",
+      "highlights": ["Communication", "Organization", "Teamwork"]
+    },
+    {
+      "name": "Jugendzentrum YouX",
+      "location": "Austria, Vöcklabruck",
+      "position": "Civil Service",
+      "url": "http://youx.at",
+      "startDate": "2016-10-01",
+      "endDate": "2017-06-30",
+      "summary": "• Support during open operations, organization of workshops/events, and reliable handovers\n• Teamwork in shift operations, support during workshops/events",
+      "highlights": ["Communication", "Organization", "Teamwork"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
+      "organization": "Social Market",
+      "location": "Austria, Vöcklamarkt",
+      "position": "Temporary Worker",
+      "url": "https://www.nachrichten.at/oberoesterreich/salzkammergut/junge-leute-packten-im-sozialmarkt-an;art71,3260855",
+      "startDate": "2020-01-01",
+      "endDate": "2020-08-30",
+      "summary": "Temporary worker during the coronavirus pandemic to ensure operations continue."    }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
+      "institution": "University of Vienna",
+      "location": "Austria, Vienna",
+      "url": "https://www.informatik.univie.ac.at",
+      "area": "Computer Science",
+      "studyType": "MSc.",
+      "startDate": "2020-10-01",
       "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "University of Applied Sciences Technikum Wien",
+      "location": "Austria, Vienna",
+      "url": "https://www.fhtw.at/studiengaenge/bachelor-informatik",
+      "area": "Computer Science",
+      "studyType": "BSc.",
+      "startDate": "2017-09-15",
+      "endDate": "2020-07-15",
+      "courses": ["Theory of Relativity"]
+    },
+    {
+      "institution": "BRG Schloss Wagrain",
+      "location": "Austria, Vöcklabruck",
+      "url": "https://www.brgsw.at",
+      "area": "natural sciences",
+      "studyType": "A-Levels",
+      "startDate": "2012-09-10",
+      "endDate": "2016-12-10"
     }
   ],
+  "awards": [],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "name": "Introduction to Working on the ASC Clusters",
+      "date": "2023-01-19",
+      "issuer": "Austria Scientific Cluster (ASC, formerly VSC)",
+      "url": "https://events.asc.ac.at/event/191/",
+      "icon": "fa-solid fa-desktop-dot"
     }
   ],
   "publications": [
@@ -136,43 +169,137 @@
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Geospatial & Remote Sensing",
+      "level": "Advanced",
+      "icon": "fa-solid fa-globe-europe",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "GDAL / OGR",
+        "QGIS and QField",
+        "Remote Sensing",
+        "Land-use / Land-cover",
+        "Semantic Segmentation",
+        "TorchGeo",
+        "OpenStreetMap (OSM)"
+      ]
+    },
+    {
+      "name": "Machine Learning & AI",
+      "level": "Advanced",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "Python",
+        "PyTorch",
+        "Computer Vision",
+        "Deep Learning",
+        "Experiment Design",
+        "Model Evaluation"
+      ]
+    },
+    {
+      "name": "Backend & APIs",
+      "level": "Advanced",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "REST API Design",
+        "Microservice Architecture",
+        "Auth, Accounts & Security",
+        "SQL and Database Modeling",
+        "Database modeling"
+      ]
+    },
+    {
+      "name": "Frontend & Web",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "SPA Architecture (Vue.js, SAPUI4)",
+        "JavaScript",
+        "HTML5 / CSS3",
+        "Bootstrap, Tailwind",
+        "Static sites (Jekyll, Hugo)"
+      ]
+    },
+    {
+      "name": "DevOps, Data & Infrastructure",
+      "level": "Intermediate",
+      "icon": "fa-brands fa-docker",
+      "keywords": [
+        "Docker / Docker Compose",
+        "Linux Server Admin",
+        "NGINX (reverse proxy)",
+        "AWS Hosting",
+        "NumPy / Pandas / GeoPandas",
+        "CLI Geoprocessing (GDAL, ogr2ogr)",
+        "Git / GitHub"
+      ]
+    },
+    {
+      "name": "3D & Visualization (Godot)",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-cubes",
+      "keywords": [
+        "Godot Engine",
+        "Custom Shaders",
+        "Landscape Visualization",
+        "Interactive Demos"
+      ]
+    },
+    {
+      "name": "Research, Facilitation & Product",
+      "level": "Advanced",
+      "icon": "fa-solid fa-people-group",
+      "keywords": [
+        "Scientific writing",
+        "LaTeX",
+        "Inter- and Transdisciplinary Research",
+        "Workshops & Facilitation",
+        "Questionnaire Design",
+        "Stakeholder Engagement",
+        "Requirements Engineering"
       ]
     }
   ],
   "languages": [
     {
       "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native Speaker",
+      "icon": "fa-solid fa-comment"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Professional Working Proficiency",
+      "icon": "fa-solid fa-comment"
+    },
+    {
+      "language": "Latinum",
+      "fluency": "intermediate Latin Certificate",
+      "icon": "fa-solid fa-pen-nib"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "Cooking",
+      "icon": "fa-solid fa-kitchen-set"
+    },
+    {
+      "name": "Travel",
+      "icon": "fa-solid fa-compass"
+    },
+    {
+      "name": "Photography",
+      "icon": "fa-solid fa-camera"
+    },
+    {
+      "name": "Music & Concerts",
+      "icon": "fa-solid fa-music"
+    },
+    {
+      "name": "Bouldering",
+      "icon": "fa-solid fa-person-running"
+    },
+    {
+      "name": "Video Games",
+      "icon": "fa-solid fa-gamepad"
     }
   ],
   "references": [
