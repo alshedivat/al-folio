@@ -256,6 +256,12 @@ flex
   margin-right: 1rem;
 }
 
+@media (min-width: 476px) and (max-width: 1000px) {
+  .profile-container {
+    display: unset !important;
+  }
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
