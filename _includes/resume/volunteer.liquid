@@ -24,7 +24,7 @@
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.position }}</a>
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">  {{ content.summary | replace: '\n', '<br />' | newline_to_br }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary | replace: '\n', '<br />' | newline_to_br }}</h6>
           <ul class="items">
             {% for item in content.highlights %}
               <li>

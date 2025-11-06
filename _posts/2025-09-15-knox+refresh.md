@@ -62,7 +62,8 @@ While frameworks such as JSON Web Token (JWT) - when configured accordingly - pr
 <aside>
   {% include figure.liquid loading="eager" path="assets/img/blog/knox+refresh/jwt.png" class="img-fluid rounded z-depth-1" zoomable=true %}
 
-  Above is an exemplary flow of a JWT setup where - after the authentication server served the token - validation no longer depends on this server.
+Above is an exemplary flow of a JWT setup where - after the authentication server served the token - validation no longer depends on this server.
+
 </aside>
 
 ---
@@ -80,7 +81,7 @@ To actually obtain this security benefits, we have to ensure following implement
 - **Short-livedness of access tokens**: keep the access token as short-lived as arguable. Even if they are somehow hijacked, the risk potential is reduced severely.
 - **HTTP-only refresh**: protect the long-lived aspect of the setup from being hijacked via XSS attacks by making it inaccessible for javascript
 - **CSRF validation**: HTTP-only cookies are automatically included in every request to the backend. A malicious cross-site-request-forgery (CSRF) attack from another site to a state-changing endpoint may result in unwanted actions. We need to ensure we validate no such attack is happening from another site.
-  
+
 ---
 
 ## Implementation Details: Backend
@@ -144,7 +145,7 @@ class RefreshToken(models.Model):
         self.rotated = True
         self.save(update_fields=["rotated"])
         return self.__class__.create(self.user, expiration_time)
-    
+
     def revoke(self):
       self.revoked = True
       self.save(update_fields["revoked"])
@@ -237,7 +238,7 @@ class LogoutView(APIView):
 
     def post(self, request, *args, **kwargs):
         RefreshToken.objects.filter(user=request.user, revoked=False).update(revoked=True)
-        access_token = request.auth 
+        access_token = request.auth
         if access_token:
             access_token.delete()
 
@@ -257,15 +258,15 @@ For the underlying project, we chose Vue.js as our frontend. In this section we 
 First off, we will create an axios-instance (e.g. in a `api.js`-file). This instance is what our store will handle to perform requests.
 
 ```javascript
-import axios from 'axios'
+import axios from "axios";
 
 export const api = axios.create({
-  baseURL: '/api/',
+  baseURL: "/api/",
   withCredentials: true,
-})
+});
 ```
 
-It would be very inconvenient if we had to to manually check for authentication and refresh each time before we send a request. Luckily, axios implements interceptors. They will *intercept* a request before they are handled by `.then` or `catch`. Consequently, we can create an interceptor for our axios-instance that can check for `401: UNAUTHORIZED` and accordingly handle our refresh logic.
+It would be very inconvenient if we had to to manually check for authentication and refresh each time before we send a request. Luckily, axios implements interceptors. They will _intercept_ a request before they are handled by `.then` or `catch`. Consequently, we can create an interceptor for our axios-instance that can check for `401: UNAUTHORIZED` and accordingly handle our refresh logic.
 
 We first define some setup:
 
@@ -273,64 +274,60 @@ We first define some setup:
 2. `subscribers`: If subsequent requests are coming in after the first one, we subscribe to the refresh using `subscribeTokenRefresh`.
 3. `onRefreshed`: If a successful refresh did happen, we resolve all of subscribed `Promises` with this new token and empty the subscription array
 
-If `refreshAccessToken` does not validate, we return a rejection-Promise. 
+If `refreshAccessToken` does not validate, we return a rejection-Promise.
 
 ```javascript
-let isRefreshing = false
-let subscribers = []
+let isRefreshing = false;
+let subscribers = [];
 
 function subscribeTokenRefresh(cb) {
-  subscribers.push(cb)
+  subscribers.push(cb);
 }
 
 function onRefreshed(newToken) {
-  subscribers.forEach((cb) => cb(newToken))
-  subscribers = []
+  subscribers.forEach((cb) => cb(newToken));
+  subscribers = [];
 }
 
 api.interceptors.response.use(
   (response) => response,
   async (error) => {
-    const { config, response } = error
+    const { config, response } = error;
     if (response?.status === 401 && !config.__isRetryRequest) {
       if (!isRefreshing) {
-        isRefreshing = true
+        isRefreshing = true;
         try {
-          const newToken = await refreshAccessToken()
-          isRefreshing = false
-          onRefreshed(newToken)
+          const newToken = await refreshAccessToken();
+          isRefreshing = false;
+          onRefreshed(newToken);
         } catch (err) {
-          isRefreshing = false
-          useAuthStore().logout()
-          return Promise.reject(err)
+          isRefreshing = false;
+          useAuthStore().logout();
+          return Promise.reject(err);
         }
       }
 
       return new Promise((resolve) => {
         subscribeTokenRefresh((newToken) => {
-          config.__isRetryRequest = true
-          config.headers.Authorization = `Token ${newToken}`
-          resolve(api(config))
-        })
-      })
+          config.__isRetryRequest = true;
+          config.headers.Authorization = `Token ${newToken}`;
+          resolve(api(config));
+        });
+      });
     }
-    return Promise.reject(error)
+    return Promise.reject(error);
   }
-)
+);
 ```
 
 The refresh action simply tries to access our refresh-endpoint in the backend. As stated before, the refresh-cookie is appended implicitly
 
 ```javascript
 async function refreshAccessToken() {
-  const response = await axios.post(
-    '/api/token/refresh/',
-    {},
-    { withCredentials: true }
-  )
-  const newToken = response.data.token
-  useAuthStore().setToken(newToken)
-  return newToken
+  const response = await axios.post("/api/token/refresh/", {}, { withCredentials: true });
+  const newToken = response.data.token;
+  useAuthStore().setToken(newToken);
+  return newToken;
 }
 ```
 
@@ -339,10 +336,10 @@ async function refreshAccessToken() {
 For the authentication-store, we store the user, their access token and expiry. Additionally, you may store other relevant user information, e.g. their full name. The refresh token is `HTTPOnly` and thus never exposed to javascript. A simple `login` function reaches out for the login-endpoint. Note that this happens without the explicit axios-interceptor-instance, as it should not intercept for this request. If this initial login attempt was successful, we store the token immediately using `setToken`. Subsequent should happen using the `api`.
 
 ```javascript
-import { defineStore } from 'pinia'
-import { api } from '@/api'
+import { defineStore } from "pinia";
+import { api } from "@/api";
 
-export const useAuthStore = defineStore('auth', {
+export const useAuthStore = defineStore("auth", {
   state: () => ({
     token: null,
     expiry: null,
@@ -355,32 +352,32 @@ export const useAuthStore = defineStore('auth', {
 
   actions: {
     setToken(token, expiry = null) {
-      this.token = token
-      this.expiry = expiry
-      api.defaults.headers.common.Authorization = `Token ${token}`
+      this.token = token;
+      this.expiry = expiry;
+      api.defaults.headers.common.Authorization = `Token ${token}`;
     },
 
     async login(username, password) {
-      const res = await axios.post('/api/login/', { username, password }, { withCredentials: true })
-      this.setToken(res.data.token, res.data.expiry)
+      const res = await axios.post("/api/login/", { username, password }, { withCredentials: true });
+      this.setToken(res.data.token, res.data.expiry);
       // THIS ENDPOINT NEEDS TO BE IMPLEMENTED
-      this.user = await api.get('/api/user-info/')
+      this.user = await api.get("/api/user-info/");
     },
 
     async logout() {
       try {
-        await api.post('/api/logout/')
+        await api.post("/api/logout/");
       } catch (e) {
-        console.warn('Logout error:', e)
+        console.warn("Logout error:", e);
       } finally {
-        this.token = null
-        this.expiry = null
-        this.user = null
-        delete api.defaults.headers.common.Authorization
+        this.token = null;
+        this.expiry = null;
+        this.user = null;
+        delete api.defaults.headers.common.Authorization;
       }
-    }
+    },
   },
-})
+});
 ```
 
 ### Using the Store in a Component
@@ -419,52 +416,52 @@ We have a login mask that on submit calls to the authstore. Once logged in, we w
       </ul>
     </div>
 
-    <p v-if="error" class="error"> {{ error }}</p>
+    <p v-if="error" class="error">{{ error }}</p>
   </div>
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { useAuthStore } from '@/stores/auth'
-import { api } from '@/api' // the configured axios instance
+  import { ref } from "vue";
+  import { useAuthStore } from "@/stores/auth";
+  import { api } from "@/api"; // the configured axios instance
 
-const auth = useAuthStore()
+  const auth = useAuthStore();
 
-const username = ref('')
-const password = ref('')
-const items = ref([])
-const loading = ref(false)
-const error = ref('')
+  const username = ref("");
+  const password = ref("");
+  const items = ref([]);
+  const loading = ref(false);
+  const error = ref("");
 
-async function login() {
-  error.value = ''
-  loading.value = true
-  try {
-    await auth.login(username.value, password.value)
-    console.log('Login successful')
-  } catch (e) {
-    error.value = 'Invalid credentials'
-    console.error(e)
-  } finally {
-    loading.value = false
+  async function login() {
+    error.value = "";
+    loading.value = true;
+    try {
+      await auth.login(username.value, password.value);
+      console.log("Login successful");
+    } catch (e) {
+      error.value = "Invalid credentials";
+      console.error(e);
+    } finally {
+      loading.value = false;
+    }
   }
-}
 
-async function getItems() {
-  error.value = ''
-  try {
-    const res = await api.get('/items/')
-    items.value = res.data
-  } catch (e) {
-    error.value = 'Failed to fetch items'
-    console.error(e)
+  async function getItems() {
+    error.value = "";
+    try {
+      const res = await api.get("/items/");
+      items.value = res.data;
+    } catch (e) {
+      error.value = "Failed to fetch items";
+      console.error(e);
+    }
   }
-}
 
-async function logout() {
-  await auth.logout()
-  items.value = []
-}
+  async function logout() {
+    await auth.logout();
+    items.value = [];
+  }
 </script>
 ```
 
@@ -472,15 +469,15 @@ async function logout() {
 
 ## Feature-Comparison
 
-| Feature | Django REST Knox | JWT | New Knox + Refresh Extension |
-|----------|------------------|------|---------------------------|
-| Validation | DB lookup | Signature verification | DB lookup |
-| Revocation | Immediate | Hard (until expiry) | Immediate |
-| Stateless | ❌ | ✅ | ❌ |
-| SSO support | ❌ | ✅ | ❌ |
-| Rotation | Not required | ✅ | ✅ |
-| XSS-safe refresh | Impl. detail | Impl. detail | ✅ |
-| CSRF protection | Impl. detail | Not required | ✅ |
+| Feature          | Django REST Knox | JWT                    | New Knox + Refresh Extension |
+| ---------------- | ---------------- | ---------------------- | ---------------------------- |
+| Validation       | DB lookup        | Signature verification | DB lookup                    |
+| Revocation       | Immediate        | Hard (until expiry)    | Immediate                    |
+| Stateless        | ❌               | ✅                     | ❌                           |
+| SSO support      | ❌               | ✅                     | ❌                           |
+| Rotation         | Not required     | ✅                     | ✅                           |
+| XSS-safe refresh | Impl. detail     | Impl. detail           | ✅                           |
+| CSRF protection  | Impl. detail     | Not required           | ✅                           |
 
 ---
 

@@ -207,7 +207,7 @@ ul.task-list input[type="checkbox"] {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 4px;
-  border-image-source: radial-gradient(circle at 300% -150%, var(--global-theme-color), rgba(0,0,0,0));
+  border-image-source: radial-gradient(circle at 300% -150%, var(--global-theme-color), rgba(0, 0, 0, 0));
   transition-property: all 0.2s ease-in-out;
   position: absolute;
   width: 80%;
@@ -216,13 +216,12 @@ ul.task-list input[type="checkbox"] {
   bottom: 15%;
 }
 
-
 .fancy-border:after {
   content: "";
   border: 10px solid;
-  border-image-slice: 1;  
+  border-image-slice: 1;
   border-width: 2px;
-  border-image-source: radial-gradient(circle at -150% 300%, var(--global-theme-color), rgba(0,0,0,0));
+  border-image-source: radial-gradient(circle at -150% 300%, var(--global-theme-color), rgba(0, 0, 0, 0));
   transition-property: all 0.2s ease-in-out;
   position: absolute;
   width: 80%;
@@ -232,9 +231,8 @@ ul.task-list input[type="checkbox"] {
   z-index: -1;
 }
 
-
-.profile {  
-  width: 100%;  
+.profile {
+  width: 100%;
 
   .more-info {
     margin-bottom: 5px;
@@ -251,8 +249,7 @@ ul.task-list input[type="checkbox"] {
 .profile.float-right {
   margin-left: 1rem;
 }
-flex
-.profile.float-left {
+flex .profile.float-left {
   margin-right: 1rem;
 }
 
@@ -453,7 +450,7 @@ flex
       display: inline;
     }
   }
-  
+
   .hide-small-dev {
     visibility: hidden;
     max-width: 0 !important;
@@ -487,56 +484,51 @@ flex
     width: 100vw;
     bottom: 0;
     pointer-events: none;
-  
+
     .vr {
       flex-grow: 1;
       min-height: 200px;
     }
-  
+
     .vr::before {
-      content:"";
+      content: "";
       display: flex;
       flex-grow: 1;
     }
-  
+
     .vr::after {
-      content:"";
+      content: "";
       transition-property: all 0.2s ease-in-out;
       display: flex;
       flex-grow: 1;
       border-left: 2px solid;
-      border-image: 
-        linear-gradient(
-          to bottom, 
-          var(--global-theme-color),
-          rgba(0, 0, 0, 0)
-        ) 1 100%;
+      border-image: linear-gradient(to bottom, var(--global-theme-color), rgba(0, 0, 0, 0)) 1 100%;
     }
-  
-    p, .mail {
+
+    p,
+    .mail {
       writing-mode: vertical-lr; /* Vertical writing from bottom to top */
       // text has no default width
       min-width: 20px;
       text-align: center;
     }
-  
+
     .mail {
       padding: 20px;
-      display:flex;
-      justify-content:center;
-      align-items:center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       min-height: 10em;
       line-height: 2em;
     }
   }
 }
 
-
 .enable-pointer {
   pointer-events: visible;
 }
 
-.flex-fill{
+.flex-fill {
   flex-grow: 1;
   pointer-events: none;
 }
@@ -1324,10 +1316,15 @@ swiper-container {
   --swiper-pagination-bullet-inactive-color: var(--global-text-color);
 }
 
-
-.flex-wrap { flex-wrap: wrap; }
-.flex-center { justify-content: center; }
-.flex-base { flex: 1; }
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-center {
+  justify-content: center;
+}
+.flex-base {
+  flex: 1;
+}
 
 .full-height {
   // calculate full screen height minus the portion of the navbar minus padding (3rem)
@@ -1339,19 +1336,13 @@ swiper-container {
 .full-width {
   width: 100vw;
   height: 2.5px;
-  background: 
-      linear-gradient(
-        90deg,
-        rgba(0, 0, 0, 0) 0%,
-        var(--global-theme-color) 50%,
-        rgba(0, 0, 0, 0) 100%
-      );
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, var(--global-theme-color) 50%, rgba(0, 0, 0, 0) 100%);
 }
 
 #invisible-button {
   background: transparent;
   border: none !important;
-  font-size:0;
+  font-size: 0;
   display: block;
   margin: auto;
 }
@@ -1362,14 +1353,14 @@ swiper-container {
   transition-property: all 0.2s ease-in-out;
   display: block;
   margin: auto;
-	width: 75px;
+  width: 75px;
   height: 65px;
 
-  // on hover the arrows will transition into middle 
+  // on hover the arrows will transition into middle
   &:hover {
     path {
       fill: var(--global-text-color);
-      transition: all .2s ease-out;
+      transition: all 0.2s ease-out;
       animation-name: none;
 
       &.animated-arrow-bottom {
@@ -1378,16 +1369,22 @@ swiper-container {
 
       &.animated-arrow-top {
         transform: translateY(200px);
-      } 
+      }
     }
   }
 }
 
-// fading effect 
+// fading effect
 @keyframes arrow-fade {
-  0%    {fill-opacity: 100%;}
-  50%   {fill-opacity: 0%;}
-  100%  {fill-opacity: 100%;}
+  0% {
+    fill-opacity: 100%;
+  }
+  50% {
+    fill-opacity: 0%;
+  }
+  100% {
+    fill-opacity: 100%;
+  }
 }
 
 .animated-arrow-top {
@@ -1402,19 +1399,19 @@ swiper-container {
   animation-name: arrow-fade;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  transform: translate(0px,200px);
+  transform: translate(0px, 200px);
 }
-  
+
 .animated-arrow-bottom {
   animation-delay: 1s;
   animation-name: arrow-fade;
   animation-duration: 4s;
   animation-iteration-count: infinite;
-  transform: translate(0px,400px);
+  transform: translate(0px, 400px);
 }
 
 #animated-arrow {
-  transition: all .2s ease-out;	 
+  transition: all 0.2s ease-out;
 }
 
 .game-controls {
@@ -1426,13 +1423,14 @@ swiper-container {
 
   // Make caption go below table
   flex-direction: column;
-  
-  th, td {
+
+  th,
+  td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
   }
-  
+
   caption {
     font-weight: bold;
     margin-bottom: 10px;
@@ -1449,12 +1447,10 @@ swiper-container {
   }
 }
 
-
 // scrollbar
 ::-webkit-scrollbar {
   scrollbar-width: none;
 }
-
 
 .ps-root {
   .ps-algorithm {
@@ -1719,7 +1715,13 @@ figure.cover {
 
 .glassy-box {
   backdrop-filter: blur(4px);
-  background-image: linear-gradient(to top left, rgba(var(--global-theme-color-rgb), 0.15) 0%, rgba(0, 0, 0, 0.0001) 20%, rgba(0, 0, 0, 0.001) 50%, rgba(0, 0, 0, 0.025) 100%);
+  background-image: linear-gradient(
+    to top left,
+    rgba(var(--global-theme-color-rgb), 0.15) 0%,
+    rgba(0, 0, 0, 0.0001) 20%,
+    rgba(0, 0, 0, 0.001) 50%,
+    rgba(0, 0, 0, 0.025) 100%
+  );
   border: rgba(var(--global-theme-color-rgb), 0.05) 1px solid !important;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(var(--global-theme-color-rgb), 0.15);

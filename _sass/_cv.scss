@@ -197,11 +197,10 @@ ul.timeline li::before {
 
 .cv-skills {
   text-align: left;
-  --icon-size: .8em;
-  --gutter: .5em;
+  --icon-size: 0.8em;
+  --gutter: 0.5em;
   padding: 0 0 0 var(--icon-size);
-  margin-left: 1.0rem;
-  
+  margin-left: 1rem;
 
   li {
     padding-left: var(--gutter);

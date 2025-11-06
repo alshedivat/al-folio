@@ -76,7 +76,7 @@
       "startDate": "2019-07-01",
       "endDate": "2019-08-01",
       "summary": "• Development of internal Web-Tools using ASP.NET MVC and Microsoft SQL\n• Insights into automation- and production-processes",
-      "highlights": ["ASP.NET MVC", "C#", "MSSQL" ]
+      "highlights": ["ASP.NET MVC", "C#", "MSSQL"]
     },
     {
       "name": "Jugendzentrum YouX",
@@ -110,7 +110,8 @@
       "url": "https://www.nachrichten.at/oberoesterreich/salzkammergut/junge-leute-packten-im-sozialmarkt-an;art71,3260855",
       "startDate": "2020-01-01",
       "endDate": "2020-08-30",
-      "summary": "Temporary worker during the coronavirus pandemic to ensure operations continue."    }
+      "summary": "Temporary worker during the coronavirus pandemic to ensure operations continue."
+    }
   ],
   "education": [
     {
@@ -121,7 +122,23 @@
       "area": "Computer Science",
       "studyType": "MSc.",
       "startDate": "2020-10-01",
-      "courses": ["Foundations of Data Analysis", "Advanced Software Engineering", "Advanced Topics in Internet Computing & Software Technologies", "Visualisation and Visual Data Analysis", "Advanced Topics in Computer Graphics", "Scientific Data Management", "Advanced Software Engineering", "Numerical Algorithms", "Parallel Architectures and Programming Models", "Parallel Computing", "Foundations of Computer Graphics", "Algorithms and Data Structures 2", "Natural Language Processing", "Internship 1 & 2", "Scientific Practices"]
+      "courses": [
+        "Foundations of Data Analysis",
+        "Advanced Software Engineering",
+        "Advanced Topics in Internet Computing & Software Technologies",
+        "Visualisation and Visual Data Analysis",
+        "Advanced Topics in Computer Graphics",
+        "Scientific Data Management",
+        "Advanced Software Engineering",
+        "Numerical Algorithms",
+        "Parallel Architectures and Programming Models",
+        "Parallel Computing",
+        "Foundations of Computer Graphics",
+        "Algorithms and Data Structures 2",
+        "Natural Language Processing",
+        "Internship 1 & 2",
+        "Scientific Practices"
+      ]
     },
     {
       "institution": "University of Applied Sciences Technikum Wien",
@@ -132,7 +149,41 @@
       "studyType": "BSc.",
       "startDate": "2017-09-15",
       "endDate": "2020-07-15",
-      "courses": [ "Introduction to Computer Science", "Operating Systems and Computer Architectures", "Data Modeling & Databases", "Fundamentals of Programming 1 & 2", "Fundamentals of Networking", "Computer Science and Society", "Mathematics 1 & 2", "Applied Mathematics 1 & 2", "Web Technologies 1 & 2", "Law 1 & 2", "Algorithms and Data Structures", "Open Operating Systems", "Business Administration 1 & 2", "Information Theory", "Project Management 1 & 2", "Distributed Systems 1 & 2", "Artificial Intelligence", "Data Security 1 & 2", "Database Systems", "Configuration Management", "Modeling Techniques and System Analysis", "Software Engineering 1 & 2", "Machine Learning", "User-Centered Design & User Experience Design", "Advanced Concepts in C++", "Cloud Infrastructure", "Continuous Integration", "Software Testing and Quality Assurance", "Functional Programming", "Software Component Systems", "Scientific Project Support", "Internship", "Soft Skills (English, Time Management, Teamwork, etc.)"]
+      "courses": [
+        "Introduction to Computer Science",
+        "Operating Systems and Computer Architectures",
+        "Data Modeling & Databases",
+        "Fundamentals of Programming 1 & 2",
+        "Fundamentals of Networking",
+        "Computer Science and Society",
+        "Mathematics 1 & 2",
+        "Applied Mathematics 1 & 2",
+        "Web Technologies 1 & 2",
+        "Law 1 & 2",
+        "Algorithms and Data Structures",
+        "Open Operating Systems",
+        "Business Administration 1 & 2",
+        "Information Theory",
+        "Project Management 1 & 2",
+        "Distributed Systems 1 & 2",
+        "Artificial Intelligence",
+        "Data Security 1 & 2",
+        "Database Systems",
+        "Configuration Management",
+        "Modeling Techniques and System Analysis",
+        "Software Engineering 1 & 2",
+        "Machine Learning",
+        "User-Centered Design & User Experience Design",
+        "Advanced Concepts in C++",
+        "Cloud Infrastructure",
+        "Continuous Integration",
+        "Software Testing and Quality Assurance",
+        "Functional Programming",
+        "Software Component Systems",
+        "Scientific Project Support",
+        "Internship",
+        "Soft Skills (English, Time Management, Teamwork, etc.)"
+      ]
     },
     {
       "institution": "BRG Schloss Wagrain",
@@ -212,25 +263,13 @@
       "name": "Backend & APIs",
       "level": "Advanced",
       "icon": "fa-solid fa-server",
-      "keywords": [
-        "REST API Design",
-        "Microservice Architecture",
-        "Auth, Accounts & Security",
-        "SQL and Database Modeling",
-        "Database modeling"
-      ]
+      "keywords": ["REST API Design", "Microservice Architecture", "Auth, Accounts & Security", "SQL and Database Modeling", "Database modeling"]
     },
     {
       "name": "Frontend & Web",
       "level": "Intermediate",
       "icon": "fa-solid fa-code",
-      "keywords": [
-        "SPA Architecture (Vue.js, SAPUI4)",
-        "JavaScript",
-        "HTML5 / CSS3",
-        "Bootstrap, Tailwind",
-        "Static sites (Jekyll, Hugo)"
-      ]
+      "keywords": ["SPA Architecture (Vue.js, SAPUI4)", "JavaScript", "HTML5 / CSS3", "Bootstrap, Tailwind", "Static sites (Jekyll, Hugo)"]
     },
     {
       "name": "Geospatial & Remote Sensing",
@@ -250,14 +289,7 @@
       "name": "Machine Learning & AI",
       "level": "Advanced",
       "icon": "fa-solid fa-brain",
-      "keywords": [
-        "Python",
-        "PyTorch",
-        "Computer Vision",
-        "Deep Learning",
-        "Experiment Design",
-        "Model Evaluation"
-      ]
+      "keywords": ["Python", "PyTorch", "Computer Vision", "Deep Learning", "Experiment Design", "Model Evaluation"]
     },
     {
       "name": "DevOps, Data & Infrastructure",
@@ -277,12 +309,7 @@
       "name": "3D & Visualization (Godot)",
       "level": "Intermediate",
       "icon": "fa-solid fa-cubes",
-      "keywords": [
-        "Godot Engine",
-        "Custom Shaders",
-        "Landscape Visualization",
-        "Interactive Demos"
-      ]
+      "keywords": ["Godot Engine", "Custom Shaders", "Landscape Visualization", "Interactive Demos"]
     },
     {
       "name": "Research, Facilitation & Product",
@@ -340,7 +367,7 @@
     {
       "name": "Photography",
       "icon": "fa-solid fa-camera"
-    }   
+    }
   ],
   "projects": [
     {
@@ -358,7 +385,7 @@
       "url": "https://biopv.boku.ac.at",
       "startDate": "2022-11-09",
       "endDate": "2025-12-31"
-    }, 
+    },
     {
       "name": "LandscapeLab",
       "summary": "An open kit for developing game-based participatory landscape-planning tools.",

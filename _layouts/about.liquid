@@ -4,7 +4,6 @@ layout: default
 <!-- About Page Content -->
 <div class="full-height d-flex flex-column">
   <div class="container d-flex flex-column flex-base justify-content-center">
-    
     <div class="d-flex flex-column align-self-center glassy-box p-5">
       <header class="post-header">
         <h1 class="post-title">
@@ -17,12 +16,15 @@ layout: default
         </h1>
         <p class="desc">{{ page.subtitle }}</p>
       </header>
-      
+
       <hr>
 
       <div class="d-flex profile-container flex-row flex-wrap flex-base">
         {% if page.profile %}
-          <div style="flex-grow: 1" class="profile d-flex align-self-stretch flex-row fancy-border float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+          <div
+            style="flex-grow: 1"
+            class="profile d-flex align-self-stretch flex-row fancy-border float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}"
+          >
             {% if page.profile.image %}
               {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
               {% if page.profile.image_circular %}
@@ -44,7 +46,6 @@ layout: default
         {% endif %}
 
         <div style="flex: 15; padding-top: 15px" class="clearfix">{{ content }}</div>
-
       </div>
     </div>
   </div>
@@ -52,8 +53,10 @@ layout: default
   <!-- Bottom border line -->
   <div class="algin-self-end" id="anchor-bottom">
     <!-- font awesome arrows -->
-    <button id="invisible-button" 
-      onclick="document.getElementById('anchor-bottom').scrollIntoView({ behavior: 'smooth', inline: 'end' });">
+    <button
+      id="invisible-button"
+      onclick="document.getElementById('anchor-bottom').scrollIntoView({ behavior: 'smooth', inline: 'end' });"
+    >
       <svg id="animated-arrows" xmlns="http://www.w3.org/2000/svg" viewBox="-256 0 1024 1024">
         <path id="animated-arrow" class="animated-arrow-top" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
         <path id="animated-arrow" class="animated-arrow-middle" d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/>
@@ -104,7 +107,9 @@ layout: default
         <div class="contact-icons">{% include social.liquid %}</div>
         <div class="vr d-flex flex-row"></div>
       </div>
-      <div class="contact-note"><p>{{ site.contact_note }}</p></div>
+      <div class="contact-note">
+        <p>{{ site.contact_note }}</p>
+      </div>
     </div>
 
     {% if site.email %}

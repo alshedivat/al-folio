@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Mathias
-middle_name: 
+middle_name:
 last_name: Baumgartinger-Seiringer
 last_name_short: Baumgartinger-S.
 email: mathias.baumgartinger@proton.me
@@ -154,7 +154,6 @@ collections:
   talks:
     output: true
     permalink: /talks/:path/
-
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

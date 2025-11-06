@@ -18,17 +18,17 @@
                 </tr>
               {% endif %}
               {% if content.highlights %}
-              <tr>
-                <td>
-                  <ul class="cv-skills" style="font-size: 0.75rem; font-weight: bold;">
-                  {% for item in content.highlights %}
-                    <li>
-                      <span class="item">{{ item }}</span>
-                    </li>
-                  {% endfor %}
-                  </ul>
-                </td>
-              </tr>
+                <tr>
+                  <td>
+                    <ul class="cv-skills" style="font-size: 0.75rem; font-weight: bold;">
+                      {% for item in content.highlights %}
+                        <li>
+                          <span class="item">{{ item }}</span>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </td>
+                </tr>
               {% endif %}
             </tbody>
           </table>
@@ -37,7 +37,7 @@
           <h6 class="title font-weight-bold ml-1 ml-md-4" style="display: flex; align-items: center; gap: 0.5rem;">
             <a href="{{ content.url }}">{{ content.position }}</a>
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">  {{ content.summary | replace: '\n', '<br />' | newline_to_br }}</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary | replace: '\n', '<br />' | newline_to_br }}</h6>
         </div>
       </div>
     </li>

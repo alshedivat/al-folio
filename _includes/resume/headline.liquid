@@ -14,36 +14,37 @@
     <img
       src="{{ include.content.logo | relative_url }}"
       alt="logo"
-      class="auto-invert cv-logo-stamp">
+      class="auto-invert cv-logo-stamp"
+    >
   {% endif %}
   <div class="ml-3" style="display: flex; flex-direction: column; justify-content: center;">
     <h6 style="font-weight: bold; font-size: 1.1rem; margin-bottom: 0;">{{ include.head }}</h6>
     <p style="font-size: 0.8rem; font-style: italic; margin: 0;">
       {% if include.content.date %}
-        {% assign date = include.content.date | date: "%b. %Y" %}
+        {% assign date = include.content.date | date: '%b. %Y' %}
         {{ date }}
-        {% elsif include.content.startDate %}
+      {% elsif include.content.startDate %}
         {% comment %} Format start date {% endcomment %}
-        {% assign startDateObj = include.content.startDate | date: "%b. %Y" %}
+        {% assign startDateObj = include.content.startDate | date: '%b. %Y' %}
 
         {% comment %} Format end date {% endcomment %}
         {% if include.content.endDate %}
-          {% assign endDateObj = include.content.endDate | date: "%b. %Y" %}
+          {% assign endDateObj = include.content.endDate | date: '%b. %Y' %}
         {% else %}
-          {% assign endDateObj = "Present" %}
+          {% assign endDateObj = 'Present' %}
         {% endif %}
 
-      {% assign date = startDateObj | append: ' - ' | append: endDateObj %}
+        {% assign date = startDateObj | append: ' - ' | append: endDateObj %}
 
         {% comment %} Check if we should show duration (default to true if not specified) {% endcomment %}
         {% assign showDuration = include.showDuration | default: true %}
 
         {% if showDuration %}
-          {% assign start = include.content.startDate | date: "%s" %}
+          {% assign start = include.content.startDate | date: '%s' %}
           {% if include.content.endDate %}
-            {% assign end = include.content.endDate | date: "%s" %}
+            {% assign end = include.content.endDate | date: '%s' %}
           {% else %}
-            {% assign end = "now" | date: "%s" %}
+            {% assign end = 'now' | date: '%s' %}
           {% endif %}
           {% assign total_days = end | minus: start | divided_by: 86400 %}
           {% assign years = total_days | divided_by: 365 %}
