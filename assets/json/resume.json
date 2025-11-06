@@ -209,6 +209,30 @@
   ],
   "skills": [
     {
+      "name": "Backend & APIs",
+      "level": "Advanced",
+      "icon": "fa-solid fa-server",
+      "keywords": [
+        "REST API Design",
+        "Microservice Architecture",
+        "Auth, Accounts & Security",
+        "SQL and Database Modeling",
+        "Database modeling"
+      ]
+    },
+    {
+      "name": "Frontend & Web",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "SPA Architecture (Vue.js, SAPUI4)",
+        "JavaScript",
+        "HTML5 / CSS3",
+        "Bootstrap, Tailwind",
+        "Static sites (Jekyll, Hugo)"
+      ]
+    },
+    {
       "name": "Geospatial & Remote Sensing",
       "level": "Advanced",
       "icon": "fa-solid fa-globe-europe",
@@ -233,30 +257,6 @@
         "Deep Learning",
         "Experiment Design",
         "Model Evaluation"
-      ]
-    },
-    {
-      "name": "Backend & APIs",
-      "level": "Advanced",
-      "icon": "fa-solid fa-server",
-      "keywords": [
-        "REST API Design",
-        "Microservice Architecture",
-        "Auth, Accounts & Security",
-        "SQL and Database Modeling",
-        "Database modeling"
-      ]
-    },
-    {
-      "name": "Frontend & Web",
-      "level": "Intermediate",
-      "icon": "fa-solid fa-code",
-      "keywords": [
-        "SPA Architecture (Vue.js, SAPUI4)",
-        "JavaScript",
-        "HTML5 / CSS3",
-        "Bootstrap, Tailwind",
-        "Static sites (Jekyll, Hugo)"
       ]
     },
     {
