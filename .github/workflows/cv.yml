@@ -25,13 +25,13 @@ jobs:
 
       - name: Generate HTML from resume.json
         run: |
-          npx resumed render assets/json/resume.json --theme jsonresume-theme-even --output assets/pdf/cv.html
+          npx resumed render assets/json/resume.json --theme jsonresume-theme-even --output assets/pdf/index.html
 
       - name: Generate PDF from HTML
-        uses: markwilson/html2pdf@v1.0
+        uses: ferdinandkeller/html-to-pdf-action@v2
         with:
-          htmlPath: 'assets/pdf/cv.html'
-          pdfName: 'assets/pdf/cv'
+          source-path: ".assets/pdf/"
+          destination-path: "./assets/pdf/cv.pdf"
 
       - name: Upload cv artifact
         uses: actions/upload-artifact@v4
