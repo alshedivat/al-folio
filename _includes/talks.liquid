@@ -1,3 +1,152 @@
-<header class="post-header">
-  <h1 class="post-title">Talks</h1>
-</header>
+<h2 class="bibliography">
+  {{ talk.date.year }}
+</h2>
+<ol class="bibliography">
+  <li>
+    <div class="row">
+      {% if talk.preview %}
+        <div class="col-sm-2 preview">
+          {% assign talk_path = talk.preview | prepend: '/assets/img/publication_preview/' %}
+          {% include figure.liquid loading="eager" path=talk_path sizes = "200px" class="preview z-depth-1 rounded" zoomable=true avoid_scaling=true alt=talk.preview %}
+        </div>
+      {% endif %}
+      <div id="article" class="col-sm-8">
+        <div class="title">
+          {{ talk.title }}
+        </div>
+        {% if talk.authors %}
+          <!-- Author -->
+          <div class="author">
+            {% assign author_array_size = talk.authors | size %}
+
+            {% assign author_array_limit = author_array_size %}
+            {% if site.max_author_limit and author_array_size > site.max_author_limit %}
+              {% assign author_array_limit = site.max_author_limit %}
+            {% endif %}
+
+            {%- for author in talk.authors limit: author_array_limit -%}
+              {% assign author_is_self = false %}
+              {%- assign author_first_name = author | split: ' ' | first -%}
+              {%- assign author_last_name = author | split: ' ' | last -%}
+              {% if site.scholar.last_name contains author_last_name %}
+                {% if site.scholar.first_name contains author_first_name %}
+                  {% assign author_is_self = true %}
+                {% endif %}
+              {%- endif -%}
+              {% assign coauthor_url = null %}
+              {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
+              {% if site.data.coauthors[clean_last_name] %}
+                {%- for coauthor in site.data.coauthors[clean_last_name] -%}
+                  {% if coauthor.firstname contains author.first %}
+                    {%- assign coauthor_url = coauthor.url -%}
+                    {% break %}
+                  {%- endif -%}
+                {% endfor %}
+              {%- endif -%}
+
+              {%- if forloop.length > 1 -%}
+                {% if forloop.first == false -%}
+                  {%- if forloop.length > 2 -%}
+                    ,
+                  {% elsif forloop.length == 2 %}
+
+                  {% endif %}
+                {%- endif %}
+                {%- if forloop.last and author_array_limit == author_array_size -%}
+                  and
+                {% endif -%}
+              {% endif %}
+              {%- if author_is_self -%}
+                <em>
+                  {{- author_first_name }}
+                  {{ author_last_name -}}
+                </em>
+              {%- else -%}
+                {%- if coauthor_url -%}
+                  <a href="{{ coauthor_url }}">
+                    {{- author_first_name }}
+                    {{ author_last_name -}}
+                  </a>
+                {%- else -%}
+                  {{- author_first_name }}
+                  {{ author_last_name -}}
+                {% endif %}
+              {%- endif -%}
+            {% endfor %}
+            {%- assign more_authors = author_array_size | minus: author_array_limit -%}
+
+            {%- assign more_authors_hide = more_authors | append: ' more author' -%}
+            {% if more_authors > 0 %}
+              {%- if more_authors > 1 -%}
+                {% assign more_authors_hide = more_authors_hide | append: 's' %}
+              {%- endif -%}
+              {% assign more_authors_show = '' %}
+              {%- for author in talk.author_array offset: author_array_limit -%}
+                {% assign more_authors_show = more_authors_show | append: author.first | append: ' ' | append: author.last %}
+                {% unless forloop.last %}
+                  {% assign more_authors_show = more_authors_show | append: ', ' %}
+                {% endunless %}
+              {%- endfor -%}
+              {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+              , and
+              <span
+                class="more-authors"
+                title="click to view {{ more_authors_hide }}"
+                onclick="
+                    var element = $(this);
+                    element.attr('title', '');
+                    var more_authors_text = element.text() == '{{ more_authors_hide }}' ? '{{ more_authors_show }}' : '{{ more_authors_hide }}';
+                    var cursorPosition = 0;
+                    var textAdder = setInterval(function(){
+                      element.html(more_authors_text.substring(0, cursorPosition + 1));
+                      if (++cursorPosition == more_authors_text.length){
+                        clearInterval(textAdder);
+                      }
+                  }, '{{ site.more_authors_animation_delay }}');
+                "
+              >
+                {{- more_authors_hide -}}
+              </span>
+            {% endif %}
+            {% if talk.annotation %}
+              <i
+                class="fa-solid fa-circle-info ml-1"
+                data-toggle="popover"
+                data-placement="top"
+                data-html="true"
+                data-content="{{ talk.annotation | escape }}"
+              ></i>
+            {% endif %}
+          </div>
+        {% endif %}
+        {% if talk.date %}
+          <p style="display: inline;">{{ talk.date | date: '%B %Y' }}</p>
+        {% endif %}
+        {% if talk.online %}
+          <div class="doi">
+            <a
+              href="{{ talk.online }}"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-link"></i>
+              see online
+            </a>
+          </div>
+        {% endif %}
+        {% if talk.location != blank %}
+          <span style="display: inline-block;">
+            <i class="fa-solid fa-location-dot"></i>
+            <p style="display: inline;">{{ talk.location }}</p>
+          </span>
+        {% endif %}
+        {% if talk.is_remote %}
+          <span style="display: inline-block;">
+            <i class="fa-solid fa-globe"></i>
+            <p style="display: inline;">remote</p>
+          </span>
+        {% endif %}
+      </div>
+    </div>
+  </li>
+</ol>
