@@ -9,16 +9,16 @@
   - showDuration: Boolean to show duration calculation (default: true)
 {% endcomment %}
 
-<div class="row mb-2">
+<div class="row mb-2 align-items-center">
   {% if include.content.logo %}
     <img
       src="{{ include.content.logo | relative_url }}"
       alt="logo"
       class="auto-invert cv-logo-stamp">
   {% endif %}
-  <div class="ml-3">
-    <h6 style="font-weight: bold; font-size: 1.1rem">{{ include.head }}</h6>
-    <p style="font-size: 0.8rem; font-style: italic; margin-top: -10px;">
+  <div class="ml-3" style="display: flex; flex-direction: column; justify-content: center;">
+    <h6 style="font-weight: bold; font-size: 1.1rem; margin-bottom: 0;">{{ include.head }}</h6>
+    <p style="font-size: 0.8rem; font-style: italic; margin: 0;">
       {% if include.content.date %}
         {% assign date = include.content.date | date: "%b. %Y" %}
         {{ date }}
