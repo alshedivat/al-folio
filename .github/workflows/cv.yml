@@ -29,8 +29,7 @@ jobs:
 
       - name: Generate PDF from HTML
         run: /
-          sudo apt-get install wkhtmltopdf
-          wkhtmltopdf assets/pdf/index.html assets/pdf/cv.pdf
+          sudo apt-get install wkhtmltopdf && wkhtmltopdf assets/pdf/index.html assets/pdf/cv.pdf
 
       - name: Upload cv artifact
         uses: actions/upload-artifact@v4
