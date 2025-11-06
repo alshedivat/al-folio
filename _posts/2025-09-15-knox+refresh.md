@@ -5,6 +5,7 @@ description: "How Django-Rest-Knox auth-system can be extended: short-lived acce
 tags: [code, python, django, drf, knox, security, tokens, spa, csrf, cors]
 date: 2025-08-15
 giscus_comments: true
+category: software-engineering
 featured: true
 code_diff: true
 mermaid:
