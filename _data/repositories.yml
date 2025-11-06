@@ -3,8 +3,7 @@ github_users:
 github_repos:
   - boku-ilen/landscapelab
   - boku-ilen/geodot-plugin
+  - boku-ilen/godot-vr-toolkit
   - mathiasbaumgartinger/millionairequiz
-  - torvalds
-  - alshedivat
 
 repo_description_lines_max: 2
