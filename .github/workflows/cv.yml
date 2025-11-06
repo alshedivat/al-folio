@@ -38,3 +38,9 @@ jobs:
         with:
           name: cv
           path: 'assets/pdf/cv.pdf'
+      
+      - name: Upload cv artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv
+          path: 'assets/pdf/index.html'
