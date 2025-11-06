@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build_resume:
+    name: build resume using resume.json
+    runs-on: ubuntu-latest
+    steps:
+      - name: npm install, build and test
+        run: |
+          npm install -g resume-cli
+          resume export cv.pdf
+      - name: Upload cv artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv.pdf
+          path: cv.pdf
