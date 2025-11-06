@@ -30,7 +30,7 @@ jobs:
       - name: Generate PDF from HTML
         uses: ferdinandkeller/html-to-pdf-action@v2
         with:
-          source-path: ".assets/pdf/"
+          source-path: "./assets/pdf/"
           destination-path: "./assets/pdf/cv.pdf"
 
       - name: Upload cv artifact
