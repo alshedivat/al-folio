@@ -42,5 +42,5 @@ jobs:
       - name: Upload cv artifact
         uses: actions/upload-artifact@v4
         with:
-          name: cv
+          name: index
           path: 'assets/pdf/index.html'
