@@ -1,6 +1,9 @@
 <header>
   <!-- Nav Bar -->
-  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+  <nav
+    id="navbar"
+    class="glassy-box navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}"
+    role="navigation">
     <div class="container">
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
@@ -32,18 +35,19 @@
         data-target="#navbarNav"
         aria-controls="navbarNav"
         aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+        aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
       </button>
 
-      <div class="collapse navbar-collapse text-right" id="navbarNav">
+      <div class="collapse navbar-collapse p-3 p-sm-0 glassy-box-navbar text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           {% for page in site.pages %}
-            {% if page.permalink == '/' %} {% assign about_title = page.title %} {% endif %}
+            {% if page.permalink == '/' %}
+              {% assign about_title = page.title %}
+            {% endif %}
           {% endfor %}
 
           <!-- About -->
@@ -54,7 +58,7 @@
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
-          </li>
+        </li>
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -75,8 +79,7 @@
                     role="button"
                     data-toggle="dropdown"
                     aria-haspopup="true"
-                    aria-expanded="false"
-                  >
+                    aria-expanded="false">
                     {{- p.title }}
                     {% if page.title == p.title or has_active_child %}
                       <span class="sr-only">(current)</span>
@@ -87,10 +90,7 @@
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
-                        <a
-                          class="dropdown-item {% if page.title == child.title %}active{% endif %}"
-                          href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
-                        >
+                        <a class="dropdown-item {% if page.title == child.title %}active{% endif %}" href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}">
                           {{- child.title -}}
                         </a>
                       {% endif %}
@@ -120,8 +120,13 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              <button
+                id="search-toggle"
+                title="Search"
+                onclick="openSearchModal()">
+                <span class="nav-link">ctrl k
+                  <i class="ti ti-search"></i>
+                </span>
               </button>
             </li>
           {% endif %}
