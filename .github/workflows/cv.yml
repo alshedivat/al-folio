@@ -27,27 +27,14 @@ jobs:
         run: |
           npx resumed render assets/json/resume.json --theme jsonresume-theme-even --output assets/pdf/cv.html
 
-      - name: Install Playwright for PDF conversion
-        run: |
-          npm install playwright
-
-      - name: Convert HTML to PDF
-        run: |
-          cat > convert-html-to-pdf.js << 'EOF'
-          const { chromium } = require('playwright');
-          
-          (async () => {
-            const browser = await chromium.launch();
-            const page = await browser.newPage();
-            await page.goto('file:///home/mathias/Dev/al-folio/assets/pdf/cv.html', { waitUntil: 'networkidle' });
-            await page.pdf({ path: 'assets/pdf/cv.pdf', format: 'A4' });
-            await browser.close();
-          })();
-          EOF
-          node convert-html-to-pdf.js
+      - name: Generate PDF from HTML
+        uses: markwilson/html2pdf@v1.0
+        with:
+          htmlPath: 'assets/pdf/cv.html'
+          pdfName: 'assets/pdf/cv.pdf'
 
       - name: Upload cv artifact
         uses: actions/upload-artifact@v4
         with:
           name: cv
-          path: assets/pdf/cv.pdf
+          path: 'assets/pdf/cv.pdf'
