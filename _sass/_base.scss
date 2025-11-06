@@ -1728,6 +1728,22 @@ figure.cover {
   background-color: unset !important;
 }
 
+@media screen and (max-width: 575px) {
+  .glassy-box-navbar {
+    backdrop-filter: blur(100px);
+    background-image: linear-gradient(
+      to top left,
+      rgba(var(--global-theme-color-rgb), 0.15) 0%,
+      rgba(0, 0, 0, 0.0001) 20%,
+      rgba(0, 0, 0, 0.001) 50%,
+      rgba(0, 0, 0, 0.025) 100%
+    );
+    border: rgba(var(--global-theme-color-rgb), 0.05) 1px solid !important;
+    box-shadow: 0 0 10px rgba(var(--global-theme-color-rgb), 0.15);
+    background-color: unset !important;
+  }
+}
+
 .project-logo-stamp {
   position: absolute;
   bottom: 12px;
