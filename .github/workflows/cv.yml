@@ -11,7 +11,7 @@ jobs:
       - name: npm install, build and test
         run: |
           npm install -g resume-cli
-          resume export cv.pdf
+          cd assets/json && resume export ../pdf/cv.pdf
       - name: Upload cv artifact
         uses: actions/upload-artifact@v4
         with:
