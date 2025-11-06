@@ -2,11 +2,18 @@
 layout: page
 permalink: /teaching/
 title: Teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Teaching experience at University of Washington and Peking University.
 nav: false
 nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## University of Washington
 
-Organize your courses by years, topics, or universities, however you like!
+**Teaching Assistant - CSE529: Computational Genomics** (2023-2024)
+
+**Teaching Assistant - CSE427: Computational Biology** (2023)
+
+## Peking University
+
+**Tutorial Instructor - Advanced Mathematics in the School of Life Science** (2019)
+
