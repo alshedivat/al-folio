@@ -8,12 +8,46 @@ jobs:
     name: build resume using resume.json
     runs-on: ubuntu-latest
     steps:
-      - name: npm install, build and test
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Create PDF directory
+        run: mkdir -p assets/pdf
+
+      - name: Install dependencies
         run: |
-          npm install -g resume-cli
-          cd assets/json && resume export ../pdf/cv.pdf
+          npm install resumed jsonresume-theme-even
+
+      - name: Generate HTML from resume.json
+        run: |
+          npx resumed render assets/json/resume.json --theme jsonresume-theme-even --output assets/pdf/cv.html
+
+      - name: Install Playwright for PDF conversion
+        run: |
+          npm install playwright
+
+      - name: Convert HTML to PDF
+        run: |
+          cat > convert-html-to-pdf.js << 'EOF'
+          const { chromium } = require('playwright');
+          
+          (async () => {
+            const browser = await chromium.launch();
+            const page = await browser.newPage();
+            await page.goto('file:///home/mathias/Dev/al-folio/assets/pdf/cv.html', { waitUntil: 'networkidle' });
+            await page.pdf({ path: 'assets/pdf/cv.pdf', format: 'A4' });
+            await browser.close();
+          })();
+          EOF
+          node convert-html-to-pdf.js
+
       - name: Upload cv artifact
         uses: actions/upload-artifact@v4
         with:
-          name: cv.pdf
-          path: cv.pdf
+          name: cv
+          path: assets/pdf/cv.pdf
