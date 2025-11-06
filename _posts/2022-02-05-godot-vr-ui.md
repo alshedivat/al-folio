@@ -36,7 +36,7 @@ _styles: >
 
 ## TL;DR
 
-For the Godot VR Toolkit I wanted **proper GUI interaction in VR** without rewriting or reinventing the wheel. 
+For the Godot VR Toolkit I wanted **proper GUI interaction in VR** without rewriting or reinventing the wheel.
 So, I kept using **normal Godot `Control` nodes** and made them think they were being used with a mouse:
 
 - A `Viewport` hosts a regular 2D UI.
@@ -56,7 +56,7 @@ The implementation can be found on [Github](https://github.com/boku-ilen/godot-v
 Godot is fundamentally stable and user-friendly at 2D GUIs: `Control` hierarchies, themes, focus handling, signals -- all the usual desktop UI goodies.
 
 VR, on the other hand, lives entirely in 3D: controllers/hand meshes, raycasts, spatial interactions and depth perception.
-What you *don't* have is a mouse pointer.
+What you _don't_ have is a mouse pointer.
 
 Traditionally, user interface interactions in VR are handled by casting a ray from the controller (like a "laser pointer") or by directly pinching, hence touching objects with a virtual hand/finger.
 Naively, you could:
@@ -72,8 +72,8 @@ So instead I went for a "cheaper" trick that reuses Godot's existing 2D GUI syst
 
 That leads to a very simple mental model:
 
-- From VR's perspective: *“I cast a ray / move a finger to a panel.”*
-- From the UI's perspective: *“The mouse moved to `(x, y)` and clicked.”*
+- From VR's perspective: _“I cast a ray / move a finger to a panel.”_
+- From the UI's perspective: _“The mouse moved to `(x, y)` and clicked.”_
 
 Everything in between is just coordinate transformations and synthetic input events.
 
@@ -96,7 +96,7 @@ In a slightly simplified picture:
 
 ```mermaid
 flowchart LR
-  H[VR Hand / Controller] 
+  H[VR Hand / Controller]
   H --> R[Raycast]
   H --> G[Finger Collider]
   R -->|collide| M[GUI Mesh]
@@ -194,6 +194,7 @@ This function turns a **3D hit position on the GUI mesh** into a **2D mouse-like
 - `pressed`: only relevant for button events, indicates down/up.
 
 The rest of the function:
+
 1. Converts coordinates into viewport space.
 2. Builds the appropriate mouse event.
 3. Sends it into the viewport so regular Godot `Control` nodes react to it.
@@ -296,7 +297,7 @@ Here we instantiate whichever mouse event type was passed in (`InputEventMouseMo
 	last_pos2D = position2D
 	event.position = position2D
 	event.global_position = position2D
-	
+
 	event.device = device_id
 	viewport.input(event)
 ```
@@ -307,9 +308,9 @@ Here we instantiate whichever mouse event type was passed in (`InputEventMouseMo
 - Finally, `viewport.input(event)` injects the event into the viewport's input pipeline.
 
 From this point on, Godot treats it like a **normal mouse event**:
+
 - Buttons, sliders, and other `Control` nodes react to hover and clicks.
 - No special VR logic is needed in the UI layer -- everything is handled via synthetic mouse events.
-
 
 The nice part is that **dragging a slider** via a VR ray is literally the same code path as dragging it with a real mouse.
 
@@ -352,7 +353,7 @@ The mouse model assumes a single pointer. In practice, I make a conscious decisi
 
 For more complex setups you could emulate multiple mice by tagging events, but that quickly diverges from Godot's standard assumptions.
 
-### 4. When *not* to fake mouse events
+### 4. When _not_ to fake mouse events
 
 Not every VR interaction needs to pretend to be a mouse:
 
