@@ -13,4 +13,4 @@ It serves as my online "business-card" showcasing my profile:
 - projects and repositories
 - research and publications
 
-Check it out at [mathias.toothgap.at](mathias.toothgap.ato) and stay tuned for updates!
+Check it out at [mathias.toothgap.at](https://mathias.toothgap.at) and stay tuned for updates!
