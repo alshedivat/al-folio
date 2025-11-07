@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Mathias Baumgartinger-Seiringer",
-    "label": "&ensp;<i class='fa-solid fa-code'></i>&ensp;Computer Scientist. &ensp;<i class='fa-solid fa-book'></i>&ensp;Academic.",
+    "label": "<i class='fa-solid fa-code'></i> Computer Scientist. <i class='fa-solid fa-book'></i> Academic.",
     "image": "",
     "email": "mathias.baumgartinger@proton.me",
     "phone": "+43 680 1311072",
-    "url": "https://toothgap.at",
+    "url": "https://mathias.toothgap.at",
     "summary": "My name is Mathias Baumgartinger-Seiringer. I am a creative developer that is passionate about craftsmanship surrounding software, games and other digital creations. Also, I am a firm believer in free and open source tools.",
     "location": {
       "address": "Huglgasse 26",
@@ -85,7 +85,7 @@
       "location": "Austria, Vöcklabruck",
       "url": "http://youx.at",
       "startDate": "2018-07-01",
-      "endDate": "2017-07-31",
+      "endDate": "2018-07-31",
       "summary": "• Support during open operations, organization of workshops/events, and reliable handovers\n• Teamwork in shift operations, support during workshops/events",
       "highlights": ["Communication", "Organization", "Teamwork"]
     },
@@ -99,18 +99,6 @@
       "endDate": "2017-06-30",
       "summary": "• Support during open operations, organization of workshops/events, and reliable handovers\n• Teamwork in shift operations, support during workshops/events",
       "highlights": ["Communication", "Organization", "Teamwork"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Social Market",
-      "logo": "assets/img/employers/rotes_kreuz.png",
-      "location": "Austria, Vöcklamarkt",
-      "position": "Temporary Worker",
-      "url": "https://www.nachrichten.at/oberoesterreich/salzkammergut/junge-leute-packten-im-sozialmarkt-an;art71,3260855",
-      "startDate": "2020-01-01",
-      "endDate": "2020-08-30",
-      "summary": "Temporary worker during the coronavirus pandemic to ensure operations continue."
     }
   ],
   "education": [
@@ -190,74 +178,25 @@
       "location": "Austria, Vöcklabruck",
       "logo": "assets/img/uni/brgsw.png",
       "url": "https://www.brgsw.at",
-      "area": "natural sciences",
+      "area": "Natural Sciences",
       "studyType": "A-Levels",
       "startDate": "2012-09-10",
-      "endDate": "2016-12-10"
+      "endDate": "2016-06-15"
     }
   ],
-  "awards": [
+  "volunteer": [
     {
-      "title": "Energy Globe Wien 2022",
-      "date": "2023-04-17",
-      "awarder": "Energy Globe Foundation",
-      "summary": "Recognized for exceptional contributions to climate protection.",
-      "url": "https://parkworking.at/wp-content/uploads/2023/04/energyglobe_parkworking_presse_230417_fin.pdf"
+      "organization": "Social Market",
+      "logo": "assets/img/employers/rotes_kreuz.png",
+      "location": "Austria, Vöcklamarkt",
+      "position": "Temporary Worker",
+      "url": "https://www.nachrichten.at/oberoesterreich/salzkammergut/junge-leute-packten-im-sozialmarkt-an;art71,3260855",
+      "startDate": "2020-01-01",
+      "endDate": "2020-08-30",
+      "summary": "Temporary worker during the coronavirus pandemic to ensure operations continue."
     }
   ],
-  "certificates": [
-    {
-      "name": "Introduction to Working on the ASC Clusters",
-      "date": "2023-01-19",
-      "issuer": "Austria Scientific Cluster (ASC, formerly VSC)",
-      "url": "https://events.asc.ac.at/event/191/",
-      "icon": "fa-solid fa-desktop-dot"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Concepts of Virtual Reality in GIS",
-      "publisher": "Bachelor Thesis",
-      "releaseDate": "2020-05-01",
-      "url": "https://doi.org/10.13140/RG.2.2.14160.74247",
-      "summary": "Due to the rapid progress of virtual reality hardware, these technologies are no longer niche products. Together with the much easier access to open geodata, new possibilities for procedural visualizations have opened up, combining Virtual Reality and GIS (VRGIS) technologies. In this bachelor thesis a prototypical implementation of a modern VRGIS software is presented, including concepts for movement, orientation and visualization of data."
-    },
-    {
-      "name": "Large-Scale Agrivoltaics Visualisations for Assessing Landscape Impacts and Social Acceptance",
-      "publisher": "AgriVoltaics Conference Proceedings",
-      "releaseDate": "2024-02-01",
-      "url": "https://doi.org/10.52825/agripv.v1i.596",
-      "summary": "Research article on large-scale agrivoltaics visualizations and their role in assessing landscape impacts and social acceptance."
-    },
-    {
-      "name": "Fencing Virtual Landscapes: Using GIS to Identify and Classify Fences and Hedges for More Accurate Landscape Visualizations",
-      "publisher": "Journal of Digital Landscape Architecture",
-      "releaseDate": "2025-06-01",
-      "url": "https://doi.org/10.14627/537754054",
-      "summary": "Conference paper on using GIS to identify and classify fences and hedges for more accurate landscape visualizations."
-    },
-    {
-      "name": "Real-Time VR Landscape Visualization for Wind Farm Repowering: A Case Study in Eastern Austrian World Heritage Sites",
-      "publisher": "Journal of Digital Landscape Architecture",
-      "releaseDate": "2024-06-01",
-      "url": "https://doi.org/10.14627/537752033",
-      "summary": "Conference paper presenting a case study on real-time VR landscape visualization for wind farm repowering in Eastern Austrian World Heritage Sites."
-    },
-    {
-      "name": "Windenergie im Spannungsfeld: Gesellschaftliche Akzeptanz, ökologische Herausforderungen und innovative Lösungen",
-      "publisher": "Poster presentation",
-      "releaseDate": "2025-02-01",
-      "url": "",
-      "summary": "Poster presentation on wind energy in areas of tension: societal acceptance, ecological challenges, and innovative solutions."
-    },
-    {
-      "name": "Photovoltaik, Mensch und Biosphäre: Ein transdisziplinärer Ansatz zur Förderung der alpinen Resilienz",
-      "publisher": "Poster presentation",
-      "releaseDate": "2023-06-01",
-      "url": "https://doi.org/10.13140/RG.2.2.32718.23361",
-      "summary": "Poster presentation on a transdisciplinary approach to promote alpine resilience through photovoltaics, human interaction, and biosphere considerations."
-    }
-  ],
+
   "skills": [
     {
       "name": "Backend & APIs",
@@ -367,6 +306,68 @@
     {
       "name": "Photography",
       "icon": "fa-solid fa-camera"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Energy Globe Wien 2022",
+      "date": "2023-04-17",
+      "awarder": "Energy Globe Foundation",
+      "summary": "Recognized for exceptional contributions to climate protection.",
+      "url": "https://parkworking.at/wp-content/uploads/2023/04/energyglobe_parkworking_presse_230417_fin.pdf"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Introduction to Working on the ASC Clusters",
+      "date": "2023-01-19",
+      "issuer": "Austria Scientific Cluster (ASC, formerly VSC)",
+      "url": "https://events.asc.ac.at/event/191/",
+      "icon": "fa-solid fa-desktop-dot"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Concepts of Virtual Reality in GIS",
+      "publisher": "Bachelor Thesis",
+      "releaseDate": "2020-05-01",
+      "url": "https://doi.org/10.13140/RG.2.2.14160.74247",
+      "summary": "Due to the rapid progress of virtual reality hardware, these technologies are no longer niche products. Together with the much easier access to open geodata, new possibilities for procedural visualizations have opened up, combining Virtual Reality and GIS (VRGIS) technologies. In this bachelor thesis a prototypical implementation of a modern VRGIS software is presented, including concepts for movement, orientation and visualization of data."
+    },
+    {
+      "name": "Large-Scale Agrivoltaics Visualisations for Assessing Landscape Impacts and Social Acceptance",
+      "publisher": "AgriVoltaics Conference Proceedings",
+      "releaseDate": "2024-02-01",
+      "url": "https://doi.org/10.52825/agripv.v1i.596",
+      "summary": "Research article on large-scale agrivoltaics visualizations and their role in assessing landscape impacts and social acceptance."
+    },
+    {
+      "name": "Fencing Virtual Landscapes: Using GIS to Identify and Classify Fences and Hedges for More Accurate Landscape Visualizations",
+      "publisher": "Journal of Digital Landscape Architecture",
+      "releaseDate": "2025-06-01",
+      "url": "https://doi.org/10.14627/537754054",
+      "summary": "Conference paper on using GIS to identify and classify fences and hedges for more accurate landscape visualizations."
+    },
+    {
+      "name": "Real-Time VR Landscape Visualization for Wind Farm Repowering: A Case Study in Eastern Austrian World Heritage Sites",
+      "publisher": "Journal of Digital Landscape Architecture",
+      "releaseDate": "2024-06-01",
+      "url": "https://doi.org/10.14627/537752033",
+      "summary": "Conference paper presenting a case study on real-time VR landscape visualization for wind farm repowering in Eastern Austrian World Heritage Sites."
+    },
+    {
+      "name": "Windenergie im Spannungsfeld: Gesellschaftliche Akzeptanz, ökologische Herausforderungen und innovative Lösungen",
+      "publisher": "Poster presentation",
+      "releaseDate": "2025-02-01",
+      "url": "",
+      "summary": "Poster presentation on wind energy in areas of tension: societal acceptance, ecological challenges, and innovative solutions."
+    },
+    {
+      "name": "Photovoltaik, Mensch und Biosphäre: Ein transdisziplinärer Ansatz zur Förderung der alpinen Resilienz",
+      "publisher": "Poster presentation",
+      "releaseDate": "2023-06-01",
+      "url": "https://doi.org/10.13140/RG.2.2.32718.23361",
+      "summary": "Poster presentation on a transdisciplinary approach to promote alpine resilience through photovoltaics, human interaction, and biosphere considerations."
     }
   ],
   "projects": [
