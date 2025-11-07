@@ -15,7 +15,6 @@ jobs:
         run: mkdir -p assets/pdf
 
       - name: Generate LaTeX from resume.json
-        working-directory: ./app
         run: |
           ls && pwd && ls scripts &&
           python scripts/generate_latex.py assets/json/resume.json -o assets/pdf/cv.tex
