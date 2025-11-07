@@ -48,7 +48,8 @@
           <a
             href="http://lattes.cnpq.br/{{ social[1] }}"
             target="_blank"
-            title="Lattes">
+            title="Lattes"
+          >
             <i class="ai ai-lattes"></i>
           </a>
         </li>
@@ -100,7 +101,8 @@
           <a
             rel="me"
             href="https://{{ social[1] }}"
-            title="Mastodon">
+            title="Mastodon"
+          >
             <i class="fa-brands fa-mastodon"></i>
           </a>
         </li>
@@ -275,7 +277,8 @@
             <img
               src="{{ social[1] | prepend: 'assets/img/' | relative_url }}"
               alt="WeChat QR"
-              id="WeChatQR">
+              id="WeChatQR"
+            >
           </div>
           {% include scripts/wechatModal.liquid %}
         </li>
@@ -291,7 +294,10 @@
                   <image xlink:href="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" />
                 </svg>
               {% else %}
-                <img src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" alt="{{ social[1].title }}">
+                <img
+                  src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}"
+                  alt="{{ social[1].title }}"
+                >
               {% endif %}
             </a>
           </li>

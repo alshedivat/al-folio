@@ -62,7 +62,7 @@
   {% endif %}
   <meta property="og:locale" content="{{ site.lang }}">
 
-    <!-- Twitter card -->
+  <!-- Twitter card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -97,10 +97,10 @@
         {% capture link %}https://discord.com/users/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'email' %}
-      {% comment %}
-        {% capture link %}mailto:{{ social[1] | encode_email }}{% endcapture %}
-        {% assign sameaslinks = sameaslinks | push: link %}
-      {% endcomment %}
+        {% comment %}
+          {% capture link %}mailto:{{ social[1] | encode_email }}{% endcapture %}
+          {% assign sameaslinks = sameaslinks | push: link %}
+        {% endcomment %}
       {% when 'facebook_id' %}
         {% capture link %}https://facebook.com/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
