@@ -30,6 +30,6 @@ latest_posts:
 
 My name is Mathias Baumgartinger-Seiringer. I am a creative developer that is passionate about craftsmanship surrounding software, games and other digital creations. Also, I am a firm believer in free and open source tools.
 
-I study in the Computer Science Master Program at the University of Vienna (MSc). During my Bachelor's I started working at BOKU Vienna where I am currently employed.
+I study in the Computer Science Master Program at the University of Vienna (MSc). During my Bachelor's I started working at BOKU Vienna where I have had the opportunity to work on various exciting projects.
 
 Fun fact: My name is so long that it usually doesn't fit on cards and in forms; you might find me as just Mathias Baumgartinger in many places. It is also my preferred way.
