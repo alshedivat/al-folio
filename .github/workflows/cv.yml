@@ -11,34 +11,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-
       - name: Create PDF directory
         run: mkdir -p assets/pdf
 
-      - name: Install dependencies
+      - name: Generate LaTeX from resume.json
         run: |
-          npm install resumed jsonresume-theme-even
+          python scripts/generate_latex.py assets/json/resume.json -o assets/pdf/cv.tex
 
-      - name: Generate HTML from resume.json
-        run: |
-          npx resumed render assets/json/resume.json --theme jsonresume-theme-even --output assets/pdf/index.html
-
-      - name: Generate PDF from HTML
-        run: /
-          sudo apt-get install wkhtmltopdf && wkhtmltopdf assets/pdf/index.html assets/pdf/cv.pdf
+      - name: Generate PDF from LaTeX
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: assets/pdf/cv.tex
+          latexmk_use_xelatex: true
+          pre_compile: "tlmgr update --self && tlmgr update --all"
 
       - name: Upload cv artifact
         uses: actions/upload-artifact@v4
         with:
           name: cv
           path: 'assets/pdf/cv.pdf'
-      
-      - name: Upload cv artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: index
-          path: 'assets/pdf/index.html'
