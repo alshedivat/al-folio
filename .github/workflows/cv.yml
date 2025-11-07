@@ -1,10 +1,13 @@
 name: "CV Generation"
 
 on:
-  workflow_run:
-    workflows: [Deploy site]
-    types:
-      - completed
+  #workflow_run:
+  #  workflows: [Deploy site]
+  #  types:
+  #    - completed
+  push:
+    branches:
+      - master
   workflow_dispatch:
 
 jobs:
