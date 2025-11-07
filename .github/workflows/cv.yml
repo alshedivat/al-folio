@@ -22,13 +22,12 @@ jobs:
 
       - name: Generate PDF from LaTeX
         uses: xu-cheng/latex-action@v4
-        working-directory: ./assets/pdf
         with:
-          root_file: cv.tex
+          root_file: assets/pdf/cv.tex
           latexmk_use_xelatex: true
 
       - name: Upload cv artifact
         uses: actions/upload-artifact@v4
         with:
           name: cv
-          path: 'assets/pdf/cv.pdf'
+          path: 'cv.pdf'
