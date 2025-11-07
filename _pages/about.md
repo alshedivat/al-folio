@@ -15,9 +15,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a software engineer with professional interests in trading and finance. 
+I am a software engineer with professional interests in quant trading and AI.
 
-In my spare time, I like to play various sports, and my favorite ones are basketball, snowboarding, and bouldering. Had some previous endeavors towards novel writing in Mandarin. It turned out to be kinda cheesy. If you'd like to take a look of my writing, please DM me and I would very much like to consider mailing you a paperback of my only work so far for free. You don't necessarily need to buy it [here](https://store.showwe.tw/books.aspx?b=129215) in order to read it.
+In my spare time, I like to play various sports, and my favorite ones are basketball, tennis, snowboarding, and bouldering. Had some previous endeavors towards novel writing in Mandarin. It turned out to be kinda cheesy. If you'd like to take a look of my writing, please DM me and I would very much like to consider mailing you a paperback of my only work so far for free. You don't necessarily need to buy it [here](https://store.showwe.tw/books.aspx?b=129215) in order to read it.
 
 Please also feel free to connect with me on LinkedIn or shoot me an email for future collabs on side projects, hackathons, or other endeavors. I speak Mandarin and English. Cheers!
 
