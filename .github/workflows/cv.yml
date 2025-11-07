@@ -2,7 +2,7 @@ name: "CV Generation"
 
 on:
   workflow_run:
-    workflows: ["deploy"]
+    workflows: [Deploy site]
     types:
       - completed
   workflow_dispatch:
