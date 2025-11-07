@@ -101,7 +101,7 @@ pagination:
 
 {% endif %}
 
-  <ul class="post-list m-3 m-md-auto container">
+  <ul class="post-list p-3 p-md-auto container">
 
     {% if page.pagination.enabled %}
       {% assign postlist = paginator.posts %}
