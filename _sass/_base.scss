@@ -1730,17 +1730,18 @@ figure.cover {
 
 @media screen and (max-width: 575px) {
   .glassy-box-navbar {
-    backdrop-filter: blur(5px);
     background-image: linear-gradient(
       to top left,
-      rgba(var(--global-theme-color-rgb), 0.25) 0%,
-      rgba(0, 0, 0, 0.025) 20%,
-      rgba(241, 241, 241, 0.05) 50%,
-      rgba(223, 223, 223, 0.1) 100%
+      rgba(var(--global-theme-color-rgb), 0.5) 0%,
+      rgba(255, 255, 255, 0.65) 20%,
+      rgba(245, 245, 245, 0.75) 50%,
+      rgba(235, 235, 235, 0.85) 100%
     );
     border: rgba(var(--global-theme-color-rgb), 0.05) 1px solid !important;
     box-shadow: 0 0 10px rgba(var(--global-theme-color-rgb), 0.15);
     background-color: unset !important;
+    margin-top: 20px;
+    border-top: none !important;
   }
 }
 
