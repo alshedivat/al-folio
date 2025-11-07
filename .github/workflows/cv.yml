@@ -1,9 +1,10 @@
 name: "CV Generation"
 
 on:
-  push:
-    branches:
-      - master
+  workflow_run:
+    workflows: ["deploy"]
+    types:
+      - completed
 
 jobs:
   build_resume:
@@ -26,8 +27,35 @@ jobs:
           root_file: assets/pdf/cv.tex
           latexmk_use_xelatex: true
 
-      - name: Upload cv artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: cv
-          path: 'cv.pdf'
+      - name: Commit PDF if changed
+        env:
+          GITHUB_TOKEN: ${{ github.token }} 
+        run: |
+          # Move generated PDF to a temporary location
+          mv cv.pdf assets/pdf/cv.pdf
+
+          # Fetch gh-pages locally
+          git fetch origin gh-pages:gh-pages
+
+          # Check out the gh-pages branch
+          git checkout gh-pages
+
+          # Put the PDF wherever you want it on gh-pages
+          mkdir -p downloads
+          cp /tmp/report.pdf downloads/report.pdf
+
+          # Configure commit identity (this is what you asked about)
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage PDF
+          git add downloads/report.pdf
+
+          # Skip commit if nothing changed
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update generated PDF"
+          git push origin gh-pages
