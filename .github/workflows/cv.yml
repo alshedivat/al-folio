@@ -5,6 +5,7 @@ on:
     workflows: ["deploy"]
     types:
       - completed
+  workflow_dispatch:
 
 jobs:
   build_resume:
