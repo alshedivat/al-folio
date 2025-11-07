@@ -4,7 +4,7 @@ on:
   workflow_run:
     workflows: [Deploy site]
     types: [completed]
-    
+
 permissions:
   contents: read
 
