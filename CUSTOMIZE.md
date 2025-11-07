@@ -248,6 +248,28 @@ To remove the repositories, you can:
 - delete the repositories page [\_pages/repositories.md](_pages/repositories.md)
 - delete [\_includes/repository/](_includes/repository/) directory
 
+### You can also remove pages through commenting out front-matter blocks
+
+For `.md` files in [\pages](pages/) directory, if you do not want to completely edit or delete them but save for later use, you can temporarily disable these variables. But be aware that Jekyll only recognizes front matter when it appears as uncommented. The layout, permalink, and other front-matter behavior are disabled for that file.
+
+For example, books.md do:
+
+```md
+<!-- ---
+layout: book-shelf
+title: bookshelf
+permalink: /books/
+nav: true
+collection: books
+--- -->
+
+> What an astonishing thing a book is. It's a flat object made from a tree with flexible parts on which are imprinted lots of funny dark squiggles. But one glance at it and you're inside the mind of another person, maybe somebody dead for thousands of years. Across the millennia, an author is speaking clearly and silently inside your head, directly to you. Writing is perhaps the greatest of human inventions, binding together people who never knew each other, citizens of distant epochs. Books break the shackles of time. A book is proof that humans are capable of working magic.
+>
+> -- Carl Sagan, Cosmos, Part 11: The Persistence of Memory (1980)
+
+## Books that I am reading, have read, or will read
+```
+
 ## Adding Token for Lighthouse Badger
 
 To add secrets for [lighthouse-badger](https://github.com/alshedivat/al-folio/actions/workflows/lighthouse-badger.yml), create a [personal access token (PAT)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token) and add it as a [secret](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions#creating-encrypted-secrets-for-a-repository) named `LIGHTHOUSE_BADGER_TOKEN` to your repository. The [lighthouse-badger documentation](https://github.com/MyActionWay/lighthouse-badger-workflows#lighthouse-badger-easyyml) specifies using an environment variable, but using it as a secret is more secure and appropriate for a PAT.
