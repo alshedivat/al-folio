@@ -3,200 +3,285 @@
     {% case social[0] %}
       {% when 'telegram_username' %}
         <li>
-          <a href="https://telegram.me/{{ social[1] }}" title="Telegram"><i class="fa-brands fa-telegram"></i></a>
+          <a href="https://telegram.me/{{ social[1] }}" title="Telegram">
+            <i class="fa-brands fa-telegram"></i>
+          </a>
         </li>
 
       {% when 'whatsapp_number' %}
         <li>
-          <a href="https://wa.me/{{ social[1] }}" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://wa.me/{{ social[1] }}" title="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
         </li>
 
       {% when 'orcid_id' %}
         <li>
-          <a href="https://orcid.org/{{ social[1] }}" title="ORCID"><i class="ai ai-orcid"></i></a>
+          <a href="https://orcid.org/{{ social[1] }}" title="ORCID">
+            <i class="ai ai-orcid"></i>
+          </a>
         </li>
 
       {% when 'scholar_userid' %}
         <li>
-          <a href="https://scholar.google.com/citations?user={{ social[1] }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+          <a href="https://scholar.google.com/citations?user={{ social[1] }}" title="Google Scholar">
+            <i class="ai ai-google-scholar"></i>
+          </a>
         </li>
 
       {% when 'semanticscholar_id' %}
         <li>
-          <a href="https://www.semanticscholar.org/author/{{ social[1] }}" title="Semantic Scholar"><i class="ai ai-semantic-scholar"></i></a>
+          <a href="https://www.semanticscholar.org/author/{{ social[1] }}" title="Semantic Scholar">
+            <i class="ai ai-semantic-scholar"></i>
+          </a>
         </li>
 
       {% when 'publons_id' %}
         <li>
-          <a href="https://publons.com/a/{{ social[1] }}/" title="Publons"><i class="ai ai-publons"></i></a>
+          <a href="https://publons.com/a/{{ social[1] }}/" title="Publons">
+            <i class="ai ai-publons"></i>
+          </a>
         </li>
 
       {% when 'lattes_id' %}
         <li>
-          <a href="http://lattes.cnpq.br/{{ social[1] }}" target="_blank" title="Lattes"><i class="ai ai-lattes"></i></a>
+          <a
+            href="http://lattes.cnpq.br/{{ social[1] }}"
+            target="_blank"
+            title="Lattes">
+            <i class="ai ai-lattes"></i>
+          </a>
         </li>
 
       {% when 'osf_id' %}
         <li>
-          <a href="https://osf.io/{{ social[1] }}/" title="Open Science Framework"><i class="ai ai-osf"></i></a>
+          <a href="https://osf.io/{{ social[1] }}/" title="Open Science Framework">
+            <i class="ai ai-osf"></i>
+          </a>
         </li>
 
       {% when 'research_gate_profile' %}
         <li>
-          <a href="https://www.researchgate.net/profile/{{ social[1] }}/" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+          <a href="https://www.researchgate.net/profile/{{ social[1] }}/" title="ResearchGate">
+            <i class="ai ai-researchgate"></i>
+          </a>
         </li>
 
       {% when 'scopus_id' %}
         <li>
-          <a href="https://www.scopus.com/authid/detail.uri?authorId={{ social[1] }}" title="Scopus"><i class="ai ai-scopus"></i></a>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId={{ social[1] }}" title="Scopus">
+            <i class="ai ai-scopus"></i>
+          </a>
         </li>
 
       {% when 'github_username' %}
         <li>
-          <a href="https://github.com/{{ social[1] }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/{{ social[1] }}" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
         </li>
 
       {% when 'linkedin_username' %}
         <li>
-          <a href="https://www.linkedin.com/in/{{ social[1] }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/{{ social[1] }}" title="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
         </li>
 
       {% when 'x_username' %}
         <li>
-          <a href="https://twitter.com/{{ social[1] }}" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://twitter.com/{{ social[1] }}" title="X">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
         </li>
 
       {% when 'mastodon_username' %}
         <li>
-          <a rel="me" href="https://{{ social[1] }}" title="Mastodon"><i class="fa-brands fa-mastodon"></i></a>
+          <a
+            rel="me"
+            href="https://{{ social[1] }}"
+            title="Mastodon">
+            <i class="fa-brands fa-mastodon"></i>
+          </a>
         </li>
 
       {% when 'medium_username' %}
         <li>
-          <a href="https://medium.com/@{{ social[1] }}" title="Medium"><i class="fa-brands fa-medium"></i></a>
+          <a href="https://medium.com/@{{ social[1] }}" title="Medium">
+            <i class="fa-brands fa-medium"></i>
+          </a>
         </li>
 
       {% when 'quora_username' %}
         <li>
-          <a href="https://www.quora.com/profile/{{ social[1] }}" title="Quora"><i class="fa-brands fa-quora"></i></a>
+          <a href="https://www.quora.com/profile/{{ social[1] }}" title="Quora">
+            <i class="fa-brands fa-quora"></i>
+          </a>
         </li>
 
       {% when 'blogger_url' %}
         <li>
-          <a href="{{ social[1] }}" title="Blogger"><i class="fa-brands fa-blogger-b"></i></a>
+          <a href="{{ social[1] }}" title="Blogger">
+            <i class="fa-brands fa-blogger-b"></i>
+          </a>
         </li>
 
       {% when 'bluesky_url' %}
         <li>
-          <a href="{{ social[1] }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+          <a href="{{ social[1] }}" title="Bluesky">
+            <i class="fa-brands fa-bluesky"></i>
+          </a>
         </li>
 
       {% when 'work_url' %}
         <li>
-          <a href="{{ social[1] }}" title="Work"><i class="fa-solid fa-briefcase"></i></a>
+          <a href="{{ social[1] }}" title="Work">
+            <i class="fa-solid fa-briefcase"></i>
+          </a>
         </li>
 
       {% when 'wikidata_id' %}
         <li>
-          <a href="https://www.wikidata.org/wiki/{{ social[1] }}" title="Wikidata"><i class="fa-solid fa-barcode"></i></a>
+          <a href="https://www.wikidata.org/wiki/{{ social[1] }}" title="Wikidata">
+            <i class="fa-solid fa-barcode"></i>
+          </a>
         </li>
 
       {% when 'wikipedia_id' %}
         <li>
-          <a href="https://wikipedia.org/wiki/User:{{ social[1] }}" title="Wikipedia"><i class="fa-brands fa-wikipedia-w"></i></a>
+          <a href="https://wikipedia.org/wiki/User:{{ social[1] }}" title="Wikipedia">
+            <i class="fa-brands fa-wikipedia-w"></i>
+          </a>
         </li>
 
       {% when 'strava_userid' %}
         <li>
-          <a href="https://www.strava.com/athletes/{{ social[1] }}" title="Strava"><i class="fa-brands fa-strava"></i></a>
+          <a href="https://www.strava.com/athletes/{{ social[1] }}" title="Strava">
+            <i class="fa-brands fa-strava"></i>
+          </a>
         </li>
 
       {% when 'keybase_username' %}
         <li>
-          <a href="https://keybase.io/{{ social[1] }}" title="Keybase"><i class="fa-brands fa-keybase"></i></a>
+          <a href="https://keybase.io/{{ social[1] }}" title="Keybase">
+            <i class="fa-brands fa-keybase"></i>
+          </a>
         </li>
 
       {% when 'gitlab_username' %}
         <li>
-          <a href="https://gitlab.com/{{ social[1] }}" title="GitLab"><i class="fa-brands fa-gitlab"></i></a>
+          <a href="https://gitlab.com/{{ social[1] }}" title="GitLab">
+            <i class="fa-brands fa-gitlab"></i>
+          </a>
         </li>
 
       {% when 'dblp_url' %}
         <li>
-          <a href="{{ social[1] }}" title="DBLP"><i class="ai ai-dblp"></i></a>
+          <a href="{{ social[1] }}" title="DBLP">
+            <i class="ai ai-dblp"></i>
+          </a>
         </li>
 
       {% when 'stackoverflow_id' %}
         <li>
-          <a href="https://stackoverflow.com/users/{{ social[1] }}" title="Stack Overflow"><i class="fa-brands fa-stack-overflow"></i></a>
+          <a href="https://stackoverflow.com/users/{{ social[1] }}" title="Stack Overflow">
+            <i class="fa-brands fa-stack-overflow"></i>
+          </a>
         </li>
 
       {% when 'kaggle_id' %}
         <li>
-          <a href="https://www.kaggle.com/{{ social[1] }}" title="Kaggle"><i class="fa-brands fa-kaggle"></i></a>
+          <a href="https://www.kaggle.com/{{ social[1] }}" title="Kaggle">
+            <i class="fa-brands fa-kaggle"></i>
+          </a>
         </li>
 
       {% when 'lastfm_id' %}
         <li>
-          <a href="https://www.last.fm/user/{{ social[1] }}" title="Last.fm"><i class="fa-brands fa-lastfm"></i></a>
+          <a href="https://www.last.fm/user/{{ social[1] }}" title="Last.fm">
+            <i class="fa-brands fa-lastfm"></i>
+          </a>
         </li>
 
       {% when 'spotify_id' %}
         <li>
-          <a href="https://open.spotify.com/user/{{ social[1] }}" title="Spotify"><i class="fa-brands fa-spotify"></i></a>
+          <a href="https://open.spotify.com/user/{{ social[1] }}" title="Spotify">
+            <i class="fa-brands fa-spotify"></i>
+          </a>
         </li>
 
       {% when 'pinterest_id' %}
         <li>
-          <a href="https://www.pinterest.com/{{ social[1] }}" title="Pinterest"><i class="fa-brands fa-pinterest"></i></a>
+          <a href="https://www.pinterest.com/{{ social[1] }}" title="Pinterest">
+            <i class="fa-brands fa-pinterest"></i>
+          </a>
         </li>
 
       {% when 'unsplash_id' %}
         <li>
-          <a href="https://unsplash.com/@{{ social[1] }}" title="Unsplash"><i class="fa-brands fa-unsplash"></i></a>
+          <a href="https://unsplash.com/@{{ social[1] }}" title="Unsplash">
+            <i class="fa-brands fa-unsplash"></i>
+          </a>
         </li>
 
       {% when 'instagram_id' %}
         <li>
-          <a href="https://instagram.com/{{ social[1] }}" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://instagram.com/{{ social[1] }}" title="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
         </li>
 
       {% when 'facebook_id' %}
         <li>
-          <a href="https://facebook.com/{{ social[1] }}" title="Facebook"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://facebook.com/{{ social[1] }}" title="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
         </li>
 
       {% when 'youtube_id' %}
         <li>
-          <a href="https://youtube.com/@{{ social[1] }}" title="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://youtube.com/@{{ social[1] }}" title="YouTube">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
         </li>
 
       {% when 'discord_id' %}
         <li>
-          <a href="https://discord.com/users/{{ social[1] }}" title="Discord"><i class="fa-brands fa-discord"></i></a>
+          <a href="https://discord.com/users/{{ social[1] }}" title="Discord">
+            <i class="fa-brands fa-discord"></i>
+          </a>
         </li>
 
       {% when 'zotero_username' %}
         <li>
-          <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
+          <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero">
+            <i class="ai ai-zotero"></i>
+          </a>
         </li>
 
       {% when 'rss_icon' %}
-        <li>
-          <a href="{{ social[1] }}/feed.xml" title="RSS Feed"><i class="fa-solid fa-square-rss"></i></a>
-        </li>
+        {% if social[1] == true %}
+          <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed">
+            <i class="fa-solid fa-square-rss"></i>
+          </a>
+        {% endif %}
 
       {% when 'wechat_qr' %}
         <li>
-          <a id="WeChatBtn" title="WeChat"><i class="fa-brands fa-weixin"></i></a>
+          <a id="WeChatBtn" title="WeChat">
+            <i class="fa-brands fa-weixin"></i>
+          </a>
           <div id="WeChatMod" class="wechat-modal">
-            <img src="{{ social[1] | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
+            <img
+              src="{{ social[1] | prepend: 'assets/img/' | relative_url }}"
+              alt="WeChat QR"
+              id="WeChatQR">
           </div>
           {% include scripts/wechatModal.liquid %}
         </li>
 
       {% else %}
-        {% if !(socia[1].url contains '@') %}
+        {% if !(socia[1].url contains '@' ) %}
           <li>
             {{ social[1] }}
             <a href="{{ social[1].url }}" title="{{ social[1].title }}">
@@ -206,10 +291,7 @@
                   <image xlink:href="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" />
                 </svg>
               {% else %}
-                <img
-                  src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}"
-                  alt="{{ social[1].title }}"
-                >
+                <img src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" alt="{{ social[1].title }}">
               {% endif %}
             </a>
           </li>
