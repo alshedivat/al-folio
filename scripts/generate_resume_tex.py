@@ -523,7 +523,7 @@ def main() -> None:
         \\definecolor{{accentcolor}}{{RGB}}{{0, 102, 204}}
         \\usepackage{{fontspec}}
         \\usepackage{{fontawesome5}}
-        \\setmainfont{{CMU Serif}}
+        \\setmainfont{{Latin Modern Roman}}
         \\usepackage{{enumitem}}
         \\usepackage[colorlinks=true,linkcolor=black,urlcolor=black]{{hyperref}}
         \\setlist[itemize]{{nosep}}
