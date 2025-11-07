@@ -16,8 +16,7 @@ jobs:
 
       - name: Generate LaTeX from resume.json
         run: |
-          ls && pwd && ls scripts &&
-          python scripts/generate_latex.py assets/json/resume.json -o assets/pdf/cv.tex
+          python ./scripts/generate_resume_tex.py ./assets/json/resume.json -o ./assets/pdf/cv.tex
 
       - name: Generate PDF from LaTeX
         uses: xu-cheng/latex-action@v4
