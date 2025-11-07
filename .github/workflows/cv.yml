@@ -5,9 +5,6 @@ on:
   #  workflows: [Deploy site]
   #  types:
   #    - completed
-  push:
-    branches:
-      - master
   workflow_dispatch:
 
 jobs:
@@ -44,16 +41,12 @@ jobs:
           # Check out the gh-pages branch
           git checkout gh-pages
 
-          # Put the PDF wherever you want it on gh-pages
-          mkdir -p downloads
-          cp /tmp/report.pdf downloads/report.pdf
-
           # Configure commit identity (this is what you asked about)
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           # Stage PDF
-          git add downloads/report.pdf
+          git add assets/pdf/cv.pdf
 
           # Skip commit if nothing changed
           if git diff --cached --quiet; then
@@ -61,5 +54,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "Update generated PDF"
+          git commit -m "ci: automoatic pdf generation"
           git push origin gh-pages
