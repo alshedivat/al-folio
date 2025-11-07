@@ -6,6 +6,10 @@ on:
   #  types:
   #    - completed
   workflow_dispatch:
+  push:
+    branches:
+      - master
+      - main
 
 jobs:
   build_resume:
@@ -54,5 +58,5 @@ jobs:
             exit 0
           fi
 
-          git commit -m "ci: automoatic pdf generation"
+          git commit -m "ci: automatic pdf generation"
           git push origin gh-pages
