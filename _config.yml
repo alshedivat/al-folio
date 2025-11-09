@@ -156,11 +156,9 @@ collections:
     defaults:
       layout: post
     output: true
-    permalink: /news/:path/
     limit: 5
   projects:
     output: true
-    permalink: /projects/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
