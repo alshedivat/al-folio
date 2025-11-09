@@ -7,7 +7,7 @@ subtitle: <a href='https://www.reddit.com/r/Cornell/'> Ithaca, NY.</a>  he/him/h
 profile:
   align: right
   image: profile.jpeg
-  address: >
+  more_info: >
     <p>Washington DC, 7 Aug 22</p>
 
 news: true # includes a list of news items
