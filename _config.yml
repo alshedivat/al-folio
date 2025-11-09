@@ -81,7 +81,7 @@ flickr_id: # your flickr id
 github_username: cliu0013 # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
-inspirehep_id: 1010907 # Inspire HEP author ID
+inspirehep_id: # Inspire HEP author ID
 instagram_id: # your instagram id
 kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
@@ -112,8 +112,8 @@ x_username: cliu0013 # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: >
-  Best way to reach me is through email。
+# contact_note: >
+#     hello
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -157,11 +157,10 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+    limit: 5
   projects:
     output: true
     permalink: /projects/:path/
-
-news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
