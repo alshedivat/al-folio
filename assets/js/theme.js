@@ -1,83 +1,105 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-let toggleTheme = (theme) => {
-  if (theme == "dark") {
-    setTheme("light");
-  } else {
-    setTheme("dark");
+(() => {
+  'use strict';
+
+  const LIGHT_THEME = 'light';
+  const DARK_THEME = 'dark';
+  const THEME_STORAGE_KEY = 'theme';
+  const TRANSITION_DELAY = 500;
+  const HIGHLIGHT_LIGHT_ID = 'highlight_theme_light';
+  const HIGHLIGHT_DARK_ID = 'highlight_theme_dark';
+  const GISCUS_ORIGIN = 'https://giscus.app';
+
+  function toggleTheme(currentTheme) {
+    const nextTheme = currentTheme === DARK_THEME ? LIGHT_THEME : DARK_THEME;
+    setTheme(nextTheme);
   }
-}
 
+  function setTheme(theme, { animate = true } = {}) {
+    const normalizedTheme = theme && theme !== 'null' ? theme : null;
 
-let setTheme = (theme) =>  {
-  transTheme();
-  setHighlight(theme);
-  setGiscusTheme(theme);
+    if (animate) {
+      applyTransition();
+    }
 
-  if (theme) {
-    document.documentElement.setAttribute("data-theme", theme);
+    updateHighlight(normalizedTheme);
+    updateGiscusTheme(normalizedTheme);
+
+    if (normalizedTheme) {
+      document.documentElement.setAttribute('data-theme', normalizedTheme);
+    } else {
+      document.documentElement.removeAttribute('data-theme');
+    }
+
+    localStorage.setItem(THEME_STORAGE_KEY, normalizedTheme ? normalizedTheme : '');
+
+    const mediumZoomInstance = window.mediumZoomInstance;
+    if (mediumZoomInstance) {
+      mediumZoomInstance.update({
+        background: `${getComputedStyle(document.documentElement).getPropertyValue('--global-bg-color')}ee`,
+      });
+    }
   }
-  else {
-    document.documentElement.removeAttribute("data-theme");
+
+  function updateHighlight(theme) {
+    const lightStylesheet = document.getElementById(HIGHLIGHT_LIGHT_ID);
+    const darkStylesheet = document.getElementById(HIGHLIGHT_DARK_ID);
+
+    if (!lightStylesheet || !darkStylesheet) {
+      return;
+    }
+
+    const prefersDark = theme === DARK_THEME;
+
+    lightStylesheet.media = prefersDark ? 'none' : '';
+    darkStylesheet.media = prefersDark ? '' : 'none';
   }
-  localStorage.setItem("theme", theme);
 
-  // Updates the background of medium-zoom overlay.
-  if (typeof medium_zoom !== 'undefined') {
-    medium_zoom.update({
-      background: getComputedStyle(document.documentElement)
-          .getPropertyValue('--global-bg-color') + 'ee',  // + 'ee' for trasparency.
-    })
-  }
-};
-
-
-let setHighlight = (theme) => {
-  if (theme == "dark") {
-    document.getElementById("highlight_theme_light").media = "none";
-    document.getElementById("highlight_theme_dark").media = "";
-  } else {
-    document.getElementById("highlight_theme_dark").media = "none";
-    document.getElementById("highlight_theme_light").media = "";
-  }
-}
-
-
-let setGiscusTheme = (theme) => {
-
-  function sendMessage(message) {
+  function updateGiscusTheme(theme) {
     const iframe = document.querySelector('iframe.giscus-frame');
-    if (!iframe) return;
-    iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+    if (!iframe || !iframe.contentWindow) {
+      return;
+    }
+
+    iframe.contentWindow.postMessage(
+      {
+        giscus: {
+          setConfig: { theme: theme ? theme : LIGHT_THEME },
+        },
+      },
+      GISCUS_ORIGIN,
+    );
   }
 
-  sendMessage({
-    setConfig: {
-      theme: theme
-    }
-  });
-
-}
-
-
-let transTheme = () => {
-  document.documentElement.classList.add("transition");
-  window.setTimeout(() => {
-    document.documentElement.classList.remove("transition");
-  }, 500)
-}
-
-
-let initTheme = (theme) => {
-  if (theme == null || theme == 'null') {
-    const userPref = window.matchMedia;
-    if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
-        theme = 'dark';
-    }
+  function applyTransition() {
+    document.documentElement.classList.add('transition');
+    window.setTimeout(() => {
+      document.documentElement.classList.remove('transition');
+    }, TRANSITION_DELAY);
   }
 
-  setTheme(theme);
-}
+  function detectInitialTheme() {
+    const storedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+    if (storedTheme && storedTheme !== 'null' && storedTheme !== '') {
+      return storedTheme;
+    }
 
+    if (typeof window.matchMedia === 'function') {
+      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      if (mediaQuery && mediaQuery.matches) {
+        return DARK_THEME;
+      }
+    }
 
-initTheme(localStorage.getItem("theme"));
+    return null;
+  }
+
+  function initialiseTheme() {
+    setTheme(detectInitialTheme(), { animate: false });
+  }
+
+  initialiseTheme();
+
+  window.toggleTheme = toggleTheme;
+})();

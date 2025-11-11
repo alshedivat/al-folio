@@ -1,12 +1,19 @@
-$(document).ready(function() {
-  // Init Masonry
-  var $grid = $('.grid').masonry({
+$(document).ready(function () {
+  const $grid = $('.grid');
+
+  if (!$grid.length || typeof $grid.masonry !== 'function') {
+    return;
+  }
+
+  $grid.masonry({
     gutter: 10,
     horizontalOrder: true,
     itemSelector: '.grid-item',
   });
-  // Layout Masonry after each image loads
-  $grid.imagesLoaded().progress( function() {
-    $grid.masonry('layout');
-  });
+
+  if (typeof $grid.imagesLoaded === 'function') {
+    $grid.imagesLoaded().progress(() => {
+      $grid.masonry('layout');
+    });
+  }
 });
