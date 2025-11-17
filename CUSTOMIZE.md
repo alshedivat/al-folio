@@ -284,7 +284,7 @@ To remove the repositories, you can:
 
 ### You can also remove pages through commenting out front-matter blocks
 
-For `.md` files in [\pages](pages/) directory, if you do not want to completely edit or delete them but save for later use, you can temporarily disable these variables. But be aware that Jekyll only recognizes front matter when it appears as uncommented. The layout, permalink, and other front-matter behavior are disabled for that file.
+For `.md` files in [\pages](_pages/) directory, if you do not want to completely edit or delete them but save for later use, you can temporarily disable these variables. But be aware that Jekyll only recognizes front matter when it appears as uncommented. The layout, permalink, and other front-matter behavior are disabled for that file.
 
 For example, books.md do:
 
