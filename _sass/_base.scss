@@ -825,11 +825,11 @@ footer.sticky-bottom {
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
-  
+
   // Responsive code block container
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  
+
   pre {
     // Ensure code blocks can scroll horizontally
     white-space: pre;
@@ -844,7 +844,7 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
-  
+
   // Responsive behavior for code blocks
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
@@ -865,7 +865,7 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
-  
+
   // Inline code should wrap
   white-space: normal;
   word-wrap: break-word;
@@ -1071,23 +1071,23 @@ nav[data-toggle="toc"] {
     height: 0;
     top: 0;
   }
-  
+
   /* Responsive code blocks for mobile */
   pre {
     font-size: 0.875rem;
     padding: 8px 10px;
     margin: 0.5rem 0;
   }
-  
+
   figure.highlight {
     margin: 0.5rem 0;
-    
+
     pre {
       font-size: 0.875rem;
       padding: 8px 10px;
     }
   }
-  
+
   code {
     font-size: 0.875rem;
     padding: 2px 4px;
@@ -1100,14 +1100,14 @@ nav[data-toggle="toc"] {
     font-size: 0.8rem;
     padding: 6px 8px;
   }
-  
+
   figure.highlight {
     pre {
       font-size: 0.8rem;
       padding: 6px 8px;
     }
   }
-  
+
   code {
     font-size: 0.8rem;
     padding: 1px 3px;
@@ -1120,7 +1120,7 @@ nav[data-toggle="toc"] {
     font-size: 0.9rem;
     padding: 8px 12px;
   }
-  
+
   figure.highlight {
     pre {
       font-size: 0.9rem;
