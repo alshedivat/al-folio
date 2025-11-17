@@ -1,14 +1,57 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign education = data[1] | sort: 'startDate' | reverse %}
-  {% for content in education %}
+  {%- comment -%}
+  Normalize startDate/endDate:
+  - If only year is given ("YYYY"), append "-01-01"
+  - If year+month is given ("YYYY-MM"), append "-01"
+  - Otherwise assume full ISO
+  Then build sortable keys based on endDate (default far-future), then startDate.
+  {%- endcomment -%}
+  {% assign pairs = "" | split: "" %}
+  {% for edu in data[1] %}
+    {%- assign raw_start = edu.startDate | default: "1900" -%}
+    {%- assign raw_end   = edu.endDate   | default: "" -%}
+
+    {%- assign start_iso = raw_start -%}
+    {%- if raw_start.size == 4 -%}
+      {%- assign start_iso = raw_start | append: "-01-01" -%}
+    {%- elsif raw_start.size == 7 -%}
+      {%- assign start_iso = raw_start | append: "-01" -%}
+    {%- endif -%}
+
+    {%- if raw_end == "" -%}
+      {%- assign end_iso = "2100-12-31" -%}
+    {%- else -%}
+      {%- assign end_iso = raw_end -%}
+      {%- if raw_end.size == 4 -%}
+        {%- assign end_iso = raw_end | append: "-12-31" -%}
+      {%- elsif raw_end.size == 7 -%}
+        {%- assign end_iso = raw_end | append: "-28" -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    {% assign end_key   = end_iso   | date: "%Y%m%d" %}
+    {% assign start_key = start_iso | date: "%Y%m%d" %}
+    {% capture pair %}{{ end_key }}-{{ start_key }}::{{ forloop.index0 }}{% endcapture %}
+    {% assign pairs = pairs | push: pair %}
+  {% endfor %}
+
+  {% assign pairs = pairs | sort | reverse %}
+
+  {% for pair in pairs %}
+    {% assign idx = pair | split: '::' | last | plus: 0 %}
+    {% assign content = data[1][idx] %}
+
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-2 cl-sm-2 col-md-2 text-center date-column">
           {% if content.startDate and content.startDate != '' %}
-            {% assign startDate = content.startDate | split: '-' | slice: 0, 2 | join: '.' %}
-            {% assign endDate = content.endDate | split: '-' | slice: 0, 2 | join: '.' | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' %}
-            {% assign date = date | append: endDate %}
+            {% assign start_label = content.startDate %}
+            {% if content.endDate and content.endDate != '' %}
+              {% assign end_label = content.endDate %}
+            {% else %}
+              {% assign end_label = "Present" %}
+            {% endif %}
+            {% assign date = start_label | append: " - " | append: end_label %}
           {% else %}
             {% assign date = null %}
           {% endif %}
@@ -17,7 +60,7 @@
               <tr>
                 <td>
                   {% if date %}
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px"> {{ date }} </span>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
                   {% endif %}
                 </td>
               </tr>
@@ -34,6 +77,7 @@
             </tbody>
           </table>
         </div>
+
         <div class="col-xs-10 cl-sm-10 col-md-10 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">
             <a href="{{ content.url }}">{{ content.studyType }}</a>
@@ -42,9 +86,7 @@
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
           <ul class="items">
             {% for item in content.courses %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
+              <li><span class="item">{{ item }}</span></li>
             {% endfor %}
           </ul>
         </div>
