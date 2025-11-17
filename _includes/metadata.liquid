@@ -86,7 +86,7 @@
         {% capture link %}https://dl.acm.org/profile/{{ social[1] }}/{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'arxiv_id' %}
-        {% capture link %}https://arxiv.org/a/{{ site.arxiv_id }}.html{% endcapture %}
+        {% capture link %}https://arxiv.org/a/{{ social[1] }}.html{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'blogger_url' %}
         {% capture link %}{{ social[1] }}{% endcapture %}
