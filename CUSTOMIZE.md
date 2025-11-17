@@ -33,6 +33,9 @@ Here we will give you some tips on how to customize the website. One important t
   - [Scheduled Posts](#scheduled-posts)
     - [Name Format](#name-format)
     - [Important Notes](#important-notes)
+  - [Setting up a Personal Access Token (PAT) for Google Scholar Citation Updates](#setting-up-a-personal-access-token-pat-for-google-scholar-citation-updates)
+    - [Why is a PAT required?](#why-is-a-pat-required)
+    - [How to set up the PAT](#how-to-set-up-the-pat)
 
 <!--te-->
 
