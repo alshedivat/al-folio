@@ -4,10 +4,14 @@
       <a href="https://{{ social[1].organization }}.academia.edu/{{ social[1].username }}" title="Academia.edu"><i class="ai ai-academia"></i></a>
     {% when 'acm_id' %}
       <a href="https://dl.acm.org/profile/{{ social[1] }}/" title="ACM DL"><i class="ai ai-acm"></i></a>
+    {% when 'arxiv_id' %}
+      <a href="https://arxiv.org/a/{{ social[1] }}.html" title="arXiv"><i class="ai ai-arxiv"></i></a>
     {% when 'blogger_url' %}
       <a href="{{ social[1] }}" title="Blogger"><i class="fa-brands fa-blogger-b"></i></a>
     {% when 'bluesky_url' %}
       <a href="{{ social[1] }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+    {% when 'cv_pdf' %}
+      <a href="{{ social[1] | relative_url }}" title="CV" target="_blank"><i class="ai ai-cv"></i></a>
     {% when 'dblp_url' %}
       <a href="{{ social[1] }}" title="DBLP"><i class="ai ai-dblp"></i></a>
     {% when 'discord_id' %}
