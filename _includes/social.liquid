@@ -10,6 +10,8 @@
       <a href="{{ social[1] }}" title="Blogger"><i class="fa-brands fa-blogger-b"></i></a>
     {% when 'bluesky_url' %}
       <a href="{{ social[1] }}" title="Bluesky"><i class="fa-brands fa-bluesky"></i></a>
+    {% when 'cv_pdf' %}
+      <a href="{{ social[1] | relative_url }}" title="CV" target="_blank"><i class="ai ai-cv"></i></a>
     {% when 'dblp_url' %}
       <a href="{{ social[1] }}" title="DBLP"><i class="ai ai-dblp"></i></a>
     {% when 'discord_id' %}
