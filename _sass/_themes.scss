@@ -175,6 +175,8 @@ html[data-theme-setting="light"] {
   content: "";
   position: absolute;
   inset: 0;
+  top: -0.5px;
+  bottom: -0.5px;
   text-align: center;
   line-height: 1em;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
@@ -183,16 +185,18 @@ html[data-theme-setting="light"] {
 
 /* Left half: MOON */
 .fa-half-sun-moon::before {
-  content: "\f186";
+  content: "\f111";
   color: var(--global-text-color);
-  clip-path: polygon(0 0, calc(50% - 1px) 0, calc(50% - 1px) 100%, 0 100%);
+  clip-path: polygon(0 0, calc(50% - 0.5px) 0, calc(50% - 0.5px) 100%, 0 100%);
 }
 
 /* Right half: SUN */
 .fa-half-sun-moon::after {
   content: "\f185";
   color: var(--global-text-color);
-  clip-path: polygon(calc(50% + 1px) 0, 100% 0, 100% 100%, calc(50% + 1px) 100%);
+  clip-path: polygon(calc(50% + 0.5px) 0, 100% 0, 100% 100%, calc(50% + 0.5px) 100%);
+  right: -1.5px; /* slight overflow to avoid right-edge clipping */
+  transform: translateX(-1px); /* visually re-center the sun half */
 }
 
 #light-toggle:hover .fa-half-sun-moon::before {
