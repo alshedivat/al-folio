@@ -32,3 +32,11 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"zhang":
+  - firstname: ["Jian", "J."]
+    url: https://jzh15.github.io/
+
+"zhang*":
+  - firstname: ["Jian", "J."]
+    url: https://jzh15.github.io/

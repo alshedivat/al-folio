@@ -23,10 +23,19 @@ module ExternalPosts
     end
 
     def fetch_from_rss(site, src)
-      xml = HTTParty.get(src['rss_url']).body
-      return if xml.nil?
+      response = HTTParty.get(src['rss_url'], headers: http_headers)
+      if response.code != 200
+        Jekyll.logger.warn "ExternalPosts", "Skipping #{src['name']} (HTTP #{response.code})"
+        return
+      end
+      xml = response.body
+      return if xml.nil? || xml.empty?
       feed = Feedjira.parse(xml)
       process_entries(site, src, feed.entries)
+    rescue Feedjira::NoParserAvailable => e
+      Jekyll.logger.warn "ExternalPosts", "Skipping #{src['name']} (#{e.message})"
+    rescue StandardError => e
+      Jekyll.logger.warn "ExternalPosts", "Error fetching #{src['name']} (#{e.class}: #{e.message})"
     end
 
     def process_entries(site, src, entries)
@@ -87,7 +96,7 @@ module ExternalPosts
     end
 
     def fetch_content_from_url(url)
-      html = HTTParty.get(url).body
+      html = HTTParty.get(url, headers: http_headers).body
       parsed_html = Nokogiri::HTML(html)
 
       title = parsed_html.at('head title')&.text.strip || ''
@@ -103,6 +112,13 @@ module ExternalPosts
         content: body_content,
         summary: description
         # Note: The published date is now added in the fetch_from_urls method.
+      }
+    end
+
+    def http_headers
+      {
+        'User-Agent' =>
+          'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0 Safari/537.36'
       }
     end
 

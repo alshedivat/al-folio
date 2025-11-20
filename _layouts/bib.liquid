@@ -2,7 +2,7 @@
 ---
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+    <div class="col-12 col-sm-6 col-md-5 col-lg-4 abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -46,7 +46,10 @@
   {% endif %}
 
   <!-- Entry bib key -->
-  <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+  <div
+    id="{{ entry.key }}"
+    class="{% if site.enable_publication_thumbnails %}col-12 col-sm-6 col-md-7 col-lg-8{% else %}col-12{% endif %}"
+  >
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
