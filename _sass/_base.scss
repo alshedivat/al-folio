@@ -418,6 +418,10 @@ ul.task-list input[type="checkbox"] {
     font-size: 4rem;
 
     a {
+
+      display: inline-block; //for consistent spacing
+      margin: 0 0.5rem;   // consistent margins b/w icons
+
       img {
         width: 3.2rem;
         height: 3.2rem;
@@ -438,6 +442,18 @@ ul.task-list input[type="checkbox"] {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
+      }
+      // normalizing scholar icons
+      .si::before {
+        line-height: 1;
+        vertical-align:  middle;
+      }
+
+      // normalizing font awsome
+      .fa-brands::before, 
+      .fa-solid::before{
+        line-height:  1;
+        vertical-align:  middle;
       }
 
       &:hover {
