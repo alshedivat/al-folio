@@ -8,6 +8,8 @@ Here we will give you some tips on how to customize the website. One important t
   - [Project structure](#project-structure)
   - [Configuration](#configuration)
   - [GitHub Copilot Customization Agent](#github-copilot-customization-agent)
+    - [What the Agent Can Help With](#what-the-agent-can-help-with)
+    - [How to Use the Agent](#how-to-use-the-agent)
   - [Modifying the CV information](#modifying-the-cv-information)
   - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
   - [Creating new pages](#creating-new-pages)
@@ -335,15 +337,20 @@ To update a library:
 
 1. Change the `version` number
 2. Obtain the new integrity hash for the updated library version and update the `integrity` field with the new hash. You can:
+
    - Check if the CDN provider (e.g., jsDelivr, cdnjs, unpkg) provides the SRI hash for the file. Many CDN sites display the SRI hash alongside the file URL.
    - Generate the SRI hash yourself using a tool such as [SRI Hash Generator](https://www.srihash.org/) or by running the following command in your terminal:
-     `     curl -sL [FILE_URL] | openssl dgst -sha384 -binary | openssl base64 -A`
+
+     ```bash
+     curl -sL [FILE_URL] | openssl dgst -sha384 -binary | openssl base64 -A
+     ```
+
      Replace `[FILE_URL]` with the URL of the library file. Then, prefix the result with `sha384-` and use it in the `integrity` field.
      For detailed instructions on updating specific libraries, see the FAQ:
 
-- [How can I update Academicons version](FAQ.md#how-can-i-update-academicons-version-on-the-template)
-- [How can I update Font Awesome version](FAQ.md#how-can-i-update-font-awesome-version-on-the-template)
-- [How can I update Tabler Icons version](FAQ.md#how-can-i-update-tabler-icons-version-on-the-template)
+     - [How can I update Academicons version](FAQ.md#how-can-i-update-academicons-version-on-the-template)
+     - [How can I update Font Awesome version](FAQ.md#how-can-i-update-font-awesome-version-on-the-template)
+     - [How can I update Tabler Icons version](FAQ.md#how-can-i-update-tabler-icons-version-on-the-template)
 
 ## Removing content
 
