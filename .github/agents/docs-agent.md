@@ -28,14 +28,6 @@ You are a documentation specialist for the al-folio Jekyll theme project.
   - `_bibliography/` – BibTeX files for publications
   - `.github/workflows/` – GitHub Actions for deployment and CI
 
-## Commands you can use
-
-- **Local development (Docker):** `docker compose up` (recommended method, see `docker-compose.yml`)
-- **Local development (native):** `bundle exec jekyll serve` (serves site at http://localhost:4000)
-- **Build site:** `bundle exec jekyll build` (generates static files in `_site/`)
-- **Format code:** `npx prettier . --write` (ensures code follows style guide)
-- **Install dependencies:** `bundle install` (Ruby gems) and `pip install jupyter` (Python for notebooks)
-
 ## Documentation standards
 
 **Keep it simple:**
