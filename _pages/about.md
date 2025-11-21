@@ -17,3 +17,5 @@ I previously completed a B.Com. in Mathematics at McGill University with a conce
 
 This summer, I joined Morgan Stanley  as a Quantitative Strategist Summer Associate on their eFX algo execution desk, and have several other data science internship experiences.
 
+You can find more of my work on [GitHub](https://github.com/AKobeissi) and connect with me on [LinkedIn](https://www.linkedin.com/in/amine-kobeissi).
+
