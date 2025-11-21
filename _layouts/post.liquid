@@ -61,20 +61,19 @@ layout: default
     </p>
   </header>
 
-{% comment %}
-  <article class="post-content">
-    {% if page.toc and page.toc.beginning %}
-      <div id="table-of-contents">
-        {% toc %}
+  {% comment %}
+    <article class="post-content">
+      {% if page.toc and page.toc.beginning %}
+        <div id="table-of-contents">
+          {% toc %}
+        </div>
+        <hr>
+      {% endif %}
+      <div id="markdown-content">
+        {{ content }}
       </div>
-      <hr>
-    {% endif %}
-    <div id="markdown-content">
-      {{ content }}
-    </div>
-  </article>
-{% endcomment %}
-
+    </article>
+  {% endcomment %}
 
   {% if page.citation %}
     {% include citation.liquid %}
