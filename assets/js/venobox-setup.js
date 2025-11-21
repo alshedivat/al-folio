@@ -1,1 +1,1 @@
-document.addEventListener("readystatechange",(()=>{"complete"===document.readyState&&new VenoBox}));
+document.addEventListener("readystatechange",()=>{"complete"===document.readyState&&new VenoBox});
