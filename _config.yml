@@ -248,7 +248,7 @@ exclude:
   - readme_preview/
   - vendor
   - assets/jupyter
-  
+
 keep_files:
   - CNAME
   - .nojekyll
