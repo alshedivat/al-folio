@@ -18,8 +18,12 @@ Here we will give you some tips on how to customize the website. One important t
     - [Author annotation](#author-annotation)
     - [Buttons (through custom bibtex keywords)](#buttons-through-custom-bibtex-keywords)
   - [Changing theme color](#changing-theme-color)
+  - [Customizing layout and UI](#customizing-layout-and-ui)
   - [Adding social media information](#adding-social-media-information)
   - [Adding a newsletter](#adding-a-newsletter)
+  - [Configuring search features](#configuring-search-features)
+  - [Managing publication display](#managing-publication-display)
+  - [Updating third-party libraries](#updating-third-party-libraries)
   - [Removing content](#removing-content)
     - [Removing the blog page](#removing-the-blog-page)
     - [Removing the news section](#removing-the-news-section)
@@ -188,6 +192,22 @@ You can implement your own buttons by editing the [\_layouts/bib.liquid](_layout
 
 A variety of beautiful theme colors have been selected for you to choose from. The default is purple, but you can quickly change it by editing the `--global-theme-color` variable in the [\_sass/\_themes.scss](_sass/_themes.scss) file. Other color variables are listed there as well. The stock theme color options available can be found at [\_sass/\_variables.scss](_sass/_variables.scss). You can also add your own colors to this file assigning each a name for ease of use across the template.
 
+## Customizing layout and UI
+
+You can customize the layout and user interface in [\_config.yml](_config.yml):
+
+```yaml
+navbar_fixed: true
+footer_fixed: true
+back_to_top: true
+max_width: 930px
+```
+
+- `navbar_fixed`: When `true`, the navigation bar stays fixed at the top of the page when scrolling. When `false`, it scrolls with the page content.
+- `footer_fixed`: When `true`, the footer remains fixed at the bottom of the viewport. When `false`, it appears at the end of the page content.
+- `back_to_top`: Displays a "back to top" button in the footer. When clicked, it smoothly scrolls the page back to the top.
+- `max_width`: Controls the maximum width of the main content area in pixels. The default is `930px`. You can adjust this to make your content wider or narrower.
+
 ## Adding social media information
 
 You can add your social media links by adding the specified information in the [\_data/socials.yml](_data/socials.yml) file. This information will appear at the bottom of the `About` page and in the search results by default, but this could be changed to appear at the header of the page by setting `enable_navbar_social: true` and doesn't appear in the search by setting `socials_in_search: false`, both in [\_config.yml](_config.yml).
@@ -197,6 +217,85 @@ You can add your social media links by adding the specified information in the [
 You can add a newsletter subscription form by adding the specified information at the `newsletter` section in the [\_config.yml](_config.yml) file. To set up a newsletter, you can use a service like [Loops.so](https://loops.so/), which is the current supported solution. Once you have set up your newsletter, you can add the form [endpoint](https://loops.so/docs/forms/custom-form) to the `endpoint` field in the `newsletter` section of the [\_config.yml](_config.yml) file.
 
 Depending on your specified footer behavior, the sign up form either will appear at the bottom of the `About` page and at the bottom of blogposts if `related_posts` are enabled, or in the footer at the bottom of each page.
+
+## Configuring search features
+
+The theme includes a powerful search functionality that can be customized in [\_config.yml](_config.yml):
+
+```yaml
+search_enabled: true
+socials_in_search: true
+posts_in_search: true
+bib_search: true
+```
+
+- `search_enabled`: Enables the site-wide search feature. When enabled, a search box appears in the navigation bar, allowing users to search across your site content.
+- `socials_in_search`: Includes your social media links and contact information in search results. This makes it easier for visitors to find ways to connect with you.
+- `posts_in_search`: Includes blog posts in the search index. Users can search for posts by title, content, or tags.
+- `bib_search`: Enables search within your publications/bibliography. When enabled, a search box appears on the publications page, allowing visitors to filter publications by title, author, venue, or year.
+
+All these search features work in real-time and do not require a page reload.
+
+## Managing publication display
+
+The theme offers several options for customizing how publications are displayed:
+
+```yaml
+enable_publication_thumbnails: true
+max_author_limit: 3
+more_authors_animation_delay: 10
+```
+
+- `enable_publication_thumbnails`: When `true`, displays preview images for publications (if specified in the BibTeX entry with the `preview` field). Set to `false` to disable thumbnails for all publications.
+- `max_author_limit`: Sets the maximum number of authors shown initially for each publication. If a publication has more authors, they are hidden behind a "more authors" link. Leave blank to always show all authors.
+- `more_authors_animation_delay`: Controls the animation speed (in milliseconds) when revealing additional authors. A smaller value means faster animation.
+
+To add a thumbnail to a publication, include a `preview` field in your BibTeX entry:
+
+```bibtex
+@article{example2024,
+  title={Example Paper},
+  author={Author, First and Author, Second},
+  journal={Example Journal},
+  year={2024},
+  preview={example_preview.png}
+}
+```
+
+Place the image file in `assets/img/publication_preview/`.
+
+## Updating third-party libraries
+
+The theme uses various third-party JavaScript and CSS libraries. You can manage these in the `third_party_libraries` section of [\_config.yml](_config.yml):
+
+```yaml
+third_party_libraries:
+  download: false
+  bootstrap-table:
+    version: "1.22.4"
+    url:
+      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
+      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
+    integrity:
+      css: "sha256-..."
+      js: "sha256-..."
+```
+
+- `download`: When `false` (default), libraries are loaded from CDNs. When `true`, the specified library versions are downloaded during build and served from your site. This can improve performance but increases your repository size.
+- `version`: Specifies which version of each library to use. Update this to use a newer version.
+- `url`: Template URLs for loading the library. The `{{version}}` placeholder is replaced with the version number.
+- `integrity`: [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) hashes ensure that the library hasn't been tampered with. When updating a library version, you should also update its integrity hash.
+
+To update a library:
+
+1. Change the `version` number
+2. Get the new integrity hash from the library and update the `integrity` field with the new hash
+
+For detailed instructions on updating specific libraries, see the FAQ:
+
+- [How can I update Academicons version](FAQ.md#how-can-i-update-academicons-version-on-the-template)
+- [How can I update Font Awesome version](FAQ.md#how-can-i-update-font-awesome-version-on-the-template)
+- [How can I update Tabler Icons version](FAQ.md#how-can-i-update-tabler-icons-version-on-the-template)
 
 ## Removing content
 
