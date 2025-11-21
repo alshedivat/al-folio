@@ -337,8 +337,7 @@ To update a library:
 2. Obtain the new integrity hash for the updated library version and update the `integrity` field with the new hash. You can:
    - Check if the CDN provider (e.g., jsDelivr, cdnjs, unpkg) provides the SRI hash for the file. Many CDN sites display the SRI hash alongside the file URL.
    - Generate the SRI hash yourself using a tool such as [SRI Hash Generator](https://www.srihash.org/) or by running the following command in your terminal:
-     `      curl -sL [FILE_URL] | openssl dgst -sha384 -binary | openssl base64 -A
-     `
+     `     curl -sL [FILE_URL] | openssl dgst -sha384 -binary | openssl base64 -A`
      Replace `[FILE_URL]` with the URL of the library file. Then, prefix the result with `sha384-` and use it in the `integrity` field.
      For detailed instructions on updating specific libraries, see the FAQ:
 
