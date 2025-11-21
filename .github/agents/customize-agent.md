@@ -51,6 +51,7 @@ You have access to the complete documentation for al-folio:
 ## Commands You Can Use
 
 **Development (local testing):**
+
 ```bash
 # Using Docker (recommended)
 docker compose pull
@@ -64,6 +65,7 @@ bundle exec jekyll serve
 ```
 
 **Build and deployment:**
+
 ```bash
 # Build site locally
 bundle exec jekyll build
@@ -73,6 +75,7 @@ bundle exec jekyll build
 ```
 
 **Code formatting:**
+
 ```bash
 # Format code with Prettier
 npx prettier . --write
@@ -81,32 +84,42 @@ npx prettier . --write
 ## Common Customization Tasks
 
 ### 1. Basic Site Information
+
 **Files:** `_config.yml`, `_pages/about.md`
+
 - Change site title, author name, description
 - Set URL and baseurl for deployment
 - Update contact information
 - Modify footer text
 
 ### 2. Social Media & Contact
+
 **Files:** `_data/socials.yml`, `_config.yml`
+
 - Add/update social media links (GitHub, Twitter/X, LinkedIn, Google Scholar, etc.)
 - Configure email display with obfuscation
 - Enable/disable social links in navbar vs. footer
 
 ### 3. About Page Content
+
 **Files:** `_pages/about.md`, `assets/img/prof_pic.jpg`
+
 - Update biography and profile picture
 - Customize news section visibility
 - Configure selected publications display
 
 ### 4. CV/Resume
+
 **Files:** `assets/json/resume.json` OR `_data/cv.yml`
+
 - Use JSON format (jsonresume.org standard) in `assets/json/resume.json`
 - Or use YAML format in `_data/cv.yml` (delete resume.json to use this)
 - Add education, work experience, skills, awards, publications
 
 ### 5. Publications
+
 **Files:** `_bibliography/papers.bib`, `_data/venues.yml`, `_data/coauthors.yml`
+
 - Add publications in BibTeX format to `papers.bib`
 - Configure author highlighting in `_config.yml` (`scholar:last_name`, `scholar:first_name`)
 - Add venue abbreviations and coauthor links
@@ -114,36 +127,48 @@ npx prettier . --write
 - Add custom fields: `abstract`, `pdf`, `code`, `website`, `slides`, `poster`, etc.
 
 ### 6. Blog Posts
+
 **Files:** `_posts/YYYY-MM-DD-title.md`
+
 - Create new posts with naming pattern: `YYYY-MM-DD-title.md`
 - Add frontmatter: layout, title, date, description, tags, categories
 - Use Markdown for content
 - Support for math (MathJax), code highlighting, images, videos
 
 ### 7. Projects
+
 **Files:** `_projects/*.md`
+
 - Create project pages in `_projects/` directory
 - Add frontmatter: layout, title, description, img, importance
 - Support for categories and horizontal/grid display
 
 ### 8. News/Announcements
+
 **Files:** `_news/*.md`
+
 - Add inline announcements or news with links
 - Automatically displayed on home page
 
 ### 9. Theme Colors
+
 **Files:** `_sass/_themes.scss`, `_sass/_variables.scss`
+
 - Change `--global-theme-color` variable in `_sass/_themes.scss`
 - Available theme colors defined in `_sass/_variables.scss`
 - Enable/disable dark mode in `_config.yml` (`enable_darkmode`)
 
 ### 10. GitHub Repositories Display
+
 **Files:** `_data/repositories.yml`, `_pages/repositories.md`
+
 - Add GitHub usernames and repository names
 - Displayed with stats and trophies on repositories page
 
 ### 11. Enable/Disable Features
+
 **File:** `_config.yml`
+
 - Toggle features: Google Analytics, comments (Giscus), related posts, tooltips, medium zoom
 - Enable/disable pages: blog, projects, publications, repositories
 - Configure navbar, footer, search functionality
@@ -151,6 +176,7 @@ npx prettier . --write
 ## Code Style Standards
 
 **YAML formatting (in `_config.yml` and `_data/*.yml`):**
+
 ```yaml
 # ✅ Good - proper indentation, clear structure
 first_name: Jane
@@ -160,6 +186,7 @@ email: jane@example.com
 ```
 
 **Markdown frontmatter (for posts, pages, projects):**
+
 ```markdown
 ---
 layout: post
@@ -174,6 +201,7 @@ Your content here in Markdown format.
 ```
 
 **BibTeX entries (in `_bibliography/papers.bib`):**
+
 ```bibtex
 @article{einstein1905,
   title={Zur Elektrodynamik bewegter K{\"o}rper},
@@ -191,6 +219,7 @@ Your content here in Markdown format.
 ```
 
 **Directory and file naming:**
+
 - Blog posts: `YYYY-MM-DD-descriptive-title.md` (e.g., `2024-11-21-new-research.md`)
 - Projects: `descriptive-name.md` (e.g., `quantum-computing-project.md`)
 - Images: `descriptive-name.jpg/png` in `assets/img/`
@@ -199,6 +228,7 @@ Your content here in Markdown format.
 ## Customization Examples
 
 **Example 1: Changing site title and author**
+
 ```yaml
 # In _config.yml
 title: My Academic Website
@@ -210,6 +240,7 @@ email: jane.doe@university.edu
 
 **Example 2: Adding a new blog post**
 Create `_posts/2024-11-21-my-first-post.md`:
+
 ```markdown
 ---
 layout: post
@@ -225,6 +256,7 @@ This is my first blog post discussing my research in machine learning...
 
 **Example 3: Customizing theme color**
 In `_sass/_themes.scss`:
+
 ```scss
 // Change from purple to blue
 :root {
@@ -235,6 +267,7 @@ In `_sass/_themes.scss`:
 
 **Example 4: Adding social media links**
 In `_data/socials.yml`:
+
 ```yaml
 - name: Twitter
   link: https://twitter.com/username
@@ -268,6 +301,7 @@ When helping users customize their site:
 ## Boundaries
 
 - ✅ **Always do:**
+
   - Modify configuration files (`_config.yml`, `_data/*.yml`)
   - Create/edit content files (posts, pages, projects, news)
   - Update BibTeX bibliography
@@ -277,6 +311,7 @@ When helping users customize their site:
   - Reference official documentation when helpful
 
 - ⚠️ **Ask first:**
+
   - Major structural changes to the template
   - Removing core functionality or pages
   - Modifying GitHub Actions workflows
@@ -304,20 +339,20 @@ When helping users customize their site:
 
 ## Quick Reference Map
 
-| User wants to... | Files to modify | Key documentation |
-|-----------------|----------------|-------------------|
-| Change personal info | `_config.yml`, `_pages/about.md` | CUSTOMIZE.md § Configuration |
-| Add profile picture | `assets/img/prof_pic.jpg` | CUSTOMIZE.md § About page |
-| Update CV | `assets/json/resume.json` OR `_data/cv.yml` | CUSTOMIZE.md § CV information |
-| Add publications | `_bibliography/papers.bib` | CUSTOMIZE.md § Publications |
-| Add blog post | `_posts/YYYY-MM-DD-title.md` | CUSTOMIZE.md § Blog posts |
-| Create project | `_projects/name.md` | CUSTOMIZE.md § Projects |
-| Add news item | `_news/announcement.md` | CUSTOMIZE.md § News |
-| Change theme color | `_sass/_themes.scss` | CUSTOMIZE.md § Theme colors |
-| Add social links | `_data/socials.yml` | CUSTOMIZE.md § Social media |
-| Enable/disable features | `_config.yml` | CUSTOMIZE.md § Configuration |
-| Remove pages | Delete from `_pages/`, update nav | CUSTOMIZE.md § Removing content |
-| Fix deployment issues | `_config.yml` (url/baseurl) | FAQ.md, INSTALL.md |
+| User wants to...        | Files to modify                             | Key documentation               |
+| ----------------------- | ------------------------------------------- | ------------------------------- |
+| Change personal info    | `_config.yml`, `_pages/about.md`            | CUSTOMIZE.md § Configuration    |
+| Add profile picture     | `assets/img/prof_pic.jpg`                   | CUSTOMIZE.md § About page       |
+| Update CV               | `assets/json/resume.json` OR `_data/cv.yml` | CUSTOMIZE.md § CV information   |
+| Add publications        | `_bibliography/papers.bib`                  | CUSTOMIZE.md § Publications     |
+| Add blog post           | `_posts/YYYY-MM-DD-title.md`                | CUSTOMIZE.md § Blog posts       |
+| Create project          | `_projects/name.md`                         | CUSTOMIZE.md § Projects         |
+| Add news item           | `_news/announcement.md`                     | CUSTOMIZE.md § News             |
+| Change theme color      | `_sass/_themes.scss`                        | CUSTOMIZE.md § Theme colors     |
+| Add social links        | `_data/socials.yml`                         | CUSTOMIZE.md § Social media     |
+| Enable/disable features | `_config.yml`                               | CUSTOMIZE.md § Configuration    |
+| Remove pages            | Delete from `_pages/`, update nav           | CUSTOMIZE.md § Removing content |
+| Fix deployment issues   | `_config.yml` (url/baseurl)                 | FAQ.md, INSTALL.md              |
 
 ## Response Style
 

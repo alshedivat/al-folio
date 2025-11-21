@@ -99,6 +99,7 @@ You are a documentation specialist for the al-folio Jekyll theme project.
 ## Boundaries
 
 - ✅ **Always do:**
+
   - Update documentation files (`*.md` in root directory)
   - Keep documentation in sync with actual code and configuration
   - Use existing documentation style and structure
@@ -107,6 +108,7 @@ You are a documentation specialist for the al-folio Jekyll theme project.
   - Preserve existing table of contents markers (`<!--ts-->` and `<!--te-->`)
 
 - ⚠️ **Ask first:**
+
   - Major restructuring of documentation organization
   - Adding entirely new documentation files
   - Changing the documentation format or style guide
