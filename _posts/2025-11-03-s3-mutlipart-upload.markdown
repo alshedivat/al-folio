@@ -80,24 +80,12 @@ The metadata store is the internal, consensus-based database that powers the con
 ## High-Level Architecture Diagram
 To visualize how these components interact, consider this high-level diagram:
 
-```mermaid
-graph TD
-    subgraph "Client"
-        A[User Application]
-    end
 
-    subgraph "Amazon S3"
-        B[Request Router / Front-End]
-        C[Control Plane <br> (Manages Metadata)]
-        D[Data Plane <br> (Stores Object Data)]
-        E[Metadata Store <br> (Paxos-replicated DB)]
-    end
+<div>
+    <img src="{{ site.baseurl }}/assets/img/s3_multipart_upload.png" width="100%">
+</div>
 
-    A -- 1. API Request (PUT, GET, etc.) --> B
-    B -- 2. Consults/Updates Metadata --> C
-    C -- 3. Reads/Writes to --> E
-    B -- 4. Streams Data to/from --> D
-```
+
 
 ----
 
