@@ -50,4 +50,4 @@ jobs:
         uses: lycheeverse/lychee-action@v2
         with:
           fail: true
-          args: -a 100..=103,200..=299,403,418 --user-agent 'curl/7.54' --exclude-path _pages/profiles.md --exclude-path _pages/blog.md --exclude-path _pages/repositories.md --verbose --no-progress './_pages/*.md' './_news/2024/*' './_news/2025/*' './**/*.html'
+          args: -a 100..=103,200..=299,403,418 --max-redirects 10 --user-agent 'curl/7.54' --exclude-path _pages/profiles.md --exclude-path _pages/blog.md --exclude-path _pages/repositories.md --verbose --no-progress './_pages/*.md' './_news/2024/*' './_news/2025/*' './**/*.html'
