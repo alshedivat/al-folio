@@ -10,6 +10,7 @@ Here we will give you some tips on how to customize the website. One important t
   - [GitHub Copilot Customization Agent](#github-copilot-customization-agent)
     - [What the Agent Can Help With](#what-the-agent-can-help-with)
     - [How to Use the Agent](#how-to-use-the-agent)
+    - [Important: Verify Agent Output](#important-verify-agent-output)
   - [Modifying the CV information](#modifying-the-cv-information)
   - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
   - [Creating new pages](#creating-new-pages)
@@ -90,7 +91,7 @@ All changes made to this file are only visible after you rebuild the website. Th
 
 ## GitHub Copilot Customization Agent
 
-This repository includes a specialized GitHub Copilot agent (`.github/agents/customize-agent.md`) designed to help you customize your al-folio website. The agent acts as an expert assistant that can:
+This repository includes a specialized GitHub Copilot agent (`.github/agents/customize.agent.md`) designed to help you customize your al-folio website. The agent acts as an expert assistant that can:
 
 - Guide you through common customization tasks step-by-step
 - Modify configuration files, add content, and update your website
@@ -118,7 +119,7 @@ To use the customization agent:
 
 1. Ensure you have a [GitHub Copilot](https://github.com/features/copilot) subscription
 2. Open your repository in an editor with GitHub Copilot support (such as VS Code with the GitHub Copilot extension)
-3. Interact with GitHub Copilot and ask questions or request changes
+3. Interact with GitHub Copilot and ask questions or request changes. For more information, check [Using custom agents in your IDE](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents#using-custom-agents-in-your-ide)
 4. The agent will guide you through the customization process and can make changes directly to your files
 
 For example, you can ask:

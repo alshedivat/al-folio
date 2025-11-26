@@ -25,7 +25,7 @@ This repository includes two specialized GitHub Copilot agents to assist with de
 
 ### Customization Agent
 
-The **Customization Agent** (`.github/agents/customize-agent.md`) helps users customize their al-folio website. It:
+The **Customization Agent** (`.github/agents/customize.agent.md`) helps users customize their al-folio website. It:
 
 - Guides you through modifying configuration files, adding content, and customizing the theme
 - Explains technical concepts in plain language for users without coding experience
@@ -36,7 +36,7 @@ To use the customization agent, you need to have [GitHub Copilot](https://github
 
 ### Documentation Agent
 
-The **Documentation Agent** (`.github/agents/docs-agent.md`) maintains the project documentation. It:
+The **Documentation Agent** (`.github/agents/docs.agent.md`) maintains the project documentation. It:
 
 - Updates and maintains documentation files (`README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`)
 - Keeps documentation in sync with code changes
@@ -64,7 +64,7 @@ GitHub Copilot agents are available to users with GitHub Copilot subscriptions. 
 
 1. Ensure you have [GitHub Copilot](https://github.com/features/copilot) enabled for your account
 2. Open your repository in an editor with GitHub Copilot support (such as VS Code with the GitHub Copilot extension)
-3. The agents will be automatically available based on the configuration files in `.github/agents/`
+3. The agents will be automatically available based on the configuration files in `.github/agents/`. For more information, see [Using custom agents in your IDE](https://docs.github.com/en/enterprise-cloud@latest/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents#using-custom-agents-in-your-ide).
 
 For more information about GitHub Copilot agents and how to use them, see the [GitHub Copilot documentation](https://docs.github.com/en/copilot).
 
