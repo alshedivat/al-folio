@@ -45,6 +45,19 @@ The **Documentation Agent** (`.github/agents/docs-agent.md`) maintains the proje
 
 The documentation agent is primarily intended for maintainers and contributors who are updating the project documentation.
 
+### Important: Verify Agent Output
+
+While these agents are designed to assist you, **they can make mistakes or produce incorrect information**. Always review and verify the output before applying it to your repository:
+
+- **Review code and configuration changes** – Check that suggested modifications are correct and fit your needs
+- **Test changes locally** – Before pushing to GitHub, test the changes locally (using Docker or native setup)
+- **Verify syntax** – Ensure any YAML, Markdown, or configuration files have correct syntax
+- **Check documentation** – If the agent generates documentation, review it for accuracy and clarity
+- **Don't blindly apply changes** – Understand what changes are being made and why
+- **Run your site** – After applying changes, run your site locally and verify everything works as expected
+
+**Example:** If an agent suggests a BibTeX entry or configuration change, verify that the syntax is correct and matches the existing style in your repository before committing.
+
 ### How to Enable Agents
 
 GitHub Copilot agents are available to users with GitHub Copilot subscriptions. To use these agents:

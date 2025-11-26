@@ -130,6 +130,24 @@ For example, you can ask:
 
 The agent is designed to be patient and helpful, explaining each step clearly so you understand what's being changed and why.
 
+### Important: Verify Agent Output
+
+**The customization agent can make mistakes or produce incorrect information.** Always review and verify the agent's suggestions and changes before applying them to your repository:
+
+- **Review all changes** – Before applying any modifications, carefully read what the agent suggests and ensure it makes sense for your needs
+- **Test locally first** – Before pushing changes to GitHub, test them locally using Docker or native setup (see the [Installation instructions](INSTALL.md))
+- **Check syntax** – Make sure any YAML, Markdown, or BibTeX files have correct syntax. Incorrect syntax can break your website
+- **Verify configuration** – If the agent modifies `_config.yml` or other configuration files, check that the changes align with your intentions
+- **Preview on your site** – Run your site locally and navigate through it to ensure everything displays correctly and works as expected
+- **Don't blindly apply changes** – Understand what's being changed and why before committing to your repository
+
+**Example scenarios where verification is important:**
+
+- If the agent suggests a BibTeX entry, verify the syntax matches existing entries in your `_bibliography/papers.bib` file
+- If the agent modifies your `_config.yml`, check that indentation is correct (YAML is very sensitive to spacing)
+- If the agent creates a new blog post or page, verify the frontmatter (the metadata at the top) is correct
+- If the agent suggests changes to theme colors or styling, preview your site locally to ensure the changes look as intended
+
 > **Note:** The customization agent requires GitHub Copilot to be enabled. For more information about GitHub Copilot and its features, see the [GitHub Copilot documentation](https://docs.github.com/en/copilot).
 
 ## Modifying the CV information
