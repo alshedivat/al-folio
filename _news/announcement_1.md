@@ -9,9 +9,9 @@ related_posts: false
 <p>
   <img src="{{ '/assets/img/2E_ZEEPT.webp' | relative_url }}"
        alt="2025 FIAM Asset Management Hackathon"
-       style="float:left; margin-right:10px; width:90px; height:auto;">
+       style="float:left; margin-right:30px; width:290px; height:auto;">
 
-  Excited to share that my team and I won **2nd place** in the 2025 **FIAM Asset Management Hackathon**!  
+  My team and I won **2nd place** in the 2025 [**FIAM Asset Management Hackathon**](https://hackathonfinance.com/)!  
   We built a **systematic long–short equity strategy** powered by **reinforcement learning and deep learning** to rebalance a portfolio over time.  
-  We also added an **LLM agent** that reads company filings and macroeconomic reports to help adjust the portfolio each month, similar to how a human analyst would.
+  We also added an **LLM agent** that reads company filings and macroeconomic reports to help adjust the portfolio each month. 
 </p>
