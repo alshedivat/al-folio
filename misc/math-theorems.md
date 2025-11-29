@@ -82,5 +82,8 @@ There may be mistakes or simplifications in the following.
 "Hilbert and de Broglie were as much politicians as scientists: they reestablished order."
 -- Deleuze and Guattari, *A Thousand Plateaus*
 
-"...the axiomatic method is nothing but the ‘Taylor System’ — the ‘scientific management’ — of mathematics”
+"...the axiomatic method is nothing but the 'Taylor System' — the 'scientific management' — of mathematics"
 -- Nicholas Bourbaki
+
+"The methods for coming up with useful examples in mathematics... are even less clear than the methods for proving mathematical statements."
+-- Gil Kalai, [Examples in Mathematics](https://www.youtube.com/watch?v=Uxr_HrbN1MQ){:target="_blank"}

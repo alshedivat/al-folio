@@ -4,6 +4,7 @@ permalink: /misc/feeling-diary
 title: Feeling Diary
 description:
 nav: false
+published: false
 ---
 
 <style>

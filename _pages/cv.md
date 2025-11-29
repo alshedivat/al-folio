@@ -285,6 +285,14 @@ I was also mentored by [Jared Moore](https://jaredmoore.org/){:target="_blank"},
 <h2>Academic Service & Volunteering</h2>
 
 <div class="service-item">
+<div class="item-title">Co-Webmaster</div>
+<div class="item-institution">MIT HCI Group, 2025-2026</div>
+<div class="item-details">
+<a href="https://hci.csail.mit.edu/" target="_blank">https://hci.csail.mit.edu/</a>
+</div>
+</div>
+
+<div class="service-item">
 <div class="item-title">Reviewer</div>
 <div class="item-details">
 • 2024 CSCW (Computer-Supported Cooperative Work)<br>

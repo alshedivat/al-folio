@@ -249,6 +249,13 @@
                     "year": 2025,
                     "commentary": "Super interesting and illuminating perspective explaining why supposedly deep-learning-unique phenomena like deep double descent, overparametrization, etc. can be explained using soft inductive biases and existing generalization frameworks. The references are a treasure trove!",
                     "link": "https://openreview.net/pdf?id=42Au7FoD8F"
+                },
+                {
+                    "title": "Cognitive Behaviors that Enable Self-Improving Reasoners",
+                    "authors": "Kanishk Gandhi, Ayush Chakravarthy, Anikait Singh, Nathan Lile, Noah D. Goodman",
+                    "year": 2025,
+                    "commentary": "Identifies four cognitive behaviors (verification, backtracking, subgoal setting, backward chaining) that predict whether a model can self-improve via RL. The key finding is striking: it's the presence of reasoning behaviors, not answer correctness, that matters. Models exposed to training data with proper reasoning patterns -- even incorrect answers -- matched the improvement of models that had these behaviors naturally. A useful framing for thinking about what 'reasoning' actually is in these systems.",
+                    "link": "https://arxiv.org/abs/2503.01307"
                 }
             ]
         },
@@ -342,6 +349,20 @@
                     "year": 2007,
                     "commentary": "A comprehensive historical survey of the development of abstract algebra from its origins to modern times.",
                     "link": "https://pyrkov-professor.ru/Portals/0/Mediateka/18%20vek/kleiner_i_a_history_of_abstract_algebra.pdf"
+                },
+                {
+                    "title": "The Shape of Math To Come",
+                    "authors": "Alex Kontorovich",
+                    "year": 2025,
+                    "commentary": "Kontorovich reflects on how AI and formal verification systems like Lean are reshaping mathematical practice, intended for ICM 2026. What I find compelling is that the examples come from someone deeply embedded in both traditional research mathematics and these new technologies. The discussion of the 'Bitter Lesson' applied to mathematics is sobering, and the concrete examples of what formal verification looks like in practice are clarifying. A useful document for thinking about what 'doing math' might mean going forward.",
+                    "link": "https://arxiv.org/abs/2510.15924"
+                },
+                {
+                    "title": "Examples in Mathematics",
+                    "authors": "Gil Kalai",
+                    "year": 2024,
+                    "commentary": "A talk on the role of examples in mathematical practice. Kalai's observation that 'the methods for coming up with useful examples in mathematics are even less clear than the methods for proving mathematical statements' resonates with me -- examples are often the hardest and most creative part of mathematical work, yet we rarely discuss the craft of finding them.",
+                    "link": "https://www.youtube.com/watch?v=Uxr_HrbN1MQ"
                 }
             ]
         },
@@ -370,6 +391,13 @@
                     "year": 1973,
                     "commentary": "An ambitious yet informed vision for what it would mean and cost for us to have *convivial* tools -- tools that we can make and shape our own lives for joy and purpose.",
                     "link": ""
+                },
+                {
+                    "title": "Nietzsche and the Virtues of Mature Egoism",
+                    "authors": "Christine Swanton",
+                    "year": 2011,
+                    "commentary": "Swanton reads Nietzsche's 'immoralism' and 'egoism' as articulating virtues of the 'mature egoist' -- someone who has overcome immature egoism (ressentiment, self-deception, reactive self-assertion) in favor of genuine self-affirmation and creative engagement with the world. Setting aside questions of fidelity to Nietzsche's texts, I find this a compelling moral outlook: a rejection of both slavish self-denial and petty self-aggrandizement in favor of something like joyful, active, honest self-cultivation.",
+                    "link": "https://www.cambridge.org/core/books/abs/nietzsches-on-the-genealogy-of-morality/nietzsche-and-the-virtues-of-mature-egoism/7F4FAEEB715286707F9F5514400219A9"
                 }
             ]
         },
