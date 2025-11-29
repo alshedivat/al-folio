@@ -258,8 +258,8 @@ GEM
     set (1.1.2)
     singleton (0.3.0)
     stringio (3.1.7)
-    terminal-table (3.0.2)
-      unicode-display_width (>= 1.1.1, < 3)
+    terminal-table (1.8.0)
+      unicode-display_width (~> 1.1, >= 1.1.1)
     terser (1.2.5)
       execjs (>= 0.3.0, < 3)
     time (0.4.1)
@@ -268,7 +268,7 @@ GEM
       concurrent-ruby (~> 1.0)
     uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
-    unicode-display_width (2.6.0)
+    unicode-display_width (1.8.0)
     uri (1.0.3)
     webrick (1.9.1)
 
@@ -311,6 +311,7 @@ DEPENDENCIES
   jemoji
   observer
   ostruct
+  terminal-table (~> 1.8)
 
 BUNDLED WITH
    2.6.9
