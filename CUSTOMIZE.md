@@ -11,6 +11,9 @@ Here we will give you some tips on how to customize the website. One important t
     - [What the Agent Can Help With](#what-the-agent-can-help-with)
     - [How to Use the Agent](#how-to-use-the-agent)
     - [Important: Verify Agent Output](#important-verify-agent-output)
+  - [Understanding the Codebase with Code Wiki and DeepWiki](#understanding-the-codebase-with-code-wiki-and-deepwiki)
+    - [What are these tools?](#what-are-these-tools)
+    - [When to use them](#when-to-use-them)
   - [Modifying the CV information](#modifying-the-cv-information)
   - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
   - [Creating new pages](#creating-new-pages)
@@ -150,6 +153,39 @@ The agent is designed to be patient and helpful, explaining each step clearly so
 - If the agent suggests changes to theme colors or styling, preview your site locally to ensure the changes look as intended
 
 > **Note:** The customization agent requires GitHub Copilot to be enabled. For more information about GitHub Copilot and its features, see the [GitHub Copilot documentation](https://docs.github.com/en/copilot).
+
+## Understanding the Codebase with Code Wiki and DeepWiki
+
+If you're interested in learning more about how al-folio works under the hood, or want to understand specific aspects of the codebase for deeper customization, you can use Code Wiki and DeepWiki as supplementary resources.
+
+### What are these tools?
+
+**Code Wiki** and **DeepWiki** are AI-powered tools that help you explore and understand GitHub repositories through interactive documentation:
+
+- **Code Wiki** (powered by Google Gemini) generates interactive documentation from the repository code. You can browse the project structure, search for specific functions or modules, view architecture diagrams, and understand how different components interact.
+
+- **DeepWiki** provides an AI chat interface where you can ask natural language questions about the codebase, similar to having an engineer available 24/7. You can ask how features work, search for code patterns, or get explanations of complex logic.
+
+### When to use them
+
+Use Code Wiki and DeepWiki **only after**:
+
+- You have reviewed the relevant sections in this `CUSTOMIZE.md` file
+- You have checked the [project structure](#project-structure) section above
+- You have explored the [main documentation files](README.md) (README.md, INSTALL.md, FAQ.md)
+- You have checked the [GitHub Discussions Q&A section](https://github.com/alshedivat/al-folio/discussions/categories/q-a)
+
+These tools are best used for:
+
+- Understanding the architecture and how different parts of the codebase work together
+- Finding where specific functionality is implemented
+- Learning about the Jekyll template structure and Liquid syntax used in the theme
+- Exploring how specific features are implemented (e.g., how publications are rendered, how search works, etc.)
+
+**Access these tools:**
+
+- **Code Wiki**: [Code Wiki for al-folio](https://codewiki.google/github.com/alshedivat/al-folio)
+- **DeepWiki**: [DeepWiki for al-folio](https://deepwiki.com/alshedivat/al-folio)
 
 ## Modifying the CV information
 

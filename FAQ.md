@@ -6,21 +6,26 @@ Here are some frequently asked questions. If you have a different question, plea
 
 - [Frequently Asked Questions](#frequently-asked-questions)
   - [After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?](#after-i-create-a-new-repository-from-this-template-and-setup-the-repo-i-get-a-deployment-error-isnt-the-website-supposed-to-correctly-deploy-automatically)
-  - [I am using a custom domain (e.g., foo.com). My custom domain becomes blank in the repository settings after each deployment. How do I fix that?](#i-am-using-a-custom-domain-eg-foocom-my-custom-domain-becomes-blank-in-the-repository-settings-after-each-deployment-how-do-i-fix-that)
-  - [My webpage works locally. But after deploying, it fails to build and throws Unknown tag 'toc'. How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-fails-to-build-and-throws-unknown-tag-toc-how-do-i-fix-that)
+  - [I am using a custom domain (e.g., `foo.com`). My custom domain becomes blank in the repository settings after each deployment. How do I fix that?](#i-am-using-a-custom-domain-eg-foocom-my-custom-domain-becomes-blank-in-the-repository-settings-after-each-deployment-how-do-i-fix-that)
+  - [My webpage works locally. But after deploying, it fails to build and throws `Unknown tag 'toc'`. How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-fails-to-build-and-throws-unknown-tag-toc-how-do-i-fix-that)
   - [My webpage works locally. But after deploying, it is not displayed correctly (CSS and JS are not loaded properly). How do I fix that?](#my-webpage-works-locally-but-after-deploying-it-is-not-displayed-correctly-css-and-js-are-not-loaded-properly-how-do-i-fix-that)
   - [Atom feed doesn't work. Why?](#atom-feed-doesnt-work-why)
-  - [My site doesn't work when I enable related_blog_posts. Why?](#my-site-doesnt-work-when-i-enable-related_blog_posts-why)
+  - [My site doesn't work when I enable `related_blog_posts`. Why?](#my-site-doesnt-work-when-i-enable-related_blog_posts-why)
   - [When trying to deploy, it's asking for github login credentials, which github disabled password authentication and it exits with an error. How to fix?](#when-trying-to-deploy-its-asking-for-github-login-credentials-which-github-disabled-password-authentication-and-it-exits-with-an-error-how-to-fix)
-  - [When I manually run the Lighthouse Badger workflow, it fails with Error: Input required and not supplied: token. How do I fix that?](#when-i-manually-run-the-lighthouse-badger-workflow-it-fails-with-error-input-required-and-not-supplied-token-how-do-i-fix-that)
-  - [My code runs fine locally, but when I create a commit and submit it, it fails with prettier code formatter workflow run failed for main branch. How do I fix that?](#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-main-branch-how-do-i-fix-that)
+  - [When I manually run the Lighthouse Badger workflow, it fails with `Error: Input required and not supplied: token`. How do I fix that?](#when-i-manually-run-the-lighthouse-badger-workflow-it-fails-with-error-input-required-and-not-supplied-token-how-do-i-fix-that)
+  - [My code runs fine locally, but when I create a commit and submit it, it fails with `prettier code formatter workflow run failed for main branch`. How do I fix that?](#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-main-branch-how-do-i-fix-that)
   - [After I update my site with some new content, even a small change, the GitHub action throws an error or displays a warning. What happened?](#after-i-update-my-site-with-some-new-content-even-a-small-change-the-github-action-throws-an-error-or-displays-a-warning-what-happened)
-  - [I am trying to deploy my site, but it fails with Could not find gem 'jekyll-diagrams' in locally installed gems. How do I fix that?](#i-am-trying-to-deploy-my-site-but-it-fails-with-could-not-find-gem-jekyll-diagrams-in-locally-installed-gems-how-do-i-fix-that)
+  - [I am trying to deploy my site, but it fails with `Could not find gem 'jekyll-diagrams' in locally installed gems`. How do I fix that?](#i-am-trying-to-deploy-my-site-but-it-fails-with-could-not-find-gem-jekyll-diagrams-in-locally-installed-gems-how-do-i-fix-that)
   - [How can I update Academicons version on the template](#how-can-i-update-academicons-version-on-the-template)
   - [How can I update Font Awesome version on the template](#how-can-i-update-font-awesome-version-on-the-template)
   - [How can I update Tabler Icons version on the template](#how-can-i-update-tabler-icons-version-on-the-template)
   - [What do all these GitHub actions/workflows mean?](#what-do-all-these-github-actionsworkflows-mean)
   - [How can I use Google Search Console ID on the template?](#how-can-i-use-google-search-console-id-on-the-template)
+  - [What are Code Wiki and DeepWiki?](#what-are-code-wiki-and-deepwiki)
+    - [When to use these tools](#when-to-use-these-tools)
+    - [What they do](#what-they-do)
+    - [Limitations](#limitations)
+    - [Access these tools](#access-these-tools)
 
 <!--te-->
 
@@ -137,3 +142,39 @@ In the configuration file `_config.yml` the tag `google-site-verification` shoul
 - The string against `content` is the Google Search Console ID that can be used in the template. e.g. `google-site-verification: GoogleSearchConsoleID`. Now set the property `enable_google_verification: true`.
 
 It looks like the Domain type property in the Google Search Console to verify the ownership of all URLs across all subdomains with GitHub Pages does not work.
+
+## What are Code Wiki and DeepWiki?
+
+**Code Wiki** and **DeepWiki** are AI-powered tools that help you understand GitHub repositories through interactive documentation. They should be treated as supplementary resources when you cannot find the information you need in the official project documentation.
+
+### When to use these tools
+
+**Use Code Wiki and DeepWiki only after**:
+
+- You have reviewed the relevant documentation files in this repository (`README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, or `CONTRIBUTING.md`)
+- You have checked the [GitHub Discussions Q&A section](https://github.com/alshedivat/al-folio/discussions/categories/q-a) for similar questions
+- You have searched existing [GitHub Issues](https://github.com/alshedivat/al-folio/issues)
+
+### What they do
+
+**Code Wiki** (powered by Google Gemini) generates interactive documentation from your repository code. It allows you to:
+
+- Browse your repository's structure and architecture
+- Search for specific functions or modules
+- Understand how different parts of the codebase work together
+- Get diagrams and visual representations of your code architecture
+
+**DeepWiki** provides an AI-powered interface to ask questions about a repository, similar to having an engineer available 24/7. It allows you to:
+
+- Ask natural language questions about the codebase
+- Get instant answers about how specific features work
+- Search for code patterns and implementations
+
+### Limitations
+
+These tools are generated automatically from our code and may not always reflect the most current documentation standards or best practices specific to this project. They should not replace official documentation but rather complement it when you need deeper technical insights.
+
+### Access these tools
+
+- **Code Wiki**: [Code Wiki for al-folio](https://codewiki.google/github.com/alshedivat/al-folio)
+- **DeepWiki**: [DeepWiki for al-folio](https://deepwiki.com/alshedivat/al-folio)
