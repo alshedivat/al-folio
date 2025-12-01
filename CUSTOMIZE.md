@@ -2,6 +2,8 @@
 
 Here we will give you some tips on how to customize the website. One important thing to note is that **ALL** the changes you make should be done on the **main** branch of your repository. The `gh-pages` branch is automatically overwritten every time you make a change to the main branch.
 
+> **Note for users without coding experience:** You do **not** need to understand the technology stack or have any coding background to create and customize your own website with al-folio. This template was specifically designed to be accessible to academics and researchers from all backgrounds. You can create a fully functional website by simply editing configuration files and adding content in Markdown, no coding required.
+
 <!--ts-->
 
 - [Customize](#customize)
@@ -14,6 +16,11 @@ Here we will give you some tips on how to customize the website. One important t
   - [Understanding the Codebase with Code Wiki and DeepWiki](#understanding-the-codebase-with-code-wiki-and-deepwiki)
     - [What are these tools?](#what-are-these-tools)
     - [When to use them](#when-to-use-them)
+  - [Technology Stack](#technology-stack)
+    - [Frontend](#frontend)
+    - [Backend](#backend)
+    - [Build and Deployment](#build-and-deployment)
+    - [Key Integration Points](#key-integration-points)
   - [Modifying the CV information](#modifying-the-cv-information)
   - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
   - [Creating new pages](#creating-new-pages)
@@ -186,6 +193,74 @@ These tools are best used for:
 
 - **Code Wiki**: [Code Wiki for al-folio](https://codewiki.google/github.com/alshedivat/al-folio)
 - **DeepWiki**: [DeepWiki for al-folio](https://deepwiki.com/alshedivat/al-folio)
+
+## Technology Stack
+
+Understanding al-folio's technology stack will help you better customize and extend the theme. This section provides an overview of the key technologies and frameworks used in the project.
+
+### Frontend
+
+- **Markdown**: Content is written in Markdown format for pages, blog posts, and collections. This makes it easy to create and maintain content without worrying about HTML.
+- **Liquid templating**: [Liquid](https://shopify.github.io/liquid/) is used for dynamic template generation. Liquid templates are used in the `_layouts/` and `_includes/` directories to define how your content should be displayed.
+- **HTML & CSS**: The theme uses semantic HTML5 and modern CSS for styling and layout.
+- **SCSS**: Stylesheets are written in [SCSS (Sass)](https://sass-lang.com/), a CSS preprocessor that provides variables, mixins, and functions for more maintainable styling. SCSS files are located in `_sass/` and compiled to CSS during the build process.
+- **Bootstrap**: [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/) is used for responsive grid layout and base styling components.
+- **JavaScript**: Minimal JavaScript is used for interactive features like the dark mode toggle, search functionality, and dynamic content rendering.
+- **MathJax**: For rendering mathematical equations in LaTeX format on your pages and blog posts.
+- **Mermaid**: For creating diagrams (flowcharts, sequence diagrams, etc.) directly in Markdown.
+- **Font Awesome, Academicons, and Tabler Icons**: Icon libraries used throughout the theme for visual elements.
+
+### Backend
+
+- **Jekyll 4.x**: [Jekyll](https://jekyllrb.com/) is a static site generator written in Ruby that transforms your Markdown files and templates into a static website. Jekyll is used to:
+
+  - Convert Markdown files to HTML
+  - Process Liquid templates
+  - Manage collections (posts, projects, news, books, etc.)
+  - Generate archives and pagination
+  - Minify CSS and JavaScript
+
+- **Ruby Gems** (Jekyll plugins): The project uses several Ruby plugins to extend Jekyll's functionality:
+
+  - `jekyll-scholar`: Manages bibliography files (BibTeX) and generates publication pages with citations
+  - `jekyll-archives-v2`: Creates archive pages for posts and collections organized by category, tag, or date
+  - `jekyll-paginate-v2`: Handles pagination for blog posts and archives
+  - `jekyll-feed`: Generates an Atom (RSS-like) feed for your content
+  - `jekyll-toc`: Automatically generates table of contents for pages with headers
+  - `jekyll-jupyter-notebook`: Integrates Jupyter notebooks into your site
+  - `jekyll-tabs`: Adds tabbed content support
+  - `jemoji`: Converts emoji shortcodes to emoji images
+  - `jekyll-minifier`: Minifies HTML, CSS, and JavaScript for better performance
+  - `classifier-reborn`: Used for categorizing and finding related blog posts
+  - Other utilities: `jekyll-link-attributes`, `jekyll-imagemagick`, `jekyll-twitter-plugin`, `jekyll-get-json`, and more
+
+- **Python**: Used for utility scripts like citation updates via Google Scholar (located in `bin/`)
+
+### Build and Deployment
+
+- **GitHub Actions**: Automated workflows for building, testing, and deploying your site. Workflows are defined in `.github/workflows/`:
+
+  - **Deploy**: Automatically builds and deploys your site to GitHub Pages when you push changes to the main branch
+  - **Link checking**: Validates that all links in your site are not broken
+  - **Code formatting**: Ensures code follows the Prettier code style
+  - **Accessibility testing**: Checks for accessibility issues using Axe
+  - **Lighthouse**: Measures site performance and best practices
+  - **Citation updates**: Automatically fetches citation counts from Google Scholar
+
+- **GitHub Pages**: Free hosting for your static website built by Jekyll
+- **Docker**: Optional containerization for local development (provides a consistent environment across different machines)
+- **Prettier**: Code formatter for Markdown, YAML, and Liquid files to maintain consistent formatting
+
+### Key Integration Points
+
+Understanding how these technologies work together will help you customize al-folio effectively:
+
+1. **Content Creation**: Write content in Markdown
+2. **Template Processing**: Jekyll processes Markdown through Liquid templates
+3. **Styling**: SCSS files are compiled to CSS, with Bootstrap providing the responsive layout framework
+4. **Bibliography**: BibTeX files are processed by jekyll-scholar to generate publication pages
+5. **Static Site Generation**: Jekyll builds all files into static HTML
+6. **Deployment**: GitHub Actions automatically deploys the built site to GitHub Pages
 
 ## Modifying the CV information
 
