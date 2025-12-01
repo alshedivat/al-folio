@@ -11,13 +11,14 @@
             {% else %}
               <td class="list-group-category-icon"></td>
             {% endif %}
-            <!-- Calculate colspan number for category title -->
+
             {% assign i = 1 %}
-            {% for item in content.items %}
+            {% for item in content.keywords %}
               {% assign i = i | plus: 1 %}
             {% endfor %}
             <td colspan="{{ i }}" class="list-group-category">{{ content.name }}</td>
           </tr>
+
           {% for item in content.keywords %}
             <tr>
               <td></td>
