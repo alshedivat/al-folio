@@ -2,6 +2,67 @@
  * Styles for the base elements of the theme.
  ******************************************************************************/
 
+// LaTeX font (Computer Modern) - easily toggle by adding/removing 'latex-font' class from <html>
+// Using Latin Modern, the modern digital version of Computer Modern
+@import url('https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css');
+
+html.latex-font {
+  // Apply font family globally
+  body, p, li, span, div, td, th, blockquote, a, label, input, textarea, select, button {
+    font-family: 'Computer Modern Serif', 'Latin Modern Roman', 'CMU Serif', Georgia, serif !important;
+  }
+
+  // Headings: apply font but preserve their original sizes
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Computer Modern Serif', 'Latin Modern Roman', 'CMU Serif', Georgia, serif !important;
+  }
+
+  // Italics - but NOT icon fonts (Font Awesome uses .fas, .fab, .far, .fal; Academicons uses .ai)
+  em, i:not(.fas):not(.fab):not(.far):not(.fal):not(.ai) {
+    font-family: 'Computer Modern Serif', 'Latin Modern Roman', 'CMU Serif', Georgia, serif !important;
+    font-style: italic;
+  }
+
+  strong, b {
+    font-family: 'Computer Modern Serif', 'Latin Modern Roman', 'CMU Serif', Georgia, serif !important;
+    font-weight: bold;
+  }
+
+  code, pre {
+    font-family: 'Computer Modern Typewriter', 'Latin Modern Mono', monospace !important;
+  }
+
+  // Body text sizing (not headings)
+  p, li, blockquote, td, th {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  // Slightly larger text in content areas
+  .post-content, article, main {
+    p, li {
+      font-size: 1.15rem;
+      line-height: 1.7;
+    }
+  }
+
+  // Ensure navigation and buttons look good
+  nav, .navbar, .nav-link, .dropdown-item {
+    font-family: 'Computer Modern Serif', 'Latin Modern Roman', 'CMU Serif', Georgia, serif !important;
+  }
+
+  // Preserve icon font families - these need their original fonts to display icons
+  .fas, .fab, .far, .fal, .fa {
+    font-family: "Font Awesome 6 Free", "Font Awesome 5 Free" !important;
+  }
+  .fab {
+    font-family: "Font Awesome 6 Brands", "Font Awesome 5 Brands" !important;
+  }
+  .ai {
+    font-family: "Academicons" !important;
+  }
+}
+
 // Custom cursor styling
 * {
   cursor: none;

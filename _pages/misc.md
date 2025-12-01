@@ -13,12 +13,14 @@ children:
     #   permalink: /misc/listening_list
     # - title: Season 3, Episode 1
     #   permalink: /misc/season-3-episode-1
-    - title: Feeling Diary
-      permalink: /misc/feeling-diary
+    # - title: Feeling Diary
+    #   permalink: /misc/feeling-diary
     - title: History, Listed
       permalink: /misc/history-listed
     - title: Recreational Math
       permalink: /misc/recmath
+    - title: Reflections on 20
+      permalink: /misc/reflections-on-20
     # - title: Mini-Cambridge
     #   permalink: /misc/mini-cambridge
     # - title: Basic Propositions

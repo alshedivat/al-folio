@@ -770,6 +770,11 @@
     "event": "Three Kingdoms Period between Wei, Shu, Wu"
   },
   {
+    "start": 301,
+    "end": 301,
+    "event": "San Marino founded by Saint Marinus, a Christian stonemason fleeing persecution under Diocletian. Claims to be the world's oldest surviving republic"
+  },
+  {
     "start": 313,
     "end": 313,
     "event": "Edict of Milan legalizes Christianity"
@@ -925,9 +930,19 @@
     "event": "\"The Venerable Bede\" dies, monasterial intellectual tradition"
   },
   {
+    "start": 754,
+    "end": 754,
+    "event": "Donation of Pepin: King Pepin the Short grants territories to Pope Stephen II, establishing the Papal States"
+  },
+  {
     "start": 774,
     "end": 774,
     "event": "Charlemagne conquers Florence"
+  },
+  {
+    "start": 788,
+    "end": 788,
+    "event": "Traditional founding date of Andorra; Charlemagne grants charter in return for fighting against the Moors"
   },
   {
     "start": 790,
@@ -1115,6 +1130,11 @@
     "event": "Siger of Brabant, proponent of Averroism, professor at Paris"
   },
   {
+    "start": 1243,
+    "end": 1243,
+    "event": "San Marino establishes the Captains Regent system of dual leadership, renewed every six months -- still in use today"
+  },
+  {
     "start": 1248,
     "end": 1254,
     "event": "Seventh Crusade"
@@ -1155,9 +1175,19 @@
     "event": "Condemnations of 1277, rejection of Aristotelianism in Paris universities"
   },
   {
+    "start": 1278,
+    "end": 1278,
+    "event": "First Pariatge signed: Count of Foix and Bishop of Urgell agree to share sovereignty over Andorra, establishing the co-principality that continues today"
+  },
+  {
     "start": 1287,
     "end": 1347,
     "event": "William of Ockham active -- develops nominalism, theology, philosophy"
+  },
+  {
+    "start": 1297,
+    "end": 1297,
+    "event": "François Grimaldi captures the Rock of Monaco disguised as a Franciscan friar, beginning the Grimaldi dynasty that rules Monaco to this day"
   },
   {
     "start": 1299,
@@ -1188,6 +1218,11 @@
     "start": 1326,
     "end": 1326,
     "event": "Ottomans capture Bursa, cutting off Byzantine Empire from Anatolia / Asia Minor"
+  },
+  {
+    "start": 1309,
+    "end": 1377,
+    "event": "Avignon Papacy: seven successive popes reside in Avignon rather than Rome; French influence over papacy weakens Papal States and church authority"
   },
   {
     "start": 1346,
@@ -1228,6 +1263,11 @@
     "start": 1453,
     "end": 1453,
     "event": "Fall of Constantinople to the Ottoman Empire to Sultan Mehmed II the Conquerer, end of the Byzantine Empire"
+  },
+  {
+    "start": 1463,
+    "end": 1463,
+    "event": "San Marino acquires Fiorentino, Montegiardino, Serravalle, and Faetano after allying against Sigismondo Malatesta; its borders have remained unchanged since"
   },
   {
     "start": 1473,
@@ -1355,6 +1395,11 @@
     "event": "Sack of Rome by Charles V"
   },
   {
+    "start": 1530,
+    "end": 1530,
+    "event": "Knights of St. John granted Malta, Gozo, and Tripoli by Emperor Charles V in exchange for an annual fee of one Maltese falcon"
+  },
+  {
     "start": 1532,
     "end": 1532,
     "event": "Holy Roman Empire makes sodomy punishable by death"
@@ -1425,6 +1470,11 @@
     "event": "Francis Bacon active -- develops empiricism, inductive reasoning, experimental method"
   },
   {
+    "start": 1565,
+    "end": 1565,
+    "event": "Great Siege of Malta: 700 Knights and 8,000 soldiers withstand Ottoman siege of 40,000 troops. City of Valletta founded afterward, named for Grand Master Jean de Valette"
+  },
+  {
     "start": 1570,
     "end": 1579,
     "event": "Francois Viete is active, introducing systematic algebraic notation with vowels for unknowns and consonants for knowns, pursues equidimensionality in algebraic quantities, links Greek analysis to algebra, and promotes algebra as a field"
@@ -1451,8 +1501,23 @@
   },
   {
     "start": 1600,
+    "end": 1600,
+    "event": "San Marino adopts its written constitution, one of the oldest surviving written constitutions in the world"
+  },
+  {
+    "start": 1600,
     "end": 1699,
     "event": "Fermat active, introducing new algebraic problems focused on whole numbers and proving negative propositions"
+  },
+  {
+    "start": 1607,
+    "end": 1607,
+    "event": "Henry IV of France issues edict establishing the French king and Bishop of Urgell as co-princes of Andorra"
+  },
+  {
+    "start": 1612,
+    "end": 1612,
+    "event": "Honoré II adopts the title of Prince, making Monaco a principality instead of a seigneury"
   },
   {
     "start": 1600,
@@ -1560,6 +1625,11 @@
     "event": "Treaty of Utrecht transfers Italian territories to Austrian Hapsburgs"
   },
   {
+    "start": 1719,
+    "end": 1719,
+    "event": "Holy Roman Emperor Charles VI unites Vaduz and Schellenberg and elevates them to the Principality of Liechtenstein"
+  },
+  {
     "start": 1725,
     "end": 1783,
     "event": "Leonhard Euler active -- advances calculus and applies to a variety of contexts, develops the concept of functions, introduces a lot of modern matehmatical notation, pioneered graph theory"
@@ -1613,6 +1683,11 @@
     "start": 1781,
     "end": 1781,
     "event": "Immanuel Kant writes *Critique of Pure Reason*"
+  },
+  {
+    "start": 1783,
+    "end": 1783,
+    "event": "Al Khalifa family conquers Bahrain from Persia; the family rules to the present day"
   },
   {
     "start": 1787,
@@ -1705,6 +1780,11 @@
     "event": "War of the First Coalition"
   },
   {
+    "start": 1793,
+    "end": 1814,
+    "event": "Monaco annexed by France during the Revolution under the name Fort-Hercule; regains independence in 1814"
+  },
+  {
     "start": 1794,
     "end": 1794,
     "event": "French National Convention abolishes slavery in all French territories"
@@ -1746,6 +1826,11 @@
   },
   {
     "start": 1800,
+    "end": 1800,
+    "event": "Britain captures Malta from Napoleon's forces; Treaty of Amiens (1802) fails to return it to the Knights; Malta becomes a British crown colony, strategically vital for Mediterranean control"
+  },
+  {
+    "start": 1800,
     "end": 1850,
     "event": "Ring theory begins as mathematicians recognize that number-theoretic problems require domains beyond ordinary integers"
   },
@@ -1763,6 +1848,11 @@
     "start": 1805,
     "end": 1814,
     "event": "Kingdom of Italy"
+  },
+  {
+    "start": 1806,
+    "end": 1806,
+    "event": "Liechtenstein gains sovereignty when Holy Roman Empire dissolves; joins Napoleon's Confederation of the Rhine"
   },
   {
     "start": 1807,
@@ -1792,12 +1882,27 @@
   {
     "start": 1815,
     "end": 1815,
+    "event": "Congress of Vienna: Luxembourg elevated to Grand Duchy and given to William I of the Netherlands; San Marino's independence confirmed"
+  },
+  {
+    "start": 1815,
+    "end": 1815,
     "event": "Augustin-Louis Cauchy published papers making permutation theory an autonomous subject, introducing modern permutation notation, cyclic notation, and proving results like \"every even permutation is a product of 3-cycles\""
   },
   {
     "start": 1818,
     "end": 1818,
     "event": "Arthur Schopenhauer writes *The World as Will and Representation*"
+  },
+  {
+    "start": 1819,
+    "end": 1819,
+    "event": "Stamford Raffles establishes trading post in Singapore for the British East India Company, founding modern Singapore"
+  },
+  {
+    "start": 1820,
+    "end": 1820,
+    "event": "First Bahraini-British treaty signed, beginning Bahrain's status as British protectorate that lasts until 1971"
   },
   {
     "start": 1821,
@@ -1858,6 +1963,11 @@
     "start": 1839,
     "end": 1839,
     "event": "Beginning of Tanzimat reforms in the Ottoman Empire"
+  },
+  {
+    "start": 1839,
+    "end": 1839,
+    "event": "Treaty of London partitions Luxembourg: French-speaking portion goes to Belgium; Grand Duchy's independence confirmed under Dutch king"
   },
   {
     "start": 1839,
@@ -2005,6 +2115,16 @@
     "event": "Émile Mathieu discovers M11 and M12, the first two sporadic simple groups, while investigating multiply transitive permutation groups. He briefly mentions M24, giving its order"
   },
   {
+    "start": 1861,
+    "end": 1861,
+    "event": "Franco-Monégasque Treaty: Monaco cedes Menton and Roquebrune (95% of its territory) to France for 4 million francs; Monaco's sovereignty confirmed"
+  },
+  {
+    "start": 1861,
+    "end": 1861,
+    "event": "San Marino receives letter from Abraham Lincoln accepting alliance proposal, affirming that republican government 'is capable of being so administered as to be secure and enduring'"
+  },
+  {
     "start": 1865,
     "end": 1865,
     "event": "Florence becomes the capital of Italy"
@@ -2017,7 +2137,27 @@
   {
     "start": 1866,
     "end": 1866,
+    "event": "New Reform of Andorra: Napoleon III decrees new administrative structure for the principality, modernizing its governance while maintaining the co-principality"
+  },
+  {
+    "start": 1866,
+    "end": 1866,
     "event": "Third Italian War of Independence between Kingdom of Italy and Austrian Empire; Venetia annexed"
+  },
+  {
+    "start": 1866,
+    "end": 1866,
+    "event": "Liechtenstein gains full independence when German Confederation dissolves; abolishes its army in 1868"
+  },
+  {
+    "start": 1867,
+    "end": 1867,
+    "event": "Singapore becomes a Crown Colony of the British Empire"
+  },
+  {
+    "start": 1867,
+    "end": 1867,
+    "event": "Treaty of London (May 11): Luxembourg declared perpetually neutral; Prussian garrison withdrawn; Luxembourg becomes fully independent"
   },
   {
     "start": 1869,
@@ -2063,6 +2203,11 @@
     "start": 1870,
     "end": 1870,
     "event": "Italy annexes Rome from the Papal States during the Franco-Prussian War, completing unification"
+  },
+  {
+    "start": 1870,
+    "end": 1929,
+    "event": "Pope declares himself 'prisoner in the Vatican' after losing Papal States; the Roman Question remains unresolved until Lateran Treaty"
   },
   {
     "start": 1871,
@@ -2225,6 +2370,11 @@
     "event": "Richard Dedekind formalizes arithmetic, publishing \"Was sind und was sollen die Zahlen?\""
   },
   {
+    "start": 1888,
+    "end": 1888,
+    "event": "Brunei becomes a British protectorate after ceding Sarawak and North Borneo; sultante preserves internal autonomy"
+  },
+  {
     "start": 1889,
     "end": 1889,
     "event": "Giuseppe Peano publishes the Peano axioms for arithmetic"
@@ -2248,6 +2398,11 @@
     "start": 1890,
     "end": 1890,
     "event": "Eritrea becomes an Italian colony"
+  },
+  {
+    "start": 1890,
+    "end": 1890,
+    "event": "Luxembourg Grand Duke William III dies without male heirs; personal union with Netherlands ends; Adolf of Nassau becomes Grand Duke, establishing Luxembourg's full independence"
   },
   {
     "start": 1892,
@@ -2362,6 +2517,11 @@
   {
     "start": 1905,
     "end": 1905,
+    "event": "Brunei becomes a British Residency; British Resident assumes executive authority while Sultan retains ceremonial role"
+  },
+  {
+    "start": 1905,
+    "end": 1905,
     "event": "Partition of Bengal by British"
   },
   {
@@ -2398,6 +2558,11 @@
     "start": 1910,
     "end": 1910,
     "event": "Emma Goldman begins public advocacy for homosexual rights in the United States"
+  },
+  {
+    "start": 1911,
+    "end": 1911,
+    "event": "Monaco's first constitution promulgated by Prince Albert I, establishing a constitutional monarchy and elected National Council"
   },
   {
     "start": 1911,
@@ -2622,6 +2787,11 @@
   {
     "start": 1921,
     "end": 1921,
+    "event": "Liechtenstein adopts the Swiss franc as its currency and enters a customs union with Switzerland, beginning close economic ties that continue today"
+  },
+  {
+    "start": 1921,
+    "end": 1921,
     "event": "Emmy Noether's \"Ideal theory in rings\" - shows that results seemingly specific to polynomial rings actually follow from a single axiom, creating the theory of Noetherian rings"
   },
   {
@@ -2822,7 +2992,12 @@
   {
     "start": 1929,
     "end": 1929,
-    "event": "Lateran Treaty establishes Vatican City"
+    "event": "Lateran Treaty between Italy and Holy See establishes Vatican City as an independent state (109 acres), resolving the 59-year Roman Question; Italy pays compensation of 750 million lire"
+  },
+  {
+    "start": 1929,
+    "end": 1929,
+    "event": "Oil discovered in Brunei, beginning its transformation into a wealthy petro-state"
   },
   {
     "start": 1930,
@@ -2858,6 +3033,11 @@
     "start": 1931,
     "end": 1931,
     "event": "Kurt Godel publishes his incompleteness theorems"
+  },
+  {
+    "start": 1932,
+    "end": 1932,
+    "event": "Bahrain experiences first major anti-colonial uprising against British rule; reforms follow including establishment of municipal councils"
   },
   {
     "start": 1932,
@@ -3020,6 +3200,11 @@
     "event": "Japan attacks Pearl Harbor, US enters WWII"
   },
   {
+    "start": 1941,
+    "end": 1945,
+    "event": "Japan occupies Brunei during WWII; British North Borneo oil fields destroyed to prevent capture; occupation ends with Australian liberation in 1945"
+  },
+  {
     "start": 1942,
     "end": 1942,
     "event": "Biltmore Conference in New York calls for a Jewish state in Palestine"
@@ -3043,6 +3228,11 @@
     "start": 1942,
     "end": 1942,
     "event": "Mao begins the Rectification Movement"
+  },
+  {
+    "start": 1942,
+    "end": 1942,
+    "event": "Siege of Malta: George VI awards the George Cross to the entire island for heroism during Axis bombardment, the only time a collective decoration was awarded to a nation"
   },
   {
     "start": 1943,
@@ -3282,6 +3472,11 @@
   {
     "start": 1951,
     "end": 1951,
+    "event": "European Coal and Steel Community founded with Luxembourg City as one of its capitals; Luxembourg becomes founding member alongside France, West Germany, Italy, Belgium, Netherlands"
+  },
+  {
+    "start": 1951,
+    "end": 1951,
     "event": "King Abdullah of Jordan is assassinated at Al-Aqsa Mosque for perceived collaboration with Israelis"
   },
   {
@@ -3462,6 +3657,11 @@
   {
     "start": 1959,
     "end": 1959,
+    "event": "Singapore gains self-governance from Britain; Lee Kuan Yew becomes first Prime Minister of the State of Singapore"
+  },
+  {
+    "start": 1959,
+    "end": 1959,
     "event": "Mao Zedong orders a second Great Leap Forward, leading to the worst famine in human history"
   },
   {
@@ -3473,6 +3673,11 @@
     "start": 1961,
     "end": 1961,
     "event": "Bay of Pigs invasion of Cuba by US"
+  },
+  {
+    "start": 1963,
+    "end": 1963,
+    "event": "Singapore joins the Federation of Malaysia alongside Malaya, Sabah, and Sarawak; ethnic and political tensions emerge immediately"
   },
   {
     "start": 1963,
@@ -3565,9 +3770,19 @@
     "event": "Zvonimir Janko discovers J1, the first sporadic simple group found since Mathieu's groups nearly a century earlier. The discovery causes a 'sensation' among group theorists and triggers an intense search for more sporadic groups"
   },
   {
+    "start": 1964,
+    "end": 1964,
+    "event": "Malta gains independence from Britain (September 21), becoming a constitutional monarchy with Elizabeth II as Queen; becomes republic in 1974"
+  },
+  {
     "start": 1965,
     "end": 1965,
     "event": "Voting Rights Act passes"
+  },
+  {
+    "start": 1965,
+    "end": 1965,
+    "event": "Singapore expelled from Malaysia (August 9); Lee Kuan Yew announces independence with tears, beginning the city-state's transformation into a global financial center"
   },
   {
     "start": 1965,
@@ -3890,6 +4105,11 @@
     "event": "\"Ping-Pong\" diplomacy trip between American ping pong team and Chinese"
   },
   {
+    "start": 1971,
+    "end": 1971,
+    "event": "Bahrain declares independence from Britain (August 15), ending 150 years as a British protectorate; joins Arab League and United Nations"
+  },
+  {
     "start": 1972,
     "end": 1972,
     "event": "Israeli athletes killed at the Munich Olympics by Black September"
@@ -4037,12 +4257,22 @@
   {
     "start": 1978,
     "end": 1978,
+    "event": "Pope John Paul I dies after just 33 days in office; John Paul II elected, first non-Italian pope in 455 years"
+  },
+  {
+    "start": 1978,
+    "end": 1978,
     "event": "Rainbow flag first used as symbol of LGBT pride by Gilbert Baker in San Francisco"
   },
   {
     "start": 1978,
     "end": 1978,
     "event": "Harvey Milk and Mayor George Moscone assassinated in San Francisco by Dan White"
+  },
+  {
+    "start": 1979,
+    "end": 1979,
+    "event": "Liechtenstein becomes the last European country to grant women the right to vote in national elections"
   },
   {
     "start": 1979,
@@ -4065,6 +4295,26 @@
     "event": "Saul Kripke writes *Naming and Necessity*"
   },
   {
+    "start": 1980,
+    "end": 1980,
+    "event": "US boycotts Moscow Summer Olympics in response to Soviet invasion of Afghanistan"
+  },
+  {
+    "start": 1980,
+    "end": 1980,
+    "event": "Solidarity trade union founded in Poland, first independent labor union in Soviet bloc"
+  },
+  {
+    "start": 1980,
+    "end": 1980,
+    "event": "John Lennon assassinated in New York City"
+  },
+  {
+    "start": 1980,
+    "end": 1988,
+    "event": "Iran-Iraq War, over 1 million killed"
+  },
+  {
     "start": 1981,
     "end": 1981,
     "event": "The classification of all finite simple groups was completed, solving a problem posed by Hölder in 1893"
@@ -4078,6 +4328,41 @@
     "start": 1981,
     "end": 1981,
     "event": "Ronald Reagan becomes president of US"
+  },
+  {
+    "start": 1981,
+    "end": 1981,
+    "event": "Iran releases 52 American hostages after 444 days, minutes after Reagan's inauguration"
+  },
+  {
+    "start": 1981,
+    "end": 1981,
+    "event": "Assassination attempt on Pope John Paul II in St. Peter's Square"
+  },
+  {
+    "start": 1981,
+    "end": 1981,
+    "event": "Assassination attempt on Ronald Reagan by John Hinckley Jr."
+  },
+  {
+    "start": 1981,
+    "end": 1981,
+    "event": "Sandra Day O'Connor becomes first female US Supreme Court Justice"
+  },
+  {
+    "start": 1981,
+    "end": 1981,
+    "event": "MTV launches, beginning the music video era"
+  },
+  {
+    "start": 1981,
+    "end": 1981,
+    "event": "First Space Shuttle Columbia launched, resuming US crewed spaceflight"
+  },
+  {
+    "start": 1981,
+    "end": 1981,
+    "event": "Alasdair MacIntyre publishes *After Virtue*, reviving virtue ethics and critiquing Enlightenment moral philosophy"
   },
   {
     "start": 1982,
@@ -4095,9 +4380,79 @@
     "event": "Robert Griess constructs the Monster group M as the automorphism group of the 196,884-dimensional Griess algebra, completing the discovery of all 26 sporadic simple groups. He calls the 20 sporadics contained in the Monster the 'happy family' and the remaining 6 the 'pariahs'"
   },
   {
+    "start": 1982,
+    "end": 1982,
+    "event": "Falklands War between UK and Argentina"
+  },
+  {
+    "start": 1982,
+    "end": 1982,
+    "event": "Vietnam Veterans Memorial dedicated in Washington D.C."
+  },
+  {
+    "start": 1982,
+    "end": 1982,
+    "event": "Richard Rorty publishes *Consequences of Pragmatism*"
+  },
+  {
+    "start": 1982,
+    "end": 1982,
+    "event": "William Thurston awarded Fields Medal for geometrization conjecture for Haken manifolds; Richard Hamilton introduces Ricci flow"
+  },
+  {
     "start": 1983,
     "end": 1983,
     "event": "Invasion of Grenada by US"
+  },
+  {
+    "start": 1983,
+    "end": 1983,
+    "event": "Beirut barracks bombing kills 241 US Marines and 58 French paratroopers"
+  },
+  {
+    "start": 1983,
+    "end": 1983,
+    "event": "Reagan announces Strategic Defense Initiative ('Star Wars')"
+  },
+  {
+    "start": 1983,
+    "end": 1983,
+    "event": "ARPANET adopts TCP/IP protocol, laying foundation for the Internet"
+  },
+  {
+    "start": 1983,
+    "end": 1983,
+    "event": "Sally Ride becomes first American woman in space"
+  },
+  {
+    "start": 1984,
+    "end": 1984,
+    "event": "Brunei gains full independence from Britain (January 1), becoming a sovereign sultanate; joins ASEAN and United Nations"
+  },
+  {
+    "start": 1984,
+    "end": 1984,
+    "event": "Indira Gandhi assassinated by her Sikh bodyguards; anti-Sikh riots kill thousands"
+  },
+  {
+    "start": 1984,
+    "end": 1984,
+    "event": "Ethiopian famine kills over 400,000; Band Aid records 'Do They Know It's Christmas?'"
+  },
+  {
+    "start": 1984,
+    "end": 1984,
+    "event": "Apple Macintosh released, popularizing the graphical user interface"
+  },
+  {
+    "start": 1984,
+    "end": 1984,
+    "event": "Michel Foucault publishes volumes 2 and 3 of *The History of Sexuality* (*The Use of Pleasure* and *The Care of the Self*) shortly before his death from AIDS"
+  },
+  {
+    "start": 1984,
+    "end": 1984,
+    "event": "Bhopal disaster in India kills thousands in worst industrial accident in history"
   },
   {
     "start": 1985,
@@ -4106,8 +4461,28 @@
   },
   {
     "start": 1985,
+    "end": 1985,
+    "event": "Mikhail Gorbachev becomes Soviet leader, introduces glasnost (openness) and perestroika (restructuring)"
+  },
+  {
+    "start": 1985,
     "end": 1987,
     "event": "Iran-Contra affair: Reagan administration secretly sells arms to Iran, diverts funds to Nicaraguan Contras"
+  },
+  {
+    "start": 1986,
+    "end": 1986,
+    "event": "Chernobyl nuclear disaster in Ukraine, worst nuclear accident in history"
+  },
+  {
+    "start": 1986,
+    "end": 1986,
+    "event": "Space Shuttle Challenger disaster kills all seven crew members"
+  },
+  {
+    "start": 1986,
+    "end": 1986,
+    "event": "Simon Donaldson awarded Fields Medal for revolutionary work on 4-manifolds using gauge theory"
   },
   {
     "start": 1986,
@@ -4150,6 +4525,16 @@
     "event": "Hamas founded as offshoot of the Muslim Brotherhood"
   },
   {
+    "start": 1988,
+    "end": 1988,
+    "event": "Pan Am Flight 103 bombed over Lockerbie, Scotland, killing 270"
+  },
+  {
+    "start": 1988,
+    "end": 1988,
+    "event": "Soviet Union begins withdrawing troops from Afghanistan"
+  },
+  {
     "start": 1989,
     "end": 1989,
     "event": "Invasion of Panama by US"
@@ -4160,9 +4545,74 @@
     "event": "George H.W. Bush becomes president of US"
   },
   {
+    "start": 1989,
+    "end": 1989,
+    "event": "Tiananmen Square protests crushed by Chinese military; thousands killed"
+  },
+  {
+    "start": 1989,
+    "end": 1989,
+    "event": "Fall of the Berlin Wall on November 9th, symbolizing end of Cold War"
+  },
+  {
+    "start": 1989,
+    "end": 1989,
+    "event": "Velvet Revolution in Czechoslovakia; Solidarity wins Polish elections; Romanian Revolution overthrows Ceaușescu"
+  },
+  {
+    "start": 1989,
+    "end": 1989,
+    "event": "Richard Rorty publishes *Contingency, Irony, and Solidarity*"
+  },
+  {
+    "start": 1989,
+    "end": 1989,
+    "event": "Exxon Valdez oil spill in Alaska, worst in US history at the time"
+  },
+  {
     "start": 1990,
     "end": 1991,
     "event": "Gulf War"
+  },
+  {
+    "start": 1990,
+    "end": 1990,
+    "event": "German reunification; East and West Germany become one nation"
+  },
+  {
+    "start": 1990,
+    "end": 1990,
+    "event": "Nelson Mandela released from prison after 27 years"
+  },
+  {
+    "start": 1990,
+    "end": 1990,
+    "event": "Judith Butler publishes *Gender Trouble*, foundational text of queer theory and gender performativity"
+  },
+  {
+    "start": 1990,
+    "end": 1990,
+    "event": "Hubble Space Telescope launched"
+  },
+  {
+    "start": 1990,
+    "end": 1990,
+    "event": "Edward Witten awarded Fields Medal, first physicist to receive it, for contributions to mathematical physics and string theory"
+  },
+  {
+    "start": 1991,
+    "end": 1991,
+    "event": "Dissolution of the Soviet Union on December 25th; Cold War officially ends"
+  },
+  {
+    "start": 1991,
+    "end": 1991,
+    "event": "World Wide Web becomes publicly available, invented by Tim Berners-Lee"
+  },
+  {
+    "start": 1991,
+    "end": 2001,
+    "event": "Yugoslav Wars begin; Slovenia and Croatia declare independence"
   },
   {
     "start": 1991,
@@ -4178,6 +4628,26 @@
     "start": 1991,
     "end": 1991,
     "event": "The Eritrean Liberation Front defeats Ethiopia, Eritrea becomes independent"
+  },
+  {
+    "start": 1992,
+    "end": 1995,
+    "event": "Bosnian War; Siege of Sarajevo; Srebrenica massacre kills over 8,000 Bosniak Muslims"
+  },
+  {
+    "start": 1992,
+    "end": 1992,
+    "event": "Maastricht Treaty signed, creating the European Union"
+  },
+  {
+    "start": 1992,
+    "end": 1992,
+    "event": "Los Angeles riots after Rodney King verdict"
+  },
+  {
+    "start": 1993,
+    "end": 1993,
+    "event": "Andorra adopts its first written constitution, transforming from feudal principality to parliamentary democracy; joins UN and Council of Europe"
   },
   {
     "start": 1993,
@@ -4198,6 +4668,46 @@
     "start": 1993,
     "end": 1993,
     "event": "\"Don't Ask, Don't Tell\" policy enacted, allowing closeted gay people to serve in US military"
+  },
+  {
+    "start": 1993,
+    "end": 1993,
+    "event": "John Rawls publishes *Political Liberalism*"
+  },
+  {
+    "start": 1993,
+    "end": 1993,
+    "event": "Wiles announces proof of Fermat's Last Theorem (gap found; corrected with Taylor in 1995)"
+  },
+  {
+    "start": 1993,
+    "end": 1993,
+    "event": "Judith Butler publishes *Bodies That Matter*"
+  },
+  {
+    "start": 1994,
+    "end": 1994,
+    "event": "Rwandan genocide kills over 800,000 Tutsi and moderate Hutu in 100 days"
+  },
+  {
+    "start": 1994,
+    "end": 1994,
+    "event": "Nelson Mandela elected first Black president of South Africa, ending apartheid"
+  },
+  {
+    "start": 1994,
+    "end": 1994,
+    "event": "NAFTA (North American Free Trade Agreement) takes effect"
+  },
+  {
+    "start": 1994,
+    "end": 1994,
+    "event": "First Chechen War begins"
+  },
+  {
+    "start": 1994,
+    "end": 1994,
+    "event": "Perelman proves the soul conjecture in Riemannian geometry, open for 20 years"
   },
   {
     "start": 1994,
@@ -4235,9 +4745,59 @@
     "event": "Windows 95 released by Microsoft, major commercial success"
   },
   {
+    "start": 1995,
+    "end": 1995,
+    "event": "Oklahoma City bombing kills 168, deadliest domestic terrorist attack in US history"
+  },
+  {
+    "start": 1995,
+    "end": 1995,
+    "event": "World Trade Organization (WTO) established"
+  },
+  {
+    "start": 1995,
+    "end": 1995,
+    "event": "Dayton Agreement ends Bosnian War"
+  },
+  {
+    "start": 1995,
+    "end": 1995,
+    "event": "Discovery of the top quark at Fermilab, completing the Standard Model"
+  },
+  {
+    "start": 1996,
+    "end": 1996,
+    "event": "Dolly the sheep cloned, first mammal cloned from adult cell"
+  },
+  {
+    "start": 1996,
+    "end": 1996,
+    "event": "Taliban captures Kabul, establishes Islamic Emirate of Afghanistan"
+  },
+  {
+    "start": 1996,
+    "end": 1996,
+    "event": "Centennial Olympic Park bombing at Atlanta Summer Olympics"
+  },
+  {
     "start": 1997,
     "end": 1997,
     "event": "Amazon goes public on NASDAQ with IPO"
+  },
+  {
+    "start": 1997,
+    "end": 1997,
+    "event": "Hong Kong returned to China from British rule"
+  },
+  {
+    "start": 1997,
+    "end": 1997,
+    "event": "Princess Diana dies in Paris car crash"
+  },
+  {
+    "start": 1997,
+    "end": 1998,
+    "event": "Asian financial crisis spreads across East Asia"
   },
   {
     "start": 1997,
@@ -4270,9 +4830,54 @@
     "event": "Border dispute leads Eritrea to war with Ethopia"
   },
   {
+    "start": 1998,
+    "end": 1998,
+    "event": "India and Pakistan conduct nuclear weapons tests"
+  },
+  {
+    "start": 1998,
+    "end": 1998,
+    "event": "US embassy bombings in Kenya and Tanzania by al-Qaeda kill 224"
+  },
+  {
+    "start": 1998,
+    "end": 1998,
+    "event": "Good Friday Agreement ends The Troubles in Northern Ireland"
+  },
+  {
+    "start": 1998,
+    "end": 1998,
+    "event": "Google founded by Larry Page and Sergey Brin"
+  },
+  {
+    "start": 1998,
+    "end": 1998,
+    "event": "Andrew Wiles receives special silver plaque at ICM for proof of Fermat's Last Theorem (over age limit for Fields Medal)"
+  },
+  {
     "start": 1999,
     "end": 1999,
     "event": "Senate acquits President Clinton on both impeachment charges"
+  },
+  {
+    "start": 1999,
+    "end": 1999,
+    "event": "NATO bombing of Yugoslavia over Kosovo"
+  },
+  {
+    "start": 1999,
+    "end": 1999,
+    "event": "Columbine High School massacre"
+  },
+  {
+    "start": 1999,
+    "end": 1999,
+    "event": "Euro currency introduced in eleven European countries"
+  },
+  {
+    "start": 1999,
+    "end": 1999,
+    "event": "Martha Nussbaum publishes 'The Professor of Parody', famous critique of Judith Butler"
   },
   {
     "start": 2000,
@@ -4287,7 +4892,32 @@
   {
     "start": 2000,
     "end": 2000,
+    "event": "USS Cole bombing in Yemen by al-Qaeda kills 17 sailors"
+  },
+  {
+    "start": 2000,
+    "end": 2000,
+    "event": "Dot-com bubble bursts; NASDAQ crashes"
+  },
+  {
+    "start": 2000,
+    "end": 2000,
+    "event": "Human Genome Project releases first draft of human genome"
+  },
+  {
+    "start": 2000,
+    "end": 2000,
+    "event": "Bush v. Gore: Supreme Court halts Florida recount; George W. Bush wins disputed presidential election"
+  },
+  {
+    "start": 2000,
+    "end": 2000,
     "event": "Second Intifada begins after Ariel Sharon visits Temple Mount"
+  },
+  {
+    "start": 2002,
+    "end": 2002,
+    "event": "Bahrain becomes a constitutional monarchy; King Hamad bin Isa Al Khalifa promulgates new constitution establishing bicameral parliament and granting women the right to vote"
   },
   {
     "start": 2001,
