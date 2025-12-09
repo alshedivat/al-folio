@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Georgia Institute of Technology</a>. Ph.D. Candidate
+subtitle: <a href='#'>Georgia Institute of Technology</a>. Ph.D. Student
 
 profile:
   align: right
