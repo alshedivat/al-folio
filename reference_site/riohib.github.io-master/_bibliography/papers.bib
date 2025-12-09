@@ -1,0 +1,264 @@
+---
+# Don't forget to the add a new year to ./_pages/publications.md when a publication in a new year is added.
+---
+
+@string{aps = {American Physical Society,}}
+
+
+@article{arnob2024efficient,
+  abbr={COLM},
+  title={Exploring Sparse Adapters for Scalable Merging of Parameter Efficient Experts},
+  author={Samin Yeasar Arnob and Riyasat Ohib and Sergey M. Plis and Amy Zhang and Alessandro Sordoni and Doina Precup},
+  abstract={Model merging aims to integrate knowledge from multiple finetuned experts into a single, unified multi-task model. 
+    To Merging parameter-efficient task experts has recently gained growing attention as a way to build modular architectures that 
+    can be rapidly adapted on the fly for specific downstream tasks, without requiring additional fine-tuning. 
+    Typically, LoRA serves as the foundational building block of such parameter-efficient modular architectures, 
+    leveraging low-rank weight structures to reduce the number of trainable parameters. In this paper, we study the properties of 
+    sparse adapters, which train only a subset of weights in the base neural network, as potential building blocks of modular 
+    architectures. First, we propose a simple method for training highly effective sparse adapters, which is conceptually simpler 
+    than existing methods in the literature and surprisingly outperforms both LoRA and full fine-tuning in our setting. Next, we
+    investigate the merging properties of these sparse adapters by merging adapters for up to 20 natural language processing tasks, 
+    thus scaling beyond what is usually studied in the literature. Our findings demonstrate that sparse adapters yield superior 
+    in-distribution performance post-merging compared to LoRA or full model merging. Achieving strong held-out performance remains 
+    a challenge for all methods considered.
+    },
+  journal={COLM},
+  year={2025},
+  selected={true},
+  html={https://openreview.net/forum?id=te7UC87Zbw},
+}
+
+@article{arnob2024efficient,
+  abbr={NeurIPS},
+  title={Efficient Reinforcement Learning by Discovering Neural Pathways},
+  author={Samin Yeasar Arnob and Riyasat Ohib and Sergey M. Plis and Amy Zhang and Alessandro Sordoni and Doina Precup},
+  abstract={Reinforcement learning (RL) algorithms have been very successful at tackling complex control problems, such as AlphaGo or 
+    fusion control. However, current research mainly emphasizes solution quality, often achieved by using large models trained on large 
+    amounts of data, and does not account for the financial, environmental, and societal costs associated with developing and deploying 
+    such models. Modern neural networks are often overparameterized and a significant number of parameters can be pruned without meaningful 
+    loss in performance, resulting in more efficient use of the model's capacity lottery ticket. We present a methodology for identifying 
+    sub-networks within a larger network in reinforcement learning (RL). We call such sub-networks, neural pathways. We show empirically 
+    that even very small learned sub-networks, using less than 5% of the large network's parameters, can provide very good quality solutions. 
+    We also demonstrate the training of multiple pathways within the same networks in a multitask setup, where each pathway is encouraged to 
+    ackle a separate task. We evaluate empirically our approach on several continuous control tasks, in both online and offline training
+    },
+  journal={NeurIPS},
+  year={2024},
+  selected={true},
+  html={https://openreview.net/forum?id=WEoOreP0n5},
+}
+
+
+@article{ohib2024unmasking,
+  abbr={arxiv},
+  title={Unmasking Efficiency: Learning Salient Sparse Models in Non-IID Federated Learning},
+  author={Riyasat Ohib and Bishal Thapaliya and Gintare Karolina Dziugaite and Jingyu Liu and Vince Calhoun and Sergey Plis},
+  abstract={In this work, we propose Salient Sparse Federated Learning (SSFL), a streamlined approach for sparse federated learning 
+    with efficient communication. SSFL identifies a sparse subnetwork prior to training, leveraging parameter saliency scores computed
+    separately on local client data in non-IID scenarios, and then aggregated, to determine a global mask. Only the sparse model weights
+    are communicated each round between the clients and the server. We validate SSFL's effectiveness using standard non-IID benchmarks,
+    noting marked improvements in the sparsity--accuracy trade-offs. Finally, we deploy our method in a real-world federated learning 
+    framework and report improvement in communication time.
+    },
+  journal={arxiv},
+  year={2024},
+  selected={true},
+  html={https://arxiv.org/abs/2405.09037},
+}
+
+@article{ohib2024unmasking,
+  abbr={arxiv},
+  title={Unmasking Efficiency: Learning Salient Sparse Models in Non-IID Federated Learning},
+  author={Riyasat Ohib and Bishal Thapaliya and Gintare Karolina Dziugaite and Jingyu Liu and Vince Calhoun and Sergey Plis},
+  abstract={Recent advancements in neuroimaging have led to greater data sharing among the scientific community. However, institutions
+   frequently maintain control over their data, citing concerns related to research culture, privacy, and accountability. This creates
+    a demand for innovative tools capable of analyzing amalgamated datasets without the need to transfer actual data between entities.
+     To address this challenge, we propose a decentralized sparse federated learning (FL) strategy. This approach emphasizes local 
+     training of sparse models to facilitate efficient communication within such frameworks. By capitalizing on model sparsity and 
+     selectively sharing parameters between client sites during the training phase, our method significantly lowers communication 
+     overheads. This advantage becomes increasingly pronounced when dealing with larger models and accommodating the diverse resource 
+     capabilities of various sites. We demonstrate the effectiveness of our approach through the application to the Adolescent Brain 
+     Cognitive Development (ABCD) dataset.
+    },
+  journal={bioarxiv},
+  year={2024},
+  selected={false},
+  html={https://www.biorxiv.org/content/10.1101/2024.05.14.594167v1.abstract},
+}
+
+
+@article{eloy2023lowdim,
+  abbr={NeurIPS DeepGen},
+  title={Uncovering the latent dynamics of whole-brain fMRI tasks with a sequential variational autoencoder},
+  author={Eloy Geenjaar and Donghyun Kim and Riyasat Ohib and Marlena Duda and Amrit Kashyap and Sergey M Plis and Vince Calhoun},
+  abstract={The neural dynamics underlying brain activity are critical to understanding cognitive processes and
+   mental disorders. However, current voxel-based whole-brain dimensionality reduction techniques fail to capture
+    these dynamics, producing latent timeseries that inadequately relate to behavioral tasks. To address this
+     issue, we introduce a novel approach to learning low-dimensional approximations of neural dynamics using
+      a sequential variational autoencoder (SVAE) that learns the latent dynamical system. Importantly, our 
+      method finds smooth dynamics that can predict cognitive processes with accuracy higher than classical methods,
+       with improved spatial localization to task-relevant brain regions, and we find fixed points for the dynamics
+        that are stable across random initialization of the model.
+  },
+  journal={Deep Generative Models for Health Workshop NeurIPS 2023},
+  year={2023},
+  selected={false},
+  html={https://openreview.net/pdf?id=c4p3ng0SCt},
+}
+
+@article{ohib2023SalientGrads,
+  abbr={ICLR SNN},
+  title={SalientGrads: Sparse Models for Communication Efficient and data aware Distributed Federated Training},
+  author={Riyasat Ohib and Bishal Thapaliya and Pratyush Reddy and Jingyu Liu and Vince Calhoun and Sergey Plis},
+  abstract={Federated learning (FL) enables training of a model leveraging  decentralized data in client sites while preserving privacy by not 
+      collecting data. However, one of the significant challenges of FL is limited computation and low communication bandwidth in resource limited 
+      edge client nodes. To address this several solutions have been proposed in recent times including transmitting sparse models and learning 
+      dynamic masks iteratively among others. However, many of these methods rely on transmitting the model weights throughout the training process 
+      as they are based and ad-hoc or random pruning criteria. In this work, we propose \technique which simplifies the process of sparse training
+      by choosing a subnetwork before training based on aggregated model connection saliency scores calculated from the local client data and only
+      sharing highly sparse gradients between server and clients during the training phase. We also demonstrate the efficacy of our method in a
+      real world federated learning framework and report improvement in wall-clock communication time.
+  },
+  journal={ICLR Sparse Neural Networks Workshop},
+  year={2023},
+  selected={true},
+  html={https://arxiv.org/abs/2304.07488},
+}
+
+@article{ohib2022explicit,
+  abbr={TMLR},
+  title={Explicit Group Sparse Projection with Applications to Deep Learning and NMF},
+  author={Riyasat Ohib and Nicolas Gillis and Niccolò Dalmasso and Sameena Shah and Vamsi Potluru and Sergey Plis},
+            abstract={We design a new sparse projection method for a set of vectors that guarantees a desired average sparsity level measured leveraging the popular Hoyer measure (an affine function of the ratio of the $\ell_1$ and $\ell_2$ norms).
+            Existing approaches either project each vector individually or require the use of a regularization parameter which implicitly maps to the average $\ell_0$-measure of sparsity. Instead, in our approach we set the sparsity level for the whole set explicitly and simultaneously project a group of vectors with the sparsity level of each vector tuned automatically.
+            We show that the computational complexity of our projection operator is linear in the size of the problem.
+            Additionally, we propose a generalization of this projection by replacing the $\ell_1$ norm by its weighted version.
+            We showcase the efficacy of our approach in both supervised and unsupervised learning tasks on image datasets including CIFAR10 and ImageNet. In deep neural network pruning, the sparse models produced by our method on ResNet50 have significantly higher accuracies at corresponding sparsity values compared to existing competitors. In nonnegative matrix factorization, our approach yields competitive reconstruction errors against state-of-the-art algorithms.
+},
+  journal={Transactions on Machine Learning Research},
+  year={2022},
+  selected={true},
+  html={https://openreview.net/forum?id=jIrOeWjdpc&referrer=%5BTMLR%5D(%2Fgroup%3Fid%3DTMLR)},
+}
+
+
+@article{samin2021offline,
+  abbr={NeurIPS Off-RL},
+  title={Single-Shot Pruning for Offline Reinforcement Learning},
+  author={Samin Yeasar and Riyasat Ohib and Sergey Plis and Doina Precup},
+  abstract={Deep Reinforcement Learning (RL) is a powerful framework for solving complex
+            real-world problems. Large neural networks employed in the framework are traditionally 
+            associated with better generalization capabilities, but their increased
+            size entails the drawbacks of extensive training duration, substantial hardware
+            resources, and longer inference times. One way to tackle this problem is to
+            prune neural networks leaving only the necessary parameters. State-of-the-art
+            concurrent pruning techniques for imposing sparsity perform demonstrably
+            well in applications where data-distributions are fixed. However, they have not
+            yet been substantially explored in the context of RL. We close the gap between
+            RL and single-shot pruning techniques and present a general pruning approach
+            to the Offline RL. We leverage a fixed dataset to prune neural networks before
+            the start of RL training. We then run experiments varying the network sparsity
+            level and evaluating the validity of pruning at initialization techniques in continuous 
+            control tasks. Our results show that with 95% of the network weights
+            pruned, Offline-RL algorithms can still retain performance in the majority of our
+            experiments. To the best of our knowledge no prior work utilizing pruning in
+            RL retained performance at such high levels of sparsity. Moreover, pruning at
+            initialization techniques can be easily integrated into any existing Offline-RL
+            algorithms without changing the learning objective.},
+  journal={NeurIPS Offline RL Workshop},
+  year={2021},
+  selected={true},
+  html={https://offline-rl-neurips.github.io/2021/papers.html?fbclid=IwAR3L9Xo8C2wDT2v-R1IhsLSAdwteVaGivJ47ka-H-eyrnu_drcUGjjMSENw},
+  pdf={https://offline-rl-neurips.github.io/2021/pdf/27.pdf},
+}
+
+@article{ohibgrouped,
+  abbr={ICLR HAET},
+  title={Grouped Sparse Projection for Deep Learning},
+  author={Riyasat Ohib and Nicolas Gillis and Sergey Plis and Vamsi Potluru},
+  abstract={Accumulating empirical evidence shows that very large deep learning models learn faster and achieve higher accuracy than their 
+            smaller counterparts. Yet, smaller models have benefits of energy efficiency and are often easier to interpret. To simultaneously 
+            get the benefits of large and small models we often encourage sparsity in the model weights of large models. For this, different 
+            approaches have been proposed including weight-pruning and distillation. Unfortunately, most existing approaches do not have a 
+            controllable way to request a desired value of sparsity as an interpretable parameter and get it right in a single run. In this work, 
+            we design a new sparse projection method for a set of weights in order to achieve a desired average level of sparsity without additional
+            hyperparameter tuning which is measured using the ratio of the l1 and l2 norms. Instead of projecting each vector of the weight matrix 
+            individually, or using sparsity as a regularizer, we project all vectors together to achieve an average target sparsity, where the
+            sparsity levels of the individual vectors of the weight matrix are automatically tuned. Our projection operator has the following 
+            guarantees – (A) it is fast and enjoys a runtime linear in the size of the vectors; (B) the solution is unique except for a measure 
+            set of zero. We utilize our projection operator to obtain the desired sparsity of deep learning models in a single run with a 
+            negligible performance hit, while competing methods require sparsity hyperparameter tuning. Even with a single projection of a 
+            pre-trained dense model followed by fine-tuning, we show empirical performance competitive to the state of the art. We support these 
+            claims with empirical evidence on real-world datasets and on a number of architectures, comparing it to other state of the art 
+            methods including DeepHoyer.},
+  journal={ICLR Hardware Aware Efficient Training workshop},
+  year={2021},
+  selected={true},
+  html={https://haet2021.github.io/papers},
+  pdf={papers/gsp_iclrhaet.pdf},
+}
+
+
+@inproceedings{arnob2017power,
+  abbr={IEEE-Xplore},
+  title={Power file extraction process from bangladesh grid and exploring ENF based classification accuracy using machine learning},
+  author={Arnob, Samin Yeasar and Ohib, Riyasat and Muhaisin, Md Muhtady and Hassan, Tanzil Bin},
+  abstract={The Electric Network Frequency (ENF) is the supply frequency of power distribution networks, which can be
+  captured by multimedia signals recorded near electrical activities. It normally fluctuates slightly over time from its
+  nominal value of 50 Hz/60 Hz. The ENF remain consistent across the entire power grid. This has led to the emergence of multiple
+  forensic application like estimating the recording location and validating the time of recording. Recently an ENF based Machine
+  Learning system was proposed which infers that the region of recording can be identified using ENF signal extracted from the
+  recorded multimedia signal, with the help of relevant features. As supervised learning process requires ground truth to train
+  classifier for identifying future unknown data, in this work- we report Power Recording data extraction process from the
+  National Grid of Bangladesh. Furthermore, we used ENF data – derived from Power Recordings, to compare grids around the
+  world and found out classification accuracy of Bangladesh National Grid. ENF derivation process from Power Recording
+  data and set of features, which serve as identifying characteristics for detecting the region of origin of the multimedia recordingare 
+  followed from published work. We used those characteristics in a multiclass Machine Learning implementation based on
+  MATLAB which is able to identify the grid of the recorded signal.},
+  booktitle={2017 IEEE Region 10 Humanitarian Technology Conference (R10-HTC)},
+  pages={79--82},
+  year={2017},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/abstract/document/8288911?casa_token=Me-ZQEjsSeEAAAAA:6RKkUY4rf6DJ7aTaJugJfoXOg7F1cRfEyKk57eZ226wo22Pj3C-duvsWddZU6FxAk_3iGXBijA},
+}
+
+
+@inproceedings{ohib2016metal,
+  abbr={IEEE-Xplore},
+  title={Metal nanoparticle enhanced light absorption in GaAs thin-film solar cell},
+  author={Ohib, Riyasat and Arnob, Samin Yeasar and Ali, Md Sayem and Sagor, Rakibul Hasan and Amin, Md Ruhul},
+  abstract={Surface plasmon resonances in metallic nanoparticles are of considerable importance for thin film technologies due to the significant
+            electromagnetic enhancement in the vicinity of metal surface, light trapping and the ability to tune the resonant wavelength by varying the size,
+            geometry and local dielectric environment of the metal nanoparticle. Metal nanoparticles have the ability for enhanced light trapping, increased
+            absorption and overall rise in efficiency of solar cells. Light enhancement engineered on the vicinity of such particles can augment the 
+            absorption in the absorber layer of the Photovoltaic (PV) cell. In this report, we present calculations of light absorption inside the GaAs 
+            absorber layer with embedded metal nanospheres and the subsequent effects instigated by the plasmonic phenomena. The finite element simulation
+            software COMSOL Multiphysics was employed for calculations of light absorption near Au, Ag, Cu and Al nanoparticles and optimization of 
+            particle diameters. The results conclude that above 600 nm wavelength where the solar radiation is absorbed poorly by GaAs, the absorption 
+            with the presence of nanoparticles in GaAs absorber layer can be enhanced by a factor of 2.},
+  booktitle={2016 IEEE Asia-Pacific Conference on Applied Electromagnetics (APACE)},
+  pages={89--93},
+  year={2016},
+  organization={IEEE},
+  html={https://ieeexplore.ieee.org/document/7916482}
+}
+
+@article{ohib3enf,
+  abbr={IEEE-SigPort},
+  title={ENF Based Grid Classification System: Identifying the Region of Origin of Digital Recordings},
+  author={Ohib, Riyasat and Arnob, Samin Yeasar and Arefin, Riazul and Amin, Md and Reza, Taslim},
+  abstract={The Electric Network Frequency (ENF) is the supply frequency of power distribution networks which can be captured by 
+            multimedia signals recorded near
+            electrical activities. It normally fluctuates slightly over time from its nominal value, which is usually of 50 Hz/60 Hz. The ENF
+            remain consistent across the entire power grid. This has led to the emergence of multiple forensic application like estimating
+            the recording location and validating the time of recording. In this report we examine an ENF based Machine Learning system which
+            infers the power grid in which the multimedia signal was recorded. We worked on different features which serve as signature for power
+            grid. Then we used those in a multiclass machine learning implementation which is able to identify the grid of the recorded signal.},
+  journal={SigPort: IEEE SP Cup 2016},
+  volume={3},
+  number={4},
+  pages={5},
+  year={2016},
+  html={https://sigport.org/documents/enf-based-grid-classification-system-identifying-region-origin-digital-recordings-team}
+}
+

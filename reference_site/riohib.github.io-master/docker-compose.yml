@@ -1,0 +1,11 @@
+services:
+  jekyll:
+    image: amirpourmand/al-folio:slim
+    platform: linux/arm64  # For M4 Mac (ARM64 architecture)
+    ports:
+      - 8080:8080
+      - 35729:35729
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development

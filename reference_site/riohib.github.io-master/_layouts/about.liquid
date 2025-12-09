@@ -1,0 +1,218 @@
+---
+layout: default
+---
+
+<style>
+  /* --- Main Affiliations Styles (for Desktop) --- */
+  .affiliations-grid {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center;    /* Align items vertically */
+    flex-wrap: wrap;        /* Allow items to wrap to the next line */
+    gap: 20px;              /* Adds space between items */
+  }
+
+  .affiliation-item {
+    flex: 1 1 150px; /* Items will grow/shrink but won't get smaller than 150px before wrapping */
+    max-width: 180px; /* Prevents items from getting too wide on large screens */
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .affiliation-item:hover {
+    transform: scale(1.05) translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  }
+
+  /* --- Mobile Responsive Styles --- */
+  /* This block only applies to screens 768px wide or smaller */
+  @media (max-width: 768px) {
+    .affiliations-grid {
+      flex-direction: column; /* Stack the items vertically */
+      align-items: center;    /* Center the stacked items */
+    }
+
+    .affiliation-item {
+      flex-basis: 80%;      /* Each item takes up 80% of the available width */
+      max-width: 250px;     /* Ensure they don't get too wide on tablets */
+    }
+  }
+
+
+  .logo-container {
+    height: 50px; /* This is the key: creates a standard height box for all logos */
+    display: flex;
+    align-items: center; /* This vertically centers the <img> inside the box */
+    justify-content: center; /* This horizontally centers the <img> */
+    margin-bottom: 15px; /* Adds some space between the logo and the text below */
+  }
+
+</style>
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- Image Grid (ADDED by ME) -->
+
+    <!-- ADD THIS LINE for the title -->
+    <hr class="section-line" style="margin-bottom: 1rem; opacity: 0.7;">
+    <h5 style="margin-top: 0rem; font-weight: 400;">Research and Work Experience</h5>
+    <hr class="section-line" style="margin-top: 1rem; opacity: 0.45;">
+    
+    <!-- SCALING CONTAINER -->
+    <div class="affiliations-scale-container">
+      <!-- This is the main grid container -->
+      <div class="affiliations-grid">
+
+        <!-- Google DeepMind Item -->
+        <div class="affiliation-item">
+          <a href="https://deepmind.google/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+            <div class="logo-container">
+              <!-- Added translateY(5px) to move the logo down -->
+              <img src="{{ 'assets/img/deepmind.svg' | trends }}" alt="Google DeepMind" style="transform: scale(0.90) translateY(5px); max-height: 100%; max-width: 100%;">
+            </div>
+            <div class="image-description" style="text-align: center; line-height: 0.3; font-size: 14px;">
+              <p>Google DeepMind</p>
+              <p>Fall 2025</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Cohere Item -->
+        <div class="affiliation-item">
+          <a href="https://cohere.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+            <div class="logo-container">
+              <!-- Added translateY(5px) to move the logo down -->
+              <img src="{{ 'assets/img/cohere.png' | cohere }}" alt="Cohere" style="transform: scale(1.05) translateY(5px); max-height: 100%; max-width: 100%;">
+            </div>
+            <div class="image-description" style="text-align: center; line-height: 0.3; font-size: 14px;">
+              <p>Cohere</p>
+              <p>Fall 2024</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Dolby Labs Item -->
+        <div class="affiliation-item">
+          <a href="https://www.dolby.com/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+            <div class="logo-container">
+              <!-- Added translateY(5px) to move the logo down -->
+              <img src="{{ 'assets/img/dolby.png' | dolby }}" alt="Dolby Labs" style="transform: scale(0.98) translateY(8px); max-height: 100%; max-width: 100%;">
+            </div>
+            <div class="image-description" style="text-align: center; line-height: 0.3; font-size: 14px;">
+              <p>Dolby Labs</p>
+              <p>Summer 2024</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Meta AI Item -->
+        <div class="affiliation-item">
+          <a href="https://ai.meta.com/research/fair/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+            <div class="logo-container">
+              <!-- Added translateY(5px) to move the logo down -->
+              <img src="{{ 'assets/img/meta_ai.png' | meta_ai }}" alt="FAIR at Meta AI" style="transform: scale(0.9) translateY(4px); max-height: 100%; max-width: 100%;">
+            </div>
+            <div class="image-description" style="text-align: center; line-height: 0.3; font-size: 14px;">
+              <p>FAIR at Meta AI</p>
+              <p>Summer 2022</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Georgia Tech Item -->
+        <div class="affiliation-item">
+          <a href="https://www.gatech.edu/" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: none;">
+            <div class="logo-container">
+              <!-- Added translateY(5px) to move the logo down -->
+              <img src="{{ 'assets/img/gt.png' | gatech }}" alt="Georgia Tech" style="transform: scale(1.05) translateY(5px); max-height: 100%; max-width: 100%;">
+            </div>
+            <div class="image-description" style="text-align: center; line-height: 0.3; font-size: 14px;">
+              <p>Georgia Tech</p>
+              <p>Aug 2019 - Present</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Below line -->
+    <hr class="section-line">
+
+    <!-- News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Latest posts -->
+    {% if site.latest_posts.enabled %}
+      <h2>
+        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
+      </h2>
+      {% include latest_posts.liquid %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter.enabled and site.footer_fixed %}
+      {% include scripts/newsletter.liquid center=true %}
+    {% endif %}
+  </article>
+</div>

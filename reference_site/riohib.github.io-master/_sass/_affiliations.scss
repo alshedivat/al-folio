@@ -1,0 +1,127 @@
+/* Affiliations Section Styles */
+.section-line {
+  border: none;
+  height: 1px;
+  background-color: var(--global-divider-color, #e0e0e0);
+  margin: 30px 0;
+}
+
+.affiliations-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 25px 0;
+  padding: 0 10px;
+
+  .affiliation-item {
+    flex: 1 1 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-width: 0; // Prevents flex items from overflowing
+
+    .logo-container {
+      width: 120px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 12px;
+      padding: 5px;
+
+      .affiliation-logo {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+        filter: brightness(0.9) contrast(1.1);
+        transition: all 0.3s ease;
+
+        &:hover {
+          filter: brightness(1) contrast(1);
+          transform: scale(1.02);
+        }
+      }
+    }
+
+    .affiliation-info {
+      .affiliation-name {
+        font-size: 14px;
+        font-weight: 500;
+        margin: 0 0 4px 0;
+        color: var(--global-text-color);
+        line-height: 1.2;
+      }
+
+      .affiliation-period {
+        font-size: 12px;
+        margin: 0;
+        color: var(--global-text-color-light);
+        line-height: 1.2;
+        opacity: 0.8;
+      }
+    }
+  }
+
+  // Responsive breakpoints
+  @media (max-width: 992px) {
+    gap: 15px;
+    
+    .affiliation-item {
+      .logo-container {
+        width: 100px;
+        height: 70px;
+      }
+      
+      .affiliation-info {
+        .affiliation-name {
+          font-size: 13px;
+        }
+        
+        .affiliation-period {
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    .affiliation-item {
+      flex: 1 1 45%;
+      margin-bottom: 25px;
+      
+      .logo-container {
+        width: 110px;
+        height: 75px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    .affiliation-item {
+      flex: 1 1 100%;
+      max-width: 200px;
+    }
+  }
+}
+
+// Dark mode adjustments
+[data-theme="dark"] {
+  .affiliations-grid {
+    .affiliation-item {
+      .logo-container {
+        .affiliation-logo {
+          filter: brightness(1.1) contrast(0.9);
+          
+          &:hover {
+            filter: brightness(1.2) contrast(1);
+          }
+        }
+      }
+    }
+  }
+}

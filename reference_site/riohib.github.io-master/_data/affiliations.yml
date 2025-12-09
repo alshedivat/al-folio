@@ -1,0 +1,19 @@
+- name: "Georgia Tech"
+  image: "gt.png"
+  period: "Aug 2019 - Present"
+
+- name: "Google DeepMind"
+  image: "deepmind.svg"
+  period: "Fall 2025"
+
+- name: "FAIR at Meta AI"
+  image: "meta_ai.png"
+  period: "Summer 2022"
+
+- name: "Cohere"
+  image: "cohere.png"
+  period: "Fall 2024"
+
+- name: "Dolby Labs"
+  image: "dolby.png"
+  period: "Summer 2024"

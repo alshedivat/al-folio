@@ -1,0 +1,33 @@
+/* === brand color override === */
+:root {
+  --global-theme-color: #00897b;      /* main accent (links, active nav) */
+  --global-link-color:  #00897b;
+  --global-hover-color: #006d62;      /* link hover */
+}
+
+/* dark mode override (optional, tweak to taste) */
+[data-theme="dark"] {
+  --global-theme-color: #66d1c4;
+  --global-link-color:  #66d1c4;
+  --global-hover-color: #46b5a8;
+}
+
+
+/* Social icons in top-left corner */
+header .social-icons {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  display: flex;
+  gap: 12px;
+}
+
+header .social-icons a {
+  font-size: 1.3em;
+  color: var(--global-text-color);
+  transition: color 0.2s ease;
+}
+
+header .social-icons a:hover {
+  color: var(--global-theme-color);
+}
