@@ -15,7 +15,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favcon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 url: "https://asifbillah.com"
 baseurl: ""
 # the subpath of your site, e.g., /blog (if you are using a custom domain, set this to an empty string)
