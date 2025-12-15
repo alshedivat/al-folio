@@ -7,6 +7,7 @@ nav: true
 nav_order: 1
 display_categories: [research]
 horizontal: false
+published: false
 ---
 
 <!-- pages/projects.md -->
