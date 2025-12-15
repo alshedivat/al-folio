@@ -20,4 +20,4 @@ I work at the intersection of AI, game theory, and competition policy, with a fo
 
 At [Swiss Economics](https://www.swiss-economics.ch/), I work on competition-policy and regulatory matters (studies, analyses, case work, and expert testimony). With colleagues at the [CyberCat Institute](https://cybercat.institute/), I help implement computable simulations / digital twins of pricing algorithms and allocation mechanisms.
 
-Selected papers are listed below; see [Publications](/publications/) and [CV](/cv/) for more details.
+Selected papers are listed below; see [Research](/publications/) and [CV](/cv/) for more details.
