@@ -18,6 +18,6 @@ social: true  # includes social icons at the bottom of the page
 
 I work at the intersection of machine learning, game theory, and competition policy, with a focus on algorithmic pricing/bidding and digital markets.
 
-At [Swiss Economics](https://www.swiss-economics.ch/), I work on competition-policy and regulatory matters (studies, analyses, case work, and expert testimony). With colleagues at the [CyberCat Institute](https://cybercat.institute/), I help implement computable simulations / digital twins of pricing algorithms and allocation mechanisms.
+At [Swiss Economics](https://www.swiss-economics.ch/), I work on competition policy and regulatory or market design matters (studies, analyses, case work, and expert testimony). With colleagues at the [CyberCat Institute](https://cybercat.institute/), I help implement computable simulations / digital twins of pricing algorithms and allocation mechanisms.
 
 Selected papers are listed below; see [Research](/publications/) and [CV](/cv/) for more details.
