@@ -12,7 +12,7 @@
   type: time_table
   contents:
     - title: PhD in Economics and Finance
-      institution: University of St. Gallen, St. Gallen, Switzerland
+      institution: University of St. Gallen, Switzerland
       year: 2018
       description:
         - Thesis entitled Essays in Industrial Organization.
@@ -22,13 +22,13 @@
         #     - Sub-description 1.
         #     - Sub-description 2.
     - title: M.Sc. in Economics
-      institution: Edinburgh University, Edinburgh, United Kingdom
+      institution: Edinburgh University, United Kingdom
       year: 2012
       description:
         - Graduated with honours
         # - Description 2.
     - title: B.Sc. in Business and Economics
-      institution: Maastricht University, Maastricht, the Netherlands
+      institution: Maastricht University, the Netherlands
       year: 2011
       description:
         - Bachelor thesis received with distinction
@@ -39,7 +39,7 @@
   contents:
     - title: Senior Economist
       institution: Swiss Economics
-      year: 2022-2023
+      year: 2022-today
       description:
         # - Description 1.
         # - Description 2.
@@ -48,11 +48,18 @@
         #     - Sub-description 1.
         #     - Sub-description 2.
     - title: Senior Economist
-      institution: Cryptecon
-      year: 2022-2023
+      institution: Center for Cryptoeconomics
+      year: 2022-today
       # description:
       #   - Description 1.
       #   - Description 2.
+    - title: Affiliated Researcher
+      institution: Zurich Center for Market Design
+      year: 2024-today
+      
+    - title: Collaborator
+      institution: CyberCat Institute
+      year: 2023-today
 
     - title: Postdoctoral Researcher
       institution: University of St. Gallen
@@ -74,29 +81,29 @@
 #       year: 2015-now
 #       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2022
-      items:
-        - Young Scholar Award, CRESSE 2022
-    # - year: 2029
-    #   items:
-    #     - Max Planck Medal
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2022
+#       items:
+#         - Young Scholar Award, CRESSE 2022
+#     # - year: 2029
+#     #   items:
+#     #     - Max Planck Medal
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Swimming, Tennis
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Swimming, Tennis
