@@ -111,9 +111,9 @@ export const PeoplePage = (props) => {
           src={`${process.env.PUBLIC_URL}/icons/line.svg`}
           alt="line"
         />
-        {/* <div ref={element} className="title">
+        <div ref={element} className="title">
           • Alumni •
-        </div> */}
+        </div>
         <div className="container">
           {/* Filter and map through people data to show only alumni */}
           {peopledata

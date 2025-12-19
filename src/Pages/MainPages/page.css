@@ -32,7 +32,7 @@
 .page > .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 40px;
 }
 
