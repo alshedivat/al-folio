@@ -8,12 +8,10 @@
             {% if site.first_name %}
               <span class="font-weight-bold">
                 {{- site.first_name -}}
-                &nbsp;</span
-              >
+              </span>
             {% endif %}
             {% if site.middle_name %}
               {{- site.middle_name -}}
-              &nbsp;
             {% endif %}
             {% if site.last_name %}
               {{- site.last_name -}}
@@ -97,7 +95,8 @@
                   </div>
                 </li>
               {% else %}
-                <li class="nav-item {% if page.url contains p.permalink %}active{% endif %}">
+                {% assign parent_link = p.permalink | remove: 'index.html' %}
+                <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">
                   {% if p.permalink contains '/blog/' %}{% assign url = '/blog/' %} {% else %}{% assign url = p.url %}{% endif %}
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
@@ -109,12 +108,21 @@
               {% endif %}
             {% endif %}
           {% endfor %}
+          {% if site.search_enabled %}
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          {% endif %}
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
-                <i class="fa-solid fa-moon"></i>
-                <i class="fa-solid fa-sun"></i>
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
               </button>
             </li>
           {% endif %}

@@ -14,13 +14,15 @@
   <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
 {% endif %}
 
+{% capture author_name %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
+
 <!-- Standard metadata -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
   {% if site.title == 'blank' %}
-    {% capture title %}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{% endcapture %}
+    {% capture title %}{{ author_name }}{% endcapture %}
   {% else %}
     {% capture title %}{{ site.title }}{% endcapture %}
   {% endif %}
@@ -36,7 +38,7 @@
     {{ title }}
   {% endif %}
 </title>
-<meta name="author" content="{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}">
+<meta name="author" content="{{ author_name }}">
 <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 {% if page.keywords or site.keywords %}
   <meta name="keywords" content="{% if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
@@ -223,7 +225,7 @@
         "author":
         {
             "@type": "Person",
-            "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}"
+            "name": "{{ author_name }}"
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
@@ -232,7 +234,7 @@
         {% if sameaslinks != blank %}
         "sameAs": {{ sameaslinks }},
         {% endif %}
-        "name": "{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}",
+        "name": "{{ author_name }}",
         "@context": "https://schema.org"
     }
   </script>
