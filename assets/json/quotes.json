@@ -258,5 +258,17 @@
   {
     "quote": "Good art reveals what we are usually too selfish and too timid to recognize, the minute and absolutely random detail of the world, and reveals it together with a sense of unity and form.",
     "author": "Iris Murdoch"
+  },
+  {
+    "quote": "My GSIs (one in particular) gave me a lot of guff about how the homework was too easy this semester. My response is that the theoretical foundations of the course are still too weak for me to pose hard math questions in good faith. Yes, there are difficult mathematical problems in finding the optimal constants for certain learning-theoretic bounds. But finding constants for theories that give bad advice in practice is a waste of everyone's time. In machine learning, we learn more from social analysis than functional analysis, and it's hard to write problem sets on sociology.",
+    "author": "Ben Recht, \"Benchmark Studies\""
+  },
+  {
+    "quote": "In machine learning, the price of admission is a belief that pattern recognition is possible and the conviction that it's too hard to write a function describing these patterns from first principles. Generalization is an axiom, not a theorem. It would be nice if we could say one algorithm is better than another at finding these prediction functions, but we don't have theory for that. Instead, we have to look to engineering \"best practice\" for what to do next.",
+    "author": "Ben Recht, \"Benchmark Studies\""
+  },
+  {
+    "quote": "A lot of A.I.'s choices make sense when you understand that it's constantly tickling the Simpsons. The A.I. is trying to write well. It knows that good writing involves subtlety: things that are said quietly or not at all, things that are halfway present and left for the reader to draw out themselves. So to reproduce the effect, it screams at the top of its voice about how absolutely everything in sight is shadowy, subtle and quiet. Good writing is complex. A tapestry is also complex, so A.I. tends to describe everything as a kind of highly elaborate textile. Everything that isn't a ghost is usually woven.",
+    "author": "Sam Kriss, \"Why Does AI Write Like That\" (NYT)"
   }
 ]

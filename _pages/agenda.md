@@ -14,6 +14,11 @@ Please see [PhD SOP](https://andre-ye.org/assets/pdf/phd-sop.pdf){:target="_blan
 
 
 <div class="agenda-card">
+<div class="agenda-title">Rewards and Judgments on Qualitative AI Work</div>
+<div class="agenda-description">As AI ventures into domains like creative writing, journalism, and philosophy, I am struck by the sense that although we cannot entirely formalize the correctness of a piece of AI work, we still can judge AI work as "better" or "worse" (of course, possibly with <a href="https://www.nytimes.com/2025/12/03/magazine/chatbot-writing-style.html" target="_blank">more complex descriptors</a>). In fact, much of the work of literary critics, philosophers, and essayists in general is to reflexively critique and develop an understanding of the normative form of the essay in their domain, to gesture at these senses of better and worse. What does this look like for AI? What is the role that humans will play in co-producing AI that writes <i>really well</i>?</div>
+</div>
+
+<div class="agenda-card">
 <div class="agenda-title">Qualitative Knowledge Certification</div>
 <div class="agenda-description">One of the most powerful uses of LLMs is to apply existing and produce new qualitative knowledge --- they are able to operate in the world of senses, vibes, liminal words. But why should we trust what knowledge these models produce? No, trust isn't the right word --- more like, what are the kinds of reasons we would want to believe in the knowledge these models produce, and what are the methods for structuring model outputs with those reasons? We can draw from the methodology of the social sciences and the humanities: what are the reasons why we would believe (or trust, or be intruiged by, or entertain, ...) what a historian, philosopher, literary theorist, etc. has to say? How can we 'certify' qualitative knowledge application and production, one of the most distinctive features of LLMs as a social technology?</div>
 </div>
