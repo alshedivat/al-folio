@@ -1,0 +1,50 @@
+name: Update TOCs
+# This workflow automatically updates the Table of Contents (TOC) in markdown files
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - "*.md"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # OR "2" -> To retrieve the preceding commit.
+
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c # v46
+        with:
+          files: ./*.md
+
+      - name: Updated toc on all markdown changed files
+        env:
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+        run: |
+          curl https://raw.githubusercontent.com/george-gca/github-markdown-toc/main/gh-md-toc -o gh-md-toc
+          chmod a+x gh-md-toc
+          for file in ${ALL_CHANGED_FILES}; do
+            # Check if the file is a markdown file
+            if [[ "$file" != *.md ]]; then
+              continue
+            fi
+            ./gh-md-toc --indent 2 --insert --no-backup --hide-footer $file
+          done
+          rm gh-md-toc
+
+      - name: Commit changes
+        if: steps.changed-files.outputs.any_changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5.0.1
+        with:
+          commit_message: Auto update markdown TOC

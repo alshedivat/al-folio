@@ -1,0 +1,68 @@
+<div
+  class="newsletter-form-container"
+  {% if include.center %}
+    style="margin: 20px"
+  {% endif %}
+>
+  <form
+    class="newsletter-form"
+    action="https://app.loops.so/api/newsletter-form/{{ site.newsletter.endpoint }}"
+    method="POST"
+    style="justify-content: {% if include.left %}flex-start{% elsif include.right %}flex-end{% else %}center{% endif %}"
+  >
+    <input
+      class="newsletter-form-input"
+      name="newsletter-form-input"
+      type="email"
+      placeholder="user@example.com"
+      required=""
+    >
+
+    <button
+      type="submit"
+      class="newsletter-form-button"
+      style="justify-content: {% if include.left %}flex-start{% elsif include.right %}flex-end{% else %}center{% endif %}"
+    >
+      subscribe
+    </button>
+
+    <button
+      type="button"
+      class="newsletter-loading-button"
+      style="justify-content: {% if include.left %}flex-start{% elsif include.right %}flex-end{% else %}center{% endif %}"
+    >
+      Please wait...
+    </button>
+  </form>
+
+  <div
+    class="newsletter-success"
+    style="justify-content: {% if include.left %}flex-start{% elsif include.right %}flex-end{% else %}center{% endif %}"
+  >
+    <p class="newsletter-success-message">You're subscribed!</p>
+  </div>
+
+  <div
+    class="newsletter-error"
+    style="justify-content: {% if include.left %}flex-start{% elsif include.right %}flex-end{% else %}center{% endif %}"
+  >
+    <p class="newsletter-error-message">Oops! Something went wrong, please try again</p>
+  </div>
+
+  <button
+    class="newsletter-back-button"
+    type="button"
+    onmouseout='this.style.textDecoration="none"'
+    onmouseover='this.style.textDecoration="underline"'
+  >
+    &larr; Back
+  </button>
+</div>
+
+<noscript>
+  <style>
+    .newsletter-form-container {
+      display: none;
+    }
+  </style>
+</noscript>

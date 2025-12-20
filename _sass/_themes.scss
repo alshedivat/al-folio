@@ -5,6 +5,7 @@
 @use "sass:color";
 
 :root {
+  color-scheme: light;
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -56,10 +57,11 @@
     display: none;
   }
 
-  .repo-img-light {
+  .only-light {
     display: block;
   }
-  .repo-img-dark {
+
+  .only-dark {
     display: none;
   }
 
@@ -75,6 +77,7 @@
 }
 
 html[data-theme="dark"] {
+  color-scheme: dark;
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
@@ -99,22 +102,23 @@ html[data-theme="dark"] {
   --global-newsletter-text-color: #{$grey-color-dark};
 
   --global-tip-block: #42b983;
-  --global-tip-block-bg: #e2f5ec;
-  --global-tip-block-text: #215d42;
-  --global-tip-block-title: #359469;
+  --global-tip-block-bg: #215d42;
+  --global-tip-block-text: #beffe2;
+  --global-tip-block-title: #e2f5ec;
   --global-warning-block: #e7c000;
-  --global-warning-block-bg: #fff8d8;
-  --global-warning-block-text: #6b5900;
-  --global-warning-block-title: #b29400;
+  --global-warning-block-bg: #6b5900;
+  --global-warning-block-text: #fff2af;
+  --global-warning-block-title: #fff8d8;
   --global-danger-block: #c00;
-  --global-danger-block-bg: #ffe0e0;
-  --global-danger-block-text: #600;
-  --global-danger-block-title: #c00;
+  --global-danger-block-bg: #600;
+  --global-danger-block-text: #ffb9b9;
+  --global-danger-block-title: #ffe0e0;
 
-  .repo-img-light {
+  .only-light {
     display: none;
   }
-  .repo-img-dark {
+
+  .only-dark {
     display: block;
   }
 }

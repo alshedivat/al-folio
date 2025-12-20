@@ -25,7 +25,12 @@ module ExternalPosts
     def fetch_from_rss(site, src)
       xml = HTTParty.get(src['rss_url']).body
       return if xml.nil?
-      feed = Feedjira.parse(xml)
+      begin
+        feed = Feedjira.parse(xml)
+      rescue StandardError => e
+        puts "Error parsing RSS feed from #{src['rss_url']} - #{e.message}"
+        return
+      end
       process_entries(site, src, feed.entries)
     end
 
@@ -62,6 +67,7 @@ module ExternalPosts
       doc.data['description'] = content[:summary]
       doc.data['date'] = content[:published]
       doc.data['redirect'] = url
+      doc.content = content[:content]
       site.collections['posts'].docs << doc
     end
 
@@ -90,8 +96,12 @@ module ExternalPosts
       parsed_html = Nokogiri::HTML(html)
 
       title = parsed_html.at('head title')&.text.strip || ''
-      description = parsed_html.at('head meta[name="description"]')&.attr('content') || ''
-      body_content = parsed_html.at('body')&.inner_html || ''
+      description = parsed_html.at('head meta[name="description"]')&.attr('content')
+      description ||= parsed_html.at('head meta[name="og:description"]')&.attr('content')
+      description ||= parsed_html.at('head meta[property="og:description"]')&.attr('content')
+
+      body_content = parsed_html.search('p').map { |e| e.text }
+      body_content = body_content.join() || ''
 
       {
         title: title,

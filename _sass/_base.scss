@@ -79,6 +79,7 @@ blockquote {
       color: var(--global-tip-block-text);
     }
 
+    a,
     h1,
     h2,
     h3,
@@ -100,6 +101,7 @@ blockquote {
       color: var(--global-warning-block-text);
     }
 
+    a,
     h1,
     h2,
     h3,
@@ -121,6 +123,7 @@ blockquote {
       color: var(--global-danger-block-text);
     }
 
+    a,
     h1,
     h2,
     h3,
@@ -250,7 +253,8 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
-.navbar .dropdown-menu {
+.navbar .dropdown-menu,
+.btn-group.dropdown .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
 
@@ -273,6 +277,16 @@ ul.task-list input[type="checkbox"] {
   &:hover {
     color: var(--global-hover-color);
     background-color: var(--global-bg-color);
+  }
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: var(--global-hover-color);
+  color: var(--global-hover-text-color) !important;
+
+  &:hover {
+    color: var(--global-hover-text-color);
   }
 }
 
@@ -311,6 +325,24 @@ ul.task-list input[type="checkbox"] {
     font-size: 1.7rem;
 
     a {
+      img {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-bottom: 0.5rem;
+        // margin: 0.5rem;
+      }
+
+      svg {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-bottom: 0.5rem;
+
+        image {
+          width: 1.7rem;
+          height: 1.7rem;
+        }
+      }
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
@@ -386,12 +418,31 @@ ul.task-list input[type="checkbox"] {
     font-size: 4rem;
 
     a {
+      img {
+        width: 3.2rem;
+        height: 3.2rem;
+        margin-bottom: 1rem;
+      }
+
+      svg {
+        width: 3.5rem;
+        height: 4rem;
+        margin-bottom: 0.5rem;
+
+        image {
+          width: 3.5rem;
+          height: 3.5rem;
+        }
+      }
+
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
 
       &:hover {
+        text-decoration: none;
+
         i::before {
           color: var(--global-theme-color);
         }
@@ -589,6 +640,7 @@ footer.sticky-bottom {
   .page-item {
     .page-link {
       color: var(--global-text-color);
+      padding: 0.75rem 1.15rem;
 
       &:hover {
         color: $black-color;
@@ -604,6 +656,12 @@ footer.sticky-bottom {
       }
     }
   }
+}
+
+// diff2html - Fix for diff2html line number overflow
+
+.d2h-diff-table {
+  position: relative;
 }
 
 // Distill
@@ -701,6 +759,7 @@ footer.sticky-bottom {
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
+          color: var(--global-card-bg-color) !important;
 
           a {
             color: white;
@@ -835,6 +894,18 @@ footer.sticky-bottom {
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
+
+  // Responsive code block container
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  pre {
+    // Ensure code blocks can scroll horizontally
+    white-space: pre;
+    word-wrap: normal;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 pre {
@@ -842,6 +913,12 @@ pre {
   background-color: var(--global-code-bg-color);
   border-radius: 6px;
   padding: 6px 12px;
+
+  // Responsive behavior for code blocks
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: pre;
+  word-wrap: normal;
 
   pre,
   code {
@@ -857,6 +934,10 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+
+  // Inline code should wrap
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 // Transitioning Themes
@@ -996,29 +1077,6 @@ progress::-moz-progress-bar {
       color: var(--global-hover-text-color) !important;
     }
   }
-
-  .dropdown-menu {
-    background-color: var(--global-bg-color);
-  }
-
-  .dropdown-item {
-    background-color: var(--global-bg-color);
-    color: var(--global-text-color);
-
-    &:hover {
-      color: var(--global-hover-color);
-    }
-  }
-
-  .dropdown-item.active,
-  .dropdown-item:active {
-    background-color: var(--global-hover-color);
-    color: var(--global-hover-text-color) !important;
-
-    &:hover {
-      color: var(--global-hover-text-color);
-    }
-  }
 }
 
 /* Table of Contents */
@@ -1058,6 +1116,62 @@ nav[data-toggle="toc"] {
     visibility: hidden;
     height: 0;
     top: 0;
+  }
+
+  /* Responsive code blocks for mobile */
+  pre {
+    font-size: 0.875rem;
+    padding: 8px 10px;
+    margin: 0.5rem 0;
+  }
+
+  figure.highlight {
+    margin: 0.5rem 0;
+
+    pre {
+      font-size: 0.875rem;
+      padding: 8px 10px;
+    }
+  }
+
+  code {
+    font-size: 0.875rem;
+    padding: 2px 4px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 400px) {
+  pre {
+    font-size: 0.8rem;
+    padding: 6px 8px;
+  }
+
+  figure.highlight {
+    pre {
+      font-size: 0.8rem;
+      padding: 6px 8px;
+    }
+  }
+
+  code {
+    font-size: 0.8rem;
+    padding: 1px 3px;
+  }
+}
+
+/* Medium screens - optimize for tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  pre {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  figure.highlight {
+    pre {
+      font-size: 0.9rem;
+      padding: 8px 12px;
+    }
   }
 }
 
@@ -1303,4 +1417,82 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+figure.cover {
+  display: inline-block;
+  text-align: center;
+  margin: 0.5rem; /* adjust as needed */
+
+  img {
+    vertical-align: bottom;
+  }
+
+  figcaption.abandoned {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #ee5f5b;
+  }
+
+  figcaption.finished,
+  figcaption.watched {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #62c462;
+  }
+
+  figcaption.interested {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #7691db;
+  }
+
+  figcaption.paused {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #bdac7e;
+  }
+
+  figcaption.queued {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #9e76b5;
+  }
+
+  figcaption.reading,
+  figcaption.watching {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #f89406;
+  }
+
+  figcaption.reread,
+  figcaption.rewatch {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #a6517d;
+  }
+
+  figcaption.uncategorized {
+    font-family: monospace;
+    color: #23212d;
+    text-transform: uppercase;
+    background-color: #b0abb3;
+  }
+
+  /* mouse over link */
+  a.cover-link:hover {
+    color: #23212d !important;
+  }
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  overflow-x: auto;
 }

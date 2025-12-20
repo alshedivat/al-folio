@@ -14,20 +14,22 @@
       https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
     -->
     {% if site.imagemagick.enabled %}
-      <source
-        class="responsive-img-srcset"
-        {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.tiff' or ext == '.gif' %}
-          srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{i}}w,{% endfor %}"
-          type="image/webp"
-        {% else %}
-          srcset="{{ include.path | relative_url }}"
-        {% endif %}
-        {% if include.sizes %}
-          sizes="{{include.sizes}}"
-        {% else %}
-          sizes="95vw"
-        {% endif %}
-      >
+      {% unless include.avoid_scaling %}
+        <source
+          class="responsive-img-srcset"
+          {% if ext == 'gif' or ext == 'jpeg' or ext == 'jpg' or ext == 'png' or ext == 'tiff' %}
+            srcset="{% for i in site.imagemagick.widths %}{{ img_path | relative_url }}-{{ i }}.webp {{ i }}w,{% endfor %}"
+            type="image/webp"
+          {% else %}
+            srcset="{{ include.path | relative_url }}"
+          {% endif %}
+          {% if include.sizes %}
+            sizes="{{ include.sizes }}"
+          {% else %}
+            sizes="95vw"
+          {% endif %}
+        >
+      {% endunless %}
     {% endif %}
     <img
       src="{% if include.url %}{{ include.url }}{% elsif include.cache_bust %}{{ include.path | relative_url | bust_file_cache }}{% else %}{{ include.path | relative_url }}{% endif %}"

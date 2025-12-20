@@ -37,6 +37,7 @@
             sizes = "200px"
             class="preview z-depth-1 rounded"
             zoomable=true
+            avoid_scaling=true
             alt=entry.preview
           %}
         {% endif %}
@@ -73,13 +74,15 @@
             {% if coauthor.firstname contains author.first %}
               {%- assign coauthor_url = coauthor.url -%}
               {% break %}
-            {% endif %}
+            {%- endif -%}
           {% endfor %}
         {%- endif -%}
 
         {%- if forloop.length > 1 -%}
-          {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
+          {% if forloop.first == false -%}
+            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
+          {%- endif %}
+          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
           <em>
@@ -310,13 +313,31 @@
           {% endif %}
           {% if site.enable_publication_badges.google_scholar and entry_has_google_scholar_badge %}
             <a
-              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.scholar_userid }}&citation_for_view={{ site.scholar_userid }}:{{ entry.google_scholar_id }}"
+              href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
               aria-label="Google Scholar link"
               role="button"
             >
+              {% assign citation_count = 0 %}
+              {% assign scholar_id_key = site.scholar_userid | append: ':' | append: entry.google_scholar_id %}
+              {% assign publication_key = entry.google_scholar_id %}
+
+              {% if site.data.citations.papers[scholar_id_key] %}
+                {% assign citation_count = site.data.citations.papers[scholar_id_key].citations %}
+              {% elsif site.data.citations.papers[publication_key] %}
+                {% assign citation_count = site.data.citations.papers[publication_key].citations %}
+              {% else %}
+                {% for paper in site.data.citations.papers %}
+                  {% assign paper_key = paper[0] %}
+                  {% if paper_key contains entry.google_scholar_id %}
+                    {% assign citation_count = paper[1].citations %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+
               <img
-                src="https://img.shields.io/badge/scholar-{% google_scholar_citations site.scholar_userid entry.google_scholar_id %}-4285F4?logo=googlescholar&labelColor=beige"
-                alt="{% google_scholar_citations site.scholar_userid entry.google_scholar_id %} Google Scholar citations"
+                src="https://img.shields.io/badge/scholar-{{ citation_count }}-4285F4?logo=googlescholar&labelColor=beige"
+                alt="{{ citation_count }} Google Scholar citations"
               >
             </a>
           {% endif %}
