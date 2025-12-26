@@ -16,7 +16,7 @@ nav_order: 6
 - **CS 427** *Creative Coding* – Victor Mateevitsi  
 - **CS 494** *Edge Computing Systems* – Michael Papka  
 - **CS 494** *GPU Accelerated Web Programming* – Siddharth Kumar  
-- **CS 524** *Visualization and Visual Analytics* – Fabio Miranda  
+- **CS 524** *Big Data Visualization and Analytics* – Fabio Miranda  
 - **CS 526** *Computer Graphics II* – Khairi Reda  
 - **CS 530** *Advanced Topics in Human-Computer Interaction* – Joseph Michaelis  
 - **CS 535** *User Experience Research Methods* – Debaleena Chattopadhyay  
