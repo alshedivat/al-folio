@@ -113,9 +113,16 @@
   ],
   "certificates": [
     {
+      "name": "GATE 2022, CS (Rank 841)",
+      "date": "",
+      "issuer": "IIT Kharagpur - 22nd March 2022",
+      "url": "https://drive.google.com/file/d/1uDD-9nyNGM4kRGWpKBHHlccSydt6ABLr/view?usp=sharing",
+      "icon": "fa-solid fa-pen-nib"
+    },
+    {
       "name": "Design and Engineering of Computer Systems (a course on Distributed Computing by IIT Bombay)",
-      "date": "2022-03-01",
-      "issuer": "NPTEL",
+      "date": "",
+      "issuer": "NPTEL - March 2022",
       "url": "https://drive.google.com/file/d/1BO02azJPkmyx4sG9z_eA0fMgTGLU4UT3/view?pli=1",
       "icon": "fa-solid fa-envelope"
     }
