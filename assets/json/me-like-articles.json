@@ -235,6 +235,13 @@
                     "year": 2024,
                     "commentary": "Really nice technical details and knowledge on training and understanding large sparse autoencoders,",
                     "link": "https://arxiv.org/abs/2406.04093"
+                },
+                {
+                    "title": "The Mythos of Model Interpretability",
+                    "authors": "Zachary C. Lipton",
+                    "year": 2016,
+                    "commentary": "",
+                    "link": "https://arxiv.org/abs/1606.03490"
                 }
             ]
         },
