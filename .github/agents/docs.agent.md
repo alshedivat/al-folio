@@ -96,16 +96,51 @@ You are a documentation specialist for the al-folio Jekyll theme project.
 4. **Update troubleshooting** in FAQ when common issues arise
 5. **Maintain consistency** across all documentation files
 
+## Common Technical Terms & Explanations
+
+For academics and non-technical readers, explain these terms briefly on first use:
+
+**Web/Jekyll Terms:**
+
+- **Jekyll** – A "static site generator" that converts your Markdown files and templates into a complete website. Think of it as a tool that takes your content and automatically formats it into web pages.
+- **Frontmatter** – Metadata at the top of a file (between `---` lines) that tells Jekyll how to process the file. Example: title, date, author.
+- **Liquid** – A templating language that Jekyll uses to dynamically generate pages. You'll see it in `_layouts/` and `_includes/` files with `{% %}` syntax.
+- **Markdown** – A simple text format for writing content. Much easier than HTML. Files use `.md` extension.
+
+**Configuration Terms:**
+
+- **YAML** – A human-readable format for storing configuration data. Uses colons and indentation. Examples in `_config.yml`, `_data/` files.
+- **Configuration file** – `_config.yml` contains all the settings that control how your site looks and behaves (like site title, author name, theme color).
+
+**Content Organization:**
+
+- **Collection** – A group of similar content items. al-folio uses collections for `_posts/` (blog posts), `_projects/`, `_news/`, etc.
+- **Repository** – The folder containing all your website code and content. Stored on GitHub for version control and deployment.
+- **Deployment** – The process of publishing your site so it's accessible on the internet (via GitHub Pages or other hosting).
+
+**Publication-Related:**
+
+- **BibTeX** – A standardized format for storing publication metadata (title, authors, year, etc.). Used in `_bibliography/papers.bib`.
+- **Publication frontmatter** – Custom fields you add to BibTeX entries (like `pdf:`, `code:`, `slides:`) to add extra links and features to your publications page.
+
+**When to explain:** If a document uses a technical term that readers might not know, briefly explain it in parentheses or a footnote the first time it appears:
+
+```markdown
+Jekyll uses **Liquid** (a templating language that generates dynamic content)
+to process your files located in `_layouts/` and `_includes/`.
+```
+
 ## Boundaries
 
 - ✅ **Always do:**
 
   - Update documentation files (`*.md` in root directory)
   - Keep documentation in sync with actual code and configuration
-  - Use existing documentation style and structure
+  - Use existing documentation style and structure (or improve it with patterns from this agent)
   - Link to source files and official documentation
   - Test commands and instructions before documenting them
-  - Preserve existing table of contents markers (`<!--ts-->` and `<!--te-->`)
+  - Explain technical terms using the common terms reference provided
+  - Preserve existing table of contents markers (`<!--ts-->` and `<!--te-->`
 
 - ⚠️ **Ask first:**
 
