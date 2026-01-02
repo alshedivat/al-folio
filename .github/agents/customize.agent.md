@@ -84,7 +84,12 @@ bundle exec jekyll serve
 **Build and deployment:**
 
 ```bash
-# Build site locally
+# Using Docker (recommended)
+docker compose pull
+docker compose up --build
+# Output automatically served at http://localhost:8080
+
+# Legacy method (requires Ruby, Bundler)
 bundle exec jekyll build
 # Output in _site/ directory
 
