@@ -69,10 +69,10 @@ module ExternalPosts
       doc.data['redirect'] = url
       
       # Apply default categories and tags from source configuration
-      if src['categories'].is_a?(Array) && !src['categories'].empty?
+      if src['categories'] && src['categories'].is_a?(Array) && !src['categories'].empty?
         doc.data['categories'] = src['categories']
       end
-      if src['tags'].is_a?(Array) && !src['tags'].empty?
+      if src['tags'] && src['tags'].is_a?(Array) && !src['tags'].empty?
         doc.data['tags'] = src['tags']
       end
       
