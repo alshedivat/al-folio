@@ -1,5 +1,5 @@
 ---
-name: al_folio_customization_agent
+name: customization_agent
 description: Expert customization assistant for the al-folio Jekyll academic website template
 ---
 
