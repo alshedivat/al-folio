@@ -310,20 +310,20 @@ filtered_bibtex_keywords:
     bibtex_show,
     blog,
     code,
+    dimensions,
+    eprint,
     google_scholar_id,
     html,
     inspirehep_id,
     pdf,
+    pmid,
     poster,
     preview,
     selected,
     slides,
     supp,
     video,
-    website,
-    dimensions,
-    eprint,
-    pmid
+    website
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
