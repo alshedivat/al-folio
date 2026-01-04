@@ -21,15 +21,14 @@
     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div></div> <p>For displaying code in a list item, you have to be aware of the indentation, as stated in <a href="https://github.com/planetjekyll/quickrefs/blob/master/FAQ.md#q-how-can-i-get-backtick-fenced-code-blocks-eg--working-inside-lists-with-kramdown" rel="external nofollow noopener" target="_blank">this FAQ</a>. You must indent your code by <strong>(3 * bullet_indent_level)</strong> spaces. This is because kramdown (the markdown engine used by Jekyll) indentation for the code block in lists is determined by the column number of the first non-space character after the list item marker. For example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> We can put fenced code blocks inside nested bullets, too.
-<span class="p">
-   1.</span> Like this:<span class="sb">
+<span class="p">   1.</span> Like this:<span class="sb">
 
       ```c
       printf("Hello, World!");
       ```
 
 </span><span class="p">   2.</span> The key is to indent your fenced block in the same line as the first character of the line.
-</code></pre></div></div> <p>Which displays:</p> <ol> <li> <p>We can put fenced code blocks inside nested bullets, too.</p> <ol> <li> <p>Like this:</p> <div class="language-c highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="n">printf</span><span class="p">(</span><span class="s">"Hello, World!"</span><span class="p">);</span>
+</code></pre></div></div> <p>Which displays:</p> <ol> <li>We can put fenced code blocks inside nested bullets, too. <ol> <li> <p>Like this:</p> <div class="language-c highlighter-rouge"> <div class="highlight"><pre class="highlight"><code><span class="n">printf</span><span class="p">(</span><span class="s">"Hello, World!"</span><span class="p">);</span>
 </code></pre></div> </div> </li> <li> <p>The key is to indent your fenced block in the same line as the first character of the line.</p> </li> </ol> </li> </ol> <p>By default, it does not display line numbers. If you want to display line numbers for every code block, you can set <code class="language-plaintext highlighter-rouge">kramdown.syntax_highlighter_opts.block.line_numbers</code> to true in your <code class="language-plaintext highlighter-rouge">_config.yml</code> file.</p> <p>If you want to display line numbers for a specific code block, all you have to do is wrap your code in a liquid tag:</p> <p>{% highlight c++ linenos %} <br> code code code <br> {% endhighlight %}</p> <p>The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers. Produces something like this:</p> <figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr>
 <td class="gutter gl"><pre class="lineno">1
 2
