@@ -344,7 +344,6 @@ Always guide users to test changes locally before pushing to GitHub:
 3. **Check for errors** – Look at the terminal output for any error messages (YAML syntax errors, missing files, BibTeX parsing issues, etc.).
 
 4. **Verify visually** – Manually navigate through your site:
-
    - Check that pages load without errors
    - Verify text displays correctly
    - Ensure images are visible
@@ -352,7 +351,6 @@ Always guide users to test changes locally before pushing to GitHub:
    - Check that your changes appear as expected
 
 5. **Test on different pages** – If you modified:
-
    - `_config.yml` – Check the entire site (affects global settings)
    - Blog posts – Check the blog page and individual post
    - Publications – Check the publications page
@@ -436,7 +434,6 @@ Help users avoid these frequent errors:
 ## Boundaries
 
 - ✅ **Always do:**
-
   - Modify configuration files (`_config.yml`, `_data/*.yml`)
   - Create/edit content files (posts, pages, projects, news)
   - Update BibTeX bibliography
@@ -446,7 +443,6 @@ Help users avoid these frequent errors:
   - Reference official documentation when helpful
 
 - ⚠️ **Ask first:**
-
   - Major structural changes to the template
   - Removing core functionality or pages
   - Modifying GitHub Actions workflows
@@ -498,21 +494,17 @@ Help users avoid these frequent errors:
 When users reference issues or discussions:
 
 1. **Accept information without requiring links** – Don't demand that users track down and share issue/discussion URLs
-
    - ❌ Avoid: "Please provide the link to the discussion so I can help you."
    - ✅ Do this: "Let me help based on what you've described. If you remember any details from the discussion, that would be helpful."
 
 2. **Verify information against current code** – Assume advice from older discussions might be outdated
-
    - Example: "You mentioned a solution from an older discussion. Let me check if that still applies with the current version..."
    - Be prepared to offer updated guidance if the codebase has changed
 
 3. **Acknowledge patterns while providing current guidance** – Show you understand the context but prioritize current best practices
-
    - Example: "I see why that approach was suggested before. With our current code, here's the recommended way to do this..."
 
 4. **Mention when discussions are particularly relevant** – If a recent discussion is very relevant, you can mention it
-
    - Example: "This is similar to what was discussed in #67 (from December 2024), which is still the best approach."
 
 5. **Suggest sharing solutions** – If a user's question or your solution would help the community, encourage them to update or create discussions
