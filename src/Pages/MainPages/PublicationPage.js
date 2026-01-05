@@ -263,6 +263,7 @@ export const PublicationPage = (props) => {
                             <Link
                               to={`/publication/${bib.pdf}`}
                               target="_blank"
+                              rel="noopener noreferrer"
                             >
                               WEB
                             </Link>
@@ -271,18 +272,37 @@ export const PublicationPage = (props) => {
                         {bib.pdf ? (
                           <div className="other">
                             &nbsp; • &nbsp;
-                            <a href={"/pdf/" + bib.pdf + ".pdf"}>PDF</a>
+                            <a
+                              href={"/pdf/" + bib.pdf + ".pdf"}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              PDF
+                            </a>
                           </div>
                         ) : null}
                         {bib.doi ? (
                           <div className="other">
-                            &nbsp; • &nbsp;<a href={bib.doi}>DOI</a>
+                            &nbsp; • &nbsp;
+                            <a
+                              href={bib.doi}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              DOI
+                            </a>
                           </div>
                         ) : null}
                         {bib.bibtex ? (
                           <div className="other">
                             &nbsp; • &nbsp;
-                            <a href={"/bib/" + bib.bibtex + ".bib"}>BibTeX</a>
+                            <a
+                              href={"/bib/" + bib.bibtex + ".bib"}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              BibTeX
+                            </a>
                           </div>
                         ) : null}
                         {bib.recording ? (

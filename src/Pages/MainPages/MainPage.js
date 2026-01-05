@@ -153,6 +153,8 @@ export const MainPage = (props) => {
             <a
               className="button"
               href="https://maps.app.goo.gl/sP7Bp7KrpDLca7ec6"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Google Map
             </a>

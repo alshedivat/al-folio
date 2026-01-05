@@ -93,7 +93,12 @@ export const PeoplePage = (props) => {
                 </p>
                 {/* Conditional render of homepage link */}
                 {person.homepage === "" ? null : (
-                  <a className="link" href={person.homepage}>
+                  <a
+                    className="link"
+                    href={person.homepage}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img
                       className="linkBtn"
                       ref={element}
