@@ -79,6 +79,14 @@
     "current": true
   },
   {
+    "name": "Joonyoung Park",
+    "position": "Ph.D. Student",
+    "image": "joonyoung.jpg",
+    "homepage": "https://joonyoung.dev",
+    "research_interest": "Human-AI Interaction, Multi-Modal Interaction, Digital Healthcare",
+    "current": true
+  },
+  {
     "name": "Chowon Kang",
     "position": "Master's Student",
     "image": "chowon.png",
@@ -126,14 +134,7 @@
     "research_interest": "Human-AI Interaction, Self-reflection, Speculative Design",
     "current": true
   },
-  {
-    "name": "Joonyoung Park",
-    "position": "Master's Student",
-    "image": "joonyoung.jpg",
-    "homepage": "https://joonyoung.dev",
-    "research_interest": "Human-AI Interaction, Multi-Modal Interaction, Digital Healthcare",
-    "current": true
-  },
+
   {
     "name": "Se Hee Kim",
     "position": "Master's Student",
@@ -148,6 +149,14 @@
     "image": "eunchae.png",
     "homepage": "",
     "research_interest": "Human-AI Interaction, Agency, Personalization",
+    "current": true
+  },
+  {
+    "name": "Sieun Kim",
+    "position": "Master's Student",
+    "image": "sieun.png",
+    "homepage": "",
+    "research_interest": "Human-AI Interaction, Mental Health, Participatory Design, Responsible AI",
     "current": true
   },
   {
@@ -227,14 +236,7 @@
     "research_interest": "HCI, Education, Participatory Design",
     "current": true
   },
-  {
-    "name": "Sieun Kim",
-    "position": "Intern",
-    "image": "sieun.png",
-    "homepage": "",
-    "research_interest": "Human-AI Interaction, Mental Health, Participatory Design, Responsible AI",
-    "current": true
-  },
+
   {
     "name": "Suyeon Seo",
     "position": "Undergraduate Intern",
@@ -265,6 +267,14 @@
     "image": "hyunji.png",
     "homepage": "",
     "research_interest": "Accessibility, Marginalized People, Wearable Computing",
+    "current": true
+  },
+  {
+    "name": "Kyuwon Cho",
+    "position": "Undergraduate Intern",
+    "image": "kyuwon.png",
+    "homepage": "",
+    "research_interest": "AI-Assisted Decision Making, Behavioral Finance, Persuasive Technology",
     "current": true
   }
 ]
