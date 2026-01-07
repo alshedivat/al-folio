@@ -32,8 +32,15 @@ export const AIPage = (props) => {
             <Navbar/>
             <div className='page'>
                 <img ref={element} className='project_banner' src={"/images/project/human_ai_interaction.png"} alt={"human_ai_interaction"}/>
-                <div ref={element} className='title'>Human-AI Interaction</div>
-                <div ref={element} className='project_description'>We aim to explore the design of AI technologies that are more sensitive to human concerns and behavior to augment our humanity, by incorporating the design process to critically evaluate AI products and enable effective communication and collaboration with AI. We also seek to embrace discomfort in designing a better future, particularly in understanding how new technology might change the way we communicate and collaborate, and protect our privacy. </div>
+                <div ref={element} className='title'>Human-AI Agent Collectives</div>
+                <div ref={element} className='project_description'>We design Human-Agent Collectives (HACs) to move beyond the 1-to-1 paradigm, enabling collaboration on complex tasks that require human creativity and nuanced teamwork. Supported by Google, our research explores collective curation—a new interaction primitive that allows users to act as orchestrators, defining the composition, roles, and dynamics of their AI teams.</div>
+                <div ref={element} className='project_publications'>
+                  <div className='project_publications_title'>Relevant Publications</div>
+                  <ul className='project_publications_list'>
+                    <li>Collective Curation: A Framework for Designing Human-Agent Collectives in Creative Work (Google Multilab Project, 2025)</li>
+                    <li>Co-Creating Question-and-Answer Style Articles with Large Language Models for Research Promotion (DIS 2024)</li>
+                  </ul>
+                </div>
                 <div className='projects'>
                   {projectdata.filter(project => project.field === 'hai').map(project => 
                     <div className='unit_project' key={project.title}>

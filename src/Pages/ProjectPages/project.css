@@ -10,7 +10,7 @@
 }
 
 .project_description {
-    margin: 30px 0 80px;
+    margin: 30px 0 40px;
     font-size: 13px;
     text-align: left;
     line-height: 160%;
@@ -22,6 +22,38 @@
 .project_description.animation {
     opacity: 1;
     transform: translate(0, 0);
+}
+
+.project_publications {
+    margin: 0 0 80px;
+    text-align: left;
+    opacity: 0;
+    transform: translate(0, 30px);
+    transition: .6s;
+}
+
+.project_publications.animation {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.project_publications_title {
+    color: #3d3d3d;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.project_publications_list {
+    margin: 0;
+    padding-left: 18px;
+    color: #3d3d3d;
+    font-size: 12px;
+    line-height: 160%;
+}
+
+.project_publications_list > li {
+    margin-bottom: 8px;
 }
 
 .projects {

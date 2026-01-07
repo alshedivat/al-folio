@@ -14,7 +14,7 @@ import { CoursePage } from "./Pages/MainPages/CoursePage";
 import { HealthPage } from "./Pages/ProjectPages/HealthPage";
 import { AIPage } from "./Pages/ProjectPages/AIPage";
 import { InclusivePage } from "./Pages/ProjectPages/InclusivePage";
-import { DataPage } from "./Pages/ProjectPages/DataPage";
+import { AlignmentPage } from "./Pages/ProjectPages/AlignmentPage";
 import { ResearchPage } from "./Pages/ResearchPages/ResearchPage";
 
 // Import the NotFound component for 404 errors
@@ -42,7 +42,7 @@ function App() {
           <Route path="/project/health" element={<HealthPage />} />
           <Route path="/project/ai" element={<AIPage />} />
           <Route path="/project/inclusive" element={<InclusivePage />} />
-          <Route path="/project/data" element={<DataPage />} />
+          <Route path="/project/alignment" element={<AlignmentPage />} />
           
           {/* Catch-all route for 404 errors - must be placed last */}
           <Route path="*" element={<NotFound />} />          

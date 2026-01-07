@@ -4,7 +4,7 @@ import { Footer } from '../../Components/Footer/footer';
 import './project.css';
 import projectdata from '../../Data/project.json';
 
-export const DataPage = (props) => {
+export const AlignmentPage = (props) => {
     const element = useCallback((node) => {
         const options = {
             root: null, // viewport
@@ -32,8 +32,18 @@ export const DataPage = (props) => {
             <Navbar/>
             <div className='page'>
                 <img ref={element} className='project_banner' src={"/images/project/data_storytelling.png"} alt={"data_storytelling"}/>
-                <div ref={element} className='title'>Data Storytelling</div>
-                <div ref={element} className='project_description'>We view data as a lens to better understand our human nature and various aspects of society. We believe that synthesizing data and storytelling in novel ways can generate fresh perspectives on people, organizations, culture, and society. Through our unique methodology of collecting personal experiences, developing datasets, and visualizing data as designers, we strive to reveal the narratives that lie beneath the numbers and statistics.</div>
+                <div ref={element} className='title'>Socio-Technical Auditing for AI Alignment</div>
+                <div ref={element} className='project_description'>How do we ensure complex AI models are effective and aligned with human values? Our research addresses this challenge by developing methods for both technical evaluation and socio-technical auditing. This involves two interconnected perspectives: we build novel benchmarks and analyze training data to measure model capabilities rigorously, and we investigate the real-world impact of these algorithms to guide the alignment process.</div>
+                <div ref={element} className='project_publications'>
+                  <div className='project_publications_title'>Relevant Publications</div>
+                  <ul className='project_publications_list'>
+                    <li>PANORAMA: A Benchmark for Evaluating LLMs in Patent Examination (NeurIPS 2025)</li>
+                    <li>Mind the Blind Spots: A Focus-Level Evaluation Framework for LLM Review (EMNLP 2025 Main)</li>
+                    <li>How Do Users Identify and Perceive Stereotypes? Understanding User Perspectives on Stereotypical Biases in Large Language Models (FAcCT 2025)</li>
+                    <li>A Large-Scale Real-World Evaluation of an LLM-Based Virtual Teaching Assistant (ACL 2025)</li>
+                    <li>Beyond Swipes and Scores: Investigating Practices, Challenges and User-Centered Values in Online Dating Algorithms (CSCW 2024)</li>
+                  </ul>
+                </div>
                 <div className='projects'>
                   {projectdata.filter(project => project.field === 'data').map(project => 
                     <div className='unit_project' key={project.title}>
