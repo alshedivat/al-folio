@@ -115,6 +115,19 @@
     transform: translate(0, 0);
 }
 
+.unit_project > .award {
+    margin-top: 6px;
+    text-align: left;
+    opacity: 0;
+    transform: translate(0, 24px);
+    transition: .6s;
+}
+
+.unit_project > .award.animation {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
 .unit_project > .content {
     display: flex;
     flex-direction: row;

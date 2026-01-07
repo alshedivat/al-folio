@@ -51,6 +51,12 @@ export const HealthAIPage = (props) => {
         <div className="projects">
           {projectdata
             .filter((project) => project.field === "health")
+            .sort((a, b) => {
+              // Sort by selected field (true first), then maintain original order
+              if (a.selected && !b.selected) return -1;
+              if (!a.selected && b.selected) return 1;
+              return 0;
+            })
             .map((project) => (
               <div className="unit_project" key={project.title}>
                 <div ref={element} className="title">
@@ -60,6 +66,22 @@ export const HealthAIPage = (props) => {
                 <div ref={element} className="people">
                   {project.people}
                 </div>
+                {project.award && (
+                  <div ref={element} className="award">
+                    <span
+                      style={{
+                        backgroundColor: "rgb(255, 243, 131)",
+                        borderRadius: "9999px",
+                        padding: "1px 8px",
+                        fontSize: "0.7em",
+                        fontWeight: "bold",
+                        display: "inline-block",
+                      }}
+                    >
+                      🏆 {project.award}
+                    </span>
+                  </div>
+                )}
                 <div className="content">
                   <div ref={element} className="description">
                     {project.description}
