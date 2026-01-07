@@ -47,7 +47,7 @@ export const ProjectPage = (props) => {
               understanding personal data.
             </div>
             <div className="more_holder">
-              <Link ref={element} to="/project/health" className="more">
+              <Link ref={element} to="/project/health-ai" className="more">
                 See More
               </Link>
             </div>
@@ -79,7 +79,7 @@ export const ProjectPage = (props) => {
               they are accessible, fair, and empowering for all.
             </div>
             <div className="more_holder">
-              <Link ref={element} to="/project/inclusive" className="more">
+              <Link ref={element} to="/project/accessibility" className="more">
                 See More
               </Link>
             </div>
@@ -132,7 +132,7 @@ export const ProjectPage = (props) => {
               composition, roles, and dynamics of their AI teams.
             </div>
             <div className="more_holder">
-              <Link ref={element} to="/project/ai" className="more">
+              <Link ref={element} to="/project/collectives" className="more">
                 See More
               </Link>
             </div>
