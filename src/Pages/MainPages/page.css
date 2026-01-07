@@ -36,6 +36,13 @@
   margin-bottom: 40px;
 }
 
+@media (max-width: 719px) {
+  .page > .container {
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
 .main {
   margin-top: 2vh;
   width: 80vw;
