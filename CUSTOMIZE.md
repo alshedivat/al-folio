@@ -23,6 +23,7 @@ Here we will give you some tips on how to customize the website. One important t
     - [Key Integration Points](#key-integration-points)
   - [Modifying the CV information](#modifying-the-cv-information)
   - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
+    - [Configuring external service URLs](#configuring-external-service-urls)
   - [Creating new pages](#creating-new-pages)
   - [Creating new blog posts](#creating-new-blog-posts)
   - [Creating new projects](#creating-new-projects)
