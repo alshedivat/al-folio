@@ -176,6 +176,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://zlatanajanovic.com/" target="_blank">★</a>
 <a href="https://mchadolias.github.io/" target="_blank">★</a>
 <a href="https://syanyong.github.io/" target="_blank">★</a>
+<a href="https://jucheval.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
