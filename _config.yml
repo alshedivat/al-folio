@@ -325,6 +325,7 @@ filtered_bibtex_keywords:
     dimensions,
     eprint,
     google_scholar_id,
+    hal,
     html,
     inspirehep_id,
     pdf,
