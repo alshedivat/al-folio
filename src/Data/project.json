@@ -14,6 +14,20 @@
     "award": ""
   },
   {
+    "title": "Feed-O-Meter",
+    "year": "2025",
+    "people": "Hyunseung Lim, Dasom Choi, DaEun Choi, Sooyohn Nam, Hwajung Hong",
+    "field": "collectives",
+    "hidden": false,
+    "web": "https://hyunseung-lim.github.io/#/projects/feed-o-meter",
+    "description": "Effective feedback helps designers develop concepts and refine ideas, supporting informed decision-making throughout the iterative design process. However, in studio-based design courses, students often hesitate to give feedback due to low confidence and fear of judgment, which hinders the development of feedback-giving skills. To address this gap, we proposed Feed-O-Meter, an LLM-powered system that creates a safe space for students to practice design feedback. It lets users role-play as mentors giving feedback to an AI mentee and reflect on how their feedback shapes the mentee's idea development.",
+    "related_research": "",
+    "related_video": "",
+    "image": "feedometer.png",
+    "selected": true,
+    "award": ""
+  },
+  {
     "title": "PANORAMA",
     "year": "2025",
     "people": "Hyunseung Lim, Sooyohn Nam, Sungmin Na, Ji Yong Cho, June Yong Yang, Hyungyu Shin, Yoonjoo Lee, Juho Kim, Moontae Lee, Hwajung Hong",
