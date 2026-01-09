@@ -14,6 +14,20 @@
     "award": ""
   },
   {
+    "title": "Google Multilab Project: Collective Curation",
+    "year": "2025",
+    "people": "",
+    "field": "collectives",
+    "hidden": false,
+    "web": "",
+    "description": "We are designing a Human-Agent Collectives (HACs) framework where human users orchestrate and oversee multi-agent teams. Our ongoing Collective Curation research, a Google Multilab Project, explores a novel interaction principle called 'collective curation,' which enables users to directly define the composition, roles, and dynamics of AI collaborative teams.",
+    "related_research": "",
+    "related_video": "",
+    "image": "multilab.png",
+    "selected": true,
+    "award": ""
+  },
+  {
     "title": "Feed-O-Meter",
     "year": "2025",
     "people": "Hyunseung Lim, Dasom Choi, DaEun Choi, Sooyohn Nam, Hwajung Hong",
@@ -165,6 +179,20 @@
     "related_video": "",
     "image": "household.jpg",
     "selected": false,
+    "award": ""
+  },
+  {
+    "title": "AQUA",
+    "year": "2024",
+    "people": "Hyunseung Lim, Ji Yong Cho, Taewan Kim, Jeongeon Park, Hyungyu Shin, Seulgi Choi, Sunghyun Park, Kyungjae Lee, Juho Kim, Moontae Lee, Hwajung Hong",
+    "field": "collectives",
+    "hidden": false,
+    "web": "https://hyunseung-lim.github.io/#/projects/aqua",
+    "description": "Research promotion enables researchers to share advanced knowledge with pertinent academic communities. Recent advances in large language models have opened avenues for supporting researchers in creating QA-style articles for research promotion. However, without the authors’ involvement, models may only partially capture the researcher’s intention and voice. We developed AQUA, a research probe that enables researchers to co-create QA-style articles with LLMs to promote their research papers.",
+    "related_research": "",
+    "related_video": "",
+    "image": "aqua.png",
+    "selected": true,
     "award": ""
   },
   {
