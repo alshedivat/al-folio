@@ -75,16 +75,13 @@
 .unit_project {
   display: flex;
   flex-direction: column;
-  /* flex-wrap: wrap; */
   margin-bottom: 60px;
 }
 
 .unit_project > .title {
-  display: flex;
-  flex-direction: row;
   color: #3d3d3d;
   font-size: 24px;
-  font-weight: 700;
+  /* font-weight: 200; */
   text-align: left;
   opacity: 0;
   transform: translate(0, 24px);

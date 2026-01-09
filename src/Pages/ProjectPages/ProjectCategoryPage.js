@@ -56,8 +56,7 @@ export const ProjectCategoryPage = ({
   const renderProject = (project) => (
     <div className="unit_project" key={project.title}>
       <div ref={element} className="title">
-        {renderTitle(project)}{" "}
-        <div className="year">&nbsp;({project.year})</div>
+        <b>{renderTitle(project)}</b> ({project.year})
       </div>
       <div ref={element} className="people">
         {project.people}
