@@ -111,14 +111,6 @@ export const ProjectCategoryPage = ({
         </div>
         <div className="projects">
           {selectedProjects.map(renderProject)}
-          {selectedProjects.length > 0 && otherProjects.length > 0 ? (
-            <img
-              className="line"
-              ref={element}
-              src={`${process.env.PUBLIC_URL}/icons/line.svg`}
-              alt="line"
-            />
-          ) : null}
           {otherProjects.map(renderProject)}
         </div>
       </div>
