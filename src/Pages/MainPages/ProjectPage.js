@@ -68,7 +68,8 @@ export const ProjectPage = (props) => {
           />
           <div className="contents right">
             <div ref={element} className="title">
-              Neurodiversity, Accessibility, &amp; Algorithmic Inclusion
+              Neurodiversity, Accessibility <br />
+              &amp; Algorithmic Inclusion
             </div>
             <div ref={element} className="description">
               Grounded in Participatory Design, we design inclusive systems with
