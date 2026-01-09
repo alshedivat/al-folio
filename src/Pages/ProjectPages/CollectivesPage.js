@@ -26,6 +26,19 @@ export const CollectivesPage = (props) => {
       observer.observe(node);
     }
   }, []);
+  const renderTitle = (project) =>
+    project.web ? (
+      <a
+        className="project-title-link"
+        href={project.web}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {project.title}
+      </a>
+    ) : (
+      project.title
+    );
 
   return (
     <>
@@ -60,7 +73,7 @@ export const CollectivesPage = (props) => {
                 {selectedProjects.map((project) => (
                   <div className="unit_project" key={project.title}>
                     <div ref={element} className="title">
-                      {project.title}{" "}
+                      {renderTitle(project)}{" "}
                       <div className="year">&nbsp;({project.year})</div>
                     </div>
                     <div ref={element} className="people">
@@ -107,7 +120,7 @@ export const CollectivesPage = (props) => {
                 {otherProjects.map((project) => (
                   <div className="unit_project" key={project.title}>
                     <div ref={element} className="title">
-                      {project.title}{" "}
+                      {renderTitle(project)}{" "}
                       <div className="year">&nbsp;({project.year})</div>
                     </div>
                     <div ref={element} className="people">

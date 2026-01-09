@@ -105,6 +105,15 @@
     transform: translate(0, 0);
 }
 
+.project-title-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.project-title-link:hover {
+    text-decoration: underline;
+}
+
 /* .unit_project > .title > .year.animation {
     opacity: 1;
     transform: translate(0, 0);    

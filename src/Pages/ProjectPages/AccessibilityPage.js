@@ -26,6 +26,19 @@ export const AccessibilityPage = (props) => {
             observer.observe(node);
         }
     }, []);
+    const renderTitle = (project) =>
+      project.web ? (
+        <a
+          className="project-title-link"
+          href={project.web}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {project.title}
+        </a>
+      ) : (
+        project.title
+      );
 
     return(
         <>
@@ -46,7 +59,7 @@ export const AccessibilityPage = (props) => {
                       <>
                         {selectedProjects.map((project) => (
                           <div className='unit_project' key={project.title}>
-                            <div ref={element} className='title'>{project.title} <div className='year'>&nbsp;({project.year})</div></div>
+                            <div ref={element} className='title'>{renderTitle(project)} <div className='year'>&nbsp;({project.year})</div></div>
                             <div ref={element} className='people'>{project.people}</div>
                             {project.award && (
                               <div ref={element} className='award'>
@@ -80,7 +93,7 @@ export const AccessibilityPage = (props) => {
                         ) : null}
                         {otherProjects.map((project) => (
                           <div className='unit_project' key={project.title}>
-                            <div ref={element} className='title'>{project.title} <div className='year'>&nbsp;({project.year})</div></div>
+                            <div ref={element} className='title'>{renderTitle(project)} <div className='year'>&nbsp;({project.year})</div></div>
                             <div ref={element} className='people'>{project.people}</div>
                             {project.award && (
                               <div ref={element} className='award'>
