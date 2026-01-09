@@ -65,7 +65,7 @@
     "description": "LLM-powered Virtual Teaching Assistants (VTAs) promise enhanced learning through instant feedback, but empirical evidence of their real-world classroom effectiveness remains limited. We deployed an LLM-based VTA in an introductory AI programming course with 477 graduate students, conducting three survey rounds and analyzing 3,869 student-VTA interaction pairs compared against traditional student-instructor interactions. Our large-scale study assessed evolving student perceptions, identified common question types and engagement patterns, and evaluated the VTA's learning impact while revealing key challenges for broader adoption. We release our VTA system's source code to support future AI-driven education research.",
     "related_research": "",
     "related_video": "",
-    "image": "stereohunter.png",
+    "image": "llmta.png",
     "selected": true,
     "award": ""
   },
@@ -192,6 +192,20 @@
     "related_research": "",
     "related_video": "",
     "image": "autism_chatgpt.png",
+    "selected": true,
+    "award": ""
+  },
+  {
+    "title": "Beyond Swipes and Scores",
+    "year": "2024",
+    "people": "Chowon Kang, Yoonseo Choi, Yongjae Sohn, Hyunseung Lim, Hwajung Hong",
+    "field": "alignment",
+    "hidden": false,
+    "web": "https://dl.acm.org/doi/abs/10.1145/3687025",
+    "description": "Online dating algorithms face criticism for prioritizing evaluation metrics over authentic romantic connections, raising questions about their design and impact on users. Through interviews (N=22) and a co-design workshop (N=12) with active dating platform users, we examined how algorithmic evaluations shape user perceptions and behaviors, revealing concerns about emotional burdens from constant self-presentation and preference for quantitative assessments over genuine connections. Participants envisioned alternative algorithmic features emphasizing personal values, tailored matchmaking, and relationship growth support. This study illuminates human-algorithm interaction dynamics in online dating and suggests design directions for fostering more meaningful and authentic digital connections.",
+    "related_research": "",
+    "related_video": "",
+    "image": "beyond.png",
     "selected": true,
     "award": ""
   },
