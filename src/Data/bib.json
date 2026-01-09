@@ -371,6 +371,7 @@
   {
     "title": "Unlock Life with a Chat(GPT): Integrating Conversational AI with Large Language Models into Everyday Lives of Autistic Individuals",
     "author": "Dasom Choi, Sunok Lee, Sung-In Kim, Kyungah Lee, Hee Jeong Yoo, Sangsu Lee, Hwajung Hong",
+    "affiliation": "KAIST, Aalto University, Seoul National University Hospital, Dodakim Child Development Center, Seoul National University Hospital, KAIST, KAIST",
     "venue": "CHI 2024",
     "year": 2024,
     "field": ["hai", "inclusive"],
@@ -379,7 +380,9 @@
     "doi": "https://dl.acm.org/doi/pdf/10.1145/3613904.3641989",
     "bibtex": "dasom2024",
     "recording": "",
-    "video": ""
+    "video": "",
+    "web": true,
+    "abstract": "Autistic individuals often draw on insights from their supportive networks to develop self-help life strategies ranging from everyday chores to social activities. However, human resources may not always be immediately available. Recently emerging conversational agents (CAs) that leverage large language models (LLMs) have the potential to serve as powerful information-seeking tools, facilitating autistic individuals to tackle daily concerns independently. This study explored the opportunities and challenges of LLM-driven CAs in empowering autistic individuals through focus group interviews and workshops (N=14). We found that autistic individuals expected LLM-driven CAs to offer a non-judgmental space, encouraging them to approach day-to-day issues proactively. However, they raised issues regarding critically digesting the CA responses and disclosing their autistic characteristics. Based on these findings, we propose approaches that place autistic individuals at the center of shaping the meaning and role of LLM-driven CAs in their lives, while preserving their unique needs and characteristics."
   },
   {
     "title": "Narrating Routines through Game Dynamics: Impact of a Gamified Routine Management App for Autistic Individuals",
@@ -423,6 +426,7 @@
   {
     "title": "Love on the spectrum: Toward Inclusive online dating experience of autistic individuals",
     "author": "Dasom Choi, Sung-In Kim, Sunok Lee, Hyunseung Lim, Hee Jeong Yoo, Hwajung Hong",
+    "affiliation": "KAIST, Seoul National University Hospital, KAIST, KAIST, Seoul National University Hospital, KAIST",
     "venue": "CHI 2023",
     "year": 2023,
     "field": ["inclusive"],
@@ -431,7 +435,9 @@
     "doi": "https://dl.acm.org/doi/10.1145/3544548.3581341",
     "bibtex": "dasom2023",
     "recording": "",
-    "video": ""
+    "video": "",
+    "web": true,
+    "abstract": "Online dating is a space where autistic individuals can find romantic partners with reduced social demands. Autistic individuals are often expected to adapt their behaviors to the social norms underlying the online dating platform to appear as desirable romantic partners. However, given that their autistic traits can lead them to different expectations of dating, it is uncertain whether conforming their behaviors to the norm will guide them to the person they truly want. In this paper, we explored the perceptions and expectations of autistic adults in online dating through interviews and workshops. We found that autistic people desired to know whether they behaved according to the platform’s norms. Still, they expected to keep their unique characteristics rather than unconditionally conform to the norm. We conclude by providing suggestions for designing inclusive online dating experiences that could foster self-guided decisions of autistic users and embrace their unique characteristics."
   },
   {
     "title": "RoutineAid: Externalizing Key Design Elements to Support Daily Routines of Individuals with Autism",
