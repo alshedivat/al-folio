@@ -60,6 +60,18 @@
     margin-bottom: 100px;
 }
 
+.line {
+    opacity: 0;
+    width: 0px;
+    margin-bottom: 50px;
+    transition: 0.2s;
+}
+
+.line.animation {
+    opacity: 1;
+    width: 80%;
+}
+
 .unit_project {
     display: flex;
     flex-direction: column;

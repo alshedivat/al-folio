@@ -49,53 +49,103 @@ export const CollectivesPage = (props) => {
           dynamics of their AI teams.
         </div>
         <div className="projects">
-          {projectdata
-            .filter((project) => project.field === "hai")
-            .sort((a, b) => {
-              // Sort by selected field (true first), then maintain original order
-              if (a.selected && !b.selected) return -1;
-              if (!a.selected && b.selected) return 1;
-              return 0;
-            })
-            .map((project) => (
-              <div className="unit_project" key={project.title}>
-                <div ref={element} className="title">
-                  {project.title}{" "}
-                  <div className="year">&nbsp;({project.year})</div>
-                </div>
-                <div ref={element} className="people">
-                  {project.people}
-                </div>
-                {project.award && (
-                  <div ref={element} className="award">
-                    <span
-                      style={{
-                        backgroundColor: "rgb(255, 243, 131)",
-                        borderRadius: "9999px",
-                        padding: "1px 8px",
-                        fontSize: "0.7em",
-                        fontWeight: "bold",
-                        display: "inline-block",
-                      }}
-                    >
-                      🏆 {project.award}
-                    </span>
+          {(() => {
+            const projects = projectdata.filter(
+              (project) => project.field === "collectives" && !project.hidden,
+            );
+            const selectedProjects = projects.filter((project) => project.selected);
+            const otherProjects = projects.filter((project) => !project.selected);
+            return (
+              <>
+                {selectedProjects.map((project) => (
+                  <div className="unit_project" key={project.title}>
+                    <div ref={element} className="title">
+                      {project.title}{" "}
+                      <div className="year">&nbsp;({project.year})</div>
+                    </div>
+                    <div ref={element} className="people">
+                      {project.people}
+                    </div>
+                    {project.award && (
+                      <div ref={element} className="award">
+                        <span
+                          style={{
+                            backgroundColor: "rgb(255, 243, 131)",
+                            borderRadius: "9999px",
+                            padding: "1px 8px",
+                            fontSize: "0.7em",
+                            fontWeight: "bold",
+                            display: "inline-block",
+                          }}
+                        >
+                          🏆 {project.award}
+                        </span>
+                      </div>
+                    )}
+                    <div className="content">
+                      <div ref={element} className="description">
+                        {project.description}
+                      </div>
+                      {project.image !== "" ? (
+                        <img
+                          ref={element}
+                          src={"/images/project/" + project.image}
+                          alt={project.title}
+                        />
+                      ) : null}
+                    </div>
                   </div>
-                )}
-                <div className="content">
-                  <div ref={element} className="description">
-                    {project.description}
+                ))}
+                {selectedProjects.length > 0 && otherProjects.length > 0 ? (
+                  <img
+                    className="line"
+                    ref={element}
+                    src={`${process.env.PUBLIC_URL}/icons/line.svg`}
+                    alt="line"
+                  />
+                ) : null}
+                {otherProjects.map((project) => (
+                  <div className="unit_project" key={project.title}>
+                    <div ref={element} className="title">
+                      {project.title}{" "}
+                      <div className="year">&nbsp;({project.year})</div>
+                    </div>
+                    <div ref={element} className="people">
+                      {project.people}
+                    </div>
+                    {project.award && (
+                      <div ref={element} className="award">
+                        <span
+                          style={{
+                            backgroundColor: "rgb(255, 243, 131)",
+                            borderRadius: "9999px",
+                            padding: "1px 8px",
+                            fontSize: "0.7em",
+                            fontWeight: "bold",
+                            display: "inline-block",
+                          }}
+                        >
+                          🏆 {project.award}
+                        </span>
+                      </div>
+                    )}
+                    <div className="content">
+                      <div ref={element} className="description">
+                        {project.description}
+                      </div>
+                      {project.image !== "" ? (
+                        <img
+                          ref={element}
+                          src={"/images/project/" + project.image}
+                          alt={project.title}
+                        />
+                      ) : null}
+                    </div>
                   </div>
-                  {project.image !== "" ? (
-                    <img
-                      ref={element}
-                      src={"/images/project/" + project.image}
-                      alt={project.title}
-                    />
-                  ) : null}
-                </div>
-              </div>
-            ))}
+                ))}
+              </>
+            );
+          })()}
         </div>
       </div>
       <Footer />

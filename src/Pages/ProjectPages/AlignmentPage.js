@@ -35,40 +35,78 @@ export const AlignmentPage = (props) => {
                 <div ref={element} className='title'>Socio-Technical Auditing for AI Alignment</div>
                 <div ref={element} className='project_description'>How do we ensure complex AI models are effective and aligned with human values? Our research addresses this challenge by developing methods for both technical evaluation and socio-technical auditing. This involves two interconnected perspectives: we build novel benchmarks and analyze training data to measure model capabilities rigorously, and we investigate the real-world impact of these algorithms to guide the alignment process.</div>
                 <div className='projects'>
-                  {projectdata
-                    .filter(project => project.field === 'data')
-                    .sort((a, b) => {
-                      // Sort by selected field (true first), then maintain original order
-                      if (a.selected && !b.selected) return -1;
-                      if (!a.selected && b.selected) return 1;
-                      return 0;
-                    })
-                    .map(project =>
-                    <div className='unit_project' key={project.title}>
-                      <div ref={element} className='title'>{project.title} <div className='year'>&nbsp;({project.year})</div></div>
-                      <div ref={element} className='people'>{project.people}</div>
-                      {project.award && (
-                        <div ref={element} className='award'>
-                          <span
-                            style={{
-                              backgroundColor: "rgb(255, 243, 131)",
-                              borderRadius: "9999px",
-                              padding: "1px 8px",
-                              fontSize: "0.7em",
-                              fontWeight: "bold",
-                              display: "inline-block",
-                            }}
-                          >
-                            🏆 {project.award}
-                          </span>
-                        </div>
-                      )}
-                      <div className='content'>
-                        <div ref={element} className='description'>{project.description}</div>
-                        {project.image !== "" ? <img ref={element} src={"/images/project/" +  project.image} alt={project.title}/> : null}
-                      </div>
-                    </div>
-                  )}
+                  {(() => {
+                    const projects = projectdata.filter(
+                      (project) =>
+                        project.field === "alignment" && !project.hidden,
+                    );
+                    const selectedProjects = projects.filter((project) => project.selected);
+                    const otherProjects = projects.filter((project) => !project.selected);
+                    return (
+                      <>
+                        {selectedProjects.map((project) => (
+                          <div className='unit_project' key={project.title}>
+                            <div ref={element} className='title'>{project.title} <div className='year'>&nbsp;({project.year})</div></div>
+                            <div ref={element} className='people'>{project.people}</div>
+                            {project.award && (
+                              <div ref={element} className='award'>
+                                <span
+                                  style={{
+                                    backgroundColor: "rgb(255, 243, 131)",
+                                    borderRadius: "9999px",
+                                    padding: "1px 8px",
+                                    fontSize: "0.7em",
+                                    fontWeight: "bold",
+                                    display: "inline-block",
+                                  }}
+                                >
+                                  🏆 {project.award}
+                                </span>
+                              </div>
+                            )}
+                            <div className='content'>
+                              <div ref={element} className='description'>{project.description}</div>
+                              {project.image !== "" ? <img ref={element} src={"/images/project/" +  project.image} alt={project.title}/> : null}
+                            </div>
+                          </div>
+                        ))}
+                        {selectedProjects.length > 0 && otherProjects.length > 0 ? (
+                          <img
+                            className="line"
+                            ref={element}
+                            src={`${process.env.PUBLIC_URL}/icons/line.svg`}
+                            alt="line"
+                          />
+                        ) : null}
+                        {otherProjects.map((project) => (
+                          <div className='unit_project' key={project.title}>
+                            <div ref={element} className='title'>{project.title} <div className='year'>&nbsp;({project.year})</div></div>
+                            <div ref={element} className='people'>{project.people}</div>
+                            {project.award && (
+                              <div ref={element} className='award'>
+                                <span
+                                  style={{
+                                    backgroundColor: "rgb(255, 243, 131)",
+                                    borderRadius: "9999px",
+                                    padding: "1px 8px",
+                                    fontSize: "0.7em",
+                                    fontWeight: "bold",
+                                    display: "inline-block",
+                                  }}
+                                >
+                                  🏆 {project.award}
+                                </span>
+                              </div>
+                            )}
+                            <div className='content'>
+                              <div ref={element} className='description'>{project.description}</div>
+                              {project.image !== "" ? <img ref={element} src={"/images/project/" +  project.image} alt={project.title}/> : null}
+                            </div>
+                          </div>
+                        ))}
+                      </>
+                    );
+                  })()}
                 </div>
             </div>
             <Footer/>
