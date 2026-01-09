@@ -23,7 +23,7 @@
     "venue": "Scientific Reports",
     "award": "",
     "year": 2026,
-    "field": ["Health", "HAI"],
+    "field": ["health", "HAI"],
     "type": "journal",
     "pdf": "",
     "doi": "https://doi.org/10.1038/s41598-025-31113-y",
