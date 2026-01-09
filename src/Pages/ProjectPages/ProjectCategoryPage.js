@@ -97,7 +97,12 @@ export const ProjectCategoryPage = ({
     <>
       <Navbar />
       <div className="page">
-        <img ref={element} className="project_banner" src={bannerSrc} alt={bannerAlt} />
+        <img
+          ref={element}
+          className="project_banner"
+          src={bannerSrc}
+          alt={bannerAlt}
+        />
         <div ref={element} className="title">
           {title}
         </div>

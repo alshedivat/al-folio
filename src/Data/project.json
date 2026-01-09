@@ -56,13 +56,13 @@
     "award": ""
   },
   {
-    "title": "A Large-Scale Real-World Evaluation of an LLM-Based Virtual Teaching Assistant",
+    "title": "An LLM-Based Virtual Teaching Assistant",
     "year": "2025",
     "people": "Sunjun Kweon, Sooyohn Nam, Hyunseung Lim, Hwajung Hong, Edward Choi",
     "field": "alignment",
     "hidden": false,
     "web": "/pdf/sunjun2025.pdf",
-    "description": "Stereotypical biases in large language models have the potential to result in discriminatory responses, posing harm to users and disrupting interactions. While prior research has predominantly focused on assessing stereotypes in LLMs with fairness metrics, there is a limited understanding of how users identify and perceive stereotypes in LLMs. To address this gap, we introduce StereoHunter, a research probe tool designed to examine how individuals identify and perceive stereotypes by observing interactions in which users elicit stereotypical responses from LLMs.",
+    "description": "LLM-powered Virtual Teaching Assistants (VTAs) promise enhanced learning through instant feedback, but empirical evidence of their real-world classroom effectiveness remains limited. We deployed an LLM-based VTA in an introductory AI programming course with 477 graduate students, conducting three survey rounds and analyzing 3,869 student-VTA interaction pairs compared against traditional student-instructor interactions. Our large-scale study assessed evolving student perceptions, identified common question types and engagement patterns, and evaluated the VTA's learning impact while revealing key challenges for broader adoption. We release our VTA system's source code to support future AI-driven education research.",
     "related_research": "",
     "related_video": "",
     "image": "stereohunter.png",
