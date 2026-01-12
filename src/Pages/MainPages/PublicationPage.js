@@ -32,12 +32,13 @@ export const PublicationPage = (props) => {
   const [isMobile, setIsMobile] = useState(Number(window.innerWidth <= 992));
   const label = [
     [
-      "Digital Health and Wellbeing",
-      "Human-AI Interaction",
+      "Human-Centered AI for Health",
       "Inclusive by Design",
-      "Data Storytelling",
+      "AI Alignment",
+      "Human-AI Collectives",
+      "Others",
     ],
-    ["Health", "HAI", "Inclusive", "Data"],
+    ["Health", "Inclusive", "Alignment", "Collectives", "Others"],
   ];
 
   useEffect(() => {
@@ -165,21 +166,21 @@ export const PublicationPage = (props) => {
               },
               {
                 label: label[isMobile][1],
-                value: "hai",
-                ref: useRef(),
-              },
-              {
-                label: label[isMobile][2],
                 value: "inclusive",
                 ref: useRef(),
               },
               {
-                label: label[isMobile][3],
-                value: "data",
+                label: label[isMobile][2],
+                value: "alignment",
                 ref: useRef(),
               },
               {
-                label: "Others",
+                label: label[isMobile][3],
+                value: "collectives",
+                ref: useRef(),
+              },
+              {
+                label: label[isMobile][4],
                 value: "others",
                 ref: useRef(),
               },
