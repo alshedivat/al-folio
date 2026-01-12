@@ -258,7 +258,7 @@ export const PublicationPage = (props) => {
                             🏆 {bib.award}
                           </span>
                         )}
-                        {bib.web && (
+                        {bib.web === true && (
                           <div className="other">
                             &nbsp; • &nbsp;
                             <Link
@@ -268,6 +268,18 @@ export const PublicationPage = (props) => {
                             >
                               WEB
                             </Link>
+                          </div>
+                        )}
+                        {typeof bib.web === "string" && bib.web && (
+                          <div className="other">
+                            &nbsp; • &nbsp;
+                            <a
+                              href={bib.web}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              WEB
+                            </a>
                           </div>
                         )}
                         {bib.pdf ? (

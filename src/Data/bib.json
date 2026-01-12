@@ -48,7 +48,7 @@
     "recording": "",
     "video": "",
     "abstract": "",
-    "web": false
+    "web": "https://hyunseung-lim.github.io/projects/feed-o-meter"
   },
   {
     "title": "Creating Text-Based AI Clones of Myself: Exploring Perceptions, Development Strategies, and Challenges",
@@ -76,13 +76,13 @@
     "year": 2025,
     "field": ["alignment"],
     "type": "conference",
-    "pdf": "",
-    "doi": "",
-    "bibtex": "",
+    "pdf": "hyunseung2025neurips",
+    "doi": "https://arxiv.org/abs/2510.24774",
+    "bibtex": "hyunseung2025neurips",
     "recording": "",
     "video": "",
     "abstract": "",
-    "web": false
+    "web": "https://hyunseung-lim.github.io/projects/panorama"
   },
   {
     "title": "Mind the Blind Spots: A Focus-Level Evaluation Framework for LLM Review",
@@ -217,7 +217,7 @@
     "recording": "",
     "video": "",
     "abstract": "Stereotypical biases in large language models (LLMs) have the potential to result in discriminatory responses, posing harm to users and disrupting interactions. While prior research has predominantly focused on assessing stereotypes in LLMs with fairness metrics, there is a limited understanding of how users identify and perceive stereotypes in LLMs. To address this gap, we introduce StereoHunter, a research probe tool designed to examine how individuals identify and perceive stereotypes by observing interactions in which users elicit stereotypical responses from LLMs. Our findings reveal the nuanced considerations and challenges participants faced when evaluating these stereotypes, which varied based on their backgrounds and preconceptions about LLMs. Based on these insights, we discuss how diverse user perspectives can be reflected in identifying stereotypes and informing fairness metrics for mitigating biases in LLMs.",
-    "web": true
+    "web": "https://hyunseung-lim.github.io/projects/stereohunter"
   },
   {
     "title": "Designing OWN, The Inner World as a Virtual Space: By and For Introspection",
@@ -334,7 +334,8 @@
     "doi": "https://dl.acm.org/doi/abs/10.1145/3643834.3660705",
     "bibtex": "hyunseung2024",
     "recording": "",
-    "video": ""
+    "video": "",
+    "web": "https://hyunseung-lim.github.io/projects/aqua"
   },
   {
     "title": "MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling",
