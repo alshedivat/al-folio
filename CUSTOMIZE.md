@@ -29,6 +29,9 @@ Here we will give you some tips on how to customize the website. One important t
   - [Creating new projects](#creating-new-projects)
   - [Adding some news](#adding-some-news)
   - [Adding Collections](#adding-collections)
+    - [Creating a new collection](#creating-a-new-collection)
+    - [Using frontmatter fields in your collection](#using-frontmatter-fields-in-your-collection)
+    - [Collections with categories and tags](#collections-with-categories-and-tags)
   - [Adding a new publication](#adding-a-new-publication)
     - [Author annotation](#author-annotation)
     - [Buttons (through custom bibtex keywords)](#buttons-through-custom-bibtex-keywords)
@@ -316,13 +319,99 @@ You can add news in the about page by adding new Markdown files in the [\_news](
 
 ## Adding Collections
 
-This Jekyll theme implements [collections](https://jekyllrb.com/docs/collections/) to let you break up your work into categories. The theme comes with three default collections: `news`, `projects`, and `books`. Items from the `news` collection are automatically displayed on the home page, while items from the `projects` collection are displayed on a responsive grid on projects page and items from the `books` collection are displayed on its own `bookshelf` page inside `submenus`.
+This Jekyll theme implements [collections](https://jekyllrb.com/docs/collections/) to let you break up your work into categories. The theme comes with three default collections: `news`, `projects`, and `books`. Items from the `news` collection are automatically displayed on the home page, while items from the `projects` collection are displayed on a responsive grid on the projects page, and items from the `books` collection are displayed on its own `bookshelf` page inside `submenus`.
 
-You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to [\_pages/projects.md](_pages/projects.md).
+You can easily create your own collections for any type of content—teaching materials, courses, apps, short stories, or whatever suits your needs.
 
-If you wish to create a collection with support for categories and tags, like the blog posts, you just need to add this collection to the `jekyll-archives` section of your [\_config.yml](_config.yml) file. You can check how this is done with the `books` collection. For more information about customizing the archives section or creating your own archives page, check the [jekyll-archives-v2 documentation](https://george-gca.github.io/jekyll-archives-v2/).
+### Creating a new collection
 
-To access the collections, you can use the `site.COLLECTION_NAME` variable in your templates.
+To create a new collection, follow these steps. We will create a `teaching` collection, but you can replace `teaching` with any name you prefer:
+
+1. **Add the collection to `_config.yml`**
+
+   Open the `collections` section in [\_config.yml](_config.yml) and add your new collection:
+
+   ```yaml
+   collections:
+     news:
+       defaults:
+         layout: post
+       output: true
+     projects:
+       output: true
+     teaching:
+       output: true
+       permalink: /teaching/:path/
+   ```
+
+   - `output: true` makes the collection items accessible as separate pages
+   - `permalink` defines the URL path for each collection item (`:path` is replaced with the filename)
+     - Note: You can customize the [permalink structure](https://jekyllrb.com/docs/permalinks/#collections) as needed. If not set, it uses `/COLLECTION_NAME/:name/`.
+
+2. **Create a folder for your collection items**
+
+   Create a new folder in the root directory with an underscore prefix, matching your collection name. For a `teaching` collection, create `_teaching/`:
+
+   ```text
+   _teaching/
+   ├── course_1.md
+   ├── course_2.md
+   └── course_3.md
+   ```
+
+3. **Create a landing page for your collection**
+
+   Add a Markdown file in `_pages/` (e.g., `teaching.md`) that will serve as the main page for your collection. You can use [\_pages/projects.md](_pages/projects.md) or [\_pages/books.md](_pages/books.md) as a template and adapt it for your needs.
+
+   In your landing page, access your collection using the `site.COLLECTION_NAME` variable:
+
+   ```liquid
+   {% assign teaching_items = site.teaching | sort: 'date' | reverse %}
+
+   {% for item in teaching_items %}
+     <h3>{{ item.title }}</h3>
+     <p>{{ item.content }}</p>
+   {% endfor %}
+   ```
+
+   Replace `COLLECTION_NAME` with your actual collection name (e.g., `site.teaching`).
+
+4. **Add a link to your collection page**
+
+   Update [\_pages/dropdown.md](_pages/dropdown.md) or the navigation configuration in [\_config.yml](_config.yml) to add a menu link to your new page.
+
+5. **Create collection items**
+
+   Add Markdown files in your new collection folder (e.g., `_teaching/`) with appropriate frontmatter and content.
+
+For more information regarding collections, check [Jekyll official documentation](https://jekyllrb.com/docs/collections/) and [step-by=step guide](https://jekyllrb.com/docs/step-by-step/09-collections/).
+
+### Using frontmatter fields in your collection
+
+When creating items in your collection, you can define custom frontmatter fields and use them in your landing page. For example:
+
+```markdown
+---
+layout: page
+title: Introduction to Research Methods
+importance: 1
+category: methods
+---
+
+Course description and content here...
+```
+
+Then in your landing page template:
+
+```liquid
+{% if item.category == 'methods' %}
+  <span class="badge">{{ item.category }}</span>
+{% endif %}
+```
+
+### Collections with categories and tags
+
+If you want to add category and tag support (like the blog posts have), you need to configure the `jekyll-archives` section in [\_config.yml](_config.yml). See how this is done with the `books` collection for reference. For more details, check the [jekyll-archives-v2 documentation](https://george-gca.github.io/jekyll-archives-v2/).
 
 ## Adding a new publication
 
