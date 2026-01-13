@@ -21,7 +21,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 Hello There!
 I am Saikumar Yadugiri.
 You can call me Sai (pronounced like the weapon, :trident:).
-I am a second-year Ph.D. student in the [computer science department](https://www.cs.wisc.edu/) at the University of Wisconsin-Madison.
+I am a third-year Ph.D. student in the [computer science department](https://www.cs.wisc.edu/) at the University of Wisconsin-Madison.
 I work with [Prof. Rishab Goyal](https://pages.cs.wisc.edu/~rishab/) on encryption systems, proof systems, and obfuscation.
 I am broadly interested in the theoretical aspects of classical and (post-)quantum cryptography.
 
