@@ -1,0 +1,8 @@
+columns:
+  - 6
+  - 4
+  - 3
+margin_w: 15
+margin_h: 15
+no_bg: true
+rank: "-C"

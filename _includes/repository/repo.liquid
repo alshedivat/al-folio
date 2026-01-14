@@ -33,15 +33,102 @@
 
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.repository }}">
-    <img
-      class="only-light w-100"
-      alt="{{ include.repository }}"
-      src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-    <img
-      class="only-dark w-100"
-      alt="{{ include.repository }}"
-      src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
+    {% if site.repo_stats_type == 'external' %}
+      <img
+        class="only-light w-100"
+        alt="{{ include.repository }}"
+        src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      >
+      <img
+        class="only-dark w-100"
+        alt="{{ include.repository }}"
+        src="{{ site.external_services.github_readme_stats_url }}/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+      >
+    {% else %}
+      {% assign generators = site.repo_stats_generators | default: 'metrics' %}
+
+      {% if generators == 'both' or (generators contains 'metrics' and generators contains 'readme') %}
+        <div class="row">
+          <div class="col-12 mb-3">
+            {% if site.repo_stats_type == 'local' %}
+              <img
+                class="w-100"
+                alt="{{ include.repository }} - Metrics"
+                src="{{ '/assets/img/stats/repo_' | append: repo_url[0] | append: '_' | append: repo_url[1] | append: '.svg' | relative_url }}"
+              >
+            {% else %}
+              <img
+                class="w-100"
+                alt="{{ include.repository }} - Metrics"
+                src="{{ site.stats_branch_url }}/assets/img/stats/repo_{{ repo_url[0] }}_{{ repo_url[1] }}.svg"
+              >
+            {% endif %}
+          </div>
+          <div class="col-12">
+            {% if site.repo_stats_type == 'local' %}
+              <img
+                class="only-light w-100"
+                alt="{{ include.repository }} - Stats"
+                src="{{ '/assets/img/stats/repo_readme_' | append: repo_url[0] | append: '_' | append: repo_url[1] | append: '_light.svg' | relative_url }}"
+              >
+              <img
+                class="only-dark w-100"
+                alt="{{ include.repository }} - Stats"
+                src="{{ '/assets/img/stats/repo_readme_' | append: repo_url[0] | append: '_' | append: repo_url[1] | append: '_dark.svg' | relative_url }}"
+              >
+            {% else %}
+              <img
+                class="only-light w-100"
+                alt="{{ include.repository }} - Stats"
+                src="{{ site.stats_branch_url }}/assets/img/stats/repo_readme_{{ repo_url[0] }}_{{ repo_url[1] }}_light.svg"
+              >
+              <img
+                class="only-dark w-100"
+                alt="{{ include.repository }} - Stats"
+                src="{{ site.stats_branch_url }}/assets/img/stats/repo_readme_{{ repo_url[0] }}_{{ repo_url[1] }}_dark.svg"
+              >
+            {% endif %}
+          </div>
+        </div>
+      {% elsif generators contains 'readme' %}
+        {% if site.repo_stats_type == 'local' %}
+          <img
+            class="only-light w-100"
+            alt="{{ include.repository }}"
+            src="{{ '/assets/img/stats/repo_readme_' | append: repo_url[0] | append: '_' | append: repo_url[1] | append: '_light.svg' | relative_url }}"
+          >
+          <img
+            class="only-dark w-100"
+            alt="{{ include.repository }}"
+            src="{{ '/assets/img/stats/repo_readme_' | append: repo_url[0] | append: '_' | append: repo_url[1] | append: '_dark.svg' | relative_url }}"
+          >
+        {% else %}
+          <img
+            class="only-light w-100"
+            alt="{{ include.repository }}"
+            src="{{ site.stats_branch_url }}/assets/img/stats/repo_readme_{{ repo_url[0] }}_{{ repo_url[1] }}_light.svg"
+          >
+          <img
+            class="only-dark w-100"
+            alt="{{ include.repository }}"
+            src="{{ site.stats_branch_url }}/assets/img/stats/repo_readme_{{ repo_url[0] }}_{{ repo_url[1] }}_dark.svg"
+          >
+        {% endif %}
+      {% else %}
+        {% if site.repo_stats_type == 'local' %}
+          <img
+            class="w-100"
+            alt="{{ include.repository }}"
+            src="{{ '/assets/img/stats/repo_' | append: repo_url[0] | append: '_' | append: repo_url[1] | append: '.svg' | relative_url }}"
+          >
+        {% else %}
+          <img
+            class="w-100"
+            alt="{{ include.repository }}"
+            src="{{ site.stats_branch_url }}/assets/img/stats/repo_{{ repo_url[0] }}_{{ repo_url[1] }}.svg"
+          >
+        {% endif %}
+      {% endif %}
+    {% endif %}
   </a>
 </div>
