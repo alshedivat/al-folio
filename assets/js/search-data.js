@@ -61,6 +61,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_9/";
+            },},{id: "news-your-malware-is-talking-i-m-listening",
+          title: 'Your Malware Is Talking. I’m Listening.',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/announcement:10/";
             },},{
         id: 'social-email',
         title: 'email',
