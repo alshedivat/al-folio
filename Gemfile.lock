@@ -144,6 +144,8 @@ GEM
     jekyll-archives-v2 (0.0.6)
       activesupport
       jekyll (>= 3.6, < 5.0)
+    jekyll-cache-bust (0.0.1)
+      jekyll (>= 3.6, < 5.0)
     jekyll-email-protect (1.1.0)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
@@ -299,6 +301,7 @@ DEPENDENCIES
   jekyll
   jekyll-3rd-party-libraries
   jekyll-archives-v2
+  jekyll-cache-bust
   jekyll-email-protect
   jekyll-feed
   jekyll-get-json
