@@ -59,6 +59,7 @@ The metrics system requires a GitHub Personal Access Token with specific scopes.
 | -------------- | -------------------------------- | ----------------------------------- |
 | `read:user`    | Basic user information           | All user plugins                    |
 | `repo`         | Repository access and statistics | All repo plugins, most user plugins |
+| `read:org`     | Organization membership data     | Organization-related metrics        |
 | `read:project` | GitHub Projects v2 access        | `projects` plugin                   |
 
 ### Creating the Token
@@ -68,6 +69,7 @@ The metrics system requires a GitHub Personal Access Token with specific scopes.
 3. Select scopes:
    - ✅ `read:user`
    - ✅ `repo` (all sub-scopes)
+   - ✅ `read:org`
    - ✅ `read:project` (if using projects plugin)
 4. Generate token and copy it
 5. Add to repository secrets as `METRICS_TOKEN`

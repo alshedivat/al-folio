@@ -707,4 +707,4 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add -A assets/img/stats/
           git commit -m "chore: update stats [skip ci]" || echo "No changes to commit"
-          git push
+          git push -u origin stats

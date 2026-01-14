@@ -4,6 +4,7 @@
 # GitHub Token Scopes Required:
 # - read:user (basic user information - required for all plugins)
 # - repo (repository access - required for most plugins)
+# - read:org (organization membership data - required for organization metrics)
 # - read:project (GitHub Projects v2 - required only for projects plugin)
 #
 # See docs/stats.md for complete documentation and setup instructions

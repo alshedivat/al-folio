@@ -129,8 +129,10 @@ See [Local Mode Setup](#local-mode-setup) for instructions.
 2. Click "Generate new token" → "Generate new token (classic)"
 3. Give it a descriptive name (e.g., "al-folio stats")
 4. Select scopes:
-   - ✅ `public_repo` (to read public repository data)
+   - ✅ `repo` (for full access) or `public_repo` (for public repos only)
    - ✅ `read:user` (to read user profile data)
+   - ✅ `read:org` (for organization membership data)
+   - ✅ `read:project` (optional, only if using projects plugin)
 5. Click "Generate token"
 6. **Copy the token** (you won't see it again!)
 
@@ -378,7 +380,7 @@ For more customization options, see [lowlighter/metrics documentation](https://g
 
 ### Workflow fails with "Resource not accessible by integration"
 
-**Solution:** Make sure `METRICS_TOKEN` secret is set with correct scopes (`public_repo`, `read:user`).
+**Solution:** Make sure `METRICS_TOKEN` secret is set with correct scopes (`repo` or `public_repo`, `read:user`, `read:org`).
 
 ### Workflow fails with "Reference not found"
 
