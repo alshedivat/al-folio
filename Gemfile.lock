@@ -118,6 +118,10 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
+    jekyll-3rd-party-libraries (0.0.1)
+      css_parser (>= 1.6, < 2.0)
+      jekyll (>= 3.6, < 5.0)
+      nokogiri (>= 1.8, < 2.0)
     jekyll (4.4.1)
       addressable (~> 2.4)
       base64 (~> 0.2)
@@ -293,6 +297,7 @@ DEPENDENCIES
   feedjira
   httparty
   jekyll
+  jekyll-3rd-party-libraries
   jekyll-archives-v2
   jekyll-email-protect
   jekyll-feed
