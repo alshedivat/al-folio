@@ -10,7 +10,10 @@
   - [Step 3: Personalize (2 min)](#step-3-personalize-2-min)
   - [Step 4: View Your Site (1 min)](#step-4-view-your-site-1-min)
   - [What's Next?](#whats-next)
-  <!--te-->
+    - [Add Your Content](#add-your-content)
+    - [Customize Appearance](#customize-appearance)
+    - [Learn More](#learn-more)
+    - [Get Help from AI](#get-help-from-ai)
 
 ## Step 1: Create Your Repository (1 min)
 

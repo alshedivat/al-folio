@@ -47,6 +47,7 @@ This guide helps you maintain your al-folio website and keep it up-to-date with 
     - [Annually (Every year)](#annually-every-year)
   - [Resources](#resources)
   - [Quick Maintenance Checklist](#quick-maintenance-checklist)
+    > > > > > > > 47805b23 (Created more README files)
 
 ## Overview
 
@@ -174,6 +175,8 @@ npm install package-name@latest
 4. Commit: `git add package.json package-lock.json && git commit -m "Update packages"`
 
 ---
+
+<<<<<<< HEAD
 
 ## Releasing New Versions
 
@@ -306,6 +309,10 @@ git rebase vX.X.X  # Replace with new version tag
 ```
 
 ---
+
+=======
+
+> > > > > > > 47805b23 (Created more README files)
 
 ## Annual Site Review
 
