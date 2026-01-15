@@ -35,7 +35,7 @@ export const NewsContainer = ({ limit, showTitle = false }) => {
       )}
       <div className="newsContainer">
         {displayedNews.map((news, index) => (
-          <div className="news" key={news.content}>
+          <div className="news" key={news.content + news.date}>
             <img
               ref={element}
               className="image"
@@ -45,8 +45,8 @@ export const NewsContainer = ({ limit, showTitle = false }) => {
             <div ref={element} className="date">
               {news.date}
             </div>
-            <div 
-              ref={element} 
+            <div
+              ref={element}
               className="newscontents"
               dangerouslySetInnerHTML={{ __html: news.content }}
             />
