@@ -175,7 +175,7 @@ GEM
       jekyll (~> 4.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-socials (0.0.3)
+    jekyll-socials (0.0.5)
       jekyll (>= 3.6, < 5.0)
     jekyll-tabs (1.2.1)
       jekyll (>= 3.0, < 5.0)
