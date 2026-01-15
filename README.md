@@ -251,12 +251,12 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Desktop](#desktop)
     - [Mobile](#mobile)
   - [Table Of Contents](#table-of-contents)
+  - [Quick Start](#quick-start)
   - [Getting started](#getting-started)
   - [Installing and Deploying](#installing-and-deploying)
   - [Customizing](#customizing)
   - [GitHub Copilot Agents](#github-copilot-agents)
-    - [Customization Agent](#customization-agent)
-    - [Documentation Agent](#documentation-agent)
+  - [Documentation](#documentation)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
@@ -320,6 +320,20 @@ The **Documentation Agent** maintains clear and up-to-date project documentation
 See [CONTRIBUTING.md § GitHub Copilot Agents](CONTRIBUTING.md#github-copilot-agents) for more information.
 
 > **Requirements:** Both agents require a [GitHub Copilot](https://github.com/features/copilot) subscription. For more information about GitHub Copilot and how to use agents, see the [GitHub Copilot documentation](https://docs.github.com/en/copilot).
+
+## Documentation
+
+Comprehensive guides for all aspects of your al-folio website:
+
+- **[Quick Start](QUICKSTART.md)** – Get running in 5 minutes
+- **[Installation & Deployment](INSTALL.md)** – Set up your site on GitHub Pages or other platforms
+- **[Customization Guide](CUSTOMIZE.md)** – Personalize your website (CVs, publications, themes, etc.)
+- **[Troubleshooting](TROUBLESHOOTING.md)** – Fix common issues (deployment, build, styling, content)
+- **[FAQ](FAQ.md)** – Frequently asked questions and solutions
+- **[Analytics](ANALYTICS.md)** – Add website analytics and visitor tracking
+- **[Accessibility](ACCESSIBILITY.md)** – Ensure your site is accessible to all visitors
+- **[SEO Guide](SEO.md)** – Optimize for search engines and improve discoverability
+- **[Maintenance Guide](MAINTENANCE.md)** – Keep your site updated and secure
 
 ## Features
 
