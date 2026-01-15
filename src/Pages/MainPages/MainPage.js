@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Navbar } from "../../Components/Navbar/navbar";
 import { Footer } from "../../Components/Footer/footer";
 import { NewsContainer } from "../../Components/NewsContainer/NewsContainer";
-import coursedata from "../../Data/course.json";
+// import coursedata from "../../Data/course.json";
 
 export const MainPage = (props) => {
   const [newsNum, setNewsNum] = useState(8);
