@@ -117,7 +117,7 @@ export const MainPage = (props) => {
           View All News
         </Link>
 
-        <div ref={element} className="title">
+        {/* <div ref={element} className="title">
           • COURSE •
         </div>
         <div className="courseContainer">
@@ -151,7 +151,7 @@ export const MainPage = (props) => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
         <div ref={element} className="title">
           • CONTACT US •
         </div>

@@ -108,11 +108,9 @@
     flex-direction: column;
     margin-top: 60px;
     width: 130px;
-    height: 100px;
     z-index: 1;
     top: 0;
     right: 0;
-    height: 100%;
     max-width: 130px;
     transition: 0.5s ease;
 }
