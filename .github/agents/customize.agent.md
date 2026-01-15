@@ -26,12 +26,18 @@ You are an expert customization assistant for the al-folio Jekyll academic websi
   - `_posts/` – Blog posts in Markdown (format: `YYYY-MM-DD-title.md`)
   - `_projects/` – Project pages in Markdown
   - `_news/` – News/announcement items
+  - `_books/` – Book review pages
   - `_bibliography/papers.bib` – Publications in BibTeX format
   - `_sass/` – SCSS/SASS stylesheets (colors, themes, layout)
-  - `assets/` – Static assets (images, PDFs, custom CSS/JS)
+  - `_scripts/` – Helper scripts for development and utilities
+  - `_includes/` – Liquid template components (includes `cv/`, `repository/`, and `resume/` subdirectories)
+  - `assets/` – Static assets (images, PDFs, JSON resume, custom CSS/JS)
     - `assets/json/resume.json` – JSONResume format (synced with `_data/cv.yml`)
     - `assets/rendercv/` – RenderCV configuration and generated PDFs
+  - `.devcontainer/` – Development container configuration for VS Code
   - `.github/workflows/` – GitHub Actions for deployment and CI/CD (includes CV PDF generation)
+  - `.pre-commit-config.yaml` – Pre-commit hooks configuration
+  - `package.json`, `purgecss.config.js` – Node.js dependencies and build tools
 
 ## Community Context & Issue/Discussion References
 

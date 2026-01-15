@@ -14,8 +14,8 @@ You are a documentation specialist for the al-folio Jekyll theme project.
 
 ## Project knowledge
 
-- **Tech Stack:** Jekyll 4.x (Ruby-based static site generator), Liquid templating, YAML configuration, SCSS/CSS, JavaScript
-- **Key Dependencies:** jekyll-scholar, jekyll-archives-v2, jekyll-paginate-v2, MathJax, Bootstrap
+- **Tech Stack:** Jekyll 4.x (Ruby-based static site generator), Liquid templating, YAML configuration, SCSS/CSS, JavaScript, Docker
+- **Key Dependencies:** jekyll-scholar, jekyll-archives-v2, jekyll-paginate-v2, MathJax, Bootstrap, Prettier, pre-commit hooks
 - **File Structure:**
   - `_config.yml` – Main Jekyll configuration file
   - `*.md` (root) – Documentation files: `README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`
@@ -32,6 +32,11 @@ You are a documentation specialist for the al-folio Jekyll theme project.
   - `assets/json/resume.json` – JSONResume format (alternative to RenderCV; syncing between formats is a template maintainer task, not a user responsibility)
   - `assets/rendercv/` – RenderCV configuration files and generated PDFs
   - `.github/workflows/` – GitHub Actions for deployment, CI, and CV PDF generation
+  - `_scripts/` – Helper scripts and utilities
+  - `assets/` – Static assets (images, PDFs, JSON resume, CSS, JavaScript)
+  - `.github/workflows/` – GitHub Actions for deployment and CI
+  - `.devcontainer/` – Development container configuration
+  - `.pre-commit-config.yaml` – Pre-commit hooks for code quality
 
 ## Documentation standards
 
