@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-layout-about-title-about-permalink-subtitle-a-href-affiliations-a-address-contacts-motto-etc-profile-align-right-image-prof-pic-jpg-image-circular-false-more-info-p-555-your-office-number-p-p-123-your-address-street-p-p-your-city-state-12345-p-n-selected-papers-true-social-true-announcements-enabled-true-scrollable-true-limit-5-latest-posts-enabled-true-scrollable-true-limit-3-content-p-write-your-biography-here-tell-the-world-about-yourself-link-to-your-favorite-a-href-http-reddit-com-subreddit-a-you-can-put-a-picture-in-too-the-code-is-already-in-just-name-your-picture-code-class-language-plaintext-highlighter-rouge-prof-pic-jpg-code-and-put-it-in-the-code-class-language-plaintext-highlighter-rouge-img-code-folder-p-n-n-p-put-your-address-p-o-box-other-info-right-below-your-picture-you-can-also-disable-any-of-these-elements-by-editing-code-class-language-plaintext-highlighter-rouge-profile-code-property-of-the-yaml-header-of-your-code-class-language-plaintext-highlighter-rouge-pages-about-md-code-edit-code-class-language-plaintext-highlighter-rouge-bibliography-papers-bib-code-and-jekyll-will-render-your-a-href-al-folio-publications-publications-page-a-automatically-p-n-n-p-link-to-your-social-media-connections-too-this-theme-is-set-up-to-use-a-href-https-fontawesome-com-font-awesome-icons-a-and-a-href-https-jpswalsh-github-io-academicons-academicons-a-like-the-ones-below-add-your-facebook-twitter-linkedin-google-scholar-or-just-disable-all-of-them-p-n-dir-excerpt-nil-name-about-md-path-pages-about-md-url",
-    title: "{"layout"=>"about", "title"=>"about", "permalink"=>"/", "subtitle"=>"<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.", "profile"=>{"align"=>"right", "image"=>"prof_pic.jpg", "image_circular"=>false, "more_info"=>"<p>555...",
+    id: "nav-about",
+    title: "about",
     section: "Navigation",
     handler: () => {
       window.location.href = "/al-folio/";
