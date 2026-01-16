@@ -17,3 +17,4 @@ I used Jekyll because it is not bloated :)  [ @karpathy (https://karpathy.github
 ## Notes page
 - My notes (in Obsidian) are deployed using a FOSS clone of Obsidian Publish forked from https://github.com/secure-77/Perlite 
 
+
