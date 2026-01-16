@@ -48,13 +48,17 @@ module ExternalPosts
 
     def create_document(site, source_name, url, content, src = {})
       # check if title is composed only of whitespace or foreign characters
-      if content[:title].gsub(/[^\w]/, '').strip.empty?
+      if !content[:title].match?(/\w/)
         # use the source name and last url segment as fallback
-        slug = "#{source_name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}-#{url.split('/').last}"
+        clean_source = source_name.downcase.strip.gsub(/[^\w -]/, '').tr(' ', '-')
+        slug = "#{clean_source}-#{url.split('/').last}"
       else
         # parse title from the post or use the source name and last url segment as fallback
-        slug = content[:title].downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
-        slug = "#{source_name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')}-#{url.split('/').last}" if slug.empty?
+        slug = content[:title].downcase.strip.gsub(/[^\w -]/, '').tr(' ', '-')
+        if slug.empty?
+          clean_source = source_name.downcase.strip.gsub(/[^\w -]/, '').tr(' ', '-')
+          slug = "#{clean_source}-#{url.split('/').last}"
+        end
       end
 
       path = site.in_source_dir("_posts/#{slug}.md")
