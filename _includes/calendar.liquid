@@ -1,4 +1,4 @@
-{% if site.calendar.enabled %}
+{% if include.calendar_id %}
 <div class="post mt-4">
   <h2 class="mb-3">
     <i class="fas fa-calendar-alt"></i> Upcoming Events
@@ -13,8 +13,8 @@
 
   <div class="calendar-wrapper" id="calendar-container" style="display: none;">
     <iframe 
-      src="https://calendar.google.com/calendar/embed?src={{ site.calendar.calendar_id | uri_escape }}&ctz={{ site.calendar.timezone | default: 'UTC' }}&mode=WEEK&showTitle=0&showPrint=0&showCalendars=0&showTabs=0&bgcolor=%23f9f9f9"
-      style="{{ site.calendar.style | default: 'border:0; width:100%; height:600px;' }}"
+      src="https://calendar.google.com/calendar/embed?src={{ include.calendar_id | uri_escape }}&ctz={{ include.timezone | default: 'UTC' }}&mode=WEEK&showTitle=0&showPrint=0&showCalendars=0&showTabs=0&bgcolor=%23f9f9f9"
+      style="{{ include.style | default: 'border:0; width:100%; height:600px;' }}"
       frameborder="0" 
       scrolling="no">
     </iframe>
