@@ -132,6 +132,20 @@ d-article {
 
   d-footnote {
     scroll-margin-top: 66px;
+    color: var(--global-theme-color) !important; /* Footnote text color */
+    &:hover {
+      color: var(--global-hover-color) !important; /* Footnote hover color */
+    }
+  }
+
+  /* Citations */
+  d-cite a,
+  a.citation {
+    /* Target citations within d-cite and also general .citation links */
+    color: var(--global-theme-color) !important;
+    &:hover {
+      color: var(--global-hover-color) !important;
+    }
   }
 }
 

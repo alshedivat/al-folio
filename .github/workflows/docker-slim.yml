@@ -12,11 +12,7 @@ on:
     workflows: ["Docker Image CI"]
     types:
       - completed
-
-# on:
-#   push:
-#     branches:
-#       - 'master'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -43,7 +39,7 @@ jobs:
           sed -i "s|\.:|${{ github.workspace }}:|g" ${{ github.workspace }}/docker-compose.yml
           cat ${{ github.workspace }}/docker-compose.yml
 
-      - uses: kitabisa/docker-slim-action@v1.1.1
+      - uses: kitabisa/docker-slim-action@v1.2.0
         env:
           DSLIM_PULL: true
           DSLIM_COMPOSE_FILE: ${{ github.workspace }}/docker-compose.yml

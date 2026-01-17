@@ -79,6 +79,7 @@ blockquote {
       color: var(--global-tip-block-text);
     }
 
+    a,
     h1,
     h2,
     h3,
@@ -100,6 +101,7 @@ blockquote {
       color: var(--global-warning-block-text);
     }
 
+    a,
     h1,
     h2,
     h3,
@@ -121,6 +123,7 @@ blockquote {
       color: var(--global-danger-block-text);
     }
 
+    a,
     h1,
     h2,
     h3,
@@ -250,7 +253,8 @@ ul.task-list input[type="checkbox"] {
   opacity: 0.95;
 }
 
-.navbar .dropdown-menu {
+.navbar .dropdown-menu,
+.btn-group.dropdown .dropdown-menu {
   background-color: var(--global-bg-color);
   border: 1px solid var(--global-divider-color);
 
@@ -273,6 +277,16 @@ ul.task-list input[type="checkbox"] {
   &:hover {
     color: var(--global-hover-color);
     background-color: var(--global-bg-color);
+  }
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: var(--global-hover-color);
+  color: var(--global-hover-text-color) !important;
+
+  &:hover {
+    color: var(--global-hover-text-color);
   }
 }
 
@@ -644,6 +658,12 @@ footer.sticky-bottom {
   }
 }
 
+// diff2html - Fix for diff2html line number overflow
+
+.d2h-diff-table {
+  position: relative;
+}
+
 // Distill
 
 .distill {
@@ -874,6 +894,18 @@ footer.sticky-bottom {
 // Rouge Color Customization
 figure.highlight {
   margin: 0 0 1rem;
+
+  // Responsive code block container
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  pre {
+    // Ensure code blocks can scroll horizontally
+    white-space: pre;
+    word-wrap: normal;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
 pre {
@@ -882,12 +914,19 @@ pre {
   border-radius: 6px;
   padding: 6px 12px;
 
+  // Responsive behavior for code blocks
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: pre;
+  word-wrap: normal;
+
   pre,
   code {
     background-color: transparent;
     border-radius: 0;
     margin-bottom: 0;
     padding: 0;
+    white-space: inherit;
   }
 }
 
@@ -896,6 +935,10 @@ code {
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
+
+  // Inline code should wrap
+  white-space: normal;
+  word-wrap: break-word;
 }
 
 // Transitioning Themes
@@ -1035,29 +1078,6 @@ progress::-moz-progress-bar {
       color: var(--global-hover-text-color) !important;
     }
   }
-
-  .dropdown-menu {
-    background-color: var(--global-bg-color);
-  }
-
-  .dropdown-item {
-    background-color: var(--global-bg-color);
-    color: var(--global-text-color);
-
-    &:hover {
-      color: var(--global-hover-color);
-    }
-  }
-
-  .dropdown-item.active,
-  .dropdown-item:active {
-    background-color: var(--global-hover-color);
-    color: var(--global-hover-text-color) !important;
-
-    &:hover {
-      color: var(--global-hover-text-color);
-    }
-  }
 }
 
 /* Table of Contents */
@@ -1097,6 +1117,62 @@ nav[data-toggle="toc"] {
     visibility: hidden;
     height: 0;
     top: 0;
+  }
+
+  /* Responsive code blocks for mobile */
+  pre {
+    font-size: 0.875rem;
+    padding: 8px 10px;
+    margin: 0.5rem 0;
+  }
+
+  figure.highlight {
+    margin: 0.5rem 0;
+
+    pre {
+      font-size: 0.875rem;
+      padding: 8px 10px;
+    }
+  }
+
+  code {
+    font-size: 0.875rem;
+    padding: 2px 4px;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 400px) {
+  pre {
+    font-size: 0.8rem;
+    padding: 6px 8px;
+  }
+
+  figure.highlight {
+    pre {
+      font-size: 0.8rem;
+      padding: 6px 8px;
+    }
+  }
+
+  code {
+    font-size: 0.8rem;
+    padding: 1px 3px;
+  }
+}
+
+/* Medium screens - optimize for tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+  pre {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  figure.highlight {
+    pre {
+      font-size: 0.9rem;
+      padding: 8px 12px;
+    }
   }
 }
 
@@ -1418,7 +1494,6 @@ figure.cover {
   }
 }
 
-
 .calendar-toggle-btn {
   background-color: #007acc;
   color: white;
@@ -1446,4 +1521,8 @@ figure.cover {
   @media (max-width: 480px) {
     height: 400px;
   }
+}
+
+mjx-container[jax="CHTML"][display="true"] {
+  overflow-x: auto;
 }
