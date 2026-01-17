@@ -193,7 +193,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://inbt.jhu.edu/epidiagnostics/" target="_blank">★</a>
 <a href="https://www.nuesl.org/" target="_blank">★</a>
 <a href="https://big-culture.github.io/" target="_blank">★</a>
-<a href="https://martinbulla.github.io/bullab/" target="_blank">★</a>  
+<a href="https://martinbulla.github.io/bullab/" target="_blank">★</a>
 <a href="https://gpforesteyes.github.io/" target="_blank">★</a>
 </td>
 </tr>
@@ -254,6 +254,8 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [Installing and Deploying](#installing-and-deploying)
   - [Customizing](#customizing)
   - [GitHub Copilot Agents](#github-copilot-agents)
+    - [Customization Agent](#customization-agent)
+    - [Documentation Agent](#documentation-agent)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
@@ -262,7 +264,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Collections](#collections)
     - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math &amp; code](#full-support-for-math--code)
+      - [Full support for math \& code](#full-support-for-math--code)
       - [Photos, Audio, Video and more](#photos-audio-video-and-more)
     - [Other features](#other-features)
       - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
@@ -277,7 +279,6 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [All Contributors](#all-contributors)
   - [Star History](#star-history)
   - [License](#license)
-  <!--te-->
 
 ## Getting started
 

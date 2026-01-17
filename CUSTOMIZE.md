@@ -46,6 +46,10 @@ Here we will give you some tips on how to customize the website. One important t
   - [Adding a newsletter](#adding-a-newsletter)
   - [Configuring search features](#configuring-search-features)
   - [Managing publication display](#managing-publication-display)
+  - [Adding a Google Calendar](#adding-a-google-calendar)
+    - [Basic usage](#basic-usage)
+    - [Enable the calendar script for your page](#enable-the-calendar-script-for-your-page)
+    - [Optional: Customize the calendar style](#optional-customize-the-calendar-style)
   - [Updating third-party libraries](#updating-third-party-libraries)
   - [Removing content](#removing-content)
     - [Removing the blog page](#removing-the-blog-page)
@@ -618,6 +622,45 @@ To add a thumbnail to a publication, include a `preview` field in your BibTeX en
 ```
 
 Place the image file in `assets/img/publication_preview/`.
+
+## Adding a Google Calendar
+
+You can embed a Google Calendar on any page by using the `calendar.liquid` include. The calendar will automatically adapt to light and dark themes.
+
+### Basic usage
+
+Add the following to your page's Markdown file (for example, in `_pages/teaching.md`):
+
+```liquid
+{% include calendar.liquid calendar_id='your-calendar-id@group.calendar.google.com' timezone='Your/Timezone' %}
+```
+
+Replace:
+
+- `your-calendar-id@group.calendar.google.com` with your actual Google Calendar ID (found in Google Calendar Settings → Integrate calendar → Calendar ID)
+- `Your/Timezone` with your timezone (e.g., `UTC`, `Asia/Shanghai`, `America/New_York`). The default is `UTC`.
+
+### Enable the calendar script for your page
+
+To prevent unnecessary script loading, add `calendar: true` to the frontmatter of any page that displays a calendar:
+
+```yaml
+---
+layout: page
+title: teaching
+calendar: true
+---
+```
+
+### Optional: Customize the calendar style
+
+You can optionally customize the iframe styling using the `style` parameter:
+
+```liquid
+{% include calendar.liquid calendar_id='your-calendar-id@group.calendar.google.com' timezone='UTC' style='border:0; width:100%; height:800px;' %}
+```
+
+The default style is `border:0; width:100%; height:600px;`.
 
 ## Updating third-party libraries
 

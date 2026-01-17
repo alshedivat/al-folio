@@ -29,6 +29,7 @@ let applyTheme = () => {
   setHighlight(theme);
   setGiscusTheme(theme);
   setSearchTheme(theme);
+  updateCalendarUrl();
 
   // if mermaid is not defined, do nothing
   if (typeof mermaid !== "undefined") {
@@ -295,4 +296,34 @@ let initTheme = () => {
   window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", ({ matches }) => {
     applyTheme();
   });
+};
+
+// Get the appropriate background color for Google Calendar based on current theme
+let getCalendarBgColor = () => {
+  let theme = determineComputedTheme();
+  return theme === "dark" ? "333333" : "f9f9f9";
+};
+
+// Get the Google Calendar embed URL with the correct background color
+let getCalendarUrl = (calendarId, timezone = "UTC") => {
+  const baseUrl = "https://calendar.google.com/calendar/embed";
+  const params = new URLSearchParams({
+    src: calendarId,
+    ctz: timezone,
+    mode: "WEEK",
+    showTitle: "0",
+    showPrint: "0",
+    showCalendars: "0",
+    showTabs: "0",
+    bgcolor: getCalendarBgColor(),
+  });
+  return `${baseUrl}?${params.toString()}`;
+};
+
+// Update the calendar iframe src to apply theme changes
+let updateCalendarUrl = () => {
+  const iframe = document.getElementById("calendar-iframe");
+  if (iframe && iframe.dataset.calendarId) {
+    iframe.src = getCalendarUrl(iframe.dataset.calendarId, iframe.dataset.timezone || "UTC");
+  }
 };
