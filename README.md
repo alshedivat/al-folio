@@ -193,7 +193,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://inbt.jhu.edu/epidiagnostics/" target="_blank">★</a>
 <a href="https://www.nuesl.org/" target="_blank">★</a>
 <a href="https://big-culture.github.io/" target="_blank">★</a>
-<a href="https://martinbulla.github.io/bullab/" target="_blank">★</a>  
+<a href="https://martinbulla.github.io/bullab/" target="_blank">★</a>
 <a href="https://gpforesteyes.github.io/" target="_blank">★</a>
 </td>
 </tr>
@@ -254,6 +254,8 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [Installing and Deploying](#installing-and-deploying)
   - [Customizing](#customizing)
   - [GitHub Copilot Agents](#github-copilot-agents)
+    - [Customization Agent](#customization-agent)
+    - [Documentation Agent](#documentation-agent)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
@@ -262,7 +264,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Collections](#collections)
     - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math &amp; code](#full-support-for-math--code)
+      - [Full support for math \& code](#full-support-for-math--code)
       - [Photos, Audio, Video and more](#photos-audio-video-and-more)
     - [Other features](#other-features)
       - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
@@ -277,7 +279,6 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [All Contributors](#all-contributors)
   - [Star History](#star-history)
   - [License](#license)
-  <!--te-->
 
 ## Getting started
 
@@ -532,22 +533,3 @@ Our most active contributors are welcome to join the maintainers team. If you ar
 The theme is available as open source under the terms of the [MIT License](https://github.com/alshedivat/al-folio/blob/main/LICENSE).
 
 Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](https://liabogoev.com) and under the MIT license). Since then, it got a full re-write of the styles and many additional cool features.
-
-## calendar-control
-1. Enable the Calendar Module
-
-In your _config.yml, add the following block (if not already present):
-
-calendar:
-  enabled: true  # set to false to disable calendar
-  calendar_id: your_calendar_id_here@group.calendar.google.com
-  timezone: Asia/Shanghai   # Optional. Default: UTC
-  style: 'border:0; width:100%; height:600px;'  # Optional CSS inline styles
-
-calendar_id: your Google Calendar ID, which can be found in the Google Calendar Settings → Integrate calendar → Calendar ID.
-
-enabled: set to true to show the calendar, or false to hide it.
-
-timezone: adjusts the calendar display to your local time zone.
-
-style: To keep visual consistency with the theme, styling is defined in _sass/_base.scss files.
