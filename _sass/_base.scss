@@ -773,7 +773,9 @@ footer.sticky-bottom {
     li {
       margin-bottom: 1rem;
 
-      .preview { display: inline-block; }
+      .preview {
+        display: inline-block;
+      }
 
       .abbr {
         margin-bottom: 0.5rem;
