@@ -1,4 +1,4 @@
-{% assign course = site.courses | where: 'course_id', include.course_id | first %}
+{% assign course = site.teachings | where: 'course_id', include.course_id | first %}
 
 {% if course %}
   <div class="course-schedule">
