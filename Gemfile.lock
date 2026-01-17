@@ -112,7 +112,7 @@ GEM
       nokogiri (>= 1.4)
     htmlcompressor (0.4.0)
     http_parser.rb (0.8.1)
-    httparty (0.24.0)
+    httparty (0.24.2)
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
@@ -141,7 +141,7 @@ GEM
       safe_yaml (~> 1.0)
       terminal-table (>= 1.8, < 4.0)
       webrick (~> 1.7)
-    jekyll-archives-v2 (0.0.6)
+    jekyll-archives-v2 (0.0.7)
       activesupport
       jekyll (>= 3.6, < 5.0)
     jekyll-cache-bust (0.0.1)
@@ -198,7 +198,8 @@ GEM
       kramdown (~> 2.0)
     latex-decode (0.4.2)
     liquid (4.0.4)
-    listen (3.9.0)
+    listen (3.10.0)
+      logger
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.7.0)
@@ -325,4 +326,4 @@ DEPENDENCIES
   ostruct
 
 BUNDLED WITH
-  4.0.3
+  4.0.4
