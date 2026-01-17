@@ -15,9 +15,12 @@
     - [For project pages](#for-project-pages)
     - [Enabling automatic deployment](#enabling-automatic-deployment)
     - [Manual deployment to GitHub Pages](#manual-deployment-to-github-pages)
-    - [Deploy on <a href="https://www.netlify.com/" rel="nofollow">Netlify</a>](https://www.netlify.com/)
+    - [Deploy on Netlify](#deploy-on-netlify)
     - [Deployment to another hosting server (non GitHub Pages)](#deployment-to-another-hosting-server-non-github-pages)
     - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
+  - [Maintaining Dependencies](#maintaining-dependencies)
+    - [Updating the bundler itself](#updating-the-bundler-itself)
+    - [Updating all dependencies](#updating-all-dependencies)
   - [Upgrading from a previous version](#upgrading-from-a-previous-version)
 
 <!--te-->
@@ -233,6 +236,33 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 **Note:** Do _not_ run `jekyll clean` on your publishing source repo as this will result in the entire directory getting deleted, irrespective of the content of `keep_files` in `_config.yml`.
 
+## Maintaining Dependencies
+
+**al-folio** uses **Bundler** (a Ruby dependency manager) to keep track of all the Ruby packages (called "gems") needed to run Jekyll and its plugins. Over time, these packages may receive updates that include bug fixes, security patches, and new features.
+
+### Updating the bundler itself
+
+The bundler tool itself should be kept up to date. To update bundler to the latest version, run:
+
+```bash
+$ bundle update --bundler
+```
+
+### Updating all dependencies
+
+To update all Ruby gems to their latest compatible versions (as specified in your `Gemfile`), run:
+
+```bash
+$ bundle update --all
+```
+
+After updating dependencies, test your site locally to ensure everything still works correctly:
+
+- If using Docker: `docker compose up`
+- If using local setup: `bundle exec jekyll serve`
+
+> **Note:** Dependency updates may occasionally introduce breaking changes. If your site fails after updating, check the [FAQ](FAQ.md) for troubleshooting, or revert to the previous version with `bundle lock --add-platform ruby` and `git checkout Gemfile.lock`.
+
 ## Upgrading from a previous version
 
 If you installed **al-folio** as described above, you can manually update your code by following the steps below:
@@ -241,7 +271,7 @@ If you installed **al-folio** as described above, you can manually update your c
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase v0.16.1
+$ git rebase v0.16.2
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
