@@ -1,0 +1,1 @@
+function toggleCalendar(){const e=document.getElementById("calendar-container"),n=document.getElementById("calendar-toggle-btn"),t="none"===e.style.display;e.style.display=t?"block":"none",n.innerText=t?"Hide Calendar":"Show Calendar",t&&updateCalendarUrl()}document.addEventListener("DOMContentLoaded",updateCalendarUrl);
