@@ -37,7 +37,7 @@ schedule:
       - name: Lecture Notes
         url: /assets/pdf/example_pdf.pdf
       - name: Coding Lab
-        url: https://github.com/example/ml-examples
+        url: https://github.com/
 
   - week: 4
     date: Sept 26
@@ -82,7 +82,7 @@ schedule:
       - name: Lecture Notes
         url: /assets/pdf/example_pdf.pdf
       - name: Coding Lab
-        url: https://github.com/example/dl-examples
+        url: https://github.com/
 ---
 
 ## Course Overview

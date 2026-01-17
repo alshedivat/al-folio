@@ -37,7 +37,7 @@ schedule:
       - name: Lecture Notes
         url: /assets/pdf/example_pdf.pdf
       - name: Coding Lab
-        url: https://github.com/example/data-science-examples
+        url: https://github.com/
 
   - week: 4
     date: Feb 26
