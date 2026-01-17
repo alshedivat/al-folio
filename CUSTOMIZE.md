@@ -663,10 +663,6 @@ You can optionally customize the iframe styling using the `style` parameter:
 
 The default style is `border:0; width:100%; height:600px;`.
 
-### Theme-aware background
-
-The calendar automatically detects whether your visitor is using light or dark mode and adjusts the background color accordingly—no additional configuration needed. When a user toggles between light and dark mode, the calendar updates in real-time.
-
 ## Updating third-party libraries
 
 The theme uses various third-party JavaScript and CSS libraries. You can manage these in the `third_party_libraries` section of [\_config.yml](_config.yml):
