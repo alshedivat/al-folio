@@ -13,21 +13,13 @@
 
   <div class="calendar-wrapper" id="calendar-container" style="display: none;">
     <iframe 
-      src="https://calendar.google.com/calendar/embed?src={{ include.calendar_id | uri_escape }}&ctz={{ include.timezone | default: 'UTC' }}&mode=WEEK&showTitle=0&showPrint=0&showCalendars=0&showTabs=0&bgcolor=%23f9f9f9"
+      id="calendar-iframe"
+      data-calendar-id="{{ include.calendar_id }}"
+      data-timezone="{{ include.timezone | default: 'UTC' }}"
       style="{{ include.style | default: 'border:0; width:100%; height:600px;' }}"
       frameborder="0" 
       scrolling="no">
     </iframe>
   </div>
 </div>
-
-<script>
-  function toggleCalendar() {
-    const el = document.getElementById('calendar-container');
-    const btn = document.getElementById('calendar-toggle-btn');
-    const isHidden = el.style.display === 'none';
-    el.style.display = isHidden ? 'block' : 'none';
-    btn.innerText = isHidden ? 'Hide Calendar' : 'Show Calendar';
-  }
-</script>
 {% endif %}
