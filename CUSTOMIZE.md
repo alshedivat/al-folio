@@ -50,7 +50,6 @@ Here we will give you some tips on how to customize the website. One important t
     - [Basic usage](#basic-usage)
     - [Enable the calendar script for your page](#enable-the-calendar-script-for-your-page)
     - [Optional: Customize the calendar style](#optional-customize-the-calendar-style)
-    - [Theme-aware background](#theme-aware-background)
   - [Updating third-party libraries](#updating-third-party-libraries)
   - [Removing content](#removing-content)
     - [Removing the blog page](#removing-the-blog-page)
