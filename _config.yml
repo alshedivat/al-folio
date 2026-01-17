@@ -166,7 +166,6 @@ collections:
     output: true
   courses:
     output: true
-    permalink: /courses/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
