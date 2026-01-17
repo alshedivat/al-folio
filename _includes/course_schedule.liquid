@@ -1,0 +1,71 @@
+{% assign course = site.teachings | where: 'course_id', include.course_id | first %}
+
+{% if course %}
+  <div class="course-schedule">
+    <h2>{{ course.title }}</h2>
+
+    {% if course.description %}
+      <div class="course-description">
+        {{ course.description | markdownify }}
+      </div>
+    {% endif %}
+
+    {% if course.instructor %}
+      <p><strong>Instructor:</strong> {{ course.instructor }}</p>
+    {% endif %}
+
+    {% if course.term %}
+      <p><strong>Term:</strong> {{ course.term }}</p>
+    {% endif %}
+
+    {% if course.schedule %}
+      <table class="table table-sm table-responsive">
+        <thead>
+          <tr>
+            <th>Week</th>
+            <th>Date</th>
+            <th>Topic</th>
+            <th>Materials</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for entry in course.schedule %}
+            <tr>
+              <td>{{ entry.week }}</td>
+              <td>{{ entry.date }}</td>
+              <td>
+                {% if entry.topic %}
+                  <strong>{{ entry.topic }}</strong>
+                {% endif %}
+                {% if entry.description %}
+                  <div class="schedule-description">{{ entry.description | markdownify }}</div>
+                {% endif %}
+              </td>
+              <td>
+                {% if entry.materials %}
+                  <ul class="schedule-materials">
+                    {% for material in entry.materials %}
+                      <li>
+                        {% if material.url %}
+                          {% if material.url contains '://' %}
+                            <a href="{{ material.url }}" target="_blank">{{ material.name }}</a>
+                          {% else %}
+                            <a href="{{ material.url | relative_url }}" target="_blank">{{ material.name }}</a>
+                          {% endif %}
+                        {% else %}
+                          {{ material.name }}
+                        {% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <p>No schedule available for this course.</p>
+    {% endif %}
+  </div>
+{% endif %}
