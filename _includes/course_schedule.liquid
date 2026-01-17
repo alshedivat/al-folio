@@ -47,7 +47,7 @@
                     {% for material in entry.materials %}
                       <li>
                         {% if material.url %}
-                          <a href="{{ material.url }}" target="_blank">{{ material.name }}</a>
+                          <a href="{% if material.url contains '://' %}{{ material.url }}{% else %}{{ material.url | relative_url }}{% endif %}" target="_blank">{{ material.name }}</a>
                         {% else %}
                           {{ material.name }}
                         {% endif %}
