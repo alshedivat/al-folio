@@ -238,30 +238,15 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 ## Maintaining Dependencies
 
-**al-folio** uses **Bundler** (a Ruby dependency manager) to keep track of all the Ruby packages (called "gems") needed to run Jekyll and its plugins. Over time, these packages may receive updates that include bug fixes, security patches, and new features.
+**al-folio** uses **Bundler** (a Ruby dependency manager) to keep track of Ruby packages (called "gems") needed to run Jekyll and its plugins. For detailed information about dependency management, updating safely, testing, and handling breaking changes, see [MAINTENANCE.md § Dependency Management](MAINTENANCE.md#dependency-management).
 
-### Updating the bundler itself
-
-The bundler tool itself should be kept up to date. To update bundler to the latest version, run:
-
-```bash
-$ bundle update --bundler
-```
-
-### Updating all dependencies
-
-To update all Ruby gems to their latest compatible versions (as specified in your `Gemfile`), run:
+**Quick reference:**
 
 ```bash
 $ bundle update --all
 ```
 
-After updating dependencies, test your site locally to ensure everything still works correctly:
-
-- If using Docker: `docker compose up`
-- If using local setup: `bundle exec jekyll serve`
-
-> **Note:** Dependency updates may occasionally introduce breaking changes. If your site fails after updating, check the [FAQ](FAQ.md) for troubleshooting, or revert to the previous version with `bundle lock --add-platform ruby` and `git checkout Gemfile.lock`.
+After updating, test locally to ensure everything still works. If your site fails after updating, check the [FAQ](FAQ.md) for troubleshooting.
 
 ## Upgrading from a previous version
 

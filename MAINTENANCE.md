@@ -4,13 +4,17 @@ This guide helps you maintain your al-folio website and keep it up-to-date with 
 
 <!--ts-->
 
-- [Maintenance & Updates Guide](#maintenance--updates-guide)
+- [Maintenance \& Updates Guide](#maintenance--updates-guide)
   - [Overview](#overview)
   - [Dependency Management](#dependency-management)
     - [Understanding Dependencies](#understanding-dependencies)
     - [Checking for Updates](#checking-for-updates)
     - [Updating Gems (Ruby)](#updating-gems-ruby)
     - [Updating Node Packages (JavaScript)](#updating-node-packages-javascript)
+  - [Releasing New Versions](#releasing-new-versions)
+    - [When to Release](#when-to-release)
+    - [Semantic Versioning](#semantic-versioning)
+    - [Release Process](#release-process)
   - [Annual Site Review](#annual-site-review)
     - [Content Review](#content-review)
     - [Technical Review](#technical-review)
@@ -34,9 +38,15 @@ This guide helps you maintain your al-folio website and keep it up-to-date with 
     - [Archiving Old Posts](#archiving-old-posts)
     - [Updating Broken Links](#updating-broken-links)
   - [Breaking Changes to Watch For](#breaking-changes-to-watch-for)
+    - [Jekyll Major Version Updates](#jekyll-major-version-updates)
+    - [Theme Updates](#theme-updates)
   - [Maintenance Schedule](#maintenance-schedule)
+    - [Weekly (Automated)](#weekly-automated)
+    - [Monthly](#monthly)
+    - [Quarterly (Every 3 months)](#quarterly-every-3-months)
+    - [Annually (Every year)](#annually-every-year)
   - [Resources](#resources)
-  <!--te-->
+  - [Quick Maintenance Checklist](#quick-maintenance-checklist)
 
 ## Overview
 
@@ -162,6 +172,138 @@ npm install package-name@latest
 2. Check for TypeScript/linting errors
 3. Test your site
 4. Commit: `git add package.json package-lock.json && git commit -m "Update packages"`
+
+---
+
+## Releasing New Versions
+
+### When to Release
+
+A new version of al-folio **must** be released on GitHub whenever:
+
+- **Dependency changes occur** – Adding, removing, or upgrading any gems (Ruby) or packages (JavaScript)
+- **Major features are added** – New functionality that benefits users
+- **Bug fixes are made** – Issues affecting functionality or security
+- **Breaking changes occur** – Changes that affect how users configure or use the theme
+
+Dependency updates are significant because they:
+
+- May introduce security patches
+- Could include bug fixes or new features
+- Might have breaking changes that affect the theme
+- Affect Docker image consistency
+
+### Semantic Versioning
+
+al-folio follows [Semantic Versioning](https://semver.org/) with the format `MAJOR.MINOR.PATCH`:
+
+**MAJOR version** (e.g., `1.0.0` → `2.0.0`):
+
+- Breaking changes that require users to manually update their configuration
+- Major feature overhauls
+- Dropping support for older tools or dependencies
+- Example: Jekyll 4 → Jekyll 5 migration
+
+**MINOR version** (e.g., `1.0.0` → `1.1.0`):
+
+- New features that don't break existing functionality
+- New optional configuration options
+- New plugins or integrations
+- Example: Adding a new collection type
+
+**PATCH version** (e.g., `1.0.0` → `1.0.1`):
+
+- Bug fixes
+- Security patches
+- Dependency updates that don't break functionality
+- Documentation improvements
+- Example: Fixing CSS styling issues or updating gems
+
+### Release Process
+
+When releasing a new version:
+
+1. **Update version numbers** in your repository:
+
+   ```bash
+   # Update docker-compose.yml
+   # Change: image: amirpourmand/al-folio:vX.X.X
+   # Example: v0.16.2 → v0.17.0
+   ```
+
+   Edit `docker-compose.yml` and update the image tag in the `jekyll` service:
+
+   ```yaml
+   services:
+     jekyll:
+       image: amirpourmand/al-folio:v0.17.0 # Update this version
+   ```
+
+2. **Update documentation** to reference the new version:
+   - [INSTALL.md](INSTALL.md) – Update any version references in upgrade instructions
+   - [QUICKSTART.md](QUICKSTART.md) – Update if version-specific instructions changed
+   - [README.md](README.md) – Update release badges and version references
+   - Any other docs mentioning the current version
+
+3. **Create a GitHub Release:**
+   - Go to your repository → **Releases** → **Create a new release**
+   - Tag version: `v0.17.0` (match the format in `docker-compose.yml`)
+   - Release title: Describe the changes (e.g., "Security patch: Update Jekyll" or "New feature: Add xyz")
+   - Release notes: List all changes, including:
+     - Breaking changes (if any)
+     - New features
+     - Bug fixes
+     - Dependency updates
+   - Example format:
+
+     ```markdown
+     ## What's Changed
+
+     ### Breaking Changes
+
+     - (none)
+
+     ### New Features
+
+     - Added support for XYZ
+
+     ### Bug Fixes
+
+     - Fixed styling issue with mobile nav
+
+     ### Dependencies Updated
+
+     - Updated Jekyll from 4.2.0 to 4.3.0
+     - Updated jekyll-scholar from 5.x to 6.x
+     - Updated Bootstrap from 5.1 to 5.2
+     ```
+
+4. **Build and publish the Docker image** (if applicable):
+   - Tag the Docker image with the new version
+   - Push to Docker Hub so users can `docker compose pull` the latest version
+   - Ensure the Docker image tag matches the version in `docker-compose.yml`
+
+5. **Communicate the update:**
+   - Add a GitHub Discussion announcing the release
+   - If breaking changes, provide migration guide
+   - Link to release notes in important places
+
+**User impact:**
+
+Users running older versions can upgrade to the new version by:
+
+```bash
+# Update docker-compose.yml to reference the new version
+# Then rebuild and restart
+docker compose up --build
+```
+
+Or if using git:
+
+```bash
+git fetch upstream
+git rebase vX.X.X  # Replace with new version tag
+```
 
 ---
 
