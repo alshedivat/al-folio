@@ -34,7 +34,7 @@ Both formats now use the same unified rendering includes for consistent output
 
   <article>
     <div class="cv">
-      {% if site.data.cv.cv %}
+      {% if site.data.cv and site.data.cv.cv %}
         {% comment %} RenderCV format {% endcomment %}
         {% assign cv = site.data.cv.cv %}
 
