@@ -15,6 +15,7 @@ This guide helps you maintain your al-folio website and keep it up-to-date with 
     - [When to Release](#when-to-release)
     - [Semantic Versioning](#semantic-versioning)
     - [Release Process](#release-process)
+- [\<\<\<\<\<\<\< HEAD](#-head)
   - [Annual Site Review](#annual-site-review)
     - [Content Review](#content-review)
     - [Technical Review](#technical-review)
@@ -47,7 +48,6 @@ This guide helps you maintain your al-folio website and keep it up-to-date with 
     - [Annually (Every year)](#annually-every-year)
   - [Resources](#resources)
   - [Quick Maintenance Checklist](#quick-maintenance-checklist)
-    > > > > > > > 47805b23 (Created more README files)
 
 ## Overview
 
@@ -177,6 +177,11 @@ npm install package-name@latest
 ---
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+
+> > > > > > > 454f7388 (Rebased with main, fixed new docs)
 
 ## Releasing New Versions
 
@@ -310,9 +315,13 @@ git rebase vX.X.X  # Replace with new version tag
 
 ---
 
-=======
+# <<<<<<< HEAD
 
 > > > > > > > 47805b23 (Created more README files)
+
+=======
+
+> > > > > > > 454f7388 (Rebased with main, fixed new docs)
 
 ## Annual Site Review
 
