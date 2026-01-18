@@ -3,8 +3,13 @@ layout: default
 ---
 {% comment %}
 Unified CV layout that handles both RenderCV (YAML) and JSONResume (JSON) formats
-- RenderCV data is in site.data.cv.cv
-- JSONResume data is in site.data.resume
+- If page.cv_format is set, it determines which format to render:
+  - 'rendercv': Load and render only RenderCV data (site.data.cv.cv)
+  - 'jsonresume': Load and render only JSONResume data (site.data.resume)
+- If page.cv_format is not set, the legacy behavior applies:
+  - RenderCV data is in site.data.cv.cv
+  - JSONResume data is in site.data.resume
+  - RenderCV is prioritized if both exist
 Both formats now use the same unified rendering includes for consistent output
 {% endcomment %}
 
@@ -34,7 +39,24 @@ Both formats now use the same unified rendering includes for consistent output
 
   <article>
     <div class="cv">
-      {% if site.data.cv and site.data.cv.cv %}
+      {% comment %} Determine which CV format to render {% endcomment %}
+      {% assign render_rendercv = false %}
+      {% assign render_jsonresume = false %}
+      
+      {% if page.cv_format == 'rendercv' %}
+        {% assign render_rendercv = true %}
+      {% elsif page.cv_format == 'jsonresume' %}
+        {% assign render_jsonresume = true %}
+      {% else %}
+        {% comment %} Legacy behavior: RenderCV takes priority if both exist {% endcomment %}
+        {% if site.data.cv and site.data.cv.cv %}
+          {% assign render_rendercv = true %}
+        {% elsif site.data.resume %}
+          {% assign render_jsonresume = true %}
+        {% endif %}
+      {% endif %}
+
+      {% if render_rendercv and site.data.cv and site.data.cv.cv %}
         {% comment %} RenderCV format {% endcomment %}
         {% assign cv = site.data.cv.cv %}
 
@@ -91,10 +113,30 @@ Both formats now use the same unified rendering includes for consistent output
           </div>
         {% endif %}
 
-        <!-- RenderCV Sections -->
+        <!-- RenderCV Sections - Merge Experience and Volunteer -->
+        {% comment %} First, combine Experience and Volunteer entries {% endcomment %}
+        {% assign combined_experience = cv.sections.Experience | concat: cv.sections.Volunteer %}
+        {% if combined_experience.size > 0 %}
+          <a class="anchor" id="experience"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Experience</h3>
+            <div>
+              {% assign entries = combined_experience %}
+              {% include cv/experience.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        {% comment %} Now render all other sections except Experience and Volunteer {% endcomment %}
         {% for section_pair in cv.sections %}
           {% assign section_title = section_pair[0] %}
           {% assign section_entries = section_pair[1] %}
+          
+          {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
+          {% if section_title == 'Experience' or section_title == 'Volunteer' %}
+            {% continue %}
+          {% endif %}
+          
           <a class="anchor" id="{{ section_title | slugify }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
@@ -102,12 +144,6 @@ Both formats now use the same unified rendering includes for consistent output
               {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}
                 {% include cv/education.liquid %}
-              {% elsif section_title == 'Experience' %}
-                {% assign entries = section_entries %}
-                {% include cv/experience.liquid %}
-              {% elsif section_title == 'Volunteer' %}
-                {% assign entries = section_entries %}
-                {% include cv/experience.liquid %}
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
@@ -150,7 +186,7 @@ Both formats now use the same unified rendering includes for consistent output
           </div>
         {% endfor %}
 
-      {% elsif site.data.resume %}
+      {% elsif render_jsonresume and site.data.resume %}
         {% comment %} JSONResume format {% endcomment %}
 
         <!-- Basics/Contact Information -->
@@ -212,14 +248,28 @@ Both formats now use the same unified rendering includes for consistent output
           </div>
         {% endif %}
 
-        <!-- JSONResume Sections -->
+        <!-- JSONResume Sections - Merge work and volunteer into Experience -->
+        {% assign combined_experience = site.data.resume.work | concat: site.data.resume.volunteer %}
+        {% if combined_experience.size > 0 %}
+          <a class="anchor" id="experience"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Experience</h3>
+            <div>
+              {% assign entries = combined_experience %}
+              {% include cv/experience.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Other JSONResume Sections -->
         {% for data in site.data.resume %}
           {% if site.jsonresume and site.jsonresume.size > 0 %}
             {% unless site.jsonresume contains data[0] %}
               {% continue %}
             {% endunless %}
           {% endif %}
-          {% if data[0] == 'basics' or data[0] == 'meta' or data[1].size == 0 %}
+          {% comment %} Skip basics, meta, and sections we've already processed (work, volunteer) {% endcomment %}
+          {% if data[0] == 'basics' or data[0] == 'meta' or data[0] == 'work' or data[0] == 'volunteer' or data[1].size == 0 %}
             {% continue %}
           {% endif %}
 
@@ -231,12 +281,6 @@ Both formats now use the same unified rendering includes for consistent output
                 {% when 'education' %}
                   {% assign entries = data[1] %}
                   {% include cv/education.liquid %}
-                {% when 'work' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/experience.liquid %}
-                {% when 'volunteer' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/experience.liquid %}
                 {% when 'projects' %}
                   {% assign entries = data[1] %}
                   {% include cv/projects.liquid %}
