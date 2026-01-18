@@ -20,6 +20,8 @@
    - **Project site:** Any name (e.g., `my-research-website`)
 3. Click **Create repository from template**
 
+> **Video Tutorial:** Watch a walkthrough of these steps [here](assets/video/tutorial_al_folio.mp4)
+
 ## Step 2: Configure Deployment (1 min)
 
 1. Go to your new repository → **Settings** → **Actions** → **General** → **Workflow permissions**
