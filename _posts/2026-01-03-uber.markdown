@@ -308,7 +308,7 @@ This architecture supports massive scale with strong fault isolation.
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/uber/uber_system_design.png" width="100%">
+    <img src="{{ site.baseurl }}/assets/img/uber/uber_architecture.png" width="100%">
 </div>
 
 ---
@@ -485,19 +485,62 @@ This architecture supports massive scale with strong fault isolation.
 Rider → API Gateway → Trip Service → Ride Matching Service
 ```
 
+<div>
+    <img src="{{ site.baseurl }}/assets/img/uber/rider_request_ride.png" width="100%">
+</div>
+
 ---
 
 ### Flow 2: Driver Accepts a Ride
 
 **Sequence**
-1. Driver App → API Gateway
-2. API Gateway → Trip Service
-3. Trip Service performs transactional state update
-4. Trip Service notifies Push Gateway
+1. Driver App → API Gateway  
+2. API Gateway → Trip Service  
+3. Trip Service validates request and executes **transactional update on Trip DB**  
+4. After commit, Trip Service publishes **event to `trip_events` topic**  
+5. Push Gateway subscribes to event and pushes it **directly to Rider App via WebSocket**  
 
-**Consistency Guarantee**
-- Database transaction or optimistic locking ensures only one driver can accept the trip
+**Payload Example (trip event)**
+```json
+{
+  "trip_id": "123",
+  "status": "MATCHED",
+  "driver_id": "8888-9999",
+  "rider_id": "456"
+}
+```
 
+**Logical Diagram**
+```
+Driver → API Gateway → Trip Service → Kafka → Push Gateway → Rider App
+```
+
+**The Sequence of a Status Update (e.g., Driver Accepts Ride)**
+
+1.  **Write (The Source of Truth)**
+    * The **Driver App** sends a `POST /accept` request to the **Trip Service**.
+    * The **Trip Service** validates the request.
+    * The **Trip Service** executes the `UPDATE trips` transaction on **PostgreSQL**.
+
+2.  **Notify (The Event)**
+    * Immediately after the database transaction commits successfully, the **Trip Service** publishes an event to the internal message bus (Kafka or Redis Pub/Sub).
+    * **Topic:** `trip_events`
+    * **Payload:** `{ "trip_id": "123", "status": "MATCHED", "rider_id": "456" }`
+
+3.  **Push (The Delivery)**
+    * The **Push Gateway** subscribes to the `trip_events` topic.
+    * It consumes the event and looks up the active WebSocket connection for `rider_id: 456`.
+    * It pushes the payload down the WebSocket to the **Rider App**.
+
+**Notes / Highlights**
+- PostgreSQL is never read by the Push Gateway  
+- Push Gateway is stateless, only handles connection and delivery  
+- Event-driven architecture ensures **low latency** and **high DB scalability**
+
+
+<div>
+    <img src="{{ site.baseurl }}/assets/img/uber/driver_accept_ride.png" width="100%">
+</div>
 ---
 
 ### Flow 3: Driver Location Update
@@ -512,6 +555,10 @@ Rider → API Gateway → Trip Service → Ride Matching Service
 ```
 Driver → Gateway → Location Service → Kafka → Redis
 ```
+
+<div>
+    <img src="{{ site.baseurl }}/assets/img/uber/driver_location_update.png" width="100%">
+</div>
 
 ---
 
@@ -530,6 +577,10 @@ Driver → Gateway → Location Service → Kafka → Redis
   "long": -122.4195
 }
 ```
+
+<div>
+    <img src="{{ site.baseurl }}/assets/img/uber/real_time_location_push.png" width="100%">
+</div>
 
 ---
 
