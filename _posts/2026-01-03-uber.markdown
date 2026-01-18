@@ -253,6 +253,9 @@ Because millions of concurrent WebSocket connections cannot be handled by a sing
 4. **Driver Location Service**
    - High-throughput ingestion of location updates (Redis-backed).
 
+5. **Fare Estimation Service**
+   - Calculates the fare of the ride.
+
 This separation avoids shared mutable state and enables independent scaling.
 
 ---
@@ -307,6 +310,237 @@ This architecture supports massive scale with strong fault isolation.
 <div>
     <img src="{{ site.baseurl }}/assets/img/uber/uber_system_design.png" width="100%">
 </div>
+
+---
+
+## Microservices Deep Dive
+
+### API Gateway
+
+**Responsibilities**
+- Authentication and authorization (JWT / OAuth)
+- Request validation and schema enforcement
+- Rate limiting and abuse protection
+- Routing requests to backend microservices
+
+**Interactions**
+- Entry point for Rider and Driver apps
+- Forwards requests to Trip Service, Driver Location Service, and User / Driver Service
+- Contains no business logic
+
+---
+
+### Trip Service
+
+**Responsibilities**
+- Owns the complete trip lifecycle
+- Enforces strong consistency for trip state transitions
+- Guarantees that a trip can be accepted by only one driver
+
+**Owned Data**
+- Trips table (SQL, transactional)
+
+**APIs**
+- `POST /v1/trips`
+- `POST /v1/trips/{trip_id}/accept`
+- `GET /v1/trips/{trip_id}`
+
+**Interactions**
+- Called synchronously by API Gateway
+- Triggers Ride Matching Service asynchronously
+- Publishes trip updates to Push Gateway
+
+---
+
+### Ride Matching Service
+
+**Responsibilities**
+- Finds the optimal available driver for a trip
+- Applies distance, availability, and service-type filters
+- Executes geospatial queries
+
+**Characteristics**
+- Stateless
+- Horizontally scalable
+
+**Interactions**
+- Reads driver locations from Redis
+- Proposes driver assignment to Trip Service
+
+---
+
+### Fare Estimation Service
+
+**Responsibilities**
+- Calculates estimated fare before a ride is booked
+- Applies pricing rules based on distance, time, and service type
+- Incorporates surge multipliers and dynamic pricing
+- Returns a price range to the rider for transparency
+
+**Characteristics**
+- Stateless
+- Pure computation service
+- Horizontally scalable
+
+**Inputs**
+- Pickup location (lat, long)
+- Drop-off location (lat, long)
+- Ride type (uberX, uberXL, etc.)
+- Current surge multiplier
+
+**Outputs**
+- Estimated fare range
+- Pricing breakdown (base fare, distance cost, time cost, surge)
+
+**Interactions**
+- Called synchronously by Trip Service during ride creation
+- May query:
+  - Pricing configuration store
+  - Surge Pricing component (in-memory or Redis)
+
+---
+
+### Driver Location Service
+
+**Responsibilities**
+- Ingests high-volume driver location updates
+- Publishes location events to Kafka
+- Maintains real-time driver positions in Redis
+
+**Owned Data**
+- Redis geospatial sets (ephemeral)
+
+**Interactions**
+- Receives traffic via API Gateway
+- Produces events to Kafka
+- Kafka consumers update Redis using `GEOADD`
+
+---
+
+### User / Driver Service
+
+**Responsibilities**
+- Manages rider and driver profiles
+- Stores ratings and metadata
+- Maintains driver availability status
+
+**Owned Data**
+- Users and drivers (SQL)
+
+**Interactions**
+- Queried by Trip Service and Ride Matching Service
+
+---
+
+### Push Gateway (Connection Manager)
+
+**Responsibilities**
+- Maintains persistent WebSocket connections with riders
+- Pushes real-time trip and driver location updates
+- Scales independently from core backend services
+
+**Interactions**
+- Consumes events from Kafka or internal message bus
+- Delivers updates to connected clients
+
+---
+
+## End-to-End Action Flows
+
+### Flow 1: Rider Requests a Ride
+
+**Sequence**
+1. Rider App → API Gateway
+2. API Gateway → Trip Service
+3. Trip Service → Fare Estimation Service (sync)
+4. Fare Estimation Service returns estimated fare
+5. Trip Service persists trip with status `REQUESTED`
+6. Trip Service triggers Ride Matching Service asynchronously
+
+**Payload Example**
+```json
+{
+  "pickup_lat": 37.7749,
+  "pickup_long": -122.4194,
+  "dropoff_lat": 37.7849,
+  "dropoff_long": -122.4094,
+  "service_type": "uberX"
+}
+```
+
+```json
+{
+  "trip_id": "7645-8732-abcd",
+  "status": "SEARCHING",
+  "estimated_fare": {
+    "min": 22.00,
+    "max": 28.50,
+    "currency": "GBP"
+  }
+}
+```
+
+**Logical Diagram**
+```
+Rider → API Gateway → Trip Service → Ride Matching Service
+```
+
+---
+
+### Flow 2: Driver Accepts a Ride
+
+**Sequence**
+1. Driver App → API Gateway
+2. API Gateway → Trip Service
+3. Trip Service performs transactional state update
+4. Trip Service notifies Push Gateway
+
+**Consistency Guarantee**
+- Database transaction or optimistic locking ensures only one driver can accept the trip
+
+---
+
+### Flow 3: Driver Location Update
+
+**Sequence**
+1. Driver App → API Gateway
+2. API Gateway → Driver Location Service
+3. Driver Location Service publishes event to Kafka
+4. Kafka consumer updates Redis using `GEOADD`
+
+**Logical Diagram**
+```
+Driver → Gateway → Location Service → Kafka → Redis
+```
+
+---
+
+### Flow 4: Real-Time Location Push to Rider
+
+**Sequence**
+1. Location update consumed from Kafka
+2. Push Gateway receives update
+3. Push Gateway sends update via WebSocket to Rider App
+
+**Payload Example**
+```json
+{
+  "driver_id": "d123",
+  "lat": 37.7750,
+  "long": -122.4195
+}
+```
+
+---
+
+## Why This Architecture Works
+
+- Fare estimation is isolated into a dedicated stateless service, allowing pricing logic to evolve independently from trip state management
+- Strong consistency is limited to the Trip Service
+- High-throughput paths are asynchronous and event-driven
+- Redis stores only ephemeral, self-healing state
+- Kafka provides buffering, decoupling, and fan-out
+- Each microservice scales independently
 
 ---
 
