@@ -1,0 +1,190 @@
+/*******************************************************************************
+ * Navigation bar and header customization
+ ******************************************************************************/
+
+@use "variables" as v;
+
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--global-divider-color);
+  background-color: var(--global-bg-color);
+  opacity: 0.95;
+}
+
+.navbar .dropdown-menu,
+.btn-group.dropdown .dropdown-menu {
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+
+  a:not(.active) {
+    color: var(--global-text-color);
+  }
+
+  a:hover {
+    color: var(--global-hover-color);
+  }
+
+  .dropdown-divider {
+    border-top: 1px solid var(--global-divider-color) !important;
+  }
+}
+
+.dropdown-item {
+  color: var(--global-text-color);
+
+  &:hover {
+    color: var(--global-hover-color);
+    background-color: var(--global-bg-color);
+  }
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: var(--global-hover-color);
+  color: var(--global-hover-text-color) !important;
+
+  &:hover {
+    color: var(--global-hover-text-color);
+  }
+}
+
+.navbar.navbar-light {
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .navbar-brand {
+    color: var(--global-text-color);
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    background-color: inherit;
+    font-weight: bolder;
+    color: var(--global-theme-color);
+
+    &:hover {
+      color: var(--global-hover-color);
+    }
+  }
+
+  .navbar-brand.social {
+    padding-bottom: 0;
+    padding-top: 0;
+    font-size: 1.7rem;
+
+    a {
+      img {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-bottom: 0.5rem;
+        // margin: 0.5rem;
+      }
+
+      svg {
+        width: 1.7rem;
+        height: 1.7rem;
+        margin-bottom: 0.5rem;
+
+        image {
+          width: 1.7rem;
+          height: 1.7rem;
+        }
+      }
+
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover {
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+    }
+  }
+}
+
+.navbar-toggler {
+  .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background-color: var(--global-text-color);
+    border-radius: 1px;
+    margin-bottom: 4px;
+    transition: all 0.2s;
+  }
+
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+
+  .middle-bar {
+    opacity: 0;
+  }
+
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+}
+
+.navbar-toggler.collapsed {
+  .top-bar {
+    transform: rotate(0);
+  }
+
+  .middle-bar {
+    opacity: 1;
+  }
+
+  .bottom-bar {
+    transform: rotate(0);
+  }
+}
+
+#light-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+  /* Fix footprint to prevent navbar shifting when icon changes */
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}
+
+@media (min-width: 576px) {
+  #light-toggle {
+    transform: translateY(4px);
+  }
+}
+
+#search-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+
+  &:hover {
+    color: var(--global-hover-color);
+  }
+}

@@ -17,7 +17,17 @@
    (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
 @use "themes";
 @use "layout";
-@use "base";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
 @use "distill";
 @use "cv";
 @use "tabs";
