@@ -101,37 +101,37 @@ Both formats now use the same unified rendering includes for consistent output
             <div>
               {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_education.liquid %}
+                {% include cv/education.liquid %}
               {% elsif section_title == 'Experience' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_experience.liquid %}
+                {% include cv/experience.liquid %}
               {% elsif section_title == 'Volunteer' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_experience.liquid %}
+                {% include cv/experience.liquid %}
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_awards.liquid %}
+                {% include cv/awards.liquid %}
               {% elsif section_title == 'Publications' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_publications.liquid %}
+                {% include cv/publications.liquid %}
               {% elsif section_title == 'Skills' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_skills.liquid %}
+                {% include cv/skills.liquid %}
               {% elsif section_title == 'Languages' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_languages.liquid %}
+                {% include cv/languages.liquid %}
               {% elsif section_title == 'Interests' or section_title == 'Academic Interests' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_interests.liquid %}
+                {% include cv/interests.liquid %}
               {% elsif section_title == 'Certificates' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_certificates.liquid %}
+                {% include cv/certificates.liquid %}
               {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_projects.liquid %}
+                {% include cv/projects.liquid %}
               {% elsif section_title == 'References' %}
                 {% assign entries = section_entries %}
-                {% include cv/unified_references.liquid %}
+                {% include cv/references.liquid %}
               {% else %}
                 <!-- Generic section -->
                 {% for entry in section_entries %}
@@ -230,37 +230,37 @@ Both formats now use the same unified rendering includes for consistent output
               {% case data[0] %}
                 {% when 'education' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_education.liquid %}
+                  {% include cv/education.liquid %}
                 {% when 'work' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_experience.liquid %}
+                  {% include cv/experience.liquid %}
                 {% when 'volunteer' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_experience.liquid %}
+                  {% include cv/experience.liquid %}
                 {% when 'projects' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_projects.liquid %}
+                  {% include cv/projects.liquid %}
                 {% when 'awards' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_awards.liquid %}
+                  {% include cv/awards.liquid %}
                 {% when 'skills' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_skills.liquid %}
+                  {% include cv/skills.liquid %}
                 {% when 'publications' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_publications.liquid %}
+                  {% include cv/publications.liquid %}
                 {% when 'languages' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_languages.liquid %}
+                  {% include cv/languages.liquid %}
                 {% when 'interests' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_interests.liquid %}
+                  {% include cv/interests.liquid %}
                 {% when 'certificates' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_certificates.liquid %}
+                  {% include cv/certificates.liquid %}
                 {% when 'references' %}
                   {% assign entries = data[1] %}
-                  {% include cv/unified_references.liquid %}
+                  {% include cv/references.liquid %}
               {% endcase %}
             </div>
           </div>
