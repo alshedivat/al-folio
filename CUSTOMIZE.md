@@ -221,7 +221,7 @@ Understanding al-folio's technology stack will help you better customize and ext
 - **JavaScript**: Minimal JavaScript is used for interactive features like the dark mode toggle, search functionality, and dynamic content rendering.
 - **MathJax**: For rendering mathematical equations in LaTeX format on your pages and blog posts.
 - **Mermaid**: For creating diagrams (flowcharts, sequence diagrams, etc.) directly in Markdown.
-- **Font Awesome, Academicons, and Tabler Icons**: Icon libraries used throughout the theme for visual elements.
+- **Font Awesome and Academicons**: Icon libraries used throughout the theme for visual elements.
 
 ### Backend
 
@@ -699,7 +699,6 @@ To update a library:
      For detailed instructions on updating specific libraries, see the FAQ:
      - [How can I update Academicons version](FAQ.md#how-can-i-update-academicons-version-on-the-template)
      - [How can I update Font Awesome version](FAQ.md#how-can-i-update-font-awesome-version-on-the-template)
-     - [How can I update Tabler Icons version](FAQ.md#how-can-i-update-tabler-icons-version-on-the-template)
 
 ## Removing content
 

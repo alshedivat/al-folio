@@ -12,7 +12,7 @@ Note that since [#2048](https://github.com/alshedivat/al-folio/pull/2048) al-fol
 
 ### Adding new social media information
 
-To add new social media information, there are a few places you might need to modify. Currently, the template supports icons from [Academicons](https://jpswalsh.github.io/academicons/), [Font Awesome](https://fontawesome.com/), and [Tabler Icons](https://tabler.io/icons). For an example PR, check [Add HAL id to socials](https://github.com/alshedivat/al-folio/pull/3206/files). Note that the information in all these files are alphabetically sorted.
+To add new social media information, there are a few places you might need to modify. Currently, the template supports icons from [Academicons](https://jpswalsh.github.io/academicons/) and [Font Awesome](https://fontawesome.com/). For an example PR, check [Add HAL id to socials](https://github.com/alshedivat/al-folio/pull/3206/files). Note that the information in all these files are alphabetically sorted.
 
 - \_data/socials.yml - your social media information
 - \_includes/metadata.liquid - add social media information to site metadata
