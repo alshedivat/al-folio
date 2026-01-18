@@ -1,0 +1,20 @@
+{% comment %}
+Unified languages entry renderer for both formats
+{% endcomment %}
+
+<div class="card-text font-weight-light">
+  {% for entry in entries %}
+    <div class="language-item">
+      {% if entry.icon %}
+        <i class="{{ entry.icon }}"></i>
+      {% endif %}
+      <strong>{{ entry.language }}:</strong> {{ entry.fluency }}
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+.language-item {
+  padding: 0.5rem 0;
+}
+</style>
