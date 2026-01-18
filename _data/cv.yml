@@ -1,97 +1,95 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+cv:
+  name: Albert Einstein
+  location: Princeton, NJ
+  email: einstein@example.com
+  website: https://example.com
+  social_networks:
+    - network: GitHub
+      username: example
+    - network: LinkedIn
+      username: example
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+  sections:
+    General Information:
+      - bullet: "**Date of Birth:** 14th March 1879"
+      - bullet: "**Languages:** English, German"
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    Education:
+      - institution: University of Zurich
+        area: Physics
+        degree: PhD
+        start_date: 1900
+        end_date: 1905
+        location: Zurich, Switzerland
+        highlights:
+          - Description 1.
+          - Description 2.
+          - "Description 3: Sub-description 1, Sub-description 2."
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+      - institution: Eidgenössische Technische Hochschule
+        area: Physics
+        degree: Federal teaching diploma
+        start_date: 1896
+        end_date: 1900
+        location: Zurich, Switzerland
+        highlights:
+          - Description 1.
+          - Description 2.
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    Experience:
+      - company: Institute for Advanced Study
+        position: Professor of Theoretical Physics
+        location: Princeton University, NJ
+        start_date: 1933
+        end_date: 1955
+        highlights:
+          - Description 1.
+          - Description 2.
+          - "Description 3: Sub-description 1, Sub-description 2."
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+      - company: California Institute of Technology
+        position: Visiting Professor
+        location: Pasadena, California, US
+        start_date: 1933
+        end_date: 1933
+        highlights:
+          - Description 1.
+          - Description 2.
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      - company: Kaiser Wilhelm Institute for Physics
+        position: Director
+        location: Berlin, Germany
+        start_date: 1917
+        end_date: 1933
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
+      - company: Karl-Ferdinand University
+        position: Professor of Theoretical Physics
+        location: Prague, Czechoslovakia
+        start_date: 1911
+        end_date: 1917
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+      - company: University of Zurich
+        position: Associate Professor of Theoretical Physics
+        location: Zurich, Switzerland
+        start_date: 1909
+        end_date: 1911
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    Open Source Projects:
+      - name: al-folio
+        start_date: 2015
+        end_date: present
+        summary: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+        highlights: []
+
+    Honors and Awards:
+      - bullet: "**1921:** Nobel Prize in Physics, Matteucci Medal"
+      - bullet: "**2029:** Max Planck Medal"
+
+    Academic Interests:
+      - label: Topic 1.
+        details: Description 1., Description 2.
+      - label: Topic 2.
+        details: Description 1., Description 2.
+
+    Other Interests:
+      - bullet: "**Hobbies:** Hobby 1, Hobby 2, etc."

@@ -1,7 +1,8 @@
 ---
 layout: default
 ---
-{% unless site.data.resume %}
+{% if site.data.cv.cv %}
+  <!-- RenderCV format -->
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
@@ -28,31 +29,166 @@ layout: default
 
     <article>
       <div class="cv">
-        {% for entry in site.data.cv %}
-          <a class="anchor" id="{{ entry.title }}"></a>
+        {% assign cv = site.data.cv.cv %}
+        
+        <!-- Header Information -->
+        {% if cv.name or cv.location or cv.email %}
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
-            <div>
-              {% if entry.type == 'list' %}
-                {% include cv/list.liquid %}
-              {% elsif entry.type == 'map' %}
-                {% include cv/map.liquid %}
-              {% elsif entry.type == 'nested_list' %}
-                {% include cv/nested_list.liquid %}
-              {% elsif entry.type == 'time_table' %}
-                {% include cv/time_table.liquid %}
-              {% elsif entry.type == 'list_groups' %}
-                {% include cv/list_groups.liquid %}
-              {% else %}
-                {{ entry.contents }}
+            <h3 class="card-title font-weight-medium">Contact Information</h3>
+            <table class="table table-cv table-sm table-borderless">
+              {% if cv.name %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Name</b></td>
+                  <td class="p-1 pl-2 font-weight-light">{{ cv.name }}</td>
+                </tr>
               {% endif %}
+              {% if cv.location %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
+                  <td class="p-1 pl-2 font-weight-light">{{ cv.location }}</td>
+                </tr>
+              {% endif %}
+              {% if cv.email %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
+                  <td class="p-1 pl-2 font-weight-light">{{ cv.email }}</td>
+                </tr>
+              {% endif %}
+              {% if cv.website %}
+                <tr>
+                  <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
+                  <td class="p-1 pl-2 font-weight-light"><a href="{{ cv.website }}" target="_blank">{{ cv.website }}</a></td>
+                </tr>
+              {% endif %}
+            </table>
+          </div>
+        {% endif %}
+
+        <!-- Sections -->
+        {% for section_pair in cv.sections %}
+          {% assign section_title = section_pair[0] %}
+          {% assign section_entries = section_pair[1] %}
+          
+          <a class="anchor" id="{{ section_title | slugify }}"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
+            <div>
+              {% for entry in section_entries %}
+                {% if entry.bullet %}
+                  <!-- BulletEntry -->
+                  <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                  </ul>
+                {% elsif entry.label %}
+                  <!-- OneLineEntry -->
+                  <div class="card-text font-weight-light">
+                    <strong>{{ entry.label }}:</strong> {{ entry.details }}
+                  </div>
+                {% elsif entry.institution %}
+                  <!-- EducationEntry -->
+                  <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 text-left">
+                          {% if entry.start_date or entry.end_date %}
+                            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
+                              {% if entry.start_date %}{{ entry.start_date }}{% endif %}
+                              {% if entry.start_date and entry.end_date %} - {% endif %}
+                              {% if entry.end_date %}{{ entry.end_date }}{% endif %}
+                            </span>
+                          {% endif %}
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-9">
+                          <h6 class="title font-weight-bold">
+                            {% if entry.degree %}{{ entry.degree }} in {% endif %}{{ entry.area | default: '' }}
+                          </h6>
+                          <p class="institution"><strong>{{ entry.institution }}</strong>
+                            {% if entry.location %}<br><i class="fa-solid fa-location-dot"></i> {{ entry.location }}{% endif %}
+                          </p>
+                          {% if entry.highlights %}
+                            <ul class="items">
+                              {% for highlight in entry.highlights %}
+                                <li><span class="item">{{ highlight | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                {% elsif entry.company %}
+                  <!-- ExperienceEntry -->
+                  <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                      <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-3 text-left">
+                          {% if entry.start_date or entry.end_date %}
+                            <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">
+                              {% if entry.start_date %}{{ entry.start_date }}{% endif %}
+                              {% if entry.start_date and entry.end_date %} - {% endif %}
+                              {% if entry.end_date %}{{ entry.end_date }}{% endif %}
+                            </span>
+                          {% endif %}
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-9">
+                          <h6 class="title font-weight-bold">{{ entry.position }}</h6>
+                          <p class="institution"><strong>{{ entry.company }}</strong>
+                            {% if entry.location %}<br><i class="fa-solid fa-location-dot"></i> {{ entry.location }}{% endif %}
+                          </p>
+                          {% if entry.summary %}
+                            <div class="ml-1 ml-md-4">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+                          {% endif %}
+                          {% if entry.highlights %}
+                            <ul class="items">
+                              {% for highlight in entry.highlights %}
+                                <li><span class="item">{{ highlight | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+                              {% endfor %}
+                            </ul>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                {% elsif entry.name %}
+                  <!-- NormalEntry -->
+                  <ul class="card-text font-weight-light list-group list-group-flush">
+                    <li class="list-group-item">
+                      <h6 class="title font-weight-bold">{{ entry.name }}</h6>
+                      {% if entry.start_date or entry.end_date %}
+                        <small>
+                          {% if entry.start_date %}{{ entry.start_date }}{% endif %}
+                          {% if entry.start_date and entry.end_date %} - {% endif %}
+                          {% if entry.end_date %}{{ entry.end_date }}{% endif %}
+                        </small>
+                      {% endif %}
+                      {% if entry.summary %}
+                        <p>{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                      {% endif %}
+                      {% if entry.highlights %}
+                        <ul class="items">
+                          {% for highlight in entry.highlights %}
+                            <li><span class="item">{{ highlight | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
+                    </li>
+                  </ul>
+                {% else %}
+                  <!-- Fallback for text entries -->
+                  {% if entry %}
+                    <ul class="card-text font-weight-light list-group list-group-flush">
+                      <li class="list-group-item">{{ entry | inspect }}</li>
+                    </ul>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
             </div>
           </div>
         {% endfor %}
       </div>
     </article>
   </div>
-{% else %}
+{% elsif site.data.resume %}
   <div class="post">
     <header class="post-header">
       <h1 class="post-title">
@@ -124,4 +260,4 @@ layout: default
       </div>
     </article>
   </div>
-{% endunless %}
+{% endif %}
