@@ -10,7 +10,7 @@ Unified CV layout that handles both RenderCV (YAML) and JSONResume (JSON) format
   - RenderCV data is in site.data.cv.cv
   - JSONResume data is in site.data.resume
   - RenderCV is prioritized if both exist
-Both formats now use the same unified rendering includes for consistent output
+Both formats use the same unified rendering includes for consistent output
 {% endcomment %}
 
 <div class="post">
@@ -42,7 +42,7 @@ Both formats now use the same unified rendering includes for consistent output
       {% comment %} Determine which CV format to render {% endcomment %}
       {% assign render_rendercv = false %}
       {% assign render_jsonresume = false %}
-      
+
       {% if page.cv_format == 'rendercv' %}
         {% assign render_rendercv = true %}
       {% elsif page.cv_format == 'jsonresume' %}
@@ -136,12 +136,12 @@ Both formats now use the same unified rendering includes for consistent output
         {% for section_pair in cv.sections %}
           {% assign section_title = section_pair[0] %}
           {% assign section_entries = section_pair[1] %}
-          
+
           {% comment %} Skip Experience and Volunteer as we've already processed them combined {% endcomment %}
           {% if section_title == 'Experience' or section_title == 'Volunteer' %}
             {% continue %}
           {% endif %}
-          
+
           <a class="anchor" id="{{ section_title | slugify }}"></a>
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">{{ section_title }}</h3>
