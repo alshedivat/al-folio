@@ -1,5 +1,5 @@
 {% comment %}
-Unified projects entry renderer for both formats
+  Unified projects entry renderer for both formats
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
@@ -20,7 +20,9 @@ Unified projects entry renderer for both formats
       {% if entry.highlights %}
         <ul class="items">
           {% for item in entry.highlights %}
-            <li><span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+            <li>
+              <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+            </li>
           {% endfor %}
         </ul>
       {% endif %}

@@ -1,5 +1,5 @@
 {% comment %}
-Unified skills entry renderer for both formats
+  Unified skills entry renderer for both formats
 {% endcomment %}
 
 <div class="card-text font-weight-light">
@@ -8,7 +8,10 @@ Unified skills entry renderer for both formats
       {% if entry.icon %}
         <i class="{{ entry.icon }}"></i>
       {% endif %}
-      <strong>{{ entry.name }}{% if entry.level %} ({{ entry.level }}){% endif %}:</strong>
+      <strong>
+        {{- entry.name -}}
+        {%- if entry.level %} ({{ entry.level }}){% endif %}:</strong
+      >
       {% if entry.keywords %}
         {% for keyword in entry.keywords %}
           {% if forloop.last %}
@@ -23,7 +26,7 @@ Unified skills entry renderer for both formats
 </div>
 
 <style>
-.skill-item {
-  padding: 0.5rem 0;
-}
+  .skill-item {
+    padding: 0.5rem 0;
+  }
 </style>

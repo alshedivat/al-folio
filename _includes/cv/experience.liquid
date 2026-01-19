@@ -1,8 +1,8 @@
 {% comment %}
-Unified work/experience entry renderer for both RenderCV and JSONResume formats
-Handles both:
-- RenderCV: company, position, start_date, end_date, location, url, summary, highlights
-- JSONResume: name, position, startDate, endDate, location, url, summary, highlights
+  Unified work/experience entry renderer for both RenderCV and JSONResume formats
+  Handles both:
+  - RenderCV: company, position, start_date, end_date, location, url, summary, highlights
+  - JSONResume: name, position, startDate, endDate, location, url, summary, highlights
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
@@ -70,13 +70,17 @@ Handles both:
           {% endif %}
 
           {% if entry.summary %}
-            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">
+              {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
+            </h6>
           {% endif %}
 
           {% if entry.highlights %}
             <ul class="items">
               {% for item in entry.highlights %}
-                <li><span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+                <li>
+                  <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+                </li>
               {% endfor %}
             </ul>
           {% endif %}

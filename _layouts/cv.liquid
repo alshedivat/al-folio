@@ -2,15 +2,15 @@
 layout: default
 ---
 {% comment %}
-Unified CV layout that handles both RenderCV (YAML) and JSONResume (JSON) formats
-- If page.cv_format is set, it determines which format to render:
-  - 'rendercv': Load and render only RenderCV data (site.data.cv.cv)
-  - 'jsonresume': Load and render only JSONResume data (site.data.resume)
-- If page.cv_format is not set, the legacy behavior applies:
-  - RenderCV data is in site.data.cv.cv
-  - JSONResume data is in site.data.resume
-  - RenderCV is prioritized if both exist
-Both formats use the same unified rendering includes for consistent output
+  Unified CV layout that handles both RenderCV (YAML) and JSONResume (JSON) formats
+  - If page.cv_format is set, it determines which format to render:
+    - 'rendercv': Load and render only RenderCV data (site.data.cv.cv)
+    - 'jsonresume': Load and render only JSONResume data (site.data.resume)
+  - If page.cv_format is not set, the legacy behavior applies:
+    - RenderCV data is in site.data.cv.cv
+    - JSONResume data is in site.data.resume
+    - RenderCV is prioritized if both exist
+  Both formats use the same unified rendering includes for consistent output
 {% endcomment %}
 
 <div class="post">
@@ -103,7 +103,9 @@ Both formats use the same unified rendering includes for consistent output
               {% if cv.website %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
-                  <td class="p-1 pl-2 font-weight-light"><a href="{{ cv.website }}" target="_blank">{{ cv.website }}</a></td>
+                  <td class="p-1 pl-2 font-weight-light">
+                    <a href="{{ cv.website }}" target="_blank">{{ cv.website }}</a>
+                  </td>
                 </tr>
               {% endif %}
             </table>
@@ -238,7 +240,9 @@ Both formats use the same unified rendering includes for consistent output
               {% if basics.url %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
-                  <td class="p-1 pl-2 font-weight-light"><a href="{{ basics.url }}" target="_blank">{{ basics.url }}</a></td>
+                  <td class="p-1 pl-2 font-weight-light">
+                    <a href="{{ basics.url }}" target="_blank">{{ basics.url }}</a>
+                  </td>
                 </tr>
               {% endif %}
             </table>
@@ -380,4 +384,3 @@ Both formats use the same unified rendering includes for consistent output
     </div>
   </article>
 </div>
-

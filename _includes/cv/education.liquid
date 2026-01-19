@@ -1,8 +1,8 @@
 {% comment %}
-Unified education entry renderer for both RenderCV and JSONResume formats
-Handles both:
-- RenderCV: institution, area, studyType (or degree), start_date, end_date, location, courses, highlights
-- JSONResume: institution, area, studyType, startDate, endDate, location, courses, highlights
+  Unified education entry renderer for both RenderCV and JSONResume formats
+  Handles both:
+  - RenderCV: institution, area, studyType (or degree), start_date, end_date, location, courses, highlights
+  - JSONResume: institution, area, studyType, startDate, endDate, location, courses, highlights
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
@@ -75,10 +75,14 @@ Handles both:
           {% if entry.courses or entry.highlights %}
             <ul class="items">
               {% for item in entry.courses %}
-                <li><span class="item">{{ item }}</span></li>
+                <li>
+                  <span class="item">{{ item }}</span>
+                </li>
               {% endfor %}
               {% for item in entry.highlights %}
-                <li><span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span></li>
+                <li>
+                  <span class="item">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+                </li>
               {% endfor %}
             </ul>
           {% endif %}

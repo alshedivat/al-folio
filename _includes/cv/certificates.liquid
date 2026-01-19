@@ -1,5 +1,5 @@
 {% comment %}
-Unified certificates entry renderer for both formats
+  Unified certificates entry renderer for both formats
 {% endcomment %}
 
 <ul class="card-text font-weight-light list-group list-group-flush">
@@ -9,7 +9,9 @@ Unified certificates entry renderer for both formats
         <i class="{{ entry.icon }}"></i>
       {% endif %}
       {% if entry.url %}
-        <strong><a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a></strong>
+        <strong
+          ><a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a></strong
+        >
       {% else %}
         <strong>{{ entry.name }}</strong>
       {% endif %}
