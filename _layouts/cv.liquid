@@ -89,10 +89,15 @@ Both formats now use the same unified rendering includes for consistent output
                   <td class="p-1 pl-2 font-weight-light">{{ cv.phone }}</td>
                 </tr>
               {% endif %}
-              {% if cv.location %}
+              {% if cv.address %}
                 <tr>
                   <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ cv.location }}</td>
+                  <td class="p-1 pl-2 font-weight-light">
+                    {% if cv.address.street %}{{ cv.address.street }}, {% endif %}
+                    {% if cv.address.city %}{{ cv.address.city }}, {% endif %}
+                    {% if cv.address.region %}{{ cv.address.region }} {% endif %}
+                    {% if cv.address.postalCode %}{{ cv.address.postalCode }}{% endif %}
+                  </td>
                 </tr>
               {% endif %}
               {% if cv.website %}
@@ -189,7 +194,7 @@ Both formats now use the same unified rendering includes for consistent output
       {% elsif render_jsonresume and site.data.resume %}
         {% comment %} JSONResume format {% endcomment %}
 
-        <!-- Basics/Contact Information -->
+        <!-- Contact Information -->
         {% if site.data.resume.basics %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Contact Information</h3>
@@ -261,54 +266,114 @@ Both formats now use the same unified rendering includes for consistent output
           </div>
         {% endif %}
 
-        <!-- Other JSONResume Sections -->
-        {% for data in site.data.resume %}
-          {% if site.jsonresume and site.jsonresume.size > 0 %}
-            {% unless site.jsonresume contains data[0] %}
-              {% continue %}
-            {% endunless %}
-          {% endif %}
-          {% comment %} Skip basics, meta, and sections we've already processed (work, volunteer) {% endcomment %}
-          {% if data[0] == 'basics' or data[0] == 'meta' or data[0] == 'work' or data[0] == 'volunteer' or data[1].size == 0 %}
-            {% continue %}
-          {% endif %}
-
-          <a class="anchor" id="{{ data[0] }}"></a>
+        <!-- Education -->
+        {% if site.data.resume.education.size > 0 %}
+          <a class="anchor" id="education"></a>
           <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">{{ data[0] | capitalize }}</h3>
+            <h3 class="card-title font-weight-medium">Education</h3>
             <div>
-              {% case data[0] %}
-                {% when 'education' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/education.liquid %}
-                {% when 'projects' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/projects.liquid %}
-                {% when 'awards' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/awards.liquid %}
-                {% when 'skills' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/skills.liquid %}
-                {% when 'publications' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/publications.liquid %}
-                {% when 'languages' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/languages.liquid %}
-                {% when 'interests' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/interests.liquid %}
-                {% when 'certificates' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/certificates.liquid %}
-                {% when 'references' %}
-                  {% assign entries = data[1] %}
-                  {% include cv/references.liquid %}
-              {% endcase %}
+              {% assign entries = site.data.resume.education %}
+              {% include cv/education.liquid %}
             </div>
           </div>
-        {% endfor %}
+        {% endif %}
+
+        <!-- Awards -->
+        {% if site.data.resume.awards.size > 0 %}
+          <a class="anchor" id="awards"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Awards</h3>
+            <div>
+              {% assign entries = site.data.resume.awards %}
+              {% include cv/awards.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Publications -->
+        {% if site.data.resume.publications.size > 0 %}
+          <a class="anchor" id="publications"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Publications</h3>
+            <div>
+              {% assign entries = site.data.resume.publications %}
+              {% include cv/publications.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Skills -->
+        {% if site.data.resume.skills.size > 0 %}
+          <a class="anchor" id="skills"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Skills</h3>
+            <div>
+              {% assign entries = site.data.resume.skills %}
+              {% include cv/skills.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Languages -->
+        {% if site.data.resume.languages.size > 0 %}
+          <a class="anchor" id="languages"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Languages</h3>
+            <div>
+              {% assign entries = site.data.resume.languages %}
+              {% include cv/languages.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Interests -->
+        {% if site.data.resume.interests.size > 0 %}
+          <a class="anchor" id="interests"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Interests</h3>
+            <div>
+              {% assign entries = site.data.resume.interests %}
+              {% include cv/interests.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Certificates -->
+        {% if site.data.resume.certificates.size > 0 %}
+          <a class="anchor" id="certificates"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Certificates</h3>
+            <div>
+              {% assign entries = site.data.resume.certificates %}
+              {% include cv/certificates.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- Projects -->
+        {% if site.data.resume.projects.size > 0 %}
+          <a class="anchor" id="projects"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Projects</h3>
+            <div>
+              {% assign entries = site.data.resume.projects %}
+              {% include cv/projects.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
+        <!-- References -->
+        {% if site.data.resume.references.size > 0 %}
+          <a class="anchor" id="references"></a>
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">References</h3>
+            <div>
+              {% assign entries = site.data.resume.references %}
+              {% include cv/references.liquid %}
+            </div>
+          </div>
+        {% endif %}
+
       {% else %}
         <p>No CV data found. Please configure either RenderCV (cv.yml) or JSONResume (resume.json) data.</p>
       {% endif %}
