@@ -7,7 +7,7 @@ Unified awards entry renderer for both formats
     <li class="list-group-item">
       <div class="row">
         {% capture start_date %}
-          {% if entry.date %}{{ entry.date }}{% elsif entry.date %}{{ entry.date }}{% endif %}
+          {% if entry.date %}{{ entry.date }}{% endif %}
         {% endcapture %}
 
         {% if start_date != '' %}
