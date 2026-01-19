@@ -5,7 +5,6 @@
     "image": "",
     "email": "einstein@example.com",
     "phone": "(912) 123-4567",
-    "url": "https://example.com",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
       "address": "2712 Broadway St",
@@ -14,13 +13,7 @@
       "countryCode": "US",
       "region": "California"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    "profiles": []
   },
   "work": [
     {
@@ -45,7 +38,6 @@
       "name": "Kaiser Wilhelm Institute for Physics",
       "position": "Director",
       "location": "Berlin, Germany",
-      "url": "",
       "startDate": "1917-01-01",
       "endDate": "1933-01-01",
       "summary": "",
@@ -55,7 +47,6 @@
       "name": "Karl-Ferdinand University",
       "position": "Professor of Theoretical Physics",
       "location": "Prague, Czechoslovakia",
-      "url": "",
       "startDate": "1911-01-01",
       "endDate": "1917-01-01",
       "summary": "",
@@ -65,7 +56,6 @@
       "name": "University of Zurich",
       "position": "Associate Professor of Theoretical Physics",
       "location": "Zurich, Switzerland",
-      "url": "",
       "startDate": "1909-01-01",
       "endDate": "1911-01-01",
       "summary": "",
@@ -99,7 +89,6 @@
     {
       "institution": "Eidgenössische Technische Hochschule",
       "location": "Zurich, Switzerland",
-      "url": "",
       "area": "Physics",
       "studyType": "Federal teaching diploma",
       "startDate": "1896-01-01",
@@ -121,7 +110,6 @@
       "title": "Max Planck Medal",
       "date": "2029-01-01",
       "awarder": "German Physical Society",
-      "url": "",
       "summary": ""
     }
   ],
@@ -130,21 +118,18 @@
       "name": "Machine Learning",
       "date": "2018-01-01",
       "issuer": "Stanford University",
-      "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
     },
     {
       "name": "Quantum Computing",
       "date": "2018-01-01",
       "issuer": "Stanford University",
-      "url": "https://example.com",
       "icon": "fa-solid fa-tag"
     },
     {
       "name": "Quantum Information",
       "date": "2018-01-01",
       "issuer": "Stanford University",
-      "url": "https://example.com",
       "icon": "fa-solid fa-envelope"
     }
   ],
@@ -230,8 +215,7 @@
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
       "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
       "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "endDate": "2018-01-01"
     }
   ]
 }

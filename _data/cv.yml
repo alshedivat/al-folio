@@ -3,7 +3,6 @@ cv:
   label: Scientist
   email: einstein@example.com
   location: Princeton, NJ
-  website: https://example.com
   image: ""
   summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
@@ -159,19 +158,16 @@ cv:
       - name: Machine Learning
         date: 2018-01-01
         issuer: Stanford University
-        url: https://example.com
         icon: fa-solid fa-location-dot
 
       - name: Quantum Computing
         date: 2018-01-01
         issuer: Stanford University
-        url: https://example.com
         icon: fa-solid fa-tag
 
       - name: Quantum Information
         date: 2018-01-01
         issuer: Stanford University
-        url: https://example.com
         icon: fa-solid fa-envelope
 
     Projects:
@@ -182,7 +178,6 @@ cv:
           - Quantum Cryptography
         start_date: 2018-01-01
         end_date: 2018-01-01
-        url: https://example.com
 
     References:
       - name: Professor John Doe
