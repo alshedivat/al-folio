@@ -51,7 +51,6 @@ cv:
       - company: Institute for Advanced Study, Princeton University
         position: Professor of Theoretical Physics
         location: Princeton University, NJ
-        url: https://example.com
         start_date: 1933
         end_date: 1955
         summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
@@ -62,7 +61,6 @@ cv:
       - company: California Institute of Technology
         position: Visiting Professor
         location: Pasadena, California, US
-        url: https://example.com
         start_date: 1933
         end_date: 1933
         highlights:
@@ -91,7 +89,6 @@ cv:
       - company: People's Climate March
         position: Lead Organizer
         location: Zurich, Switzerland
-        url: https://example.com
         start_date: 2014-04-01
         end_date: 2015-07-01
         summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
