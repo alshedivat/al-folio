@@ -271,7 +271,7 @@ If you installed **al-folio** as described above, you can manually update your c
 # Assuming the current directory is <your-repo-name>
 $ git remote add upstream https://github.com/alshedivat/al-folio.git
 $ git fetch upstream
-$ git rebase v0.16.2
+$ git rebase v0.16.3
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.
