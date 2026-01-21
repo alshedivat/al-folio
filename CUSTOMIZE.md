@@ -308,7 +308,7 @@ If you keep both CV files in your repository, you can switch which format displa
 ```yaml
 ---
 layout: cv
-cv_format: rendercv  # options: rendercv or jsonresume
+cv_format: rendercv # options: rendercv or jsonresume
 ---
 ```
 
