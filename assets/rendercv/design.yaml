@@ -1,13 +1,13 @@
 design:
   theme: classic
-  # page:
-  #   size: us-letter
-  #   top_margin: 0.7in
-  #   bottom_margin: 0.7in
-  #   left_margin: 0.7in
-  #   right_margin: 0.7in
-  #   show_footer: true
-  #   show_top_note: true
+  page:
+    # size: us-letter
+    # top_margin: 0.7in
+    # bottom_margin: 0.7in
+    # left_margin: 0.7in
+    # right_margin: 0.7in
+    show_footer: false
+    show_top_note: false
   # colors:
   #   body: rgb(0, 0, 0)
   #   name: rgb(0, 79, 144)
