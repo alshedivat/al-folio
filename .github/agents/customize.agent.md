@@ -21,15 +21,17 @@ You are an expert customization assistant for the al-folio Jekyll academic websi
 - **Deployment:** GitHub Pages (automated via GitHub Actions)
 - **File Structure:**
   - `_config.yml` – Main site configuration (URL, metadata, theme colors, enabled features)
-  - `_data/` – YAML data files (CV info, social links, repository links, coauthors)
+  - `_data/` – YAML data files (CV info in RenderCV format, social links, repository links, coauthors)
   - `_pages/` – Site pages (About, Blog, Projects, Publications, CV, etc.)
   - `_posts/` – Blog posts in Markdown (format: `YYYY-MM-DD-title.md`)
   - `_projects/` – Project pages in Markdown
   - `_news/` – News/announcement items
   - `_bibliography/papers.bib` – Publications in BibTeX format
   - `_sass/` – SCSS/SASS stylesheets (colors, themes, layout)
-  - `assets/` – Static assets (images, PDFs, JSON resume, custom CSS/JS)
-  - `.github/workflows/` – GitHub Actions for deployment and CI/CD
+  - `assets/` – Static assets (images, PDFs, custom CSS/JS)
+    - `assets/json/resume.json` – JSONResume format (synced with `_data/cv.yml`)
+    - `assets/rendercv/` – RenderCV configuration and generated PDFs
+  - `.github/workflows/` – GitHub Actions for deployment and CI/CD (includes CV PDF generation)
 
 ## Community Context & Issue/Discussion References
 
@@ -132,11 +134,14 @@ npx prettier . --write
 
 ### 4. CV/Resume
 
-**Files:** `assets/json/resume.json` OR `_data/cv.yml`
+**Files:** `_data/cv.yml` (RenderCV format), `assets/json/resume.json` (JSONResume format), `assets/rendercv/` (configuration)
 
-- Use JSON format (jsonresume.org standard) in `assets/json/resume.json`
-- Or use YAML format in `_data/cv.yml` (delete resume.json to use this)
-- Add education, work experience, skills, awards, publications
+- **Choose your format:** Users select either RenderCV (`_data/cv.yml`) or JSONResume (`assets/json/resume.json`) — they pick ONE format
+- **Delete the unused format:** Remove the file for the format you're not using (so only one source exists) if you want to avoid confusion
+- **RenderCV features:** Automatic PDF generation via GitHub Actions, customizable styling via `assets/rendercv/` config files (`design.yaml`, `locale.yaml`, `settings.yaml`)
+- **JSONResume features:** Standard format compatible with other tools and services
+- **Switching formats:** Users can change which format displays on the CV page by editing the `cv_format` setting in `_pages/cv.md` frontmatter
+- **Note about both files:** Both files exist in the repository for template flexibility, but users usually only maintain the one they choose
 
 ### 5. Publications
 
@@ -470,24 +475,24 @@ Help users avoid these frequent errors:
 
 ## Quick Reference Map
 
-| User wants to...        | Files to modify                             | Key documentation                 |
-| ----------------------- | ------------------------------------------- | --------------------------------- |
-| Change personal info    | `_config.yml`, `_pages/about.md`            | CUSTOMIZE.md § Configuration      |
-| Add profile picture     | `assets/img/prof_pic.jpg`                   | CUSTOMIZE.md § About page         |
-| Update CV               | `assets/json/resume.json` OR `_data/cv.yml` | CUSTOMIZE.md § CV information     |
-| Add publications        | `_bibliography/papers.bib`                  | CUSTOMIZE.md § Publications       |
-| Add blog post           | `_posts/YYYY-MM-DD-title.md`                | CUSTOMIZE.md § Blog posts         |
-| Create project          | `_projects/name.md`                         | CUSTOMIZE.md § Projects           |
-| Add news item           | `_news/announcement.md`                     | CUSTOMIZE.md § News               |
-| Change theme color      | `_sass/_themes.scss`                        | CUSTOMIZE.md § Theme colors       |
-| Add social links        | `_data/socials.yml`                         | CUSTOMIZE.md § Social media       |
-| Enable/disable features | `_config.yml`                               | CUSTOMIZE.md § Configuration      |
-| Remove pages            | Delete from `_pages/`, update nav           | CUSTOMIZE.md § Removing content   |
-| Fix deployment issues   | `_config.yml` (url/baseurl)                 | FAQ.md, INSTALL.md                |
-| Test changes locally    | Docker setup                                | INSTALL.md § Docker               |
-| Debug broken site       | Check GitHub Actions, local preview output  | FAQ.md, Testing Before Deployment |
-| Add custom page         | Create `_pages/name.md`, update nav         | CUSTOMIZE.md § Creating pages     |
-| Customize fonts/spacing | `_sass/_variables.scss`                     | CUSTOMIZE.md § Customization      |
+| User wants to...        | Files to modify                                                     | Key documentation                 |
+| ----------------------- | ------------------------------------------------------------------- | --------------------------------- |
+| Change personal info    | `_config.yml`, `_pages/about.md`                                    | CUSTOMIZE.md § Configuration      |
+| Add profile picture     | `assets/img/prof_pic.jpg`                                           | CUSTOMIZE.md § About page         |
+| Update CV               | `_data/cv.yml` (RenderCV) or `assets/json/resume.json` (JSONResume) | CUSTOMIZE.md § CV information     |
+| Add publications        | `_bibliography/papers.bib`                                          | CUSTOMIZE.md § Publications       |
+| Add blog post           | `_posts/YYYY-MM-DD-title.md`                                        | CUSTOMIZE.md § Blog posts         |
+| Create project          | `_projects/name.md`                                                 | CUSTOMIZE.md § Projects           |
+| Add news item           | `_news/announcement.md`                                             | CUSTOMIZE.md § News               |
+| Change theme color      | `_sass/_themes.scss`                                                | CUSTOMIZE.md § Theme colors       |
+| Add social links        | `_data/socials.yml`                                                 | CUSTOMIZE.md § Social media       |
+| Enable/disable features | `_config.yml`                                                       | CUSTOMIZE.md § Configuration      |
+| Remove pages            | Delete from `_pages/`, update nav                                   | CUSTOMIZE.md § Removing content   |
+| Fix deployment issues   | `_config.yml` (url/baseurl)                                         | FAQ.md, INSTALL.md                |
+| Test changes locally    | Docker setup                                                        | INSTALL.md § Docker               |
+| Debug broken site       | Check GitHub Actions, local preview output                          | FAQ.md, Testing Before Deployment |
+| Add custom page         | Create `_pages/name.md`, update nav                                 | CUSTOMIZE.md § Creating pages     |
+| Customize fonts/spacing | `_sass/_variables.scss`                                             | CUSTOMIZE.md § Customization      |
 
 ## Using Community Context in Your Responses
 
