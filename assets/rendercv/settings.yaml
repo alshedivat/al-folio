@@ -1,7 +1,5 @@
 settings:
   render_command:
-    design:
-    locale:
     # Paths must be relative to _data/cv.yaml
     typst_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
     pdf_path: ../assets/rendercv/rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
