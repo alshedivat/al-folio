@@ -22,7 +22,7 @@ document.addEventListener("readystatechange", () => {
         backup.after(chartElement);
 
         /* create google charts */
-        var chart = new google.visualization.ChartWrapper(jsonData);
+        const chart = new google.visualization.ChartWrapper(jsonData);
         chart.draw();
       });
     }
