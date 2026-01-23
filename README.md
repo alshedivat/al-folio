@@ -179,6 +179,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://jucheval.github.io/" target="_blank">★</a>
 <a href="https://j1yoo.github.io/" target="_blank">★</a>
 <a href="https://zhoji.github.io/" target="_blank">★</a>
+<a href="https://smsnobin77.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
