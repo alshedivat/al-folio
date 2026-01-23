@@ -200,9 +200,9 @@ html[data-theme-setting="light"] {
 }
 
 #light-toggle:hover .fa-half-sun-moon::before {
-  color: #{v.$purple-color};
+  color: var(--global-theme-color);
 }
 
 #light-toggle:hover .fa-half-sun-moon::after {
-  color: #{v.$purple-color};
+  color: var(--global-theme-color);
 }
