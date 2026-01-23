@@ -22,6 +22,10 @@ Here we will give you some tips on how to customize the website. One important t
     - [Build and Deployment](#build-and-deployment)
     - [Key Integration Points](#key-integration-points)
   - [Modifying the CV information](#modifying-the-cv-information)
+    - [RenderCV Format (Recommended)](#rendercv-format-recommended)
+    - [JSONResume Format](#jsonresume-format)
+    - [Switching CV Sources (Without Deleting Files)](#switching-cv-sources-without-deleting-files)
+    - [Automatic PDF Generation (RenderCV only)](#automatic-pdf-generation-rendercv-only)
   - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
     - [Configuring external service URLs](#configuring-external-service-urls)
   - [Creating new pages](#creating-new-pages)
@@ -274,9 +278,64 @@ Understanding how these technologies work together will help you customize al-fo
 
 ## Modifying the CV information
 
-There are currently 2 different ways of generating the CV page content. The first one is by using a json file located in [assets/json/resume.json](assets/json/resume.json). It is a [known standard](https://jsonresume.org/) for creating a CV programmatically. The second one, currently used as a fallback when the json file is not found, is by using a yml file located in [\_data/cv.yml](_data/cv.yml). This was the original way of creating the CV page content and since it is more human readable than a json file we decided to keep it as an option.
+Your CV can be created using one of two formats. Choose the format that works best for you:
 
-What this means is, if there is no resume data defined in [\_config.yml](_config.yml) and loaded via a json file, it will load the contents of [\_data/cv.yml](_data/cv.yml). If you want to use the [\_data/cv.yml](_data/cv.yml) file as the source of your CV, you must delete the [assets/json/resume.json](assets/json/resume.json) file.
+### RenderCV Format (Recommended)
+
+[`_data/cv.yml`](_data/cv.yml) uses the [RenderCV](https://rendercv.com/) YAML format, which is human-readable and designed specifically for generating professional resumes. This format also enables optional automatic PDF generation via GitHub Actions.
+
+**If you choose this format:**
+
+1. Edit your CV data in [`_data/cv.yml`](_data/cv.yml)
+2. Delete [`assets/json/resume.json`](assets/json/resume.json) so the website uses the YAML file
+3. (Optional) Customize how the PDF is styled by editing:
+   - [`assets/rendercv/design.yaml`](assets/rendercv/design.yaml) — Design and styling
+   - [`assets/rendercv/locale.yaml`](assets/rendercv/locale.yaml) — Localization and formatting
+   - [`assets/rendercv/settings.yaml`](assets/rendercv/settings.yaml) — RenderCV settings
+
+### JSONResume Format
+
+[`assets/json/resume.json`](assets/json/resume.json) uses the [JSONResume](https://jsonresume.org/) standard format, which is compatible with other tools and services.
+
+**If you choose this format:**
+
+1. Edit your CV data in [`assets/json/resume.json`](assets/json/resume.json)
+2. Delete [`_data/cv.yml`](_data/cv.yml) so the website uses the JSON file
+
+### Switching CV Sources (Without Deleting Files)
+
+If you keep both CV files in your repository, you can switch which format displays on your website by setting the `cv_format` variable in the frontmatter of [`_pages/cv.md`](_pages/cv.md):
+
+```yaml
+---
+layout: cv
+cv_format: rendercv # options: rendercv or jsonresume
+---
+```
+
+Change `rendercv` to `jsonresume` to display the JSONResume format instead.
+
+### Automatic PDF Generation (RenderCV only)
+
+If you use the RenderCV format, a GitHub Actions workflow can automatically generate a PDF version of your CV whenever you push changes to [`_data/cv.yml`](_data/cv.yml). The PDF is saved to `assets/rendercv/rendercv_output/`.
+
+**To link the auto-generated PDF to your CV page:**
+
+Set the `cv_pdf` variable in the frontmatter of [`_pages/cv.md`](_pages/cv.md) to point to the generated PDF:
+
+```yaml
+---
+layout: cv
+cv_pdf: /assets/rendercv/rendercv_output/CV.pdf
+cv_format: rendercv
+---
+```
+
+This will add a download button on your CV page that links to the PDF. (The exact filename depends on your RenderCV settings—check the output directory after the first workflow run to see the generated PDF name.)
+
+**To disable automatic PDF generation:**
+
+Delete or comment out the [`.github/workflows/render-cv.yml`](.github/workflows/render-cv.yml) workflow file.
 
 ## Modifying the user and repository information
 

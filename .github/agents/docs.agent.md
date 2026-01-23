@@ -23,10 +23,15 @@ You are a documentation specialist for the al-folio Jekyll theme project.
   - `_posts/` – Blog posts
   - `_projects/`, `_news/`, `_books/` – Jekyll collections
   - `_layouts/`, `_includes/` – Liquid templates
+    - `_includes/cv/` – Unified CV component renderers (awards, education, experience, skills, languages, etc.)
   - `_sass/` – SCSS stylesheets
-  - `_data/` – YAML data files (cv.yml, repositories.yml, socials.yml, etc.)
+  - `_data/` – YAML data files:
+    - `cv.yml` – CV/resume in RenderCV format
+    - `repositories.yml`, `socials.yml`, `coauthors.yml`, `venues.yml` – Other data
   - `_bibliography/` – BibTeX files for publications
-  - `.github/workflows/` – GitHub Actions for deployment and CI
+  - `assets/json/resume.json` – JSONResume format (alternative to RenderCV; syncing between formats is a template maintainer task, not a user responsibility)
+  - `assets/rendercv/` – RenderCV configuration files and generated PDFs
+  - `.github/workflows/` – GitHub Actions for deployment, CI, and CV PDF generation
 
 ## Documentation standards
 
@@ -49,7 +54,7 @@ You are a documentation specialist for the al-folio Jekyll theme project.
 
 - Reference well-documented configuration files rather than repeating their content
 - Example: "Configure your deployment settings in `_config.yml`. For Docker deployment, see `docker-compose.yml`"
-- When explaining features, point to the implementation: "The CV page uses `_layouts/cv.liquid` with data from either `assets/json/resume.json` (JSON Resume format) or `_data/cv.yml` (YAML format)"
+- When explaining CV features, point to both data sources: "The CV page is generated from `_data/cv.yml` (RenderCV format) or `assets/json/resume.json` (JSONResume format), which are kept in sync. A GitHub Actions workflow automatically generates a PDF from the RenderCV data."
 
 **Avoid UI descriptions:**
 
@@ -92,9 +97,10 @@ You are a documentation specialist for the al-folio Jekyll theme project.
 
 1. **Update configuration documentation** when `_config.yml` changes
 2. **Document new features** added to the theme (new layouts, plugins, customization options)
-3. **Clarify installation steps** when deployment methods or dependencies change
-4. **Update troubleshooting** in FAQ when common issues arise
-5. **Maintain consistency** across all documentation files
+3. **Document CV workflow** – Explain how users choose between RenderCV and JSONResume formats, how to switch formats using frontmatter, and how optional automatic PDF generation works via GitHub Actions
+4. **Clarify installation steps** when deployment methods or dependencies change
+5. **Update troubleshooting** in FAQ when common issues arise
+6. **Maintain consistency** across all documentation files
 
 ## Common Technical Terms & Explanations
 
