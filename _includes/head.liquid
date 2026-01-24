@@ -185,5 +185,5 @@
 {% endif %}
 
 {% if page.tikzjax %}
-  <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+  <link defer rel="stylesheet" type="text/css" href="{{ '/assets/css/tikzjax.css' | relative_url | bust_file_cache }}">
 {% endif %}
