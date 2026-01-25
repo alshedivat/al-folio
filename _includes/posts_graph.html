@@ -1,0 +1,393 @@
+<!-- posts_graph.html -->
+<style>
+  /* Links or Edges */
+  .links line { stroke: #c0bdbd; opacity: 0.9; }
+  .links line.hovered { stroke-width: 2.5px; opacity: 1; }
+  .links line.inactive { opacity: 0.3; }
+
+  /* Nodes */
+  .nodes circle { cursor: pointer; } 
+  .nodes circle.post-node { fill: #8b88e6; }
+  .nodes circle.meta-node { fill: #58b487; }
+
+  /* Text Labels */
+  .text text {
+    font-size: 12px;
+    font-family: sans-serif;
+    pointer-events: none;
+    opacity: 0.8;
+    font-weight: normal;
+  }
+  .text text[data-type="post"] { fill: #8b88e6; }
+  .text text[data-type="meta"] { fill: #58b487; }
+
+  /* Hover States */  
+  .text text.hovered { 
+    font-weight: bold;
+    opacity: 1;
+    font-size: 14px;
+  }
+  .nodes circle.hovered { stroke: #000; stroke-width: 2px; }
+  .links line.hovered { stroke-width: 2.5px; opacity: 1; }
+
+  /* Dim inactive items */
+  .nodes circle.inactive { opacity: 0.3; }
+  .links line.inactive { opacity: 0.2; }
+  .text text.inactive { opacity: 0.3; }
+
+#{{ include.graph_id }}-wrapper {
+  border-radius: 8px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#{{ include.graph_id }}-wrapper > svg {
+  width: 100%;
+  height: auto;      /* allow dynamic height */
+  aspect-ratio: 2;   /*  dynamic height based on width (2:1 ratio) */
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+  /* Controls */
+  #{{ include.graph_id }}-controls { margin-bottom: 10px; text-align: center; }
+  #{{ include.graph_id }}-controls input {
+    padding: 6px 10px; border-radius: 6px;
+    border: 1px solid #ccc; margin-right: 8px;
+  }
+  #{{ include.graph_id }}-controls button {
+    padding: 6px 12px; border-radius: 6px;
+    border: none; background: #8b88e6; color: white; cursor: pointer;
+  }
+  #{{ include.graph_id }}-controls button:hover { background: #5d5ae6; }
+
+  /* Dark Mode */
+  [data-theme="dark"] .nodes circle.hovered { stroke: #fff; }
+  [data-theme="light"] .nodes circle.hovered { stroke: #000; }
+</style>
+
+<div id="{{ include.graph_id }}-wrapper" class="graph-wrapper">
+  {% if include.show_controls != false %}
+  <div id="{{ include.graph_id }}-controls"
+       style="display:flex;justify-content:center;gap:5px;">
+    <input type="text" id="{{ include.graph_id }}-search"
+           placeholder="Enter node name..." />
+    <button id="{{ include.graph_id }}-filterBtn">Filter</button>
+    <button id="{{ include.graph_id }}-resetBtn">Reset</button>
+  </div>
+  {% endif %}
+</div>
+
+<script>
+  window.addEventListener("load", loadGraph);
+
+  function loadGraph() {
+    const script = document.createElement("script");
+    script.src = "https://cdnjs.cloudflare.com/ajax/libs/d3/5.16.0/d3.min.js";
+    script.crossOrigin = "anonymous";
+    script.integrity =
+      "sha512-FHsFVKQ/T1KWJDGSbrUhTJyS1ph3eRrxI228ND0EGaEp6v4a/vGwPWd3Dtd/+9cI7ccofZvl/wulICEurHN1pg==";
+    document.body.appendChild(script);
+
+    script.onload = () => {
+      /* Config */
+      const MINIMAL_NODE_SIZE = 8;
+      const MAX_NODE_SIZE = 12;
+      const STROKE = 1;
+      const MAX_LABEL_LENGTH = 30; // 50
+
+      /* Graph Data */
+      const graphData = {% include posts_graph.json %};
+    let nodesData = graphData.nodes;
+    let linksData = graphData.edges;
+
+    let filteredNodes = nodesData;
+    let filteredLinks = linksData;
+
+    /* Node Sizes */
+    const nodeSize = {};
+    const updateNodeSize = () => {
+      nodesData.forEach(el => {
+        const weight =
+          3 * Math.sqrt(
+            linksData.filter(l =>
+              l.source.id === el.id || l.target.id === el.id
+            ).length + 1
+          );
+        nodeSize[el.id] =
+          Math.min(Math.max(weight, MINIMAL_NODE_SIZE), MAX_NODE_SIZE);
+      });
+    };
+
+    const onClick = d => { if (d.path) window.location = d.path; };     /* Interaction */
+
+
+    const onMouseover = d => {
+      const relatedNodes = new Set();
+      relatedNodes.add(d.id);
+
+      filteredLinks.forEach(l => {
+        const s = l.source.id || l.source;
+        const t = l.target.id || l.target;
+        if (s === d.id || t === d.id) {
+          relatedNodes.add(s);
+          relatedNodes.add(t);
+        }
+      });
+
+      /* Highlight active items & dim others */
+      node.attr("class", nd =>
+        relatedNodes.has(nd.id)
+          ? (nd.type === "post" ? "nodes circle post-node hovered" : "nodes circle meta-node hovered")
+          : "nodes circle inactive"
+      );
+
+      text.attr("class", tx =>
+        relatedNodes.has(tx.id) ? "hovered" : "inactive"
+      );
+
+      link.attr("class", lk =>
+        lk.source.id === d.id || lk.target.id === d.id
+          ? "hovered"
+          : "inactive"
+      );
+    };
+
+
+    const onMouseout = () => {
+      node.attr("class", d =>
+        d.type === "post"
+          ? "nodes circle post-node"
+          : "nodes circle meta-node"
+      );
+      text.attr("class", "");
+      link.attr("class", "");
+    };
+
+    /* SVG Setup with Fixed IDs */
+    const graphWrapperId = "{{ include.graph_id }}-wrapper";
+    const graphWrapper = document.getElementById(graphWrapperId);
+    const svgEl = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    graphWrapper.appendChild(svgEl);
+
+    const svg = d3.select(svgEl);
+    const g = svg.append("g");
+
+    /* Draw items Layer-wise */
+    let link = g.append("g").attr("class", "links").selectAll("line");
+    let text = g.append("g").attr("class", "text").selectAll("text");
+    let node = g.append("g").attr("class", "nodes").selectAll("circle");
+
+    /* Getting height and width of the wrapper */
+    const getSize = () => ({
+      w: graphWrapper.clientWidth || 700,
+      h: graphWrapper.clientHeight || 400
+    });
+    let { w, h } = getSize();
+
+    /* Simulation for Graph */
+    const simulation = d3.forceSimulation()
+      .force("link", d3.forceLink().id(d => d.id).distance(80))   /* Link Distance is 80 */
+      .force("charge", d3.forceManyBody().strength(-50)) /* Repulsion Magnitude: -50  */
+      .force("center", d3.forceCenter(w / 2, h / 2))  /* Centering the Graph */
+      .force("radial", d3.forceRadial(Math.min(w, h) / 2).strength(0.05))
+      .force("collide", d3.forceCollide().radius(d => nodeSize[d.id] + 25).iterations(2)); /* Prevent overlap */
+
+
+    /* Zoom */
+    svg.call(
+      d3.zoom().scaleExtent([0.3, 3]).on("zoom", () =>
+        g.attr("transform", d3.event.transform)
+      )
+    );
+
+    /* Ticks */
+    const ticked = () => {
+      link
+        .attr("x1", d => d.source.x)
+        .attr("y1", d => d.source.y)
+        .attr("x2", d => d.target.x)
+        .attr("y2", d => d.target.y);
+      node.attr("cx", d => d.x).attr("cy", d => d.y);
+      text
+        .attr("x", d => d.x)
+        .attr("y", d => (d.type === "meta" ? d.y - 18 : d.y + 18));
+    };
+
+    /* Drag Behavior: allows pulling/stretching nodes */
+    function dragStarted(d) {
+      if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+
+    function dragged(d) {
+      d.fx = d3.event.x;
+      d.fy = d3.event.y;
+
+      d3.select(this)      /* Move node immediately */
+        .attr("cx", d.fx)
+        .attr("cy", d.fy);
+
+      link
+        .filter(l => l.source === d || l.target === d)
+        .attr("x1", l => l.source.x)
+        .attr("y1", l => l.source.y)
+        .attr("x2", l => l.target.x)
+        .attr("y2", l => l.target.y);
+    }
+
+    function dragEnded(d) {
+      if (!d3.event.active) simulation.alphaTarget(0);
+      d.fx = null;  /* release node */
+      d.fy = null;
+    }
+
+    /* Restart */
+    const restart = () => {
+      updateNodeSize();
+
+      link = link.data(filteredLinks, d => `${d.source.id}-${d.target.id}`);
+      link.exit().remove();
+      link = link.enter().append("line").attr("stroke-width", STROKE).merge(link);
+
+      node = node.data(filteredNodes, d => d.id);
+      node.exit().remove();
+      node = node.enter()
+        .append("circle")
+        .attr("r", d => nodeSize[d.id])
+        .attr("class", d =>
+          d.type === "post" ? "nodes circle post-node" : "nodes circle meta-node"
+        )
+        .on("click", onClick)
+        .on("mouseover", onMouseover)
+        .on("mouseout", onMouseout)
+        .call(
+          d3.drag()
+            .on("start", dragStarted)
+            .on("drag", dragged)
+            .on("end", dragEnded)
+        )
+        .merge(node);
+
+      text = text.data(filteredNodes, d => d.label);
+      text.exit().remove();
+      text = text.enter()
+        .append("text")
+        .text(d =>
+          d.label.length > MAX_LABEL_LENGTH
+            ? d.label.slice(0, MAX_LABEL_LENGTH) + "..."
+            : d.label
+        )
+        .attr("text-anchor", "middle")
+        .attr("alignment-baseline", "middle")
+        .attr("data-type", d => (d.type === "post" ? "post" : "meta"))
+        .merge(text);
+
+      simulation.nodes(filteredNodes).on("tick", ticked);
+      simulation.force("link").links(filteredLinks);
+      simulation.alpha(1).restart();
+    };
+
+    /* Filtering Graph */
+    function filterGraphByKeyword(keyword) {
+      keyword = keyword.toLowerCase();
+      const matched = nodesData.filter(n =>
+        n.label.toLowerCase().includes(keyword)
+      );
+      if (!matched.length) return alert("No match found!");
+
+      const neighbors = new Set(matched.map(n => n.id));
+
+      linksData.forEach(l => {
+        const s = l.source.id || l.source;
+        const t = l.target.id || l.target;
+        if (neighbors.has(s) || neighbors.has(t)) {
+          neighbors.add(s);
+          neighbors.add(t);
+        }
+      });
+
+      filteredNodes = nodesData.filter(n => neighbors.has(n.id));
+      filteredLinks = linksData.filter(l => {
+        const s = l.source.id || l.source;
+        const t = l.target.id || l.target;
+        return neighbors.has(s) && neighbors.has(t);
+      });
+
+      restart();
+    }
+
+    /* Reset Graph */
+    function resetGraph() {
+      filteredNodes = nodesData;
+      filteredLinks = linksData;
+      restart();
+    }
+
+    /* Focus Mode */
+    const focusPostName = "{{ include.focus_post | default: '' }}".trim();
+    const focusDepth = parseInt("{{ include.focus_depth | default: 2 }}", 10);
+
+    if (focusPostName) {
+      const postNode = nodesData.find(
+        n => n.label.toLowerCase() === focusPostName.toLowerCase()
+      );
+
+      if (postNode) {
+        let filteredNodeIds = new Set([postNode.id]);
+        let currentLayer = new Set([postNode.id]);
+
+        for (let depth = 0; depth < focusDepth; depth++) {
+          let nextLayer = new Set();
+
+          linksData.forEach(l => {
+            const s = l.source.id || l.source;
+            const t = l.target.id || l.target;
+
+            if (currentLayer.has(s) && !filteredNodeIds.has(t)) nextLayer.add(t);
+            if (currentLayer.has(t) && !filteredNodeIds.has(s)) nextLayer.add(s);
+          });
+
+          nextLayer.forEach(id => filteredNodeIds.add(id));
+
+          currentLayer = nextLayer;
+          if (currentLayer.size === 0) break;
+        }
+
+        filteredNodes = nodesData.filter(n => filteredNodeIds.has(n.id));
+        filteredLinks = linksData.filter(l => {
+          const s = l.source.id || l.source;
+          const t = l.target.id || l.target;
+          return filteredNodeIds.has(s) && filteredNodeIds.has(t);
+        });
+      }
+    }
+
+    restart();
+
+    /* Controls */
+    {% if include.show_controls != false %}
+    const searchInput = document.getElementById("{{ include.graph_id }}-search");
+    const filterBtn = document.getElementById("{{ include.graph_id }}-filterBtn");
+    const resetBtn = document.getElementById("{{ include.graph_id }}-resetBtn");
+
+    filterBtn.addEventListener("click", () => {
+      const val = searchInput.value.trim();
+      if (val) filterGraphByKeyword(val);
+    });
+
+    resetBtn.addEventListener("click", resetGraph);
+
+    searchInput.addEventListener("keypress", e => {
+      if (e.key === "Enter") {
+        const val = e.target.value.trim();
+        if (val) filterGraphByKeyword(val);
+      }
+    });
+    {% endif %}
+  };
+}
+</script>
