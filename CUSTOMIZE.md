@@ -96,22 +96,22 @@ The project is structured as follows, focusing on the main components that you w
 ├── 📂 _posts/: contains the blog posts
 ├── 📂 _projects/: contains the projects
 └── 📂 _sass/: contains the SASS files that define the style of the website
-    ├── 📄 _variables.scss: variables used in the SASS files
-    ├── 📄 _themes.scss: theme colors and icons
-    ├── 📄 _layout.scss: overall layout styles
-    ├── 📄 _typography.scss: text, headings, links, tables, and blockquote styles
-    ├── 📄 _navbar.scss: navigation bar and dropdown menu styles
-    ├── 📄 _footer.scss: footer styles
+    ├── 📂 font-awesome/: contains the SCSS files for Font Awesome
     ├── 📄 _blog.scss: blog post, tags, and pagination styles
-    ├── 📄 _publications.scss: publication list and bibliography styles
     ├── 📄 _components.scss: reusable component styles (cards, profiles, CV, projects)
-    ├── 📄 _utilities.scss: utility styles (code highlighting, forms, modals, animations)
     ├── 📄 _cv.scss: style of the CV page
     ├── 📄 _distill.scss: style of the Distill articles
+    ├── 📄 _footer.scss: footer styles
+    ├── 📄 _layout.scss: overall layout styles
+    ├── 📄 _navbar.scss: navigation bar and dropdown menu styles
+    ├── 📄 _publications.scss: publication list and bibliography styles
     ├── 📄 _tabs.scss: tabbed content styles
     ├── 📄 _teachings.scss: course and teaching styles
+    ├── 📄 _themes.scss: theme colors and icons
     ├── 📄 _typograms.scss: typogram diagram styles
-    └── 📄 _font-awesome.scss: Font Awesome icon styles
+    ├── 📄 _typography.scss: text, headings, links, tables, and blockquote styles
+    ├── 📄 _utilities.scss: utility styles (code highlighting, forms, modals, animations)
+    └── 📄 _variables.scss: variables used in the SASS files
 ```
 
 ## Configuration
