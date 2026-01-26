@@ -100,11 +100,21 @@ The project is structured as follows, focusing on the main components that you w
 ├── 📂 _posts/: contains the blog posts
 ├── 📂 _projects/: contains the projects
 └── 📂 _sass/: contains the SASS files that define the style of the website
-    ├── 📄 _base.scss: base style of the website
+    ├── 📂 font-awesome/: contains the SCSS files for Font Awesome
+    ├── 📄 _blog.scss: blog post, tags, and pagination styles
+    ├── 📄 _components.scss: reusable component styles (cards, profiles, CV, projects)
     ├── 📄 _cv.scss: style of the CV page
     ├── 📄 _distill.scss: style of the Distill articles
-    ├── 📄 _layout.scss: style of the overall layout
-    ├── 📄 _themes.scss: themes colors and a few icons
+    ├── 📄 _footer.scss: footer styles
+    ├── 📄 _layout.scss: overall layout styles
+    ├── 📄 _navbar.scss: navigation bar and dropdown menu styles
+    ├── 📄 _publications.scss: publication list and bibliography styles
+    ├── 📄 _tabs.scss: tabbed content styles
+    ├── 📄 _teachings.scss: course and teaching styles
+    ├── 📄 _themes.scss: theme colors and icons
+    ├── 📄 _typograms.scss: typogram diagram styles
+    ├── 📄 _typography.scss: text, headings, links, tables, and blockquote styles
+    ├── 📄 _utilities.scss: utility styles (code highlighting, forms, modals, animations)
     └── 📄 _variables.scss: variables used in the SASS files
 ```
 
@@ -225,7 +235,7 @@ Understanding al-folio's technology stack will help you better customize and ext
 - **JavaScript**: Minimal JavaScript is used for interactive features like the dark mode toggle, search functionality, and dynamic content rendering.
 - **MathJax**: For rendering mathematical equations in LaTeX format on your pages and blog posts.
 - **Mermaid**: For creating diagrams (flowcharts, sequence diagrams, etc.) directly in Markdown.
-- **Font Awesome, Academicons, and Tabler Icons**: Icon libraries used throughout the theme for visual elements.
+- **Font Awesome and Academicons**: Icon libraries used throughout the theme for visual elements.
 
 ### Backend
 
@@ -758,7 +768,6 @@ To update a library:
      For detailed instructions on updating specific libraries, see the FAQ:
      - [How can I update Academicons version](FAQ.md#how-can-i-update-academicons-version-on-the-template)
      - [How can I update Font Awesome version](FAQ.md#how-can-i-update-font-awesome-version-on-the-template)
-     - [How can I update Tabler Icons version](FAQ.md#how-can-i-update-tabler-icons-version-on-the-template)
 
 ## Removing content
 
@@ -881,7 +890,18 @@ Due to the necessary permissions (PAT and others mentioned above), it is recomme
 
 ## Customizing fonts, spacing, and more
 
-You can customize the fonts, spacing, and more by editing [\_sass/\_base.scss](_sass/_base.scss). The easiest way to try in advance the changes is by using [chrome dev tools](https://developer.chrome.com/docs/devtools/css) or [firefox dev tools](https://firefox-source-docs.mozilla.org/devtools-user/). In there you can click in the element and find all the attributes that are set for that element and where are they. For more information on how to use this, check [chrome](https://developer.chrome.com/docs/devtools/css) and [firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html) how-tos, and [this tutorial](https://www.youtube.com/watch?v=l0sgiwJyEu4).
+The `_sass/` directory contains specialized SCSS files organized by feature and usage. To customize fonts, spacing, colors, and other styles, edit the relevant file based on what you're modifying:
+
+- **Typography:** Edit `_typography.scss` to change fonts, heading styles, links, tables, and blockquotes.
+- **Navigation:** Edit `_navbar.scss` to customize the navigation bar and dropdown menus.
+- **Colors and themes:** Edit `_themes.scss` to change theme colors and `_variables.scss` for global variables.
+- **Blog styles:** Edit `_blog.scss` to customize blog post listings, tags, and pagination.
+- **Publications:** Edit `_publications.scss` to modify bibliography and publication display styles.
+- **Components:** Edit `_components.scss` to customize reusable components like cards, profiles, and projects.
+- **Code and utilities:** Edit `_utilities.scss` for code highlighting, forms, modals, and animations.
+- **Layout:** Edit `_layout.scss` for overall page layout styles.
+
+The easiest way to preview changes in advance is by using [Chrome dev tools](https://developer.chrome.com/docs/devtools/css) or [Firefox dev tools](https://firefox-source-docs.mozilla.org/devtools-user/). Inspect elements to see which styles apply and experiment with changes before editing the SCSS files. For more information on how to use these tools, check [Chrome](https://developer.chrome.com/docs/devtools/css) and [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/page_inspector/how_to/examine_and_edit_css/index.html) how-tos, and [this tutorial](https://www.youtube.com/watch?v=l0sgiwJyEu4).
 
 ## Scheduled Posts
 
