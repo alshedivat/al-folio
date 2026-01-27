@@ -22,12 +22,12 @@ When modifying `_config.yml`, always update these in pairs:
 Look for `enabled: false/true` patterns. Common ones:
 
 - `blog.enabled`
+- `news.enabled`
+- `profile.image_circular`
+- `profile.show_social_links`
 - `projects.enabled`
 - `publications.enabled`
-- `news.enabled`
 - `related_blog_posts`
-- `profile.show_social_links`
-- `profile.image_circular`
 
 ### YAML Syntax Rules
 
@@ -53,39 +53,62 @@ Data files provide structured content that templates can access via Liquid. Each
 
 ### socials.yml
 
-Defines social media links displayed on the site.
+Defines social media links and contact information displayed on the site.
 
-**Format:** Alphabetically sorted list of social platforms
+**Format:** Entries are displayed in the order they are defined (not alphabetically sorted)
 
-**Each entry requires:**
+**For standard socials:** Use the key with the appropriate value. Common built-in socials include:
 
-- `name:` – Social platform name
-- `icon:` – Icon identifier (from Academicons or Font Awesome)
-- `url:` – Profile URL or user identifier
+- `email:` – Email address
+- `cv_pdf:` – Path to CV PDF file
+- `scholar_userid:` – Google Scholar ID
+- `inspirehep_id:` – Inspire HEP author ID
+- `rss_icon:` – Boolean to show/hide RSS icon
+- And many others (see [jekyll-socials documentation](https://github.com/george-gca/jekyll-socials) for full list)
+
+**For custom socials:** Define a custom entry with nested fields:
+
+- `logo:` – URL or path to logo image
+- `title:` – Display name
+- `url:` – Profile or website URL
 
 **Example:**
 
 ```yaml
-github:
-  name: GitHub
-  icon: fab fa-github
-  url: https://github.com/username
+cv_pdf: /assets/pdf/example_pdf.pdf
+email: you@example.com
+scholar_userid: qc6CJjYAAAAJ
+github_username: username
+linkedin_username: username
 
-twitter:
-  name: Twitter
-  icon: fab fa-twitter
-  url: https://twitter.com/username
+custom_social:
+  logo: https://example.com/logo.png
+  title: Custom Profile
+  url: https://example.com/
 ```
+
+For more information, see the [jekyll-socials documentation](https://github.com/george-gca/jekyll-socials).
 
 ### cv.yml
 
-CV content in YAML format (for simple CV structure, not RenderCV format).
+CV content in **RenderCV format** (recommended approach for generating professional CVs).
 
-**Sections:** education, experience, skills, certifications, etc.
+**Format:** [RenderCV](https://rendercv.com/) YAML format — human-readable and designed specifically for professional resumes with automatic PDF generation capability.
 
-**Usage:** Used by `cv.liquid` layout to render CV page
+**Key Files:**
 
-**Format:** Depends on your CV structure; see existing file for examples
+- [`_data/cv.yml`](_data/cv.yml) — Main CV content in RenderCV format
+- [`assets/rendercv/design.yaml`](assets/rendercv/design.yaml) — Design and styling customization
+- [`assets/rendercv/locale.yaml`](assets/rendercv/locale.yaml) — Localization and text formatting
+- [`assets/rendercv/settings.yaml`](assets/rendercv/settings.yaml) — RenderCV-specific settings
+
+**Usage:** Rendered by `cv.liquid` layout on CV page; displayed in `about.liquid` on home page.
+
+**Automatic PDF Generation:** When using RenderCV format, a GitHub Actions workflow (`render-cv.yml`) automatically generates a PDF version whenever you push changes to `_data/cv.yml`. The generated PDF is saved to `assets/rendercv/rendercv_output/` and can be linked via `cv_pdf` setting in `_config.yml`.
+
+**Alternative Format (JSONResume):** For an alternative format, see `assets/json/resume.json` which uses the [JSONResume](https://jsonresume.org/) standard. Switch between formats using the `cv_format` frontmatter variable in `_pages/cv.md` (options: `rendercv` or `jsonresume`).
+
+**For more details:** See [CUSTOMIZE.md § Modifying the CV information](CUSTOMIZE.md#modifying-the-cv-information) for setup, switching formats, and PDF generation configuration.
 
 ### citations.yml
 
