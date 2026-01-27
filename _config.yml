@@ -424,12 +424,12 @@ third_party_libraries:
   download: false # if true, download the versions of the libraries specified below and use the downloaded files
   bootstrap-table:
     integrity:
-      css: "sha256-uRX+PiRTR4ysKFRCykT8HLuRCub26LgXJZym3Yeom1c="
-      js: "sha256-4rppopQE9POKfukn2kEvhJ9Um25Cf6+IDVkARD0xh78="
+      css: "sha256-Zc495ljCDy5GSTUwzyTFOT2gICkEmTkh4jGpmUFlIHU="
+      js: "sha256-9llzQawTdpdXVTnRNn1VrEj8mHvtFa4q0aW7vtgt8Mw="
     url:
       css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
       js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
-    version: "1.22.4"
+    version: "1.23.5"
   chartjs:
     integrity:
       js: "sha256-0q+JdOlScWOHcunpUk21uab1jW7C1deBQARHtKMcaB4="
@@ -491,10 +491,10 @@ third_party_libraries:
     version: "8.0.6"
   jquery:
     integrity:
-      js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      js: "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
     url:
       js: "https://cdn.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
-    version: "3.6.0"
+    version: "3.7.1"
   leaflet:
     integrity:
       css: "sha256-q9ba7o845pMPFU+zcAll8rv+gC+fSovKsOoNQ6cynuQ="
@@ -533,16 +533,16 @@ third_party_libraries:
     version: "4.2.2"
   mdb:
     integrity:
-      css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
-      css_map: "sha256-iYYMNfsJdVZjvsebJulg09miBXM4/GMTJgv1u5EZFFM="
-      js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
-      js_map: "sha256-UPgyn4YNsT0khkBK5553QwhnlbTlU0aa+igyc6qP1bE="
+      css: "sha256-uscDgAq/dVLlYxXeZtRtMY1PV9CxG7a1rWOBLMZKRSI="
+      css_map: "sha256-UmKsOU3l5nmzvk9OL3ymc6xYAPOGNPZgx77aKJIAID0="
+      js: "sha256-cRKWRI9u2XWv1FEOUwhDdxBkXpAZOEtYChvrOKzn2LU="
+      js_map: "sha256-BGuv+WZluabD5Iadj5Z1l7cn0hdQHjdNRYIgxqN9wGc="
     url:
-      css: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
-      css_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css.map"
-      js: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
-      js_map: "https://cdn.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js.map"
-    version: "4.20.0"
+      css: "https://cdn.jsdelivr.net/npm/mdb-ui-kit@{{version}}/css/mdb.min.css"
+      css_map: "https://cdn.jsdelivr.net/npm/mdb-ui-kit@{{version}}/css/mdb.min.css.map"
+      js: "https://cdn.jsdelivr.net/npm/mdb-ui-kit@{{version}}/js/mdb.umd.min.js"
+      js_map: "https://cdn.jsdelivr.net/npm/mdb-ui-kit@{{version}}/js/mdb.umd.min.js.map"
+    version: "9.3.0"
   medium_zoom:
     integrity:
       js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="

@@ -70,7 +70,7 @@ pagination:
 <div class="row g-0">
 <div class="col-md-12">
 <div class="card-body">
-<div class="float-right">
+<div class="float-end">
 <i class="fa-solid fa-thumbtack fa-xs"></i>
 </div>
 <h3 class="card-title text-lowercase">{{ post.title }}</h3>
