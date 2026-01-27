@@ -20,14 +20,14 @@
 
 **Build Dependencies (from Gemfile):**
 
-- `jekyll-scholar` – Bibliography management
+- `classifier-reborn` – Related posts calculation
 - `jekyll-archives-v2` – Archive page generation
 - `jekyll-jupyter-notebook` – Jupyter notebook embedding
 - `jekyll-minifier` – CSS/JS minification
 - `jekyll-paginate-v2` – Pagination
-- `jekyll-toc` – Table of contents generation
+- `jekyll-scholar` – Bibliography management
 - `jekyll-tabs` – Tab UI components
-- `classifier-reborn` – Related posts calculation
+- `jekyll-toc` – Table of contents generation
 - `jemoji` – Emoji support
 - Multiple other specialized jekyll plugins
 
@@ -90,24 +90,24 @@ bundle exec jekyll serve --port 4000   # Run at http://localhost:4000
 
 ### Root Directory Structure
 
+- `_bibliography/papers.bib` – BibTeX bibliography for publications
 - `_config.yml` – **Primary configuration file** (title, author, URLs, baseurl, feature flags)
 - `_data/` – YAML data files (socials.yml, coauthors.yml, cv.yml, citations.yml, venues.yml, repositories.yml)
 - `_includes/` – Reusable Liquid template components
 - `_layouts/` – Page layout templates (about.liquid, post.liquid, bib.liquid, distill.liquid, cv.liquid, etc.)
+- `_news/` – News/announcement entries
 - `_pages/` – Static pages (about.md, cv.md, publications.md, projects.md, teaching.md, etc.)
 - `_posts/` – Blog posts (format: YYYY-MM-DD-title.md)
 - `_projects/` – Project showcase entries
-- `_news/` – News/announcement entries
-- `_teachings/` – Course and teaching entries
-- `_bibliography/papers.bib` – BibTeX bibliography for publications
 - `_sass/` – SCSS stylesheets
-- `assets/img/` – Images, profile pictures
 - `_scripts/` – JavaScript files for functionality
-- `purgecss.config.js` – PurgeCSS configuration for production CSS optimization
+- `_teachings/` – Course and teaching entries
+- `assets/img/` – Images, profile pictures
+- `docker-compose.yml` – Docker compose configuration
+- `Dockerfile` – Docker image definition
 - `Gemfile` & `Gemfile.lock` – Ruby dependency specifications
 - `package.json` – Node.js dependencies (prettier only)
-- `Dockerfile` – Docker image definition
-- `docker-compose.yml` – Docker compose configuration
+- `purgecss.config.js` – PurgeCSS configuration for production CSS optimization
 
 ### Configuration Priority
 
@@ -130,13 +130,11 @@ When making changes:
   - Runs purgecss for CSS optimization
   - Commits built site to gh-pages branch
   - **Triggers on:** Changes to site files, assets, config (NOT documentation files alone)
-
 - **prettier.yml** – Code formatting validation (mandatory)
   - Runs prettier on all files
   - **Fails PRs if code is not properly formatted**
   - Generates HTML diff artifact on failure
   - Must install prettier locally to avoid failures: `npm install prettier @shopify/prettier-plugin-liquid`
-
 - **broken-links.yml, broken-links-site.yml** – Link validation
 - **axe.yml** – Accessibility testing
 - **codeql.yml** – Security scanning
