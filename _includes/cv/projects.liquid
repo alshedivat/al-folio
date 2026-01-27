@@ -2,15 +2,15 @@
   Unified projects entry renderer for both formats
 {% endcomment %}
 
-<ul class="card-text font-weight-light list-group list-group-flush">
+<ul class="card-text fw-light list-group list-group-flush">
   {% for entry in entries %}
     <li class="list-group-item">
       {% if entry.url %}
-        <h6 class="title font-weight-bold">
+        <h6 class="title fw-bold">
           <a href="{{ entry.url }}" target="_blank">{{ entry.name }}</a>
         </h6>
       {% else %}
-        <h6 class="title font-weight-bold">{{ entry.name }}</h6>
+        <h6 class="title fw-bold">{{ entry.name }}</h6>
       {% endif %}
 
       {% if entry.summary %}
