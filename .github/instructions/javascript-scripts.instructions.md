@@ -58,7 +58,7 @@ permalink: /assets/js/filename.js
 
 - `.liquid.js` files – Processed by Jekyll's Liquid engine before JavaScript compilation
 - `.js` files – Processed normally, passed through to assets directory
-- Prettier formatting applies to all JavaScript
+- **Note:** Files in `_scripts/` are ignored by Prettier (see `.prettierignore`) because `.liquid.js` files mix Liquid template syntax with JavaScript, which Prettier doesn't support
 
 ## JavaScript Patterns in al-folio
 
@@ -175,25 +175,22 @@ In `photoswipe-setup.js`:
 2. Reference [PhotoSwipe documentation](https://photoswipe.com/) for available options
 3. Update any CSS classes used in gallery markup
 
-## Prettier Formatting
+## Code Style Notes
 
-All JavaScript must pass Prettier formatting:
+**Prettier and \_scripts/:**
 
-**Before committing:**
+Files in `_scripts/` are **excluded from Prettier formatting** (defined in `.prettierignore`) because:
 
-```bash
-npx prettier _scripts/ --check      # Check for formatting issues
-npx prettier _scripts/ --write      # Fix formatting automatically
-npx prettier . --write              # Format entire project
-```
+- `.liquid.js` files contain mixed Liquid template syntax and JavaScript
+- Prettier doesn't understand or support this hybrid format
+- Manual formatting consistency is required for these files
 
-**Prettier rules for JavaScript:**
+**When modifying \_scripts/ files:**
 
-- Single quotes for strings
-- 2-space indentation
-- Consistent spacing around operators
-- Semicolons at end of statements
-- Trailing commas in multiline arrays/objects
+- Follow existing code style in the file (indentation, spacing, quotes)
+- Maintain readability for Liquid + JavaScript mixed code
+- Do NOT run Prettier on the `_scripts/` directory
+- **DO run Prettier on the rest of the project** when making other changes: `npx prettier . --write`
 
 ## Validation & Testing
 
@@ -242,8 +239,8 @@ cat _site/assets/js/search-data.js | head -20
 
 When modifying JavaScript scripts:
 
-- `.liquid.js` files must have valid Liquid syntax AND valid JavaScript after compilation
-- Always run Prettier before committing
+- `.liquid.js` files must have valid Liquid syntax AND valid JavaScript that remains valid after Jekyll processes the Liquid
+- Do NOT run Prettier on `_scripts/` files (they are in `.prettierignore` because of Liquid + JavaScript mixing)
 - Test locally with `docker compose up` to verify build succeeds and scripts work
 - For site-wide script inclusion, modify `_includes/scripts.liquid`
 - For configuration (feature flags, third-party URLs), see yaml-configuration.instructions.md
