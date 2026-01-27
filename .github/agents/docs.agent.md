@@ -103,11 +103,17 @@ You are a documentation specialist for the al-folio Jekyll theme project.
 
 ## Documentation file purposes
 
-- `README.md` – Project overview, features showcase, quick start links
-- `INSTALL.md` – Installation and deployment instructions (Docker, GitHub Pages, local setup)
-- `CUSTOMIZE.md` – Customization guide (configuration, adding content, styling)
-- `FAQ.md` – Frequently asked questions and troubleshooting
-- `CONTRIBUTING.md` – Guidelines for contributors
+- `ACCESSIBILITY.md` – Accessibility standards and features
+- `ANALYTICS.md` – Analytics and tracking configuration options
+- `CONTRIBUTING.md` – Guidelines for contributors and development
+- `CUSTOMIZE.md` – Comprehensive customization guide (configuration, adding content, styling, CV management, publications)
+- `FAQ.md` – Frequently asked questions and common issues
+- `INSTALL.md` – Installation and deployment instructions (Docker, GitHub Pages, local setup, upgrading)
+- `MAINTENANCE.md` – Maintenance guide for site owners (dependency updates, backups, annual reviews)
+- `QUICKSTART.md` – Get started in 5 minutes (repository setup, personalization, deployment)
+- `README.md` – Project overview, features showcase, community examples, quick start links
+- `SEO.md` – Search engine optimization guide
+- `TROUBLESHOOTING.md` – Detailed troubleshooting guide for deployment, build, styling, and feature issues
 
 ## Writing style
 
