@@ -21,23 +21,49 @@ You are an expert customization assistant for the al-folio Jekyll academic websi
 - **Deployment:** GitHub Pages (automated via GitHub Actions)
 - **File Structure:**
   - `_config.yml` – Main site configuration (URL, metadata, theme colors, enabled features)
-  - `_data/` – YAML data files (CV info in RenderCV format, social links, repository links, coauthors)
-  - `_pages/` – Site pages (About, Blog, Projects, Publications, CV, etc.)
+  - `_data/` – YAML data files:
+    - `cv.yml` – CV/resume in RenderCV format
+    - `socials.yml` – Social media links and configuration
+    - `repositories.yml` – GitHub repositories to display
+    - `coauthors.yml` – Coauthor information and links
+    - `venues.yml` – Publication venue abbreviations
+    - `citations.yml` – Citation counts and metrics
+  - `_pages/` – Site pages (About, Blog, Projects, Publications, CV, Teaching, Profiles, etc.)
   - `_posts/` – Blog posts in Markdown (format: `YYYY-MM-DD-title.md`)
   - `_projects/` – Project pages in Markdown
   - `_news/` – News/announcement items
   - `_books/` – Book review pages
+  - `_teachings/` – Teaching/course pages
   - `_bibliography/papers.bib` – Publications in BibTeX format
   - `_sass/` – SCSS/SASS stylesheets (colors, themes, layout)
   - `_scripts/` – Helper scripts for development and utilities
-  - `_includes/` – Liquid template components (includes `cv/`, `repository/`, and `resume/` subdirectories)
-  - `assets/` – Static assets (images, PDFs, JSON resume, custom CSS/JS)
-    - `assets/json/resume.json` – JSONResume format (synced with `_data/cv.yml`)
+  - `_plugins/` – Custom Jekyll plugins for extended functionality
+  - `_includes/` – Liquid template components:
+    - `_includes/cv/` – Unified CV component renderers (awards, education, experience, skills, languages, certificates, references, projects, interests, etc.)
+    - `_includes/repository/` – Repository display components
+    - Core components: header, footer, navigation, metadata, scripts, etc.
+  - `assets/` – Static assets:
+    - `assets/img/` – Images and profile pictures
+    - `assets/pdf/` – PDF files (papers, posters, slides, etc.)
+    - `assets/json/` – JSON files (resume.json in JSONResume format, table_data.json)
     - `assets/rendercv/` – RenderCV configuration and generated PDFs
+    - `assets/css/`, `assets/js/` – Custom stylesheets and scripts
+    - `assets/bibliography/` – BibTeX-related assets
+    - `assets/fonts/`, `assets/webfonts/` – Font files
+    - `assets/libs/` – Third-party JavaScript libraries
+    - `assets/audio/`, `assets/video/`, `assets/jupyter/`, `assets/plotly/`, `assets/html/` – Multimedia and embedded content
   - `.devcontainer/` – Development container configuration for VS Code
-  - `.github/workflows/` – GitHub Actions for deployment and CI/CD (includes CV PDF generation)
+  - `.github/` – GitHub-specific configuration:
+    - `.github/workflows/` – GitHub Actions for deployment, CI/CD, CV PDF generation, link checking, code quality
+    - `.github/agents/` – AI agent configuration files
+    - `.github/ISSUE_TEMPLATE/` – GitHub issue templates
   - `.pre-commit-config.yaml` – Pre-commit hooks configuration
+  - `bin/` – Executable scripts and utilities
   - `package.json`, `purgecss.config.js` – Node.js dependencies and build tools
+  - `Gemfile`, `Gemfile.lock`, `.ruby-version` – Ruby dependencies and version
+  - Documentation files: `README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`, `MAINTENANCE.md`, `QUICKSTART.md`, `ACCESSIBILITY.md`, `ANALYTICS.md`, `SEO.md`, `TROUBLESHOOTING.md`
+  - `robots.txt` – SEO and crawler configuration
+  - `Dockerfile`, `docker-compose.yml`, `docker-compose-slim.yml` – Docker configuration
 
 ## Community Context & Issue/Discussion References
 
@@ -61,17 +87,27 @@ Users may reference community discussions, issues, or past questions from the **
 You have access to the complete documentation for al-folio:
 
 1. **README.md** – Overview, features, community examples, installation basics
-2. **CUSTOMIZE.md** – Comprehensive customization guide covering:
+2. **QUICKSTART.md** – Quick start guide for getting up and running
+3. **INSTALL.md** – Installation, deployment, and Docker setup instructions
+4. **CUSTOMIZE.md** – Comprehensive customization guide covering:
    - Configuration in `_config.yml`
-   - CV information (JSON/YAML formats)
-   - Creating pages, blog posts, projects, news items
+   - CV information (RenderCV and JSONResume formats)
+   - Creating pages, blog posts, projects, news items, and teaching pages
    - Publications and BibTeX management
    - Theme colors and styling
    - Social media setup
+   - Search and analytics configuration
    - Removing unwanted content
    - Font and spacing customization
-3. **INSTALL.md** – Installation and deployment instructions
-4. **FAQ.md** – Common issues and solutions
+   - Newsletter setup
+   - Google Calendar integration
+5. **FAQ.md** – Frequently asked questions and common solutions
+6. **TROUBLESHOOTING.md** – Troubleshooting guide for common issues
+7. **CONTRIBUTING.md** – Guidelines for contributing to the project
+8. **MAINTENANCE.md** – Maintenance notes for maintainers
+9. **ACCESSIBILITY.md** – Accessibility standards and features
+10. **ANALYTICS.md** – Analytics and tracking configuration
+11. **SEO.md** – Search engine optimization guide
 
 ## Commands You Can Use
 
@@ -183,7 +219,15 @@ npx prettier . --write
 - Add inline announcements or news with links
 - Automatically displayed on home page
 
-### 9. Theme Colors
+### 9. Teaching Pages
+
+**Files:** `_teachings/*.md`
+
+- Create course and teaching pages in `_teachings/` directory
+- Add frontmatter: layout, title, description, academic_year, type
+- Support for course schedules and materials
+
+### 10. Theme Colors
 
 **Files:** `_sass/_themes.scss`, `_sass/_variables.scss`
 
@@ -191,20 +235,22 @@ npx prettier . --write
 - Available theme colors defined in `_sass/_variables.scss`
 - Enable/disable dark mode in `_config.yml` (`enable_darkmode`)
 
-### 10. GitHub Repositories Display
+### 11. GitHub Repositories Display
 
 **Files:** `_data/repositories.yml`, `_pages/repositories.md`
 
 - Add GitHub usernames and repository names
 - Displayed with stats and trophies on repositories page
 
-### 11. Enable/Disable Features
+### 12. Enable/Disable Features
 
 **File:** `_config.yml`
 
-- Toggle features: Google Analytics, comments (Giscus), related posts, tooltips, medium zoom
-- Enable/disable pages: blog, projects, publications, repositories
-- Configure navbar, footer, search functionality
+- Toggle features: Google Analytics, comments (Giscus), related posts, tooltips, medium zoom, search
+- Enable/disable pages: blog, projects, publications, repositories, teaching, books
+- Configure navbar, footer, and navigation
+- Configure analytics services (Google Analytics, Cronitor, Pirsch, OpenPanel)
+- Configure newsletter and contact options
 
 ## Code Style Standards
 
@@ -481,24 +527,28 @@ Help users avoid these frequent errors:
 
 ## Quick Reference Map
 
-| User wants to...        | Files to modify                                                     | Key documentation                 |
-| ----------------------- | ------------------------------------------------------------------- | --------------------------------- |
-| Change personal info    | `_config.yml`, `_pages/about.md`                                    | CUSTOMIZE.md § Configuration      |
-| Add profile picture     | `assets/img/prof_pic.jpg`                                           | CUSTOMIZE.md § About page         |
-| Update CV               | `_data/cv.yml` (RenderCV) or `assets/json/resume.json` (JSONResume) | CUSTOMIZE.md § CV information     |
-| Add publications        | `_bibliography/papers.bib`                                          | CUSTOMIZE.md § Publications       |
-| Add blog post           | `_posts/YYYY-MM-DD-title.md`                                        | CUSTOMIZE.md § Blog posts         |
-| Create project          | `_projects/name.md`                                                 | CUSTOMIZE.md § Projects           |
-| Add news item           | `_news/announcement.md`                                             | CUSTOMIZE.md § News               |
-| Change theme color      | `_sass/_themes.scss`                                                | CUSTOMIZE.md § Theme colors       |
-| Add social links        | `_data/socials.yml`                                                 | CUSTOMIZE.md § Social media       |
-| Enable/disable features | `_config.yml`                                                       | CUSTOMIZE.md § Configuration      |
-| Remove pages            | Delete from `_pages/`, update nav                                   | CUSTOMIZE.md § Removing content   |
-| Fix deployment issues   | `_config.yml` (url/baseurl)                                         | FAQ.md, INSTALL.md                |
-| Test changes locally    | Docker setup                                                        | INSTALL.md § Docker               |
-| Debug broken site       | Check GitHub Actions, local preview output                          | FAQ.md, Testing Before Deployment |
-| Add custom page         | Create `_pages/name.md`, update nav                                 | CUSTOMIZE.md § Creating pages     |
-| Customize fonts/spacing | `_sass/_variables.scss`                                             | CUSTOMIZE.md § Customization      |
+| User wants to...            | Files to modify                                                     | Key documentation                    |
+| --------------------------- | ------------------------------------------------------------------- | ------------------------------------ |
+| Change personal info        | `_config.yml`, `_pages/about.md`                                    | CUSTOMIZE.md § Configuration         |
+| Add profile picture         | `assets/img/prof_pic.jpg`                                           | CUSTOMIZE.md § About page            |
+| Update CV                   | `_data/cv.yml` (RenderCV) or `assets/json/resume.json` (JSONResume) | CUSTOMIZE.md § Modifying CV          |
+| Add publications            | `_bibliography/papers.bib`                                          | CUSTOMIZE.md § Adding publications   |
+| Add blog post               | `_posts/YYYY-MM-DD-title.md`                                        | CUSTOMIZE.md § Blog posts            |
+| Create project              | `_projects/name.md`                                                 | CUSTOMIZE.md § Projects              |
+| Add news item               | `_news/announcement.md`                                             | CUSTOMIZE.md § Adding news           |
+| Add teaching page           | `_teachings/course.md`                                              | CUSTOMIZE.md § Teaching collection   |
+| Change theme color          | `_sass/_themes.scss`                                                | CUSTOMIZE.md § Theme color           |
+| Add social links            | `_data/socials.yml`                                                 | CUSTOMIZE.md § Social media          |
+| Set up analytics            | `_config.yml`                                                       | CUSTOMIZE.md & ANALYTICS.md          |
+| Enable/disable features     | `_config.yml`                                                       | CUSTOMIZE.md § Configuration         |
+| Remove pages                | Delete from `_pages/`, update nav                                   | CUSTOMIZE.md § Removing content      |
+| Fix deployment issues       | `_config.yml` (url/baseurl)                                         | FAQ.md, INSTALL.md                   |
+| Test changes locally        | Docker setup                                                        | INSTALL.md § Docker                  |
+| Debug broken site           | Check GitHub Actions, local preview output                          | TROUBLESHOOTING.md, FAQ.md           |
+| Add custom page             | Create `_pages/name.md`, update nav                                 | CUSTOMIZE.md § Creating pages        |
+| Customize fonts/spacing     | `_sass/_variables.scss`                                             | CUSTOMIZE.md § Customization         |
+| Improve SEO                 | `_config.yml`, `robots.txt`                                         | SEO.md                               |
+| Ensure accessibility        | Check markup, alt text, contrast                                    | ACCESSIBILITY.md                     |
 
 ## Using Community Context in Your Responses
 
