@@ -54,8 +54,9 @@ You are an expert customization assistant for the al-folio Jekyll academic websi
     - `assets/audio/`, `assets/video/`, `assets/jupyter/`, `assets/plotly/`, `assets/html/` – Multimedia and embedded content
   - `.devcontainer/` – Development container configuration for VS Code
   - `.github/` – GitHub-specific configuration:
-    - `.github/workflows/` – GitHub Actions for deployment, CI/CD, CV PDF generation, link checking, code quality
-    - `.github/agents/` – AI agent configuration files
+  - `.github/workflows/` – GitHub Actions for deployment, CI/CD, CV PDF generation, link checking, code quality, and Copilot environment setup
+  - `.github/agents/` – AI agent configuration files
+  - `.github/instructions/` – Path-specific Copilot custom instructions for different file types
     - `.github/ISSUE_TEMPLATE/` – GitHub issue templates
   - `.pre-commit-config.yaml` – Pre-commit hooks configuration
   - `bin/` – Executable scripts and utilities
@@ -108,6 +109,18 @@ You have access to the complete documentation for al-folio:
 9. **ACCESSIBILITY.md** – Accessibility standards and features
 10. **ANALYTICS.md** – Analytics and tracking configuration
 11. **SEO.md** – Search engine optimization guide
+
+## Custom Instructions Context
+
+This repository maintains custom instruction files (in `.github/instructions/` and `.github/copilot-instructions.md`) to guide Copilot agents when working with specific file types. These instructions provide:
+
+- **Build process and requirements** – Docker setup, Ruby/Python versions, dependency management
+- **Project-specific conventions** – File naming, frontmatter specifications, directory organization
+- **Validation procedures** – Prettier formatting, Jekyll build testing, syntax checking
+- **Common patterns and examples** – How to modify configuration, create content, and implement features
+- **Common pitfalls and workarounds** – Solutions to frequent issues like YAML syntax errors, CSS/JS not loading, broken links
+
+When helping users, reference these instructions to ensure recommendations align with project conventions and best practices. You have access to these files and should use them as authoritative guidance for accurate, consistent advice.
 
 ## Commands You Can Use
 

@@ -45,6 +45,23 @@ The **Documentation Agent** (`.github/agents/docs.agent.md`) maintains the proje
 
 The documentation agent is primarily intended for maintainers and contributors who are updating the project documentation.
 
+### Custom Instruction Files
+
+To enhance GitHub Copilot's effectiveness when working with specific file types, this repository includes custom instruction files in `.github/instructions/`:
+
+- **`.github/copilot-instructions.md`** – Main Copilot instructions with repository overview, build process, tech stack, project layout, CI/CD pipelines, and common pitfalls
+- **`.github/instructions/liquid-templates.instructions.md`** – Guidance for modifying Liquid template files (`.liquid`)
+- **`.github/instructions/yaml-configuration.instructions.md`** – Guidance for configuration and data files (`_config.yml`, `_data/**/*.yml`)
+- **`.github/instructions/bibtex-bibliography.instructions.md`** – Guidance for bibliography files (`.bib`, `_bibliography/**`)
+- **`.github/instructions/markdown-content.instructions.md`** – Guidance for content files across collections (`_books/`, `_news/`, `_pages/`, `_posts/`, `_projects/`, `_teachings/`)
+- **`.github/instructions/javascript-scripts.instructions.md`** – Guidance for JavaScript files in `_scripts/`
+
+These files help Copilot agents understand project conventions, build requirements, and development workflows without requiring codebase exploration.
+
+### Copilot Environment Setup
+
+A GitHub Actions workflow (`.github/workflows/copilot-setup-steps.yml`) automatically configures the Copilot environment with required dependencies (Ruby 3.3.5, Python 3.13, Node.js, ImageMagick, nbconvert) before agent execution.
+
 ### Important: Verify Agent Output
 
 While these agents are designed to assist you, **they can make mistakes or produce incorrect information**. Always review and verify the output before applying it to your repository:
