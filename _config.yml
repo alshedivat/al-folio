@@ -607,7 +607,7 @@ third_party_libraries:
     integrity:
       js: "sha256-K7UeLYPULqDqPqHMqNBZ3x4n3tE9X0b3p9OB1X3cFU4="
     url:
-      js: "https://cdn.jsdelivr.net/npm/swiper@12.0.3/swiper-element-bundle.min.js.map"
+      js: "https://cdn.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js.map"
     version: "12.0.3"
   vega:
     integrity:
