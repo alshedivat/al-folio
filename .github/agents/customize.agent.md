@@ -178,12 +178,11 @@ npx prettier . --write
 
 **Files:** `_data/cv.yml` (RenderCV format), `assets/json/resume.json` (JSONResume format), `assets/rendercv/` (configuration)
 
-- **Choose your format:** Users select either RenderCV (`_data/cv.yml`) or JSONResume (`assets/json/resume.json`) — they pick ONE format
-- **Delete the unused format:** Remove the file for the format you're not using (so only one source exists) if you want to avoid confusion
-- **RenderCV features:** Automatic PDF generation via GitHub Actions, customizable styling via `assets/rendercv/` config files (`design.yaml`, `locale.yaml`, `settings.yaml`)
-- **JSONResume features:** Standard format compatible with other tools and services
-- **Switching formats:** Users can change which format displays on the CV page by editing the `cv_format` setting in `_pages/cv.md` frontmatter
-- **Note about both files:** Both files exist in the repository for template flexibility, but users usually only maintain the one they choose
+- **Choose your format:** Users can maintain either RenderCV (`_data/cv.yml`) or JSONResume (`assets/json/resume.json`), or both simultaneously
+- **RenderCV (recommended):** Human-readable YAML format with automatic PDF generation via GitHub Actions, customizable styling via `assets/rendercv/` config files (`design.yaml`, `locale.yaml`, `settings.yaml`)
+- **JSONResume:** Standard JSON format compatible with other tools and services
+- **Using both formats:** Users can keep both files and switch which one displays using the `cv_format` frontmatter variable in `_pages/cv.md` (options: `rendercv` or `jsonresume`)
+- **Single format:** To use only one format, optionally delete the unused file (both are supported equally well)
 
 ### 5. Publications
 
