@@ -18,7 +18,8 @@ The al-folio repository uses BibTeX for managing publications. All entries are s
   journal={Journal Name},
   volume={10},
   pages={1--20},
-  year={2023}
+  year={2023},
+  publisher={Publisher Name}
 }
 
 @inproceedings{key,
@@ -42,34 +43,35 @@ Beyond standard BibTeX fields, al-folio supports custom keywords for rich public
 
 ### Available Custom Keywords
 
-- **pdf:** URL or path to PDF file (`pdf: /assets/papers/2023-paper.pdf`)
-- **code:** URL to source code repository (`code: https://github.com/user/repo`)
-- **preview:** URL to preview image (`preview: /assets/img/papers/paper-preview.jpg`)
-- **doi:** Digital Object Identifier (`doi: 10.1234/example`)
-- **html:** URL to full text or project page (`html: https://example.com`)
-- **slides:** URL to presentation slides (`slides: /assets/slides/2023.pdf`)
-- **poster:** URL to conference poster (`poster: /assets/posters/poster.pdf`)
 - **abstract:** Full abstract text (multi-line text in curly braces)
 - **award:** Award or distinction (`award: Best Paper Award`)
-- **selected:** Boolean to feature on publications page (`selected: true`)
+- **code:** URL to source code repository (`code: https://github.com/user/repo`)
 - **dimensions:** Dimensions badge ID for citation metrics
+- **doi:** Digital Object Identifier (`doi: 10.1234/example`)
+- **html:** URL to full text or project page (`html: https://example.com`)
+- **pdf:** URL or path to PDF file (`pdf: /assets/papers/2023-paper.pdf`)
+- **poster:** URL to conference poster (`poster: /assets/posters/poster.pdf`)
+- **preview:** URL to preview image (`preview: /assets/img/papers/paper-preview.jpg`)
+- **selected:** Boolean to feature on publications page (`selected: true`)
+- **slides:** URL to presentation slides (`slides: /assets/slides/2023.pdf`)
 
 ### Example Entry with Custom Keywords
 
 ```bibtex
-@article{Smith2023,
+@article{smith2023important,
   title={Important Research},
   author={Smith, John and Doe, Jane},
   journal={Nature},
   volume={100},
   pages={1--10},
   year={2023},
-  pdf: /assets/papers/smith2023.pdf,
-  code: https://github.com/example/repo,
-  preview: /assets/img/smith2023.jpg,
-  doi: 10.1234/nature.12345,
-  abstract: This is the full abstract text. It can span multiple lines.,
-  selected: true
+  publisher={Nature Publishing Group},
+  abstract={This is the full abstract text. It can span multiple lines.},
+  pdf={smith2023.pdf},
+  code={https://github.com/example/repo},
+  preview={smith2023.jpg},
+  doi={10.1234/nature.12345},
+  selected={true}
 }
 ```
 
@@ -113,10 +115,13 @@ In pages/posts, use:
 
 When using `pdf`, `poster`, `preview`, or similar fields:
 
-- **Relative paths:** Start with `/assets/` (from site root)
-- **Example:** `pdf: /assets/papers/2023-smith-deep-learning.pdf`
+- **PDF files:** Use just the filename (automatically resolved to `assets/pdf/`)
+  - Example: `pdf={smith2023.pdf}` → resolves to `assets/pdf/smith2023.pdf`
+- **Preview images:** Use just the filename (automatically resolved to `assets/img/publication_preview/`)
+  - Example: `preview={smith2023.jpg}` → resolves to `assets/img/publication_preview/smith2023.jpg`
 - **Absolute URLs:** Include full URL for external resources
-- **Example:** `code: https://github.com/user/repo`
+  - Example: `code={https://github.com/user/repo}`
+  - Example: `html={https://example.com/paper}`
 
 ## Validation
 
