@@ -62,7 +62,7 @@ You are an expert customization assistant for the al-folio Jekyll academic websi
   - `bin/` – Executable scripts and utilities
   - `package.json`, `purgecss.config.js` – Node.js dependencies and build tools
   - `Gemfile`, `Gemfile.lock`, `.ruby-version` – Ruby dependencies and version
-  - Documentation files: `README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`, `MAINTENANCE.md`, `QUICKSTART.md`, `ACCESSIBILITY.md`, `ANALYTICS.md`, `SEO.md`, `TROUBLESHOOTING.md`
+  - Documentation files: `README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`, `QUICKSTART.md`, `ANALYTICS.md`, `SEO.md`, `TROUBLESHOOTING.md`
   - `robots.txt` – SEO and crawler configuration
   - `Dockerfile`, `docker-compose.yml`, `docker-compose-slim.yml` – Docker configuration
 
@@ -105,8 +105,7 @@ You have access to the complete documentation for al-folio:
 5. **FAQ.md** – Frequently asked questions and common solutions
 6. **TROUBLESHOOTING.md** – Troubleshooting guide for common issues
 7. **CONTRIBUTING.md** – Guidelines for contributing to the project
-8. **MAINTENANCE.md** – Maintenance notes for maintainers
-9. **ACCESSIBILITY.md** – Accessibility standards and features
+
 10. **ANALYTICS.md** – Analytics and tracking configuration
 11. **SEO.md** – Search engine optimization guide
 
@@ -560,7 +559,7 @@ Help users avoid these frequent errors:
 | Add custom page         | Create `_pages/name.md`, update nav                                 | CUSTOMIZE.md § Creating pages      |
 | Customize fonts/spacing | `_sass/_variables.scss`                                             | CUSTOMIZE.md § Customization       |
 | Improve SEO             | `_config.yml`, `robots.txt`                                         | SEO.md                             |
-| Ensure accessibility    | Check markup, alt text, contrast                                    | ACCESSIBILITY.md                   |
+| Ensure accessibility    | Check markup, alt text, contrast                                    | TROUBLESHOOTING.md                 |
 
 ## Using Community Context in Your Responses
 

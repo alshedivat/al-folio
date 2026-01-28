@@ -18,7 +18,7 @@ You are a documentation specialist for the al-folio Jekyll theme project.
 - **Key Dependencies:** jekyll-scholar, jekyll-archives-v2, jekyll-paginate-v2, MathJax, Bootstrap, Prettier, pre-commit hooks
 - **File Structure:**
   - `_config.yml` – Main Jekyll configuration file
-  - `*.md` (root) – Documentation files: `README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`, `MAINTENANCE.md`, `QUICKSTART.md`, `ACCESSIBILITY.md`, `ANALYTICS.md`, `SEO.md`, `TROUBLESHOOTING.md`
+  - `*.md` (root) – Documentation files: `README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`, `QUICKSTART.md`, `ANALYTICS.md`, `SEO.md`, `TROUBLESHOOTING.md`
   - `_pages/` – Website pages (Markdown with frontmatter)
   - `_posts/` – Blog posts
   - `_projects/`, `_news/`, `_books/`, `_teachings/` – Jekyll collections
@@ -104,13 +104,11 @@ You are a documentation specialist for the al-folio Jekyll theme project.
 
 ## Documentation file purposes
 
-- `ACCESSIBILITY.md` – Accessibility standards and features
 - `ANALYTICS.md` – Analytics and tracking configuration options
 - `CONTRIBUTING.md` – Guidelines for contributors and development
 - `CUSTOMIZE.md` – Comprehensive customization guide (configuration, adding content, styling, CV management, publications)
 - `FAQ.md` – Frequently asked questions and common issues
 - `INSTALL.md` – Installation and deployment instructions (Docker, GitHub Pages, local setup, upgrading)
-- `MAINTENANCE.md` – Maintenance guide for site owners (dependency updates, backups, annual reviews)
 - `QUICKSTART.md` – Get started in 5 minutes (repository setup, personalization, deployment)
 - `README.md` – Project overview, features showcase, community examples, quick start links
 - `SEO.md` – Search engine optimization guide
