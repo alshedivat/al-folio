@@ -7,6 +7,7 @@ codeBlocks.forEach(function (codeBlock) {
     codeBlock.querySelector("code:not(.language-diff2html)") &&
     codeBlock.querySelector("code:not(.language-echarts)") &&
     codeBlock.querySelector("code:not(.language-geojson)") &&
+    codeBlock.querySelector("code:not(.language-google_charts)") &&
     codeBlock.querySelector("code:not(.language-mermaid)") &&
     codeBlock.querySelector("code:not(.language-plotly)") &&
     codeBlock.querySelector("code:not(.language-vega_lite)")
