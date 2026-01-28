@@ -1,0 +1,710 @@
+# ============================================================================
+# GitHub Stats Update Workflow
+# ============================================================================
+#
+# This workflow automatically generates GitHub repository statistics and user
+# profile cards using lowlighter/metrics and commits them to a separate 'stats'
+# branch. These stats are then displayed on your site's /repositories/ page.
+#
+# REQUIRED SETUP:
+# ---------------
+# 1. Create a Personal Access Token (classic):
+#    - Go to: https://github.com/settings/tokens
+#    - Scopes: public_repo, read:user
+#    - Add as repository secret named: METRICS_TOKEN
+#
+# 2. Update _config.yml:
+#    repo_stats_type: branch
+#    stats_branch_url: "https://raw.githubusercontent.com/<user>/<repo>/stats"
+#
+# 3. Run the workflow:
+#    The 'stats' branch will be created automatically on first run if it doesn't exist.
+#
+# OPTIONAL CONFIGURATION:
+# -----------------------
+# - STATS_TIMEZONE variable: Set custom timezone (defaults to UTC)
+#   Go to: Settings → Secrets and variables → Actions → Variables
+#   Add variable: STATS_TIMEZONE (e.g., "America/New_York")
+#
+# - Enable push trigger: Uncomment the 'push' section below to update
+#   stats on every push to main (may increase Actions usage)
+#
+# SCHEDULE:
+# ---------
+# - Runs daily at midnight UTC (cron: "0 0 * * *")
+# - Can be triggered manually via workflow_dispatch
+#
+# For detailed documentation, see: docs/STATS.md
+# For customization options, see: https://github.com/lowlighter/metrics
+# ============================================================================
+
+name: Update GitHub Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Run daily at midnight
+  workflow_dispatch: # Allow manual trigger
+    inputs:
+      test_matrix:
+        description: "Use a dedicated test matrix (default or combo)"
+        type: choice
+        required: false
+        default: default
+        options:
+          - default
+          - combo
+  # Update stats on every push to main
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      repos: ${{ steps.parse.outputs.repos }}
+      users: ${{ steps.parse.outputs.users }}
+      trophies_enabled: ${{ steps.parse.outputs.trophies_enabled }}
+      trophy_theme_light: ${{ steps.parse.outputs.trophy_theme_light }}
+      trophy_theme_dark: ${{ steps.parse.outputs.trophy_theme_dark }}
+      trophy_columns: ${{ steps.parse.outputs.trophy_columns }}
+      trophy_margin_w: ${{ steps.parse.outputs.trophy_margin_w }}
+      trophy_margin_h: ${{ steps.parse.outputs.trophy_margin_h }}
+      trophy_no_bg: ${{ steps.parse.outputs.trophy_no_bg }}
+      trophy_rank: ${{ steps.parse.outputs.trophy_rank }}
+      repo_stats_type: ${{ steps.parse.outputs.repo_stats_type }}
+      repo_stats_generators: ${{ steps.parse.outputs.repo_stats_generators }}
+      use_metrics: ${{ steps.parse.outputs.use_metrics }}
+      use_readme: ${{ steps.parse.outputs.use_readme }}
+      repo_theme_light: ${{ steps.parse.outputs.repo_theme_light }}
+      repo_theme_dark: ${{ steps.parse.outputs.repo_theme_dark }}
+      repo_description_lines_max: ${{ steps.parse.outputs.repo_description_lines_max }}
+      readme_locale: ${{ steps.parse.outputs.readme_locale }}
+      readme_user_show_icons: ${{ steps.parse.outputs.readme_user_show_icons }}
+      readme_user_extra_params: ${{ steps.parse.outputs.readme_user_extra_params }}
+      readme_repo_extra_params: ${{ steps.parse.outputs.readme_repo_extra_params }}
+      metrics_user_params: ${{ steps.parse.outputs.metrics_user_params }}
+      metrics_repo_params: ${{ steps.parse.outputs.metrics_repo_params }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install PyYAML
+        run: pip install pyyaml
+      - name: Parse repositories.yml
+        id: parse
+        env:
+          REPO_OWNER: ${{ github.repository_owner }}
+          TEST_MATRIX: ${{ github.event.inputs.test_matrix || 'default' }}
+        run: |
+          python3 -c "
+          import yaml, json, os
+          def load_yaml(path):
+              if not os.path.exists(path):
+                  return {}
+              with open(path, 'r') as f:
+                  return yaml.safe_load(f) or {}
+          with open('_data/repositories.yml', 'r') as f:
+              data = yaml.safe_load(f)
+              repos = data.get('github_repos', [])
+              users = data.get('github_users', [])
+              repo_description_lines_max = data.get('repo_description_lines_max', 2)
+              if not users:
+                  users = [os.environ.get('REPO_OWNER', '')]
+              if os.environ.get('TEST_MATRIX') == 'combo':
+                  repos = [
+                      'kuthulux/gnome-connection-manager',
+                      'freeseacher/gnome-connection-manager',
+                      'endavis/gnome-connection-manager',
+                  ]
+                  users = sorted({r.split('/', 1)[0] for r in repos})
+              matrix = []
+              for r in repos:
+                  if '/' in r:
+                      u, n = r.split('/', 1)
+                      show_owner = 'true' if u not in users else 'false'
+                      matrix.append({
+                          'user': u,
+                          'repo': n,
+                          'show_owner': show_owner,
+                          'max_lines': repo_description_lines_max,
+                      })
+          with open('_config.yml', 'r') as f:
+              config = yaml.safe_load(f) or {}
+              repo_stats_type = str(config.get('repo_stats_type', 'external')).lower()
+              repo_stats_generators = str(config.get('repo_stats_generators', 'metrics'))
+              repo_theme_light = str(config.get('repo_theme_light', 'default'))
+              repo_theme_dark = str(config.get('repo_theme_dark', 'dark'))
+              lang = str(config.get('lang', 'en'))
+              repo_trophies = config.get('repo_trophies', {}) or {}
+              trophies_enabled = bool(repo_trophies.get('enabled', False))
+              trophy_theme_light = str(repo_trophies.get('theme_light', 'flat'))
+              trophy_theme_dark = str(repo_trophies.get('theme_dark', 'gitdimmed'))
+              repo_stats_generators_lower = repo_stats_generators.lower()
+              use_metrics = repo_stats_generators_lower in ('metrics', 'both') or 'metrics' in repo_stats_generators_lower
+              use_readme = repo_stats_generators_lower in ('readme', 'both') or 'readme' in repo_stats_generators_lower
+              readme_locale = lang.split('-')[0]
+              if lang.startswith('pt'):
+                  readme_locale = lang
+              elif lang.startswith('zh'):
+                  lang_last = lang.split('-')[-1]
+                  if lang_last in ('cn', 'sg', 'my', 'hans'):
+                      readme_locale = 'cn'
+                  elif lang_last in ('tw', 'hk', 'mo', 'hant'):
+                      readme_locale = 'zh-tw'
+          metrics_config = load_yaml('.config/stats-metrics.yml')
+          readme_config = load_yaml('.config/stats-readme.yml')
+          trophies_config = load_yaml('.config/trophies.yml')
+
+          # Parse metrics configuration with generic plugin support
+          def parse_metrics_params(config_section):
+              params = {}
+              plugins_dict = config_section.pop('plugins', {})
+              # Add non-plugin settings first
+              for key, value in config_section.items():
+                  # Convert booleans to yes/no strings for lowlighter/metrics
+                  if isinstance(value, bool):
+                      params[key] = 'yes' if value else 'no'
+                  else:
+                      params[key] = str(value)
+              # Parse plugins
+              for plugin_name, plugin_settings in (plugins_dict or {}).items():
+                  if not isinstance(plugin_settings, dict):
+                      continue
+                  for setting_key, setting_value in plugin_settings.items():
+                      if setting_key == 'enabled' and setting_value:
+                          # Enable the plugin
+                          if isinstance(setting_value, bool):
+                              params[f'plugin_{plugin_name}'] = 'yes' if setting_value else 'no'
+                          else:
+                              params[f'plugin_{plugin_name}'] = str(setting_value)
+                      elif setting_key != 'enabled':
+                          # Add plugin setting
+                          if isinstance(setting_value, bool):
+                              params[f'plugin_{plugin_name}_{setting_key}'] = 'yes' if setting_value else 'no'
+                          else:
+                              params[f'plugin_{plugin_name}_{setting_key}'] = str(setting_value)
+              return params
+
+          metrics_user = metrics_config.get('user', {}) or {}
+          metrics_repo = metrics_config.get('repo', {}) or {}
+          metrics_user_params = parse_metrics_params(dict(metrics_user))
+          metrics_repo_params = parse_metrics_params(dict(metrics_repo))
+
+          readme_user = readme_config.get('user', {}) or {}
+          readme_repo = readme_config.get('repo', {}) or {}
+          readme_user_show_icons = bool(readme_user.get('show_icons', True))
+          readme_user_extra_params = str(readme_user.get('extra_params', '')).strip()
+          readme_repo_extra_params = str(readme_repo.get('extra_params', '')).strip()
+
+          trophy_columns = trophies_config.get('columns', [6, 4, 3])
+          if not isinstance(trophy_columns, list):
+              trophy_columns = [6, 4, 3]
+          trophy_margin_w = int(trophies_config.get('margin_w', 15))
+          trophy_margin_h = int(trophies_config.get('margin_h', 15))
+          trophy_no_bg = bool(trophies_config.get('no_bg', True))
+          trophy_rank = str(trophies_config.get('rank', '-C'))
+
+          print(f'Matrix: {json.dumps(matrix)}')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+              print(f'repos={json.dumps(matrix)}', file=fh)
+              print(f'users={json.dumps(users)}', file=fh)
+              print(f'trophies_enabled={str(trophies_enabled).lower()}', file=fh)
+              print(f'trophy_theme_light={trophy_theme_light}', file=fh)
+              print(f'trophy_theme_dark={trophy_theme_dark}', file=fh)
+              print(f'trophy_columns={json.dumps(trophy_columns)}', file=fh)
+              print(f'trophy_margin_w={trophy_margin_w}', file=fh)
+              print(f'trophy_margin_h={trophy_margin_h}', file=fh)
+              print(f'trophy_no_bg={str(trophy_no_bg).lower()}', file=fh)
+              print(f'trophy_rank={trophy_rank}', file=fh)
+              print(f'repo_stats_type={repo_stats_type}', file=fh)
+              print(f'repo_stats_generators={repo_stats_generators}', file=fh)
+              print(f'use_metrics={str(use_metrics).lower()}', file=fh)
+              print(f'use_readme={str(use_readme).lower()}', file=fh)
+              print(f'repo_theme_light={repo_theme_light}', file=fh)
+              print(f'repo_theme_dark={repo_theme_dark}', file=fh)
+              print(f'repo_description_lines_max={repo_description_lines_max}', file=fh)
+              print(f'readme_locale={readme_locale}', file=fh)
+              print(f'readme_user_show_icons={str(readme_user_show_icons).lower()}', file=fh)
+              print(f'readme_user_extra_params={readme_user_extra_params}', file=fh)
+              print(f'readme_repo_extra_params={readme_repo_extra_params}', file=fh)
+              print(f'metrics_user_params={json.dumps(metrics_user_params)}', file=fh)
+              print(f'metrics_repo_params={json.dumps(metrics_repo_params)}', file=fh)
+          "
+
+  generate-user-stats:
+    if: ${{ needs.prepare.outputs.use_metrics == 'true' && needs.prepare.outputs.repo_stats_type != 'external' }}
+    runs-on: ubuntu-latest
+    needs: prepare
+    strategy:
+      matrix:
+        user: ${{ fromJson(needs.prepare.outputs.users) }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Parse Metrics Parameters
+        id: metrics_params
+        env:
+          PARAMS_JSON: ${{ needs.prepare.outputs.metrics_user_params }}
+        run: |
+          echo "$PARAMS_JSON" | python3 -c "
+          import json, sys, os
+          params = json.load(sys.stdin)
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+              for key, value in params.items():
+                  print(f'{key}={value}', file=fh)
+          "
+      - name: Generate User Stats (${{ matrix.user }})
+        # Using fork with bug fixes - composite action handles Docker properly
+        # Fork: https://github.com/endavis/metrics/tree/fix/habits-activity-typeerror-bugs
+        # Fixes: activity, habits, achievements, projects plugins + wakatime template null checks
+        uses: endavis/metrics@fix/habits-activity-typeerror-bugs
+        with:
+          filename: user_stats_${{ matrix.user }}.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugins_errors_fatal: no
+          base: ${{ steps.metrics_params.outputs.base }}
+          repositories_affiliations: ${{ steps.metrics_params.outputs.repositories_affiliations }}
+          repositories_forks: ${{ steps.metrics_params.outputs.repositories_forks }}
+          plugin_habits: ${{ steps.metrics_params.outputs.plugin_habits }}
+          plugin_habits_charts: ${{ steps.metrics_params.outputs.plugin_habits_charts }}
+          plugin_habits_from: ${{ steps.metrics_params.outputs.plugin_habits_from }}
+          plugin_habits_days: ${{ steps.metrics_params.outputs.plugin_habits_days }}
+          plugin_habits_facts: ${{ steps.metrics_params.outputs.plugin_habits_facts }}
+          plugin_habits_trim: ${{ steps.metrics_params.outputs.plugin_habits_trim }}
+          plugin_languages: ${{ steps.metrics_params.outputs.plugin_languages }}
+          plugin_languages_details: ${{ steps.metrics_params.outputs.plugin_languages_details }}
+          plugin_languages_sections: ${{ steps.metrics_params.outputs.plugin_languages_sections }}
+          plugin_languages_indepth: ${{ steps.metrics_params.outputs.plugin_languages_indepth }}
+          plugin_languages_analysis_timeout: ${{ steps.metrics_params.outputs.plugin_languages_analysis_timeout }}
+          plugin_achievements: ${{ steps.metrics_params.outputs.plugin_achievements }}
+          plugin_achievements_display: ${{ steps.metrics_params.outputs.plugin_achievements_display }}
+          plugin_achievements_threshold: ${{ steps.metrics_params.outputs.plugin_achievements_threshold }}
+          plugin_activity: ${{ steps.metrics_params.outputs.plugin_activity }}
+          plugin_activity_limit: ${{ steps.metrics_params.outputs.plugin_activity_limit }}
+          plugin_activity_timestamps: ${{ steps.metrics_params.outputs.plugin_activity_timestamps }}
+          plugin_activity_visibility: ${{ steps.metrics_params.outputs.plugin_activity_visibility }}
+          plugin_notable: ${{ steps.metrics_params.outputs.plugin_notable }}
+          plugin_notable_from: ${{ steps.metrics_params.outputs.plugin_notable_from }}
+          plugin_notable_repositories: ${{ steps.metrics_params.outputs.plugin_notable_repositories }}
+          plugin_isocalendar: ${{ steps.metrics_params.outputs.plugin_isocalendar }}
+          plugin_isocalendar_duration: ${{ steps.metrics_params.outputs.plugin_isocalendar_duration }}
+          plugin_topics: ${{ steps.metrics_params.outputs.plugin_topics }}
+          plugin_topics_mode: ${{ steps.metrics_params.outputs.plugin_topics_mode }}
+          plugin_topics_limit: ${{ steps.metrics_params.outputs.plugin_topics_limit }}
+          plugin_code: ${{ steps.metrics_params.outputs.plugin_code }}
+          plugin_code_lines: ${{ steps.metrics_params.outputs.plugin_code_lines }}
+          plugin_code_load: ${{ steps.metrics_params.outputs.plugin_code_load }}
+          plugin_code_visibility: ${{ steps.metrics_params.outputs.plugin_code_visibility }}
+          plugin_stars: ${{ steps.metrics_params.outputs.plugin_stars }}
+          plugin_stars_limit: ${{ steps.metrics_params.outputs.plugin_stars_limit }}
+          plugin_stargazers: ${{ steps.metrics_params.outputs.plugin_stargazers }}
+          plugin_stargazers_charts: ${{ steps.metrics_params.outputs.plugin_stargazers_charts }}
+          plugin_stargazers_charts_type: ${{ steps.metrics_params.outputs.plugin_stargazers_charts_type }}
+          plugin_followup: ${{ steps.metrics_params.outputs.plugin_followup }}
+          plugin_followup_sections: ${{ steps.metrics_params.outputs.plugin_followup_sections }}
+          plugin_reactions: ${{ steps.metrics_params.outputs.plugin_reactions }}
+          plugin_reactions_limit: ${{ steps.metrics_params.outputs.plugin_reactions_limit }}
+          plugin_reactions_display: ${{ steps.metrics_params.outputs.plugin_reactions_display }}
+          plugin_calendar: ${{ steps.metrics_params.outputs.plugin_calendar }}
+          plugin_calendar_limit: ${{ steps.metrics_params.outputs.plugin_calendar_limit }}
+          plugin_discussions: ${{ steps.metrics_params.outputs.plugin_discussions }}
+          plugin_gists: ${{ steps.metrics_params.outputs.plugin_gists }}
+          plugin_people: ${{ steps.metrics_params.outputs.plugin_people }}
+          plugin_people_limit: ${{ steps.metrics_params.outputs.plugin_people_limit }}
+          plugin_people_size: ${{ steps.metrics_params.outputs.plugin_people_size }}
+          plugin_people_types: ${{ steps.metrics_params.outputs.plugin_people_types }}
+          plugin_projects: ${{ steps.metrics_params.outputs.plugin_projects }}
+          plugin_projects_limit: ${{ steps.metrics_params.outputs.plugin_projects_limit }}
+          plugin_projects_descriptions: ${{ steps.metrics_params.outputs.plugin_projects_descriptions }}
+          config_timezone: ${{ vars.STATS_TIMEZONE || 'UTC' }}
+          user: ${{ matrix.user }}
+          output_action: none # Do not commit, just generate
+      - name: Normalize User Stats Output
+        run: |
+          set -euo pipefail
+          # Composite action saves to /metrics_renders/, copy to workspace
+          if [ -f "/metrics_renders/user_stats_${{ matrix.user }}.svg" ]; then
+            sudo cp "/metrics_renders/user_stats_${{ matrix.user }}.svg" "user_stats_${{ matrix.user }}.svg"
+            echo "✓ Stats file copied from /metrics_renders/"
+          elif [ -f "user_stats_${{ matrix.user }}.svg" ]; then
+            echo "✓ Stats file already in workspace"
+          else
+            echo "Error: Stats file not found in any expected location"
+            ls -la /metrics_renders/ || echo "/metrics_renders/ not found"
+            ls -la
+            exit 1
+          fi
+      - name: List files
+        run: ls -R
+      - name: Upload User Stats
+        uses: actions/upload-artifact@v4
+        with:
+          name: stats-user-${{ matrix.user }}
+          retention-days: 1
+          path: user_stats_${{ matrix.user }}.svg
+
+  generate-repo-stats:
+    name: Generate Stats for ${{ matrix.user }}/${{ matrix.repo }}
+    needs: prepare
+    if: ${{ needs.prepare.outputs.use_metrics == 'true' && needs.prepare.outputs.repo_stats_type != 'external' }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include: ${{ fromJson(needs.prepare.outputs.repos) }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Parse Metrics Parameters
+        id: metrics_params
+        env:
+          PARAMS_JSON: ${{ needs.prepare.outputs.metrics_repo_params }}
+        run: |
+          echo "$PARAMS_JSON" | python3 -c "
+          import json, sys, os
+          params = json.load(sys.stdin)
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as fh:
+              for key, value in params.items():
+                  print(f'{key}={value}', file=fh)
+          "
+      - name: Generate Repo Stats (${{ matrix.repo }})
+        # Using fork with bug fixes (same as user stats)
+        uses: endavis/metrics@fix/habits-activity-typeerror-bugs
+        with:
+          filename: repo_${{ matrix.user }}_${{ matrix.repo }}.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          plugins_errors_fatal: no
+          template: ${{ steps.metrics_params.outputs.template }}
+          user: ${{ matrix.user }}
+          repo: ${{ matrix.repo }}
+          plugin_lines: ${{ steps.metrics_params.outputs.plugin_lines }}
+          plugin_languages: ${{ steps.metrics_params.outputs.plugin_languages }}
+          plugin_languages_analysis_timeout: ${{ steps.metrics_params.outputs.plugin_languages_analysis_timeout }}
+          plugin_languages_categories: ${{ steps.metrics_params.outputs.plugin_languages_categories }}
+          plugin_languages_details: ${{ steps.metrics_params.outputs.plugin_languages_details }}
+          debug: ${{ steps.metrics_params.outputs.debug }}
+          output_action: none
+      - name: Normalize Repo Stats Output
+        run: |
+          set -euo pipefail
+          # Composite action saves to /metrics_renders/, copy to workspace
+          if [ -f "/metrics_renders/repo_${{ matrix.user }}_${{ matrix.repo }}.svg" ]; then
+            sudo cp "/metrics_renders/repo_${{ matrix.user }}_${{ matrix.repo }}.svg" "repo_${{ matrix.user }}_${{ matrix.repo }}.svg"
+            echo "✓ Stats file copied from /metrics_renders/"
+          elif [ -f "repo_${{ matrix.user }}_${{ matrix.repo }}.svg" ]; then
+            echo "✓ Stats file already in workspace"
+          else
+            echo "Error: Stats file not found in any expected location"
+            ls -la /metrics_renders/ || echo "/metrics_renders/ not found"
+            ls -la
+            exit 1
+          fi
+      - name: List files
+        run: ls -la
+      - name: Upload Repo Stats
+        uses: actions/upload-artifact@v4
+        with:
+          name: stats-repo-${{ matrix.user }}-${{ matrix.repo }}
+          retention-days: 1
+          path: repo_${{ matrix.user }}_${{ matrix.repo }}.svg
+
+  generate-readme-user-stats:
+    name: Generate Readme Stats for ${{ matrix.user }}
+    needs: prepare
+    if: ${{ needs.prepare.outputs.use_readme == 'true' && needs.prepare.outputs.repo_stats_type != 'external' }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        user: ${{ fromJson(needs.prepare.outputs.users) }}
+    env:
+      PORT: 9000
+      PAT_1: ${{ secrets.METRICS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: anuraghazra/github-readme-stats
+          path: readme-stats
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: readme-stats/package-lock.json
+      - name: Install Readme Stats
+        run: npm ci
+        working-directory: readme-stats
+      - name: Start Readme Stats Server
+        run: |
+          node express.js &
+          echo $! > /tmp/readme_stats_pid
+          ready=0
+          for i in {1..30}; do
+            if curl -sSf "http://localhost:${PORT}/api?username=${{ matrix.user }}" > /dev/null; then
+              ready=1
+              break
+            fi
+            sleep 1
+          done
+          if [ "$ready" -ne 1 ]; then
+            echo "Readme stats server failed to start" >&2
+            exit 1
+          fi
+        working-directory: readme-stats
+      - name: Generate Readme User Stats
+        env:
+          USERNAME: ${{ matrix.user }}
+          THEME_LIGHT: ${{ needs.prepare.outputs.repo_theme_light }}
+          THEME_DARK: ${{ needs.prepare.outputs.repo_theme_dark }}
+          LOCALE: ${{ needs.prepare.outputs.readme_locale }}
+          SHOW_ICONS: ${{ needs.prepare.outputs.readme_user_show_icons }}
+          EXTRA_PARAMS: ${{ needs.prepare.outputs.readme_user_extra_params }}
+        run: |
+          set -euo pipefail
+          curl -sSf "http://localhost:${PORT}/api?username=${USERNAME}&theme=${THEME_LIGHT}&show_icons=${SHOW_ICONS}&locale=${LOCALE}${EXTRA_PARAMS}" \
+            -o "user_stats_readme_${USERNAME}_light.svg"
+          curl -sSf "http://localhost:${PORT}/api?username=${USERNAME}&theme=${THEME_DARK}&show_icons=${SHOW_ICONS}&locale=${LOCALE}${EXTRA_PARAMS}" \
+            -o "user_stats_readme_${USERNAME}_dark.svg"
+      - name: Stop Readme Stats Server
+        if: always()
+        run: |
+          if [ -f /tmp/readme_stats_pid ]; then
+            kill "$(cat /tmp/readme_stats_pid)" || true
+          fi
+      - name: Upload Readme User Stats
+        uses: actions/upload-artifact@v4
+        with:
+          name: stats-readme-user-${{ matrix.user }}
+          retention-days: 1
+          path: user_stats_readme_${{ matrix.user }}_*.svg
+
+  generate-readme-repo-stats:
+    name: Generate Readme Repo Stats for ${{ matrix.user }}/${{ matrix.repo }}
+    needs: prepare
+    if: ${{ needs.prepare.outputs.use_readme == 'true' && needs.prepare.outputs.repo_stats_type != 'external' }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        include: ${{ fromJson(needs.prepare.outputs.repos) }}
+    env:
+      PORT: 9000
+      PAT_1: ${{ secrets.METRICS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          repository: anuraghazra/github-readme-stats
+          path: readme-stats
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: readme-stats/package-lock.json
+      - name: Install Readme Stats
+        run: npm ci
+        working-directory: readme-stats
+      - name: Start Readme Stats Server
+        run: |
+          node express.js &
+          echo $! > /tmp/readme_stats_pid
+          ready=0
+          for i in {1..30}; do
+            if curl -sSf "http://localhost:${PORT}/api?username=${{ matrix.user }}" > /dev/null; then
+              ready=1
+              break
+            fi
+            sleep 1
+          done
+          if [ "$ready" -ne 1 ]; then
+            echo "Readme stats server failed to start" >&2
+            exit 1
+          fi
+        working-directory: readme-stats
+      - name: Generate Readme Repo Stats
+        env:
+          USERNAME: ${{ matrix.user }}
+          REPO: ${{ matrix.repo }}
+          SHOW_OWNER: ${{ matrix.show_owner }}
+          MAX_LINES: ${{ matrix.max_lines }}
+          THEME_LIGHT: ${{ needs.prepare.outputs.repo_theme_light }}
+          THEME_DARK: ${{ needs.prepare.outputs.repo_theme_dark }}
+          LOCALE: ${{ needs.prepare.outputs.readme_locale }}
+          EXTRA_PARAMS: ${{ needs.prepare.outputs.readme_repo_extra_params }}
+        run: |
+          set -euo pipefail
+          curl -sSf "http://localhost:${PORT}/api/pin/?username=${USERNAME}&repo=${REPO}&theme=${THEME_LIGHT}&show_owner=${SHOW_OWNER}&description_lines_count=${MAX_LINES}&locale=${LOCALE}${EXTRA_PARAMS}" \
+            -o "repo_readme_${USERNAME}_${REPO}_light.svg"
+          curl -sSf "http://localhost:${PORT}/api/pin/?username=${USERNAME}&repo=${REPO}&theme=${THEME_DARK}&show_owner=${SHOW_OWNER}&description_lines_count=${MAX_LINES}&locale=${LOCALE}${EXTRA_PARAMS}" \
+            -o "repo_readme_${USERNAME}_${REPO}_dark.svg"
+      - name: Stop Readme Stats Server
+        if: always()
+        run: |
+          if [ -f /tmp/readme_stats_pid ]; then
+            kill "$(cat /tmp/readme_stats_pid)" || true
+          fi
+      - name: Upload Readme Repo Stats
+        uses: actions/upload-artifact@v4
+        with:
+          name: stats-readme-repo-${{ matrix.user }}-${{ matrix.repo }}
+          retention-days: 1
+          path: repo_readme_${{ matrix.user }}_${{ matrix.repo }}_*.svg
+
+  generate-trophies:
+    name: Generate Trophies for ${{ matrix.user }}
+    needs: prepare
+    if: ${{ needs.prepare.outputs.trophies_enabled == 'true' && needs.prepare.outputs.repo_stats_type != 'external' }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        user: ${{ fromJson(needs.prepare.outputs.users) }}
+    env:
+      PORT: 8080
+      GITHUB_TOKEN1: ${{ secrets.METRICS_TOKEN }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - name: Start Trophy Server
+        run: |
+          deno run -A https://raw.githubusercontent.com/ryo-ma/github-profile-trophy/master/main.ts &
+          echo $! > /tmp/trophy_pid
+          ready=0
+          for i in {1..30}; do
+            if curl -sSf "http://localhost:8080/?username=${{ matrix.user }}" > /dev/null; then
+              ready=1
+              break
+            fi
+            sleep 1
+          done
+          if [ "$ready" -ne 1 ]; then
+            echo "Trophy server failed to start" >&2
+            exit 1
+          fi
+      - name: Generate Trophy SVGs
+        env:
+          USERNAME: ${{ matrix.user }}
+          TROPHY_THEME_LIGHT: ${{ needs.prepare.outputs.trophy_theme_light }}
+          TROPHY_THEME_DARK: ${{ needs.prepare.outputs.trophy_theme_dark }}
+          TROPHY_COLUMNS: ${{ needs.prepare.outputs.trophy_columns }}
+          TROPHY_MARGIN_W: ${{ needs.prepare.outputs.trophy_margin_w }}
+          TROPHY_MARGIN_H: ${{ needs.prepare.outputs.trophy_margin_h }}
+          TROPHY_NO_BG: ${{ needs.prepare.outputs.trophy_no_bg }}
+          TROPHY_RANK: ${{ needs.prepare.outputs.trophy_rank }}
+        run: |
+          set -euo pipefail
+          columns=$(python3 - <<'PY'
+          import json, os
+          print(' '.join(str(c) for c in json.loads(os.environ.get('TROPHY_COLUMNS', '[6,4,3]'))))
+          PY
+          )
+          for theme in light dark; do
+            if [ "$theme" = "light" ]; then
+              trophy_theme="$TROPHY_THEME_LIGHT"
+            else
+              trophy_theme="$TROPHY_THEME_DARK"
+            fi
+            for column in $columns; do
+              curl -sSf "http://localhost:8080/?username=${USERNAME}&theme=${trophy_theme}&column=${column}&margin-w=${TROPHY_MARGIN_W}&margin-h=${TROPHY_MARGIN_H}&no-bg=${TROPHY_NO_BG}&rank=${TROPHY_RANK}" \
+                -o "trophies_${USERNAME}_${theme}_c${column}.svg"
+            done
+          done
+      - name: Stop Trophy Server
+        if: always()
+        run: |
+          if [ -f /tmp/trophy_pid ]; then
+            kill "$(cat /tmp/trophy_pid)" || true
+          fi
+      - name: Upload Trophies
+        uses: actions/upload-artifact@v4
+        with:
+          name: stats-trophies-${{ matrix.user }}
+          retention-days: 1
+          path: trophies_${{ matrix.user }}_*.svg
+
+  commit-stats:
+    needs: [prepare, generate-user-stats, generate-repo-stats, generate-readme-user-stats, generate-readme-repo-stats, generate-trophies]
+    if: ${{ needs.prepare.outputs.repo_stats_type == 'branch' && !failure() && !cancelled() }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Create Stats Branch if Needed
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --heads origin stats >/dev/null 2>&1; then
+            echo "Stats branch exists, checking out..."
+            git checkout stats
+          else
+            echo "Stats branch doesn't exist, creating it..."
+            git checkout --orphan stats
+            git rm -rf . || true
+            mkdir -p assets/img/stats
+            touch assets/img/stats/.gitkeep
+            git add assets/img/stats/.gitkeep
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git commit -m "Initialize stats branch"
+            git push origin stats
+            echo "Stats branch created and pushed"
+          fi
+
+      - name: Download User Stats
+        uses: actions/download-artifact@v4
+        if: ${{ needs.prepare.outputs.use_metrics == 'true' }}
+        with:
+          pattern: stats-user-*
+          path: assets/img/stats/
+          merge-multiple: true
+
+      - name: Download Repo Stats
+        uses: actions/download-artifact@v4
+        if: ${{ needs.prepare.outputs.use_metrics == 'true' && needs['generate-repo-stats'].result == 'success' }}
+        with:
+          pattern: stats-repo-*
+          path: assets/img/stats/
+          merge-multiple: true
+
+      - name: Download Readme User Stats
+        uses: actions/download-artifact@v4
+        if: ${{ needs['generate-readme-user-stats'].result == 'success' }}
+        with:
+          pattern: stats-readme-user-*
+          path: assets/img/stats/
+          merge-multiple: true
+
+      - name: Download Readme Repo Stats
+        uses: actions/download-artifact@v4
+        if: ${{ needs['generate-readme-repo-stats'].result == 'success' }}
+        with:
+          pattern: stats-readme-repo-*
+          path: assets/img/stats/
+          merge-multiple: true
+
+      - name: Download Trophies
+        uses: actions/download-artifact@v4
+        if: ${{ needs['generate-trophies'].result == 'success' }}
+        with:
+          pattern: stats-trophies-*
+          path: assets/img/stats/
+          merge-multiple: true
+
+      - name: Cleanup Stale Files
+        run: |
+          rm -f assets/img/stats/repo_bastproxy-py3.svg assets/img/stats/repo_endavis_bastproxy-py3.svg
+          rm -rf assets/img/stats/metrics_renders/
+          rm -f assets/img/stats/repo_bastproxy.svg assets/img/stats/repo_infrafoundry.svg
+          rm -f assets/img/stats/user_stats.svg
+
+      - name: Debug File Structure
+        run: ls -R assets/img/stats/
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A assets/img/stats/
+          git commit -m "chore: update stats [skip ci]" || echo "No changes to commit"
+          git push -u origin stats

@@ -1,0 +1,161 @@
+# Configuration for lowlighter/metrics stats generation
+# See: https://github.com/lowlighter/metrics for all available options
+#
+# GitHub Token Scopes Required:
+# - read:user (basic user information - required for all plugins)
+# - repo (repository access - required for most plugins)
+# - read:org (organization membership data - required for organization metrics)
+# - read:project (GitHub Projects v2 - required only for projects plugin)
+#
+# See docs/stats.md for complete documentation and setup instructions
+
+user:
+  # Base sections to include in user stats
+  base: header, activity, community, repositories, metadata
+  repositories_affiliations: owner, collaborator, organization_member
+  repositories_forks: yes
+
+  # Plugins for user stats
+  # Each plugin can be enabled/disabled and configured with specific settings
+  # See: https://github.com/lowlighter/metrics#-plugins for all available plugins
+  plugins:
+    # Languages statistics
+    languages:
+      enabled: yes
+      details: bytes-size, percentage
+      # NOTE: indepth causes deep repo analysis and can timeout (15+ minutes)
+      # Only enable if you have few repositories or increase workflow timeout
+      # indepth: yes
+      analysis_timeout: 15
+    # Notable contributions - shows your most notable contributions
+    notable:
+      enabled: yes
+      from: organization # organization or repository
+      repositories: yes # Show repository names
+    # ISO calendar - contribution calendar
+    isocalendar:
+      enabled: yes
+      duration: half-year # full-year or half-year
+    # Topics - your most used topics
+    topics:
+      enabled: yes
+      mode: icons # starred, mastered, or icons
+      limit: 15 # Number of topics to display
+    # Code snippet of the day
+    code:
+      enabled: yes
+      lines: 12 # Max lines to display
+      load: 100 # Number of events to analyze
+      visibility: public # public or all
+    # Stars - recently starred repos
+    stars:
+      enabled: yes
+      limit: 4 # Number of recently starred repos to display
+    # Stargazers chart
+    stargazers:
+      enabled: yes
+      charts: yes # Show charts
+      charts_type: classic # classic or chartist
+    # Follow-up issues and PRs
+    followup:
+      enabled: yes
+      sections: user # user or repositories
+    # Reaction stats on issues/PRs
+    reactions:
+      enabled: yes
+      limit: 200 # Max number of issues/PRs to analyze
+      display: absolute # absolute or percentage
+    # Commit calendar - visual calendar showing commit history
+    calendar:
+      enabled: yes
+      limit: full-year # full-year or half-year
+    # Discussions - GitHub discussions participation stats
+    discussions:
+      enabled: yes
+    # Gists - GitHub Gists stats
+    gists:
+      enabled: yes
+    # People - Relationships with users (followers, sponsors, etc.)
+    people:
+      enabled: yes
+      limit: 24 # Max number of people to display
+      size: 28 # Size of avatars
+      types: followers, following # Types: followers, following, sponsoring, sponsors, contributors, stargazers, watchers, thanks
+    # Projects - GitHub Projects v2 progress
+    projects:
+      enabled: yes
+      limit: 4 # Number of projects to display
+      descriptions: yes # Show project descriptions
+    # Additional plugins (all working with fork bug fixes)
+    habits:
+      enabled: yes
+      charts: yes
+      from: 200 # Number of events to analyze
+      days: 14 # Number of days to display
+      facts: yes # Show fun facts
+      trim: yes # Trim unused hours
+    achievements:
+      enabled: yes
+      display: compact # compact or detailed
+      threshold: C # Only show achievements rank C and above
+    activity:
+      enabled: yes
+      limit: 5 # Number of recent events to display
+      timestamps: yes # Show timestamps
+      visibility: public # all, public, or private
+
+    # Disabled plugins - require additional setup or external services
+    # Enable these by setting enabled: yes and providing required configuration
+    wakatime:
+      enabled: no # Requires WakaTime API key
+    music:
+      enabled: no # Requires Spotify/Apple Music/Last.fm integration
+    pagespeed:
+      enabled: no # Requires Google PageSpeed API
+    posts:
+      enabled: no # Requires external blog/dev.to configuration
+    rss:
+      enabled: no # Requires RSS feed URL
+    stackoverflow:
+      enabled: no # Requires Stack Overflow user ID
+    tweets:
+      enabled: no # Requires Twitter API credentials
+    # Specialized/gaming plugins
+    chess:
+      enabled: no # Requires Chess.com account
+    crypto:
+      enabled: no # Requires cryptocurrency wallet addresses
+    splatoon:
+      enabled: no # Requires Nintendo Splatoon stats
+    nightscout:
+      enabled: no # Requires Nightscout CGM data
+    "16personalities":
+      enabled: no # Requires 16personalities test results
+    # Miscellaneous
+    contributors:
+      enabled: no # Repository contributors (use for org pages)
+    licenses:
+      enabled: no # License analysis (use for org pages)
+    screenshot:
+      enabled: no # Website screenshot (requires URL)
+    skyline:
+      enabled: no # 3D contribution skyline (GitHub only)
+    stock:
+      enabled: no # Stock market data (requires API)
+    support:
+      enabled: no # Sponsors/support information
+
+repo:
+  # Repository template and base settings
+  template: repository
+  debug: yes
+
+  # Plugins for repository stats
+  plugins:
+    lines:
+      enabled: yes
+    languages:
+      enabled: yes
+      analysis_timeout: 15
+      categories: markup, programming
+      details: bytes-size, percentage

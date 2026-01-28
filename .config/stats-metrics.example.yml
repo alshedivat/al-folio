@@ -1,0 +1,119 @@
+# Example configuration for lowlighter/metrics stats generation
+# This file demonstrates all working plugins and features
+# Copy to stats-metrics.yml and customize for your needs
+# See: https://github.com/lowlighter/metrics for all available options
+
+user:
+  # Base sections to include in user stats
+  base: header, activity, community, repositories, metadata
+  repositories_affiliations: owner, collaborator, organization_member
+  repositories_forks: yes
+
+  # Plugins for user stats
+  # Each plugin can be enabled/disabled and configured with specific settings
+  # See: https://github.com/lowlighter/metrics#-plugins for all available plugins
+  plugins:
+    # Languages statistics - shows your most used programming languages
+    languages:
+      enabled: yes
+      details: bytes-size, percentage
+      # NOTE: indepth causes deep repo analysis and can timeout (15+ minutes)
+      # Only enable if you have few repositories or increase workflow timeout
+      # indepth: yes
+      analysis_timeout: 15
+
+    # Notable contributions - shows your most notable contributions
+    notable:
+      enabled: yes
+      from: organization # organization or repository
+      repositories: yes # Show repository names
+
+    # ISO calendar - contribution calendar heatmap
+    isocalendar:
+      enabled: yes
+      duration: half-year # full-year or half-year
+
+    # Topics - your most used topics/tags
+    topics:
+      enabled: yes
+      mode: icons # starred, mastered, or icons
+      limit: 15 # Number of topics to display
+
+    # Code snippet of the day - shows a random code snippet from your activity
+    code:
+      enabled: yes
+      lines: 12 # Max lines to display
+      load: 100 # Number of events to analyze
+      visibility: public # public or all
+
+    # Stars - recently starred repositories
+    stars:
+      enabled: yes
+      limit: 4 # Number of recently starred repos to display
+
+    # Stargazers chart - growth chart of your repositories' stars
+    stargazers:
+      enabled: yes
+      charts: yes # Show charts
+      charts_type: classic # classic or chartist
+
+    # Follow-up issues and PRs - tracks your open issues and PRs
+    followup:
+      enabled: yes
+      sections: user # user or repositories
+
+    # Reaction stats on issues/PRs - shows emoji reactions on your contributions
+    reactions:
+      enabled: yes
+      limit: 200 # Max number of issues/PRs to analyze
+      display: absolute # absolute or percentage
+
+    # NOTE: The following plugins are NOT working in GitHub Actions:
+
+    # Coding habits chart - DISABLED (plugin bug)
+    # Error: TypeError: Cannot destructure property 'author' of 'undefined'
+    # The habits plugin has a code bug where it tries to access undefined data
+    # habits:
+    #   enabled: no
+    #   charts: yes
+    #   from: 200 # Number of events to analyze
+    #   days: 14 # Number of days to display
+    #   facts: yes # Show fun facts
+    #   trim: yes # Trim unused hours
+
+    # Achievement badges - DISABLED (deprecated API)
+    # Error: Projects (classic) is being deprecated
+    # The achievements plugin queries GitHub Projects (classic) API which was
+    # deprecated in May 2024 and is no longer available
+    # achievements:
+    #   enabled: no
+    #   display: compact # compact or detailed
+    #   threshold: C # Only show achievements rank C and above
+
+    # Activity overview - DISABLED (plugin bug)
+    # Error: TypeError: Cannot read properties of undefined (reading 'filter')
+    # The activity plugin has a code bug where it tries to filter undefined data
+    # Note: Base section already shows activity: commits, PRs, issues
+    # activity:
+    #   enabled: no
+    #   limit: 5 # Number of recent events to display
+    #   timestamps: yes # Show timestamps
+    #   visibility: public # all, public, or private
+
+repo:
+  # Repository template and base settings
+  template: repository
+  debug: yes
+
+  # Plugins for repository stats
+  plugins:
+    # Lines of code statistics
+    lines:
+      enabled: yes
+
+    # Language breakdown for the repository
+    languages:
+      enabled: yes
+      analysis_timeout: 15
+      categories: markup, programming
+      details: bytes-size, percentage

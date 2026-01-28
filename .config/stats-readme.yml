@@ -1,0 +1,9 @@
+user:
+  show_icons: true
+  # Extra query params for user stats, similar to metrics comprehensive view
+  extra_params: "&include_all_commits=true&count_private=true"
+
+repo:
+  # Extra query params appended to the repo stats call
+  # Add "&show_owner=true" to show repo owner, "&hide_border=true" to hide border, etc.
+  extra_params: "&show_owner=true"

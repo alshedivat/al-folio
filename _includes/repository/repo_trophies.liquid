@@ -1,42 +1,126 @@
 <div class="repo p-2 text-center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <span class="d-none d-sm-none d-md-block">
-      <img
-        class="only-light"
-        alt="{{ include.username }}"
-        src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=6"
-      >
-      <img
-        class="only-dark"
-        alt="{{ include.username }}"
-        src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=6"
-      >
-    </span>
+    {% if site.repo_stats_type == 'local' %}
+      <span class="d-none d-sm-none d-md-block">
+        <img
+          class="only-light"
+          alt="{{ include.username }}"
+          src="{{ '/assets/img/stats/trophies_' | append: include.username | append: '_light_c6.svg' | relative_url }}"
+        >
+        <img
+          class="only-dark"
+          alt="{{ include.username }}"
+          src="{{ '/assets/img/stats/trophies_' | append: include.username | append: '_dark_c6.svg' | relative_url }}"
+        >
+      </span>
 
-    <span class="d-none d-sm-block d-md-none">
-      <img
-        class="only-light"
-        alt="{{ include.username }}"
-        src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=4"
-      >
-      <img
-        class="only-dark"
-        alt="{{ include.username }}"
-        src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=4"
-      >
-    </span>
+      <span class="d-none d-sm-block d-md-none">
+        <img
+          class="only-light"
+          alt="{{ include.username }}"
+          src="{{ '/assets/img/stats/trophies_' | append: include.username | append: '_light_c4.svg' | relative_url }}"
+        >
+        <img
+          class="only-dark"
+          alt="{{ include.username }}"
+          src="{{ '/assets/img/stats/trophies_' | append: include.username | append: '_dark_c4.svg' | relative_url }}"
+        >
+      </span>
 
-    <span class="d-block d-sm-none">
-      <img
-        class="only-light"
-        alt="{{ include.username }}"
-        src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=3"
-      >
-      <img
-        class="only-dark"
-        alt="{{ include.username }}"
-        src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w=15&margin-h=15&no-bg=true&rank=-C&column=3"
-      >
-    </span>
+      <span class="d-block d-sm-none">
+        <img
+          class="only-light"
+          alt="{{ include.username }}"
+          src="{{ '/assets/img/stats/trophies_' | append: include.username | append: '_light_c3.svg' | relative_url }}"
+        >
+        <img
+          class="only-dark"
+          alt="{{ include.username }}"
+          src="{{ '/assets/img/stats/trophies_' | append: include.username | append: '_dark_c3.svg' | relative_url }}"
+        >
+      </span>
+    {% elsif site.repo_stats_type == 'branch' %}
+      <span class="d-none d-sm-none d-md-block">
+        <img
+          class="only-light"
+          alt="{{ include.username }}"
+          src="{{ site.stats_branch_url }}/assets/img/stats/trophies_{{ include.username }}_light_c6.svg"
+        >
+        <img
+          class="only-dark"
+          alt="{{ include.username }}"
+          src="{{ site.stats_branch_url }}/assets/img/stats/trophies_{{ include.username }}_dark_c6.svg"
+        >
+      </span>
+
+      <span class="d-none d-sm-block d-md-none">
+        <img
+          class="only-light"
+          alt="{{ include.username }}"
+          src="{{ site.stats_branch_url }}/assets/img/stats/trophies_{{ include.username }}_light_c4.svg"
+        >
+        <img
+          class="only-dark"
+          alt="{{ include.username }}"
+          src="{{ site.stats_branch_url }}/assets/img/stats/trophies_{{ include.username }}_dark_c4.svg"
+        >
+      </span>
+
+      <span class="d-block d-sm-none">
+        <img
+          class="only-light"
+          alt="{{ include.username }}"
+          src="{{ site.stats_branch_url }}/assets/img/stats/trophies_{{ include.username }}_light_c3.svg"
+        >
+        <img
+          class="only-dark"
+          alt="{{ include.username }}"
+          src="{{ site.stats_branch_url }}/assets/img/stats/trophies_{{ include.username }}_dark_c3.svg"
+        >
+      </span>
+    {% else %}
+      {% assign margin_w = site.repo_trophies.margin_w | default: 15 %}
+      {% assign margin_h = site.repo_trophies.margin_h | default: 15 %}
+      {% assign no_bg = site.repo_trophies.no_bg | default: true %}
+      {% assign rank = site.repo_trophies.rank | default: '-C' %}
+      <span class="d-none d-sm-none d-md-block">
+        <img
+          class="only-light"
+          alt="{{ include.username }}"
+          src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w={{ margin_w }}&margin-h={{ margin_h }}&no-bg={{ no_bg }}&rank={{ rank }}&column=6"
+        >
+        <img
+          class="only-dark"
+          alt="{{ include.username }}"
+          src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w={{ margin_w }}&margin-h={{ margin_h }}&no-bg={{ no_bg }}&rank={{ rank }}&column=6"
+        >
+      </span>
+
+      <span class="d-none d-sm-block d-md-none">
+        <img
+          class="only-light"
+          alt="{{ include.username }}"
+          src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w={{ margin_w }}&margin-h={{ margin_h }}&no-bg={{ no_bg }}&rank={{ rank }}&column=4"
+        >
+        <img
+          class="only-dark"
+          alt="{{ include.username }}"
+          src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w={{ margin_w }}&margin-h={{ margin_h }}&no-bg={{ no_bg }}&rank={{ rank }}&column=4"
+        >
+      </span>
+
+      <span class="d-block d-sm-none">
+        <img
+          class="only-light"
+          alt="{{ include.username }}"
+          src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_light }}&locale={{ site.lang }}&margin-w={{ margin_w }}&margin-h={{ margin_h }}&no-bg={{ no_bg }}&rank={{ rank }}&column=3"
+        >
+        <img
+          class="only-dark"
+          alt="{{ include.username }}"
+          src="{{ site.external_services.github_profile_trophy_url }}/?username={{ include.username }}&theme={{ site.repo_trophies.theme_dark }}&locale={{ site.lang }}&margin-w={{ margin_w }}&margin-h={{ margin_h }}&no-bg={{ no_bg }}&rank={{ rank }}&column=3"
+        >
+      </span>
+    {% endif %}
   </a>
 </div>
