@@ -11,7 +11,7 @@ This guide helps you ensure your al-folio website is accessible to all visitors,
   - [Accessibility Checking](#accessibility-checking)
     - [Run Automated Tests Locally](#run-automated-tests-locally)
     - [Manual Testing](#manual-testing)
-  - [Common Accessibility Issues & Fixes](#common-accessibility-issues--fixes)
+  - [Common Accessibility Issues \& Fixes](#common-accessibility-issues--fixes)
     - [Images Missing Alt Text](#images-missing-alt-text)
     - [Links Not Descriptive](#links-not-descriptive)
     - [Color Contrast Too Low](#color-contrast-too-low)
@@ -26,7 +26,10 @@ This guide helps you ensure your al-folio website is accessible to all visitors,
     - [PDFs and Documents](#pdfs-and-documents)
   - [Testing Tools](#testing-tools)
   - [Resources](#resources)
-  <!--te-->
+  - [Quick Checklist](#quick-checklist)
+  - [Need Help?](#need-help)
+
+<!--te-->
 
 ## Overview
 

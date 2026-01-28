@@ -2,6 +2,8 @@
 
 **Get your al-folio site running in 5 minutes.** This guide is for users who just want a working website quickly without deep customization.
 
+> **Video Tutorial:** Watch a walkthrough of these steps [here](assets/video/tutorial_al_folio.mp4)
+
 <!--ts-->
 
 - [Quick Start Guide](#quick-start-guide)
@@ -15,6 +17,8 @@
     - [Learn More](#learn-more)
     - [Get Help from AI](#get-help-from-ai)
 
+<!--te-->
+
 ## Step 1: Create Your Repository (1 min)
 
 1. Click **[Use this template](https://github.com/new?template_name=al-folio&template_owner=alshedivat)** on the al-folio repository page
@@ -22,8 +26,6 @@
    - **Personal/Organization site:** `username.github.io` (replace `username` with your GitHub username)
    - **Project site:** Any name (e.g., `my-research-website`)
 3. Click **Create repository from template**
-
-> **Video Tutorial:** Watch a walkthrough of these steps [here](assets/video/tutorial_al_folio.mp4)
 
 ## Step 2: Configure Deployment (1 min)
 
@@ -41,15 +43,19 @@
    last_name: Name
    email: your.email@example.com
    url: https://your-username.github.io # or your custom domain
+   baseurl: # Leave this empty (do NOT delete it)
    ```
 3. Click **Commit changes** (at the bottom of the page)
 
 ## Step 4: View Your Site (1 min)
 
 1. Go to your repository → **Actions** tab
-2. Wait for the "Deploy site" workflow to complete (~4 minutes, look for a green checkmark)
-3. Go to **Settings** → **Pages** → set Source to `gh-pages` branch
-4. Visit `https://your-username.github.io` in your browser
+2. Wait for the "Deploy site" workflow to complete (look for a green checkmark, ~4 minutes)
+3. Go to **Settings** → **Pages** → **Build and deployment**
+4. Make sure **Source** is set to **Deploy from a branch**
+5. Set the branch to **gh-pages** (NOT main)
+6. Wait for the "pages-build-deployment" workflow to complete (~45 seconds)
+7. Visit `https://your-username.github.io` in your browser
 
 **That's it!** Your site is live. You now have a working al-folio website.
 
@@ -74,10 +80,10 @@ Once your site is running, explore these customization options:
 
 ### Learn More
 
+- Installation and local setup options: [INSTALL.md](INSTALL.md)
 - Full customization guide: [CUSTOMIZE.md](CUSTOMIZE.md)
-- Troubleshooting: [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-- Installation options: [INSTALL.md](INSTALL.md)
 - Frequently asked questions: [FAQ.md](FAQ.md)
+- Troubleshooting: [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 
 ### Get Help from AI
 

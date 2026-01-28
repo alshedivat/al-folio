@@ -18,7 +18,7 @@
     - [For project pages](#for-project-pages)
     - [Enabling automatic deployment](#enabling-automatic-deployment)
     - [Manual deployment to GitHub Pages](#manual-deployment-to-github-pages)
-    - [Deploy on <a href="https://www.netlify.com/" rel="nofollow">Netlify</a>](https://www.netlify.com/)
+    - [Deploy on Netlify](#deploy-on-netlify)
     - [Deployment to another hosting server (non GitHub Pages)](#deployment-to-another-hosting-server-non-github-pages)
     - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
   - [Maintaining Dependencies](#maintaining-dependencies)
@@ -88,7 +88,7 @@ $ docker compose up --build
 
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of the previous command! It will download Ruby and Jekyll and install all Ruby packages again from scratch.
 
-If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that.
+If you want to use a specific docker version, you can do so by changing the version tag to `your_version` in `docker-compose.yaml` (the `v0.16.3` in `image: amirpourmand/al-folio:v0.16.3`). For example, you might have created your website on `v0.10.0` and you want to stick with that.
 
 ### Have Bugs on Docker Image?
 

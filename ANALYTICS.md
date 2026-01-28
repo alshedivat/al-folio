@@ -17,8 +17,14 @@ This guide helps you add website analytics to track visitor statistics and behav
   - [Other Analytics Services](#other-analytics-services)
     - [Cronitor](#cronitor)
   - [GDPR and Privacy Considerations](#gdpr-and-privacy-considerations)
+    - [GDPR Checklist](#gdpr-checklist)
+    - [Privacy-first services (No GDPR cookie banner needed)](#privacy-first-services-no-gdpr-cookie-banner-needed)
+    - [Services requiring cookie consent](#services-requiring-cookie-consent)
+    - [Simple Privacy Policy Template](#simple-privacy-policy-template)
   - [Comparing Analytics Services](#comparing-analytics-services)
-  <!--te-->
+  - [Next Steps](#next-steps)
+
+<!--te-->
 
 ## Overview
 
