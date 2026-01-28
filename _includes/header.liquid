@@ -34,7 +34,7 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="sr-only">Toggle navigation</span>
+        <span class="visually-hidden">Toggle navigation</span>
         <span class="icon-bar top-bar"></span>
         <span class="icon-bar middle-bar"></span>
         <span class="icon-bar bottom-bar"></span>
@@ -51,7 +51,7 @@
             <a class="nav-link" href="{{ '/' | relative_url }}">
               {{- about_title }}
               {% if page.permalink == '/' %}
-                <span class="sr-only">(current)</span>
+                <span class="visually-hidden">(current)</span>
               {% endif %}
             </a>
           </li>
@@ -79,7 +79,7 @@
                   >
                     {{- p.title }}
                     {% if page.title == p.title or has_active_child %}
-                      <span class="sr-only">(current)</span>
+                      <span class="visually-hidden">(current)</span>
                     {% endif %}
                   </a>
                   <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -110,7 +110,7 @@
                   <a class="nav-link" href="{{ url | relative_url }}">
                     {{- p.title }}
                     {% if page.url contains p.url %}
-                      <span class="sr-only">(current)</span>
+                      <span class="visually-hidden">(current)</span>
                     {% endif %}
                   </a>
                 </li>
