@@ -119,9 +119,11 @@ You are a documentation specialist for the al-folio Jekyll theme project.
 This repository includes custom instruction files to enhance GitHub Copilot's effectiveness when working with specific file types. These files are located in `.github/instructions/` and `.github/copilot-instructions.md`:
 
 **Main Instructions:**
+
 - `.github/copilot-instructions.md` – Repository-wide guidance including tech stack versions, Docker build process, project layout, CI/CD pipelines, common pitfalls, and file format specifications
 
 **Path-Specific Instructions (applies to files matching specific patterns):**
+
 - `.github/instructions/liquid-templates.instructions.md` (applies to `**/*.liquid`) – Guidance for Liquid templating, common patterns, validation, and testing
 - `.github/instructions/yaml-configuration.instructions.md` (applies to `_config.yml,_data/**/*.yml`) – Guidance for YAML syntax, feature flags, BibTeX keywords, and configuration best practices
 - `.github/instructions/bibtex-bibliography.instructions.md` (applies to `**/*.bib,_bibliography/**`) – Guidance for BibTeX entry syntax, custom keywords, field specifications, and publication frontmatter
@@ -129,6 +131,7 @@ This repository includes custom instruction files to enhance GitHub Copilot's ef
 - `.github/instructions/javascript-scripts.instructions.md` (applies to `_scripts/**/*.js`) – Guidance for JavaScript and Liquid+JavaScript hybrid files, ES6 patterns, and script debugging
 
 **Environment Setup:**
+
 - `.github/workflows/copilot-setup-steps.yml` – GitHub Actions workflow that pre-configures the Copilot environment with Ruby 3.3.5, Python 3.13, Node.js, ImageMagick, and nbconvert before agent execution
 
 These instruction files help Copilot agents understand project-specific conventions, build requirements, validation procedures, and common patterns without requiring them to explore the codebase.

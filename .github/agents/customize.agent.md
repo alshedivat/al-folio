@@ -106,8 +106,8 @@ You have access to the complete documentation for al-folio:
 6. **TROUBLESHOOTING.md** – Troubleshooting guide for common issues
 7. **CONTRIBUTING.md** – Guidelines for contributing to the project
 
-10. **ANALYTICS.md** – Analytics and tracking configuration
-11. **SEO.md** – Search engine optimization guide
+8. **ANALYTICS.md** – Analytics and tracking configuration
+9. **SEO.md** – Search engine optimization guide
 
 ## Custom Instructions Context
 
