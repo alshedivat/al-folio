@@ -126,6 +126,16 @@ The configuration file [\_config.yml](_config.yml) contains the main configurati
 
 All changes made to this file are only visible after you rebuild the website. That means that you need to run `bundle exec jekyll serve` again if you are running the website locally or push your changes to GitHub if you are using GitHub Pages. All other changes are visible immediately, you only need to refresh the page.
 
+If changes don't appear after refreshing, try:
+
+- **Hard refresh** to reload the page ignoring cached content:
+  - [Shift + F5 on Chromium-based browsers](https://support.google.com/chrome/answer/157179#zippy=%2Cwebpage-shortcuts)
+  - [Ctrl + F5 on Firefox-based browsers](https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly)
+- **Clear your browser cache** completely
+- **Use a private/incognito session** to ensure no cached content:
+  - [Chrome](https://support.google.com/chrome/answer/95464)
+  - [Firefox](https://support.mozilla.org/en-US/kb/private-browsing-use-firefox-without-history)
+
 ## GitHub Copilot Customization Agent
 
 This repository includes a specialized GitHub Copilot agent (`.github/agents/customize.agent.md`) designed to help you customize your al-folio website. The agent acts as an expert assistant that can:
@@ -235,7 +245,7 @@ Understanding al-folio's technology stack will help you better customize and ext
 - **JavaScript**: Minimal JavaScript is used for interactive features like the dark mode toggle, search functionality, and dynamic content rendering.
 - **MathJax**: For rendering mathematical equations in LaTeX format on your pages and blog posts.
 - **Mermaid**: For creating diagrams (flowcharts, sequence diagrams, etc.) directly in Markdown.
-- **Font Awesome and Academicons**: Icon libraries used throughout the theme for visual elements.
+- **Font Awesome, Academicons, and Scholar Icons**: Icon libraries used throughout the theme for visual elements.
 
 ### Backend
 
@@ -247,16 +257,16 @@ Understanding al-folio's technology stack will help you better customize and ext
   - Minify CSS and JavaScript
 
 - **Ruby Gems** (Jekyll plugins): The project uses several Ruby plugins to extend Jekyll's functionality:
-  - `jekyll-scholar`: Manages bibliography files (BibTeX) and generates publication pages with citations
-  - `jekyll-archives-v2`: Creates archive pages for posts and collections organized by category, tag, or date
-  - `jekyll-paginate-v2`: Handles pagination for blog posts and archives
-  - `jekyll-feed`: Generates an Atom (RSS-like) feed for your content
-  - `jekyll-toc`: Automatically generates table of contents for pages with headers
-  - `jekyll-jupyter-notebook`: Integrates Jupyter notebooks into your site
-  - `jekyll-tabs`: Adds tabbed content support
-  - `jemoji`: Converts emoji shortcodes to emoji images
-  - `jekyll-minifier`: Minifies HTML, CSS, and JavaScript for better performance
   - `classifier-reborn`: Used for categorizing and finding related blog posts
+  - `jekyll-archives-v2`: Creates archive pages for posts and collections organized by category, tag, or date
+  - `jekyll-feed`: Generates an Atom (RSS-like) feed for your content
+  - `jekyll-jupyter-notebook`: Integrates Jupyter notebooks into your site
+  - `jekyll-minifier`: Minifies HTML, CSS, and JavaScript for better performance
+  - `jekyll-paginate-v2`: Handles pagination for blog posts and archives
+  - `jekyll-scholar`: Manages bibliography files (BibTeX) and generates publication pages with citations
+  - `jekyll-tabs`: Adds tabbed content support
+  - `jekyll-toc`: Automatically generates table of contents for pages with headers
+  - `jemoji`: Converts emoji shortcodes to emoji images
   - Other utilities: `jekyll-link-attributes`, `jekyll-imagemagick`, `jekyll-twitter-plugin`, `jekyll-get-json`, and more
 
 - **Python**: Used for utility scripts like citation updates via Google Scholar (located in `bin/`)
@@ -403,7 +413,7 @@ You can easily create your own collections for any type of content—teaching ma
 
 ### Creating a new collection
 
-To create a new collection, follow these steps. We will create a `teaching` collection, but you can replace `teaching` with any name you prefer:
+To create a new collection, follow these steps. We will create a `courses` collection, but you can replace `courses` with any name you prefer:
 
 1. **Add the collection to `_config.yml`**
 
@@ -417,9 +427,9 @@ To create a new collection, follow these steps. We will create a `teaching` coll
        output: true
      projects:
        output: true
-     teaching:
+     courses:
        output: true
-       permalink: /teaching/:path/
+       permalink: /courses/:path/
    ```
 
    - `output: true` makes the collection items accessible as separate pages
@@ -428,10 +438,10 @@ To create a new collection, follow these steps. We will create a `teaching` coll
 
 2. **Create a folder for your collection items**
 
-   Create a new folder in the root directory with an underscore prefix, matching your collection name. For a `teaching` collection, create `_teaching/`:
+   Create a new folder in the root directory with an underscore prefix, matching your collection name. For a `courses` collection, create `_courses/`:
 
    ```text
-   _teaching/
+   _courses/
    ├── course_1.md
    ├── course_2.md
    └── course_3.md
@@ -439,30 +449,36 @@ To create a new collection, follow these steps. We will create a `teaching` coll
 
 3. **Create a landing page for your collection**
 
-   Add a Markdown file in `_pages/` (e.g., `teaching.md`) that will serve as the main page for your collection. You can use [\_pages/projects.md](_pages/projects.md) or [\_pages/books.md](_pages/books.md) as a template and adapt it for your needs.
+   Add a Markdown file in `_pages/` (e.g., `courses.md`) that will serve as the main page for your collection. You can use [\_pages/projects.md](_pages/projects.md) or [\_pages/books.md](_pages/books.md) as a template and adapt it for your needs.
 
    In your landing page, access your collection using the `site.COLLECTION_NAME` variable:
 
    ```liquid
-   {% assign teaching_items = site.teaching | sort: 'date' | reverse %}
+   {% assign course_items = site.courses | sort: 'date' | reverse %}
 
-   {% for item in teaching_items %}
+   {% for item in course_items %}
      <h3>{{ item.title }}</h3>
      <p>{{ item.content }}</p>
    {% endfor %}
    ```
 
-   Replace `COLLECTION_NAME` with your actual collection name (e.g., `site.teaching`).
+4. **Add a navigation link to your collection page**
 
-4. **Add a link to your collection page**
+   Update [\_pages/dropdown.md](_pages/dropdown.md) or the navigation configuration of your page. In the frontmatter of your collection landing page (e.g., `_pages/courses.md`), add:
 
-   Update [\_pages/dropdown.md](_pages/dropdown.md) or the navigation configuration in [\_config.yml](_config.yml) to add a menu link to your new page.
+   ```yaml
+   nav: true
+   nav_order: 5
+   ```
+
+   - `nav: true` makes the page appear in the navigation menu
+   - `nav_order` sets the position in the menu (1 = first, 2 = second, etc.)
 
 5. **Create collection items**
 
    Add Markdown files in your new collection folder (e.g., `_teaching/`) with appropriate frontmatter and content.
 
-For more information regarding collections, check [Jekyll official documentation](https://jekyllrb.com/docs/collections/) and [step-by=step guide](https://jekyllrb.com/docs/step-by-step/09-collections/).
+For more information regarding collections, check [Jekyll official documentation](https://jekyllrb.com/docs/collections/) and [step-by-step guide](https://jekyllrb.com/docs/step-by-step/09-collections/).
 
 ### Using frontmatter fields in your collection
 
@@ -625,20 +641,36 @@ A variety of beautiful theme colors have been selected for you to choose from. T
 You can customize the layout and user interface in [\_config.yml](_config.yml):
 
 ```yaml
-navbar_fixed: true
-footer_fixed: true
 back_to_top: true
+footer_fixed: true
 max_width: 930px
+navbar_fixed: true
 ```
 
-- `navbar_fixed`: When `true`, the navigation bar stays fixed at the top of the page when scrolling. When `false`, it scrolls with the page content.
-- `footer_fixed`: When `true`, the footer remains fixed at the bottom of the viewport. When `false`, it appears at the end of the page content.
 - `back_to_top`: Displays a "back to top" button in the footer. When clicked, it smoothly scrolls the page back to the top.
+- `footer_fixed`: When `true`, the footer remains fixed at the bottom of the viewport. When `false`, it appears at the end of the page content.
 - `max_width`: Controls the maximum width of the main content area in pixels. The default is `930px`. You can adjust this to make your content wider or narrower.
+- `navbar_fixed`: When `true`, the navigation bar stays fixed at the top of the page when scrolling. When `false`, it scrolls with the page content.
 
 ## Adding social media information
 
-You can add your social media links by adding the specified information in the [\_data/socials.yml](_data/socials.yml) file. This information will appear at the bottom of the `About` page and in the search results by default, but this could be changed to appear at the header of the page by setting `enable_navbar_social: true` and doesn't appear in the search by setting `socials_in_search: false`, both in [\_config.yml](_config.yml).
+Social media information is managed through the [`jekyll-socials` plugin](https://github.com/george-gca/jekyll-socials). To add your social media links:
+
+1. Edit [`_data/socials.yml`](_data/socials.yml) to add your social profiles
+2. The plugin will automatically display the social icons based on the order they are defined in the file (see the comments at the top of `_data/socials.yml`)
+
+The template supports icons from:
+
+- [Academicons](https://jpswalsh.github.io/academicons/)
+- [Font Awesome](https://fontawesome.com/)
+- [Scholar Icons](https://louisfacun.github.io/scholar-icons/)
+
+Social media links will appear at the bottom of the `About` page and in the search results by default. You can customize this behavior in [`_config.yml`](_config.yml):
+
+- `enable_navbar_social: true` – Display social links in the navigation bar
+- `socials_in_search: false` – Remove social links from search results
+
+For more details, see the [`jekyll-socials` documentation](https://github.com/george-gca/jekyll-socials).
 
 ## Adding a newsletter
 
@@ -651,16 +683,16 @@ Depending on your specified footer behavior, the sign up form either will appear
 The theme includes a powerful search functionality that can be customized in [\_config.yml](_config.yml):
 
 ```yaml
+bib_search: true
+posts_in_search: true
 search_enabled: true
 socials_in_search: true
-posts_in_search: true
-bib_search: true
 ```
 
+- `bib_search`: Enables search within your publications/bibliography. When enabled, a search box appears on the publications page, allowing visitors to filter publications by title, author, venue, or year.
+- `posts_in_search`: Includes blog posts in the search index. Users can search for posts by title, content, or tags.
 - `search_enabled`: Enables the site-wide search feature. When enabled, a search box appears in the navigation bar, allowing users to search across your site content.
 - `socials_in_search`: Includes your social media links and contact information in search results. This makes it easier for visitors to find ways to connect with you.
-- `posts_in_search`: Includes blog posts in the search index. Users can search for posts by title, content, or tags.
-- `bib_search`: Enables search within your publications/bibliography. When enabled, a search box appears on the publications page, allowing visitors to filter publications by title, author, venue, or year.
 
 All these search features work in real-time and do not require a page reload.
 
@@ -694,7 +726,7 @@ Place the image file in `assets/img/publication_preview/`.
 
 ## Adding a Google Calendar
 
-You can embed a Google Calendar on any page by using the `calendar.liquid` include. The calendar will automatically adapt to light and dark themes.
+You can embed a Google Calendar on any page by using the `calendar.liquid` include.
 
 ### Basic usage
 
@@ -711,7 +743,7 @@ Replace:
 
 ### Enable the calendar script for your page
 
-To prevent unnecessary script loading, add `calendar: true` to the frontmatter of any page that displays a calendar:
+To enable the calendar on your page, add `calendar: true` to the frontmatter:
 
 ```yaml
 ---
@@ -720,6 +752,8 @@ title: teaching
 calendar: true
 ---
 ```
+
+This setting prevents unnecessary script loading for pages that don't display a calendar.
 
 ### Optional: Customize the calendar style
 
@@ -750,7 +784,7 @@ third_party_libraries:
 
 - `download`: When `false` (default), libraries are loaded from CDNs. When `true`, the specified library versions are downloaded during build and served from your site. This can improve performance but increases your repository size.
 - `version`: Specifies which version of each library to use. Update this to use a newer version.
-- `url`: Template URLs for loading the library. The `{{version}}` placeholder is replaced with the version number.
+- `url`: Template URLs for loading the library. The `{{version}}` placeholder is replaced with the version number automatically.
 - `integrity`: [Subresource Integrity (SRI)](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) hashes ensure that the library hasn't been tampered with. When updating a library version, you should also update its integrity hash.
 
 To update a library:
@@ -855,7 +889,7 @@ To remove the repositories, you can:
 
 ### You can also remove pages through commenting out front-matter blocks
 
-For `.md` files in [\pages](_pages/) directory, if you do not want to completely edit or delete them but save for later use, you can temporarily disable these variables. But be aware that Jekyll only recognizes front matter when it appears as uncommented. The layout, permalink, and other front-matter behavior are disabled for that file.
+For `.md` files in [\_pages](_pages/) directory, if you do not want to completely edit or delete them but save for later use, you can temporarily disable these variables. But be aware that Jekyll only recognizes front matter when it appears as uncommented. The layout, permalink, and other front-matter behavior are disabled for that file.
 
 For example, books.md do:
 
