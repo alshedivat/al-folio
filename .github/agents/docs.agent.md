@@ -14,24 +14,48 @@ You are a documentation specialist for the al-folio Jekyll theme project.
 
 ## Project knowledge
 
-- **Tech Stack:** Jekyll 4.x (Ruby-based static site generator), Liquid templating, YAML configuration, SCSS/CSS, JavaScript
-- **Key Dependencies:** jekyll-scholar, jekyll-archives-v2, jekyll-paginate-v2, MathJax, Bootstrap
+- **Tech Stack:** Jekyll 4.x (Ruby-based static site generator), Liquid templating, YAML configuration, SCSS/CSS, JavaScript, Docker
+- **Key Dependencies:** jekyll-scholar, jekyll-archives-v2, jekyll-paginate-v2, MathJax, Bootstrap, Prettier, pre-commit hooks
 - **File Structure:**
   - `_config.yml` – Main Jekyll configuration file
-  - `*.md` (root) – Documentation files: `README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`
+  - `*.md` (root) – Documentation files: `README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`, `MAINTENANCE.md`, `QUICKSTART.md`, `ACCESSIBILITY.md`, `ANALYTICS.md`, `SEO.md`, `TROUBLESHOOTING.md`
   - `_pages/` – Website pages (Markdown with frontmatter)
   - `_posts/` – Blog posts
-  - `_projects/`, `_news/`, `_books/` – Jekyll collections
-  - `_layouts/`, `_includes/` – Liquid templates
-    - `_includes/cv/` – Unified CV component renderers (awards, education, experience, skills, languages, etc.)
+  - `_projects/`, `_news/`, `_books/`, `_teachings/` – Jekyll collections
+  - `_layouts/` – Liquid layouts for different page types
+  - `_includes/` – Liquid template components:
+    - `_includes/cv/` – Unified CV component renderers (awards, education, experience, skills, languages, certificates, references, projects, interests, publications, etc.)
+    - `_includes/repository/` – Repository display components
+    - Core includes: header, footer, metadata, scripts, etc.
   - `_sass/` – SCSS stylesheets
   - `_data/` – YAML data files:
     - `cv.yml` – CV/resume in RenderCV format
-    - `repositories.yml`, `socials.yml`, `coauthors.yml`, `venues.yml` – Other data
+    - `socials.yml` – Social media links
+    - `repositories.yml` – GitHub repositories
+    - `coauthors.yml` – Coauthor information
+    - `venues.yml` – Publication venue abbreviations
+    - `citations.yml` – Citation metrics
+  - `_plugins/` – Custom Jekyll plugins for extended functionality
   - `_bibliography/` – BibTeX files for publications
-  - `assets/json/resume.json` – JSONResume format (alternative to RenderCV; syncing between formats is a template maintainer task, not a user responsibility)
-  - `assets/rendercv/` – RenderCV configuration files and generated PDFs
-  - `.github/workflows/` – GitHub Actions for deployment, CI, and CV PDF generation
+  - `assets/` – Static assets:
+    - `assets/json/` – JSON files (resume.json in JSONResume format, table_data.json)
+    - `assets/rendercv/` – RenderCV configuration files and generated PDFs
+    - `assets/img/`, `assets/pdf/` – Images and PDFs
+    - `assets/css/`, `assets/js/` – Custom stylesheets and scripts
+    - `assets/fonts/`, `assets/webfonts/` – Font files
+    - `assets/bibliography/`, `assets/libs/` – Support files
+    - `assets/audio/`, `assets/video/`, `assets/jupyter/`, `assets/plotly/`, `assets/html/` – Multimedia and embedded content
+  - `.github/` – GitHub configuration:
+    - `.github/workflows/` – GitHub Actions (deployment, CI/CD, CV PDF generation, link checking, code quality)
+    - `.github/agents/` – AI agent configuration files
+    - `.github/ISSUE_TEMPLATE/` – GitHub issue templates
+  - `_scripts/` – Helper scripts and utilities
+  - `bin/` – Executable scripts
+  - `.devcontainer/` – Development container configuration
+  - `.pre-commit-config.yaml` – Pre-commit hooks for code quality
+  - `Dockerfile`, `docker-compose.yml`, `docker-compose-slim.yml` – Docker configuration
+  - `Gemfile`, `Gemfile.lock`, `.ruby-version` – Ruby dependencies
+  - `package.json` – Node.js dependencies
 
 ## Documentation standards
 

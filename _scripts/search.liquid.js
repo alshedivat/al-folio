@@ -182,7 +182,7 @@ ninja.data = [
         {%- when "lattes_id" -%}
           {%- assign social_id = "social-lattes" -%}
           {%- assign social_title = "Lattes" -%}
-          {%- capture social_url %}"http://lattes.cnpq.br/{{ social[1] }}"{% endcapture -%}
+          {%- capture social_url %}"https://lattes.cnpq.br/{{ social[1] }}"{% endcapture -%}
         {%- when "leetcode_id" -%}
           {%- assign social_id = "social-leetcode" -%}
           {%- assign social_title = "LeetCode" -%}

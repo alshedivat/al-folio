@@ -110,12 +110,20 @@ layout: default
             Cover of <em>{{ page.title }}</em>
           </figcaption>
         {% elsif page.olid %}
-          <img class="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
+          <img
+            class="empty-review-cover"
+            alt="{{ page.title }} cover"
+            src="https://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false"
+          >
           <figcaption class="empty-review-caption">
             Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.
           </figcaption>
         {% elsif page.isbn %}
-          <img class="empty-review-cover" alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
+          <img
+            class="empty-review-cover"
+            alt="{{ page.title }} cover"
+            src="https://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false"
+          >
           <figcaption class="empty-review-caption">
             Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
           </figcaption>
@@ -133,12 +141,12 @@ layout: default
             Cover of <em>{{ page.title }}</em>
           </figcaption>
         {% elsif page.olid %}
-          <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
+          <img alt="{{ page.title }} cover" src="https://covers.openlibrary.org/b/olid/{{ page.olid }}-L.jpg?default=false">
           <figcaption>
             Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/olid/{{ page.olid }}">Open Library</a>.
           </figcaption>
         {% elsif page.isbn %}
-          <img alt="{{ page.title }} cover" src="http://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
+          <img alt="{{ page.title }} cover" src="https://covers.openlibrary.org/b/isbn/{{ page.isbn }}-L.jpg?default=false">
           <figcaption>
             Cover of <em>{{ page.title }}</em> on the <a href="https://openlibrary.org/isbn/{{ page.isbn }}">Open Library</a>.
           </figcaption>

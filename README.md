@@ -257,6 +257,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
   - [GitHub Copilot Agents](#github-copilot-agents)
     - [Customization Agent](#customization-agent)
     - [Documentation Agent](#documentation-agent)
+  - [Documentation](#documentation)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
     - [CV](#cv)
@@ -280,6 +281,8 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [All Contributors](#all-contributors)
   - [Star History](#star-history)
   - [License](#license)
+
+<!--te-->
 
 ## Getting started
 
@@ -321,6 +324,20 @@ See [CONTRIBUTING.md § GitHub Copilot Agents](CONTRIBUTING.md#github-copilot-ag
 
 > **Requirements:** Both agents require a [GitHub Copilot](https://github.com/features/copilot) subscription. For more information about GitHub Copilot and how to use agents, see the [GitHub Copilot documentation](https://docs.github.com/en/copilot).
 
+## Documentation
+
+Comprehensive guides for all aspects of your al-folio website:
+
+- **[Quick Start](QUICKSTART.md)** – Get running in 5 minutes
+- **[Installation & Deployment](INSTALL.md)** – Set up your site on GitHub Pages or other platforms
+- **[Customization Guide](CUSTOMIZE.md)** – Personalize your website (CVs, publications, themes, etc.)
+- **[Troubleshooting](TROUBLESHOOTING.md)** – Fix common issues (deployment, build, styling, content)
+- **[FAQ](FAQ.md)** – Frequently asked questions and solutions
+- **[Analytics](ANALYTICS.md)** – Add website analytics and visitor tracking
+- **[Accessibility](ACCESSIBILITY.md)** – Ensure your site is accessible to all visitors
+- **[SEO Guide](SEO.md)** – Optimize for search engines and improve discoverability
+- **[Maintenance Guide](MAINTENANCE.md)** – Keep your site updated and secure
+
 ## Features
 
 ### Light/Dark Mode
@@ -336,9 +353,12 @@ This template has a built-in light/dark mode. It detects the user preferred colo
 
 ### CV
 
-There are currently 2 different ways of generating the CV page content. The first one is by using a json file located in [assets/json/resume.json](assets/json/resume.json). It is a [known standard](https://jsonresume.org/) for creating a CV programmatically. The second one, currently used as a fallback when the json file is not found, is by using a yml file located in [\_data/cv.yml](_data/cv.yml). This was the original way of creating the CV page content and since it is more human readable than a json file we decided to keep it as an option.
+Your CV can be generated in one of two modern formats:
 
-What this means is, if there is no resume data defined in [\_config.yml](_config.yml) and loaded via a json file, it will load the contents of [\_data/cv.yml](_data/cv.yml) as fallback.
+- **[RenderCV](https://rendercv.com/) Format** (recommended): Edit [`_data/cv.yml`](_data/cv.yml) using the human-readable RenderCV YAML format. This format enables automatic PDF generation via GitHub Actions and provides professional styling options.
+- **[JSONResume](https://jsonresume.org/) Format**: Edit [`assets/json/resume.json`](assets/json/resume.json) using the standardized JSON format. This is compatible with other resume tools and services.
+
+You can use both formats simultaneously and switch which one is rendered on your CV page using the `cv_format` frontmatter variable, or maintain just the one you prefer. The two files are independent data sources: if you choose to keep both, you must update each file separately—there is no automatic synchronization between them.
 
 [![CV Preview](readme_preview/cv.png)](https://alshedivat.github.io/al-folio/cv/)
 

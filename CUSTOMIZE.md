@@ -288,7 +288,7 @@ Understanding how these technologies work together will help you customize al-fo
 
 ## Modifying the CV information
 
-Your CV can be created using one of two formats. Choose the format that works best for you:
+Your CV can be created using one of two formats. Choose the format that works best for you, or use both simultaneously by switching between them:
 
 ### RenderCV Format (Recommended)
 
@@ -297,11 +297,11 @@ Your CV can be created using one of two formats. Choose the format that works be
 **If you choose this format:**
 
 1. Edit your CV data in [`_data/cv.yml`](_data/cv.yml)
-2. Delete [`assets/json/resume.json`](assets/json/resume.json) so the website uses the YAML file
-3. (Optional) Customize how the PDF is styled by editing:
+2. Optionally customize how the PDF is styled by editing:
    - [`assets/rendercv/design.yaml`](assets/rendercv/design.yaml) — Design and styling
    - [`assets/rendercv/locale.yaml`](assets/rendercv/locale.yaml) — Localization and formatting
    - [`assets/rendercv/settings.yaml`](assets/rendercv/settings.yaml) — RenderCV settings
+3. To display only this format, delete [`assets/json/resume.json`](assets/json/resume.json) (optional)
 
 ### JSONResume Format
 
@@ -310,11 +310,11 @@ Your CV can be created using one of two formats. Choose the format that works be
 **If you choose this format:**
 
 1. Edit your CV data in [`assets/json/resume.json`](assets/json/resume.json)
-2. Delete [`_data/cv.yml`](_data/cv.yml) so the website uses the JSON file
+2. To display only this format, delete [`_data/cv.yml`](_data/cv.yml) (optional)
 
-### Switching CV Sources (Without Deleting Files)
+### Using Both Formats Simultaneously
 
-If you keep both CV files in your repository, you can switch which format displays on your website by setting the `cv_format` variable in the frontmatter of [`_pages/cv.md`](_pages/cv.md):
+You can keep both [`_data/cv.yml`](_data/cv.yml) and [`assets/json/resume.json`](assets/json/resume.json) in your repository and switch between them on your website by setting the `cv_format` frontmatter variable in [`_pages/cv.md`](_pages/cv.md):
 
 ```yaml
 ---
