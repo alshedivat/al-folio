@@ -10,7 +10,7 @@ This guide helps you optimize your al-folio website for search engines so your r
     - [Sitemap and Robots](#sitemap-and-robots)
     - [Site URL and Metadata](#site-url-and-metadata)
   - [Enabling Open Graph (Social Media Previews)](#enabling-open-graph-social-media-previews)
-    - [What is Open Graph?](#what-is-open-graph?)
+    - [What is Open Graph?](#what-is-open-graph)
     - [Enable in al-folio](#enable-in-al-folio)
     - [Test Your Setup](#test-your-setup)
   - [Schema.org Markup](#schemaorg-markup)
