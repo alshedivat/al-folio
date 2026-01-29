@@ -247,15 +247,25 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 ## Maintaining Dependencies
 
-**al-folio** uses **Bundler** (a Ruby dependency manager) to keep track of Ruby packages (called "gems") needed to run Jekyll and its plugins. For detailed information about dependency management, updating safely, testing, and handling breaking changes, see [MAINTENANCE.md § Dependency Management](MAINTENANCE.md#dependency-management).
+**al-folio** uses **Bundler** (a Ruby dependency manager) to keep track of Ruby packages (called "gems") needed to run Jekyll and its plugins.
 
-**Quick reference:**
+**To update all dependencies:**
 
 ```bash
 bundle update --all
 ```
 
-After updating, test locally to ensure everything still works. If your site fails after updating, check the [FAQ](FAQ.md) for troubleshooting.
+**After updating:**
+
+1. Rebuild the Docker image to apply changes: `docker compose up --build`
+2. Test locally to ensure everything still works: `docker compose up`
+3. Visit `http://localhost:8080` and verify the site renders correctly
+4. If your site fails after updating, check the [FAQ](FAQ.md) for troubleshooting
+
+**For Ruby/Python environment issues:**
+
+- Always use Docker for consistency with CI/CD (see [Local setup using Docker](#local-setup-using-docker-recommended))
+- Avoid manual Ruby/Python installation when possible
 
 ## Upgrading from a previous version
 
