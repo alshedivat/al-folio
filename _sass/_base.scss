@@ -365,8 +365,7 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-#light-toggle,
-#search-toggle {
+#light-toggle {
   padding: 0;
   border: 0;
   background-color: inherit;
@@ -1130,23 +1129,6 @@ swiper-container {
   }
 }
 
-// Ninja Keys
-// for more options, check https://github.com/ssleptsov/ninja-keys?tab=readme-ov-file#css-variables
-ninja-keys {
-  --ninja-accent-color: var(--global-theme-color);
-  --ninja-icon-size: 0px;
-  --ninja-modal-background: var(--global-bg-color);
-  --ninja-z-index: 1031;
-}
-
-ninja-keys::part(ninja-input) {
-  color: var(--ninja-selected-text-color);
-}
-
-ninja-keys::part(ninja-input-wrapper) {
-  background: var(--global-bg-color);
-}
-
 // newsletter
 .newsletter-form-container {
   margin-bottom: 20px;
@@ -1159,8 +1141,7 @@ ninja-keys::part(ninja-input-wrapper) {
   width: 100%;
 }
 
-.newsletter-form-input,
-.bibsearch-form-input {
+.newsletter-form-input {
   color: var(--global-newsletter-text-color);
   background: var(--global-newsletter-bg-color);
   border: 1px solid var(--global-newsletter-text-color);
