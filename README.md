@@ -334,7 +334,6 @@ Comprehensive guides for all aspects of your al-folio website:
 - **[Troubleshooting](TROUBLESHOOTING.md)** – Fix common issues (deployment, build, styling, content)
 - **[FAQ](FAQ.md)** – Frequently asked questions and solutions
 - **[Analytics](ANALYTICS.md)** – Add website analytics and visitor tracking
-- **[Accessibility](ACCESSIBILITY.md)** – Ensure your site is accessible to all visitors
 - **[SEO Guide](SEO.md)** – Optimize for search engines and improve discoverability
 
 ## Features
