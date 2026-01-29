@@ -33,6 +33,8 @@ This guide helps you optimize your al-folio website for search engines so your r
   - [SEO Checklist](#seo-checklist)
   - [Resources](#resources)
 
+<!--te-->
+
 ## Overview
 
 SEO (Search Engine Optimization) makes your website discoverable on Google, Bing, and other search engines. For academics, this means:
