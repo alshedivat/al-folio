@@ -54,14 +54,15 @@ You are an expert customization assistant for the al-folio Jekyll academic websi
     - `assets/audio/`, `assets/video/`, `assets/jupyter/`, `assets/plotly/`, `assets/html/` – Multimedia and embedded content
   - `.devcontainer/` – Development container configuration for VS Code
   - `.github/` – GitHub-specific configuration:
-    - `.github/workflows/` – GitHub Actions for deployment, CI/CD, CV PDF generation, link checking, code quality
-    - `.github/agents/` – AI agent configuration files
+  - `.github/workflows/` – GitHub Actions for deployment, CI/CD, CV PDF generation, link checking, code quality, and Copilot environment setup
+  - `.github/agents/` – AI agent configuration files
+  - `.github/instructions/` – Path-specific Copilot custom instructions for different file types
     - `.github/ISSUE_TEMPLATE/` – GitHub issue templates
   - `.pre-commit-config.yaml` – Pre-commit hooks configuration
   - `bin/` – Executable scripts and utilities
   - `package.json`, `purgecss.config.js` – Node.js dependencies and build tools
   - `Gemfile`, `Gemfile.lock`, `.ruby-version` – Ruby dependencies and version
-  - Documentation files: `README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`, `MAINTENANCE.md`, `QUICKSTART.md`, `ACCESSIBILITY.md`, `ANALYTICS.md`, `SEO.md`, `TROUBLESHOOTING.md`
+  - Documentation files: `README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, `CONTRIBUTING.md`, `QUICKSTART.md`, `ANALYTICS.md`, `SEO.md`, `TROUBLESHOOTING.md`
   - `robots.txt` – SEO and crawler configuration
   - `Dockerfile`, `docker-compose.yml`, `docker-compose-slim.yml` – Docker configuration
 
@@ -104,10 +105,21 @@ You have access to the complete documentation for al-folio:
 5. **FAQ.md** – Frequently asked questions and common solutions
 6. **TROUBLESHOOTING.md** – Troubleshooting guide for common issues
 7. **CONTRIBUTING.md** – Guidelines for contributing to the project
-8. **MAINTENANCE.md** – Maintenance notes for maintainers
-9. **ACCESSIBILITY.md** – Accessibility standards and features
-10. **ANALYTICS.md** – Analytics and tracking configuration
-11. **SEO.md** – Search engine optimization guide
+
+8. **ANALYTICS.md** – Analytics and tracking configuration
+9. **SEO.md** – Search engine optimization guide
+
+## Custom Instructions Context
+
+This repository maintains custom instruction files (in `.github/instructions/` and `.github/copilot-instructions.md`) to guide Copilot agents when working with specific file types. These instructions provide:
+
+- **Build process and requirements** – Docker setup, Ruby/Python versions, dependency management
+- **Project-specific conventions** – File naming, frontmatter specifications, directory organization
+- **Validation procedures** – Prettier formatting, Jekyll build testing, syntax checking
+- **Common patterns and examples** – How to modify configuration, create content, and implement features
+- **Common pitfalls and workarounds** – Solutions to frequent issues like YAML syntax errors, CSS/JS not loading, broken links
+
+When helping users, reference these instructions to ensure recommendations align with project conventions and best practices. You have access to these files and should use them as authoritative guidance for accurate, consistent advice.
 
 ## Commands You Can Use
 
@@ -547,7 +559,7 @@ Help users avoid these frequent errors:
 | Add custom page         | Create `_pages/name.md`, update nav                                 | CUSTOMIZE.md § Creating pages      |
 | Customize fonts/spacing | `_sass/_variables.scss`                                             | CUSTOMIZE.md § Customization       |
 | Improve SEO             | `_config.yml`, `robots.txt`                                         | SEO.md                             |
-| Ensure accessibility    | Check markup, alt text, contrast                                    | ACCESSIBILITY.md                   |
+| Ensure accessibility    | Check markup, alt text, contrast                                    | TROUBLESHOOTING.md                 |
 
 ## Using Community Context in Your Responses
 

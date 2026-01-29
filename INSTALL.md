@@ -18,7 +18,7 @@
     - [For project pages](#for-project-pages)
     - [Enabling automatic deployment](#enabling-automatic-deployment)
     - [Manual deployment to GitHub Pages](#manual-deployment-to-github-pages)
-    - [Deploy on <a href="https://www.netlify.com/" rel="nofollow">Netlify</a>](https://www.netlify.com/)
+    - [Deploy on Netlify](#deploy-on-netlify)
     - [Deployment to another hosting server (non GitHub Pages)](#deployment-to-another-hosting-server-non-github-pages)
     - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
   - [Maintaining Dependencies](#maintaining-dependencies)
@@ -47,7 +47,7 @@ Starting version [v0.3.5](https://github.com/alshedivat/al-folio/releases/tag/v0
 Once everything is deployed, you can download the repository to your machine and start customizing it locally:
 
 ```bash
-$ git clone git@github.com:<your-username>/<your-repo-name>.git
+git clone git@github.com:<your-username>/<your-repo-name>.git
 ```
 
 See [Local setup using Docker](#local-setup-using-docker-recommended) or other sections below for local development options.
@@ -66,8 +66,8 @@ You need to take the following steps to get `al-folio` up and running on your lo
 - Finally, run the following command that will pull the latest pre-built image from DockerHub and will run your website.
 
 ```bash
-$ docker compose pull
-$ docker compose up
+docker compose pull
+docker compose up
 ```
 
 Note that when you run it for the first time, it will download a docker image of size 400MB or so. To see the template running, open your browser and go to `http://localhost:8080`. You should see a copy of the theme's demo website.
@@ -83,12 +83,12 @@ Now, feel free to customize the theme however you like (don't forget to change t
 Build and run a new docker image using:
 
 ```bash
-$ docker compose up --build
+docker compose up --build
 ```
 
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of the previous command! It will download Ruby and Jekyll and install all Ruby packages again from scratch.
 
-If you want to use a specific docker version, you can do so by changing `latest` tag to `your_version` in `docker-compose.yaml`. For example, you might have created your website on `v0.10.0` and you want to stick with that.
+If you want to use a specific docker version, you can do so by changing the version tag to `your_version` in `docker-compose.yaml` (the `v0.16.3` in `image: amirpourmand/al-folio:v0.16.3`). For example, you might have created your website on `v0.10.0` and you want to stick with that.
 
 ### Have Bugs on Docker Image?
 
@@ -132,10 +132,10 @@ For a hands-on walkthrough of running al-folio locally without using Docker, che
 Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (_hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)_), and also [Python](https://www.python.org/) and [pip](https://pypi.org/project/pip/) (_hint: for ease of managing python packages, consider using a virtual environment, like [venv](https://docs.python.org/pt-br/3/library/venv.html) or [conda](https://docs.conda.io/en/latest/)_).
 
 ```bash
-$ bundle install
+bundle install
 # assuming pip is your Python package manager
-$ pip install jupyter
-$ bundle exec jekyll serve
+pip install jupyter
+bundle exec jekyll serve
 ```
 
 To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/). Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
@@ -197,7 +197,7 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
 
 ```bash
-$ bundle exec jekyll build
+bundle exec jekyll build
 ```
 
 which will (re-)generate the static webpage in the `_site/` folder.
@@ -206,7 +206,7 @@ Then simply copy the contents of the `_site/` directory to your hosting server.
 If you also want to remove unused css classes from your file, run:
 
 ```bash
-$ purgecss -c purgecss.config.js
+purgecss -c purgecss.config.js
 ```
 
 which will replace the css files in the `_site/assets/css/` folder with the purged css files.
@@ -225,7 +225,7 @@ Firstly, from the deployment repo dir, checkout the git branch hosting your publ
 Then from the website sources dir (commonly your al-folio fork's clone):
 
 ```bash
-$ bundle exec jekyll build --destination $HOME/repo/publishing-source
+bundle exec jekyll build --destination $HOME/repo/publishing-source
 ```
 
 This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
@@ -247,15 +247,25 @@ In its default configuration, al-folio will copy the top-level `README.md` to th
 
 ## Maintaining Dependencies
 
-**al-folio** uses **Bundler** (a Ruby dependency manager) to keep track of Ruby packages (called "gems") needed to run Jekyll and its plugins. For detailed information about dependency management, updating safely, testing, and handling breaking changes, see [MAINTENANCE.md § Dependency Management](MAINTENANCE.md#dependency-management).
+**al-folio** uses **Bundler** (a Ruby dependency manager) to keep track of Ruby packages (called "gems") needed to run Jekyll and its plugins.
 
-**Quick reference:**
+**To update all dependencies:**
 
 ```bash
-$ bundle update --all
+bundle update --all
 ```
 
-After updating, test locally to ensure everything still works. If your site fails after updating, check the [FAQ](FAQ.md) for troubleshooting.
+**After updating:**
+
+1. Rebuild the Docker image to apply changes: `docker compose up --build`
+2. Test locally to ensure everything still works: `docker compose up`
+3. Visit `http://localhost:8080` and verify the site renders correctly
+4. If your site fails after updating, check the [FAQ](FAQ.md) for troubleshooting
+
+**For Ruby/Python environment issues:**
+
+- Always use Docker for consistency with CI/CD (see [Local setup using Docker](#local-setup-using-docker-recommended))
+- Avoid manual Ruby/Python installation when possible
 
 ## Upgrading from a previous version
 
@@ -263,9 +273,9 @@ If you installed **al-folio** as described above, you can manually update your c
 
 ```bash
 # Assuming the current directory is <your-repo-name>
-$ git remote add upstream https://github.com/alshedivat/al-folio.git
-$ git fetch upstream
-$ git rebase v0.16.3
+git remote add upstream https://github.com/alshedivat/al-folio.git
+git fetch upstream
+git rebase v0.16.3
 ```
 
 If you have extensively customized a previous version, it might be trickier to upgrade.

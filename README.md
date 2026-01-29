@@ -266,7 +266,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Collections](#collections)
     - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math &amp; code](#full-support-for-math--code)
+      - [Full support for math \& code](#full-support-for-math--code)
       - [Photos, Audio, Video and more](#photos-audio-video-and-more)
     - [Other features](#other-features)
       - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
@@ -334,9 +334,7 @@ Comprehensive guides for all aspects of your al-folio website:
 - **[Troubleshooting](TROUBLESHOOTING.md)** – Fix common issues (deployment, build, styling, content)
 - **[FAQ](FAQ.md)** – Frequently asked questions and solutions
 - **[Analytics](ANALYTICS.md)** – Add website analytics and visitor tracking
-- **[Accessibility](ACCESSIBILITY.md)** – Ensure your site is accessible to all visitors
 - **[SEO Guide](SEO.md)** – Optimize for search engines and improve discoverability
-- **[Maintenance Guide](MAINTENANCE.md)** – Keep your site updated and secure
 
 ## Features
 

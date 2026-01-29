@@ -10,15 +10,6 @@ If you would like to implement a new feature or a bug, please make sure you (or 
 
 Note that since [#2048](https://github.com/alshedivat/al-folio/pull/2048) al-folio uses the [prettier formatter](https://prettier.io/) for its code, meaning all new submitted code must conform to its standard. If you don't have `prettier` installed for your setup and the `prettier` code check fails when submitting a PR, you can check the referred failed action in our repo. In that action there will be an artifact with an HTML diff showing the needed changes.
 
-### Adding new social media information
-
-To add new social media information, there are a few places you might need to modify. Currently, the template supports icons from [Academicons](https://jpswalsh.github.io/academicons/) and [Font Awesome](https://fontawesome.com/). For an example PR, check [Add HAL id to socials](https://github.com/alshedivat/al-folio/pull/3206/files). Note that the information in all these files are alphabetically sorted.
-
-- \_data/socials.yml - your social media information
-- \_includes/metadata.liquid - add social media information to site metadata
-- \_includes/social.liquid - where the social media icon will be displayed
-- \_scripts/search.liquid.js - make the social media information appear in search
-
 ## GitHub Copilot Agents
 
 This repository includes two specialized GitHub Copilot agents to assist with development and documentation:
@@ -44,6 +35,23 @@ The **Documentation Agent** (`.github/agents/docs.agent.md`) maintains the proje
 - Follows documentation standards and best practices
 
 The documentation agent is primarily intended for maintainers and contributors who are updating the project documentation.
+
+### Custom Instruction Files
+
+To enhance GitHub Copilot's effectiveness when working with specific file types, this repository includes custom instruction files in `.github/instructions/`:
+
+- **`.github/copilot-instructions.md`** – Main Copilot instructions with repository overview, build process, tech stack, project layout, CI/CD pipelines, and common pitfalls
+- **`.github/instructions/liquid-templates.instructions.md`** – Guidance for modifying Liquid template files (`.liquid`)
+- **`.github/instructions/yaml-configuration.instructions.md`** – Guidance for configuration and data files (`_config.yml`, `_data/**/*.yml`)
+- **`.github/instructions/bibtex-bibliography.instructions.md`** – Guidance for bibliography files (`.bib`, `_bibliography/**`)
+- **`.github/instructions/markdown-content.instructions.md`** – Guidance for content files across collections (`_books/`, `_news/`, `_pages/`, `_posts/`, `_projects/`, `_teachings/`)
+- **`.github/instructions/javascript-scripts.instructions.md`** – Guidance for JavaScript files in `_scripts/`
+
+These files help Copilot agents understand project conventions, build requirements, and development workflows without requiring codebase exploration.
+
+### Copilot Environment Setup
+
+A GitHub Actions workflow (`.github/workflows/copilot-setup-steps.yml`) automatically configures the Copilot environment with required dependencies (Ruby 3.3.5, Python 3.13, Node.js, ImageMagick, nbconvert) before agent execution.
 
 ### Important: Verify Agent Output
 
