@@ -336,7 +336,6 @@ Comprehensive guides for all aspects of your al-folio website:
 - **[Analytics](ANALYTICS.md)** – Add website analytics and visitor tracking
 - **[Accessibility](ACCESSIBILITY.md)** – Ensure your site is accessible to all visitors
 - **[SEO Guide](SEO.md)** – Optimize for search engines and improve discoverability
-- **[Maintenance Guide](MAINTENANCE.md)** – Keep your site updated and secure
 
 ## Features
 
