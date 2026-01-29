@@ -26,7 +26,8 @@ $(document).ready(function () {
     var navSelector = "#toc-sidebar";
     var $myNav = $(navSelector);
     Toc.init($myNav);
-    $("body").scrollspy({
+    // Bootstrap 5 scrollspy initialization
+    const scrollSpy = new bootstrap.ScrollSpy(document.body, {
       target: navSelector,
       offset: 100,
     });
@@ -54,7 +55,7 @@ $(document).ready(function () {
   });
 
   // trigger popovers
-  $('[data-toggle="popover"]').popover({
+  $('[data-bs-toggle="popover"]').popover({
     trigger: "hover",
   });
 });

@@ -35,6 +35,12 @@ table {
   }
 }
 
+// Bootstrap 5 table styling fixes
+table.table {
+  --bs-table-bg: transparent;
+  --bs-table-color: var(--global-text-color);
+}
+
 a,
 table.table a {
   color: var(--global-theme-color);

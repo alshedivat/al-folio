@@ -26,7 +26,7 @@ layout: default
           {% endif %}
           target="_blank"
           rel="noopener noreferrer"
-          class="float-right"
+          class="float-end"
         >
           <i class="fa-solid fa-file-pdf"></i>
         </a>
@@ -67,32 +67,32 @@ layout: default
             <table class="table table-cv table-sm table-borderless">
               {% if cv.name %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Name</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ cv.name }}</td>
+                  <td class="p-1 pe-2 font-weight-bold"><b>Name</b></td>
+                  <td class="p-1 ps-2 font-weight-light">{{ cv.name }}</td>
                 </tr>
               {% endif %}
               {% if cv.label %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Professional Title</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ cv.label }}</td>
+                  <td class="p-1 pe-2 font-weight-bold"><b>Professional Title</b></td>
+                  <td class="p-1 ps-2 font-weight-light">{{ cv.label }}</td>
                 </tr>
               {% endif %}
               {% if cv.email %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ cv.email }}</td>
+                  <td class="p-1 pe-2 font-weight-bold"><b>Email</b></td>
+                  <td class="p-1 ps-2 font-weight-light">{{ cv.email }}</td>
                 </tr>
               {% endif %}
               {% if cv.phone %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Phone</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ cv.phone }}</td>
+                  <td class="p-1 pe-2 font-weight-bold"><b>Phone</b></td>
+                  <td class="p-1 ps-2 font-weight-light">{{ cv.phone }}</td>
                 </tr>
               {% endif %}
               {% if cv.address %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
-                  <td class="p-1 pl-2 font-weight-light">
+                  <td class="p-1 pe-2 font-weight-bold"><b>Location</b></td>
+                  <td class="p-1 ps-2 font-weight-light">
                     {% if cv.address.street %}{{ cv.address.street }}, {% endif %}
                     {% if cv.address.city %}{{ cv.address.city }}, {% endif %}
                     {% if cv.address.region %}{{ cv.address.region }} {% endif %}
@@ -102,8 +102,8 @@ layout: default
               {% endif %}
               {% if cv.website %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
-                  <td class="p-1 pl-2 font-weight-light">
+                  <td class="p-1 pe-2 font-weight-bold"><b>Website</b></td>
+                  <td class="p-1 ps-2 font-weight-light">
                     <a href="{{ cv.website }}" target="_blank">{{ cv.website }}</a>
                   </td>
                 </tr>
@@ -204,32 +204,32 @@ layout: default
             <table class="table table-cv table-sm table-borderless">
               {% if basics.name %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Name</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ basics.name }}</td>
+                  <td class="p-1 pe-2 font-weight-bold"><b>Name</b></td>
+                  <td class="p-1 ps-2 font-weight-light">{{ basics.name }}</td>
                 </tr>
               {% endif %}
               {% if basics.label %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Professional Title</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ basics.label }}</td>
+                  <td class="p-1 pe-2 font-weight-bold"><b>Professional Title</b></td>
+                  <td class="p-1 ps-2 font-weight-light">{{ basics.label }}</td>
                 </tr>
               {% endif %}
               {% if basics.email %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ basics.email }}</td>
+                  <td class="p-1 pe-2 font-weight-bold"><b>Email</b></td>
+                  <td class="p-1 ps-2 font-weight-light">{{ basics.email }}</td>
                 </tr>
               {% endif %}
               {% if basics.phone %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Phone</b></td>
-                  <td class="p-1 pl-2 font-weight-light">{{ basics.phone }}</td>
+                  <td class="p-1 pe-2 font-weight-bold"><b>Phone</b></td>
+                  <td class="p-1 ps-2 font-weight-light">{{ basics.phone }}</td>
                 </tr>
               {% endif %}
               {% if basics.location %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
-                  <td class="p-1 pl-2 font-weight-light">
+                  <td class="p-1 pe-2 font-weight-bold"><b>Location</b></td>
+                  <td class="p-1 ps-2 font-weight-light">
                     {% if basics.location.address %}{{ basics.location.address }}, {% endif %}
                     {% if basics.location.city %}{{ basics.location.city }}, {% endif %}
                     {% if basics.location.region %}{{ basics.location.region }} {% endif %}
@@ -239,8 +239,8 @@ layout: default
               {% endif %}
               {% if basics.url %}
                 <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
-                  <td class="p-1 pl-2 font-weight-light">
+                  <td class="p-1 pe-2 font-weight-bold"><b>Website</b></td>
+                  <td class="p-1 ps-2 font-weight-light">
                     <a href="{{ basics.url }}" target="_blank">{{ basics.url }}</a>
                   </td>
                 </tr>
