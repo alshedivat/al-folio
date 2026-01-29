@@ -526,28 +526,28 @@ Help users avoid these frequent errors:
 
 ## Quick Reference Map
 
-| User wants to...            | Files to modify                                                     | Key documentation                    |
-| --------------------------- | ------------------------------------------------------------------- | ------------------------------------ |
-| Change personal info        | `_config.yml`, `_pages/about.md`                                    | CUSTOMIZE.md § Configuration         |
-| Add profile picture         | `assets/img/prof_pic.jpg`                                           | CUSTOMIZE.md § About page            |
-| Update CV                   | `_data/cv.yml` (RenderCV) or `assets/json/resume.json` (JSONResume) | CUSTOMIZE.md § Modifying CV          |
-| Add publications            | `_bibliography/papers.bib`                                          | CUSTOMIZE.md § Adding publications   |
-| Add blog post               | `_posts/YYYY-MM-DD-title.md`                                        | CUSTOMIZE.md § Blog posts            |
-| Create project              | `_projects/name.md`                                                 | CUSTOMIZE.md § Projects              |
-| Add news item               | `_news/announcement.md`                                             | CUSTOMIZE.md § Adding news           |
-| Add teaching page           | `_teachings/course.md`                                              | CUSTOMIZE.md § Teaching collection   |
-| Change theme color          | `_sass/_themes.scss`                                                | CUSTOMIZE.md § Theme color           |
-| Add social links            | `_data/socials.yml`                                                 | CUSTOMIZE.md § Social media          |
-| Set up analytics            | `_config.yml`                                                       | CUSTOMIZE.md & ANALYTICS.md          |
-| Enable/disable features     | `_config.yml`                                                       | CUSTOMIZE.md § Configuration         |
-| Remove pages                | Delete from `_pages/`, update nav                                   | CUSTOMIZE.md § Removing content      |
-| Fix deployment issues       | `_config.yml` (url/baseurl)                                         | FAQ.md, INSTALL.md                   |
-| Test changes locally        | Docker setup                                                        | INSTALL.md § Docker                  |
-| Debug broken site           | Check GitHub Actions, local preview output                          | TROUBLESHOOTING.md, FAQ.md           |
-| Add custom page             | Create `_pages/name.md`, update nav                                 | CUSTOMIZE.md § Creating pages        |
-| Customize fonts/spacing     | `_sass/_variables.scss`                                             | CUSTOMIZE.md § Customization         |
-| Improve SEO                 | `_config.yml`, `robots.txt`                                         | SEO.md                               |
-| Ensure accessibility        | Check markup, alt text, contrast                                    | ACCESSIBILITY.md                     |
+| User wants to...        | Files to modify                                                     | Key documentation                  |
+| ----------------------- | ------------------------------------------------------------------- | ---------------------------------- |
+| Change personal info    | `_config.yml`, `_pages/about.md`                                    | CUSTOMIZE.md § Configuration       |
+| Add profile picture     | `assets/img/prof_pic.jpg`                                           | CUSTOMIZE.md § About page          |
+| Update CV               | `_data/cv.yml` (RenderCV) or `assets/json/resume.json` (JSONResume) | CUSTOMIZE.md § Modifying CV        |
+| Add publications        | `_bibliography/papers.bib`                                          | CUSTOMIZE.md § Adding publications |
+| Add blog post           | `_posts/YYYY-MM-DD-title.md`                                        | CUSTOMIZE.md § Blog posts          |
+| Create project          | `_projects/name.md`                                                 | CUSTOMIZE.md § Projects            |
+| Add news item           | `_news/announcement.md`                                             | CUSTOMIZE.md § Adding news         |
+| Add teaching page       | `_teachings/course.md`                                              | CUSTOMIZE.md § Teaching collection |
+| Change theme color      | `_sass/_themes.scss`                                                | CUSTOMIZE.md § Theme color         |
+| Add social links        | `_data/socials.yml`                                                 | CUSTOMIZE.md § Social media        |
+| Set up analytics        | `_config.yml`                                                       | CUSTOMIZE.md & ANALYTICS.md        |
+| Enable/disable features | `_config.yml`                                                       | CUSTOMIZE.md § Configuration       |
+| Remove pages            | Delete from `_pages/`, update nav                                   | CUSTOMIZE.md § Removing content    |
+| Fix deployment issues   | `_config.yml` (url/baseurl)                                         | FAQ.md, INSTALL.md                 |
+| Test changes locally    | Docker setup                                                        | INSTALL.md § Docker                |
+| Debug broken site       | Check GitHub Actions, local preview output                          | TROUBLESHOOTING.md, FAQ.md         |
+| Add custom page         | Create `_pages/name.md`, update nav                                 | CUSTOMIZE.md § Creating pages      |
+| Customize fonts/spacing | `_sass/_variables.scss`                                             | CUSTOMIZE.md § Customization       |
+| Improve SEO             | `_config.yml`, `robots.txt`                                         | SEO.md                             |
+| Ensure accessibility    | Check markup, alt text, contrast                                    | ACCESSIBILITY.md                   |
 
 ## Using Community Context in Your Responses
 
