@@ -29,7 +29,7 @@ This guide helps you optimize your al-folio website for search engines so your r
     - [Image Optimization](#image-optimization)
     - [Internal Linking](#internal-linking)
   - [RSS Feed for Discovery](#rss-feed-for-discovery)
-  - [Performance \& Mobile](#performance--mobile)
+  - [Performance &amp; Mobile](#performance--mobile)
   - [SEO Checklist](#seo-checklist)
   - [Resources](#resources)
 

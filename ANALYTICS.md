@@ -12,7 +12,7 @@ This guide helps you add website analytics to track visitor statistics and behav
   - [Privacy-Friendly Alternatives](#privacy-friendly-alternatives)
     - [Pirsch Analytics](#pirsch-analytics)
     - [Openpanel Analytics](#openpanel-analytics)
-  - [Monitoring \& Performance](#monitoring--performance)
+  - [Monitoring &amp; Performance](#monitoring--performance)
     - [Cronitor](#cronitor)
   - [GDPR and Privacy Considerations](#gdpr-and-privacy-considerations)
     - [GDPR Checklist](#gdpr-checklist)

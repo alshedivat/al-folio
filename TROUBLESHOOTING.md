@@ -13,7 +13,7 @@ This guide covers common issues and their solutions. For more information, see [
     - [Docker build fails](#docker-build-fails)
     - [Ruby dependency issues](#ruby-dependency-issues)
     - [Port already in use](#port-already-in-use)
-  - [Styling \& Layout Problems](#styling--layout-problems)
+  - [Styling &amp; Layout Problems](#styling--layout-problems)
     - [CSS and JS not loading properly](#css-and-js-not-loading-properly)
     - [Site looks broken after deployment](#site-looks-broken-after-deployment)
     - [Theme colors not applying](#theme-colors-not-applying)
