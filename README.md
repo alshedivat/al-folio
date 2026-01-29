@@ -251,11 +251,12 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Desktop](#desktop)
     - [Mobile](#mobile)
   - [Table Of Contents](#table-of-contents)
-  - [Quick Start](#quick-start)
   - [Getting started](#getting-started)
   - [Installing and Deploying](#installing-and-deploying)
   - [Customizing](#customizing)
   - [GitHub Copilot Agents](#github-copilot-agents)
+    - [Customization Agent](#customization-agent)
+    - [Documentation Agent](#documentation-agent)
   - [Documentation](#documentation)
   - [Features](#features)
     - [Light/Dark Mode](#lightdark-mode)
@@ -280,6 +281,8 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [All Contributors](#all-contributors)
   - [Star History](#star-history)
   - [License](#license)
+
+<!--te-->
 
 ## Getting started
 
