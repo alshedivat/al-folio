@@ -35,17 +35,19 @@
 
 ## Step 3: Personalize (2 min)
 
-1. Open `_config.yml` in your repository
-2. Update these fields:
+1. Open `_config.yml` in your repository and update these fields:
    ```yaml
    title: My Website
    first_name: Your
    last_name: Name
-   email: your.email@example.com
    url: https://your-username.github.io # or your custom domain
    baseurl: # Leave this empty (do NOT delete it)
    ```
-3. Click **Commit changes** (at the bottom of the page)
+2. Open `_data/socials.yml` and update the email field:
+   ```yaml
+   email: your.email@example.com
+   ```
+3. Commit your changes
 
 ## Step 4: View Your Site (1 min)
 
