@@ -82,7 +82,7 @@ Beyond standard BibTeX fields, al-folio supports custom keywords for rich public
 1. **Unique keys:** Each entry must have a unique key (first parameter)
 2. **Author names:** Separate multiple authors with `and`
 3. **Curly braces:** Protect capitalized words in titles with `{Curly Braces}` to preserve capitalization
-4. **Special characters:** Use LaTeX escape sequences (`{\`e}`for é,`{\~n}` for ñ)
+4. **Special characters:** Use LaTeX escape sequences (`{\`e}` for é, `{\~n}` for ñ)
 5. **URLs:** Place URLs in `{curly braces}` to prevent issues
 6. **Alphabetical order:** Keep entries alphabetically sorted by key
 
