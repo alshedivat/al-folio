@@ -24,7 +24,7 @@ Here we will give you some tips on how to customize the website. One important t
   - [Modifying the CV information](#modifying-the-cv-information)
     - [RenderCV Format (Recommended)](#rendercv-format-recommended)
     - [JSONResume Format](#jsonresume-format)
-    - [Switching CV Sources (Without Deleting Files)](#switching-cv-sources-without-deleting-files)
+    - [Using Both Formats Simultaneously](#using-both-formats-simultaneously)
     - [Automatic PDF Generation (RenderCV only)](#automatic-pdf-generation-rendercv-only)
   - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
     - [Configuring external service URLs](#configuring-external-service-urls)

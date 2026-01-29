@@ -4,6 +4,9 @@
 
 - [Installing and Deploying](#installing-and-deploying)
   - [Recommended Approach](#recommended-approach)
+    - [Important Notes for GitHub Pages Sites](#important-notes-for-github-pages-sites)
+    - [Automatic Deployment](#automatic-deployment)
+    - [Local Development](#local-development)
   - [Local setup on Windows](#local-setup-on-windows)
   - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
     - [Build your own docker image](#build-your-own-docker-image)
@@ -19,8 +22,6 @@
     - [Deployment to another hosting server (non GitHub Pages)](#deployment-to-another-hosting-server-non-github-pages)
     - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
   - [Maintaining Dependencies](#maintaining-dependencies)
-    - [Updating the bundler itself](#updating-the-bundler-itself)
-    - [Updating all dependencies](#updating-all-dependencies)
   - [Upgrading from a previous version](#upgrading-from-a-previous-version)
 
 <!--te-->
