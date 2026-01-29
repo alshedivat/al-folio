@@ -476,7 +476,7 @@ To create a new collection, follow these steps. We will create a `courses` colle
 
 5. **Create collection items**
 
-   Add Markdown files in your new collection folder (e.g., `_teaching/`) with appropriate frontmatter and content.
+   Add Markdown files in your new collection folder (e.g., `_courses/`) with appropriate frontmatter and content.
 
 For more information regarding collections, check [Jekyll official documentation](https://jekyllrb.com/docs/collections/) and [step-by-step guide](https://jekyllrb.com/docs/step-by-step/09-collections/).
 
