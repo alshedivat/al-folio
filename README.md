@@ -355,7 +355,7 @@ Your CV can be generated in one of two modern formats:
 - **[RenderCV](https://rendercv.com/) Format** (recommended): Edit [`_data/cv.yml`](_data/cv.yml) using the human-readable RenderCV YAML format. This format enables automatic PDF generation via GitHub Actions and provides professional styling options.
 - **[JSONResume](https://jsonresume.org/) Format**: Edit [`assets/json/resume.json`](assets/json/resume.json) using the standardized JSON format. This is compatible with other resume tools and services.
 
-You can use both formats simultaneously and switch between them on your CV page using the `cv_format` frontmatter variable, or maintain just the one you prefer. Both formats are fully supported and keep your resume data in sync with your website.
+You can use both formats simultaneously and switch which one is rendered on your CV page using the `cv_format` frontmatter variable, or maintain just the one you prefer. The two files are independent data sources: if you choose to keep both, you must update each file separately—there is no automatic synchronization between them.
 
 [![CV Preview](readme_preview/cv.png)](https://alshedivat.github.io/al-folio/cv/)
 
