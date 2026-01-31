@@ -36,7 +36,7 @@ style: Format all Liquid templates with Prettier
 
 ## What NOT to Commit
 
-**Always obey the project's [`.gitignore`](../../.gitignore) file.** It prevents the accidental commit of:
+**Always obey the project's [`.gitignore`](../.gitignore) file.** It prevents the accidental commit of:
 
 - Build outputs (`_site/`, `.jekyll-cache/`)
 - Dependencies (`node_modules/`, `vendor/`)
