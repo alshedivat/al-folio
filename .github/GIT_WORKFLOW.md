@@ -14,12 +14,12 @@ All commit messages should follow this format:
 
 **Types:**
 
-*   `feat`: A new feature
-*   `fix`: A bug fix
-*   `docs`: Documentation only changes
-*   `style`: Changes that do not affect the meaning of the code (white-space, formatting, etc.)
-*   `config`: Changes to configuration files
-*   `chore`: Changes to the build process or auxiliary tools and libraries
+- `feat`: A new feature
+- `fix`: A bug fix
+- `docs`: Documentation only changes
+- `style`: Changes that do not affect the meaning of the code (white-space, formatting, etc.)
+- `config`: Changes to configuration files
+- `chore`: Changes to the build process or auxiliary tools and libraries
 
 **Examples:**
 

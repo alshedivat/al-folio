@@ -36,6 +36,7 @@ Before every commit, you **must** run these steps:
     npx prettier . --write
     ```
 2.  **Build Locally & Verify:**
+
     ```bash
     # Rebuild the site
     docker compose up --build
