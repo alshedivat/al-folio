@@ -22,6 +22,12 @@ The recommended approach is using Docker.
 # Initial setup & start dev server
 docker compose pull && docker compose up
 # Site runs at http://localhost:8080
+
+# Rebuild after changing dependencies or Dockerfile
+docker compose up --build
+
+# Stop containers and free port 8080
+docker compose down
 ```
 
 ### Pre-Commit Checklist
