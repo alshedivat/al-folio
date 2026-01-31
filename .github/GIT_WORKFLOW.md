@@ -28,6 +28,8 @@ feat: Add dark mode toggle button to header
 fix: Correct baseurl in project site configuration
 docs: Update INSTALL.md with Docker troubleshooting
 style: Format all Liquid templates with Prettier
+config: Enable blog section in _config.yml
+chore: Update Jekyll dependencies with bundle update --all
 ```
 
 ## Staging Changes
