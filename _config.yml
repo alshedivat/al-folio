@@ -610,6 +610,14 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/swiper@11.1.0/swiper-element-bundle.min.js.map"
     version: "11.0.5"
+  vanilla-cookieconsent:
+    integrity:
+      css: "sha256-ygRrixsQlBByBZiOcJamh7JByO9fP+/l5UPtKNJmRsE="
+      js: "sha256-vG4vLmOB/AJbJ6awr7Wg4fxonG+fxAp4cIrbIFTvRXU="
+    url:
+      css: "https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@{{version}}/dist/cookieconsent.css"
+      js: "https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@{{version}}/dist/cookieconsent.umd.js"
+    version: "3.1.0"
   vega:
     integrity:
       js: "sha256-Yot/cfgMMMpFwkp/5azR20Tfkt24PFqQ6IQS+80HIZs="
@@ -642,14 +650,6 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
-  vanilla-cookieconsent:
-    integrity:
-      css: "sha256-ygRrixsQlBByBZiOcJamh7JByO9fP+/l5UPtKNJmRsE="
-      js: "sha256-vG4vLmOB/AJbJ6awr7Wg4fxonG+fxAp4cIrbIFTvRXU="
-    url:
-      css: "https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@{{version}}/dist/cookieconsent.css"
-      js: "https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@{{version}}/dist/cookieconsent.umd.js"
-    version: "3.1.0"
 
 # -----------------------------------------------------------------------------
 # Get external JSON data
