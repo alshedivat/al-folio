@@ -20,7 +20,7 @@ Finally, we presented this invention at the 2024 Collegiate Engineering Design E
         {% include figure.liquid loading="eager" path="assets/img/stove1.png" title="Leg Prototyping" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/stove2.jpg" title="Fully Manufactured Stove" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/stove2.png" title="Fully Manufactured Stove" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/stove3.png" title="CAD Model of the Stove" class="img-fluid rounded z-depth-1" %}
