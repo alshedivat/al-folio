@@ -1,3 +1,4 @@
+---
 published: true
 layout: page
 title: Stable Stove
