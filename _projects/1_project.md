@@ -1,7 +1,7 @@
 layout: page
 title: Stable Stove
 description: A new type of portable camping stove that reduces tipping hazard while in mountainous terrain
-img: assets/img/stove3.jpg
+img: assets/img/stove3.png
 importance: 1
 category: work
 ---
