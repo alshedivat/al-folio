@@ -41,11 +41,18 @@ gtag('consent', 'default', {
 });
 
 // Wait for the library to be available
+var cookieConsentRetryCount = 0;
+var COOKIE_CONSENT_MAX_RETRIES = 50; // 5 seconds max wait time
+
 function initializeCookieConsent() {
   // Check if CookieConsent is available
   if (!window.CookieConsent) {
-    // Library not yet loaded, try again after a short delay
-    setTimeout(initializeCookieConsent, 100);
+    if (cookieConsentRetryCount++ < COOKIE_CONSENT_MAX_RETRIES) {
+      // Library not yet loaded, try again after a short delay
+      setTimeout(initializeCookieConsent, 100);
+    } else {
+      console.error('CookieConsent library failed to load');
+    }
     return;
   }
 
