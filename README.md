@@ -266,7 +266,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Collections](#collections)
     - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math &amp; code](#full-support-for-math--code)
+      - [Full support for math \& code](#full-support-for-math--code)
       - [Photos, Audio, Video and more](#photos-audio-video-and-more)
     - [Other features](#other-features)
       - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
@@ -352,14 +352,11 @@ This template has a built-in light/dark mode. It detects the user preferred colo
 
 ### CV
 
-Your CV can be generated in one of two modern formats:
-
-- **[RenderCV](https://rendercv.com/) Format** (recommended): Edit [`_data/cv.yml`](_data/cv.yml) using the human-readable RenderCV YAML format. This format enables automatic PDF generation via GitHub Actions and provides professional styling options.
-- **[JSONResume](https://jsonresume.org/) Format**: Edit [`assets/json/resume.json`](assets/json/resume.json) using the standardized JSON format. This is compatible with other resume tools and services.
-
-You can use both formats simultaneously and switch which one is rendered on your CV page using the `cv_format` frontmatter variable, or maintain just the one you prefer. The two files are independent data sources: if you choose to keep both, you must update each file separately—there is no automatic synchronization between them.
+Your CV can be generated in one of two modern formats: **RenderCV** (recommended, with automatic PDF generation) or **JSONResume** (standardized JSON format). You can use both simultaneously and switch between them, or maintain just the one you prefer.
 
 [![CV Preview](readme_preview/cv.png)](https://alshedivat.github.io/al-folio/cv/)
+
+For setup and customization details, see [Modifying the CV information](CUSTOMIZE.md#modifying-the-cv-information) in [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ---
 
@@ -373,21 +370,21 @@ You can create a people page if you want to feature more than one person. Each p
 
 ### Publications
 
-Your publications' page is generated automatically from your BibTex bibliography. Simply edit [\_bibliography/papers.bib](_bibliography/papers.bib). You can also add new `*.bib` files and customize the look of your publications however you like by editing [\_pages/publications.md](_pages/publications.md). By default, the publications will be sorted by year and the most recent will be displayed first. You can change this behavior and more in the `Jekyll Scholar` section in [\_config.yml](_config.yml) file.
-
-You can add extra information to a publication, like a PDF file in the [assets/pdf/](assets/pdf/) directory and add the path to the PDF file in the BibTeX entry with the `pdf` field. Some of the supported fields are: `abstract`, `altmetric`, `arxiv`, `bibtex_show`, `blog`, `code`, `dimensions`, `doi`, `eprint`, `html`, `isbn`, `pdf`, `pmid`, `poster`, `slides`, `supp`, `video`, and `website`.
+Your publications page is generated automatically from your BibTeX bibliography. You can customize publication display, add extra information like PDFs, and control sorting behavior.
 
 [![Publications Preview](readme_preview/publications.png)](https://alshedivat.github.io/al-folio/publications/)
+
+For setup, BibTeX field documentation, and customization options, see [Adding a new publication](CUSTOMIZE.md#adding-a-new-publication) and [Managing publication display](CUSTOMIZE.md#managing-publication-display) in [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ---
 
 ### Collections
 
-This Jekyll theme implements `collections` to let you break up your work into categories. The theme comes with two default collections: `news` and `projects`. Items from the `news` collection are automatically displayed on the home page. Items from the `projects` collection are displayed on a responsive grid on projects page.
+This Jekyll theme implements `collections` to organize content into categories. The theme comes with default collections for `news`, `projects`, `books`, and `teachings`. You can easily create your own collections for apps, stories, courses, or any other creative work.
 
 [![Projects Preview](readme_preview/projects.png)](https://alshedivat.github.io/al-folio/projects/)
 
-You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
+For detailed instructions on creating and customizing collections, see [Adding Collections](CUSTOMIZE.md#adding-collections) in [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ---
 
@@ -428,52 +425,27 @@ Photo formatting is made simple using [Bootstrap's grid system](https://getboots
 
 #### GitHub's repositories and user stats
 
-**al-folio** uses [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) to display GitHub repositories and user stats on the `/repositories/` page.
+**al-folio** displays GitHub repositories and user stats on the `/repositories/` page using [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy).
 
 [![Repositories Preview](readme_preview/repositories.png)](https://alshedivat.github.io/al-folio/repositories/)
 
-Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories to the `/repositories/` page.
-
-You may also use the following codes for displaying this in any other pages.
-
-```html
-<!-- code for GitHub users -->
-{% if site.data.repositories.github_users %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %} {% include repository/repo_user.liquid username=user %} {% endfor %}
-</div>
-{% endif %}
-
-<!-- code for GitHub trophies -->
-{% if site.repo_trophies.enabled %} {% for user in site.data.repositories.github_users %} {% if site.data.repositories.github_users.size > 1 %}
-<h4>{{ user }}</h4>
-{% endif %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-</div>
-{% endfor %} {% endif %}
-
-<!-- code for GitHub repositories -->
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %} {% include repository/repo.liquid repository=repo %} {% endfor %}
-</div>
-{% endif %}
-```
+To configure which repositories and GitHub profiles to display, see [Modifying the user and repository information](CUSTOMIZE.md#modifying-the-user-and-repository-information) in [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ---
 
 #### Theming
 
-A variety of beautiful theme colors have been selected for you to choose from. The default is purple, but you can quickly change it by editing the `--global-theme-color` variable in the `_sass/_themes.scss` file. Other color variables are listed there as well. The stock theme color options available can be found at [\_sass/\_variables.scss](_sass/_variables.scss). You can also add your own colors to this file assigning each a name for ease of use across the template.
+**al-folio** offers a variety of beautiful theme colors to choose from. The default is purple, but you can customize colors, fonts, spacing, and more to match your style.
+
+For detailed customization instructions, see [Changing theme color](CUSTOMIZE.md#changing-theme-color) and [Customizing fonts, spacing, and more](CUSTOMIZE.md#customizing-fonts-spacing-and-more) in [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ---
 
 #### Social media previews
 
-**al-folio** supports preview images on social media. To enable this functionality you will need to set `serve_og_meta` to `true` in your [\_config.yml](_config.yml). Once you have done so, all your site's pages will include Open Graph data in the HTML head element.
+**al-folio** supports Open Graph preview images on social media. When enabled, your site's pages display rich preview objects with images, titles, and descriptions when shared.
 
-You will then need to configure what image to display in your site's social media previews. This can be configured on a per-page basis, by setting the `og_image` page variable. If for an individual page this variable is not set, then the theme will fall back to a site-wide `og_image` variable, configurable in your [\_config.yml](_config.yml). In both the page-specific and site-wide cases, the `og_image` variable needs to hold the URL for the image you wish to display in social media previews.
+For setup and customization, see [Social media previews](CUSTOMIZE.md#social-media-previews) in [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ---
 
@@ -485,7 +457,9 @@ It generates an Atom (RSS-like) feed of your posts, useful for Atom and RSS read
 
 #### Related posts
 
-By default, there will be a related posts section on the bottom of the blog posts. These are generated by selecting the `max_related` most recent posts that share at least `min_common_tags` tags with the current post. If you do not want to display related posts on a specific post, simply add `related_posts: false` to the front matter of the post. If you want to disable it for all posts, simply set `enabled` to false in the `related_blog_posts` section in [\_config.yml](_config.yml).
+By default, blog posts display related posts at the bottom. These are selected by finding the most recent posts that share tags with the current post. You can customize this behavior on a per-post or site-wide basis.
+
+For configuration details, see [Related posts](CUSTOMIZE.md#related-posts) in [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ---
 

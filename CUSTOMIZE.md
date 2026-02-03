@@ -49,6 +49,15 @@ Here we will give you some tips on how to customize the website. One important t
   - [Adding social media information](#adding-social-media-information)
   - [Adding a newsletter](#adding-a-newsletter)
   - [Configuring search features](#configuring-search-features)
+  - [Social media previews](#social-media-previews)
+    - [How to enable](#how-to-enable)
+    - [Configuring preview images](#configuring-preview-images)
+    - [Preview image best practices](#preview-image-best-practices)
+  - [Related posts](#related-posts)
+    - [How it works](#how-it-works)
+    - [Configuration](#configuration-1)
+    - [Disable related posts for a specific post](#disable-related-posts-for-a-specific-post)
+    - [Additional configuration in \_config.yml](#additional-configuration-in-_configyml)
   - [Managing publication display](#managing-publication-display)
   - [Adding a Google Calendar](#adding-a-google-calendar)
     - [Basic usage](#basic-usage)
@@ -69,9 +78,9 @@ Here we will give you some tips on how to customize the website. One important t
     - [Name Format](#name-format)
     - [Important Notes](#important-notes)
   - [GDPR Cookie Consent Dialog](#gdpr-cookie-consent-dialog)
-    - [How it works](#how-it-works)
+    - [How it works](#how-it-works-1)
     - [When to use](#when-to-use)
-    - [How to enable](#how-to-enable)
+    - [How to enable](#how-to-enable-1)
     - [Customizing the consent dialog](#customizing-the-consent-dialog)
     - [Supported analytics providers](#supported-analytics-providers)
     - [How it integrates with analytics](#how-it-integrates-with-analytics)
@@ -703,6 +712,129 @@ socials_in_search: true
 - `socials_in_search`: Includes your social media links and contact information in search results. This makes it easier for visitors to find ways to connect with you.
 
 All these search features work in real-time and do not require a page reload.
+
+## Social media previews
+
+**al-folio** supports Open Graph (OG) meta tags, which create rich preview objects when your pages are shared on social media platforms like Twitter, Facebook, LinkedIn, and others. These previews include your site's image, title, and description.
+
+### How to enable
+
+To enable social media previews:
+
+1. Open `_config.yml` and set:
+
+   ```yaml
+   serve_og_meta: true
+   ```
+
+2. Rebuild your site:
+   ```bash
+   docker compose down && docker compose up
+   # or
+   bundle exec jekyll serve
+   ```
+
+Once enabled, all your site's pages will automatically include Open Graph meta tags in the HTML head element.
+
+### Configuring preview images
+
+You can configure what image displays in social media previews on a per-page or site-wide basis.
+
+**Site-wide default image:**
+
+Add the following to `_config.yml`:
+
+```yaml
+og_image: /assets/img/your-default-preview-image.png
+```
+
+Replace the path with your actual image location in `assets/img/`.
+
+**Per-page custom image:**
+
+To override the site-wide default for a specific page, add `og_image` to the page's frontmatter:
+
+```yaml
+---
+layout: page
+title: My Page
+og_image: /assets/img/custom-preview-image.png
+---
+```
+
+### Preview image best practices
+
+- **Dimensions:** Use 1200×630 pixels for optimal display on most social media platforms
+- **Format:** PNG or JPG formats work best
+- **Size:** Keep file size under 5MB
+- **Content:** Ensure the image clearly represents your page content
+
+When a page is shared on social media, the platform will display your configured image along with the page title, description (from your site title or page description), and URL.
+
+---
+
+## Related posts
+
+The theme can automatically display related posts at the bottom of each blog post. These are selected by finding the most recent posts that share common tags with the current post.
+
+### How it works
+
+- By default, the most recent posts that share at least one tag with the current post are displayed
+- You can customize how many posts are shown and how many tags must match
+- You can disable related posts for individual posts or across your entire site
+
+### Configuration
+
+To customize related posts behavior, edit the `related_blog_posts` section in `_config.yml`:
+
+```yaml
+related_blog_posts:
+  enabled: true
+  max_related: 5
+```
+
+- `enabled`: Set to `true` (default) to show related posts, or `false` to disable them site-wide
+- `max_related`: Maximum number of related posts to display (default: 5)
+
+The theme also uses tags to find related content. Make sure your blog posts include relevant tags in their frontmatter:
+
+```yaml
+---
+layout: post
+title: My Blog Post
+tags: machine-learning python
+---
+```
+
+### Disable related posts for a specific post
+
+To hide related posts on an individual blog post, add this to the post's frontmatter:
+
+```yaml
+---
+layout: post
+title: My Blog Post
+related_posts: false
+---
+```
+
+### Additional configuration in \_config.yml
+
+You can also customize related posts behavior with these settings:
+
+```yaml
+related_blog_posts:
+  enabled: true
+  max_related: 5
+```
+
+These settings control:
+
+- Which posts are considered "related" (based on shared tags)
+- How many related posts to display
+- The algorithm used to calculate post similarity (uses the `classifier-reborn` gem)
+
+---
 
 ## Managing publication display
 
