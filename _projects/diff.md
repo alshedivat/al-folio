@@ -5,7 +5,7 @@ description: An industry-standard rear differential CAD model
 img: assets/img/diff3.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: false
 ---
 
 ### About the Project
