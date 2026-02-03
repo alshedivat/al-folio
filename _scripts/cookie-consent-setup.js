@@ -22,9 +22,17 @@ permalink: /assets/js/cookie-consent-setup.js
 // Initialize Google Consent Mode BEFORE any tracking
 // This tells Google services to operate in privacy mode until user consents
 window.dataLayer = window.dataLayer || [];
-function gtag() {
-  window.dataLayer.push(arguments);
+
+// Reuse existing global gtag if it was already defined (e.g. by other GA scripts)
+// to avoid redefining it multiple times when consent is granted.
+if (typeof window.gtag !== 'function') {
+  window.gtag = function() {
+    window.dataLayer.push(arguments);
+  };
 }
+
+// Local alias for convenience in this file
+var gtag = window.gtag;
 gtag('consent', 'default', {
   'ad_storage': 'denied',
   'analytics_storage': 'denied',
