@@ -89,7 +89,7 @@
 
     - title: Software Engineer
       institution: <a href="https://mycts.at/">myCTS</a>, Austria
-      year: 01/2020 - now
+      year: 01/2020 - 01/2026
       description:
         - "Developing and maintaining customized software solutions with <a href='https://www.intersystems.com/'>Intersystems</a>."
 
@@ -114,6 +114,13 @@
     - title: IT Assistant (Internship)
       institution: <a href="https://www.artech.at/">A&R TECH</a>, Austria
       year: 07/2013
+
+- title: Services
+  type: nested_list
+  contents:
+    - title: Sub-reviewer
+      items:
+        - ICPE 2026 (ACM/SPEC)
 
 - title: Honors and Awards
   type: list

@@ -19,4 +19,4 @@ This course covers two perspectives: **Sustainable AI** (reducing the energy/CO�
 
 Students develop skills in profiling and interpreting energy/latency metrics; reasoning about accuracy–latency–energy trade-offs in large-scale and edge–cloud ML systems; and applying ML methods to sustainability-driven use cases.
 
-**Role:** course organization; 1–2 lectures; assignment design & grading; examination.
+**Role:** course organization & communication; 1 lecture; assignment design & grading; examination.
