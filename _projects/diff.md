@@ -4,7 +4,7 @@ title: Rear Differential
 description: An industry-standard rear differential CAD model
 img: assets/img/diff3.png
 importance: 2
-category: CU
+category: recent
 giscus_comments: false
 ---
 

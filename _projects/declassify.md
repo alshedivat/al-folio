@@ -4,7 +4,7 @@ title: Declassify.ai
 description: An AI-powered course registration tool
 img: assets/img/declassify1.png
 importance: 3
-category: independant
+category: recent
 giscus_comments: false
 ---
 

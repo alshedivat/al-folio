@@ -5,7 +5,7 @@ permalink: /projects/
 description: Relevant projects
 nav: true
 nav_order: 3
-display_categories: [CU, independant]
+display_categories: [recent]
 horizontal: false
 ---
 
