@@ -68,6 +68,14 @@ Here we will give you some tips on how to customize the website. One important t
   - [Scheduled Posts](#scheduled-posts)
     - [Name Format](#name-format)
     - [Important Notes](#important-notes)
+  - [GDPR Cookie Consent Dialog](#gdpr-cookie-consent-dialog)
+    - [How it works](#how-it-works)
+    - [When to use](#when-to-use)
+    - [How to enable](#how-to-enable)
+    - [Customizing the consent dialog](#customizing-the-consent-dialog)
+    - [Supported analytics providers](#supported-analytics-providers)
+    - [How it integrates with analytics](#how-it-integrates-with-analytics)
+    - [For developers](#for-developers)
   - [Setting up a Personal Access Token (PAT) for Google Scholar Citation Updates](#setting-up-a-personal-access-token-pat-for-google-scholar-citation-updates)
     - [Why is a PAT required?](#why-is-a-pat-required)
     - [How to set up the PAT](#how-to-set-up-the-pat)
@@ -964,6 +972,111 @@ In this folder you need to store your file in the same format as you would in `_
   - `2025-08-27-file2.md` will be posted exactly on 27-August-2025
   - `File3.md` will not be posted at all
   - `2026-02-31-file4.md` is supposed to be posted on 31-February-2026, but there is no 31st in February hence this file will never be posted either
+
+## GDPR Cookie Consent Dialog
+
+**al-folio** includes a built-in GDPR-compliant cookie consent dialog to help you respect visitor privacy and comply with privacy regulations (GDPR, CCPA, etc.). The feature is powered by [Vanilla Cookie Consent](https://cookieconsent.orestbida.com/) and integrates with all analytics providers.
+
+### How it works
+
+- A consent dialog appears on the visitor's first visit to your site
+- Visitors can **accept all**, **reject all**, or **customize preferences** for analytics cookies
+- Analytics scripts (Google Analytics, Cronitor, Pirsch, Openpanel) are **blocked by default** and only run after explicit consent
+- Google Consent Mode ensures Google services operate in privacy mode before consent is granted
+- User preferences are saved in their browser and respected on subsequent visits
+- The dialog is mobile-responsive and supports multiple languages
+
+### When to use
+
+- ✅ **Required** if your site serves EU visitors and uses any analytics
+- ✅ Recommended for any website using analytics, tracking, or marketing tools
+- ❌ Not needed if your site doesn't use any analytics providers
+
+### How to enable
+
+1. Open `_config.yml` and locate the following line:
+
+   ```yaml
+   enable_cookie_consent: false
+   ```
+
+2. Change it to:
+
+   ```yaml
+   enable_cookie_consent: true
+   ```
+
+3. Rebuild your site:
+
+   ```bash
+   docker compose down && docker compose up
+   # or
+   bundle exec jekyll serve
+   ```
+
+4. The consent dialog will automatically appear on your site's homepage on first visit
+
+### Customizing the consent dialog
+
+The consent dialog configuration and messages are defined in [`_scripts/cookie-consent-setup.js`](_scripts/cookie-consent-setup.js). You can customize:
+
+- Dialog titles and button labels
+- Cookie categories and descriptions
+- Contact information links (points to `#contact` by default)
+- Language translations
+
+To modify the dialog, edit the `language.translations.en` section in `_scripts/cookie-consent-setup.js`. For example, to change the consent dialog title:
+
+```javascript
+consentModal: {
+  title: 'Your custom title here',
+  description: 'Your custom description...',
+  // ... other options
+}
+```
+
+### Supported analytics providers
+
+When cookie consent is enabled, these analytics providers are automatically blocked until the user consents:
+
+- **Google Analytics (GA4)** – Uses Google Consent Mode for privacy-first operation before consent
+- **Cronitor RUM** – Real User Monitoring for performance tracking
+- **Pirsch Analytics** – GDPR-compliant analytics alternative
+- **Openpanel Analytics** – Privacy-focused analytics platform
+
+Each provider only collects data if:
+
+1. It's enabled in `_config.yml` (e.g., `enable_google_analytics: true`)
+2. The user has granted consent to the "analytics" category in the consent dialog
+
+### How it integrates with analytics
+
+When `enable_cookie_consent: true`, the template automatically:
+
+1. Adds `type="text/plain" data-category="analytics"` to all analytics script tags
+2. This tells the cookie consent library to block these scripts until consent is granted
+3. Loads the consent library and initializes Google Consent Mode
+4. Updates consent preferences when the user changes them in the dialog
+
+You don't need to modify any analytics configuration—it works automatically.
+
+### For developers
+
+If you want to programmatically check consent status or react to consent changes, the library exposes the following:
+
+```javascript
+// Check if user has granted analytics consent
+window.CookieConsent.getCategories().analytics; // returns true or false
+
+// Listen for consent changes
+window.CookieConsent.onChange(function (consentData) {
+  // Handle consent change
+});
+```
+
+For more API details, see [Vanilla Cookie Consent documentation](https://cookieconsent.orestbida.com/).
+
+---
 
 ## Setting up a Personal Access Token (PAT) for Google Scholar Citation Updates
 

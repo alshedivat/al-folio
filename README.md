@@ -503,39 +503,11 @@ We decided to keep `Axe` runs manual because fixing the issues are not straightf
 
 #### GDPR Cookie Consent Dialog
 
-**al-folio** includes a built-in, GDPR-compliant cookie consent dialog powered by [Vanilla Cookie Consent](https://cookieconsent.orestbida.com/). This feature is essential for websites serving visitors in the European Union and other regions with strict privacy regulations.
+**al-folio** includes a built-in, GDPR-compliant cookie consent dialog to ensure your website respects visitor privacy. The dialog is powered by [Vanilla Cookie Consent](https://cookieconsent.orestbida.com/) and integrates seamlessly with all supported analytics providers.
 
-**How it works:**
+When enabled, analytics scripts are blocked until the user explicitly consents, and user preferences are saved across visits. This is essential for websites serving visitors in the European Union and other regions with strict privacy regulations.
 
-- The dialog appears on first visit and allows users to accept, reject, or customize their cookie preferences
-- Analytics scripts are **blocked by default** until the user explicitly consents
-- Uses Google Consent Mode to ensure Google Analytics operates in privacy mode before consent is given
-- Supports all integrated analytics providers: Google Analytics, Cronitor, Pirsch, and Openpanel
-- User preferences are saved in browser cookies and respected on subsequent visits
-- Mobile-responsive and customizable with multilingual support
-
-**How to enable:**
-
-1. Open `_config.yml` and set `enable_cookie_consent: true`
-2. (Optional) Customize the consent dialog messages in [`_scripts/cookie-consent-setup.js`](_scripts/cookie-consent-setup.js)
-3. Rebuild your site: `docker compose up` or `bundle exec jekyll serve`
-
-**When to use:**
-
-- ✅ **Required** if your site has EU visitors and uses analytics
-- ✅ Recommended for any website collecting user data or using tracking
-- ❌ Not needed if you don't use any analytics providers
-
-**Analytics providers supported:**
-
-When enabled, the cookie consent dialog will block these analytics until the user consents:
-
-- Google Analytics (GA4)
-- Cronitor RUM (Real User Monitoring)
-- Pirsch Analytics
-- Openpanel Analytics
-
-For more details about the implementation and customization options, see [`_scripts/cookie-consent-setup.js`](_scripts/cookie-consent-setup.js).
+For complete setup and customization details, see [GDPR Cookie Consent Dialog](#gdpr-cookie-consent-dialog) in [CUSTOMIZE.md](CUSTOMIZE.md).
 
 ## FAQ
 
