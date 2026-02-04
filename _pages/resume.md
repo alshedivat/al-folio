@@ -1,6 +1,6 @@
 ---
 layout: page
-title: resume
+title: Resume
 permalink: /resume/
 nav: true
 nav_order: 3
@@ -8,7 +8,6 @@ nav_order: 3
 
 <div class="post">
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-description">You can download my full resume <a href="{{ '/assets/pdf/groban-adam-resume.pdf' | relative_url }}" target="_blank">here</a>.</p>
   </header>
 
