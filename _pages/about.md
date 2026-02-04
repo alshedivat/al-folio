@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <strong>Honors Mechanical Engineering Student</strong> • <strong>University of Colorado Boulder</strong>
 
