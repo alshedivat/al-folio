@@ -6,7 +6,7 @@ subtitle: <strong>Honors Mechanical Engineering Student</strong> • <strong>Uni
 
 profile:
   align: right
-  image:
+  image: profile-pic.jpg
   image_circular: false # crops the image to make it circular
   # more_info: >
   # <p>555 your office number</p>
