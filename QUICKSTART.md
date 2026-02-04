@@ -21,11 +21,16 @@
 
 ## Step 1: Create Your Repository (1 min)
 
-1. Click **[Use this template](https://github.com/new?template_name=al-folio&template_owner=alshedivat)** on the al-folio repository page
-2. Name your repository:
-   - **Personal/Organization site:** `username.github.io` (replace `username` with your GitHub username)
-   - **Project site:** Any name (e.g., `my-research-website`)
-3. Click **Create repository from template**
+**⚠️ Important:** Use the **"Use this template"** button, NOT the fork button. This ensures your site is independent and you won't accidentally submit your personal changes back to the al-folio project.
+
+1. Go to the [al-folio repository](https://github.com/alshedivat/al-folio)
+2. Click the green **"Use this template"** button (top right), then select **"Create a new repository"**
+3. Name your repository:
+   - **Personal/Organization site (if you want your site to be at `username.github.io`):** `username.github.io` (replace `username` with your GitHub username)
+   - **Project site (if you want your site to be at `username.github.io/project-name`):** Any name (e.g., `my-research-website`)
+4. Click **"Create repository from template"**
+
+**Already forked by mistake?** No problem. Your fork will work fine—just be careful when making changes. Create a new branch for your updates (e.g., `git checkout -b my-site-updates`) and make sure you push to **your own repository**, not the main al-folio project.
 
 ## Step 2: Configure Deployment (1 min)
 
