@@ -11,7 +11,7 @@ category: recent
 ### About the Project
 This project was a part of my Engineering Projects class, where we were tasked with building any product that improved peoples' experience outdoors within a team of four. Our "Stable Stove" was desgined to improve the experience of outdoor cooking while in the mountains of Colorado.
 
-I was in charge of the prototyping and test phase, as well as being the primary CAD designer within the team. I utilized OnShape to deseign each part, and 3D printed the final design out of PLA plastic. Our design saw numeroud iterations and new ideas throughout our three-month timeline.
+I was in charge of the prototyping and test phase, as well as being the primary CAD designer within the team. I utilized OnShape to design each part, and 3D printed the final design out of PLA plastic. Our design saw numerous iterations and new ideas throughout our three-month timeline.
 
 Finally, we presented this invention at the 2024 Collegiate Engineering Design Expo competing against 89 teams and over 500 participants. We placed in the top four teams, being awarded the Tensentric Human Centered Design Award, given to the team which "best optimized user experience". This project introduced me to design for manufacturability, as well as giving me experience designing CAD models for ease-of-use by consumers.
 
