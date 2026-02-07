@@ -82,7 +82,7 @@ To visualize how these components interact, consider this high-level diagram:
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/s3_multipart_upload.png" width="100%">
+    {% include figure.html path="assets/img/s3_multipart_upload.png" width="100%" %}
 </div>
 
 

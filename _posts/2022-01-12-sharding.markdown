@@ -11,7 +11,7 @@ Sharding of data is done to achieve *Scalability*. Sharding means that each piec
 
 
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/shard/replication_sharding.png"></center>
+    <center>{% include figure.html path="assets/img/shard/replication_sharding.png" %}</center>
 </div>
 
 
@@ -25,7 +25,7 @@ Within each partition, we can keep keys in sorted order. This helps in range sca
 For example, getting a range of data from the sensor can be done by designing the key as *(year-month-day-hour-minute-second)*
 
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/shard/key_range.png"></center>
+    <center>{% include figure.html path="assets/img/shard/key_range.png" %}</center>
 </div>
 
 <br/>

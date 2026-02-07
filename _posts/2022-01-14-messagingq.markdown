@@ -19,7 +19,7 @@ Messaging queue manages the logs or messages published at a very large rate.
 **Subscribers**: Consumers can consume message by subscribing to a topic. Many consumers can subscribe to the same topic. The message is sent to all the subscribers.
 
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/messagingq/messageQ.png"></center>
+    <center>{% include figure.html path="assets/img/messagingq/messageQ.png" %}</center>
 </div>
 
 ----
@@ -29,7 +29,7 @@ Kafka works on `publisher-subscriber` model. It takes in the messages sent by Pr
 
 
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/messagingq/kafkaCluster.png"></center>
+    <center>{% include figure.html path="assets/img/messagingq/kafkaCluster.png" %}</center>
 </div>
 
 <br/>
@@ -45,7 +45,7 @@ Kafka works on `publisher-subscriber` model. It takes in the messages sent by Pr
 
 
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/messagingq/pubSub.png"></center>
+    <center>{% include figure.html path="assets/img/messagingq/pubSub.png" %}</center>
 </div>
 
 * **Cluster**: Set of one or more servers, responsible for running a kafka broker

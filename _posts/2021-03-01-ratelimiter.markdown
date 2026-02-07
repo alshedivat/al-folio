@@ -44,7 +44,7 @@ Let's assume we are designing a system to limit the requests to 5 **requests per
 We maintain a fixed window and count the number of requests in that window. If the requests exceed the limit in that particular window, we drop that request. The count is reset after the window expires.
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/FixedWindow.png">
+    {% include figure.html path="assets/img/FixedWindow.png" %}
 </div>
 
 The problem with this approach is that we are considering requests per window as independent from each other. There could be a case where the request is stacked near the end of the current window and the start of the next window. The algorithm will allow the request to be forwarded to the API server, but in reality, the server would be serving requests more than the limit.
@@ -137,7 +137,7 @@ In a distributed environment this technique will suffer from a few issues:
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/RateLimitterDS.png">
+    {% include figure.html path="assets/img/RateLimitterDS.png" %}
 </div>
 
 

@@ -11,7 +11,7 @@ categories: C++
 * In C++ object live in the memory where are they are instantiated.
 * In Java the objects are allocated in heap memory. The reference to the allocated heap memory is stored as value on the stack. The object in the heap memory contains a table with **vptr** that points to the functions in the static memory.
 <div>
-    <img src="{{ site.baseurl }}/assets/img/Instance.png">
+    {% include figure.html path="assets/img/Instance.png" %}
 </div>
 
 

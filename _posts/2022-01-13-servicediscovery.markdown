@@ -16,7 +16,7 @@ When a client wants to make a request, it has to know which node it should conne
 Many applications have a routing tier, which receives requests from clients. This routing tier is partition aware and forwards the request to the appropriate node. The **`ZooKeeper`** configuration service can be used to track the nodes along with the keys they serve.
 
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/serviceDiscovery/configService.png"></center>
+    <center>{% include figure.html path="assets/img/serviceDiscovery/configService.png" %}</center>
 </div>
 
 

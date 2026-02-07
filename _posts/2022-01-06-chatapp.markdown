@@ -50,7 +50,7 @@ We can store 10 years of chat history
 # Architecture
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/chatApp/Architecture.png">
+    {% include figure.html path="assets/img/chatApp/Architecture.png" %}
 </div>
 
 ---
@@ -66,7 +66,7 @@ We can store 10 years of chat history
 Row Key: {(from user, to user), time)}
 ```
 <div>
-    <img src="{{ site.baseurl }}/assets/img/chatApp/db_schema.png">
+    {% include figure.html path="assets/img/chatApp/db_schema.png" %}
 </div>
 
 **Database Schema**
@@ -162,7 +162,7 @@ We keep our APIs simple:
 When connection breaks between user and WebSocket and the user re-establishes connection with another handler, the information is updated to Redis.
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/chatApp/ChatAppWebSocket.png">
+    {% include figure.html path="assets/img/chatApp/ChatAppWebSocket.png" %}
 </div>
 
 <br/>
@@ -182,7 +182,7 @@ When connection breaks between user and WebSocket and the user re-establishes co
 <br/>
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/chatApp/ChatAppArch.png">
+    {% include figure.html path="assets/img/chatApp/ChatAppArch.png" %}
 </div>
 
 <br/>
@@ -214,7 +214,7 @@ Group service stores what users are associated with which group.
 The group Message handler sits on top of the Kafka queue and is responsible for sending messages to all the members of the group.
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/chatApp/Group.png">
+    {% include figure.html path="assets/img/chatApp/Group.png" %}
 </div>
 
 <br/>
@@ -237,7 +237,7 @@ For a media message, ideally, it is compressed and encrypted at the sender's end
 The media is stored in the S3 database. Depending upon the usage it may be stored to CDN as well.
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/chatApp/media.png">
+    {% include figure.html path="assets/img/chatApp/media.png" %}
 </div>
 
 

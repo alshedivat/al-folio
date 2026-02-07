@@ -50,7 +50,7 @@ The BigTable retrieves data using:
 Store multiple delimited values in each row key. Because the best way to query Bigtable efficiently is by row key, it's often useful to include multiple identifiers in the row key. Row key segments are usually separated by a delimiter, such as a colon, slash, or hash symbol. Row keys should be defined such that retrieving data does not require a full table scan. For eg: 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/bigTable/BigTableRowKey.png">
+    {% include figure.html path="assets/img/bigTable/BigTableRowKey.png" %}
 </div>
 
 This row key design lets you retrieve data with a single request for:
@@ -60,16 +60,16 @@ This row key design lets you retrieve data with a single request for:
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/bigTable/BigTableDataModel.png">
+    {% include figure.html path="assets/img/bigTable/BigTableDataModel.png" %}
 </div>
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/bigTable/BigTableRow2.png">
+    {% include figure.html path="assets/img/bigTable/BigTableRow2.png" %}
 </div>
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/bigTable/BigTableRow.png">
+    {% include figure.html path="assets/img/bigTable/BigTableRow.png" %}
 </div>
 
 
@@ -118,7 +118,7 @@ Each tablet server manages multiple tablets (10 to 10000). It handles read/write
 ## Architecture
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/bigTable/BigTableArch.png">
+    {% include figure.html path="assets/img/bigTable/BigTableArch.png" %}
 </div>
 
 #### Tablet Location    
@@ -126,7 +126,7 @@ Each tablet server manages multiple tablets (10 to 10000). It handles read/write
 Three-level-hierarchy analogous to the B+ tree is used to store tablet information.
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/bigTable/TabletLocation.png">
+    {% include figure.html path="assets/img/bigTable/TabletLocation.png" %}
 </div>
 
 
@@ -174,7 +174,7 @@ To ensure that master and chubby are not vulnerable to networking issues, Master
 The persistent state of the table is stored in GFS. Updates are committed to a commit log that stores redo records. Of these updates, the recently committed ones are stored in memory in a sorted buffer called `memtable`; older updates are stored in `SSTables`.
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/bigTable/TabletStorage.png">
+    {% include figure.html path="assets/img/bigTable/TabletStorage.png" %}
 </div>
 
 <p>Tablet recovery</p>
@@ -194,7 +194,7 @@ The persistent state of the table is stored in GFS. Updates are committed to a c
 5. Periodically MemTables are flushed to SSTables, and SSTables are merged during compaction
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/bigTable/BigTableWrite.png">
+    {% include figure.html path="assets/img/bigTable/BigTableWrite.png" %}
 </div>
 
 #### Read Request

@@ -17,7 +17,7 @@ categories: ['System Design']
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/tinyurl/architecture.png"></center>
+    <center>{% include figure.html path="assets/img/tinyurl/architecture.png" %}</center>
 </div>
 <br/>
 

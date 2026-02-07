@@ -36,7 +36,7 @@ We can have two types of architecture:
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/distCache/CacheCluster.png">
+    {% include figure.html path="assets/img/distCache/CacheCluster.png" %}
 </div>
 
 ---
@@ -57,7 +57,7 @@ To keep track of all the cache servers, configuration services like **` Zookeepe
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/distCache/CacheServer.png">
+    {% include figure.html path="assets/img/distCache/CacheServer.png" %}
 </div>
 
 ---
@@ -71,7 +71,7 @@ With replication we can have two types of setup:
 2. **Write to Leader, read from replicas**: 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/distCache/Availability.png">
+    {% include figure.html path="assets/img/distCache/Availability.png" %}
 </div>
 
 

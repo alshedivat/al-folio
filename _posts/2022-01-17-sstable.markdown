@@ -12,7 +12,7 @@ categories: ['Distributed Systems Components']
 SSTables support fast sequential read/writes. As SSTables are sorted sequences of key-value pairs, an index file is maintained for fast retrieval. To retrieve data from SSTable, a binary search can be performed on the index to locate the offset of the value. The index partition is also stored in the disk.
 
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/sstable/sstable.png"></center>
+    <center>{% include figure.html path="assets/img/sstable/sstable.png" %}</center>
 </div>
 
 <br/>
@@ -21,7 +21,7 @@ Example:
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/sstable/table.png"></center>
+    <center>{% include figure.html path="assets/img/sstable/table.png" %}</center>
 </div>
 <br/>
 
@@ -30,7 +30,7 @@ For fast read, a `partition index summary` file is maintained which maps the key
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/sstable/partition.png"></center>
+    <center>{% include figure.html path="assets/img/sstable/partition.png" %}</center>
 </div>
 <br/>
 
@@ -43,7 +43,7 @@ It maps `Key` $$\rightarrow$$ `Byte offset`
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/sstable/read.png"></center>
+    <center>{% include figure.html path="assets/img/sstable/read.png" %}</center>
 </div>
 <br/>
 
@@ -57,7 +57,7 @@ It maps `Key` $$\rightarrow$$ `Byte offset`
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/sstable/compaction.png"></center>
+    <center>{% include figure.html path="assets/img/sstable/compaction.png" %}</center>
 </div>
 <br/>
 
@@ -74,7 +74,7 @@ After compaction is performed the data is written into a new SSTable and the old
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/sstable/compaction_flow.png"></center>
+    <center>{% include figure.html path="assets/img/sstable/compaction_flow.png" %}</center>
 </div>
 <br/>
 

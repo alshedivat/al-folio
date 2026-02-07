@@ -25,7 +25,7 @@ The problem with this approach is that if a server is removed, the $$n$$ changes
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/ConsistentHashing.png">
+    {% include figure.html path="assets/img/ConsistentHashing.png" %}
     Figure: Blue disks denote the machines and red boxes denote the items. Arrows also show the machine to which each item is assigned.
 </div>
 <br>

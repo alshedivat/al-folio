@@ -23,7 +23,7 @@ When a client sends a `put(K,V)` operation
 * replication factor can also be set per data centers
 
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/cassandra/server.png"></center>
+    <center>{% include figure.html path="assets/img/cassandra/server.png" %}</center>
 </div>
 
 
@@ -37,7 +37,7 @@ When a client sends a `put(K,V)` operation
 * Memtables are periodically flushed to the file system in the form of `SSTables`
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/bigTable/BigTableWrite.png">
+    {% include figure.html path="assets/img/bigTable/BigTableWrite.png" %}
 </div>
 
 ---
@@ -53,20 +53,20 @@ When a client sends a `put(K,V)` operation
 
 <br/>
 <div>
-    <img src="{{ site.baseurl }}/assets/img/cassandra/table.png">
+    {% include figure.html path="assets/img/cassandra/table.png" %}
 </div>
 <br/>
 
 
 <br/>
 <div>
-    <img src="{{ site.baseurl }}/assets/img/cassandra/hashed_pk.png">
+    {% include figure.html path="assets/img/cassandra/hashed_pk.png" %}
 </div>
 <br/>
 
 <br/>
 <div>
-    <img src="{{ site.baseurl }}/assets/img/cassandra/token_ring.png">
+    {% include figure.html path="assets/img/cassandra/token_ring.png" %}
 </div>
 <br/>
 
@@ -82,7 +82,7 @@ When a client sends a `put(K,V)` operation
 
 <br/>
 <div>
-    <img src="{{ site.baseurl }}/assets/img/cassandra/read.png">
+    {% include figure.html path="assets/img/cassandra/read.png" %}
 </div>
 <br/>
 

@@ -240,21 +240,21 @@ scholar:
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
-# imagemagick:
-#   enabled: true
-#   widths:
-#     - 480
-#     - 800
-#     - 1400
-#   input_directories:
-#     - assets/img
-#   input_formats:
-#     - ".jpg"
-#     - ".jpeg"
-#     - ".png"
-#     - ".tiff"
-#   output_formats:
-#     webp: "-quality 75%"
+imagemagick:
+  enabled: true
+  widths:
+    - 480
+    - 800
+    - 1400
+  input_directories:
+    - assets/img
+  input_formats:
+    - ".jpg"
+    - ".jpeg"
+    - ".png"
+    - ".tiff"
+  output_formats:
+    webp: "-quality 75%"
 
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams

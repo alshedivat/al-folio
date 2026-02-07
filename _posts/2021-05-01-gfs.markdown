@@ -84,13 +84,13 @@ GFS has a
 <br/>
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/gfs/GfsFile.png">
+    {% include figure.html path="assets/img/gfs/GfsFile.png" %}
 </div>
 
 <br/>
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/gfs/GFS.png">
+    {% include figure.html path="assets/img/gfs/GFS.png" %}
 </div>
 
 
@@ -113,7 +113,7 @@ GFS has a
 ### Write
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/gfs/gfsWrite.png">
+    {% include figure.html path="assets/img/gfs/gfsWrite.png" %}
 </div>
 
 

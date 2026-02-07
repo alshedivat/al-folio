@@ -18,7 +18,7 @@ Each node that stores a copy is called a `replica`. With multiple replicas, the 
 
 **Asynchronous vs Synchronous Replication**
 <div>
-    <img src="{{ site.baseurl }}/assets/img/replication/synch.png">
+    {% include figure.html path="assets/img/replication/synch.png" %}
 </div>
 
 
@@ -82,7 +82,7 @@ Two techniques used for read repair in Dynamo styled DBs
 A Merkel tree is a tree in which a leaf is a `cryptographic hash` of a data block, and every non-leaf node is labeled with the cryptographic hash of the labels of its child.
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/replication/merkel_tree.png">
+    {% include figure.html path="assets/img/replication/merkel_tree.png" %}
 </div>
 
 
@@ -147,7 +147,7 @@ For every read request, read-repair is performed. It can be done across data cen
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/replication/raft.png">
+    {% include figure.html path="assets/img/replication/raft.png" %}
 </div>
 
 

@@ -52,7 +52,7 @@ We assume that our storage is only `70%` consumed
 <br/>
 
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/webcrawler/architecture.png"></center>
+    <center>{% include figure.html path="assets/img/webcrawler/architecture.png" %}</center>
 </div>
 
 ---
@@ -114,7 +114,7 @@ Spam webpages change their contents frequently that is why we also need to check
 
 
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/webcrawler/frontier.png"></center>
+    <center>{% include figure.html path="assets/img/webcrawler/frontier.png" %}</center>
 </div>
 
 <br/>

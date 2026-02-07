@@ -30,7 +30,7 @@ User
 ### Architecture
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/booking/architecture.png"></center>
+    <center>{% include figure.html path="assets/img/booking/architecture.png" %}</center>
 </div>
 <br/>
 
@@ -39,7 +39,7 @@ User
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/booking/hotel.png"></center>
+    <center>{% include figure.html path="assets/img/booking/hotel.png" %}</center>
 </div>
 <br/>
 
@@ -65,7 +65,7 @@ The updates by the hotel service are sent to the Kafka queue. For example, if a 
 ### Customer
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/booking/customer.png"></center>
+    <center>{% include figure.html path="assets/img/booking/customer.png" %}</center>
 </div>
 <br/>
 
@@ -112,7 +112,7 @@ The updates by the hotel service are sent to the Kafka queue. For example, if a 
 #### 1. Hotel DB
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/booking/db_schema.png"></center>
+    <center>{% include figure.html path="assets/img/booking/db_schema.png" %}</center>
 </div>
 <br/>
 
@@ -178,7 +178,7 @@ class Movie {
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/booking/ticket.png"></center>
+    <center>{% include figure.html path="assets/img/booking/ticket.png" %}</center>
 </div>
 <br/>
 
@@ -186,6 +186,6 @@ class Movie {
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/booking/MovieTicketDB.png"></center>
+    <center>{% include figure.html path="assets/img/booking/MovieTicketDB.png" %}</center>
 </div>
 <br/>

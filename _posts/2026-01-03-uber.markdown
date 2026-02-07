@@ -308,7 +308,7 @@ This architecture supports massive scale with strong fault isolation.
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/uber/uber_architecture.png" width="100%">
+    {% include figure.html path="assets/img/uber/uber_architecture.png" width="100%" %}
 </div>
 
 ---
@@ -486,7 +486,7 @@ Rider → API Gateway → Trip Service → Ride Matching Service
 ```
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/uber/rider_request_ride.png" width="100%">
+    {% include figure.html path="assets/img/uber/rider_request_ride.png" width="100%" %}
 </div>
 
 ---
@@ -539,7 +539,7 @@ Driver → API Gateway → Trip Service → Kafka → Push Gateway → Rider App
 
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/uber/driver_accept_ride.png" width="100%">
+    {% include figure.html path="assets/img/uber/driver_accept_ride.png" width="100%" %}
 </div>
 ---
 
@@ -557,7 +557,7 @@ Driver → Gateway → Location Service → Kafka → Redis
 ```
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/uber/driver_location_update.png" width="100%">
+    {% include figure.html path="assets/img/uber/driver_location_update.png" width="100%" %}
 </div>
 
 ---
@@ -579,7 +579,7 @@ Driver → Gateway → Location Service → Kafka → Redis
 ```
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/uber/real_time_location_push.png" width="100%">
+    {% include figure.html path="assets/img/uber/real_time_location_push.png" width="100%" %}
 </div>
 
 ---

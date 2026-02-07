@@ -38,7 +38,7 @@ ZK stores data in file format called znodes. They are heirarchal namespaces (lik
 2. **Sequence**: append a monotonically increasing counter
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/zk/zk_datamodel.png">
+    {% include figure.html path="assets/img/zk/zk_datamodel.png" %}
 </div>
 
 
@@ -124,7 +124,7 @@ Unlock()
 ## configuration
 
 <div>
-    <img src="{{ site.baseurl }}/assets/img/zk/zk_config.png">
+    {% include figure.html path="assets/img/zk/zk_config.png" %}
 </div>
 
 <br/>

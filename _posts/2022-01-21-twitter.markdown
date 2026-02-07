@@ -36,7 +36,7 @@ categories: ['System Design']
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/twitter/onboarding.png"></center>
+    <center>{% include figure.html path="assets/img/twitter/onboarding.png" %}</center>
 </div>
 <br/>
 
@@ -53,7 +53,7 @@ categories: ['System Design']
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/twitter/followers.png"></center>
+    <center>{% include figure.html path="assets/img/twitter/followers.png" %}</center>
 </div>
 <br/>
 
@@ -71,7 +71,7 @@ categories: ['System Design']
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/twitter/liveUsers.png"></center>
+    <center>{% include figure.html path="assets/img/twitter/liveUsers.png" %}</center>
 </div>
 <br/>
 
@@ -87,7 +87,7 @@ categories: ['System Design']
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/twitter/tweet_service.png"></center>
+    <center>{% include figure.html path="assets/img/twitter/tweet_service.png" %}</center>
 </div>
 <br/>
 
@@ -139,6 +139,6 @@ categories: ['System Design']
 
 <br/>
 <div>
-    <center><img src="{{ site.baseurl }}/assets/img/twitter/active_users_read.png"></center>
+    <center>{% include figure.html path="assets/img/twitter/active_users_read.png" %}</center>
 </div>
 <br/>
