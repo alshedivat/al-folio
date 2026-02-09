@@ -1,0 +1,1227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore samples from popular instruction-following and preference datasets"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link
+      rel="canonical"
+      href="https://yoonholee.com/web-apps/instruction-datasets/"
+    />
+    <meta property="og:title" content="Instruction Dataset Visualizer" />
+    <meta
+      property="og:description"
+      content="Explore samples from Arena-Hard, WildBench, UltraFeedback, HelpSteer2, and more"
+    />
+    <meta property="og:type" content="website" />
+    <title>Instruction Dataset Visualizer</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/marked@17.0.1/marked.min.js"
+      integrity="sha384-tkjnnf9Tzhv5ZFrDroGvUExw9C3EVFo0RFRkzKR8ZX4b5Psoec4yb1PlD8Jh4j4H"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/dompurify@3.3.1/dist/purify.min.js"
+      integrity="sha384-80VlBZnyAwkkqtSfg5NhPyZff6nU4K/qniLBL8Jnm4KDv6jZhLiYtJbhglg/i9ww"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      :root {
+        color-scheme: light;
+
+        /* Core palette - OKLCH */
+        --bg-primary: oklch(100% 0 0);
+        --bg-secondary: oklch(98% 0.002 250);
+        --bg-elevated: oklch(96% 0.003 250);
+        --border-subtle: oklch(0% 0 0 / 8%);
+        --border-hover: oklch(0% 0 0 / 15%);
+        --text-primary: oklch(20% 0.02 260);
+        --text-secondary: oklch(55% 0.02 260);
+        --text-tertiary: oklch(70% 0.015 260);
+        --accent: oklch(55% 0.25 270);
+        --accent-light: color-mix(in oklch, var(--accent) 12%, white);
+        --color-green: oklch(72% 0.19 145);
+        --color-green-bg: color-mix(in oklch, var(--color-green) 15%, white);
+        --color-green-text: color-mix(in oklch, var(--color-green) 70%, black);
+        --color-red: oklch(72% 0.22 27);
+        --color-red-bg: color-mix(in oklch, var(--color-red) 15%, white);
+        --color-red-text: color-mix(in oklch, var(--color-red) 70%, black);
+      }
+
+      /* Fallback for browsers without modern CSS support */
+      @supports not (color: oklch(50% 0.1 0)) {
+        :root {
+          --bg-primary: #ffffff;
+          --bg-secondary: #f9fafb;
+          --bg-elevated: #f3f4f6;
+          --border-subtle: rgba(0, 0, 0, 0.08);
+          --border-hover: rgba(0, 0, 0, 0.15);
+          --text-primary: #111827;
+          --text-secondary: #6b7280;
+          --text-tertiary: #9ca3af;
+          --accent: #6366f1;
+          --accent-light: rgba(99, 102, 241, 0.1);
+          --color-green: #22c55e;
+          --color-green-bg: #dcfce7;
+          --color-green-text: #166534;
+          --color-red: #dc2626;
+          --color-red-bg: #fee2e2;
+          --color-red-text: #991b1b;
+        }
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+      }
+
+      @supports (font-variation-settings: normal) {
+        html {
+          font-family:
+            "Inter var",
+            -apple-system,
+            BlinkMacSystemFont,
+            sans-serif;
+        }
+      }
+
+      body {
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+      }
+
+      header {
+        margin-bottom: 2rem;
+      }
+
+      h1 {
+        font-size: 1.75rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        margin-bottom: 0.5rem;
+      }
+
+      .subtitle {
+        color: var(--text-secondary);
+        font-size: 0.9375rem;
+      }
+
+      /* Dataset tabs */
+      .dataset-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+        border-bottom: 1px solid var(--border-subtle);
+        padding-bottom: 1rem;
+      }
+
+      .dataset-tab {
+        font-family: inherit;
+        font-size: 0.8125rem;
+        font-weight: 500;
+        padding: 0.5rem 0.875rem;
+        background: var(--bg-secondary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: all 0.15s ease;
+      }
+
+      .dataset-tab:hover {
+        background: var(--bg-elevated);
+        border-color: var(--border-hover);
+        color: var(--text-primary);
+      }
+
+      .dataset-tab.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: white;
+      }
+
+      /* Dataset info */
+      .dataset-info {
+        background: var(--bg-secondary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 10px;
+        padding: 1rem 1.25rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .dataset-info h2 {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+      }
+
+      .dataset-info p {
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+        margin-bottom: 0.5rem;
+      }
+
+      .dataset-info .hf-link {
+        font-size: 0.75rem;
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .dataset-info .hf-link:hover {
+        text-decoration: underline;
+      }
+
+      /* Controls */
+      .controls {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+      }
+
+      .sample-counter {
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+        font-variant-numeric: tabular-nums;
+      }
+
+      .nav-buttons {
+        display: flex;
+        gap: 0.5rem;
+      }
+
+      .nav-btn {
+        font-family: inherit;
+        font-size: 0.8125rem;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
+        background: var(--bg-secondary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: all 0.15s ease;
+      }
+
+      .nav-btn:hover:not(:disabled) {
+        background: var(--bg-elevated);
+        border-color: var(--border-hover);
+        color: var(--text-primary);
+      }
+
+      .nav-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .nav-btn.random {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: white;
+      }
+
+      .nav-btn.random:hover {
+        background: #4f46e5;
+      }
+
+      /* Sample display */
+      .sample-card {
+        background: var(--bg-primary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 12px;
+        overflow: hidden;
+      }
+
+      .sample-header {
+        background: var(--bg-secondary);
+        padding: 0.75rem 1rem;
+        border-bottom: 1px solid var(--border-subtle);
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+      }
+
+      .tag {
+        font-size: 0.6875rem;
+        font-weight: 500;
+        padding: 0.25rem 0.5rem;
+        background: var(--bg-elevated);
+        border-radius: 4px;
+        color: var(--text-secondary);
+      }
+
+      .tag.category {
+        background: var(--accent-light);
+        color: var(--accent);
+      }
+
+      .sample-content {
+        padding: 1.25rem;
+      }
+
+      .field-group {
+        margin-bottom: 1.5rem;
+      }
+
+      .field-group:last-child {
+        margin-bottom: 0;
+      }
+
+      .field-label {
+        font-size: 0.6875rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-tertiary);
+        margin-bottom: 0.5rem;
+      }
+
+      .field-content {
+        font-size: 0.9375rem;
+        line-height: 1.6;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+
+      .field-content.prompt {
+        background: var(--bg-secondary);
+        padding: 1rem;
+        border-radius: 8px;
+        border: 1px solid var(--border-subtle);
+      }
+
+      /* Preference comparison layout */
+      .preference-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+
+      .response-card {
+        background: var(--bg-secondary);
+        border-radius: 8px;
+        border: 1px solid var(--border-subtle);
+        overflow: hidden;
+      }
+
+      .response-header {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .response-card.chosen .response-header {
+        background: var(--color-green-bg);
+        color: var(--color-green-text);
+      }
+
+      .response-card.rejected .response-header {
+        background: var(--color-red-bg);
+        color: var(--color-red-text);
+      }
+
+      .response-body {
+        padding: 0.75rem;
+        font-size: 0.875rem;
+        line-height: 1.5;
+        white-space: pre-wrap;
+        word-break: break-word;
+        max-height: 400px;
+        overflow-y: auto;
+      }
+
+      /* Conversation display */
+      .conversation {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      .message {
+        padding: 0.75rem 1rem;
+        border-radius: 8px;
+        font-size: 0.875rem;
+        line-height: 1.5;
+      }
+
+      .message.human {
+        background: var(--accent-light);
+        margin-right: 2rem;
+      }
+
+      .message.assistant {
+        background: var(--bg-secondary);
+        margin-left: 2rem;
+      }
+
+      .message-role {
+        font-size: 0.6875rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-tertiary);
+        margin-bottom: 0.25rem;
+      }
+
+      /* Instructions list */
+      .instructions-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.375rem;
+      }
+
+      .instruction-tag {
+        font-size: 0.75rem;
+        font-family: "SF Mono", "Monaco", monospace;
+        padding: 0.25rem 0.5rem;
+        background: var(--bg-elevated);
+        border-radius: 4px;
+        color: var(--text-secondary);
+      }
+
+      /* Safety indicators */
+      .safety-indicator {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.75rem;
+        font-weight: 500;
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+      }
+
+      /* Model selector tabs */
+      .model-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.375rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .model-tab {
+        font-family: inherit;
+        font-size: 0.75rem;
+        font-weight: 500;
+        padding: 0.375rem 0.625rem;
+        background: var(--bg-elevated);
+        border: 1px solid var(--border-subtle);
+        border-radius: 6px;
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: all 0.15s ease;
+      }
+
+      .model-tab:hover {
+        background: var(--bg-secondary);
+        border-color: var(--border-hover);
+        color: var(--text-primary);
+      }
+
+      .model-tab.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: white;
+      }
+
+      .model-response {
+        display: none;
+      }
+
+      .model-response.active {
+        display: block;
+      }
+
+      /* Markdown content styling */
+      .markdown-content {
+        font-size: 0.9375rem;
+        line-height: 1.7;
+      }
+
+      .markdown-content h1,
+      .markdown-content h2,
+      .markdown-content h3,
+      .markdown-content h4 {
+        margin-top: 1.25rem;
+        margin-bottom: 0.5rem;
+        font-weight: 600;
+        line-height: 1.3;
+      }
+
+      .markdown-content h1 {
+        font-size: 1.25rem;
+      }
+      .markdown-content h2 {
+        font-size: 1.125rem;
+      }
+      .markdown-content h3 {
+        font-size: 1rem;
+      }
+
+      .markdown-content p {
+        margin-bottom: 0.75rem;
+      }
+
+      .markdown-content ul,
+      .markdown-content ol {
+        margin-bottom: 0.75rem;
+        padding-left: 1.5rem;
+      }
+
+      .markdown-content li {
+        margin-bottom: 0.25rem;
+      }
+
+      .markdown-content code {
+        font-family: "SF Mono", "Monaco", "Consolas", monospace;
+        font-size: 0.85em;
+        background: var(--bg-elevated);
+        padding: 0.125rem 0.375rem;
+        border-radius: 4px;
+      }
+
+      .markdown-content pre {
+        background: var(--bg-elevated);
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
+        padding: 0.875rem;
+        margin-bottom: 0.75rem;
+        overflow-x: auto;
+      }
+
+      .markdown-content pre code {
+        background: none;
+        padding: 0;
+        font-size: 0.8125rem;
+        line-height: 1.5;
+      }
+
+      .markdown-content blockquote {
+        border-left: 3px solid var(--border-hover);
+        padding-left: 1rem;
+        margin-bottom: 0.75rem;
+        color: var(--text-secondary);
+      }
+
+      .markdown-content strong {
+        font-weight: 600;
+      }
+
+      .markdown-content a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      .markdown-content a:hover {
+        text-decoration: underline;
+      }
+
+      .markdown-content table {
+        border-collapse: collapse;
+        margin-bottom: 0.75rem;
+        width: 100%;
+      }
+
+      .markdown-content th,
+      .markdown-content td {
+        border: 1px solid var(--border-subtle);
+        padding: 0.5rem 0.75rem;
+        text-align: left;
+      }
+
+      .markdown-content th {
+        background: var(--bg-elevated);
+        font-weight: 600;
+      }
+
+      .safety-indicator.safe {
+        background: var(--color-green-bg);
+        color: var(--color-green-text);
+      }
+
+      .safety-indicator.unsafe {
+        background: var(--color-red-bg);
+        color: var(--color-red-text);
+      }
+
+      /* Checklist */
+      .checklist {
+        list-style: none;
+        font-size: 0.875rem;
+      }
+
+      .checklist li {
+        padding: 0.375rem 0;
+        padding-left: 1.25rem;
+        position: relative;
+      }
+
+      .checklist li::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: var(--text-tertiary);
+      }
+
+      /* Responsive */
+      @media (max-width: 768px) {
+        .container {
+          padding: 1.5rem 1rem;
+        }
+
+        .preference-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Instruction Dataset Visualizer</h1>
+        <p class="subtitle">
+          Explore samples from popular instruction-following and preference
+          datasets
+        </p>
+      </header>
+
+      <div class="dataset-tabs" id="datasetTabs"></div>
+
+      <div class="dataset-info" id="datasetInfo">
+        <h2 id="datasetName">Loading...</h2>
+        <p id="datasetDesc"></p>
+        <a
+          class="hf-link"
+          id="hfLink"
+          href="#"
+          target="_blank"
+          rel="noopener"
+        ></a>
+      </div>
+
+      <div class="controls">
+        <span class="sample-counter">
+          Sample <span id="currentIndex">1</span> of
+          <span id="totalSamples">50</span>
+        </span>
+        <div class="nav-buttons">
+          <button class="nav-btn" id="prevBtn">Previous</button>
+          <button class="nav-btn random" id="randomBtn">Random</button>
+          <button class="nav-btn" id="nextBtn">Next</button>
+        </div>
+      </div>
+
+      <div class="sample-card" id="sampleCard"></div>
+    </div>
+
+    <script src="data.js"></script>
+    <script>
+      // State
+      let currentDataset = null;
+      let currentIndex = 0;
+
+      // Elements
+      const datasetTabs = document.getElementById("datasetTabs");
+      const datasetName = document.getElementById("datasetName");
+      const datasetDesc = document.getElementById("datasetDesc");
+      const hfLink = document.getElementById("hfLink");
+      const currentIndexEl = document.getElementById("currentIndex");
+      const totalSamplesEl = document.getElementById("totalSamples");
+      const prevBtn = document.getElementById("prevBtn");
+      const randomBtn = document.getElementById("randomBtn");
+      const nextBtn = document.getElementById("nextBtn");
+      const sampleCard = document.getElementById("sampleCard");
+
+      // Initialize
+      function init() {
+        // Create tabs
+        DATASET_DATA.datasets.forEach((ds, i) => {
+          const tab = document.createElement("button");
+          tab.className = "dataset-tab" + (i === 0 ? " active" : "");
+          tab.textContent = ds.name;
+          tab.dataset.id = ds.id;
+          tab.addEventListener("click", () => selectDataset(ds.id));
+          datasetTabs.appendChild(tab);
+        });
+
+        // Button listeners
+        prevBtn.addEventListener("click", () => navigate(-1));
+        nextBtn.addEventListener("click", () => navigate(1));
+        randomBtn.addEventListener("click", randomSample);
+
+        // Keyboard navigation
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "ArrowLeft") navigate(-1);
+          if (e.key === "ArrowRight") navigate(1);
+          if (e.key === "r" || e.key === "R") randomSample();
+        });
+
+        // Select first dataset
+        selectDataset(DATASET_DATA.datasets[0].id);
+      }
+
+      function selectDataset(datasetId) {
+        currentDataset = datasetId;
+        currentIndex = 0;
+
+        // Update tabs
+        document.querySelectorAll(".dataset-tab").forEach((tab) => {
+          tab.classList.toggle("active", tab.dataset.id === datasetId);
+        });
+
+        // Update info
+        const ds = DATASET_DATA.datasets.find((d) => d.id === datasetId);
+        datasetName.textContent = ds.name;
+        datasetDesc.textContent = ds.description;
+        hfLink.href = `https://huggingface.co/datasets/${ds.hf_path}`;
+        hfLink.textContent = ds.hf_path;
+
+        // Update counter
+        const samples = DATASET_DATA.samples[datasetId];
+        totalSamplesEl.textContent = samples.length;
+
+        renderSample();
+      }
+
+      function navigate(delta) {
+        const samples = DATASET_DATA.samples[currentDataset];
+        currentIndex = Math.max(
+          0,
+          Math.min(samples.length - 1, currentIndex + delta),
+        );
+        renderSample();
+      }
+
+      function randomSample() {
+        const samples = DATASET_DATA.samples[currentDataset];
+        currentIndex = Math.floor(Math.random() * samples.length);
+        renderSample();
+      }
+
+      function renderSample() {
+        const samples = DATASET_DATA.samples[currentDataset];
+        const sample = samples[currentIndex];
+
+        currentIndexEl.textContent = currentIndex + 1;
+        prevBtn.disabled = currentIndex === 0;
+        nextBtn.disabled = currentIndex === samples.length - 1;
+
+        // Render based on dataset type
+        if (currentDataset === "arena-hard") {
+          renderArenaHard(sample);
+        } else if (currentDataset === "wildbench") {
+          renderWildBench(sample);
+        } else if (currentDataset === "ultrafeedback") {
+          renderUltraFeedback(sample);
+        } else if (currentDataset === "hh-rlhf") {
+          renderHHRLHF(sample);
+        } else if (currentDataset === "shp") {
+          renderSHP(sample);
+        } else if (currentDataset === "pku-saferlhf") {
+          renderPKUSafeRLHF(sample);
+        } else if (currentDataset === "helpsteer2") {
+          renderHelpSteer2(sample);
+        }
+      }
+
+      function escapeHtml(str) {
+        if (typeof str !== "string") return String(str);
+        return str
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      function truncate(str, maxLen = 2000) {
+        if (!str || str.length <= maxLen) return str;
+        return str.slice(0, maxLen) + "...";
+      }
+
+      // Renderers for each dataset type
+      function renderHelpSteer2(sample) {
+        const ratings = [
+          { label: "Helpfulness", value: sample.helpfulness, max: 4 },
+          { label: "Correctness", value: sample.correctness, max: 4 },
+          { label: "Coherence", value: sample.coherence, max: 4 },
+          { label: "Complexity", value: sample.complexity, max: 4 },
+          { label: "Verbosity", value: sample.verbosity, max: 4 },
+        ];
+        sampleCard.innerHTML = `
+                <div class="sample-header">
+                    ${ratings
+                      .map(
+                        (r) =>
+                          `<span class="tag">${r.label}: ${r.value}/${r.max}</span>`,
+                      )
+                      .join("")}
+                </div>
+                <div class="sample-content">
+                    <div class="field-group">
+                        <div class="field-label">Prompt</div>
+                        <div class="field-content prompt">${escapeHtml(
+                          truncate(sample.prompt),
+                        )}</div>
+                    </div>
+                    <div class="field-group">
+                        <div class="field-label">Response</div>
+                        <div class="field-content prompt">${escapeHtml(
+                          truncate(sample.response),
+                        )}</div>
+                    </div>
+                </div>
+            `;
+      }
+
+      function renderModelResponses(modelResponses) {
+        if (!modelResponses || Object.keys(modelResponses).length === 0) {
+          return "";
+        }
+        const models = DATASET_DATA.models || Object.keys(modelResponses);
+        const tabId = "model-" + Math.random().toString(36).substr(2, 9);
+        return `
+          <div class="field-group">
+            <div class="field-label">Model Responses</div>
+            <div class="model-tabs" data-tab-group="${tabId}">
+              ${models
+                .map(
+                  (model, i) =>
+                    `<button class="model-tab${
+                      i === 0 ? " active" : ""
+                    }" data-model="${escapeHtml(model)}">${escapeHtml(
+                      model,
+                    )}</button>`,
+                )
+                .join("")}
+            </div>
+            <div class="model-responses-container">
+              ${models
+                .map(
+                  (model, i) =>
+                    `<div class="model-response${
+                      i === 0 ? " active" : ""
+                    }" data-model="${escapeHtml(model)}">
+                      <div class="field-content prompt markdown-content">${DOMPurify.sanitize(
+                        marked.parse(
+                          truncate(
+                            modelResponses[model] || "[No response]",
+                            8000,
+                          ),
+                        )
+                      )}</div>
+                    </div>`,
+                )
+                .join("")}
+            </div>
+          </div>
+        `;
+      }
+
+      function initModelTabs() {
+        document.querySelectorAll(".model-tabs").forEach((tabContainer) => {
+          tabContainer.querySelectorAll(".model-tab").forEach((tab) => {
+            tab.addEventListener("click", () => {
+              const model = tab.dataset.model;
+              const container = tab.closest(".field-group");
+              container
+                .querySelectorAll(".model-tab")
+                .forEach((t) => t.classList.remove("active"));
+              container
+                .querySelectorAll(".model-response")
+                .forEach((r) => r.classList.remove("active"));
+              tab.classList.add("active");
+              container
+                .querySelector(`.model-response[data-model="${model}"]`)
+                .classList.add("active");
+            });
+          });
+        });
+      }
+
+      function renderArenaHard(sample) {
+        const turns = sample.prompt || [];
+        const firstTurn = turns[0]?.content || "";
+        sampleCard.innerHTML = `
+                <div class="sample-header">
+                    ${
+                      sample.category
+                        ? `<span class="tag category">${escapeHtml(
+                            sample.category,
+                          )}</span>`
+                        : ""
+                    }
+                    ${
+                      sample.cluster
+                        ? `<span class="tag">${escapeHtml(
+                            sample.cluster,
+                          )}</span>`
+                        : ""
+                    }
+                </div>
+                <div class="sample-content">
+                    <div class="field-group">
+                        <div class="field-label">Prompt</div>
+                        <div class="field-content prompt">${escapeHtml(
+                          firstTurn,
+                        )}</div>
+                    </div>
+                    ${renderModelResponses(sample.model_responses)}
+                </div>
+            `;
+        initModelTabs();
+      }
+
+      function renderWildBench(sample) {
+        const conversation = sample.prompt || [];
+        sampleCard.innerHTML = `
+                <div class="sample-header">
+                    ${
+                      sample.category
+                        ? `<span class="tag category">${escapeHtml(
+                            sample.category,
+                          )}</span>`
+                        : ""
+                    }
+                    ${
+                      sample.id
+                        ? `<span class="tag">#${escapeHtml(sample.id)}</span>`
+                        : ""
+                    }
+                </div>
+                <div class="sample-content">
+                    <div class="field-group">
+                        <div class="field-label">Conversation</div>
+                        <div class="conversation">
+                            ${conversation
+                              .map(
+                                (msg) => `
+                                <div class="message ${
+                                  msg.role === "user" ? "human" : "assistant"
+                                }">
+                                    <div class="message-role">${escapeHtml(
+                                      msg.role,
+                                    )}</div>
+                                    ${escapeHtml(truncate(msg.content))}
+                                </div>
+                            `,
+                              )
+                              .join("")}
+                        </div>
+                    </div>
+                    ${renderModelResponses(sample.model_responses)}
+                    ${
+                      sample.checklist && sample.checklist.length
+                        ? `
+                    <div class="field-group">
+                        <div class="field-label">Evaluation Checklist</div>
+                        <ul class="checklist">
+                            ${sample.checklist
+                              .map((item) => `<li>${escapeHtml(item)}</li>`)
+                              .join("")}
+                        </ul>
+                    </div>
+                    `
+                        : ""
+                    }
+                </div>
+            `;
+        initModelTabs();
+      }
+
+      function renderUltraFeedback(sample) {
+        const chosenContent =
+          sample.chosen?.[1]?.content || sample.chosen || "";
+        const rejectedContent =
+          sample.rejected?.[1]?.content || sample.rejected || "";
+        sampleCard.innerHTML = `
+                <div class="sample-header">
+                    ${
+                      sample.source
+                        ? `<span class="tag category">${escapeHtml(
+                            sample.source,
+                          )}</span>`
+                        : ""
+                    }
+                    ${
+                      sample.chosen_rating
+                        ? `<span class="tag">Chosen: ${sample.chosen_rating}</span>`
+                        : ""
+                    }
+                    ${
+                      sample.rejected_rating
+                        ? `<span class="tag">Rejected: ${sample.rejected_rating}</span>`
+                        : ""
+                    }
+                </div>
+                <div class="sample-content">
+                    <div class="field-group">
+                        <div class="field-label">Prompt</div>
+                        <div class="field-content prompt">${escapeHtml(
+                          truncate(sample.prompt),
+                        )}</div>
+                    </div>
+                    <div class="field-group">
+                        <div class="field-label">Responses</div>
+                        <div class="preference-grid">
+                            <div class="response-card chosen">
+                                <div class="response-header">Chosen</div>
+                                <div class="response-body">${escapeHtml(
+                                  truncate(chosenContent),
+                                )}</div>
+                            </div>
+                            <div class="response-card rejected">
+                                <div class="response-header">Rejected</div>
+                                <div class="response-body">${escapeHtml(
+                                  truncate(rejectedContent),
+                                )}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+      }
+
+      function parseHHRLHFConversation(text) {
+        if (!text) return [];
+        const parts = text.split(/\n\n(Human|Assistant): /);
+        const messages = [];
+        for (let i = 1; i < parts.length; i += 2) {
+          if (parts[i] && parts[i + 1]) {
+            messages.push({
+              role: parts[i].toLowerCase(),
+              content: parts[i + 1],
+            });
+          }
+        }
+        return messages;
+      }
+
+      function renderHHRLHF(sample) {
+        const chosenMsgs = parseHHRLHFConversation(sample.chosen);
+        const rejectedMsgs = parseHHRLHFConversation(sample.rejected);
+
+        // Find where they diverge
+        let divergeIdx = 0;
+        for (
+          let i = 0;
+          i < Math.min(chosenMsgs.length, rejectedMsgs.length);
+          i++
+        ) {
+          if (chosenMsgs[i].content !== rejectedMsgs[i].content) {
+            divergeIdx = i;
+            break;
+          }
+          divergeIdx = i + 1;
+        }
+
+        const commonMsgs = chosenMsgs.slice(0, divergeIdx);
+        const chosenDiff = chosenMsgs.slice(divergeIdx);
+        const rejectedDiff = rejectedMsgs.slice(divergeIdx);
+
+        sampleCard.innerHTML = `
+                <div class="sample-content">
+                    ${
+                      commonMsgs.length > 0
+                        ? `
+                    <div class="field-group">
+                        <div class="field-label">Conversation</div>
+                        <div class="conversation">
+                            ${commonMsgs
+                              .map(
+                                (msg) => `
+                                <div class="message ${msg.role}">
+                                    <div class="message-role">${escapeHtml(
+                                      msg.role,
+                                    )}</div>
+                                    ${escapeHtml(truncate(msg.content, 1000))}
+                                </div>
+                            `,
+                              )
+                              .join("")}
+                        </div>
+                    </div>
+                    `
+                        : ""
+                    }
+                    <div class="field-group">
+                        <div class="field-label">Divergent Responses</div>
+                        <div class="preference-grid">
+                            <div class="response-card chosen">
+                                <div class="response-header">Chosen</div>
+                                <div class="response-body">${chosenDiff
+                                  .map((m) =>
+                                    escapeHtml(truncate(m.content, 800)),
+                                  )
+                                  .join("\n\n")}</div>
+                            </div>
+                            <div class="response-card rejected">
+                                <div class="response-header">Rejected</div>
+                                <div class="response-body">${rejectedDiff
+                                  .map((m) =>
+                                    escapeHtml(truncate(m.content, 800)),
+                                  )
+                                  .join("\n\n")}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+      }
+
+      function renderSHP(sample) {
+        sampleCard.innerHTML = `
+                <div class="sample-header">
+                    ${
+                      sample.subreddit
+                        ? `<span class="tag category">r/${escapeHtml(
+                            sample.subreddit,
+                          )}</span>`
+                        : ""
+                    }
+                    ${
+                      sample.score_chosen
+                        ? `<span class="tag">Chosen score: ${sample.score_chosen}</span>`
+                        : ""
+                    }
+                    ${
+                      sample.score_rejected
+                        ? `<span class="tag">Rejected score: ${sample.score_rejected}</span>`
+                        : ""
+                    }
+                </div>
+                <div class="sample-content">
+                    <div class="field-group">
+                        <div class="field-label">Question</div>
+                        <div class="field-content prompt">${escapeHtml(
+                          truncate(sample.prompt),
+                        )}</div>
+                    </div>
+                    <div class="field-group">
+                        <div class="field-label">Responses (both human-written)</div>
+                        <div class="preference-grid">
+                            <div class="response-card chosen">
+                                <div class="response-header">Preferred (more upvotes)</div>
+                                <div class="response-body">${escapeHtml(
+                                  truncate(sample.chosen),
+                                )}</div>
+                            </div>
+                            <div class="response-card rejected">
+                                <div class="response-header">Less preferred</div>
+                                <div class="response-body">${escapeHtml(
+                                  truncate(sample.rejected),
+                                )}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+      }
+
+      function renderPKUSafeRLHF(sample) {
+        const r0Safe = sample.is_response_0_safe;
+        const r1Safe = sample.is_response_1_safe;
+        const better = sample.better_response_id;
+        const safer = sample.safer_response_id;
+
+        sampleCard.innerHTML = `
+                <div class="sample-header">
+                    <span class="safety-indicator ${
+                      r0Safe ? "safe" : "unsafe"
+                    }">
+                        Response 0: ${r0Safe ? "Safe" : "Unsafe"}
+                    </span>
+                    <span class="safety-indicator ${
+                      r1Safe ? "safe" : "unsafe"
+                    }">
+                        Response 1: ${r1Safe ? "Safe" : "Unsafe"}
+                    </span>
+                    ${
+                      better !== null
+                        ? `<span class="tag">More helpful: ${better}</span>`
+                        : ""
+                    }
+                    ${
+                      safer !== null
+                        ? `<span class="tag">Safer: ${safer}</span>`
+                        : ""
+                    }
+                </div>
+                <div class="sample-content">
+                    <div class="field-group">
+                        <div class="field-label">Prompt</div>
+                        <div class="field-content prompt">${escapeHtml(
+                          truncate(sample.prompt),
+                        )}</div>
+                    </div>
+                    <div class="field-group">
+                        <div class="field-label">Responses</div>
+                        <div class="preference-grid">
+                            <div class="response-card ${
+                              better === 0 ? "chosen" : "rejected"
+                            }">
+                                <div class="response-header">Response 0 ${
+                                  better === 0 ? "(More helpful)" : ""
+                                }</div>
+                                <div class="response-body">${escapeHtml(
+                                  truncate(sample.response_0),
+                                )}</div>
+                            </div>
+                            <div class="response-card ${
+                              better === 1 ? "chosen" : "rejected"
+                            }">
+                                <div class="response-header">Response 1 ${
+                                  better === 1 ? "(More helpful)" : ""
+                                }</div>
+                                <div class="response-body">${escapeHtml(
+                                  truncate(sample.response_1),
+                                )}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+      }
+
+      init();
+    </script>
+  </body>
+</html>

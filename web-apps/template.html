@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 2rem;
+        background: #f6f8fa;
+      }
+
+      h1 {
+        margin-bottom: 1.25rem;
+      }
+
+      /* layout -------------------------------------------------*/
+      .container {
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+      }
+
+      .viewer {
+        flex: 1 1 50%;
+        background: #fff;
+        border-radius: 8px;
+        padding: 1.25rem 1.5rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        max-height: 80vh;
+        overflow: auto;
+      }
+
+      /* grid (cards list) ------------------------------------*/
+      .cards {
+        display: grid;
+        gap: 2rem;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      }
+
+      @media (min-width: 1600px) {
+        /* 4+ columns on ultra-wide */
+        .cards {
+          grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        }
+      }
+
+      /* card ----------------------------------------------------*/
+      .card {
+        background: #fff;
+        border-radius: 8px;
+        padding: 1.25rem 1.5rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        transition: 0.2s ease all;
+      }
+
+      .card:hover {
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+      }
+
+      /* title ---------------------------------------------------*/
+      .card h2 {
+        margin: 0 0 0.5rem;
+        font-size: 1.1rem;
+        color: #111;
+        cursor: pointer;
+        transition: color 0.15s;
+      }
+
+      .card h2:hover {
+        color: #0066cc;
+      }
+
+      /* snippet preview ----------------------------------------*/
+      .card .snippet {
+        color: #444;
+        font-style: italic;
+        line-height: 1.45;
+        margin: 0 0 0.75rem;
+        white-space: normal;
+        /* reset */
+        display: -webkit-box;
+        /* line clamp */
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      /* full text block ----------------------------------------*/
+      .card pre {
+        display: none;
+        white-space: pre-wrap;
+        background: #f0f3f6;
+        padding: 1rem;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        line-height: 1.4;
+      }
+
+      .card.open pre {
+        display: block;
+      }
+
+      .card.open .snippet {
+        display: none;
+      }
+
+      /* copy button --------------------------------------------*/
+      #copy-btn {
+        padding: 0.5rem 1rem;
+        border: 1px solid #0066cc;
+        background: #0066cc;
+        color: #fff;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background 0.15s;
+      }
+
+      #copy-btn:hover {
+        background: #005bb5;
+      }
+
+      .card.selected {
+        background: #fffbe6;
+        border: 1px solid #ffca54;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Results for "{{QUERY}}"</h1>
+    <button id="copy-btn" type="button">Copy All</button>
+
+    <div class="container">
+      <div id="viewer" class="viewer">
+        <p>Select a note to view full content</p>
+      </div>
+      <div class="cards" id="cards">{{ITEMS}}</div>
+    </div>
+    <script id="data-json" type="application/json">
+      {{DATA}}
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/marked@17.0.1/marked.min.js"
+      integrity="sha384-tkjnnf9Tzhv5ZFrDroGvUExw9C3EVFo0RFRkzKR8ZX4b5Psoec4yb1PlD8Jh4j4H"
+      crossorigin="anonymous"
+    ></script>
+    <script src="{{SCRIPT_SRC}}"></script>
+  </body>
+</html>

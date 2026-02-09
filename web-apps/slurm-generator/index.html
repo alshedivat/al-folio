@@ -1,0 +1,1779 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta
+      name="description"
+      content="Generate sbatch scripts and Slurm commands with presets"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link
+      rel="canonical"
+      href="https://yoonholee.com/web-apps/slurm-generator/"
+    />
+    <meta property="og:title" content="Slurm Command Generator" />
+    <meta
+      property="og:description"
+      content="Generate sbatch scripts and Slurm commands with presets"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://yoonholee.com/web-apps/slurm-generator/"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Slurm Command Generator" />
+    <meta
+      name="twitter:description"
+      content="Generate sbatch scripts and Slurm commands with presets"
+    />
+    <title>Slurm Command Generator</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <style>
+      /* Reset and base styles */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      :root {
+        color-scheme: light;
+
+        /* Core palette - OKLCH */
+        --bg-primary: oklch(100% 0 0);
+        --bg-secondary: oklch(98% 0.002 250);
+        --bg-code: oklch(15% 0.01 260);
+        --text-primary: oklch(20% 0.02 260);
+        --text-secondary: oklch(55% 0.02 260);
+        --text-code: oklch(85% 0.01 260);
+        --border-color: oklch(0% 0 0 / 10%);
+        --accent-color: oklch(55% 0.25 270);
+        --accent-hover: color-mix(in oklch, var(--accent-color) 85%, black);
+        --success-color: oklch(72% 0.19 145);
+        --warning-color: oklch(72% 0.17 85);
+        --error-color: oklch(63% 0.24 27);
+        --shadow-sm: 0 1px 2px oklch(0% 0 0 / 5%);
+        --shadow-md: 0 4px 6px oklch(0% 0 0 / 10%);
+        --radius-sm: 4px;
+        --radius-md: 8px;
+      }
+
+      /* Fallback for browsers without modern CSS support */
+      @supports not (color: oklch(50% 0.1 0)) {
+        :root {
+          --bg-primary: #ffffff;
+          --bg-secondary: #f8f9fa;
+          --bg-code: #1e1e1e;
+          --text-primary: #212529;
+          --text-secondary: #6c757d;
+          --text-code: #d4d4d4;
+          --border-color: #dee2e6;
+          --accent-color: #0066cc;
+          --accent-hover: #0052a3;
+          --success-color: #28a745;
+          --warning-color: #ffc107;
+          --error-color: #dc3545;
+        }
+      }
+
+      /* View Transitions */
+      @view-transition {
+        navigation: auto;
+      }
+
+      ::view-transition-old(root),
+      ::view-transition-new(root) {
+        animation-duration: 0.2s;
+      }
+
+      html {
+        font-size: 16px;
+      }
+
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          "Helvetica Neue",
+          Arial,
+          sans-serif;
+        line-height: 1.6;
+        color: var(--text-primary);
+        background-color: var(--bg-secondary);
+        margin: 0;
+        padding: 0;
+      }
+
+      /* Container */
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      /* Header */
+      header {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--text-primary);
+      }
+
+      .subtitle {
+        margin: 8px 0 0;
+        color: var(--text-secondary);
+        font-size: 1rem;
+      }
+
+      /* Main layout */
+      .main-content {
+        display: grid;
+        grid-template-columns: 1fr 500px;
+        gap: 24px;
+        align-items: start;
+      }
+
+      @media (max-width: 1024px) {
+        .main-content {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* Panels */
+      .form-panel,
+      .output-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        min-width: 0;
+      }
+
+      .output-panel {
+        position: sticky;
+        top: 20px;
+        width: 500px;
+      }
+
+      @media (max-width: 1024px) {
+        .output-panel {
+          position: static;
+          width: 100%;
+        }
+      }
+
+      /* Sections */
+      .section {
+        background: var(--bg-primary);
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-md);
+        padding: 20px;
+        box-shadow: var(--shadow-sm);
+      }
+
+      .section-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 16px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .section-header h2 {
+        margin: 0;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--text-primary);
+      }
+
+      /* Collapsible sections */
+      .collapsible .section-header {
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .collapsible .section-header:hover {
+        background-color: var(--bg-secondary);
+        margin: -20px -20px 16px -20px;
+        padding: 20px 20px 12px 20px;
+        border-radius: var(--radius-md) var(--radius-md) 0 0;
+      }
+
+      .collapse-icon {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: var(--text-secondary);
+        transition: transform 0.2s;
+      }
+
+      .section-content.collapsed {
+        display: none;
+      }
+
+      .section-content.expanded {
+        display: block;
+      }
+
+      .collapsible.expanded .collapse-icon {
+        transform: rotate(45deg);
+      }
+
+      /* Form elements */
+      .form-row {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        margin-bottom: 16px;
+      }
+
+      .form-row:last-child {
+        margin-bottom: 0;
+      }
+
+      .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .form-group.full-width {
+        grid-column: 1 / -1;
+      }
+
+      .form-group label {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--text-primary);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      /* Tooltips */
+      .tooltip {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 16px;
+        height: 16px;
+        font-size: 0.7rem;
+        font-weight: bold;
+        color: var(--text-secondary);
+        background-color: var(--bg-secondary);
+        border: 1px solid var(--border-color);
+        border-radius: 50%;
+        cursor: help;
+        position: relative;
+      }
+
+      .tooltip:hover::after {
+        content: attr(data-tip);
+        position: absolute;
+        bottom: calc(100% + 8px);
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--bg-code);
+        color: var(--text-code);
+        padding: 8px 12px;
+        border-radius: var(--radius-sm);
+        font-size: 0.8rem;
+        font-weight: normal;
+        white-space: nowrap;
+        max-width: 250px;
+        white-space: normal;
+        z-index: 1000;
+        box-shadow: var(--shadow-md);
+      }
+
+      .tooltip:hover::before {
+        content: "";
+        position: absolute;
+        bottom: calc(100% + 2px);
+        left: 50%;
+        transform: translateX(-50%);
+        border: 6px solid transparent;
+        border-top-color: var(--bg-code);
+        z-index: 1000;
+      }
+
+      /* Inputs */
+      input[type="text"],
+      input[type="email"],
+      input[type="number"],
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 0.9rem;
+        padding: 8px 12px;
+        border: 1px solid var(--border-color);
+        border-radius: var(--radius-sm);
+        background-color: var(--bg-primary);
+        color: var(--text-primary);
+        transition:
+          border-color 0.2s,
+          box-shadow 0.2s;
+      }
+
+      input:focus,
+      select:focus,
+      textarea:focus {
+        outline: none;
+        border-color: var(--accent-color);
+        box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+      }
+
+      input::placeholder,
+      textarea::placeholder {
+        color: var(--text-secondary);
+        opacity: 0.7;
+      }
+
+      input[type="number"] {
+        width: 100%;
+      }
+
+      textarea {
+        resize: vertical;
+        min-height: 100px;
+        font-family: "SF Mono", "Monaco", "Menlo", "Consolas", monospace;
+        font-size: 0.85rem;
+        line-height: 1.5;
+      }
+
+      /* Time inputs */
+      .time-group {
+        grid-column: 1 / -1;
+      }
+
+      .time-inputs {
+        display: flex;
+        gap: 12px;
+      }
+
+      .time-field {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .time-field input {
+        width: 70px;
+      }
+
+      .time-field span {
+        font-size: 0.85rem;
+        color: var(--text-secondary);
+      }
+
+      /* Input with unit selector */
+      .input-with-unit {
+        display: flex;
+        gap: 0;
+      }
+
+      .input-with-unit input {
+        border-radius: var(--radius-sm) 0 0 var(--radius-sm);
+        border-right: none;
+        flex: 1;
+      }
+
+      .input-with-unit select {
+        border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+        min-width: 70px;
+      }
+
+      /* Checkboxes */
+      .checkbox-label {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        font-size: 0.9rem;
+      }
+
+      .checkbox-label input[type="checkbox"] {
+        width: 16px;
+        height: 16px;
+        cursor: pointer;
+      }
+
+      .checkbox-group {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+      }
+
+      /* Buttons */
+      .btn {
+        font-family: inherit;
+        font-size: 0.875rem;
+        font-weight: 500;
+        padding: 8px 16px;
+        border: none;
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        transition:
+          background-color 0.2s,
+          transform 0.1s;
+      }
+
+      .btn:active {
+        transform: scale(0.98);
+      }
+
+      .btn-secondary {
+        background-color: var(--bg-secondary);
+        color: var(--text-primary);
+        border: 1px solid var(--border-color);
+      }
+
+      .btn-secondary:hover {
+        background-color: var(--border-color);
+      }
+
+      .btn-copy {
+        background-color: var(--accent-color);
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .btn-copy:hover {
+        background-color: var(--accent-hover);
+      }
+
+      .btn-copy.copied {
+        background-color: var(--success-color);
+      }
+
+      .copy-hint {
+        font-size: 0.75rem;
+        opacity: 0.8;
+      }
+
+      .button-row {
+        display: flex;
+        gap: 12px;
+        justify-content: flex-end;
+      }
+
+      /* Output sections */
+      .output-section {
+        background: var(--bg-primary);
+      }
+
+      .code-container {
+        background-color: var(--bg-code);
+        border-radius: var(--radius-sm);
+        overflow: hidden;
+      }
+
+      .code-container pre {
+        margin: 0;
+        padding: 16px;
+        overflow-x: auto;
+        font-family: "SF Mono", "Monaco", "Menlo", "Consolas", monospace;
+        font-size: 0.85rem;
+        line-height: 1.6;
+        color: var(--text-code);
+        counter-reset: line;
+      }
+
+      .code-container code {
+        display: block;
+        white-space: pre;
+      }
+
+      .code-container.oneliner pre {
+        white-space: pre-wrap;
+        word-break: break-all;
+      }
+
+      /* Syntax highlighting */
+      .code-container .shebang {
+        color: #6a9955;
+      }
+
+      .code-container .comment {
+        color: #6a9955;
+      }
+
+      .code-container .directive {
+        color: #569cd6;
+      }
+
+      .code-container .flag {
+        color: #ce9178;
+      }
+
+      .code-container .value {
+        color: #dcdcaa;
+      }
+
+      .code-container .command-line {
+        color: #d4d4d4;
+      }
+
+      /* Line numbers */
+      .line-number {
+        display: inline-block;
+        width: 30px;
+        color: #858585;
+        text-align: right;
+        margin-right: 16px;
+        user-select: none;
+      }
+
+      /* Validation messages */
+      .validation-messages {
+        min-height: 24px;
+      }
+
+      .validation-message {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 12px;
+        border-radius: var(--radius-sm);
+        font-size: 0.85rem;
+        margin-bottom: 8px;
+      }
+
+      .validation-message.warning {
+        background-color: #fff3cd;
+        color: #856404;
+        border: 1px solid #ffeeba;
+      }
+
+      .validation-message.error {
+        background-color: #f8d7da;
+        color: #721c24;
+        border: 1px solid #f5c6cb;
+      }
+
+      .validation-message.info {
+        background-color: #d1ecf1;
+        color: #0c5460;
+        border: 1px solid #bee5eb;
+      }
+
+      /* Footer */
+      footer {
+        text-align: center;
+        margin-top: 40px;
+        padding: 20px;
+        color: var(--text-secondary);
+        font-size: 0.85rem;
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .container {
+          padding: 12px;
+        }
+
+        header h1 {
+          font-size: 1.5rem;
+        }
+
+        .section {
+          padding: 16px;
+        }
+
+        .form-row {
+          grid-template-columns: 1fr;
+        }
+
+        .time-inputs {
+          flex-wrap: wrap;
+        }
+
+        .checkbox-group {
+          flex-direction: column;
+          gap: 8px;
+        }
+
+        .copy-hint {
+          display: none;
+        }
+
+        .tooltip:hover::after {
+          left: auto;
+          right: 0;
+          transform: none;
+          max-width: 200px;
+        }
+      }
+
+      /* Keyboard focus styles */
+      :focus-visible {
+        outline: 2px solid var(--accent-color);
+        outline-offset: 2px;
+      }
+
+      /* Print styles */
+      @media print {
+        .form-panel {
+          display: none;
+        }
+
+        .output-panel {
+          position: static;
+        }
+
+        .btn-copy {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Slurm Command Generator</h1>
+        <p class="subtitle">Generate sbatch scripts and Slurm commands</p>
+      </header>
+
+      <div class="main-content">
+        <div class="form-panel">
+          <!-- Presets -->
+          <div class="section">
+            <div class="section-header">
+              <h2>Quick Start</h2>
+            </div>
+            <div class="form-row">
+              <div class="form-group full-width">
+                <label for="preset">Load Preset</label>
+                <select id="preset">
+                  <option value="">-- Select a preset --</option>
+                  <option value="single-gpu">Single GPU Job</option>
+                  <option value="multi-gpu">Multi-GPU Job</option>
+                  <option value="debug-srun">Debug srun</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Job Basics -->
+          <div class="section">
+            <div class="section-header">
+              <h2>Job Basics</h2>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="job-name">
+                  Job Name
+                  <span
+                    class="tooltip"
+                    data-tip="Identifier for your job in the queue"
+                    >?</span
+                  >
+                </label>
+                <input type="text" id="job-name" placeholder="my_job" />
+              </div>
+              <div class="form-group">
+                <label for="partition">
+                  Partition
+                  <span
+                    class="tooltip"
+                    data-tip="Queue/partition to submit the job to"
+                    >?</span
+                  >
+                </label>
+                <select id="partition">
+                  <option value="iris-hi" selected>iris-hi</option>
+                  <option value="iris">iris</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group time-group">
+                <label>
+                  Time Limit
+                  <span
+                    class="tooltip"
+                    data-tip="Maximum walltime for the job (D-HH:MM:SS)"
+                    >?</span
+                  >
+                </label>
+                <div class="time-inputs">
+                  <div class="time-field">
+                    <input
+                      type="number"
+                      id="time-days"
+                      min="0"
+                      max="365"
+                      value="0"
+                    />
+                    <span>days</span>
+                  </div>
+                  <div class="time-field">
+                    <input
+                      type="number"
+                      id="time-hours"
+                      min="0"
+                      max="23"
+                      value="4"
+                    />
+                    <span>hrs</span>
+                  </div>
+                  <div class="time-field">
+                    <input
+                      type="number"
+                      id="time-minutes"
+                      min="0"
+                      max="59"
+                      value="0"
+                    />
+                    <span>min</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="output-file">
+                  Output File
+                  <span
+                    class="tooltip"
+                    data-tip="Path for stdout. Use %j for job ID, %x for job name"
+                    >?</span
+                  >
+                </label>
+                <input type="text" id="output-file" value="logs/%j.out" />
+              </div>
+              <div class="form-group">
+                <label for="error-file">
+                  Error File
+                  <span
+                    class="tooltip"
+                    data-tip="Path for stderr. Use %j for job ID, %x for job name"
+                    >?</span
+                  >
+                </label>
+                <input type="text" id="error-file" value="logs/%j.err" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Resources -->
+          <div class="section">
+            <div class="section-header">
+              <h2>Resources</h2>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nodes">
+                  Nodes
+                  <span
+                    class="tooltip"
+                    data-tip="Number of compute nodes to allocate"
+                    >?</span
+                  >
+                </label>
+                <input type="number" id="nodes" min="1" max="16" value="1" />
+              </div>
+              <div class="form-group">
+                <label for="ntasks">
+                  Tasks per Node
+                  <span class="tooltip" data-tip="Number of MPI tasks per node"
+                    >?</span
+                  >
+                </label>
+                <input type="number" id="ntasks" min="1" max="64" value="1" />
+              </div>
+              <div class="form-group">
+                <label for="cpus">
+                  CPUs per Task
+                  <span
+                    class="tooltip"
+                    data-tip="Number of CPU cores per task (for threading)"
+                    >?</span
+                  >
+                </label>
+                <input type="number" id="cpus" min="1" max="32" value="8" />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="memory">
+                  Memory
+                  <span class="tooltip" data-tip="Memory per node">?</span>
+                </label>
+                <div class="input-with-unit">
+                  <input type="number" id="memory" min="1" value="128" />
+                  <select id="memory-unit">
+                    <option value="G">GB</option>
+                    <option value="M">MB</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="gpus">
+                  GPUs
+                  <span class="tooltip" data-tip="Number of GPUs per node"
+                    >?</span
+                  >
+                </label>
+                <div class="input-with-unit">
+                  <input type="number" id="gpus" min="0" max="8" value="1" />
+                  <select id="gpu-type">
+                    <option value="">any</option>
+                    <option value="l40s">L40S</option>
+                    <option value="h100">H100</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Advanced Options -->
+          <div class="section collapsible">
+            <div class="section-header" onclick="toggleSection(this)">
+              <h2>Advanced Options</h2>
+              <span class="collapse-icon">+</span>
+            </div>
+            <div class="section-content collapsed">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="checkbox-label">
+                    <input type="checkbox" id="exclusive" />
+                    <span>Exclusive Node</span>
+                    <span
+                      class="tooltip"
+                      data-tip="Request exclusive access to nodes"
+                      >?</span
+                    >
+                  </label>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="array">
+                    Array Job
+                    <span
+                      class="tooltip"
+                      data-tip="Job array specification (e.g., 1-10, 1-100%5)"
+                      >?</span
+                    >
+                  </label>
+                  <input type="text" id="array" placeholder="1-10 or 1-100%5" />
+                </div>
+                <div class="form-group">
+                  <label for="dependency">
+                    Dependency
+                    <span
+                      class="tooltip"
+                      data-tip="Job dependencies (e.g., afterok:12345)"
+                      >?</span
+                    >
+                  </label>
+                  <input
+                    type="text"
+                    id="dependency"
+                    placeholder="afterok:12345"
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="account">
+                    Account
+                    <span
+                      class="tooltip"
+                      data-tip="Account to charge for resources"
+                      >?</span
+                    >
+                  </label>
+                  <input type="text" id="account" value="iris" />
+                </div>
+                <div class="form-group">
+                  <label for="qos">
+                    QOS
+                    <span class="tooltip" data-tip="Quality of Service level"
+                      >?</span
+                    >
+                  </label>
+                  <input type="text" id="qos" placeholder="normal" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group full-width">
+                  <label for="constraint">
+                    Constraint
+                    <span
+                      class="tooltip"
+                      data-tip="Node feature constraints (e.g., skylake, infiniband)"
+                      >?</span
+                    >
+                  </label>
+                  <input
+                    type="text"
+                    id="constraint"
+                    placeholder="skylake|cascadelake"
+                  />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>
+                    Email Notifications
+                    <span
+                      class="tooltip"
+                      data-tip="When to send email notifications"
+                      >?</span
+                    >
+                  </label>
+                  <div class="checkbox-group">
+                    <label class="checkbox-label">
+                      <input type="checkbox" id="mail-begin" />
+                      <span>BEGIN</span>
+                    </label>
+                    <label class="checkbox-label">
+                      <input type="checkbox" id="mail-end" />
+                      <span>END</span>
+                    </label>
+                    <label class="checkbox-label">
+                      <input type="checkbox" id="mail-fail" />
+                      <span>FAIL</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="email">
+                    Email Address
+                    <span
+                      class="tooltip"
+                      data-tip="Email address for notifications"
+                      >?</span
+                    >
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="user@example.com"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Command -->
+          <div class="section">
+            <div class="section-header">
+              <h2>Command</h2>
+            </div>
+            <div class="form-row">
+              <div class="form-group full-width">
+                <label for="command">
+                  Commands to Execute
+                  <span
+                    class="tooltip"
+                    data-tip="The shell commands to run in your job"
+                    >?</span
+                  >
+                </label>
+                <textarea
+                  id="command"
+                  rows="5"
+                  placeholder="uv run python train.py"
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <div class="button-row">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              onclick="resetToDefaults()"
+            >
+              Reset to Defaults
+            </button>
+          </div>
+        </div>
+
+        <div class="output-panel">
+          <!-- Script Preview -->
+          <div class="section output-section">
+            <div class="section-header">
+              <h2>Generated Script</h2>
+              <button
+                class="btn btn-copy"
+                onclick="copyScript()"
+                id="copy-script-btn"
+              >
+                <span class="copy-text">Copy</span>
+                <span class="copy-hint">Ctrl+C</span>
+              </button>
+            </div>
+            <div class="code-container">
+              <pre id="script-output"><code></code></pre>
+            </div>
+          </div>
+
+          <!-- One-liner Preview -->
+          <div class="section output-section">
+            <div class="section-header">
+              <h2>One-liner Command</h2>
+              <button
+                class="btn btn-copy"
+                onclick="copyOneliner()"
+                id="copy-oneliner-btn"
+              >
+                <span class="copy-text">Copy</span>
+              </button>
+            </div>
+            <div class="code-container oneliner">
+              <pre id="oneliner-output"><code></code></pre>
+            </div>
+          </div>
+
+          <div class="validation-messages" id="validation-messages"></div>
+        </div>
+      </div>
+
+      <footer>
+        <p>Slurm Command Generator - No data leaves your browser</p>
+      </footer>
+    </div>
+
+    <script>
+      // Slurm Command Generator - Main Script
+
+      (function () {
+        "use strict";
+
+        // ==================== Configuration ====================
+
+        const STORAGE_KEY = "slurmGeneratorSettings";
+
+        const DEFAULT_VALUES = {
+          "job-name": "",
+          partition: "iris-hi",
+          "time-days": 0,
+          "time-hours": 4,
+          "time-minutes": 0,
+          "output-file": "logs/%j.out",
+          "error-file": "logs/%j.err",
+          nodes: 1,
+          ntasks: 1,
+          cpus: 8,
+          memory: "128",
+          "memory-unit": "G",
+          gpus: 1,
+          "gpu-type": "",
+          exclusive: false,
+          array: "",
+          dependency: "",
+          account: "iris",
+          qos: "",
+          constraint: "",
+          "mail-begin": false,
+          "mail-end": false,
+          "mail-fail": false,
+          email: "",
+          command: "",
+        };
+
+        const PRESETS = {
+          "single-gpu": {
+            "job-name": "gpu_job",
+            partition: "iris-hi",
+            account: "iris",
+            "time-days": 0,
+            "time-hours": 4,
+            "time-minutes": 0,
+            nodes: 1,
+            ntasks: 1,
+            cpus: 8,
+            memory: "128",
+            "memory-unit": "G",
+            gpus: 1,
+            "gpu-type": "",
+            "output-file": "logs/%j.out",
+            "error-file": "logs/%j.err",
+            command: "uv run python train.py",
+          },
+          "multi-gpu": {
+            "job-name": "multi_gpu",
+            partition: "iris-hi",
+            account: "iris",
+            "time-days": 1,
+            "time-hours": 0,
+            "time-minutes": 0,
+            nodes: 1,
+            ntasks: 1,
+            cpus: 8,
+            memory: "128",
+            "memory-unit": "G",
+            gpus: 4,
+            "gpu-type": "",
+            "output-file": "logs/%j.out",
+            "error-file": "logs/%j.err",
+            command: "torchrun --nproc_per_node=4 train.py",
+          },
+          "debug-srun": {
+            "job-name": "debug",
+            partition: "iris-hi",
+            account: "iris",
+            "time-days": 0,
+            "time-hours": 0,
+            "time-minutes": 30,
+            nodes: 1,
+            ntasks: 1,
+            cpus: 8,
+            memory: "32",
+            "memory-unit": "G",
+            gpus: 1,
+            "gpu-type": "",
+            "output-file": "logs/%j.out",
+            "error-file": "logs/%j.err",
+            command: "srun --pty zsh",
+          },
+        };
+
+        // ==================== DOM Elements ====================
+
+        const elements = {};
+
+        function cacheElements() {
+          // Form inputs
+          const inputIds = Object.keys(DEFAULT_VALUES);
+          inputIds.forEach((id) => {
+            elements[id] = document.getElementById(id);
+          });
+
+          // Other elements
+          elements.preset = document.getElementById("preset");
+          elements.scriptOutput = document.getElementById("script-output");
+          elements.onelinerOutput = document.getElementById("oneliner-output");
+          elements.validationMessages = document.getElementById(
+            "validation-messages",
+          );
+          elements.copyScriptBtn = document.getElementById("copy-script-btn");
+          elements.copyOnelinerBtn =
+            document.getElementById("copy-oneliner-btn");
+        }
+
+        // ==================== Utilities ====================
+
+        function getFormValue(id) {
+          const el = elements[id];
+          if (!el) return DEFAULT_VALUES[id];
+
+          if (el.type === "checkbox") {
+            return el.checked;
+          }
+          return el.value;
+        }
+
+        function setFormValue(id, value) {
+          const el = elements[id];
+          if (!el) return;
+
+          if (el.type === "checkbox") {
+            el.checked = value;
+          } else {
+            el.value = value;
+          }
+        }
+
+        function getAllFormValues() {
+          const values = {};
+          Object.keys(DEFAULT_VALUES).forEach((id) => {
+            values[id] = getFormValue(id);
+          });
+          return values;
+        }
+
+        function formatTime(days, hours, minutes) {
+          days = parseInt(days) || 0;
+          hours = parseInt(hours) || 0;
+          minutes = parseInt(minutes) || 0;
+
+          if (days === 0 && hours === 0 && minutes === 0) {
+            return null;
+          }
+
+          const paddedHours = String(hours).padStart(2, "0");
+          const paddedMinutes = String(minutes).padStart(2, "0");
+
+          if (days > 0) {
+            return `${days}-${paddedHours}:${paddedMinutes}:00`;
+          }
+          return `${paddedHours}:${paddedMinutes}:00`;
+        }
+
+        function quoteSlurmValue(value) {
+          const str = String(value);
+          if (!/[\s"'`$\\]/.test(str)) return str;
+          return `"${str.replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`;
+        }
+
+        function shellQuote(value) {
+          const str = String(value);
+          if (!str) return "''";
+          return `'${str.replace(/'/g, "'\\''")}'`;
+        }
+
+        // ==================== Script Generation ====================
+
+        function generateScript() {
+          const values = getAllFormValues();
+          const lines = ["#!/bin/zsh"];
+          const validationMessages = [];
+
+          // Job name
+          if (values["job-name"].trim()) {
+            lines.push(
+              `#SBATCH --job-name=${quoteSlurmValue(
+                values["job-name"].trim(),
+              )}`,
+            );
+          }
+
+          // Partition
+          const partition = values["partition"];
+          if (partition) {
+            lines.push(`#SBATCH --partition=${quoteSlurmValue(partition)}`);
+          }
+
+          // Time
+          const time = formatTime(
+            values["time-days"],
+            values["time-hours"],
+            values["time-minutes"],
+          );
+          if (time) {
+            lines.push(`#SBATCH --time=${time}`);
+          }
+
+          // Nodes
+          const nodes = parseInt(values["nodes"]) || 1;
+          if (nodes > 1) {
+            lines.push(`#SBATCH --nodes=${nodes}`);
+          }
+
+          // Tasks per node
+          const ntasks = parseInt(values["ntasks"]) || 1;
+          if (ntasks > 1) {
+            lines.push(`#SBATCH --ntasks-per-node=${ntasks}`);
+          }
+
+          // CPUs per task
+          const cpus = parseInt(values["cpus"]) || 1;
+          if (cpus > 1) {
+            lines.push(`#SBATCH --cpus-per-task=${cpus}`);
+          }
+
+          // Memory
+          if (values["memory"].trim()) {
+            const mem = parseInt(values["memory"]);
+            if (mem > 0) {
+              lines.push(`#SBATCH --mem=${mem}${values["memory-unit"]}`);
+            }
+          }
+
+          // GPUs
+          const gpus = parseInt(values["gpus"]) || 0;
+          if (gpus > 0) {
+            const gpuType = values["gpu-type"];
+            if (gpuType) {
+              lines.push(`#SBATCH --gres=gpu:${gpuType}:${gpus}`);
+            } else {
+              lines.push(`#SBATCH --gres=gpu:${gpus}`);
+            }
+          }
+
+          // Output files
+          if (values["output-file"].trim()) {
+            lines.push(
+              `#SBATCH --output=${quoteSlurmValue(
+                values["output-file"].trim(),
+              )}`,
+            );
+          }
+          if (values["error-file"].trim()) {
+            lines.push(
+              `#SBATCH --error=${quoteSlurmValue(
+                values["error-file"].trim(),
+              )}`,
+            );
+          }
+
+          // Exclusive
+          if (values["exclusive"]) {
+            lines.push("#SBATCH --exclusive");
+          }
+
+          // Array
+          if (values["array"].trim()) {
+            const arraySpec = values["array"].trim();
+            if (!/^[\d,\-%]+$/.test(arraySpec)) {
+              validationMessages.push({
+                type: "warning",
+                message:
+                  "Array specification may be invalid. Expected format: 1-10, 1-100%5, or 1,3,5,7",
+              });
+            }
+            lines.push(`#SBATCH --array=${quoteSlurmValue(arraySpec)}`);
+          }
+
+          // Dependency
+          if (values["dependency"].trim()) {
+            lines.push(
+              `#SBATCH --dependency=${quoteSlurmValue(
+                values["dependency"].trim(),
+              )}`,
+            );
+          }
+
+          // Account
+          if (values["account"].trim()) {
+            lines.push(
+              `#SBATCH --account=${quoteSlurmValue(values["account"].trim())}`,
+            );
+          }
+
+          // QOS
+          if (values["qos"].trim()) {
+            lines.push(
+              `#SBATCH --qos=${quoteSlurmValue(values["qos"].trim())}`,
+            );
+          }
+
+          // Constraint
+          if (values["constraint"].trim()) {
+            lines.push(
+              `#SBATCH --constraint=${quoteSlurmValue(
+                values["constraint"].trim(),
+              )}`,
+            );
+          }
+
+          // Mail notifications
+          const mailTypes = [];
+          if (values["mail-begin"]) mailTypes.push("BEGIN");
+          if (values["mail-end"]) mailTypes.push("END");
+          if (values["mail-fail"]) mailTypes.push("FAIL");
+
+          if (mailTypes.length > 0) {
+            lines.push(`#SBATCH --mail-type=${mailTypes.join(",")}`);
+            if (values["email"].trim()) {
+              lines.push(
+                `#SBATCH --mail-user=${quoteSlurmValue(
+                  values["email"].trim(),
+                )}`,
+              );
+            } else {
+              validationMessages.push({
+                type: "warning",
+                message:
+                  "Email notifications enabled but no email address provided",
+              });
+            }
+          }
+
+          // Add blank line and init section
+          lines.push("");
+          lines.push("set -euo pipefail");
+          lines.push("");
+
+          const command = values["command"].trim();
+          if (command) {
+            lines.push(command);
+          } else {
+            lines.push("# Your command here");
+          }
+
+          return { script: lines.join("\n"), validationMessages };
+        }
+
+        function generateOneliner() {
+          const values = getAllFormValues();
+          const parts = ["sbatch"];
+
+          // Job name
+          if (values["job-name"].trim()) {
+            parts.push(
+              `--job-name=${shellQuote(values["job-name"].trim())}`,
+            );
+          }
+
+          // Partition
+          const partition = values["partition"];
+          if (partition) {
+            parts.push(`--partition=${shellQuote(partition)}`);
+          }
+
+          // Time
+          const time = formatTime(
+            values["time-days"],
+            values["time-hours"],
+            values["time-minutes"],
+          );
+          if (time) {
+            parts.push(`--time=${time}`);
+          }
+
+          // Nodes
+          const nodes = parseInt(values["nodes"]) || 1;
+          if (nodes > 1) {
+            parts.push(`--nodes=${nodes}`);
+          }
+
+          // Tasks per node
+          const ntasks = parseInt(values["ntasks"]) || 1;
+          if (ntasks > 1) {
+            parts.push(`--ntasks-per-node=${ntasks}`);
+          }
+
+          // CPUs per task
+          const cpus = parseInt(values["cpus"]) || 1;
+          if (cpus > 1) {
+            parts.push(`--cpus-per-task=${cpus}`);
+          }
+
+          // Memory
+          if (values["memory"].trim()) {
+            const mem = parseInt(values["memory"]);
+            if (mem > 0) {
+              parts.push(`--mem=${mem}${values["memory-unit"]}`);
+            }
+          }
+
+          // GPUs
+          const gpus = parseInt(values["gpus"]) || 0;
+          if (gpus > 0) {
+            const gpuType = values["gpu-type"];
+            if (gpuType) {
+              parts.push(`--gres=gpu:${gpuType}:${gpus}`);
+            } else {
+              parts.push(`--gres=gpu:${gpus}`);
+            }
+          }
+
+          // Output files
+          if (values["output-file"].trim()) {
+            parts.push(
+              `--output=${shellQuote(values["output-file"].trim())}`,
+            );
+          }
+          if (values["error-file"].trim()) {
+            parts.push(`--error=${shellQuote(values["error-file"].trim())}`);
+          }
+
+          // Exclusive
+          if (values["exclusive"]) {
+            parts.push("--exclusive");
+          }
+
+          // Array
+          if (values["array"].trim()) {
+            parts.push(`--array=${shellQuote(values["array"].trim())}`);
+          }
+
+          // Dependency
+          if (values["dependency"].trim()) {
+            parts.push(
+              `--dependency=${shellQuote(values["dependency"].trim())}`,
+            );
+          }
+
+          // Account
+          if (values["account"].trim()) {
+            parts.push(`--account=${shellQuote(values["account"].trim())}`);
+          }
+
+          // QOS
+          if (values["qos"].trim()) {
+            parts.push(`--qos=${shellQuote(values["qos"].trim())}`);
+          }
+
+          // Constraint
+          if (values["constraint"].trim()) {
+            parts.push(
+              `--constraint=${shellQuote(values["constraint"].trim())}`,
+            );
+          }
+
+          // Mail notifications
+          const mailTypes = [];
+          if (values["mail-begin"]) mailTypes.push("BEGIN");
+          if (values["mail-end"]) mailTypes.push("END");
+          if (values["mail-fail"]) mailTypes.push("FAIL");
+
+          if (mailTypes.length > 0) {
+            parts.push(`--mail-type=${mailTypes.join(",")}`);
+            if (values["email"].trim()) {
+              parts.push(`--mail-user=${shellQuote(values["email"].trim())}`);
+            }
+          }
+
+          // Add wrap for command (if short enough)
+          const command = values["command"].trim();
+          if (command && !command.includes("\n") && command.length < 100) {
+            parts.push(`--wrap=${shellQuote(command)}`);
+          } else {
+            parts.push("your_script.sh");
+          }
+
+          return parts.join(" ");
+        }
+
+        // ==================== Syntax Highlighting ====================
+
+        function highlightScript(script) {
+          const lines = script.split("\n");
+          let lineNumber = 1;
+
+          const highlighted = lines.map((line) => {
+            let highlightedLine = escapeHtml(line);
+
+            // Shebang
+            if (line.startsWith("#!/")) {
+              highlightedLine = `<span class="shebang">${highlightedLine}</span>`;
+            }
+            // SBATCH directives
+            else if (line.startsWith("#SBATCH")) {
+              const parts = line.match(/^(#SBATCH\s+)(--[\w-]+)(=?)(.*)$/);
+              if (parts) {
+                highlightedLine =
+                  `<span class="directive">${escapeHtml(parts[1])}</span>` +
+                  `<span class="flag">${escapeHtml(parts[2])}</span>` +
+                  `${escapeHtml(parts[3])}` +
+                  `<span class="value">${escapeHtml(parts[4])}</span>`;
+              } else {
+                highlightedLine = `<span class="directive">${highlightedLine}</span>`;
+              }
+            }
+            // Comments
+            else if (line.startsWith("#")) {
+              highlightedLine = `<span class="comment">${highlightedLine}</span>`;
+            }
+            // Command lines
+            else if (line.trim()) {
+              highlightedLine = `<span class="command-line">${highlightedLine}</span>`;
+            }
+
+            const lineNumSpan = `<span class="line-number">${lineNumber}</span>`;
+            lineNumber++;
+
+            return lineNumSpan + highlightedLine;
+          });
+
+          return highlighted.join("\n");
+        }
+
+        function escapeHtml(text) {
+          const div = document.createElement("div");
+          div.textContent = text;
+          return div.innerHTML;
+        }
+
+        // ==================== UI Updates ====================
+
+        function updatePreview() {
+          const { script, validationMessages } = generateScript();
+          const oneliner = generateOneliner();
+
+          // Update script preview
+          elements.scriptOutput.querySelector("code").innerHTML =
+            highlightScript(script);
+
+          // Update oneliner preview
+          elements.onelinerOutput.querySelector("code").textContent = oneliner;
+
+          // Update validation messages
+          updateValidationMessages(validationMessages);
+
+          // Save to localStorage
+          saveSettings();
+        }
+
+        function updateValidationMessages(messages) {
+          elements.validationMessages.innerHTML = messages
+            .map(
+              (msg) => `
+                <div class="validation-message ${msg.type}">
+                    ${escapeHtml(msg.message)}
+                </div>
+            `,
+            )
+            .join("");
+        }
+
+        // ==================== Storage ====================
+
+        function saveSettings() {
+          try {
+            const values = getAllFormValues();
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(values));
+          } catch (e) {
+            console.warn("Could not save settings to localStorage:", e);
+          }
+        }
+
+        function loadSettings() {
+          try {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            if (saved) {
+              const values = JSON.parse(saved);
+              Object.keys(values).forEach((id) => {
+                if (id in DEFAULT_VALUES) {
+                  setFormValue(id, values[id]);
+                }
+              });
+            }
+          } catch (e) {
+            console.warn("Could not load settings from localStorage:", e);
+          }
+        }
+
+        // ==================== Presets ====================
+
+        function loadPreset(presetName) {
+          if (!presetName || !PRESETS[presetName]) return;
+
+          const preset = PRESETS[presetName];
+
+          // Reset to defaults first
+          Object.keys(DEFAULT_VALUES).forEach((id) => {
+            setFormValue(id, DEFAULT_VALUES[id]);
+          });
+
+          // Apply preset values
+          Object.keys(preset).forEach((id) => {
+            setFormValue(id, preset[id]);
+          });
+
+          // Keep the preset selected in the dropdown
+          elements.preset.value = presetName;
+
+          updatePreview();
+        }
+
+        // ==================== Public Functions ====================
+
+        window.toggleSection = function (header) {
+          const section = header.closest(".collapsible");
+          const content = section.querySelector(".section-content");
+          const isCollapsed = content.classList.contains("collapsed");
+
+          if (isCollapsed) {
+            content.classList.remove("collapsed");
+            content.classList.add("expanded");
+            section.classList.add("expanded");
+          } else {
+            content.classList.remove("expanded");
+            content.classList.add("collapsed");
+            section.classList.remove("expanded");
+          }
+        };
+
+        window.resetToDefaults = function () {
+          if (confirm("Reset all fields to default values?")) {
+            Object.keys(DEFAULT_VALUES).forEach((id) => {
+              setFormValue(id, DEFAULT_VALUES[id]);
+            });
+            elements.preset.value = "";
+            updatePreview();
+          }
+        };
+
+        window.copyScript = function () {
+          const { script } = generateScript();
+          copyToClipboard(script, elements.copyScriptBtn);
+        };
+
+        window.copyOneliner = function () {
+          const oneliner = generateOneliner();
+          copyToClipboard(oneliner, elements.copyOnelinerBtn);
+        };
+
+        function copyToClipboard(text, button) {
+          navigator.clipboard
+            .writeText(text)
+            .then(() => {
+              // Visual feedback
+              const originalText =
+                button.querySelector(".copy-text").textContent;
+              button.querySelector(".copy-text").textContent = "Copied!";
+              button.classList.add("copied");
+
+              setTimeout(() => {
+                button.querySelector(".copy-text").textContent = originalText;
+                button.classList.remove("copied");
+              }, 2000);
+            })
+            .catch((err) => {
+              console.error("Failed to copy:", err);
+              alert("Failed to copy to clipboard");
+            });
+        }
+
+        // ==================== Event Listeners ====================
+
+        function setupEventListeners() {
+          // Form input changes
+          Object.keys(DEFAULT_VALUES).forEach((id) => {
+            const el = elements[id];
+            if (el) {
+              el.addEventListener("input", updatePreview);
+              el.addEventListener("change", updatePreview);
+            }
+          });
+
+          // Preset selector
+          elements.preset.addEventListener("change", (e) => {
+            loadPreset(e.target.value);
+          });
+
+          // Keyboard shortcuts
+          document.addEventListener("keydown", (e) => {
+            // Ctrl/Cmd + Shift + C to copy script
+            if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === "C") {
+              e.preventDefault();
+              copyScript();
+            }
+          });
+        }
+
+        // ==================== Initialization ====================
+
+        function init() {
+          cacheElements();
+          loadSettings();
+          setupEventListeners();
+          updatePreview();
+        }
+
+        // Run on DOM ready
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", init);
+        } else {
+          init();
+        }
+      })();
+    </script>
+  </body>
+</html>

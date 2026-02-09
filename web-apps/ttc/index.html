@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Read the Tao Te Ching with multiple translations side by side - Gia-Fu Feng, Red Pine, D.C. Lau, and more"
+    />
+    <meta name="theme-color" content="#fafafa" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link rel="canonical" href="https://yoonholee.com/web-apps/ttc/" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Tao Te Ching Reader" />
+    <meta
+      property="og:description"
+      content="Read the Tao Te Ching with multiple translations side by side"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yoonholee.com/web-apps/ttc/" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Tao Te Ching Reader" />
+    <meta
+      name="twitter:description"
+      content="Read the Tao Te Ching with multiple translations side by side"
+    />
+    <title>Tao Te Ching</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="translations">
+      <button class="translation-btn active" data-translation="gia">
+        Gia-Fu Feng & Jane English
+      </button>
+      <button class="translation-btn" data-translation="red_pine">
+        Red Pine
+      </button>
+      <button class="translation-btn" data-translation="lau">D. C. Lau</button>
+      <button class="translation-btn" data-translation="hinton">
+        David Hinton
+      </button>
+      <button class="translation-btn" data-translation="john_wu">
+        John C. H. Wu
+      </button>
+      <button class="translation-btn" data-translation="yi_wu">Yi Wu</button>
+    </div>
+    <div id="main">
+      <div>
+        <div id="grid"></div>
+        <button id="random" title="Random Chapter (Space or Enter)">
+          <img src="yin-and-yang.png" alt="Random" />
+        </button>
+      </div>
+      <div id="viewer"><em>Select a verse.</em></div>
+    </div>
+    <script src="gia.js"></script>
+    <script src="hinton.js"></script>
+    <script src="john_wu.js"></script>
+    <script src="lau.js"></script>
+    <script src="red_pine.js"></script>
+    <script src="yi_wu.js"></script>
+    <script>
+      const translations = {
+        gia: gia_verses,
+        hinton: hinton_verses,
+        john_wu: john_wu_verses,
+        lau: lau_verses,
+        red_pine: red_pine_verses,
+        "stephen-mitchell": window["stephen-mitchell_verses"],
+        yi_wu: yi_wu_verses,
+      };
+
+      let currentTranslation = "gia";
+      let verses = translations[currentTranslation];
+      const grid = document.getElementById("grid");
+      const viewer = document.getElementById("viewer");
+      let selectedIdx = null;
+
+      function setSelected(idx) {
+        document.querySelectorAll(".cell").forEach((c, i) => {
+          c.classList.toggle("selected", i === idx);
+        });
+        selectedIdx = idx;
+      }
+
+      function showVerse(idx) {
+        viewer.textContent = "";
+        const div = document.createElement("div");
+        if (verses[idx]) {
+          verses[idx].split("\n").forEach((line, i) => {
+            if (i > 0) div.appendChild(document.createElement("br"));
+            div.appendChild(document.createTextNode(line));
+          });
+        }
+        viewer.appendChild(div);
+      }
+
+      function switchTranslation(translationName) {
+        currentTranslation = translationName;
+        verses = translations[currentTranslation];
+
+        // Update button states
+        document.querySelectorAll(".translation-btn").forEach((btn) => {
+          btn.classList.toggle(
+            "active",
+            btn.dataset.translation === translationName,
+          );
+        });
+
+        // If a passage was selected, show the same passage number in the new translation
+        if (selectedIdx !== null && selectedIdx < verses.length) {
+          showVerse(selectedIdx);
+        } else {
+          // Clear selection and viewer if the selected index is out of range
+          setSelected(null);
+          viewer.innerHTML = "<em>Select a verse.</em>";
+        }
+      }
+
+      function createGrid() {
+        grid.innerHTML = "";
+        verses.forEach((text, i) => {
+          const d = document.createElement("div");
+          d.className = "cell";
+          d.textContent = i + 1;
+          d.tabIndex = 0;
+          d.onclick = () => {
+            setSelected(i);
+            showVerse(i);
+          };
+          d.onkeydown = (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+              d.click();
+            }
+          };
+          grid.appendChild(d);
+        });
+      }
+
+      // Initialize grid
+      createGrid();
+
+      // Add event listeners for translation buttons
+      document.querySelectorAll(".translation-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          switchTranslation(btn.dataset.translation);
+        });
+      });
+
+      document.getElementById("random").onclick = () => {
+        if (verses.length > 0) {
+          const idx = Math.floor(Math.random() * verses.length);
+          setSelected(idx);
+          showVerse(idx);
+        }
+      };
+
+      document.addEventListener("keydown", (e) => {
+        if (
+          (e.code === "Space" || e.code === "Enter") &&
+          document.activeElement.tagName !== "INPUT"
+        ) {
+          document.getElementById("random").click();
+          e.preventDefault();
+        }
+      });
+    </script>
+  </body>
+</html>

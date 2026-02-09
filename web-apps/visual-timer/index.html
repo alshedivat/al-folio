@@ -1,0 +1,1081 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Visual countdown timer with disappearing disk - see time remaining at a glance"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link rel="canonical" href="https://yoonholee.com/web-apps/visual-timer/" />
+    <meta property="og:title" content="Visual Timer" />
+    <meta
+      property="og:description"
+      content="Visual countdown timer with disappearing disk"
+    />
+    <meta property="og:type" content="website" />
+    <title>Visual Timer</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <style>
+      :root {
+        color-scheme: light;
+
+        /* Core palette - OKLCH for perceptual consistency */
+        --bg-primary: oklch(100% 0 0);
+        --bg-secondary: oklch(98% 0.002 250);
+        --bg-elevated: oklch(100% 0 0);
+        --border-subtle: oklch(0% 0 0 / 8%);
+        --border-hover: oklch(0% 0 0 / 15%);
+        --text-primary: oklch(20% 0.02 260);
+        --text-secondary: oklch(55% 0.02 260);
+        --text-tertiary: oklch(70% 0.015 260);
+
+        /* Theme colors - OKLCH */
+        --timer-color: oklch(63% 0.24 27);
+        --timer-color-dark: oklch(58% 0.22 27);
+        --timer-glow: oklch(63% 0.24 27 / 25%);
+      }
+
+      /* Fallback for browsers without modern CSS support */
+      @supports not (color: oklch(50% 0.1 0)) {
+        :root {
+          --bg-primary: #ffffff;
+          --bg-secondary: #f9fafb;
+          --bg-elevated: #ffffff;
+          --border-subtle: rgba(0, 0, 0, 0.08);
+          --border-hover: rgba(0, 0, 0, 0.15);
+          --text-primary: #111827;
+          --text-secondary: #6b7280;
+          --text-tertiary: #9ca3af;
+          --timer-color: #ef4444;
+          --timer-color-dark: #dc2626;
+          --timer-glow: rgba(239, 68, 68, 0.25);
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+      }
+
+      @supports (font-variation-settings: normal) {
+        html {
+          font-family:
+            "Inter var",
+            -apple-system,
+            BlinkMacSystemFont,
+            sans-serif;
+        }
+      }
+
+      body {
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        min-height: 100vh;
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        -webkit-font-smoothing: antialiased;
+        overflow: hidden;
+        user-select: none;
+        -webkit-user-select: none;
+      }
+
+      /* Ambient background */
+      .ambient {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .ambient-glow {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 700px;
+        height: 700px;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(
+          circle,
+          var(--timer-glow) 0%,
+          transparent 60%
+        );
+        opacity: 0;
+        transition: opacity 1s ease;
+      }
+
+      body.running .ambient-glow,
+      body.setting .ambient-glow {
+        opacity: 0.5;
+      }
+
+      .noise {
+        position: absolute;
+        inset: 0;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+        opacity: 0.015;
+      }
+
+      /* Main container */
+      .container {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 1.5rem;
+        width: 100%;
+        max-width: 420px;
+      }
+
+      /* Color theme selector */
+      .themes {
+        display: flex;
+        gap: 0.75rem;
+        padding: 0.5rem;
+      }
+
+      .theme-btn {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        position: relative;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+      }
+
+      .theme-btn::before {
+        content: "";
+        position: absolute;
+        inset: -3px;
+        border-radius: 50%;
+        border: 2px solid transparent;
+        transition: border-color 0.2s ease;
+      }
+
+      .theme-btn:hover {
+        transform: scale(1.15);
+      }
+
+      .theme-btn.active::before {
+        border-color: var(--text-primary);
+      }
+
+      .theme-btn[data-theme="coral"] {
+        background: linear-gradient(
+          135deg,
+          oklch(63% 0.24 27),
+          oklch(58% 0.22 27)
+        );
+      }
+      .theme-btn[data-theme="ocean"] {
+        background: linear-gradient(
+          135deg,
+          oklch(60% 0.2 250),
+          oklch(55% 0.2 250)
+        );
+      }
+      .theme-btn[data-theme="forest"] {
+        background: linear-gradient(
+          135deg,
+          oklch(72% 0.19 145),
+          oklch(65% 0.19 145)
+        );
+      }
+      .theme-btn[data-theme="sunset"] {
+        background: linear-gradient(
+          135deg,
+          oklch(70% 0.2 50),
+          oklch(65% 0.2 50)
+        );
+      }
+      .theme-btn[data-theme="violet"] {
+        background: linear-gradient(
+          135deg,
+          oklch(55% 0.25 300),
+          oklch(50% 0.25 300)
+        );
+      }
+      .theme-btn[data-theme="slate"] {
+        background: linear-gradient(
+          135deg,
+          oklch(55% 0.03 250),
+          oklch(45% 0.03 250)
+        );
+      }
+
+      /* Timer container */
+      .timer-wrapper {
+        position: relative;
+        width: 300px;
+        height: 300px;
+      }
+
+      .timer-svg {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        filter: drop-shadow(0 4px 20px var(--timer-glow));
+        transition: filter 0.3s ease;
+      }
+
+      body:not(.running):not(.paused) .timer-svg {
+        filter: drop-shadow(0 2px 10px rgba(0, 0, 0, 0.1));
+      }
+
+      /* Timer face (the white/light background circle) */
+      .timer-face {
+        fill: var(--bg-elevated);
+        stroke: var(--border-subtle);
+        stroke-width: 2;
+      }
+
+      /* The colored pie wedge */
+      .timer-wedge {
+        fill: url(#wedgeGradient);
+        transition: d 0.1s linear;
+      }
+
+      /* Outer ring */
+      .timer-ring {
+        fill: none;
+        stroke: var(--bg-secondary);
+        stroke-width: 8;
+      }
+
+      .timer-ring-inner {
+        fill: none;
+        stroke: var(--border-subtle);
+        stroke-width: 1;
+      }
+
+      /* Tick marks in SVG */
+      .tick-minor {
+        stroke: var(--border-subtle);
+        stroke-width: 1;
+      }
+
+      .tick-major {
+        stroke: var(--text-tertiary);
+        stroke-width: 2;
+      }
+
+      /* Center circle */
+      .timer-center-circle {
+        fill: var(--bg-primary);
+        stroke: var(--border-subtle);
+        stroke-width: 1;
+      }
+
+      /* Center display */
+      .timer-center {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        pointer-events: none;
+      }
+
+      .time-display {
+        font-size: 2.5rem;
+        font-weight: 600;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: -0.02em;
+        line-height: 1;
+        transition: color 0.3s ease;
+      }
+
+      .time-label {
+        font-size: 0.75rem;
+        color: var(--text-tertiary);
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        margin-top: 0.375rem;
+      }
+
+      body.setting .time-display {
+        color: var(--timer-color);
+      }
+
+      /* Presets */
+      .presets {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .preset-btn {
+        font-family: inherit;
+        font-size: 0.875rem;
+        font-weight: 500;
+        padding: 0.625rem 1.125rem;
+        background: var(--bg-elevated);
+        border: 1px solid var(--border-subtle);
+        border-radius: 10px;
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: all 0.15s ease;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+      }
+
+      .preset-btn:hover {
+        background: var(--bg-secondary);
+        border-color: var(--border-hover);
+        color: var(--text-primary);
+        transform: translateY(-1px);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+      }
+
+      .preset-btn:active {
+        transform: translateY(0) scale(0.98);
+      }
+
+      .preset-btn.active {
+        background: var(--bg-elevated);
+        border-color: var(--timer-color);
+        color: var(--timer-color);
+        box-shadow: 0 0 0 3px var(--timer-glow);
+      }
+
+      /* Controls */
+      .controls {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+
+      .btn {
+        font-family: inherit;
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 1rem 2.5rem;
+        border: none;
+        border-radius: 14px;
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .btn-primary {
+        background: linear-gradient(
+          135deg,
+          var(--timer-color) 0%,
+          var(--timer-color-dark) 100%
+        );
+        color: white;
+        box-shadow:
+          0 0 0 1px rgba(255, 255, 255, 0.2) inset,
+          0 4px 16px var(--timer-glow);
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow:
+          0 0 0 1px rgba(255, 255, 255, 0.25) inset,
+          0 8px 30px var(--timer-glow);
+      }
+
+      .btn-primary:active {
+        transform: translateY(0) scale(0.98);
+      }
+
+      .btn-secondary {
+        background: var(--bg-elevated);
+        border: 1px solid var(--border-subtle);
+        color: var(--text-secondary);
+        padding: 1rem 1.5rem;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+      }
+
+      .btn-secondary:hover {
+        background: var(--bg-secondary);
+        border-color: var(--border-hover);
+        color: var(--text-primary);
+      }
+
+      .btn-secondary:active {
+        transform: scale(0.98);
+      }
+
+      /* Sound toggle */
+      .sound-toggle {
+        position: fixed;
+        bottom: 1.5rem;
+        right: 1.5rem;
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
+        background: var(--bg-elevated);
+        border: 1px solid var(--border-subtle);
+        color: var(--text-tertiary);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.15s ease;
+        z-index: 10;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+      }
+
+      .sound-toggle:hover {
+        border-color: var(--border-hover);
+        color: var(--text-secondary);
+      }
+
+      .sound-toggle.active {
+        color: var(--timer-color);
+        border-color: var(--timer-color);
+      }
+
+      .sound-toggle svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      .sound-toggle:not(.active) .sound-wave {
+        display: none;
+      }
+
+      /* Completion animation */
+      @keyframes celebrate {
+        0% {
+          transform: scale(1);
+        }
+        25% {
+          transform: scale(1.03);
+        }
+        50% {
+          transform: scale(1);
+        }
+        75% {
+          transform: scale(1.02);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      @keyframes flash {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+
+      body.complete .timer-wrapper {
+        animation: celebrate 0.5s ease-in-out;
+      }
+
+      body.complete .timer-wedge {
+        animation: flash 0.3s ease-in-out 4;
+      }
+
+      /* Responsive */
+      @media (max-width: 360px) {
+        .timer-wrapper {
+          width: 260px;
+          height: 260px;
+        }
+        .time-display {
+          font-size: 2rem;
+        }
+        .preset-btn {
+          padding: 0.5rem 0.875rem;
+          font-size: 0.8125rem;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+
+      /* View Transitions */
+      @view-transition {
+        navigation: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="ambient">
+      <div class="ambient-glow"></div>
+      <div class="noise"></div>
+    </div>
+
+    <div class="container">
+      <!-- Color themes -->
+      <div class="themes">
+        <button
+          class="theme-btn active"
+          data-theme="coral"
+          title="Coral"
+        ></button>
+        <button class="theme-btn" data-theme="ocean" title="Ocean"></button>
+        <button class="theme-btn" data-theme="forest" title="Forest"></button>
+        <button class="theme-btn" data-theme="sunset" title="Sunset"></button>
+        <button class="theme-btn" data-theme="violet" title="Violet"></button>
+        <button class="theme-btn" data-theme="slate" title="Slate"></button>
+      </div>
+
+      <!-- Timer -->
+      <div class="timer-wrapper">
+        <svg class="timer-svg" viewBox="0 0 300 300" id="timerSvg">
+          <defs>
+            <!-- Gradient for the wedge -->
+            <linearGradient
+              id="wedgeGradient"
+              x1="0%"
+              y1="0%"
+              x2="100%"
+              y2="100%"
+            >
+              <stop offset="0%" id="gradStop1" style="stop-color: #ef4444" />
+              <stop offset="100%" id="gradStop2" style="stop-color: #dc2626" />
+            </linearGradient>
+          </defs>
+
+          <!-- Outer ring -->
+          <circle class="timer-ring" cx="150" cy="150" r="145" />
+
+          <!-- Timer face background -->
+          <circle class="timer-face" cx="150" cy="150" r="137" />
+
+          <!-- The main colored wedge -->
+          <path class="timer-wedge" id="wedge" d="" />
+
+          <!-- Inner ring on face edge -->
+          <circle class="timer-ring-inner" cx="150" cy="150" r="137" />
+
+          <!-- Tick marks -->
+          <g id="tickMarks"></g>
+
+          <!-- Center circle to cover wedge center -->
+          <circle class="timer-center-circle" cx="150" cy="150" r="70" />
+        </svg>
+
+        <!-- Center display -->
+        <div class="timer-center">
+          <div class="time-display" id="timeDisplay">20:00</div>
+          <div class="time-label" id="timeLabel">drag to set</div>
+        </div>
+      </div>
+
+      <!-- Presets -->
+      <div class="presets">
+        <button class="preset-btn" data-minutes="5">5m</button>
+        <button class="preset-btn" data-minutes="10">10m</button>
+        <button class="preset-btn active" data-minutes="20">20m</button>
+        <button class="preset-btn" data-minutes="30">30m</button>
+        <button class="preset-btn" data-minutes="60">1h</button>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls">
+        <button class="btn btn-secondary" id="resetBtn">Reset</button>
+        <button class="btn btn-primary" id="startBtn">Start</button>
+      </div>
+    </div>
+
+    <!-- Sound toggle -->
+    <button class="sound-toggle active" id="soundToggle" title="Toggle sound">
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+        <path d="M15.54 8.46a5 5 0 0 1 0 7.07" class="sound-wave"></path>
+        <path d="M19.07 4.93a10 10 0 0 1 0 14.14" class="sound-wave"></path>
+      </svg>
+    </button>
+
+    <script>
+      // State
+      let totalSeconds = 20 * 60;
+      let remainingSeconds = totalSeconds;
+      let isRunning = false;
+      let isPaused = false;
+      let intervalId = null;
+      let soundEnabled = true;
+      let audioContext = null;
+      let endTime = null;
+
+      // Elements
+      const timerSvg = document.getElementById("timerSvg");
+      const wedge = document.getElementById("wedge");
+      const timeDisplay = document.getElementById("timeDisplay");
+      const timeLabel = document.getElementById("timeLabel");
+      const startBtn = document.getElementById("startBtn");
+      const resetBtn = document.getElementById("resetBtn");
+      const soundToggle = document.getElementById("soundToggle");
+      const presetBtns = document.querySelectorAll(".preset-btn");
+      const themeBtns = document.querySelectorAll(".theme-btn");
+      const gradStop1 = document.getElementById("gradStop1");
+      const gradStop2 = document.getElementById("gradStop2");
+
+      // Constants
+      const CX = 150,
+        CY = 150,
+        RADIUS = 137;
+      const MAX_MINUTES = 60;
+
+      // Theme colors - OKLCH with hex fallbacks for SVG gradients
+      const themes = {
+        coral: {
+          color: "oklch(63% 0.24 27)",
+          dark: "oklch(58% 0.22 27)",
+          glow: "oklch(63% 0.24 27 / 25%)",
+          hex: "#ef4444",
+          hexDark: "#dc2626",
+        },
+        ocean: {
+          color: "oklch(60% 0.2 250)",
+          dark: "oklch(55% 0.2 250)",
+          glow: "oklch(60% 0.2 250 / 25%)",
+          hex: "#3b82f6",
+          hexDark: "#2563eb",
+        },
+        forest: {
+          color: "oklch(72% 0.19 145)",
+          dark: "oklch(65% 0.19 145)",
+          glow: "oklch(72% 0.19 145 / 25%)",
+          hex: "#22c55e",
+          hexDark: "#16a34a",
+        },
+        sunset: {
+          color: "oklch(70% 0.2 50)",
+          dark: "oklch(65% 0.2 50)",
+          glow: "oklch(70% 0.2 50 / 25%)",
+          hex: "#f97316",
+          hexDark: "#ea580c",
+        },
+        violet: {
+          color: "oklch(55% 0.25 300)",
+          dark: "oklch(50% 0.25 300)",
+          glow: "oklch(55% 0.25 300 / 25%)",
+          hex: "#8b5cf6",
+          hexDark: "#7c3aed",
+        },
+        slate: {
+          color: "oklch(55% 0.03 250)",
+          dark: "oklch(45% 0.03 250)",
+          glow: "oklch(55% 0.03 250 / 25%)",
+          hex: "#64748b",
+          hexDark: "#475569",
+        },
+      };
+
+      // Initialize
+      function init() {
+        createTickMarks();
+        updateDisplay();
+        setupEventListeners();
+        loadPreferences();
+      }
+
+      function createTickMarks() {
+        const g = document.getElementById("tickMarks");
+        const innerRadius = 127;
+        const outerRadiusMinor = 133;
+        const outerRadiusMajor = 137;
+
+        for (let i = 0; i < 60; i++) {
+          const angle = ((i * 6 - 90) * Math.PI) / 180; // Start from 12 o'clock
+          const isMajor = i % 5 === 0;
+          const outerR = isMajor ? outerRadiusMajor : outerRadiusMinor;
+
+          const x1 = CX + innerRadius * Math.cos(angle);
+          const y1 = CY + innerRadius * Math.sin(angle);
+          const x2 = CX + outerR * Math.cos(angle);
+          const y2 = CY + outerR * Math.sin(angle);
+
+          const line = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "line",
+          );
+          line.setAttribute("x1", x1);
+          line.setAttribute("y1", y1);
+          line.setAttribute("x2", x2);
+          line.setAttribute("y2", y2);
+          line.setAttribute("class", isMajor ? "tick-major" : "tick-minor");
+          g.appendChild(line);
+        }
+      }
+
+      function setupEventListeners() {
+        let isDragging = false;
+
+        timerSvg.addEventListener("mousedown", startDrag);
+        timerSvg.addEventListener("touchstart", startDrag, { passive: false });
+        document.addEventListener("mousemove", drag);
+        document.addEventListener("touchmove", drag, { passive: false });
+        document.addEventListener("mouseup", endDrag);
+        document.addEventListener("touchend", endDrag);
+
+        function startDrag(e) {
+          if (isRunning && !isPaused) return;
+          isDragging = true;
+          document.body.classList.add("setting");
+          handleDrag(e);
+        }
+
+        function drag(e) {
+          if (!isDragging) return;
+          handleDrag(e);
+        }
+
+        function endDrag() {
+          if (isDragging) {
+            isDragging = false;
+            document.body.classList.remove("setting");
+          }
+        }
+
+        function handleDrag(e) {
+          e.preventDefault();
+          const rect = timerSvg.getBoundingClientRect();
+          const centerX = rect.left + rect.width / 2;
+          const centerY = rect.top + rect.height / 2;
+
+          const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+          const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+
+          // Calculate angle from center, with 12 o'clock as 0
+          // Counter-clockwise direction for setting
+          let angle = Math.atan2(clientY - centerY, clientX - centerX);
+          angle = angle + Math.PI / 2; // Rotate so 12 o'clock is 0
+          if (angle < 0) angle += Math.PI * 2;
+
+          // Invert for counter-clockwise
+          const fraction = 1 - angle / (Math.PI * 2);
+          const minutes = Math.round(fraction * MAX_MINUTES);
+          const clampedMinutes = Math.max(
+            1,
+            Math.min(MAX_MINUTES, minutes === 0 ? 60 : minutes),
+          );
+
+          totalSeconds = clampedMinutes * 60;
+          remainingSeconds = totalSeconds;
+          updateDisplay();
+          updatePresetHighlight();
+        }
+
+        // Preset buttons
+        presetBtns.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            if (isRunning && !isPaused) return;
+            const minutes = parseInt(btn.dataset.minutes);
+            totalSeconds = minutes * 60;
+            remainingSeconds = totalSeconds;
+            updateDisplay();
+            updatePresetHighlight();
+          });
+        });
+
+        // Theme buttons
+        themeBtns.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            setTheme(btn.dataset.theme);
+          });
+        });
+
+        // Control buttons
+        startBtn.addEventListener("click", toggleTimer);
+        resetBtn.addEventListener("click", resetTimer);
+
+        // Sound toggle
+        soundToggle.addEventListener("click", () => {
+          soundEnabled = !soundEnabled;
+          soundToggle.classList.toggle("active", soundEnabled);
+          localStorage.setItem("visualTimerSound", soundEnabled);
+        });
+
+        // Keyboard shortcuts
+        document.addEventListener("keydown", (e) => {
+          if (e.code === "Space") {
+            e.preventDefault();
+            toggleTimer();
+          } else if (e.code === "Escape" || e.code === "KeyR") {
+            resetTimer();
+          }
+        });
+      }
+
+      function setTheme(themeName) {
+        const theme = themes[themeName];
+        if (!theme) return;
+
+        document.documentElement.style.setProperty(
+          "--timer-color",
+          theme.color,
+        );
+        document.documentElement.style.setProperty(
+          "--timer-color-dark",
+          theme.dark,
+        );
+        document.documentElement.style.setProperty("--timer-glow", theme.glow);
+
+        // Update SVG gradient (use hex fallbacks for SVG compatibility)
+        gradStop1.style.stopColor = theme.hex;
+        gradStop2.style.stopColor = theme.hexDark;
+
+        themeBtns.forEach((btn) => {
+          btn.classList.toggle("active", btn.dataset.theme === themeName);
+        });
+
+        localStorage.setItem("visualTimerTheme", themeName);
+      }
+
+      function loadPreferences() {
+        const savedTheme = localStorage.getItem("visualTimerTheme");
+        if (savedTheme && themes[savedTheme]) {
+          setTheme(savedTheme);
+        }
+
+        const savedSound = localStorage.getItem("visualTimerSound");
+        if (savedSound !== null) {
+          soundEnabled = savedSound === "true";
+          soundToggle.classList.toggle("active", soundEnabled);
+        }
+      }
+
+      function updateDisplay() {
+        // Calculate fraction of time remaining (relative to 60 minutes for visual)
+        const fraction = remainingSeconds / (MAX_MINUTES * 60);
+
+        // Update wedge
+        updateWedge(fraction);
+
+        // Update time display
+        const mins = Math.floor(remainingSeconds / 60);
+        const secs = remainingSeconds % 60;
+        timeDisplay.textContent = `${mins}:${secs.toString().padStart(2, "0")}`;
+
+        // Update label
+        if (!isRunning && !isPaused) {
+          timeLabel.textContent = "drag to set";
+        } else if (isPaused) {
+          timeLabel.textContent = "paused";
+        } else {
+          timeLabel.textContent = "remaining";
+        }
+      }
+
+      function updateWedge(fraction) {
+        if (fraction <= 0) {
+          wedge.setAttribute("d", "");
+          return;
+        }
+
+        if (fraction >= 1) {
+          // Full circle
+          wedge.setAttribute(
+            "d",
+            `
+                    M ${CX} ${CY}
+                    m 0 -${RADIUS}
+                    a ${RADIUS} ${RADIUS} 0 1 0 0 ${RADIUS * 2}
+                    a ${RADIUS} ${RADIUS} 0 1 0 0 -${RADIUS * 2}
+                    Z
+                `,
+          );
+          return;
+        }
+
+        const angle = fraction * 2 * Math.PI;
+
+        // Start at 12 o'clock, go counter-clockwise
+        // So the "empty" part grows clockwise as time passes
+        const startX = CX;
+        const startY = CY - RADIUS;
+
+        // End point (counter-clockwise from 12 o'clock)
+        const endX = CX - RADIUS * Math.sin(angle);
+        const endY = CY - RADIUS * Math.cos(angle);
+
+        const largeArc = angle > Math.PI ? 1 : 0;
+
+        // Counter-clockwise arc (sweep-flag = 0)
+        const d = `M ${CX} ${CY} L ${startX} ${startY} A ${RADIUS} ${RADIUS} 0 ${largeArc} 0 ${endX} ${endY} Z`;
+        wedge.setAttribute("d", d);
+      }
+
+      function updatePresetHighlight() {
+        const currentMinutes = totalSeconds / 60;
+        presetBtns.forEach((btn) => {
+          btn.classList.toggle(
+            "active",
+            parseInt(btn.dataset.minutes) === currentMinutes,
+          );
+        });
+      }
+
+      function toggleTimer() {
+        if (!isRunning) {
+          startTimer();
+        } else if (isPaused) {
+          resumeTimer();
+        } else {
+          pauseTimer();
+        }
+      }
+
+      function tickTimer() {
+        if (!endTime) return;
+        const remaining = Math.max(
+          0,
+          Math.ceil((endTime - Date.now()) / 1000),
+        );
+        if (remaining !== remainingSeconds) {
+          remainingSeconds = remaining;
+          updateDisplay();
+        }
+        if (remainingSeconds <= 0) {
+          completeTimer();
+        }
+      }
+
+      function startTimer() {
+        if (remainingSeconds <= 0) {
+          remainingSeconds = totalSeconds;
+          updateDisplay();
+        }
+        isRunning = true;
+        isPaused = false;
+        endTime = Date.now() + remainingSeconds * 1000;
+        document.body.classList.add("running");
+        document.body.classList.remove("paused", "complete");
+        startBtn.textContent = "Pause";
+
+        tickTimer();
+        intervalId = setInterval(tickTimer, 250);
+      }
+
+      function pauseTimer() {
+        isPaused = true;
+        if (endTime) {
+          remainingSeconds = Math.max(
+            0,
+            Math.ceil((endTime - Date.now()) / 1000),
+          );
+        }
+        document.body.classList.remove("running");
+        document.body.classList.add("paused");
+        startBtn.textContent = "Resume";
+        clearInterval(intervalId);
+      }
+
+      function resumeTimer() {
+        isPaused = false;
+        document.body.classList.add("running");
+        document.body.classList.remove("paused");
+        startBtn.textContent = "Pause";
+        endTime = Date.now() + remainingSeconds * 1000;
+        tickTimer();
+        intervalId = setInterval(tickTimer, 250);
+      }
+
+      function resetTimer() {
+        clearInterval(intervalId);
+        isRunning = false;
+        isPaused = false;
+        remainingSeconds = totalSeconds;
+        endTime = null;
+        document.body.classList.remove("running", "paused", "complete");
+        startBtn.textContent = "Start";
+        updateDisplay();
+      }
+
+      function completeTimer() {
+        clearInterval(intervalId);
+        isRunning = false;
+        isPaused = false;
+        endTime = null;
+        document.body.classList.remove("running", "paused");
+        document.body.classList.add("complete");
+        startBtn.textContent = "Start";
+        timeLabel.textContent = "complete";
+
+        if (soundEnabled) {
+          playCompletionSound();
+        }
+
+        setTimeout(() => {
+          document.body.classList.remove("complete");
+        }, 2000);
+      }
+
+      function playCompletionSound() {
+        if (!audioContext) {
+          audioContext = new (window.AudioContext ||
+            window.webkitAudioContext)();
+        }
+
+        // Pleasant ascending chime
+        const notes = [523.25, 659.25, 783.99, 1046.5]; // C5, E5, G5, C6
+        const now = audioContext.currentTime;
+
+        notes.forEach((freq, i) => {
+          const osc = audioContext.createOscillator();
+          const gain = audioContext.createGain();
+
+          osc.type = "sine";
+          osc.frequency.value = freq;
+
+          gain.gain.setValueAtTime(0, now + i * 0.12);
+          gain.gain.linearRampToValueAtTime(0.25, now + i * 0.12 + 0.03);
+          gain.gain.exponentialRampToValueAtTime(0.01, now + i * 0.12 + 0.4);
+
+          osc.connect(gain);
+          gain.connect(audioContext.destination);
+
+          osc.start(now + i * 0.12);
+          osc.stop(now + i * 0.12 + 0.4);
+        });
+      }
+
+      // Initialize on load
+      init();
+    </script>
+  </body>
+</html>

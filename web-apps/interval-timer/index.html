@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Simple interval timer for workouts with visual color-coded phases"
+    />
+    <meta name="theme-color" content="#6366f1" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link
+      rel="canonical"
+      href="https://yoonholee.com/web-apps/interval-timer/"
+    />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Interval Timer" />
+    <meta
+      property="og:description"
+      content="Simple interval timer for workouts with visual color-coded phases"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://yoonholee.com/web-apps/interval-timer/"
+    />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Interval Timer" />
+    <meta
+      name="twitter:description"
+      content="Simple interval timer for workouts with visual color-coded phases"
+    />
+    <title>Interval Timer</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <style>
+      :root {
+        color-scheme: light;
+
+        /* Core palette - OKLCH */
+        --bg-primary: oklch(98% 0.002 250);
+        --bg-elevated: oklch(100% 0 0);
+        --border-subtle: oklch(0% 0 0 / 8%);
+        --text-primary: oklch(20% 0.02 260);
+        --text-secondary: oklch(55% 0.02 260);
+        --accent: oklch(55% 0.25 270);
+
+        /* Phase colors - OKLCH with color-mix() */
+        --bar-green: oklch(72% 0.19 145);
+        --bar-red: oklch(63% 0.24 27);
+        --phase-green: color-mix(in oklch, var(--bar-green) 15%, white);
+        --phase-red: color-mix(in oklch, var(--bar-red) 15%, white);
+      }
+
+      /* Fallback for browsers without modern CSS support */
+      @supports not (color: oklch(50% 0.1 0)) {
+        :root {
+          --bg-primary: #f9fafb;
+          --bg-elevated: #ffffff;
+          --border-subtle: rgba(0, 0, 0, 0.08);
+          --text-primary: #111827;
+          --text-secondary: #6b7280;
+          --accent: #6366f1;
+          --phase-green: #dcfce7;
+          --phase-red: #fee2e2;
+          --bar-green: #22c55e;
+          --bar-red: #ef4444;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        font-family:
+          "Inter",
+          system-ui,
+          -apple-system,
+          sans-serif;
+      }
+
+      @supports (font-variation-settings: normal) {
+        html {
+          font-family:
+            "Inter var",
+            system-ui,
+            -apple-system,
+            sans-serif;
+        }
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        transition: background-color 0.4s ease;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        body,
+        #progress,
+        .btn-primary,
+        .btn-primary::before,
+        .btn-ghost {
+          transition: none;
+          animation: none;
+        }
+      }
+
+      /* View Transitions */
+      @view-transition {
+        navigation: auto;
+      }
+
+      #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        padding: 2rem;
+      }
+
+      /* Primary Button - Start/Reset */
+      .btn-primary {
+        position: relative;
+        font-size: 1.25rem;
+        font-weight: 600;
+        padding: 1rem 3rem;
+        border: none;
+        outline: none;
+        color: #fff;
+        background: linear-gradient(135deg, var(--accent) 0%, #8b5cf6 100%);
+        cursor: pointer;
+        border-radius: 12px;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        font-family: inherit;
+        letter-spacing: -0.01em;
+        box-shadow:
+          0 0 0 1px rgba(255, 255, 255, 0.2) inset,
+          0 4px 16px rgba(99, 102, 241, 0.35);
+        transition:
+          transform 0.15s ease,
+          box-shadow 0.15s ease;
+        z-index: 1;
+        overflow: hidden;
+      }
+
+      .btn-primary::before {
+        content: "";
+        position: absolute;
+        inset: -2px;
+        background: linear-gradient(
+          135deg,
+          var(--accent),
+          #8b5cf6,
+          #ec4899,
+          #8b5cf6,
+          var(--accent)
+        );
+        background-size: 300% 300%;
+        border-radius: 14px;
+        z-index: -2;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+        animation: glow-shift 4s ease infinite;
+      }
+
+      .btn-primary::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(135deg, var(--accent) 0%, #8b5cf6 100%);
+        border-radius: 12px;
+        z-index: -1;
+      }
+
+      @keyframes glow-shift {
+        0%,
+        100% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow:
+          0 0 0 1px rgba(255, 255, 255, 0.15) inset,
+          0 8px 32px rgba(99, 102, 241, 0.4);
+      }
+
+      .btn-primary:hover::before {
+        opacity: 1;
+        filter: blur(12px);
+      }
+
+      .btn-primary:active {
+        transform: translateY(0) scale(0.98);
+        box-shadow:
+          0 0 0 1px rgba(255, 255, 255, 0.1) inset,
+          0 2px 8px rgba(99, 102, 241, 0.3);
+      }
+
+      /* Ghost Button - Pause/Resume */
+      .btn-ghost {
+        font-size: 0.9rem;
+        font-weight: 500;
+        padding: 0.625rem 1.5rem;
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
+        background: transparent;
+        color: var(--text-secondary);
+        cursor: pointer;
+        font-family: inherit;
+        letter-spacing: -0.01em;
+        transition: all 0.15s ease;
+        margin-bottom: 2rem;
+      }
+
+      .btn-ghost:hover {
+        border-color: rgba(0, 0, 0, 0.15);
+        color: var(--text-primary);
+        background: rgba(0, 0, 0, 0.03);
+      }
+
+      .btn-ghost:active {
+        transform: scale(0.98);
+      }
+
+      .btn-ghost:disabled {
+        opacity: 0.3;
+        cursor: not-allowed;
+        transform: none;
+      }
+
+      .btn-ghost:disabled:hover {
+        border-color: var(--border-subtle);
+        color: var(--text-secondary);
+        background: transparent;
+      }
+
+      /* Cycle Info */
+      #cycleInfo {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--text-secondary);
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+      }
+
+      /* Timer Display */
+      #time {
+        font-size: 5rem;
+        font-weight: 700;
+        font-family: "Inter var", "Inter", ui-monospace, "SF Mono", monospace;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: -0.02em;
+        line-height: 1;
+        margin: 0.5rem 0;
+      }
+
+      /* Progress Bar */
+      #progressBar {
+        width: 320px;
+        max-width: 80vw;
+        height: 8px;
+        background: var(--bg-elevated);
+        border-radius: 4px;
+        overflow: hidden;
+        border: 1px solid var(--border-subtle);
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.06);
+      }
+
+      #progress {
+        height: 100%;
+        background: var(--bar-green);
+        border-radius: 3px;
+        transition:
+          width 0.1s linear,
+          background-color 0.4s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Done state */
+      .done #time {
+        text-shadow: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="main">
+      <button class="btn-primary" id="resetBtn" onclick="resetAndStart()">
+        Start
+      </button>
+      <button class="btn-ghost" id="pauseBtn" onclick="pauseTimer()" disabled>
+        Pause
+      </button>
+      <div id="cycleInfo"></div>
+      <div id="time"></div>
+      <div id="progressBar">
+        <div id="progress"></div>
+      </div>
+    </div>
+    <script>
+      let currentTimer = null;
+      let currentInterval = null;
+      const totalCycles = 10;
+      const phases = [
+        { dur: 3000, color: "#dcfce7", bar: "#22c55e", label: "Green" },
+        { dur: 2000, color: "#fee2e2", bar: "#ef4444", label: "Red" },
+      ];
+      let cycle = 0;
+      let phaseIdx = 0;
+      let phaseEnd = 0;
+      let timerState = {
+        running: false,
+        paused: false,
+        remaining: 0,
+      };
+
+      function clearTimers() {
+        if (currentTimer) clearTimeout(currentTimer);
+        if (currentInterval) clearInterval(currentInterval);
+      }
+
+      function updateUI(remain) {
+        document.body.style.backgroundColor = phases[phaseIdx].color;
+        document.body.classList.remove("done");
+        document.getElementById("cycleInfo").textContent = `Set ${
+          cycle + 1
+        } / ${totalCycles}`;
+        document.getElementById("time").textContent =
+          (remain / 1000).toFixed(1) + "s";
+        const progress = document.getElementById("progress");
+        const total = phases[phaseIdx].dur;
+        if (phaseIdx === 0) {
+          progress.style.width = ((total - remain) / total) * 100 + "%";
+        } else {
+          progress.style.width = (remain / total) * 100 + "%";
+        }
+        progress.style.backgroundColor = phases[phaseIdx].bar;
+      }
+
+      function runPhase() {
+        if (cycle >= totalCycles) {
+          document.body.style.backgroundColor = "var(--bg-primary)";
+          document.body.classList.add("done");
+          document.getElementById("cycleInfo").textContent = "Complete";
+          document.getElementById("time").textContent = "";
+          document.getElementById("progress").style.width = "0%";
+          document.getElementById("resetBtn").textContent = "Reset";
+          document.getElementById("pauseBtn").disabled = true;
+          timerState.running = false;
+          return;
+        }
+        const duration = phases[phaseIdx].dur;
+        phaseEnd = Date.now() + duration;
+        updateUI(duration);
+
+        currentInterval = setInterval(() => {
+          const remain = Math.max(0, phaseEnd - Date.now());
+          updateUI(remain);
+        }, 50);
+
+        currentTimer = setTimeout(() => {
+          clearInterval(currentInterval);
+          if (phaseIdx === 1) cycle++;
+          phaseIdx = (phaseIdx + 1) % 2;
+          runPhase();
+        }, duration);
+      }
+
+      function resumePhase(remainingTime) {
+        phaseEnd = Date.now() + remainingTime;
+        updateUI(remainingTime);
+
+        currentInterval = setInterval(() => {
+          const remain = Math.max(0, phaseEnd - Date.now());
+          updateUI(remain);
+        }, 50);
+
+        currentTimer = setTimeout(() => {
+          clearInterval(currentInterval);
+          if (phaseIdx === 1) cycle++;
+          phaseIdx = (phaseIdx + 1) % 2;
+          runPhase();
+        }, remainingTime);
+      }
+
+      function resetAndStart() {
+        clearTimers();
+        cycle = 0;
+        phaseIdx = 0;
+        timerState = { running: true, paused: false, remaining: 0 };
+        document.getElementById("resetBtn").textContent = "Reset";
+        document.getElementById("pauseBtn").textContent = "Pause";
+        document.getElementById("pauseBtn").disabled = false;
+        runPhase();
+      }
+
+      function pauseTimer() {
+        if (!timerState.running) return;
+
+        if (!timerState.paused) {
+          timerState.paused = true;
+          clearTimers();
+          timerState.remaining = Math.max(0, phaseEnd - Date.now());
+          document.getElementById("pauseBtn").textContent = "Resume";
+        } else {
+          timerState.paused = false;
+          document.getElementById("pauseBtn").textContent = "Pause";
+          resumePhase(timerState.remaining);
+        }
+      }
+    </script>
+  </body>
+</html>

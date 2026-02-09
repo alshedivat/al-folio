@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Canvas</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Inter", sans-serif;
+        overflow: hidden;
+        background: #f0f0f0;
+      }
+
+      #canvas-container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background: #fafafa;
+        cursor: grab;
+        overflow: hidden;
+      }
+
+      #canvas-container.panning {
+        cursor: grabbing;
+      }
+
+      #canvas {
+        position: absolute;
+        width: 5000px;
+        height: 5000px;
+        background: #fafafa;
+        transform-origin: 0 0;
+      }
+
+      .note-square {
+        position: absolute;
+        min-width: 100px;
+        max-width: 250px;
+        min-height: 80px;
+        max-height: 300px;
+        padding: 15px 20px;
+        cursor: move;
+        border-radius: 8px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: black;
+        font-weight: 500;
+        user-select: none;
+        transition: transform 0.1s ease;
+        font-family: "Inter", sans-serif;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align: left;
+        line-height: 1.4;
+        overflow-wrap: break-word;
+        hyphens: auto;
+      }
+
+      .note-square:hover {
+        transform: scale(1.05);
+      }
+
+      .note-square.dragging {
+        transform: scale(1.1);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      }
+
+      .note-square.editing {
+        cursor: text;
+        user-select: text;
+      }
+
+      .note-square.editing .note-content {
+        user-select: text;
+      }
+
+      .note-content {
+        width: 100%;
+        outline: none;
+        border: none;
+        background: transparent;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+        color: inherit;
+        line-height: inherit;
+        text-align: inherit;
+        word-wrap: inherit;
+        word-break: inherit;
+        overflow-wrap: inherit;
+        hyphens: inherit;
+      }
+
+      .note-controls {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        display: flex;
+        gap: 2px;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+      }
+
+      .note-square:hover .note-controls {
+        opacity: 1;
+      }
+
+      .note-btn {
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: bold;
+        transition: transform 0.1s ease;
+      }
+
+      .note-btn:hover {
+        transform: scale(1.1);
+      }
+
+      .delete-btn {
+        background: #ff4757;
+        color: white;
+      }
+
+      .connection-point {
+        position: absolute;
+        right: -8px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #6b7280;
+        border: 2px solid white;
+        cursor: crosshair;
+        opacity: 0;
+        transition: all 0.2s ease;
+        z-index: 10;
+      }
+
+      .note-square:hover .connection-point {
+        opacity: 1;
+      }
+
+      .connection-point:hover {
+        background: #374151;
+        transform: translateY(-50%) scale(1.2);
+      }
+
+      .connecting {
+        border-width: 2px !important;
+        border-color: #94a3b8 !important;
+      }
+
+      #connections-svg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        z-index: 1;
+      }
+
+      #connections-svg * {
+        pointer-events: none;
+      }
+
+      .red {
+        background: #ffe3e3;
+      }
+      .blue {
+        background: #e3f9f7;
+      }
+      .green {
+        background: #e3f2fd;
+      }
+      .yellow {
+        background: #fff9e3;
+      }
+      .purple {
+        background: #f3e8ff;
+      }
+      .orange {
+        background: #ffe8f1;
+      }
+      .teal {
+        background: #e3f7f4;
+      }
+      .indigo {
+        background: #eae7ff;
+      }
+
+      #text-input-container {
+        position: fixed;
+        bottom: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        background: rgba(255, 255, 255, 0.95);
+        padding: 12px 20px;
+        border-radius: 25px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        backdrop-filter: blur(10px);
+      }
+
+      #text-input {
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 16px;
+        width: 300px;
+        color: #333;
+        font-family: "Inter", sans-serif;
+      }
+
+      #text-input::placeholder {
+        color: #999;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="canvas-container">
+      <div id="canvas">
+        <svg id="connections-svg"></svg>
+        <div
+          class="note-square red"
+          data-id="1"
+          style="left: 300px; top: 250px"
+        >
+          <div class="note-content" contenteditable="true">example note</div>
+          <div class="note-controls">
+            <button class="note-btn delete-btn" onclick="deleteNote(this)">
+              ×
+            </button>
+          </div>
+          <div class="connection-point" onclick="startConnection(this)"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="text-input-container">
+      <input
+        type="text"
+        id="text-input"
+        placeholder="Type your note and press Enter..."
+      />
+    </div>
+
+    <script>
+      class NoteCanvas {
+        constructor() {
+          this.container = document.getElementById("canvas-container");
+          this.canvas = document.getElementById("canvas");
+          this.textInput = document.getElementById("text-input");
+          this.connectionsSvg = document.getElementById("connections-svg");
+
+          this.isDragging = false;
+          this.isPanning = false;
+          this.isDragConnecting = false;
+          this.draggedNote = null;
+          this.dragConnectFrom = null;
+          this.connectingMode = false;
+          this.connectingFrom = null;
+
+          this.startX = 0;
+          this.startY = 0;
+          this.canvasX = 0;
+          this.canvasY = 0;
+          this.scale = 1;
+          this.noteCounter = 2;
+          this.colorIndex = 1;
+
+          this.colors = [
+            "red",
+            "blue",
+            "green",
+            "yellow",
+            "purple",
+            "orange",
+            "teal",
+            "indigo",
+          ];
+          this.connections = new Map();
+
+          this.init();
+        }
+
+        init() {
+          this.setupEventListeners();
+          this.centerCanvas();
+        }
+
+        centerCanvas() {
+          this.canvasX = 0;
+          this.canvasY = 0;
+          this.updateCanvasTransform();
+        }
+
+        setupEventListeners() {
+          this.setupNoteDragListeners();
+          this.container.addEventListener("mousedown", (e) => this.startPan(e));
+          document.addEventListener("mousemove", (e) =>
+            this.handleMouseMove(e),
+          );
+          document.addEventListener("mouseup", () => this.endDrag());
+          document.addEventListener("click", (e) => {
+            if (!e.target.closest(".note-square")) {
+              this.stopEditing();
+            }
+          });
+          this.container.addEventListener("contextmenu", (e) =>
+            e.preventDefault(),
+          );
+          this.container.addEventListener("wheel", (e) => this.handleWheel(e));
+          this.textInput.addEventListener("keypress", (e) =>
+            this.handleTextInput(e),
+          );
+        }
+
+        setupNoteDragListeners() {
+          const notes = document.querySelectorAll(".note-square");
+          notes.forEach((note) => {
+            note.addEventListener("mousedown", (e) => this.startNoteDrag(e));
+            note.addEventListener("dblclick", (e) =>
+              this.copyNoteToClipboard(e),
+            );
+
+            const noteContent = note.querySelector(".note-content");
+            if (
+              noteContent &&
+              !noteContent.hasAttribute("data-listeners-added")
+            ) {
+              noteContent.addEventListener("input", () =>
+                this.updateConnectionsForNote(note),
+              );
+              noteContent.addEventListener("blur", () =>
+                this.updateConnectionsForNote(note),
+              );
+              noteContent.setAttribute("data-listeners-added", "true");
+            }
+          });
+        }
+
+        startNoteDrag(e) {
+          if (e.target.classList.contains("connection-point")) {
+            this.startDragConnection(e);
+            return;
+          }
+
+          if (e.target.classList.contains("note-content")) {
+            this.startEditing(e.target);
+            return;
+          }
+
+          if (e.target.closest(".note-controls")) {
+            return;
+          }
+
+          e.stopPropagation();
+          this.isDragging = true;
+          this.draggedNote = e.target.closest(".note-square");
+          this.draggedNote.classList.add("dragging");
+
+          const canvasRect = this.canvas.getBoundingClientRect();
+          this.startX = (e.clientX - canvasRect.left) / this.scale;
+          this.startY = (e.clientY - canvasRect.top) / this.scale;
+
+          const noteLeft = parseInt(this.draggedNote.style.left);
+          const noteTop = parseInt(this.draggedNote.style.top);
+
+          this.offsetX = this.startX - noteLeft;
+          this.offsetY = this.startY - noteTop;
+        }
+
+        startEditing(contentElement) {
+          const note = contentElement.closest(".note-square");
+          note.classList.add("editing");
+          contentElement.focus();
+
+          const range = document.createRange();
+          const selection = window.getSelection();
+          range.selectNodeContents(contentElement);
+          range.collapse(false);
+          selection.removeAllRanges();
+          selection.addRange(range);
+        }
+
+        stopEditing() {
+          const editingNotes = document.querySelectorAll(
+            ".note-square.editing",
+          );
+          editingNotes.forEach((note) => {
+            note.classList.remove("editing");
+          });
+        }
+
+        startDragConnection(e) {
+          e.stopPropagation();
+          this.isDragConnecting = true;
+          this.dragConnectFrom = e.target.closest(".note-square");
+          this.dragConnectFrom.classList.add("connecting");
+          document.body.style.cursor = "crosshair";
+        }
+
+        startPan(e) {
+          if (this.isDragging) return;
+
+          this.isPanning = true;
+          this.container.classList.add("panning");
+          this.startX = e.clientX;
+          this.startY = e.clientY;
+          this.startCanvasX = this.canvasX;
+          this.startCanvasY = this.canvasY;
+        }
+
+        handleMouseMove(e) {
+          if (this.isDragConnecting) {
+            return;
+          } else if (this.isDragging && this.draggedNote) {
+            const canvasRect = this.canvas.getBoundingClientRect();
+            const x = (e.clientX - canvasRect.left) / this.scale - this.offsetX;
+            const y = (e.clientY - canvasRect.top) / this.scale - this.offsetY;
+
+            this.draggedNote.style.left = Math.max(0, x) + "px";
+            this.draggedNote.style.top = Math.max(0, y) + "px";
+
+            this.updateConnectionsForNote(this.draggedNote);
+          } else if (this.isPanning) {
+            const deltaX = e.clientX - this.startX;
+            const deltaY = e.clientY - this.startY;
+
+            this.canvasX = this.startCanvasX + deltaX;
+            this.canvasY = this.startCanvasY + deltaY;
+
+            this.updateCanvasTransform();
+          }
+        }
+
+        endDrag() {
+          if (this.isDragConnecting && this.dragConnectFrom) {
+            const elementBelow = document.elementFromPoint(
+              event.clientX,
+              event.clientY,
+            );
+            const targetNote = elementBelow
+              ? elementBelow.closest(".note-square")
+              : null;
+
+            if (targetNote && targetNote !== this.dragConnectFrom) {
+              this.createConnection(this.dragConnectFrom, targetNote);
+            } else if (!targetNote) {
+              const rect = this.container.getBoundingClientRect();
+              const x = (event.clientX - rect.left - this.canvasX) / this.scale;
+              const y = (event.clientY - rect.top - this.canvasY) / this.scale;
+              const newNote = this.createNote("", x, y);
+              this.createConnection(this.dragConnectFrom, newNote);
+            }
+
+            this.dragConnectFrom.classList.remove("connecting");
+            this.isDragConnecting = false;
+            this.dragConnectFrom = null;
+            document.body.style.cursor = "";
+          }
+
+          if (this.draggedNote) {
+            this.draggedNote.classList.remove("dragging");
+            this.draggedNote = null;
+          }
+
+          this.isDragging = false;
+          this.isPanning = false;
+          this.container.classList.remove("panning");
+        }
+
+        copyNoteToClipboard(e) {
+          e.stopPropagation();
+          const note = e.target.closest(".note-square");
+          const noteContent = note.querySelector(".note-content");
+          const noteText = noteContent.textContent.trim();
+
+          navigator.clipboard.writeText(noteText).catch((err) => {
+            console.error("Failed to copy text: ", err);
+          });
+        }
+
+        handleWheel(e) {
+          e.preventDefault();
+
+          const zoomFactor = 0.1;
+          const oldScale = this.scale;
+
+          if (e.deltaY < 0) {
+            this.scale = Math.min(this.scale * (1 + zoomFactor), 3);
+          } else {
+            this.scale = Math.max(this.scale * (1 - zoomFactor), 0.3);
+          }
+
+          if (this.scale !== oldScale) {
+            const rect = this.container.getBoundingClientRect();
+            const mouseX = e.clientX - rect.left;
+            const mouseY = e.clientY - rect.top;
+
+            const scaleRatio = this.scale / oldScale;
+
+            this.canvasX = mouseX - (mouseX - this.canvasX) * scaleRatio;
+            this.canvasY = mouseY - (mouseY - this.canvasY) * scaleRatio;
+
+            this.updateCanvasTransform();
+          }
+        }
+
+        updateCanvasTransform() {
+          this.canvas.style.transform = `translate(${this.canvasX}px, ${this.canvasY}px) scale(${this.scale})`;
+        }
+
+        handleTextInput(e) {
+          if (e.key === "Enter" && this.textInput.value.trim()) {
+            this.createNote(this.textInput.value.trim());
+            this.textInput.value = "";
+          }
+        }
+
+        createNote(text, x, y) {
+          const note = document.createElement("div");
+          note.className = `note-square ${this.colors[this.colorIndex]}`;
+          note.setAttribute("data-id", this.noteCounter);
+
+          note.innerHTML = `
+                    <div class="note-content" contenteditable="true">${text}</div>
+                    <div class="note-controls">
+                        <button class="note-btn delete-btn" onclick="deleteNote(this)">×</button>
+                    </div>
+                    <div class="connection-point" onclick="startConnection(this)"></div>
+                `;
+
+          if (x !== undefined && y !== undefined) {
+            note.style.left = Math.max(0, x) + "px";
+            note.style.top = Math.max(0, y) + "px";
+          } else {
+            const containerRect = this.container.getBoundingClientRect();
+            const centerX =
+              (-this.canvasX + containerRect.width / 2) / this.scale - 100;
+            const centerY =
+              (-this.canvasY + containerRect.height / 2) / this.scale - 50;
+            note.style.left = Math.max(0, centerX) + "px";
+            note.style.top = Math.max(0, centerY) + "px";
+          }
+
+          this.canvas.appendChild(note);
+
+          this.noteCounter++;
+          this.colorIndex = (this.colorIndex + 1) % this.colors.length;
+
+          this.setupNoteDragListeners();
+
+          return note;
+        }
+
+        createConnection(fromNote, toNote) {
+          if (fromNote === toNote) return;
+
+          const connectionId = `${fromNote.dataset.id}-${toNote.dataset.id}`;
+
+          if (this.connections.has(connectionId)) return;
+
+          if (!this.connectionsSvg.querySelector("#arrowhead")) {
+            const defs = document.createElementNS(
+              "http://www.w3.org/2000/svg",
+              "defs",
+            );
+            const marker = document.createElementNS(
+              "http://www.w3.org/2000/svg",
+              "marker",
+            );
+            const arrowPath = document.createElementNS(
+              "http://www.w3.org/2000/svg",
+              "path",
+            );
+
+            marker.setAttribute("id", "arrowhead");
+            marker.setAttribute("markerWidth", "7.5");
+            marker.setAttribute("markerHeight", "5.25");
+            marker.setAttribute("refX", "6.75");
+            marker.setAttribute("refY", "2.625");
+            marker.setAttribute("orient", "auto");
+
+            arrowPath.setAttribute("d", "M 0 0 L 7.5 2.625 L 0 5.25 z");
+            arrowPath.setAttribute("fill", "#6b7280");
+
+            marker.appendChild(arrowPath);
+            defs.appendChild(marker);
+            this.connectionsSvg.appendChild(defs);
+          }
+
+          const path = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "path",
+          );
+          path.setAttribute("stroke", "#6b7280");
+          path.setAttribute("stroke-width", "2");
+          path.setAttribute("fill", "none");
+          path.setAttribute("marker-end", "url(#arrowhead)");
+          path.setAttribute("data-connection-id", connectionId);
+
+          this.connectionsSvg.appendChild(path);
+
+          this.connections.set(connectionId, {
+            fromNote,
+            toNote,
+            path,
+          });
+
+          this.updateConnectionPath(connectionId);
+        }
+
+        updateConnectionPath(connectionId) {
+          const connection = this.connections.get(connectionId);
+          if (!connection) return;
+
+          const { fromNote, toNote, path } = connection;
+          const fromRect = fromNote.getBoundingClientRect();
+          const toRect = toNote.getBoundingClientRect();
+          const canvasRect = this.canvas.getBoundingClientRect();
+
+          const fromX = (fromRect.right - canvasRect.left) / this.scale;
+          const fromY =
+            (fromRect.top + fromRect.height / 2 - canvasRect.top) / this.scale;
+          const toX = (toRect.left - canvasRect.left) / this.scale;
+          const toY =
+            (toRect.top + toRect.height / 2 - canvasRect.top) / this.scale;
+
+          const controlOffset = Math.abs(toX - fromX) * 0.5;
+          const pathData = `M ${fromX} ${fromY} C ${
+            fromX + controlOffset
+          } ${fromY}, ${toX - controlOffset} ${toY}, ${toX} ${toY}`;
+
+          path.setAttribute("d", pathData);
+        }
+
+        updateConnectionsForNote(note) {
+          for (const [connectionId, connection] of this.connections) {
+            if (connection.fromNote === note || connection.toNote === note) {
+              this.updateConnectionPath(connectionId);
+            }
+          }
+        }
+      }
+
+      function deleteNote(button) {
+        const note = button.closest(".note-square");
+        const canvas = window.noteCanvas;
+
+        for (const [connectionId, connection] of canvas.connections) {
+          if (connection.fromNote === note || connection.toNote === note) {
+            connection.path.remove();
+            canvas.connections.delete(connectionId);
+          }
+        }
+
+        note.remove();
+      }
+
+      function startConnection(connectionPoint) {
+        const note = connectionPoint.closest(".note-square");
+        const canvas = window.noteCanvas;
+
+        if (canvas.connectingMode && canvas.connectingFrom) {
+          if (canvas.connectingFrom !== note) {
+            canvas.createConnection(canvas.connectingFrom, note);
+          }
+          canvas.connectingFrom.classList.remove("connecting");
+          canvas.connectingMode = false;
+          canvas.connectingFrom = null;
+        } else {
+          canvas.connectingMode = true;
+          canvas.connectingFrom = note;
+          note.classList.add("connecting");
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", () => {
+        window.noteCanvas = new NoteCanvas();
+      });
+    </script>
+  </body>
+</html>
+
+<!-- TODO
+1.	Clear-canvas command – one button that wipes #canvas and localStorage. Pure DOM removal and map reset.
+2.	Local persistence – auto-save the notes[] array and connections[] map to localStorage on every mutation and rehydrate on DOMContentLoaded.
+3.	Zoom-to-fit button – compute bounding box of all notes, set canvasX/Y and scale so the box fills the viewport with margin.
+4.	Hover/active states – add CSS :hover and :active rules plus a “dragging” overlay to amplify feedback; zero JS logic.
+5.	Snap-to-grid on drag-end – round left/top to nearest GRID = 20 in endDrag(); optional toggle.
+6.	Multi-select drag box – draw semi-transparent rect on mousedown, hit-test notes, move selected set as one; reuse existing drag logic.
+7.	Undo/redo stack – push deep-cloned state before each mutating action, pop/apply on Ctrl-Z / Ctrl-Shift-Z.
+8.	Keyboard shortcuts – Enter = new note, Delete = remove selection, Arrow keys = nudge. Minimal event listeners.
+9.	LLM integration hook – add context-menu item “Ask LLM”, POST note text to backend, stream reply into new linked note. Low UI cost but server dependency.
+10.	External MCP server link – mirror local JSON to remote via WebSocket; latency handling and auth raise complexity.
+-->

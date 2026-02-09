@@ -1,0 +1,559 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A collection of useful web utilities by Yoonho Lee"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link rel="canonical" href="https://yoonholee.com/web-apps/" />
+    <meta property="og:title" content="Web Apps" />
+    <meta
+      property="og:description"
+      content="A collection of useful web utilities"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yoonholee.com/web-apps/" />
+    <title>Web Apps</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <style>
+      :root {
+        color-scheme: light;
+
+        /* Core palette - OKLCH for perceptual consistency */
+        --bg-primary: oklch(100% 0 0);
+        --bg-secondary: oklch(98% 0.002 250);
+        --bg-elevated: oklch(100% 0 0);
+        --bg-card: oklch(100% 0 0 / 80%);
+        --border-subtle: oklch(0% 0 0 / 6%);
+        --border-hover: oklch(0% 0 0 / 12%);
+        --text-primary: oklch(20% 0.02 260);
+        --text-secondary: oklch(55% 0.02 260);
+        --text-tertiary: oklch(70% 0.015 260);
+        --accent: oklch(55% 0.25 270);
+        --accent-glow: oklch(55% 0.25 270 / 10%);
+      }
+
+      /* Fallback for browsers without modern CSS support */
+      @supports not (color: oklch(50% 0.1 0)) {
+        :root {
+          --bg-primary: #ffffff;
+          --bg-secondary: #f9fafb;
+          --bg-elevated: #ffffff;
+          --bg-card: rgba(255, 255, 255, 0.8);
+          --border-subtle: rgba(0, 0, 0, 0.06);
+          --border-hover: rgba(0, 0, 0, 0.12);
+          --text-primary: #111827;
+          --text-secondary: #6b7280;
+          --text-tertiary: #9ca3af;
+          --accent: #6366f1;
+          --accent-glow: rgba(99, 102, 241, 0.1);
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      .noise {
+        position: fixed;
+        inset: 0;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+        opacity: 0.015;
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .gradient-bg {
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(
+            circle at 30% 30%,
+            oklch(55% 0.25 270 / 4%) 0%,
+            transparent 50%
+          ),
+          radial-gradient(
+            circle at 70% 70%,
+            oklch(60% 0.25 300 / 3%) 0%,
+            transparent 40%
+          );
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .container {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 6rem 1.5rem;
+      }
+
+      header {
+        margin-bottom: 4rem;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: clamp(2.5rem, 6vw, 3.5rem);
+        font-weight: 600;
+        letter-spacing: -0.03em;
+        line-height: 1.1;
+        margin-bottom: 1rem;
+        background: linear-gradient(
+          180deg,
+          var(--text-primary) 0%,
+          var(--text-secondary) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .subtitle {
+        color: var(--text-secondary);
+        font-size: 1.1rem;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      }
+
+      .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        background: var(--bg-card);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid var(--border-subtle);
+        border-radius: 16px;
+        text-decoration: none;
+        color: inherit;
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        overflow: hidden;
+        box-shadow:
+          0 1px 3px rgba(0, 0, 0, 0.04),
+          0 1px 2px rgba(0, 0, 0, 0.06);
+      }
+
+      .card::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.8) 0%,
+          transparent 40%
+        );
+        border-radius: inherit;
+        pointer-events: none;
+      }
+
+      .card:hover {
+        border-color: var(--border-hover);
+        transform: translateY(-2px);
+        box-shadow:
+          0 4px 6px -1px rgba(0, 0, 0, 0.08),
+          0 2px 4px -1px rgba(0, 0, 0, 0.04),
+          0 20px 25px -5px rgba(0, 0, 0, 0.08);
+      }
+
+      .card-icon {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--bg-secondary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 10px;
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+      }
+
+      .card-title {
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: -0.01em;
+        margin-bottom: 0.5rem;
+        color: var(--text-primary);
+      }
+
+      .card-desc {
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+        line-height: 1.5;
+        flex: 1;
+      }
+
+      .card-arrow {
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        width: 20px;
+        height: 20px;
+        color: var(--text-tertiary);
+        transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .card:hover .card-arrow {
+        color: var(--text-secondary);
+        transform: translate(2px, -2px);
+      }
+
+      .card--featured {
+        grid-column: span 2;
+        background: linear-gradient(
+          135deg,
+          oklch(55% 0.25 270 / 6%) 0%,
+          oklch(60% 0.25 300 / 3%) 100%
+        );
+      }
+
+      .card--featured:hover {
+        border-color: oklch(55% 0.25 270 / 30%);
+        box-shadow:
+          0 4px 6px -1px oklch(55% 0.25 270 / 10%),
+          0 2px 4px -1px oklch(0% 0 0 / 4%),
+          0 20px 25px -5px oklch(55% 0.25 270 / 10%);
+      }
+
+      .card--featured .card-icon {
+        background: linear-gradient(
+          135deg,
+          var(--accent) 0%,
+          oklch(60% 0.25 300) 100%
+        );
+        border: none;
+      }
+
+      footer {
+        margin-top: 5rem;
+        text-align: center;
+      }
+
+      footer a {
+        color: var(--text-tertiary);
+        text-decoration: none;
+        font-size: 0.875rem;
+        transition: color 0.15s;
+      }
+
+      footer a:hover {
+        color: var(--text-secondary);
+      }
+
+      @media (max-width: 640px) {
+        .container {
+          padding: 4rem 1rem;
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+
+        .card--featured {
+          grid-column: span 1;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+
+      /* View Transitions for smooth navigation */
+      @view-transition {
+        navigation: auto;
+      }
+
+      ::view-transition-old(root),
+      ::view-transition-new(root) {
+        animation-duration: 0.2s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="noise"></div>
+    <div class="gradient-bg"></div>
+
+    <div class="container">
+      <header>
+        <h1>Web Apps</h1>
+      </header>
+
+      <div class="grid">
+        <a
+          href="https://yoonholee.com/web-apps/bibtex/"
+          class="card card--featured"
+        >
+          <svg
+            class="card-arrow"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7 17L17 7M17 7H7M17 7V17"
+            />
+          </svg>
+          <div class="card-icon">📚</div>
+          <div class="card-title">Paper BibTeX Lookup</div>
+          <div class="card-desc">
+            Paste an arXiv ID, DOI, or paper title to get BibTeX instantly
+          </div>
+        </a>
+
+        <a href="https://yoonholee.com/web-apps/niw-current/" class="card">
+          <svg
+            class="card-arrow"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7 17L17 7M17 7H7M17 7V17"
+            />
+          </svg>
+          <div class="card-icon">📊</div>
+          <div class="card-title">EB-2 NIW Visa Bulletin</div>
+          <div class="card-desc">
+            Interactive charts tracking Dates for Filing and Final Action Dates
+          </div>
+        </a>
+
+        <a
+          href="https://yoonholee.com/web-apps/conference-deadlines/"
+          class="card"
+        >
+          <svg
+            class="card-arrow"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7 17L17 7M17 7H7M17 7V17"
+            />
+          </svg>
+          <div class="card-icon">📅</div>
+          <div class="card-title">ML Conference Deadlines</div>
+          <div class="card-desc">
+            Countdown timers for NeurIPS, ICML, ICLR, ACL, and more
+          </div>
+        </a>
+
+        <a href="https://yoonholee.com/web-apps/ttc/" class="card">
+          <svg
+            class="card-arrow"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7 17L17 7M17 7H7M17 7V17"
+            />
+          </svg>
+          <div class="card-icon">☯</div>
+          <div class="card-title">Tao Te Ching</div>
+          <div class="card-desc">
+            Read all 81 verses with six translations side by side
+          </div>
+        </a>
+
+        <a href="https://yoonholee.com/web-apps/interval-timer/" class="card">
+          <svg
+            class="card-arrow"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7 17L17 7M17 7H7M17 7V17"
+            />
+          </svg>
+          <div class="card-icon">⏱</div>
+          <div class="card-title">Interval Timer</div>
+          <div class="card-desc">
+            Visual color-coded timer for interval workouts
+          </div>
+        </a>
+
+        <a href="https://yoonholee.com/web-apps/visual-timer/" class="card">
+          <svg
+            class="card-arrow"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7 17L17 7M17 7H7M17 7V17"
+            />
+          </svg>
+          <div class="card-icon">⏲</div>
+          <div class="card-title">Visual Timer</div>
+          <div class="card-desc">
+            Countdown timer with disappearing disk to see time remaining at a
+            glance
+          </div>
+        </a>
+
+        <a
+          href="https://yoonholee.com/web-apps/presentation-timer/"
+          class="card"
+        >
+          <svg
+            class="card-arrow"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7 17L17 7M17 7H7M17 7V17"
+            />
+          </svg>
+          <div class="card-icon">🎤</div>
+          <div class="card-title">Presentation Timer</div>
+          <div class="card-desc">
+            Segmented timer with traffic light colors for talks and
+            presentations
+          </div>
+        </a>
+
+        <a href="https://yoonholee.com/web-apps/slurm-generator/" class="card">
+          <svg
+            class="card-arrow"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7 17L17 7M17 7H7M17 7V17"
+            />
+          </svg>
+          <div class="card-icon">🖥</div>
+          <div class="card-title">Slurm Generator</div>
+          <div class="card-desc">
+            Generate sbatch scripts and Slurm commands with presets
+          </div>
+        </a>
+
+        <a
+          href="https://yoonholee.com/web-apps/instruction-datasets/"
+          class="card"
+        >
+          <svg
+            class="card-arrow"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7 17L17 7M17 7H7M17 7V17"
+            />
+          </svg>
+          <div class="card-icon">📋</div>
+          <div class="card-title">Instruction Datasets</div>
+          <div class="card-desc">
+            Explore samples from IFEval, Arena-Hard, WildBench, and more
+          </div>
+        </a>
+
+        <a
+          href="https://yoonholee.com/web-apps/benchmark-visualizer/"
+          class="card"
+        >
+          <svg
+            class="card-arrow"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="M7 17L17 7M17 7H7M17 7V17"
+            />
+          </svg>
+          <div class="card-icon">📊</div>
+          <div class="card-title">Benchmark Visualizer</div>
+          <div class="card-desc">
+            Browse samples from GPQA, SWE-Bench, MMMU, HumanEval, and more
+          </div>
+        </a>
+      </div>
+
+      <footer>
+        <a href="https://yoonholee.com">yoonholee.com</a>
+      </footer>
+    </div>
+  </body>
+</html>

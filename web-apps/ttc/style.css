@@ -1,0 +1,380 @@
+@import url("https://rsms.me/inter/inter.css");
+
+:root {
+  color-scheme: light;
+
+  /* Core palette - OKLCH */
+  --bg-primary: oklch(98% 0.002 250);
+  --bg-secondary: oklch(100% 0 0);
+  --bg-elevated: oklch(100% 0 0);
+  --border-subtle: oklch(0% 0 0 / 8%);
+  --border-hover: oklch(0% 0 0 / 15%);
+  --text-primary: oklch(15% 0.02 260);
+  --text-secondary: oklch(55% 0.02 260);
+  --text-tertiary: oklch(70% 0.015 260);
+  --accent: oklch(55% 0.25 270);
+  --accent-hover: color-mix(in oklch, var(--accent) 85%, black);
+
+  --transition-fast: 150ms ease;
+  --transition-normal: 200ms ease;
+}
+
+/* Fallback for browsers without modern CSS support */
+@supports not (color: oklch(50% 0.1 0)) {
+  :root {
+    --bg-primary: #fafafa;
+    --bg-secondary: #ffffff;
+    --bg-elevated: #ffffff;
+    --border-subtle: rgba(0, 0, 0, 0.08);
+    --border-hover: rgba(0, 0, 0, 0.15);
+    --text-primary: #1a1a1a;
+    --text-secondary: #6b7280;
+    --text-tertiary: #9ca3af;
+    --accent: #6366f1;
+    --accent-hover: #5558e3;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+html {
+  font-feature-settings:
+    "liga" 1,
+    "calt" 1;
+}
+
+body {
+  margin: 0;
+  padding: 32px;
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  line-height: 1.6;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+/* Translation Buttons - Pill/Chip Style */
+#translations {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.translation-btn {
+  padding: 8px 16px;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-secondary);
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  color: var(--text-secondary);
+  outline: none;
+  transition: all var(--transition-fast);
+}
+
+.translation-btn:hover {
+  background: var(--bg-elevated);
+  border-color: var(--border-hover);
+  color: var(--text-primary);
+}
+
+.translation-btn:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.translation-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.translation-btn.active:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+/* Main Layout */
+#main {
+  display: flex;
+  gap: 48px;
+  align-items: flex-start;
+}
+
+/* Verse Number Grid */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(9, 40px);
+  grid-template-rows: repeat(9, 40px);
+  gap: 4px;
+  background: var(--bg-secondary);
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+  outline: none;
+  transition: all var(--transition-fast);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.cell:hover {
+  background: rgba(99, 102, 241, 0.08);
+  border-color: var(--accent);
+  color: var(--text-primary);
+}
+
+.cell:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+}
+
+.cell.selected {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.cell.selected:hover {
+  background: var(--accent-hover);
+}
+
+/* Random Button */
+#random {
+  margin-top: 16px;
+  padding: 12px;
+  cursor: pointer;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-secondary);
+  border-radius: 50%;
+  transition: all var(--transition-normal);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+#random img {
+  width: 40px !important;
+  height: 40px !important;
+  opacity: 0.8;
+  transition: opacity var(--transition-fast);
+}
+
+#random:hover {
+  background: var(--bg-elevated);
+  border-color: var(--border-hover);
+}
+
+#random:hover img {
+  opacity: 1;
+}
+
+#random:active {
+  transform: scale(0.95);
+}
+
+#random:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+  outline: none;
+}
+
+/* Tooltip */
+#random::after {
+  content: "Random Chapter (Space or Enter)";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--bg-elevated);
+  color: var(--text-secondary);
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border-subtle);
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity var(--transition-normal),
+    visibility var(--transition-normal);
+  margin-left: 12px;
+  font-family: "Inter", sans-serif;
+}
+
+#random::before {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 5px solid transparent;
+  border-right-color: var(--border-subtle);
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity var(--transition-normal),
+    visibility var(--transition-normal);
+  margin-left: 2px;
+}
+
+#random:hover::after,
+#random:hover::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Viewer - Optimized for Poetry Reading */
+#viewer {
+  flex: 1;
+  padding: 40px 48px;
+  min-height: 400px;
+  background: oklch(99.5% 0.01 90);
+  border: 1px solid var(--border-subtle);
+  border-radius: 16px;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--text-primary);
+  letter-spacing: 0.01em;
+  box-shadow:
+    0 1px 3px oklch(0% 0 0 / 4%),
+    0 4px 12px oklch(0% 0 0 / 3%);
+}
+
+/* Fallback for viewer background */
+@supports not (color: oklch(50% 0.1 0)) {
+  #viewer {
+    background: #fffdf9;
+  }
+}
+
+#viewer em {
+  color: var(--text-tertiary);
+  font-style: italic;
+}
+
+#viewer div {
+  max-width: 600px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  body {
+    padding: 20px;
+  }
+
+  #main {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  #grid {
+    justify-self: center;
+  }
+
+  #viewer {
+    padding: 24px 32px;
+    font-size: 17px;
+  }
+
+  #random {
+    align-self: center;
+  }
+
+  #random::after,
+  #random::before {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  #grid {
+    grid-template-columns: repeat(9, 32px);
+    grid-template-rows: repeat(9, 32px);
+    padding: 8px;
+    gap: 3px;
+  }
+
+  .cell {
+    font-size: 11px;
+  }
+
+  #translations {
+    gap: 6px;
+  }
+
+  .translation-btn {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  #viewer {
+    padding: 20px 24px;
+    font-size: 16px;
+    line-height: 1.9;
+  }
+}
+
+/* View Transitions */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.2s;
+}
+
+/* Scroll-driven animation for verse content */
+@keyframes verse-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#viewer div {
+  animation: verse-fade-in 0.3s ease-out;
+}

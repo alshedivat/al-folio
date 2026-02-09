@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Convert arXiv URLs, DOIs, and paper titles to BibTeX citations instantly"
+    />
+    <meta name="theme-color" content="#6366f1" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link rel="canonical" href="https://yoonholee.com/web-apps/bibtex/" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Paper BibTeX Lookup" />
+    <meta
+      property="og:description"
+      content="Convert arXiv URLs, DOIs, and paper titles to BibTeX citations instantly"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yoonholee.com/web-apps/bibtex/" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Paper BibTeX Lookup" />
+    <meta
+      name="twitter:description"
+      content="Convert arXiv URLs, DOIs, and paper titles to BibTeX citations instantly"
+    />
+    <title>Paper BibTeX Lookup</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <style>
+      :root {
+        color-scheme: light;
+
+        /* Core palette - OKLCH */
+        --bg-primary: oklch(100% 0 0);
+        --bg-secondary: oklch(98% 0.002 250);
+        --bg-elevated: oklch(96% 0.003 250);
+        --bg-card: oklch(100% 0 0 / 90%);
+        --border-subtle: oklch(0% 0 0 / 8%);
+        --border-hover: oklch(0% 0 0 / 15%);
+        --text-primary: oklch(15% 0.02 260);
+        --text-secondary: oklch(55% 0.02 260);
+        --text-tertiary: oklch(70% 0.015 260);
+        --accent: oklch(55% 0.25 270);
+        --accent-glow: oklch(55% 0.25 270 / 10%);
+        --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+        --success: oklch(72% 0.19 145);
+        --success-glow: oklch(72% 0.19 145 / 10%);
+        --error: oklch(63% 0.24 27);
+        --error-glow: oklch(63% 0.24 27 / 8%);
+      }
+
+      /* Fallback for browsers without modern CSS support */
+      @supports not (color: oklch(50% 0.1 0)) {
+        :root {
+          --bg-primary: #ffffff;
+          --bg-secondary: #f9fafb;
+          --bg-elevated: #f3f4f6;
+          --bg-card: rgba(255, 255, 255, 0.9);
+          --border-subtle: rgba(0, 0, 0, 0.08);
+          --border-hover: rgba(0, 0, 0, 0.15);
+          --text-primary: #111827;
+          --text-secondary: #6b7280;
+          --text-tertiary: #9ca3af;
+          --accent: #6366f1;
+          --accent-glow: rgba(99, 102, 241, 0.1);
+          --success: #22c55e;
+          --success-glow: rgba(34, 197, 94, 0.1);
+          --error: #ef4444;
+          --error-glow: rgba(239, 68, 68, 0.08);
+        }
+      }
+
+      /* View Transitions */
+      @view-transition {
+        navigation: auto;
+      }
+
+      ::view-transition-old(root),
+      ::view-transition-new(root) {
+        animation-duration: 0.2s;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+      }
+
+      @supports (font-variation-settings: normal) {
+        html {
+          font-family:
+            "Inter var",
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            sans-serif;
+        }
+      }
+
+      body {
+        min-height: 100vh;
+        background: var(--bg-primary);
+        color: var(--text-primary);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem 1.5rem;
+        position: relative;
+        overflow-x: hidden;
+      }
+
+      /* Noise texture overlay - hidden for light theme */
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+        opacity: 0;
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      /* Gradient accent orbs - subtle for light theme */
+      body::after {
+        content: "";
+        position: fixed;
+        top: -30%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1000px;
+        height: 600px;
+        background: radial-gradient(
+          ellipse at center,
+          rgba(99, 102, 241, 0.04) 0%,
+          transparent 70%
+        );
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 640px;
+        position: relative;
+        z-index: 1;
+      }
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        margin-bottom: 0.5rem;
+        color: var(--text-primary);
+      }
+
+      .subtitle {
+        color: var(--text-secondary);
+        font-size: 0.9375rem;
+        margin-bottom: 2.5rem;
+        line-height: 1.5;
+      }
+
+      .input-group {
+        display: flex;
+        gap: 0.75rem;
+        margin-bottom: 1rem;
+      }
+
+      input[type="text"] {
+        flex: 1;
+        padding: 0.875rem 1rem;
+        font-size: 0.9375rem;
+        font-family: inherit;
+        background: var(--bg-elevated);
+        border: 1px solid var(--border-subtle);
+        border-radius: 10px;
+        color: var(--text-primary);
+        outline: none;
+        transition: all 0.2s var(--transition-smooth);
+      }
+
+      input[type="text"]::placeholder {
+        color: var(--text-tertiary);
+      }
+
+      input[type="text"]:hover {
+        border-color: var(--border-hover);
+      }
+
+      input[type="text"]:focus {
+        border-color: var(--accent);
+        background: #ffffff;
+        box-shadow: 0 0 0 3px var(--accent-glow);
+      }
+
+      .btn-primary {
+        padding: 0.875rem 1.5rem;
+        font-size: 0.9375rem;
+        font-weight: 500;
+        font-family: inherit;
+        background: linear-gradient(135deg, var(--accent) 0%, #4f46e5 100%);
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.2s var(--transition-smooth);
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+
+      .btn-primary::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          135deg,
+          rgba(255, 255, 255, 0.1) 0%,
+          transparent 50%
+        );
+        opacity: 0;
+        transition: opacity 0.2s var(--transition-smooth);
+      }
+
+      .btn-primary:hover:not(:disabled) {
+        transform: translateY(-1px);
+        box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+      }
+
+      .btn-primary:hover:not(:disabled)::before {
+        opacity: 1;
+      }
+
+      .btn-primary:active:not(:disabled) {
+        transform: translateY(0);
+      }
+
+      .btn-primary:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .examples {
+        font-size: 0.8125rem;
+        color: var(--text-tertiary);
+        margin-bottom: 2rem;
+        line-height: 1.8;
+      }
+
+      .examples code {
+        background: var(--bg-elevated);
+        border: 1px solid var(--border-subtle);
+        padding: 0.25rem 0.5rem;
+        border-radius: 5px;
+        font-size: 0.75rem;
+        font-family: "SF Mono", "Fira Code", "Monaco", monospace;
+        color: var(--text-secondary);
+        transition: all 0.15s var(--transition-smooth);
+      }
+
+      .examples code:hover {
+        border-color: var(--border-hover);
+        color: var(--text-primary);
+      }
+
+      #output {
+        display: none;
+        margin-top: 1.5rem;
+      }
+
+      #output.visible {
+        display: block;
+        animation: fadeIn 0.3s var(--transition-smooth);
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(8px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .output-card {
+        background: var(--bg-card);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        border: 1px solid var(--border-subtle);
+        border-radius: 14px;
+        overflow: hidden;
+        box-shadow:
+          0 1px 3px rgba(0, 0, 0, 0.04),
+          0 4px 12px rgba(0, 0, 0, 0.03);
+      }
+
+      .output-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 1.25rem;
+        border-bottom: 1px solid var(--border-subtle);
+      }
+
+      .output-header h3 {
+        font-size: 0.8125rem;
+        font-weight: 500;
+        letter-spacing: -0.02em;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      .copy-btn {
+        padding: 0.5rem 0.875rem;
+        font-size: 0.8125rem;
+        font-weight: 500;
+        font-family: inherit;
+        background: var(--bg-elevated);
+        border: 1px solid var(--border-subtle);
+        border-radius: 6px;
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: all 0.15s var(--transition-smooth);
+        display: flex;
+        align-items: center;
+        gap: 0.375rem;
+      }
+
+      .copy-btn:hover {
+        background: #e5e7eb;
+        border-color: var(--border-hover);
+        color: var(--text-primary);
+      }
+
+      .copy-btn.copied {
+        background: var(--success-glow);
+        border-color: rgba(34, 197, 94, 0.3);
+        color: var(--success);
+      }
+
+      .copy-btn svg {
+        width: 14px;
+        height: 14px;
+      }
+
+      pre {
+        margin: 0;
+        padding: 1.25rem;
+        background: transparent;
+        color: var(--text-primary);
+        font-family: "SF Mono", "Fira Code", "Monaco", monospace;
+        font-size: 0.8125rem;
+        line-height: 1.7;
+        overflow-x: auto;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+
+      .error {
+        color: var(--error);
+        background: var(--error-glow);
+        padding: 1rem 1.25rem;
+        border-radius: 8px;
+        font-family: inherit;
+        font-size: 0.875rem;
+        border: 1px solid rgba(239, 68, 68, 0.2);
+      }
+
+      /* Loading skeleton shimmer */
+      .loading-skeleton {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .loading-skeleton .skeleton-line {
+        height: 1rem;
+        background: var(--bg-elevated);
+        border-radius: 4px;
+        margin-bottom: 0.75rem;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .loading-skeleton .skeleton-line:last-child {
+        margin-bottom: 0;
+        width: 60%;
+      }
+
+      .loading-skeleton .skeleton-line::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          90deg,
+          transparent 0%,
+          rgba(255, 255, 255, 0.8) 50%,
+          transparent 100%
+        );
+        animation: shimmer 1.5s infinite;
+      }
+
+      @keyframes shimmer {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+
+      /* Reduced motion support */
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          animation-iteration-count: 1 !important;
+          transition-duration: 0.01ms !important;
+        }
+
+        .loading-skeleton .skeleton-line::after {
+          animation: none;
+          background: rgba(255, 255, 255, 0.5);
+        }
+      }
+
+      /* Responsive adjustments */
+      @media (max-width: 480px) {
+        body {
+          padding: 2rem 1rem;
+        }
+
+        h1 {
+          font-size: 1.5rem;
+        }
+
+        .input-group {
+          flex-direction: column;
+        }
+
+        .btn-primary {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Paper BibTeX Lookup</h1>
+      <p class="subtitle">
+        Paste an arXiv URL, DOI, or OpenReview URL to get BibTeX
+      </p>
+
+      <div class="input-group">
+        <input
+          type="text"
+          id="input"
+          placeholder="1706.03762 or arxiv URL or DOI or paper title"
+        />
+        <button class="btn-primary" id="lookup" onclick="lookup()">
+          Lookup
+        </button>
+      </div>
+
+      <div class="examples">
+        Examples: <code>1706.03762</code> <code>arxiv.org/abs/1706.03762</code>
+        <code>10.1038/nature14539</code> <code>Attention Is All You Need</code>
+      </div>
+
+      <div id="output">
+        <div class="output-card">
+          <div class="output-header">
+            <h3>BibTeX</h3>
+            <button class="copy-btn" onclick="copyBibtex()">
+              <svg
+                id="copy-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                <path
+                  d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"
+                ></path>
+              </svg>
+              <span id="copy-text">Copy</span>
+            </button>
+          </div>
+          <pre id="bibtex"></pre>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const input = document.getElementById("input");
+      const output = document.getElementById("output");
+      const bibtex = document.getElementById("bibtex");
+      const btn = document.getElementById("lookup");
+      const copyIcon = document.getElementById("copy-icon");
+      const copyText = document.getElementById("copy-text");
+
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") lookup();
+      });
+
+      function showLoadingSkeleton() {
+        bibtex.innerHTML = `
+                <div class="loading-skeleton">
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                    <div class="skeleton-line"></div>
+                </div>
+            `;
+      }
+
+      async function lookup() {
+        const query = input.value.trim();
+        if (!query) return;
+
+        btn.disabled = true;
+        btn.textContent = "Loading...";
+        output.classList.add("visible");
+        showLoadingSkeleton();
+
+        try {
+          const result = await fetchBibtex(query);
+          bibtex.textContent = result;
+        } catch (err) {
+          bibtex.textContent = "";
+          const errorSpan = document.createElement("span");
+          errorSpan.className = "error";
+          errorSpan.textContent = err.message;
+          bibtex.appendChild(errorSpan);
+        } finally {
+          btn.disabled = false;
+          btn.textContent = "Lookup";
+        }
+      }
+
+      async function fetchBibtex(query) {
+        // Normalize input
+        query = query.trim();
+
+        // Detect source type
+        // arXiv: URLs or bare IDs (new style: 1706.03762, old style: hep-th/9901001)
+        const arxivUrlMatch = query.match(
+          /arxiv\.org\/(?:abs|pdf)\/([^\s?#]+)/i,
+        );
+        const arxivNewId = query.match(/^(\d{4}\.\d{4,5})(v\d+)?$/);
+        const arxivOldId = query.match(/^([a-z-]+\/\d{7})(v\d+)?$/i);
+        const arxivPrefixId = query.match(/^arXiv:(\d{4}\.\d{4,5})(v\d+)?$/i);
+
+        // DOI
+        const doiMatch =
+          query.match(/^10\.\d{4,}\/\S+$/i) ||
+          query.match(/doi\.org\/(10\.\d{4,}\/\S+)/i);
+
+        // OpenReview
+        const openreviewMatch = query.match(
+          /openreview\.net\/forum\?id=([A-Za-z0-9_-]+)/i,
+        );
+
+        // Semantic Scholar
+        const s2Match = query.match(
+          /semanticscholar\.org\/paper\/[^\/]+\/([a-f0-9]+)/i,
+        );
+
+        if (arxivUrlMatch || arxivNewId || arxivOldId || arxivPrefixId) {
+          let arxivId =
+            arxivUrlMatch?.[1] ||
+            arxivNewId?.[1] ||
+            arxivOldId?.[1] ||
+            arxivPrefixId?.[1];
+          if (arxivId) {
+            arxivId = arxivId.replace(/\.pdf$/i, "");
+          }
+          return await fetchSemanticScholar(
+            `arXiv:${arxivId.replace(/v\d+$/, "")}`,
+          );
+        } else if (doiMatch) {
+          const doi = doiMatch[1] || doiMatch[0];
+          return await fetchSemanticScholar(`DOI:${doi}`);
+        } else if (openreviewMatch) {
+          const id = openreviewMatch[1];
+          return await fetchOpenReview(id);
+        } else if (s2Match) {
+          return await fetchSemanticScholar(s2Match[1]);
+        } else {
+          // Try as DOI if it has a slash
+          if (query.includes("/") && query.includes("10.")) {
+            return await fetchSemanticScholar(`DOI:${query}`);
+          }
+          // Try Semantic Scholar search as last resort
+          return await fetchSemanticScholarSearch(query);
+        }
+      }
+
+      async function fetchSemanticScholar(paperId) {
+        const fields =
+          "title,authors,year,venue,publicationVenue,externalIds,journal";
+        const url = `https://api.semanticscholar.org/graph/v1/paper/${encodeURIComponent(
+          paperId,
+        )}?fields=${fields}`;
+        const res = await fetch(url);
+
+        if (!res.ok) {
+          if (res.status === 404)
+            throw new Error(`Paper not found: ${paperId}`);
+          throw new Error(`API error: ${res.status}`);
+        }
+
+        const data = await res.json();
+        return formatBibtex(data);
+      }
+
+      async function fetchSemanticScholarSearch(query) {
+        const url = `https://api.semanticscholar.org/graph/v1/paper/search?query=${encodeURIComponent(
+          query,
+        )}&limit=1&fields=title,authors,year,venue,publicationVenue,externalIds,journal`;
+        const res = await fetch(url);
+
+        if (!res.ok) throw new Error(`Search failed: ${res.status}`);
+
+        const data = await res.json();
+        if (!data.data?.[0]) throw new Error("No papers found matching query");
+
+        return formatBibtex(data.data[0]);
+      }
+
+      function formatBibtex(paper) {
+        const title = paper.title || "Unknown";
+        const authors = (paper.authors || []).map((a) => a.name);
+        const year = paper.year || new Date().getFullYear();
+        const venue =
+          paper.publicationVenue?.name ||
+          paper.venue ||
+          paper.journal?.name ||
+          "";
+        const arxivId = paper.externalIds?.ArXiv;
+        const doi = paper.externalIds?.DOI;
+
+        // Generate citation key: firstauthorlastname + year + firstword
+        const firstAuthor =
+          authors[0]
+            ?.split(" ")
+            .pop()
+            ?.toLowerCase()
+            .replace(/[^a-z]/g, "") || "unknown";
+        const firstWord =
+          title
+            .split(/\s+/)[0]
+            ?.toLowerCase()
+            .replace(/[^a-z]/g, "") || "paper";
+        const key = `${firstAuthor}${year}${firstWord}`;
+
+        const authorStr = authors.join(" and ");
+
+        // Determine entry type
+        const isConference =
+          venue.toLowerCase().includes("conference") ||
+          venue.toLowerCase().includes("proceedings") ||
+          [
+            "neurips",
+            "nips",
+            "icml",
+            "iclr",
+            "cvpr",
+            "iccv",
+            "eccv",
+            "acl",
+            "emnlp",
+            "naacl",
+          ].some((v) => venue.toLowerCase().includes(v));
+
+        const entryType = isConference ? "inproceedings" : "article";
+        const venueField = isConference ? "booktitle" : "journal";
+
+        let bibtex = `@${entryType}{${key},
+  title={${title}},
+  author={${authorStr}},
+  ${venueField}={${
+    venue || (arxivId ? `arXiv preprint arXiv:${arxivId}` : "Unknown")
+  }},
+  year={${year}}`;
+        if (arxivId)
+          bibtex += `,\n  eprint={${arxivId}},\n  archivePrefix={arXiv}`;
+        if (doi) bibtex += `,\n  doi={${doi}}`;
+        bibtex += "\n}";
+
+        return bibtex;
+      }
+
+      async function fetchOpenReview(id) {
+        const url = `https://api.openreview.net/notes?id=${id}`;
+        const res = await fetch(url);
+
+        if (!res.ok) throw new Error(`OpenReview paper not found: ${id}`);
+
+        const data = await res.json();
+        const note = data.notes?.[0];
+
+        if (!note) throw new Error("Paper not found on OpenReview");
+
+        const content = note.content || {};
+        const title = content.title?.value || content.title || "Unknown";
+        const authors = content.authors?.value || content.authors || [];
+        const venue =
+          content.venue?.value ||
+          content.venue ||
+          note.invitation?.split("/")?.[1] ||
+          "";
+        const year = note.cdate
+          ? new Date(note.cdate).getFullYear()
+          : new Date().getFullYear();
+
+        const firstAuthor =
+          authors[0]?.split(" ").pop()?.toLowerCase() || "unknown";
+        const firstWord =
+          title
+            .split(/\s+/)[0]
+            ?.toLowerCase()
+            .replace(/[^a-z]/g, "") || "paper";
+        const key = `${firstAuthor}${year}${firstWord}`;
+
+        const authorStr = authors.join(" and ");
+
+        return `@inproceedings{${key},
+  title={${title}},
+  author={${authorStr}},
+  booktitle={${venue}},
+  year={${year}}
+}`;
+      }
+
+      function copyBibtex() {
+        const text = bibtex.textContent;
+        if (!text || text.includes("Fetching") || text.includes("Error"))
+          return;
+
+        navigator.clipboard.writeText(text);
+        const copyBtn = document.querySelector(".copy-btn");
+
+        // Update to checkmark icon
+        copyIcon.innerHTML = `
+                <polyline points="20 6 9 17 4 12"></polyline>
+            `;
+        copyText.textContent = "Copied!";
+        copyBtn.classList.add("copied");
+
+        setTimeout(() => {
+          copyIcon.innerHTML = `
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                `;
+          copyText.textContent = "Copy";
+          copyBtn.classList.remove("copied");
+        }, 1500);
+      }
+    </script>
+  </body>
+</html>

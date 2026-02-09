@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Track EB-2 NIW visa bulletin trends with interactive charts showing Dates for Filing and Final Action Dates"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="color-scheme" content="light" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link rel="canonical" href="https://yoonholee.com/web-apps/niw-current/" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="EB-2 NIW Visa Bulletin Trends" />
+    <meta
+      property="og:description"
+      content="Track EB-2 NIW visa bulletin trends with interactive charts"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://yoonholee.com/web-apps/niw-current/"
+    />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="EB-2 NIW Visa Bulletin Trends" />
+    <meta
+      name="twitter:description"
+      content="Track EB-2 NIW visa bulletin trends with interactive charts"
+    />
+    <title>EB-2 NIW Visa Bulletin Trends</title>
+    <link rel="preconnect" href="https://rsms.me" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"
+      integrity="sha384-jb8JQMbMoBUzgWatfe6COACi2ljcDdZQ2OxczGA3bGNeWe+6DChMTBJemed7ZnvJ"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"
+      integrity="sha384-cVMg8E3QFwTvGCDuK+ET4PD341jF3W8nO1auiXfuZNQkzbUUiBGLsIQUE+b1mxws"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@3.1.0/dist/chartjs-plugin-annotation.min.js"
+      integrity="sha384-3N9GHhCtN3CQef6tNfqgZlv7sQLYIkcChN+uaTZ7xVdzKYp/SjBNPxa92+hM7EAY"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>EB-2 NIW Visa Bulletin Trends</h1>
+      <div class="chart-container">
+        <canvas id="visaChart"></canvas>
+      </div>
+      <div class="info-panel">
+        <div id="prediction-info" class="prediction-box"></div>
+        <h3>What do these metrics mean?</h3>
+        <span class="legend-row"
+          ><span class="legend-color legend-dff"></span
+          ><strong>Dates for Filing</strong></span
+        >
+        <span class="legend-desc"
+          >Earliest date USCIS may allow you to submit Form I-485 (Adjustment of
+          Status). Provides access to EAD.</span
+        >
+        <span class="legend-row"
+          ><span class="legend-color legend-fad"></span
+          ><strong>Final Action Date</strong></span
+        >
+        <span class="legend-desc"
+          >Cutoff date for green card approval. USCIS can adjudicate Form I-485
+          and issue permanent residency only if your priority date is before
+          this date.</span
+        >
+      </div>
+      <div class="source-link">
+        <a
+          href="https://travel.state.gov/content/travel/en/legal/visa-law0/visa-bulletin.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Source: U.S. Department of State Visa Bulletin
+        </a>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

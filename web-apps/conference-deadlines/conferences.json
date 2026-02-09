@@ -1,0 +1,74 @@
+[
+  {
+    "name": "COLM 2025",
+    "url": "https://colmweb.org/",
+    "category": "ml",
+    "location": "Montreal, Canada",
+    "conferenceDate": "October 7-10, 2025",
+    "abstractDeadline": "2025-03-22T23:59:59-12:00",
+    "fullPaperDeadline": "2025-03-28T23:59:59-12:00"
+  },
+  {
+    "name": "EMNLP 2025",
+    "url": "https://2025.emnlp.org/",
+    "category": "nlp",
+    "location": "Suzhou, China",
+    "conferenceDate": "November 5-9, 2025",
+    "abstractDeadline": "2025-05-19T23:59:59-12:00",
+    "fullPaperDeadline": null
+  },
+  {
+    "name": "ICLR 2026",
+    "url": "https://iclr.cc/Conferences/2026",
+    "category": "ml",
+    "location": "Rio de Janeiro, Brazil",
+    "conferenceDate": "April 23-27, 2026",
+    "abstractDeadline": "2025-09-19T23:59:59-12:00",
+    "fullPaperDeadline": "2025-09-24T23:59:59-12:00"
+  },
+  {
+    "name": "ICML 2026",
+    "url": "https://icml.cc/Conferences/2026",
+    "category": "ml",
+    "location": "Seoul, South Korea",
+    "conferenceDate": "July 6-12, 2026",
+    "abstractDeadline": "2026-01-23T23:59:59-12:00",
+    "fullPaperDeadline": "2026-01-28T23:59:59-12:00"
+  },
+  {
+    "name": "ACL 2026",
+    "url": "https://2026.aclweb.org/",
+    "category": "nlp",
+    "location": "San Diego, CA",
+    "conferenceDate": "July 2-7, 2026",
+    "abstractDeadline": "2026-03-15T23:59:59-12:00",
+    "fullPaperDeadline": null
+  },
+  {
+    "name": "NeurIPS 2026",
+    "url": "https://neurips.cc/Conferences/2026",
+    "category": "ml",
+    "location": "TBD",
+    "conferenceDate": "December 2026",
+    "abstractDeadline": "2026-05-13T23:59:59-12:00",
+    "fullPaperDeadline": "2026-05-19T23:59:59-12:00"
+  },
+  {
+    "name": "EMNLP 2026",
+    "url": "https://2026.emnlp.org/",
+    "category": "nlp",
+    "location": "Budapest, Hungary",
+    "conferenceDate": "October 24-29, 2026",
+    "abstractDeadline": "2026-05-20T23:59:59-12:00",
+    "fullPaperDeadline": null
+  },
+  {
+    "name": "ICLR 2027",
+    "url": "https://iclr.cc/Conferences/2027",
+    "category": "ml",
+    "location": "TBD",
+    "conferenceDate": "April 2027 (estimated)",
+    "abstractDeadline": "2026-09-17T23:59:59-12:00",
+    "fullPaperDeadline": "2026-09-22T23:59:59-12:00"
+  }
+]

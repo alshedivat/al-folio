@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta name="description" content="Explore samples from popular ML evaluation benchmarks">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="/web-apps/manifest.json">
+    <link rel="canonical" href="https://yoonholee.com/web-apps/benchmark-visualizer/">
+    <meta property="og:title" content="Benchmark Dataset Visualizer">
+    <meta property="og:description" content="Explore samples from popular ML evaluation benchmarks">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yoonholee.com/web-apps/benchmark-visualizer/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Benchmark Dataset Visualizer">
+    <meta name="twitter:description" content="Explore samples from popular ML evaluation benchmarks">
+    <title>Benchmark Dataset Visualizer</title>
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <style>
+        :root {
+            color-scheme: light;
+
+            --bg-primary: oklch(100% 0 0);
+            --bg-secondary: oklch(98% 0.002 250);
+            --bg-elevated: oklch(96% 0.003 250);
+            --text-primary: oklch(20% 0.02 260);
+            --text-secondary: oklch(45% 0.02 260);
+            --text-tertiary: oklch(60% 0.015 260);
+            --accent: oklch(55% 0.25 270);
+            --accent-hover: oklch(50% 0.28 270);
+            --border-subtle: oklch(0% 0 0 / 10%);
+            --border-hover: oklch(0% 0 0 / 20%);
+            --color-green: oklch(72% 0.19 145);
+            --color-yellow: oklch(72% 0.17 85);
+            --color-red: oklch(72% 0.22 27);
+            --color-blue: oklch(65% 0.2 250);
+            --shadow-sm: 0 1px 2px oklch(0% 0 0 / 5%);
+            --shadow-md: 0 4px 12px oklch(0% 0 0 / 8%);
+        }
+
+        @supports not (color: oklch(50% 0.1 0)) {
+            :root {
+                --bg-primary: #ffffff;
+                --bg-secondary: #f9fafb;
+                --bg-elevated: #f3f4f6;
+                --text-primary: #111827;
+                --text-secondary: #6b7280;
+                --text-tertiary: #9ca3af;
+                --accent: #6366f1;
+                --accent-hover: #4f46e5;
+                --border-subtle: rgba(0, 0, 0, 0.1);
+                --border-hover: rgba(0, 0, 0, 0.2);
+                --color-green: #22c55e;
+                --color-yellow: #ca8a04;
+                --color-red: #dc2626;
+                --color-blue: #3b82f6;
+                --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+                --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        header {
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+        }
+
+        .dataset-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: var(--bg-primary);
+            border-radius: 12px;
+            border: 1px solid var(--border-subtle);
+        }
+
+        .dataset-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.15s ease;
+        }
+
+        .dataset-btn:hover {
+            background: var(--bg-elevated);
+            border-color: var(--border-hover);
+        }
+
+        .dataset-btn.active {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        .dataset-info {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .info-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.375rem 0.75rem;
+            background: var(--bg-elevated);
+            border-radius: 6px;
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+        }
+
+        .info-chip strong {
+            color: var(--text-primary);
+        }
+
+        .samples-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .sample-card {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-subtle);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: box-shadow 0.2s ease;
+        }
+
+        .sample-card:hover {
+            box-shadow: var(--shadow-md);
+        }
+
+        .sample-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 1.25rem;
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .sample-number {
+            font-weight: 600;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .sample-tags {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .tag-domain {
+            background: color-mix(in oklch, var(--color-blue) 15%, transparent);
+            color: var(--color-blue);
+        }
+
+        .tag-difficulty {
+            background: color-mix(in oklch, var(--color-yellow) 15%, transparent);
+            color: var(--color-yellow);
+        }
+
+        .sample-content {
+            padding: 1.25rem;
+        }
+
+        .field {
+            margin-bottom: 1rem;
+        }
+
+        .field:last-child {
+            margin-bottom: 0;
+        }
+
+        .field-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-tertiary);
+            margin-bottom: 0.375rem;
+        }
+
+        .field-value {
+            font-size: 0.9375rem;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .field-value.code {
+            font-family: 'SF Mono', 'Fira Code', monospace;
+            font-size: 0.8125rem;
+            background: var(--bg-secondary);
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+
+        .field-value.truncated {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .options-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .option-item {
+            padding: 0.5rem 0.75rem;
+            background: var(--bg-secondary);
+            border-radius: 6px;
+            font-size: 0.875rem;
+        }
+
+        .option-item.correct {
+            background: color-mix(in oklch, var(--color-green) 15%, transparent);
+            border-left: 3px solid var(--color-green);
+        }
+
+        .answer-box {
+            padding: 0.75rem 1rem;
+            background: color-mix(in oklch, var(--color-green) 10%, transparent);
+            border-left: 3px solid var(--color-green);
+            border-radius: 6px;
+        }
+
+        .grid-display {
+            display: inline-grid;
+            gap: 2px;
+            background: var(--border-subtle);
+            padding: 2px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.75rem;
+        }
+
+        .grid-cell {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--bg-primary);
+        }
+
+        .grid-cell[data-value="0"] { background: oklch(20% 0 0); color: transparent; }
+        .grid-cell[data-value="1"] { background: oklch(55% 0.25 30); }
+        .grid-cell[data-value="2"] { background: oklch(55% 0.25 145); }
+        .grid-cell[data-value="3"] { background: oklch(55% 0.25 60); }
+        .grid-cell[data-value="4"] { background: oklch(55% 0.25 270); }
+        .grid-cell[data-value="5"] { background: oklch(55% 0.25 200); }
+        .grid-cell[data-value="6"] { background: oklch(55% 0.25 320); }
+        .grid-cell[data-value="7"] { background: oklch(55% 0.25 100); }
+        .grid-cell[data-value="8"] { background: oklch(55% 0.25 240); }
+        .grid-cell[data-value="9"] { background: oklch(55% 0.25 0); }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .two-column {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .nav-controls {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        .nav-btn {
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--border-subtle);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: all 0.15s ease;
+        }
+
+        .nav-btn:hover:not(:disabled) {
+            background: var(--bg-elevated);
+        }
+
+        .nav-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .page-info {
+            padding: 0.5rem 1rem;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                transition-duration: 0.01ms !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Benchmark Dataset Visualizer</h1>
+            <p class="subtitle">Explore examples from popular ML evaluation benchmarks</p>
+        </header>
+
+        <nav class="dataset-nav" id="datasetNav"></nav>
+
+        <div class="dataset-info" id="datasetInfo"></div>
+
+        <main class="samples-grid" id="samplesGrid"></main>
+
+        <div class="nav-controls" id="navControls" style="display: none;">
+            <button class="nav-btn" id="prevBtn">Previous</button>
+            <span class="page-info" id="pageInfo"></span>
+            <button class="nav-btn" id="nextBtn">Next</button>
+        </div>
+    </div>
+
+    <script>
+        let allData = {};
+        let currentDataset = null;
+        let currentPage = 0;
+        const itemsPerPage = 5;
+
+        const datasetMeta = {
+            gpqa_diamond: { name: 'GPQA Diamond', category: 'Science QA', description: 'Graduate-level science questions' },
+            swe_bench: { name: 'SWE-bench', category: 'Code', description: 'Real GitHub issue resolution' },
+            mmmu: { name: 'MMMU', category: 'Multimodal', description: 'College-level multimodal reasoning' },
+            mmmlu: { name: 'MMMLU', category: 'Multilingual', description: 'Multilingual knowledge questions' },
+            eq_bench: { name: 'EQ-Bench', category: 'Emotional', description: 'Emotional intelligence evaluation' },
+            litbench: { name: 'LitBench', category: 'Writing', description: 'Creative writing comparison' },
+            booksum: { name: 'BookSum', category: 'Summarization', description: 'Book chapter summarization' },
+            terminal_bench: { name: 'Terminal-bench', category: 'System', description: 'Terminal/system administration tasks' },
+            persuade: { name: 'PERSUADE', category: 'Writing', description: 'Argumentative essay evaluation' },
+            humaneval: { name: 'HumanEval', category: 'Code', description: 'Python function completion' },
+            gsm8k: { name: 'GSM8K', category: 'Math', description: 'Grade school math problems' },
+            hellaswag: { name: 'HellaSwag', category: 'Reasoning', description: 'Commonsense sentence completion' },
+            truthfulqa: { name: 'TruthfulQA', category: 'Truthfulness', description: 'Truthfulness evaluation' },
+            winogrande: { name: 'Winogrande', category: 'Reasoning', description: 'Commonsense pronoun resolution' }
+        };
+
+        async function loadData() {
+            const info = document.getElementById('datasetInfo');
+            const grid = document.getElementById('samplesGrid');
+            const nav = document.getElementById('datasetNav');
+            const controls = document.getElementById('navControls');
+
+            info.innerHTML = `<div class="info-chip"><strong>Status:</strong> Loading datasets…</div>`;
+            grid.innerHTML = `
+                <article class="sample-card">
+                    <div class="sample-content">
+                        Loading dataset samples…
+                    </div>
+                </article>
+            `;
+            nav.innerHTML = '';
+            controls.style.display = 'none';
+
+            try {
+                const response = await fetch('data/all_datasets.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                allData = await response.json();
+                renderNav();
+                if (Object.keys(allData).length > 0) {
+                    selectDataset(Object.keys(allData)[0]);
+                } else {
+                    info.innerHTML = `<div class="info-chip"><strong>Status:</strong> No datasets found.</div>`;
+                    grid.innerHTML = '';
+                }
+            } catch (err) {
+                console.error('Failed to load datasets:', err);
+                info.innerHTML = `<div class="info-chip"><strong>Status:</strong> Failed to load datasets.</div>`;
+                grid.innerHTML = `
+                    <article class="sample-card">
+                        <div class="sample-content">
+                            Could not load <code>data/all_datasets.json</code>. Check the file path or network.
+                        </div>
+                    </article>
+                `;
+            }
+        }
+
+        function renderNav() {
+            const nav = document.getElementById('datasetNav');
+            nav.innerHTML = Object.keys(allData).map(key => {
+                const meta = datasetMeta[key] || { name: key, category: 'Other' };
+                return `<button class="dataset-btn" data-dataset="${key}">${meta.name}</button>`;
+            }).join('');
+
+            nav.querySelectorAll('.dataset-btn').forEach(btn => {
+                btn.addEventListener('click', () => selectDataset(btn.dataset.dataset));
+            });
+        }
+
+        function selectDataset(key) {
+            currentDataset = key;
+            currentPage = 0;
+
+            document.querySelectorAll('.dataset-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.dataset === key);
+            });
+
+            renderDatasetInfo();
+            renderSamples();
+        }
+
+        function renderDatasetInfo() {
+            const info = document.getElementById('datasetInfo');
+            const meta = datasetMeta[currentDataset] || {};
+            const data = allData[currentDataset];
+
+            info.innerHTML = `
+                <div class="info-chip"><strong>Source:</strong> ${data.source}</div>
+                <div class="info-chip"><strong>Samples:</strong> ${data.samples.length}</div>
+                <div class="info-chip"><strong>Category:</strong> ${meta.category || 'Other'}</div>
+            `;
+        }
+
+        function renderSamples() {
+            const grid = document.getElementById('samplesGrid');
+            const data = allData[currentDataset];
+            const start = currentPage * itemsPerPage;
+            const samples = data.samples.slice(start, start + itemsPerPage);
+
+            grid.innerHTML = samples.map((sample, i) => renderSample(sample, start + i)).join('');
+
+            updateNavControls(data.samples.length);
+        }
+
+        function updateNavControls(total) {
+            const controls = document.getElementById('navControls');
+            const totalPages = Math.ceil(total / itemsPerPage);
+
+            if (totalPages <= 1) {
+                controls.style.display = 'none';
+                return;
+            }
+
+            controls.style.display = 'flex';
+            document.getElementById('prevBtn').disabled = currentPage === 0;
+            document.getElementById('nextBtn').disabled = currentPage >= totalPages - 1;
+            document.getElementById('pageInfo').textContent = `${currentPage + 1} / ${totalPages}`;
+        }
+
+        function renderSample(sample, index) {
+            const renderer = sampleRenderers[currentDataset] || renderGeneric;
+            return `
+                <article class="sample-card">
+                    <header class="sample-header">
+                        <span class="sample-number">Example ${index + 1}</span>
+                        ${renderTags(sample)}
+                    </header>
+                    <div class="sample-content">
+                        ${renderer(sample)}
+                    </div>
+                </article>
+            `;
+        }
+
+        function renderTags(sample) {
+            const tags = [];
+            if (sample.Subdomain) tags.push({ text: sample.Subdomain, class: 'tag-domain' });
+            if (sample['High-level domain']) tags.push({ text: sample['High-level domain'], class: 'tag-domain' });
+            if (sample.difficulty) tags.push({ text: sample.difficulty, class: 'tag-difficulty' });
+            if (sample.Subject) tags.push({ text: sample.Subject, class: 'tag-domain' });
+            if (sample.activity_label) tags.push({ text: sample.activity_label, class: 'tag-domain' });
+
+            if (tags.length === 0) return '';
+            return `<div class="sample-tags">${tags.map(t => `<span class="tag ${t.class}">${escapeHtml(t.text)}</span>`).join('')}</div>`;
+        }
+
+        function field(label, value, opts = {}) {
+            if (value === null || value === undefined || value === '' || value === 'null') return '';
+            const classes = ['field-value'];
+            if (opts.code) classes.push('code');
+            if (opts.truncate) classes.push('truncated');
+            return `
+                <div class="field">
+                    <div class="field-label">${label}</div>
+                    <div class="${classes.join(' ')}">${escapeHtml(String(value))}</div>
+                </div>
+            `;
+        }
+
+        function escapeHtml(str) {
+            const div = document.createElement('div');
+            div.textContent = str;
+            return div.innerHTML;
+        }
+
+        const sampleRenderers = {
+            gpqa_diamond: (s) => `
+                ${field('Question', s.Question)}
+                <div class="field">
+                    <div class="field-label">Options</div>
+                    <ul class="options-list">
+                        <li class="option-item correct">A) ${escapeHtml(s['Correct Answer'])}</li>
+                        <li class="option-item">B) ${escapeHtml(s['Incorrect Answer 1'])}</li>
+                        <li class="option-item">C) ${escapeHtml(s['Incorrect Answer 2'])}</li>
+                        <li class="option-item">D) ${escapeHtml(s['Incorrect Answer 3'])}</li>
+                    </ul>
+                </div>
+                ${field('Explanation', s.Explanation, { truncate: true })}
+            `,
+
+            swe_bench: (s) => `
+                ${field('Instance ID', s.instance_id)}
+                ${field('Repository', s.repo)}
+                ${field('Problem Statement', s.problem_statement, { truncate: true })}
+                ${field('Patch', s.patch, { code: true, truncate: true })}
+            `,
+
+            mmmu: (s) => `
+                ${field('Question', s.question)}
+                <div class="field">
+                    <div class="field-label">Options</div>
+                    <ul class="options-list">
+                        ${(s.options || []).map((opt, i) => `<li class="option-item">${String.fromCharCode(65 + i)}) ${escapeHtml(opt)}</li>`).join('')}
+                    </ul>
+                </div>
+                ${field('Explanation', s.explanation)}
+            `,
+
+            mmmlu: (s) => `
+                ${field('Question', s.Question)}
+                <div class="field">
+                    <div class="field-label">Options</div>
+                    <ul class="options-list">
+                        <li class="option-item ${s.Answer === 'A' ? 'correct' : ''}">A) ${escapeHtml(s.A)}</li>
+                        <li class="option-item ${s.Answer === 'B' ? 'correct' : ''}">B) ${escapeHtml(s.B)}</li>
+                        <li class="option-item ${s.Answer === 'C' ? 'correct' : ''}">C) ${escapeHtml(s.C)}</li>
+                        <li class="option-item ${s.Answer === 'D' ? 'correct' : ''}">D) ${escapeHtml(s.D)}</li>
+                    </ul>
+                </div>
+            `,
+
+            eq_bench: (s) => `
+                ${field('Prompt', s.prompt, { truncate: true })}
+                ${field('Reference Answer', s.reference_answer)}
+            `,
+
+            litbench: (s) => `
+                ${field('Prompt', s.prompt)}
+                <div class="two-column">
+                    <div class="field">
+                        <div class="field-label">Chosen Story</div>
+                        <div class="field-value truncated">${escapeHtml(s.chosen || s.chosen_comment_id || 'N/A')}</div>
+                    </div>
+                    <div class="field">
+                        <div class="field-label">Rejected Story</div>
+                        <div class="field-value truncated">${escapeHtml(s.rejected || s.rejected_comment_id || 'N/A')}</div>
+                    </div>
+                </div>
+            `,
+
+            booksum: (s) => `
+                ${field('Source', s.source)}
+                ${field('Chapter', s.chapter_path)}
+                ${field('Summary Text', s.summary_text, { truncate: true })}
+            `,
+
+            terminal_bench: (s) => `
+                ${field('Task ID', s.task_id)}
+                ${field('Difficulty', s.difficulty)}
+                ${field('Tags', (s.tags || []).join(', '))}
+                ${field('Task YAML', s.task_yaml, { code: true, truncate: true })}
+            `,
+
+            persuade: (s) => `
+                ${field('Instructions', s.instructions)}
+                ${field('Title', s.titles)}
+                ${field('Essay', s.essays, { truncate: true })}
+            `,
+
+            humaneval: (s) => `
+                ${field('Task ID', s.task_id)}
+                ${field('Prompt', s.prompt, { code: true })}
+                ${field('Canonical Solution', s.canonical_solution, { code: true })}
+            `,
+
+            gsm8k: (s) => `
+                ${field('Question', s.question)}
+                <div class="field">
+                    <div class="field-label">Answer</div>
+                    <div class="answer-box">${escapeHtml(s.answer)}</div>
+                </div>
+            `,
+
+            hellaswag: (s) => `
+                ${field('Context', s.ctx)}
+                <div class="field">
+                    <div class="field-label">Endings</div>
+                    <ul class="options-list">
+                        ${(s.endings || []).map((e, i) => `<li class="option-item ${i === s.label ? 'correct' : ''}">${i + 1}) ${escapeHtml(e)}</li>`).join('')}
+                    </ul>
+                </div>
+            `,
+
+            truthfulqa: (s) => `
+                ${field('Question', s.question)}
+                <div class="field">
+                    <div class="field-label">Choices</div>
+                    <ul class="options-list">
+                        ${(s.mc1_targets?.choices || []).map((c, i) =>
+                            `<li class="option-item ${s.mc1_targets?.labels?.[i] === 1 ? 'correct' : ''}">${escapeHtml(c)}</li>`
+                        ).join('')}
+                    </ul>
+                </div>
+            `,
+
+            winogrande: (s) => `
+                ${field('Sentence', s.sentence)}
+                <div class="field">
+                    <div class="field-label">Options</div>
+                    <ul class="options-list">
+                        <li class="option-item ${s.answer === '1' ? 'correct' : ''}">1) ${escapeHtml(s.option1)}</li>
+                        <li class="option-item ${s.answer === '2' ? 'correct' : ''}">2) ${escapeHtml(s.option2)}</li>
+                    </ul>
+                </div>
+            `
+        };
+
+        function renderGeneric(sample) {
+            return Object.entries(sample)
+                .filter(([k, v]) => v !== null && v !== '' && typeof v !== 'object')
+                .slice(0, 8)
+                .map(([k, v]) => field(k, v, { truncate: true }))
+                .join('');
+        }
+
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            if (currentPage > 0) {
+                currentPage--;
+                renderSamples();
+            }
+        });
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            const total = allData[currentDataset].samples.length;
+            if ((currentPage + 1) * itemsPerPage < total) {
+                currentPage++;
+                renderSamples();
+            }
+        });
+
+        loadData();
+    </script>
+</body>
+</html>

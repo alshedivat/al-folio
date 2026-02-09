@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+
+  /* Core palette - OKLCH */
+  --bg-primary: oklch(100% 0 0);
+  --bg-secondary: oklch(98% 0.002 250);
+  --bg-card: oklch(100% 0 0);
+  --border-subtle: oklch(0% 0 0 / 8%);
+  --border-hover: oklch(0% 0 0 / 15%);
+  --text-primary: oklch(15% 0.02 260);
+  --text-secondary: oklch(55% 0.02 260);
+  --text-tertiary: oklch(70% 0.015 260);
+  --accent: oklch(55% 0.25 270);
+
+  /* Category colors - OKLCH */
+  --accent-ml: oklch(72% 0.17 85);
+  --accent-nlp: oklch(60% 0.15 230);
+  --accent-rl: oklch(72% 0.19 145);
+  --accent-ai: oklch(55% 0.25 300);
+
+  /* Countdown - using color-mix for tints */
+  --countdown-bg: color-mix(in oklch, oklch(63% 0.24 27) 10%, white);
+  --countdown-border: color-mix(in oklch, oklch(63% 0.24 27) 30%, white);
+  --countdown-text: oklch(55% 0.22 27);
+  --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Fallback for browsers without modern CSS support */
+@supports not (color: oklch(50% 0.1 0)) {
+  :root {
+    --bg-primary: #ffffff;
+    --bg-secondary: #f9fafb;
+    --bg-card: #ffffff;
+    --border-subtle: rgba(0, 0, 0, 0.08);
+    --border-hover: rgba(0, 0, 0, 0.15);
+    --text-primary: #111827;
+    --text-secondary: #6b7280;
+    --text-tertiary: #9ca3af;
+    --accent: #6366f1;
+    --accent-ml: #ca8a04;
+    --accent-nlp: #0284c7;
+    --accent-rl: #16a34a;
+    --accent-ai: #9333ea;
+    --countdown-bg: #fef2f2;
+    --countdown-border: #fecaca;
+    --countdown-text: #dc2626;
+  }
+}
+
+/* View Transitions */
+@view-transition {
+  navigation: auto;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.2s;
+}
+
+body {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  background: var(--bg-secondary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  padding: 48px 24px 64px;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+header {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  margin-bottom: 12px;
+  color: var(--text-primary);
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+/* CARDS CONTAINER */
+
+#upcoming-deadlines,
+#past-deadlines {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* CARD */
+
+.deadline-card {
+  position: relative;
+  background: var(--bg-card);
+  padding: 24px 28px;
+  border-radius: 16px;
+  border: 1px solid var(--border-subtle);
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 4px 12px rgba(0, 0, 0, 0.03);
+  transition:
+    transform 0.3s var(--transition-smooth),
+    box-shadow 0.3s var(--transition-smooth),
+    border-color 0.3s var(--transition-smooth);
+  overflow: hidden;
+}
+
+/* Category accent strip */
+.deadline-card::before {
+  content: "";
+  position: absolute;
+  inset-y: 0;
+  left: 0;
+  width: 3px;
+  background: var(--text-tertiary);
+  opacity: 0.5;
+  transition: opacity 0.3s var(--transition-smooth);
+}
+
+.deadline-card.ml::before {
+  background: var(--accent-ml);
+  opacity: 1;
+}
+
+.deadline-card.nlp::before {
+  background: var(--accent-nlp);
+  opacity: 1;
+}
+
+.deadline-card.rl::before {
+  background: var(--accent-rl);
+  opacity: 1;
+}
+
+.deadline-card.ai::before {
+  background: var(--accent-ai);
+  opacity: 1;
+}
+
+.deadline-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--border-hover);
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.04),
+    0 10px 24px rgba(0, 0, 0, 0.08);
+}
+
+.deadline-card.ml:hover {
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.04),
+    0 10px 24px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(202, 138, 4, 0.15);
+}
+
+.deadline-card.nlp:hover {
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.04),
+    0 10px 24px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(2, 132, 199, 0.15);
+}
+
+.deadline-card.rl:hover {
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.04),
+    0 10px 24px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(22, 163, 74, 0.15);
+}
+
+.deadline-card.ai:hover {
+  box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.04),
+    0 10px 24px rgba(0, 0, 0, 0.08),
+    0 0 0 1px rgba(147, 51, 234, 0.15);
+}
+
+.deadline-card.past {
+  opacity: 0.55;
+}
+
+.deadline-card.past:hover {
+  opacity: 0.7;
+  transform: translateY(-2px);
+}
+
+/* HEADER */
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 18px;
+  gap: 12px 20px;
+  flex-wrap: wrap;
+}
+
+.conference-info {
+  min-width: 0;
+  flex: 1;
+}
+
+.conference-name {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 4px;
+  letter-spacing: -0.025em;
+  transition: color 0.2s var(--transition-smooth);
+}
+
+.conference-name:hover {
+  color: var(--accent);
+}
+
+.conference-meta {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  letter-spacing: -0.01em;
+}
+
+/* COUNTDOWN PILL */
+
+.countdown {
+  font-weight: 600;
+  font-size: 0.875rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--countdown-text);
+  white-space: nowrap;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--countdown-bg);
+  border: 1px solid var(--countdown-border);
+  letter-spacing: -0.01em;
+  flex-shrink: 0;
+}
+
+.countdown.past {
+  color: var(--text-tertiary);
+  background: #f3f4f6;
+  border-color: #e5e7eb;
+}
+
+/* DETAILS */
+
+.deadline-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.detail-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.detail-icon {
+  width: 16px;
+  height: 16px;
+  color: var(--text-tertiary);
+  flex-shrink: 0;
+  stroke-width: 1.75;
+}
+
+.detail-value {
+  color: var(--text-secondary);
+  letter-spacing: -0.01em;
+}
+
+.detail-value a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s var(--transition-smooth);
+}
+
+.detail-value a:hover {
+  color: #4f46e5;
+  text-decoration: underline;
+  text-decoration-color: rgba(79, 70, 229, 0.4);
+  text-underline-offset: 2px;
+}
+
+/* SECTION TITLE */
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  margin: 56px 0 20px 0;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 640px) {
+  body {
+    padding: 32px 16px 48px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .deadline-card {
+    padding: 20px 22px;
+    border-radius: 14px;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .countdown {
+    align-self: flex-start;
+  }
+
+  .conference-name {
+    font-size: 1.2rem;
+  }
+}
+
+/* REDUCED MOTION */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .deadline-card:hover {
+    transform: none;
+  }
+}

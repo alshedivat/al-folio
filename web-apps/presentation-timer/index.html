@@ -1,0 +1,1199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <meta
+      name="description"
+      content="Presentation timer with segments and traffic light color coding"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link
+      rel="canonical"
+      href="https://yoonholee.com/web-apps/presentation-timer/"
+    />
+    <meta property="og:title" content="Presentation Timer" />
+    <meta
+      property="og:description"
+      content="Presentation timer with segments and traffic light colors"
+    />
+    <meta property="og:type" content="website" />
+    <title>Presentation Timer</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <style>
+      :root {
+        color-scheme: light;
+
+        /* Core palette - OKLCH for perceptual consistency */
+        --bg-primary: oklch(100% 0 0);
+        --bg-secondary: oklch(98% 0.002 250);
+        --bg-elevated: oklch(96% 0.003 250);
+        --border-subtle: oklch(0% 0 0 / 8%);
+        --border-hover: oklch(0% 0 0 / 15%);
+        --text-primary: oklch(20% 0.02 260);
+        --text-secondary: oklch(55% 0.02 260);
+        --text-tertiary: oklch(70% 0.015 260);
+
+        /* Status colors - perceptually matched (L=72%) */
+        --color-green: oklch(72% 0.19 145);
+        --color-yellow: oklch(72% 0.17 85);
+        --color-red: oklch(72% 0.22 27);
+
+        /* Generated tints with color-mix() */
+        --color-green-bg: color-mix(in oklch, var(--color-green) 15%, white);
+        --color-green-text: color-mix(in oklch, var(--color-green) 70%, black);
+        --color-yellow-bg: color-mix(in oklch, var(--color-yellow) 15%, white);
+        --color-yellow-text: color-mix(
+          in oklch,
+          var(--color-yellow) 70%,
+          black
+        );
+        --color-red-bg: color-mix(in oklch, var(--color-red) 15%, white);
+        --color-red-text: color-mix(in oklch, var(--color-red) 70%, black);
+
+        --phase-bg: var(--bg-primary);
+        --phase-accent: var(--text-secondary);
+        --phase-text: var(--text-primary);
+      }
+
+      /* Fallback for browsers without modern CSS support */
+      @supports not (color: oklch(50% 0.1 0)) {
+        :root {
+          --bg-primary: #ffffff;
+          --bg-secondary: #f9fafb;
+          --bg-elevated: #f3f4f6;
+          --border-subtle: rgba(0, 0, 0, 0.08);
+          --border-hover: rgba(0, 0, 0, 0.15);
+          --text-primary: #111827;
+          --text-secondary: #6b7280;
+          --text-tertiary: #9ca3af;
+          --color-green: #22c55e;
+          --color-green-bg: #dcfce7;
+          --color-green-text: #166534;
+          --color-yellow: #ca8a04;
+          --color-yellow-bg: #fef9c3;
+          --color-yellow-text: #854d0e;
+          --color-red: #dc2626;
+          --color-red-bg: #fee2e2;
+          --color-red-text: #991b1b;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+      }
+
+      @supports (font-variation-settings: normal) {
+        html {
+          font-family:
+            "Inter var",
+            -apple-system,
+            BlinkMacSystemFont,
+            sans-serif;
+        }
+      }
+
+      body {
+        background: var(--phase-bg);
+        color: var(--text-primary);
+        min-height: 100vh;
+        min-height: 100dvh;
+        display: flex;
+        flex-direction: column;
+        -webkit-font-smoothing: antialiased;
+        transition: background-color 0.5s ease;
+        overflow: hidden;
+      }
+
+      /* Setup View */
+      .setup-view {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        max-width: 480px;
+        margin: 0 auto;
+        padding: 2rem 1.5rem;
+        width: 100%;
+      }
+
+      .setup-header {
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .setup-header h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+        margin-bottom: 0.5rem;
+      }
+
+      .setup-header p {
+        color: var(--text-secondary);
+        font-size: 0.875rem;
+      }
+
+      /* Presets */
+      .presets {
+        display: flex;
+        gap: 0.5rem;
+        flex-wrap: wrap;
+        margin-bottom: 1.5rem;
+      }
+
+      .preset-btn {
+        font-family: inherit;
+        font-size: 0.8125rem;
+        font-weight: 500;
+        padding: 0.5rem 0.875rem;
+        background: var(--bg-secondary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: all 0.15s ease;
+      }
+
+      .preset-btn:hover {
+        background: var(--bg-elevated);
+        border-color: var(--border-hover);
+        color: var(--text-primary);
+      }
+
+      /* Segments List */
+      .segments-list {
+        flex: 1;
+        overflow-y: auto;
+        margin-bottom: 1rem;
+      }
+
+      .segment-item {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.875rem;
+        background: var(--bg-secondary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 10px;
+        margin-bottom: 0.5rem;
+      }
+
+      .segment-number {
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--bg-elevated);
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--text-secondary);
+        flex-shrink: 0;
+      }
+
+      .segment-inputs {
+        flex: 1;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+      }
+
+      .segment-name {
+        flex: 1;
+        min-width: 0;
+      }
+
+      .segment-duration {
+        width: 70px;
+        text-align: center;
+      }
+
+      .segment-item input {
+        font-family: inherit;
+        font-size: 0.875rem;
+        padding: 0.5rem 0.625rem;
+        background: var(--bg-primary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 6px;
+        color: var(--text-primary);
+        width: 100%;
+      }
+
+      .segment-item input:focus {
+        outline: none;
+        border-color: var(--border-hover);
+      }
+
+      .segment-item input::placeholder {
+        color: var(--text-tertiary);
+      }
+
+      .segment-delete {
+        width: 28px;
+        height: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: transparent;
+        border: none;
+        border-radius: 6px;
+        color: var(--text-tertiary);
+        cursor: pointer;
+        transition: all 0.15s ease;
+        flex-shrink: 0;
+      }
+
+      .segment-delete:hover {
+        background: var(--color-red-bg);
+        color: var(--color-red);
+      }
+
+      .segment-delete svg {
+        width: 16px;
+        height: 16px;
+      }
+
+      /* Add Segment Button */
+      .add-segment-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        width: 100%;
+        padding: 0.75rem;
+        background: transparent;
+        border: 1px dashed var(--border-subtle);
+        border-radius: 10px;
+        color: var(--text-secondary);
+        font-family: inherit;
+        font-size: 0.875rem;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        margin-bottom: 1.5rem;
+      }
+
+      .add-segment-btn:hover {
+        border-color: var(--border-hover);
+        color: var(--text-primary);
+        background: var(--bg-secondary);
+      }
+
+      .add-segment-btn svg {
+        width: 18px;
+        height: 18px;
+      }
+
+      /* Thresholds */
+      .thresholds {
+        display: flex;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        padding: 1rem;
+        background: var(--bg-secondary);
+        border-radius: 10px;
+      }
+
+      .threshold-item {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.375rem;
+      }
+
+      .threshold-label {
+        display: flex;
+        align-items: center;
+        gap: 0.375rem;
+        font-size: 0.75rem;
+        color: var(--text-secondary);
+      }
+
+      .threshold-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+      }
+
+      .threshold-dot.yellow {
+        background: var(--color-yellow);
+      }
+      .threshold-dot.red {
+        background: var(--color-red);
+      }
+
+      .threshold-item input {
+        font-family: inherit;
+        font-size: 0.875rem;
+        padding: 0.5rem;
+        background: var(--bg-primary);
+        border: 1px solid var(--border-subtle);
+        border-radius: 6px;
+        color: var(--text-primary);
+        text-align: center;
+      }
+
+      .threshold-item input:focus {
+        outline: none;
+        border-color: var(--border-hover);
+      }
+
+      /* Total Time */
+      .total-time {
+        text-align: center;
+        font-size: 0.875rem;
+        color: var(--text-secondary);
+        margin-bottom: 1rem;
+      }
+
+      .total-time span {
+        color: var(--text-primary);
+        font-weight: 600;
+      }
+
+      /* Start Button */
+      .start-btn {
+        font-family: inherit;
+        font-size: 1.125rem;
+        font-weight: 600;
+        padding: 1rem 2rem;
+        background: linear-gradient(
+          135deg,
+          var(--color-green) 0%,
+          #16a34a 100%
+        );
+        border: none;
+        border-radius: 12px;
+        color: white;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 4px 16px rgba(34, 197, 94, 0.3);
+      }
+
+      .start-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 24px rgba(34, 197, 94, 0.4);
+      }
+
+      .start-btn:active {
+        transform: translateY(0) scale(0.98);
+      }
+
+      .start-btn:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+        transform: none;
+      }
+
+      /* Timer View */
+      .timer-view {
+        display: none;
+        flex: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+        user-select: none;
+        -webkit-user-select: none;
+        cursor: pointer;
+      }
+
+      body.running .setup-view {
+        display: none;
+      }
+      body.running .timer-view {
+        display: flex;
+      }
+
+      /* Segment Pills */
+      .segment-pills {
+        display: flex;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .segment-pill {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease;
+      }
+
+      .segment-pill.completed {
+        background: rgba(0, 0, 0, 0.3);
+      }
+
+      .segment-pill.active {
+        width: 24px;
+        border-radius: 4px;
+        background: var(--phase-accent);
+      }
+
+      /* Segment Name */
+      .current-segment {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: var(--phase-text);
+        opacity: 0.7;
+        letter-spacing: -0.01em;
+        margin-bottom: 0.5rem;
+        text-align: center;
+        transition: color 0.3s ease;
+      }
+
+      /* Time Display */
+      .time-display {
+        font-size: clamp(6rem, 25vw, 12rem);
+        font-weight: 700;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: -0.04em;
+        line-height: 1;
+        color: var(--phase-text);
+        transition:
+          color 0.3s ease,
+          opacity 0.2s ease;
+      }
+
+      /* Progress Bar */
+      .progress-container {
+        width: 100%;
+        max-width: 400px;
+        margin-top: 2rem;
+      }
+
+      .segmented-bar {
+        display: flex;
+        height: 8px;
+        border-radius: 4px;
+        overflow: hidden;
+        gap: 2px;
+      }
+
+      .segment-bar-item {
+        height: 100%;
+        background: rgba(0, 0, 0, 0.1);
+        position: relative;
+        overflow: hidden;
+        transition: background-color 0.3s ease;
+      }
+
+      .segment-bar-item:first-child {
+        border-radius: 4px 0 0 4px;
+      }
+
+      .segment-bar-item:last-child {
+        border-radius: 0 4px 4px 0;
+      }
+
+      .segment-bar-item:only-child {
+        border-radius: 4px;
+      }
+
+      .segment-bar-item.completed {
+        background: var(--phase-accent);
+      }
+
+      .segment-bar-item.active {
+        background: rgba(0, 0, 0, 0.15);
+      }
+
+      .segment-bar-fill {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        background: var(--phase-accent);
+        transition: width 0.1s linear;
+      }
+
+      .progress-labels {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0.5rem;
+        font-size: 0.875rem;
+        font-variant-numeric: tabular-nums;
+        color: rgba(0, 0, 0, 0.5);
+      }
+
+      /* Controls hint */
+      .controls-hint {
+        position: fixed;
+        bottom: 1.5rem;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 0.75rem;
+        color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        gap: 1.5rem;
+      }
+
+      .controls-hint kbd {
+        display: inline-block;
+        padding: 0.125rem 0.375rem;
+        background: rgba(0, 0, 0, 0.08);
+        border-radius: 4px;
+        font-family: inherit;
+        font-size: 0.6875rem;
+      }
+
+      /* Back button */
+      .back-btn {
+        position: fixed;
+        top: 1.5rem;
+        left: 1.5rem;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        color: var(--text-secondary);
+        cursor: pointer;
+        transition: all 0.15s ease;
+        z-index: 10;
+      }
+
+      .back-btn:hover {
+        background: rgba(255, 255, 255, 0.95);
+        color: var(--text-primary);
+      }
+
+      .back-btn svg {
+        width: 20px;
+        height: 20px;
+      }
+
+      body:not(.running) .back-btn {
+        display: none;
+      }
+
+      /* Phase colors */
+      body.phase-green {
+        --phase-bg: var(--color-green-bg);
+        --phase-accent: var(--color-green);
+        --phase-text: var(--color-green-text);
+      }
+
+      body.phase-yellow {
+        --phase-bg: var(--color-yellow-bg);
+        --phase-accent: var(--color-yellow);
+        --phase-text: var(--color-yellow-text);
+      }
+
+      body.phase-red {
+        --phase-bg: var(--color-red-bg);
+        --phase-accent: var(--color-red);
+        --phase-text: var(--color-red-text);
+      }
+
+      /* Paused state */
+      body.paused .time-display {
+        opacity: 0.6;
+      }
+
+      body.paused .current-segment::after {
+        content: " (paused)";
+        color: var(--text-tertiary);
+      }
+
+      /* Responsive */
+      @media (max-width: 400px) {
+        .setup-view {
+          padding: 1.5rem 1rem;
+        }
+
+        .segment-inputs {
+          flex-wrap: wrap;
+        }
+
+        .segment-duration {
+          width: 60px;
+        }
+
+        .thresholds {
+          flex-direction: column;
+          gap: 0.75rem;
+        }
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+          animation-duration: 0.01ms !important;
+          transition-duration: 0.01ms !important;
+        }
+      }
+
+      /* :has() for parent-based styling */
+      .segment-item:has(input:focus) {
+        border-color: var(--border-hover);
+        background: var(--bg-primary);
+      }
+
+      .threshold-item:has(input:focus) label {
+        color: var(--text-primary);
+      }
+
+      /* View Transitions */
+      @view-transition {
+        navigation: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Setup View -->
+    <div class="setup-view">
+      <div class="setup-header">
+        <h1>Presentation Timer</h1>
+        <p>Configure your talk segments</p>
+      </div>
+
+      <div class="presets">
+        <button class="preset-btn" data-preset="five">5 min</button>
+        <button class="preset-btn" data-preset="thirty">30 min</button>
+        <button class="preset-btn" data-preset="sixty">60 min</button>
+      </div>
+
+      <div class="segments-list" id="segmentsList"></div>
+
+      <button class="add-segment-btn" id="addSegmentBtn">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M12 4v16m8-8H4"
+          />
+        </svg>
+        Add Segment
+      </button>
+
+      <div class="thresholds">
+        <div class="threshold-item">
+          <label class="threshold-label">
+            <span class="threshold-dot yellow"></span>
+            Yellow at
+          </label>
+          <input
+            type="text"
+            id="yellowThreshold"
+            value="75%"
+            placeholder="75%"
+          />
+        </div>
+        <div class="threshold-item">
+          <label class="threshold-label">
+            <span class="threshold-dot red"></span>
+            Red at
+          </label>
+          <input type="text" id="redThreshold" value="90%" placeholder="90%" />
+        </div>
+      </div>
+
+      <div class="total-time">Total: <span id="totalTime">0:00</span></div>
+
+      <button class="start-btn" id="startBtn">Start Presentation</button>
+    </div>
+
+    <!-- Timer View -->
+    <div class="timer-view" id="timerView">
+      <div class="segment-pills" id="segmentPills"></div>
+      <div class="current-segment" id="currentSegment">Intro</div>
+      <div class="time-display" id="timeDisplay">5:00</div>
+
+      <div class="progress-container">
+        <div class="segmented-bar" id="segmentedBar"></div>
+        <div class="progress-labels">
+          <span id="totalElapsed">0:00</span>
+          <span id="totalRemaining">5:00</span>
+        </div>
+      </div>
+
+      <div class="controls-hint">
+        <span><kbd>Space</kbd> Pause</span>
+        <span><kbd>R</kbd> Reset</span>
+        <span><kbd>Esc</kbd> Setup</span>
+      </div>
+    </div>
+
+    <!-- Back Button -->
+    <button class="back-btn" id="backBtn" title="Back to setup">
+      <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M15 19l-7-7 7-7"
+        />
+      </svg>
+    </button>
+
+    <script>
+      // State
+      let segments = [
+        { name: "Intro", duration: 60 },
+        { name: "Main", duration: 180 },
+        { name: "Q&A", duration: 60 },
+      ];
+      let yellowThreshold = 0.75;
+      let redThreshold = 0.9;
+
+      let currentSegmentIndex = 0;
+      let segmentElapsed = 0;
+      let isRunning = false;
+      let isPaused = false;
+      let intervalId = null;
+      let lastTick = 0;
+
+      // Elements
+      const segmentsList = document.getElementById("segmentsList");
+      const addSegmentBtn = document.getElementById("addSegmentBtn");
+      const yellowInput = document.getElementById("yellowThreshold");
+      const redInput = document.getElementById("redThreshold");
+      const totalTimeEl = document.getElementById("totalTime");
+      const startBtn = document.getElementById("startBtn");
+      const backBtn = document.getElementById("backBtn");
+      const timerView = document.getElementById("timerView");
+      const segmentPills = document.getElementById("segmentPills");
+      const currentSegmentEl = document.getElementById("currentSegment");
+      const timeDisplay = document.getElementById("timeDisplay");
+      const segmentedBar = document.getElementById("segmentedBar");
+      const totalElapsedEl = document.getElementById("totalElapsed");
+      const totalRemainingEl = document.getElementById("totalRemaining");
+
+      // Presets
+      const presets = {
+        five: [{ name: "Talk", duration: 300 }],
+        thirty: [
+          { name: "Intro", duration: 120 },
+          { name: "Content", duration: 1320 },
+          { name: "Q&A", duration: 360 },
+        ],
+        sixty: [
+          { name: "Intro", duration: 300 },
+          { name: "Part 1", duration: 1200 },
+          { name: "Part 2", duration: 1200 },
+          { name: "Conclusion", duration: 300 },
+          { name: "Q&A", duration: 600 },
+        ],
+      };
+
+      // Initialize
+      function init() {
+        loadState();
+        renderSegments();
+        updateTotalTime();
+        setupEventListeners();
+      }
+
+      function loadState() {
+        try {
+          const saved = localStorage.getItem("presentationTimerState");
+          if (saved) {
+            const state = JSON.parse(saved);
+            if (state.segments && state.segments.length) {
+              segments = state.segments;
+            }
+            if (state.yellowThreshold) yellowThreshold = state.yellowThreshold;
+            if (state.redThreshold) redThreshold = state.redThreshold;
+            yellowInput.value = Math.round(yellowThreshold * 100) + "%";
+            redInput.value = Math.round(redThreshold * 100) + "%";
+          }
+        } catch (e) {}
+      }
+
+      function saveState() {
+        try {
+          localStorage.setItem(
+            "presentationTimerState",
+            JSON.stringify({
+              segments,
+              yellowThreshold,
+              redThreshold,
+            }),
+          );
+        } catch (e) {}
+      }
+
+      function renderSegments() {
+        segmentsList.innerHTML = segments
+          .map(
+            (seg, i) => `
+                <div class="segment-item" data-index="${i}">
+                    <div class="segment-number">${i + 1}</div>
+                    <div class="segment-inputs">
+                        <input type="text" class="segment-name" value="${escapeHtml(
+                          seg.name,
+                        )}" placeholder="Segment name">
+                        <input type="text" class="segment-duration" value="${formatDurationInput(
+                          seg.duration,
+                        )}" placeholder="5:00">
+                    </div>
+                    <button class="segment-delete" title="Remove segment">
+                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                        </svg>
+                    </button>
+                </div>
+            `,
+          )
+          .join("");
+
+        // Attach listeners
+        segmentsList.querySelectorAll(".segment-item").forEach((item, i) => {
+          const nameInput = item.querySelector(".segment-name");
+          const durationInput = item.querySelector(".segment-duration");
+          const deleteBtn = item.querySelector(".segment-delete");
+
+          nameInput.addEventListener("input", () => {
+            segments[i].name = nameInput.value;
+            saveState();
+          });
+
+          durationInput.addEventListener("input", () => {
+            const seconds = parseDuration(durationInput.value);
+            if (seconds > 0) {
+              segments[i].duration = seconds;
+              updateTotalTime();
+              saveState();
+            }
+          });
+
+          durationInput.addEventListener("blur", () => {
+            durationInput.value = formatDurationInput(segments[i].duration);
+          });
+
+          deleteBtn.addEventListener("click", () => {
+            if (segments.length > 1) {
+              segments.splice(i, 1);
+              renderSegments();
+              updateTotalTime();
+              saveState();
+            }
+          });
+        });
+
+        startBtn.disabled = segments.length === 0;
+      }
+
+      function setupEventListeners() {
+        // Presets
+        document.querySelectorAll(".preset-btn").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const preset = presets[btn.dataset.preset];
+            if (preset) {
+              segments = JSON.parse(JSON.stringify(preset));
+              renderSegments();
+              updateTotalTime();
+              saveState();
+            }
+          });
+        });
+
+        // Add segment
+        addSegmentBtn.addEventListener("click", () => {
+          segments.push({ name: "", duration: 300 });
+          renderSegments();
+          updateTotalTime();
+          saveState();
+          // Focus the new name input
+          const inputs = segmentsList.querySelectorAll(".segment-name");
+          inputs[inputs.length - 1].focus();
+        });
+
+        // Thresholds
+        yellowInput.addEventListener("blur", () => {
+          const val = parseFloat(yellowInput.value) / 100;
+          if (val > 0 && val < 1) {
+            yellowThreshold = val;
+            saveState();
+          }
+          yellowInput.value = Math.round(yellowThreshold * 100) + "%";
+        });
+
+        redInput.addEventListener("blur", () => {
+          const val = parseFloat(redInput.value) / 100;
+          if (val > 0 && val <= 1) {
+            redThreshold = val;
+            saveState();
+          }
+          redInput.value = Math.round(redThreshold * 100) + "%";
+        });
+
+        // Start
+        startBtn.addEventListener("click", startPresentation);
+
+        // Back
+        backBtn.addEventListener("click", stopPresentation);
+
+        // Timer view click
+        timerView.addEventListener("click", togglePause);
+
+        // Keyboard
+        document.addEventListener("keydown", (e) => {
+          if (!isRunning) {
+            if (e.code === "Enter" && segments.length > 0) {
+              e.preventDefault();
+              startPresentation();
+            }
+            return;
+          }
+
+          if (e.code === "Space") {
+            e.preventDefault();
+            togglePause();
+          } else if (e.code === "KeyR") {
+            e.preventDefault();
+            resetCurrentSegment();
+          } else if (e.code === "Escape") {
+            e.preventDefault();
+            stopPresentation();
+          } else if (e.code === "ArrowRight") {
+            e.preventDefault();
+            nextSegment();
+          } else if (e.code === "ArrowLeft") {
+            e.preventDefault();
+            prevSegment();
+          }
+        });
+      }
+
+      function updateTotalTime() {
+        const total = segments.reduce((sum, s) => sum + s.duration, 0);
+        totalTimeEl.textContent = formatTime(total);
+      }
+
+      function startPresentation() {
+        if (segments.length === 0) return;
+
+        isRunning = true;
+        isPaused = false;
+        currentSegmentIndex = 0;
+        segmentElapsed = 0;
+
+        document.body.classList.add("running");
+        renderPills();
+        renderSegmentedBar();
+        updateTimerDisplay();
+        startTimer();
+      }
+
+      function stopPresentation() {
+        clearInterval(intervalId);
+        isRunning = false;
+        isPaused = false;
+        document.body.classList.remove(
+          "running",
+          "paused",
+          "phase-green",
+          "phase-yellow",
+          "phase-red",
+        );
+      }
+
+      function togglePause() {
+        if (!isRunning) return;
+
+        if (isPaused) {
+          isPaused = false;
+          document.body.classList.remove("paused");
+          startTimer();
+        } else {
+          isPaused = true;
+          document.body.classList.add("paused");
+          clearInterval(intervalId);
+        }
+      }
+
+      function startTimer() {
+        lastTick = Date.now();
+        intervalId = setInterval(() => {
+          const now = Date.now();
+          const delta = (now - lastTick) / 1000;
+          lastTick = now;
+
+          segmentElapsed += delta;
+          updateTimerDisplay();
+
+          // Check if segment complete
+          const seg = segments[currentSegmentIndex];
+          if (segmentElapsed >= seg.duration) {
+            if (currentSegmentIndex < segments.length - 1) {
+              currentSegmentIndex++;
+              segmentElapsed = 0;
+              renderPills();
+            } else {
+              // Presentation complete, stay on red
+              clearInterval(intervalId);
+            }
+          }
+        }, 100);
+      }
+
+      function resetCurrentSegment() {
+        segmentElapsed = 0;
+        updateTimerDisplay();
+      }
+
+      function nextSegment() {
+        if (currentSegmentIndex < segments.length - 1) {
+          currentSegmentIndex++;
+          segmentElapsed = 0;
+          renderPills();
+          updateTimerDisplay();
+        }
+      }
+
+      function prevSegment() {
+        if (currentSegmentIndex > 0) {
+          currentSegmentIndex--;
+          segmentElapsed = 0;
+          renderPills();
+          updateTimerDisplay();
+        }
+      }
+
+      function renderPills() {
+        segmentPills.innerHTML = segments
+          .map((_, i) => {
+            let cls = "segment-pill";
+            if (i < currentSegmentIndex) cls += " completed";
+            if (i === currentSegmentIndex) cls += " active";
+            return `<div class="${cls}"></div>`;
+          })
+          .join("");
+      }
+
+      function renderSegmentedBar() {
+        const totalDuration = segments.reduce((sum, s) => sum + s.duration, 0);
+        segmentedBar.innerHTML = segments
+          .map((seg, i) => {
+            const widthPercent = (seg.duration / totalDuration) * 100;
+            return `<div class="segment-bar-item" data-index="${i}" style="flex: ${seg.duration}">
+                    <div class="segment-bar-fill" style="width: 0%"></div>
+                </div>`;
+          })
+          .join("");
+      }
+
+      function updateTimerDisplay() {
+        const seg = segments[currentSegmentIndex];
+        const remaining = Math.max(0, seg.duration - segmentElapsed);
+        const progress = segmentElapsed / seg.duration;
+
+        // Update segment name
+        currentSegmentEl.textContent =
+          seg.name || `Segment ${currentSegmentIndex + 1}`;
+
+        // Update time
+        timeDisplay.textContent = formatTime(Math.ceil(remaining));
+
+        // Update segmented bar
+        const barItems = segmentedBar.querySelectorAll(".segment-bar-item");
+        barItems.forEach((item, i) => {
+          const fill = item.querySelector(".segment-bar-fill");
+          item.classList.remove("completed", "active");
+          if (i < currentSegmentIndex) {
+            item.classList.add("completed");
+            fill.style.width = "100%";
+          } else if (i === currentSegmentIndex) {
+            item.classList.add("active");
+            fill.style.width = Math.min(100, progress * 100) + "%";
+          } else {
+            fill.style.width = "0%";
+          }
+        });
+
+        // Update total elapsed/remaining
+        let totalElapsed = segmentElapsed;
+        for (let i = 0; i < currentSegmentIndex; i++) {
+          totalElapsed += segments[i].duration;
+        }
+        const totalDuration = segments.reduce((sum, s) => sum + s.duration, 0);
+        const totalRemaining = totalDuration - totalElapsed;
+        totalElapsedEl.textContent = formatTime(Math.floor(totalElapsed));
+        totalRemainingEl.textContent = formatTime(Math.ceil(totalRemaining));
+
+        // Update phase color
+        document.body.classList.remove(
+          "phase-green",
+          "phase-yellow",
+          "phase-red",
+        );
+        if (progress >= redThreshold) {
+          document.body.classList.add("phase-red");
+        } else if (progress >= yellowThreshold) {
+          document.body.classList.add("phase-yellow");
+        } else {
+          document.body.classList.add("phase-green");
+        }
+      }
+
+      // Utilities
+      function formatTime(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = Math.floor(seconds % 60);
+        return `${mins}:${secs.toString().padStart(2, "0")}`;
+      }
+
+      function formatDurationInput(seconds) {
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        if (secs === 0) return `${mins}:00`;
+        return `${mins}:${secs.toString().padStart(2, "0")}`;
+      }
+
+      function parseDuration(str) {
+        str = str.trim();
+        // Handle "5:30" format
+        if (str.includes(":")) {
+          const [mins, secs] = str.split(":").map(Number);
+          if (!isNaN(mins) && !isNaN(secs)) {
+            return mins * 60 + secs;
+          }
+        }
+        // Handle "5" or "5m" as minutes
+        const num = parseFloat(str);
+        if (!isNaN(num)) {
+          return Math.round(num * 60);
+        }
+        return 0;
+      }
+
+      function escapeHtml(str) {
+        return str
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      // Start
+      init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Track submission deadlines for top ML and NLP conferences including NeurIPS, ICML, ICLR, ACL, and more"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link
+      rel="canonical"
+      href="https://yoonholee.com/web-apps/conference-deadlines/"
+    />
+    <!-- Open Graph -->
+    <meta property="og:title" content="ML Conference Deadlines" />
+    <meta
+      property="og:description"
+      content="Track submission deadlines for top ML and NLP conferences"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://yoonholee.com/web-apps/conference-deadlines/"
+    />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="ML Conference Deadlines" />
+    <meta
+      name="twitter:description"
+      content="Track submission deadlines for top ML and NLP conferences"
+    />
+    <title>ML Conference Deadlines</title>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://unpkg.com/lucide@0.563.0"
+      integrity="sha384-aRB6X3zBuyu5EQF6GZFp0RCYdOwxYAOdFk4nViPfqSXYxc+MrZlqbM+nUYRwDQn1"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>ML Conference Deadlines</h1>
+        <p class="subtitle">Submission deadlines for top ML/NLP conferences</p>
+      </header>
+
+      <div id="upcoming-deadlines"></div>
+      <h2 class="section-title" id="past-title" style="display: none">
+        Past Deadlines
+      </h2>
+      <div id="past-deadlines"></div>
+    </div>
+
+    <script src="conferences.js"></script>
+    <script>
+      function formatCountdown(deadline) {
+        const now = new Date();
+        const target = new Date(deadline);
+        const diff = target - now;
+
+        if (diff < 0) {
+          return { text: "Deadline passed", isPast: true };
+        }
+
+        const totalDays = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const weeks = Math.floor(totalDays / 7);
+        const days = totalDays % 7;
+        const hours = Math.floor(
+          (diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+        );
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+
+        let parts = [];
+        if (weeks > 0) parts.push(`${weeks}w`);
+        if (days > 0) parts.push(`${days}d`);
+        if (hours > 0) parts.push(`${hours}h`);
+        if (minutes > 0) parts.push(`${minutes}m`);
+
+        return {
+          text: parts.join(" "),
+          isPast: false,
+        };
+      }
+
+      function extractUrlSlug(url) {
+        try {
+          const hostname = new URL(url).hostname;
+          return hostname.replace("www.", "");
+        } catch {
+          return url;
+        }
+      }
+
+      function createDeadlineCard(conf) {
+        const deadline = conf.fullPaperDeadline || conf.abstractDeadline;
+        const countdown = formatCountdown(deadline);
+        const urlSlug = extractUrlSlug(conf.url);
+
+        return `
+                <div class="deadline-card ${conf.category} ${
+                  countdown.isPast ? "past" : ""
+                }">
+                    <div class="card-header">
+                        <div class="conference-info">
+                            <a href="${
+                              conf.url
+                            }" target="_blank" class="conference-name">${
+                              conf.name
+                            }</a>
+                            <div class="conference-meta">${conf.location} · ${
+                              conf.conferenceDate
+                            }</div>
+                        </div>
+                        <div class="countdown ${
+                          countdown.isPast ? "past" : ""
+                        }" data-deadline="${deadline}">
+                            ${countdown.text}
+                        </div>
+                    </div>
+                    <div class="deadline-details">
+                        ${
+                          conf.abstractDeadline
+                            ? `
+                            <div class="detail-row">
+                                <i data-lucide="file-text" class="detail-icon"></i>
+                                <span class="detail-value">${new Date(
+                                  conf.abstractDeadline,
+                                ).toLocaleDateString("en-US", {
+                                  month: "short",
+                                  day: "numeric",
+                                  year: "numeric",
+                                  timeZone: "Etc/GMT+12",
+                                })} (AoE) – Abstract</span>
+                            </div>
+                        `
+                            : ""
+                        }
+                        ${
+                          conf.fullPaperDeadline
+                            ? `
+                            <div class="detail-row">
+                                <i data-lucide="file-check" class="detail-icon"></i>
+                                <span class="detail-value">${new Date(
+                                  conf.fullPaperDeadline,
+                                ).toLocaleDateString("en-US", {
+                                  month: "short",
+                                  day: "numeric",
+                                  year: "numeric",
+                                  timeZone: "Etc/GMT+12",
+                                })} (AoE) – Full Paper</span>
+                            </div>
+                        `
+                            : ""
+                        }
+                        <div class="detail-row">
+                            <i data-lucide="link" class="detail-icon"></i>
+                            <span class="detail-value"><a href="${
+                              conf.url
+                            }" target="_blank">${urlSlug}</a></span>
+                        </div>
+                    </div>
+                </div>
+            `;
+      }
+
+      function renderDeadlines() {
+        const now = new Date();
+        const upcoming = [];
+        const past = [];
+
+        conferences.forEach((conf) => {
+          const deadline = conf.fullPaperDeadline || conf.abstractDeadline;
+          if (new Date(deadline) < now) {
+            past.push(conf);
+          } else {
+            upcoming.push(conf);
+          }
+        });
+
+        // Sort upcoming by deadline (soonest first)
+        upcoming.sort((a, b) => {
+          const aDeadline = new Date(a.fullPaperDeadline || a.abstractDeadline);
+          const bDeadline = new Date(b.fullPaperDeadline || b.abstractDeadline);
+          return aDeadline - bDeadline;
+        });
+
+        // Sort past by deadline (most recent first)
+        past.sort((a, b) => {
+          const aDeadline = new Date(a.fullPaperDeadline || a.abstractDeadline);
+          const bDeadline = new Date(b.fullPaperDeadline || b.abstractDeadline);
+          return bDeadline - aDeadline;
+        });
+
+        document.getElementById("upcoming-deadlines").innerHTML = upcoming
+          .map((conf) => createDeadlineCard(conf))
+          .join("");
+
+        if (past.length > 0) {
+          document.getElementById("past-title").style.display = "block";
+          document.getElementById("past-deadlines").innerHTML = past
+            .map((conf) => createDeadlineCard(conf))
+            .join("");
+        }
+
+        // Initialize Lucide icons
+        if (typeof lucide !== "undefined") {
+          lucide.createIcons();
+        }
+      }
+
+      function updateCountdowns() {
+        document.querySelectorAll(".countdown").forEach((el) => {
+          const deadline = el.dataset.deadline;
+          if (deadline) {
+            const countdown = formatCountdown(deadline);
+            el.textContent = countdown.text;
+            if (countdown.isPast) {
+              el.classList.add("past");
+              el.closest(".deadline-card").classList.add("past");
+            }
+          }
+        });
+      }
+
+      // Initial render
+      renderDeadlines();
+
+      // Update countdowns every second
+      setInterval(updateCountdowns, 1000);
+    </script>
+  </body>
+</html>
