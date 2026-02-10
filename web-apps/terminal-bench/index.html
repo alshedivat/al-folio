@@ -674,6 +674,113 @@
         font-weight: 600;
       }
 
+      /* Scaffold score groups */
+      .scaffold-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+      }
+
+      .scaffold-header {
+        display: grid;
+        grid-template-columns: 180px 1fr 48px;
+        align-items: center;
+        gap: var(--sp-4);
+        cursor: pointer;
+        padding: var(--sp-1) 0;
+        user-select: none;
+      }
+
+      .scaffold-header:hover .score-label {
+        color: var(--ink);
+      }
+
+      .scaffold-header .score-label {
+        font-weight: 600;
+      }
+
+      .scaffold-models {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        padding-left: var(--sp-4);
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height 0.25s var(--ease);
+      }
+
+      .scaffold-models.open {
+        max-height: 2000px;
+      }
+
+      .scaffold-models .score-row {
+        grid-template-columns: 160px 1fr 48px;
+      }
+
+      .scaffold-models .score-label {
+        font-size: 0.8125rem;
+        color: var(--ink-3);
+      }
+
+      .scaffold-models .score-bar-bg {
+        height: 18px;
+      }
+
+      .scaffold-models .score-pct {
+        font-size: 0.8125rem;
+        font-weight: 500;
+        color: var(--ink-2);
+      }
+
+      /* Traj model group */
+      .traj-model-group {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-1);
+      }
+
+      .traj-model-label {
+        font-size: 0.6875rem;
+        font-weight: 600;
+        color: var(--ink-3);
+        margin-top: var(--sp-1);
+      }
+
+      .traj-trial-row {
+        display: flex;
+        gap: var(--sp-1);
+        flex-wrap: wrap;
+      }
+
+      /* Loading indicator */
+      .loading-bar {
+        height: 3px;
+        background: var(--line);
+        border-radius: 2px;
+        overflow: hidden;
+        margin: var(--sp-4) 0;
+      }
+
+      .loading-bar::after {
+        content: "";
+        display: block;
+        height: 100%;
+        width: 30%;
+        background: var(--accent);
+        border-radius: 2px;
+        animation: loading-slide 1.2s ease-in-out infinite;
+      }
+
+      @keyframes loading-slide {
+        0% { transform: translateX(-100%); }
+        100% { transform: translateX(400%); }
+      }
+
+      /* Filter row scaffold filter */
+      .filter-row select {
+        min-width: 0;
+      }
+
       /* Responsive */
       @media (max-width: 900px) {
         .app {
@@ -722,7 +829,8 @@
       <aside class="sidebar">
         <div class="summary-bar">
           <span><strong id="task-count">89</strong> tasks</span>
-          <span><strong>5</strong> agent/model combos</span>
+          <span><strong id="scaffold-count">0</strong> scaffolds</span>
+          <span><strong id="model-count">0</strong> agent/model combos</span>
           <span><strong id="trial-count">0</strong> trials</span>
         </div>
         <div class="sidebar-controls">
@@ -749,6 +857,11 @@
               <option value="diff">Difficulty</option>
             </select>
           </div>
+          <div class="filter-row">
+            <select id="filter-scaffold">
+              <option value="">All scaffolds</option>
+            </select>
+          </div>
         </div>
         <div class="task-list" id="task-list"></div>
       </aside>
@@ -765,51 +878,124 @@
       let activeTab = "overview";
       let activeTraj = null;
       let activeScaffold = null;
+      let activeModel = null;
+      let openScaffolds = new Set();
 
-      const MODEL_SHORT = {
-        "claude-code/claude-opus-4-5-20251101": "CC / Opus 4.5",
-        "claude-code/claude-opus-4-6": "CC / Opus 4.6",
-        "terminus-2/claude-opus-4-5-20251101": "T2 / Opus 4.5",
-        "terminus-2/claude-opus-4-6": "T2 / Opus 4.6",
-        "terminus-2/gpt-5.2": "T2 / GPT-5.2",
+      // Scaffold color hues (OKLCH)
+      const SCAFFOLD_HUES = {
+        "claude-code": 180,
+        "codex": 270,
+        "gemini-cli": 145,
+        "mini-swe-agent": 40,
+        "openhands": 310,
+        "terminus-2": 220,
       };
 
-      const SCAFFOLD_NAMES = {
+      const SCAFFOLD_SHORT = {
+        "claude-code": "CC",
+        "codex": "CX",
+        "gemini-cli": "GC",
+        "mini-swe-agent": "MSA",
+        "openhands": "OH",
+        "terminus-2": "T2",
+      };
+
+      const SCAFFOLD_DISPLAY = {
         "claude-code": "Claude Code",
+        "codex": "Codex",
+        "gemini-cli": "Gemini CLI",
+        "mini-swe-agent": "Mini SWE Agent",
+        "openhands": "OpenHands",
         "terminus-2": "Terminus 2",
       };
 
+      function scaffoldColor(scaffold, alpha) {
+        const hue = SCAFFOLD_HUES[scaffold] || 0;
+        if (alpha) return `oklch(55% 0.15 ${hue} / ${alpha})`;
+        return `oklch(55% 0.15 ${hue})`;
+      }
+
       function getScaffold(agentModel) {
+        for (const s of Object.keys(SCAFFOLD_HUES)) {
+          if (agentModel.startsWith(s + "/")) return s;
+        }
         return agentModel.split("/")[0];
       }
 
-      function getModelName(agentModel) {
-        const parts = agentModel.split("/");
-        const model = parts.slice(1).join("/");
-        if (model.includes("opus-4-5")) return "Opus 4.5";
-        if (model.includes("opus-4-6")) return "Opus 4.6";
-        if (model.includes("gpt-5.2")) return "GPT-5.2";
-        return model;
+      function getModelPart(agentModel) {
+        const scaffold = getScaffold(agentModel);
+        return agentModel.slice(scaffold.length + 1);
       }
 
-      const MODEL_COLORS = [
-        "oklch(55% 0.15 180)",
-        "oklch(55% 0.2 270)",
-        "oklch(60% 0.18 145)",
-        "oklch(55% 0.18 40)",
-        "oklch(58% 0.17 310)",
-      ];
+      function shortModelName(modelPart) {
+        // Simplify common model names
+        const m = modelPart;
+        if (m.includes("claude-opus-4-6")) return "Opus 4.6";
+        if (m.includes("claude-opus-4-5")) return "Opus 4.5";
+        if (m.includes("claude-opus-4-1")) return "Opus 4.1";
+        if (m.includes("claude-sonnet-4-5")) return "Sonnet 4.5";
+        if (m.includes("claude-haiku-4-5")) return "Haiku 4.5";
+        if (m.includes("gemini-3-pro")) return "Gemini 3 Pro";
+        if (m.includes("gemini-3-flash")) return "Gemini 3 Flash";
+        if (m.includes("gemini-2.5-pro")) return "Gemini 2.5 Pro";
+        if (m.includes("gemini-2.5-flash")) return "Gemini 2.5 Flash";
+        if (m.includes("gpt-5.2")) return "GPT-5.2";
+        if (m.includes("gpt-5.1-codex")) return "GPT-5.1 Codex";
+        if (m.includes("gpt-5.1")) return "GPT-5.1";
+        if (m.includes("gpt-5-codex")) return "GPT-5 Codex";
+        if (m.includes("gpt-5-nano")) return "GPT-5 Nano";
+        if (m.includes("gpt-5-mini")) return "GPT-5 Mini";
+        if (m === "gpt-5") return "GPT-5";
+        if (m.includes("grok-4")) return "Grok 4";
+        if (m.includes("grok-code-fast")) return "Grok Code Fast";
+        if (m.includes("deepseek-v3.2")) return "DeepSeek V3.2";
+        if (m.includes("minimax-m2.1")) return "MiniMax M2.1";
+        if (m.includes("minimax-m2")) return "MiniMax M2";
+        if (m.includes("Qwen3-Coder")) return "Qwen3 Coder";
+        if (m.includes("Kimi-K2-Thinking")) return "Kimi K2 Think";
+        if (m.includes("Kimi-K2")) return "Kimi K2";
+        if (m.includes("gpt-oss-120b")) return "GPT-OSS 120B";
+        if (m.includes("gpt-oss-20b")) return "GPT-OSS 20B";
+        if (m.includes("glm-4p6")) return "GLM-4p6";
+        // Fallback: last segment
+        return m.split("/").pop();
+      }
+
+      function shortAgentModel(am) {
+        const scaffold = getScaffold(am);
+        const model = getModelPart(am);
+        return `${SCAFFOLD_SHORT[scaffold] || scaffold} / ${shortModelName(model)}`;
+      }
 
       const DIFF_ORDER = { easy: 0, medium: 1, hard: 2 };
+
+      // Group agent_models by scaffold
+      function modelsByScaffold() {
+        const groups = {};
+        for (const am of DATA.agent_models) {
+          const s = getScaffold(am);
+          if (!groups[s]) groups[s] = [];
+          groups[s].push(am);
+        }
+        return groups;
+      }
+
+      // Average pass rate for a scaffold on a task
+      function scaffoldAvgRate(taskScores, scaffold) {
+        const models = DATA.agent_models.filter(m => getScaffold(m) === scaffold);
+        const rates = models.map(m => taskScores[m]?.rate || 0).filter((_, i) => taskScores[models[i]]);
+        if (rates.length === 0) return 0;
+        return rates.reduce((a, b) => a + b, 0) / rates.length;
+      }
 
       async function loadData() {
         try {
           const resp = await fetch("data/data.json");
           DATA = await resp.json();
-          console.log("Loaded", Object.keys(DATA.tasks).length, "tasks");
+          console.log("Loaded", Object.keys(DATA.tasks).length, "tasks,", DATA.agent_models.length, "agent/models");
           populateFilters();
           renderTaskList();
-          countTrials();
+          updateSummary();
         } catch (e) {
           console.error("Failed to load data:", e);
           document.getElementById("task-list").innerHTML =
@@ -817,43 +1003,57 @@
         }
       }
 
-      function countTrials() {
+      function updateSummary() {
         let n = 0;
         for (const task of Object.keys(DATA.trials)) {
           for (const model of Object.keys(DATA.trials[task])) {
             n += DATA.trials[task][model].length;
           }
         }
-        document.getElementById("trial-count").textContent = n;
+        document.getElementById("trial-count").textContent = n.toLocaleString();
+        document.getElementById("model-count").textContent = DATA.agent_models.length;
+        document.getElementById("scaffold-count").textContent = DATA.scaffolds.length;
       }
 
       function populateFilters() {
         const cats = new Set();
         for (const t of Object.values(DATA.tasks)) cats.add(t.category);
-        const sel = document.getElementById("filter-cat");
-        [...cats]
-          .sort()
-          .forEach((c) => {
-            const opt = document.createElement("option");
-            opt.value = c;
-            opt.textContent = c.replace(/-/g, " ");
-            sel.appendChild(opt);
-          });
+        const catSel = document.getElementById("filter-cat");
+        [...cats].sort().forEach((c) => {
+          const opt = document.createElement("option");
+          opt.value = c;
+          opt.textContent = c.replace(/-/g, " ");
+          catSel.appendChild(opt);
+        });
+
+        const scaffSel = document.getElementById("filter-scaffold");
+        DATA.scaffolds.forEach((s) => {
+          const opt = document.createElement("option");
+          opt.value = s;
+          opt.textContent = SCAFFOLD_DISPLAY[s] || s;
+          scaffSel.appendChild(opt);
+        });
       }
 
       function getFilteredTasks() {
-        const search = document
-          .getElementById("search")
-          .value.toLowerCase()
-          .trim();
+        const search = document.getElementById("search").value.toLowerCase().trim();
         const diff = document.getElementById("filter-diff").value;
         const cat = document.getElementById("filter-cat").value;
         const sort = document.getElementById("sort-by").value;
+        const scaffoldFilter = document.getElementById("filter-scaffold").value;
 
         let tasks = Object.values(DATA.tasks).filter((t) => {
           if (search && !t.name.toLowerCase().includes(search)) return false;
           if (diff && t.difficulty !== diff) return false;
           if (cat && t.category !== cat) return false;
+          if (scaffoldFilter) {
+            // Only show tasks where this scaffold has trials
+            const taskScores = DATA.scores[t.name] || {};
+            const hasScaffold = DATA.agent_models.some(m =>
+              getScaffold(m) === scaffoldFilter && taskScores[m]
+            );
+            if (!hasScaffold) return false;
+          }
           return true;
         });
 
@@ -864,10 +1064,7 @@
             return (DATA.disc[a.name]?.var || 0) - (DATA.disc[b.name]?.var || 0);
           if (sort === "name") return a.name.localeCompare(b.name);
           if (sort === "diff")
-            return (
-              (DIFF_ORDER[a.difficulty] || 0) -
-              (DIFF_ORDER[b.difficulty] || 0)
-            );
+            return (DIFF_ORDER[a.difficulty] || 0) - (DIFF_ORDER[b.difficulty] || 0);
           return 0;
         });
 
@@ -879,21 +1076,18 @@
         const list = document.getElementById("task-list");
         document.getElementById("task-count").textContent = tasks.length;
 
-        list.innerHTML = tasks
-          .map((t) => {
-            const disc = DATA.disc[t.name];
-            const scores = DATA.scores[t.name] || {};
-            const isActive = selectedTask === t.name;
+        list.innerHTML = tasks.map((t) => {
+          const scores = DATA.scores[t.name] || {};
+          const isActive = selectedTask === t.name;
 
-            const bars = DATA.agent_models
-              .map((m, i) => {
-                const rate = scores[m]?.rate || 0;
-                const h = Math.max(2, rate * 14);
-                return `<div class="task-item-bar" style="height:${h}px;background:${MODEL_COLORS[i]}"></div>`;
-              })
-              .join("");
+          // 6 scaffold mini-bars
+          const bars = DATA.scaffolds.map((s) => {
+            const rate = scaffoldAvgRate(scores, s);
+            const h = Math.max(2, rate * 14);
+            return `<div class="task-item-bar" style="height:${h}px;background:${scaffoldColor(s)}" title="${SCAFFOLD_DISPLAY[s] || s}: ${Math.round(rate * 100)}%"></div>`;
+          }).join("");
 
-            return `
+          return `
           <div class="task-item ${isActive ? "active" : ""}" data-task="${t.name}">
             <div class="task-item-name">${esc(t.name)}</div>
             <div class="task-item-meta">
@@ -902,8 +1096,7 @@
               <div class="task-item-bars">${bars}</div>
             </div>
           </div>`;
-          })
-          .join("");
+        }).join("");
 
         list.querySelectorAll(".task-item").forEach((el) => {
           el.addEventListener("click", () => selectTask(el.dataset.task));
@@ -915,6 +1108,7 @@
         activeTab = "overview";
         activeTraj = null;
         activeScaffold = null;
+        activeModel = null;
         renderTaskList();
         renderDetail();
       }
@@ -935,8 +1129,8 @@
             <span class="mini-badge ${task.difficulty}" style="font-size:0.75rem;padding:2px 10px">${task.difficulty}</span>
             <span class="meta-chip">${task.category.replace(/-/g, " ")}</span>
             ${task.tags.map((t) => `<span class="meta-chip">${esc(t)}</span>`).join("")}
-            <span class="meta-chip">Expert: <strong>${task.expert_time_min}m</strong></span>
-            <span class="meta-chip">Junior: <strong>${task.junior_time_min}m</strong></span>
+            ${task.expert_time_min ? `<span class="meta-chip">Expert: <strong>${task.expert_time_min}m</strong></span>` : ""}
+            ${task.junior_time_min ? `<span class="meta-chip">Junior: <strong>${task.junior_time_min}m</strong></span>` : ""}
             <span class="meta-chip">Timeout: <strong>${task.agent_timeout_sec}s</strong></span>
             <span class="meta-chip">Variance: <strong>${disc.var?.toFixed(3) || "—"}</strong></span>
           </div>
@@ -963,50 +1157,78 @@
 
       function renderOverview(task, scores, disc, trials) {
         const container = document.getElementById("tab-content");
+        const groups = modelsByScaffold();
 
-        // Score bars
-        const scoreBars = DATA.agent_models
-          .map((m, i) => {
+        // Scaffold-grouped score bars
+        let scoreBarsHtml = "";
+        for (const scaffold of DATA.scaffolds) {
+          const models = groups[scaffold] || [];
+          const modelsWithScores = models.filter(m => scores[m]);
+          if (modelsWithScores.length === 0) continue;
+
+          const avgRate = scaffoldAvgRate(scores, scaffold);
+          const avgPct = Math.round(avgRate * 100);
+          const color = scaffoldColor(scaffold);
+          const isOpen = openScaffolds.has(scaffold);
+
+          // Per-model bars
+          const modelBars = modelsWithScores.map(m => {
             const s = scores[m];
             const rate = s ? s.rate : 0;
             const pct = Math.round(rate * 100);
             return `
-          <div class="score-row">
-            <div class="score-label" title="${m}">${MODEL_SHORT[m] || m}</div>
-            <div class="score-bar-bg">
-              <div class="score-bar-fill" style="width:${pct}%;background:${MODEL_COLORS[i]}"></div>
-            </div>
-            <div class="score-pct">${pct}%</div>
-          </div>`;
-          })
-          .join("");
+            <div class="score-row">
+              <div class="score-label" title="${m}">${shortModelName(getModelPart(m))}</div>
+              <div class="score-bar-bg">
+                <div class="score-bar-fill" style="width:${pct}%;background:${color}"></div>
+              </div>
+              <div class="score-pct">${pct}%</div>
+            </div>`;
+          }).join("");
 
-        // Trials table
+          scoreBarsHtml += `
+          <div class="scaffold-group">
+            <div class="scaffold-header" data-scaffold-toggle="${scaffold}">
+              <div class="score-label" title="${scaffold}">${SCAFFOLD_DISPLAY[scaffold] || scaffold} (${modelsWithScores.length})</div>
+              <div class="score-bar-bg">
+                <div class="score-bar-fill" style="width:${avgPct}%;background:${color}"></div>
+              </div>
+              <div class="score-pct">${avgPct}%</div>
+            </div>
+            <div class="scaffold-models ${isOpen ? "open" : ""}" data-scaffold-models="${scaffold}">
+              ${modelBars}
+            </div>
+          </div>`;
+        }
+
+        // Trials table grouped by scaffold
         let trialRows = "";
-        for (const m of DATA.agent_models) {
-          const ts = trials[m] || [];
-          for (const t of ts) {
-            const tokens =
-              t.in_tok && t.out_tok
-                ? `${fmtK(t.in_tok)} / ${fmtK(t.out_tok)}`
-                : "—";
-            const cost = t.cost_c ? `$${(t.cost_c / 100).toFixed(2)}` : "—";
-            const dur = t.dur_s ? fmtDur(t.dur_s) : "—";
-            trialRows += `
-          <tr>
-            <td>${MODEL_SHORT[m] || m}</td>
-            <td class="${t.reward ? "result-pass" : "result-fail"}">${t.reward ? "Pass" : "Fail"}</td>
-            <td>${tokens}</td>
-            <td>${cost}</td>
-            <td>${dur}</td>
-          </tr>`;
+        for (const scaffold of DATA.scaffolds) {
+          const models = (groups[scaffold] || []).filter(m => trials[m]?.length);
+          if (models.length === 0) continue;
+          for (const m of models) {
+            const ts = trials[m] || [];
+            for (const t of ts) {
+              const tokens = t.in_tok && t.out_tok ? `${fmtK(t.in_tok)} / ${fmtK(t.out_tok)}` : "—";
+              const cost = t.cost_c ? `$${(t.cost_c / 100).toFixed(2)}` : "—";
+              const dur = t.dur_s ? fmtDur(t.dur_s) : "—";
+              trialRows += `
+              <tr>
+                <td><span style="color:${scaffoldColor(scaffold)};font-weight:600">${SCAFFOLD_SHORT[scaffold]}</span></td>
+                <td>${shortModelName(getModelPart(m))}</td>
+                <td class="${t.reward ? "result-pass" : "result-fail"}">${t.reward ? "Pass" : "Fail"}</td>
+                <td>${tokens}</td>
+                <td>${cost}</td>
+                <td>${dur}</td>
+              </tr>`;
+            }
           }
         }
 
         container.innerHTML = `
         <div class="scores-section section">
-          <div class="section-heading">Pass Rate by Model</div>
-          ${scoreBars}
+          <div class="section-heading">Pass Rate by Scaffold</div>
+          ${scoreBarsHtml}
         </div>
 
         <div class="section">
@@ -1020,7 +1242,8 @@
             <table class="trials-table">
               <thead>
                 <tr>
-                  <th>Agent / Model</th>
+                  <th>Scaffold</th>
+                  <th>Model</th>
                   <th>Result</th>
                   <th>In / Out Tokens</th>
                   <th>Cost</th>
@@ -1032,17 +1255,33 @@
           </div>
         </div>
       `;
+
+        // Scaffold toggle events
+        container.querySelectorAll("[data-scaffold-toggle]").forEach((hdr) => {
+          hdr.addEventListener("click", () => {
+            const s = hdr.dataset.scaffoldToggle;
+            const models = container.querySelector(`[data-scaffold-models="${s}"]`);
+            if (models) {
+              models.classList.toggle("open");
+              if (models.classList.contains("open")) openScaffolds.add(s);
+              else openScaffolds.delete(s);
+            }
+          });
+        });
       }
 
       async function renderTrajectories(task, trials) {
         const container = document.getElementById("tab-content");
 
-        // Load trajectory data
+        // Load trajectory data from traj_all/
         if (!TRAJ_CACHE[task.name]) {
-          container.innerHTML =
-            '<div style="color:var(--ink-3);padding:var(--sp-4)">Loading trajectories...</div>';
+          container.innerHTML = `
+            <div style="color:var(--ink-3);padding:var(--sp-4)">
+              Loading trajectories...
+              <div class="loading-bar"></div>
+            </div>`;
           try {
-            const resp = await fetch(`data/traj/${task.name}.json`);
+            const resp = await fetch(`data/traj_all/${task.name}.json`);
             TRAJ_CACHE[task.name] = await resp.json();
           } catch {
             container.innerHTML =
@@ -1054,105 +1293,110 @@
         const trajData = TRAJ_CACHE[task.name];
         const trajKeys = Object.keys(trajData);
 
-        // Group trajectories by scaffold
+        // Group by scaffold > model
         const byScaffold = {};
         for (const k of trajKeys) {
-          const scaffold = getScaffold(trajData[k].agent_model);
-          if (!byScaffold[scaffold]) byScaffold[scaffold] = [];
-          byScaffold[scaffold].push(k);
+          const am = trajData[k].agent_model;
+          const scaffold = getScaffold(am);
+          if (!byScaffold[scaffold]) byScaffold[scaffold] = {};
+          if (!byScaffold[scaffold][am]) byScaffold[scaffold][am] = [];
+          byScaffold[scaffold][am].push(k);
         }
-        const scaffolds = Object.keys(byScaffold);
+        const scaffolds = DATA.scaffolds.filter(s => byScaffold[s]);
 
-        // Default scaffold selection
+        // Defaults
         if (!activeScaffold || !byScaffold[activeScaffold]) {
           activeScaffold = scaffolds[0] || null;
         }
-
-        // Default trajectory: first in active scaffold
-        const scaffoldTrajs = byScaffold[activeScaffold] || [];
-        if (!activeTraj || !scaffoldTrajs.includes(activeTraj)) {
-          activeTraj = scaffoldTrajs[0] || null;
+        const scaffoldModels = byScaffold[activeScaffold] || {};
+        const modelKeys = Object.keys(scaffoldModels);
+        if (!activeModel || !scaffoldModels[activeModel]) {
+          activeModel = modelKeys[0] || null;
+        }
+        const modelTrajs = scaffoldModels[activeModel] || [];
+        if (!activeTraj || !modelTrajs.includes(activeTraj)) {
+          activeTraj = modelTrajs[0] || null;
         }
 
-        // Scaffold picker row
+        // Scaffold picker
         const scaffoldBtns = scaffolds.map((s) => {
           const cls = ["traj-btn", activeScaffold === s ? "active" : ""].filter(Boolean).join(" ");
-          return `<button class="${cls}" data-scaffold="${s}">${esc(SCAFFOLD_NAMES[s] || s)}</button>`;
+          const style = activeScaffold === s ? `background:${scaffoldColor(s)};border-color:${scaffoldColor(s)};color:#fff` : "";
+          return `<button class="${cls}" data-scaffold="${s}" style="${style}">${esc(SCAFFOLD_DISPLAY[s] || s)}</button>`;
         }).join("");
 
-        // Model/trial picker row (filtered by scaffold)
-        const trialBtns = scaffoldTrajs.map((k) => {
+        // Model picker
+        const modelBtns = modelKeys.map((am) => {
+          const label = shortModelName(getModelPart(am));
+          const cls = ["traj-btn", activeModel === am ? "active" : ""].filter(Boolean).join(" ");
+          return `<button class="${cls}" data-model="${am}">${esc(label)}</button>`;
+        }).join("");
+
+        // Trial picker
+        const trialBtns = modelTrajs.map((k, i) => {
           const t = trajData[k];
           const isPass = t.reward === 1;
-          const label = getModelName(t.agent_model);
           const cls = ["traj-btn", activeTraj === k ? "active" : "", isPass ? "pass" : "fail"].filter(Boolean).join(" ");
-          return `<button class="${cls}" data-traj="${k}">${isPass ? "Pass" : "Fail"}: ${esc(label)}</button>`;
+          return `<button class="${cls}" data-traj="${k}">${isPass ? "Pass" : "Fail"} #${i + 1}</button>`;
         }).join("");
 
         const pickerHtml = `
           <div class="traj-picker-row">
-            <span class="traj-picker-label">Agent</span>
+            <span class="traj-picker-label">Scaffold</span>
             ${scaffoldBtns}
+          </div>
+          <div class="traj-picker-row">
+            <span class="traj-picker-label">Model</span>
+            ${modelBtns}
           </div>
           <div class="traj-picker-row">
             <span class="traj-picker-label">Trial</span>
             ${trialBtns}
           </div>`;
 
-        // Selected trajectory
+        // Selected trajectory steps
         let stepsHtml = "";
         if (activeTraj && trajData[activeTraj]) {
           const traj = trajData[activeTraj];
           const meta = [];
           if (traj.dur_s) meta.push(`Duration: ${fmtDur(traj.dur_s)}`);
-          if (traj.in_tok)
-            meta.push(`Tokens: ${fmtK(traj.in_tok)} / ${fmtK(traj.out_tok)}`);
-          if (traj.cost_c)
-            meta.push(`Cost: $${(traj.cost_c / 100).toFixed(2)}`);
+          if (traj.in_tok) meta.push(`Tokens: ${fmtK(traj.in_tok)} / ${fmtK(traj.out_tok)}`);
+          if (traj.cost_c) meta.push(`Cost: $${(traj.cost_c / 100).toFixed(2)}`);
 
           const metaHtml = meta.length
             ? `<div style="display:flex;gap:var(--sp-3);flex-wrap:wrap;margin-bottom:var(--sp-2)">${meta.map((m) => `<span class="meta-chip">${m}</span>`).join("")}</div>`
             : "";
 
           const steps = traj.steps || [];
-          stepsHtml =
-            metaHtml +
-            `<div class="traj-steps">` +
+          stepsHtml = metaHtml + `<div class="traj-steps">` +
             steps
               .filter((s) => (s.msg && s.msg !== "Warmup") || s.tools)
-              .map(
-                (s, i) => {
-                  const hasTools = s.tools && s.tools.length > 0;
-                  const textMsg = s.msg && !s.msg.startsWith("Executed ") ? s.msg : "";
-                  const contentLen = (textMsg || "").length;
+              .map((s, i) => {
+                const hasTools = s.tools && s.tools.length > 0;
+                const textMsg = s.msg && !s.msg.startsWith("Executed ") ? s.msg : "";
+                const contentLen = (textMsg || "").length;
 
-                  let bodyHtml = "";
-                  if (hasTools && !textMsg) {
-                    // Tool-only step
-                    bodyHtml = `<div class="step-tools">${renderToolCalls(s, i)}</div>`;
-                  } else if (hasTools && textMsg) {
-                    // Text + tools
-                    bodyHtml = `<div class="step-tools">
-                      <div class="step-msg ${contentLen > 300 ? "collapsed" : ""}" data-idx="${i}">${esc(textMsg)}</div>
-                      ${contentLen > 300 ? `<button class="step-expand" data-idx="${i}">expand</button>` : ""}
-                      ${renderToolCalls(s, i)}
-                    </div>`;
-                  } else {
-                    // Text-only step
-                    bodyHtml = `
-                      <div class="step-msg ${contentLen > 300 ? "collapsed" : ""}" data-idx="${i}">${esc(textMsg || s.msg)}</div>
-                      ${contentLen > 300 ? `<button class="step-expand" data-idx="${i}">expand</button>` : ""}`;
-                  }
+                let bodyHtml = "";
+                if (hasTools && !textMsg) {
+                  bodyHtml = `<div class="step-tools">${renderToolCalls(s, i)}</div>`;
+                } else if (hasTools && textMsg) {
+                  bodyHtml = `<div class="step-tools">
+                    <div class="step-msg ${contentLen > 300 ? "collapsed" : ""}" data-idx="${i}">${esc(textMsg)}</div>
+                    ${contentLen > 300 ? `<button class="step-expand" data-idx="${i}">expand</button>` : ""}
+                    ${renderToolCalls(s, i)}
+                  </div>`;
+                } else {
+                  bodyHtml = `
+                    <div class="step-msg ${contentLen > 300 ? "collapsed" : ""}" data-idx="${i}">${esc(textMsg || s.msg)}</div>
+                    ${contentLen > 300 ? `<button class="step-expand" data-idx="${i}">expand</button>` : ""}`;
+                }
 
-                  return `
+                return `
             <div class="traj-step ${s.src === "user" ? "user-step" : ""}">
               <div class="step-badge ${s.src}">${s.src}</div>
               ${bodyHtml}
             </div>`;
-                },
-              )
-              .join("") +
-            `</div>`;
+              }).join("") + `</div>`;
         }
 
         container.innerHTML = `
@@ -1162,16 +1406,24 @@
         </div>
       `;
 
-        // Scaffold picker events
+        // Event listeners
         container.querySelectorAll("[data-scaffold]").forEach((btn) => {
           btn.addEventListener("click", () => {
             activeScaffold = btn.dataset.scaffold;
-            activeTraj = null; // reset to first trial in new scaffold
+            activeModel = null;
+            activeTraj = null;
             renderTrajectories(task, trials);
           });
         });
 
-        // Trial picker events
+        container.querySelectorAll("[data-model]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            activeModel = btn.dataset.model;
+            activeTraj = null;
+            renderTrajectories(task, trials);
+          });
+        });
+
         container.querySelectorAll("[data-traj]").forEach((btn) => {
           btn.addEventListener("click", () => {
             activeTraj = btn.dataset.traj;
@@ -1179,13 +1431,10 @@
           });
         });
 
-        // Expand events
         container.querySelectorAll(".step-expand").forEach((btn) => {
           btn.addEventListener("click", () => {
             const idx = btn.dataset.idx;
-            const msg = container.querySelector(
-              `.step-msg[data-idx="${idx}"]`,
-            );
+            const msg = container.querySelector(`.step-msg[data-idx="${idx}"]`);
             if (msg.classList.contains("collapsed")) {
               msg.classList.remove("collapsed");
               btn.textContent = "collapse";
@@ -1196,7 +1445,6 @@
           });
         });
 
-        // Tool call toggle events
         container.querySelectorAll(".tool-call-header[data-tool]").forEach((hdr) => {
           hdr.addEventListener("click", () => {
             const id = hdr.dataset.tool;
@@ -1209,12 +1457,11 @@
         });
       }
 
-      // Render tool calls for a step
       function renderToolCalls(step, stepIdx) {
         if (!step.tools || step.tools.length === 0) return "";
         return step.tools.map((t, ti) => {
           const hasCmd = t.cmd && t.cmd.trim();
-          const hasObs = step.obs && ti === step.tools.length - 1; // obs appears on last tool
+          const hasObs = step.obs && ti === step.tools.length - 1;
           if (!hasCmd && !hasObs) {
             return `<div class="tool-call">
               <div class="tool-call-header">
@@ -1255,37 +1502,18 @@
       function fmtDur(s) {
         if (s == null) return "—";
         if (s >= 3600)
-          return (
-            Math.floor(s / 3600) +
-            "h" +
-            Math.floor((s % 3600) / 60)
-              .toString()
-              .padStart(2, "0") +
-            "m"
-          );
+          return Math.floor(s / 3600) + "h" + Math.floor((s % 3600) / 60).toString().padStart(2, "0") + "m";
         if (s >= 60)
-          return (
-            Math.floor(s / 60) +
-            "m" +
-            (s % 60).toString().padStart(2, "0") +
-            "s"
-          );
+          return Math.floor(s / 60) + "m" + (s % 60).toString().padStart(2, "0") + "s";
         return s + "s";
       }
 
       // Events
-      document
-        .getElementById("search")
-        .addEventListener("input", renderTaskList);
-      document
-        .getElementById("filter-diff")
-        .addEventListener("change", renderTaskList);
-      document
-        .getElementById("filter-cat")
-        .addEventListener("change", renderTaskList);
-      document
-        .getElementById("sort-by")
-        .addEventListener("change", renderTaskList);
+      document.getElementById("search").addEventListener("input", renderTaskList);
+      document.getElementById("filter-diff").addEventListener("change", renderTaskList);
+      document.getElementById("filter-cat").addEventListener("change", renderTaskList);
+      document.getElementById("sort-by").addEventListener("change", renderTaskList);
+      document.getElementById("filter-scaffold").addEventListener("change", renderTaskList);
 
       loadData();
     </script>
