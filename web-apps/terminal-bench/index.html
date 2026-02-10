@@ -1,0 +1,1293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore TerminalBench 2.0 tasks and agent trajectories"
+    />
+    <meta name="theme-color" content="#f3efe9" />
+    <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
+    <link rel="manifest" href="/web-apps/manifest.json" />
+    <link
+      rel="canonical"
+      href="https://yoonholee.com/web-apps/terminal-bench/"
+    />
+    <meta property="og:title" content="TerminalBench 2.0 Explorer" />
+    <meta
+      property="og:description"
+      content="Explore TerminalBench 2.0 tasks and agent trajectories"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://yoonholee.com/web-apps/terminal-bench/"
+    />
+    <title>TerminalBench 2.0 Explorer</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="/web-apps/shared.css" />
+    <style>
+      :root {
+        --accent: oklch(55% 0.15 180);
+        --accent-soft: oklch(55% 0.15 180 / 12%);
+      }
+
+      /* Layout */
+      .app {
+        display: grid;
+        grid-template-columns: 440px 1fr;
+        grid-template-rows: auto 1fr;
+        height: calc(100vh - 32px);
+        overflow: hidden;
+        max-width: 1600px;
+        margin: 16px auto;
+        border-radius: var(--radius-lg);
+        border: 1px solid var(--line);
+        box-shadow: var(--shadow-md);
+      }
+
+      .app-header {
+        grid-column: 1 / -1;
+        border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+      }
+
+      /* Sidebar */
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid var(--line);
+        overflow: hidden;
+        background: var(--bg);
+      }
+
+      .sidebar-controls {
+        padding: var(--sp-3) var(--sp-4);
+        border-bottom: 1px solid var(--line);
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-2);
+      }
+
+      .search-input {
+        width: 100%;
+        padding: var(--sp-2) var(--sp-3);
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        background: var(--bg-surface);
+        color: var(--ink);
+        font-size: 0.8125rem;
+        font-family: inherit;
+        outline: none;
+        transition: border-color 0.2s var(--ease);
+      }
+
+      .search-input:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px var(--accent-soft);
+      }
+
+      .filter-row {
+        display: flex;
+        gap: var(--sp-2);
+      }
+
+      .filter-row select {
+        flex: 1;
+        padding: var(--sp-1) var(--sp-2);
+        font-size: 0.75rem;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-sm);
+        background: var(--bg-surface);
+        color: var(--ink-2);
+        font-family: inherit;
+      }
+
+      .task-list {
+        flex: 1;
+        overflow-y: auto;
+        padding: var(--sp-2);
+      }
+
+      .task-item {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-1);
+        padding: var(--sp-3);
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        transition: background 0.15s var(--ease);
+        border: 1px solid transparent;
+      }
+
+      .task-item:hover {
+        background: var(--bg-surface);
+      }
+
+      .task-item.active {
+        background: var(--bg-surface);
+        border-color: var(--accent);
+        box-shadow: var(--shadow-sm);
+      }
+
+      .task-item-name {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: var(--ink);
+        letter-spacing: -0.01em;
+      }
+
+      .task-item-meta {
+        display: flex;
+        align-items: center;
+        gap: var(--sp-2);
+        flex-wrap: wrap;
+      }
+
+      .task-item-bars {
+        display: flex;
+        gap: 2px;
+        align-items: flex-end;
+        height: 14px;
+        margin-left: auto;
+      }
+
+      .task-item-bar {
+        width: 6px;
+        border-radius: 1px;
+        min-height: 2px;
+      }
+
+      /* Mini badges */
+      .mini-badge {
+        display: inline-flex;
+        align-items: center;
+        padding: 1px 6px;
+        font-size: 0.6875rem;
+        font-weight: 500;
+        border-radius: var(--radius-pill);
+        line-height: 1.6;
+      }
+
+      .mini-badge.easy {
+        background: oklch(72% 0.19 145 / 15%);
+        color: oklch(40% 0.15 145);
+      }
+      .mini-badge.medium {
+        background: oklch(72% 0.17 85 / 15%);
+        color: oklch(45% 0.15 85);
+      }
+      .mini-badge.hard {
+        background: oklch(63% 0.24 27 / 15%);
+        color: oklch(45% 0.2 27);
+      }
+
+      .mini-cat {
+        font-size: 0.6875rem;
+        color: var(--ink-3);
+      }
+
+      /* Main content */
+      .main {
+        overflow-y: auto;
+        padding: var(--sp-8) var(--sp-10);
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-8);
+      }
+
+      .main.empty-state {
+        align-items: center;
+        justify-content: center;
+      }
+
+      .empty-msg {
+        color: var(--ink-3);
+        font-size: 0.9375rem;
+      }
+
+      /* Task header */
+      .task-header {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-3);
+      }
+
+      .task-title {
+        font-size: 1.75rem;
+        font-weight: 700;
+        letter-spacing: -0.025em;
+        color: var(--ink);
+      }
+
+      .task-badges {
+        display: flex;
+        gap: var(--sp-2) var(--sp-3);
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .meta-chip {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        padding: 3px 10px;
+        font-size: 0.8125rem;
+        color: var(--ink-2);
+        background: var(--bg-surface);
+        border: 1px solid var(--line);
+        border-radius: var(--radius-pill);
+      }
+
+      .meta-chip strong {
+        font-weight: 600;
+        color: var(--ink);
+      }
+
+      /* Score bars */
+      .scores-section {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-4);
+      }
+
+      .score-row {
+        display: grid;
+        grid-template-columns: 180px 1fr 48px;
+        align-items: center;
+        gap: var(--sp-4);
+      }
+
+      .score-label {
+        font-size: 0.875rem;
+        color: var(--ink-2);
+        text-align: right;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .score-bar-bg {
+        height: 24px;
+        background: var(--bg);
+        border-radius: 4px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+      }
+
+      .score-bar-fill {
+        height: 100%;
+        border-radius: 2px;
+        transition: width 0.3s var(--ease);
+      }
+
+      .score-pct {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: var(--ink);
+        font-variant-numeric: tabular-nums;
+      }
+
+      /* Section heading */
+      .section-heading {
+        font-size: 0.8125rem;
+        font-weight: 600;
+        color: var(--ink-2);
+        margin-bottom: var(--sp-4);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+
+      /* Instruction */
+      .instruction-text {
+        font-size: 0.9rem;
+        line-height: 1.75;
+        color: var(--ink);
+        white-space: pre-wrap;
+        word-break: break-word;
+        max-height: 300px;
+        overflow-y: auto;
+        padding: var(--sp-5);
+        background: var(--bg);
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--line);
+      }
+
+      /* Tabs */
+      .detail-tabs {
+        display: flex;
+        gap: var(--sp-2);
+        border-bottom: 1px solid var(--line);
+        padding-bottom: var(--sp-2);
+      }
+
+      .detail-tab {
+        padding: var(--sp-2) var(--sp-4);
+        font-size: 0.875rem;
+        font-weight: 500;
+        font-family: inherit;
+        color: var(--ink-3);
+        background: none;
+        border: none;
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        transition: all 0.15s var(--ease);
+      }
+
+      .detail-tab:hover {
+        color: var(--ink);
+        background: var(--bg-surface);
+      }
+
+      .detail-tab.active {
+        color: var(--accent);
+        background: var(--accent-soft);
+        font-weight: 600;
+      }
+
+      /* Trials table */
+      .trials-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.875rem;
+      }
+
+      .trials-table th {
+        text-align: left;
+        padding: var(--sp-3) var(--sp-4);
+        font-weight: 600;
+        color: var(--ink-2);
+        border-bottom: 2px solid var(--line);
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+
+      .trials-table td {
+        padding: var(--sp-3) var(--sp-4);
+        border-bottom: 1px solid var(--line);
+        color: var(--ink);
+      }
+
+      .trials-table tr:hover td {
+        background: oklch(95.5% 0.01 55 / 50%);
+      }
+
+      .trials-table tr.clickable {
+        cursor: pointer;
+      }
+
+      .result-pass {
+        color: oklch(45% 0.18 145);
+        font-weight: 600;
+      }
+      .result-fail {
+        color: oklch(50% 0.2 27);
+        font-weight: 600;
+      }
+
+      /* Trajectory viewer */
+      .traj-viewer {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-3);
+      }
+
+      .traj-picker {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-3);
+      }
+
+      .traj-picker-row {
+        display: flex;
+        gap: var(--sp-2);
+        align-items: center;
+      }
+
+      .traj-picker-label {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--ink-2);
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        min-width: 64px;
+      }
+
+      .traj-btn {
+        padding: var(--sp-1) var(--sp-3);
+        font-size: 0.75rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: 1px solid var(--line);
+        border-radius: var(--radius-pill);
+        background: var(--bg-surface);
+        color: var(--ink-2);
+        cursor: pointer;
+        transition: all 0.15s var(--ease);
+      }
+
+      .traj-btn:hover {
+        border-color: var(--line-hover);
+        color: var(--ink);
+      }
+
+      .traj-btn.active {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: #fff;
+      }
+
+      .traj-btn.pass {
+        border-color: oklch(72% 0.19 145 / 40%);
+      }
+      .traj-btn.fail {
+        border-color: oklch(63% 0.24 27 / 40%);
+      }
+
+      .traj-steps {
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-2);
+      }
+
+      .traj-step {
+        display: flex;
+        gap: var(--sp-3);
+        padding: var(--sp-3);
+        border-radius: var(--radius-sm);
+        border: 1px solid var(--line);
+        background: var(--bg-surface);
+      }
+
+      .traj-step.user-step {
+        background: oklch(55% 0.15 180 / 5%);
+        border-color: oklch(55% 0.15 180 / 20%);
+      }
+
+      .step-badge {
+        flex-shrink: 0;
+        width: 48px;
+        text-align: center;
+        font-size: 0.6875rem;
+        font-weight: 600;
+        padding: 2px 0;
+        border-radius: var(--radius-sm);
+        text-transform: uppercase;
+      }
+
+      .step-badge.user {
+        background: oklch(55% 0.15 180 / 12%);
+        color: oklch(40% 0.12 180);
+      }
+      .step-badge.agent {
+        background: oklch(55% 0.2 270 / 12%);
+        color: oklch(40% 0.18 270);
+      }
+
+      .step-msg {
+        flex: 1;
+        font-size: 0.8125rem;
+        line-height: 1.6;
+        white-space: pre-wrap;
+        word-break: break-word;
+        color: var(--ink);
+        max-height: 200px;
+        overflow-y: auto;
+      }
+
+      .step-msg.collapsed {
+        max-height: 60px;
+        overflow: hidden;
+        position: relative;
+      }
+
+      .step-msg.collapsed::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 30px;
+        background: linear-gradient(transparent, var(--bg-surface));
+      }
+
+      .user-step .step-msg.collapsed::after {
+        background: linear-gradient(
+          transparent,
+          oklch(55% 0.15 180 / 5%)
+        );
+      }
+
+      .step-tools {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: var(--sp-2);
+      }
+
+      .step-tools .step-text {
+        font-size: 0.8125rem;
+        line-height: 1.6;
+        color: var(--ink);
+      }
+
+      .tool-call {
+        border-radius: var(--radius-sm);
+        overflow: hidden;
+        border: 1px solid oklch(88% 0.015 55 / 80%);
+      }
+
+      .tool-call-header {
+        display: flex;
+        align-items: center;
+        gap: var(--sp-2);
+        padding: var(--sp-1) var(--sp-3);
+        background: oklch(92% 0.01 55);
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--ink-2);
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .tool-call-header:hover {
+        background: oklch(90% 0.012 55);
+      }
+
+      .tool-call-header .tool-fn {
+        font-family: var(--font-mono);
+        color: oklch(40% 0.18 270);
+        font-size: 0.75rem;
+      }
+
+      .tool-call-header .tool-arrow {
+        margin-left: auto;
+        color: var(--ink-3);
+        transition: transform 0.15s var(--ease);
+        font-size: 0.6875rem;
+      }
+
+      .tool-call-header.open .tool-arrow {
+        transform: rotate(90deg);
+      }
+
+      .tool-call-body {
+        display: block;
+      }
+
+      .tool-call-body.collapsed {
+        display: none;
+      }
+
+      .tool-call-cmd {
+        padding: var(--sp-2) var(--sp-3);
+        background: oklch(15% 0.01 55);
+        color: oklch(85% 0.01 55);
+        font-family: var(--font-mono);
+        font-size: 0.75rem;
+        line-height: 1.6;
+        white-space: pre-wrap;
+        word-break: break-word;
+        max-height: 200px;
+        overflow-y: auto;
+      }
+
+      .tool-call-obs {
+        padding: var(--sp-2) var(--sp-3);
+        background: oklch(96% 0.008 55);
+        font-family: var(--font-mono);
+        font-size: 0.7rem;
+        line-height: 1.5;
+        color: var(--ink-2);
+        white-space: pre-wrap;
+        word-break: break-word;
+        max-height: 200px;
+        overflow-y: auto;
+        border-top: 1px solid oklch(88% 0.015 55 / 80%);
+      }
+
+      .step-expand {
+        flex-shrink: 0;
+        background: none;
+        border: none;
+        color: var(--ink-3);
+        cursor: pointer;
+        font-size: 0.75rem;
+        font-family: inherit;
+        padding: 0 var(--sp-1);
+      }
+
+      .step-expand:hover {
+        color: var(--accent);
+      }
+
+      /* Disc bar */
+      .disc-indicator {
+        display: flex;
+        align-items: center;
+        gap: var(--sp-2);
+      }
+
+      .disc-bar {
+        flex: 1;
+        height: 6px;
+        background: var(--line);
+        border-radius: 3px;
+        overflow: hidden;
+        max-width: 120px;
+      }
+
+      .disc-bar-fill {
+        height: 100%;
+        background: var(--accent);
+        border-radius: 3px;
+      }
+
+      .disc-val {
+        font-size: 0.75rem;
+        font-weight: 600;
+        color: var(--ink-2);
+        font-variant-numeric: tabular-nums;
+        min-width: 32px;
+      }
+
+      /* Summary stats */
+      .summary-bar {
+        display: flex;
+        gap: var(--sp-4);
+        padding: var(--sp-2) var(--sp-4);
+        border-bottom: 1px solid var(--line);
+        background: var(--bg-surface);
+        font-size: 0.75rem;
+        color: var(--ink-3);
+        flex-wrap: wrap;
+      }
+
+      .summary-bar strong {
+        color: var(--ink-2);
+        font-weight: 600;
+      }
+
+      /* Responsive */
+      @media (max-width: 900px) {
+        .app {
+          grid-template-columns: 1fr;
+          grid-template-rows: auto auto 1fr;
+          margin: 0;
+          height: 100vh;
+          border-radius: 0;
+          border: none;
+          box-shadow: none;
+        }
+        .sidebar {
+          border-right: none;
+          border-bottom: 1px solid var(--line);
+          max-height: 40vh;
+        }
+        .main {
+          padding: var(--sp-5);
+        }
+      }
+
+      /* Scrollbar */
+      .task-list::-webkit-scrollbar,
+      .main::-webkit-scrollbar {
+        width: 6px;
+      }
+      .task-list::-webkit-scrollbar-thumb,
+      .main::-webkit-scrollbar-thumb {
+        background: var(--line);
+        border-radius: 3px;
+      }
+      .task-list::-webkit-scrollbar-thumb:hover,
+      .main::-webkit-scrollbar-thumb:hover {
+        background: var(--line-hover);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="app">
+      <nav class="app-header">
+        <a href="/web-apps/" class="back">Apps</a>
+        <span class="sep">/</span>
+        <span class="title">TerminalBench 2.0</span>
+      </nav>
+
+      <aside class="sidebar">
+        <div class="summary-bar">
+          <span><strong id="task-count">89</strong> tasks</span>
+          <span><strong>5</strong> agent/model combos</span>
+          <span><strong id="trial-count">0</strong> trials</span>
+        </div>
+        <div class="sidebar-controls">
+          <input
+            type="text"
+            class="search-input"
+            id="search"
+            placeholder="Search tasks..."
+          />
+          <div class="filter-row">
+            <select id="filter-diff">
+              <option value="">All difficulties</option>
+              <option value="easy">Easy</option>
+              <option value="medium">Medium</option>
+              <option value="hard">Hard</option>
+            </select>
+            <select id="filter-cat">
+              <option value="">All categories</option>
+            </select>
+            <select id="sort-by">
+              <option value="disc-desc">Disc. (high)</option>
+              <option value="disc-asc">Disc. (low)</option>
+              <option value="name">Name</option>
+              <option value="diff">Difficulty</option>
+            </select>
+          </div>
+        </div>
+        <div class="task-list" id="task-list"></div>
+      </aside>
+
+      <main class="main empty-state" id="main">
+        <div class="empty-msg">Select a task from the sidebar</div>
+      </main>
+    </div>
+
+    <script>
+      let DATA = null;
+      let TRAJ_CACHE = {};
+      let selectedTask = null;
+      let activeTab = "overview";
+      let activeTraj = null;
+      let activeScaffold = null;
+
+      const MODEL_SHORT = {
+        "claude-code/claude-opus-4-5-20251101": "CC / Opus 4.5",
+        "claude-code/claude-opus-4-6": "CC / Opus 4.6",
+        "terminus-2/claude-opus-4-5-20251101": "T2 / Opus 4.5",
+        "terminus-2/claude-opus-4-6": "T2 / Opus 4.6",
+        "terminus-2/gpt-5.2": "T2 / GPT-5.2",
+      };
+
+      const SCAFFOLD_NAMES = {
+        "claude-code": "Claude Code",
+        "terminus-2": "Terminus 2",
+      };
+
+      function getScaffold(agentModel) {
+        return agentModel.split("/")[0];
+      }
+
+      function getModelName(agentModel) {
+        const parts = agentModel.split("/");
+        const model = parts.slice(1).join("/");
+        if (model.includes("opus-4-5")) return "Opus 4.5";
+        if (model.includes("opus-4-6")) return "Opus 4.6";
+        if (model.includes("gpt-5.2")) return "GPT-5.2";
+        return model;
+      }
+
+      const MODEL_COLORS = [
+        "oklch(55% 0.15 180)",
+        "oklch(55% 0.2 270)",
+        "oklch(60% 0.18 145)",
+        "oklch(55% 0.18 40)",
+        "oklch(58% 0.17 310)",
+      ];
+
+      const DIFF_ORDER = { easy: 0, medium: 1, hard: 2 };
+
+      async function loadData() {
+        try {
+          const resp = await fetch("data/data.json");
+          DATA = await resp.json();
+          console.log("Loaded", Object.keys(DATA.tasks).length, "tasks");
+          populateFilters();
+          renderTaskList();
+          countTrials();
+        } catch (e) {
+          console.error("Failed to load data:", e);
+          document.getElementById("task-list").innerHTML =
+            '<div style="padding:1rem;color:var(--ink-3)">Failed to load data. Serve via HTTP.</div>';
+        }
+      }
+
+      function countTrials() {
+        let n = 0;
+        for (const task of Object.keys(DATA.trials)) {
+          for (const model of Object.keys(DATA.trials[task])) {
+            n += DATA.trials[task][model].length;
+          }
+        }
+        document.getElementById("trial-count").textContent = n;
+      }
+
+      function populateFilters() {
+        const cats = new Set();
+        for (const t of Object.values(DATA.tasks)) cats.add(t.category);
+        const sel = document.getElementById("filter-cat");
+        [...cats]
+          .sort()
+          .forEach((c) => {
+            const opt = document.createElement("option");
+            opt.value = c;
+            opt.textContent = c.replace(/-/g, " ");
+            sel.appendChild(opt);
+          });
+      }
+
+      function getFilteredTasks() {
+        const search = document
+          .getElementById("search")
+          .value.toLowerCase()
+          .trim();
+        const diff = document.getElementById("filter-diff").value;
+        const cat = document.getElementById("filter-cat").value;
+        const sort = document.getElementById("sort-by").value;
+
+        let tasks = Object.values(DATA.tasks).filter((t) => {
+          if (search && !t.name.toLowerCase().includes(search)) return false;
+          if (diff && t.difficulty !== diff) return false;
+          if (cat && t.category !== cat) return false;
+          return true;
+        });
+
+        tasks.sort((a, b) => {
+          if (sort === "disc-desc")
+            return (DATA.disc[b.name]?.var || 0) - (DATA.disc[a.name]?.var || 0);
+          if (sort === "disc-asc")
+            return (DATA.disc[a.name]?.var || 0) - (DATA.disc[b.name]?.var || 0);
+          if (sort === "name") return a.name.localeCompare(b.name);
+          if (sort === "diff")
+            return (
+              (DIFF_ORDER[a.difficulty] || 0) -
+              (DIFF_ORDER[b.difficulty] || 0)
+            );
+          return 0;
+        });
+
+        return tasks;
+      }
+
+      function renderTaskList() {
+        const tasks = getFilteredTasks();
+        const list = document.getElementById("task-list");
+        document.getElementById("task-count").textContent = tasks.length;
+
+        list.innerHTML = tasks
+          .map((t) => {
+            const disc = DATA.disc[t.name];
+            const scores = DATA.scores[t.name] || {};
+            const isActive = selectedTask === t.name;
+
+            const bars = DATA.agent_models
+              .map((m, i) => {
+                const rate = scores[m]?.rate || 0;
+                const h = Math.max(2, rate * 14);
+                return `<div class="task-item-bar" style="height:${h}px;background:${MODEL_COLORS[i]}"></div>`;
+              })
+              .join("");
+
+            return `
+          <div class="task-item ${isActive ? "active" : ""}" data-task="${t.name}">
+            <div class="task-item-name">${esc(t.name)}</div>
+            <div class="task-item-meta">
+              <span class="mini-badge ${t.difficulty}">${t.difficulty}</span>
+              <span class="mini-cat">${t.category.replace(/-/g, " ")}</span>
+              <div class="task-item-bars">${bars}</div>
+            </div>
+          </div>`;
+          })
+          .join("");
+
+        list.querySelectorAll(".task-item").forEach((el) => {
+          el.addEventListener("click", () => selectTask(el.dataset.task));
+        });
+      }
+
+      function selectTask(name) {
+        selectedTask = name;
+        activeTab = "overview";
+        activeTraj = null;
+        activeScaffold = null;
+        renderTaskList();
+        renderDetail();
+      }
+
+      function renderDetail() {
+        const main = document.getElementById("main");
+        main.classList.remove("empty-state");
+
+        const task = DATA.tasks[selectedTask];
+        const scores = DATA.scores[selectedTask] || {};
+        const disc = DATA.disc[selectedTask] || {};
+        const trials = DATA.trials[selectedTask] || {};
+
+        main.innerHTML = `
+        <div class="task-header">
+          <div class="task-title">${esc(task.name)}</div>
+          <div class="task-badges">
+            <span class="mini-badge ${task.difficulty}" style="font-size:0.75rem;padding:2px 10px">${task.difficulty}</span>
+            <span class="meta-chip">${task.category.replace(/-/g, " ")}</span>
+            ${task.tags.map((t) => `<span class="meta-chip">${esc(t)}</span>`).join("")}
+            <span class="meta-chip">Expert: <strong>${task.expert_time_min}m</strong></span>
+            <span class="meta-chip">Junior: <strong>${task.junior_time_min}m</strong></span>
+            <span class="meta-chip">Timeout: <strong>${task.agent_timeout_sec}s</strong></span>
+            <span class="meta-chip">Variance: <strong>${disc.var?.toFixed(3) || "—"}</strong></span>
+          </div>
+        </div>
+
+        <div class="detail-tabs">
+          <button class="detail-tab ${activeTab === "overview" ? "active" : ""}" data-tab="overview">Overview</button>
+          <button class="detail-tab ${activeTab === "trajectories" ? "active" : ""}" data-tab="trajectories">Trajectories</button>
+        </div>
+
+        <div id="tab-content"></div>
+      `;
+
+        main.querySelectorAll(".detail-tab").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            activeTab = btn.dataset.tab;
+            renderDetail();
+          });
+        });
+
+        if (activeTab === "overview") renderOverview(task, scores, disc, trials);
+        else renderTrajectories(task, trials);
+      }
+
+      function renderOverview(task, scores, disc, trials) {
+        const container = document.getElementById("tab-content");
+
+        // Score bars
+        const scoreBars = DATA.agent_models
+          .map((m, i) => {
+            const s = scores[m];
+            const rate = s ? s.rate : 0;
+            const pct = Math.round(rate * 100);
+            return `
+          <div class="score-row">
+            <div class="score-label" title="${m}">${MODEL_SHORT[m] || m}</div>
+            <div class="score-bar-bg">
+              <div class="score-bar-fill" style="width:${pct}%;background:${MODEL_COLORS[i]}"></div>
+            </div>
+            <div class="score-pct">${pct}%</div>
+          </div>`;
+          })
+          .join("");
+
+        // Trials table
+        let trialRows = "";
+        for (const m of DATA.agent_models) {
+          const ts = trials[m] || [];
+          for (const t of ts) {
+            const tokens =
+              t.in_tok && t.out_tok
+                ? `${fmtK(t.in_tok)} / ${fmtK(t.out_tok)}`
+                : "—";
+            const cost = t.cost_c ? `$${(t.cost_c / 100).toFixed(2)}` : "—";
+            const dur = t.dur_s ? fmtDur(t.dur_s) : "—";
+            trialRows += `
+          <tr>
+            <td>${MODEL_SHORT[m] || m}</td>
+            <td class="${t.reward ? "result-pass" : "result-fail"}">${t.reward ? "Pass" : "Fail"}</td>
+            <td>${tokens}</td>
+            <td>${cost}</td>
+            <td>${dur}</td>
+          </tr>`;
+          }
+        }
+
+        container.innerHTML = `
+        <div class="scores-section section">
+          <div class="section-heading">Pass Rate by Model</div>
+          ${scoreBars}
+        </div>
+
+        <div class="section">
+          <div class="section-heading">Instruction</div>
+          <div class="instruction-text">${esc(task.instruction)}</div>
+        </div>
+
+        <div class="section">
+          <div class="section-heading">Trials</div>
+          <div style="overflow-x:auto">
+            <table class="trials-table">
+              <thead>
+                <tr>
+                  <th>Agent / Model</th>
+                  <th>Result</th>
+                  <th>In / Out Tokens</th>
+                  <th>Cost</th>
+                  <th>Duration</th>
+                </tr>
+              </thead>
+              <tbody>${trialRows}</tbody>
+            </table>
+          </div>
+        </div>
+      `;
+      }
+
+      async function renderTrajectories(task, trials) {
+        const container = document.getElementById("tab-content");
+
+        // Load trajectory data
+        if (!TRAJ_CACHE[task.name]) {
+          container.innerHTML =
+            '<div style="color:var(--ink-3);padding:var(--sp-4)">Loading trajectories...</div>';
+          try {
+            const resp = await fetch(`data/traj/${task.name}.json`);
+            TRAJ_CACHE[task.name] = await resp.json();
+          } catch {
+            container.innerHTML =
+              '<div style="color:var(--ink-3);padding:var(--sp-4)">No trajectory data available</div>';
+            return;
+          }
+        }
+
+        const trajData = TRAJ_CACHE[task.name];
+        const trajKeys = Object.keys(trajData);
+
+        // Group trajectories by scaffold
+        const byScaffold = {};
+        for (const k of trajKeys) {
+          const scaffold = getScaffold(trajData[k].agent_model);
+          if (!byScaffold[scaffold]) byScaffold[scaffold] = [];
+          byScaffold[scaffold].push(k);
+        }
+        const scaffolds = Object.keys(byScaffold);
+
+        // Default scaffold selection
+        if (!activeScaffold || !byScaffold[activeScaffold]) {
+          activeScaffold = scaffolds[0] || null;
+        }
+
+        // Default trajectory: first in active scaffold
+        const scaffoldTrajs = byScaffold[activeScaffold] || [];
+        if (!activeTraj || !scaffoldTrajs.includes(activeTraj)) {
+          activeTraj = scaffoldTrajs[0] || null;
+        }
+
+        // Scaffold picker row
+        const scaffoldBtns = scaffolds.map((s) => {
+          const cls = ["traj-btn", activeScaffold === s ? "active" : ""].filter(Boolean).join(" ");
+          return `<button class="${cls}" data-scaffold="${s}">${esc(SCAFFOLD_NAMES[s] || s)}</button>`;
+        }).join("");
+
+        // Model/trial picker row (filtered by scaffold)
+        const trialBtns = scaffoldTrajs.map((k) => {
+          const t = trajData[k];
+          const isPass = t.reward === 1;
+          const label = getModelName(t.agent_model);
+          const cls = ["traj-btn", activeTraj === k ? "active" : "", isPass ? "pass" : "fail"].filter(Boolean).join(" ");
+          return `<button class="${cls}" data-traj="${k}">${isPass ? "Pass" : "Fail"}: ${esc(label)}</button>`;
+        }).join("");
+
+        const pickerHtml = `
+          <div class="traj-picker-row">
+            <span class="traj-picker-label">Agent</span>
+            ${scaffoldBtns}
+          </div>
+          <div class="traj-picker-row">
+            <span class="traj-picker-label">Trial</span>
+            ${trialBtns}
+          </div>`;
+
+        // Selected trajectory
+        let stepsHtml = "";
+        if (activeTraj && trajData[activeTraj]) {
+          const traj = trajData[activeTraj];
+          const meta = [];
+          if (traj.dur_s) meta.push(`Duration: ${fmtDur(traj.dur_s)}`);
+          if (traj.in_tok)
+            meta.push(`Tokens: ${fmtK(traj.in_tok)} / ${fmtK(traj.out_tok)}`);
+          if (traj.cost_c)
+            meta.push(`Cost: $${(traj.cost_c / 100).toFixed(2)}`);
+
+          const metaHtml = meta.length
+            ? `<div style="display:flex;gap:var(--sp-3);flex-wrap:wrap;margin-bottom:var(--sp-2)">${meta.map((m) => `<span class="meta-chip">${m}</span>`).join("")}</div>`
+            : "";
+
+          const steps = traj.steps || [];
+          stepsHtml =
+            metaHtml +
+            `<div class="traj-steps">` +
+            steps
+              .filter((s) => (s.msg && s.msg !== "Warmup") || s.tools)
+              .map(
+                (s, i) => {
+                  const hasTools = s.tools && s.tools.length > 0;
+                  const textMsg = s.msg && !s.msg.startsWith("Executed ") ? s.msg : "";
+                  const contentLen = (textMsg || "").length;
+
+                  let bodyHtml = "";
+                  if (hasTools && !textMsg) {
+                    // Tool-only step
+                    bodyHtml = `<div class="step-tools">${renderToolCalls(s, i)}</div>`;
+                  } else if (hasTools && textMsg) {
+                    // Text + tools
+                    bodyHtml = `<div class="step-tools">
+                      <div class="step-msg ${contentLen > 300 ? "collapsed" : ""}" data-idx="${i}">${esc(textMsg)}</div>
+                      ${contentLen > 300 ? `<button class="step-expand" data-idx="${i}">expand</button>` : ""}
+                      ${renderToolCalls(s, i)}
+                    </div>`;
+                  } else {
+                    // Text-only step
+                    bodyHtml = `
+                      <div class="step-msg ${contentLen > 300 ? "collapsed" : ""}" data-idx="${i}">${esc(textMsg || s.msg)}</div>
+                      ${contentLen > 300 ? `<button class="step-expand" data-idx="${i}">expand</button>` : ""}`;
+                  }
+
+                  return `
+            <div class="traj-step ${s.src === "user" ? "user-step" : ""}">
+              <div class="step-badge ${s.src}">${s.src}</div>
+              ${bodyHtml}
+            </div>`;
+                },
+              )
+              .join("") +
+            `</div>`;
+        }
+
+        container.innerHTML = `
+        <div class="traj-viewer">
+          <div class="traj-picker">${pickerHtml}</div>
+          <div id="traj-steps-container">${stepsHtml}</div>
+        </div>
+      `;
+
+        // Scaffold picker events
+        container.querySelectorAll("[data-scaffold]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            activeScaffold = btn.dataset.scaffold;
+            activeTraj = null; // reset to first trial in new scaffold
+            renderTrajectories(task, trials);
+          });
+        });
+
+        // Trial picker events
+        container.querySelectorAll("[data-traj]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            activeTraj = btn.dataset.traj;
+            renderTrajectories(task, trials);
+          });
+        });
+
+        // Expand events
+        container.querySelectorAll(".step-expand").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const idx = btn.dataset.idx;
+            const msg = container.querySelector(
+              `.step-msg[data-idx="${idx}"]`,
+            );
+            if (msg.classList.contains("collapsed")) {
+              msg.classList.remove("collapsed");
+              btn.textContent = "collapse";
+            } else {
+              msg.classList.add("collapsed");
+              btn.textContent = "expand";
+            }
+          });
+        });
+
+        // Tool call toggle events
+        container.querySelectorAll(".tool-call-header[data-tool]").forEach((hdr) => {
+          hdr.addEventListener("click", () => {
+            const id = hdr.dataset.tool;
+            const body = container.querySelector(`.tool-call-body[data-tool-body="${id}"]`);
+            if (body) {
+              hdr.classList.toggle("open");
+              body.classList.toggle("collapsed");
+            }
+          });
+        });
+      }
+
+      // Render tool calls for a step
+      function renderToolCalls(step, stepIdx) {
+        if (!step.tools || step.tools.length === 0) return "";
+        return step.tools.map((t, ti) => {
+          const hasCmd = t.cmd && t.cmd.trim();
+          const hasObs = step.obs && ti === step.tools.length - 1; // obs appears on last tool
+          if (!hasCmd && !hasObs) {
+            return `<div class="tool-call">
+              <div class="tool-call-header">
+                <span class="tool-fn">${esc(t.fn)}</span>
+              </div>
+            </div>`;
+          }
+          return `<div class="tool-call">
+            <div class="tool-call-header open" data-tool="${stepIdx}-${ti}">
+              <span class="tool-fn">${esc(t.fn)}</span>
+              ${hasCmd ? `<span style="color:var(--ink-3);font-weight:400;font-family:var(--font-mono);overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(t.cmd.split('\n')[0].slice(0, 60))}</span>` : ""}
+              <span class="tool-arrow">&#9654;</span>
+            </div>
+            <div class="tool-call-body" data-tool-body="${stepIdx}-${ti}">
+              ${hasCmd ? `<div class="tool-call-cmd">${esc(t.cmd)}</div>` : ""}
+              ${hasObs ? `<div class="tool-call-obs">${esc(step.obs)}</div>` : ""}
+            </div>
+          </div>`;
+        }).join("");
+      }
+
+      // Helpers
+      function esc(s) {
+        if (!s) return "";
+        return s
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/>/g, "&gt;");
+      }
+
+      function fmtK(n) {
+        if (n == null) return "—";
+        if (n >= 1000000) return (n / 1000000).toFixed(1) + "M";
+        if (n >= 1000) return (n / 1000).toFixed(0) + "K";
+        return String(n);
+      }
+
+      function fmtDur(s) {
+        if (s == null) return "—";
+        if (s >= 3600)
+          return (
+            Math.floor(s / 3600) +
+            "h" +
+            Math.floor((s % 3600) / 60)
+              .toString()
+              .padStart(2, "0") +
+            "m"
+          );
+        if (s >= 60)
+          return (
+            Math.floor(s / 60) +
+            "m" +
+            (s % 60).toString().padStart(2, "0") +
+            "s"
+          );
+        return s + "s";
+      }
+
+      // Events
+      document
+        .getElementById("search")
+        .addEventListener("input", renderTaskList);
+      document
+        .getElementById("filter-diff")
+        .addEventListener("change", renderTaskList);
+      document
+        .getElementById("filter-cat")
+        .addEventListener("change", renderTaskList);
+      document
+        .getElementById("sort-by")
+        .addEventListener("change", renderTaskList);
+
+      loadData();
+    </script>
+  </body>
+</html>

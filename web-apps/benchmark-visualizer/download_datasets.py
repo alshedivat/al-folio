@@ -1,12 +1,26 @@
 #!/usr/bin/env python3
-"""Download benchmark datasets from HuggingFace and save samples."""
+"""Download benchmark datasets from HuggingFace and MCE artifact, save samples."""
 
 import json
+import os
+import shutil
+import subprocess
 from pathlib import Path
 from datasets import load_dataset
 
 OUTPUT_DIR = Path(__file__).parent / "data"
 OUTPUT_DIR.mkdir(exist_ok=True)
+
+MCE_ARTIFACT_REPO = "https://github.com/metaevo-ai/mce-artifact.git"
+MCE_ARTIFACT_TMP = "/tmp/mce-artifact"
+
+MCE_DATASETS = {
+    "mce_finer": {"dir": "finer", "source": "metaevo-ai/mce-artifact (FiNER)", "n_samples": 10},
+    "mce_uspto": {"dir": "uspto", "source": "metaevo-ai/mce-artifact (USPTO-50k)", "n_samples": 10},
+    "mce_symptom2disease": {"dir": "symptom_diagnosis", "source": "metaevo-ai/mce-artifact (Symptom2Disease)", "n_samples": 10},
+    "mce_lawbench": {"dir": "crime_prediction", "source": "metaevo-ai/mce-artifact (LawBench)", "n_samples": 10},
+    "mce_aegis": {"dir": "aegis2", "source": "metaevo-ai/mce-artifact (AEGIS 2.0)", "n_samples": 10},
+}
 
 DATASETS = {
     "gpqa_diamond": {
@@ -143,6 +157,34 @@ def download_dataset(name: str, config: dict) -> list[dict]:
         return []
 
 
+def download_mce_datasets() -> dict:
+    """Download MCE artifact datasets (JSONL from git repo)."""
+    if not os.path.isdir(MCE_ARTIFACT_TMP):
+        print(f"Cloning {MCE_ARTIFACT_REPO}...")
+        subprocess.run(
+            ["git", "clone", "--depth=1", MCE_ARTIFACT_REPO, MCE_ARTIFACT_TMP],
+            check=True,
+            capture_output=True,
+        )
+
+    results = {}
+    for name, cfg in MCE_DATASETS.items():
+        path = os.path.join(MCE_ARTIFACT_TMP, "env", cfg["dir"], "data", "test.jsonl")
+        print(f"Loading {name} from {path}...")
+        try:
+            samples = []
+            with open(path, encoding="utf-8") as f:
+                for line in f:
+                    samples.append(json.loads(line))
+                    if len(samples) >= cfg["n_samples"]:
+                        break
+            results[name] = {"source": cfg["source"], "samples": samples}
+            print(f"  -> Got {len(samples)} samples")
+        except Exception as e:
+            print(f"  -> FAILED: {e}")
+    return results
+
+
 def main():
     all_data = {}
 
@@ -153,6 +195,9 @@ def main():
                 "source": config["path"],
                 "samples": samples,
             }
+
+    # Add MCE datasets
+    all_data.update(download_mce_datasets())
 
     # Save combined output
     output_path = OUTPUT_DIR / "all_datasets.json"

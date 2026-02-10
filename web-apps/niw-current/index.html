@@ -13,7 +13,7 @@
       name="description"
       content="Track EB-2 NIW visa bulletin trends with interactive charts showing Dates for Filing and Final Action Dates"
     />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#f3efe9" />
     <meta name="color-scheme" content="light" />
     <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/web-apps/manifest.json" />
@@ -39,6 +39,7 @@
     <title>EB-2 NIW Visa Bulletin Trends</title>
     <link rel="preconnect" href="https://rsms.me" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="/web-apps/shared.css" />
     <link rel="stylesheet" href="styles.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"
@@ -57,6 +58,11 @@
     ></script>
   </head>
   <body>
+    <nav class="app-header">
+      <a href="/web-apps/" class="back">Apps</a>
+      <span class="sep">/</span>
+      <span class="title">EB-2 NIW Visa Bulletin</span>
+    </nav>
     <div class="container">
       <h1>EB-2 NIW Visa Bulletin Trends</h1>
       <div class="chart-container">

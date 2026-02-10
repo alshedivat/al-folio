@@ -2,11 +2,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="/web-apps/shared.css" />
     <style>
+      :root {
+        --accent: oklch(55% 0.2 260);
+        --accent-soft: oklch(55% 0.2 260 / 12%);
+      }
+
       body {
-        font-family: system-ui, sans-serif;
-        margin: 2rem;
-        background: #f6f8fa;
+        padding: 2rem;
+        padding-top: 2rem;
       }
 
       h1 {
@@ -22,10 +27,10 @@
 
       .viewer {
         flex: 1 1 50%;
-        background: #fff;
-        border-radius: 8px;
+        background: var(--bg-surface);
+        border-radius: var(--radius-sm);
         padding: 1.25rem 1.5rem;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        box-shadow: var(--shadow-sm);
         max-height: 80vh;
         overflow: auto;
       }
@@ -38,7 +43,6 @@
       }
 
       @media (min-width: 1600px) {
-        /* 4+ columns on ultra-wide */
         .cards {
           grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
         }
@@ -46,40 +50,38 @@
 
       /* card ----------------------------------------------------*/
       .card {
-        background: #fff;
-        border-radius: 8px;
+        background: var(--bg-surface);
+        border-radius: var(--radius-sm);
         padding: 1.25rem 1.5rem;
-        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        box-shadow: var(--shadow-sm);
         transition: 0.2s ease all;
       }
 
       .card:hover {
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+        box-shadow: var(--shadow-md);
       }
 
       /* title ---------------------------------------------------*/
       .card h2 {
         margin: 0 0 0.5rem;
         font-size: 1.1rem;
-        color: #111;
+        color: var(--ink);
         cursor: pointer;
         transition: color 0.15s;
       }
 
       .card h2:hover {
-        color: #0066cc;
+        color: var(--accent);
       }
 
       /* snippet preview ----------------------------------------*/
       .card .snippet {
-        color: #444;
+        color: var(--ink-2);
         font-style: italic;
         line-height: 1.45;
         margin: 0 0 0.75rem;
         white-space: normal;
-        /* reset */
         display: -webkit-box;
-        /* line clamp */
         -webkit-line-clamp: 4;
         -webkit-box-orient: vertical;
         overflow: hidden;
@@ -89,7 +91,7 @@
       .card pre {
         display: none;
         white-space: pre-wrap;
-        background: #f0f3f6;
+        background: var(--bg);
         padding: 1rem;
         border-radius: 6px;
         font-size: 0.9rem;
@@ -107,26 +109,33 @@
       /* copy button --------------------------------------------*/
       #copy-btn {
         padding: 0.5rem 1rem;
-        border: 1px solid #0066cc;
-        background: #0066cc;
+        border: 1px solid var(--accent);
+        background: var(--accent);
         color: #fff;
-        border-radius: 4px;
+        border-radius: var(--radius-sm);
         cursor: pointer;
+        font-family: inherit;
         transition: background 0.15s;
       }
 
       #copy-btn:hover {
-        background: #005bb5;
+        background: var(--accent-hover);
       }
 
       .card.selected {
-        background: #fffbe6;
-        border: 1px solid #ffca54;
+        background: oklch(95% 0.04 85);
+        border: 1px solid oklch(80% 0.12 85);
       }
     </style>
   </head>
 
   <body>
+    <nav class="app-header">
+      <a href="/web-apps/" class="back">Apps</a>
+      <span class="sep">/</span>
+      <span class="title">Note Search</span>
+    </nav>
+
     <h1>Results for "{{QUERY}}"</h1>
     <button id="copy-btn" type="button">Copy All</button>
 

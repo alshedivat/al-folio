@@ -11,7 +11,7 @@
       name="description"
       content="Explore samples from popular instruction-following and preference datasets"
     />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#f3efe9" />
     <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/web-apps/manifest.json" />
     <link
@@ -27,9 +27,10 @@
     <title>Instruction Dataset Visualizer</title>
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="/web-apps/shared.css" />
     <script
-      src="https://cdn.jsdelivr.net/npm/marked@17.0.1/marked.min.js"
-      integrity="sha384-tkjnnf9Tzhv5ZFrDroGvUExw9C3EVFo0RFRkzKR8ZX4b5Psoec4yb1PlD8Jh4j4H"
+      src="https://cdn.jsdelivr.net/npm/marked@15.0.7/marked.min.js"
+      integrity="sha384-H+hy9ULve6xfxRkWIh/YOtvDdpXgV2fmAGQkIDTxIgZwNoaoBal14Di2YTMR6MzR"
       crossorigin="anonymous"
     ></script>
     <script
@@ -40,18 +41,8 @@
     <style>
       :root {
         color-scheme: light;
-
-        /* Core palette - OKLCH */
-        --bg-primary: oklch(100% 0 0);
-        --bg-secondary: oklch(98% 0.002 250);
-        --bg-elevated: oklch(96% 0.003 250);
-        --border-subtle: oklch(0% 0 0 / 8%);
-        --border-hover: oklch(0% 0 0 / 15%);
-        --text-primary: oklch(20% 0.02 260);
-        --text-secondary: oklch(55% 0.02 260);
-        --text-tertiary: oklch(70% 0.015 260);
-        --accent: oklch(55% 0.25 270);
-        --accent-light: color-mix(in oklch, var(--accent) 12%, white);
+        --accent: oklch(55% 0.2 300);
+        --accent-soft: oklch(55% 0.2 300 / 12%);
         --color-green: oklch(72% 0.19 145);
         --color-green-bg: color-mix(in oklch, var(--color-green) 15%, white);
         --color-green-text: color-mix(in oklch, var(--color-green) 70%, black);
@@ -60,54 +51,10 @@
         --color-red-text: color-mix(in oklch, var(--color-red) 70%, black);
       }
 
-      /* Fallback for browsers without modern CSS support */
-      @supports not (color: oklch(50% 0.1 0)) {
-        :root {
-          --bg-primary: #ffffff;
-          --bg-secondary: #f9fafb;
-          --bg-elevated: #f3f4f6;
-          --border-subtle: rgba(0, 0, 0, 0.08);
-          --border-hover: rgba(0, 0, 0, 0.15);
-          --text-primary: #111827;
-          --text-secondary: #6b7280;
-          --text-tertiary: #9ca3af;
-          --accent: #6366f1;
-          --accent-light: rgba(99, 102, 241, 0.1);
-          --color-green: #22c55e;
-          --color-green-bg: #dcfce7;
-          --color-green-text: #166534;
-          --color-red: #dc2626;
-          --color-red-bg: #fee2e2;
-          --color-red-text: #991b1b;
-        }
-      }
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-
-      html {
-        font-family:
-          "Inter",
-          -apple-system,
-          BlinkMacSystemFont,
-          sans-serif;
-      }
-
-      @supports (font-variation-settings: normal) {
-        html {
-          font-family:
-            "Inter var",
-            -apple-system,
-            BlinkMacSystemFont,
-            sans-serif;
-        }
-      }
-
       body {
-        background: var(--bg-primary);
-        color: var(--text-primary);
+        padding-top: 0;
+        background: var(--bg);
+        color: var(--ink);
         min-height: 100vh;
         -webkit-font-smoothing: antialiased;
       }
@@ -130,7 +77,7 @@
       }
 
       .subtitle {
-        color: var(--text-secondary);
+        color: var(--ink-2);
         font-size: 0.9375rem;
       }
 
@@ -140,7 +87,7 @@
         flex-wrap: wrap;
         gap: 0.5rem;
         margin-bottom: 1.5rem;
-        border-bottom: 1px solid var(--border-subtle);
+        border-bottom: 1px solid var(--line);
         padding-bottom: 1rem;
       }
 
@@ -149,18 +96,18 @@
         font-size: 0.8125rem;
         font-weight: 500;
         padding: 0.5rem 0.875rem;
-        background: var(--bg-secondary);
-        border: 1px solid var(--border-subtle);
+        background: var(--bg-surface);
+        border: 1px solid var(--line);
         border-radius: 8px;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         cursor: pointer;
         transition: all 0.15s ease;
       }
 
       .dataset-tab:hover {
         background: var(--bg-elevated);
-        border-color: var(--border-hover);
-        color: var(--text-primary);
+        border-color: var(--line-hover);
+        color: var(--ink);
       }
 
       .dataset-tab.active {
@@ -171,8 +118,8 @@
 
       /* Dataset info */
       .dataset-info {
-        background: var(--bg-secondary);
-        border: 1px solid var(--border-subtle);
+        background: var(--bg-surface);
+        border: 1px solid var(--line);
         border-radius: 10px;
         padding: 1rem 1.25rem;
         margin-bottom: 1.5rem;
@@ -186,7 +133,7 @@
 
       .dataset-info p {
         font-size: 0.875rem;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         margin-bottom: 0.5rem;
       }
 
@@ -210,7 +157,7 @@
 
       .sample-counter {
         font-size: 0.875rem;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         font-variant-numeric: tabular-nums;
       }
 
@@ -224,18 +171,18 @@
         font-size: 0.8125rem;
         font-weight: 500;
         padding: 0.5rem 1rem;
-        background: var(--bg-secondary);
-        border: 1px solid var(--border-subtle);
+        background: var(--bg-surface);
+        border: 1px solid var(--line);
         border-radius: 8px;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         cursor: pointer;
         transition: all 0.15s ease;
       }
 
       .nav-btn:hover:not(:disabled) {
         background: var(--bg-elevated);
-        border-color: var(--border-hover);
-        color: var(--text-primary);
+        border-color: var(--line-hover);
+        color: var(--ink);
       }
 
       .nav-btn:disabled {
@@ -255,16 +202,16 @@
 
       /* Sample display */
       .sample-card {
-        background: var(--bg-primary);
-        border: 1px solid var(--border-subtle);
+        background: var(--bg);
+        border: 1px solid var(--line);
         border-radius: 12px;
         overflow: hidden;
       }
 
       .sample-header {
-        background: var(--bg-secondary);
+        background: var(--bg-surface);
         padding: 0.75rem 1rem;
-        border-bottom: 1px solid var(--border-subtle);
+        border-bottom: 1px solid var(--line);
         display: flex;
         gap: 0.5rem;
         flex-wrap: wrap;
@@ -276,11 +223,11 @@
         padding: 0.25rem 0.5rem;
         background: var(--bg-elevated);
         border-radius: 4px;
-        color: var(--text-secondary);
+        color: var(--ink-2);
       }
 
       .tag.category {
-        background: var(--accent-light);
+        background: var(--accent-soft);
         color: var(--accent);
       }
 
@@ -301,7 +248,7 @@
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        color: var(--text-tertiary);
+        color: var(--ink-3);
         margin-bottom: 0.5rem;
       }
 
@@ -313,10 +260,10 @@
       }
 
       .field-content.prompt {
-        background: var(--bg-secondary);
+        background: var(--bg-surface);
         padding: 1rem;
         border-radius: 8px;
-        border: 1px solid var(--border-subtle);
+        border: 1px solid var(--line);
       }
 
       /* Preference comparison layout */
@@ -327,9 +274,9 @@
       }
 
       .response-card {
-        background: var(--bg-secondary);
+        background: var(--bg-surface);
         border-radius: 8px;
-        border: 1px solid var(--border-subtle);
+        border: 1px solid var(--line);
         overflow: hidden;
       }
 
@@ -376,12 +323,12 @@
       }
 
       .message.human {
-        background: var(--accent-light);
+        background: var(--accent-soft);
         margin-right: 2rem;
       }
 
       .message.assistant {
-        background: var(--bg-secondary);
+        background: var(--bg-surface);
         margin-left: 2rem;
       }
 
@@ -390,7 +337,7 @@
         font-weight: 600;
         text-transform: uppercase;
         letter-spacing: 0.05em;
-        color: var(--text-tertiary);
+        color: var(--ink-3);
         margin-bottom: 0.25rem;
       }
 
@@ -407,7 +354,7 @@
         padding: 0.25rem 0.5rem;
         background: var(--bg-elevated);
         border-radius: 4px;
-        color: var(--text-secondary);
+        color: var(--ink-2);
       }
 
       /* Safety indicators */
@@ -435,17 +382,17 @@
         font-weight: 500;
         padding: 0.375rem 0.625rem;
         background: var(--bg-elevated);
-        border: 1px solid var(--border-subtle);
+        border: 1px solid var(--line);
         border-radius: 6px;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         cursor: pointer;
         transition: all 0.15s ease;
       }
 
       .model-tab:hover {
-        background: var(--bg-secondary);
-        border-color: var(--border-hover);
-        color: var(--text-primary);
+        background: var(--bg-surface);
+        border-color: var(--line-hover);
+        color: var(--ink);
       }
 
       .model-tab.active {
@@ -512,7 +459,7 @@
 
       .markdown-content pre {
         background: var(--bg-elevated);
-        border: 1px solid var(--border-subtle);
+        border: 1px solid var(--line);
         border-radius: 8px;
         padding: 0.875rem;
         margin-bottom: 0.75rem;
@@ -527,10 +474,10 @@
       }
 
       .markdown-content blockquote {
-        border-left: 3px solid var(--border-hover);
+        border-left: 3px solid var(--line-hover);
         padding-left: 1rem;
         margin-bottom: 0.75rem;
-        color: var(--text-secondary);
+        color: var(--ink-2);
       }
 
       .markdown-content strong {
@@ -554,7 +501,7 @@
 
       .markdown-content th,
       .markdown-content td {
-        border: 1px solid var(--border-subtle);
+        border: 1px solid var(--line);
         padding: 0.5rem 0.75rem;
         text-align: left;
       }
@@ -590,7 +537,7 @@
         content: "•";
         position: absolute;
         left: 0;
-        color: var(--text-tertiary);
+        color: var(--ink-3);
       }
 
       /* Responsive */
@@ -603,18 +550,14 @@
           grid-template-columns: 1fr;
         }
       }
-
-      @media (prefers-reduced-motion: reduce) {
-        *,
-        *::before,
-        *::after {
-          animation-duration: 0.01ms !important;
-          transition-duration: 0.01ms !important;
-        }
-      }
     </style>
   </head>
   <body>
+    <nav class="app-header">
+      <a href="/web-apps/" class="back">Apps</a>
+      <span class="sep">/</span>
+      <span class="title">Instruction Datasets</span>
+    </nav>
     <div class="container">
       <header>
         <h1>Instruction Dataset Visualizer</h1>

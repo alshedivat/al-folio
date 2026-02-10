@@ -1,82 +1,21 @@
 :root {
-  color-scheme: light;
-
-  /* Core palette - OKLCH */
-  --bg-primary: oklch(100% 0 0);
-  --bg-secondary: oklch(98% 0.002 250);
-  --bg-elevated: oklch(100% 0 0);
-  --bg-card: oklch(100% 0 0);
-  --border-subtle: oklch(0% 0 0 / 8%);
-  --border-hover: oklch(0% 0 0 / 15%);
-  --text-primary: oklch(15% 0.02 260);
-  --text-secondary: oklch(55% 0.02 260);
-  --text-tertiary: oklch(70% 0.015 260);
-  --accent: oklch(55% 0.25 270);
+  --accent: oklch(58% 0.15 240);
+  --accent-soft: oklch(58% 0.15 240 / 12%);
   --accent-secondary: oklch(72% 0.19 145);
   --accent-warning: oklch(72% 0.17 85);
   --border-radius: 12px;
   --border-radius-sm: 6px;
-  --transition-base: 0.2s ease;
-}
-
-/* Fallback for browsers without modern CSS support */
-@supports not (color: oklch(50% 0.1 0)) {
-  :root {
-    --bg-primary: #ffffff;
-    --bg-secondary: #f9fafb;
-    --bg-elevated: #ffffff;
-    --bg-card: #ffffff;
-    --border-subtle: rgba(0, 0, 0, 0.08);
-    --border-hover: rgba(0, 0, 0, 0.15);
-    --text-primary: #111827;
-    --text-secondary: #6b7280;
-    --text-tertiary: #9ca3af;
-    --accent: #6366f1;
-    --accent-secondary: #22c55e;
-    --accent-warning: #f59e0b;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  font-family:
-    "Inter",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    sans-serif;
-  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   max-width: 1200px;
   margin: 0 auto;
-  padding: 32px 24px;
-  background: var(--bg-primary);
-  min-height: 100vh;
-  color: var(--text-primary);
-  line-height: 1.5;
+  padding: 32px 24px 32px;
 }
 
 .container {
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-subtle);
+  background: var(--bg);
+  border: 1px solid var(--line);
   padding: 32px;
   border-radius: 16px;
   display: flex;
@@ -84,15 +23,15 @@ body {
   gap: 40px;
   justify-content: center;
   align-items: flex-start;
-  transition: border-color var(--transition-base);
+  transition: border-color var(--ease);
 }
 
 .container:hover {
-  border-color: var(--border-hover);
+  border-color: var(--line-hover);
 }
 
 h1 {
-  color: var(--text-primary);
+  color: var(--ink);
   text-align: center;
   margin: 0 0 8px 0;
   width: 100%;
@@ -110,29 +49,29 @@ h1 {
   background: var(--bg-elevated);
   border-radius: var(--border-radius);
   padding: 20px;
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--line);
 }
 
 .info-panel {
   flex: 0 1 300px;
-  background: var(--bg-card);
+  background: var(--bg-surface);
   border-radius: var(--border-radius);
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--line);
   box-shadow:
     0 1px 3px rgba(0, 0, 0, 0.05),
     0 4px 12px rgba(0, 0, 0, 0.04);
   padding: 24px;
   font-size: 0.9375rem;
-  color: var(--text-secondary);
+  color: var(--ink-2);
   min-width: 260px;
   max-width: 340px;
   transition:
-    border-color var(--transition-base),
-    box-shadow var(--transition-base);
+    border-color var(--ease),
+    box-shadow var(--ease);
 }
 
 .info-panel:hover {
-  border-color: var(--border-hover);
+  border-color: var(--line-hover);
   box-shadow:
     0 2px 6px rgba(0, 0, 0, 0.08),
     0 8px 24px rgba(0, 0, 0, 0.06);
@@ -142,7 +81,7 @@ h1 {
   margin: 0 0 16px 0;
   font-size: 0.875rem;
   font-weight: 500;
-  color: var(--text-tertiary);
+  color: var(--ink-3);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -162,7 +101,7 @@ h1 {
 }
 
 .prediction-box strong {
-  color: var(--text-primary);
+  color: var(--ink);
   font-weight: 500;
 }
 
@@ -180,7 +119,7 @@ h1 {
 }
 
 .legend-row strong {
-  color: var(--text-primary);
+  color: var(--ink);
   font-weight: 500;
   font-size: 0.9375rem;
 }
@@ -203,7 +142,7 @@ h1 {
 
 .legend-desc {
   font-size: 0.8125rem;
-  color: var(--text-tertiary);
+  color: var(--ink-3);
   line-height: 1.6;
 }
 
@@ -215,20 +154,20 @@ h1 {
 }
 
 .source-link a {
-  color: var(--text-tertiary);
+  color: var(--ink-3);
   text-decoration: none;
-  transition: color var(--transition-base);
+  transition: color var(--ease);
   border-bottom: 1px solid transparent;
 }
 
 .source-link a:hover {
-  color: var(--text-secondary);
-  border-bottom-color: var(--text-tertiary);
+  color: var(--ink-2);
+  border-bottom-color: var(--ink-3);
 }
 
 @media (max-width: 768px) {
   body {
-    padding: 16px;
+    padding: 16px 16px 16px;
   }
 
   .container {

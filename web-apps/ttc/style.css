@@ -1,74 +1,12 @@
-@import url("https://rsms.me/inter/inter.css");
-
 :root {
-  color-scheme: light;
-
-  /* Core palette - OKLCH */
-  --bg-primary: oklch(98% 0.002 250);
-  --bg-secondary: oklch(100% 0 0);
-  --bg-elevated: oklch(100% 0 0);
-  --border-subtle: oklch(0% 0 0 / 8%);
-  --border-hover: oklch(0% 0 0 / 15%);
-  --text-primary: oklch(15% 0.02 260);
-  --text-secondary: oklch(55% 0.02 260);
-  --text-tertiary: oklch(70% 0.015 260);
-  --accent: oklch(55% 0.25 270);
-  --accent-hover: color-mix(in oklch, var(--accent) 85%, black);
-
+  --accent: oklch(48% 0.08 40);
+  --accent-soft: oklch(48% 0.08 40 / 12%);
   --transition-fast: 150ms ease;
   --transition-normal: 200ms ease;
 }
 
-/* Fallback for browsers without modern CSS support */
-@supports not (color: oklch(50% 0.1 0)) {
-  :root {
-    --bg-primary: #fafafa;
-    --bg-secondary: #ffffff;
-    --bg-elevated: #ffffff;
-    --border-subtle: rgba(0, 0, 0, 0.08);
-    --border-hover: rgba(0, 0, 0, 0.15);
-    --text-primary: #1a1a1a;
-    --text-secondary: #6b7280;
-    --text-tertiary: #9ca3af;
-    --accent: #6366f1;
-    --accent-hover: #5558e3;
-  }
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-}
-
-html {
-  font-feature-settings:
-    "liga" 1,
-    "calt" 1;
-}
-
 body {
-  margin: 0;
   padding: 32px;
-  font-family:
-    "Inter",
-    -apple-system,
-    BlinkMacSystemFont,
-    sans-serif;
-  line-height: 1.6;
-  background: var(--bg-primary);
-  color: var(--text-primary);
-  min-height: 100vh;
 }
 
 /* Translation Buttons - Pill/Chip Style */
@@ -81,22 +19,22 @@ body {
 
 .translation-btn {
   padding: 8px 16px;
-  border: 1px solid var(--border-subtle);
-  background: var(--bg-secondary);
+  border: 1px solid var(--line);
+  background: var(--bg-surface);
   cursor: pointer;
   border-radius: 100px;
   font-size: 13px;
   font-weight: 500;
   font-family: "Inter", sans-serif;
-  color: var(--text-secondary);
+  color: var(--ink-2);
   outline: none;
   transition: all var(--transition-fast);
 }
 
 .translation-btn:hover {
   background: var(--bg-elevated);
-  border-color: var(--border-hover);
-  color: var(--text-primary);
+  border-color: var(--line-hover);
+  color: var(--ink);
 }
 
 .translation-btn:focus-visible {
@@ -128,10 +66,10 @@ body {
   grid-template-columns: repeat(9, 40px);
   grid-template-rows: repeat(9, 40px);
   gap: 4px;
-  background: var(--bg-secondary);
+  background: var(--bg-surface);
   padding: 12px;
   border-radius: 12px;
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--line);
   box-shadow:
     0 1px 3px rgba(0, 0, 0, 0.04),
     0 4px 12px rgba(0, 0, 0, 0.03);
@@ -143,9 +81,9 @@ body {
   justify-content: center;
   cursor: pointer;
   background: var(--bg-elevated);
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--line);
   border-radius: 6px;
-  color: var(--text-secondary);
+  color: var(--ink-2);
   font-size: 13px;
   font-weight: 500;
   font-variant-numeric: tabular-nums;
@@ -157,7 +95,7 @@ body {
 .cell:hover {
   background: rgba(99, 102, 241, 0.08);
   border-color: var(--accent);
-  color: var(--text-primary);
+  color: var(--ink);
 }
 
 .cell:focus-visible {
@@ -180,8 +118,8 @@ body {
   margin-top: 16px;
   padding: 12px;
   cursor: pointer;
-  border: 1px solid var(--border-subtle);
-  background: var(--bg-secondary);
+  border: 1px solid var(--line);
+  background: var(--bg-surface);
   border-radius: 50%;
   transition: all var(--transition-normal);
   font-family: "Inter", sans-serif;
@@ -200,7 +138,7 @@ body {
 
 #random:hover {
   background: var(--bg-elevated);
-  border-color: var(--border-hover);
+  border-color: var(--line-hover);
 }
 
 #random:hover img {
@@ -225,10 +163,10 @@ body {
   top: 50%;
   transform: translateY(-50%);
   background: var(--bg-elevated);
-  color: var(--text-secondary);
+  color: var(--ink-2);
   padding: 8px 12px;
   border-radius: 8px;
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--line);
   font-size: 12px;
   white-space: nowrap;
   opacity: 0;
@@ -247,7 +185,7 @@ body {
   top: 50%;
   transform: translateY(-50%);
   border: 5px solid transparent;
-  border-right-color: var(--border-subtle);
+  border-right-color: var(--line);
   opacity: 0;
   visibility: hidden;
   transition:
@@ -267,12 +205,12 @@ body {
   flex: 1;
   padding: 40px 48px;
   min-height: 400px;
-  background: oklch(99.5% 0.01 90);
-  border: 1px solid var(--border-subtle);
+  background: oklch(99% 0.008 55);
+  border: 1px solid var(--line);
   border-radius: 16px;
   font-size: 18px;
   line-height: 2;
-  color: var(--text-primary);
+  color: var(--ink);
   letter-spacing: 0.01em;
   box-shadow:
     0 1px 3px oklch(0% 0 0 / 4%),
@@ -287,7 +225,7 @@ body {
 }
 
 #viewer em {
-  color: var(--text-tertiary);
+  color: var(--ink-3);
   font-style: italic;
 }
 
@@ -351,16 +289,6 @@ body {
     font-size: 16px;
     line-height: 1.9;
   }
-}
-
-/* View Transitions */
-@view-transition {
-  navigation: auto;
-}
-
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation-duration: 0.2s;
 }
 
 /* Scroll-driven animation for verse content */

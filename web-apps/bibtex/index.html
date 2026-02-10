@@ -13,7 +13,7 @@
       name="description"
       content="Convert arXiv URLs, DOIs, and paper titles to BibTeX citations instantly"
     />
-    <meta name="theme-color" content="#6366f1" />
+    <meta name="theme-color" content="#f3efe9" />
     <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/web-apps/manifest.json" />
     <link rel="canonical" href="https://yoonholee.com/web-apps/bibtex/" />
@@ -33,131 +33,20 @@
       content="Convert arXiv URLs, DOIs, and paper titles to BibTeX citations instantly"
     />
     <title>Paper BibTeX Lookup</title>
+    <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="/web-apps/shared.css" />
     <style>
       :root {
-        color-scheme: light;
-
-        /* Core palette - OKLCH */
-        --bg-primary: oklch(100% 0 0);
-        --bg-secondary: oklch(98% 0.002 250);
-        --bg-elevated: oklch(96% 0.003 250);
-        --bg-card: oklch(100% 0 0 / 90%);
-        --border-subtle: oklch(0% 0 0 / 8%);
-        --border-hover: oklch(0% 0 0 / 15%);
-        --text-primary: oklch(15% 0.02 260);
-        --text-secondary: oklch(55% 0.02 260);
-        --text-tertiary: oklch(70% 0.015 260);
-        --accent: oklch(55% 0.25 270);
-        --accent-glow: oklch(55% 0.25 270 / 10%);
-        --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
-        --success: oklch(72% 0.19 145);
-        --success-glow: oklch(72% 0.19 145 / 10%);
-        --error: oklch(63% 0.24 27);
-        --error-glow: oklch(63% 0.24 27 / 8%);
-      }
-
-      /* Fallback for browsers without modern CSS support */
-      @supports not (color: oklch(50% 0.1 0)) {
-        :root {
-          --bg-primary: #ffffff;
-          --bg-secondary: #f9fafb;
-          --bg-elevated: #f3f4f6;
-          --bg-card: rgba(255, 255, 255, 0.9);
-          --border-subtle: rgba(0, 0, 0, 0.08);
-          --border-hover: rgba(0, 0, 0, 0.15);
-          --text-primary: #111827;
-          --text-secondary: #6b7280;
-          --text-tertiary: #9ca3af;
-          --accent: #6366f1;
-          --accent-glow: rgba(99, 102, 241, 0.1);
-          --success: #22c55e;
-          --success-glow: rgba(34, 197, 94, 0.1);
-          --error: #ef4444;
-          --error-glow: rgba(239, 68, 68, 0.08);
-        }
-      }
-
-      /* View Transitions */
-      @view-transition {
-        navigation: auto;
-      }
-
-      ::view-transition-old(root),
-      ::view-transition-new(root) {
-        animation-duration: 0.2s;
-      }
-
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-
-      html {
-        font-family:
-          "Inter",
-          -apple-system,
-          BlinkMacSystemFont,
-          "Segoe UI",
-          Roboto,
-          sans-serif;
-      }
-
-      @supports (font-variation-settings: normal) {
-        html {
-          font-family:
-            "Inter var",
-            -apple-system,
-            BlinkMacSystemFont,
-            "Segoe UI",
-            Roboto,
-            sans-serif;
-        }
+        --accent: oklch(55% 0.2 260);
+        --accent-soft: oklch(55% 0.2 260 / 12%);
       }
 
       body {
-        min-height: 100vh;
-        background: var(--bg-primary);
-        color: var(--text-primary);
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 4rem 1.5rem;
-        position: relative;
-        overflow-x: hidden;
-      }
-
-      /* Noise texture overlay - hidden for light theme */
-      body::before {
-        content: "";
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-        opacity: 0;
-        pointer-events: none;
-        z-index: 0;
-      }
-
-      /* Gradient accent orbs - subtle for light theme */
-      body::after {
-        content: "";
-        position: fixed;
-        top: -30%;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 1000px;
-        height: 600px;
-        background: radial-gradient(
-          ellipse at center,
-          rgba(99, 102, 241, 0.04) 0%,
-          transparent 70%
-        );
-        pointer-events: none;
-        z-index: 0;
       }
 
       .container {
@@ -172,11 +61,11 @@
         font-weight: 600;
         letter-spacing: -0.02em;
         margin-bottom: 0.5rem;
-        color: var(--text-primary);
+        color: var(--ink);
       }
 
       .subtitle {
-        color: var(--text-secondary);
+        color: var(--ink-2);
         font-size: 0.9375rem;
         margin-bottom: 2.5rem;
         line-height: 1.5;
@@ -188,104 +77,31 @@
         margin-bottom: 1rem;
       }
 
-      input[type="text"] {
-        flex: 1;
-        padding: 0.875rem 1rem;
-        font-size: 0.9375rem;
-        font-family: inherit;
-        background: var(--bg-elevated);
-        border: 1px solid var(--border-subtle);
-        border-radius: 10px;
-        color: var(--text-primary);
-        outline: none;
-        transition: all 0.2s var(--transition-smooth);
-      }
-
-      input[type="text"]::placeholder {
-        color: var(--text-tertiary);
-      }
-
-      input[type="text"]:hover {
-        border-color: var(--border-hover);
-      }
-
-      input[type="text"]:focus {
-        border-color: var(--accent);
-        background: #ffffff;
-        box-shadow: 0 0 0 3px var(--accent-glow);
-      }
-
-      .btn-primary {
-        padding: 0.875rem 1.5rem;
-        font-size: 0.9375rem;
-        font-weight: 500;
-        font-family: inherit;
-        background: linear-gradient(135deg, var(--accent) 0%, #4f46e5 100%);
-        color: white;
-        border: none;
-        border-radius: 10px;
-        cursor: pointer;
-        transition: all 0.2s var(--transition-smooth);
-        position: relative;
-        overflow: hidden;
-        white-space: nowrap;
-      }
-
-      .btn-primary::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(
-          135deg,
-          rgba(255, 255, 255, 0.1) 0%,
-          transparent 50%
-        );
-        opacity: 0;
-        transition: opacity 0.2s var(--transition-smooth);
-      }
-
-      .btn-primary:hover:not(:disabled) {
-        transform: translateY(-1px);
-        box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
-      }
-
-      .btn-primary:hover:not(:disabled)::before {
-        opacity: 1;
-      }
-
-      .btn-primary:active:not(:disabled) {
-        transform: translateY(0);
-      }
-
-      .btn-primary:disabled {
-        opacity: 0.5;
-        cursor: not-allowed;
-      }
-
       .examples {
         font-size: 0.8125rem;
-        color: var(--text-tertiary);
+        color: var(--ink-3);
         margin-bottom: 2rem;
         line-height: 1.8;
       }
 
       .examples code {
         background: var(--bg-elevated);
-        border: 1px solid var(--border-subtle);
+        border: 1px solid var(--line);
         padding: 0.25rem 0.5rem;
         border-radius: 5px;
         font-size: 0.75rem;
         font-family: "SF Mono", "Fira Code", "Monaco", monospace;
-        color: var(--text-secondary);
-        transition: all 0.15s var(--transition-smooth);
+        color: var(--ink-2);
+        transition: all 0.15s var(--ease);
+      }
+
+      .examples code {
+        cursor: pointer;
       }
 
       .examples code:hover {
-        border-color: var(--border-hover);
-        color: var(--text-primary);
+        border-color: var(--line-hover);
+        color: var(--ink);
       }
 
       #output {
@@ -295,7 +111,7 @@
 
       #output.visible {
         display: block;
-        animation: fadeIn 0.3s var(--transition-smooth);
+        animation: fadeIn 0.3s var(--ease);
       }
 
       @keyframes fadeIn {
@@ -310,10 +126,10 @@
       }
 
       .output-card {
-        background: var(--bg-card);
+        background: var(--bg-surface);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(20px);
-        border: 1px solid var(--border-subtle);
+        border: 1px solid var(--line);
         border-radius: 14px;
         overflow: hidden;
         box-shadow:
@@ -326,14 +142,14 @@
         justify-content: space-between;
         align-items: center;
         padding: 1rem 1.25rem;
-        border-bottom: 1px solid var(--border-subtle);
+        border-bottom: 1px solid var(--line);
       }
 
       .output-header h3 {
         font-size: 0.8125rem;
         font-weight: 500;
         letter-spacing: -0.02em;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         text-transform: uppercase;
         letter-spacing: 0.05em;
       }
@@ -344,11 +160,11 @@
         font-weight: 500;
         font-family: inherit;
         background: var(--bg-elevated);
-        border: 1px solid var(--border-subtle);
+        border: 1px solid var(--line);
         border-radius: 6px;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         cursor: pointer;
-        transition: all 0.15s var(--transition-smooth);
+        transition: all 0.15s var(--ease);
         display: flex;
         align-items: center;
         gap: 0.375rem;
@@ -356,12 +172,12 @@
 
       .copy-btn:hover {
         background: #e5e7eb;
-        border-color: var(--border-hover);
-        color: var(--text-primary);
+        border-color: var(--line-hover);
+        color: var(--ink);
       }
 
       .copy-btn.copied {
-        background: var(--success-glow);
+        background: var(--success-soft);
         border-color: rgba(34, 197, 94, 0.3);
         color: var(--success);
       }
@@ -375,7 +191,7 @@
         margin: 0;
         padding: 1.25rem;
         background: transparent;
-        color: var(--text-primary);
+        color: var(--ink);
         font-family: "SF Mono", "Fira Code", "Monaco", monospace;
         font-size: 0.8125rem;
         line-height: 1.7;
@@ -386,7 +202,7 @@
 
       .error {
         color: var(--error);
-        background: var(--error-glow);
+        background: var(--error-soft);
         padding: 1rem 1.25rem;
         border-radius: 8px;
         font-family: inherit;
@@ -439,22 +255,6 @@
         }
       }
 
-      /* Reduced motion support */
-      @media (prefers-reduced-motion: reduce) {
-        *,
-        *::before,
-        *::after {
-          animation-duration: 0.01ms !important;
-          animation-iteration-count: 1 !important;
-          transition-duration: 0.01ms !important;
-        }
-
-        .loading-skeleton .skeleton-line::after {
-          animation: none;
-          background: rgba(255, 255, 255, 0.5);
-        }
-      }
-
       /* Responsive adjustments */
       @media (max-width: 480px) {
         body {
@@ -468,14 +268,15 @@
         .input-group {
           flex-direction: column;
         }
-
-        .btn-primary {
-          width: 100%;
-        }
       }
     </style>
   </head>
   <body>
+    <nav class="app-header">
+      <a href="/web-apps/" class="back">Apps</a>
+      <span class="sep">/</span>
+      <span class="title">Paper BibTeX Lookup</span>
+    </nav>
     <div class="container">
       <h1>Paper BibTeX Lookup</h1>
       <p class="subtitle">
@@ -488,14 +289,20 @@
           id="input"
           placeholder="1706.03762 or arxiv URL or DOI or paper title"
         />
-        <button class="btn-primary" id="lookup" onclick="lookup()">
+        <button class="btn btn-accent" id="lookup" onclick="lookup()">
           Lookup
         </button>
       </div>
 
       <div class="examples">
         Examples: <code>1706.03762</code> <code>arxiv.org/abs/1706.03762</code>
-        <code>10.1038/nature14539</code> <code>Attention Is All You Need</code>
+        <code>10.1038/nature14539</code>
+        <code>2312.00752</code>
+        <code>10.18653/v1/N19-1423</code>
+        <code>2005.14165</code>
+        <code>2302.13971</code>
+        <code>10.1038/s41586-021-03819-2</code>
+        <code>1810.04805</code>
       </div>
 
       <div id="output">
@@ -535,6 +342,13 @@
 
       input.addEventListener("keydown", (e) => {
         if (e.key === "Enter") lookup();
+      });
+
+      document.querySelector(".examples").addEventListener("click", (e) => {
+        if (e.target.tagName === "CODE") {
+          input.value = e.target.textContent;
+          lookup();
+        }
       });
 
       function showLoadingSkeleton() {
@@ -615,7 +429,7 @@
           );
         } else if (doiMatch) {
           const doi = doiMatch[1] || doiMatch[0];
-          return await fetchSemanticScholar(`DOI:${doi}`);
+          return await fetchDOI(doi);
         } else if (openreviewMatch) {
           const id = openreviewMatch[1];
           return await fetchOpenReview(id);
@@ -624,10 +438,21 @@
         } else {
           // Try as DOI if it has a slash
           if (query.includes("/") && query.includes("10.")) {
-            return await fetchSemanticScholar(`DOI:${query}`);
+            return await fetchDOI(query);
           }
           // Try Semantic Scholar search as last resort
           return await fetchSemanticScholarSearch(query);
+        }
+      }
+
+      async function fetchWithRetry(url, options = {}, retries = 2) {
+        for (let i = 0; i <= retries; i++) {
+          const res = await fetch(url, options);
+          if (res.status === 429 && i < retries) {
+            await new Promise((r) => setTimeout(r, 1500 * (i + 1)));
+            continue;
+          }
+          return res;
         }
       }
 
@@ -637,7 +462,7 @@
         const url = `https://api.semanticscholar.org/graph/v1/paper/${encodeURIComponent(
           paperId,
         )}?fields=${fields}`;
-        const res = await fetch(url);
+        const res = await fetchWithRetry(url);
 
         if (!res.ok) {
           if (res.status === 404)
@@ -649,18 +474,100 @@
         return formatBibtex(data);
       }
 
+      async function fetchDOI(doi) {
+        // Try Semantic Scholar first, fall back to CrossRef
+        try {
+          return await fetchSemanticScholar(`DOI:${doi}`);
+        } catch {
+          return await fetchCrossRef(doi);
+        }
+      }
+
+      async function fetchCrossRef(doi) {
+        const url = `https://api.crossref.org/works/${encodeURIComponent(doi)}/transform/application/x-bibtex`;
+        const res = await fetch(url);
+        if (!res.ok)
+          throw new Error(`Could not resolve DOI: ${doi}`);
+        const bib = (await res.text()).trim();
+        if (!bib.startsWith("@"))
+          throw new Error(`Unexpected response for DOI: ${doi}`);
+        return bib;
+      }
+
       async function fetchSemanticScholarSearch(query) {
         const url = `https://api.semanticscholar.org/graph/v1/paper/search?query=${encodeURIComponent(
           query,
         )}&limit=1&fields=title,authors,year,venue,publicationVenue,externalIds,journal`;
+        const res = await fetchWithRetry(url);
+
+        if (!res.ok) return await fetchOpenAlexSearch(query);
+
+        const data = await res.json();
+        if (!data.data?.[0]) return await fetchOpenAlexSearch(query);
+
+        return formatBibtex(data.data[0]);
+      }
+
+      async function fetchOpenAlexSearch(query) {
+        const url = `https://api.openalex.org/works?search=${encodeURIComponent(
+          query,
+        )}&per_page=1&select=title,publication_year,authorships,primary_location,ids`;
         const res = await fetch(url);
 
         if (!res.ok) throw new Error(`Search failed: ${res.status}`);
 
         const data = await res.json();
-        if (!data.data?.[0]) throw new Error("No papers found matching query");
+        const work = data.results?.[0];
+        if (!work) throw new Error("No papers found matching query");
 
-        return formatBibtex(data.data[0]);
+        return formatOpenAlexBibtex(work);
+      }
+
+      function formatOpenAlexBibtex(work) {
+        const title = work.title || "Unknown";
+        const authors = (work.authorships || []).map(
+          (a) => a.author?.display_name,
+        ).filter(Boolean);
+        const year = work.publication_year || new Date().getFullYear();
+        const venue =
+          work.primary_location?.source?.display_name || "";
+        const doi = work.ids?.doi?.replace("https://doi.org/", "");
+
+        const firstAuthor =
+          authors[0]
+            ?.split(" ")
+            .pop()
+            ?.toLowerCase()
+            .replace(/[^a-z]/g, "") || "unknown";
+        const firstWord =
+          title
+            .split(/\s+/)[0]
+            ?.toLowerCase()
+            .replace(/[^a-z]/g, "") || "paper";
+        const key = `${firstAuthor}${year}${firstWord}`;
+
+        const authorStr = authors.join(" and ");
+
+        const venueL = venue.toLowerCase();
+        const confKeywords = [
+          "conference", "proceedings", "neurips", "nips", "icml", "iclr",
+          "cvpr", "iccv", "eccv", "acl", "emnlp", "naacl",
+          "aaai", "ijcai", "sigir", "www", "kdd",
+        ];
+        const isConference = confKeywords.some((k) => venueL.includes(k));
+
+        const entryType = isConference ? "inproceedings" : "article";
+        const venueField = isConference ? "booktitle" : "journal";
+
+        let bibtex = `@${entryType}{${key},
+  title={${title}},
+  author={${authorStr}},
+  ${venueField}={${venue || "Unknown"}},
+  year={${year}}`;
+        if (doi) bibtex += `,\n  doi={${doi}}`;
+        bibtex += "\n}";
+
+        return bibtex;
       }
 
       function formatBibtex(paper) {
@@ -691,22 +598,30 @@
 
         const authorStr = authors.join(" and ");
 
-        // Determine entry type
-        const isConference =
-          venue.toLowerCase().includes("conference") ||
-          venue.toLowerCase().includes("proceedings") ||
-          [
-            "neurips",
-            "nips",
-            "icml",
-            "iclr",
-            "cvpr",
-            "iccv",
-            "eccv",
-            "acl",
-            "emnlp",
-            "naacl",
-          ].some((v) => venue.toLowerCase().includes(v));
+        // Determine entry type — check both full venue name and raw abbreviation
+        const venueNames = [venue, paper.venue || ""]
+          .map((v) => v.toLowerCase())
+          .join(" ");
+        const confKeywords = [
+          "conference",
+          "proceedings",
+          "neurips",
+          "nips",
+          "icml",
+          "iclr",
+          "cvpr",
+          "iccv",
+          "eccv",
+          "acl",
+          "emnlp",
+          "naacl",
+          "aaai",
+          "ijcai",
+          "sigir",
+          "www",
+          "kdd",
+        ];
+        const isConference = confKeywords.some((k) => venueNames.includes(k));
 
         const entryType = isConference ? "inproceedings" : "article";
         const venueField = isConference ? "booktitle" : "journal";
@@ -727,45 +642,61 @@
       }
 
       async function fetchOpenReview(id) {
-        const url = `https://api.openreview.net/notes?id=${id}`;
-        const res = await fetch(url);
+        // OpenReview API lacks CORS headers, so browser requests fail.
+        // Fall back to Semantic Scholar / OpenAlex search.
+        try {
+          const url = `https://api.openreview.net/notes?id=${id}`;
+          const res = await fetch(url);
 
-        if (!res.ok) throw new Error(`OpenReview paper not found: ${id}`);
+          if (res.ok) {
+            const data = await res.json();
+            const note = data.notes?.[0];
+            if (note) {
+              const content = note.content || {};
+              if (content._bibtex) return content._bibtex.trim();
 
-        const data = await res.json();
-        const note = data.notes?.[0];
+              const title =
+                content.title?.value || content.title || "Unknown";
+              const authors =
+                content.authors?.value || content.authors || [];
+              const venue =
+                content.venue?.value ||
+                content.venue ||
+                note.invitation?.split("/")?.[1] ||
+                "";
+              const year = note.cdate
+                ? new Date(note.cdate).getFullYear()
+                : new Date().getFullYear();
 
-        if (!note) throw new Error("Paper not found on OpenReview");
+              const firstAuthor =
+                authors[0]
+                  ?.split(" ")
+                  .pop()
+                  ?.toLowerCase()
+                  .replace(/[^a-z]/g, "") || "unknown";
+              const firstWord =
+                title
+                  .split(/\s+/)[0]
+                  ?.toLowerCase()
+                  .replace(/[^a-z]/g, "") || "paper";
+              const key = `${firstAuthor}${year}${firstWord}`;
 
-        const content = note.content || {};
-        const title = content.title?.value || content.title || "Unknown";
-        const authors = content.authors?.value || content.authors || [];
-        const venue =
-          content.venue?.value ||
-          content.venue ||
-          note.invitation?.split("/")?.[1] ||
-          "";
-        const year = note.cdate
-          ? new Date(note.cdate).getFullYear()
-          : new Date().getFullYear();
-
-        const firstAuthor =
-          authors[0]?.split(" ").pop()?.toLowerCase() || "unknown";
-        const firstWord =
-          title
-            .split(/\s+/)[0]
-            ?.toLowerCase()
-            .replace(/[^a-z]/g, "") || "paper";
-        const key = `${firstAuthor}${year}${firstWord}`;
-
-        const authorStr = authors.join(" and ");
-
-        return `@inproceedings{${key},
+              return `@inproceedings{${key},
   title={${title}},
-  author={${authorStr}},
+  author={${authors.join(" and ")}},
   booktitle={${venue}},
   year={${year}}
 }`;
+            }
+          }
+        } catch {
+          // CORS or network error — fall through to S2/OpenAlex
+        }
+
+        // Fallback: search S2 → OpenAlex using the OpenReview URL as a hint
+        throw new Error(
+          `Cannot fetch from OpenReview (CORS). Try pasting the paper title instead.`,
+        );
       }
 
       function copyBibtex() {

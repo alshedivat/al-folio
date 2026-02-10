@@ -1,0 +1,401 @@
+/* ==========================================================================
+   Web Apps — Shared Design System
+   Warm editorial palette · Inter · 8px grid · OKLCH colors
+   ========================================================================== */
+
+/* ---------- 1. CSS Variables / Design Tokens ------------------------------ */
+:root {
+  color-scheme: light;
+
+  /* --- Warm neutral base (inspired by Sidecar Viewer beige palette) --- */
+  --bg:          oklch(95.5% 0.025 55);  /* warm beige page bg */
+  --bg-surface:  oklch(98% 0.015 55);   /* warm off-white panels */
+  --bg-elevated: oklch(99% 0.008 55);   /* popovers, modals */
+  --ink:         oklch(20% 0.02 45);      /* dark warm brown */
+  --ink-2:       oklch(45% 0.02 45);      /* secondary text */
+  --ink-3:       oklch(60% 0.015 45);     /* tertiary / muted */
+  --line:        oklch(88% 0.015 55);     /* borders */
+  --line-hover:  oklch(80% 0.02 55);      /* border hover */
+
+  /* --- Per-app accent (apps override these two) --- */
+  --accent:      oklch(58% 0.18 40);      /* default: terracotta */
+  --accent-soft: oklch(58% 0.18 40 / 12%);
+
+  /* --- Derived from accent via color-mix --- */
+  --accent-hover: color-mix(in oklch, var(--accent) 82%, black);
+  --accent-glow:  color-mix(in oklch, var(--accent) 10%, transparent);
+
+  /* --- Semantic --- */
+  --success:     oklch(72% 0.19 145);
+  --error:       oklch(63% 0.24 27);
+  --warning:     oklch(72% 0.17 85);
+
+  /* --- Spacing (8px grid) --- */
+  --sp-1: 4px;   --sp-2: 8px;   --sp-3: 12px;  --sp-4: 16px;
+  --sp-5: 20px;  --sp-6: 24px;  --sp-8: 32px;  --sp-10: 40px;
+  --sp-12: 48px; --sp-16: 64px;
+
+  /* --- Radii --- */
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   16px;
+  --radius-pill: 999px;
+
+  /* --- Shadows --- */
+  --shadow-sm: 0 1px 3px oklch(0% 0 0 / 4%), 0 1px 2px oklch(0% 0 0 / 6%);
+  --shadow-md: 0 4px 12px oklch(0% 0 0 / 6%), 0 1px 3px oklch(0% 0 0 / 4%);
+  --shadow-lg: 0 12px 32px oklch(0% 0 0 / 8%), 0 4px 8px oklch(0% 0 0 / 4%);
+
+  /* --- Typography --- */
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "SF Mono", "Fira Code", "Monaco", "Consolas", monospace;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Fallback for browsers without OKLCH */
+@supports not (color: oklch(50% 0.1 0)) {
+  :root {
+    --bg:          #f0e9df;
+    --bg-surface:  #f7f2eb;
+    --bg-elevated: #faf7f2;
+    --ink:         #2d2520;
+    --ink-2:       #6b5e54;
+    --ink-3:       #9a8f85;
+    --line:        #ddd6cc;
+    --line-hover:  #c9bfb3;
+    --accent:      #c0623a;
+    --accent-soft: rgba(192, 98, 58, 0.12);
+    --accent-hover:#a0502e;
+    --accent-glow: rgba(192, 98, 58, 0.1);
+    --success:     #22c55e;
+    --error:       #ef4444;
+    --warning:     #eab308;
+  }
+}
+
+/* ---------- 2. Reset + Base ----------------------------------------------- */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-family: var(--font-sans);
+  font-feature-settings: "liga" 1, "calt" 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@supports (font-variation-settings: normal) {
+  html { font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+}
+
+body {
+  margin: 0;
+  padding-top: 40px;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* --- Accent-tinted gradient blooms --- */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 10%, var(--accent-glow), transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 90%, color-mix(in oklch, var(--accent) 6%, transparent), transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ---------- 3. Compact Header Bar ----------------------------------------- */
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  height: 40px;
+  padding: 0 var(--sp-4);
+  box-sizing: border-box;
+  background: oklch(94% 0.025 55 / 92%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+@supports not (color: oklch(50% 0.1 0)) {
+  .app-header { background: rgba(233, 226, 216, 0.92); }
+}
+
+.app-header a {
+  color: var(--ink-2);
+  text-decoration: none;
+  transition: color 0.15s var(--ease);
+}
+.app-header a:hover { color: var(--accent); }
+
+.app-header .back {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-1);
+}
+
+.app-header .back::before {
+  content: "\2190";  /* ← arrow */
+  font-size: 1rem;
+}
+
+.app-header .sep {
+  color: var(--ink-3);
+  user-select: none;
+}
+
+.app-header .title {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+/* ---------- 4. Components ------------------------------------------------- */
+
+/* Panel / Card */
+.panel, .card {
+  background: var(--bg-surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.panel { padding: var(--sp-6); }
+.card  { padding: var(--sp-4) var(--sp-5); }
+
+.card:hover {
+  border-color: var(--line-hover);
+  box-shadow: var(--shadow-md);
+}
+
+/* Section (form panels, output panels) */
+.section {
+  background: var(--bg-surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-5);
+  box-shadow: var(--shadow-sm);
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+
+.tab {
+  padding: var(--sp-2) var(--sp-4);
+  border: 1px solid var(--line);
+  background: var(--bg-surface);
+  border-radius: var(--radius-pill);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  font-family: inherit;
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: all 0.15s var(--ease);
+  outline: none;
+}
+
+.tab:hover {
+  background: var(--bg-elevated);
+  border-color: var(--line-hover);
+  color: var(--ink);
+}
+
+.tab.active, .tab[aria-selected="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.tab.active:hover, .tab[aria-selected="true"]:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-4);
+  font-family: inherit;
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  color: var(--ink);
+  cursor: pointer;
+  transition: all 0.15s var(--ease);
+  outline: none;
+}
+
+.btn:hover {
+  background: var(--bg-elevated);
+  border-color: var(--line-hover);
+}
+
+.btn:active { transform: scale(0.98); }
+
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.btn-pill {
+  border-radius: var(--radius-pill);
+}
+
+.btn-accent {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.btn-accent:hover {
+  background: var(--accent-hover);
+  border-color: var(--accent-hover);
+}
+
+.btn-accent.copied {
+  background: var(--success);
+  border-color: var(--success);
+}
+
+/* Badge */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--sp-1) var(--sp-3);
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: var(--radius-pill);
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Form inputs */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="url"],
+select,
+textarea {
+  font-family: inherit;
+  font-size: 0.9rem;
+  padding: var(--sp-2) var(--sp-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--ink-3);
+}
+
+input:hover, select:hover, textarea:hover {
+  border-color: var(--line-hover);
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+/* Code block */
+.code-block {
+  background: oklch(15% 0.01 55);
+  color: oklch(85% 0.01 55);
+  padding: var(--sp-4);
+  border-radius: var(--radius-md);
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  line-height: 1.7;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+@supports not (color: oklch(50% 0.1 0)) {
+  .code-block { background: #1e1e1e; color: #d4d4d4; }
+}
+
+/* ---------- 5. Utilities -------------------------------------------------- */
+
+/* Text */
+.text-muted   { color: var(--ink-2); }
+.text-faint   { color: var(--ink-3); }
+.text-accent  { color: var(--accent); }
+.text-sm      { font-size: 0.875rem; }
+.text-xs      { font-size: 0.8125rem; }
+.text-center  { text-align: center; }
+
+/* Spacing */
+.mt-0 { margin-top: 0; }       .mt-2 { margin-top: var(--sp-2); }
+.mt-4 { margin-top: var(--sp-4); } .mt-6 { margin-top: var(--sp-6); }
+.mt-8 { margin-top: var(--sp-8); }
+.mb-2 { margin-bottom: var(--sp-2); } .mb-4 { margin-bottom: var(--sp-4); }
+.mb-6 { margin-bottom: var(--sp-6); } .mb-8 { margin-bottom: var(--sp-8); }
+.gap-2 { gap: var(--sp-2); }   .gap-3 { gap: var(--sp-3); }
+.gap-4 { gap: var(--sp-4); }
+
+/* Flex / Grid */
+.flex       { display: flex; }
+.flex-col   { flex-direction: column; }
+.flex-wrap  { flex-wrap: wrap; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+
+/* ---------- 6. Responsive ------------------------------------------------- */
+@media (max-width: 640px) {
+  .app-header { padding: 0 var(--sp-3); font-size: 0.75rem; }
+  .panel  { padding: var(--sp-4); }
+  .section { padding: var(--sp-4); }
+}
+
+/* ---------- 7. Accessibility ---------------------------------------------- */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ---------- 8. View Transitions ------------------------------------------- */
+@view-transition { navigation: auto; }
+::view-transition-old(root),
+::view-transition-new(root) { animation-duration: 0.2s; }

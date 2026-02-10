@@ -13,7 +13,7 @@
       name="description"
       content="Read the Tao Te Ching with multiple translations side by side - Gia-Fu Feng, Red Pine, D.C. Lau, and more"
     />
-    <meta name="theme-color" content="#fafafa" />
+    <meta name="theme-color" content="#f3efe9" />
     <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/web-apps/manifest.json" />
     <link rel="canonical" href="https://yoonholee.com/web-apps/ttc/" />
@@ -33,10 +33,18 @@
       content="Read the Tao Te Ching with multiple translations side by side"
     />
     <title>Tao Te Ching</title>
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="/web-apps/shared.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <nav class="app-header">
+      <a href="/web-apps/" class="back">Apps</a>
+      <span class="sep">/</span>
+      <span class="title">Tao Te Ching</span>
+    </nav>
     <div id="translations">
       <button class="translation-btn active" data-translation="gia">
         Gia-Fu Feng & Jane English

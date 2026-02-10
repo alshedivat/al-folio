@@ -13,7 +13,7 @@
       name="description"
       content="Simple interval timer for workouts with visual color-coded phases"
     />
-    <meta name="theme-color" content="#6366f1" />
+    <meta name="theme-color" content="#f3efe9" />
     <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/web-apps/manifest.json" />
     <link
@@ -39,18 +39,16 @@
       content="Simple interval timer for workouts with visual color-coded phases"
     />
     <title>Interval Timer</title>
+    <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="/web-apps/shared.css" />
     <style>
       :root {
         color-scheme: light;
 
-        /* Core palette - OKLCH */
-        --bg-primary: oklch(98% 0.002 250);
-        --bg-elevated: oklch(100% 0 0);
-        --border-subtle: oklch(0% 0 0 / 8%);
-        --text-primary: oklch(20% 0.02 260);
-        --text-secondary: oklch(55% 0.02 260);
-        --accent: oklch(55% 0.25 270);
+        /* App-specific accent color (green for fitness) */
+        --accent: oklch(60% 0.18 155);
+        --accent-soft: oklch(60% 0.18 155 / 12%);
 
         /* Phase colors - OKLCH with color-mix() */
         --bar-green: oklch(72% 0.19 145);
@@ -59,70 +57,13 @@
         --phase-red: color-mix(in oklch, var(--bar-red) 15%, white);
       }
 
-      /* Fallback for browsers without modern CSS support */
-      @supports not (color: oklch(50% 0.1 0)) {
-        :root {
-          --bg-primary: #f9fafb;
-          --bg-elevated: #ffffff;
-          --border-subtle: rgba(0, 0, 0, 0.08);
-          --text-primary: #111827;
-          --text-secondary: #6b7280;
-          --accent: #6366f1;
-          --phase-green: #dcfce7;
-          --phase-red: #fee2e2;
-          --bar-green: #22c55e;
-          --bar-red: #ef4444;
-        }
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      html {
-        font-family:
-          "Inter",
-          system-ui,
-          -apple-system,
-          sans-serif;
-      }
-
-      @supports (font-variation-settings: normal) {
-        html {
-          font-family:
-            "Inter var",
-            system-ui,
-            -apple-system,
-            sans-serif;
-        }
-      }
-
       body {
-        margin: 0;
         min-height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: var(--bg-primary);
-        color: var(--text-primary);
         transition: background-color 0.4s ease;
-      }
-
-      @media (prefers-reduced-motion: reduce) {
-        body,
-        #progress,
-        .btn-primary,
-        .btn-primary::before,
-        .btn-ghost {
-          transition: none;
-          animation: none;
-        }
-      }
-
-      /* View Transitions */
-      @view-transition {
-        navigation: auto;
       }
 
       #main {
@@ -223,10 +164,10 @@
         font-size: 0.9rem;
         font-weight: 500;
         padding: 0.625rem 1.5rem;
-        border: 1px solid var(--border-subtle);
+        border: 1px solid var(--line);
         border-radius: 8px;
         background: transparent;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         cursor: pointer;
         font-family: inherit;
         letter-spacing: -0.01em;
@@ -236,7 +177,7 @@
 
       .btn-ghost:hover {
         border-color: rgba(0, 0, 0, 0.15);
-        color: var(--text-primary);
+        color: var(--ink);
         background: rgba(0, 0, 0, 0.03);
       }
 
@@ -251,8 +192,8 @@
       }
 
       .btn-ghost:disabled:hover {
-        border-color: var(--border-subtle);
-        color: var(--text-secondary);
+        border-color: var(--line);
+        color: var(--ink-2);
         background: transparent;
       }
 
@@ -260,7 +201,7 @@
       #cycleInfo {
         font-size: 0.875rem;
         font-weight: 500;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         letter-spacing: 0.05em;
         text-transform: uppercase;
       }
@@ -284,7 +225,7 @@
         background: var(--bg-elevated);
         border-radius: 4px;
         overflow: hidden;
-        border: 1px solid var(--border-subtle);
+        border: 1px solid var(--line);
         box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.06);
       }
 
@@ -306,6 +247,11 @@
   </head>
 
   <body>
+    <nav class="app-header">
+      <a href="/web-apps/" class="back">Apps</a>
+      <span class="sep">/</span>
+      <span class="title">Interval Timer</span>
+    </nav>
     <div id="main">
       <button class="btn-primary" id="resetBtn" onclick="resetAndStart()">
         Start
@@ -361,7 +307,7 @@
 
       function runPhase() {
         if (cycle >= totalCycles) {
-          document.body.style.backgroundColor = "var(--bg-primary)";
+          document.body.style.backgroundColor = "var(--bg)";
           document.body.classList.add("done");
           document.getElementById("cycleInfo").textContent = "Complete";
           document.getElementById("time").textContent = "";

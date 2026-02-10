@@ -11,7 +11,7 @@
       name="description"
       content="Generate sbatch scripts and Slurm commands with presets"
     />
-    <meta name="theme-color" content="#ffffff" />
+    <meta name="theme-color" content="#f3efe9" />
     <link rel="icon" href="/web-apps/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/web-apps/manifest.json" />
     <link
@@ -37,83 +37,17 @@
     <title>Slurm Command Generator</title>
     <link rel="preconnect" href="https://rsms.me/" />
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="/web-apps/shared.css" />
     <style>
-      /* Reset and base styles */
-      *,
-      *::before,
-      *::after {
-        box-sizing: border-box;
-      }
-
       :root {
-        color-scheme: light;
-
-        /* Core palette - OKLCH */
-        --bg-primary: oklch(100% 0 0);
-        --bg-secondary: oklch(98% 0.002 250);
+        --accent: oklch(50% 0.03 260);
+        --accent-soft: oklch(50% 0.03 260 / 12%);
         --bg-code: oklch(15% 0.01 260);
-        --text-primary: oklch(20% 0.02 260);
-        --text-secondary: oklch(55% 0.02 260);
         --text-code: oklch(85% 0.01 260);
-        --border-color: oklch(0% 0 0 / 10%);
-        --accent-color: oklch(55% 0.25 270);
-        --accent-hover: color-mix(in oklch, var(--accent-color) 85%, black);
-        --success-color: oklch(72% 0.19 145);
-        --warning-color: oklch(72% 0.17 85);
-        --error-color: oklch(63% 0.24 27);
-        --shadow-sm: 0 1px 2px oklch(0% 0 0 / 5%);
-        --shadow-md: 0 4px 6px oklch(0% 0 0 / 10%);
-        --radius-sm: 4px;
-        --radius-md: 8px;
-      }
-
-      /* Fallback for browsers without modern CSS support */
-      @supports not (color: oklch(50% 0.1 0)) {
-        :root {
-          --bg-primary: #ffffff;
-          --bg-secondary: #f8f9fa;
-          --bg-code: #1e1e1e;
-          --text-primary: #212529;
-          --text-secondary: #6c757d;
-          --text-code: #d4d4d4;
-          --border-color: #dee2e6;
-          --accent-color: #0066cc;
-          --accent-hover: #0052a3;
-          --success-color: #28a745;
-          --warning-color: #ffc107;
-          --error-color: #dc3545;
-        }
-      }
-
-      /* View Transitions */
-      @view-transition {
-        navigation: auto;
-      }
-
-      ::view-transition-old(root),
-      ::view-transition-new(root) {
-        animation-duration: 0.2s;
-      }
-
-      html {
-        font-size: 16px;
       }
 
       body {
-        font-family:
-          "Inter",
-          -apple-system,
-          BlinkMacSystemFont,
-          "Segoe UI",
-          Roboto,
-          "Helvetica Neue",
-          Arial,
-          sans-serif;
-        line-height: 1.6;
-        color: var(--text-primary);
-        background-color: var(--bg-secondary);
-        margin: 0;
-        padding: 0;
+        padding-top: 0;
       }
 
       /* Container */
@@ -133,12 +67,12 @@
         margin: 0;
         font-size: 2rem;
         font-weight: 600;
-        color: var(--text-primary);
+        color: var(--ink);
       }
 
       .subtitle {
         margin: 8px 0 0;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         font-size: 1rem;
       }
 
@@ -180,8 +114,8 @@
 
       /* Sections */
       .section {
-        background: var(--bg-primary);
-        border: 1px solid var(--border-color);
+        background: var(--bg-surface);
+        border: 1px solid var(--line);
         border-radius: var(--radius-md);
         padding: 20px;
         box-shadow: var(--shadow-sm);
@@ -193,14 +127,14 @@
         align-items: center;
         margin-bottom: 16px;
         padding-bottom: 12px;
-        border-bottom: 1px solid var(--border-color);
+        border-bottom: 1px solid var(--line);
       }
 
       .section-header h2 {
         margin: 0;
         font-size: 1.1rem;
         font-weight: 600;
-        color: var(--text-primary);
+        color: var(--ink);
       }
 
       /* Collapsible sections */
@@ -210,7 +144,7 @@
       }
 
       .collapsible .section-header:hover {
-        background-color: var(--bg-secondary);
+        background-color: var(--bg);
         margin: -20px -20px 16px -20px;
         padding: 20px 20px 12px 20px;
         border-radius: var(--radius-md) var(--radius-md) 0 0;
@@ -219,7 +153,7 @@
       .collapse-icon {
         font-size: 1.2rem;
         font-weight: bold;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         transition: transform 0.2s;
       }
 
@@ -260,7 +194,7 @@
       .form-group label {
         font-size: 0.875rem;
         font-weight: 500;
-        color: var(--text-primary);
+        color: var(--ink);
         display: flex;
         align-items: center;
         gap: 6px;
@@ -275,9 +209,9 @@
         height: 16px;
         font-size: 0.7rem;
         font-weight: bold;
-        color: var(--text-secondary);
-        background-color: var(--bg-secondary);
-        border: 1px solid var(--border-color);
+        color: var(--ink-2);
+        background-color: var(--bg);
+        border: 1px solid var(--line);
         border-radius: 50%;
         cursor: help;
         position: relative;
@@ -313,35 +247,10 @@
         z-index: 1000;
       }
 
-      /* Inputs */
-      input[type="text"],
-      input[type="email"],
-      input[type="number"],
-      select,
-      textarea {
-        font-family: inherit;
-        font-size: 0.9rem;
-        padding: 8px 12px;
-        border: 1px solid var(--border-color);
-        border-radius: var(--radius-sm);
-        background-color: var(--bg-primary);
-        color: var(--text-primary);
-        transition:
-          border-color 0.2s,
-          box-shadow 0.2s;
-      }
-
-      input:focus,
-      select:focus,
-      textarea:focus {
-        outline: none;
-        border-color: var(--accent-color);
-        box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
-      }
-
+      /* Input overrides */
       input::placeholder,
       textarea::placeholder {
-        color: var(--text-secondary);
+        color: var(--ink-2);
         opacity: 0.7;
       }
 
@@ -379,7 +288,7 @@
 
       .time-field span {
         font-size: 0.85rem;
-        color: var(--text-secondary);
+        color: var(--ink-2);
       }
 
       /* Input with unit selector */
@@ -439,17 +348,17 @@
       }
 
       .btn-secondary {
-        background-color: var(--bg-secondary);
-        color: var(--text-primary);
-        border: 1px solid var(--border-color);
+        background-color: var(--bg);
+        color: var(--ink);
+        border: 1px solid var(--line);
       }
 
       .btn-secondary:hover {
-        background-color: var(--border-color);
+        background-color: var(--line);
       }
 
       .btn-copy {
-        background-color: var(--accent-color);
+        background-color: var(--accent);
         color: white;
         display: flex;
         align-items: center;
@@ -461,7 +370,7 @@
       }
 
       .btn-copy.copied {
-        background-color: var(--success-color);
+        background-color: var(--success);
       }
 
       .copy-hint {
@@ -477,7 +386,7 @@
 
       /* Output sections */
       .output-section {
-        background: var(--bg-primary);
+        background: var(--bg-surface);
       }
 
       .code-container {
@@ -580,7 +489,7 @@
         text-align: center;
         margin-top: 40px;
         padding: 20px;
-        color: var(--text-secondary);
+        color: var(--ink-2);
         font-size: 0.85rem;
       }
 
@@ -623,12 +532,6 @@
         }
       }
 
-      /* Keyboard focus styles */
-      :focus-visible {
-        outline: 2px solid var(--accent-color);
-        outline-offset: 2px;
-      }
-
       /* Print styles */
       @media print {
         .form-panel {
@@ -646,6 +549,11 @@
     </style>
   </head>
   <body>
+    <nav class="app-header">
+      <a href="/web-apps/" class="back">Apps</a>
+      <span class="sep">/</span>
+      <span class="title">Slurm Generator</span>
+    </nav>
     <div class="container">
       <header>
         <h1>Slurm Command Generator</h1>

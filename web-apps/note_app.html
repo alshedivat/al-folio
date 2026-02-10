@@ -4,28 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Note Canvas</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <link rel="stylesheet" href="/web-apps/shared.css" />
     <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+      :root {
+        --accent: oklch(55% 0.2 260);
+        --accent-soft: oklch(55% 0.2 260 / 12%);
       }
 
       body {
-        font-family: "Inter", sans-serif;
         overflow: hidden;
-        background: #f0f0f0;
+        padding-top: 0;
       }
 
       #canvas-container {
         position: relative;
         width: 100vw;
-        height: 100vh;
-        background: #fafafa;
+        height: calc(100vh - 40px);
+        margin-top: 40px;
+        background: var(--bg);
         cursor: grab;
         overflow: hidden;
       }
@@ -38,7 +36,7 @@
         position: absolute;
         width: 5000px;
         height: 5000px;
-        background: #fafafa;
+        background: var(--bg);
         transform-origin: 0 0;
       }
 
@@ -50,17 +48,16 @@
         max-height: 300px;
         padding: 15px 20px;
         cursor: move;
-        border-radius: 8px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        border-radius: var(--radius-sm);
+        border: 1px solid oklch(0% 0 0 / 10%);
+        box-shadow: var(--shadow-sm);
         display: flex;
         align-items: center;
         justify-content: flex-start;
-        color: black;
+        color: var(--ink);
         font-weight: 500;
         user-select: none;
         transition: transform 0.1s ease;
-        font-family: "Inter", sans-serif;
         word-wrap: break-word;
         word-break: break-word;
         text-align: left;
@@ -75,7 +72,7 @@
 
       .note-square.dragging {
         transform: scale(1.1);
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+        box-shadow: var(--shadow-lg);
       }
 
       .note-square.editing {
@@ -137,7 +134,7 @@
       }
 
       .delete-btn {
-        background: #ff4757;
+        background: var(--error);
         color: white;
       }
 
@@ -149,7 +146,7 @@
         width: 16px;
         height: 16px;
         border-radius: 50%;
-        background: #6b7280;
+        background: var(--ink-3);
         border: 2px solid white;
         cursor: crosshair;
         opacity: 0;
@@ -162,13 +159,13 @@
       }
 
       .connection-point:hover {
-        background: #374151;
+        background: var(--ink);
         transform: translateY(-50%) scale(1.2);
       }
 
       .connecting {
         border-width: 2px !important;
-        border-color: #94a3b8 !important;
+        border-color: var(--ink-3) !important;
       }
 
       #connections-svg {
@@ -185,30 +182,15 @@
         pointer-events: none;
       }
 
-      .red {
-        background: #ffe3e3;
-      }
-      .blue {
-        background: #e3f9f7;
-      }
-      .green {
-        background: #e3f2fd;
-      }
-      .yellow {
-        background: #fff9e3;
-      }
-      .purple {
-        background: #f3e8ff;
-      }
-      .orange {
-        background: #ffe8f1;
-      }
-      .teal {
-        background: #e3f7f4;
-      }
-      .indigo {
-        background: #eae7ff;
-      }
+      /* Warm note colors */
+      .red    { background: oklch(92% 0.06 25); }
+      .blue   { background: oklch(93% 0.04 230); }
+      .green  { background: oklch(93% 0.05 155); }
+      .yellow { background: oklch(95% 0.06 90); }
+      .purple { background: oklch(93% 0.05 300); }
+      .orange { background: oklch(93% 0.06 55); }
+      .teal   { background: oklch(93% 0.04 190); }
+      .indigo { background: oklch(93% 0.05 270); }
 
       #text-input-container {
         position: fixed;
@@ -216,10 +198,10 @@
         left: 50%;
         transform: translateX(-50%);
         z-index: 1000;
-        background: rgba(255, 255, 255, 0.95);
+        background: oklch(98.5% 0.005 55 / 95%);
         padding: 12px 20px;
-        border-radius: 25px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: var(--radius-pill);
+        box-shadow: var(--shadow-lg);
         backdrop-filter: blur(10px);
       }
 
@@ -229,16 +211,22 @@
         background: transparent;
         font-size: 16px;
         width: 300px;
-        color: #333;
-        font-family: "Inter", sans-serif;
+        color: var(--ink);
+        font-family: inherit;
       }
 
       #text-input::placeholder {
-        color: #999;
+        color: var(--ink-3);
       }
     </style>
   </head>
   <body>
+    <nav class="app-header">
+      <a href="/web-apps/" class="back">Apps</a>
+      <span class="sep">/</span>
+      <span class="title">Note Canvas</span>
+    </nav>
+
     <div id="canvas-container">
       <div id="canvas">
         <svg id="connections-svg"></svg>
@@ -704,16 +692,3 @@
     </script>
   </body>
 </html>
-
-<!-- TODO
-1.	Clear-canvas command – one button that wipes #canvas and localStorage. Pure DOM removal and map reset.
-2.	Local persistence – auto-save the notes[] array and connections[] map to localStorage on every mutation and rehydrate on DOMContentLoaded.
-3.	Zoom-to-fit button – compute bounding box of all notes, set canvasX/Y and scale so the box fills the viewport with margin.
-4.	Hover/active states – add CSS :hover and :active rules plus a “dragging” overlay to amplify feedback; zero JS logic.
-5.	Snap-to-grid on drag-end – round left/top to nearest GRID = 20 in endDrag(); optional toggle.
-6.	Multi-select drag box – draw semi-transparent rect on mousedown, hit-test notes, move selected set as one; reuse existing drag logic.
-7.	Undo/redo stack – push deep-cloned state before each mutating action, pop/apply on Ctrl-Z / Ctrl-Shift-Z.
-8.	Keyboard shortcuts – Enter = new note, Delete = remove selection, Arrow keys = nudge. Minimal event listeners.
-9.	LLM integration hook – add context-menu item “Ask LLM”, POST note text to backend, stream reply into new linked note. Low UI cost but server dependency.
-10.	External MCP server link – mirror local JSON to remote via WebSocket; latency handling and auth raise complexity.
--->

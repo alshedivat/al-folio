@@ -1,83 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
-  color-scheme: light;
+  --accent: oklch(68% 0.18 70);
+  --accent-soft: oklch(68% 0.18 70 / 12%);
 
-  /* Core palette - OKLCH */
-  --bg-primary: oklch(100% 0 0);
-  --bg-secondary: oklch(98% 0.002 250);
-  --bg-card: oklch(100% 0 0);
-  --border-subtle: oklch(0% 0 0 / 8%);
-  --border-hover: oklch(0% 0 0 / 15%);
-  --text-primary: oklch(15% 0.02 260);
-  --text-secondary: oklch(55% 0.02 260);
-  --text-tertiary: oklch(70% 0.015 260);
-  --accent: oklch(55% 0.25 270);
-
-  /* Category colors - OKLCH */
+  /* Category colors */
   --accent-ml: oklch(72% 0.17 85);
   --accent-nlp: oklch(60% 0.15 230);
   --accent-rl: oklch(72% 0.19 145);
   --accent-ai: oklch(55% 0.25 300);
 
-  /* Countdown - using color-mix for tints */
+  /* Countdown */
   --countdown-bg: color-mix(in oklch, oklch(63% 0.24 27) 10%, white);
   --countdown-border: color-mix(in oklch, oklch(63% 0.24 27) 30%, white);
   --countdown-text: oklch(55% 0.22 27);
-  --transition-smooth: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/* Fallback for browsers without modern CSS support */
-@supports not (color: oklch(50% 0.1 0)) {
-  :root {
-    --bg-primary: #ffffff;
-    --bg-secondary: #f9fafb;
-    --bg-card: #ffffff;
-    --border-subtle: rgba(0, 0, 0, 0.08);
-    --border-hover: rgba(0, 0, 0, 0.15);
-    --text-primary: #111827;
-    --text-secondary: #6b7280;
-    --text-tertiary: #9ca3af;
-    --accent: #6366f1;
-    --accent-ml: #ca8a04;
-    --accent-nlp: #0284c7;
-    --accent-rl: #16a34a;
-    --accent-ai: #9333ea;
-    --countdown-bg: #fef2f2;
-    --countdown-border: #fecaca;
-    --countdown-text: #dc2626;
-  }
-}
-
-/* View Transitions */
-@view-transition {
-  navigation: auto;
-}
-
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation-duration: 0.2s;
 }
 
 body {
-  font-family:
-    "Inter",
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    sans-serif;
-  background: var(--bg-secondary);
-  color: var(--text-primary);
-  line-height: 1.6;
   padding: 48px 24px 64px;
-  min-height: 100vh;
-  position: relative;
-  overflow-x: hidden;
 }
 
 .container {
@@ -97,11 +35,11 @@ h1 {
   font-weight: 700;
   letter-spacing: -0.04em;
   margin-bottom: 12px;
-  color: var(--text-primary);
+  color: var(--ink);
 }
 
 .subtitle {
-  color: var(--text-secondary);
+  color: var(--ink-2);
   font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: -0.01em;
@@ -120,17 +58,17 @@ h1 {
 
 .deadline-card {
   position: relative;
-  background: var(--bg-card);
+  background: var(--bg-surface);
   padding: 24px 28px;
   border-radius: 16px;
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--line);
   box-shadow:
     0 1px 3px rgba(0, 0, 0, 0.04),
     0 4px 12px rgba(0, 0, 0, 0.03);
   transition:
-    transform 0.3s var(--transition-smooth),
-    box-shadow 0.3s var(--transition-smooth),
-    border-color 0.3s var(--transition-smooth);
+    transform 0.3s var(--ease),
+    box-shadow 0.3s var(--ease),
+    border-color 0.3s var(--ease);
   overflow: hidden;
 }
 
@@ -141,9 +79,9 @@ h1 {
   inset-y: 0;
   left: 0;
   width: 3px;
-  background: var(--text-tertiary);
+  background: var(--ink-3);
   opacity: 0.5;
-  transition: opacity 0.3s var(--transition-smooth);
+  transition: opacity 0.3s var(--ease);
 }
 
 .deadline-card.ml::before {
@@ -168,7 +106,7 @@ h1 {
 
 .deadline-card:hover {
   transform: translateY(-4px);
-  border-color: var(--border-hover);
+  border-color: var(--line-hover);
   box-shadow:
     0 4px 6px rgba(0, 0, 0, 0.04),
     0 10px 24px rgba(0, 0, 0, 0.08);
@@ -230,12 +168,12 @@ h1 {
 .conference-name {
   font-size: 1.35rem;
   font-weight: 600;
-  color: var(--text-primary);
+  color: var(--ink);
   text-decoration: none;
   display: inline-block;
   margin-bottom: 4px;
   letter-spacing: -0.025em;
-  transition: color 0.2s var(--transition-smooth);
+  transition: color 0.2s var(--ease);
 }
 
 .conference-name:hover {
@@ -244,7 +182,7 @@ h1 {
 
 .conference-meta {
   font-size: 0.9rem;
-  color: var(--text-secondary);
+  color: var(--ink-2);
   letter-spacing: -0.01em;
 }
 
@@ -265,7 +203,7 @@ h1 {
 }
 
 .countdown.past {
-  color: var(--text-tertiary);
+  color: var(--ink-3);
   background: #f3f4f6;
   border-color: #e5e7eb;
 }
@@ -288,20 +226,20 @@ h1 {
 .detail-icon {
   width: 16px;
   height: 16px;
-  color: var(--text-tertiary);
+  color: var(--ink-3);
   flex-shrink: 0;
   stroke-width: 1.75;
 }
 
 .detail-value {
-  color: var(--text-secondary);
+  color: var(--ink-2);
   letter-spacing: -0.01em;
 }
 
 .detail-value a {
   color: var(--accent);
   text-decoration: none;
-  transition: color 0.2s var(--transition-smooth);
+  transition: color 0.2s var(--ease);
 }
 
 .detail-value a:hover {
@@ -318,7 +256,7 @@ h1 {
   font-weight: 600;
   letter-spacing: -0.03em;
   margin: 56px 0 20px 0;
-  color: var(--text-tertiary);
+  color: var(--ink-3);
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 0.08em;
@@ -356,21 +294,5 @@ h1 {
 
   .conference-name {
     font-size: 1.2rem;
-  }
-}
-
-/* REDUCED MOTION */
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
-
-  .deadline-card:hover {
-    transform: none;
   }
 }

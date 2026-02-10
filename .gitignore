@@ -8,7 +8,6 @@ _site
 .bundle
 vendor
 .ruby-version
-Gemfile.lock
 
 # LaTeX build artifacts
 CV/tmp/*.aux
@@ -54,7 +53,6 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-package-lock.json
 
 # Environment files
 .env
@@ -67,6 +65,12 @@ build/
 
 # Cache files
 .tweet-cache
+
+# Web app data (large JSON trajectory files)
+web-apps/appworld-explorer/data/
+web-apps/gaia-explorer/data/
+web-apps/terminal-bench/data/
+web-apps/terminal-bench/__pycache__/
 
 # macOS specific
 .AppleDouble
