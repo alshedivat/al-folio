@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Rate Limitter
 date: 2021-03-01 08:12:00-0400

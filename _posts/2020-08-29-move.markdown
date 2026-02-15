@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Move Semantics
 date: 2020-05-29 11:12:00-0400

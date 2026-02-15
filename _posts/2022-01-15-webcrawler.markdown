@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Design Web Crawler
 date: 2022-01-15 00:00:00-0000

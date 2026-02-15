@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "CAP Theorem"
 date: 2026-01-02 00:00:00-0000
 description: CAP Theorm

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Standard Template Library
 date: 2020-05-07 11:12:00-0400

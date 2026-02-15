@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: STL functions
 date: 2020-05-23 08:12:00-0400

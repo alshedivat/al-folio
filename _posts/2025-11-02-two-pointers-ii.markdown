@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: "Two Pointers II (Advanced)"
 date: 2025-11-02 09:00:00-0400

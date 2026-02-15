@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Design Deliveroo
 date: 2026-01-06 00:00:00-0000

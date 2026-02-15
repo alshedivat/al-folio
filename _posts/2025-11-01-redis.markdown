@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: "Designing a Distributed Cache for High TPS Systems"
 date: 2025-11-01 11:12:00-0400

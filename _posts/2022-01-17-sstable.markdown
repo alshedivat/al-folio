@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: SSTable
 date: 2022-01-17 00:00:00-0000

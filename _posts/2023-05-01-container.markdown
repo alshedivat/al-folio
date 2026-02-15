@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: ['Container']
 date: 2023-01-28 00:00:00-0000

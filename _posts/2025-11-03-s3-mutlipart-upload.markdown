@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: S3 Multi part upload
 date: 2025-11-03 00:00:00-0000

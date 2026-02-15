@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: resources
 permalink: /resources/
 # description: A growing collection of your cool projects.

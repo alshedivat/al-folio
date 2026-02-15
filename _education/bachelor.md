@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 degree: Bachelor of Technology
 major: Computer Science and Engineering 
 from: September 2009

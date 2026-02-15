@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: ['Effective C++']
 date: 2023-08-20 00:00:00-0000

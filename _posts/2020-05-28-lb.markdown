@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Load Balancers
 date: 2020-05-28 08:12:00-0400

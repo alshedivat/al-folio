@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Zookeeper
 date: 2022-01-09 00:12:00-0400

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: "Strings and Hashmaps I"
 date: 2025-11-02

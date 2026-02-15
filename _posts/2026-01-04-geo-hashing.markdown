@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: "Geohashing: Scalable Geospatial Indexing for Distributed Systems"
 date: 2026-01-04 00:00:00-0400

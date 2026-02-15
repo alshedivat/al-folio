@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Design Collabrative Editing
 date: 2022-01-18 00:00:00-0000

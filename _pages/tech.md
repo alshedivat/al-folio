@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title: tech
 permalink: /tech/
 # description: A growing collection of your cool projects.

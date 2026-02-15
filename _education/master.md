@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 degree: Master of Science by Research
 major: Computer Science and Engineering 
 from: January 2017

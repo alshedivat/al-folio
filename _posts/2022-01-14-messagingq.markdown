@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Kafka
 date: 2022-01-14 00:00:00-0000

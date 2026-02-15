@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: BigTable
 date: 2022-01-04 00:12:00-0400

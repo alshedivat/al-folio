@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: "Sliding Window II"
 date: 2025-11-02 09:00:00-0400

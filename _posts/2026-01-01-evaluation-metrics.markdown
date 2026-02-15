@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Evaluation Metrics for Classification Models
 date: 2026-01-01 00:00:00-0000

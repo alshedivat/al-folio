@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 comments: true
 title: Google File System
 date: 2021-05-01 08:12:00-0400
