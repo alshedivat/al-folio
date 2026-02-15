@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: /
+  - title: "Blog"
+    url: /blog/
+  - title: "Experience"
+    url: /experience/
+  - title: "Education"
+    url: /education/
+  - title: "Resources"
+    url: /resources/
