@@ -1,27 +1,14 @@
-{%- assign path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
-
-<figure>
-
-  <picture>
-    {% for i in site.imagemagick.widths -%}
-      <source media="(max-width: {{ i }}px)" srcset="{{ path | relative_url }}-{{ i }}.webp" />
-    {% endfor -%}
-
-    <!-- Fallback to the original file -->
-    <img
-      {% if include.class %}class="{{ include.class }}"{% endif %}
-      src="{{ include.path | relative_url }}"
-      {% if include.alt %}alt="{{ alt }}"{% endif %}
-      {% if include.title %}title="{{ title }}"{% endif %}
-      {% if include.width %}width="{{ include.width }}"{% endif %}
-      {% if include.height %}height="{{ include.height }}"{% endif %}
-      {% if include.style %}style="{{ include.style }}"{% endif %}
-      {% if include.zoomable %}data-zoomable{% endif %}
-      loading="lazy"
-      decoding="async"
-    />
-  </picture>
-
-  {%- if include.caption -%}<figcaption class="caption">{{ include.caption }}</figcaption>{%- endif %}
-
+{%- assign img_src = include.path | default: include.url -%}
+{%- if img_src -%}
+<figure class="post-figure">
+  <img
+    src="{{ img_src | relative_url }}"
+    alt="{{ include.alt | default: include.title | default: '' }}"
+    {% if include.class %}class="{{ include.class }}"{% endif %}
+    {% if include.width %}style="width: {{ include.width }};"{% endif %}
+  >
+  {% if include.title or include.caption %}
+  <figcaption>{{ include.caption | default: include.title }}</figcaption>
+  {% endif %}
 </figure>
+{%- endif -%}

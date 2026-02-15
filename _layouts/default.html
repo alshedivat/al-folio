@@ -1,48 +1,31 @@
 ---
-layout: parse
+layout: compress
 ---
-<!DOCTYPE html>
-<html lang="{{ site.lang }}">
 
-  <!-- Head -->
+{% include base_path %}
+
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js"{% if site.site_theme == "dark" %} data-theme="dark"{% endif %}>
   <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5BVSQVXNK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-Y5BVSQVXNK');
-</script>
-  {%- if page.redirect -%}
-    <meta http-equiv="refresh" content="3; url={{ site.baseurl | prepend: site.url }}/" />
-  {%- endif -%}
-  {% include head.html %}
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
 
-  <!-- Body -->
-  <body class="{%- if site.navbar_fixed -%}fixed-top-nav{%- endif -%} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body>
 
-    <!-- Header -->
-    {%- include header.html %}
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-    <!-- Content -->
-    <div class="container mt-5">
-      {{ content }}
+    {{ content }}
+
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
     </div>
 
-    <!-- Footer -->
-    {%- include footer.html %}
+    {% include scripts.html %}
 
-    {% include scripts/jquery.html %}
-    {% include scripts/bootstrap.html %}
-    {% include scripts/mansory.html %}
-    {% include scripts/misc.html %}
-    {% include scripts/mathjax.html %}
-    {% include scripts/analytics.html %}
-
-    
   </body>
-
 </html>

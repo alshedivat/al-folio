@@ -1,322 +1,223 @@
-# -----------------------------------------------------------------------------
-# Site settings
-# -----------------------------------------------------------------------------
+locale: "en-US"
+site_theme: "default"
+title: "Pratyush Varshney"
+title_separator: "-"
+name: "Pratyush Varshney"
+description: "Personal website and technical blog"
+url: "https://pratyusv.github.io"
+baseurl: ""
+repository: "pratyusv/pratyusv.github.io"
 
-title: Pratyush # the website title (if blank, full name will be used instead)
-first_name: Pratyush
-middle_name:
-last_name: Varshney
-email: pratyushvarshney91@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+author:
+  avatar: "me.jpg"
+  name: "Pratyush Varshney"
+  bio: "Software Engineer"
+  location: "United Kingdom"
+  email: "pratyushvarshney91@gmail.com"
+  github: "pratyusv"
+  linkedin: "pratyushvarshney"
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: # the emoji used as the favicon
-url: https://pratyusv.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
 
-# -----------------------------------------------------------------------------
-# RSS Feed
-# -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
+comments:
+  provider:
 
-# -----------------------------------------------------------------------------
-# Layout
-# -----------------------------------------------------------------------------
+atom_feed:
+  hide: false
 
-navbar_fixed: true
-footer_fixed: true
+analytics:
+  provider: false
 
-# Dimensions
-max_width: 800px
+include:
+  - .htaccess
+  - _pages
+  - files
 
-# TODO: add layout settings (single page vs. multi-page)
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
 
-# -----------------------------------------------------------------------------
-# Open Graph & Schema.org
-# -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+keep_files:
+  - .git
+  - .svn
 
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-github_username: pratyusv
-gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
-linkedin_username: pratyushvarshney
-scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-research_gate_profile: # your profile on ResearchGate
-blogger_url: # your blogger URL
-work_url: # work page URL
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-dblp_url: # your DBLP profile url
-stackoverflow_id: #your stackoverflow id
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-rss_icon: false
-
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-
-google_analytics:  # your google-analytics ID (format: UA-XXXXXXXXX)
-google_site_verification:  # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
-panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
-
-# -----------------------------------------------------------------------------
-# Blog
-# -----------------------------------------------------------------------------
-
-blog_name: Tech  # your blog must have a name for it to show up in the nav bar
-# blog_description: a simple whitespace theme for academics
-permalink: /blog/:year/:title/
-
-# Pagination
-pagination:
-  enabled: true
-
-# Comments
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-
-# -----------------------------------------------------------------------------
-# Collections
-# -----------------------------------------------------------------------------
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 collections:
-  news:
-    defaults:
-      layout: post
+  teaching:
     output: true
-    permalink: /news/:path/
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
   projects:
     output: true
     permalink: /projects/:path/
-  education:
-    defaults:
-      layout: post
-      output: true
-      permalink: /education/:path/
   experience:
-    defaults:
-      layout: post
-      output: true
-      permalink: /experience/:path/
+    output: true
+    permalink: /experience/:path/
+  education:
+    output: true
+    permalink: /education/:path/
+  news:
+    output: true
+    permalink: /news/:path/
 
-news_limit: 15
-
-# -----------------------------------------------------------------------------
-# Jekyll settings
-# -----------------------------------------------------------------------------
-
-# Markdown and syntax highlight
-markdown: kramdown
-highlighter: rouge
-highlight_theme: github  # https://github.com/jwarby/jekyll-pygments-themes
-kramdown:
-  input: GFM
-  syntax_highlighter_opts:
-    css_class: 'highlight'
-    span:
-      line_numbers: false
-    block:
-      line_numbers: false
-      start_line: 1
-
-# Includes & excludes
-include: ['_pages']
-exclude:
-  - bin
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-keep_files:
-  - CNAME
-  - .nojekyll
-  - .git
-
-# Plug-ins
-plugins:
-  - jekyll-archives
-  - jekyll-diagrams
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-github-metadata
-  - jekyll-imagemagick
-  - jekyll-paginate-v2
-  - jekyll/scholar
-  - jekyll-sitemap
-  - jekyll-target-blank
-  - jekyll-twitter-plugin
-  - jemoji
-
-# Sitemap settings
 defaults:
   - scope:
-      path:            "assets/**/*.*"
+      path: ""
+      type: posts
     values:
-      sitemap:         false
-# Extras
-github: [metadata]
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+      share: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: experience
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: education
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: news
+    values:
+      layout: single
+      author_profile: false
 
-# -----------------------------------------------------------------------------
-# Jekyll optimization
-# -----------------------------------------------------------------------------
-
-# HTML remove comments (<!-- .... -->)
-remove_HTML_comments: false
-
-# HTML beautifier (_plugins/beautify.rb) / https://github.com/threedaymonk/htmlbeautifier
-beautify: false # This function has conflict with the code snippets, they can be displayed incorrectly
-
-# HTML minify (_plugins/minify.rb) Thanks to: https://www.ffbit.com/blog/2021/03/17/html-minification-in-jekyll.html
-minify: false
-
-# CSS/SASS minify
 sass:
+  sass_dir: _sass
   style: compressed
 
-# -----------------------------------------------------------------------------
-# Jekyll Archives
-# -----------------------------------------------------------------------------
+permalink: /blog/:year/:title/
+timezone: Etc/UTC
 
-jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them). 
-  layouts:
-    year: archive-year
-    tag: archive-tag
-    category: archive-category
-  permalinks:
-    year: '/blog/:year/'
-    tag: '/blog/tag/:name/'
-    category: '/blog/category/:name/'
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-scholar
 
-# -----------------------------------------------------------------------------
-# Jekyll Scholar
-# -----------------------------------------------------------------------------
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+  - jekyll-include-cache
+  - jekyll-scholar
 
-scholar:
+category_archive:
+  type: liquid
+  path: /categories/
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+tag_archive:
+  type: liquid
+  path: /tags/
 
-  style: apa
-  locale: en
-
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
-  bibtex_filters: [latex, smallcaps, superscript]
-
-  replace_strings: true
-  join_strings: true
-
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: Details
-
-  query: "@*"
-
-
-# -----------------------------------------------------------------------------
-# Responsive WebP Images
-# -----------------------------------------------------------------------------
-
-imagemagick:
-  enabled: true
-  widths:
-    - 480
-    - 800
-    - 1400
-  input_directories:
-    - assets/img
-  input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-  output_formats:
-    webp: "-quality 75%"
-
-# -----------------------------------------------------------------------------
-# Jekyll Diagrams
-# -----------------------------------------------------------------------------
-
-jekyll-diagrams:
-    renderer: mermaid
-    # configuration, see https://github.com/zhustec/jekyll-diagrams.
-    # feel free to comment out this section if not using jekyll diagrams.
-
-
-# -----------------------------------------------------------------------------
-# Optional Features
-# -----------------------------------------------------------------------------
-
-enable_google_analytics:    true  # enables google analytics
-enable_panelbear_analytics: false  # enables panelbear analytics
-enable_google_verification: false  # enables google site verification
-enable_bing_verification:   false  # enables bing site verification
-enable_mansory:             true   # enables automatic project cards arangement
-enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       true  # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-
-
-# -----------------------------------------------------------------------------
-# Library versions
-# -----------------------------------------------------------------------------
-
-academicons:
-  version: "1.9.0"
-  integrity: "sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg=="
-bootstrap:
-  version: "4.5.2"
-  integrity:
-    css: "sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg=="
-    js: "sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ=="
-fontawesome:
-  version: "5.14.0"
-  integrity: "sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-jquery:
-  version: "3.5.1"
-  integrity: "sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-mathjax:
-  version: "3.2.0"
-mansory:
-  version: "4.2.2"
-  integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
-mdb:
-  version: "4.19.1"
-  integrity:
-    css: "sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q=="
-    js: "sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw=="
-popper:
-  version: "2.4.4"
-  integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
-medium_zoom:
-  version: "1.0.6"
-  integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
