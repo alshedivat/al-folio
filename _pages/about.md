@@ -5,9 +5,10 @@ permalink: /
 subtitle: <a href='#'>Senior Bioinformatics Scientist</a>
 
 profile:
-  align: right
+  align: left
   image: Profile.jpeg
   image_circular: true # crops the image to make it circular
+  
   # more_info: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
