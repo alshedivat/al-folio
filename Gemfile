@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'jekyll'
+gem 'logger'
+gem 'benchmark'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
@@ -37,6 +39,6 @@ group :other_plugins do
     # gem 'webrick' -- should be already installed by jekyll
 end
 
-# ✅ Modern SCSS support
+# Modern SCSS support
 gem 'sass-embedded'
 gem 'jekyll-sass-converter', '~> 3.0'
