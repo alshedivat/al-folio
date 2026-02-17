@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'jekyll'
 gem 'logger'
 gem 'benchmark'
+gem "jekyll-github-metadata"
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
