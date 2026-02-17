@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Research Associate</a> at Computational Aeronautics Lab
+subtitle: <a href='#'>CFD Support Engineer</a> at BetaCodes (Formerly Forbmax)
 
 profile:
   align: right
@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <small>
-      <p>Computational Aeronautics Lab, SINES, NUST</p>
       <p>Islamabad, Pakistan</p>
     </small>
 

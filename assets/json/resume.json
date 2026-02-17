@@ -28,13 +28,28 @@
     ]
   },
   "work": [
+
+  {
+    "name": "BetaCodes (Formerly Forbmax)",
+    "position": "CFD Support Engineer",
+    "url": "https://betacodespk.com/",
+    "location": "Islamabad, Pakistan",
+    "startDate": "2025-05-15",
+    "endDate": "",
+    "summary": "Providing advanced Computational Fluid Dynamics (CFD) and High-Performance Computing (HPC) support to the KAUST Supercomputing Laboratory.",
+    "highlights": [
+      "Delivering expert consulting for a variety of CFD research and engineering projects, supporting users in solving complex simulation and modeling challenges.",
+      " Designing regular training workshops, including the development of high-quality instructional materials to enhance user proficiency in CFD and HPC environments.",
+      "Assisting with the administration and performance optimization of the dedicated CFD computing cluster, including software environment setup, troubleshooting, and resource management."
+    ]
+  },
   {
     "name": "Computational Aeronautics Lab (CAL), NUST",
     "position": "Research Associate",
     "url": "https://sines.nust.edu.pk/computational-aeronautics-lab/",
     "location": "Islamabad, Pakistan",
     "startDate": "2024-07-01",
-    "endDate": "",
+    "endDate": "2025-05-15",
     "summary": "Conducting research in Design and development of a small-scale ducted wind turbine ",
     "highlights": [
       "CFD design and optimization of ducted wind turbines for low wind speed environments",
@@ -92,8 +107,8 @@
       "area": "Computational Science & Engineering",
       "studyType": "Masters",
       "startDate": "2023-09-01",
-      "endDate": "",
-      "score": "3.50 CGPA",
+      "endDate": "2025-07-27",
+      "score": "3.60 CGPA",
       "courses": [
         "Advanced Fluid Mechanics",
         "CFD-I",
@@ -201,17 +216,17 @@
   {
     "name": "Dr. Rooh Khurram",
     "icon": "fa-solid fa-user-tie",
-    "reference": "Computational Scientist, Senior Member AIAA\nKAUST Supercomputing Laboratory, Thuwal, Saudi Arabia\nEmail: Rooh.Khurram@kaust.edu.sa"
+    "reference": "Computational Scientist, Senior Member AIAA,\nKAUST Supercomputing Laboratory, Thuwal, Saudi Arabia\nEmail: Rooh.Khurram@kaust.edu.sa"
   },
   {
-    "name": "Dr. Mian Ilyas Ahmad",
+    "name": "Dr. Shahzad Rasool",
     "icon": "fa-solid fa-user-tie",
-    "reference": "Professor & Head of Department\nSchool of Interdisciplinary Engineering & Sciences (SINES), NUST\nEmail: m.ilyas@nust.edu.pk"
+    "reference": "Associate Professor & Head of Department,\nSchool of Interdisciplinary Engineering & Sciences (SINES), NUST\nEmail: shahzad.rasool@sines.nust.edu.pk"
   },
   {
     "name": "Dr. Ammar Mushtaq",
     "icon": "fa-solid fa-user-tie",
-    "reference": "Associate Professor\nSchool of Interdisciplinary Engineering & Sciences (SINES), NUST\nEmail: ammar.mushtaq@sines.nust.edu.pk"
+    "reference": "Associate Professor,\nSchool of Interdisciplinary Engineering & Sciences (SINES), NUST\nEmail: ammar.mushtaq@sines.nust.edu.pk"
   }
 ],
 
