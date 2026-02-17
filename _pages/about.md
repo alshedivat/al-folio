@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>CFD Support Engineer</a> at BetaCodes (Formerly Forbmax)
+subtitle: CFD Support Engineer at BetaCodes (Formerly Forbmax)
 
 profile:
   align: right
@@ -12,7 +12,6 @@ profile:
     <small>
       <p>Islamabad, Pakistan</p>
     </small>
-
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -28,15 +27,24 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I’m **Faiq Shahbaz**, currently involved in advanced research in **Computational Fluid Dynamics (CFD)** with a keen interest in integrating modern data-driven approaches like **Graph Neural Networks (GNNs)** and **Machine Learning** into traditional CFD workflows. I’m passionate about using open-source software to develop practical, scalable solutions that blend classical CFD with emerging computational methods.
+Hi, I’m **Faiq Shahbaz**, a **CFD engineer and researcher** working at the intersection of **Computational Fluid Dynamics (CFD)**, **High-Performance Computing (HPC)**, and **data-driven modeling** for physical systems. I’m currently a **CFD Support Engineer at BetaCodes (formerly Forbmax)**. I hold a **BSc in Aerospace Engineering** from the **Institute of Space Technology (IST)** and an **MS in Computational Science & Engineering** from **NUST**, with a specialization in **CFD** and **HPC**.
 
-I hold a bachelor's degree in Aerospace Engineering from the **Institute of Space Technology (IST)** and am completing my MS in **Computational Science & Engineering** from **NUST**, specializing in **CFD** and **high-performance computing (HPC)**. I also serve as a **Research Associate** at the **Computational Aeronautics Lab (CAL)** at NUST.
+My work focuses on building **reliable simulation workflows**, developing **scalable computational tools**, and exploring how modern machine learning, especially **graph-based methods (GNNs)**, can complement traditional numerical solvers for faster prediction and analysis.
 
-Currently, my focus is on:
-- CFD-based design and optimization of ducted wind turbines using **OpenFOAM** 
-- Exploring the potential of **GNNs** in CFD modeling
-- Developing custom solvers and scalable simulation tools using **Python**, **C++**, **MPI**, and **PETSc**
+I’m currently investigating the **GEKO turbulence model** on the **Ahmed body** benchmark. This includes a comprehensive comparison across **RANS**, **pseudo-time RANS**, and **URANS**, as well as a large parameter-sweep study spanning **~100 GEKO parameter combinations** across multiple inlet velocities. The study is designed to understand model sensitivity, robustness, and predictive behavior under controlled variations, and to produce a structured dataset suitable for downstream analysis and machine learning. 
 
-I enjoy solving complex fluid dynamics problems through a combination of rigorous numerical methods and innovative computational tools. Through this page, I aim to showcase my work, share open-source contributions, and connect with researchers and engineers working in **CFD**, **ML for physical systems**, and **scientific computing**. 
+Previously, I led an end-to-end **ducted wind turbine** effort covering **design, optimization, CFD evaluation, and experimental validation**, supported by robust automation and post-processing workflows.
 
-I’m **actively seeking PhD opportunities** and open to **collaborations with researchers** working in related domains. Feel free to reach out.
+## Interests & expertise
+- **CFD and turbulence modeling**, including benchmark-driven evaluation and verification/validation workflows
+- **Parametric studies and uncertainty/sensitivity analysis** for model robustness and repeatability
+- **High-performance simulation workflows**, automation, and scalable post-processing pipelines
+- **Solver and tooling development** using **Python**, **C++**, **MPI**, and **PETSc**
+- **Scientific machine learning for CFD**, including **GNN-based surrogate modeling** and physics-aware learning approaches
+- **Reproducible computational engineering**, with an emphasis on clean software practices and traceable results
+
+## Open to
+- **PhD opportunities** aligned with **CFD**, **HPC**, and **scientific machine learning**
+- **Research/engineering collaborations** in CFD, turbulence modeling, and data-driven physical modeling
+
+Feel free to reach out using the social links below.
