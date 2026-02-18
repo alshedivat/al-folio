@@ -58,7 +58,7 @@
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
 
-      {% comment %} If we say max authors == 2 and we have exactly 3 authors, instead of showing "Author A, Author B, and 1 more author", we show all four {% endcomment %}
+      {% comment %} If we say max authors == 2 and we have exactly 3 authors, instead of showing "Author A, Author B, and 1 more author", we show all three {% endcomment %}
       {% assign author_array_limit_with_grace = author_array_limit | plus: 1 %}
       {% if author_array_size == author_array_limit_with_grace %}
         {% assign author_array_limit = author_array_size %}
