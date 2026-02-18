@@ -20,7 +20,7 @@
           {% if start_date != '' %}
             {% comment %} Extract year only from dates like "1933-01-01" or just use "1933" as is {% endcomment %}
             {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
+            {% assign endDate = end_date | strip | split: '-' | first | default: 'Present' %}
             {% assign date = startDate | append: ' - ' | append: endDate %}
           {% else %}
             {% assign date = null %}
@@ -38,7 +38,7 @@
               {% capture location %}
                 {% if entry.location %}{{ entry.location }}{% endif %}
               {% endcapture %}
-              {% if location != '' %}
+              {% if location and location != blank %}
                 <tr>
                   <td>
                     <p class="location">
