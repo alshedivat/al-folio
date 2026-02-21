@@ -1,0 +1,122 @@
+# Hugo Blox GitHub Action to convert Bibtex publications to Markdown-based webpages
+name: Import Publications From Bibtex
+
+# Require permission to create a PR (least privilege principle)
+permissions:
+  contents: write
+  pull-requests: write
+
+# Run workflow when a `.bib` file is added or updated in the `data/` folder
+on:
+  push:
+    branches: ['main']
+    paths: ['publications.bib']
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Prevent concurrent runs of this workflow
+concurrency:
+  group: import-publications-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  hugoblox:
+    if: github.repository_owner != 'HugoBlox'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      ACADEMIC_VERSION: '>=0.10.0'
+      PYTHON_VERSION: '3.13'
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v4
+        with:
+          # Only need recent history for publication import
+          fetch-depth: 1
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Setup pip cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-academic-${{ env.ACADEMIC_VERSION }}
+          restore-keys: |
+            ${{ runner.os }}-pip-academic-
+            ${{ runner.os }}-pip-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "academic${{ env.ACADEMIC_VERSION }}"
+      - name: Validate publications.bib file
+        if: ${{ hashFiles('publications.bib') != '' }}
+        run: |
+          if [ ! -f "publications.bib" ]; then
+            echo "❌ publications.bib file not found"
+            exit 1
+          fi
+          echo "✅ publications.bib file found"
+          
+      - name: Run Academic (Bibtex To Markdown Converter)
+        # Check `.bib` file exists for case when action runs on `.bib` deletion
+        # Note GH only provides hashFiles func in `steps.if` context, not `jobs.if` context
+        if: ${{ hashFiles('publications.bib') != '' }}
+        run: |
+          echo "🚀 Starting publication import..."
+          academic import publications.bib content/publication/ --compact --verbose
+          echo "✅ Publication import completed successfully"
+          
+          # Verify that files were created
+          if [ -d "content/publication" ] && [ "$(ls -A content/publication/)" ]; then
+            echo "📚 Publications imported: $(ls content/publication/ | wc -l) items"
+          else
+            echo "⚠️ No publications were imported"
+          fi
+        continue-on-error: false
+      - name: Create Pull Request
+        # Set ID for `Check outputs` stage
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: 'feat(publications): import latest publications from bibtex'
+          title: 'HugoBlox Kit - Import latest publications from Bibtex'
+          body: |
+            🔄 **Automated Publication Import**
+
+            This PR automatically imports the latest publications from `publications.bib` to `content/publication/`.
+
+            **Changes:**
+            - 📚 Updated publication entries
+            - 🏷️ Processed bibliographic data
+
+            ---
+            将最新的出版物从`publications.bib`导入到`content/publication/`。
+
+            📖 [View Documentation](https://github.com/GetRD/academic-file-converter)
+          base: main
+          labels: automated-pr, content, publications
+          branch: hugoblox-import-publications-${{ github.run_id }}
+          delete-branch: true
+          draft: false
+      - name: Check outputs
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        run: |
+          echo "✅ Successfully created Pull Request!"
+          echo "📝 Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+          echo "🔗 Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+          echo "🎯 Operation completed at $(date)"
+
+      - name: Report workflow status
+        if: always()
+        run: |
+          if [ "${{ job.status }}" == "success" ]; then
+            echo "🎉 Workflow completed successfully"
+          else
+            echo "❌ Workflow failed - check logs for details"
+            exit 1
+          fi

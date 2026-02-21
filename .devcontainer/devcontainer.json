@@ -1,0 +1,25 @@
+{
+  "name": "HugoBlox Codespace",
+  "image": "ghcr.io/HugoBlox/hugo-blox-dev:hugo0.156.0",
+  "updateContentCommand": "pnpm install --frozen-lockfile --prefer-offline",
+  "postCreateCommand": "pnpm --version && hugo version",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ownable.ownable"
+      ]
+    }
+  },
+  "mounts": [
+    "source=pnpm-store,target=/home/vscode/.local/share/pnpm,type=volume"
+  ],
+  "remoteUser": "vscode",
+  "forwardPorts": [
+    1313
+  ],
+  "portsAttributes": {
+    "1313": {
+      "label": "Hugo Server"
+    }
+  }
+}

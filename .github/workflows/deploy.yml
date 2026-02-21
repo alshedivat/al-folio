@@ -1,0 +1,83 @@
+name: Deploy website to GitHub Pages
+
+on:
+  # Trigger the workflow every time you push to the `main` branch
+  push:
+    branches: ['main']
+  # Allows you to run this workflow manually from the Actions tab on GitHub
+  workflow_dispatch:
+
+# Provide permission to clone the repo and deploy it to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
+jobs:
+  # Check deployment configuration
+  config:
+    if: github.repository_owner != 'HugoBlox'
+    runs-on: ubuntu-latest
+    outputs:
+      deploy-host: ${{ steps.check.outputs.host }}
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        sparse-checkout: hugoblox.yaml
+        sparse-checkout-cone-mode: false
+
+    - name: Check deploy host
+      id: check
+      run: |
+        # Install pinned yq version for robust YAML parsing
+        YQ_VERSION="v4.44.1"
+        if ! wget -q --tries=3 --waitretry=1 -O /tmp/yq \
+          "https://github.com/mikefarah/yq/releases/download/${YQ_VERSION}/yq_linux_amd64"; then
+          echo "::error::Failed to download yq"
+          exit 1
+        fi
+        sudo mv /tmp/yq /usr/local/bin/yq
+        sudo chmod +x /usr/local/bin/yq
+        
+        # Read deploy.host from hugoblox.yaml, default to github-pages
+        HOST=$(yq '.deploy.host // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
+        HOST=${HOST:-github-pages}
+        
+        # Validate known hosts
+        if [[ ! "$HOST" =~ ^(github-pages|netlify|vercel|cloudflare|none)$ ]]; then
+          echo "::warning::Unknown deploy host '$HOST', defaulting to github-pages"
+          HOST="github-pages"
+        fi
+        
+        echo "host=$HOST" >> $GITHUB_OUTPUT
+        echo "Deployment target: $HOST"
+
+  # Build website using reusable workflow (always runs for CI)
+  build:
+    needs: config
+    if: github.repository_owner != 'HugoBlox'
+    uses: ./.github/workflows/build.yml
+    secrets: inherit
+
+  # Deploy website to GitHub Pages hosting (only if configured)
+  deploy:
+    needs: [config, build]
+    if: needs.config.outputs.deploy-host == 'github-pages'
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write # to deploy to Pages
+      id-token: write # to verify the deployment originates from an appropriate source
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4

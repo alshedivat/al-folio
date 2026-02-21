@@ -1,0 +1,98 @@
+name: Upgrade HugoBlox
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_type:
+        description: 'Upgrade to version'
+        required: true
+        default: 'Stable'
+        type: choice
+        options:
+        - Stable
+        - Beta (Preview)
+  schedule:
+    # Run at 05:00 on Monday
+    - cron: '0 5 * * 1'
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# Prevent duplicate upgrade runs
+concurrency:
+  group: upgrade-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  upgrade:
+    name: Upgrade
+    if: github.repository_owner != 'HugoBlox'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          package_json_path: ./package.json
+          run_install: false
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.23'
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Run Upgrade CLI
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Use manual input or default to stable for scheduled runs
+          VERSION_TYPE: ${{ inputs.version_type || 'Stable' }}
+        run: |
+          FLAGS="--yes --ci"
+          
+          if [ "$VERSION_TYPE" == "Beta (Preview)" ]; then
+            FLAGS="$FLAGS --canary"
+          fi
+          
+          echo "Running upgrade with flags: $FLAGS"
+          pnpm dlx hugoblox@latest upgrade $FLAGS
+
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore(deps): upgrade hugoblox modules"
+          title: "⬆️ Upgrade HugoBlox Modules"
+          body: |
+            This PR upgrades the [HugoBlox](https://hugoblox.com) modules to the latest version.
+            
+            **Changes:**
+            - Updated Hugo Modules (go.mod/go.sum)
+            - Applied automatic migrations (if any)
+            
+            **Verification:**
+            - [ ] Check the Deploy Preview to ensure everything looks correct.
+            - [ ] Merge this PR to apply the updates.
+          branch: "chore/upgrade-hugoblox-${{ github.run_id }}"
+          delete-branch: true
+          base: main
+          labels: |
+            dependencies
+            automated-pr
