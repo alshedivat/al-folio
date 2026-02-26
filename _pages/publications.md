@@ -11,6 +11,10 @@ nav_order: 2
 
 <div class="publications">
 
+<p>
+  🎓 <a href="https://scholar.google.ca/citations?user=6I5_IGQAAAAJ&hl=en">Google Scholar</a>
+</p>
+
 {% bibliography %}
 
 </div>

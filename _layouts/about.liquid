@@ -59,7 +59,12 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">📚 publications</a>
+        {% if site.scholar_userid %}
+          <span class="ml-2">
+            <a href="https://scholar.google.ca/citations?user={{ site.scholar_userid }}&hl=en" style="color: inherit">🎓 Google Scholar</a>
+          </span>
+        {% endif %}
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
