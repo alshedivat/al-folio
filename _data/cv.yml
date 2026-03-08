@@ -12,29 +12,58 @@
   type: time_table
   contents:
     - title: PhD in Industrial Engineering
-      institution: New Jersey Institute of Technology
-      year: 2021
+      institution: New Jersey Institute of Technology (NJIT), Newark, NJ
+      year: Aug 2018 - Aug 2021
       description:
-        - Dissertation focused on multistage stochastic optimization and reinforcement learning for invasive species management and epidemic control planning.
+        - "Dissertation: Multistage Stochastic Optimization and Reinforcement Learning for Forestry and Epidemic Control Planning"
+        - "Advisor: Dr. Esra Buyuktahtakin Toy"
+    - title: M.S. in Computer Science
+      institution: Epoka University, Tirana, Albania
+      year: Sep 2014 - Jul 2016
+      description:
+        - "Thesis: Quadruplets"
+    - title: B.S. in Business Informatics
+      institution: Epoka University, Tirana, Albania
+      year: Sep 2011 - Jun 2014
+      description:
+        - "Thesis: Introducing Mobile Applications in Solving Econometric Problems"
 
-- title: Experience
+- title: Academic Experience
   type: time_table
   contents:
-    - title: Assistant Professor
-      institution: State University of New York at Plattsburgh
-      year: Fall 2021 - Present
+    - title: Assistant Professor of Business Analytics
+      institution: State University of New York at Plattsburgh, Plattsburgh, NY
+      year: Aug 2021 - Present
       description:
         - Teaching statistics, operations research, and predictive analytics.
+    - title: PhD Candidate
+      institution: New Jersey Institute of Technology (NJIT), Newark, NJ
+      year: Oct 2018 - Aug 2021
+    - title: Lecturer
+      institution: Tirana University, Tirana, Albania
+      year: Oct 2017 - Jul 2018
+
+- title: Industry Experience
+  type: time_table
+  contents:
+    - title: AI Evaluation Specialist
+      institution: OpenAI (via Micro1), San Francisco, CA
+      year: Jan 2025 - Present
+    - title: Data Science Intern - NLP Analyst
+      institution: Novartis Oncology, East Hanover, NJ
+      year: Jun 2020 - Aug 2020
+    - title: SAP Consultant - Data Stream
+      institution: Brizo Consulting G.m.b.H, Frankfurt, Germany
+      year: Oct 2017 - Aug 2018
+    - title: SAP Developer - Data Management
+      institution: Albtelecom Albania, Tirana, Albania
+      year: Oct 2016 - Sep 2017
 
 - title: Memberships
   type: list
   contents:
-    - Institute for Operations Research and the Management Sciences (INFORMS)
-    - INFORMS Optimization Society (OS)
-    - INFORMS Data Mining Society
-    - INFORMS Energy, Natural Resources, and Environment Society (ENRE)
-    - INFORMS Analytics Society
     - Institute of Industrial and Systems Engineers (IISE)
+    - Institute for Operations Research and the Management Sciences (INFORMS)
     - Decision Sciences Institute (DSI)
     - Society of North American Scholars (SNAS)
 
@@ -43,39 +72,49 @@
   contents:
     - year: 2025
       items:
-        - OIE Fellowship, SUNY Plattsburgh Office of Institutional Effectiveness
+        - Office of Institutional Effectiveness Fellowship, SUNY Plattsburgh
     - year: 2024
       items:
-        - Research featured in IISE Magazine (June 2024)
-    - year: 2022-2023
+        - Student Research Assistant Award, SUNY
+    - year: 2021-2024
       items:
-        - Presidential Research Award, SUNY Plattsburgh
+        - SUNY IDAP (Individual Development Awards Program)
+    - year: 2021-2022
+      items:
+        - Presidential Research Award Grant, SUNY Plattsburgh
+    - year: 2018-2021
+      items:
+        - NJIT Graduate Tuition, Fee, and Stipend Awards
 
 - title: Selected Talks
   type: time_table
   contents:
+    - title: Got Data? Series Talk
+      institution: SUNY Plattsburgh, NY
+      year: Nov 2025
+      description:
+        - "Continuous, Explainable Retention Architecture: Predicting and Preventing Student Dropouts"
     - title: INFORMS Annual Meeting 2025
       institution: Atlanta, GA, United States
-      year: October 27, 2025
+      year: Oct 2025
       description:
         - "Optimizing Surveillance and Management of Round Goby Invasion in Lake Champlain"
     - title: SNAS Annual Meeting 2025
       institution: Society of North American Scholars, Fairleigh Dickinson University
-      year: October 10, 2025
+      year: Oct 2025
       description:
         - "From Sip to Signal: Computational Analysis of FDA Beverage Adverse Event Reports to Inform Regulatory Modernization"
     - title: SNAS Annual Meeting 2024
       institution: Society of North American Scholars
-      year: October 2024
+      year: Oct 2024
       description:
         - "An Early Warning System for Predicting College Student Dropouts Through Analytics"
     - title: INFORMS Annual Meeting 2024 (Invited Session Chair)
       institution: Seattle, WA, United States
-      year: October 20, 2024
+      year: Oct 2024
       description:
         - "Optimization Approaches to Enhancing Biodiversity"
-    - title: INFORMS Annual Meeting 2023
-      institution: Phoenix, AZ, United States
-      year: October 2023
-      description:
-        - "A Risk-Averse Multistage Stochastic Model Utilizing Scenario Dominance Cuts for Optimal Control of a Forest Invasive Insect"
+
+
+
+

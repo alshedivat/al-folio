@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Presenting at INFORMS Annual Meeting 2024
+title: Presented at INFORMS Annual Meeting 2024
 date: 2024-08-20 12:45:00-0400
 inline: false
 related_posts: false
 ---
 
-[INFORMS 2024](https://meetings.informs.org/wordpress/seattle2024/) will be held on **October 20-23, 2024 in Seattle, WA**. I will chair an Invited Session for [ENRE](https://connect.informs.org/energy-natural-resources-and-the-environment/home) titled _Optimization Approaches to Enhancing Biodiversity_. The session will take place in **Regency** building room **701** on **October 20, 12:45 PM - 2:00 PM**. 
-In this session I will present a new project I have been working on _An Adaptive Simulation-Optimization Framework to Survey and Control Invasive Species_. 
+[INFORMS 2024](https://meetings.informs.org/wordpress/seattle2024/) was held on **October 20-23, 2024 in Seattle, WA**. I chaired an Invited Session for [ENRE](https://connect.informs.org/energy-natural-resources-and-the-environment/home) titled _Optimization Approaches to Enhancing Biodiversity_. The session took place in **Regency** building room **701** on **October 20, 12:45 PM - 2:00 PM**. 
+In this session I presented a new project I have been working on _An Adaptive Simulation-Optimization Framework to Survey and Control Invasive Species_. 
 
 ---
 

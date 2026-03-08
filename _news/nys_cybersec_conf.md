@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attending [2024 NYS Cybersecurity Conference](https://its.ny.gov/2024-nys-cybersecurity-conference) :statue_of_liberty:
+Attended [2024 NYS Cybersecurity Conference](https://its.ny.gov/2024-nys-cybersecurity-conference) :statue_of_liberty:

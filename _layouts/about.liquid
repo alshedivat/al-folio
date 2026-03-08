@@ -64,6 +64,14 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Selected talks -->
+    {% if page.selected_talks %}
+      <h2>
+        <a href="{{ '/cv/' | relative_url }}" style="color: inherit">selected talks</a>
+      </h2>
+      {% include selected_talks.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">

@@ -15,3 +15,87 @@ h6,
 .navbar .navbar-brand {
   font-family: "EB Garamond", Garamond, Georgia, serif;
 }
+
+.interest-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.6rem 0 1.2rem;
+}
+
+.interest-pill {
+  background: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 28%, transparent);
+  border-radius: 999px;
+  padding: 0.28rem 0.7rem;
+  font-size: 0.92rem;
+}
+
+.talks-list {
+  margin-top: 0.45rem;
+}
+
+.talk-item {
+  border-left: 2px solid color-mix(in srgb, var(--global-theme-color) 45%, transparent);
+  padding-left: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.talk-title {
+  margin: 0 0 0.2rem;
+  font-size: 1.08rem;
+}
+
+.talk-meta {
+  margin: 0 0 0.25rem;
+  font-size: 0.92rem;
+  color: var(--global-text-color-light);
+}
+
+.talk-desc {
+  margin: 0;
+}
+
+.talk-icon {
+  color: var(--global-theme-color);
+  margin-right: 0.45rem;
+  font-size: 0.95rem;
+}
+
+.news-date-pill {
+  display: inline-block;
+  background: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--global-theme-color) 28%, transparent);
+  border-radius: 999px;
+  padding: 0.2rem 0.62rem;
+  font-size: 0.84rem;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+/* CV layout refinements */
+main .container:has(.cv) {
+  max-width: 1320px;
+}
+
+.cv .card {
+  width: 100%;
+}
+
+.cv .card-title {
+  font-size: 1.35rem;
+}
+
+.cv .cv-item {
+  padding-left: 0.15rem;
+}
+
+.cv .cv-date-top {
+  margin-bottom: 0.2rem;
+}
+
+.cv .cv-date-badge {
+  white-space: nowrap;
+  line-height: 1.2;
+  padding: 0.35rem 0.55rem;
+}

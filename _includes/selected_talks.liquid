@@ -1,0 +1,14 @@
+{% assign talks_section = site.data.cv | where: "title", "Selected Talks" | first %}
+{% if talks_section and talks_section.contents %}
+  <div class="talks-list">
+    {% for talk in talks_section.contents limit: 3 %}
+      <div class="talk-item">
+        <h3 class="talk-title"><i class="fa-solid fa-microphone-lines talk-icon" aria-hidden="true"></i>{{ talk.title }}</h3>
+        <p class="talk-meta">{{ talk.year }}{% if talk.institution %} | {{ talk.institution }}{% endif %}</p>
+        {% if talk.description %}
+          <p class="talk-desc">{{ talk.description | first }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}

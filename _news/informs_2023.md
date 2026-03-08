@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Presenting at INFORMS Annual Meeting 2023
+title: Presented at INFORMS Annual Meeting 2023
 date: 2023-10-16 08:00:00 AM -0400
 inline: false
 related_posts: false
 ---
 
-[INFORMS 2023](https://meetings.informs.org/wordpress/phoenix2023/) will be held on October 15-18, 2023 in Phoenix, AZ. 
-I will present our paper (**Sabah Bushaj, Esra Buyuktahtakin Toy, Robert G. Haight**)  _A Risk-Averse Multistage Stochastic Model Utilizing Scenario Dominance Cuts for Optimal Control of a Forest Invasive Insect_ in the _Stochastic Programming with Discrete Decisions and/or Decision-Dependent Uncertainty_ session in **CC-North 224A** at **8:00 AM**.
+[INFORMS 2023](https://meetings.informs.org/wordpress/phoenix2023/) was held on October 15-18, 2023 in Phoenix, AZ. 
+I presented our paper (**Sabah Bushaj, Esra Buyuktahtakin Toy, Robert G. Haight**)  _A Risk-Averse Multistage Stochastic Model Utilizing Scenario Dominance Cuts for Optimal Control of a Forest Invasive Insect_ in the _Stochastic Programming with Discrete Decisions and/or Decision-Dependent Uncertainty_ session in **CC-North 224A** at **8:00 AM**.
 
 ---
 
@@ -16,7 +16,7 @@ I will present our paper (**Sabah Bushaj, Esra Buyuktahtakin Toy, Robert G. Haig
 
 --- 
 
-My colleague **Xuecheng Yin** will present our (**Xuecheng Yin, Esra Buyuktahtakin Toy, Sabah Bushaj, Yue Yuan**) research paper _Covid-19: Agent-Based Simulation-Optimization to Vaccine Center Location Vaccine Allocation Problem_ published in the _Breaking the Chain: Leveraging Operations Research to Control and Mitigate Infectious Outbreaks_ session in **CC-West 101A** at **2:15 PM**.
+My colleague **Xuecheng Yin** presented our (**Xuecheng Yin, Esra Buyuktahtakin Toy, Sabah Bushaj, Yue Yuan**) research paper _Covid-19: Agent-Based Simulation-Optimization to Vaccine Center Location Vaccine Allocation Problem_ published in the _Breaking the Chain: Leveraging Operations Research to Control and Mitigate Infectious Outbreaks_ session in **CC-West 101A** at **2:15 PM**.
 
 ---
 
