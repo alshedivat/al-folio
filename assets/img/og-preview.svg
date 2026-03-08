@@ -1,0 +1,15 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Sabah Bushaj preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f8fb" />
+      <stop offset="100%" stop-color="#dce8f2" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="70" y="70" width="1060" height="490" rx="24" fill="#ffffff" opacity="0.9" />
+  <text x="120" y="230" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#14263a">Sabah Bushaj</text>
+  <text x="120" y="300" font-family="Arial, Helvetica, sans-serif" font-size="34" fill="#294866">Assistant Professor, SUNY Plattsburgh</text>
+  <text x="120" y="360" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#355a7f">Stochastic Optimization | Reinforcement Learning</text>
+  <text x="120" y="410" font-family="Arial, Helvetica, sans-serif" font-size="30" fill="#355a7f">Simulation-Optimization | Decision Under Uncertainty</text>
+  <text x="120" y="500" font-family="Arial, Helvetica, sans-serif" font-size="28" fill="#1f3b56">sabahbushaj.github.io</text>
+</svg>

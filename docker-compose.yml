@@ -3,6 +3,7 @@ services:
   jekyll:
     image: amirpourmand/al-folio:latest
     build: .
+    command: sh -lc "bundle install && bundle exec jekyll serve --watch --port=8080 --host=0.0.0.0 --livereload"
     ports:
       - 8080:8080
       - 35729:35729
