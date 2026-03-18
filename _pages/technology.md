@@ -14,6 +14,9 @@ children:
     - title: Istio
       permalink: /istio/
     - title: divider
+    - title: EKS
+      permalink: /eks/
+    - title: divider
     - title: Network
       permalink: /network/
 ---
