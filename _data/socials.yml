@@ -20,7 +20,7 @@ email: liuxujia2@gmail.com # your email address
 # hal_id: # your HAL id (https://hal.science/)
 # ieee_id: # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
-instagram_id: liuxujia85 # your instagram id
+# instagram_id: # your instagram id
 # kaggle_id: # your kaggle id
 # keybase_username: # your keybase user name
 # lastfm_id: # your lastfm id
@@ -60,3 +60,4 @@ custom_social_wechat: # WeChat
   logo: https://none-momo.github.io/assets/img/Wechat.png # can be png, svg, jpg
   title: WeChat
   url: https://github.com/None-Momo/My-Wechat/blob/main/Wechat.jpg
+instagram_id: liuxujia85 # your instagram id
