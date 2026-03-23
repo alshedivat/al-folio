@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-11-01 16:11:00-0400
+date: 2026-01-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Received Transfer Admission from UW-Madison
+Starting Exchange Life at UC Berkeley

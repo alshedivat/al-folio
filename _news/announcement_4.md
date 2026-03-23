@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-06-01 15:59:00-0400
+date: 2025-07-05 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-Admitted to HCI+ Program, heading to Suzhou
+Attended Chiang Mai HCI Research Camp, organized by [Prof: Shengdong Zhao](https://shengdongzhao.com/)
