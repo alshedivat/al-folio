@@ -30,7 +30,6 @@ latest_posts:
 </style>
 
 I'm Xujia Liu, currently a visiting student at UC Berkeley.
-I have been admitted to the University of Wisconsin-Madison and will be transferring there in Fall 2026/Spring 2027 to pursue my B.S. in Computer Science.
 Previously, I studied at the University of Nottingham China with Full Scholarship.
 <br><br>
 My research interests lie in HCI, Accessibility, VR, AI.
