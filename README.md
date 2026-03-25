@@ -182,8 +182,8 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://smsnobin77.github.io/" target="_blank">★</a>
 <a href="https://dongkyu-lee.info/" target="_blank">★</a>
 <a href="https://laurajul.github.io/" target="_blank">★</a>
-<a href="https://www.byeongsc.com/" target="_blank">★</a>
 <a href="https://vud.org" target="_blank">★</a>
+<a href="https://www.byeongsc.com/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
