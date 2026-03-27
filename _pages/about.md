@@ -32,8 +32,9 @@ latest_posts:
 I'm Xujia Liu, currently a visiting student at UC Berkeley.
 Previously, I studied at the University of Nottingham China with Full Scholarship.
 <br><br>
-My research interests lie in HCI, Accessibility, VR, AI.
-During the summer of 2025, I joined the HER Lab through the HCI+ program (selected from ~100 out of 550 applicants), supervised by Dr. [Yue Li](https://imyueli.github.io/about.html), where I explored emotion detection in VR co-experiences using physiological signals.
+My research interests lie in HCI, Accessibility, VR, LLM.
+In summer 2026, I will research Interactive Systems for Human-Aligned AI Agents at the [University of Notre Dame](https://cse.nd.edu/) under [Toby Li](https://toby.li/)'s guidance,
+During the summer of 2025, I joined the HER Lab through the HCI+ program, supervised by Dr. [Yue Li](https://imyueli.github.io/), where I explored emotion detection in VR co-experiences using physiological signals.
 <br><br>
 I firmly believe that technology should always serve people.
 And my ultimate goal is to create an accessible world where everyone,
