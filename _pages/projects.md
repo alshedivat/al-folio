@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: []
 horizontal: false
 ---
 
@@ -14,59 +14,97 @@ horizontal: false
     --global-theme-color: #dc3545;
     --global-hover-color: #dc3545;
   }
+
+  .projects-grid {
+    display: grid;
+    gap: 2rem;
+    margin: 2rem 0 4rem;
+  }
+
+  .project-card {
+    position: relative;
+    padding: 2rem;
+    border: 1px solid #e6e6e6;
+    border-radius: 18px;
+    background: #fbfaf8;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.04);
+    transition: transform 160ms ease, box-shadow 160ms ease, border-color 160ms ease;
+  }
+
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+    border-color: #dcd6d0;
+  }
+
+  .project-card h2 {
+    margin: 0 0 0.6rem;
+    font-size: 1.9rem;
+    line-height: 1.2;
+  }
+
+  .project-card p {
+    margin: 0 0 1rem;
+    font-size: 1.05rem;
+    color: #333;
+  }
+
+  .project-meta {
+    font-size: 0.95rem;
+    color: #666;
+  }
+
+  .project-arrow {
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.6rem;
+    color: #c4bdb5;
+    transition: transform 160ms ease, color 160ms ease;
+  }
+
+  .project-card:hover .project-arrow {
+    color: var(--global-theme-color);
+    transform: translate(4px, -50%);
+  }
+
+  .project-card a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .project-card a:focus {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 6px;
+  }
+
+  @media (max-width: 720px) {
+    .project-card {
+      padding: 1.5rem;
+    }
+
+    .project-arrow {
+      position: static;
+      display: inline-block;
+      transform: translateY(0);
+      margin-left: 0.35rem;
+    }
+  }
 </style>
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+<div class="projects-grid">
+  <a class="project-card" href="/blog/">
+    <h2>AI exploration notes</h2>
+    <p>Notes and experiments from learning Claude, prompt engineering, and AI capabilities — a collection of insights, patterns, and discoveries along the way.</p>
+    <div class="project-meta">TypeScript · Research notes</div>
+    <span class="project-arrow">→</span>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
 
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+  <a class="project-card" href="/repositories/">
+    <h2>Open learning resources</h2>
+    <p>Curated course materials and study resources from Stanford HCI, MIT computer science, and beyond. Open for anyone exploring CS and human-computer interaction.</p>
+    <div class="project-meta">Open resources · Community friendly</div>
+    <span class="project-arrow">→</span>
+  </a>
 </div>
