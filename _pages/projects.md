@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 3
 display_categories: []
@@ -94,16 +94,16 @@ horizontal: false
 </style>
 
 <div class="projects-grid">
-  <a class="project-card" href="/blog/">
-    <h2>AI exploration notes</h2>
-    <p>Notes and experiments from learning Claude, prompt engineering, and AI capabilities — a collection of insights, patterns, and discoveries along the way.</p>
+  <a class="project-card" href="https://none-momo.github.io/anthropic-notes/">
+    <h2>AI using Notes</h2>
+    <p>Study how to use Claude together!</p>
     <div class="project-meta">TypeScript · Research notes</div>
     <span class="project-arrow">→</span>
   </a>
 
-  <a class="project-card" href="/repositories/">
+  <a class="project-card" href="https://github.com/None-Momo">
     <h2>Open learning resources</h2>
-    <p>Curated course materials and study resources from Stanford HCI, MIT computer science, and beyond. Open for anyone exploring CS and human-computer interaction.</p>
+    <p>My own study materials.</p>
     <div class="project-meta">Open resources · Community friendly</div>
     <span class="project-arrow">→</span>
   </a>
