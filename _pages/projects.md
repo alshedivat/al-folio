@@ -1,9 +1,9 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: true
+description: I am always looking for self motivated and creative studetns to work in my research group. If you are interested, please drop me and email with your interest and CV. These are projects that I have been mentoring and collaborating with students on, including funded research and independent study projects.
+nav: false
 nav_order: 3
 display_categories: [work, fun]
 horizontal: false
