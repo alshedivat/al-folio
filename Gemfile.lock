@@ -1,10 +1,11 @@
 GIT
-  remote: https://github.com/Strappazzon/jekyll-terser.git
-  revision: cafbf210781f2b0867dc89dd94c292c1e49946c8
+  remote: https://github.com/RobertoJBeltran/jekyll-terser.git
+  revision: 1085bf66d692799af09fe39f8162a1e6e42a3cc4
+  branch: master
   specs:
-    jekyll-terser (1.0.0)
-      jekyll (~> 4.4)
-      terser (~> 1.2)
+    jekyll-terser (0.2.3)
+      jekyll (>= 0.10.0)
+      terser (>= 1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -273,8 +274,11 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
+  base64
+  bigdecimal
   classifier-reborn
   css_parser
+  csv
   feedjira
   httparty
   jekyll

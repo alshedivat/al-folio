@@ -17,10 +17,13 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
-    gem "jekyll-terser", github: "Strappazzon/jekyll-terser"
+    gem "jekyll-terser", git: "https://github.com/RobertoJBeltran/jekyll-terser.git", branch: "master"
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
+    gem "csv"
+    gem "base64"
+    gem "bigdecimal"
 
     gem 'classifier-reborn'  # used for content categorization during the build
 end
