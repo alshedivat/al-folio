@@ -119,6 +119,7 @@ Open Graph is disabled by default. To enable:
    ```
 
 2. **Create your OG image:**
+
    - Size: 1200x630 pixels
    - Format: PNG or JPG
    - Content: Your name/logo + key info
@@ -285,6 +286,7 @@ Similar to Google Search Console but for Bing search:
    ```
 
 3. **Submit to Google Scholar (optional):**
+
    - Go to [Google Scholar Author Profile](https://scholar.google.com/citations)
    - Create a profile
    - Google will find your papers automatically within weeks

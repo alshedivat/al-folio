@@ -166,6 +166,7 @@ bundle exec jekyll serve --port 5000
    ```
 
 3. **Clear browser cache:**
+
    - Chrome: `Ctrl+Shift+R` (Windows/Linux) or `Cmd+Shift+R` (Mac)
    - Firefox: `Ctrl+F5` (Windows/Linux) or `Cmd+R` (Mac)
    - Or open a private/incognito window
@@ -270,6 +271,7 @@ docker compose run --rm web jekyll build 2>&1 | grep -i bibtex
    ```
 
 2. **Check the file exists:**
+
    - Personal images: `assets/img/`
    - Paper PDFs: `assets/pdf/`
    - Use lowercase filenames, no spaces
@@ -428,16 +430,19 @@ nav:
 If you're stuck:
 
 1. **Check existing documentation:**
+
    - [QUICKSTART.md](QUICKSTART.md) – Get started in 5 minutes
    - [INSTALL.md](INSTALL.md) – Installation and deployment
    - [CUSTOMIZE.md](CUSTOMIZE.md) – Full customization guide
    - [FAQ.md](FAQ.md) – Frequently asked questions
 
 2. **Search for your issue:**
+
    - [GitHub Discussions](https://github.com/alshedivat/al-folio/discussions) – Q&A from community
    - [GitHub Issues](https://github.com/alshedivat/al-folio/issues) – Bug reports and feature requests
 
 3. **Get help from AI:**
+
    - Use the **GitHub Copilot Customization Agent** (requires Copilot subscription) to get step-by-step help
    - See [CUSTOMIZE.md § GitHub Copilot Customization Agent](CUSTOMIZE.md#github-copilot-customization-agent)
 

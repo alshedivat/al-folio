@@ -3,17 +3,30 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@article{deng2025LEGEND,
+  abbr = {Genom. Proteom. Bioinform.},
+  bibtex_show={true},
+  title = {{{LEGEND}}: Identifying Co-expressed Genes in Multimodal Transcriptomic Sequencing Data},
+  author = {Deng*, Tao and Huang, Mengqian and Xu, Kaichen and Lu, Yan and Xu, Yucheng and Chen, Siyu and Xie, Nina and Tao, Qiuyue and Wu, Hao and Sun*, Xiaobo},
+  year = {2025},
+  month = sep,
+  journal = {Genomics, Proteomics \& Bioinformatics},
+  volume = {23},
+  number = {4},
+  pages = {qzaf056},
+  doi = {10.1093/gpbjnl/qzaf056},
+  abstract = {Identifying co-expressed genes across tissue domains and cell types is essential for revealing co-functional genes involved in biological or pathological processes. While both single-cell RNA sequencing (scRNA-seq) and spatially resolved transcriptomics (SRT) data offer insights into gene co-expression patterns, current methods typically utilize either data type alone, potentially diluting the co-functionality signals within co-expressed gene groups. To bridge this gap, we introduce muLtimodal co-Expressed GENes finDer (LEGEND), a novel computational method that integrates scRNA-seq and SRT data for identifying groups of co-expressed genes at both cell type and tissue domain levels. LEGEND employs an innovative hierarchical clustering algorithm designed to maximize intra-cluster redundancy and inter-cluster complementarity, effectively capturing more nuanced patterns of gene co-expression and spatial coherence. Enrichment and co-function analyses further showcase the biological relevance of these gene clusters and their utilities in exploring context-specific novel gene functions. Notably, LEGEND can reveal shifts in gene–gene interactions under different conditions, providing insights into disease-associated gene crosstalk. Moreover, LEGEND can enhance the annotation accuracy of both spatial spots in SRT and single cells in scRNA-seq, and serve as a pioneering tool for identifying genes with designated spatial expression patterns. LEGEND is available at https://github.com/ToryDeng/LEGEND.},
+  html = {https://academic.oup.com/gpb/article/doi/10.1093/gpbjnl/qzaf056/8180527},
+  code = {https://github.com/ToryDeng/LEGEND},
+  altmetric={true},
+  dimensions={true},
+  google_scholar_id={zYLM7Y9cAGgC},
+  selected={true}
 }
 
 
-@article{chenScCTSIdentifyingCell2024,
-  abbr = {Genome Biol},
+@article{chen2024scCTS,
+  abbr = {Genome Biol.},
   bibtex_show={true},
   title = {{{scCTS}}: Identifying the Cell Type-Specific Marker Genes from Population-Level Single-Cell {{RNA-seq}}},
   author = {Chen*, Luxiao and Guo*, Zhenxing and Deng, Tao and Wu, Hao},
@@ -23,20 +36,18 @@
   volume = {25},
   number = {1},
   pages = {269},
-  issn = {1474-760X},
   doi = {10.1186/s13059-024-03410-8},
   abstract = {Single-cell RNA-sequencing (scRNA-seq) provides gene expression profiles of individual cells from complex samples, facilitating the detection of cell type-specific marker genes. In scRNA-seq experiments with multiple donors, the population level variation brings an extra layer of complexity in cell type-specific gene detection, for example, they may not appear in all donors. Motivated by this observation, we develop a statistical model named scCTS to identify cell type-specific genes from population-level scRNA-seq data. Extensive data analyses demonstrate that the proposed method identifies more biologically meaningful cell type-specific genes compared to traditional methods.},
-  langid = {english},
-  html = {https://doi.org/10.1186/s13059-024-03410-8},
+  html = {https://genomebiology.biomedcentral.com/articles/10.1186/s13059-024-03410-8},
   code = {https://github.com/ToryDeng/scCTS},
   altmetric={true},
   dimensions={true},
   google_scholar_id={IjCSPb-OGe4C},
-  selected={true}
+  selected={false}
 }
 
 
-@article{dengCofunctionalGroupingbasedApproach2023,
+@article{deng2023cofunctional,
   abbr = {Brief. Bioinform.},
   bibtex_show={true},
   title = {A Cofunctional Grouping-Based Approach for Non-Redundant Feature Gene Selection in Unannotated Single-Cell {{RNA-seq}} Analysis},
@@ -47,13 +58,10 @@
   volume = {24},
   number = {2},
   pages = {bbad042},
-  issn = {1467-5463, 1477-4054},
   doi = {10.1093/bib/bbad042},
-  urldate = {2023-02-10},
   abstract = {Feature gene selection has significant impact on the performance of cell clustering in single-cell RNA sequencing (scRNA-seq) analysis. A well-rounded feature selection (FS) method should consider relevance, redundancy and complementarity of the features. Yet most existing FS methods focus on gene relevance to the cell types but neglect redundancy and complementarity, which undermines the cell clustering performance. We develop a novel computational method GeneClust to select feature genes for scRNA-seq cell clustering. GeneClust groups genes based on their expression profiles, then selects genes with the aim of maximizing relevance, minimizing redundancy and preserving complementarity. It can work as a plug-in tool for FS with any existing cell clustering method. Extensive benchmark results demonstrate that GeneClust significantly improve the clustering performance. Moreover, GeneClust can group cofunctional genes in biological process and pathway into clusters, thus providing a means of investigating gene interactions and identifying potential genes relevant to biological characteristics of the dataset. GeneClust is freely available at https://github.com/ToryDeng/scGeneClust.},
   copyright = {All rights reserved},
-  langid = {english},
-  html = {https://doi.org/10.1093/bib/bbad042},
+  html = {https://academic.oup.com/bib/advance-article/doi/10.1093/bib/bbad042/7031680},
   code = {https://github.com/ToryDeng/scGeneClust},
   altmetric={true},
   dimensions={true},
@@ -62,7 +70,7 @@
 }
 
 
-@article{liangEnergyConsumptionPrediction2023,
+@article{liang2023energy,
   abbr = {PLoS ONE},
   bibtex_show={true},
   title = {Energy Consumption Prediction Using the {{GRU-MMattention-LightGBM}} Model with Features of {{Prophet}} Decomposition},
@@ -74,19 +82,16 @@
   volume = {18},
   number = {1},
   pages = {e0277085},
-  issn = {1932-6203},
   doi = {10.1371/journal.pone.0277085},
-  urldate = {2023-02-10},
   abstract = {The prediction of energy consumption is of great significance to the stability of the regional energy supply. In previous research on energy consumption forecasting, researchers have constantly proposed improved neural network prediction models or improved machine learning models to predict time series data. Combining the well-performing machine learning model and neural network model in energy consumption prediction, we propose a hybrid model architecture of GRU-MMattention-LightGBM with feature selection based on Prophet decomposition. During the prediction process, first, the prophet features are extracted from the original time series. We select the best LightGBM model in the training set and save the best parameters. Then, the Prophet feature is input to GRU-MMattention for training. Finally, MLP is used to learn the final prediction weight between LightGBM and GRU-MMattention. After the prediction weights are learned, the final prediction result is determined. The innovation of this paper lies in that we propose a structure to learn the internal correlation between features based on Prophet feature extraction combined with the gating and attention mechanism. The structure also has the characteristics of a strong anti-noise ability of the LightGBM method, which can reduce the impact of the energy consumption mutation point on the overall prediction effect of the model. In addition, we propose a simple method to select the hyperparameters of the time window length using ACF and PACF diagrams. The MAPE of the GRU-MMattention-LightGBM model is 1.69\%, and the relative error is 8.66\% less than that of the GRU structure and 2.02\% less than that of the LightGBM prediction. Compared with a single method, the prediction accuracy and stability of this hybrid architecture are significantly improved.},
-  langid = {english},
-  html = {https://doi.org/10.1371/journal.pone.0277085},
+  html = {https://dx.plos.org/10.1371/journal.pone.0277085},
   altmetric={true},
   dimensions={true},
   google_scholar_id={9yKSN-GCB0IC},
 }
 
 
-@article{dengShortTermPrediction2021,
+@article{deng2021short,
   abbr = {SN Appl. Sci.},
   bibtex_show={true},
   title = {Short Term Prediction of Wireless Traffic Based on Tensor Decomposition and Recurrent Neural Network},
@@ -97,12 +102,9 @@
   volume = {3},
   number = {9},
   pages = {779},
-  issn = {2523-3963, 2523-3971},
   doi = {10.1007/s42452-021-04761-8},
-  urldate = {2022-04-16},
   abstract = {This paper proposes a wireless network traffic prediction model based on Bayesian Gaussian tensor decomposition and recurrent neural network with rectified linear unit (BGCP-RNN-ReLU model), which can effectively predict the changes in the upstream and downstream network traffic in a short period of time in the future. The research is divided into two parts: (i) The missing observations are imputed by an algorithm based on Bayesian Gaussian tensor decomposition. (ii) The recurrent neural network is used to forecast the true observations only rather than both true and estimated observations. The results show that, compared with other combined models of missing data imputation and neural networks, the BGCP-RNN-ReLU model proposed in this paper has the smallest prediction error for both the upstream and downstream traffic. The new model achieves better forecasting precision, and thus can help to regulate the load of communication station to reduce resource consumption.},
-  langid = {english},
-  html = {https://doi.org/10.1007/s42452-021-04761-8},
+  html = {https://link.springer.com/10.1007/s42452-021-04761-8},
   altmetric={true},
   dimensions={true},
   google_scholar_id={2osOgNQ5qMEC},
