@@ -1,42 +1,72 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Tao Deng
-    - name: Year of Birth
-      value: 2000
-    - name: Languages
-      value: Chinese, English
+cv:
+  name: Tao Deng
+  label: Ph.D. Student in Data Science
+  email: taodeng@link.cuhk.edu.cn
+  location: Shenzhen, Guangdong, China
+  website: https://torydeng.github.io
+  summary: >-
+    Ph.D. student in Data Science at The Chinese University of Hong Kong,
+    Shenzhen. Research interests include developing machine learning and
+    statistical methods to address challenges in the analysis of single-cell and
+    spatial omics data.
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D. in Data Science
-      institution: The Chinese University of Hong Kong, Shenzhen
-      year: 2022-Expected 2027
+  sections:
+    Education:
+      - institution: The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)
+        location: Shenzhen, Guangdong, China
+        area: Data Science
+        studyType: Ph.D. Student
+        start_date: 2022
+        end_date: 2027
+        highlights:
+          - Expected graduation: Jun. 2027
+      - institution: Zhongnan University of Economics and Law (ZUEL)
+        location: Wuhan, Hubei, China
+        area: Data Science and Big Data Technology
+        studyType: B.Sc.
+        start_date: 2018
+        end_date: 2022
 
-    - title: B.Sc. in Data Science and Big Data Technology
-      institution: Zhongnan University of Economics and Law
-      year: 2018-2022
+    Honors and Awards:
+      - title: Outstanding Bachelor's Thesis Award
+        awarder: Zhongnan University of Economics and Law
+        date: 2022
+        summary: Wuhan, China
+      - title: National Encouragement Scholarship
+        date: 2021
+        summary: Wuhan, China
+      - title: National Encouragement Scholarship
+        date: 2019
+        summary: Wuhan, China
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
+    Teaching Experience:
+      - label: Leading Teaching Assistant
+        details: STA-4001 Stochastic Processes, CUHK-Shenzhen, Fall 2025
+      - label: Leading Teaching Assistant
+        details: MAT-2041 Linear Algebra and Applications, CUHK-Shenzhen, Spring 2025
+      - label: Teaching Assistant
+        details: STA-2001 Probability and Statistics I, CUHK-Shenzhen, Fall 2024; Spring 2023
+      - label: Teaching Assistant
+        details: STA-2001H Honours Probability and Statistics I, CUHK-Shenzhen, Fall 2022
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: single-cell RNA sequencing data.
-      items:
-        - Feature gene selection.
-    - title: spatial omics.
-      items:
-        - Spatially variable gene/feature detection.
-        - Integration with scRNA-seq data.
+    Academic Service:
+      - label: Invited Reviewer
+        details: Genomics, Proteomics & Bioinformatics, 2024
+      - label: Lab Server Maintenance
+        details: 2022 - Present
+
+    Skills:
+      - name: Programming
+        keywords:
+          - Python
+          - R
+          - LaTeX
+      - name: Libraries
+        keywords:
+          - PyTorch
+          - scikit-learn
+          - Scanpy
+          - Squidpy
+      - name: Systems
+        keywords:
+          - Familiar with basic Linux commands
