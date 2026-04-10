@@ -38,7 +38,7 @@ repo_trophies:
 # To use a different instance or service for displaying GitHub stats and trophies,
 # update these URLs. These are used in the repository templates.
 external_services:
-  github_readme_stats_url: https://github-readme-stats-torydeng.vercel.app/api?username=ToryDeng&show_icons=true&theme=react
+  github_readme_stats_url: https://github-readme-stats-torydeng.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
 
 # -----------------------------------------------------------------------------
