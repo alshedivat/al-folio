@@ -1,0 +1,29 @@
+{% comment %}
+  Unified interests entry renderer for both formats
+{% endcomment %}
+
+<div class="card-text font-weight-light">
+  {% for entry in entries %}
+    <div class="interest-item">
+      {% if entry.icon %}
+        <i class="{{ entry.icon }}"></i>
+      {% endif %}
+      <strong>{{ entry.name }}:</strong>
+      {% if entry.keywords %}
+        {% for keyword in entry.keywords %}
+          {% if forloop.last %}
+            {{ keyword }}
+          {% else %}
+            {{ keyword }},
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .interest-item {
+    padding: 0.5rem 0;
+  }
+</style>

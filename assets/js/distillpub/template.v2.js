@@ -2136,7 +2136,7 @@ d-appendix > distill-appendix {
 }
 
 .citation {
-  color: hsla(206, 90%, 20%, 0.7);
+  color: var(--global-theme-color);
 }
 
 .citation-number {
@@ -2144,7 +2144,7 @@ d-appendix > distill-appendix {
   white-space: nowrap;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", Helvetica, sans-serif;
   font-size: 75%;
-  color: hsla(206, 90%, 20%, 0.7);
+  color: var(--global-theme-color);
   display: inline-block;
   line-height: 1.1em;
   text-align: center;
@@ -4277,7 +4277,7 @@ sup {
 }
 
 span {
-  color: hsla(206, 90%, 20%, 0.7);
+  color: var(--global-theme-color);
   cursor: default;
 }
 
@@ -4446,14 +4446,26 @@ d-footnote-list a.footnote-backlink {
   top: 0;
   left: 0;
   width: 100%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: rgba(250, 250, 250, 0.95);
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
-  box-sizing: border-box;
+  /* Original styles retained and new theming variables added */
+  border: 1px solid var(--global-divider-color); /* Themed border */
+  background-color: var(--global-card-bg-color); /* Themed background */
+  color: var(--global-text-color); /* Themed text color */
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1); /* Existing shadow */
+  border-radius: 4px; /* Existing border-radius */
+  box-sizing: border-box; /* Existing box-sizing */
 
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px); /* Existing backdrop-filter */
+  -webkit-backdrop-filter: blur(2px); /* Existing backdrop-filter */
+}
+
+.panel a {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.panel a:hover {
+  color: var(--global-hover-color);
+  text-decoration: underline;
 }
 
 </style>
