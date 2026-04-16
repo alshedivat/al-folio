@@ -1,30 +1,45 @@
 /*!
- * Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com
+ * Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
- * Copyright 2024 Fonticons, Inc.
+ * Copyright 2025 Fonticons, Inc.
  */
-@import 'functions';
-@import 'variables';
+@use "sass:string";
+@use 'variables' as v;
+@use 'mixins' as m;
 
 :root, :host {
-  --#{$fa-css-prefix}-style-family-brands: 'Font Awesome 6 Brands';
-  --#{$fa-css-prefix}-font-brands: normal 400 1em/1 'Font Awesome 6 Brands';
+  --#{v.$css-prefix}-family-brands: 'Font Awesome 7 Brands';
+  --#{v.$css-prefix}-font-brands: normal 400 1em/1 var(--#{v.$css-prefix}-family-brands);
 }
 
 @font-face {
-  font-family: 'Font Awesome 6 Brands';
+  font-family: 'Font Awesome 7 Brands';
   font-style: normal;
   font-weight: 400;
-  font-display: $fa-font-display;
-  src: url('#{$fa-font-path}/fa-brands-400.woff2') format('woff2'),
-    url('#{$fa-font-path}/fa-brands-400.ttf') format('truetype');
+  font-display: v.$font-display;
+  src: url('#{v.$font-path}/fa-brands-400.woff2');
 }
 
 .fab,
-.#{$fa-css-prefix}-brands {
-  font-weight: 400;
+.#{v.$css-prefix}-brands,
+.#{v.$css-prefix}-classic.#{v.$css-prefix}-brands {
+  --#{v.$css-prefix}-family: var(--#{v.$css-prefix}-family-brands);
+  --#{v.$css-prefix}-style: 400;
 }
 
-@each $name, $icon in $fa-brand-icons {
-  .#{$fa-css-prefix}-#{$name} { #{$fa-icon-property}: unquote("\"#{ $icon }\""); }
+@each $name, $icon in v.$brand-icons {
+  .#{v.$css-prefix}-#{$name} {
+    #{v.$icon-property}: string.unquote("\"#{ $icon }\"");
+  }
+}
+
+// convenience mixin for declaring pseudo-elements by CSS variable,
+// including all style-specific font properties and ::before elements.
+@mixin icon($var) {
+  @include m.fa-icon(Font Awesome 7 Brands);
+  @extend .#{v.$css-prefix}-brands;
+
+  &::before {
+    content: string.unquote("\"#{ $var }\"");
+  }
 }
