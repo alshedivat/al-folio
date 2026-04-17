@@ -1,23 +1,23 @@
 metadata:
-  last_updated: '2026-04-10'
+  last_updated: '2026-04-17'
 papers:
-  0QI92MsAAAAJ:zYLM7Y9cAGgC:
-    citations: 9
-    title: 'LEGEND: Identifying Co-expressed Genes in Multimodal Transcriptomic Sequencing Data'
-    year: '2025'
+  0QI92MsAAAAJ:2osOgNQ5qMEC:
+    citations: 24
+    title: Short term prediction of wireless traffic based on tensor decomposition and recurrent neural network
+    year: '2021'
+  0QI92MsAAAAJ:9yKSN-GCB0IC:
+    citations: 17
+    title: Energy consumption prediction using the GRU-MMattention-LightGBM model with features of Prophet decomposition
+    year: '2023'
   0QI92MsAAAAJ:IjCSPb-OGe4C:
     citations: 3
-    title: 'scCTS: Identifying the Cell Type-Specific Marker Genes from Population-Level Single-Cell RNA-seq'
+    title: 'scCTS: identifying the cell type-specific marker genes from population-level single-cell RNA-seq'
     year: '2024'
   0QI92MsAAAAJ:d1gkVwhDpl0C:
     citations: 20
-    title: 'A Cofunctional Grouping-Based Approach for Non-Redundant Feature Gene Selection in Unannotated Single-Cell RNA-seq Analysis'
+    title: A cofunctional grouping-based approach for non-redundant feature gene selection in unannotated single-cell RNA-seq analysis
     year: '2023'
-  0QI92MsAAAAJ:9yKSN-GCB0IC:
-    citations: 17
-    title: 'Energy Consumption Prediction Using the GRU-MMattention-LightGBM Model with Features of Prophet Decomposition'
-    year: '2023'
-  0QI92MsAAAAJ:2osOgNQ5qMEC:
-    citations: 24
-    title: 'Short Term Prediction of Wireless Traffic Based on Tensor Decomposition and Recurrent Neural Network'
-    year: '2021'
+  0QI92MsAAAAJ:zYLM7Y9cAGgC:
+    citations: 9
+    title: 'LEGEND: Identifying co-expressed genes in multimodal transcriptomic sequencing data'
+    year: '2025'
