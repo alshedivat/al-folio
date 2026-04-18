@@ -13,5 +13,6 @@ Reviewer for Journals:
 
 Reviewer for Conferences:
 - IEEE ICASSP
-- ICCV
+- IEEE/CVF ICCV
+- IEEE/CVF CVPR
 
