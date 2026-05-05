@@ -1,10 +1,8 @@
 cv:
   name: Quan Nguyen
-  label: Student
+  headline: Machine Learning Engineer
   email: quanhn232@gmail.com
-  location: College Park, MD
-  image: ""
-  summary: Machine Learning student at University of Maryland, College Park
+  location: San Francisco, CA
 
   social_networks:
     # - network: X
@@ -14,30 +12,26 @@ cv:
     - network: LinkedIn
       username: quanhn232
 
-  address:
-    street: NA
-    city: College Park
-    region: MD
-    postalCode: "20740"
-    countryCode: US
-
   sections:
+    Summary:
+      - Machine Learning Engineer at Google YouTube.
+
     Education:
       - institution: University of Maryland, College Park
         location: College Park, MD
         url: https://www.umd.edu/
         area: Computer Science
-        studyType: Master of Science
+        degree: Master of Science
         start_date: "2024"
         end_date: "2026"
         score: ""
         courses: "Machine Learning"
 
       - institution: Gettysburg College
-        location: Gettysburg, MD
+        location: Gettysburg, PA
         url: https://www.gettysburg.edu/
         area: Computer Science
-        studyType: Bachelor of Science
+        degree: Bachelor of Science
         start_date: "2020"
         end_date: "2024"
         score: "3.8"
@@ -46,39 +40,49 @@ cv:
           - David Wills Scholarship recipient
 
     Experience:
+      - company: Google
+        position: Software Engineer, Machine Learning
+        location: San Bruno, CA
+        start_date: "2026-05"
+        end_date: present
+        summary: Recommendation System
+        highlights:
+          - incoming...
+
       - company: Venera AI
-        position: Machine Learning Engineer Intern - LLM Post-training & ML System
+        position: Machine Learning Engineer Intern
         location: New York, NY
         start_date: "2025-02"
-        end_date: "2026"
-        summary: Developed and deployed a scalable and efficient LLM post-training and ML system to improve the accuracy and efficiency of the model.
+        end_date: "2025-12"
+        summary: LLM Post-training, Inference & ML System
         highlights:
-          - Fine-tuned (SFT and distillation) Qwen3 to compress knowledge using QLoRA + DeepSpeed ZeRO-3
-          - Engineered a high-throughput inference for LLM; support prefix/KV caching, continuous batching.
-          - Deployed LLM on TPU v5 (2x4 pod, 8 chips), establishing a cost-efficient alternative to GPUs.
-          - Rebuilt data pipeline Spark with Ray Data, managed via Airflow, 3x throughput to 1M+ tok/min.
+          - Fine-tuned (SFT and distillation) LLM to compress knowledge using QLoRA + .
+          - Deployed LLM for inference on Google TPU, establishing a cost-efficient alternative to GPUs.
+          - Rebuilt data pipeline Spark with Ray Data, managed via Airflow.
+          - Managed Ray Cluster for large-scale jobs like data processing, inference on CPU/GPU.
           - Consolidated CI/CD (GitHub Actions + Terraform + Helm) and monitoring (Grafana + Prometheus).
 
       - company: Adobe
-        position: Machine Learning Engineer Intern - AI Agent
+        position: Machine Learning Engineer Intern
         location: San Jose, CA
         start_date: "2025-05"
         end_date: "2025-08"
-        summary: Developed and deployed a scalable and efficient AI agent to improve the accuracy and efficiency of the model.
+        summary: Voice AI Agent
         highlights:
           - Developed Voice Agent features combining planning, speech recognition, and emotion-aware TTS.
           - Built AI-agent using LangChain, LangGraph, and MCP to integrate into Adobe multi-agent system.
           - Deployed production models via vLLM, Ray Serve, FastAPI, integrated with Kubernetes and ArgoCD.
 
       - company: VCCorp Corporation
-        position: Machine Learning Engineer Intern - Recommendation System
+        position: Machine Learning Engineer Intern
         location: HCMC, Vietnam
         start_date: "2024-06"
         end_date: "2024-08"
-        summary: Developed and deployed a scalable and efficient recommendation system to improve the accuracy and efficiency of the model.
+        summary: Recommendation System
         highlights:
-          - Developed a scalable and efficient recommendation system to improve the accuracy and efficiency of the model.
-          - Developed a scalable and efficient recommendation system to improve the accuracy and efficiency of the model.
+          - Designed large-scale news recommendation pipelines powered by Graph Neural Networks (GNNs).
+          - Implemented distributed ETL with Spark and Airflow to process real-time user-click data.
+          - Optimized model serving and data retrieval with Redis, Kafka, and HDFS.
 
     # Volunteer:
     #   - company: Viet Career Guide
@@ -106,16 +110,32 @@ cv:
           - Nguyen, Quan H.
           - Freedman, Richard G.
         publisher: AAAI
-        releaseDate: "2024-07"
+        date: "2024-07"
         url: https://ojs.aaai.org/index.php/AAAI/article/view/26910
-        summary: Music Emotion Recognition has attracted a lot of academic research work in recent years because it has a wide range of applications, including song recommendation and music visualization. As music is a way for humans to express emotion, there is a need for a machine to automatically infer the perceived emotion of pieces of music. In this paper, we compare the accuracy difference between music emotion recognition models given music pieces as a whole versus music pieces separated by instruments. To compare the models’ emotion predictions, which are distributions over valence and arousal values, we provide a metric that compares two distribution curves. Using this metric, we provide empirical evidence that training Random Forest and Convolution Recurrent Neural Network with mixed instrumental music data conveys a better understanding of emotion than training the same models with music that are separated into each instrumental source.
+        summary:
 
     Skills:
       - name: Machine Learning
-        level: Advanced
+        # level: Advanced
         icon: fa-solid fa-hashtag
         keywords: "LLM, Recommendation System, ML System, MLOps"
 
+      - name: Languages
+        icon: fa-solid fa-code
+        keywords: Python, SQL, C/C++ (MPI, CUDA, OpenMP)
+      
+      - name: ML/AI
+        icon: fa-solid fa-robot
+        keywords: PyTorch, vLLM, Ray, Hugging Face, DeepSpeed, LangChain, LangGraph, MCP
+      
+      - name: Big Data
+        icon: fa-solid fa-database
+        keywords: Airflow, Spark, Kafka, Hadoop, Redis, MySQL, PostgreSQL, Weights & Biases (W&B), MLflow
+      
+      - name: Cloud & MLOps
+        icon: fa-solid fa-cloud
+        keywords: AWS, Azure, GCP, Docker, Kubernetes, Helm, Grafana, Prometheus, GitHub Actions, Terraform
+      
     Languages:
       - name: Vietnamese
         summary: "Native speaker"
@@ -124,9 +144,9 @@ cv:
         summary: "Fluent"
 
     Interests:
-      - name: Machine Learning
-        icon: fa-solid fa-tag
-        keywords: "LLM, Recommendation System, ML System, MLOps"
+      - name: Guitar
+        icon: fa-solid fa-guitar
+        keywords: "classical"
 
     Certificates:
       - name: Fundamentals of MCP
