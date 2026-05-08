@@ -23,3 +23,6 @@ navbar_items:
     url: /projects/
 
 third_party_libraries:
+  analytics:
+    google:
+      enabled: false
