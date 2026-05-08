@@ -1,0 +1,340 @@
+<!-- jQuery -->
+<script
+  src="{{ site.third_party_libraries.jquery.url.js }}"
+  integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
+  crossorigin="anonymous"
+></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script src="{{ '/assets/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+<script
+  src="{{ site.third_party_libraries.mdb.url.js }}"
+  integrity="{{ site.third_party_libraries.mdb.integrity.js }}"
+  crossorigin="anonymous"
+></script>
+
+<!-- Custom overrides -->
+<script src="{{ '/assets/js/distillpub/overrides.js' | relative_url }}"></script>
+
+{% if page.mermaid and page.mermaid.enabled %}
+  <!-- Mermaid and D3 -->
+  <script
+    defer
+    src="{{ site.third_party_libraries.mermaid.url.js }}"
+    integrity="{{ site.third_party_libraries.mermaid.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  {% if page.mermaid.zoomable %}
+    <script
+      defer
+      src="{{ site.third_party_libraries.d3.url.js }}"
+      integrity="{{ site.third_party_libraries.d3.integrity.js }}"
+      crossorigin="anonymous"
+    ></script>
+  {% endif %}
+  <script defer src="{{ '/assets/js/mermaid-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
+{% if page.code_diff %}
+  <!-- Diff2HTML -->
+  <!-- diff2html doesn't go well with Bootstrap Table -->
+  <script
+    src="{{ site.third_party_libraries.diff2html.url.js }}"
+    integrity="{{ site.third_party_libraries.diff2html.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/assets/js/diff2html-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
+{% if page.map %}
+  <!-- Leaflet -->
+  <script
+    src="{{ site.third_party_libraries.leaflet.url.js }}"
+    integrity="{{ site.third_party_libraries.leaflet.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/assets/js/leaflet-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
+{% if page.chart and page.chart.chartjs %}
+  <!-- Chart.js -->
+  <script
+    defer
+    src="{{ site.third_party_libraries.chartjs.url.js }}"
+    integrity="{{ site.third_party_libraries.chartjs.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/assets/js/chartjs-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
+{% if page.chart and page.chart.echarts %}
+  <!-- ECharts -->
+  <script
+    src="{{ site.third_party_libraries.echarts.url.js.library }}"
+    integrity="{{ site.third_party_libraries.echarts.integrity.js.library }}"
+    crossorigin="anonymous"
+  ></script>
+  {% if site.enable_darkmode %}
+    <script
+      src="{{ site.third_party_libraries.echarts.url.js.dark_theme }}"
+      integrity="{{ site.third_party_libraries.echarts.integrity.js.dark_theme }}"
+      crossorigin="anonymous"
+    ></script>
+  {% endif %}
+  <script defer src="{{ '/assets/js/echarts-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
+{% if page.chart and page.chart.plotly %}
+  <!-- Plotly -->
+  <script
+    defer
+    src="{{ site.third_party_libraries.plotly.url.js }}"
+    integrity="{{ site.third_party_libraries.plotly.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/assets/js/plotly-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
+{% if page.chart and page.chart.vega_lite %}
+  <!-- Vega -->
+  <script
+    defer
+    src="{{ site.third_party_libraries.vega.url.js }}"
+    integrity="{{ site.third_party_libraries.vega.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    defer
+    src="{{ site.third_party_libraries.vega-lite.url.js }}"
+    integrity="{{ site.third_party_libraries.vega-lite.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    defer
+    src="{{ site.third_party_libraries.vega-embed.url.js }}"
+    integrity="{{ site.third_party_libraries.vega-embed.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/assets/js/vega-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
+{% if page.tikzjax %}
+  <!-- Tikzjax -->
+  <script defer src="{{ '/assets/js/tikzjax.min.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
+{% if page.typograms %}
+  <!-- Typograms -->
+  <script src="{{ '/assets/js/typograms.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
+{% if site.enable_tooltips %}
+  <!-- Tooltips -->
+  <script src="{{ '/assets/js/tooltips-setup.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
+{% if site.enable_medium_zoom %}
+  <!-- Medium Zoom JS -->
+  <script
+    defer
+    src="{{ site.third_party_libraries.medium_zoom.url.js }}"
+    integrity="{{ site.third_party_libraries.medium_zoom.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/assets/js/zoom.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
+{% if page.toc and page.toc.sidebar %}
+  <!-- Sidebar Table of Contents -->
+  <script defer src="{{ '/assets/js/bootstrap-toc.min.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
+{% if page.pretty_table %}
+  <!-- Bootstrap Table -->
+  <!-- Bootstrap Table doesn't go well with diff2html -->
+  <script
+    defer
+    src="{{ site.third_party_libraries.bootstrap-table.url.js }}"
+    integrity="{{ site.third_party_libraries.bootstrap-table.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+{% endif %}
+
+<!-- Load Common JS -->
+<script src="{{ '/assets/js/no_defer.js' | relative_url | bust_file_cache }}"></script>
+<script defer src="{{ '/assets/js/common.js' | relative_url | bust_file_cache }}"></script>
+<script defer src="{{ '/assets/js/copy_code.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="{{ '/assets/js/jupyter_new_tab.js' | relative_url | bust_file_cache }}"></script>
+
+<!-- Removed Badges -->
+
+{% if site.enable_math %}
+  <!-- MathJax -->
+  <script
+    defer
+    type="text/javascript"
+    id="MathJax-script"
+    src="{{ site.third_party_libraries.mathjax.url.js }}"
+    integrity="{{ site.third_party_libraries.mathjax.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script src="{{ '/assets/js/mathjax-setup.js' | relative_url | bust_file_cache }}"></script>
+  <script
+    defer
+    src="{{ site.third_party_libraries.polyfill.url.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Removed Pseudocode -->
+{% endif %}
+
+{% if site.enable_cookie_consent %}
+  <!-- Cookie Consent -->
+  <script
+    defer
+    src="{{ site.third_party_libraries.vanilla-cookieconsent.url.js }}"
+    integrity="{{ site.third_party_libraries.vanilla-cookieconsent.integrity.js }}"
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="{{ '/assets/js/cookie-consent-setup.js' | relative_url }}"></script>
+{% endif %}
+
+{% if site.enable_google_analytics %}
+  <!-- Analytics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    {% if site.enable_cookie_consent %}
+      type="text/plain" data-category="analytics"
+    {% endif %}
+    async
+    src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"
+  ></script>
+  <script
+    {% if site.enable_cookie_consent %}
+      type="text/plain" data-category="analytics"
+    {% endif %}
+    defer
+    src="{{ '/assets/js/google-analytics-setup.js' | relative_url }}"
+  ></script>
+{% endif %}
+
+{% if site.enable_cronitor_analytics %}
+  <!-- Cronitor RUM -->
+  <script
+    {% if site.enable_cookie_consent %}
+      type="text/plain" data-category="analytics"
+    {% endif %}
+    async
+    src="https://rum.cronitor.io/script.js"
+  ></script>
+  <script
+    {% if site.enable_cookie_consent %}
+      type="text/plain" data-category="analytics"
+    {% endif %}
+    defer
+    src="{{ '/assets/js/cronitor-analytics-setup.js' | relative_url }}"
+  ></script>
+{% endif %}
+{% if site.enable_pirsch_analytics %}
+  <script
+    {% if site.enable_cookie_consent %}
+      type="text/plain" data-category="analytics"
+    {% endif %}
+    defer
+    src="https://api.pirsch.io/pa.js"
+    id="pianjs"
+    data-code="{{ site.pirsch_analytics }}"
+  ></script>
+{% endif %}
+{% if site.enable_openpanel_analytics %}
+  <script
+    {% if site.enable_cookie_consent %}
+      type="text/plain" data-category="analytics"
+    {% endif %}
+    defer
+    src="{{ '/assets/js/open-panel-analytics-setup.js' | relative_url }}"
+  ></script>
+  <script
+    {% if site.enable_cookie_consent %}
+      type="text/plain" data-category="analytics"
+    {% endif %}
+    async
+    defer
+    src="https://openpanel.dev/op1.js"
+  ></script>
+{% endif %}
+
+{% if site.enable_progressbar %}
+  <!-- Scrolling Progress Bar -->
+  <script defer src="{{ '/assets/js/progress-bar.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+{% endif %}
+
+{% if page.images %}
+  <!-- Image Layouts -->
+  {% if page.images.compare %}
+    <script
+      defer
+      src="{{ site.third_party_libraries.img-comparison-slider.url.js }}"
+      integrity="{{ site.third_party_libraries.img-comparison-slider.integrity.js }}"
+      crossorigin="anonymous"
+    ></script>
+  {% endif %}
+  {% if page.images.lightbox2 %}
+    <script
+      defer
+      src="{{ site.third_party_libraries.lightbox2.url.js }}"
+      integrity="{{ site.third_party_libraries.lightbox2.integrity.js }}"
+      crossorigin="anonymous"
+    ></script>
+  {% endif %}
+  {% if page.images.photoswipe %}
+    <script defer src="{{ '/assets/js/photoswipe-setup.js' | relative_url }}" type="module"></script>
+  {% endif %}
+  {% if page.images.slider %}
+    <script
+      defer
+      src="{{ site.third_party_libraries.swiper.url.js }}"
+      integrity="{{ site.third_party_libraries.swiper.integrity.js }}"
+      crossorigin="anonymous"
+    ></script>
+  {% endif %}
+  {% if page.images.spotlight %}
+    <script
+      defer
+      src="{{ site.third_party_libraries.spotlight.url.js }}"
+      crossorigin="anonymous"
+    ></script>
+  {% endif %}
+  {% if page.images.venobox %}
+    <script
+      defer
+      src="{{ site.third_party_libraries.venobox.url.js }}"
+      integrity="{{ site.third_party_libraries.venobox.integrity.js }}"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="{{ '/assets/js/venobox-setup.js' | relative_url | bust_file_cache }}" type="text/javascript"></script>
+  {% endif %}
+{% endif %}
+
+{% if page.tabs %}
+  <!-- Jekyll Tabs -->
+  <script src="{{ '/assets/js/tabs.min.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}
+
+{% if site.back_to_top %}
+  <!-- Back to Top -->
+  <script src="{{ '/assets/js/vanilla-back-to-top.min.js' | relative_url | bust_file_cache }}"></script>
+  <script>
+    addBackToTop();
+  </script>
+{% endif %}
+
+{% if site.search_enabled %}
+  <!-- Search -->
+  <script type="module" src="{{ '/assets/js/search/ninja-keys.min.js' | relative_url | bust_file_cache }}"></script>
+  <ninja-keys hideBreadcrumbs noAutoLoadMdIcons placeholder="Type to start searching"></ninja-keys>
+  <script src="{{ '/assets/js/search-setup.js' | relative_url | bust_file_cache }}"></script>
+  <script src="{{ '/assets/js/search-data.js' | relative_url }}"></script>
+  <script src="{{ '/assets/js/shortcut-key.js' | relative_url | bust_file_cache }}"></script>
+{% endif %}

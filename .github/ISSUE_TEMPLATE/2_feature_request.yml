@@ -7,8 +7,8 @@ body:
       value: >
         Before you go any further, are you sure that this feature is not already implemented?
 
-        If it's a question about how al-folio works, have a look at our [documentation](https://github.com/alshedivat/al-folio/blob/master/README.md),
-        [frequently asked questions](https://github.com/alshedivat/al-folio/blob/master/FAQ.md),
+        If it's a question about how al-folio works, have a look at our [documentation](https://github.com/alshedivat/al-folio/blob/main/README.md),
+        [frequently asked questions](https://github.com/alshedivat/al-folio/blob/main/FAQ.md),
         [past questions](https://github.com/alshedivat/al-folio/discussions/categories/q-a),
         or [ask a question](https://github.com/alshedivat/al-folio/discussions/new?category=q-a).
 
@@ -20,7 +20,7 @@ body:
         Please check if somebody else has already filed the same 🚀 feature request.
         If you find a similar feature request, please add a 👍 reaction or comment on the original post.
       options:
-        - label: I read through [FAQ](https://github.com/alshedivat/al-folio/blob/master/FAQ.md) and searched through the [past issues](https://github.com/alshedivat/al-folio/issues), none of which addressed my feature request.
+        - label: I read through [FAQ](https://github.com/alshedivat/al-folio/blob/main/FAQ.md) and searched through the [past issues](https://github.com/alshedivat/al-folio/issues), none of which addressed my feature request.
           required: true
         - label: Yes, I have checked that this feature request isn't already filed.
           required: true

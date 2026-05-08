@@ -1,27 +1,17 @@
 {
   "basics": {
     "name": "Ge Yu",
-    "label": "",
     "image": "",
-    "email": "ge.yu@phdstudent.hhs.se",
-    "phone": "+46 (739) 134-845",
+    "email": "ge.yu@hhs.se",
     "url": "https://geyu.me/",
     "address": "671/674 Sveavägen 65, 113 50 Stockholm, Sweden",
-    "summary": "",
     "location": {
       "address": "Sveavägen 65",
-      "postalCode": "113 57",
+      "postalCode": "113 50",
       "city": "Stockholm",
       "countryCode": "SE",
       "region": "Stockholm"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "",
-        "url": ""
-      }
-    ]
+    }
   },
   "education": [
     {
@@ -31,7 +21,7 @@
       "area": "Finance",
       "studyType": "Ph.D.",
       "startDate": "2021-08",
-      "endDate": "2026"
+      "endDate": "2027"
     },
     {
       "institution": "Cornell University",
@@ -52,32 +42,15 @@
       "endDate": "2019-06"
     }
   ],
-  "works in progress": [
-    {
-      "name": "Heterogeneous Investor Beliefs in the Age of AI",
-      "summary": "This research project investigates the impact of advancing artificial intelligence (AI) technologies on the dispersion of investors’ beliefs in stock markets. By empirically examining whether AI influences the heterogeneity of investor beliefs positively or negatively, and developing a novel theoretical framework based on previous work on heterogeneous beliefs, this study aims to bridge the gap between financial technologies and investor psychology. The findings are expected to contribute valuable insights to the literature on FinTech and investor beliefs, offering a new perspective on the dynamics of investor decision-making in the age of AI.",
-      "highlights": ["Investor beliefs", "Large language models"],
-      "startDate": "2024",
-      "endDate": "",
-      "url": ""
-    },
-    {
-      "name": "ESG Rating Divergence and Corporate Behaviors",
-      "summary": "This paper studies the impact of ESG rating divergences on corporate behaviors using data on firms in the EU from 2010 to 2022. Utilizing monthly ratings from three major providers - Sustainalytics, Refinitiv, and RepRisk, I find that these divergences can significantly and detrimentally affect tangible ESG practices. Additionally, such divergences lead firms to adopt more cautious financial strategies. The study highlights the need for standardization among rating agencies and underscores the substantial consequences of rating divergences on firms’ subsequent practices and sustainability objectives.",
-      "highlights": ["ESG rating", "Corporate social responsibility"],
-      "startDate": "2023",
-      "endDate": "",
-      "url": ""
-    }
-  ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "From Words to Portfolios<br><span class=\"wip-subtitle\">Disentangling Narrative and Reality in Mutual Fund Differentiation</span>",
+      "summary": "This paper studies the difference between genuine portfolio innovation and narrative differentiation in mutual funds. Developing a deep-learning model, I construct two novel measures of mutual fund differentiation based on portfolio holdings and on prospectus narratives. I document that prospectus uniqueness commands higher fees and attracts additional capital when accompanied by an outstanding performance history, while portfolio uniqueness predicts future risk-adjusted performance among skilled managers. The results differ between retail and institutional investors: the flow response to prospectus uniqueness comes primarily from retail investors, while its fee premium is borne mainly by institutional investors. Together, these findings indicate that narrative differentiation in fund disclosures operates primarily as a marketing and pricing tool, whereas real product differentiation through genuinely distinctive portfolios is what generates alpha."
+    }
+  ],
+  "workingPapers": [
+    {
+      "name": "Heterogeneous Investor Beliefs in the Age of AI"
     }
   ],
   "interests": [
@@ -85,11 +58,11 @@
       "name": "Finance",
       "icon": "fa-solid fa-tag",
       "keywords": [
+        "Mutual funds",
+        "AI & Machine learning",
+        "Financial intermediation",
         "Empirical asset pricing",
-        "Investment strategies",
-        "Textual analysis & corporate disclosure",
-        "Machine learning & AI in finance",
-        "Sustainable finance"
+        "FinTech"
       ]
     }
   ]

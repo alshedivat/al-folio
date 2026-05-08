@@ -1,6 +1,14 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+<!-- Security: Content Security Policy -->
+<!-- Permissive CSP suitable for academic websites. Allows external images, videos, and common embed services. -->
+<!-- To customize for your needs, see: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+<meta
+  http-equiv="Content-Security-Policy"
+  content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"
+>
+
 <!-- Bootstrap & MDB -->
 <link rel="stylesheet" href="{{ '/assets/css/bootstrap.min.css' | relative_url | bust_file_cache }}">
 <link
@@ -10,8 +18,8 @@
   crossorigin="anonymous"
 >
 
-<!-- Bootstrap Table -->
 {% if page.pretty_table %}
+  <!-- Bootstrap Table -->
   <link
     defer
     rel="stylesheet"
@@ -23,6 +31,7 @@
 
 <!-- Fonts & Icons -->
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
+<link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
 <link
   defer
   rel="stylesheet"
@@ -46,12 +55,13 @@
 
 <!-- Styles -->
 
-<!-- pseudocode -->
 {% if page.pseudocode %}
+  <!-- pseudocode -->
   <link
     defer
     rel="stylesheet"
     href="{{ site.third_party_libraries.pseudocode.url.css }}"
+    integrity="{{ site.third_party_libraries.pseudocode.integrity.css }}"
     crossorigin="anonymous"
   >
 {% endif %}
@@ -67,9 +77,9 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-<!-- Dark Mode -->
-<script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
 {% if site.enable_darkmode %}
+  <!-- Dark Mode -->
+  <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
   <link
     defer
     rel="stylesheet"
@@ -82,8 +92,8 @@
   </script>
 {% endif %}
 
-<!-- GeoJSON support via Leaflet -->
 {% if page.map %}
+  <!-- GeoJSON support via Leaflet -->
   <link
     defer
     rel="stylesheet"
@@ -93,8 +103,8 @@
   >
 {% endif %}
 
-<!-- diff2html -->
 {% if page.code_diff %}
+  <!-- diff2html -->
   <link
     defer
     rel="stylesheet"
@@ -121,16 +131,37 @@
 {% endif %}
 
 {% if page.images %}
-  <!-- Image comparison slider -->
   {% if page.images.compare %}
+    <!-- Image comparison slider -->
     <link
       defer
       rel="stylesheet"
       href="{{ site.third_party_libraries.img-comparison-slider.url.css }}"
+      integrity="{{ site.third_party_libraries.img-comparison-slider.integrity.css }}"
+      crossorigin="anonymous"
     >
   {% endif %}
-  <!-- Image slider -->
+  {% if page.images.lightbox2 %}
+    <!-- Lightbox2 -->
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.lightbox2.url.css }}"
+      integrity="{{ site.third_party_libraries.lightbox2.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
+  {% if page.images.photoswipe %}
+    <!-- Photoswipe -->
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.photoswipe.url.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
   {% if page.images.slider %}
+    <!-- Image slider -->
     <link
       defer
       rel="stylesheet"
@@ -139,8 +170,39 @@
       crossorigin="anonymous"
     >
   {% endif %}
+  {% if page.images.spotlight %}
+    <!-- Spotlight -->
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.spotlight.url.css }}"
+      integrity="{{ site.third_party_libraries.spotlight.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
+  {% if page.images.venobox %}
+    <!-- Venobox -->
+    <link
+      defer
+      rel="stylesheet"
+      href="{{ site.third_party_libraries.venobox.url.css }}"
+      integrity="{{ site.third_party_libraries.venobox.integrity.css }}"
+      crossorigin="anonymous"
+    >
+  {% endif %}
 {% endif %}
 
 {% if page.tikzjax %}
-  <link defer rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+  <link defer rel="stylesheet" type="text/css" href="{{ '/assets/css/tikzjax.min.css' | relative_url | bust_file_cache }}">
+{% endif %}
+
+{% if site.enable_cookie_consent %}
+  <!-- Cookie Consent -->
+  <link
+    defer
+    rel="stylesheet"
+    href="{{ site.third_party_libraries.vanilla-cookieconsent.url.css }}"
+    integrity="{{ site.third_party_libraries.vanilla-cookieconsent.integrity.css }}"
+    crossorigin="anonymous"
+  >
 {% endif %}

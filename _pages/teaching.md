@@ -1,12 +1,20 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: teachings
+description: Courses I have taught or assisted at the Stockholm School of Economics.
 nav: false
-nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### Master Level, Stockholm School of Economics
 
-Organize your courses by years, topics, or universities, however you like!
+- **Asset Pricing and Investments** — _Fall 2024, 2025_<br>
+  Teaching Assistant for Paul Huebner
+
+### Bachelor Level, Stockholm School of Economics
+
+- **Corporate Finance and Value Creation** — _Spring 2024, 2025, 2026_<br>
+  Teaching Assistant for Chin-Te Alvin Chen
+
+- **Finance** — _Fall 2022_<br>
+  Teaching Assistant for Tobias Sichert

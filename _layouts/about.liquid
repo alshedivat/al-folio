@@ -25,7 +25,7 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
@@ -40,32 +40,14 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
-    {% if page.news and site.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
+    <!-- Education (was: News) -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>Education</h2>
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Works in progress -->
-    {% if page.works_in_progress %}
-      <h2>
-        <a href="{{ '/cv/#works-in-progress' | relative_url }}" style="color: inherit">Works in progress</a>
-      </h2>
-      {% include wip.liquid %}
-    {% endif %}
-
-    <!-- Education -->
-    {% if page.education %}
-      <h2>
-        <a href="{{ 'cv/#education-1' | relative_url }}" style="color: inherit">Education</a>
-      </h2>
-      {% include edu.liquid %}
-    {% endif %}
-
     <!-- Latest posts -->
-    {% if site.latest_posts.enabled %}
+    {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
@@ -83,10 +65,14 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-icons">{% social_links %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
 </div>

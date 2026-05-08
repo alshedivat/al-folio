@@ -8,6 +8,11 @@ div.container-link-button {
 
 table.table-cv {
   background-color: transparent !important;
+
+  td,
+  th {
+    padding: 1px;
+  }
 }
 
 a.btncv {
