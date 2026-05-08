@@ -1,7 +1,0 @@
-# for more options, see https://docs.rendercv.com/user_guide/yaml_input_structure/design/
-design:
-  theme: classic
-  page:
-    size: a4
-    show_footer: false
-    show_top_note: false
