@@ -4,7 +4,7 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'jekyll-3rd-party-libraries'
+    # gem 'jekyll-3rd-party-libraries'
     gem 'jekyll-archives-v2'
     gem 'jekyll-cache-bust'
     gem 'jekyll-email-protect'
@@ -16,7 +16,7 @@ group :jekyll_plugins do
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-regex-replace'
-    gem 'jekyll-scholar'
+    # gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-socials'
     gem 'jekyll-tabs'

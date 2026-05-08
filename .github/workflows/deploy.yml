@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - portfolio
     paths:
       - "assets/**"
       - "_sass/**"
