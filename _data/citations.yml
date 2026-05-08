@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-04-17'
+  last_updated: '2026-05-08'
 papers:
   0QI92MsAAAAJ:2osOgNQ5qMEC:
-    citations: 24
+    citations: 25
     title: Short term prediction of wireless traffic based on tensor decomposition and recurrent neural network
     year: '2021'
   0QI92MsAAAAJ:9yKSN-GCB0IC:
-    citations: 17
+    citations: 19
     title: Energy consumption prediction using the GRU-MMattention-LightGBM model with features of Prophet decomposition
     year: '2023'
   0QI92MsAAAAJ:IjCSPb-OGe4C:
