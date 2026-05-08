@@ -22,6 +22,10 @@ navbar_items:
   - title: Проекты
     url: /projects/
 
+
+
+
+
 plugins:
   - jekyll-email-protect
   - jekyll-sitemap
