@@ -1,16 +1,11 @@
-# ==========================================
-# ПОРТФОЛИО Azarov — только проекты
-# ==========================================
-
 title: Портфолио Azarov
 name: Azarov Portfolio
-email: твой@email.com
+email: azarov@email.com
 description: Мои проекты и кейсы по кибербезопасности, серверам и AI
 
 url: https://buhtig-sudo-azar.github.io
 baseurl: /al-folio
 
-# Отключаем всё лишнее
 blog: false
 news: false
 selected_papers: false
@@ -19,13 +14,12 @@ latest_posts: false
 cv_pdf: false
 cv_note: false
 
-# Оставляем только проекты
 projects: true
-
-# Тёмная тема
+masonry: false
 theme_color: dark
 
-# Навигация — только проекты
 navbar_items:
   - title: Проекты
     url: /projects/
+
+third_party_libraries:
