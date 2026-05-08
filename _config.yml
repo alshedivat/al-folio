@@ -22,7 +22,13 @@ navbar_items:
   - title: Проекты
     url: /projects/
 
+plugins:
+  - jekyll-email-protect
+  - jekyll-sitemap
+  - jekyll-scholar
+  - jekyll-paginate-v2
+
 third_party_libraries:
   analytics:
-    google:
+    umami:
       enabled: false
