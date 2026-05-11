@@ -1,7 +1,7 @@
 ---
 layout: links
 title: links
-permalink: /
+permalink: /links/
 nav: true
 nav_order: 5
 
