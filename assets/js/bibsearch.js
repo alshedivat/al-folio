@@ -68,3 +68,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
   updateInputField(); // Update filter when page loads
 });
+
