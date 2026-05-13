@@ -1,10 +1,7 @@
 source 'https://rubygems.org'
 
-<<<<<<< HEAD
-# gem 'github-pages', "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins
-=======
 gem 'jekyll'
->>>>>>> bb7c273 (initial commit)
+
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
