@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-08'
+  last_updated: '2026-05-13'
 papers:
   0QI92MsAAAAJ:2osOgNQ5qMEC:
     citations: 25
@@ -18,6 +18,6 @@ papers:
     title: A cofunctional grouping-based approach for non-redundant feature gene selection in unannotated single-cell RNA-seq analysis
     year: '2023'
   0QI92MsAAAAJ:zYLM7Y9cAGgC:
-    citations: 9
+    citations: 10
     title: 'LEGEND: Identifying co-expressed genes in multimodal transcriptomic sequencing data'
     year: '2025'
