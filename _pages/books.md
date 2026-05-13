@@ -1,6 +1,10 @@
 ---
 layout: book-shelf
+<<<<<<< HEAD
 title: hobbies
+=======
+title: resources
+>>>>>>> bb7c273 (initial commit)
 permalink: /books/
 nav: true
 nav_order: 5
