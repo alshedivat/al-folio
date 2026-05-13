@@ -30,14 +30,14 @@ latest_posts:
   limit: 4 # leave blank to include all the blog posts
 ---
 
-I do research on stacking fault formation, dislocation, and intercalation construction analysis by powder X-Ray Diffraction (P-XRD) and Raman Spectroscopy, and their effects on the electronic states.
+Hi, I'm Dinda, I do research on stacking fault formation, dislocation, and intercalation construction analysis by powder X-Ray Diffraction (P-XRD) and Raman Spectroscopy, and their effects on the electronic states.
 
 Highly committed on constantly learn new techniques and innovative topics:
 - Nano-materials (single and polycrystalline systems).
 - Defect tolerance and anharmonicity.
 - Scientific computing and mathematic modelling.
 
-For publication records, please check [/publications]() where we can sort by research area. For repositories entry my study progress, please check [/repositories]() where we can organize by different topics. For some blog entries on my research progress, we can find them in [/blog](). 
+For publication records, please check [/publications](/publications/) where we can sort by research area. For repositories entry my study progress, please check [/repositories](/repositories/) where we can organize by different topics. For some blog entries on my research progress, we can find them in [/blog](/blog/). 
 
 My research profiles are available in the links below.
 
