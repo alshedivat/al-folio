@@ -9,7 +9,7 @@ giscus_comments: false
 ---
 
 ### About the Project
-Custom self-designed board game tiles. Designed using SOLIDWORKS, using self-made bases and online CAD models through community libraries. 3D prints of 19 individual tiles completed, as well as final painting and decoration of completed board.
+Custom self-designed board game tiles. Produced using SOLIDWORKS assemblies, combining self-made bases and online part models from community libraries. 3D printing of 19 individual tiles in progress!
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
