@@ -1,7 +1,33 @@
 github_users:
 - dindagustiayu
 
-repo_description_lines_max: 2
+repo_description_lines_max: 10
 
 github_repos:
+- dindagustiayu/gaussian-distribution-function
+- dindagustiayu/fourier-series
+- dindagustiayu/particle-in-2d-box
+- dindagustiayu/adiabatic-process
+- dindagustiayu/linear-algebra-in-balancing-a-chemical-reaction
+- dindagustiayu/string-list-and-loops-and-flow-control-in-python-for-chemistry-exercises
+- dindagustiayu/aggregation-indexing-boleean-and-reading-data-into-numpy-array-for-physics-problems
+- dindagustiayu/basic-numpy-and-matplotlib-for-solving-physics-problems
+- dindagustiayu/chemspipy-pysmiles-inchi-of-chemistry-database
+- dindagustiayu/functions-data-structures-and-file-input-or-output-data-by-pandas-for-physics-problems
+- dindagustiayu/maxwell-boltzmann-distribution-interactive-plot
+- dindagustiayu/numpy-polynomial-and-physical-constants
+- dindagustiayu/the-steady-state-approximation-for-solve-physics-problems
+- dindagustiayu/error-bars-scikit-learn-visualizations
+- dindagustiayu/the-matrix-of-enzymatic-kinetics
+- dindagustiayu/uncertainty-and-the-gravitational-acceleration
+- dindagustiayu/the-moment-of-inertia-of-h2o
+- dindagustiayu/integration-by-substitution
+- dindagustiayu/multiple-integrals
+- dindagustiayu/quantum-harmonic-oscillator
+- dindagustiayu/mathematical-optimization
+- dindagustiayu/approximation-in-quantum-chemistry
+- dindagustiayu/hermite-polynomials
+- dindagustiayu/the-morse-oscillator
 - dindagustiayu/atomic-orbitals
+- dindagustiayu/first-order-differential-equations-in-chemistry
+- dindagustiayu/equations-of-motion-of-harmonic-oscillator

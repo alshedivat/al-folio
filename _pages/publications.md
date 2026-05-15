@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 permalink: /publications/
 title: publications
 nav: true
