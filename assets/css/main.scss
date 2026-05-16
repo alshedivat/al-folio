@@ -13,6 +13,9 @@
   $max-content-width: {{ site.max_width | default:  "930px" }}
 );
 
+/* Redesign tokens — CSS custom properties, loaded first so they cascade everywhere */
+@use "redesign_tokens";
+
 /* Your project partials — convert these files to `@use "variables";`
    (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
 @use "themes";
@@ -37,3 +40,7 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+/* Redesign overrides — loaded last to win over al-folio/Bootstrap defaults */
+@use "redesign_base";
+@use "redesign_layout";

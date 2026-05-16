@@ -1,0 +1,136 @@
+---
+layout: redesign_default
+---
+<div class="page-anim">
+
+  <!-- Compact hero -->
+  <header class="hero hero-compact">
+    <div class="hero-photo">
+      <img src="{{ '/assets/img/pfp.png' | relative_url }}" alt="Wenhao Lu">
+    </div>
+    <div class="hero-info">
+      <div class="hero-role">
+        <span class="dot"></span>
+        AI SAFETY RESEARCHER
+        <span class="pipe">|</span>
+        <span class="hero-affil">Millburn High School</span>
+      </div>
+      <div class="hero-name">
+        <span class="last">Wenhao</span>
+        <span class="accent">Lu</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page header -->
+  <div class="page-header">
+    <div>
+      <span class="page-kicker">§ 04</span>
+      <h1 class="page-title">cv</h1>
+    </div>
+    <div class="page-aside">
+      <div class="crumb"><a href="{{ '/' | relative_url }}">← back home</a></div>
+      <div>last updated may 2026</div>
+    </div>
+  </div>
+
+  {% assign cv = site.data.cv.cv %}
+
+  <!-- Education -->
+  {% if cv.sections.Education %}
+  <div class="cv-section">
+    <h3>Education</h3>
+    {% for entry in cv.sections.Education %}
+    <div class="cv-entry">
+      <div class="cv-when">{{ entry.start_date }}–{{ entry.end_date }}</div>
+      <div>
+        <div class="cv-where">{{ entry.institution }}<span class="cv-loc">{{ entry.location }}</span></div>
+        <div class="cv-role">{{ entry.studyType }}{% if entry.area %}, {{ entry.area }}{% endif %}</div>
+        {% if entry.score %}<div style="font-size:13px;color:var(--muted);font-family:var(--mono);">{{ entry.score }}</div>{% endif %}
+        {% if entry.highlights %}
+        <ul class="cv-bullets">
+          {% for h in entry.highlights %}<li>{{ h | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Research Experience -->
+  {% assign research = cv.sections["Research Experience"] %}
+  {% if research %}
+  <div class="cv-section">
+    <h3>Research Experience</h3>
+    {% for entry in research %}
+    <div class="cv-entry">
+      <div class="cv-when">{{ entry.start_date }}–{{ entry.end_date }}</div>
+      <div>
+        <div class="cv-where">{{ entry.company }}<span class="cv-loc">{{ entry.location }}</span></div>
+        <div class="cv-role">{{ entry.position }}</div>
+        {% if entry.highlights %}
+        <ul class="cv-bullets">
+          {% for h in entry.highlights %}<li>{{ h | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Experience -->
+  {% if cv.sections.Experience %}
+  <div class="cv-section">
+    <h3>Experience</h3>
+    {% for entry in cv.sections.Experience %}
+    <div class="cv-entry">
+      <div class="cv-when">{{ entry.start_date }}–{{ entry.end_date }}</div>
+      <div>
+        <div class="cv-where">
+          {% if entry.url %}<a href="{{ entry.url }}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">{{ entry.company }}</a>{% else %}{{ entry.company }}{% endif %}
+          <span class="cv-loc">{{ entry.location }}</span>
+        </div>
+        <div class="cv-role">{{ entry.position }}</div>
+        {% if entry.highlights %}
+        <ul class="cv-bullets">
+          {% for h in entry.highlights %}<li>{{ h | markdownify | remove: '<p>' | remove: '</p>' }}</li>{% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Awards -->
+  {% if cv.sections.Awards %}
+  <div class="cv-section">
+    <h3>Awards</h3>
+    {% for award in cv.sections.Awards %}
+    <div class="cv-award">
+      <div class="cv-award-date">{{ award.date }}</div>
+      <div class="cv-award-title">
+        {% if award.url %}<a href="{{ award.url }}" target="_blank" rel="noopener">{{ award.title }}</a>{% else %}{{ award.title }}{% endif %}
+      </div>
+      <div class="cv-award-by">{{ award.awarder }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Skills -->
+  {% if cv.sections.Skills %}
+  <div class="cv-section">
+    <h3>Skills</h3>
+    {% for skill in cv.sections.Skills %}
+    <div class="skill-row">
+      <div class="skill-name">{{ skill.name }}</div>
+      <div class="skill-vals">{{ skill.keywords }}</div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+</div>

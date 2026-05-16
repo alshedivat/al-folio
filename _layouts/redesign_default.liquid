@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include head.liquid %}
+  </head>
+  <body>
+    <div class="shell">
+      {% include redesign_nav.liquid %}
+      {{ content }}
+      {% include redesign_footer.liquid %}
+    </div>
+    {% include scripts.liquid %}
+  </body>
+</html>

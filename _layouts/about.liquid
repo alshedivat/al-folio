@@ -1,80 +1,148 @@
 ---
-layout: default
+layout: redesign_default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+<div class="fade-in">
+
+  <!-- Hero -->
+  <header class="hero">
+    <div class="hero-photo">
+      <img src="{{ '/assets/img/pfp.png' | relative_url }}" alt="Wenhao Lu">
+    </div>
+    <div class="hero-info">
+      <div class="hero-role">
+        <span class="dot"></span>
+        AI SAFETY RESEARCHER
+        <span class="pipe">|</span>
+        <span class="hero-affil">Millburn High School</span>
+      </div>
+      <h1 class="hero-name">
+        <span class="last">Wenhao</span>
+        <span class="accent">Lu</span>
+      </h1>
+    </div>
   </header>
 
-  <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
-      </div>
-    {% endif %}
+  <!-- Meta strip -->
+  <div class="meta-strip">
+    <div class="meta-item">
+      <span class="meta-key">loc</span>
+      <span>Millburn, NJ</span>
+    </div>
+    <div class="meta-item">
+      <span class="meta-key">mail</span>
+      <a href="mailto:{{ site.data.socials.email }}">{{ site.data.socials.email }}</a>
+    </div>
+    <div class="meta-item">
+      <span class="meta-key">scholar</span>
+      <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank" rel="noopener">google scholar</a>
+    </div>
+    <div class="meta-item">
+      <span class="meta-key">git</span>
+      <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noopener">{{ site.data.socials.github_username }}</a>
+    </div>
+    <div class="meta-item">
+      <span class="meta-key">in</span>
+      <a href="https://linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener">{{ site.data.socials.linkedin_username }}</a>
+    </div>
+  </div>
 
-    <div class="clearfix">{{ content }}</div>
+  <!-- § 01 About -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">§ 01</span>
+      <h2 class="section-title">about</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="prose">
+      {{ content }}
+    </div>
+    <div class="tag-row">
+      <span class="tag">ai-safety</span>
+      <span class="tag">interpretability</span>
+      <span class="tag">world-models</span>
+      <span class="tag">llm-alignment</span>
+      <span class="tag">ai4math</span>
+      <span class="tag">spectral-graph-theory</span>
+    </div>
+  </section>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
+  <!-- § 02 Now -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">§ 02</span>
+      <h2 class="section-title">now</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="now-grid">
+      <a class="now-card" href="https://nxthorizon.org" target="_blank" rel="noopener">
+        <span class="now-arrow">↗</span>
+        <div class="now-kicker">BUILDING</div>
+        <div class="now-title">NEXT Horizon</div>
+        <div class="now-desc">STEM talent accelerator for underrepresented students, spanning 25+ countries and 650+ in career pipeline.</div>
+        <div class="now-stats">
+          <span>25+ countries</span>
+          <span>650+ pipeline</span>
+          <span>10+ sponsors</span>
+        </div>
+      </a>
+      <a class="now-card" href="https://github.com/Bhavith-Chandra/WorldModelLens" target="_blank" rel="noopener">
+        <span class="now-arrow">↗</span>
+        <div class="now-kicker">OPEN SOURCE</div>
+        <div class="now-title">WorldModelLens</div>
+        <div class="now-desc">First interpretability and observability library for world models and SSMs, analogous to TransformerLens.</div>
+        <div class="now-stats">
+          <span>IRIS · DreamerV3</span>
+          <span>V-JEPA</span>
+        </div>
+      </a>
+    </div>
+  </section>
 
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
+  <!-- § 03 Dig deeper -->
+  <section>
+    <div class="section-head">
+      <span class="section-num">§ 03</span>
+      <h2 class="section-title">dig deeper</h2>
+      <div class="section-rule"></div>
+    </div>
+    <div class="preview-grid">
+      <a class="preview-card" href="{{ '/publications/' | relative_url }}">
+        <span class="pv-arrow">→</span>
+        <div class="pv-key">RESEARCH</div>
+        <div class="pv-title">Publications</div>
+        <div class="pv-desc">Papers in Diabetes, IEEE Xplore, and more.</div>
+      </a>
+      <a class="preview-card" href="{{ '/projects/' | relative_url }}">
+        <span class="pv-arrow">→</span>
+        <div class="pv-key">BUILD</div>
+        <div class="pv-title">Projects</div>
+        <div class="pv-desc">Graph2Proof, WorldModelLens, CIPHER, and other work.</div>
+      </a>
+      <a class="preview-card" href="{{ '/cv/' | relative_url }}">
+        <span class="pv-arrow">→</span>
+        <div class="pv-key">BACKGROUND</div>
+        <div class="pv-title">CV</div>
+        <div class="pv-desc">Education, experience, awards.</div>
+      </a>
+      <a class="preview-card" href="{{ '/blog/' | relative_url }}">
+        <span class="pv-arrow">→</span>
+        <div class="pv-key">WRITING</div>
+        <div class="pv-title">Blog</div>
+        <div class="pv-desc">Essays, ideas, and research notes.</div>
+      </a>
+      <a class="preview-card" href="{{ '/reading/' | relative_url }}">
+        <span class="pv-arrow">→</span>
+        <div class="pv-key">SHELF</div>
+        <div class="pv-title">Reading</div>
+        <div class="pv-desc">Books, podcasts, and things worth your time.</div>
+      </a>
+      <a class="preview-card" href="{{ '/contact/' | relative_url }}">
+        <span class="pv-arrow">→</span>
+        <div class="pv-key">CONNECT</div>
+        <div class="pv-title">Contact</div>
+        <div class="pv-desc">Best ways to reach me.</div>
+      </a>
+    </div>
+  </section>
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% social_links %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
-    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
-      {% include newsletter.liquid center=true %}
-    {% endif %}
-  </article>
 </div>

@@ -1,0 +1,15 @@
+<nav class="topbar">
+  <a class="brand-mark" href="{{ '/' | relative_url }}"><span class="slash">/</span>wl</a>
+  <span class="nav-group">
+    <a class="nav-link {% if page.permalink == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">home</a>
+    <a class="nav-link {% if page.permalink == '/publications/' %}active{% endif %}" href="{{ '/publications/' | relative_url }}">research</a>
+    <a class="nav-link {% if page.permalink == '/projects/' %}active{% endif %}" href="{{ '/projects/' | relative_url }}">projects</a>
+    <a class="nav-link {% if page.permalink == '/cv/' %}active{% endif %}" href="{{ '/cv/' | relative_url }}">cv</a>
+    <span class="nav-sep">|</span>
+    <a class="nav-link {% if page.permalink == '/blog/' %}active{% endif %}" href="{{ '/blog/' | relative_url }}">blog</a>
+    <a class="nav-link {% if page.permalink == '/reading/' %}active{% endif %}" href="{{ '/reading/' | relative_url }}">reading</a>
+    <a class="nav-link {% if page.permalink == '/contact/' %}active{% endif %}" href="{{ '/contact/' | relative_url }}">contact</a>
+  </span>
+  <span class="topbar-spacer"></span>
+  <span class="topbar-meta">millburn, nj · est. 2007</span>
+</nav>

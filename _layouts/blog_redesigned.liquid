@@ -1,0 +1,57 @@
+---
+layout: redesign_default
+---
+<div class="page-anim">
+
+  <!-- Compact hero -->
+  <header class="hero hero-compact">
+    <div class="hero-photo">
+      <img src="{{ '/assets/img/pfp.png' | relative_url }}" alt="Wenhao Lu">
+    </div>
+    <div class="hero-info">
+      <div class="hero-role">
+        <span class="dot"></span>
+        AI SAFETY RESEARCHER
+        <span class="pipe">|</span>
+        <span class="hero-affil">Millburn High School</span>
+      </div>
+      <div class="hero-name">
+        <span class="last">Wenhao</span>
+        <span class="accent">Lu</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page header -->
+  <div class="page-header">
+    <div>
+      <span class="page-kicker">§ 05</span>
+      <h1 class="page-title">blog</h1>
+    </div>
+    <div class="page-aside">
+      <div class="crumb"><a href="{{ '/' | relative_url }}">← back home</a></div>
+    </div>
+  </div>
+
+  {% if site.posts.size == 0 %}
+    <div class="blog-empty">
+      <span class="big">nothing here yet</span>
+      essays and research notes, coming soon
+    </div>
+  {% else %}
+    <div>
+      {% for post in site.posts %}
+        {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
+        <a class="blog-row" href="{{ post.url | relative_url }}" style="text-decoration:none;">
+          <div class="blog-date">{{ post.date | date: '%b %Y' }}</div>
+          <div>
+            <div class="blog-title">{{ post.title }}</div>
+            {% if post.description %}<div class="blog-summary">{{ post.description }}</div>{% endif %}
+          </div>
+          <div class="blog-len">{{ read_time }} min</div>
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+</div>

@@ -1,0 +1,103 @@
+---
+layout: redesign_default
+---
+<div class="page-anim">
+
+  <!-- Compact hero -->
+  <header class="hero hero-compact">
+    <div class="hero-photo">
+      <img src="{{ '/assets/img/pfp.png' | relative_url }}" alt="Wenhao Lu">
+    </div>
+    <div class="hero-info">
+      <div class="hero-role">
+        <span class="dot"></span>
+        AI SAFETY RESEARCHER
+        <span class="pipe">|</span>
+        <span class="hero-affil">Millburn High School</span>
+      </div>
+      <div class="hero-name">
+        <span class="last">Wenhao</span>
+        <span class="accent">Lu</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page header -->
+  <div class="page-header">
+    <div>
+      <span class="page-kicker">§ 03</span>
+      <h1 class="page-title">projects</h1>
+    </div>
+    <div class="page-aside">
+      <div class="crumb"><a href="{{ '/' | relative_url }}">← back home</a></div>
+      <div>last updated may 2026</div>
+    </div>
+  </div>
+
+  <p class="page-intro">A mix of research systems, open-source tools, and experiments. Click any entry to read the full writeup.</p>
+
+  {% assign research_projects = site.projects | where: "category", "research" | sort: "importance" %}
+  {% if research_projects.size > 0 %}
+  <div style="margin-bottom:8px;font-family:var(--mono);font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);">Research</div>
+  {% for project in research_projects %}
+  <article class="pub-card">
+    <div>
+      <div class="pub-tag">{{ project.category }}</div>
+      <span class="pub-year">{{ project.year | default: '2025' }}</span>
+    </div>
+    <div>
+      <div class="pub-title">
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      </div>
+      {% if project.description %}
+        <div style="font-size:14.5px;color:var(--fg-2);font-style:italic;margin:0 0 8px;">{{ project.description }}</div>
+      {% endif %}
+      {% if project.abstract %}
+        <div class="pub-abstract">{{ project.abstract }}</div>
+      {% endif %}
+      {% if project.tags %}
+        <div class="pub-tags">
+          {% for tag in project.tags %}<span>{{ tag }}</span>{% endfor %}
+        </div>
+      {% endif %}
+      <div class="pub-links" style="margin-top:10px;">
+        <a href="{{ project.url | relative_url }}">read more</a>
+        {% if project.github %}<a href="{{ project.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+      </div>
+      <details class="proj-details">
+        <summary>read the long version</summary>
+        <div class="proj-long">
+          {{ project.content }}
+        </div>
+      </details>
+    </div>
+  </article>
+  {% endfor %}
+  {% endif %}
+
+  {% assign fun_projects = site.projects | where: "category", "fun" | sort: "importance" %}
+  {% if fun_projects.size > 0 %}
+  <div style="margin:28px 0 8px;font-family:var(--mono);font-size:11px;letter-spacing:1.4px;text-transform:uppercase;color:var(--muted);">Fun</div>
+  {% for project in fun_projects %}
+  <article class="pub-card">
+    <div>
+      <div class="pub-tag">{{ project.category }}</div>
+      <span class="pub-year">{{ project.year | default: '2025' }}</span>
+    </div>
+    <div>
+      <div class="pub-title">
+        <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+      </div>
+      {% if project.description %}
+        <div style="font-size:14.5px;color:var(--fg-2);font-style:italic;margin:0 0 8px;">{{ project.description }}</div>
+      {% endif %}
+      <div class="pub-links" style="margin-top:10px;">
+        <a href="{{ project.url | relative_url }}">read more</a>
+        {% if project.github %}<a href="{{ project.github }}" target="_blank" rel="noopener">GitHub</a>{% endif %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+  {% endif %}
+
+</div>

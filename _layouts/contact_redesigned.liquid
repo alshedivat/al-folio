@@ -1,0 +1,57 @@
+---
+layout: redesign_default
+---
+<div class="page-anim">
+
+  <!-- Compact hero -->
+  <header class="hero hero-compact">
+    <div class="hero-photo">
+      <img src="{{ '/assets/img/pfp.png' | relative_url }}" alt="Wenhao Lu">
+    </div>
+    <div class="hero-info">
+      <div class="hero-role">
+        <span class="dot"></span>
+        AI SAFETY RESEARCHER
+        <span class="pipe">|</span>
+        <span class="hero-affil">Millburn High School</span>
+      </div>
+      <div class="hero-name">
+        <span class="last">Wenhao</span>
+        <span class="accent">Lu</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page header -->
+  <div class="page-header">
+    <div>
+      <span class="page-kicker">§ 07</span>
+      <h1 class="page-title">contact</h1>
+    </div>
+    <div class="page-aside">
+      <div class="crumb"><a href="{{ '/' | relative_url }}">← back home</a></div>
+    </div>
+  </div>
+
+  <p class="page-intro">The fastest way to reach me is LinkedIn. Email works too. I read everything, I reply to most.</p>
+
+  <div class="contact-card">
+    <div>
+      <h4>direct</h4>
+      <p>
+        <a href="mailto:{{ site.data.socials.email }}">{{ site.data.socials.email }}</a><br>
+        <a href="https://linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener">linkedin.com/in/{{ site.data.socials.linkedin_username }}</a>
+      </p>
+    </div>
+    <div>
+      <h4>elsewhere</h4>
+      <p>
+        <a href="https://github.com/{{ site.data.socials.github_username }}" target="_blank" rel="noopener">github.com/{{ site.data.socials.github_username }}</a><br>
+        <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank" rel="noopener">google scholar</a>
+      </p>
+    </div>
+  </div>
+
+  <p class="contact-note">This site is a living notebook. If something is broken or you want to collaborate on research, reach out.</p>
+
+</div>

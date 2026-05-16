@@ -1,0 +1,84 @@
+---
+layout: redesign_default
+---
+<div class="page-anim">
+
+  <!-- Compact hero -->
+  <header class="hero hero-compact">
+    <div class="hero-photo">
+      <img src="{{ '/assets/img/pfp.png' | relative_url }}" alt="Wenhao Lu">
+    </div>
+    <div class="hero-info">
+      <div class="hero-role">
+        <span class="dot"></span>
+        AI SAFETY RESEARCHER
+        <span class="pipe">|</span>
+        <span class="hero-affil">Millburn High School</span>
+      </div>
+      <div class="hero-name">
+        <span class="last">Wenhao</span>
+        <span class="accent">Lu</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page header -->
+  <div class="page-header">
+    <div>
+      <span class="page-kicker">§ 06</span>
+      <h1 class="page-title">reading</h1>
+    </div>
+    <div class="page-aside">
+      <div class="crumb"><a href="{{ '/' | relative_url }}">← back home</a></div>
+      <div>a living shelf</div>
+    </div>
+  </div>
+
+  <!-- Currently reading (books collection) -->
+  {% assign books = site.books | sort: "date" | reverse %}
+  {% if books.size > 0 %}
+  <div class="cv-section">
+    <h3>Currently reading</h3>
+    {% for book in books %}
+    <div class="cv-entry">
+      <div class="cv-when" style="text-transform:uppercase;font-size:11px;letter-spacing:0.6px;">book</div>
+      <div>
+        <div class="cv-where" style="font-size:17px;">
+          {% if book.buy_link %}<a href="{{ book.buy_link }}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">{{ book.title }}</a>{% else %}{{ book.title }}{% endif %}
+        </div>
+        <div class="cv-role">{{ book.author }}{% if book.released %} · {{ book.released }}{% endif %}</div>
+        {% if book.status %}<div style="font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:0.3px;">{{ book.status }}</div>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Listening -->
+  {% if site.data.listening %}
+  <div class="cv-section">
+    <h3>Listening</h3>
+    {% for item in site.data.listening %}
+    <div class="cv-entry">
+      <div class="cv-when" style="text-transform:uppercase;font-size:11px;letter-spacing:0.6px;">{{ item.type | default: 'podcast' }}</div>
+      <div>
+        <div class="cv-where" style="font-size:17px;">
+          {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener" style="text-decoration:none;color:inherit;">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+        </div>
+        {% if item.creator %}<div class="cv-role">{{ item.creator }}</div>{% endif %}
+        {% if item.note %}<div style="font-size:13.5px;color:var(--muted);">{{ item.note }}</div>{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <!-- Elsewhere (content from the page body) -->
+  {% if content and content != '' %}
+  <div class="cv-section">
+    <h3>Elsewhere</h3>
+    {{ content }}
+  </div>
+  {% endif %}
+
+</div>

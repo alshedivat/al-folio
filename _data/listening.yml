@@ -1,0 +1,23 @@
+- title: "80,000 Hours Podcast"
+  creator: Rob Wiblin
+  type: podcast
+  url: https://80000hours.org/podcast/
+  note: Long-form conversations on AI safety, career impact, and effective altruism.
+
+- title: "The AXRP Podcast"
+  creator: Daniel Filan
+  type: podcast
+  url: https://axrp.net/
+  note: Technical AI alignment research interviews.
+
+- title: "Dwarkesh Podcast"
+  creator: Dwarkesh Patel
+  type: podcast
+  url: https://www.dwarkeshpatel.com/podcast
+  note: History, science, and the future with researchers and founders.
+
+- title: "Lex Fridman Podcast"
+  creator: Lex Fridman
+  type: podcast
+  url: https://lexfridman.com/podcast/
+  note: Science, technology, and the nature of intelligence.

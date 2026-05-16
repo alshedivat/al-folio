@@ -1,0 +1,30 @@
+/* Global base overrides — warm cream aesthetic */
+
+* { box-sizing: border-box; }
+
+html, body {
+  background: var(--bg) !important;
+  color: var(--fg) !important;
+  font-family: var(--body) !important;
+  font-size: 17px !important;
+  line-height: 1.6 !important;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(60, 50, 30, 0.025) 1px, transparent 1px);
+  background-size: 3px 3px;
+  z-index: 1000;
+  opacity: 0.5;
+}
+
+a { color: var(--fg); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+a:hover { color: var(--accent); }
+::selection { background: var(--accent-soft); color: var(--fg); }

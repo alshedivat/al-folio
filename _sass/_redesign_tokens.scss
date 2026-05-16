@@ -1,0 +1,23 @@
+/* Design tokens for wenhao-lu.com redesign */
+:root {
+  --bg:        #f3ede1;
+  --bg-2:      #ebe3d4;
+  --bg-3:      #e3dac6;
+  --fg:        #1d1a14;
+  --fg-2:      #3a3528;
+  --muted:     #837866;
+  --muted-2:   #a3998a;
+  --rule:      #d8cebb;
+  --rule-2:    #c8bda7;
+  --accent:        #b06a2a;
+  --accent-soft:   #e8c69a;
+  --accent-tint:   rgba(176, 106, 42, 0.08);
+
+  --serif:   'Instrument Serif', 'Cormorant Garamond', Georgia, serif;
+  --display: 'Bodoni Moda', 'Didot', 'Times New Roman', serif;
+  --body:    'Source Serif 4', Georgia, 'Iowan Old Style', serif;
+  --mono:    'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --col:   760px;
+  --pad-y: 28px;
+}
