@@ -37,4 +37,3 @@ During my undergraduate and graduate studies, I have worked on exploring the per
 I have published as a first co-author at [ISLPED 2025](https://www.islped.org/2025/), analyzing thermal characteristics and proposing thermal-aware task scheduling techniques for 3D CPUs.
 I also served as a reviewer for [ICCAD 2025](https://2025.iccad.com/). 
 Beyond research, I enjoy exploring new technologies and collaborating on interdisciplinary projects that bridge hardware and software.
-

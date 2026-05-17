@@ -1,0 +1,28 @@
+{% comment %}
+  Unified languages entry renderer for both formats
+  - RenderCV uses: name, summary
+  - JSONResume uses: language, fluency
+{% endcomment %}
+
+<div class="card-text font-weight-light">
+  {% for entry in entries %}
+    <div class="language-item">
+      {% if entry.icon %}
+        <i class="{{ entry.icon }}"></i>
+      {% endif %}
+      {% capture lang_name %}
+        {% if entry.name %}{{ entry.name }}{% elsif entry.language %}{{ entry.language }}{% endif %}
+      {% endcapture %}
+      {% capture fluency %}
+        {% if entry.summary %}{{ entry.summary }}{% elsif entry.fluency %}{{ entry.fluency }}{% endif %}
+      {% endcapture %}
+      <strong>{{ lang_name }}:</strong> {{ fluency }}
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+  .language-item {
+    padding: 0.5rem 0;
+  }
+</style>

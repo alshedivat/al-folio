@@ -18,9 +18,13 @@ Here are some frequently asked questions. If you have a different question, plea
   - [I am trying to deploy my site, but it fails with Could not find gem 'jekyll-diagrams' in locally installed gems. How do I fix that?](#i-am-trying-to-deploy-my-site-but-it-fails-with-could-not-find-gem-jekyll-diagrams-in-locally-installed-gems-how-do-i-fix-that)
   - [How can I update Academicons version on the template](#how-can-i-update-academicons-version-on-the-template)
   - [How can I update Font Awesome version on the template](#how-can-i-update-font-awesome-version-on-the-template)
-  - [How can I update Tabler Icons version on the template](#how-can-i-update-tabler-icons-version-on-the-template)
   - [What do all these GitHub actions/workflows mean?](#what-do-all-these-github-actionsworkflows-mean)
   - [How can I use Google Search Console ID on the template?](#how-can-i-use-google-search-console-id-on-the-template)
+  - [What are Code Wiki and DeepWiki?](#what-are-code-wiki-and-deepwiki)
+    - [When to use these tools](#when-to-use-these-tools)
+    - [What they do](#what-they-do)
+    - [Limitations](#limitations)
+    - [Access these tools](#access-these-tools)
 
 <!--te-->
 
@@ -107,10 +111,6 @@ To update the Academicons version, you need to download the latest release from 
 
 To update the Font Awesome version, you need to download the latest release "for the web" from the [Font Awesome website](https://fontawesome.com/download). After downloading, extract the zip file and copy the `scss/` directory content to `_sass/font-awesome/` and the `webfonts/` content to `assets/webfonts/`.
 
-## How can I update Tabler Icons version on the template
-
-To update the Tabler Icons version, you need to download the latest release from the [Tabler Icons website](https://tabler.io/icons). After downloading, extract the zip file and copy the files `tabler-icons-filled.scss`, `tabler-icons-outline.scss`, and `tabler-icons.scss` from the `webfont/` directory to `_sass/tabler-icons/`, and all the files from `webfont/fonts/` to `assets/fonts/`.
-
 ## What do all these GitHub actions/workflows mean?
 
 GitHub actions are a way to automate tasks in the repository. They are defined in `.github/workflows/` directory. Each file in this directory is a workflow. Workflows are made up of one or more jobs, and each job runs on a virtual machine hosted by GitHub. You can see the status of the workflows in the `Actions` tab of your repository. For more information, check the [GitHub Actions documentation](https://docs.github.com/en/actions).
@@ -137,3 +137,39 @@ In the configuration file `_config.yml` the tag `google-site-verification` shoul
 - The string against `content` is the Google Search Console ID that can be used in the template. e.g. `google-site-verification: GoogleSearchConsoleID`. Now set the property `enable_google_verification: true`.
 
 It looks like the Domain type property in the Google Search Console to verify the ownership of all URLs across all subdomains with GitHub Pages does not work.
+
+## What are Code Wiki and DeepWiki?
+
+**Code Wiki** and **DeepWiki** are AI-powered tools that help you understand GitHub repositories through interactive documentation. They should be treated as supplementary resources when you cannot find the information you need in the official project documentation.
+
+### When to use these tools
+
+**Use Code Wiki and DeepWiki only after**:
+
+- You have reviewed the relevant documentation files in this repository (`README.md`, `INSTALL.md`, `CUSTOMIZE.md`, `FAQ.md`, or `CONTRIBUTING.md`)
+- You have checked the [GitHub Discussions Q&A section](https://github.com/alshedivat/al-folio/discussions/categories/q-a) for similar questions
+- You have searched existing [GitHub Issues](https://github.com/alshedivat/al-folio/issues)
+
+### What they do
+
+**Code Wiki** (powered by Google Gemini) generates interactive documentation from your repository code. It allows you to:
+
+- Browse your repository's structure and architecture
+- Search for specific functions or modules
+- Understand how different parts of the codebase work together
+- Get diagrams and visual representations of your code architecture
+
+**DeepWiki** provides an AI-powered interface to ask questions about a repository, similar to having an engineer available 24/7. It allows you to:
+
+- Ask natural language questions about the codebase
+- Get instant answers about how specific features work
+- Search for code patterns and implementations
+
+### Limitations
+
+These tools are generated automatically from our code and may not always reflect the most current documentation standards or best practices specific to this project. They should not replace official documentation but rather complement it when you need deeper technical insights.
+
+### Access these tools
+
+- **Code Wiki**: [Code Wiki for al-folio](https://codewiki.google/github.com/alshedivat/al-folio)
+- **DeepWiki**: [DeepWiki for al-folio](https://deepwiki.com/alshedivat/al-folio)
