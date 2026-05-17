@@ -130,6 +130,12 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 # Optional: Set default categories and tags for posts from each source.
 external_sources: 
+  - name: Random Spaces
+    posts:
+      - url: https://dindagustiayu.github.io/randomspaces.github.io/
+        published_date: 2026-05-17
+    categories: [supplementary]
+    tags: [research-progress]
 
 # -----------------------------------------------------------------------------
 # Newsletter

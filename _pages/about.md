@@ -37,7 +37,7 @@ Highly committed on constantly learn new techniques and innovative topics:
 - Defect tolerance and anharmonicity.
 - Scientific computing and mathematic modelling.
 
-For publication records, please check [/publications](/publications/) where we can sort by research area. For repositories entry my study progress, please check [/repositories](/repositories/) where we can organize by different topics. For some blog entries on my research progress, we can find them in [/blog](/blog/). 
+For publication records, please check [/publications](/publications/) where we can sort by research area. For repositories entry study progress, please check [/repositories](/repositories/) where we can organize by different topics. For some blog entries on my research progress, we can find them in [/blog](/blog/). 
 
 My research profiles are available in the links below.
 

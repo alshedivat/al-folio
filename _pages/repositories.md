@@ -7,6 +7,11 @@ nav: true
 nav_order: 4
 ---
 
+
+>All repositories and source code are available directly through the blog, we can visit [/Random Spaces](https://dindagustiayu.github.io/randomspaces.github.io/), and learn anything with interactive notebooks.
+>
+
+
 {% if site.data.repositories.github_users %}
 
 ## GitHub users
