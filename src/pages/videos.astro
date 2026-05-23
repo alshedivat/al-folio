@@ -1,0 +1,52 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const videos = [
+  {
+    title: "Reinforcement Learning | MIT",
+    description: "Deep Reinforcement Learning. Lecturer: Alexander Amini. January 2020",
+    src: "https://www.youtube.com/embed/nZfaHIxDD5w",
+  },
+  {
+    title: "The Learning Problem - Caltech",
+    description: "Lecture 1 of 18 of Caltech's Machine Learning Course - by Professor Yaser Abu-Mostafa.",
+    src: "https://www.youtube.com/embed/mbyG85GZ0PI",
+  },
+  {
+    title: "Deep Learning State of the Art (2020)",
+    description:
+      "Lecture on most recent research and developments in deep learning, and hopes for 2020. This lecture is part of the MIT Deep Learning Lecture Series.",
+    src: "https://www.youtube.com/embed/0VH1Lim8gL8",
+  },
+  {
+    title: "Richard Feynman: Can Machines Think?",
+    description: "A Q&A excerpt on the topic of AI from a lecture by Richard Feynman from September 26th, 1985.",
+    src: "https://www.youtube.com/embed/ipRvjS7q1DI",
+  },
+];
+---
+
+<BaseLayout title="multimedia">
+  <section class="page-header">
+    <p class="eyebrow">Media</p>
+    <h1>Multimedia</h1>
+    <p>Selected lectures and references worth returning to.</p>
+  </section>
+
+  <section class="video-grid" aria-label="Videos">
+    {videos.map((video) => (
+      <article class="video-card">
+        <div class="video-card__frame">
+          <iframe
+            src={video.src}
+            title={video.title}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <h2>{video.title}</h2>
+        <p>{video.description}</p>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

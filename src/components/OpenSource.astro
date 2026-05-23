@@ -1,0 +1,67 @@
+---
+import { openSourceProjects } from "../data/opensource";
+
+interface Props {
+  compactHeader?: boolean;
+}
+
+const { compactHeader = false } = Astro.props;
+---
+
+<section class="section" aria-labelledby="open-source-title">
+  {!compactHeader && (
+    <div class="section__header">
+      <div>
+        <p class="eyebrow">Community engineering</p>
+        <h2 id="open-source-title">Open Source</h2>
+        <p class="section__intro">
+          Selected contributions to production-grade open source libraries, focused on developer experience,
+          maintainability, and practical machine learning workflows.
+        </p>
+      </div>
+      <p class="section__meta">{openSourceProjects.length} selected projects</p>
+    </div>
+  )}
+
+  <div class="stack-list">
+    {openSourceProjects.map((project) => (
+      <details class="detail-card">
+        <summary class="detail-card__summary">
+          <div>
+            <h3>{project.name}</h3>
+            <p>{project.role}</p>
+          </div>
+          <span class="detail-card__toggle" aria-hidden="true">Details</span>
+        </summary>
+
+        <div class="detail-card__content">
+          <div>
+            <p>{project.summary}</p>
+            <ul class="impact-list">
+              {project.impactPoints.slice(0, 2).map((point) => <li>{point}</li>)}
+            </ul>
+          </div>
+
+          <aside class="detail-card__aside" aria-label={`${project.name} metadata`}>
+            <dl class="meta-list">
+              <div>
+                <dt>Stack</dt>
+                <dd>{project.tech}</dd>
+              </div>
+            </dl>
+
+            <div class="tag-list">
+              {project.tags.slice(0, 3).map((tag) => <span>{tag}</span>)}
+            </div>
+
+            {project.link && (
+              <a href={project.link} class="text-link" target="_blank" rel="noopener noreferrer">
+                View project
+              </a>
+            )}
+          </aside>
+        </div>
+      </details>
+    ))}
+  </div>
+</section>

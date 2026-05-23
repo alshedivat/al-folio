@@ -1,0 +1,20 @@
+{
+  "name": "arnaujc91.github.io",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@fontsource/maple-mono": "^5.2.6",
+    "astro": "^6.3.0",
+    "katex": "^0.17.0",
+    "lucide-astro": "^0.556.0",
+    "lxgw-wenkai-webfont": "^1.7.0",
+    "rehype-katex": "^7.0.1",
+    "remark-math": "^6.0.0",
+    "typescript": "^5.8.0"
+  }
+}

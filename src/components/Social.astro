@@ -1,0 +1,28 @@
+---
+import Github from "lucide-astro/Github";
+import Linkedin from "lucide-astro/Linkedin";
+import Mail from "lucide-astro/Mail";
+import { site } from "../site";
+
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
+---
+
+<div class:list={["social-links", compact && "social-links--compact"]}>
+  <a href={`mailto:${site.email}`} aria-label="Email" title="Email">
+    <Mail size={18} strokeWidth={1.8} />
+  </a>
+  {site.githubUsername && (
+    <a href={`https://github.com/${site.githubUsername}`} target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub">
+      <Github size={18} strokeWidth={1.8} />
+    </a>
+  )}
+  {site.linkedinUrl && (
+    <a href={site.linkedinUrl} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn">
+      <Linkedin size={18} strokeWidth={1.8} />
+    </a>
+  )}
+</div>

@@ -1,0 +1,112 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import DashboardNav from "../components/DashboardNav.astro";
+import { datedSlug, formatDate, formatShortDate } from "../lib/content";
+import { fullName, site } from "../site";
+
+const pages = await getCollection("pages");
+const about = pages.find((entry) => entry.id.startsWith("about"));
+
+if (!about) {
+  throw new Error("Missing about page content");
+}
+
+const { Content } = await render(about);
+const news = (await getCollection("news"))
+  .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime())
+  .slice(0, 5);
+
+const renderedNews = await Promise.all(
+  news.map(async (entry) => ({
+    entry,
+    Content: (await render(entry)).Content,
+  })),
+);
+
+const latestPosts = (await getCollection("blog"))
+  .map((entry) => ({ entry, meta: datedSlug(entry) }))
+  .sort((a, b) => b.meta.date.getTime() - a.meta.date.getTime())
+  .slice(0, 3);
+
+const profile = about.data.profile as { image?: string } | undefined;
+---
+
+<BaseLayout title="about" description={about.data.description ?? site.description}>
+  <div class="publication-bg" aria-hidden="true"></div>
+  <section class="flow-grid" aria-label="Personal dashboard">
+    <div class="flow-column main-column">
+      <article class="intro-card">
+        <p class="quote-mark" aria-hidden="true">"</p>
+        <p class="eyebrow">Machine learning engineer · theoretical physics background</p>
+        <h1>Hi, I am <em>{site.firstName}</em></h1>
+        <div class="intro__body content">
+          <Content />
+        </div>
+      </article>
+
+      <section class="section" aria-labelledby="latest-blog-title">
+        <div class="section__header">
+          <div>
+            <h2 id="latest-blog-title">Blog</h2>
+          </div>
+          <a class="section__action" href="/blog/">All posts</a>
+        </div>
+
+        <div class="simple-list">
+          {latestPosts.map(({ entry, meta }) => (
+            <article class="simple-list__item">
+              <a href={`/blog/${meta.year}/${meta.slug}/`}>
+                <time>{formatDate(meta.date)}</time>
+                <h3>{entry.data.title}</h3>
+                <p>{entry.data.description}</p>
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+    </div>
+
+    <aside class="flow-column side-column">
+      <article class="profile-card">
+        {profile?.image && (
+          <div class="avatar-wrap">
+            <img src={`/assets/img/${profile.image}`} alt={fullName} />
+          </div>
+        )}
+        <div class="profile-heading">
+          <h2>{fullName}</h2>
+          <p>@{site.githubUsername}</p>
+          <span>Machine Learning Engineer</span>
+        </div>
+      </article>
+
+      <DashboardNav />
+
+      {about.data.news && (
+        <section class="side-card" aria-labelledby="news-title">
+          <div class="section__header">
+            <h2 id="news-title">News</h2>
+          </div>
+
+          <div class="timeline-list">
+            {renderedNews.map(({ entry, Content }) => (
+              <article class="timeline-item">
+                <time>{formatShortDate(entry.data.date)}</time>
+                <div class="content">
+                  {entry.data.inline ? (
+                    <Content />
+                  ) : (
+                    <a class="text-link" href={`/news/${entry.id.replace(/\.(md|mdx)$/, "")}/`}>
+                      {entry.data.title}
+                    </a>
+                  )}
+                </div>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
+    </aside>
+  </section>
+</BaseLayout>

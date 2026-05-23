@@ -1,0 +1,59 @@
+---
+import { hackathons } from "../data/hackathons";
+
+interface Props {
+  compactHeader?: boolean;
+}
+
+const { compactHeader = false } = Astro.props;
+---
+
+<section class="section" aria-labelledby="hackathons-title">
+  {!compactHeader && (
+    <div class="section__header">
+      <div>
+        <p class="eyebrow">Applied projects</p>
+        <h2 id="hackathons-title">Hackathons</h2>
+        <p class="section__intro">
+          Short-form applied projects built under time pressure: product framing, data work, and decision-oriented
+          prototypes.
+        </p>
+      </div>
+      <p class="section__meta">{hackathons.length} selected</p>
+    </div>
+  )}
+
+  <div class="stack-list">
+    {hackathons.map((hackathon) => (
+      <details class="detail-card">
+        <summary class="detail-card__summary">
+          <div>
+            <p class="detail-card__context">{hackathon.context}</p>
+            <h3>{hackathon.name}</h3>
+          </div>
+          <div class="detail-card__side">
+            {hackathon.result && <p class="pill">{hackathon.result}</p>}
+            <span class="detail-card__toggle" aria-hidden="true">Details</span>
+          </div>
+        </summary>
+
+        <div class="detail-card__content detail-card__content--single">
+          <p>{hackathon.summary}</p>
+
+          <div class="fact-grid">
+            <p><span>Focus</span>{hackathon.focus}</p>
+            <p><span>Team</span>{hackathon.team}</p>
+          </div>
+
+          <ul class="impact-list">
+            {hackathon.impactPoints.slice(0, 2).map((point) => <li>{point}</li>)}
+          </ul>
+
+          <div class="tag-list">
+            {hackathon.tags.slice(0, 3).map((tag) => <span>{tag}</span>)}
+          </div>
+        </div>
+      </details>
+    ))}
+  </div>
+</section>

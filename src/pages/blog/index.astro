@@ -1,0 +1,37 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { datedSlug, formatDate } from "../../lib/content";
+import { site } from "../../site";
+
+const posts = (await getCollection("blog"))
+  .map((entry) => ({ entry, meta: datedSlug(entry) }))
+  .sort((a, b) => b.meta.date.getTime() - a.meta.date.getTime());
+---
+
+<BaseLayout title="blog" description={site.blogDescription}>
+  <section class="page-header">
+    <p class="eyebrow">Blog</p>
+    <h1>Blog</h1>
+    <p>{site.blogDescription}</p>
+  </section>
+
+  <section class="entry-list" aria-label="Blog posts">
+    {posts.map(({ entry, meta }) => (
+      <article class="entry-card">
+        {entry.data.image && (
+          <a class="entry-card__image" href={`/blog/${meta.year}/${meta.slug}/`}>
+            <img src={entry.data.image} alt={entry.data.title} />
+          </a>
+        )}
+        <div class="entry-card__body">
+          <time>{formatDate(meta.date)}</time>
+          <h2>
+            <a href={`/blog/${meta.year}/${meta.slug}/`}>{entry.data.title}</a>
+          </h2>
+          <p>{entry.data.description}</p>
+        </div>
+      </article>
+    ))}
+  </section>
+</BaseLayout>

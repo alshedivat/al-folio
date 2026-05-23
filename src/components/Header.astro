@@ -1,0 +1,45 @@
+---
+import Social from "./Social.astro";
+import { fullName } from "../site";
+
+const { currentPath } = Astro.props;
+
+const navItems = [
+  { title: "About", href: "/" },
+  { title: "Blog", href: "/blog/" },
+  { title: "Open Source", href: "/open-source/" },
+  { title: "Hackathons", href: "/hackathons/" },
+  { title: "Media", href: "/videos/" },
+];
+
+function isActive(href: string) {
+  if (href === "/") {
+    return currentPath === "/";
+  }
+
+  return currentPath.startsWith(href);
+}
+---
+
+<header>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="site-nav__inner">
+      <a class="site-nav__brand" href="/" aria-label={`${fullName} homepage`}>
+        <span class="site-nav__mark">AJ</span>
+        <span>{fullName}</span>
+      </a>
+
+      <div class="site-nav__links">
+        {navItems.map((item) => (
+          <a class:list={["site-nav__link", isActive(item.href) && "is-active"]} href={item.href}>
+            {item.title}
+          </a>
+        ))}
+      </div>
+
+      <div class="site-nav__social">
+        <Social compact />
+      </div>
+    </div>
+  </nav>
+</header>

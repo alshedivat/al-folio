@@ -1,0 +1,13 @@
+---
+import Social from "./Social.astro";
+import { fullName } from "../site";
+
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <p>&copy; {year} {fullName}. Built with Astro.</p>
+    <Social />
+  </div>
+</footer>

@@ -1,0 +1,36 @@
+---
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { datedSlug, formatDate } from "../../../lib/content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("blog");
+
+  return posts.map((entry) => {
+    const meta = datedSlug(entry);
+
+    return {
+      params: { year: meta.year, slug: meta.slug },
+      props: { entry, meta },
+    };
+  });
+}
+
+const { entry, meta } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<BaseLayout title={entry.data.title} description={entry.data.description}>
+  {entry.data._styles && <style set:html={entry.data._styles} />}
+  <article class="article-shell">
+    <header class="article-header">
+      <a class="back-link" href="/blog/">Back to blog</a>
+      <h1>{entry.data.title}</h1>
+      <p>{formatDate(meta.date)}{entry.data.author && ` - ${entry.data.author}`}</p>
+    </header>
+
+    <div class="article-content">
+      <Content />
+    </div>
+  </article>
+</BaseLayout>
