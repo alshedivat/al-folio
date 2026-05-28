@@ -45,7 +45,6 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://platanios.org" target="_blank">★</a>
 <a href="https://otiliastr.github.io" target="_blank">★</a>
 <a href="https://www.maths.dur.ac.uk/~sxwc62/" target="_blank">★</a>
-<a href="https://jessachandler.com/" target="_blank">★</a>
 <a href="https://mayankm96.github.io/" target="_blank">★</a>
 <a href="https://markdean.info/" target="_blank">★</a>
 <a href="https://kakodkar.github.io/" target="_blank">★</a>
@@ -59,18 +58,17 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://andreea7b.github.io/" target="_blank">★</a>
 <a href="https://rishabhjoshi.github.io/" target="_blank">★</a>
 <a href="https://sheelabhadra.github.io/" target="_blank">★</a>
-<a href="https://giograno.me/" target="_blank">★</a>
+<a href="https://giograno.com/" target="_blank">★</a>
 <a href="https://immsrini.github.io/" target="_blank">★</a>
 <a href="https://apooladian.github.io/" target="_blank">★</a>
 <a href="https://chinmoy-dutta.github.io/" target="_blank">★</a>
 <a href="https://liamcli.com/" target="_blank">★</a>
 <a href="https://yoonholee.com/" target="_blank">★</a>
-<a href="https://zrqiao.github.io/" target="_blank">★</a>
 <a href="https://abstractgeek.github.io/" target="_blank">★</a>
 <a href="https://www.compphys.de/" target="_blank">★</a>
 <a href="https://julianstreyczek.github.io" target="_blank">★</a>
 <a href="https://sdaza.com" target="_blank">★</a>
-<a href="https://niweera.gq" target="_blank">★</a>
+<a href="https://niweera.com/" target="_blank">★</a>
 <a href="https://www.alihkw.com" target="_blank">★</a>
 <a href="https://amirpourmand.ir" target="_blank">★</a>
 <a href="https://scottleechua.github.io" target="_blank">★</a>
@@ -107,7 +105,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://bajinsheng.github.io/" target="_blank">★</a>
 <a href="https://www.silviofanzon.com/" target="_blank">★</a>
 <a href="https://kaikaiyao.github.io/" target="_blank">★</a>
-<a href="https://alchemz.github.io/" target="_blank">★</a>
+<a href="https://lilyzhng.github.io/" target="_blank">★</a>
 <a href="https://samadamday.com/" target="_blank">★</a>
 <a href="https://fanpu.io/" target="_blank">★</a>
 <a href="https://abigalekim.github.io/" target="_blank">★</a>
@@ -128,8 +126,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://www.zhivotenko.com/" target="_blank">★</a>
 <a href="https://giordanodaloisio.github.io/" target="_blank">★</a>
 <a href="https://aadityaura.github.io/" target="_blank">★</a>
-<a href="https://abhinav-mehta.github.io/" target="_blank">★</a>
-<a href="https://shubhashisroydipta.com/" target="_blank">★</a>
+<a href="https://roydipta.com/" target="_blank">★</a>
 <a href="https://astanziola.github.io" target="_blank">★</a>
 <a href="https://tinkerer.in" target="_blank">★</a>
 <a href="https://afraniomelo.github.io/en/" target="_blank">★</a>
@@ -140,7 +137,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://ztjona.github.io/" target="_blank">★</a>
 <a href="https://chrischoi314.github.io" target="_blank">★</a>
 <a href="https://riccobelli.faculty.polimi.it" target="_blank">★</a>
-<a href="https://kishanved.tech/" target="_blank">★</a>
+<a href="https://kishan-ved.github.io/portfolio/" target="_blank">★</a>
 <a href="https://abhilesh.github.io/" target="_blank">★</a>
 <a href="https://jackjburnett.github.io/" target="_blank">★</a>
 <a href="https://physics-morris.github.io/" target="_blank">★</a>
@@ -148,13 +145,10 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://acad.garywei.dev/" target="_blank">★</a>
 <a href="https://tonideleo.github.io/" target="_blank">★</a>
 <a href="https://alonkellner.com/" target="_blank">★</a>
-<a href="https://berylbir.github.io/" target="_blank">★</a>
-<a href="https://global-anomaly.github.io/" target="_blank">★</a>
 <a href="https://mingsun-kaust.github.io/" target="_blank">★</a>
 <a href="https://hdocmsu.github.io/" target="_blank">★</a>
 <a href="https://trandangtrungduc.github.io/" target="_blank">★</a>
-<a href="https://kinghowler.github.io/" target="_blank">★</a>
-<a href="https://anurye.github.io/" target="_blank">★</a>
+<a href="https://mumarshahbaz.com/" target="_blank">★</a>
 <a href="https://charlie-xiao.github.io/" target="_blank">★</a>
 <a href="https://giuseppeperelli.github.io/" target="_blank">★</a>
 <a href="https://shlee-lab.github.io/" target="_blank">★</a>
@@ -173,7 +167,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://freifrauvonbleifrei.github.io/" target="_blank">★</a>
 <a href="https://thomasbourke1.github.io/" target="_blank">★</a>
 <a href="https://siddharthsule.com/" target="_blank">★</a>
-<a href="https://waynexucn.github.io/" target="_blank">★</a>
+<a href="https://wenjiexu.site/" target="_blank">★</a>
 <a href="https://zlatanajanovic.com/" target="_blank">★</a>
 <a href="https://mchadolias.github.io/" target="_blank">★</a>
 <a href="https://syanyong.github.io/" target="_blank">★</a>
@@ -191,7 +185,7 @@ Feel free to add your own page(s) by sending a PR.
 <tr>
 <td>Labs</td>
 <td>
-<a href="https://www.haylab.caltech.edu/" target="_blank">★</a>
+<a href="https://haylab.caltech.edu/" target="_blank">★</a>
 <a href="https://sjkimlab.github.io/" target="_blank">★</a>
 <a href="https://systemconsultantgroup.github.io/scg-folio/" target="_blank">★</a>
 <a href="https://decisionlab.ucsf.edu/" target="_blank">★</a>
@@ -276,7 +270,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Collections](#collections)
     - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math &amp; code](#full-support-for-math--code)
+      - [Full support for math \& code](#full-support-for-math--code)
       - [Photos, Audio, Video and more](#photos-audio-video-and-more)
     - [Other features](#other-features)
       - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
