@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <section class="intro-section">
-  <h1>Understanding Human Behavior Through Data</h1>
+  <h2>Understanding Human Behavior Through Data</h2>
 
   <p>
     I explore how people think, behave, learn, engage, and change.
@@ -36,11 +36,11 @@ social: true  # includes social icons at the bottom of the page
 </section>
 
 <section class="interests-section">
-  <h2>Areas of Interest</h2>
+  <h3>Areas of Interest</h3>
 
   <div class="interest-grid">
     <div class="interest-card">
-      <h3>📊 Data &amp; Analytics</h3>
+      <h4>📊 Data &amp; Analytics</h4>
       <ul>
         <li>Behavioral analytics</li>
         <li>Product analytics</li>
@@ -50,7 +50,7 @@ social: true  # includes social icons at the bottom of the page
     </div>
 
     <div class="interest-card">
-      <h3>🧠 Cognition &amp; Behavior</h3>
+      <h4>🧠 Cognition &amp; Behavior</h4>
       <ul>
         <li>Cognitive psychology</li>
         <li>Decision-making</li>
@@ -60,7 +60,7 @@ social: true  # includes social icons at the bottom of the page
     </div>
 
     <div class="interest-card">
-      <h3>🌿 Health &amp; Human Change</h3>
+      <h4>🌿 Health &amp; Human Change</h4>
       <ul>
         <li>Women's health</li>
         <li>Health research</li>
@@ -73,17 +73,17 @@ social: true  # includes social icons at the bottom of the page
 </section>
 
 <section class="projects-section">
-  <h2>Current Projects</h2>
+  <h3>Current Projects</h3>
 
   <article class="project-card">
-    <h3>AI Data Exploration Agent</h3>
+    <h5>AI Data Exploration Agent</h5>
     <p>
       LLM-powered research assistant for large-scale health datasets.
     </p>
   </article>
 
   <article class="project-card">
-    <h3>Women's Health Research RAG</h3>
+    <h5>Women's Health Research RAG</h5>
     <p>
       Building an AI-assisted system that makes scientific literature on women's
       health more accessible.
@@ -91,7 +91,7 @@ social: true  # includes social icons at the bottom of the page
   </article>
 
   <article class="project-card">
-    <h3>Behavioral Analytics in Health Research</h3>
+    <h5>Behavioral Analytics in Health Research</h5>
     <p>
       Supporting NIH-funded longitudinal studies through data visualization and
       insight generation.
