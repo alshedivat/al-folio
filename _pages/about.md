@@ -2,40 +2,102 @@
 layout: about
 title: home
 permalink: /
-subtitle: <a href='#'>ML and AI data scientist, data analyst, Statistician, Psychometrician</a>. Montreal, Qc
+subtitle: <a href='#'>Behavioral Analytics • Cognitive Science • AI • Human Well-being</a>. 
 
 profile:
   align: right
   image: IMG_8438.jpg
   image_cicular: false # crops the image to make it circular
   address: >
-    <p>Montréal, Canada</p>
+    <p> </p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Greetings! I am Marion, a dedicated data scientist and analyst specializing in the intersection of Natural Language Processing (NLP), Machine Learning, and cognitive psychology. With a diverse educational background encompassing psychology and biology and specialization in metaphor appreciation and aesthetics during my Ph.D. years, I bring a unique blend of interdisciplinary expertise. Join me as I share my passion for exploring and leveraging new tools and technologies to simplify complex processes and uncover insights into human thought and behavior.
+<section class="intro-section">
+  <h1>Understanding Human Behavior Through Data</h1>
 
-My journey began with a genuine curiosity about the human mind's and language's intricacies. 
+  <p>
+    I explore how people think, behave, learn, engage, and change.
+  </p>
 
-Literature has long captivated me, serving as a portal to real and imagined worlds. From prose to poems, the written word can evoke emotions, spark creativity, and transport readers to distant lands. As a passionate advocate for the intersection of cognitive psychology and literature, I am deeply intrigued by the phenomenon of immersive reading and the cognitive processes underlying our engagement with literary language.
+  <p>
+    My work combines data science, cognitive psychology, artificial intelligence,
+    and health research to transform complex data into meaningful insights.
+  </p>
 
-This curiosity led me to pursue a Ph.D. in cognitive psychology, where I focused on literature appreciation, poetry reading, and metaphor recognition and appreciation. Through rigorous research and exploration, I gained invaluable insights into the cognitive processes underlying language comprehension and interpretation.
+  <p>
+    From NIH-funded neuroscience studies to AI-powered data exploration tools,
+    I help researchers, organizations, and teams better understand human behavior
+    and make informed decisions.
+  </p>
+</section>
 
-Driven by a desire to bridge theory with practical application, I transitioned into the dynamic fields of NLP and Machine Learning. Inspired by my cognitive psychology and aesthetics background, I want to use these amazing technologies to unravel the mysteries of language and creativity. With the rise of generative models as my tools of choice, I embarked on a quest to explore the depths of language processing and computational linguistics.
+<section class="interests-section">
+  <h2>Areas of Interest</h2>
 
-I am deeply committed to the ethical development and application of AI technologies. In my work, I focus on optimizing sustainability tools and methodologies, particularly in large language models (LLMs). Responsible AI development is crucial for creating technologies that benefit society while minimizing environmental impact. Moreover, I am also really focused on data privacy and take seriously this aspect into account when I am thinking of developing new tools on my own or looking to use tools created by others.
+  <div class="interest-grid">
+    <div class="interest-card">
+      <h3>📊 Data &amp; Analytics</h3>
+      <ul>
+        <li>Behavioral analytics</li>
+        <li>Product analytics</li>
+        <li>AI-powered data exploration</li>
+        <li>Visualization and decision support</li>
+      </ul>
+    </div>
 
-I am excited about the opportunities. With a passion for interdisciplinary exploration, a dedication to excellence, and a commitment to making a meaningful impact, I invite you to join me in deciphering the mysteries of language and cognition. Let us explore minds and machines together, forging new pathways of understanding and creativity in the ever-evolving landscape of technology.
+    <div class="interest-card">
+      <h3>🧠 Cognition &amp; Behavior</h3>
+      <ul>
+        <li>Cognitive psychology</li>
+        <li>Decision-making</li>
+        <li>Language and communication</li>
+        <li>Learning and attention</li>
+      </ul>
+    </div>
 
-Thank you for joining me on this exhilarating adventure. 
-Let's explore and create new things together!
+    <div class="interest-card">
+      <h3>🌿 Health &amp; Human Change</h3>
+      <ul>
+        <li>Women's health</li>
+        <li>Health research</li>
+        <li>Behavioral change</li>
+        <li>Hypnotherapy training</li>
+        <li>Evidence-based wellbeing</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
+<section class="projects-section">
+  <h2>Current Projects</h2>
 
+  <article class="project-card">
+    <h3>AI Data Exploration Agent</h3>
+    <p>
+      LLM-powered research assistant for large-scale health datasets.
+    </p>
+  </article>
 
-For more information on my formation and experience, you can find my resume [here](https://marionfech.github.io/assets/pdf/CV_english_2024.pdf), contact me via mail or any of the following social networks.
+  <article class="project-card">
+    <h3>Women's Health Research RAG</h3>
+    <p>
+      Building an AI-assisted system that makes scientific literature on women's
+      health more accessible.
+    </p>
+  </article>
+
+  <article class="project-card">
+    <h3>Behavioral Analytics in Health Research</h3>
+    <p>
+      Supporting NIH-funded longitudinal studies through data visualization and
+      insight generation.
+    </p>
+  </article>
+</section>
 
 <!---
 #Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/#Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, #Twitter, LinkedIn, Google Scholar, or just disable all of them.
