@@ -40,7 +40,7 @@ social: true  # includes social icons at the bottom of the page
 
   <div class="interest-grid">
     <div class="interest-card">
-      <h3>📊 Data &amp; Analytics</h3>
+      <h3>Data &amp; Analytics</h3>
       <ul>
         <li>Behavioral analytics</li>
         <li>Product analytics</li>
@@ -50,7 +50,7 @@ social: true  # includes social icons at the bottom of the page
     </div>
 
     <div class="interest-card">
-      <h3>🧠 Cognition &amp; Behavior</h3>
+      <h3>Cognition &amp; Behavior</h3>
       <ul>
         <li>Cognitive psychology</li>
         <li>Decision-making</li>
@@ -60,7 +60,7 @@ social: true  # includes social icons at the bottom of the page
     </div>
 
     <div class="interest-card">
-      <h3>🌿 Health &amp; Human Change</h3>
+      <h3>Health &amp; Human Change</h3>
       <ul>
         <li>Women's health</li>
         <li>Health research</li>
