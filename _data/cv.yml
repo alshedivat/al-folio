@@ -71,14 +71,14 @@
     - title: Graduate Research Fellow
       institution: Visualization Design Lab & KORE Lab, University of Utah
       year: August 2024 - December 2025
-    - title: Software Engineer — Digital Asset Management Team
+    - title: Software Engineer - Digital Asset Management Team
       institution: Optimizely
       year: May 2022 - July 2024
       description:
         - Digital Asset Management (DAM) team; implemented Brand Template features (download, export, cloning, task integration) and DAM collection search/filter/navigation with breadcrumbs.
         - Added asset meta information, relations, bulk operations, and GPT-3.5-turbo integration; instrumented user activity tracking and improved accessibility, performance, and code quality.
         - Technologies: Python, Flask, JavaScript, TypeScript, React.js, MySQL, MongoDB, Alembic, Celery, Elasticsearch.
-    - title: Software Engineering Intern — Asset Renditions Team
+    - title: Software Engineering Intern - Asset Renditions Team
       institution: Optimizely
       year: May 2022 - October 2022
       description:
@@ -143,7 +143,7 @@
         - Built guardrail sampling dashboards with attention checks and provenance logging for persuasive visualization studies.
         - Integrated reVISit for replayable participant sessions.
         - Tech: TypeScript, React, Vite, Mantine UI, Redux Toolkit, D3.js, Vega/Vega-Lite, Arquero, reVISit, Supabase, Firebase.
-    - title: HappyVis — Visualizing Happiness Around the Globe
+    - title: HappyVis - Visualizing Happiness Around the Globe
       year: 2024
       description:
         - Web-based visualization dashboard for World Happiness Report data with linked views (choropleth map, trend lines, correlation heatmaps, comparative views).
@@ -180,8 +180,8 @@
   contents:
     - year: 2023
       items:
-        - Optimizely SPOT Award — October 2023
-        - Optimizely SPOT Award — July 2023
+        - Optimizely SPOT Award - October 2023
+        - Optimizely SPOT Award - July 2023
     - year: 2025
       items:
         - Best Paper Award, IEEE VIS 2025 (ReVISit 2)
