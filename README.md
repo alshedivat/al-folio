@@ -180,6 +180,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://vud.org" target="_blank">★</a>
 <a href="https://www.byeongsc.com/" target="_blank">★</a>
 <a href="https://deden.id/" target="_blank">★</a>
+<a href="https://dylantao.github.io/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
