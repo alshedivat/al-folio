@@ -1,10 +1,256 @@
-<html>
-  <body>
-    <center>
-      <h2>Relativity: the Special and General Theory</h2>
-      <h5>Albert Einstein</h5>
-      <br />
-      Insert HTML document here.
-    </center>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Special Relativity</title>
+  <style>
+    :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; flex-direction:column; }
+    header { padding:1rem 1.25rem; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:1rem; }
+    header h1 { font-size:1.15rem; flex:1; }
+    header a { color:var(--accent); text-decoration:none; font-size:0.85rem; }
+    .layout { display:flex; flex:1; min-height:0; flex-wrap:wrap; }
+    .panel { flex:1; min-width:320px; display:flex; flex-direction:column; border-right:1px solid var(--border); }
+    .panel:last-child { border-right:none; }
+    .panel h2 { font-size:0.85rem; padding:0.75rem 1rem; border-bottom:1px solid var(--border); color:var(--muted); text-transform:uppercase; letter-spacing:0.06em; }
+    canvas { flex:1; display:block; background:#0a0e14; min-height:220px; }
+    aside { width:100%; border-top:1px solid var(--border); background:var(--surface); padding:1rem 1.25rem; display:flex; flex-wrap:wrap; gap:1.5rem; align-items:flex-end; }
+    .control { flex:1; min-width:180px; }
+    label { display:block; font-size:0.78rem; color:var(--muted); margin-bottom:0.25rem; text-transform:uppercase; letter-spacing:0.05em; }
+    input[type=range] { width:100%; accent-color:var(--accent); }
+    .val { color:var(--accent); font-variant-numeric:tabular-nums; }
+    .formula { padding:0.75rem 1rem; font-size:0.85rem; line-height:1.8; font-family:"Courier New",monospace; color:var(--muted); border-top:1px solid var(--border); }
+    .formula em { color:var(--accent); font-style:normal; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Special Relativity</h1>
+    <a href="index.html">← All simulations</a>
+  </header>
+  <div class="layout">
+    <div class="panel">
+      <h2>Lorentz factor γ(v)</h2>
+      <canvas id="graph"></canvas>
+      <div class="formula" id="formulas"></div>
+    </div>
+    <div class="panel">
+      <h2>Light clock (rest vs moving frame)</h2>
+      <canvas id="clock"></canvas>
+    </div>
+  </div>
+  <aside>
+    <div class="control">
+      <label>Velocity v/c <span class="val" id="vVal">0.60</span></label>
+      <input type="range" id="velocity" min="0" max="0.999" step="0.001" value="0.6">
+    </div>
+    <div class="control">
+      <label>γ (Lorentz factor) <span class="val" id="gVal">1.25</span></label>
+    </div>
+    <div class="control">
+      <label>Time dilation Δt/Δt₀ <span class="val" id="tVal">1.25</span></label>
+    </div>
+    <div class="control">
+      <label>Length contraction L/L₀ <span class="val" id="lVal">0.80</span></label>
+    </div>
+  </aside>
+  <script>
+    const graphCanvas = document.getElementById('graph');
+    const clockCanvas = document.getElementById('clock');
+    const gCtx = graphCanvas.getContext('2d');
+    const cCtx = clockCanvas.getContext('2d');
+    const DPR = window.devicePixelRatio || 1;
+    let beta = 0.6;
+    let time = 0;
+
+    function gamma(v) { return 1 / Math.sqrt(1 - v * v); }
+
+    function setupCanvas(canvas, ctx) {
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = rect.width * DPR;
+      canvas.height = rect.height * DPR;
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+      return { W: rect.width, H: rect.height };
+    }
+
+    function drawGraph() {
+      const { W, H } = setupCanvas(graphCanvas, gCtx);
+      gCtx.fillStyle = '#0a0e14';
+      gCtx.fillRect(0, 0, W, H);
+
+      const pad = { l: 50, r: 20, t: 20, b: 40 };
+      const plotW = W - pad.l - pad.r, plotH = H - pad.t - pad.b;
+
+      gCtx.strokeStyle = '#30363d';
+      gCtx.lineWidth = 1;
+      gCtx.beginPath();
+      gCtx.moveTo(pad.l, pad.t);
+      gCtx.lineTo(pad.l, pad.t + plotH);
+      gCtx.lineTo(pad.l + plotW, pad.t + plotH);
+      gCtx.stroke();
+
+      gCtx.fillStyle = '#8b949e';
+      gCtx.font = '11px system-ui';
+      gCtx.fillText('0', pad.l - 8, pad.t + plotH + 14);
+      gCtx.fillText('1', pad.l + plotW - 4, pad.t + plotH + 14);
+      gCtx.fillText('γ', pad.l - 30, pad.t + 10);
+      gCtx.fillText('v/c', pad.l + plotW / 2 - 10, H - 8);
+
+      const maxGamma = 10;
+      gCtx.strokeStyle = '#58a6ff';
+      gCtx.lineWidth = 2;
+      gCtx.beginPath();
+      for (let i = 0; i <= plotW; i++) {
+        const v = i / plotW;
+        const g = Math.min(gamma(v), maxGamma);
+        const x = pad.l + i;
+        const y = pad.t + plotH - (g / maxGamma) * plotH;
+        if (i === 0) gCtx.moveTo(x, y);
+        else gCtx.lineTo(x, y);
+      }
+      gCtx.stroke();
+
+      const g = gamma(beta);
+      const markerX = pad.l + beta * plotW;
+      const markerY = pad.t + plotH - (Math.min(g, maxGamma) / maxGamma) * plotH;
+      gCtx.strokeStyle = '#f0883e';
+      gCtx.setLineDash([4, 4]);
+      gCtx.beginPath();
+      gCtx.moveTo(markerX, pad.t + plotH);
+      gCtx.lineTo(markerX, markerY);
+      gCtx.lineTo(pad.l, markerY);
+      gCtx.stroke();
+      gCtx.setLineDash([]);
+      gCtx.fillStyle = '#f0883e';
+      gCtx.beginPath();
+      gCtx.arc(markerX, markerY, 5, 0, Math.PI * 2);
+      gCtx.fill();
+
+      gCtx.strokeStyle = '#3fb950';
+      gCtx.lineWidth = 1.5;
+      gCtx.setLineDash([6, 4]);
+      gCtx.beginPath();
+      for (let i = 0; i <= plotW; i++) {
+        const v = i / plotW;
+        const lc = Math.sqrt(1 - v * v);
+        const x = pad.l + i;
+        const y = pad.t + plotH - lc * plotH * 0.5;
+        if (i === 0) gCtx.moveTo(x, y);
+        else gCtx.lineTo(x, y);
+      }
+      gCtx.stroke();
+      gCtx.setLineDash([]);
+      gCtx.fillStyle = '#3fb950';
+      gCtx.fillText('L/L₀ (length contraction)', pad.l + 10, pad.t + 20);
+      gCtx.fillStyle = '#58a6ff';
+      gCtx.fillText('γ (time dilation)', pad.l + 10, pad.t + 36);
+    }
+
+    function drawClock() {
+      const { W, H } = setupCanvas(clockCanvas, cCtx);
+      cCtx.fillStyle = '#0a0e14';
+      cCtx.fillRect(0, 0, W, H);
+
+      const g = gamma(beta);
+      const halfW = W / 2;
+
+      function lightClock(ctx, cx, cy, height, label, contracted) {
+        const h = contracted ? height / g : height;
+        const w = contracted ? 50 / g : 50;
+        ctx.strokeStyle = '#8b949e';
+        ctx.lineWidth = 2;
+        ctx.strokeRect(cx - w / 2, cy - h, w, h);
+        ctx.fillStyle = '#e6edf3';
+        ctx.font = '12px system-ui';
+        ctx.textAlign = 'center';
+        ctx.fillText(label, cx, cy + 24);
+
+        const period = contracted ? 2 * h : 2 * height;
+        const phase = (time * 120) % period;
+        const goingUp = phase < (contracted ? h : height);
+        const y = goingUp
+          ? cy - phase
+          : cy - (contracted ? h : height) - (phase - (contracted ? h : height));
+
+        if (contracted) {
+          const zigPhase = (time * 120) % (2 * h);
+          const dx = w / 2;
+          let px, py;
+          if (zigPhase < h) {
+            px = cx + dx * (zigPhase / h);
+            py = cy - zigPhase;
+          } else {
+            px = cx + dx - dx * ((zigPhase - h) / h);
+            py = cy - h - (zigPhase - h);
+          }
+          ctx.strokeStyle = '#f0883e';
+          ctx.beginPath();
+          ctx.moveTo(cx, cy);
+          ctx.lineTo(px, py);
+          ctx.stroke();
+          ctx.fillStyle = '#f0883e';
+          ctx.beginPath();
+          ctx.arc(px, py, 5, 0, Math.PI * 2);
+          ctx.fill();
+        } else {
+          ctx.strokeStyle = '#58a6ff';
+          ctx.beginPath();
+          ctx.moveTo(cx, cy);
+          ctx.lineTo(cx, y);
+          ctx.stroke();
+          ctx.fillStyle = '#58a6ff';
+          ctx.beginPath();
+          ctx.arc(cx, y, 5, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+
+      lightClock(cCtx, halfW * 0.5, H * 0.65, H * 0.35, 'Rest frame (v = 0)', false);
+      lightClock(cCtx, halfW * 1.5, H * 0.65, H * 0.35, `Moving frame (v = ${(beta * 100).toFixed(1)}% c)`, true);
+
+      cCtx.textAlign = 'left';
+      cCtx.fillStyle = '#8b949e';
+      cCtx.font = '11px system-ui';
+      cCtx.fillText('Proper time Δt₀ = 2h/c', 12, 20);
+      cCtx.fillText(`Dilated time Δt = γ·Δt₀ = ${g.toFixed(2)}·Δt₀`, 12, 36);
+    }
+
+    function updateReadouts() {
+      const g = gamma(beta);
+      document.getElementById('vVal').textContent = beta.toFixed(3);
+      document.getElementById('gVal').textContent = g.toFixed(3);
+      document.getElementById('tVal').textContent = g.toFixed(3);
+      document.getElementById('lVal').textContent = (1 / g).toFixed(3);
+      document.getElementById('formulas').innerHTML =
+        `γ = 1/√(1 − v²/c²) = <em>${g.toFixed(4)}</em><br>` +
+        `Δt = γ·Δt₀ = <em>${g.toFixed(4)}</em> · Δt₀<br>` +
+        `L = L₀/γ = <em>${(1/g).toFixed(4)}</em> · L₀`;
+    }
+
+    function draw() {
+      drawGraph();
+      drawClock();
+      updateReadouts();
+    }
+
+    document.getElementById('velocity').oninput = e => {
+      beta = +e.target.value;
+      draw();
+    };
+
+    let last = performance.now();
+    function loop(now) {
+      time += Math.min((now - last) / 1000, 0.032);
+      last = now;
+      drawClock();
+      requestAnimationFrame(loop);
+    }
+
+    window.addEventListener('resize', draw);
+    draw();
+    requestAnimationFrame(loop);
+  </script>
+</body>
 </html>

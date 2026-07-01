@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elastic Collisions</title>
+  <style>
+    :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; flex-direction:column; }
+    header { padding:1rem 1.25rem; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:1rem; }
+    header h1 { font-size:1.15rem; flex:1; }
+    header a { color:var(--accent); text-decoration:none; font-size:0.85rem; }
+    .layout { display:flex; flex:1; min-height:0; }
+    canvas { flex:1; display:block; background:#0a0e14; cursor:crosshair; }
+    aside { width:280px; border-left:1px solid var(--border); background:var(--surface); padding:1rem; overflow-y:auto; }
+    label { display:block; font-size:0.78rem; color:var(--muted); margin:0.75rem 0 0.25rem; text-transform:uppercase; letter-spacing:0.05em; }
+    input[type=range] { width:100%; accent-color:var(--accent); }
+    .val { float:right; color:var(--accent); font-variant-numeric:tabular-nums; }
+    button { width:100%; margin-top:0.5rem; padding:0.5rem; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); cursor:pointer; }
+    button:hover { border-color:var(--accent); }
+    .stats { margin-top:1rem; padding:0.75rem; background:var(--bg); border-radius:8px; font-size:0.82rem; line-height:1.7; font-variant-numeric:tabular-nums; }
+    @media (max-width:700px) { .layout { flex-direction:column; } aside { width:100%; border-left:none; border-top:1px solid var(--border); } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Elastic Collisions</h1>
+    <a href="index.html">← All simulations</a>
+  </header>
+  <div class="layout">
+    <canvas id="c"></canvas>
+    <aside>
+      <label>Restitution <span class="val" id="rVal">1.00</span></label>
+      <input type="range" id="restitution" min="0.5" max="1" step="0.01" value="1">
+      <label>Ball count <span class="val" id="nVal">8</span></label>
+      <input type="range" id="count" min="2" max="20" step="1" value="8">
+      <button id="reset">Reset</button>
+      <button id="pause">Pause</button>
+      <div class="stats" id="stats">Click canvas to add a ball.<br>Momentum and energy tracked below.</div>
+    </aside>
+  </div>
+  <script>
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const DPR = window.devicePixelRatio || 1;
+    let W, H;
+    let balls = [];
+    let paused = false;
+    let restitution = 1;
+
+    const COLORS = ['#58a6ff','#3fb950','#f0883e','#d2a8ff','#ff7b72','#79c0ff','#e3b341','#56d364'];
+
+    function resize() {
+      const rect = canvas.getBoundingClientRect();
+      W = rect.width; H = rect.height;
+      canvas.width = W * DPR; canvas.height = H * DPR;
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    function randBall(x, y) {
+      const r = 12 + Math.random() * 14;
+      const angle = Math.random() * Math.PI * 2;
+      const speed = 80 + Math.random() * 180;
+      return {
+        x: x ?? r + Math.random() * (W - 2 * r),
+        y: y ?? r + Math.random() * (H - 2 * r),
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed,
+        r,
+        m: r * r,
+        color: COLORS[Math.floor(Math.random() * COLORS.length)]
+      };
+    }
+
+    function init(n) {
+      balls = [];
+      for (let i = 0; i < n; i++) balls.push(randBall());
+    }
+
+    function resolveWall(b) {
+      if (b.x - b.r < 0) { b.x = b.r; b.vx = -b.vx * restitution; }
+      if (b.x + b.r > W) { b.x = W - b.r; b.vx = -b.vx * restitution; }
+      if (b.y - b.r < 0) { b.y = b.r; b.vy = -b.vy * restitution; }
+      if (b.y + b.r > H) { b.y = H - b.r; b.vy = -b.vy * restitution; }
+    }
+
+    function resolvePair(a, b) {
+      const dx = b.x - a.x, dy = b.y - a.y;
+      const dist = Math.hypot(dx, dy);
+      const minDist = a.r + b.r;
+      if (dist === 0 || dist >= minDist) return;
+      const nx = dx / dist, ny = dy / dist;
+      const overlap = minDist - dist;
+      const totalM = a.m + b.m;
+      a.x -= nx * overlap * (b.m / totalM);
+      a.y -= ny * overlap * (b.m / totalM);
+      b.x += nx * overlap * (a.m / totalM);
+      b.y += ny * overlap * (a.m / totalM);
+      const dvn = (a.vx - b.vx) * nx + (a.vy - b.vy) * ny;
+      if (dvn > 0) return;
+      const j = -(1 + restitution) * dvn / (1 / a.m + 1 / b.m);
+      a.vx += j * nx / a.m; a.vy += j * ny / a.m;
+      b.vx -= j * nx / b.m; b.vy -= j * ny / b.m;
+    }
+
+    function totals() {
+      let px = 0, py = 0, ke = 0;
+      balls.forEach(b => {
+        px += b.m * b.vx; py += b.m * b.vy;
+        ke += 0.5 * b.m * (b.vx * b.vx + b.vy * b.vy);
+      });
+      return { px, py, ke };
+    }
+
+    function step(dt) {
+      balls.forEach(b => {
+        b.x += b.vx * dt;
+        b.y += b.vy * dt;
+        resolveWall(b);
+      });
+      for (let i = 0; i < balls.length; i++) {
+        for (let j = i + 1; j < balls.length; j++) resolvePair(balls[i], balls[j]);
+      }
+    }
+
+    function draw() {
+      ctx.fillStyle = '#0a0e14';
+      ctx.fillRect(0, 0, W, H);
+      ctx.strokeStyle = '#30363d';
+      ctx.lineWidth = 2;
+      ctx.strokeRect(1, 1, W - 2, H - 2);
+
+      balls.forEach(b => {
+        ctx.fillStyle = b.color;
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.strokeStyle = 'rgba(255,255,255,0.3)';
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+        ctx.strokeStyle = 'rgba(255,255,255,0.5)';
+        ctx.beginPath();
+        ctx.moveTo(b.x, b.y);
+        ctx.lineTo(b.x + b.vx * 0.08, b.y + b.vy * 0.08);
+        ctx.stroke();
+      });
+
+      const t = totals();
+      document.getElementById('stats').innerHTML =
+        `Balls: ${balls.length}<br>` +
+        `pₓ = ${t.px.toFixed(0)} · pᵧ = ${t.py.toFixed(0)}<br>` +
+        `KE = ${(t.ke / 1000).toFixed(2)} kJ<br><br>` +
+        `Click to add a ball.`;
+    }
+
+    canvas.addEventListener('click', e => {
+      const rect = canvas.getBoundingClientRect();
+      balls.push(randBall(e.clientX - rect.left, e.clientY - rect.top));
+    });
+
+    let last = performance.now();
+    function loop(now) {
+      const dt = Math.min((now - last) / 1000, 0.032);
+      last = now;
+      if (!paused) step(dt);
+      draw();
+      requestAnimationFrame(loop);
+    }
+
+    document.getElementById('restitution').oninput = e => {
+      restitution = +e.target.value;
+      document.getElementById('rVal').textContent = restitution.toFixed(2);
+    };
+    document.getElementById('count').oninput = e => {
+      document.getElementById('nVal').textContent = e.target.value;
+    };
+    document.getElementById('reset').onclick = () => init(+document.getElementById('count').value);
+    document.getElementById('pause').onclick = () => {
+      paused = !paused;
+      document.getElementById('pause').textContent = paused ? 'Resume' : 'Pause';
+    };
+
+    init(8);
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>

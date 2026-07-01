@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spring–Mass Chain</title>
+  <style>
+    :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; flex-direction:column; }
+    header { padding:1rem 1.25rem; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:1rem; }
+    header h1 { font-size:1.15rem; flex:1; }
+    header a { color:var(--accent); text-decoration:none; font-size:0.85rem; }
+    .layout { display:flex; flex:1; min-height:0; }
+    canvas { flex:1; display:block; background:#0a0e14; cursor:pointer; }
+    aside { width:280px; border-left:1px solid var(--border); background:var(--surface); padding:1rem; overflow-y:auto; }
+    label { display:block; font-size:0.78rem; color:var(--muted); margin:0.75rem 0 0.25rem; text-transform:uppercase; letter-spacing:0.05em; }
+    input[type=range] { width:100%; accent-color:var(--accent); }
+    .val { float:right; color:var(--accent); font-variant-numeric:tabular-nums; }
+    button { width:100%; margin-top:0.5rem; padding:0.5rem; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); cursor:pointer; }
+    button:hover { border-color:var(--accent); }
+    .stats { margin-top:1rem; padding:0.75rem; background:var(--bg); border-radius:8px; font-size:0.82rem; line-height:1.7; }
+    @media (max-width:700px) { .layout { flex-direction:column; } aside { width:100%; border-left:none; border-top:1px solid var(--border); } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Spring–Mass Chain</h1>
+    <a href="index.html">← All simulations</a>
+  </header>
+  <div class="layout">
+    <canvas id="c"></canvas>
+    <aside>
+      <label>Masses <span class="val" id="nVal">12</span></label>
+      <input type="range" id="count" min="3" max="24" step="1" value="12">
+      <label>Spring k <span class="val" id="kVal">80</span></label>
+      <input type="range" id="springK" min="10" max="200" step="5" value="80">
+      <label>Damping <span class="val" id="dVal">0.02</span></label>
+      <input type="range" id="damping" min="0" max="0.2" step="0.005" value="0.02">
+      <label>Rest length <span class="val" id="lVal">40</span></label>
+      <input type="range" id="restLen" min="20" max="80" step="1" value="40">
+      <button id="reset">Reset chain</button>
+      <div class="stats">Click or drag on the canvas to pluck a mass. The chain models F = −k·Δx with velocity damping.</div>
+    </aside>
+  </div>
+  <script>
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const DPR = window.devicePixelRatio || 1;
+    let W, H;
+    let masses = [];
+    let k = 80, damp = 0.02, restLen = 40, anchorY;
+
+    function resize() {
+      const rect = canvas.getBoundingClientRect();
+      W = rect.width; H = rect.height;
+      canvas.width = W * DPR; canvas.height = H * DPR;
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+      anchorY = H * 0.35;
+      initMasses(+document.getElementById('count').value);
+    }
+    window.addEventListener('resize', resize);
+
+    function initMasses(n) {
+      const spacing = restLen;
+      const totalW = (n - 1) * spacing;
+      const startX = (W - totalW) / 2;
+      masses = [];
+      for (let i = 0; i < n; i++) {
+        masses.push({ x: startX + i * spacing, y: anchorY, vx: 0, vy: 0, pinned: i === 0 || i === n - 1 });
+      }
+    }
+
+    function step(dt) {
+      const forces = masses.map(() => ({ fx: 0, fy: 0 }));
+
+      for (let i = 0; i < masses.length - 1; i++) {
+        const a = masses[i], b = masses[i + 1];
+        const dx = b.x - a.x, dy = b.y - a.y;
+        const dist = Math.hypot(dx, dy) || 0.001;
+        const stretch = dist - restLen;
+        const fx = k * stretch * dx / dist;
+        const fy = k * stretch * dy / dist;
+        forces[i].fx += fx; forces[i].fy += fy;
+        forces[i + 1].fx -= fx; forces[i + 1].fy -= fy;
+      }
+
+      masses.forEach((m, i) => {
+        if (m.pinned) return;
+        m.vx += (forces[i].fx - damp * m.vx) * dt;
+        m.vy += (forces[i].fy - damp * m.vy) * dt;
+        m.x += m.vx * dt * 60;
+        m.y += m.vy * dt * 60;
+      });
+    }
+
+    function draw() {
+      ctx.fillStyle = '#0a0e14';
+      ctx.fillRect(0, 0, W, H);
+
+      ctx.strokeStyle = '#58a6ff';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      masses.forEach((m, i) => { if (i === 0) ctx.moveTo(m.x, m.y); else ctx.lineTo(m.x, m.y); });
+      ctx.stroke();
+
+      masses.forEach((m, i) => {
+        ctx.fillStyle = m.pinned ? '#8b949e' : '#3fb950';
+        ctx.beginPath();
+        ctx.arc(m.x, m.y, m.pinned ? 8 : 10, 0, Math.PI * 2);
+        ctx.fill();
+        if (m.pinned) {
+          ctx.strokeStyle = '#30363d';
+          ctx.lineWidth = 2;
+          ctx.beginPath();
+          ctx.moveTo(m.x, m.y - 30);
+          ctx.lineTo(m.x, m.y);
+          ctx.stroke();
+        }
+      });
+    }
+
+    function pluck(x, y) {
+      let best = -1, bestD = 40;
+      masses.forEach((m, i) => {
+        if (m.pinned) return;
+        const d = Math.hypot(m.x - x, m.y - y);
+        if (d < bestD) { bestD = d; best = i; }
+      });
+      if (best >= 0) {
+        masses[best].vy -= 300;
+        masses[best].vx += (Math.random() - 0.5) * 100;
+      }
+    }
+
+    let dragging = false;
+    canvas.addEventListener('mousedown', e => { dragging = true; pluck(e.offsetX, e.offsetY); });
+    canvas.addEventListener('mousemove', e => { if (dragging) pluck(e.offsetX, e.offsetY); });
+    canvas.addEventListener('mouseup', () => dragging = false);
+    canvas.addEventListener('mouseleave', () => dragging = false);
+
+    let last = performance.now();
+    function loop(now) {
+      const dt = Math.min((now - last) / 1000, 0.032);
+      last = now;
+      for (let i = 0; i < 4; i++) step(dt / 4);
+      draw();
+      requestAnimationFrame(loop);
+    }
+
+    document.getElementById('springK').oninput = e => {
+      k = +e.target.value;
+      document.getElementById('kVal').textContent = k;
+    };
+    document.getElementById('damping').oninput = e => {
+      damp = +e.target.value;
+      document.getElementById('dVal').textContent = damp.toFixed(3);
+    };
+    document.getElementById('restLen').oninput = e => {
+      restLen = +e.target.value;
+      document.getElementById('lVal').textContent = restLen;
+    };
+    document.getElementById('count').oninput = e => {
+      document.getElementById('nVal').textContent = e.target.value;
+    };
+    document.getElementById('reset').onclick = () => initMasses(+document.getElementById('count').value);
+
+    resize();
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>

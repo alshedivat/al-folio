@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projectile Motion</title>
+  <style>
+    :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; flex-direction:column; }
+    header { padding:1rem 1.25rem; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:1rem; }
+    header h1 { font-size:1.15rem; flex:1; }
+    header a { color:var(--accent); text-decoration:none; font-size:0.85rem; }
+    .layout { display:flex; flex:1; min-height:0; }
+    canvas { flex:1; display:block; background:linear-gradient(to bottom,#0a1628 0%,#0a0e14 40%,#1a1208 40%,#0f0a06 100%); }
+    aside { width:280px; border-left:1px solid var(--border); background:var(--surface); padding:1rem; overflow-y:auto; }
+    label { display:block; font-size:0.78rem; color:var(--muted); margin:0.75rem 0 0.25rem; text-transform:uppercase; letter-spacing:0.05em; }
+    input[type=range] { width:100%; accent-color:var(--accent); }
+    .val { float:right; color:var(--accent); font-variant-numeric:tabular-nums; }
+    button { width:100%; margin-top:0.75rem; padding:0.55rem; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); cursor:pointer; }
+    button:hover { border-color:var(--accent); }
+    .stats { margin-top:1rem; padding:0.75rem; background:var(--bg); border-radius:8px; font-size:0.82rem; line-height:1.8; font-variant-numeric:tabular-nums; }
+    @media (max-width:700px) { .layout { flex-direction:column; } aside { width:100%; border-left:none; border-top:1px solid var(--border); } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Projectile Motion</h1>
+    <a href="index.html">← All simulations</a>
+  </header>
+  <div class="layout">
+    <canvas id="c"></canvas>
+    <aside>
+      <label>Launch angle <span class="val" id="angVal">45°</span></label>
+      <input type="range" id="angle" min="5" max="85" step="1" value="45">
+      <label>Initial speed <span class="val" id="spdVal">50 m/s</span></label>
+      <input type="range" id="speed" min="10" max="100" step="1" value="50">
+      <label>Gravity <span class="val" id="gVal">9.81 m/s²</span></label>
+      <input type="range" id="gravity" min="1" max="20" step="0.1" value="9.81">
+      <label>Drag coefficient <span class="val" id="dragVal">0.00</span></label>
+      <input type="range" id="drag" min="0" max="0.15" step="0.005" value="0">
+      <button id="fire">Launch</button>
+      <button id="clear">Clear trails</button>
+      <div class="stats" id="stats">Adjust parameters and launch.</div>
+    </aside>
+  </div>
+  <script>
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const DPR = window.devicePixelRatio || 1;
+    let W, H, groundY, scale;
+
+    const params = { angle: 45, speed: 50, g: 9.81, drag: 0 };
+    let projectile = null;
+    let trails = [];
+    let currentTrail = [];
+
+    function resize() {
+      const rect = canvas.getBoundingClientRect();
+      W = rect.width; H = rect.height;
+      canvas.width = W * DPR; canvas.height = H * DPR;
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+      groundY = H * 0.72;
+      scale = Math.min(W, H) / 120;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    function launch() {
+      const rad = params.angle * Math.PI / 180;
+      projectile = {
+        x: W * 0.08, y: groundY,
+        vx: params.speed * Math.cos(rad) * scale * 0.12,
+        vy: -params.speed * Math.sin(rad) * scale * 0.12,
+        t: 0
+      };
+      currentTrail = [{ x: projectile.x, y: projectile.y }];
+    }
+
+    function step(dt) {
+      if (!projectile) return;
+      const p = projectile;
+      const speed = Math.hypot(p.vx, p.vy);
+      const dragF = params.drag * speed * speed * 0.001;
+      const ax = speed > 0 ? -dragF * p.vx / speed : 0;
+      const ay = params.g * scale * 0.012 + (speed > 0 ? -dragF * p.vy / speed : 0);
+      p.vx += ax * dt;
+      p.vy += ay * dt;
+      p.x += p.vx * dt * 60;
+      p.y += p.vy * dt * 60;
+      p.t += dt;
+      currentTrail.push({ x: p.x, y: p.y });
+      if (p.y >= groundY) {
+        p.y = groundY;
+        trails.push([...currentTrail]);
+        currentTrail = [];
+        projectile = null;
+      }
+    }
+
+    function analyticNoDrag() {
+      const rad = params.angle * Math.PI / 180;
+      const v0 = params.speed;
+      const g = params.g;
+      const tFlight = 2 * v0 * Math.sin(rad) / g;
+      const range = v0 * v0 * Math.sin(2 * rad) / g;
+      const maxH = v0 * v0 * Math.sin(rad) * Math.sin(rad) / (2 * g);
+      return { tFlight, range, maxH };
+    }
+
+    function draw() {
+      ctx.fillStyle = '#0a1628';
+      ctx.fillRect(0, 0, W, groundY);
+      ctx.fillStyle = '#1a1208';
+      ctx.fillRect(0, groundY, W, H - groundY);
+      ctx.strokeStyle = '#3d2e1a';
+      ctx.lineWidth = 2;
+      ctx.beginPath(); ctx.moveTo(0, groundY); ctx.lineTo(W, groundY); ctx.stroke();
+
+      ctx.strokeStyle = 'rgba(88,166,255,0.25)';
+      ctx.lineWidth = 1.5;
+      trails.forEach(trail => {
+        ctx.beginPath();
+        trail.forEach((pt, i) => { if (i === 0) ctx.moveTo(pt.x, pt.y); else ctx.lineTo(pt.x, pt.y); });
+        ctx.stroke();
+      });
+      if (currentTrail.length > 1) {
+        ctx.strokeStyle = '#58a6ff';
+        ctx.beginPath();
+        currentTrail.forEach((pt, i) => { if (i === 0) ctx.moveTo(pt.x, pt.y); else ctx.lineTo(pt.x, pt.y); });
+        ctx.stroke();
+      }
+
+      const launchX = W * 0.08;
+      ctx.fillStyle = '#8b949e';
+      ctx.fillRect(launchX - 4, groundY - 30, 8, 30);
+      ctx.fillStyle = '#58a6ff';
+      ctx.beginPath();
+      ctx.arc(launchX, groundY - 32, 8, 0, Math.PI * 2);
+      ctx.fill();
+
+      if (projectile) {
+        ctx.fillStyle = '#f0883e';
+        ctx.beginPath();
+        ctx.arc(projectile.x, projectile.y, 7, 0, Math.PI * 2);
+        ctx.fill();
+        const a = analyticNoDrag();
+        document.getElementById('stats').innerHTML =
+          `<strong>In flight</strong><br>t = ${projectile.t.toFixed(2)} s<br>` +
+          `x = ${((projectile.x - launchX) / scale / 0.12).toFixed(1)} m<br>` +
+          `y = ${((groundY - projectile.y) / scale / 0.12).toFixed(1)} m<br><br>` +
+          `<strong>No-drag theory</strong><br>Range = ${a.range.toFixed(1)} m<br>` +
+          `Max height = ${a.maxH.toFixed(1)} m<br>Flight time = ${a.tFlight.toFixed(2)} s`;
+      }
+    }
+
+    let last = performance.now();
+    function loop(now) {
+      step(Math.min((now - last) / 1000, 0.032));
+      last = now;
+      draw();
+      requestAnimationFrame(loop);
+    }
+
+    document.getElementById('angle').oninput = e => {
+      params.angle = +e.target.value;
+      document.getElementById('angVal').textContent = params.angle + '°';
+    };
+    document.getElementById('speed').oninput = e => {
+      params.speed = +e.target.value;
+      document.getElementById('spdVal').textContent = params.speed + ' m/s';
+    };
+    document.getElementById('gravity').oninput = e => {
+      params.g = +e.target.value;
+      document.getElementById('gVal').textContent = params.g.toFixed(2) + ' m/s²';
+    };
+    document.getElementById('drag').oninput = e => {
+      params.drag = +e.target.value;
+      document.getElementById('dragVal').textContent = params.drag.toFixed(3);
+    };
+    document.getElementById('fire').onclick = launch;
+    document.getElementById('clear').onclick = () => { trails = []; currentTrail = []; };
+
+    const a = analyticNoDrag();
+    document.getElementById('stats').innerHTML =
+      `<strong>No-drag theory</strong><br>Range = ${a.range.toFixed(1)} m<br>` +
+      `Max height = ${a.maxH.toFixed(1)} m<br>Flight time = ${a.tFlight.toFixed(2)} s`;
+
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wave Interference</title>
+  <style>
+    :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; flex-direction:column; }
+    header { padding:1rem 1.25rem; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:1rem; }
+    header h1 { font-size:1.15rem; flex:1; }
+    header a { color:var(--accent); text-decoration:none; font-size:0.85rem; }
+    .layout { display:flex; flex:1; min-height:0; }
+    canvas { flex:1; display:block; background:#000; image-rendering:pixelated; }
+    aside { width:280px; border-left:1px solid var(--border); background:var(--surface); padding:1rem; overflow-y:auto; }
+    label { display:block; font-size:0.78rem; color:var(--muted); margin:0.75rem 0 0.25rem; text-transform:uppercase; letter-spacing:0.05em; }
+    input[type=range] { width:100%; accent-color:var(--accent); }
+    .val { float:right; color:var(--accent); font-variant-numeric:tabular-nums; }
+    .stats { margin-top:1rem; padding:0.75rem; background:var(--bg); border-radius:8px; font-size:0.82rem; line-height:1.7; }
+    @media (max-width:700px) { .layout { flex-direction:column; } aside { width:100%; border-left:none; border-top:1px solid var(--border); } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Wave Interference</h1>
+    <a href="index.html">← All simulations</a>
+  </header>
+  <div class="layout">
+    <canvas id="c"></canvas>
+    <aside>
+      <label>Frequency <span class="val" id="fVal">2.0 Hz</span></label>
+      <input type="range" id="freq" min="0.5" max="5" step="0.1" value="2">
+      <label>Wavelength <span class="val" id="wVal">80 px</span></label>
+      <input type="range" id="wavelength" min="30" max="150" step="1" value="80">
+      <label>Source separation <span class="val" id="sVal">120 px</span></label>
+      <input type="range" id="sep" min="40" max="250" step="1" value="120">
+      <label>Phase offset <span class="val" id="pVal">0°</span></label>
+      <input type="range" id="phase" min="0" max="360" step="1" value="0">
+      <label>Wave speed <span class="val" id="vVal">160 px/s</span></label>
+      <input type="range" id="speed" min="50" max="400" step="10" value="160">
+      <div class="stats">
+        Two coherent point sources emit circular waves. The color map shows instantaneous displacement; bright bands indicate constructive interference, dark regions destructive.
+      </div>
+    </aside>
+  </div>
+  <script>
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const DPR = window.devicePixelRatio || 1;
+    let W, H, imgData;
+
+    const params = { freq: 2, wavelength: 80, sep: 120, phase: 0, speed: 160 };
+    let time = 0;
+
+    function resize() {
+      const rect = canvas.getBoundingClientRect();
+      W = Math.floor(rect.width);
+      H = Math.floor(rect.height);
+      canvas.width = W * DPR;
+      canvas.height = H * DPR;
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+      imgData = ctx.createImageData(W, H);
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    function waveColor(amp) {
+      const t = (amp + 2) / 4;
+      const r = Math.floor(20 + 60 * t);
+      const g = Math.floor(80 + 120 * t);
+      const b = Math.floor(180 + 75 * (1 - t));
+      return [r, g, b];
+    }
+
+    function draw() {
+      const k = 2 * Math.PI / params.wavelength;
+      const omega = 2 * Math.PI * params.freq;
+      const cx = W / 2, cy = H / 2;
+      const s1x = cx - params.sep / 2, s2x = cx + params.sep / 2;
+      const sy = cy;
+      const phase2 = params.phase * Math.PI / 180;
+      const data = imgData.data;
+      const step = 2;
+
+      for (let y = 0; y < H; y += step) {
+        for (let x = 0; x < W; x += step) {
+          const r1 = Math.hypot(x - s1x, y - sy);
+          const r2 = Math.hypot(x - s2x, y - sy);
+          const amp = Math.sin(k * r1 - omega * time) + Math.sin(k * r2 - omega * time + phase2);
+          const [r, g, b] = waveColor(amp);
+          for (let dy = 0; dy < step && y + dy < H; dy++) {
+            for (let dx = 0; dx < step && x + dx < W; dx++) {
+              const idx = ((y + dy) * W + (x + dx)) * 4;
+              data[idx] = r; data[idx + 1] = g; data[idx + 2] = b; data[idx + 3] = 255;
+            }
+          }
+        }
+      }
+      ctx.putImageData(imgData, 0, 0);
+
+      ctx.fillStyle = '#fff';
+      ctx.beginPath(); ctx.arc(s1x, sy, 5, 0, Math.PI * 2); ctx.fill();
+      ctx.beginPath(); ctx.arc(s2x, sy, 5, 0, Math.PI * 2); ctx.fill();
+    }
+
+    let last = performance.now();
+    function loop(now) {
+      time += Math.min((now - last) / 1000, 0.032);
+      last = now;
+      draw();
+      requestAnimationFrame(loop);
+    }
+
+    document.getElementById('freq').oninput = e => {
+      params.freq = +e.target.value;
+      document.getElementById('fVal').textContent = params.freq.toFixed(1) + ' Hz';
+    };
+    document.getElementById('wavelength').oninput = e => {
+      params.wavelength = +e.target.value;
+      document.getElementById('wVal').textContent = params.wavelength + ' px';
+    };
+    document.getElementById('sep').oninput = e => {
+      params.sep = +e.target.value;
+      document.getElementById('sVal').textContent = params.sep + ' px';
+    };
+    document.getElementById('phase').oninput = e => {
+      params.phase = +e.target.value;
+      document.getElementById('pVal').textContent = params.phase + '°';
+    };
+    document.getElementById('speed').oninput = e => {
+      params.speed = +e.target.value;
+      document.getElementById('vVal').textContent = params.speed + ' px/s';
+    };
+
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>

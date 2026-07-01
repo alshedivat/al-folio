@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Physics Simulations</title>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --accent-2: #3fb950;
+      --accent-3: #d2a8ff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: radial-gradient(ellipse at top, #1a2332 0%, var(--bg) 55%);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+    header {
+      text-align: center;
+      padding: 3rem 1.5rem 2rem;
+      border-bottom: 1px solid var(--border);
+    }
+    header h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    header p {
+      color: var(--muted);
+      max-width: 640px;
+      margin: 0.75rem auto 0;
+    }
+    .badge {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      font-size: 0.8rem;
+      color: var(--accent);
+    }
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.25rem;
+    }
+    a.card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.35rem;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    }
+    a.card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+    .card-icon {
+      font-size: 1.75rem;
+      margin-bottom: 0.5rem;
+    }
+    .card h2 {
+      font-size: 1.1rem;
+      margin-bottom: 0.35rem;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    .tag {
+      display: inline-block;
+      margin-top: 0.75rem;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent-2);
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      border-top: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HTML5 Physics Simulations</h1>
+    <p>Interactive demonstrations of classical and relativistic mechanics. Each simulation is a single self-contained file using the Canvas API and vanilla JavaScript — no external libraries.</p>
+    <span class="badge">Canvas 2D · requestAnimationFrame · RK4 integration</span>
+  </header>
+  <main>
+    <div class="grid">
+      <a class="card" href="pendulum.html">
+        <div class="card-icon">🎯</div>
+        <h2>Pendulum</h2>
+        <p>Simple and double pendulum with Runge–Kutta integration. Watch deterministic chaos emerge from coupled oscillators.</p>
+        <span class="tag">Classical mechanics</span>
+      </a>
+      <a class="card" href="projectile.html">
+        <div class="card-icon">🚀</div>
+        <h2>Projectile Motion</h2>
+        <p>Launch trajectories under gravity with optional quadratic air drag. Live readouts for range, apex, and flight time.</p>
+        <span class="tag">Kinematics</span>
+      </a>
+      <a class="card" href="waves.html">
+        <div class="card-icon">🌊</div>
+        <h2>Wave Interference</h2>
+        <p>Superposition of two point sources on a 2D wave field. Constructive and destructive interference patterns in real time.</p>
+        <span class="tag">Wave optics</span>
+      </a>
+      <a class="card" href="collisions.html">
+        <div class="card-icon">⚪</div>
+        <h2>Elastic Collisions</h2>
+        <p>Billiard-ball physics with momentum-conserving impulse resolution. Click to spawn balls and watch energy transfer.</p>
+        <span class="tag">Conservation laws</span>
+      </a>
+      <a class="card" href="orbits.html">
+        <div class="card-icon">🪐</div>
+        <h2>Gravitational Orbits</h2>
+        <p>N-body gravity with presets for binary stars, solar system, and the figure-eight three-body solution.</p>
+        <span class="tag">Celestial mechanics</span>
+      </a>
+      <a class="card" href="springs.html">
+        <div class="card-icon">🔗</div>
+        <h2>Spring–Mass Chain</h2>
+        <p>Coupled harmonic oscillators connected by Hookean springs with adjustable damping. Pluck the chain to excite modes.</p>
+        <span class="tag">Oscillations</span>
+      </a>
+      <a class="card" href="relativity.html">
+        <div class="card-icon">⚡</div>
+        <h2>Special Relativity</h2>
+        <p>Lorentz factor, time dilation, length contraction, and a light-clock thought experiment at relativistic speeds.</p>
+        <span class="tag">Modern physics</span>
+      </a>
+    </div>
+  </main>
+  <footer>Self-contained HTML5 · No external dependencies · Open in any modern browser</footer>
+</body>
+</html>

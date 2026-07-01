@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gravitational Orbits</title>
+  <style>
+    :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; flex-direction:column; }
+    header { padding:1rem 1.25rem; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:1rem; }
+    header h1 { font-size:1.15rem; flex:1; }
+    header a { color:var(--accent); text-decoration:none; font-size:0.85rem; }
+    .layout { display:flex; flex:1; min-height:0; }
+    canvas { flex:1; display:block; background:#000; cursor:grab; }
+    canvas:active { cursor:grabbing; }
+    aside { width:280px; border-left:1px solid var(--border); background:var(--surface); padding:1rem; overflow-y:auto; }
+    label { display:block; font-size:0.78rem; color:var(--muted); margin:0.75rem 0 0.25rem; text-transform:uppercase; letter-spacing:0.05em; }
+    input[type=range] { width:100%; accent-color:var(--accent); }
+    .val { float:right; color:var(--accent); font-variant-numeric:tabular-nums; }
+    select, button { width:100%; margin-top:0.5rem; padding:0.5rem; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); cursor:pointer; font-size:0.85rem; }
+    button:hover, select:hover { border-color:var(--accent); }
+    .stats { margin-top:1rem; padding:0.75rem; background:var(--bg); border-radius:8px; font-size:0.82rem; line-height:1.7; }
+    @media (max-width:700px) { .layout { flex-direction:column; } aside { width:100%; border-left:none; border-top:1px solid var(--border); } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gravitational Orbits</h1>
+    <a href="index.html">← All simulations</a>
+  </header>
+  <div class="layout">
+    <canvas id="c"></canvas>
+    <aside>
+      <label>Preset</label>
+      <select id="preset">
+        <option value="binary">Binary star</option>
+        <option value="solar">Mini solar system</option>
+        <option value="figure8">Figure-eight (3-body)</option>
+        <option value="random">Random cluster</option>
+      </select>
+      <label>G (gravity) <span class="val" id="gVal">1.0</span></label>
+      <input type="range" id="gravity" min="0.1" max="5" step="0.1" value="1">
+      <label>Time scale <span class="val" id="tVal">1.0×</span></label>
+      <input type="range" id="timescale" min="0.1" max="5" step="0.1" value="1">
+      <label>Softening <span class="val" id="sVal">5</span></label>
+      <input type="range" id="softening" min="1" max="30" step="1" value="5">
+      <button id="reset">Load preset</button>
+      <button id="pause">Pause</button>
+      <div class="stats" id="stats">N-body gravity: F = G·m₁·m₂ / r²</div>
+    </aside>
+  </div>
+  <script>
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const DPR = window.devicePixelRatio || 1;
+    let W, H, cx, cy;
+    let bodies = [];
+    let trails = [];
+    let paused = false;
+    let G = 1, timeScale = 1, softening = 5;
+    let panX = 0, panY = 0, zoom = 1;
+    let dragging = false, lastMouse = { x: 0, y: 0 };
+
+    function resize() {
+      const rect = canvas.getBoundingClientRect();
+      W = rect.width; H = rect.height;
+      canvas.width = W * DPR; canvas.height = H * DPR;
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+      cx = W / 2; cy = H / 2;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    const PRESETS = {
+      binary: () => [
+        { x: -60, y: 0, vx: 0, vy: -35, m: 100, color: '#f0883e', r: 14 },
+        { x: 60, y: 0, vx: 0, vy: 35, m: 100, color: '#58a6ff', r: 14 }
+      ],
+      solar: () => [
+        { x: 0, y: 0, vx: 0, vy: 0, m: 500, color: '#f0883e', r: 20 },
+        { x: 80, y: 0, vx: 0, vy: 55, m: 2, color: '#8b949e', r: 4 },
+        { x: 130, y: 0, vx: 0, vy: 42, m: 5, color: '#3fb950', r: 7 },
+        { x: 180, y: 0, vx: 0, vy: 35, m: 3, color: '#58a6ff', r: 5 },
+        { x: 240, y: 0, vx: 0, vy: 28, m: 8, color: '#d2a8ff', r: 9 }
+      ],
+      figure8: () => [
+        { x: 0.97000436 * 70, y: -0.24308753 * 70, vx: -0.466203685 * 70, vy: -0.43236573 * 70, m: 1, color: '#58a6ff', r: 8 },
+        { x: -0.97000436 * 70, y: 0.24308753 * 70, vx: -0.466203685 * 70, vy: -0.43236573 * 70, m: 1, color: '#3fb950', r: 8 },
+        { x: 0, y: 0, vx: 0.93240737 * 70, vy: 0.86473146 * 70, m: 1, color: '#f0883e', r: 8 }
+      ],
+      random: () => {
+        const n = 6 + Math.floor(Math.random() * 5);
+        const arr = [];
+        for (let i = 0; i < n; i++) {
+          const angle = Math.random() * Math.PI * 2;
+          const dist = 50 + Math.random() * 150;
+          const m = 5 + Math.random() * 30;
+          arr.push({
+            x: Math.cos(angle) * dist, y: Math.sin(angle) * dist,
+            vx: -Math.sin(angle) * 20 + (Math.random() - 0.5) * 10,
+            vy: Math.cos(angle) * 20 + (Math.random() - 0.5) * 10,
+            m, color: ['#58a6ff','#3fb950','#f0883e','#d2a8ff'][i % 4], r: 4 + Math.sqrt(m)
+          });
+        }
+        return arr;
+      }
+    };
+
+    function loadPreset(name) {
+      bodies = PRESETS[name]();
+      trails = bodies.map(() => []);
+      panX = 0; panY = 0; zoom = 1;
+    }
+
+    function step(dt) {
+      const eps2 = softening * softening;
+      const ax = new Array(bodies.length).fill(0);
+      const ay = new Array(bodies.length).fill(0);
+
+      for (let i = 0; i < bodies.length; i++) {
+        for (let j = i + 1; j < bodies.length; j++) {
+          const dx = bodies[j].x - bodies[i].x;
+          const dy = bodies[j].y - bodies[i].y;
+          const dist2 = dx * dx + dy * dy + eps2;
+          const dist = Math.sqrt(dist2);
+          const f = G * bodies[i].m * bodies[j].m / dist2;
+          const fx = f * dx / dist, fy = f * dy / dist;
+          ax[i] += fx / bodies[i].m; ay[i] += fy / bodies[i].m;
+          ax[j] -= fx / bodies[j].m; ay[j] -= fy / bodies[j].m;
+        }
+      }
+
+      for (let i = 0; i < bodies.length; i++) {
+        bodies[i].vx += ax[i] * dt;
+        bodies[i].vy += ay[i] * dt;
+        bodies[i].x += bodies[i].vx * dt;
+        bodies[i].y += bodies[i].vy * dt;
+        if (trails[i].length > 400) trails[i].shift();
+        trails[i].push({ x: bodies[i].x, y: bodies[i].y });
+      }
+    }
+
+    function toScreen(x, y) {
+      return { x: cx + panX + x * zoom, y: cy + panY + y * zoom };
+    }
+
+    function draw() {
+      ctx.fillStyle = '#000';
+      ctx.fillRect(0, 0, W, H);
+
+      for (let s = 0; s < 80; s++) {
+        const sx = (s * 137.5) % W, sy = (s * 97.3) % H;
+        ctx.fillStyle = `rgba(255,255,255,${0.15 + (s % 5) * 0.08})`;
+        ctx.fillRect(sx, sy, 1.5, 1.5);
+      }
+
+      bodies.forEach((b, i) => {
+        ctx.beginPath();
+        trails[i].forEach((p, j) => {
+          const s = toScreen(p.x, p.y);
+          if (j === 0) ctx.moveTo(s.x, s.y);
+          else ctx.lineTo(s.x, s.y);
+        });
+        ctx.strokeStyle = b.color + '55';
+        ctx.lineWidth = 1;
+        ctx.stroke();
+
+        const s = toScreen(b.x, b.y);
+        const grad = ctx.createRadialGradient(s.x, s.y, 0, s.x, s.y, b.r * zoom * 2);
+        grad.addColorStop(0, b.color);
+        grad.addColorStop(1, 'transparent');
+        ctx.fillStyle = grad;
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, b.r * zoom * 2, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.fillStyle = b.color;
+        ctx.beginPath();
+        ctx.arc(s.x, s.y, b.r * zoom, 0, Math.PI * 2);
+        ctx.fill();
+      });
+
+      document.getElementById('stats').innerHTML =
+        `Bodies: ${bodies.length}<br>` +
+        `Total mass: ${bodies.reduce((s, b) => s + b.m, 0).toFixed(1)}<br>` +
+        `Drag to pan · Scroll to zoom`;
+    }
+
+    canvas.addEventListener('wheel', e => {
+      e.preventDefault();
+      zoom *= e.deltaY > 0 ? 0.9 : 1.1;
+      zoom = Math.max(0.2, Math.min(5, zoom));
+    }, { passive: false });
+    canvas.addEventListener('mousedown', e => { dragging = true; lastMouse = { x: e.clientX, y: e.clientY }; });
+    window.addEventListener('mouseup', () => dragging = false);
+    window.addEventListener('mousemove', e => {
+      if (!dragging) return;
+      panX += e.clientX - lastMouse.x;
+      panY += e.clientY - lastMouse.y;
+      lastMouse = { x: e.clientX, y: e.clientY };
+    });
+
+    let last = performance.now();
+    function loop(now) {
+      const dt = Math.min((now - last) / 1000, 0.032) * timeScale;
+      last = now;
+      if (!paused) {
+        for (let s = 0; s < 3; s++) step(dt / 3);
+      }
+      draw();
+      requestAnimationFrame(loop);
+    }
+
+    document.getElementById('gravity').oninput = e => {
+      G = +e.target.value;
+      document.getElementById('gVal').textContent = G.toFixed(1);
+    };
+    document.getElementById('timescale').oninput = e => {
+      timeScale = +e.target.value;
+      document.getElementById('tVal').textContent = timeScale.toFixed(1) + '×';
+    };
+    document.getElementById('softening').oninput = e => {
+      softening = +e.target.value;
+      document.getElementById('sVal').textContent = softening;
+    };
+    document.getElementById('reset').onclick = () => loadPreset(document.getElementById('preset').value);
+    document.getElementById('pause').onclick = () => {
+      paused = !paused;
+      document.getElementById('pause').textContent = paused ? 'Resume' : 'Pause';
+    };
+
+    loadPreset('binary');
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>

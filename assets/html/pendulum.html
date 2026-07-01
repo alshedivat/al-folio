@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pendulum Simulation</title>
+  <style>
+    :root { --bg:#0d1117; --surface:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--text); min-height:100vh; display:flex; flex-direction:column; }
+    header { padding:1rem 1.25rem; border-bottom:1px solid var(--border); display:flex; align-items:center; gap:1rem; flex-wrap:wrap; }
+    header h1 { font-size:1.15rem; flex:1; }
+    header a { color:var(--accent); text-decoration:none; font-size:0.85rem; }
+    .layout { display:flex; flex:1; min-height:0; }
+    canvas { flex:1; display:block; background:#0a0e14; cursor:crosshair; }
+    aside { width:280px; border-left:1px solid var(--border); background:var(--surface); padding:1rem; overflow-y:auto; }
+    label { display:block; font-size:0.78rem; color:var(--muted); margin:0.75rem 0 0.25rem; text-transform:uppercase; letter-spacing:0.05em; }
+    input[type=range] { width:100%; accent-color:var(--accent); }
+    .val { float:right; color:var(--accent); font-variant-numeric:tabular-nums; }
+    button, select { width:100%; margin-top:0.5rem; padding:0.5rem; border:1px solid var(--border); border-radius:6px; background:var(--bg); color:var(--text); cursor:pointer; font-size:0.85rem; }
+    button:hover { border-color:var(--accent); }
+    .stats { margin-top:1rem; padding:0.75rem; background:var(--bg); border-radius:8px; font-size:0.82rem; line-height:1.7; font-variant-numeric:tabular-nums; }
+    @media (max-width:700px) { .layout { flex-direction:column; } aside { width:100%; border-left:none; border-top:1px solid var(--border); } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pendulum Simulation</h1>
+    <a href="index.html">← All simulations</a>
+  </header>
+  <div class="layout">
+    <canvas id="c"></canvas>
+    <aside>
+      <label>Mode</label>
+      <select id="mode">
+        <option value="single">Simple pendulum</option>
+        <option value="double" selected>Double pendulum</option>
+      </select>
+      <label>Gravity <span class="val" id="gVal">9.81</span></label>
+      <input type="range" id="gravity" min="1" max="20" step="0.1" value="9.81">
+      <label>Length L₁ <span class="val" id="l1Val">120</span></label>
+      <input type="range" id="len1" min="60" max="200" step="1" value="120">
+      <label>Length L₂ <span class="val" id="l2Val">120</span></label>
+      <input type="range" id="len2" min="60" max="200" step="1" value="120">
+      <label>Damping <span class="val" id="dVal">0.000</span></label>
+      <input type="range" id="damping" min="0" max="0.05" step="0.001" value="0">
+      <label>Initial angle θ₁ <span class="val" id="a1Val">120°</span></label>
+      <input type="range" id="angle1" min="-180" max="180" step="1" value="120">
+      <button id="reset">Reset</button>
+      <button id="pause">Pause</button>
+      <div class="stats" id="stats"></div>
+    </aside>
+  </div>
+  <script>
+    const canvas = document.getElementById('c');
+    const ctx = canvas.getContext('2d');
+    const DPR = window.devicePixelRatio || 1;
+    let W, H, pivotX, pivotY;
+    let paused = false;
+    let trail = [];
+    const MAX_TRAIL = 800;
+
+    const state = { t1: 0, w1: 0, t2: 0, w2: 0 };
+    const params = { g: 9.81, L1: 120, L2: 120, damp: 0, mode: 'double' };
+
+    function resize() {
+      const rect = canvas.getBoundingClientRect();
+      W = rect.width; H = rect.height;
+      canvas.width = W * DPR; canvas.height = H * DPR;
+      ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+      pivotX = W / 2; pivotY = H * 0.28;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    function pos1() {
+      return { x: pivotX + params.L1 * Math.sin(state.t1), y: pivotY + params.L1 * Math.cos(state.t1) };
+    }
+    function pos2() {
+      const p1 = pos1();
+      return { x: p1.x + params.L2 * Math.sin(state.t2), y: p1.y + params.L2 * Math.cos(state.t2) };
+    }
+
+    function derivSingle(y) {
+      const [t, w] = y;
+      const g = params.g * 50 / params.L1;
+      return [w, -(g / 100) * Math.sin(t) - params.damp * w];
+    }
+
+    function derivDouble(y) {
+      const [t1, w1, t2, w2] = y;
+      const m1 = 1, m2 = 1;
+      const L1 = params.L1 / 100, L2 = params.L2 / 100;
+      const g = params.g;
+      const d = t1 - t2;
+      const den1 = (m1 + m2) * L1 - m2 * L1 * Math.cos(d) * Math.cos(d);
+      const den2 = (L2 / L1) * den1;
+      const a1 = (m2 * L1 * w1 * w1 * Math.sin(d) * Math.cos(d)
+        + m2 * g * Math.sin(t2) * Math.cos(d)
+        + m2 * L2 * w2 * w2 * Math.sin(d)
+        - (m1 + m2) * g * Math.sin(t1)) / den1 - params.damp * w1;
+      const a2 = (-m2 * L2 * w2 * w2 * Math.sin(d) * Math.cos(d)
+        + (m1 + m2) * g * Math.sin(t1) * Math.cos(d)
+        - (m1 + m2) * L1 * w1 * w1 * Math.sin(d)
+        - (m1 + m2) * g * Math.sin(t2)) / den2 - params.damp * w2;
+      return [w1, a1, w2, a2];
+    }
+
+    function rk4(deriv, y, dt) {
+      const k1 = deriv(y);
+      const y2 = y.map((v, i) => v + 0.5 * dt * k1[i]);
+      const k2 = deriv(y2);
+      const y3 = y.map((v, i) => v + 0.5 * dt * k2[i]);
+      const k3 = deriv(y3);
+      const y4 = y.map((v, i) => v + dt * k3[i]);
+      const k4 = deriv(y4);
+      return y.map((v, i) => v + (dt / 6) * (k1[i] + 2 * k2[i] + 2 * k3[i] + k4[i]));
+    }
+
+    function reset() {
+      const a1 = +document.getElementById('angle1').value * Math.PI / 180;
+      state.t1 = a1; state.w1 = 0;
+      state.t2 = a1 * 0.7 + 0.01; state.w2 = 0;
+      trail = [];
+    }
+
+    function step(dt) {
+      if (params.mode === 'single') {
+        const y = rk4(derivSingle, [state.t1, state.w1], dt);
+        state.t1 = y[0]; state.w1 = y[1];
+      } else {
+        const y = rk4(derivDouble, [state.t1, state.w1, state.t2, state.w2], dt);
+        [state.t1, state.w1, state.t2, state.w2] = y;
+      }
+    }
+
+    function energy() {
+      const g = params.g;
+      const L1 = params.L1 / 100, L2 = params.L2 / 100;
+      if (params.mode === 'single') {
+        const h = L1 * (1 - Math.cos(state.t1));
+        const ke = 0.5 * L1 * L1 * state.w1 * state.w1;
+        return { pe: g * h, ke, total: g * h + ke };
+      }
+      const p1 = pos1(), p2 = pos2();
+      const y1 = (p1.y - pivotY) / 100, y2 = (p2.y - pivotY) / 100;
+      const v1x = params.L1 * state.w1 * Math.cos(state.t1) / 100;
+      const v1y = -params.L1 * state.w1 * Math.sin(state.t1) / 100;
+      const v2x = v1x + params.L2 * state.w2 * Math.cos(state.t2) / 100;
+      const v2y = v1y - params.L2 * state.w2 * Math.sin(state.t2) / 100;
+      const ke = 0.5 * (v1x * v1x + v1y * v1y) + 0.5 * (v2x * v2x + v2y * v2y);
+      const pe = -g * y1 - g * y2;
+      return { pe, ke, total: pe + ke };
+    }
+
+    function draw() {
+      ctx.fillStyle = '#0a0e14';
+      ctx.fillRect(0, 0, W, H);
+
+      ctx.strokeStyle = '#21262d';
+      ctx.lineWidth = 1;
+      for (let x = 0; x < W; x += 40) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke(); }
+      for (let y = 0; y < H; y += 40) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+
+      const p1 = pos1();
+      const bob = params.mode === 'single' ? p1 : pos2();
+
+      if (params.mode === 'double') {
+        if (trail.length >= MAX_TRAIL) trail.shift();
+        trail.push({ x: bob.x, y: bob.y });
+        ctx.beginPath();
+        trail.forEach((p, i) => {
+          if (i === 0) ctx.moveTo(p.x, p.y);
+          else ctx.lineTo(p.x, p.y);
+        });
+        ctx.strokeStyle = 'rgba(88,166,255,0.35)';
+        ctx.lineWidth = 1.5;
+        ctx.stroke();
+      }
+
+      ctx.strokeStyle = '#8b949e';
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      ctx.moveTo(pivotX, pivotY);
+      ctx.lineTo(p1.x, p1.y);
+      if (params.mode === 'double') ctx.lineTo(bob.x, bob.y);
+      ctx.stroke();
+
+      ctx.fillStyle = '#30363d';
+      ctx.beginPath();
+      ctx.arc(pivotX, pivotY, 6, 0, Math.PI * 2);
+      ctx.fill();
+
+      if (params.mode === 'double') {
+        ctx.fillStyle = '#58a6ff';
+        ctx.beginPath();
+        ctx.arc(p1.x, p1.y, 10, 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      ctx.fillStyle = params.mode === 'single' ? '#58a6ff' : '#3fb950';
+      ctx.beginPath();
+      ctx.arc(bob.x, bob.y, 14, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.strokeStyle = '#fff';
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+
+      const e = energy();
+      document.getElementById('stats').innerHTML =
+        `<strong>State</strong><br>` +
+        `θ₁ = ${(state.t1 * 180 / Math.PI).toFixed(1)}°<br>` +
+        (params.mode === 'double' ? `θ₂ = ${(state.t2 * 180 / Math.PI).toFixed(1)}°<br>` : '') +
+        `KE = ${e.ke.toFixed(3)} J<br>PE = ${e.pe.toFixed(3)} J<br>E = ${e.total.toFixed(3)} J`;
+    }
+
+    let last = performance.now();
+    function loop(now) {
+      const dt = Math.min((now - last) / 1000, 0.032);
+      last = now;
+      if (!paused) {
+        for (let i = 0; i < 4; i++) step(dt / 4);
+      }
+      draw();
+      requestAnimationFrame(loop);
+    }
+
+    document.getElementById('gravity').oninput = e => {
+      params.g = +e.target.value;
+      document.getElementById('gVal').textContent = params.g.toFixed(2);
+    };
+    document.getElementById('len1').oninput = e => {
+      params.L1 = +e.target.value;
+      document.getElementById('l1Val').textContent = params.L1;
+    };
+    document.getElementById('len2').oninput = e => {
+      params.L2 = +e.target.value;
+      document.getElementById('l2Val').textContent = params.L2;
+    };
+    document.getElementById('damping').oninput = e => {
+      params.damp = +e.target.value;
+      document.getElementById('dVal').textContent = params.damp.toFixed(3);
+    };
+    document.getElementById('angle1').oninput = e => {
+      document.getElementById('a1Val').textContent = e.target.value + '°';
+    };
+    document.getElementById('mode').onchange = e => {
+      params.mode = e.target.value;
+      reset();
+    };
+    document.getElementById('reset').onclick = reset;
+    document.getElementById('pause').onclick = () => {
+      paused = !paused;
+      document.getElementById('pause').textContent = paused ? 'Resume' : 'Pause';
+    };
+
+    reset();
+    requestAnimationFrame(loop);
+  </script>
+</body>
+</html>
