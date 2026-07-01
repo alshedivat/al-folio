@@ -1,0 +1,2 @@
+/* Legacy entrypoint kept for compatibility; use assets/tailwind/app.css. */
+@import "./app.css";

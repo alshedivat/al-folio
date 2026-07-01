@@ -1,0 +1,68 @@
+.al-lightbox-open {
+  overflow: hidden;
+}
+
+.al-lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.88);
+  padding: 2rem;
+}
+
+.al-lightbox-overlay.is-open {
+  display: flex;
+}
+
+.al-lightbox-figure {
+  margin: 0;
+  max-width: min(90vw, 1200px);
+  max-height: 90vh;
+  text-align: center;
+}
+
+.al-lightbox-image {
+  max-width: 100%;
+  max-height: calc(90vh - 3rem);
+  object-fit: contain;
+}
+
+.al-lightbox-caption {
+  margin-top: 0.75rem;
+  color: #f8f8f8;
+  font-size: 0.95rem;
+}
+
+.al-lightbox-close,
+.al-lightbox-nav {
+  position: absolute;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.al-lightbox-close {
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+}
+
+.al-lightbox-nav {
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.25rem;
+  padding: 0.5rem;
+}
+
+.al-lightbox-prev {
+  left: 0.75rem;
+}
+
+.al-lightbox-next {
+  right: 0.75rem;
+}

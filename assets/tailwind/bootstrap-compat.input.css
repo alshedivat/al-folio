@@ -1,0 +1,54 @@
+@config "../../tailwind.config.js";
+@source "../../_includes/**/*.{html,liquid,md}";
+@source "../../_layouts/**/*.{html,liquid,md}";
+@source "../../_pages/**/*.{html,liquid,md}";
+@source "../../_posts/**/*.{html,liquid,md}";
+@source "../../_books/**/*.{html,liquid,md}";
+@source "../../_projects/**/*.{html,liquid,md}";
+@source "../../_teachings/**/*.{html,liquid,md}";
+@source "../../assets/js/**/*.js";
+@source "../../assets/tailwind/**/*.css";
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@layer components {
+  .list-group {
+    @apply m-0 list-none p-0;
+  }
+
+  .list-group-item {
+    @apply border-b border-divider px-3 py-2;
+    background: var(--global-card-bg-color);
+  }
+
+  .list-group-flush .list-group-item:last-child {
+    @apply border-b-0;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium;
+    background: color-mix(in srgb, var(--global-theme-color) 20%, transparent);
+    color: var(--global-text-color);
+  }
+
+  .dropdown-divider {
+    @apply my-1 border-t border-divider;
+  }
+
+  .af-tooltip,
+  .af-popover {
+    @apply pointer-events-none fixed z-[9999] max-w-72 rounded-md border border-divider px-2 py-1 text-xs shadow-lg;
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color);
+  }
+
+  .af-popover {
+    @apply px-3 py-2 text-sm;
+  }
+
+  .af-tooltip[hidden],
+  .af-popover[hidden] {
+    display: none !important;
+  }
+}
