@@ -1,0 +1,18 @@
+<div class="row row-cols-1 row-cols-md-3">
+  {% for funder in site.data.optima_funders %}
+    <div class="col mb-4">
+      <a href="{{ funder.url }}" target="_blank" rel="external nofollow noopener">
+        <div class="card funder-tile h-100 z-depth-1 rounded d-flex align-items-center justify-content-center p-4">
+          {% assign funder_image_path = funder.image | prepend: 'assets/img/' %}
+          {%
+            include figure.liquid
+            loading="eager"
+            path=funder_image_path
+            class="img-fluid funder-logo"
+            alt=funder.image
+          %}
+        </div>
+      </a>
+    </div>
+  {% endfor %}
+</div>

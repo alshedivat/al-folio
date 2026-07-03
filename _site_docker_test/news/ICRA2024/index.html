@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <!-- Metadata, OpenGraph and Schema.org -->
+
+
+
+
+<!-- Standard metadata -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>
+  
+  
+    
+      Icra2024 | Anna Gautier
+    
+  
+</title>
+<meta name="author" content="Anna Gautier">
+<meta name="description" content="">
+
+  <meta name="keywords" content="AI, multi-agent systems, planning under uncertainty, decision making in robotics">
+
+
+
+
+
+
+
+
+
+
+<!-- Bootstrap & MDB -->
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css?a4b3f509e79c54a512b890d73235ef04">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+<!-- Bootstrap Table -->
+
+
+<!-- Fonts & Icons -->
+<link defer rel="stylesheet" href="/assets/css/academicons.min.css?f0b7046b84e425c55f3463ac249818f5">
+<link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap">
+
+<!-- Code Syntax Highlighting -->
+<link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light">
+
+
+
+<!-- Styles -->
+
+<!-- pseudocode -->
+
+
+
+  <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A4%96&lt;/text&gt;&lt;/svg&gt;">
+
+<link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
+<link rel="canonical" href="http://0.0.0.0:4000/news/ICRA2024/">
+
+<!-- Dark Mode -->
+<script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
+
+  <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark">
+  <script>
+    initTheme();
+  </script>
+
+
+<!-- GeoJSON support via Leaflet -->
+
+
+<!-- diff2html -->
+
+
+
+
+
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+    <!-- Header -->
+    <header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation">
+    <div class="container">
+      
+        <a class="navbar-brand title font-weight-lighter" href="/">
+          
+            
+              <span class="font-weight-bold">Anna</span>
+            
+            
+            Gautier
+          
+        </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          
+
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">about
+              
+            </a>
+          </li>
+
+          <!-- Other pages -->
+          
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/publications/">publications
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/optima/">OPTIMA
+                    
+                  </a>
+                </li>
+              
+            
+          
+            
+              
+                
+                <li class="nav-item ">
+                  
+                  <a class="nav-link" href="/cv/">cv
+                    
+                  </a>
+                </li>
+              
+            
+          
+          
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" title="Search" onclick="openSearchModal()">
+                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              </button>
+            </li>
+          
+          
+            <!-- Toogle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" title="Change theme">
+                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+              </button>
+            </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  
+</header>
+
+
+    <!-- Content -->
+    <div class="container mt-5" role="main">
+      
+        
+
+
+
+
+
+
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">Icra2024</h1>
+    <p class="post-meta">
+      Created in May 13, 2024
+      
+      
+      
+    </p>
+    <p class="post-tags">
+      
+        <i class="fa-solid fa-calendar fa-sm"></i> 2024
+      
+      
+
+      
+    </p>
+  </header>
+
+  <article class="post-content">
+    
+    <div id="markdown-content">
+      <p>I will be presenting our paper “Robust MITL planning under uncertain navigation times” at <a href="https://2024.ieee-icra.org/" rel="external nofollow noopener" target="_blank">ICRA 2024</a> in Yokohama, Japan this week.</p>
+
+    </div>
+  </article>
+
+  
+
+  
+
+  
+    
+  
+
+  
+  
+</div>
+
+      
+    </div>
+
+    <!-- Footer -->
+    
+  <footer class="fixed-bottom" role="contentinfo">
+    <div class="container mt-0">
+      © Copyright 2026
+      Anna
+      
+      Gautier. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+
+      
+      
+    </div>
+  </footer>
+
+
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+<script src="/assets/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="/assets/js/mdb.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    
+  <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+
+
+
+<!-- Bootstrap Table -->
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
+<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
+<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
+
+<!-- Jupyter Open External Links New Tab -->
+<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
+
+
+
+    
+
+
+    
+  
+    <!-- MathJax -->
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          tags: 'ams',
+        },
+      };
+    </script>
+    <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.min.js" integrity="sha256-rjmgmaB99riUNcdlrDtcAiwtLIojSxNyUFdl+Qh+rB4=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+    
+
+    
+
+
+
+    
+  <!-- Scrolling Progress Bar -->
+  <script type="text/javascript">
+    /*
+     * This JavaScript code has been adapted from the article
+     * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
+     * published on the website https://css-tricks.com on the 7th of May, 2014.
+     * Couple of changes were made to the original code to make it compatible
+     * with the `al-foio` theme.
+     */
+    const progressBar = $('#progress');
+    /*
+     * We set up the bar after all elements are done loading.
+     * In some cases, if the images in the page are larger than the intended
+     * size they'll have on the page, they'll be resized via CSS to accomodate
+     * the desired size. This mistake, however, breaks the computations as the
+     * scroll size is computed as soon as the elements finish loading.
+     * To account for this, a minimal delay was introduced before computing the
+     * values.
+     */
+    window.onload = function () {
+      setTimeout(progressBarSetup, 50);
+    };
+    /*
+     * We set up the bar according to the browser.
+     * If the browser supports the progress element we use that.
+     * Otherwise, we resize the bar thru CSS styling
+     */
+    function progressBarSetup() {
+      if ('max' in document.createElement('progress')) {
+        initializeProgressElement();
+        $(document).on('scroll', function () {
+          progressBar.attr({ value: getCurrentScrollPosition() });
+        });
+        $(window).on('resize', initializeProgressElement);
+      } else {
+        resizeProgressBar();
+        $(document).on('scroll', resizeProgressBar);
+        $(window).on('resize', resizeProgressBar);
+      }
+    }
+    /*
+     * The vertical scroll position is the same as the number of pixels that
+     * are hidden from view above the scrollable area. Thus, a value > 0 is
+     * how much the user has scrolled from the top
+     */
+    function getCurrentScrollPosition() {
+      return $(window).scrollTop();
+    }
+
+    function initializeProgressElement() {
+      let navbarHeight = $('#navbar').outerHeight(true);
+      $('body').css({ 'padding-top': navbarHeight });
+      $('progress-container').css({ 'padding-top': navbarHeight });
+      progressBar.css({ top: navbarHeight });
+      progressBar.attr({
+        max: getDistanceToScroll(),
+        value: getCurrentScrollPosition(),
+      });
+    }
+    /*
+     * The offset between the html document height and the browser viewport
+     * height will be greater than zero if vertical scroll is possible.
+     * This is the distance the user can scroll
+     */
+    function getDistanceToScroll() {
+      return $(document).height() - $(window).height();
+    }
+
+    function resizeProgressBar() {
+      progressBar.css({ width: getWidthPercentage() + '%' });
+    }
+    // The scroll ratio equals the percentage to resize the bar
+    function getWidthPercentage() {
+      return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+    }
+  </script>
+
+
+    
+
+    
+
+    
+
+    
+  <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
+  <script>
+    addBackToTop();
+  </script>
+
+
+    
+  <script type="module" src="/assets/js/search/ninja-keys.min.js?601a2d3465e2a52bec38b600518d5f70"></script>
+  <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys>
+  <script>
+    let searchTheme = determineComputedTheme();
+    const ninjaKeys = document.querySelector('ninja-keys');
+
+    if (searchTheme === 'dark') {
+      ninjaKeys.classList.add('dark');
+    } else {
+      ninjaKeys.classList.remove('dark');
+    }
+
+    const openSearchModal = () => {
+      // collapse navbarNav if expanded on mobile
+      const $navbarNav = $('#navbarNav');
+      if ($navbarNav.hasClass('show')) {
+        $navbarNav.collapse('hide');
+      }
+      ninjaKeys.open();
+    };
+  </script>
+  <script>
+    // get the ninja-keys element
+    const ninja = document.querySelector('ninja-keys');
+
+    // add the home and posts menu items
+    ninja.data = [{
+        id: "nav-about",
+        title: "about",
+        section: "Navigation",
+        handler: () => {
+          window.location.href = "/";
+        },
+      },{id: "nav-publications",
+              title: "publications",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/publications/";
+              },
+            },{id: "nav-optima",
+              title: "OPTIMA",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/optima/";
+              },
+            },{id: "nav-cv",
+              title: "cv",
+              description: "",
+              section: "Navigation",
+              handler: () => {
+                window.location.href = "/cv/";
+              },
+            },{id: "news-i-am-attending-aamas-2026-https-cyprusconferences-org-aamas2026-in-paphos-cyprus-this-week-come-say-hi",
+          title: 'I am attending [AAMAS 2026](https://cyprusconferences.org/aamas2026/) in Paphos, Cyprus this week. Come say hi!',
+          description: "",
+          section: "News",},{id: "news-i-have-been-appointed-a-member-of-the-newly-created-ellis-sweden-unit-https-ellis-eu-research-sites-unit-sweden",
+          title: 'I have been appointed a member of the newly created [ELLIS Sweden Unit](https://ellis.eu/research/sites/unit-sweden).',
+          description: "",
+          section: "News",},{id: "news-i-am-now-a-member-of-the-ellis-society-https-ellis-eu",
+          title: 'I am now a member of the [ELLIS Society](https://ellis.eu/).',
+          description: "",
+          section: "News",},{id: "news-i-am-thrilled-to-announce-that-i-have-joined-chalmers-university-of-technology-i-have-been-appointed-as-an-assistant-professor-in-the-data-science-and-ai-division-https-www-chalmers-se-en-current-news-19-new-assistant-professors-at-chalmers",
+          title: '[I am thrilled to announce that I have joined Chalmers University of Technology! I have been appointed as an Assistant Professor in the Data Science and AI division.](https://www.chalmers.se/en/current/news/19-new-assistant-professors-at-chalmers/)',
+          description: "",
+          section: "News",},{id: "news-our-paper-quot-take-a-chance-on-me-how-robot-performance-and-risk-behaviour-affects-trust-and-risk-taking-quot-will-be-presented-at-hri-2025-https-humanrobotinteraction-org-2025-in-melbourne-australia-this-week",
+          title: 'Our paper &quot;Take a Chance on Me: How Robot Performance and Risk Behaviour Affects Trust and Risk-Taking&quot; will be presented at [HRI 2025](https://humanrobotinteraction.org/2025/) in Melbourne, Australia this week.',
+          description: "",
+          section: "News",},{id: "news-i-am-co-chairing-the-ecai-2025-https-ecai2025-org-demonstration-track-join-us-in-bologna-italy-in-october-the-deadline-for-demo-papers-is-may-20th-https-ecai2025-org-call-for-demo-papers",
+          title: 'I am co-chairing the [ECAI 2025](https://ecai2025.org/) Demonstration Track. Join us in Bologna, Italy in October! [The deadline for demo papers is May 20th](https://ecai2025.org/call-for-demo-papers/).',
+          description: "",
+          section: "News",},{id: "news-i-will-be-giving-a-talk-at-aisola-2024-in-the-verification-and-learning-for-assured-autonomy-track-on-quot-mechanism-design-for-multi-agent-planning-in-robotics-quot",
+          title: 'I will be giving a talk at AISoLA 2024 in the Verification and Learning for Assured Autonomy track, on &quot;Mechanism Design for Multi-Agent Planning in Robotics.&quot;',
+          description: "",
+          section: "News",},{id: "news-i-attended-dagstuhl-seminar-24361-on-quot-artificial-intelligence-and-formal-methods-join-forces-for-reliable-autonomy-quot",
+          title: 'I attended Dagstuhl Seminar 24361 on &quot;Artificial Intelligence and Formal Methods Join Forces for Reliable Autonomy.&quot;',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/Dagstuhl/";
+            },},{id: "news-this-week-we-hosted-the-2024-robotics-peception-and-learning-summer-school-it-was-such-a-joy-to-be-on-the-organizing-committee-thanks-to-everyone-who-participated",
+          title: 'This week we hosted the 2024 Robotics, Peception and Learning Summer School. It was such a joy to be on the organizing committee. Thanks to everyone who participated!',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/RPL_summer_school/";
+            },},{id: "news-i-will-be-presenting-our-paper-robust-mitl-planning-under-uncertain-navigation-times-at-lt-a-href-quot-https-2024-ieee-icra-org-quot-gt-icra-2024-lt-a-gt-in-yokohama-japan-this-week",
+          title: 'I will be presenting our paper “Robust MITL planning under uncertain navigation times” at &lt;a href=&quot;https://2024.ieee-icra.org/&quot;&gt;ICRA 2024&lt;/a&gt; in Yokohama, Japan this week.',
+          description: "",
+          section: "News",},{id: "news-our-paper-multi-robot-allocation-of-assistance-from-a-shared-uncertain-operator-will-be-presented-at-lt-a-href-quot-https-www-aamas2024-conference-auckland-ac-nz-quot-gt-aamas-2024-lt-a-gt-in-auckland-new-zealand-this-week",
+          title: 'Our paper “Multi-robot allocation of assistance from a shared uncertain operator” will be presented at &lt;a href=&quot;https://www.aamas2024-conference.auckland.ac.nz/&quot;&gt;AAMAS 2024&lt;/a&gt; in Auckland, New Zealand this week.',
+          description: "",
+          section: "News",},{id: "news-find-me-today-at-lt-a-href-quot-https-www-digitalfutures-kth-se-event-digital-futures-open-research-days-on-april-18-19-2024-2-quot-gt-digital-futures-open-days-lt-a-gt",
+          title: 'Find me today at &lt;a href=&quot;https://www.digitalfutures.kth.se/event/digital-futures-open-research-days-on-april-18-19-2024-2/&quot;&gt;Digital Futures Open Days&lt;/a&gt;!',
+          description: "",
+          section: "News",},{id: "optima_news-kinga-jenei-has-joined-optima-as-a-wasp-https-wasp-sweden-org-industrial-phd-student-with-astrazeneca-https-www-astrazeneca-com-r-d-html",
+              title: 'Kinga Jenei has joined OPTIMA as a [WASP](https://wasp-sweden.org/) Industrial PhD student with [AstraZeneca](https://www.astrazeneca.com/r-d.html).',
+              description: "",
+              section: "Optima_news",},{id: "optima_news-eyob-embaye-and-johan-duan-have-defended-their-master-39-s-thesis-on-quot-safe-multi-robot-planning-via-long-run-averages-quot",
+              title: 'Eyob Embaye and Johan Duan have defended their Master&#39;s thesis on &quot;Safe multi-robot planning via long-run averages.&quot;',
+              description: "",
+              section: "Optima_news",},{id: "optima_news-xi-cheng-has-defended-his-master-39-s-thesis-on-quot-risk-aware-safety-in-multi-agent-systems-quot",
+              title: 'Xi Cheng has defended his Master&#39;s thesis on &quot;Risk-aware safety in multi-agent systems.&quot;',
+              description: "",
+              section: "Optima_news",},{id: "optima_news-reza-rezvan-has-joined-optima-as-a-phd-student",
+              title: 'Reza Rezvan has joined OPTIMA as a PhD Student.',
+              description: "",
+              section: "Optima_news",},{
+            id: 'socials-email',
+            title: 'Send email',
+            section: 'Socials',
+            handler: () => {
+              window.open("mailto:%61%6E%6E%61.%67%61%75%74%69%65%72@%63%68%61%6C%6D%65%72%73.%73%65", "_blank");
+            },
+          },{
+            id: 'socials-google-scholar',
+            title: 'Google Scholar',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://scholar.google.com/citations?user=62OdoVEAAAAJ", "_blank");
+            },
+          },{
+            id: 'socials-linkedin',
+            title: 'LinkedIn',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://www.linkedin.com/in/anna-gautier-48788458", "_blank");
+            },
+          },{
+            id: 'socials-dblp',
+            title: 'DBLP',
+            section: 'Socials',
+            handler: () => {
+              window.open("https://dblp.org/pid/318/7547.html", "_blank");
+            },
+          },{
+          id: 'light-theme',
+          title: 'Change theme to light',
+          description: 'Change the theme of the site to Light',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("light");
+          },
+        },
+        {
+          id: 'dark-theme',
+          title: 'Change theme to dark',
+          description: 'Change the theme of the site to Dark',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("dark");
+          },
+        },
+        {
+          id: 'system-theme',
+          title: 'Use system default theme',
+          description: 'Change the theme of the site to System Default',
+          section: 'Theme',
+          handler: () => {
+            setThemeSetting("system");
+          },
+        },];
+  </script>
+
+
+    <script src="/assets/js/shortcut-key.js"></script>
+  </body>
+</html>

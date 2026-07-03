@@ -190,6 +190,11 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+  optima_news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /optima-news/:path/
   projects:
     output: true
     permalink: /projects/:path/

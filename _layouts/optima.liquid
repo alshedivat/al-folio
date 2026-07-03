@@ -1,0 +1,95 @@
+---
+layout: default
+---
+<div class="post optima-theme">
+  <header class="post-header">
+    <h1 class="post-title" style="color: var(--global-theme-color);">
+      OPTIM<span style="font-style: italic; color: var(--global-theme-color);">A</span> @ CH<span style="font-style: italic; color: var(--global-theme-color);">A</span>LMERS
+    </h1>
+    <p class="desc">
+      <span style="color: var(--global-theme-color);">opti</span>mizing
+      <span style="color: var(--global-theme-color);">m</span>ultiple
+      <span style="color: var(--global-theme-color);">a</span>gents.
+    </p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1
+      rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+      30vw, 95vw"{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- OPTIMA members -->
+    {% if page.members %}
+      <h2>OPTIMA members</h2>
+      {% include optima_members.liquid %}
+    {% endif %}
+
+    <!-- Projects -->
+    {% if page.optima_projects %}
+      <h2>current projects</h2>
+      {% include optima_projects.liquid %}
+    {% endif %}
+
+    <!-- master's students -->
+    {% if page.past_students and site.data.optima_past_students %}
+      <h2>past master's students</h2>
+      <ul>
+        {% for student in site.data.optima_past_students %}
+          <li><strong>{{ student.name }}</strong>, {{ student.degree }}, {{ student.year }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    <!-- OPTIMA News -->
+    {% if page.news and site.announcements.enabled %}
+      <h2>
+        <a href="{{ '/optima-news/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include optima_news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    <!-- Funders -->
+    {% if page.funders %}
+      <h2>funders</h2>
+      {% include optima_funders.liquid %}
+    {% endif %}
+  </article>
+</div>

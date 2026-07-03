@@ -107,6 +107,17 @@ html[data-theme="dark"] {
   }
 }
 
+// OPTIMA page theme override (purple), scoped to .optima-theme only
+.optima-theme {
+  --global-theme-color: #7c3aed !important;
+  --global-hover-color: #7c3aed !important;
+}
+
+html[data-theme="dark"] .optima-theme {
+  --global-theme-color: #a78bfa !important;
+  --global-hover-color: #a78bfa !important;
+}
+
 html[data-theme-setting="dark"] {
   #light-toggle-system {
     display: none;

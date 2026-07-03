@@ -1,0 +1,44 @@
+<div class="row row-cols-2 row-cols-md-3">
+  {% for member in site.data.optima_members %}
+    <div class="col mb-4">
+      <div class="text-center">
+        {% assign member_image_path = member.image | prepend: 'assets/img/' %}
+        {% assign photo_style = "" %}
+        {% if member.zoom or member.d_shift %}
+          {% assign shift_value = member.d_shift | default: 0 %}
+          {% assign shift_abs = shift_value | abs %}
+          {% assign zoom_value = member.zoom | default: 1 %}
+          {% if shift_abs > 0 %}
+            {% comment %} a shift needs surplus zoom to shift into, or it just crops one edge and exposes blank space on the other {% endcomment %}
+            {% assign min_zoom = shift_abs | times: 0.02 | plus: 1 %}
+            {% if zoom_value < min_zoom %}
+              {% assign zoom_value = min_zoom %}
+            {% endif %}
+          {% endif %}
+          {% assign photo_style = photo_style | append: "transform: scale(" | append: zoom_value | append: ") translateY(" | append: shift_value | append: "%);" %}
+        {% endif %}
+        {% if member.crop_y %}
+          {% assign photo_style = photo_style | append: "object-position: center " | append: member.crop_y | append: "%;" %}
+        {% endif %}
+        <div class="member-photo-frame z-depth-1 rounded-circle">
+          {%
+            include figure.liquid
+            loading="eager"
+            path=member_image_path
+            class="img-fluid member-photo-circle"
+            style=photo_style
+            alt=member.name
+          %}
+        </div>
+        <p class="mb-0 mt-2"><strong>{{ member.name }}</strong></p>
+        <p class="text-muted mb-0">{{ member.title }}</p>
+        {% if member.co_supervisor %}
+          <p class="text-muted">Co-supervised by {{ member.co_supervisor }}</p>
+        {% endif %}
+        {% if member.supervisor %}
+          <p class="text-muted">Co-supervised with {{ member.supervisor }}</p>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

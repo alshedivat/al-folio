@@ -1,0 +1,19 @@
+- name: Anna Gautier
+  title: Assistant Professor
+  image: gautier_prof_pic.jpg
+  zoom: 1.8
+  d_shift: 10
+- name: Kinga Jenei
+  title: Industrial PhD Student
+  image: Jenei_prof_pic.jpeg
+  co_supervisor: Jiazhen He
+  d_shift: 2
+  zoom: 0.95
+- name: Reza Rezvan
+  title: PhD Student
+  image: rezvan_prof_pic.jpg
+- name: Rebecka Winqvist
+  title: PhD Student at KTH
+  image: winqvist_prof_pic.png
+  supervisor: Jana Tumova
+  d_shift: 4
