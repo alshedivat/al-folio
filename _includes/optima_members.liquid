@@ -3,7 +3,7 @@
     <div class="col mb-4">
       <div class="text-center">
         {% assign member_image_path = member.image | prepend: 'assets/img/' %}
-        {% assign photo_style = "" %}
+        {% assign photo_style = '' %}
         {% if member.zoom or member.d_shift %}
           {% assign shift_value = member.d_shift | default: 0 %}
           {% assign shift_abs = shift_value | abs %}
@@ -15,10 +15,16 @@
               {% assign zoom_value = min_zoom %}
             {% endif %}
           {% endif %}
-          {% assign photo_style = photo_style | append: "transform: scale(" | append: zoom_value | append: ") translateY(" | append: shift_value | append: "%);" %}
+          {% assign photo_style = photo_style
+            | append: 'transform: scale('
+            | append: zoom_value
+            | append: ') translateY('
+            | append: shift_value
+            | append: '%);'
+          %}
         {% endif %}
         {% if member.crop_y %}
-          {% assign photo_style = photo_style | append: "object-position: center " | append: member.crop_y | append: "%;" %}
+          {% assign photo_style = photo_style | append: 'object-position: center ' | append: member.crop_y | append: '%;' %}
         {% endif %}
         <div class="member-photo-frame z-depth-1 rounded-circle">
           {%
@@ -30,7 +36,9 @@
             alt=member.name
           %}
         </div>
-        <p class="mb-0 mt-2"><strong>{{ member.name }}</strong></p>
+        <p class="mb-0 mt-2">
+          <strong>{{ member.name }}</strong>
+        </p>
         <p class="text-muted mb-0">{{ member.title }}</p>
         {% if member.co_supervisor %}
           <p class="text-muted">Co-supervised by {{ member.co_supervisor }}</p>

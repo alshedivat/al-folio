@@ -4,11 +4,12 @@ layout: default
 <div class="post optima-theme">
   <header class="post-header">
     <h1 class="post-title" style="color: var(--global-theme-color);">
-      OPTIM<span style="font-style: italic; color: var(--global-theme-color);">A</span> @ CH<span style="font-style: italic; color: var(--global-theme-color);">A</span>LMERS
+      OPTIM<span style="font-style: italic; color: var(--global-theme-color);">A</span> @ CH<span style="font-style: italic; color: var(--global-theme-color);"
+        >A</span
+      >LMERS
     </h1>
     <p class="desc">
-      <span style="color: var(--global-theme-color);">opti</span>mizing
-      <span style="color: var(--global-theme-color);">m</span>ultiple
+      <span style="color: var(--global-theme-color);">opti</span>mizing <span style="color: var(--global-theme-color);">m</span>ultiple
       <span style="color: var(--global-theme-color);">a</span>gents.
     </p>
   </header>
@@ -56,7 +57,9 @@ layout: default
       <h2>past master's students</h2>
       <ul>
         {% for student in site.data.optima_past_students %}
-          <li><strong>{{ student.name }}</strong>, {{ student.degree }}, {{ student.year }}</li>
+          <li>
+            <strong>{{ student.name }}</strong>, {{ student.degree }}, {{ student.year }}
+          </li>
         {% endfor %}
       </ul>
     {% endif %}
