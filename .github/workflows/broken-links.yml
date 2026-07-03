@@ -51,7 +51,9 @@ jobs:
           # removed md files that include liquid tags
           # _pages/about.md excluded: its /optima/ link is a Jekyll permalink with no
           # matching source path, which lychee's source-file scan can't resolve even
-          # with --root-dir; the built-site link check (broken-links-site.yml) covers it
+          # with --base; the built-site link check (broken-links-site.yml) covers it
           # cyprusconferences.org excluded: it bot-blocks the 'curl' user-agent below
           # with a fake 404 (verified working with a browser user-agent)
-          args: --root-dir . --user-agent 'curl/7.54' --exclude 'cyprusconferences\.org' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _pages/about.md --verbose --no-progress './**/*.md' './**/*.html'
+          # --base needs an absolute path; the version of lychee pinned by this action
+          # predates --root-dir, which is the newer/non-deprecated equivalent flag
+          args: --base ${{ github.workspace }} --user-agent 'curl/7.54' --exclude 'cyprusconferences\.org' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _posts/2018-12-22-distill.md --exclude-path _pages/about.md --verbose --no-progress './**/*.md' './**/*.html'
