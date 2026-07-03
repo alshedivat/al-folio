@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 I am now a member of the [ELLIS Society](https://ellis.eu/).
-

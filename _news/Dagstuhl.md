@@ -13,4 +13,3 @@ I attended Dagstuhl Seminar 24361 on "Artificial Intelligence and Formal Methods
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/dagstuhl24361.jpg" title="dagstuhl24361" class="img-fluid rounded z-depth-1" %}
     </div>
- 

@@ -6,4 +6,3 @@ related_posts: false
 ---
 
 [I am thrilled to announce that I have joined Chalmers University of Technology! I have been appointed as an Assistant Professor in the Data Science and AI division.](https://www.chalmers.se/en/current/news/19-new-assistant-professors-at-chalmers/)
-
