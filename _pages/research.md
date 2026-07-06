@@ -13,11 +13,11 @@ I show how the existence of deep disagreement among citizens (e.g., about democr
 
 ## State Legitimacy and Exit
 
-I show that a typical approach to state legitimacy - premised on maintaining the autonomy of citizens - fails to explain why citizens that _dissent_ from majorities retain autonomy. I argue that the right to coerce dissenters only arises when they have robust exit options (e.g., subsidized emigration). Additionally, I contend that states might have duties to enter multilateral free-movement agreements in order to guarantee the autonomy of their own citizens.
+I show that a typical approach to state legitimacy - premised on maintaining the autonomy of citizens - fails to explain why citizens that _dissent_ from majorities retain autonomy. I argue that the right to coerce dissenters only arises when they have robust exit options (e.g., subsidized emigration). Additionally, I contend that states might have duties to enter multilateral free-movement agreements in order to guarantee the autonomy of their own citizens. This connects my research to existing work on _polycentricity._
 
 ## Further work
 
-In the remaining chapters of my dissertation, I explore how political systems can be _stable_ despite the existence of antidemocratic, or “unreasonable,” citizens. I am interested in how exit-based systems like the above can achieve that goal.
+In the remaining chapters of my dissertation, I explore how political systems can be _stable_ despite the existence of antidemocratic, or “unreasonable,” citizens. I am interested in how polycentric systems like the above can achieve that goal.
 
 {% if site.data.research.github_users %}
 
