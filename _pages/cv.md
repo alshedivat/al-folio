@@ -6,6 +6,8 @@ nav: true
 nav_order: 5
 ---
 
-<meta http-equiv="refresh" content="0; url=/assets/pdf/example_pdf.pdf">
-
-If you are not redirected automatically, <a href="/assets/pdf/example_pdf.pdf">click here</a>.
+<div class="text-center">
+  <a href="/assets/pdf/example_pdf.pdf" class="btn btn-primary">
+    <i class="fas fa-file-pdf"></i> Download CV (PDF)
+  </a>
+</div>
