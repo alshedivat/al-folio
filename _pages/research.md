@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /research/
-title: research
-description: Edit the `_data/research.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and research.
+title: Research
+description: 
 nav: true
 nav_order: 4
 ---
