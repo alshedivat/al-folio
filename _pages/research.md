@@ -17,7 +17,7 @@ I show that a typical approach to state legitimacy - premised on maintaining the
 
 **Further work**
 
-In the remaining chapters of my dissertation, I explore how political systems can be stable despite the existence of antidemocratic, or “unreasonable,” citizens. I am interested in how exit-based systems like the above can achieve that goal.
+In the remaining chapters of my dissertation, I explore how political systems can be _stable_ despite the existence of antidemocratic, or “unreasonable,” citizens. I am interested in how exit-based systems like the above can achieve that goal.
 
 {% if site.data.research.github_users %}
 
