@@ -9,6 +9,8 @@ nav_order: 4
 
 ## Working Papers
 
+I am happy to share working papers upon request.
+
 ### State Authority and Its Limits (under review)
 
 I show how the existence of deep disagreement among citizens (e.g., about democracy itself) creates issues for influential contemporary accounts of state legitimacy of Kantian and Hobbesian origin. I argue that they cannot consistently impose _limits_ (e.g. justice-based requirements) on state activity. I contend, instead, that the right to coerce arises from the autonomy of citizens to self-organize as they wish (not on the rejection of anarchy, contra Kant and Hobbes).
