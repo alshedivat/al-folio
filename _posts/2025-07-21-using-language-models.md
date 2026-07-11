@@ -13,7 +13,6 @@ toc:
 
 Go to [this page](https://ollama.com/download/linux) and run the command on your server as root.
 
-
 ## Change path to read the models
 
 ```text
