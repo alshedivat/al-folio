@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2022-04-27
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Our work on near-reflectionless wireless transmission into the body was published in [IEEE TAP](https://ieeexplore.ieee.org/document/9762625).

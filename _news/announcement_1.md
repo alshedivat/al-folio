@@ -1,8 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-12-14
 inline: true
-related_posts: false
 ---
 
-A simple inline announcement.
+Our paper on cascaded metasurface was published in [Physical Review Applied](https://journals.aps.org/prapplied/abstract/10.1103/PhysRevApplied.14.064044).
