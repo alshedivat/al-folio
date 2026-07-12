@@ -9,6 +9,7 @@ category: recent
 ---
 
 ### About the Project
+
 This project was a part of my Engineering Projects class, where we were tasked with building any product that improved peoples' experience outdoors within a team of four. Our "Stable Stove" was desgined to improve the experience of outdoor cooking while in the mountains of Colorado.
 
 I was in charge of the prototyping and test phase, as well as being the primary CAD designer within the team. I utilized OnShape to design each part, and 3D printed the final design out of PLA plastic. Our design saw numerous iterations and new ideas throughout our three-month timeline.
