@@ -27,8 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an Honors Mechanical Engineering student pursuing a minor in Engineering Management from CU Boulder. I have a strong passion for human-centered design and management of engineering teams. I've become skilled in these areas through my award winning "Stable Stove", where I led the CAD and prototyping phases within the team. I've honed my skills in SolidWorks modeling and FEA through design of drivetrain components for the CU FSAE team. This has also led to proficiency in design for manufacturability, through repeated fabrication of these parts on lathes and CNC mills.
+I am an Honors Mechanical Engineering student pursuing a minor in Engineering Management from CU Boulder. I have a strong passion for human-centered design and various 3D modeling techniques. I’ve become skilled in these areas from a few different experiences:
 
-I'm pursing positions that allow me to contribute these skills to a team environment. My goal is to design high-performance products optimized for users in the real world.
+1. Interning with ESAB Corporation's R&D department, which allowed me to help with the full product design cycle of flux-coated welding electrodes. I was able to reformulate product chemistries, fabricate the new prototypes, and weld with them while comparing against competitor products.
 
-A few of my recent projects and accomplishments include my Chancellor's Achievement Scholarship, my Tensentric-sponsored Human-Centered Design Award, and a placement of 31st at the 2025 FSAE championship at the Michigan International Speedway.
+2. The award-winning “Stable Stove”, where I led the CAD and prototyping phases within the team. Tackling the challenge of camping stove-related injuries allowed me to hone my user-centered design skills, as well as improving my rapid prototyping abilities. Within a competition of over 500 contestants, my team of 4 won the Tensentric Human-Centered Design Award.
+
+3. Design of performance components as a Powertrain Engineer with the CU Formula SAE team. I’ve honed my skills in 3D part modeling with SOLIDWORKS, as well as FEA simulation using ANSYS. This role has also allowed me to master engineering drafting and machining techniques, allowing me to better understand design for manufacturability.
+
+I’m pursing positions that allow me to contribute all of these skills to a team environment. My goal is to design high-performance products optimized for users in the real world.
