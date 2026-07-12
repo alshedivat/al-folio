@@ -18,31 +18,35 @@ Finally, I worked with test welders to see how the prototypes held up in field-l
 
 Attached below are pictures and videos of my test welding, as well as a picture of the team on my last day.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/esab1.png" title="Welding a new product" class="img-fluid rounded z-depth-1" %}
+<style>
+  .esab-media {
+    height: 260px;
+    width: auto;
+    max-width: 100%;
+    object-fit: cover;
+  }
+</style>
+
+<div class="row row-cols-2 row-cols-md-3 justify-content-center">
+    <div class="col d-flex justify-content-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/esab1.png" title="Welding a new product" class="esab-media rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/esab4.png" title="TIG weld" class="img-fluid rounded z-depth-1" %}
+    <div class="col d-flex justify-content-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/esab4.png" title="TIG weld" class="esab-media rounded z-depth-1" %}
     </div>
-    <div class="row justify-content-center">
-        <div class="col-sm-10-center">
-            <video width="100%" height="auto" controls preload="metadata">
-                <source src="{{ '/assets/video/esab3.mp4' | relative_url }}" type="video/mp4">
-                    Your browser does not support the video tag.
-            </video>
-        </div>
+    <div class="col d-flex justify-content-center mb-3">
+        <video class="esab-media rounded z-depth-1" controls autoplay muted loop playsinline preload="auto">
+            <source src="{{ '/assets/video/esab3.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-sm-10-center">
-            <video width="100%" height="auto" controls preload="metadata">
-                <source src="{{ '/assets/video/esab5.mp4' | relative_url }}" type="video/mp4">
-                    Your browser does not support the video tag.
-            </video>
-        </div>
-    </div>>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/esab2.png" title="The team on my last day" class="img-fluid rounded z-depth-1" %}
+    <div class="col d-flex justify-content-center mb-3">
+        <video class="esab-media rounded z-depth-1" controls autoplay muted loop playsinline preload="auto">
+            <source src="{{ '/assets/video/esab5.mp4' | relative_url }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
-    
+    <div class="col d-flex justify-content-center mb-3">
+        {% include figure.liquid loading="eager" path="assets/img/esab2.png" title="The team on my last day" class="esab-media rounded z-depth-1" %}
+    </div>
 </div>
