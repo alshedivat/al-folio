@@ -19,15 +19,20 @@ Finally, I worked with test welders to see how the prototypes held up in field-l
 Attached below are pictures and videos of my test welding, as well as a picture of the team on my last day.
 
 <style>
+  .esab-gallery figure,
+  .esab-gallery picture {
+    display: block;
+    width: 100%;
+  }
   .esab-media {
+    display: block;
     height: 260px;
-    width: auto;
-    max-width: 100%;
+    width: 100%;
     object-fit: cover;
   }
 </style>
 
-<div class="row row-cols-2 row-cols-md-3 justify-content-center">
+<div class="row row-cols-2 row-cols-md-3 justify-content-center esab-gallery">
     <div class="col d-flex justify-content-center mb-3">
         {% include figure.liquid loading="eager" path="assets/img/esab1.png" title="Welding a new product" class="esab-media rounded z-depth-1" %}
     </div>
