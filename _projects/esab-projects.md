@@ -1,14 +1,14 @@
 ---
 layout: page
-title: ESAB Projects
-description: Various projects throughout my internship with the ESAB R&D department
+title: ESAB Product Design
+description: Product design experience through my internship with the ESAB R&D department
 img: assets/img/esab2.png
 importance: 1
 category: recent
 giscus_comments: false
 ---
 
-### About the Project
+### Product Design
 
 My time with ESAB gave me a valuable experience on the product design cycle. I started with the product engineers, helping with the chemical formulations behind new coated electrode prototypes. I walked through the various classifications and requirements new products need to pass, and learned about the materials science applications of each design.
 

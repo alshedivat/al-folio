@@ -3,7 +3,7 @@ layout: page
 title: Rear Differential
 description: An industry-standard rear differential CAD model
 img: assets/img/diff3.png
-importance: 2
+importance: 4
 category: recent
 giscus_comments: false
 ---
@@ -14,7 +14,7 @@ This project was my final grade for a CAD/Fabrication class, where we were taske
 
 I then combined these part models into one fully mated assembly which could rotate on two axes to demonstrate the functionallity of the system. This assembly model came with both a mated view and an exploded view to better illustrate the indivudual parts.
 
-From there, I made engineering drawings of each part, complete with correct tolerences and GD&T application. My final step was to create a drawing of the assembly which included a Bill of Materials. Included below are images of the mated and exploded views of the assembly, as well as the drawing + BOM.
+From there, I made engineering drawings of each part, complete with correct tolerences and GD&T application. My final step was to create a drawing of the entire assembly which included a Bill of Materials. Included below are images of the mated and exploded views of the assembly, as well as the drawing + BOM.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
