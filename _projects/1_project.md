@@ -1,51 +1,81 @@
 ---
 layout: page
-title: Pricing in a Digital World
-description: SNSF funded theoretical and experimental work on dynamic pricing when a firm tracks customers' purchases
-img: /assets/img/multi-2.png
+title: project 1
+description: with background image
+img: assets/img/12.jpg
 importance: 1
-category: research
+category: work
+related_publications: true
 ---
 
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
-Cookies, loyalty cards, or digital fingerprints – companies increasingly make use of the tools digitization provides to study the purchase behavior of their customers and adjust their prices dynamically. This research project provides new insights into optimal pricing when sellers can observe their customers’ purchase histories. This project has been funded by the Swiss National Science Foundation (SNSF), grant no. 178836.
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-In the first part of the project in <a href="https://neschenbaum.github.io/assets/pdf/escalating-prices-and-fines.pdf">Buehler & Eschenbaum (2020)</a>, we developed the theoretical tools to analyze dynamic monopoly pricing and noted an interesting connection to the literature on optimal law enforcement: conditioning price on customer purchase history is equivalent to conditioning fines on past offenses.
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
+
+You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
+Say you wanted to write a bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-      <p>We developed a simple framework to nest monopoly pricing and optimal law enforcement and examine how escalating fines (i.e. fines increasing in the number of previous offenses) arise naturally when the principal gives less than full weight to agent benefits in the maximization problem. Counter-intuitively, escalating fines are driven by decreasing fines for previous non-offenders, because this incentivizes individuals to delay their offense. Our analysis clarifies why the literature has struggled with explaining escalation despite its incredibly widespread adoption in practice.</p>
+        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/escalating-period1.png' | relative_url }}" alt="" title="First period behavior for a linear distribution function"/>
+        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
 
-The main part of the project takes the lessons learned in the first paper and develops a unifying monopoly pricing framework with two varieties on offer in <a href="https://neschenbaum.github.io/assets/pdf/Multiproduct_Dynamic_Pricing.pdf">Buehler & Eschenbaum (2021)</a>. We allow for varieties to be sold as a durable or a rental, and arbitrary correlations between consumers' values for the varieties.
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
 
+{% raw %}
+
+```html
 <div class="row justify-content-sm-center">
-    <div class="col-sm-7 mt-3 mt-md-0">
-      <p>The game revolves around three states (the two varieties and the outside option), and admissible transitions between these states. All consumers begin the game in the same state and can choose to transition between them each period according to the admissible transitions. The seller can condition the price charged on the observed history of choices for each consumer, but if a consumer cannot refuse to purchase (transition to the outside option), we impose a price of zero.</p>
-    </div>
-    <div class="col-sm-5 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/multi-statemachine.png' | relative_url }}" alt="" title="Finite state machine for two rental varieties"/>
-    </div>
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
+```
 
-We focus on a concept we call 'trading up'. It is meant to capture the simple idea that a seller has an incentive to try to induce a customer to purchase a good the customer is willing to pay more for relative to the previously chosen purchase (or non-purchase) option, i.e. to trade the customer up to a more valuable option. For example, airlines offer upgrades to business class for reduced prices to economy passengers; supermarkets send coupons with price reductions for a higher-priced alternative to something bought previously; insurance companies offer lower rates for new customers than old; etc. We show that trading up drives dynamic pricing in repeated monopoly problems and extends the logic of Coasian dynamics.
-
-Our analysis shows that if the demand function is known to the seller (so that there is no statistical learning problem), and the state of the world is constant, then the only reason to dynamically price is because the consumers previous choice reveals something about their willingness-to-pay and exploiting this is valuable to the seller: inducing a customer to pick a more valuable option increases the total surplus available in trade and thus the seller can obtain a higher profit when trading up. So this form of dynamic pricing could also be interpreted as 'dynamic market segmentation' of a fix and known demand function.
-
-We then take our framework to the lab to observe how individuals actually behave in dynamic monopoly pricing settings. We match one consumer to one seller and study pricing dynamics that arise when sellers and buyers interact repeatedly and how this compares to the theoretic predictions. We differentiate between durable and rental goods on offer and whether the seller is able to commit to prices ex-ante or not. 
-
-<h4>Project materials:</h4><ul>
-<li>
-<a href="https://stefan-buehler.net">Stefan Buehler</a>, Nicolas Eschenbaum and Severin Lenhard. <a href="/assets/pdf/Multiproduct_Dynamic_Pricing.pdf">Dynamic Monopoly Pricing With Multiple Varieties: Trading Up</a> (WP). <i>2025.</i>
-</li>
-<li>
-<a href="https://stefan-buehler.net">Stefan Buehler</a>, Thomas Epper, Nicolas Eschenbaum, and Roberta Koch. <a href="/assets/pdf/Dynamic_Pricing_Experiment.pdf">Dynamic Pricing in Bilateral Relationships: Experimental Evidence</a> (WP). <i>2024.</i>
-</li>
-<li>
-<a href="https://stefan-buehler.net">Stefan Buehler</a> and Nicolas Eschenbaum. <a href="/assets/pdf/escalating-fines-and-prices.pdf">Explaining Escalating Fines and Prices: A Unified Approach</a>. <i>Journal of Economic Behavior and Organization.</i> Volume 171, March 2020, Pages 153-164.
-</li>
-</ul>
+{% endraw %}
