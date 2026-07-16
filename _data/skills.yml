@@ -1,0 +1,94 @@
+categories:
+  - key: cad-coding
+    label: CAD & Coding
+  - key: expertise
+    label: Expertise
+
+items:
+  - name: Solidworks
+    icon: fa-solid fa-cube
+    category: cad-coding
+    details:
+      - "Stable Stove — led CAD and prototyping"
+      - "CU FSAE — drivetrain component design and FEA"
+  - name: Fusion 360
+    icon: fa-solid fa-cubes
+    category: cad-coding
+    details: []
+  - name: Arduino
+    icon: fa-solid fa-microchip
+    category: cad-coding
+    details: []
+  - name: Matlab
+    icon: fa-solid fa-square-root-variable
+    category: cad-coding
+    details: []
+  - name: AutoCAD
+    icon: fa-solid fa-compass-drafting
+    category: cad-coding
+    details: []
+  - name: Controls Coding and Integration
+    icon: fa-solid fa-sliders
+    category: cad-coding
+    details: []
+  - name: Java
+    icon: fa-brands fa-java
+    category: cad-coding
+    details: []
+  - name: Python
+    icon: fa-brands fa-python
+    category: cad-coding
+    details: []
+  - name: Blender
+    icon: fa-brands fa-blender
+    category: cad-coding
+    details: []
+  - name: Machining
+    icon: fa-solid fa-gears
+    category: expertise
+    details:
+      - "CU FSAE — lathe and CNC mill fabrication of drivetrain parts"
+  - name: Hand Tools
+    icon: fa-solid fa-screwdriver-wrench
+    category: expertise
+    details: []
+  - name: Power Tools
+    icon: fa-solid fa-bolt
+    category: expertise
+    details: []
+  - name: Laser Cutting
+    icon: fa-solid fa-scissors
+    category: expertise
+    details: []
+  - name: 3D Printing
+    icon: fa-solid fa-print
+    category: expertise
+    details: []
+  - name: Technical Drawings
+    icon: fa-solid fa-file-lines
+    category: expertise
+    details: []
+  - name: Reverse Engineering
+    icon: fa-solid fa-magnifying-glass
+    category: expertise
+    details: []
+  - name: Google Suite
+    icon: fa-brands fa-google
+    category: expertise
+    details: []
+  - name: Microsoft Excel
+    icon: fa-solid fa-file-excel
+    category: expertise
+    details: []
+  - name: Visual Arts
+    icon: fa-solid fa-palette
+    category: expertise
+    details: []
+  - name: Teamwork
+    icon: fa-solid fa-people-group
+    category: expertise
+    details: []
+  - name: Creative Problem Solving
+    icon: fa-solid fa-lightbulb
+    category: expertise
+    details: []

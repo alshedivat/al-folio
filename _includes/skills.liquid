@@ -1,0 +1,171 @@
+<style>
+  .skills-section .skills-tab {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    color: var(--global-text-color);
+    border-radius: 2rem;
+    padding: 0.4rem 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  .skills-section .skills-tab.active {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-hover-text-color);
+  }
+  .skills-section .skills-search-toggle {
+    background: none;
+    border: none;
+    color: var(--global-text-color);
+    cursor: pointer;
+    font-size: 1.1rem;
+  }
+  .skills-section .skills-search-box {
+    display: none;
+    max-width: 260px;
+    margin-bottom: 1rem;
+  }
+  .skills-section .skills-search-box.active {
+    display: block;
+  }
+  .skills-section .skills-card {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.5rem;
+    padding: 0.85rem 1rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    transition: border-color 0.15s ease;
+  }
+  .skills-section .skills-card:hover {
+    border-color: var(--global-theme-color);
+  }
+  .skills-section .skills-card i {
+    color: var(--global-theme-color);
+    font-size: 1.25rem;
+    width: 1.5rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
+  .skills-section .skills-card span {
+    color: var(--global-text-color);
+    font-weight: 500;
+  }
+  .skills-section .skills-card.d-none {
+    display: none !important;
+  }
+  #skillModal .modal-content {
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color);
+  }
+  #skillModal .list-group-item {
+    background: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    border-color: var(--global-divider-color);
+  }
+</style>
+
+<div class="skills-section">
+  <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
+    <div class="d-flex flex-wrap align-items-center">
+      <button type="button" class="skills-tab active" data-category="all">All</button>
+      {% for cat in site.data.skills.categories %}
+        <button type="button" class="skills-tab" data-category="{{ cat.key }}">{{ cat.label }}</button>
+      {% endfor %}
+    </div>
+    <button type="button" class="skills-search-toggle" id="skillsSearchToggle" title="Search skills">
+      <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+  </div>
+
+  <div class="skills-search-box" id="skillsSearchBox">
+    <input type="text" class="form-control" id="skillsSearchInput" placeholder="Search skills..." />
+  </div>
+
+  <div class="row row-cols-2 row-cols-md-3">
+    {% for skill in site.data.skills.items %}
+      <div class="col mb-3">
+        <div
+          class="skills-card"
+          data-category="{{ skill.category }}"
+          data-name="{{ skill.name | downcase }}"
+          data-skill-index="{{ forloop.index0 }}"
+        >
+          <i class="{{ skill.icon }}"></i>
+          <span>{{ skill.name }}</span>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="modal fade" id="skillModal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="skillModalLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" style="color: var(--global-text-color)">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <ul class="list-group list-group-flush" id="skillModalList"></ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script id="skills-data" type="application/json">
+  {{ site.data.skills.items | jsonify }}
+</script>
+
+<script>
+  window.addEventListener("load", function () {
+    var skillsData = JSON.parse(document.getElementById("skills-data").textContent);
+    var activeCategory = "all";
+
+    function applyFilters() {
+      var query = $("#skillsSearchInput").val().toLowerCase().trim();
+      $(".skills-card").each(function () {
+        var $card = $(this);
+        var matchesCategory = activeCategory === "all" || $card.data("category") === activeCategory;
+        var matchesSearch = query === "" || $card.data("name").toString().indexOf(query) !== -1;
+        $card.toggleClass("d-none", !(matchesCategory && matchesSearch));
+      });
+    }
+
+    $(".skills-tab").on("click", function () {
+      $(".skills-tab").removeClass("active");
+      $(this).addClass("active");
+      activeCategory = $(this).data("category");
+      applyFilters();
+    });
+
+    $("#skillsSearchToggle").on("click", function () {
+      $("#skillsSearchBox").toggleClass("active");
+      $("#skillsSearchInput").focus();
+    });
+
+    $("#skillsSearchInput").on("input", applyFilters);
+
+    $(".skills-card").on("click", function () {
+      var index = $(this).data("skill-index");
+      var skill = skillsData[index];
+      $("#skillModalLabel").text(skill.name);
+      var $list = $("#skillModalList").empty();
+      if (skill.details && skill.details.length > 0) {
+        skill.details.forEach(function (detail) {
+          $list.append('<li class="list-group-item">' + detail + "</li>");
+        });
+      } else {
+        $list.append('<li class="list-group-item">No classes or projects added yet.</li>');
+      }
+      $("#skillModal").modal("show");
+    });
+  });
+</script>
