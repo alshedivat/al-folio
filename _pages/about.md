@@ -8,12 +8,11 @@ profile:
   align: right
   image: my_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p></p>
+  more_info:
 
-news: false  # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I work at the intersection of machine learning, game theory, and competition policy, with a focus on algorithmic pricing/bidding and digital markets.
