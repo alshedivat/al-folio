@@ -36,3 +36,7 @@ I am an Honors Mechanical Engineering student pursuing a minor in Engineering Ma
 3. Design of performance components as a Powertrain Engineer with the CU Formula SAE team. I’ve honed my skills in 3D part modeling with SOLIDWORKS, as well as FEA simulation using ANSYS. This role has also allowed me to master engineering drafting and machining techniques, allowing me to better understand design for manufacturability.
 
 I’m pursing positions that allow me to contribute all of these skills to a team environment. My goal is to design high-performance products optimized for users in the real world.
+
+### Skills
+
+{% include skills.liquid %}
