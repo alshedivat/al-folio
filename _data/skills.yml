@@ -3,6 +3,8 @@ categories:
     label: CAD & Coding
   - key: machining
     label: Machining
+  - key: expertise
+    label: Expertise
 
 items:
   - name: Solidworks
@@ -18,6 +20,11 @@ items:
     details:
       - "CU FSAE - component FEA analysis + exhaust gas CFD analysis"
       - "Computational Methods (MCEN 3030)"
+  - name: Siemens NX
+    icon: fa-solid fa-space-shuttle
+    category: cad-coding
+    details:
+      - ""
   - name: AI
     icon: fa-solid fa-desktop
     category: cad-coding
@@ -39,32 +46,53 @@ items:
     details:
       - "AI Data Extraction Tool - completed project using Python"
       - "CS Peer Tutor - tutor for high school CS students"
-  - name: 3D Printing
-    icon: fa-solid fa-print
-    category: cad-coding
-    details:
-      - "Stable Stove - led prototyping phase, all prototypes and final design 3D printed"
-      - "Catan Board - manufactured using 3D printing"
   - name: Engineering Drafting
     icon: fa-solid fa-file-lines
     category: cad-coding
     details:
       - "CU FSAE - manufacture of all components from engineering drawings"
       - "Rear Differential - each component drafted, along with BOM and full assembly draft"
-  - name: User-Centered Design
-    icon: fa-solid fa-user
-    category: machining
-    details:
-      - "Stable Stove - Tensentric Human-Centered Design Award winner"
   - name: Microsoft Excel
     icon: fa-solid fa-file-excel
     category: cad-coding
     details:
       - "ESAB Internship - various projects"
       - "WAAM Literature Review - data aggregation"
-    name: Product Design
+  - name: 3D Printing
+    icon: fa-solid fa-print
+    category: machining
+    details:
+      - "Stable Stove - led prototyping phase, all prototypes and final design 3D printed"
+      - "Catan Board - manufactured using 3D printing"
+  - name: Welding
+    icon: fa-solid fa-fire-extinguisher
+    category: machining
+    details:
+      - "Esab internship - MIG, TIG, Stick Electrode test welding"
+      - "CU FSAE - tube frame TIG welding"
+  - name: CNC Milling
+    icon: fa-solid fa-gears
+    category: machining
+    details:
+      - "CU FSAE - various component manufacture"
+  - name: Lathes
+    icon: fa-solid fa-gear
+    category: machining
+    details:
+      - "CU FSAE - spacer manufacturing"
+  - name: Drills
+    icon: fa-solid fa-wrench
+    category: machining
+    details:
+      - "CU FSAE - spacer manufacture"
+  - name: Product Design
     icon: fa-solid fa-paint-brush
-    category: cad-coding
+    category: expertise
     details:
       - "ESAB Internship - stick electrode design"
       - "Stable Stove - clamp, leg, feet, and hinge design"
+  - name: User-Centered Design
+    icon: fa-solid fa-user
+    category: expertise
+    details:
+      - "Stable Stove - Tensentric Human-Centered Design Award winner"
