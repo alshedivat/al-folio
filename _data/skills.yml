@@ -1,94 +1,70 @@
 categories:
   - key: cad-coding
     label: CAD & Coding
-  - key: expertise
-    label: Expertise
+  - key: machining
+    label: Machining
 
 items:
   - name: Solidworks
     icon: fa-solid fa-cube
     category: cad-coding
     details:
-      - "Stable Stove — led CAD and prototyping"
-      - "CU FSAE — drivetrain component design and FEA"
-  - name: Fusion 360
-    icon: fa-solid fa-cubes
+      - "Stable Stove - lead CAD designer"
+      - "CU FSAE - powertrain component design"
+      - "Rear Differential - Solidworks part design, assembly, and drawing"
+  - name: ANSYS
+    icon: fa-solid fa-calculator
     category: cad-coding
-    details: []
-  - name: Arduino
-    icon: fa-solid fa-microchip
+    details:
+      - "CU FSAE - component FEA analysis + exhaust gas CFD analysis"
+      - "Computational Methods (MCEN 3030)"
+  - name: AI
+    icon: fa-solid fa-desktop
     category: cad-coding
-    details: []
+    details:
+      - "AI Data Extraction Tool - Ollama"
   - name: Matlab
     icon: fa-solid fa-square-root-variable
     category: cad-coding
-    details: []
-  - name: AutoCAD
-    icon: fa-solid fa-compass-drafting
-    category: cad-coding
-    details: []
-  - name: Controls Coding and Integration
-    icon: fa-solid fa-sliders
-    category: cad-coding
-    details: []
+    details:
+      - Computational Methods (MCEN 3030)
   - name: Java
     icon: fa-brands fa-java
     category: cad-coding
-    details: []
+    details:
+      - "CS Peer Tutor - tutor for high school CS students"
   - name: Python
     icon: fa-brands fa-python
     category: cad-coding
-    details: []
-  - name: Blender
-    icon: fa-brands fa-blender
-    category: cad-coding
-    details: []
-  - name: Machining
-    icon: fa-solid fa-gears
-    category: expertise
     details:
-      - "CU FSAE — lathe and CNC mill fabrication of drivetrain parts"
-  - name: Hand Tools
-    icon: fa-solid fa-screwdriver-wrench
-    category: expertise
-    details: []
-  - name: Power Tools
-    icon: fa-solid fa-bolt
-    category: expertise
-    details: []
-  - name: Laser Cutting
-    icon: fa-solid fa-scissors
-    category: expertise
-    details: []
+      - "AI Data Extraction Tool - completed project using Python"
+      - "CS Peer Tutor - tutor for high school CS students"
   - name: 3D Printing
     icon: fa-solid fa-print
-    category: expertise
-    details: []
-  - name: Technical Drawings
+    category: cad-coding
+    details:
+      - "Stable Stove - led prototyping phase, all prototypes and final design 3D printed"
+      - "Catan Board - manufactured using 3D printing"
+  - name: Engineering Drafting
     icon: fa-solid fa-file-lines
-    category: expertise
-    details: []
-  - name: Reverse Engineering
-    icon: fa-solid fa-magnifying-glass
-    category: expertise
-    details: []
-  - name: Google Suite
-    icon: fa-brands fa-google
-    category: expertise
-    details: []
+    category: cad-coding
+    details:
+      - "CU FSAE - manufacture of all components from engineering drawings"
+      - "Rear Differential - each component drafted, along with BOM and full assembly draft"
+  - name: User-Centered Design
+    icon: fa-solid fa-user
+    category: machining
+    details:
+      - "Stable Stove - Tensentric Human-Centered Design Award winner"
   - name: Microsoft Excel
     icon: fa-solid fa-file-excel
-    category: expertise
-    details: []
-  - name: Visual Arts
-    icon: fa-solid fa-palette
-    category: expertise
-    details: []
-  - name: Teamwork
-    icon: fa-solid fa-people-group
-    category: expertise
-    details: []
-  - name: Creative Problem Solving
-    icon: fa-solid fa-lightbulb
-    category: expertise
-    details: []
+    category: cad-coding
+    details:
+      - "ESAB Internship - various projects"
+      - "WAAM Literature Review - data aggregation"
+    name: Product Design
+    icon: fa-solid fa-paint-brush
+    category: cad-coding
+    details:
+      - "ESAB Internship - stick electrode design"
+      - "Stable Stove - clamp, leg, feet, and hinge design"

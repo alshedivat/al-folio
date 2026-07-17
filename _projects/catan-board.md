@@ -3,7 +3,7 @@ layout: page
 title: Catan Board
 description: Custom 3D-printed board game
 img: assets/img/catan2.png
-importance: 4
+importance: 6
 category: recent
 giscus_comments: false
 ---

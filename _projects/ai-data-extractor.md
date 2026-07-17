@@ -2,7 +2,7 @@
 layout: page
 title: AI Data Extraction Tool
 description: A fully offline data analysis program specifically for ESAB welding tests
-img: assets/img/panda1.png
+img: assets/img/ai1.png
 importance: 2
 category: recent
 giscus_comments: false
@@ -29,9 +29,6 @@ I saw this problem, and realized that AI could be a hugely successful tool for t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/panda2.png" title="The result of a search query" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/panda3.png" title="The result of a search query" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/panda1.png" title="The result of a search query" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

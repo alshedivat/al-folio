@@ -3,7 +3,7 @@ layout: page
 title: Wire Arc Additive Manufacturing Literature Review
 description: A deep dive into residual stress mitigation and thermal cycling effects on WAAM'ed builds
 img: assets/img/waam1.png
-importance: 5
+importance: 3
 category: recent
 giscus_comments: false
 ---
