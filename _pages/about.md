@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi — I'm Nicolas, an economist working at the intersection of **AI, industrial organization, and competition policy**. I'm the AI Lead and a Managing Economist at [Swiss Economics](https://www.swiss-economics.ch/), where I lead work on AI, digital markets, and competition policy — combining industrial-organization theory with computational methods across applied and research projects for public- and private-sector clients.
+Hi — I'm Nicolas, an economist working at the intersection of **AI, industrial organization, and competition policy**. I'm the AI Lead and a Managing Economist at [Swiss Economics](https://www.swiss-economics.ch/), where I lead work on AI, digital markets, and competition policy — combining industrial-organization theory with computational methods across applied and research projects for public- and private-sector clients. I am also an affiliated researcher at the [Zurich Center for Market Design](https://www.marketdesign.uzh.ch/en.html) at UZH.
 
 ## What I research
 

@@ -1,27 +1,7 @@
-# Maps a bibliography entry's `abbr` to a badge colour (and optional link).
-# Colour scheme is by publication TYPE:
-#   green  (#2e7d32) = peer-reviewed (journal articles & conference proceedings)
-#   amber  (#b7791f) = working paper / preprint
-
-# --- Peer-reviewed: journals & conference proceedings ---
-"JEBO":
-  url: https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
-  color: "#2e7d32"
-"Energy & AI":
-  url: https://www.sciencedirect.com/journal/energy-and-ai
-  color: "#2e7d32"
-"SZW":
-  url: https://www.szw.ch/
-  color: "#2e7d32"
-"sic!":
-  url: https://sic-online.ch/
-  color: "#2e7d32"
-"NeurIPS":
-  url: https://neurips.cc/
-  color: "#2e7d32"
-
-# --- Working papers & preprints ---
-"arXiv":
-  color: "#b7791f"
-"WP":
-  color: "#b7791f"
+# Venue abbreviations (bib `abbr`) can be mapped to a badge colour and/or link here.
+# Intentionally left without colours: badges then use the site theme colour
+# (navy in light mode, the lighter blue in dark mode) as a uniform rounded pill.
+# To colour-code or link a venue, add an entry, e.g.:
+#   "JEBO":
+#     url: https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
+#     color: "#00205f"

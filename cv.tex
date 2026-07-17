@@ -1,0 +1,206 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=1in]{geometry}
+
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{bookmark}
+\usepackage{ragged2e}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage{fontspec}
+\RequirePackage[fixed]{fontawesome5}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{myblue}{rgb}{0.0,0.0,0.35}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    breaklinks=true,
+    linkcolor=myblue,
+    urlcolor=myblue,
+    citecolor=myblue,
+    anchorcolor=myblue,
+    pdftitle={Curriculum Vitae - Nicolas Eschenbaum},
+    pdfauthor={Nicolas Eschenbaum},
+    bookmarksopen=true
+}
+
+\setlength\LTpre{0pt}
+\setlength\LTpost{0pt}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.08em}
+\renewcommand{\arraystretch}{1.04}
+\urlstyle{same}
+
+\newcolumntype{L}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\RaggedLeft\arraybackslash}p{#1}}
+
+\newcommand{\cvsection}[2]{%
+    \Needspace{7\baselineskip}%
+    \pdfbookmark[1]{#1}{#2}%
+    \section*{#1}%
+    \vspace{-0.7em}%
+    \hrule
+    \vspace{0.25em}%
+}
+
+\newenvironment{cvtable}{
+    \begin{longtable}{@{}L{0.18\textwidth}L{0.79\textwidth}@{}}
+}{
+    \end{longtable}
+}
+
+\newcommand{\cvitem}[2]{#1 & #2 \\[0.45em]}
+
+\newcommand{\cvitemdesc}[3]{%
+#1 & \textbf{#2}.\\[-0.15em]
+& {\small #3}\\[0.45em]
+}
+
+\begin{document}
+\RaggedRight
+
+% =========================
+% Header
+% =========================
+{\large\color{gray} Curriculum Vitae\par}
+\vspace{-0.5em}
+{\fontsize{25}{34}\selectfont\bfseries Nicolas Eschenbaum\par}
+
+\vspace{0.5em}
+
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}L{0.48\textwidth}R{0.48\textwidth}@{}}
+Zürich, Switzerland &
+\href{mailto:nicolas.eschenbaum@gmail.com}{nicolas.eschenbaum@gmail.com} \\
+&
+%\href{https://scholar.google.com/citations?hl=en&user=8kot8ugAAAAJ}{Google Scholar}
+\end{tabular*}
+
+\vspace{-0.5em}
+
+{\small
+Economist working at the intersection of AI, industrial organization, and competition policy. Research and advisory work focus on digital markets, market design, energy platforms, and AI regulation, using game theory, empirical methods, and machine learning. Leads applied and research projects for public- and private-sector clients.
+}
+
+\vspace{-0.75em}
+
+% =========================
+% Current Positions
+% =========================
+\cvsection{Current Positions}{positions}
+
+\begin{cvtable}
+\cvitemdesc{2022--present}{AI Lead and Managing Economist, Swiss Economics}{Leading work on AI, digital markets, and competition policy, combining industrial organization and computational methods in applied and research projects.}
+
+\cvitemdesc{2025--present}{Member, ASCOLA Working Group AI/Algorithms}{Contributing to interdisciplinary work on the legal and policy implications of AI and algorithmic systems in competition law.}
+
+\cvitemdesc{2022--present}{Collaborator, Institute for Categorical Cybernetics}{Research collaboration on formal and computational approaches to governance, digital systems, and market design.}
+
+
+\cvitemdesc{2024--2025}{Global Fellow, European AI and Society Foundation}{Research on foundation models and competition policy.}
+
+\cvitemdesc{2018--2024}{Lecturer, University of St.~Gallen}{Teaching in industrial organization, digitalization, and competition policy.}
+
+\cvitem{2018--2022}{\textbf{Postdoctoral Researcher}, University of St.~Gallen.}
+
+\cvitem{2020--2021}{\textbf{Visiting Scholar}, Düsseldorf Institute for Competition Economics.}
+\end{cvtable}
+
+% =========================
+% Education
+% =========================
+\cvsection{Education}{education}
+
+\begin{cvtable}
+\cvitem{2013--2018}{\textbf{Ph.D. in Economics and Finance} (\emph{summa cum laude}), University of St.~Gallen. Dissertation: \emph{Essays in Industrial Organization}. Supervisor: Prof.~Stefan Bühler.}
+
+\cvitem{2011--2012}{\textbf{M.Sc. in Economics} (with honors), University of Edinburgh.}
+
+\cvitem{2008--2011}{\textbf{B.Sc. in Business and Economics}, Maastricht University. }
+\end{cvtable}
+
+% =========================
+% Grants and Prizes
+% =========================
+\cvsection{Grants and Prizes}{grants}
+
+\begin{cvtable}
+\cvitem{2024--2025}{European AI and Society Foundation, ``The Market for Foundation Models,'' CHF 50,000 (PI).}
+
+\cvitem{2024--2025}{Mercator Foundation, ``DMA-effects in Switzerland,'' CHF 30,000 (co-PI).}
+
+\cvitem{2022--2025}{Swiss Federal Office of Energy, ``ChartEP: Charting Energy Platforms and Market Outcomes under Varying Policy Measures,'' CHF 281,215 (PI).}
+
+\cvitem{2022}{Young Scholar Award, CRESSE, CHF 1,500.}
+
+\cvitem{2021--2022}{Hasler Foundation, ``Computational Learning in Economic Games,'' CHF 35,000 (co-PI).}
+
+\cvitem{2021--2022}{University of St.~Gallen, ``The Competitive Effects of Pricing Software Systems: The Role of Asymmetry Between Players,'' CHF 51,555 (co-PI).}
+
+\cvitem{2018--2022}{Swiss National Science Foundation, ``Pricing in a Digital World,'' CHF 500,000 (co-investigator), SNSF grant no.~178836.}
+\end{cvtable}
+
+% Deliberate page split:
+% page 1 = profile, positions, education, grants
+% page 2 = research, applied work
+\newpage
+
+% =========================
+% Research
+% =========================
+\cvsection{Research}{research}
+
+{\small
+\begin{enumerate}[leftmargin=1.5em,itemsep=0.35em,topsep=0.2em]
+    \item \href{}{Market Power and Platform Design in Decentralized Electricity Trading}. Working paper, 2026.
+    
+    \item \href{}{Differentiable Market Clearing for Multi-Agent Learning in Peer-to-Peer Electricity Trading}. Working paper, 2026.
+
+    \item \href{https://arxiv.org/abs/2108.07146}{Dynamic Monopoly Pricing With Multiple Varieties: Trading Up}. \textit{arXiv:2108.07146}, 2025.
+
+    \item \href{https://www.szw.ch/de/artikel/2504-0685-2025-0028/dma-verw-irrungen}{DMA (Verw-) Irrungen}. \textit{Schweizerische Zeitschrift für Wirtschafts- und Finanzmarktrecht (SZW)}, issue 4, 2025.
+
+    \item \href{https://arxiv.org/abs/2505.21296}{Repeated Auctions with Speculators: Arbitrage Incentives and Forks in DAOs}. \textit{arXiv:2505.21296}, 2025.
+
+    \item \href{https://www.zora.uzh.ch/entities/publication/763e6f62-f9a4-440e-9187-11f3ba77cac7}{Schweizer DMA-Brussels-Effect? Wie Gatekeeper den DMA in der Schweiz (nicht) umsetzen}. \textit{sic! Zeitschrift für Immaterialgüter-, Informations- und Wettbewerbsrecht}, 3--14, 2024.
+
+    \item \href{https://arxiv.org/abs/2201.00345}{Robust Algorithmic Collusion}. \textit{NeurIPS PERLS}, 2022.
+
+    \item \href{https://arxiv.org/abs/2107.11314}{Dealing with Uncertainty: The Value of Reputation in the Absence of Legal Institutions}. \textit{arXiv:\allowbreak2107.11314}, 2021.
+
+    \item \href{https://authors.elsevier.com/sd/article/S0167268120300093}{Explaining Escalating Prices and Fines: A Unified Approach}. \textit{Journal of Economic Behavior and Organization}, 171, 153--164, 2020.
+\end{enumerate}
+}
+
+% =========================
+% Selected Applied Work
+% =========================
+\cvsection{Selected Applied Work}{appliedwork}
+
+
+\begin{cvtable}
+\cvitem{2025--present}{Study on modern pricing methods, pricing algorithms, and risks of collusion, European Commission tender EC-COMP/2025/OP/0053.}
+
+\cvitem{2025--present}{Regulatory impact assessment of intellectual property rules for AI systems.}
+
+\cvitem{2022--present}{Competition proceedings involving information exchange and cartel allegations, including in the retail sector.}
+
+\cvitem{2024--2025}{Market definition and competitive assessment for a major digital platform.}
+
+\cvitem{2024--2025}{Bidding and coordination analysis in secondary reserve power markets.}
+
+\cvitem{2024--2025}{Assessment of reserve power requirements in Switzerland and neighboring countries.}
+
+\cvitem{2023--2025}{Market-power analysis for energy trading platforms using multi-agent deep reinforcement learning.}
+
+\cvitem{2023--2024}{Price-elasticity estimation in German wholesale and end-user energy markets, \textit{Wirtschaftspolitik} Nr.~47, State Secretariat for Economic Affairs.}
+
+\cvitem{2023--2024}{Incentive analysis and mechanism design for a Web3 platform.}
+
+\cvitem{2024}{Game-theoretic and agent-based analysis of issuance-curve effects on staking behavior.}
+
+%\cvitem{2022}{Benchmarking hospital costs using propensity scores and entropy balancing.}
+\end{cvtable}
+
+\end{document}
