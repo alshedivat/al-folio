@@ -30,12 +30,20 @@
   .skills-section .skills-search-box.active {
     display: block;
   }
+  .skills-section .skills-column-title {
+    color: var(--global-theme-color);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+  }
+  .skills-section .skills-column.d-none {
+    display: none !important;
+  }
   .skills-section .skills-card {
     background: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
     border-radius: 0.5rem;
     padding: 0.85rem 1rem;
-    height: 100%;
     display: flex;
     align-items: center;
     gap: 0.75rem;
@@ -87,18 +95,22 @@
     <input type="text" class="form-control" id="skillsSearchInput" placeholder="Search skills..." />
   </div>
 
-  <div class="row row-cols-2 row-cols-md-3">
-    {% for skill in site.data.skills.items %}
-      <div class="col mb-3">
-        <div
-          class="skills-card"
-          data-category="{{ skill.category }}"
-          data-name="{{ skill.name | downcase }}"
-          data-skill-index="{{ forloop.index0 }}"
-        >
-          <i class="{{ skill.icon }}"></i>
-          <span>{{ skill.name }}</span>
-        </div>
+  <div class="row">
+    {% for cat in site.data.skills.categories %}
+      {% assign cat_skills = site.data.skills.items | where: "category", cat.key %}
+      <div class="col-12 col-md-4 mb-4 skills-column" data-column-category="{{ cat.key }}">
+        <div class="skills-column-title">{{ cat.label }}</div>
+        {% for skill in cat_skills %}
+          <div
+            class="skills-card mb-3"
+            data-category="{{ skill.category }}"
+            data-name="{{ skill.name | downcase }}"
+            data-skill-name="{{ skill.name }}"
+          >
+            <i class="{{ skill.icon }}"></i>
+            <span>{{ skill.name }}</span>
+          </div>
+        {% endfor %}
       </div>
     {% endfor %}
   </div>
@@ -131,11 +143,24 @@
 
     function applyFilters() {
       var query = $("#skillsSearchInput").val().toLowerCase().trim();
-      $(".skills-card").each(function () {
-        var $card = $(this);
-        var matchesCategory = activeCategory === "all" || $card.data("category") === activeCategory;
-        var matchesSearch = query === "" || $card.data("name").toString().indexOf(query) !== -1;
-        $card.toggleClass("d-none", !(matchesCategory && matchesSearch));
+
+      $(".skills-column").each(function () {
+        var $column = $(this);
+        var columnCategory = $column.data("column-category");
+        var columnMatchesTab = activeCategory === "all" || columnCategory === activeCategory;
+
+        var visibleCardCount = 0;
+        $column.find(".skills-card").each(function () {
+          var $card = $(this);
+          var matchesSearch = query === "" || $card.data("name").toString().indexOf(query) !== -1;
+          var show = columnMatchesTab && matchesSearch;
+          $card.toggleClass("d-none", !show);
+          if (show) {
+            visibleCardCount++;
+          }
+        });
+
+        $column.toggleClass("d-none", !columnMatchesTab || visibleCardCount === 0);
       });
     }
 
@@ -154,13 +179,20 @@
     $("#skillsSearchInput").on("input", applyFilters);
 
     $(".skills-card").on("click", function () {
-      var index = $(this).data("skill-index");
-      var skill = skillsData[index];
+      var name = $(this).data("skill-name");
+      var skill = skillsData.find(function (s) {
+        return s.name === name;
+      });
+      if (!skill) {
+        return;
+      }
       $("#skillModalLabel").text(skill.name);
       var $list = $("#skillModalList").empty();
-      if (skill.details && skill.details.length > 0) {
+      if (skill.details && skill.details.length > 0 && skill.details.some((d) => d.trim() !== "")) {
         skill.details.forEach(function (detail) {
-          $list.append('<li class="list-group-item">' + detail + "</li>");
+          if (detail.trim() !== "") {
+            $list.append('<li class="list-group-item">' + detail + "</li>");
+          }
         });
       } else {
         $list.append('<li class="list-group-item">No classes or projects added yet.</li>');
