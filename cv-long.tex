@@ -29,7 +29,7 @@
 \setlength\LTpost{0pt}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
-\renewcommand{\arraystretch}{1.1}
+\renewcommand{\arraystretch}{1.0}
 \setlength{\emergencystretch}{3em}
 \urlstyle{same}
 
@@ -55,14 +55,17 @@
 }{%
     \end{longtable}%
 }
+% Every entry is a SINGLE table row ending in the same trailing skip, so the
+% gap between entries is uniform regardless of whether there is a description.
+\newcommand{\cventrygap}{0.62em}
 % dates, single content cell
-\newcommand{\cvitem}[2]{#1 & #2\\[0.5em]}
-% dates, BOLD role, regular institution, description
-\newcommand{\cvrole}[4]{#1 & \textbf{#2}, #3\\[0.12em] & {\small #4}\\[0.55em]}
+\newcommand{\cvitem}[2]{#1 & #2\\[\cventrygap]}
+% dates, BOLD role, regular institution, description (role + desc in one cell)
+\newcommand{\cvrole}[4]{#1 & \textbf{#2}, #3\newline{\small #4}\\[\cventrygap]}
 % dates, BOLD role, regular institution (no description)
-\newcommand{\cvrolen}[3]{#1 & \textbf{#2}, #3\\[0.55em]}
+\newcommand{\cvrolen}[3]{#1 & \textbf{#2}, #3\\[\cventrygap]}
 % dates, BOLD title, regular trailing detail (grants/awards)
-\newcommand{\cvtitle}[3]{#1 & \textbf{#2}. #3\\[0.55em]}
+\newcommand{\cvtitle}[3]{#1 & \textbf{#2}. #3\\[\cventrygap]}
 
 % Publication entry with a hanging indent (own name bolded via \me).
 \newcommand{\cvpub}[1]{\par\hangindent=1.3em\hangafter=1 {\small #1}\par\vspace{0.4em}}
