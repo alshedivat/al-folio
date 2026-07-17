@@ -38,7 +38,7 @@
 % ---- Section headings -------------------------------------------------------
 \newcommand{\cvsection}[2]{%
     \Needspace{5\baselineskip}%
-    \vspace{0.9em}%
+    \vspace{1.4em}%
     \pdfbookmark[1]{#1}{#2}%
     {\large\bfseries #1}\par
     \vspace{0.25em}%
@@ -46,7 +46,7 @@
     \vspace{0.55em}%
 }
 \newcommand{\cvsubsection}[1]{%
-    \vspace{0.35em}{\bfseries #1}\par\vspace{0.2em}%
+    \vspace{0.7em}{\bfseries\scshape\color{myblue} #1}\par\vspace{0.3em}%
 }
 
 % ---- Two-column table: dates (left) | content (right) -----------------------
@@ -124,12 +124,13 @@ Economist working at the intersection of AI, industrial organization, and compet
 \cvsection{Research Visits}{visits}
 
 \begin{cvtable}
-\cvrolen{2020--2021}{Visiting Scholar}{Düsseldorf Institute for Competition Economics (DICE)}
+\cvrole{2020--2021}{Visiting Scholar}{Düsseldorf Institute for Competition Economics (DICE)}{Invited by Prof.~Justus Haucap.}
 \end{cvtable}
 
 % =========================
-% Publications
+% Publications  (start on a new page)
 % =========================
+\clearpage
 \cvsection{Publications}{publications}
 
 \cvsubsection{Peer-reviewed articles}
@@ -192,16 +193,6 @@ Economist working at the intersection of AI, industrial organization, and compet
 \begin{cvtable}
 \cvitem{20XX}{\textit{[Talk title, venue / conference, city.]}}
 \end{cvtable}
-
-% =========================
-% Professional Service
-% =========================
-\cvsection{Professional Service}{service}
-
-% TODO: add refereeing, editorial, and committee activity.
-\textbf{Refereeing.}\enspace \textit{[Add the journals / conferences you referee for.]}\par
-\vspace{0.4em}
-\textbf{Other service.}\enspace \textit{[Add committee, organizing, or advisory roles.]}\par
 
 % =========================
 % Memberships
