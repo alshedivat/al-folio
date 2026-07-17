@@ -1,43 +1,15 @@
 <style>
-  .skills-section .skills-tab {
-    background: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
-    color: var(--global-text-color);
-    border-radius: 2rem;
-    padding: 0.4rem 1rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
-    cursor: pointer;
-  }
-  .skills-section .skills-tab.active {
-    background: var(--global-theme-color);
-    border-color: var(--global-theme-color);
-    color: var(--global-hover-text-color);
-  }
-  .skills-section .skills-search-toggle {
-    background: none;
-    border: none;
-    color: var(--global-text-color);
-    cursor: pointer;
-    font-size: 1.1rem;
-  }
-  .skills-section .skills-search-box {
-    display: none;
-    max-width: 260px;
-    margin-bottom: 1rem;
-  }
-  .skills-section .skills-search-box.active {
-    display: block;
-  }
   .skills-section .skills-column-title {
     color: var(--global-theme-color);
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
   }
-  .skills-section .skills-column.d-none {
-    display: none !important;
+  @media (min-width: 768px) {
+    .skills-section .skills-column:not(:first-child) {
+      border-left: 1px solid var(--global-divider-color);
+      padding-left: 2rem;
+    }
   }
   .skills-section .skills-card {
     background: var(--global-card-bg-color);
@@ -64,9 +36,6 @@
     color: var(--global-text-color);
     font-weight: 500;
   }
-  .skills-section .skills-card.d-none {
-    display: none !important;
-  }
   #skillModal .modal-content {
     background: var(--global-card-bg-color);
     color: var(--global-text-color);
@@ -79,34 +48,13 @@
 </style>
 
 <div class="skills-section">
-  <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
-    <div class="d-flex flex-wrap align-items-center">
-      <button type="button" class="skills-tab active" data-category="all">All</button>
-      {% for cat in site.data.skills.categories %}
-        <button type="button" class="skills-tab" data-category="{{ cat.key }}">{{ cat.label }}</button>
-      {% endfor %}
-    </div>
-    <button type="button" class="skills-search-toggle" id="skillsSearchToggle" title="Search skills">
-      <i class="fa-solid fa-magnifying-glass"></i>
-    </button>
-  </div>
-
-  <div class="skills-search-box" id="skillsSearchBox">
-    <input type="text" class="form-control" id="skillsSearchInput" placeholder="Search skills..." />
-  </div>
-
   <div class="row">
     {% for cat in site.data.skills.categories %}
       {% assign cat_skills = site.data.skills.items | where: "category", cat.key %}
-      <div class="col-12 col-md-4 mb-4 skills-column" data-column-category="{{ cat.key }}">
+      <div class="col-12 col-md-4 mb-4 skills-column">
         <div class="skills-column-title">{{ cat.label }}</div>
         {% for skill in cat_skills %}
-          <div
-            class="skills-card mb-3"
-            data-category="{{ skill.category }}"
-            data-name="{{ skill.name | downcase }}"
-            data-skill-name="{{ skill.name }}"
-          >
+          <div class="skills-card mb-3" data-skill-name="{{ skill.name }}">
             <i class="{{ skill.icon }}"></i>
             <span>{{ skill.name }}</span>
           </div>
@@ -139,44 +87,6 @@
 <script>
   window.addEventListener("load", function () {
     var skillsData = JSON.parse(document.getElementById("skills-data").textContent);
-    var activeCategory = "all";
-
-    function applyFilters() {
-      var query = $("#skillsSearchInput").val().toLowerCase().trim();
-
-      $(".skills-column").each(function () {
-        var $column = $(this);
-        var columnCategory = $column.data("column-category");
-        var columnMatchesTab = activeCategory === "all" || columnCategory === activeCategory;
-
-        var visibleCardCount = 0;
-        $column.find(".skills-card").each(function () {
-          var $card = $(this);
-          var matchesSearch = query === "" || $card.data("name").toString().indexOf(query) !== -1;
-          var show = columnMatchesTab && matchesSearch;
-          $card.toggleClass("d-none", !show);
-          if (show) {
-            visibleCardCount++;
-          }
-        });
-
-        $column.toggleClass("d-none", !columnMatchesTab || visibleCardCount === 0);
-      });
-    }
-
-    $(".skills-tab").on("click", function () {
-      $(".skills-tab").removeClass("active");
-      $(this).addClass("active");
-      activeCategory = $(this).data("category");
-      applyFilters();
-    });
-
-    $("#skillsSearchToggle").on("click", function () {
-      $("#skillsSearchBox").toggleClass("active");
-      $("#skillsSearchInput").focus();
-    });
-
-    $("#skillsSearchInput").on("input", applyFilters);
 
     $(".skills-card").on("click", function () {
       var name = $(this).data("skill-name");
