@@ -1,9 +1,27 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Maps a bibliography entry's `abbr` to a badge colour (and optional link).
+# Colour scheme is by publication TYPE:
+#   green  (#2e7d32) = peer-reviewed (journal articles & conference proceedings)
+#   amber  (#b7791f) = working paper / preprint
 
-"PhysRev":
-  url: https://journals.aps.org/
+# --- Peer-reviewed: journals & conference proceedings ---
+"JEBO":
+  url: https://www.sciencedirect.com/journal/journal-of-economic-behavior-and-organization
+  color: "#2e7d32"
+"Energy & AI":
+  url: https://www.sciencedirect.com/journal/energy-and-ai
+  color: "#2e7d32"
+"SZW":
+  url: https://www.szw.ch/
+  color: "#2e7d32"
+"sic!":
+  url: https://sic-online.ch/
+  color: "#2e7d32"
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#2e7d32"
 
-"Vision":
-  color: "#009f36"
+# --- Working papers & preprints ---
+"arXiv":
+  color: "#b7791f"
+"WP":
+  color: "#b7791f"
