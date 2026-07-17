@@ -7,6 +7,8 @@
       value: Zürich, Switzerland
     - name: Languages
       value: English, German
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=8kot8ugAAAAJ">scholar.google.com</a>
 
 - title: Positions
   type: time_table
@@ -17,7 +19,7 @@
       description:
         - Leading work on AI, digital markets, and competition policy, combining industrial organization and computational methods in applied and research projects.
     - title: Member, ASCOLA Working Group AI/Algorithms
-      institution: ASCOLA
+      institution: Academic Society for Competition Law (ASCOLA)
       year: 2025 - present
       description:
         - Interdisciplinary work on the legal and policy implications of AI and algorithmic systems in competition law.
@@ -35,12 +37,16 @@
       institution: University of St. Gallen
       year: 2018 - 2024
       description:
-        - Teaching in industrial organization, digitalization, and competition policy.
+        - Courses in industrial organization, digitalization, and competition policy.
     - title: Postdoctoral Researcher
       institution: University of St. Gallen
       year: 2018 - 2022
+
+- title: Research Visits
+  type: time_table
+  contents:
     - title: Visiting Scholar
-      institution: Düsseldorf Institute for Competition Economics
+      institution: Düsseldorf Institute for Competition Economics (DICE)
       year: 2020 - 2021
 
 - title: Education
@@ -98,3 +104,9 @@
       year: 2018 - 2022
       description:
         - CHF 500,000 (co-investigator), SNSF grant no. 178836.
+
+- title: Publications & Applied Work
+  type: list
+  contents:
+    - The full list of journal articles, conference papers, and working papers is on the <a href="/publications/">Research</a> page.
+    - Selected advisory and applied projects are on the <a href="/applied-work/">Applied Work</a> page.
