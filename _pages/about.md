@@ -15,7 +15,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm Nicolas Eschenbaum, an economist and competition expert. As AI Lead and a Managing Economist at [Swiss Economics](https://www.swiss-economics.ch/), I advise regulators and firms, prepare expert reports in competition cases, and lead applied and academic research on algorithmic pricing, digital markets, and AI. I'm also an affiliated researcher at the [Zurich Center for Market Design](https://www.marketdesign.uzh.ch/en.html) (UZH) and collaborate with the [Institute for Categorical Cybernetics](https://cybercat.institute/) and [20squares](https://20squares.xyz).
+I'm Nicolas Eschenbaum, an economist and competition expert, and a partner and executive-board member at [Swiss Economics](https://www.swiss-economics.ch/) (Managing Economist). I lead the firm's AI practice – holding revenue responsibility, owning client relationships, leading engagement teams, and doing much of the technical modelling myself. I advise regulators and firms, prepare expert reports in competition cases, and lead applied and academic research on algorithmic pricing, digital markets, and AI. I'm also an affiliated researcher at the [Zurich Center for Market Design](https://www.marketdesign.uzh.ch/en.html) (UZH) and collaborate with the [Institute for Categorical Cybernetics](https://cybercat.institute/) and [20squares](https://20squares.xyz).
 
 ## What I research
 
