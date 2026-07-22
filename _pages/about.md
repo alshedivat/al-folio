@@ -15,22 +15,12 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi — I'm Nicolas, an economist working at the intersection of **AI, industrial organization, and competition policy**. I'm the AI Lead and a Managing Economist at [Swiss Economics](https://www.swiss-economics.ch/), where I lead work on AI, digital markets, and competition policy — combining industrial-organization theory with computational methods across applied and research projects for public- and private-sector clients. I am also an affiliated researcher at the [Zurich Center for Market Design](https://www.marketdesign.uzh.ch/en.html) at UZH.
+I'm Nicolas Eschenbaum, an economist and competition expert. As AI Lead and a Managing Economist at [Swiss Economics](https://www.swiss-economics.ch/), I advise regulators and firms, prepare expert reports in competition cases, and lead applied and academic research on algorithmic pricing, digital markets, and AI. I'm also an affiliated researcher at the [Zurich Center for Market Design](https://www.marketdesign.uzh.ch/en.html) (UZH) and collaborate with the [Institute for Categorical Cybernetics](https://cybercat.institute/) and [20squares](https://20squares.xyz).
 
 ## What I research
 
-I study how digital markets and algorithms actually behave, and what that means for policy. Recurring themes:
+- **Algorithmic pricing and collusion:** designing and implementing algorithmic pricing systems, and studying how AI and pricing systems coordinate.
+- **Digital markets and regulation:** platform competition and the Digital Markets Act.
+- **Energy markets:** pricing, market power, and the design of electricity-trading platforms.
 
-- **Algorithmic pricing and collusion** — when learning algorithms coordinate, and when that coordination breaks down.
-- **Market design and energy platforms** — pricing, market power, and mechanism design for peer-to-peer electricity trading.
-- **Digital-market regulation** — the Digital Markets Act, its "Brussels effect," and gatekeeper behaviour.
-
-I work with game theory, empirical methods, and machine learning, and increasingly build computable simulations of the markets and mechanisms I study. The full list is on my [Research](/publications/) page.
-
-## What I work on
-
-Beyond academic research, I advise governments, regulators, and firms. Recent projects include a European Commission study on pricing algorithms and the risk of collusion, competition proceedings, energy-market and reserve-power analyses, and mechanism design for digital and Web3 platforms. With colleagues at the [Institute for Categorical Cybernetics](https://cybercat.institute/), I help build computable simulations — digital twins — of pricing algorithms and allocation mechanisms. See [Applied Work](/applied-work/) for selected projects.
-
-## Background
-
-I hold a PhD in Economics and Finance (_summa cum laude_) from the University of St. Gallen, an MSc from the University of Edinburgh, and a BSc from Maastricht University. Before my current role I was a postdoctoral researcher at St. Gallen and a visiting scholar at the Düsseldorf Institute for Competition Economics. Full details are on my [CV](/cv/).
+See [Research](/publications/) for papers and [Applied Work](/applied-work/) for selected projects; my [CV](/cv/) has the full record.
