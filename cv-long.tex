@@ -46,30 +46,38 @@
     \vspace{0.55em}%
 }
 \newcommand{\cvsubsection}[1]{%
-    \vspace{0.7em}{\bfseries\scshape\color{myblue} #1}\par\vspace{0.3em}%
+    \vspace{0.9em}{\bfseries\scshape #1}\par\vspace{0.35em}%
 }
 
-% ---- Two-column table: dates (left) | content (right) -----------------------
-\newenvironment{cvtable}{%
-    \begin{longtable}{@{}L{0.16\textwidth}@{\hspace{0.02\textwidth}}L{0.80\textwidth}@{}}%
-}{%
-    \end{longtable}%
+% ---- Entries as paragraphs: fixed date box (left) + flowing body box --------
+% Using \vspace between blocks makes the inter-entry gap uniform by construction
+% (independent of whether an entry has a description).
+\newlength{\cvdatew}\setlength{\cvdatew}{0.16\textwidth}
+\newlength{\cvbodyw}\setlength{\cvbodyw}{0.82\textwidth}
+\newlength{\cventrygap}\setlength{\cventrygap}{0.85em}
+\newlength{\cvroledescgap}\setlength{\cvroledescgap}{0.15em}
+\newenvironment{cvtable}{\par}{\par} % no-op wrapper (kept so section markup is unchanged)
+\newcommand{\cventryblock}[2]{%
+    \noindent\makebox[\cvdatew][l]{#1}\parbox[t]{\cvbodyw}{#2}\par\vspace{\cventrygap}%
 }
-% Every entry is a SINGLE table row ending in the same trailing skip, so the
-% gap between entries is uniform regardless of whether there is a description.
-\newcommand{\cventrygap}{1.0em}
 % dates, single content cell
-\newcommand{\cvitem}[2]{#1 & #2\\[\cventrygap]}
-% dates, BOLD role, regular institution, description (role + desc in one cell)
-\newcommand{\cvrole}[4]{#1 & \textbf{#2}, #3\newline{\small #4}\\[\cventrygap]}
+\newcommand{\cvitem}[2]{\cventryblock{#1}{#2}}
+% dates, BOLD role, regular institution, description
+\newcommand{\cvrole}[4]{\cventryblock{#1}{\textbf{#2}, #3\\[\cvroledescgap]{\small #4}}}
 % dates, BOLD role, regular institution (no description)
-\newcommand{\cvrolen}[3]{#1 & \textbf{#2}, #3\\[\cventrygap]}
+\newcommand{\cvrolen}[3]{\cventryblock{#1}{\textbf{#2}, #3}}
 % dates, BOLD title, regular trailing detail (grants/awards)
-\newcommand{\cvtitle}[3]{#1 & \textbf{#2}. #3\\[\cventrygap]}
+\newcommand{\cvtitle}[3]{\cventryblock{#1}{\textbf{#2}. #3}}
 
 % Publication entry with a hanging indent (own name bolded via \me).
-\newcommand{\cvpub}[1]{\par\hangindent=1.3em\hangafter=1 {\small #1}\par\vspace{0.4em}}
+\newcommand{\cvpub}[1]{\par\hangindent=1.3em\hangafter=1 {\small #1}\par\vspace{0.45em}}
 \newcommand{\me}{\textbf{Eschenbaum N}}
+% Linked source badge: navy-bordered box reusing myblue. The second argument
+% (source id) is accepted for documentation but the badge always reads "link".
+\newcommand{\srclink}[2]{%
+    {\setlength{\fboxsep}{2pt}\setlength{\fboxrule}{0.4pt}%
+     \href{#1}{\fcolorbox{myblue}{white}{\color{myblue}\scriptsize link}}}%
+}
 
 \begin{document}
 \RaggedRight
@@ -82,7 +90,7 @@
     {\small
         \href{https://neschenbaum.github.io}{neschenbaum.github.io}
         \enspace\textbar\enspace
-        \href{mailto:nicolas.eschenbaum@gmail.com}{nicolas.eschenbaum@gmail.com}
+        nicolas.eschenbaum[at]gmail.com
         \enspace\textbar\enspace
         \href{https://scholar.google.com/citations?user=8kot8ugAAAAJ}{Google Scholar}
     }\\[0.35em]
@@ -92,7 +100,7 @@
 \vspace{0.7em}
 
 {\small
-Economist working at the intersection of AI, industrial organization, and competition policy. Research and advisory work focus on digital markets, market design, energy platforms, and AI regulation, using game theory, empirical methods, and machine learning. Leads applied and research projects for public- and private-sector clients.
+Economist and competition expert in industrial organization and competition policy, with a focus on algorithmic pricing, digital markets, and AI. I regularly prepare expert reports and provide economic analysis in competition cases and regulatory proceedings, and lead applied and academic research combining game theory, empirical methods, and machine learning.
 \par}
 
 % =========================
@@ -104,10 +112,10 @@ Economist working at the intersection of AI, industrial organization, and compet
 \cvrole{2022--present}{AI Lead and Managing Economist}{Swiss Economics}{Leading work on AI, digital markets, and competition policy, combining industrial organization and computational methods in applied and research projects.}
 \cvrole{2025--present}{Member, Working Group AI/Algorithms}{Academic Society for Competition Law (ASCOLA)}{Interdisciplinary work on the legal and policy implications of AI and algorithmic systems in competition law.}
 \cvrole{2022--present}{Collaborator}{Institute for Categorical Cybernetics}{Research collaboration on formal and computational approaches to governance, digital systems, and market design.}
-\cvrolen{2024--present}{Affiliated Researcher}{Zurich Center for Market Design, University of Zurich}
+\cvrole{2024--present}{Affiliated Researcher}{Center for Market Design, University of Zurich}{Research on AI and agent-based models, with applications to energy markets.}
 \cvrole{2024--2025}{Global Fellow}{European AI and Society Foundation}{Research on foundation models and competition policy.}
 \cvrole{2018--2024}{Lecturer}{University of St.~Gallen}{Teaching in industrial organization, digitalization, and competition policy.}
-\cvrolen{2018--2022}{Postdoctoral Researcher}{University of St.~Gallen}
+\cvrole{2018--2022}{Postdoctoral Researcher}{University of St.~Gallen}{Research on algorithmic pricing and competition in digital markets, funded by SNSF grant ``Pricing in a Digital World.''}
 \end{cvtable}
 
 % =========================
@@ -138,20 +146,21 @@ Economist working at the intersection of AI, industrial organization, and compet
 
 \cvsubsection{Peer-reviewed articles}
 \cvpub{Greber N, \me, Szehr O. ``Peer-to-Peer Electricity Platforms with Endogenous Prices: A Multi-Agent Neural Network Control Approach.'' \textit{Energy and AI}, 2026.}
-\cvpub{Picht PG, Nenadic L, Barnes O, \me, Kuster Y. ``DMA (Verw-)Irrungen: Was die territorialen Umsetzungsstrategien der Torwächter über den Digital Markets Act lehren.'' \textit{Schweizerische Zeitschrift für Wirtschafts- und Finanzmarktrecht (SZW)}, no.~4, 2025.}
-\cvpub{Picht PG, Nenadic L, Barnes O, \me, Kuster Y. ``Schweizer DMA-Brussels-Effect? Wie Gatekeeper den DMA in der Schweiz (nicht) umsetzen.'' \textit{sic! Zeitschrift für Immaterialgüter-, Informations- und Wettbewerbsrecht}, 3--14, 2024.}
-\cvpub{Buehler S, \me. ``Explaining Escalating Prices and Fines: A Unified Approach.'' \textit{Journal of Economic Behavior \& Organization}, 171, 153--164, 2020.}
+\cvpub{Picht PG, Nenadic L, Barnes O, \me, Kuster Y. ``DMA (Verw-)Irrungen: Was die territorialen Umsetzungsstrategien der Torwächter über den Digital Markets Act lehren.'' \textit{Schweizerische Zeitschrift für Wirtschafts- und Finanzmarktrecht (SZW)}, no.~4, 2025. \srclink{https://www.szw.ch/de/artikel/2504-0685-2025-0028/dma-verw-irrungen}{link}}
+\cvpub{Picht PG, Nenadic L, Barnes O, \me, Kuster Y. ``Schweizer DMA-Brussels-Effect? Wie Gatekeeper den DMA in der Schweiz (nicht) umsetzen.'' \textit{sic! Zeitschrift für Immaterialgüter-, Informations- und Wettbewerbsrecht}, 3--14, 2024. \srclink{https://www.zora.uzh.ch/entities/publication/763e6f62-f9a4-440e-9187-11f3ba77cac7}{link}}
+\cvpub{Buehler S, \me. ``Explaining Escalating Prices and Fines: A Unified Approach.'' \textit{Journal of Economic Behavior \& Organization}, 171, 153--164, 2020. \srclink{https://doi.org/10.1016/j.jebo.2020.01.008}{DOI}}
 
 \cvsubsection{Conference proceedings}
-\cvpub{\me, Mellgren F, Zahn P. ``Robust Algorithmic Collusion.'' \textit{NeurIPS Workshop on the Political Economy of Reinforcement Learning Systems (PERLS)}, 2022.}
+\cvpub{\me, Mellgren F, Zahn P. ``Robust Algorithmic Collusion.'' \textit{NeurIPS Workshop on the Political Economy of Reinforcement Learning Systems (PERLS)}, 2022. \srclink{https://arxiv.org/abs/2201.00345}{arXiv:2201.00345}}
 
 \cvsubsection{Working papers}
-\cvpub{\me, Greber N. ``Market Power and Platform Design in Decentralized Electricity Trading.'' \textit{arXiv:2603.19988}, 2026.}
-\cvpub{Buehler S, \me, Lenhard S. ``Dynamic Monopoly Pricing With Multiple Varieties: Trading Up.'' \textit{arXiv:2108.07146}, 2025.}
-\cvpub{Picht PG, Nenadic L, Barnes O, Kuster Y, \me. ``Selective Confusion: An Empirical Analysis of the DMA's Brussels Effect.'' \textit{SSRN 5618690}, 2025.}
+\cvpub{\me. ``Shared Bidding Algorithms and Competition: Evidence from Electricity Markets.'' 2026. \srclink{https://arxiv.org/abs/2607.13002}{arXiv:2607.13002}}
+\cvpub{\me, Greber N. ``Market Power and Platform Design in Decentralized Electricity Trading.'' 2026. \srclink{https://arxiv.org/abs/2603.19988}{arXiv:2603.19988}}
+\cvpub{Buehler S, \me, Lenhard S. ``Dynamic Monopoly Pricing With Multiple Varieties: Trading Up.'' 2025. \srclink{https://arxiv.org/abs/2108.07146}{arXiv:2108.07146}}
+\cvpub{Picht PG, Nenadic L, Barnes O, Kuster Y, \me. ``Selective Confusion: An Empirical Analysis of the DMA's Brussels Effect.'' 2025. \srclink{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5618690}{SSRN 5618690}}
 \cvpub{Buehler S, Epper T, \me, Koch R. ``Dynamic Pricing in Bilateral Relationships: Experimental Evidence.'' Working paper, 2025.}
-\cvpub{\me, Greber N. ``Repeated Auctions with Speculators: Arbitrage Incentives and Forks in DAOs.'' \textit{arXiv:2505.21296}, 2025.}
-\cvpub{\me, Liebert H. ``Dealing with Uncertainty: The Value of Reputation in the Absence of Legal Institutions.'' \textit{arXiv:2107.11314}, 2021.}
+\cvpub{\me, Greber N. ``Repeated Auctions with Speculators: Arbitrage Incentives and Forks in DAOs.'' 2025. \srclink{https://arxiv.org/abs/2505.21296}{arXiv:2505.21296}}
+\cvpub{\me, Liebert H. ``Dealing with Uncertainty: The Value of Reputation in the Absence of Legal Institutions.'' 2021. \srclink{https://arxiv.org/abs/2107.11314}{arXiv:2107.11314}}
 \cvpub{\me. ``Estimating Geographic Market Size Nonparametrically: An Application to Grocery Retailing.'' Working paper, 2018.}
 
 % =========================
