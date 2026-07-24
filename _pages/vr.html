@@ -48,8 +48,19 @@ hide_footer: true
 
 </div>
 
+<style>
+/* This page only ever needs the in-headset AR view, never the flat on-page
+   preview A-Frame renders by default (both before entering AR and after
+   exiting) - keep that canvas permanently invisible and non-interactive so
+   it can't cover the instructions or block page scrolling. */
+#ar-scene-mount canvas.a-canvas {
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+</style>
+
 <template id="ar-scene-template">
-<a-scene renderer="antialias: true; highRefreshRate: true; foveationLevel: 3" obb-collider="showColliders: false" xr-mode-ui="XRMode: ar; enterARButton: #myEnterARButton" id="scene">
+<a-scene embedded renderer="antialias: true; highRefreshRate: true; foveationLevel: 3" obb-collider="showColliders: false" xr-mode-ui="XRMode: ar; enterARButton: #myEnterARButton" id="scene">
 
 
 
