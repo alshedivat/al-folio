@@ -15,30 +15,34 @@ hide_footer: true
   <img src="{{ '/assets/img/Animation2.gif' | relative_url }}" alt="Preview of the IceCube AR neutrino event visualization" class="img-fluid rounded z-depth-1">
 </div>
 
-<div id="vr-ar-content" style="display:none; position:relative; z-index:2;">
+<div id="vr-ar-content" style="display:none;">
 
-  <p>
-  This is an augmented reality visualization of real IceCube neutrino events, built with <a href="https://aframe.io/">A-Frame</a> and WebXR. It renders the actual DeepCore string geometry and lets you step inside a neutrino interaction: the colored spheres are photon hits recorded by the detector's optical sensors, colored by arrival time. You can walk around and through the detector, scale and reposition it in your room, and try to guess the neutrino's direction from the pattern of hits before revealing the true direction.
-  </p>
+  <div id="vr-ar-instructions" style="position:relative; z-index:1;">
 
-  <p>
-  <strong>Requires a Meta Quest 3 (or Quest Pro)</strong> with color passthrough AR support, opened in the Meta Quest Browser.
-  </p>
+    <p>
+    This is an augmented reality visualization of real IceCube neutrino events, built with <a href="https://aframe.io/">A-Frame</a> and WebXR. It renders the actual DeepCore string geometry and lets you step inside a neutrino interaction: the colored spheres are photon hits recorded by the detector's optical sensors, colored by arrival time. You can walk around and through the detector, scale and reposition it in your room, and try to guess the neutrino's direction from the pattern of hits before revealing the true direction.
+    </p>
 
-  <p>Once in AR:</p>
-  <ul>
-    <li><strong>Both triggers (held together):</strong> move, rotate, and scale the detector &mdash; pull your hands apart to scale it up, twist to rotate, and move both hands to reposition it.</li>
-    <li><strong>Right thumbstick:</strong> rotate the detector left/right.</li>
-    <li><strong>Both grip buttons (held together):</strong> aim a light-blue line between your controllers to mark your guess of the neutrino's direction.</li>
-    <li><strong>X button (left controller):</strong> reveal the true neutrino direction (magenta line) and compare it to your guess.</li>
-    <li><strong>A button (right controller):</strong> load the next neutrino event.</li>
-    <li><strong>Y button (left controller):</strong> skip the in-headset tutorial hints.</li>
-    <li><strong>B button (right controller):</strong> exit AR.</li>
-  </ul>
+    <p>
+    <strong>Requires a Meta Quest 3 (or Quest Pro)</strong> with color passthrough AR support, opened in the Meta Quest Browser.
+    </p>
 
-  <p class="text-center">
-    <a id="myEnterARButton" href="#" class="btn btn-danger btn-lg" style="min-width:250px;">Enter AR</a>
-  </p>
+    <p>Once in AR:</p>
+    <ul>
+      <li><strong>Both triggers (held together):</strong> move, rotate, and scale the detector &mdash; pull your hands apart to scale it up, twist to rotate, and move both hands to reposition it.</li>
+      <li><strong>Right thumbstick:</strong> rotate the detector left/right.</li>
+      <li><strong>Both grip buttons (held together):</strong> aim a light-blue line between your controllers to mark your guess of the neutrino's direction.</li>
+      <li><strong>X button (left controller):</strong> reveal the true neutrino direction (magenta line) and compare it to your guess.</li>
+      <li><strong>A button (right controller):</strong> load the next neutrino event.</li>
+      <li><strong>Y button (left controller):</strong> skip the in-headset tutorial hints.</li>
+      <li><strong>B button (right controller):</strong> exit AR.</li>
+    </ul>
+
+    <p class="text-center">
+      <a id="myEnterARButton" href="#" class="btn btn-danger btn-lg" style="min-width:250px;">Enter AR</a>
+    </p>
+
+  </div>
 
   <div id="ar-scene-mount"></div>
 
