@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+echo "Installing optional Python deps for jekyll-jupyter-notebook..."
+python3 -m pip install --user --break-system-packages jupyter nbconvert
+
+echo
+echo "If your shell cannot find jupyter binaries, add this to your shell profile:"
+echo '  export PATH="$HOME/Library/Python/3.14/bin:$PATH"'

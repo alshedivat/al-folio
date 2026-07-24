@@ -1,0 +1,112 @@
+name: "🔌 Plugin feature proposal"
+description: Propose a plugin to be listed (featured) or bundled in al-folio.
+labels: ["needs triage", "plugin-ecosystem"]
+body:
+  - type: markdown
+    attributes:
+      value: >
+        Use this template to propose adding a plugin to the `al-folio` ecosystem catalog.
+        Featuring and bundling are separate decisions.
+
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Proposal checklist
+      options:
+        - label: I confirmed this plugin is not already listed in `_data/featured_plugins.yml`.
+          required: true
+        - label: I understand that featuring does not automatically mean bundling.
+          required: true
+
+  - type: input
+    id: plugin_name
+    attributes:
+      label: Plugin name
+      description: Human-readable plugin name.
+      placeholder: al_folio_example
+    validations:
+      required: true
+
+  - type: input
+    id: repo_url
+    attributes:
+      label: Repository URL
+      description: Public repository URL for the plugin.
+      placeholder: https://github.com/your-org/al-folio-example
+    validations:
+      required: true
+
+  - type: input
+    id: gem_name
+    attributes:
+      label: Gem name
+      description: Name published on RubyGems.
+      placeholder: al_folio_example
+    validations:
+      required: true
+
+  - type: input
+    id: plugin_id
+    attributes:
+      label: Jekyll plugin ID
+      description: Plugin id used in `_config.yml` plugins list.
+      placeholder: al_folio_example
+    validations:
+      required: true
+
+  - type: dropdown
+    id: plugin_scope
+    attributes:
+      label: Plugin scope
+      description: Does this plugin depend on al-folio-specific runtime contracts?
+      options:
+        - Theme-coupled (al-folio-specific)
+        - Reusable (works outside al-folio)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: requested_track
+    attributes:
+      label: Requested track
+      description: Which listing track are you proposing?
+      options:
+        - Featured-only
+        - Bundled in starter
+    validations:
+      required: true
+
+  - type: input
+    id: compatibility
+    attributes:
+      label: Compatibility range
+      description: al-folio versions supported by this plugin.
+      placeholder: "al_folio_min: 1.0.0, al_folio_max: 1.x"
+    validations:
+      required: true
+
+  - type: input
+    id: demo_path
+    attributes:
+      label: Demo page/post URL
+      description: Public demo path showing the plugin in action.
+      placeholder: https://your-site.example/plugins/my-plugin-demo
+    validations:
+      required: true
+
+  - type: input
+    id: maintainer_contact
+    attributes:
+      label: Maintainer contact
+      description: Primary maintainer handle or contact URL.
+      placeholder: https://github.com/your-handle
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Add context, migration notes, or caveats.
+    validations:
+      required: false

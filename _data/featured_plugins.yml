@@ -1,0 +1,223 @@
+- name: al_folio_core
+  repo_url: https://github.com/al-org-dev/al-folio-core
+  gem_name: al_folio_core
+  jekyll_plugin_id: al_folio_core
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /about/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Core runtime primitives and starter contracts.
+
+- name: al_folio_distill
+  repo_url: https://github.com/al-org-dev/al-folio-distill
+  gem_name: al_folio_distill
+  jekyll_plugin_id: al_folio_distill
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /blog/2018/distill/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Distill layout/runtime ownership.
+
+- name: al_folio_cv
+  repo_url: https://github.com/al-org-dev/al-folio-cv
+  gem_name: al_folio_cv
+  jekyll_plugin_id: al_folio_cv
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /cv/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: CV layouts, includes, and rendering behavior.
+
+- name: al_folio_upgrade
+  repo_url: https://github.com/al-org-dev/al-folio-upgrade
+  gem_name: al_folio_upgrade
+  jekyll_plugin_id: al_folio_upgrade
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Upgrade audit/codemod/report CLI.
+
+- name: al_folio_bootstrap_compat
+  repo_url: https://github.com/al-org-dev/al-folio-bootstrap-compat
+  gem_name: al_folio_bootstrap_compat
+  jekyll_plugin_id: al_folio_bootstrap_compat
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.2.x"
+  status: bundled
+  demo_path: /blog/2023/tables/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Transitional compatibility for legacy Bootstrap-marked content.
+
+- name: al_icons
+  repo_url: https://github.com/al-org-dev/al-icons
+  gem_name: al_icons
+  jekyll_plugin_id: al_icons
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /about/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Icon runtime loading (Font Awesome, Academicons, Scholar Icons).
+
+- name: al_cookie
+  repo_url: https://github.com/al-org-dev/al-cookie
+  gem_name: al_cookie
+  jekyll_plugin_id: al_cookie
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Cookie consent runtime and consent-aware analytics gating.
+
+- name: al_search
+  repo_url: https://github.com/al-org-dev/al-search
+  gem_name: al_search
+  jekyll_plugin_id: al_search
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Search runtime payload and keyboard/modal setup.
+
+- name: al_img_tools
+  repo_url: https://github.com/al-org-dev/al-img-tools
+  gem_name: al_img_tools
+  jekyll_plugin_id: al_img_tools
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /blog/2024/photo-gallery/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Image tooling, gallery, and lightbox behavior.
+
+- name: al_math
+  repo_url: https://github.com/al-org-dev/al-math
+  gem_name: al_math
+  jekyll_plugin_id: al_math
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /blog/2023/tikzjax/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Math and TikZ runtime integration.
+
+- name: al_analytics
+  repo_url: https://github.com/al-org-dev/al-analytics
+  gem_name: al_analytics
+  jekyll_plugin_id: al_analytics
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Analytics provider runtime integration.
+
+- name: al_citations
+  repo_url: https://github.com/al-org-dev/al-citations
+  gem_name: al_citations
+  jekyll_plugin_id: al_citations
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /publications/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Bibliography rendering and publication runtime behavior.
+
+- name: al_ext_posts
+  repo_url: https://github.com/al-org-dev/al-ext-posts
+  gem_name: al_ext_posts
+  jekyll_plugin_id: al_ext_posts
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /blog/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: External posts ingestion helpers.
+
+- name: al_charts
+  repo_url: https://github.com/al-org-dev/al-charts
+  gem_name: al_charts
+  jekyll_plugin_id: al_charts
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /blog/2023/charts/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Chart runtime integrations.
+
+- name: al_comments
+  repo_url: https://github.com/al-org-dev/al-comments
+  gem_name: al_comments
+  jekyll_plugin_id: al_comments
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /blog/
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Comments providers and comment runtime glue.
+
+- name: al_newsletter
+  repo_url: https://github.com/al-org-dev/al-newsletter
+  gem_name: al_newsletter
+  jekyll_plugin_id: al_newsletter
+  owner: al-org-dev
+  license: See plugin repo LICENSE
+  compat:
+    al_folio_min: "1.0.0"
+    al_folio_max: "1.x"
+  status: bundled
+  demo_path: /
+  maintainer_contact: https://github.com/al-org-dev
+  notes: Newsletter runtime integration.
