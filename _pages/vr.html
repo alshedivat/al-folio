@@ -1,0 +1,480 @@
+---
+layout: page
+title: vr/ar
+permalink: /vr.html
+description: An interactive AR/VR visualization of IceCube neutrino events.
+nav: true
+nav_order: 2
+hide_footer: true
+---
+
+<div id="vr-fallback" style="display:none;">
+  <p>
+  This content only works on a <strong>Meta Quest 3</strong> (or Quest Pro) with color passthrough AR support, opened in the Meta Quest Browser &mdash; it can't be viewed on this device. Here's a short preview of what it looks like:
+  </p>
+  <img src="{{ '/assets/img/Animation2.gif' | relative_url }}" alt="Preview of the IceCube AR neutrino event visualization" class="img-fluid rounded z-depth-1">
+</div>
+
+<div id="vr-ar-content" style="display:none;">
+
+  <p>
+  This is an augmented reality visualization of real IceCube neutrino events, built with <a href="https://aframe.io/">A-Frame</a> and WebXR. It renders the actual DeepCore string geometry and lets you step inside a neutrino interaction: the colored spheres are photon hits recorded by the detector's optical sensors, colored by arrival time. You can walk around and through the detector, scale and reposition it in your room, and try to guess the neutrino's direction from the pattern of hits before revealing the true direction.
+  </p>
+
+  <p>
+  <strong>Requires a Meta Quest 3 (or Quest Pro)</strong> with color passthrough AR support, opened in the Meta Quest Browser.
+  </p>
+
+  <p>Once in AR:</p>
+  <ul>
+    <li><strong>Both triggers (held together):</strong> move, rotate, and scale the detector &mdash; pull your hands apart to scale it up, twist to rotate, and move both hands to reposition it.</li>
+    <li><strong>Right thumbstick:</strong> rotate the detector left/right.</li>
+    <li><strong>Both grip buttons (held together):</strong> aim a light-blue line between your controllers to mark your guess of the neutrino's direction.</li>
+    <li><strong>X button (left controller):</strong> reveal the true neutrino direction (magenta line) and compare it to your guess.</li>
+    <li><strong>A button (right controller):</strong> load the next neutrino event.</li>
+    <li><strong>Y button (left controller):</strong> skip the in-headset tutorial hints.</li>
+    <li><strong>B button (right controller):</strong> exit AR.</li>
+  </ul>
+
+  <p class="text-center">
+    <a id="myEnterARButton" href="#" class="btn btn-danger btn-lg" style="min-width:250px;">Enter AR</a>
+  </p>
+
+  <div id="ar-scene-mount"></div>
+
+</div>
+
+<template id="ar-scene-template">
+<a-scene renderer="antialias: true; highRefreshRate: true; foveationLevel: 3" obb-collider="showColliders: false" xr-mode-ui="XRMode: ar; enterARButton: #myEnterARButton" id="scene">
+
+
+
+  <a-entity test></a-entity>
+
+  <a-entity id="ctrl_left"
+    oculus-touch-controls="hand: left"
+    visible=false
+    hand-controls-left>
+  </a-entity>
+  <a-entity id="ctrl_right"
+    oculus-touch-controls="hand: right"
+    visible=false
+    hand-controls-right>
+  </a-entity>
+
+<a-entity id="env" visible=false>
+
+<a-cylinder position="0 0 0" rotation="0 0 30" radius="0.003" height="3" color="#de21d8" id="truth" visible=false></a-cylinder>
+
+<a-cylinder position="0 0 0" rotation="0 0 30" radius="0.003" height="3" color="lightblue" id="reco" visible=false></a-cylinder>
+
+</a-entity>
+
+<a-entity camera>
+
+    <a-text
+      id="msg"
+      position="0 0 -2"
+      value="Hello, you are seeing a neutrino event in IceCube! \n\n Exit anytime by pressing B. \n Skip tutorial by pressing Y."
+      color="white"
+      align="center"
+      scale="0.4 0.4 0.4">
+    </a-text>
+
+  <!-- Background plane behind the text -->
+  <a-plane
+    id="textBackground"
+    position="0 0 -2.01"
+    width="2.2"
+    height="0.5"
+    color="black"
+    opacity="0.5"
+  ></a-plane>
+
+   <a-text
+      id="angle"
+      position="0 0.3 -2"
+      value=""
+      color="#FF00FF"
+      align="center"
+      scale="1.5 1.5 1.5"
+      visible="false"
+    </a-text>
+
+ </a-entity>
+
+</a-scene>
+</template>
+
+<script>
+(function () {
+  var arContent = document.getElementById('vr-ar-content');
+  var fallback = document.getElementById('vr-fallback');
+
+  function loadScript(src) {
+    return new Promise(function (resolve, reject) {
+      var s = document.createElement('script');
+      s.src = src;
+      s.onload = resolve;
+      s.onerror = reject;
+      document.head.appendChild(s);
+    });
+  }
+
+  function showFallback() {
+    fallback.style.display = 'block';
+  }
+
+  function showAR() {
+    arContent.style.display = 'block';
+    loadScript('https://aframe.io/releases/1.5.0/aframe.min.js')
+      .then(function () { return loadScript('https://d3js.org/d3.v7.js'); })
+      .then(function () { return loadScript('https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.0/dist/aframe-extras.min.js'); })
+      .then(function () { return loadScript('https://unpkg.com/aframe-environment-component@1.3.3/dist/aframe-environment-component.min.js'); })
+      .then(initApp)
+      .catch(showFallback);
+  }
+
+  if (navigator.xr && navigator.xr.isSessionSupported) {
+    navigator.xr.isSessionSupported('immersive-ar').then(function (supported) {
+      if (supported) { showAR(); } else { showFallback(); }
+    }).catch(showFallback);
+  } else {
+    showFallback();
+  }
+
+  function initApp() {
+    var zoffset = 520.;
+    var xscale = 0.0015;
+
+    function loadCSVData(filePath) {
+      d3.csv(filePath).then(function(data) {
+
+         var max = d3.max(data, function(d) {return +d.time} );
+         var min = d3.min(data, function(d) {return +d.time} );
+         var median = d3.median(data, function(d) {return +d.time} );
+         var q20 = d3.quantile(data, 0.2, function(d) {return +d.time} );
+         var q80 = d3.quantile(data, 0.8, function(d) {return +d.time} );
+
+         d3.select("a-scene").select("#env")
+         .selectAll("#pulse")
+         .remove();
+
+         d3.select("a-scene").select("#env")
+         .selectAll("#pulse")
+          .data(data)
+          .join("a-sphere")
+            .attr("id", "pulse")
+            .attr("metal", 1)
+            .attr("segments-width", 16)
+            .attr("segments-height", 8)
+            .attr("color", d=>d3.interpolateSpectral(Math.min(Math.max((d.time-q20)/(q80-q20),0),1)))
+            .attr("radius", d=>String(Math.pow(d.charge, 1/3)*10*xscale))
+            .attr("position", function (d) { return parseFloat(d.x)*xscale + " " + (parseFloat(d.z)+zoffset)*xscale + " " + parseFloat(d.y)*xscale; } )
+            .attr("opacity", 0)
+            .attr("animation", function(d) {return "property: opacity; to:1; dur: 10; delay: " + String((d.time-min)/2)});
+      });
+    }
+
+    function load_event(index) {
+      var fname = "https://raw.githubusercontent.com/philippeller/pointsource/master/example_event" + (index%10).toString() +".csv";
+
+      console.log(fname);
+      document.getElementById('truth').setAttribute("visible", false);
+      document.getElementById('reco').setAttribute("visible", false);
+      loadCSVData(fname);
+    }
+
+    d3.csv("https://raw.githubusercontent.com/philippeller/pointsource/master/geometry_strings.csv").then(function(data) {
+       d3.select("a-scene").select("#env")
+       .selectAll("#string")
+        .data(data)
+        .join("a-cylinder")
+          .attr("id", "string")
+          .attr("segments-height", 1)
+          .attr("segments-radial", 8)
+          .attr("color", "white")
+          .attr("opacity", 0.8)
+          .attr("height", function (d) { return (parseFloat(d.z_max) - parseFloat(d.z_min))*xscale; } )
+          .attr("radius", 1*xscale)
+          .attr("position", function (d) { return parseFloat(d.x)*xscale + " " + (0.5*(parseFloat(d.z_max)+parseFloat(d.z_min))+zoffset)*xscale + " " + parseFloat(d.y)*xscale; } );
+    });
+
+    var meta = [];
+    d3.csv("https://raw.githubusercontent.com/philippeller/pointsource/master/example_metadata.csv").then(function(data) {
+      data.forEach(function(d) {meta.push([+d.azimuth, +d.zenith])})
+    });
+
+    AFRAME.registerComponent('test',{
+      init: function () {
+
+        this.rightController = document.getElementById('ctrl_right');
+        this.leftController = document.getElementById('ctrl_left');
+        this.scene = document.querySelector('a-scene');
+        this.detector = document.getElementById('env');
+        this.truth = document.getElementById('truth');
+        this.reco = document.getElementById('reco');
+
+        this.file_index = 0;
+
+        this.msg_count = 0;
+
+        this.rightController.addEventListener('bbuttondown', this.exit.bind(this));
+        this.rightController.addEventListener('abuttondown', this.next.bind(this));
+        this.leftController.addEventListener('xbuttondown', this.show_truth.bind(this));
+        this.leftController.addEventListener('ybuttondown', this.skip.bind(this));
+        this.thumbstickX = 0;
+        this.thumbstickY = 0;
+        this.rightController.addEventListener('thumbstickmoved', this.rotate.bind(this));
+        this.moving = false;
+        this.recoed = false;
+        this.leftTriggerPressed = false;
+        this.rightTriggerPressed = false;
+        this.leftGripPressed = false;
+        this.rightGripPressed = false;
+
+        this.scene.addEventListener("enter-vr", this.enter.bind(this));
+
+
+        // Variables to track previous positions of the controllers
+        this.previousLeftPos = new THREE.Vector3();
+        this.previousRightPos = new THREE.Vector3();
+        this.previousDetectorPos = new THREE.Vector3();
+        this.initialAngle = 0;
+        this.rightController.addEventListener('triggerdown', this.rtp.bind(this));
+        this.rightController.addEventListener('triggerup', this.rtr.bind(this));
+        this.leftController.addEventListener('triggerdown', this.ltp.bind(this));
+        this.leftController.addEventListener('triggerup', this.ltr.bind(this));
+        this.rightController.addEventListener('gripdown', this.rgp.bind(this));
+        this.rightController.addEventListener('gripup', this.rgr.bind(this));
+        this.leftController.addEventListener('gripdown', this.lgp.bind(this));
+        this.leftController.addEventListener('gripup', this.lgr.bind(this));
+      },
+
+
+              // Helper function to calculate the angle between two points in the XZ plane
+       calculateAngleBetweenControllers: function (pos1, pos2) {
+                const deltaX = pos2.x - pos1.x;
+                const deltaZ = pos2.z - pos1.z;
+                return Math.atan2(deltaX, deltaZ); // Angle in radians
+              },
+      next_msg: function(x, delay=3000) {
+            console.log(x);
+
+            msg = document.getElementById('msg');
+            bkg = document.getElementById('textBackground');
+            msg.removeAttribute("animation__t1");
+            msg.removeAttribute("animation__t2");
+
+        msg.setAttribute("animation__t1","property:opacity; from:1; to:0; delay: " + delay +"; dur:2000; autoplay:true");
+            msg.addEventListener("animationcomplete__t1", () => {msg.setAttribute("value", x)});
+            msg.setAttribute("animation__t2", "property:opacity; to:1; startEvents: animationcomplete__t1; delay:1000; dur:1000");
+            bkg.removeAttribute("animation__t1");
+            bkg.removeAttribute("animation__t2");
+            bkg.setAttribute("animation__t1","property:opacity; from:0.5; to:0; delay: " + delay +"; dur:2000, autoplay:true");
+            bkg.setAttribute("animation__t2", "property:opacity; to:0.5; startEvents: animationcomplete__t1; delay:1000; dur:1000");
+      },
+
+      exit: function (evt) {
+        this.scene.exitVR();
+      },
+      skip: function (evt) {
+        this.msg_count = 100;
+        msg = document.getElementById('msg');
+        bkg = document.getElementById('textBackground');
+        msg.setAttribute("visible", false);
+        bkg.setAttribute("visible", false);
+      },
+      enter: function (evt) {
+        this.detector.setAttribute("visible", true);
+        load_event(0);
+        this.next_msg("Press both triggers to move, rotate, and scale the detector.", 7000);
+      },
+      show_truth: function (evt) {
+        this.recoed = true;
+        this.truth.object3D.rotation.z = Math.PI - meta[this.file_index%10][1];
+        this.truth.object3D.rotation.y = meta[this.file_index%10][0] - Math.PI/2;
+        this.truth.setAttribute("visible", true);
+
+
+        const quaternion1 = new THREE.Quaternion().setFromEuler(this.truth.object3D.rotation);
+        const quaternion2 = new THREE.Quaternion().setFromEuler(this.reco.object3D.rotation);
+
+              // Calculate the angular difference in radians
+              const angleRadians = quaternion1.angleTo(quaternion2);
+
+              // Convert to degrees
+              const angleDegrees = THREE.MathUtils.radToDeg(angleRadians);
+
+        text = document.getElementById('angle');
+        //text.setAttribute("visible", true);
+        //text.setAttribute("opacity", 1);
+        //text.setAttribute("value", angleDegrees.toFixed(2) + " Degree");
+        console.log(angleDegrees.toFixed(2) + String.fromCharCode(176));
+
+        //text.removeAttribute("animation");
+        //text.setAttribute("animation", "property:opacity; from:1; to:0; delay:3000; dur:1000; autoplay:true");
+
+                   if (this.msg_count == 3) {
+                        this.msg_count = 4;
+                        this.next_msg("Press A to move to the next event.");
+                     }
+
+      },
+      next: function (evt) {
+        this.file_index += 1;
+        load_event(this.file_index);
+        this.recoed = false;
+        if (this.msg_count == 4) {
+            msg = document.getElementById('msg');
+            bkg = document.getElementById('textBackground');
+            msg.removeAttribute("animation__t1");
+            msg.removeAttribute("animation__t2");
+            msg.setAttribute("animation__t1","property:opacity; to:0; delay: 3000, dur:2000, autoplay:true");
+            bkg.removeAttribute("animation__t1");
+            bkg.removeAttribute("animation__t2");
+            bkg.setAttribute("animation__t1","property:opacity; to:0; delay: 3000, dur:2000, autoplay:true");
+            this.msg_count = 5;
+        }
+      },
+      rotate: function (evt) {
+        this.thumbstickX = evt.detail.x;
+        this.thumbstickY = evt.detail.y;
+
+        if (this.msg_count == 1) {
+            this.msg_count = 2;
+            this.next_msg("When pressing both thumb grips, a light blue line will appear. Try to place it in the direction of the neutrino to guess its direction.");
+           }
+
+      },
+      rtp: function (evt) {
+          this.rightTriggerPressed = true;
+          this.previousRightPos.copy(this.rightController.object3D.position);
+          this.previousLeftPos.copy(this.leftController.object3D.position);
+          this.previousDetectorPos.copy(this.detector.object3D.position);
+          this.initialAngle = this.calculateAngleBetweenControllers(this.previousLeftPos, this.previousRightPos);
+      },
+      rtr: function (evt) {
+          this.rightTriggerPressed = false;
+      },
+      ltp: function (evt) {
+          this.leftTriggerPressed = true;
+          this.previousRightPos.copy(this.rightController.object3D.position);
+          this.previousLeftPos.copy(this.leftController.object3D.position);
+          this.previousDetectorPos.copy(this.detector.object3D.position);
+          this.initialAngle = this.calculateAngleBetweenControllers(this.previousLeftPos, this.previousRightPos);
+      },
+      ltr: function (evt) {
+          this.leftTriggerPressed = false;
+      },
+
+      rgp: function (evt) {
+          this.rightGripPressed = true;
+      },
+      rgr: function (evt) {
+          this.rightGripPressed = false;
+      },
+      lgp: function (evt) {
+          this.leftGripPressed = true;
+      },
+      lgr: function (evt) {
+          this.leftGripPressed = false;
+      },
+      tick: function () {
+
+        if (Math.abs(this.thumbstickX) > 0.1) {
+            this.detector.object3D.rotation.y += this.thumbstickX * 0.01;
+        }
+
+              if (this.leftTriggerPressed && this.rightTriggerPressed) {
+
+                  if (this.msg_count == 0) {
+                    this.msg_count = 1;
+                    this.next_msg("Now rotate it using the right thumbstick.");
+                  }
+
+                  const leftPos = this.leftController.object3D.position;
+                  const rightPos = this.rightController.object3D.position;
+
+                  // Calculate the deltas (relative changes) in positions
+                  const deltaLeft = new THREE.Vector3().subVectors(leftPos, this.previousLeftPos);
+                  const deltaRight = new THREE.Vector3().subVectors(rightPos, this.previousRightPos);
+
+                  // Compute the average delta to move the object
+                  const deltaX = (deltaLeft.x + deltaRight.x) / 2;
+                  const deltaY = (deltaLeft.y + deltaRight.y) / 2;
+                  const deltaZ = (deltaLeft.z + deltaRight.z) / 2;
+
+                  // Apply the relative translation to the object's current position
+                  this.detector.object3D.position.x += deltaX;
+                  this.detector.object3D.position.y += deltaY;
+                  this.detector.object3D.position.z += deltaZ;
+
+                  // Compute the current angle between the controllers
+                  const currentAngle = this.calculateAngleBetweenControllers(leftPos, rightPos);
+
+                  // Determine the change in angle and apply it to the object's rotation
+                  const angleDelta = currentAngle - this.initialAngle;
+                  this.detector.object3D.rotation.y += angleDelta; // Apply the change in radians
+
+                  // Compute the distance between the controllers
+                  const currentDistance = leftPos.distanceTo(rightPos);
+                  const previousDistance = this.previousLeftPos.distanceTo(this.previousRightPos);
+                  const distanceDelta = currentDistance / previousDistance;
+
+                  // Apply relative scaling based on the change in distance
+                  this.detector.object3D.scale.x *= distanceDelta;
+                  this.detector.object3D.scale.y *= distanceDelta;
+                  this.detector.object3D.scale.z *= distanceDelta;
+
+                  // Update previous positions for the next frame
+                  this.previousLeftPos.copy(leftPos);
+                  this.previousRightPos.copy(rightPos);
+                  this.initialAngle = currentAngle;
+
+                }
+
+                if (this.leftGripPressed && this.rightGripPressed && !this.recoed) {
+
+                   if (this.msg_count == 2) {
+                        this.msg_count = 3;
+                        this.next_msg("When you are happy with your guess, press the X button to show the true direction.");
+                     }
+
+                  this.reco.setAttribute("visible", true);
+
+                  const pos1 = new THREE.Vector3();
+                  const pos2 = new THREE.Vector3();
+
+                  // Get positions of both controllers
+                  this.leftController.object3D.getWorldPosition(pos1);
+                  this.rightController.object3D.getWorldPosition(pos2);
+
+                  this.truth.parentNode.object3D.worldToLocal(pos1);
+                  this.truth.parentNode.object3D.worldToLocal(pos2);
+
+                  // Calculate midpoint
+                  const midpoint = new THREE.Vector3().addVectors(pos1, pos2).multiplyScalar(0.5);
+
+                  this.truth.object3D.position.copy(midpoint);
+                  this.reco.object3D.position.copy(midpoint);
+
+                  const distance = pos1.distanceTo(pos2);
+                  this.truth.setAttribute('geometry', 'height', distance);
+                  this.reco.setAttribute('geometry', 'height', distance);
+
+
+                  const direction = new THREE.Vector3().subVectors(pos2, pos1).normalize();
+                  const quaternion = new THREE.Quaternion();
+                  quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), direction);
+                  this.reco.object3D.quaternion.copy(quaternion);
+                }
+      }
+    });
+
+    // Mount the scene now that the 'test' component is registered.
+    var tpl = document.getElementById('ar-scene-template');
+    document.getElementById('ar-scene-mount').appendChild(tpl.content.cloneNode(true));
+  }
+})();
+</script>

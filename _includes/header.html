@@ -45,9 +45,10 @@
               {%- endif %}
 
               <!-- Other pages -->
-              {%- assign sorted_pages = site.pages | sort: "title" -%}
+              {%- assign nav_pages = site.pages | where: "nav", true -%}
+              {%- assign sorted_pages = nav_pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
-              {%- if p.nav and p.autogen == nil -%}
+              {%- if p.autogen == nil -%}
               {%- if p.dropdown %}
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}

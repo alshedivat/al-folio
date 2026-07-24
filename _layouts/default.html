@@ -24,7 +24,9 @@ layout: parse
     </div>
 
     <!-- Footer -->
+    {%- unless page.hide_footer -%}
     {%- include footer.html %}
+    {%- endunless -%}
 
     <!-- JavaScripts -->
     {% include scripts/jquery.html %}
