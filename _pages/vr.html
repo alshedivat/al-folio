@@ -15,7 +15,7 @@ hide_footer: true
   <img src="{{ '/assets/img/Animation2.gif' | relative_url }}" alt="Preview of the IceCube AR neutrino event visualization" class="img-fluid rounded z-depth-1">
 </div>
 
-<div id="vr-ar-content" style="display:none;">
+<div id="vr-ar-content" style="display:none; position:relative; z-index:2;">
 
   <p>
   This is an augmented reality visualization of real IceCube neutrino events, built with <a href="https://aframe.io/">A-Frame</a> and WebXR. It renders the actual DeepCore string geometry and lets you step inside a neutrino interaction: the colored spheres are photon hits recorded by the detector's optical sensors, colored by arrival time. You can walk around and through the detector, scale and reposition it in your room, and try to guess the neutrino's direction from the pattern of hits before revealing the true direction.
