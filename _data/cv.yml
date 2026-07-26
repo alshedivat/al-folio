@@ -1,3 +1,8 @@
+- title: Summary
+  type: list
+  contents:
+    - Applied ML researcher working primarily in <b>PyTorch</b>, with experience in <b>real-time perception</b>, <b>transformer-based vision</b>, and <b>generative models</b>. Background spans published research in <b>GANs</b>, independent work on <b>diffusion</b> and <b>multimodal LLMs</b>, and deployment of production vision pipelines.
+
 - title: Experience
   type: time_table
   contents:
@@ -5,31 +10,28 @@
       institution: Pacefactory inc., Oakville, Canada
       year: Dec 2023 - Present
       description:
-        - Build and deploy real-time perception systems for industrial environments — object detection, keypoint estimation, and segmentation from raw video.
-        - Design low-latency visual state classification pipelines that combine classical features with learned representations.
-        - Build foundation-model-assisted annotation workflows to reduce manual labeling.
-        - Take models end-to-end from data through training, evaluation, export, and edge deployment.
+        - Built a real-time object recognition system that identifies objects from motion geometry alone, without processing any image pixels — 1M inferences in 3s on standard hardware at a 0.92 macro-average score.
+        - Designed a two-tier visual state classification system for low-latency inference — classical feature matching (HOG, SSIM, template matching) for high-speed scenarios, and HDBSCAN clustering over pretrained CLIP embeddings for label-free state discovery.
+        - Built a self-serve tool so operators annotate object trails and train their own per-camera classifier without ML expertise.
+        - Accelerated annotation with Grounding DINO and Rex-Omni for text- and visual-prompted labeling, and SAM for copy-paste annotation transfer.
+        - Implemented iterative model-assisted annotation using YOLO and XGBoost — auto-label, correct, retrain loops.
+        - Developed training and export pipelines for detection, keypoint, and segmentation models, from raw video to deployment-ready outputs.
 
     - title: Research Assistant
       institution: University of Ottawa, Ottawa, Canada
       year: Jan 2021 - Nov 2023
       description:
-        - Research on generative models and adversarial robustness of face verification, leading to peer-reviewed publications.
-        - Designed methods for automated training of generative models and for using them under class imbalance.
-        - Studied adversarial attacks on deep embedding models for face verification.
+        - Developed a two-phase adversarial attack on deep embedding models — gradient-free embedding-space search plus gradient-based input realization, crafting inputs that collectively impersonate many enrolled identities (arXiv).
+        - Developed a novel algorithm to determine whether a GAN is sufficiently trained without human oversight, validated on imagery and tabular data (published).
+        - Investigated generative adversarial networks for class imbalance and small-sample learning, leading to two publications.
 
     - title: Software Engineer at Armeh Sazeh Co.
       institution: Armeh Sazeh Co., Tehran, Iran
-      year: 2020 - 2021
+      year: Jan 2020 - Aug 2021
       description:
-        - Designed and implemented web-based software to automate the company's processes
-          - I served as a liaison between my team and the client, handling communication, task delegation, requirement gathering and back-end development.
-
-    - title: Software Engineer at Armeh Sazeh Co.
-      institution: Armeh Sazeh Co., Tehran, Iran
-      year: 2016
-      description:
-        - Designed and implemented Windows-based software to automate the company's processes in C++
+        - Designed and implemented web-based software to automate the company's processes.
+        - Served as the main point of contact between the team and the client — communication, task delegation, requirements gathering, and back-end development.
+        - Designed and implemented Windows-based software in C++ to automate internal company processes.
 
 
 - title: Education
@@ -54,13 +56,13 @@
   contents:
     - title: Computer Vision
       items:
-        - Object detection · Segmentation · Keypoint estimation · Real-time perception · Face recognition
-    - title: Machine Learning
+        - PyTorch · Object detection · Segmentation · Real-time perception · Vision transformers · Face recognition
+    - title: Generative & Multimodal
       items:
-        - Deep learning · Generative models · Representation learning · Adversarial robustness · Model evaluation
-    - title: Engineering
+        - Transformers (implemented from scratch) · Diffusion models · GANs · Multimodal LLMs · LoRA fine-tuning · Adversarial ML
+    - title: Research
       items:
-        - Python · PyTorch · Multi-GPU training · ML deployment · Reproducible experimentation
+        - AI-assisted research workflows · SOTA reproduction · Benchmarking · Model evaluation · Multi-node multi-GPU training (Slurm)
 
 - title: Honors and Awards
   type: time_table
@@ -68,7 +70,7 @@
     - year: Dec 2021
       items: 
         - Awarded "excellent student" at the University of Ottawa's graduate studies Excellence Ceremony
-    - year: 2020 - 2021
+    - year: Jan 2021 - Jan 2022
       items: 
         - Recipient of Vector Scholarship in Artificial Intelligence - $17,500
 
@@ -94,13 +96,13 @@
   contents:
     - title: Papers&Snacks
       institution: Event Creator and Organizer
-      year: Jan 2023 - May 2023
+      year: Jan 2023 - April 2023
       description:
         - Established and organized a lecture oriented weekly event for Computer Science graduate students 
 
     - title: Running Club
       institution: Co-Event Organizer
-      year: Sep 2022 - 2025
+      year: April 2022 - Oct 2025
       description:
         - Co-lead a team of 15+ runners for weekly 5K sessions in Ottawa
 
@@ -113,7 +115,7 @@
 
     - title: Mentorship
       institution: Volunteer
-      year: 2022 - 2025
+      year: Jan 2022 - Dec 2025
       description:
         - Co-building communities for new students in Ottawa, overseeing groups of 200+ members each 
 
