@@ -181,6 +181,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://www.byeongsc.com/" target="_blank">★</a>
 <a href="https://deden.id/" target="_blank">★</a>
 <a href="https://dylantao.github.io/" target="_blank">★</a>
+<a href="https://chrhenning.com/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -199,6 +200,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://gpforesteyes.github.io/" target="_blank">★</a>
 <a href="https://kenji-fukushima-lab.github.io/" target="_blank">★</a>
 <a href="https://align.science/" target="_blank">★</a>
+<a href="https://chips-design-studio.wpi.edu/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
