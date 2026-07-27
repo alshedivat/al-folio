@@ -63,7 +63,11 @@ test("repositories page renders external stat cards with deterministic fixtures"
   expect(await renderedCount(statCards)).toBeGreaterThan(0);
   await expect(page.locator('img[src*="github-readme-stats"]')).toHaveCount(0);
 
-  const trophies = page.locator('img[src*="github-profile-trophy"]');
+  // repo_trophies.liquid emits three responsive variants of each trophy
+  // (d-md-block / d-sm-block d-md-none / d-block d-sm-none), so a bare .first()
+  // is always the >=md one and is display:none on the mobile project. Match the
+  // variant actually shown at this viewport instead.
+  const trophies = page.locator('img[src*="github-profile-trophy"]:visible');
   await expect(trophies.first()).toBeVisible();
   expect(await renderedCount(trophies)).toBeGreaterThan(0);
 });
