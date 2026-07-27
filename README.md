@@ -198,6 +198,7 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://gpforesteyes.github.io/" target="_blank">★</a>
 <a href="https://kenji-fukushima-lab.github.io/" target="_blank">★</a>
 <a href="https://align.science/" target="_blank">★</a>
+<a href="https://chips-design-studio.wpi.edu/" target="_blank">★</a>
 </td>
 </tr>
 <tr>
