@@ -9,7 +9,7 @@ This is the **authoritative** description of how the `al-folio` v1 starter and i
   - [Failure modes that produce no error message](#failure-modes-that-produce-no-error-message)
     - [1. Features fail silently when the gem or the flag is missing](#1-features-fail-silently-when-the-gem-or-the-flag-is-missing)
     - [2. Gemfile and \_config.yml are two lists that must agree](#2-gemfile-and-_configyml-are-two-lists-that-must-agree)
-    - [3. The starter only builds correctly under --baseurl /al-folio](#3-the-starter-only-builds-correctly-under---baseurl-al-folio)
+    - [3. This repo's effective baseurl is /al-folio](#3-this-repos-effective-baseurl-is-al-folio)
   - [Wrapper to tag to gem delegation](#wrapper-to-tag-to-gem-delegation)
   - [How feature gems ship their assets](#how-feature-gems-ship-their-assets)
   - [The v1 config contract](#the-v1-config-contract)
@@ -61,16 +61,16 @@ Plugin activation requires **two edits, in two files**:
 
 A gem present in only one of them is inert. In the `Gemfile` only, Jekyll never loads it; in `plugins:` only, Bundler never installs it. Adding **or removing** a plugin means editing both. Note the spelling difference: repo directories use hyphens (`al-folio-core`), gem and plugin ids use underscores (`al_folio_core`).
 
-### 3. The starter only builds correctly under `--baseurl /al-folio`
+### 3. This repo's effective baseurl is `/al-folio`
 
-The demo site is published as a **project page** at `https://alshedivat.github.io/al-folio/`, so `_config.yml` carries that baseurl. Build and serve with it, or every asset and internal link resolves to the wrong path:
+The demo site is published as a **project page** at `https://alshedivat.github.io/al-folio/`, so `_config.yml` already sets `baseurl: /al-folio`. A plain build therefore picks it up — `deploy.yml`, `broken-links-site.yml` and `axe.yml` all run `bundle exec jekyll build` with no flag. What matters is that the *effective* baseurl stays `/al-folio`; passing it explicitly is redundant but harmless, and the command set spells it out so the served path is unambiguous:
 
 ```bash
 bundle exec jekyll build --baseurl /al-folio
 bundle exec jekyll serve            # http://localhost:4000/al-folio/  (note the path)
 ```
 
-The Docker entry point and every CI workflow use `/al-folio` too. A build that "works" but renders unstyled is almost always a baseurl mismatch. In **your own** site this is different: personal and organization sites (`username.github.io`) must leave `baseurl` **empty but present**; project sites set `baseurl: /<project-name>/`. See [FAQ](FAQ.md#my-webpage-works-locally-but-after-deploying-it-is-not-displayed-correctly-css-and-js-are-not-loaded-properly-how-do-i-fix-that).
+What breaks the site is **blanking the baseurl out** — build with an empty baseurl and every asset and internal link resolves one path segment too high. The Docker entry point serves under `/al-folio` too. A build that "works" but renders unstyled is almost always a baseurl mismatch. In **your own** site this is different: personal and organization sites (`username.github.io`) must leave `baseurl` **empty but present**; project sites set `baseurl: /<project-name>/`. See [FAQ](FAQ.md#my-webpage-works-locally-but-after-deploying-it-is-not-displayed-correctly-css-and-js-are-not-loaded-properly-how-do-i-fix-that).
 
 ## Wrapper to tag to gem delegation
 
