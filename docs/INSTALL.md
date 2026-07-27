@@ -24,7 +24,11 @@
     - [Deployment to a separate repository (advanced users only)](#deployment-to-a-separate-repository-advanced-users-only)
   - [Maintaining Dependencies](#maintaining-dependencies)
   - [Upgrading from a previous version](#upgrading-from-a-previous-version)
-    - [Migrating heavily customized pre-v1 sites](#migrating-heavily-customized-pre-v1-sites)
+    - [Recommended workflow (v1.x)](#recommended-workflow-v1x)
+    - [Legacy Bootstrap content](#legacy-bootstrap-content)
+    - [Older pre-v1 installs](#older-pre-v1-installs)
+      - [Migrating heavily customized pre-v1 sites](#migrating-heavily-customized-pre-v1-sites)
+      - [Tracking local override drift](#tracking-local-override-drift)
 
 <!--te-->
 

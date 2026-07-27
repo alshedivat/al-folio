@@ -6,14 +6,14 @@ In short: `al-folio` v1.x is a **thin Jekyll starter, not a theme**. It owns sta
 
 ## Where to look
 
-| Question                                        | File                                                          |
-| ----------------------------------------------- | ------------------------------------------------------------- |
-| Which repo does my change belong in?            | [`AGENTS.md`](../AGENTS.md#route-your-change)                 |
-| Which gem owns this area?                       | [`docs/BOUNDARIES.md`](../docs/BOUNDARIES.md)                 |
-| Which gem owns this Liquid tag?                 | [`docs/ARCHITECTURE.md`](../docs/ARCHITECTURE.md#wrapper-to-tag-to-gem-delegation) |
-| Why did my feature render nothing?              | [`docs/ARCHITECTURE.md`](../docs/ARCHITECTURE.md#failure-modes-that-produce-no-error-message) |
-| What commands should I run?                     | [`AGENTS.md`](../AGENTS.md#validated-local-command-set)       |
-| How do I contribute?                            | [`docs/CONTRIBUTING.md`](../docs/CONTRIBUTING.md)             |
+| Question                             | File                                                                                          |
+| ------------------------------------ | --------------------------------------------------------------------------------------------- |
+| Which repo does my change belong in? | [`AGENTS.md`](../AGENTS.md#route-your-change)                                                 |
+| Which gem owns this area?            | [`docs/BOUNDARIES.md`](../docs/BOUNDARIES.md)                                                 |
+| Which gem owns this Liquid tag?      | [`docs/ARCHITECTURE.md`](../docs/ARCHITECTURE.md#wrapper-to-tag-to-gem-delegation)            |
+| Why did my feature render nothing?   | [`docs/ARCHITECTURE.md`](../docs/ARCHITECTURE.md#failure-modes-that-produce-no-error-message) |
+| What commands should I run?          | [`AGENTS.md`](../AGENTS.md#validated-local-command-set)                                       |
+| How do I contribute?                 | [`docs/CONTRIBUTING.md`](../docs/CONTRIBUTING.md)                                             |
 
 ## Copilot-specific paths
 

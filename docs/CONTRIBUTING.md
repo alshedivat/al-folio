@@ -10,6 +10,10 @@ If you would like to implement a new feature or a bug, please make sure you (or 
 
 Note that since [#2048](https://github.com/alshedivat/al-folio/pull/2048) al-folio uses the [prettier formatter](https://prettier.io/) for its code, meaning all new submitted code must conform to its standard. If you don't have `prettier` installed for your setup and the `prettier` code check fails when submitting a PR, you can check the referred failed action in our repo. In that action there will be an artifact with an HTML diff showing the needed changes.
 
+## Adding your site to the showcase
+
+**Please do not open a pull request to add your site to the showcase list.** We have retired that process. Instead, post a request in the _Showcase_ category of [GitHub Discussions](https://github.com/alshedivat/al-folio/discussions) with a link to your site and the group it belongs in (Academics, Labs, Courses, or Conferences & workshops). Requests are reviewed and added to [`docs/SHOWCASE.md`](SHOWCASE.md) in batches, so it may take a little while before your entry appears.
+
 ## Repository Routing (v1.x)
 
 `al-folio` is a starter in `v1.x`. Before opening a PR, route your change to the owning repo:

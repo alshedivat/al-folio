@@ -9,7 +9,7 @@ This is the **authoritative** description of how the `al-folio` v1 starter and i
   - [Failure modes that produce no error message](#failure-modes-that-produce-no-error-message)
     - [1. Features fail silently when the gem or the flag is missing](#1-features-fail-silently-when-the-gem-or-the-flag-is-missing)
     - [2. Gemfile and \_config.yml are two lists that must agree](#2-gemfile-and-_configyml-are-two-lists-that-must-agree)
-    - [3. The starter only builds correctly under `--baseurl /al-folio`](#3-the-starter-only-builds-correctly-under---baseurl-al-folio)
+    - [3. The starter only builds correctly under --baseurl /al-folio](#3-the-starter-only-builds-correctly-under---baseurl-al-folio)
   - [Wrapper to tag to gem delegation](#wrapper-to-tag-to-gem-delegation)
   - [How feature gems ship their assets](#how-feature-gems-ship-their-assets)
   - [The v1 config contract](#the-v1-config-contract)
@@ -38,7 +38,7 @@ These three are the reason most "I changed it and nothing happened" reports exis
 
 ### 1. Features fail silently when the gem or the flag is missing
 
-Feature gating is **two-layered**, and a feature renders only when *both* layers agree:
+Feature gating is **two-layered**, and a feature renders only when _both_ layers agree:
 
 - **Site-wide config flags** in `_config.yml`: `search_enabled`, `enable_math`, `enable_cookie_consent`, `enable_darkmode`, `al_folio.features.cv.enabled`, `al_folio.features.distill.enabled`, and the provider IDs under `analytics:`.
 - **Per-page front matter**: `images:`, `tikzjax`, `chart.*`, `mermaid.*`, `giscus_comments`, `layout: distill`, `layout: cv`.

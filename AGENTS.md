@@ -8,18 +8,18 @@
 
 Find your change on the left; edit only what is on the right.
 
-| Your change                                                             | Goes in                                                                       |
-| ----------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| Dependency pin, plugin activation, feature flag                         | this repo: `Gemfile` **and** `_config.yml` (both — see below)                 |
-| Example/demo content, bibliography, data files                          | this repo: `_pages`, `_posts`, `_projects`, `_news`, `_teachings`, `_books`, `_data` |
-| Documentation                                                           | this repo: `docs/` (long-form) or this file (agent rules)                     |
-| Cross-plugin integration test, visual parity test                       | this repo: `test/integration_*.sh`, `test/visual/`                            |
-| Plugin catalog metadata                                                 | this repo: `_data/featured_plugins.yml`                                       |
-| A layout, include, or Sass partial                                      | the owning gem — start with `al_folio_core`                                   |
-| A Liquid tag or filter, or what a tag renders                           | the gem that registers it — see the [delegation table](docs/ARCHITECTURE.md#wrapper-to-tag-to-gem-delegation) |
-| Feature behavior (search, math, charts, comments, cookies, icons, CV, distill, analytics, images, newsletter, citations) | that feature's gem — see [`docs/BOUNDARIES.md`](docs/BOUNDARIES.md)           |
-| Component/unit test for gem-owned behavior                              | the owning gem, not here                                                      |
-| A feature with no existing owner                                        | open a plugin proposal issue first, then a standalone plugin repo             |
+| Your change                                                                                                              | Goes in                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| Dependency pin, plugin activation, feature flag                                                                          | this repo: `Gemfile` **and** `_config.yml` (both — see below)                                                 |
+| Example/demo content, bibliography, data files                                                                           | this repo: `_pages`, `_posts`, `_projects`, `_news`, `_teachings`, `_books`, `_data`                          |
+| Documentation                                                                                                            | this repo: `docs/` (long-form) or this file (agent rules)                                                     |
+| Cross-plugin integration test, visual parity test                                                                        | this repo: `test/integration_*.sh`, `test/visual/`                                                            |
+| Plugin catalog metadata                                                                                                  | this repo: `_data/featured_plugins.yml`                                                                       |
+| A layout, include, or Sass partial                                                                                       | the owning gem — start with `al_folio_core`                                                                   |
+| A Liquid tag or filter, or what a tag renders                                                                            | the gem that registers it — see the [delegation table](docs/ARCHITECTURE.md#wrapper-to-tag-to-gem-delegation) |
+| Feature behavior (search, math, charts, comments, cookies, icons, CV, distill, analytics, images, newsletter, citations) | that feature's gem — see [`docs/BOUNDARIES.md`](docs/BOUNDARIES.md)                                           |
+| Component/unit test for gem-owned behavior                                                                               | the owning gem, not here                                                                                      |
+| A feature with no existing owner                                                                                         | open a plugin proposal issue first, then a standalone plugin repo                                             |
 
 [`docs/BOUNDARIES.md`](docs/BOUNDARIES.md) is the authoritative area-to-gem table. [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) explains how the pieces connect.
 
@@ -33,13 +33,13 @@ _layouts/   _includes/   _sass/   _scripts/   assets/tailwind/   tailwind.config
 
 `npm run lint:style-contract` fails CI when any of them exists here, and it also rejects `build:css` / `build:tailwind` npm scripts. Do not add a starter-local Tailwind or CSS build pipeline.
 
-This restriction applies to **this repo only**. A user's own site created from this template *may* legally shadow gem-owned files — see [local overrides: your site vs. this repo](docs/ARCHITECTURE.md#local-overrides-your-site-vs-this-repo).
+This restriction applies to **this repo only**. A user's own site created from this template _may_ legally shadow gem-owned files — see [local overrides: your site vs. this repo](docs/ARCHITECTURE.md#local-overrides-your-site-vs-this-repo).
 
 ## Three failures that produce no error message
 
 Read [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md#failure-modes-that-produce-no-error-message) for the full explanation. The short version:
 
-1. **Features fail silently.** A feature renders only when its gem is loaded *and* its flag is on *and* the page opts in. Otherwise the Liquid tag emits an empty string — no warning, no error.
+1. **Features fail silently.** A feature renders only when its gem is loaded _and_ its flag is on _and_ the page opts in. Otherwise the Liquid tag emits an empty string — no warning, no error.
 2. **`Gemfile` and `_config.yml` are two lists that must agree.** A plugin in only one of them is inert. Adding or removing a plugin means editing both. Repo dirs use hyphens (`al-folio-core`); gem/plugin ids use underscores (`al_folio_core`).
 3. **The starter builds under `--baseurl /al-folio`.** Omit it and the site renders unstyled with broken links. Dev server is at `http://localhost:4000/al-folio/`.
 

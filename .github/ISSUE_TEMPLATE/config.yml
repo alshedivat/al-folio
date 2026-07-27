@@ -4,5 +4,8 @@ contact_links:
     url: https://github.com/alshedivat/al-folio/discussions/categories/q-a
     about: Ask and answer al-folio related questions.
   - name: 📖 Read the documentation
-    url: https://github.com/alshedivat/al-folio/blob/main/README.md
+    url: https://github.com/alshedivat/al-folio/blob/main/docs/README.md
     about: Please consult the documentation before opening any issues!
+  - name: ⭐ Add your site to the showcase
+    url: https://github.com/alshedivat/al-folio/discussions
+    about: Request a listing in the Showcase category of GitHub Discussions. Entries are reviewed and added periodically — please do not open a pull request.
