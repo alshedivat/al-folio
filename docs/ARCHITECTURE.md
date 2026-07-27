@@ -63,7 +63,7 @@ A gem present in only one of them is inert. In the `Gemfile` only, Jekyll never 
 
 ### 3. This repo's effective baseurl is `/al-folio`
 
-The demo site is published as a **project page** at `https://alshedivat.github.io/al-folio/`, so `_config.yml` already sets `baseurl: /al-folio`. A plain build therefore picks it up — `deploy.yml`, `broken-links-site.yml` and `axe.yml` all run `bundle exec jekyll build` with no flag. What matters is that the *effective* baseurl stays `/al-folio`; passing it explicitly is redundant but harmless, and the command set spells it out so the served path is unambiguous:
+The demo site is published as a **project page** at `https://alshedivat.github.io/al-folio/`, so `_config.yml` already sets `baseurl: /al-folio`. A plain build therefore picks it up — `deploy.yml`, `broken-links-site.yml` and `axe.yml` all run `bundle exec jekyll build` with no flag. What matters is that the _effective_ baseurl stays `/al-folio`; passing it explicitly is redundant but harmless, and the command set spells it out so the served path is unambiguous:
 
 ```bash
 bundle exec jekyll build --baseurl /al-folio
