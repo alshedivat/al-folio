@@ -79,11 +79,13 @@ This repository includes agent entrypoints and skills for Codex, Claude, Copilot
 
 ### CLAUDE.md
 
-The `CLAUDE.md` file serves as an entry point for Claude (Anthropic's AI assistant) when working with this repository. It uses Claude's `@path/to/import` syntax (as described in [Claude's best practices](https://code.claude.com/docs/en/best-practices#write-an-effective-claude-md)) to dynamically import the `AGENTS.md` file. This approach keeps documentation centralized while providing a convenient entry point for AI assistants. The file simply contains:
+The `CLAUDE.md` file serves as an entry point for Claude (Anthropic's AI assistant) when working with this repository. It opens with Claude's `@path/to/import` syntax (as described in [Claude's best practices](https://code.claude.com/docs/en/best-practices#write-an-effective-claude-md)) to pull in `AGENTS.md`, so the ecosystem-neutral rules stay in one place:
 
 ```
 @AGENTS.md
 ```
+
+Beyond that import, `CLAUDE.md` carries Claude-specific and longer-form guidance that does not belong in the short entry point — the daily dev loop, the Docker serving model, and the CI/style-contract details. Ecosystem-neutral rules that every agent needs belong in `AGENTS.md` or [`ARCHITECTURE.md`](ARCHITECTURE.md); keep `CLAUDE.md` for the rest.
 
 ### Agent Skills
 

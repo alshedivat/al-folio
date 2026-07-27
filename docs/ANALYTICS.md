@@ -27,6 +27,18 @@ This guide helps you add website analytics to track visitor statistics and behav
 
 Analytics help you understand your website visitors: where they come from, which pages they visit, and how they interact with your content. al-folio supports several analytics providers that you can enable in `_config.yml`.
 
+Analytics rendering is owned by the [`al_analytics`](https://github.com/al-org-dev/al-analytics) plugin. All providers are configured from one block, and **a provider turns on as soon as you give it a non-empty ID** — there is no separate "enable" step:
+
+```yaml
+analytics:
+  google: # Google Analytics measurement ID (format: G-XXXXXXXXXX)
+  cronitor: # Cronitor RUM analytics site ID
+  pirsch: # Pirsch analytics site ID (32 characters)
+  openpanel: # Openpanel analytics client ID (UUID)
+```
+
+The plugin also accepts flat aliases (`google_analytics`, `cronitor_analytics`, `pirsch_analytics`, `openpanel_analytics`) which take precedence over the block above. The `enable_*_analytics` flags are optional **off-switches**: leave them unset and the provider follows its ID; set one to `false` to disable that provider without deleting the ID. Setting `enable_google_analytics: true` on its own does nothing.
+
 ## Supported Analytics Services
 
 Currently implemented in al-folio:
@@ -61,8 +73,7 @@ Google Analytics is free and widely used. It provides detailed insights into vis
 
 4. **Enable in your site:**
    - Open `_config.yml` in your repository
-   - Set `enable_google_analytics: true`
-   - Add your Measurement ID: `google_analytics: G-XXXXXXXXXX`
+   - Set your Measurement ID under the `analytics` block: `analytics.google: G-XXXXXXXXXX`
    - Commit and push
 
 5. **Verify it's working:**
@@ -95,9 +106,8 @@ If you're concerned about user privacy or GDPR compliance, consider these altern
 1. Sign up at [Pirsch.io](https://pirsch.io)
 2. Add your domain
 3. Copy the tracking code
-4. In `_config.yml`, set `enable_pirsch_analytics: true`
-5. Add your Site ID: `pirsch_analytics: YOUR_SITE_ID` (format: 32 characters)
-6. Commit and push
+4. In `_config.yml`, set your Site ID under the `analytics` block: `analytics.pirsch: YOUR_SITE_ID` (format: 32 characters)
+5. Commit and push
 
 (The site ID appears in your Pirsch dashboard.)
 
@@ -119,9 +129,8 @@ If you're concerned about user privacy or GDPR compliance, consider these altern
 1. Sign up at [Openpanel.dev](https://openpanel.dev)
 2. Create a project for your website
 3. Get your **Client ID**
-4. In `_config.yml`, set `enable_openpanel_analytics: true`
-5. Add your Client ID: `openpanel_analytics: YOUR_CLIENT_ID` (format: UUID)
-6. Commit and push
+4. In `_config.yml`, set your Client ID under the `analytics` block: `analytics.openpanel: YOUR_CLIENT_ID` (format: UUID)
+5. Commit and push
 
 ---
 
@@ -137,9 +146,8 @@ Cronitor is an **uptime monitoring** service with RUM (Real User Monitoring) ana
 
 1. Create account at [Cronitor.io](https://cronitor.io)
 2. Get your **Site ID**
-3. In `_config.yml`, set `enable_cronitor_analytics: true`
-4. Add your Site ID: `cronitor_analytics: YOUR_SITE_ID`
-5. Commit and push
+3. In `_config.yml`, set your Site ID under the `analytics` block: `analytics.cronitor: YOUR_SITE_ID`
+4. Commit and push
 
 ---
 
