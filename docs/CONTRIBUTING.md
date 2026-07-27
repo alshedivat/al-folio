@@ -18,7 +18,7 @@ Note that since [#2048](https://github.com/alshedivat/al-folio/pull/2048) al-fol
 - `al-folio-core` and other `al-*` gem repos: component runtime behavior, layouts/includes/style primitives, feature logic, unit/component tests.
 - If a feature does not fit an existing plugin, propose a new standalone plugin first, then implement there.
 
-See [`BOUNDARIES.md`](BOUNDARIES.md) for ownership details.
+For the change-type routing table, see [`AGENTS.md`](../AGENTS.md#route-your-change). For the authoritative area-to-gem mapping, see [`BOUNDARIES.md`](BOUNDARIES.md). For how the starter and gems connect at runtime — including the failure modes that produce no error message — see [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
 ## Plugin Naming Convention (v1.x)
 
@@ -62,8 +62,24 @@ Do not add duplicate component-level correctness tests to this starter when the 
 Before opening/updating a PR in `v1.x`, run:
 
 ```bash
+bundle install
 npm ci
-bundle exec jekyll build
+npm run lint:prettier
+npm run lint:style-contract
+bundle exec jekyll build --baseurl /al-folio
+```
+
+The `--baseurl /al-folio` flag matters: the demo site is published as a project page, and building without it produces an unstyled site with broken links.
+
+If your change touches plugin wiring or feature behavior, run the integration tests it affects. All six are gated by `unit-tests.yml`:
+
+```bash
+bash test/integration_comments.sh
+bash test/integration_plugin_toggles.sh
+bash test/integration_distill.sh
+bash test/integration_bootstrap_compat.sh
+bash test/integration_upgrade_cli.sh
+bash test/integration_css_minify.sh
 ```
 
 If your change touches visual tests, install Playwright browsers once and run:
@@ -72,6 +88,8 @@ If your change touches visual tests, install Playwright browsers once and run:
 npx playwright install chromium webkit
 npm run test:visual
 ```
+
+The full validated command set lives in [`AGENTS.md`](../AGENTS.md#validated-local-command-set).
 
 ## AI Agent Guidance
 
@@ -122,7 +140,7 @@ The documentation agent is primarily intended for maintainers and contributors w
 
 To enhance GitHub Copilot's effectiveness when working with specific file types, this repository includes custom instruction files in `.github/instructions/`:
 
-- **`.github/copilot-instructions.md`** – Main Copilot instructions with repository overview, build process, tech stack, project layout, CI/CD pipelines, and common pitfalls
+- **`.github/copilot-instructions.md`** – Copilot entry point. It points at [`AGENTS.md`](../AGENTS.md) (the authoritative agent guide) and lists the Copilot-specific paths and CI expectations, rather than duplicating the shared rules
 - **`.github/instructions/liquid-templates.instructions.md`** – Guidance for modifying Liquid template files (`.liquid`)
 - **`.github/instructions/yaml-configuration.instructions.md`** – Guidance for configuration and data files (`_config.yml`, `_data/**/*.yml`)
 - **`.github/instructions/bibtex-bibliography.instructions.md`** – Guidance for bibliography files (`.bib`, `_bibliography/**`)
