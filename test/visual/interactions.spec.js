@@ -51,7 +51,7 @@ test("repositories page renders external stat cards with deterministic fixtures"
   await page.goto("/al-folio/repositories/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
-  const repoImages = page.locator('img[src*="github-readme-stats"], img[src*="github-profile-trophy"]');
+  const repoImages = page.locator('img[src*="github-stats-extended"], img[src*="github-readme-stats"], img[src*="github-profile-trophy"]');
   await expect(repoImages.first()).toBeVisible();
 
   const renderedCount = await repoImages.evaluateAll((images) => images.filter((img) => img.complete && img.naturalWidth > 0).length);

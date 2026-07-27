@@ -478,7 +478,7 @@ Photo formatting is made simple using Tailwind-first responsive layout utilities
 
 #### GitHub's repositories and user stats
 
-**al-folio** displays GitHub repositories and user stats on the `/repositories/` page using [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy).
+**al-folio** displays GitHub repositories and user stats on the `/repositories/` page using [github-stats-extended](https://github.com/stats-organization/github-stats-extended) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy).
 
 [![Repositories Preview](readme_preview/repositories.png)](https://alshedivat.github.io/al-folio/repositories/)
 

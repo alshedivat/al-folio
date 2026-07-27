@@ -396,7 +396,7 @@ The user and repository information is defined in [\_data/repositories.yml](../_
 
 The repository page uses external services to display GitHub statistics and trophies. By default, these are:
 
-- `github-readme-stats.vercel.app` for user stats and repository cards
+- `github-stats-extended.vercel.app` for user stats and repository cards
 - `github-profile-trophy.vercel.app` for GitHub profile trophies
 
 **Important:** These default services are hosted by third parties and may not be available 100% of the time. For better reliability, privacy, and customization, you can self-host these services and configure your website to use your own instances.
@@ -405,16 +405,29 @@ To use your own instances of these services, configure the URLs in [\_config.yml
 
 ```yaml
 external_services:
-  github_readme_stats_url: https://github-readme-stats.vercel.app
+  github_readme_stats_url: https://github-stats-extended.vercel.app
   github_profile_trophy_url: https://github-profile-trophy.vercel.app
 ```
 
 To self-host these services, follow the deployment instructions in their respective repositories:
 
-- [github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+- [github-stats-extended](https://github.com/stats-organization/github-stats-extended)
 - [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy)
 
 Once deployed, update the URLs above to point to your custom deployment.
+
+#### Migrating from github-readme-stats
+
+Earlier versions of al-folio defaulted to `github-readme-stats.vercel.app`. That public instance is no longer reliably available, which is why repository cards render blank on some sites. The default is now [github-stats-extended](https://github.com/stats-organization/github-stats-extended), an actively maintained, API-compatible successor.
+
+If your site was created before this change, your `_config.yml` still pins the old host. Update it by hand:
+
+```yaml
+external_services:
+  github_readme_stats_url: https://github-stats-extended.vercel.app
+```
+
+Only the domain changes — the endpoints and every query parameter al-folio sends (`theme`, `locale`, `show_owner`, `description_lines_count`, `show_icons`) are unchanged, so your cards keep the same appearance and your `repo_theme_light` / `repo_theme_dark` settings continue to work.
 
 ## Creating new pages
 
