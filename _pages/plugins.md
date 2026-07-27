@@ -2,8 +2,7 @@
 layout: page
 title: plugins
 permalink: /plugins/
-nav: true
-nav_order: 9
+nav: false
 description: featured and bundled plugin ecosystem catalog for al-folio v1.x
 ---
 

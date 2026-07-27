@@ -107,7 +107,10 @@ For customization details please refer to [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md)
 
 - Ownership boundaries: [docs/BOUNDARIES.md](docs/BOUNDARIES.md)
 - Plugin catalog metadata: [`_data/featured_plugins.yml`](_data/featured_plugins.yml)
+- Rendered plugin catalog: [alshedivat.github.io/al-folio/plugins/](https://alshedivat.github.io/al-folio/plugins/)
 - Plugin catalog page source: [`_pages/plugins.md`](_pages/plugins.md)
+
+The catalog page is deliberately kept out of the navbar (`nav: false`) so the demo site's chrome stays unchanged; reach it through the links above.
 
 Naming convention:
 
@@ -169,7 +172,7 @@ Comprehensive guides for all aspects of your al-folio website:
 - **[FAQ](docs/FAQ.md)** – Frequently asked questions and solutions
 - **[Analytics](docs/ANALYTICS.md)** – Add website analytics and visitor tracking
 - **[SEO Guide](docs/SEO.md)** – Optimize for search engines and improve discoverability
-- **[Plugin Catalog](_pages/plugins.md)** – Featured and bundled plugin metadata
+- **[Plugin Catalog](https://alshedivat.github.io/al-folio/plugins/)** – Featured and bundled plugin metadata ([page source](_pages/plugins.md))
 
 ## Features
 
