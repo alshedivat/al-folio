@@ -86,12 +86,12 @@ def _get(url: str, token: str | None, accept: str) -> tuple[object, dict]:
         raise SystemExit(f"GET {url} failed: HTTP {exc.code}: {detail}") from exc
 
 
-def fetch_points(repo: str, token: str | None) -> tuple[list[tuple[datetime, int]], int]:
-    """Return [(date, cumulative_stars)] sampled across the repo's history."""
+def fetch_points(repo: str, token: str | None) -> tuple[list[tuple[datetime, int]], int, bool]:
+    """Return ([(date, cumulative_stars)], total, truncated_by_pagination_cap)."""
     meta, _ = _get(f"{API}/repos/{repo}", token, "application/vnd.github+json")
     total = int(meta.get("stargazers_count", 0))
     if total == 0:
-        return [], 0
+        return [], 0, False
 
     last_page = min(math.ceil(total / PER_PAGE), MAX_PAGE)
     if last_page <= SAMPLES:
@@ -119,10 +119,22 @@ def fetch_points(repo: str, token: str | None) -> tuple[list[tuple[datetime, int
                 newest = _parse(last)
                 points.append((newest, (page - 1) * PER_PAGE + len(batch)))
 
-    # Anchor the curve at the true total. Deliberately dated to the most recent
-    # star rather than "now", so a run on a day with no new stars produces a
-    # byte-identical file instead of a pointless commit.
-    if newest and total > points[-1][1]:
+    # GitHub stops paginating this endpoint at page 400, so for a repository
+    # with more than 40,000 stars we cannot observe when the later ones arrived.
+    capped = last_page >= MAX_PAGE and total > MAX_PAGE * PER_PAGE
+
+    if capped:
+        # Back-dating the full total onto the last *observable* star would draw a
+        # vertical cliff at that old date and freeze the x-axis there, inventing
+        # history that was never measured. The current total on today's date is a
+        # fact, so anchor there and let the segment between be interpolated, the
+        # same approximation already used between every other sampled point.
+        # Truncated to midnight so reruns within a day stay byte-identical.
+        now = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+        points.append((now, total))
+    elif newest and total > points[-1][1]:
+        # Dated to the most recent star rather than "now", so a run on a day with
+        # no new stars produces a byte-identical file instead of a junk commit.
         points.append((newest, total))
 
     points.sort(key=lambda p: p[0])
@@ -132,7 +144,7 @@ def fetch_points(repo: str, token: str | None) -> tuple[list[tuple[datetime, int
             deduped[-1] = (date, max(count, deduped[-1][1]))
         else:
             deduped.append((date, count))
-    return deduped, total
+    return deduped, total, capped
 
 
 def _parse(value: str) -> datetime:
@@ -176,7 +188,7 @@ def _smooth_path(pts: list[tuple[float, float]]) -> str:
     return " ".join(d)
 
 
-def render(points: list[tuple[datetime, int]], total: int, repo: str, theme: str) -> str:
+def render(points: list[tuple[datetime, int]], total: int, repo: str, theme: str, capped: bool = False) -> str:
     t = THEMES[theme]
     plot_w, plot_h = W - M_L - M_R, H - M_T - M_B
     t0, t1 = points[0][0].timestamp(), points[-1][0].timestamp()
@@ -220,6 +232,13 @@ def render(points: list[tuple[datetime, int]], total: int, repo: str, theme: str
         for d in years
     ]
 
+    # Say so rather than passing off an interpolated segment as measured data.
+    subtitle = (
+        f"{repo} · beyond {MAX_PAGE * PER_PAGE:,} stars the API stops paginating, so the tail is interpolated"
+        if capped
+        else repo
+    )
+
     lx, ly = xy[-1]
     uid = theme  # keeps gradient ids unique if both files are ever inlined together
 
@@ -242,7 +261,7 @@ def render(points: list[tuple[datetime, int]], total: int, repo: str, theme: str
   </style>
   <rect width="{W}" height="{H}" fill="{t['bg']}" rx="6" />
   <text x="{M_L - 12}" y="30" class="ttl">Star History</text>
-  <text x="{M_L - 12}" y="48" class="sub">{repo}</text>
+  <text x="{M_L - 12}" y="48" class="sub">{subtitle}</text>
   <text x="{W - M_R}" y="34" text-anchor="end" class="tot">★ {total:,}</text>
   <g stroke="{t['grid']}" stroke-width="1" shape-rendering="crispEdges">
 {chr(10).join("    " + g for g in grid)}
@@ -273,7 +292,7 @@ def main() -> int:
     if not token:
         print("warning: no GITHUB_TOKEN set; 60 req/hour limit may not suffice", file=sys.stderr)
 
-    points, total = fetch_points(args.repo, token)
+    points, total, capped = fetch_points(args.repo, token)
     if len(points) < 2:
         print(f"error: not enough stargazer data for {args.repo} (got {len(points)} points)", file=sys.stderr)
         return 1
@@ -282,9 +301,10 @@ def main() -> int:
     for theme in THEMES:
         path = os.path.join(args.out_dir, f"star-history-{theme}.svg")
         with open(path, "w", encoding="utf-8") as fh:
-            fh.write(render(points, total, args.repo, theme))
+            fh.write(render(points, total, args.repo, theme, capped))
         print(f"wrote {path}")
-    print(f"{total:,} stars, {len(points)} sampled points, {points[0][0].date()} to {points[-1][0].date()}")
+    note = "  [truncated by API page cap; tail interpolated]" if capped else ""
+    print(f"{total:,} stars, {len(points)} sampled points, {points[0][0].date()} to {points[-1][0].date()}{note}")
     return 0
 
 
