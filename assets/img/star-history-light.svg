@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="420" viewBox="0 0 820 420" role="img" aria-label="Star history for alshedivat/al-folio: 15931 stars">
+  <title>Star history for alshedivat/al-folio</title>
+  <defs>
+    <linearGradient id="fill-light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(181,9,172,0.28)" />
+      <stop offset="100%" stop-color="rgba(181,9,172,0.02)" />
+    </linearGradient>
+    <clipPath id="plot-light">
+      <rect x="68" y="64" width="724" height="308" />
+    </clipPath>
+  </defs>
+  <style>
+    .ttl { font: 600 16px -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; fill: #000000; }
+    .sub { font: 400 12px -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; fill: #828282; }
+    .ax  { font: 400 11px -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; fill: #828282; }
+    .tot { font: 700 15px -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif; fill: #b509ac; }
+  </style>
+  <rect width="820" height="420" fill="#ffffff" rx="6" />
+  <text x="56" y="30" class="ttl">Star History</text>
+  <text x="56" y="48" class="sub">alshedivat/al-folio</text>
+  <text x="792" y="34" text-anchor="end" class="tot">★ 15,931</text>
+  <g stroke="rgba(0,0,0,0.10)" stroke-width="1" shape-rendering="crispEdges">
+    <line x1="68" y1="372.00" x2="792" y2="372.00" />
+    <line x1="68" y1="295.00" x2="792" y2="295.00" />
+    <line x1="68" y1="218.00" x2="792" y2="218.00" />
+    <line x1="68" y1="141.00" x2="792" y2="141.00" />
+    <line x1="68" y1="64.00" x2="792" y2="64.00" />
+  </g>
+  <g>
+    <text x="56" y="376.00" text-anchor="end" class="ax">0</text>
+    <text x="56" y="299.00" text-anchor="end" class="ax">5k</text>
+    <text x="56" y="222.00" text-anchor="end" class="ax">10k</text>
+    <text x="56" y="145.00" text-anchor="end" class="ax">15k</text>
+    <text x="56" y="68.00" text-anchor="end" class="ax">20k</text>
+  </g>
+  <g>
+    <text x="88.36" y="398" text-anchor="middle" class="ax">2017</text>
+    <text x="161.83" y="398" text-anchor="middle" class="ax">2018</text>
+    <text x="235.30" y="398" text-anchor="middle" class="ax">2019</text>
+    <text x="308.78" y="398" text-anchor="middle" class="ax">2020</text>
+    <text x="382.45" y="398" text-anchor="middle" class="ax">2021</text>
+    <text x="455.93" y="398" text-anchor="middle" class="ax">2022</text>
+    <text x="529.40" y="398" text-anchor="middle" class="ax">2023</text>
+    <text x="602.87" y="398" text-anchor="middle" class="ax">2024</text>
+    <text x="676.55" y="398" text-anchor="middle" class="ax">2025</text>
+    <text x="750.02" y="398" text-anchor="middle" class="ax">2026</text>
+  </g>
+  <g clip-path="url(#plot-light)">
+    <path d="M 68.00,371.98 C 117.49,370.44 307.92,365.82 364.94,362.74 C 421.95,359.66 398.05,356.58 410.10,353.50 C 422.15,350.42 428.10,347.34 437.25,344.26 C 446.41,341.18 457.15,337.85 465.05,335.02 C 472.94,332.20 478.01,330.15 484.64,327.32 C 491.26,324.50 498.38,321.16 504.77,318.08 C 511.17,315.00 517.03,311.92 523.00,308.84 C 528.97,305.76 535.11,302.68 540.62,299.60 C 546.13,296.52 551.09,293.44 556.06,290.36 C 561.02,287.28 565.75,284.20 570.42,281.12 C 575.08,278.04 579.68,274.96 584.03,271.88 C 588.37,268.80 592.39,265.72 596.48,262.64 C 600.57,259.56 605.10,256.23 608.56,253.40 C 612.02,250.58 613.87,248.53 617.26,245.70 C 620.66,242.88 625.18,239.54 628.93,236.46 C 632.68,233.38 635.84,230.30 639.76,227.22 C 643.69,224.14 648.53,221.06 652.49,217.98 C 656.45,214.90 659.88,211.82 663.52,208.74 C 667.15,205.66 670.58,202.58 674.29,199.50 C 678.01,196.42 681.85,193.34 685.78,190.26 C 689.70,187.18 693.32,184.10 697.84,181.02 C 702.36,177.94 708.45,174.61 712.90,171.78 C 717.35,168.96 720.50,166.91 724.53,164.08 C 728.56,161.26 732.37,157.92 737.07,154.84 C 741.78,151.76 747.47,148.68 752.76,145.60 C 758.04,142.52 762.42,139.44 768.78,136.36 C 775.14,133.28 787.02,128.74 790.89,127.12 C 794.76,125.51 791.82,126.74 792.00,126.66 L 792.00,372.00 L 68.00,372.00 Z" fill="url(#fill-light)" />
+    <path d="M 68.00,371.98 C 117.49,370.44 307.92,365.82 364.94,362.74 C 421.95,359.66 398.05,356.58 410.10,353.50 C 422.15,350.42 428.10,347.34 437.25,344.26 C 446.41,341.18 457.15,337.85 465.05,335.02 C 472.94,332.20 478.01,330.15 484.64,327.32 C 491.26,324.50 498.38,321.16 504.77,318.08 C 511.17,315.00 517.03,311.92 523.00,308.84 C 528.97,305.76 535.11,302.68 540.62,299.60 C 546.13,296.52 551.09,293.44 556.06,290.36 C 561.02,287.28 565.75,284.20 570.42,281.12 C 575.08,278.04 579.68,274.96 584.03,271.88 C 588.37,268.80 592.39,265.72 596.48,262.64 C 600.57,259.56 605.10,256.23 608.56,253.40 C 612.02,250.58 613.87,248.53 617.26,245.70 C 620.66,242.88 625.18,239.54 628.93,236.46 C 632.68,233.38 635.84,230.30 639.76,227.22 C 643.69,224.14 648.53,221.06 652.49,217.98 C 656.45,214.90 659.88,211.82 663.52,208.74 C 667.15,205.66 670.58,202.58 674.29,199.50 C 678.01,196.42 681.85,193.34 685.78,190.26 C 689.70,187.18 693.32,184.10 697.84,181.02 C 702.36,177.94 708.45,174.61 712.90,171.78 C 717.35,168.96 720.50,166.91 724.53,164.08 C 728.56,161.26 732.37,157.92 737.07,154.84 C 741.78,151.76 747.47,148.68 752.76,145.60 C 758.04,142.52 762.42,139.44 768.78,136.36 C 775.14,133.28 787.02,128.74 790.89,127.12 C 794.76,125.51 791.82,126.74 792.00,126.66" fill="none" stroke="#b509ac" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+  <circle cx="792.00" cy="126.66" r="7" fill="#b509ac" opacity="0.18" />
+  <circle cx="792.00" cy="126.66" r="3.5" fill="#b509ac" stroke="#ffffff" stroke-width="1.5" />
+</svg>

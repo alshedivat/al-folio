@@ -1,0 +1,54 @@
+name: Update star history chart
+
+on:
+  push:
+    branches:
+      - main
+    # The job commits the regenerated SVGs back to main. Ignoring them here
+    # means the bot's own commit — which touches nothing else — cannot retrigger
+    # this workflow. (GitHub also declines to raise `push` events for commits
+    # made with GITHUB_TOKEN, so this is the second of two guards.)
+    paths-ignore:
+      - "assets/img/star-history-*.svg"
+  # Stars keep accruing even when nobody pushes, so refresh weekly regardless.
+  schedule:
+    - cron: "17 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Never let two runs race to commit the same files.
+concurrency:
+  group: star-history
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    # This repo is a template; without this guard every site generated from it
+    # would burn Actions minutes charting someone else's repository.
+    if: github.repository == 'alshedivat/al-folio'
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v6
+
+      - name: Regenerate chart 📈
+        env:
+          # Lifts the API limit from 60 to 5000 requests/hour. The stargazer
+          # data itself is public — no personal or scoped token is needed.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 bin/generate_star_history.py --repo "${{ github.repository }}" --out-dir assets/img
+
+      - name: Commit if changed 💾
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- assets/img/star-history-light.svg assets/img/star-history-dark.svg; then
+            echo "Chart unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/img/star-history-light.svg assets/img/star-history-dark.svg
+          git commit -m "chore: refresh star history chart [skip ci]"
+          git push
