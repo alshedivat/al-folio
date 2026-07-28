@@ -7,7 +7,7 @@ body:
       value: >
         Before you go any further. Is this really a **🐛 bug**?
 
-        If it's a question about how al-folio works, have a look at our [documentation](https://github.com/alshedivat/al-folio/blob/main/README.md),
+        If it's a question about how al-folio works, have a look at our [documentation](https://github.com/alshedivat/al-folio/blob/main/docs/README.md),
         [frequently asked questions](https://github.com/alshedivat/al-folio/blob/main/docs/FAQ.md),
         [past questions](https://github.com/alshedivat/al-folio/discussions/categories/q-a),
         or [ask a question](https://github.com/alshedivat/al-folio/discussions/new?category=q-a).

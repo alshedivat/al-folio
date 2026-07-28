@@ -2,6 +2,8 @@
 
 Describe what changed and why.
 
+> **Adding your site to the showcase?** We no longer accept pull requests for that. Please close this PR and post a request in the _Showcase_ category of [GitHub Discussions](https://github.com/alshedivat/al-folio/discussions) instead — entries are reviewed and added periodically.
+
 ## Ownership Routing
 
 - [ ] I confirmed this PR targets the correct repo based on `docs/BOUNDARIES.md`.

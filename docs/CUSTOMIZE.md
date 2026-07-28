@@ -8,6 +8,7 @@ Here we will give you some tips on how to customize the website. One important t
 
 - [Customize](#customize)
   - [Project structure](#project-structure)
+    - [Where common files moved in v1.x](#where-common-files-moved-in-v1x)
   - [Configuration](#configuration)
   - [GitHub Copilot Customization Agent](#github-copilot-customization-agent)
     - [What the Agent Can Help With](#what-the-agent-can-help-with)
@@ -54,6 +55,9 @@ Here we will give you some tips on how to customize the website. One important t
   - [Adding social media information](#adding-social-media-information)
   - [Adding a newsletter](#adding-a-newsletter)
   - [Configuring search features](#configuring-search-features)
+  - [Sidebar table of contents (Tocbot)](#sidebar-table-of-contents-tocbot)
+  - [Pretty tables in Tailwind mode](#pretty-tables-in-tailwind-mode)
+  - [Lightbox images](#lightbox-images)
   - [Social media previews](#social-media-previews)
     - [How to enable](#how-to-enable)
     - [Configuring preview images](#configuring-preview-images)
@@ -69,6 +73,11 @@ Here we will give you some tips on how to customize the website. One important t
     - [Enable the calendar script for your page](#enable-the-calendar-script-for-your-page)
     - [Optional: Customize the calendar style](#optional-customize-the-calendar-style)
   - [Updating third-party libraries](#updating-third-party-libraries)
+  - [Plugin ecosystem (v1.x)](#plugin-ecosystem-v1x)
+    - [Naming convention](#naming-convention)
+    - [Featured vs bundled plugins](#featured-vs-bundled-plugins)
+  - [Bootstrap compatibility mode (v1.x)](#bootstrap-compatibility-mode-v1x)
+    - [Compatibility matrix](#compatibility-matrix)
   - [Removing content](#removing-content)
     - [Removing the blog page](#removing-the-blog-page)
     - [Removing the news section](#removing-the-news-section)
@@ -447,7 +456,7 @@ You can add news in the about page by adding new Markdown files in the [\_news](
 
 ## Adding Collections
 
-This Jekyll theme implements [collections](https://jekyllrb.com/docs/collections/) to let you break up your work into categories. The theme comes with three default collections: `news`, `projects`, and `books`. Items from the `news` collection are automatically displayed on the home page, while items from the `projects` collection are displayed on a responsive grid on the projects page, and items from the `books` collection are displayed on its own `bookshelf` page inside `submenus`.
+al-folio uses Jekyll [collections](https://jekyllrb.com/docs/collections/) to let you break up your work into categories. The starter comes with four default collections, all declared under `collections:` in [\_config.yml](../_config.yml): `news`, `projects`, `books`, and `teachings`. Items from the `news` collection are automatically displayed on the home page, items from the `projects` collection are displayed on a responsive grid on the projects page, items from the `books` collection are displayed on its own `bookshelf` page inside `submenus`, and items from the `teachings` collection are displayed as course pages (see [Creating a teachings collection](#creating-a-teachings-collection) below).
 
 You can easily create your own collections for any type of content—teaching materials, courses, apps, short stories, or whatever suits your needs.
 
@@ -756,7 +765,7 @@ After rebuilding, users can browse books by adaptation at `/books/adaptations/mo
 
 To add publications create a new entry in the [\_bibliography/papers.bib](../_bibliography/papers.bib) file. You can find the BibTeX entry of a publication in Google Scholar by clicking on the quotation marks below the publication title, then clicking on "BibTeX", or also in the conference page itself. By default, the publications will be sorted by year and the most recent will be displayed first. You can change this behavior and more in the `Jekyll Scholar` section in [\_config.yml](../_config.yml) file.
 
-You can add extra information to a publication, like a PDF file in the `assets/pdfs/` directory and add the path to the PDF file in the BibTeX entry with the `pdf` field. Some of the supported fields are: `abstract`, `altmetric`, `annotation`, `arxiv`, `bibtex_show`, `blog`, `code`, `dimensions`, `doi`, `eprint`, `hal`, `html`, `isbn`, `pdf`, `pmid`, `poster`, `slides`, `supp`, `video`, and `website`.
+You can add extra information to a publication, like a PDF file in the `assets/pdf/` directory and add the path to the PDF file in the BibTeX entry with the `pdf` field. Some of the supported fields are: `abstract`, `altmetric`, `annotation`, `arxiv`, `bibtex_show`, `blog`, `code`, `dimensions`, `doi`, `eprint`, `hal`, `html`, `isbn`, `pdf`, `pmid`, `poster`, `slides`, `supp`, `video`, and `website`.
 
 ### Author annotation
 
@@ -1451,7 +1460,18 @@ When cookie consent is enabled, these analytics providers are automatically bloc
 
 Each provider only collects data if:
 
-1. It's enabled in `_config.yml` (e.g., `enable_google_analytics: true`)
+1. Its ID is set in `_config.yml`. The starter ships an `analytics:` block, and a provider becomes active as soon as you give it a non-empty ID:
+
+   ```yaml
+   analytics:
+     google: # Google Analytics measurement ID (format: G-XXXXXXXXXX)
+     cronitor: # Cronitor RUM analytics site ID
+     pirsch: # Pirsch analytics site ID (32 characters)
+     openpanel: # Openpanel analytics client ID (UUID)
+   ```
+
+   The `al_analytics` plugin also accepts flat aliases (`google_analytics`, `cronitor_analytics`, `pirsch_analytics`, `openpanel_analytics`), which take precedence over the nested block. The matching `enable_*_analytics` flags are optional off-switches: leave them unset and the provider follows the ID, or set one to `false` to disable that provider while keeping its ID. Setting `enable_google_analytics: true` without an ID does nothing.
+
 2. The user has granted consent to the "analytics" category in the consent dialog
 
 ### How it integrates with analytics
@@ -1486,7 +1506,7 @@ For more API details, see [Vanilla Cookie Consent documentation](https://cookiec
 ## Setting up a Personal Access Token (PAT) for Google Scholar Citation Updates
 
 > [!TIP]
-> After setting up al-folio you may want to run `python3 bin/update_citations.py` to fill the `_data/citations.yml` file with your Google Scholar citation counts.
+> After setting up al-folio you may want to run `python3 bin/update_scholar_citations.py` to fill the `_data/citations.yml` file with your Google Scholar citation counts. The script needs the `scholarly` package from [`requirements.txt`](../requirements.txt) (`python3 -m pip install scholarly`).
 
 This project includes an automated workflow to update the citation counts for your publications using Google Scholar.
 The workflow commits changes to `_data/citations.yml` directly to the `main` branch.

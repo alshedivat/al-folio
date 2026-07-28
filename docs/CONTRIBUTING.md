@@ -10,6 +10,10 @@ If you would like to implement a new feature or a bug, please make sure you (or 
 
 Note that since [#2048](https://github.com/alshedivat/al-folio/pull/2048) al-folio uses the [prettier formatter](https://prettier.io/) for its code, meaning all new submitted code must conform to its standard. If you don't have `prettier` installed for your setup and the `prettier` code check fails when submitting a PR, you can check the referred failed action in our repo. In that action there will be an artifact with an HTML diff showing the needed changes.
 
+## Adding your site to the showcase
+
+**Please do not open a pull request to add your site to the showcase list.** We have retired that process. Instead, post a request in the _Showcase_ category of [GitHub Discussions](https://github.com/alshedivat/al-folio/discussions) with a link to your site and the group it belongs in (Academics, Labs, Courses, or Conferences & workshops). Requests are reviewed and added to [`docs/SHOWCASE.md`](SHOWCASE.md) in batches, so it may take a little while before your entry appears.
+
 ## Repository Routing (v1.x)
 
 `al-folio` is a starter in `v1.x`. Before opening a PR, route your change to the owning repo:
@@ -18,7 +22,7 @@ Note that since [#2048](https://github.com/alshedivat/al-folio/pull/2048) al-fol
 - `al-folio-core` and other `al-*` gem repos: component runtime behavior, layouts/includes/style primitives, feature logic, unit/component tests.
 - If a feature does not fit an existing plugin, propose a new standalone plugin first, then implement there.
 
-See [`BOUNDARIES.md`](BOUNDARIES.md) for ownership details.
+For the change-type routing table, see [`AGENTS.md`](../AGENTS.md#route-your-change). For the authoritative area-to-gem mapping, see [`BOUNDARIES.md`](BOUNDARIES.md). For how the starter and gems connect at runtime — including the failure modes that produce no error message — see [`ARCHITECTURE.md`](ARCHITECTURE.md).
 
 ## Plugin Naming Convention (v1.x)
 
@@ -62,8 +66,24 @@ Do not add duplicate component-level correctness tests to this starter when the 
 Before opening/updating a PR in `v1.x`, run:
 
 ```bash
+bundle install
 npm ci
-bundle exec jekyll build
+npm run lint:prettier
+npm run lint:style-contract
+bundle exec jekyll build --baseurl /al-folio
+```
+
+The `--baseurl /al-folio` flag matters: the demo site is published as a project page, and building without it produces an unstyled site with broken links.
+
+If your change touches plugin wiring or feature behavior, run the integration tests it affects. All six are gated by `unit-tests.yml`:
+
+```bash
+bash test/integration_comments.sh
+bash test/integration_plugin_toggles.sh
+bash test/integration_distill.sh
+bash test/integration_bootstrap_compat.sh
+bash test/integration_upgrade_cli.sh
+bash test/integration_css_minify.sh
 ```
 
 If your change touches visual tests, install Playwright browsers once and run:
@@ -73,17 +93,21 @@ npx playwright install chromium webkit
 npm run test:visual
 ```
 
+The full validated command set lives in [`AGENTS.md`](../AGENTS.md#validated-local-command-set).
+
 ## AI Agent Guidance
 
 This repository includes agent entrypoints and skills for Codex, Claude, Copilot, and similar coding agents.
 
 ### CLAUDE.md
 
-The `CLAUDE.md` file serves as an entry point for Claude (Anthropic's AI assistant) when working with this repository. It uses Claude's `@path/to/import` syntax (as described in [Claude's best practices](https://code.claude.com/docs/en/best-practices#write-an-effective-claude-md)) to dynamically import the `AGENTS.md` file. This approach keeps documentation centralized while providing a convenient entry point for AI assistants. The file simply contains:
+The `CLAUDE.md` file serves as an entry point for Claude (Anthropic's AI assistant) when working with this repository. It opens with Claude's `@path/to/import` syntax (as described in [Claude's best practices](https://code.claude.com/docs/en/best-practices#write-an-effective-claude-md)) to pull in `AGENTS.md`, so the ecosystem-neutral rules stay in one place:
 
 ```
 @AGENTS.md
 ```
+
+Beyond that import, `CLAUDE.md` carries Claude-specific and longer-form guidance that does not belong in the short entry point — the daily dev loop, the Docker serving model, and the CI/style-contract details. Ecosystem-neutral rules that every agent needs belong in `AGENTS.md` or [`ARCHITECTURE.md`](ARCHITECTURE.md); keep `CLAUDE.md` for the rest.
 
 ### Agent Skills
 
@@ -120,7 +144,7 @@ The documentation agent is primarily intended for maintainers and contributors w
 
 To enhance GitHub Copilot's effectiveness when working with specific file types, this repository includes custom instruction files in `.github/instructions/`:
 
-- **`.github/copilot-instructions.md`** – Main Copilot instructions with repository overview, build process, tech stack, project layout, CI/CD pipelines, and common pitfalls
+- **`.github/copilot-instructions.md`** – Copilot entry point. It points at [`AGENTS.md`](../AGENTS.md) (the authoritative agent guide) and lists the Copilot-specific paths and CI expectations, rather than duplicating the shared rules
 - **`.github/instructions/liquid-templates.instructions.md`** – Guidance for modifying Liquid template files (`.liquid`)
 - **`.github/instructions/yaml-configuration.instructions.md`** – Guidance for configuration and data files (`_config.yml`, `_data/**/*.yml`)
 - **`.github/instructions/bibtex-bibliography.instructions.md`** – Guidance for bibliography files (`.bib`, `_bibliography/**`)

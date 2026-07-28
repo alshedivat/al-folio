@@ -15,14 +15,20 @@ Here are some frequently asked questions. If you have a different question, plea
   - [When I manually run the Lighthouse Badger workflow, it fails with Error: Input required and not supplied: token. How do I fix that?](#when-i-manually-run-the-lighthouse-badger-workflow-it-fails-with-error-input-required-and-not-supplied-token-how-do-i-fix-that)
   - [My code runs fine locally, but when I create a commit and submit it, it fails with prettier code formatter workflow run failed for main branch. How do I fix that?](#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-main-branch-how-do-i-fix-that)
   - [After I update my site with some new content, even a small change, the GitHub action throws an error or displays a warning. What happened?](#after-i-update-my-site-with-some-new-content-even-a-small-change-the-github-action-throws-an-error-or-displays-a-warning-what-happened)
-  - [How do I upgrade from al-folio `v1.0` to `v1.1+` with minimal friction?](#how-do-i-upgrade-from-al-folio-v10-to-v11-with-minimal-friction)
+  - [How do I upgrade from al-folio v1.0 to v1.1+ with minimal friction?](#how-do-i-upgrade-from-al-folio-v10-to-v11-with-minimal-friction)
   - [Do I need to fork every v1 gem to customize layouts and Liquid files?](#do-i-need-to-fork-every-v1-gem-to-customize-layouts-and-liquid-files)
-  - [How do I handle legacy Bootstrap-marked pages on Tailwind-first `v1.x`?](#how-do-i-handle-legacy-bootstrap-marked-pages-on-tailwind-first-v1x)
+  - [How do I know when a local override is stale after a plugin update?](#how-do-i-know-when-a-local-override-is-stale-after-a-plugin-update)
+  - [Why does v1.x starter not have npm run build:css anymore?](#why-does-v1x-starter-not-have-npm-run-buildcss-anymore)
+  - [Jupyter posts are enabled, but my build says jupyter-nbconvert is missing. What are my options?](#jupyter-posts-are-enabled-but-my-build-says-jupyter-nbconvert-is-missing-what-are-my-options)
+  - [How do I handle legacy Bootstrap-marked pages on Tailwind-first v1.x?](#how-do-i-handle-legacy-bootstrap-marked-pages-on-tailwind-first-v1x)
+  - [How does sidebar table of contents work in v1.x?](#how-does-sidebar-table-of-contents-work-in-v1x)
+  - [Why does pretty_table: true still work when Bootstrap compatibility is disabled?](#why-does-pretty_table-true-still-work-when-bootstrap-compatibility-is-disabled)
+  - [Why does Lightbox2 work without jQuery in v1.x?](#why-does-lightbox2-work-without-jquery-in-v1x)
   - [I am trying to deploy my site, but it fails with Could not find gem 'jekyll-diagrams' in locally installed gems. How do I fix that?](#i-am-trying-to-deploy-my-site-but-it-fails-with-could-not-find-gem-jekyll-diagrams-in-locally-installed-gems-how-do-i-fix-that)
   - [How can I update icon library versions on the template](#how-can-i-update-icon-library-versions-on-the-template)
-  - [How should I name plugins in `v1.x`?](#how-should-i-name-plugins-in-v1x)
-  - [How can I propose featuring my plugin in `al-folio`?](#how-can-i-propose-featuring-my-plugin-in-al-folio)
-  - [Why does plugin integration use `Gemfile` + `_config.yml` instead of a gemspec?](#why-does-plugin-integration-use-gemfile--_configyml-instead-of-a-gemspec)
+  - [How should I name plugins in v1.x?](#how-should-i-name-plugins-in-v1x)
+  - [How can I propose featuring my plugin in al-folio?](#how-can-i-propose-featuring-my-plugin-in-al-folio)
+  - [Why does plugin integration use Gemfile + \_config.yml instead of a gemspec?](#why-does-plugin-integration-use-gemfile--_configyml-instead-of-a-gemspec)
   - [What do all these GitHub actions/workflows mean?](#what-do-all-these-github-actionsworkflows-mean)
   - [How can I use Google Search Console ID on the template?](#how-can-i-use-google-search-console-id-on-the-template)
   - [What are Code Wiki and DeepWiki?](#what-are-code-wiki-and-deepwiki)
@@ -35,7 +41,7 @@ Here are some frequently asked questions. If you have a different question, plea
 
 ## After I create a new repository from this template and setup the repo, I get a deployment error. Isn't the website supposed to correctly deploy automatically?
 
-Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit. Please make some changes (e.g., change your website info in `_config.yml`), commit, and push. Make sure to follow [deployment instructions](https://github.com/alshedivat/al-folio#deployment). (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
+Yes, if you are using release `v0.3.5` or later, the website will automatically and correctly re-deploy right after your first commit. Please make some changes (e.g., change your website info in `_config.yml`), commit, and push. Make sure to follow [deployment instructions](INSTALL.md#deployment). (Relevant issue: [209](https://github.com/alshedivat/al-folio/issues/209#issuecomment-798849211).)
 
 ## I am using a custom domain (e.g., `foo.com`). My custom domain becomes blank in the repository settings after each deployment. How do I fix that?
 
@@ -43,7 +49,7 @@ You need to add `CNAME` file to the `main` or `source` branch of your repository
 
 ## My webpage works locally. But after deploying, it fails to build and throws `Unknown tag 'toc'`. How do I fix that?
 
-Make sure you followed through the [deployment instructions](#deployment) in the previous section. You should have set the deployment branch to `gh-pages`. (Related issue: [1438](https://github.com/alshedivat/al-folio/issues/1438).)
+Make sure you followed through the [deployment instructions](INSTALL.md#deployment) in `INSTALL.md`. You should have set the deployment branch to `gh-pages`. (Related issue: [1438](https://github.com/alshedivat/al-folio/issues/1438).)
 
 ## My webpage works locally. But after deploying, it is not displayed correctly (CSS and JS are not loaded properly). How do I fix that?
 
@@ -290,18 +296,40 @@ Any contribution guidance that references gemspec updates should be interpreted 
 
 GitHub actions are a way to automate tasks in the repository. They are defined in `.github/workflows/` directory. Each file in this directory is a workflow. Workflows are made up of one or more jobs, and each job runs on a virtual machine hosted by GitHub. You can see the status of the workflows in the `Actions` tab of your repository. For more information, check the [GitHub Actions documentation](https://docs.github.com/en/actions).
 
-Currently we have the following workflows:
+Currently we ship the following workflows.
 
-- `axe.yml`: does some accessibility testing in your site. It uses the [axe cli](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli) tool with a chrome driver to render the webpage and allow the analysis. Must be run manually, since fixing some of the issues is not straightforward
-- `broken-links-site.yml`: checks for broken links in your built website with the [lychee-action](https://github.com/lycheeverse/lychee-action)
-- `broken-links.yml`: checks for broken links in your repository with the [lychee-action](https://github.com/lycheeverse/lychee-action)
-- `deploy-docker-tag.yml`: adds some metadata to the docker image and pushes it to Docker Hub
-- `deploy-image.yml`: deploys a new docker image with the latest changes to Docker Hub
-- `deploy.yml`: deploys the website to GitHub Pages
-- `docker-slim.yml`: deploys a smaller version of the docker image to Docker Hub with the [docker-slim-action](https://github.com/kitabisa/docker-slim-action)
-- `lighthouse-badger.yml`: runs a [lighthouse](https://github.com/GoogleChrome/lighthouse) test for your site with the [lighthouse-badger-action](https://github.com/MyActionWay/lighthouse-badger-action), saving the results in the repository for easy inspecting, as can be seen [here](https://github.com/alshedivat/al-folio?tab=readme-ov-file#lighthouse-pagespeed-insights). For more information on how to enable this workflow, check our [FAQ question about it](#when-i-manually-run-the-lighthouse-badger-workflow-it-fails-with-error-input-required-and-not-supplied-token-how-do-i-fix-that)
-- `prettier-comment-on-pr.yml`: not working. For now, this action is disabled. It was supposed to run prettier on the PRs and comment on them with the changes needed. For more information, check [issue 2115](https://github.com/alshedivat/al-folio/issues/2115)
+Build and deployment:
+
+- `deploy.yml`: builds the site and deploys it to GitHub Pages (the `gh-pages` branch)
+- `render-cv.yml`: regenerates your CV PDF with [RenderCV](https://github.com/rendercv/rendercv) when `_data/cv.yml` or the files under `assets/rendercv/` change
+- `update-citations.yml`: runs `bin/update_scholar_citations.py` on a schedule to refresh `_data/citations.yml` with Google Scholar citation counts. See [Setting up a Personal Access Token (PAT) for Google Scholar Citation Updates](CUSTOMIZE.md#setting-up-a-personal-access-token-pat-for-google-scholar-citation-updates)
+- `update-tocs.yml`: regenerates the `<!--ts-->…<!--te-->` table of contents blocks in changed Markdown files
+
+Docker images:
+
+- `deploy-image.yml`: builds and pushes a new docker image with the latest changes to Docker Hub
+- `deploy-docker-tag.yml`: adds release metadata to the docker image and pushes a tagged image to Docker Hub
+- `docker-slim.yml`: publishes a smaller version of the docker image with the [docker-slim-action](https://github.com/kitabisa/docker-slim-action)
+
+Tests and quality checks:
+
+- `unit-tests.yml`: runs the starter style contract (`npm run lint:style-contract`) and all six cross-plugin integration tests in `test/`
+- `visual-regression.yml`: runs the [Playwright](https://playwright.dev/) visual parity suite on Chromium and WebKit, diffing the candidate build against a `v0.16.3` baseline build served alongside it
+- `upgrade-check.yml`: runs `bundle exec al-folio upgrade audit` to verify your site still satisfies the v1 config contract
 - `prettier.yml`: runs [prettier](https://prettier.io/) on the code to ensure it is well formatted. For more information, check our [FAQ question about it](#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-main-branch-how-do-i-fix-that)
+- `prettier-html.yml`: manual-only (`workflow_dispatch`); formats the generated HTML on the `gh-pages` branch
+- `prettier-comment-on-pr.yml`: not working. For now, this action is disabled. It was supposed to run prettier on the PRs and comment on them with the changes needed. For more information, check [issue 2115](https://github.com/alshedivat/al-folio/issues/2115)
+- `codeql.yml`: runs GitHub's [CodeQL](https://codeql.github.com/) security analysis on pushes, pull requests, and a weekly schedule
+- `broken-links.yml`: checks for broken links in your repository with the [lychee-action](https://github.com/lycheeverse/lychee-action)
+- `broken-links-site.yml`: checks for broken links in your built website with the [lychee-action](https://github.com/lycheeverse/lychee-action), after a deploy completes
+- `axe.yml`: does some accessibility testing in your site. It uses the [axe cli](https://github.com/dequelabs/axe-core-npm/tree/develop/packages/cli) tool with a chrome driver to render the webpage and allow the analysis. Must be run manually, since fixing some of the issues is not straightforward
+- `lighthouse-badger.yml`: runs a [lighthouse](https://github.com/GoogleChrome/lighthouse) test for your site with the [lighthouse-badger-action](https://github.com/MyActionWay/lighthouse-badger-action), saving the results in the repository for easy inspecting, as can be seen [here](https://github.com/alshedivat/al-folio?tab=readme-ov-file#lighthouse-pagespeed-insights). For more information on how to enable this workflow, check our [FAQ question about it](#when-i-manually-run-the-lighthouse-badger-workflow-it-fails-with-error-input-required-and-not-supplied-token-how-do-i-fix-that)
+
+Agent tooling:
+
+- `copilot-setup-steps.yml`: pre-installs the toolchain (Ruby, Python, Node, ImageMagick, nbconvert) that the GitHub Copilot coding agent needs before it runs
+
+`.github/workflows/schedule-posts.txt` is not a workflow — it is a disabled template you can rename to `.yml` if you want scheduled post publishing.
 
 ## How can I use Google Search Console ID on the template?
 
