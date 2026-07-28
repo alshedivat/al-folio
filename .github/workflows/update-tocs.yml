@@ -56,7 +56,12 @@ jobs:
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
-          npm install --save-dev --save-exact prettier @shopify/prettier-plugin-liquid
+          # `npm ci` installs from the lockfile and does not touch package.json or
+          # package-lock.json. `npm install --save-dev` would rewrite the caret
+          # ranges to exact pins and upgrade them, and because the auto-commit step
+          # below sets no file_pattern (default `.`), those dependency changes would
+          # be committed to main under the message "Auto update markdown TOC".
+          npm ci
           for file in ${ALL_CHANGED_FILES}; do
             if [[ "$file" != *.md ]]; then
               continue
