@@ -51,11 +51,25 @@ test("repositories page renders external stat cards with deterministic fixtures"
   await page.goto("/al-folio/repositories/", { waitUntil: "networkidle" });
   await stabilizeVisuals(page);
 
-  const repoImages = page.locator('img[src*="github-readme-stats"], img[src*="github-profile-trophy"]');
-  await expect(repoImages.first()).toBeVisible();
+  const renderedCount = (locator) => locator.evaluateAll((images) => images.filter((img) => img.complete && img.naturalWidth > 0).length);
 
-  const renderedCount = await repoImages.evaluateAll((images) => images.filter((img) => img.complete && img.naturalWidth > 0).length);
-  expect(renderedCount).toBeGreaterThan(0);
+  // Assert the stat-card host explicitly: this spec only ever loads the candidate
+  // site, so accepting the deprecated github-readme-stats host here (or letting
+  // trophy images satisfy the assertion on their own) would let a _config.yml
+  // regression pass unnoticed — helpers.js stubs both hosts, so the network
+  // would stay silent about it.
+  const statCards = page.locator('img[src*="github-stats-extended"]');
+  await expect(statCards.first()).toBeVisible();
+  expect(await renderedCount(statCards)).toBeGreaterThan(0);
+  await expect(page.locator('img[src*="github-readme-stats"]')).toHaveCount(0);
+
+  // repo_trophies.liquid emits three responsive variants of each trophy
+  // (d-md-block / d-sm-block d-md-none / d-block d-sm-none), so a bare .first()
+  // is always the >=md one and is display:none on the mobile project. Match the
+  // variant actually shown at this viewport instead.
+  const trophies = page.locator('img[src*="github-profile-trophy"]:visible');
+  await expect(trophies.first()).toBeVisible();
+  expect(await renderedCount(trophies)).toBeGreaterThan(0);
 });
 
 test("blog pagination uses core Tailwind-native styling contract", async ({ page }) => {
