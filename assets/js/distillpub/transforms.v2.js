@@ -14060,11 +14060,31 @@
   //
   // `;
 
-  const addBackIn = `
+  // al-folio local patch: upstream re-injects the Distill runtime from a
+  // hard-coded remote distill.pub template URL with no subresource integrity,
+  // which silently discards the vendored, hash-pinned copy this gem ships.
+  // Re-inject the loader al-folio declared instead
+  // (`window.alFolioDistill.templateLoader`, emitted by
+  // templates/distill/render.liquid), falling back to the same-origin src of the
+  // tag we just removed. Never fall back to a remote origin.
+  const addBackIn = (templateSrc) => `
 window.addEventListener('WebComponentsReady', function() {
   console.warn('WebComponentsReady');
-  const loaderTag = document.createElement('script');
-  loaderTag.src = 'https://distill.pub/template.v2.js';
+  var loader = (window.alFolioDistill && window.alFolioDistill.templateLoader) || {};
+  var fallbackSrc = ${JSON.stringify(templateSrc)};
+  var loaderTag = document.createElement('script');
+  if (loader.url) {
+    loaderTag.src = loader.url;
+    if (loader.integrity) {
+      loaderTag.integrity = loader.integrity;
+      loaderTag.crossOrigin = 'anonymous';
+    }
+  } else if (fallbackSrc) {
+    loaderTag.src = fallbackSrc;
+  } else {
+    console.error('al_folio_distill: no Distill template URL configured; refusing to load the runtime from a remote origin.');
+    return;
+  }
   document.head.insertBefore(loaderTag, document.head.firstChild);
 });
 `;
@@ -14072,7 +14092,9 @@ window.addEventListener('WebComponentsReady', function() {
   function render(dom) {
     // pull out template script tag
     const templateTag = dom.querySelector('script[src*="template.v2.js"]');
+    let templateSrc = null;
     if (templateTag) {
+      templateSrc = templateTag.getAttribute("src");
       templateTag.parentNode.removeChild(templateTag);
     } else {
       console.debug("FYI: Did not find template tag when trying to remove it. You may not have added it. Be aware that our polyfills will add it.");
@@ -14085,7 +14107,7 @@ window.addEventListener('WebComponentsReady', function() {
 
     // add loader event listener to add tempalrte back in
     const addTag = dom.createElement("script");
-    addTag.innerHTML = addBackIn;
+    addTag.innerHTML = addBackIn(templateSrc);
     dom.head.insertBefore(addTag, dom.head.firstChild);
 
     // create polyfill script tag
