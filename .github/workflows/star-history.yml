@@ -51,4 +51,19 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/img/star-history-light.svg assets/img/star-history-dark.svg
           git commit -m "chore: refresh star history chart [skip ci]"
-          git push
+          # Regenerating the chart takes about a minute, and update-tocs.yml
+          # triggers on the same push and commits to main in ~15s, so main can
+          # move underneath this job. That is a plain non-fast-forward, not a
+          # permissions problem, so rebase onto the new tip and retry instead of
+          # failing the run. Only the two generated SVGs are in flight here, and
+          # nothing else writes them, so the rebase cannot conflict in practice.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push rejected (main moved); rebasing onto origin/main and retrying."
+            git pull --rebase origin main
+          done
+          echo "::error::Could not push the refreshed chart after 3 attempts."
+          exit 1
