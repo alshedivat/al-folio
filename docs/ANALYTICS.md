@@ -12,6 +12,8 @@ This guide helps you add website analytics to track visitor statistics and behav
   - [Privacy-Friendly Alternatives](#privacy-friendly-alternatives)
     - [Pirsch Analytics](#pirsch-analytics)
     - [Openpanel Analytics](#openpanel-analytics)
+    - [Cloudflare Web Analytics](#cloudflare-web-analytics)
+    - [Simple Analytics](#simple-analytics)
   - [Monitoring &amp; Performance](#monitoring--performance)
     - [Cronitor](#cronitor)
   - [GDPR and Privacy Considerations](#gdpr-and-privacy-considerations)
@@ -35,9 +37,16 @@ analytics:
   cronitor: # Cronitor RUM analytics site ID
   pirsch: # Pirsch analytics site ID (32 characters)
   openpanel: # Openpanel analytics client ID (UUID)
+  cloudflare: # Cloudflare Web Analytics beacon token (32 hex characters)
 ```
 
-The plugin also accepts flat aliases (`google_analytics`, `cronitor_analytics`, `pirsch_analytics`, `openpanel_analytics`) which take precedence over the block above. The `enable_*_analytics` flags are optional **off-switches**: leave them unset and the provider follows its ID; set one to `false` to disable that provider without deleting the ID. Setting `enable_google_analytics: true` on its own does nothing.
+The plugin also accepts flat aliases (`google_analytics`, `cronitor_analytics`, `pirsch_analytics`, `openpanel_analytics`, `cloudflare_analytics`) which take precedence over the block above. The `enable_*_analytics` flags are optional **off-switches**: leave them unset and the provider follows its ID; set one to `false` to disable that provider without deleting the ID. Setting `enable_google_analytics: true` on its own does nothing.
+
+**Simple Analytics is the one exception.** It identifies a site by its domain rather than by an embedded key, so there is no ID to put in the block above and nothing for the plugin to infer intent from. It is therefore controlled by its flag alone and stays off until you turn it on:
+
+```yaml
+enable_simple_analytics: true
+```
 
 ## Supported Analytics Services
 
@@ -46,6 +55,8 @@ Currently implemented in al-folio:
 - **Google Analytics** – Free, feature-rich, but collects user data
 - **Pirsch Analytics** – GDPR-compliant, free tier available, European servers
 - **Openpanel Analytics** – Open-source option, privacy-focused
+- **Cloudflare Web Analytics** – Free, cookieless, no sampling
+- **Simple Analytics** – Privacy-first, no cookies, paid after trial
 - **Cronitor** – Uptime monitoring with Real User Monitoring (RUM) analytics
 
 ---
@@ -134,6 +145,51 @@ If you're concerned about user privacy or GDPR compliance, consider these altern
 
 ---
 
+### Cloudflare Web Analytics
+
+**Best for:** Free, privacy-friendly analytics with no cookies and no sampling
+
+**Features:**
+
+- ✅ Free, with no traffic cap
+- ✅ Cookieless — no consent banner required
+- ✅ No sampling: every page view is counted
+- ✅ Works without putting your site behind Cloudflare's proxy
+- ⚠️ Deliberately minimal — no funnels, segments or custom events
+
+**Setup:**
+
+1. Open the [Cloudflare dashboard](https://dash.cloudflare.com) and go to **Analytics & Logs → Web Analytics**
+2. Add your site's hostname
+3. Cloudflare shows a beacon snippet — copy the **token** value out of `data-cf-beacon='{"token": "..."}'`, not the whole snippet
+4. In `_config.yml`, set it under the `analytics` block: `analytics.cloudflare: YOUR_TOKEN` (32 hex characters)
+5. Commit and push
+
+You do not need to proxy your DNS through Cloudflare for this to work; the beacon is a plain script tag.
+
+---
+
+### Simple Analytics
+
+**Best for:** Privacy-first analytics where you want nothing stored on the visitor's device
+
+**Features:**
+
+- ✅ No cookies, no fingerprinting, no persistent identifiers
+- ✅ GDPR/CCPA compliant, EU-hosted
+- ✅ No consent banner required
+- ⚠️ Paid after the trial period
+
+**Setup:**
+
+Simple Analytics identifies your site by its domain, so unlike every other provider here there is no ID to configure — which also means the plugin cannot tell you want it on. Turn it on explicitly:
+
+1. Sign up at [SimpleAnalytics.com](https://www.simpleanalytics.com) and add your domain
+2. In `_config.yml`, set `enable_simple_analytics: true` (top level, **not** inside the `analytics` block)
+3. Commit and push
+
+---
+
 ## Monitoring & Performance
 
 ### Cronitor
@@ -166,6 +222,8 @@ If you're in the European Union or serve EU visitors, consider GDPR requirements
 
 - ✅ Pirsch Analytics
 - ✅ Openpanel Analytics
+- ✅ Cloudflare Web Analytics
+- ✅ Simple Analytics
 
 ### Services requiring cookie consent
 
@@ -181,6 +239,8 @@ If you're in the European Union or serve EU visitors, consider GDPR requirements
 | **Google Analytics** | ✅           | ⚠️ Requires consent | Easy   | Detailed reports | Detailed tracking          |
 | **Pirsch**           | ✅ Free tier | ✅                  | Easy   | Balanced         | GDPR compliance            |
 | **Openpanel**        | ✅           | ✅                  | Medium | Modern dashboard | Privacy-focused developers |
+| **Cloudflare**       | ✅           | ✅                  | Easy   | Minimal          | Free cookieless basics     |
+| **Simple Analytics** | Paid         | ✅                  | Easy   | Minimal          | Strict privacy             |
 | **Cronitor**         | Paid         | ⚠️ Requires consent | Easy   | Uptime + RUM     | Uptime monitoring          |
 
 ---

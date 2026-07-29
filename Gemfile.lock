@@ -23,7 +23,7 @@ GEM
       tzinfo (~> 2.0, >= 2.0.5)
     addressable (2.9.0)
       public_suffix (>= 2.0.2, < 8.0)
-    al_analytics (1.0.1)
+    al_analytics (1.0.2)
       jekyll (>= 3.9, < 5.0)
       liquid (>= 4.0, < 6.0)
     al_charts (1.0.1)
@@ -50,7 +50,7 @@ GEM
     al_folio_core (1.0.12)
       jekyll (>= 3.9, < 5.0)
       liquid (>= 4.0, < 6.0)
-    al_folio_cv (1.0.1)
+    al_folio_cv (1.0.2)
       jekyll (>= 3.9, < 5.0)
       liquid (>= 4.0, < 6.0)
     al_folio_distill (1.0.3)
@@ -345,7 +345,7 @@ PLATFORMS
   x86_64-linux-musl
 
 DEPENDENCIES
-  al_analytics (= 1.0.1)
+  al_analytics (= 1.0.2)
   al_charts (= 1.0.1)
   al_citations (= 1.0.1)
   al_comments (= 1.0.0)
@@ -353,7 +353,7 @@ DEPENDENCIES
   al_ext_posts (= 1.0.3)
   al_folio_bootstrap_compat (= 1.0.0)
   al_folio_core (= 1.0.12)
-  al_folio_cv (= 1.0.1)
+  al_folio_cv (= 1.0.2)
   al_folio_distill (= 1.0.3)
   al_folio_upgrade (= 1.0.3)
   al_icons (= 1.0.0)
@@ -390,7 +390,7 @@ DEPENDENCIES
 CHECKSUMS
   activesupport (7.2.3.1) sha256=11ebed516a43a0bb47346227a35ebae4d9427465a7c9eb197a03d5c8d283cb34
   addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
-  al_analytics (1.0.1) sha256=116756786ce0ff5b30c5964107edc3148d21b717a0a3cf12ce1527257974840b
+  al_analytics (1.0.2) sha256=0c8e0c029b1a28401d21ed9b56033036697e61722a0d8867f33c30010ad738d6
   al_charts (1.0.1) sha256=ce26374c2b1159ae0d65dc7999730be700a9ee486002ae14cb480eef70580885
   al_citations (1.0.1) sha256=308cfd4cd73c8dc6d24c0214f424b61606b3a393bdb899394fce80dd647cba59
   al_comments (1.0.0) sha256=1da87a29b55e4d9fd62d380200af9671f10ae4a84e3259828588498d8f3210e5
@@ -398,7 +398,7 @@ CHECKSUMS
   al_ext_posts (1.0.3) sha256=c4956d36071958d30de14f6c368863d3e4190dfe312dba08ff79aa685292420d
   al_folio_bootstrap_compat (1.0.0) sha256=c210ff3087f17344dc864fa9594c737e947b23c6cae9fab3dbd37a87090b98a8
   al_folio_core (1.0.12) sha256=1536807fa257c9e8ca60160dc45414d3792afcf6b674518d8583e783336f324e
-  al_folio_cv (1.0.1) sha256=ab824cbe41dd30af07c1bbd9cf4807db457b0c315ac94aa71fe10c282e5cbdd7
+  al_folio_cv (1.0.2) sha256=d9b8d3624c0c707a04deaa41972fa88395fa164419bccc44e2dc2488400022fa
   al_folio_distill (1.0.3) sha256=3feb669dd669effec127e1be5385158c5f98062c510980b5c9c802227ec2c247
   al_folio_upgrade (1.0.3) sha256=434ffddb27705852eae0bcaa01a8d007e0ef65472a989d1a33ae759f910f4709
   al_icons (1.0.0) sha256=7a7b6428d18e77b039aa1ae765a3faed0ae27cb646a08c1009b145c31ca5ef2d
