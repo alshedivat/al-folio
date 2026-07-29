@@ -57,7 +57,7 @@ al_folio:
   distill:
     engine: distillpub-template
     source: al-org-dev/distill-template#al-folio
-    allow_remote_loader: true
+    allow_remote_loader: false
   features:
     cv:
       enabled: true
@@ -620,10 +620,6 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/plotly.js@{{version}}/dist/plotly.min.js"
     version: "3.0.1"
-  polyfill:
-    url:
-      js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
-    version: "3"
   pseudocode:
     integrity:
       css: "sha256-VwMV//xgBPDyRFVSOshhRhzJRDyBmIACniLPpeXNUdc="

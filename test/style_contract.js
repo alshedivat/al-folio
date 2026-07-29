@@ -54,8 +54,12 @@ for (const libraryKey of ["tikzjax", "tocbot"]) {
 }
 
 const gemfile = read("Gemfile");
-if (!/gem 'al_math', '= 1\.0\.1'/.test(gemfile)) {
-  failures.push("`Gemfile` should pin `al_math` to released version `1.0.1`.");
+// The point of this check is that `al_math` is pinned to *a* released version,
+// not to any particular one. Hard-coding the number here meant every routine
+// version bump failed the style contract until someone remembered to edit this
+// file too, which is a tripwire for the bump rather than for the boundary.
+if (!/gem 'al_math', '= \d+\.\d+\.\d+'/.test(gemfile)) {
+  failures.push("`Gemfile` should pin `al_math` to an exact released version (`= x.y.z`).");
 }
 if (/gem 'al_math',\s*:git =>/.test(gemfile)) {
   failures.push("`Gemfile` must not use git-branch pin for `al_math`; use released gem version.");
