@@ -1,0 +1,112 @@
+name: Create release
+
+# Cutting a release means creating a tag and a GitHub Release. Doing that from a
+# local clone requires pushing to `refs/tags/*`, which not every environment is
+# permitted to do, so the tag is created here instead — the runner's
+# GITHUB_TOKEN has `contents: write` and `gh release create` creates the tag as
+# part of publishing.
+#
+# Release notes are read from a committed file rather than a dispatch input, so
+# they are reviewed in a pull request before they are ever published, and the
+# repo keeps a history of what each release claimed.
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag to create, e.g. v1.1 (must not already exist)"
+        required: true
+        type: string
+      draft:
+        description: "Create as a draft so it can be read before going public"
+        type: boolean
+        default: true
+      prerelease:
+        description: "Mark as a pre-release"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: create-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    # This repo is a template. Without this guard, every site generated from it
+    # would expose a workflow that cuts releases of somebody else's project.
+    if: github.repository == 'alshedivat/al-folio'
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Validate inputs 🔍
+        id: check
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          tag="${{ inputs.tag }}"
+
+          # The dispatch UI lets you pick any branch, and GITHUB_SHA then points at
+          # that branch's tip — which is what gets tagged below. Without this check a
+          # permanent version tag could be cut from unmerged code, with release notes
+          # that were never reviewed. The repository guard above does not constrain
+          # the ref, only the repo.
+          if [ "${GITHUB_REF_NAME}" != "${DEFAULT_BRANCH}" ]; then
+            echo "::error::Releases must be cut from ${DEFAULT_BRANCH}, but this run was dispatched from '${GITHUB_REF_NAME}'."
+            echo "Merge the release notes first, then dispatch again from ${DEFAULT_BRANCH}."
+            exit 1
+          fi
+
+          if ! printf '%s' "$tag" | grep -Eq '^v[0-9]+\.[0-9]+(\.[0-9]+)?$'; then
+            echo "::error::'$tag' is not a version tag (expected v1.1 or v1.1.0)."
+            exit 1
+          fi
+
+          # Publishing is effectively irreversible once people have fetched the
+          # tag, so refuse rather than move an existing one.
+          if git rev-parse -q --verify "refs/tags/$tag" >/dev/null; then
+            echo "::error::Tag $tag already exists. Bump the version instead of retagging."
+            exit 1
+          fi
+
+          notes="docs/releases/${tag}.md"
+          if [ ! -s "$notes" ]; then
+            echo "::error::No release notes at $notes (missing or empty)."
+            echo "Add them in a pull request first — this workflow deliberately will not invent them."
+            exit 1
+          fi
+
+          echo "notes=$notes" >> "$GITHUB_OUTPUT"
+          echo "Will release $tag from ${GITHUB_SHA} using $notes"
+
+      - name: Create release 🚀
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          gh release create "${{ inputs.tag }}" \
+            --target "${GITHUB_SHA}" \
+            --title "al-folio ${{ inputs.tag }}" \
+            --notes-file "${{ steps.check.outputs.notes }}" \
+            --draft=${{ inputs.draft }} \
+            --prerelease=${{ inputs.prerelease }}
+
+      - name: Summary 📝
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          {
+            echo "### al-folio ${{ inputs.tag }}"
+            echo
+            echo "- commit: \`${GITHUB_SHA}\`"
+            echo "- draft: ${{ inputs.draft }}"
+            echo "- prerelease: ${{ inputs.prerelease }}"
+            echo
+            gh release view "${{ inputs.tag }}" --json url --jq '"[View release](" + .url + ")"'
+          } >> "$GITHUB_STEP_SUMMARY"
