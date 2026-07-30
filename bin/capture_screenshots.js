@@ -65,7 +65,15 @@ const SHOTS = [
 
     const page = await ctx.newPage();
     const failedRequests = [];
+    // `requestfailed` only covers transport-level failures. A stylesheet or
+    // webfont that answers 404 or 503 completes normally and never fires it,
+    // and a missing CSS file is invisible to the broken-image check below — so
+    // watch response status codes too, or the exact degradation this script
+    // exists to catch slips through.
     page.on("requestfailed", (r) => failedRequests.push(`${r.url()} (${(r.failure() || {}).errorText})`));
+    page.on("response", (res) => {
+      if (res.status() >= 400) failedRequests.push(`${res.url()} (HTTP ${res.status()})`);
+    });
 
     try {
       await page.goto(BASE + shot.url, { waitUntil: "load", timeout: 60000 });

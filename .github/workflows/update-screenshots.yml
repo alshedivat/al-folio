@@ -15,9 +15,16 @@ on:
         description: "Space-separated shot names to refresh (blank = all)"
         type: string
         default: ""
-  # Refresh after a release, when the theme has most likely moved.
-  release:
-    types: [published]
+  # Called by release.yml after it publishes. It cannot be a `release` trigger:
+  # that release is created with GITHUB_TOKEN, and GitHub suppresses workflow
+  # runs for events raised by that token, so the trigger would never fire.
+  workflow_call:
+    inputs:
+      shots:
+        description: "Space-separated shot names to refresh (blank = all)"
+        type: string
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -36,6 +43,11 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v6
+        with:
+          # Check out the branch by name. Called from release.yml the ref can be
+          # a tag, which would leave a detached HEAD and make the push below
+          # fail with "not currently on a branch".
+          ref: ${{ github.event.repository.default_branch }}
 
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
@@ -75,6 +87,8 @@ jobs:
           node bin/capture_screenshots.js http://127.0.0.1:4000/al-folio readme_preview ${{ inputs.shots }}
 
       - name: Commit if changed 💾
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           set -euo pipefail
           rm -rf _screenshot_site
@@ -90,12 +104,12 @@ jobs:
           # branch can move under a job that takes minutes. A non-fast-forward
           # here is a race, not a permissions problem — rebase and retry.
           for attempt in 1 2 3; do
-            if git push; then
+            if git push origin "HEAD:${DEFAULT_BRANCH}"; then
               echo "Pushed on attempt ${attempt}."
               exit 0
             fi
-            echo "Push rejected (main moved); rebasing onto origin/main and retrying."
-            git pull --rebase origin main
+            echo "Push rejected (main moved); rebasing onto origin/${DEFAULT_BRANCH} and retrying."
+            git pull --rebase origin "${DEFAULT_BRANCH}"
           done
           echo "::error::Could not push refreshed screenshots after 3 attempts."
           exit 1
