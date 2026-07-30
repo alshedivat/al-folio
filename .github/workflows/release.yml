@@ -46,9 +46,22 @@ jobs:
 
       - name: Validate inputs 🔍
         id: check
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
           set -euo pipefail
           tag="${{ inputs.tag }}"
+
+          # The dispatch UI lets you pick any branch, and GITHUB_SHA then points at
+          # that branch's tip — which is what gets tagged below. Without this check a
+          # permanent version tag could be cut from unmerged code, with release notes
+          # that were never reviewed. The repository guard above does not constrain
+          # the ref, only the repo.
+          if [ "${GITHUB_REF_NAME}" != "${DEFAULT_BRANCH}" ]; then
+            echo "::error::Releases must be cut from ${DEFAULT_BRANCH}, but this run was dispatched from '${GITHUB_REF_NAME}'."
+            echo "Merge the release notes first, then dispatch again from ${DEFAULT_BRANCH}."
+            exit 1
+          fi
 
           if ! printf '%s' "$tag" | grep -Eq '^v[0-9]+\.[0-9]+(\.[0-9]+)?$'; then
             echo "::error::'$tag' is not a version tag (expected v1.1 or v1.1.0)."
