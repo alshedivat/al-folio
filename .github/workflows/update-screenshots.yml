@@ -99,7 +99,10 @@ jobs:
       - name: Serve and capture 📸
         run: |
           set -euo pipefail
-          python3 -m http.server 4000 --directory _screenshot_site &
+          # Silence the access log: it emits a line per asset per page, which
+          # buries the capture script's own OK/WARN output and makes a failed
+          # run undiagnosable.
+          python3 -m http.server 4000 --directory _screenshot_site >/dev/null 2>&1 &
           server=$!
           trap 'kill $server' EXIT
           for i in $(seq 1 30); do
