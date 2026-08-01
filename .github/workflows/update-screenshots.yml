@@ -1,0 +1,115 @@
+name: Update README screenshots
+
+# The README screenshots go stale quietly — nothing fails when the theme changes
+# underneath them, so they drifted a whole major version behind before anyone
+# noticed. This regenerates them from a real build.
+#
+# It runs here rather than locally because the pages pull webfonts, FontAwesome,
+# Academicons and the GitHub stat-card service from external origins. A capture
+# taken anywhere those are blocked loses its icons and emoji, and the result
+# looks like a broken theme rather than an outdated one.
+on:
+  workflow_dispatch:
+    inputs:
+      shots:
+        description: "Space-separated shot names to refresh (blank = all)"
+        type: string
+        default: ""
+  # Called by release.yml after it publishes. It cannot be a `release` trigger:
+  # that release is created with GITHUB_TOKEN, and GitHub suppresses workflow
+  # runs for events raised by that token, so the trigger would never fire.
+  workflow_call:
+    inputs:
+      shots:
+        description: "Space-separated shot names to refresh (blank = all)"
+        type: string
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-screenshots
+  cancel-in-progress: false
+
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    # This repo is a template; without the guard every generated site would
+    # burn Actions minutes screenshotting its own pages into a README it does
+    # not have.
+    if: github.repository == 'alshedivat/al-folio'
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v6
+        with:
+          # Check out the branch by name. Called from release.yml the ref can be
+          # a tag, which would leave a detached HEAD and make the push below
+          # fail with "not currently on a branch".
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Setup Node 🟩
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install JS deps 📦
+        run: npm ci
+
+      - name: Install Chromium 🌐
+        run: npx playwright install --with-deps chromium
+
+      - name: Build site 🏗️
+        # The site's baseurl is /al-folio, so build into a directory of that
+        # name and serve its parent — otherwise every absolute asset URL 404s.
+        run: |
+          set -euo pipefail
+          bundle exec jekyll build --destination _screenshot_site/al-folio
+
+      - name: Serve and capture 📸
+        run: |
+          set -euo pipefail
+          python3 -m http.server 4000 --directory _screenshot_site &
+          server=$!
+          trap 'kill $server' EXIT
+          for i in $(seq 1 30); do
+            if curl -fsS -o /dev/null http://127.0.0.1:4000/al-folio/; then break; fi
+            sleep 1
+          done
+          node bin/capture_screenshots.js http://127.0.0.1:4000/al-folio readme_preview ${{ inputs.shots }}
+
+      - name: Commit if changed 💾
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          set -euo pipefail
+          rm -rf _screenshot_site
+          if git diff --quiet -- readme_preview; then
+            echo "Screenshots unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add readme_preview
+          git commit -m "chore: refresh README screenshots [skip ci]"
+          # update-tocs.yml and the star-history job also commit to main, so the
+          # branch can move under a job that takes minutes. A non-fast-forward
+          # here is a race, not a permissions problem — rebase and retry.
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${DEFAULT_BRANCH}"; then
+              echo "Pushed on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push rejected (main moved); rebasing onto origin/${DEFAULT_BRANCH} and retrying."
+            git pull --rebase origin "${DEFAULT_BRANCH}"
+          done
+          echo "::error::Could not push refreshed screenshots after 3 attempts."
+          exit 1

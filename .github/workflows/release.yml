@@ -110,3 +110,14 @@ jobs:
             echo
             gh release view "${{ inputs.tag }}" --json url --jq '"[View release](" + .url + ")"'
           } >> "$GITHUB_STEP_SUMMARY"
+
+  # Refresh the README screenshots against the release, since the theme has most
+  # likely moved. This has to be an explicit call: the release above is created
+  # with GITHUB_TOKEN, and GitHub suppresses workflow runs for events raised by
+  # that token, so a `release: published` trigger over there would never fire.
+  screenshots:
+    needs: release
+    if: inputs.draft == false
+    uses: ./.github/workflows/update-screenshots.yml
+    permissions:
+      contents: write
