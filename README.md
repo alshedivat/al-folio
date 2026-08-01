@@ -233,7 +233,7 @@ Posts support the [distill.pub](https://distill.pub/) layout, MathJax and TikZ, 
 
 ### GitHub repositories and stats
 
-The `/repositories/` page renders repository and profile cards via [github-stats-extended](https://github.com/stats-organization/github-stats-extended) and [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy).
+The `/repositories/` page renders repository and profile cards via [github-stats-extended](https://github.com/stats-organization/github-stats-extended). Profile trophies via [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) are supported but **off by default**, because that project's free public instance is currently disabled — see [docs/CUSTOMIZE.md](docs/CUSTOMIZE.md#why-trophies-are-off-by-default) to self-host and re-enable.
 
 <p align="center">
   <a href="https://alshedivat.github.io/al-folio/repositories/"><img src="readme_preview/repositories.png" width="75%"></a>
