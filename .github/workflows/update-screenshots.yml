@@ -55,6 +55,12 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true
 
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
       - name: Setup Node 🟩
         uses: actions/setup-node@v4
         with:
@@ -72,12 +78,31 @@ jobs:
         # name and serve its parent — otherwise every absolute asset URL 404s.
         run: |
           set -euo pipefail
+          # Same toolchain deploy.yml installs. Without ImageMagick the responsive
+          # variants are never generated and every srcset entry 404s; without
+          # nbconvert (which brings the `jupyter` CLI) the notebook post aborts
+          # the whole build. Both would otherwise surface as a broken-looking
+          # theme in the screenshots rather than as an obvious CI failure.
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+
+          # jekyll-imagemagick's generator calls a non-recursive Dir.mkdir on the
+          # destination, so a two-level path fails with ENOENT unless the parent
+          # already exists. Jekyll alone would have created it, but the generator
+          # runs first.
+          mkdir -p _screenshot_site/al-folio
+
+          # Production matches what visitors see, which is what the README depicts.
+          export JEKYLL_ENV=production
           bundle exec jekyll build --destination _screenshot_site/al-folio
 
       - name: Serve and capture 📸
         run: |
           set -euo pipefail
-          python3 -m http.server 4000 --directory _screenshot_site &
+          # Silence the access log: it emits a line per asset per page, which
+          # buries the capture script's own OK/WARN output and makes a failed
+          # run undiagnosable.
+          python3 -m http.server 4000 --directory _screenshot_site >/dev/null 2>&1 &
           server=$!
           trap 'kill $server' EXIT
           for i in $(seq 1 30); do
