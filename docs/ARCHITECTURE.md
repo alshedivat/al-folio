@@ -76,23 +76,26 @@ What breaks the site is **blanking the baseurl out** — build with an empty bas
 
 `al_folio_core` is the hub: `_config.yml` sets `theme: al_folio_core`, and the gem ships every base `_layouts/*.liquid` and `_includes/*.liquid`, the base theme JS/CSS, the `details` and `file_exists` tags, and the `hideCustomBibtex` and `remove_accents` filters. Its `_includes/plugins/*.liquid` wrappers delegate to tags owned by sibling gems:
 
-| Wrapper / call site       | Liquid tag                                          | Owning gem                                                                     |
-| ------------------------- | --------------------------------------------------- | ------------------------------------------------------------------------------ |
-| search assets             | `al_search_assets`                                  | `al_search` (Cmd-K ninja-keys palette; index built at build time from content) |
-| comments                  | `al_comments`                                       | `al_comments` (Giscus + Disqus, front-matter gated)                            |
-| cookie banner             | `al_cookie_styles` / `al_cookie_scripts`            | `al_cookie` (consent-mode gating of analytics)                                 |
-| icon `<link>`s            | `al_icons_styles`                                   | `al_icons` (FontAwesome/Academicons/Scholar Icons from CDN)                    |
-| analytics                 | `al_analytics_scripts`                              | `al_analytics` (GA/Cronitor/Pirsch/OpenPanel)                                  |
-| math                      | `al_math_styles` / `al_math_scripts`                | `al_math` (MathJax, pseudocode.js, TikZJax)                                    |
-| charts                    | `al_charts_scripts`                                 | `al_charts` (Mermaid/Chart.js/ECharts/Plotly/Vega/Leaflet/diff2html)           |
-| image tools               | `al_img_tools_styles` / `al_img_tools_scripts`      | `al_img_tools` (zoom, lightbox, sliders, galleries)                            |
-| newsletter                | `al_newsletter_form` / `al_newsletter_scripts`      | `al_newsletter` (Loops.so signup)                                              |
-| `layout: cv`              | `al_folio_cv_render`                                | `al_folio_cv` (RenderCV YAML + JSONResume)                                     |
-| `layout: distill`         | `al_folio_distill_render`                           | `al_folio_distill` (vendored, hash-pinned distillpub runtime)                  |
-| citation badges           | `google_scholar_citations` / `inspirehep_citations` | `al_citations`                                                                 |
-| external posts            | (generator, no tag)                                 | `al_ext_posts` (RSS/URL ingestion into synthetic posts)                        |
-| legacy Bootstrap behavior | (opt-in assets)                                     | `al_folio_bootstrap_compat`                                                    |
-| upgrade/audit CLI         | `bundle exec al-folio …`                            | `al_folio_upgrade`                                                             |
+| Wrapper / call site       | Liquid tag                                                   | Owning gem                                                                     |
+| ------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| search assets             | `al_search_assets`                                           | `al_search` (Cmd-K ninja-keys palette; index built at build time from content) |
+| comments                  | `al_comments`                                                | `al_comments` (Giscus + Disqus, front-matter gated)                            |
+| cookie banner             | `al_cookie_styles` / `al_cookie_scripts`                     | `al_cookie` (consent-mode gating of analytics)                                 |
+| icon `<link>`s            | `al_icons_styles`                                            | `al_icons` (FontAwesome/Academicons/Scholar Icons from CDN)                    |
+| analytics                 | `al_analytics_scripts`                                       | `al_analytics` (GA/Cronitor/Pirsch/OpenPanel)                                  |
+| math                      | `al_math_styles` / `al_math_scripts`                         | `al_math` (MathJax, pseudocode.js, TikZJax)                                    |
+| charts                    | `al_charts_scripts`                                          | `al_charts` (Mermaid/Chart.js/ECharts/Plotly/Vega/Leaflet/diff2html)           |
+| image tools               | `al_img_tools_styles` / `al_img_tools_scripts`               | `al_img_tools` (zoom, lightbox, sliders, galleries)                            |
+| newsletter                | `al_newsletter_form` / `al_newsletter_scripts`               | `al_newsletter` (Loops.so signup)                                              |
+| `<html>` attributes       | `al_rtl_html_attrs` / `al_rtl_styles`                        | `al_rtl` (page `lang` in an RTL script; `al_rtl.langs` overrides the set)      |
+| email addresses           | `al_email_protect_styles` / `al_email_protect_scripts`       | `al_email_protect` (site `protect_email: true`)                                |
+| marimo notebooks          | `al_marimo_styles` / `al_marimo_scripts` / `al_marimo_embed` | `al_marimo` (page `marimo: true`)                                              |
+| `layout: cv`              | `al_folio_cv_render`                                         | `al_folio_cv` (RenderCV YAML + JSONResume)                                     |
+| `layout: distill`         | `al_folio_distill_render`                                    | `al_folio_distill` (vendored, hash-pinned distillpub runtime)                  |
+| citation badges           | `google_scholar_citations` / `inspirehep_citations`          | `al_citations`                                                                 |
+| external posts            | (generator, no tag)                                          | `al_ext_posts` (RSS/URL ingestion into synthetic posts)                        |
+| legacy Bootstrap behavior | (opt-in assets)                                              | `al_folio_bootstrap_compat`                                                    |
+| upgrade/audit CLI         | `bundle exec al-folio …`                                     | `al_folio_upgrade`                                                             |
 
 ## How feature gems ship their assets
 

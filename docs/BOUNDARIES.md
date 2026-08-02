@@ -36,6 +36,9 @@ Use this table before opening or reviewing a PR:
 | Math/TikZ runtime integration                                                                                         | `al-org-dev/al-math` / `al_math`                                     |
 | Chart runtime integration                                                                                             | `al-org-dev/al-charts` / `al_charts`                                 |
 | Newsletter form integration                                                                                           | `al-org-dev/al-newsletter` / `al_newsletter`                         |
+| Right-to-left languages: document direction, RTL styling                                                              | `al-org-dev/al-rtl` / `al_rtl`                                       |
+| Email obfuscation and click-to-copy addresses                                                                         | `al-org-dev/al-email-protect` / `al_email_protect`                   |
+| marimo notebook embeds and runnable Python snippets                                                                   | `al-org-dev/al-marimo` / `al_marimo`                                 |
 
 Local site overrides are still valid **in your own site**. A site created from this template may define `_layouts/<name>.liquid`, `_includes/<path>.liquid`, `_sass/*.scss`, or site-specific plugins when the customization is only for that site. Shared runtime fixes should be ported to the owning plugin instead.
 
