@@ -1,0 +1,80 @@
+/* RTL corrections, loaded only on pages whose language is right-to-left.
+   Plain CSS rather than Sass: _sass/ is gem-owned by al_folio_core and a plugin
+   must not add to the theme's build pipeline.
+
+   Scoped under [dir="rtl"] so this file is inert if it is ever served on an LTR
+   page. Most layout already mirrors itself once `dir` is set — the browser's
+   bidi algorithm and any logical properties (margin-inline, padding-inline,
+   inset-inline) handle it. What is left below are the places al-folio uses
+   physical properties, which do not mirror on their own. */
+
+[dir="rtl"] {
+  text-align: right;
+}
+
+/* Lists: the marker moves side with direction, but the indent is physical. */
+[dir="rtl"] ul,
+[dir="rtl"] ol {
+  padding-right: 2rem;
+  padding-left: 0;
+}
+
+/* Blockquotes are marked with a left border throughout the theme. */
+[dir="rtl"] blockquote {
+  border-left: none;
+  border-right: 4px solid var(--global-theme-color, currentColor);
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+/* The TOC sidebar sits to one side of the content; flip which one. */
+[dir="rtl"] #toc-sidebar {
+  border-left: none;
+  border-right: 1px solid var(--global-divider-color, rgba(0, 0, 0, 0.1));
+}
+
+[dir="rtl"] #toc-sidebar a {
+  padding-right: 0.75rem;
+  padding-left: 0;
+}
+
+/* Code and output stay left-to-right: source code, shell transcripts and
+   numeric output are LTR content regardless of the surrounding prose, and
+   letting them inherit rtl reorders operators and punctuation into nonsense. */
+[dir="rtl"] pre,
+[dir="rtl"] code,
+[dir="rtl"] kbd,
+[dir="rtl"] samp,
+[dir="rtl"] .highlight,
+[dir="rtl"] .highlighter-rouge {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Same reasoning for rendered maths and citation keys. */
+[dir="rtl"] .MathJax,
+[dir="rtl"] mjx-container,
+[dir="rtl"] .katex,
+[dir="rtl"] .bibtex {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Tables mirror their column order, but cell text alignment is physical. */
+[dir="rtl"] th,
+[dir="rtl"] td {
+  text-align: right;
+}
+
+/* Progress/scroll indicators anchored to a physical edge. */
+[dir="rtl"] .progress-container .progress-bar {
+  left: auto;
+  right: 0;
+}
+
+/* Author/affiliation blocks and post metadata use left margins for spacing. */
+[dir="rtl"] .post-meta,
+[dir="rtl"] .post-tags {
+  margin-left: 0;
+  margin-right: 0.5rem;
+}

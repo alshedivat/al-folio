@@ -1,0 +1,42 @@
+/* Styling for marimo embeds. Plain CSS rather than Sass: _sass/ is gem-owned by
+   al_folio_core and a plugin must not add to the theme's build pipeline. */
+
+.al-marimo {
+  margin: 1.5rem 0;
+}
+
+.al-marimo-embed {
+  position: relative;
+  width: 100%;
+  /* Notebooks are wide; let the frame scroll itself rather than the page. */
+  overflow-x: auto;
+}
+
+.al-marimo-embed iframe {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--global-divider-color, rgba(0, 0, 0, 0.1));
+  border-radius: 6px;
+  background: var(--global-bg-color, transparent);
+}
+
+.al-marimo figcaption,
+.al-marimo .caption {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  text-align: center;
+  color: var(--global-text-color-light, inherit);
+}
+
+/* Hidden until marimo-init.js has moved the code blocks into <marimo-iframe>,
+   so readers never see the raw source flash before it becomes a notebook.
+   Scripts are deferred, so this is re-shown on DOMContentLoaded at the latest. */
+.al-marimo-inline {
+  visibility: hidden;
+}
+
+/* Without JS the block would stay hidden forever, which is worse than showing
+   the code. Reveal it and let it render as an ordinary listing. */
+.no-js .al-marimo-inline {
+  visibility: visible;
+}
