@@ -5,12 +5,38 @@ const pixelmatch = pixelmatchModule.default || pixelmatchModule;
 const REPO_STATS_STUB_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180"><rect width="400" height="180" fill="#f3f4f6"/><rect x="8" y="8" width="384" height="164" rx="8" fill="#ffffff" stroke="#d1d5db"/><text x="20" y="42" font-size="20" font-family="Arial, sans-serif" fill="#111827">Repository Stats (stub)</text><text x="20" y="76" font-size="14" font-family="Arial, sans-serif" fill="#6b7280">Deterministic fixture for visual parity</text></svg>`;
 const REPO_TROPHY_STUB_SVG = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180"><rect width="400" height="180" fill="#111827"/><rect x="8" y="8" width="384" height="164" rx="8" fill="#1f2937" stroke="#374151"/><text x="20" y="42" font-size="20" font-family="Arial, sans-serif" fill="#f9fafb">Repository Trophies (stub)</text><text x="20" y="76" font-size="14" font-family="Arial, sans-serif" fill="#d1d5db">Deterministic fixture for visual parity</text></svg>`;
 
+// Slippy-map basemap tiles, requested by the Plotly figure embedded in the
+// distill post. Blocked because pixel-diffing a map whose artwork streams from
+// a third-party CDN is not reproducible: the two sides of a parity comparison
+// are fetched seconds apart and nothing guarantees they render the same tiles.
+//
+// The v0.16.3 baseline additionally requests a Stamen endpoint that was retired
+// and no longer serves, which is a plausible (though unconfirmed) contributor
+// to the intermittent `waitUntil: "networkidle"` timeouts seen on the baseline
+// distill page — a host that black-holes a connection keeps the request in
+// flight until Chromium gives up. Both basemaps are listed either way, so the
+// candidate and the baseline are stubbed symmetrically.
+const BLOCKED_DOMAINS = [
+  "google-analytics.com",
+  "plausible.io",
+  "badge.dimensions.ai",
+  "cartocdn.com",
+  "openstreetmap.org",
+  "stadiamaps.com",
+  "mapbox.com",
+];
+// Stamen sharded its tiles across stamen-tiles-{a,b,c,d}.a.ssl.fastly.net.
+// Matching the suffix would blocklist Fastly at large, so match the prefix.
+const BLOCKED_HOST_PREFIXES = ["stamen-tiles"];
+
 async function applyNetworkStubs(page) {
   const matchesBlockedHost = (requestUrl) => {
-    const blockedDomains = ["google-analytics.com", "plausible.io", "badge.dimensions.ai"];
     try {
       const hostname = new URL(requestUrl).hostname.toLowerCase();
-      return blockedDomains.some((domain) => hostname === domain || hostname.endsWith(`.${domain}`));
+      return (
+        BLOCKED_DOMAINS.some((domain) => hostname === domain || hostname.endsWith(`.${domain}`)) ||
+        BLOCKED_HOST_PREFIXES.some((prefix) => hostname.startsWith(prefix))
+      );
     } catch {
       return false;
     }

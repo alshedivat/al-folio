@@ -29,6 +29,7 @@ Here we will give you some tips on how to customize the website. One important t
     - [Automatic PDF Generation (RenderCV only)](#automatic-pdf-generation-rendercv-only)
   - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
     - [Configuring external service URLs](#configuring-external-service-urls)
+    - [Why trophies are off by default](#why-trophies-are-off-by-default)
       - [Migrating from github-readme-stats](#migrating-from-github-readme-stats)
   - [Creating new pages](#creating-new-pages)
   - [Creating new blog posts](#creating-new-blog-posts)
