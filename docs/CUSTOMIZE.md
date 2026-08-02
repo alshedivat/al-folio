@@ -29,6 +29,7 @@ Here we will give you some tips on how to customize the website. One important t
     - [Automatic PDF Generation (RenderCV only)](#automatic-pdf-generation-rendercv-only)
   - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
     - [Configuring external service URLs](#configuring-external-service-urls)
+    - [Why trophies are off by default](#why-trophies-are-off-by-default)
       - [Migrating from github-readme-stats](#migrating-from-github-readme-stats)
   - [Creating new pages](#creating-new-pages)
   - [Creating new blog posts](#creating-new-blog-posts)
@@ -404,12 +405,26 @@ The user and repository information is defined in [\_data/repositories.yml](../_
 
 ### Configuring external service URLs
 
-The repository page uses external services to display GitHub statistics and trophies. By default, these are:
+The repository page uses external services to display GitHub statistics and trophies:
 
-- `github-stats-extended.vercel.app` for user stats and repository cards
-- `github-profile-trophy.vercel.app` for GitHub profile trophies
+- `github-stats-extended.vercel.app` for user stats and repository cards — **on by default**
+- `github-profile-trophy.vercel.app` for GitHub profile trophies — **off by default**
 
-**Important:** These default services are hosted by third parties and may not be available 100% of the time. For better reliability, privacy, and customization, you can self-host these services and configure your website to use your own instances.
+### Why trophies are off by default
+
+The free public github-profile-trophy instance is currently disabled: its Vercel deployment answers `HTTP 402 / DEPLOYMENT_DISABLED`, so every trophy image fails to load. This is a hosting problem on the maintainer's side, **not** a paywall on the feature — [github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) is still open source and free to run yourself.
+
+To turn trophies back on, deploy your own instance (a free Vercel Hobby account is enough) and then:
+
+```yaml
+repo_trophies:
+  enabled: true
+
+external_services:
+  github_profile_trophy_url: https://your-instance.vercel.app
+```
+
+**Important:** All of these default services are hosted by third parties and may not be available 100% of the time — as the trophy outage shows. For better reliability, privacy, and customization, self-host them and point your site at your own instances.
 
 To use your own instances of these services, configure the URLs in [\_config.yml](../_config.yml):
 

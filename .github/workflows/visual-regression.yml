@@ -61,8 +61,32 @@ jobs:
 
       - name: Prepare baseline worktree (v0.16.3) 🧱
         run: |
+          set -euo pipefail
           git worktree add ../al-folio-baseline v0.16.3
           (cd ../al-folio-baseline && bundle install && npm ci)
+
+          # This suite measures *rendering* parity, so the two sides have to be
+          # built from the same content decisions. v0.16.3 shipped profile
+          # trophies on; they are off by default now that the free public
+          # instance is dead (see docs/CUSTOMIZE.md). Left as-is the baseline
+          # grows a twelve-image block the candidate does not have, everything
+          # below it shifts, and the diff reports a config change as though it
+          # were a Tailwind regression.
+          #
+          # Fail loudly rather than silently skipping: if a future baseline bump
+          # renames the key, a substitution that quietly matched nothing would
+          # restore the mismatch, and the thresholds would have to be loosened
+          # to absorb it.
+          # Encoding is pinned because the config carries non-ASCII bytes and
+          # Ruby picks its default external encoding from the locale — under a
+          # non-UTF-8 LANG the regex raises "invalid byte sequence".
+          ruby -e '
+            path = "../al-folio-baseline/_config.yml"
+            config = File.read(path, encoding: "UTF-8")
+            patched = config.sub(/^(repo_trophies:\n(?:[ \t]+\S.*\n)*?[ \t]+enabled:[ \t]*)true\b/, "\\1false")
+            abort("Could not disable repo_trophies in the v0.16.3 baseline config") if patched == config
+            File.write(path, patched, encoding: "UTF-8")
+          '
 
       - name: Install Jupyter + ImageMagick runtime deps 🧰
         run: |
