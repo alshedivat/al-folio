@@ -91,3 +91,6 @@ jobs:
 
       - name: Run CSS minify integration test 🎨
         run: bash test/integration_css_minify.sh
+
+      - name: Run new plugin integration checks 🧩
+        run: bash test/integration_new_plugins.sh
