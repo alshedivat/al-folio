@@ -245,11 +245,19 @@ let setSearchTheme = (theme) => {
   }
 };
 
+// Keep this comfortably longer than the 240ms transition-duration in
+// _utilities.scss. Removing the class mid-transition snaps every element still
+// interpolating straight to its final colour, which reads as a flicker; at the
+// previous 260ms there were only 20ms of slack, so one slow frame during the
+// repaint was enough to truncate it.
+const THEME_TRANSITION_MS = 240;
+const THEME_TRANSITION_CLEANUP_MS = THEME_TRANSITION_MS + 120;
+
 let transTheme = () => {
   document.documentElement.classList.add("transition");
   window.setTimeout(() => {
     document.documentElement.classList.remove("transition");
-  }, 260);
+  }, THEME_TRANSITION_CLEANUP_MS);
 };
 
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
