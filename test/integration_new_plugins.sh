@@ -55,6 +55,12 @@ marimo_page="${default_site}/blog/2025/marimo/index.html"
 grep -q 'assets/al_marimo/js/marimo-snippets.js' "${marimo_page}" || fail "marimo post does not load the runtime"
 [ -f "${default_site}/assets/al_marimo/js/marimo-snippets.js" ] || fail "marimo runtime is referenced but not published"
 
+# The stylesheet matters on its own: it hides .al-marimo-inline until the runtime
+# has moved the code blocks into place. Without it a reader sees the raw source
+# before initialization, while the script hook still looks healthy.
+grep -q 'assets/al_marimo/css/marimo.css' "${marimo_page}" || fail "marimo post does not load the stylesheet"
+[ -f "${default_site}/assets/al_marimo/css/marimo.css" ] || fail "marimo stylesheet is referenced but not published"
+
 # Vendored, not fetched: no third-party origin may execute script in the page.
 grep -q 'cdn.jsdelivr.net/npm/@marimo-team' "${marimo_page}" && fail "marimo runtime is being loaded from a CDN"
 
@@ -81,6 +87,8 @@ grep -q 'assets/al_email_protect/js/email-protect.js' "${protected_site}/index.h
   || fail "email-protect runtime not loaded with protect_email on"
 [ -f "${protected_site}/assets/al_email_protect/js/email-protect.js" ] \
   || fail "email-protect runtime referenced but not published"
+grep -q 'assets/al_email_protect/css/email-protect.css' "${protected_site}/index.html" \
+  || fail "email-protect stylesheet not loaded with protect_email on"
 [ -f "${protected_site}/assets/al_email_protect/css/email-protect.css" ] \
   || fail "email-protect stylesheet referenced but not published"
 

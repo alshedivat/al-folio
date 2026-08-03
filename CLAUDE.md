@@ -14,7 +14,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 bundle install                                # ruby gems
 bundle exec jekyll serve                      # dev server → http://localhost:4000/al-folio/  (NOTE baseurl)
 bundle exec jekyll build --baseurl /al-folio  # production-style build to _site/
-bash test/integration_distill.sh              # run ONE integration test (any of the six in test/)
+bash test/integration_distill.sh              # run ONE integration test (any of the seven in test/)
 npm run test:visual:update                    # refresh playwright snapshots after intentional UI change
 bundle exec al-folio upgrade apply --safe     # deterministic codemods (font-weight-* → font-*, remote→local URLs)
 bundle exec al-folio upgrade overrides diff <path>    # then `overrides accept <path>` to acknowledge an override
@@ -37,7 +37,7 @@ bundle exec al-folio upgrade overrides diff <path>    # then `overrides accept <
 
 Other gates:
 
-- `unit-tests.yml` — style contract plus all six `test/integration_*.sh` scripts (`comments`, `plugin_toggles`, `distill`, `bootstrap_compat`, `upgrade_cli`, `css_minify`).
+- `unit-tests.yml` — style contract plus all seven `test/integration_*.sh` scripts (`comments`, `plugin_toggles`, `distill`, `bootstrap_compat`, `upgrade_cli`, `css_minify`, `new_plugins`).
 - `visual-regression.yml` — Playwright on chromium + webkit, diffing the candidate build against a `v0.16.3` baseline worktree served on `:4100` via `BASELINE_URL`.
 - `upgrade-check.yml` — `bundle exec al-folio upgrade audit`.
 - `prettier.yml` — Prettier with `@shopify/prettier-plugin-liquid` and `printWidth: 150`. Run `npm run lint:prettier` before pushing; `npx prettier . --write` fixes.
