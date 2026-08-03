@@ -75,7 +75,7 @@ bundle exec jekyll build --baseurl /al-folio
 
 The `--baseurl /al-folio` flag matters: the demo site is published as a project page, and building without it produces an unstyled site with broken links.
 
-If your change touches plugin wiring or feature behavior, run the integration tests it affects. All six are gated by `unit-tests.yml`:
+If your change touches plugin wiring or feature behavior, run the integration tests it affects. All seven are gated by `unit-tests.yml`:
 
 ```bash
 bash test/integration_comments.sh
@@ -84,6 +84,7 @@ bash test/integration_distill.sh
 bash test/integration_bootstrap_compat.sh
 bash test/integration_upgrade_cli.sh
 bash test/integration_css_minify.sh
+bash test/integration_new_plugins.sh
 ```
 
 If your change touches visual tests, install Playwright browsers once and run:
