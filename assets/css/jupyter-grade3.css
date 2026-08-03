@@ -179,6 +179,16 @@ body > #header .header-bar {
   }
 }
 
+.fa {
+  display: inline-block;
+  font:
+    normal normal normal 10pt/1 "FontAwesome",
+    sans-serif;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .dropdown-menu {
   font-family: sans-serif;
   font-size: 13pt;
