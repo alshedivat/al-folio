@@ -39,7 +39,7 @@ GEM
     al_cookie (1.0.1)
       jekyll (>= 3.9, < 5.0)
       liquid (>= 4.0, < 6.0)
-    al_email_protect (1.0.0)
+    al_email_protect (1.0.1)
       jekyll (>= 3.9, < 5.0)
       liquid (>= 4.0, < 6.0)
     al_ext_posts (1.0.3)
@@ -359,7 +359,7 @@ DEPENDENCIES
   al_citations (= 1.0.1)
   al_comments (= 1.0.0)
   al_cookie (= 1.0.1)
-  al_email_protect (= 1.0.0)
+  al_email_protect (= 1.0.1)
   al_ext_posts (= 1.0.3)
   al_folio_bootstrap_compat (= 1.0.0)
   al_folio_core (= 1.0.15)
@@ -407,7 +407,7 @@ CHECKSUMS
   al_citations (1.0.1) sha256=308cfd4cd73c8dc6d24c0214f424b61606b3a393bdb899394fce80dd647cba59
   al_comments (1.0.0) sha256=1da87a29b55e4d9fd62d380200af9671f10ae4a84e3259828588498d8f3210e5
   al_cookie (1.0.1) sha256=2420241497b1fb165311ba1c9e059a9025586925b65dbba429aee225bd91a67f
-  al_email_protect (1.0.0) sha256=539c483657e35ee0b49197b7149df2584ee02fd2282efbf5ac190bf78bb78f26
+  al_email_protect (1.0.1) sha256=04d1e9b19a47d26e6fa238baba197165653002c788b60525fef093ee1a3989e5
   al_ext_posts (1.0.3) sha256=c4956d36071958d30de14f6c368863d3e4190dfe312dba08ff79aa685292420d
   al_folio_bootstrap_compat (1.0.0) sha256=c210ff3087f17344dc864fa9594c737e947b23c6cae9fab3dbd37a87090b98a8
   al_folio_core (1.0.15) sha256=eee5d0afefab5d3e8747b615890d760ed0ab01a1210991118709c4e969ad1326
