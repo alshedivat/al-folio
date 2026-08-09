@@ -58,7 +58,7 @@ group :al_folio_plugins do
     gem 'al_comments', '= 1.0.0'
     gem 'al_newsletter', '= 1.0.0'
 
-    gem 'al_email_protect', '= 1.0.0'
+    gem 'al_email_protect', '= 1.0.1'
     gem 'al_marimo', '= 1.0.0'
     gem 'al_rtl', '= 1.0.0'
 end
