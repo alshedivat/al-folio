@@ -8,7 +8,7 @@ This is the **authoritative** description of how the `al-folio` v1 starter and i
   - [What the starter is](#what-the-starter-is)
   - [Failure modes that produce no error message](#failure-modes-that-produce-no-error-message)
     - [1. Features fail silently when the gem or the flag is missing](#1-features-fail-silently-when-the-gem-or-the-flag-is-missing)
-    - [2. Gemfile and \_config.yml are two lists that must agree](#2-gemfile-and-_configyml-are-two-lists-that-must-agree)
+    - [2. Gemfile and _config.yml are two lists that must agree](#2-gemfile-and-_configyml-are-two-lists-that-must-agree)
     - [3. This repo's effective baseurl is /al-folio](#3-this-repos-effective-baseurl-is-al-folio)
   - [Wrapper to tag to gem delegation](#wrapper-to-tag-to-gem-delegation)
   - [How feature gems ship their assets](#how-feature-gems-ship-their-assets)
