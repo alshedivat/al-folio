@@ -132,7 +132,9 @@ bundle exec al-folio upgrade overrides accept <path>
 
 **In this starter repo** (`alshedivat/al-folio` itself): those directories must not exist. `npm run lint:style-contract` fails the build if the starter contains `_includes/`, `_layouts/`, `_sass/`, `_scripts/`, `assets/tailwind/`, `tailwind.config.js`, `assets/webfonts/`, or icon-font artifacts. This is the automated enforcement of the thin-starter boundary and applies to contributions to al-folio, **not** to user sites.
 
-> **Note for maintainers:** `test/style_contract.js` and `unit-tests.yml` ship to every site created from this template, so a user who adds a perfectly legal local override will see the starter's own contract check fail in their fork. Whether to re-scope that check to the upstream repo only is an open maintainer decision; it is deliberately unchanged here.
+The starter's own test workflows — `unit-tests.yml` (which runs the style contract) and `visual-regression.yml` — are guarded with `if: github.repository == 'alshedivat/al-folio'`, so they are skipped on sites created from the template. Pull requests to this repo still run them, because `pull_request` workflows run in the upstream repository's context.
+
+> **If your site's CI fails `lint:style-contract` after you add a local override,** your site was created before that guard existed. Open `.github/workflows/unit-tests.yml` and `.github/workflows/visual-regression.yml` in your repo and either add `if: github.repository == 'alshedivat/al-folio'` to the job (just above `runs-on:`), or delete both files — they test the starter's demo content, not your site.
 
 ## Bootstrap compatibility is opt-in and time-boxed
 
