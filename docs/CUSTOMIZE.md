@@ -889,6 +889,16 @@ There are several custom bibtex keywords that you can use to affect how the entr
 
 In `v1.x`, bibliography buttons/layout runtime is gem-owned (`al_citations` + `al_folio_core`). For local customization, add a local override `_layouts/bib.liquid` in your site; for upstream/shared behavior changes, open a PR in the owning gem repo.
 
+To add something to an entry's venue line — a badge such as "Oral" or "Spotlight", say — you don't need to copy the whole layout. Create `_includes/hook/bib.liquid` in your site instead. The layout includes it for every entry, if it exists, just after building the venue text, with `entry` in scope; append to `entrytype` and the result is what's displayed:
+
+```liquid
+{%- if entry.key == 'einstein1905movement' -%}
+  {%- capture entrytype -%}{{ entrytype }} <span class="badge">Oral</span>{%- endcapture -%}
+{%- endif -%}
+```
+
+A hook is easier to keep working across gem updates than a full copy of `bib.liquid`, which `al-folio upgrade overrides audit` will flag as stale whenever the upstream layout changes.
+
 ## Changing theme color
 
 A variety of beautiful theme colors have been selected for you to choose from. In `v1.x`, theme tokens are gem-owned by default. To customize colors locally, either use `_config.yml` theme settings (for light/dark scheme selection) or create local `_sass/_themes.scss` and `_sass/_variables.scss` override files in your starter repo (these override gem defaults).

@@ -40,6 +40,10 @@ on:
 
 jobs:
   comments-integration-tests:
+    # Upstream-only: this checks the starter's own invariants (the thin-starter
+    # style contract, demo content). It must not run on sites created from the
+    # template, where local _layouts/_includes/_sass overrides are supported.
+    if: github.repository == 'alshedivat/al-folio'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
