@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
@@ -52,7 +52,7 @@ jobs:
 
       - name: Upload upgrade report 📄
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: al-folio-upgrade-report
           path: al-folio-upgrade-report.md
