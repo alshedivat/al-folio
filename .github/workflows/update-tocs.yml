@@ -19,11 +19,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0 # OR "2" -> To retrieve the preceding commit.
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
 
       - name: Get changed files
         id: changed-files

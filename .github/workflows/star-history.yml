@@ -31,7 +31,7 @@ jobs:
     if: github.repository == 'alshedivat/al-folio'
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Regenerate chart 📈
         env:

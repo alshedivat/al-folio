@@ -42,7 +42,7 @@ jobs:
     if: github.repository == 'alshedivat/al-folio'
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           # Check out the branch by name. Called from release.yml the ref can be
           # a tag, which would leave a detached HEAD and make the push below
@@ -56,13 +56,13 @@ jobs:
           bundler-cache: true
 
       - name: Setup Python 🐍
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.13"
           cache: "pip"
 
       - name: Setup Node 🟩
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: "20"
           cache: "npm"

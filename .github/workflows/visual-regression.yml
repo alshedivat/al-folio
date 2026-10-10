@@ -40,7 +40,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Checkout candidate 🛎️
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -51,7 +51,7 @@ jobs:
           bundler-cache: true
 
       - name: Setup Node 🧰
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: "20"
           cache: "npm"
@@ -146,7 +146,7 @@ jobs:
 
       - name: Upload Playwright report 📄
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: playwright-report
           path: playwright-report
@@ -154,7 +154,7 @@ jobs:
 
       - name: Upload Jekyll logs 📄
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: jekyll-visual-logs
           path: |
